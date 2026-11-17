@@ -17,7 +17,7 @@ Bleibt ein Kanton nach einem Lauf unvollständig (Entwurf unter `data/entwurf/`)
 
 ## 1. Deutschsprachige Kantone
 
-Ungefähr nach Bevölkerung. Schon erfasst: Zürich, Bern, Luzern, Aargau, St. Gallen, Basel-Stadt, Basel-Landschaft, Thurgau, Solothurn, Schwyz, Appenzell Innerrhoden, Graubünden.
+Ungefähr nach Bevölkerung. Schon erfasst: Zürich, Bern, Luzern, Aargau, St. Gallen, Basel-Stadt, Basel-Landschaft, Thurgau, Solothurn, Schwyz, Appenzell Innerrhoden, Graubünden, Zug, Schaffhausen, Appenzell Ausserrhoden, Nidwalden, Glarus. Aus Abschnitt 2 schon deutsch erfasst: Freiburg.
 
 - [x] Aargau (`ag`), 2026-11-17
 - [x] St. Gallen (`sg`), 2026-11-17, mit Stadt St. Gallen
@@ -27,11 +27,11 @@ Ungefähr nach Bevölkerung. Schon erfasst: Zürich, Bern, Luzern, Aargau, St. G
 - [x] Solothurn (`so`), 2026-11-17, mit Stadt Olten
 - [x] Graubünden (`gr`), 2026-11-18, mit Stadt Chur
 - [x] Schwyz (`sz`), 2026-11-17, mit Bezirk Küssnacht
-- [ ] Zug (`zg`)
-- [ ] Schaffhausen (`sh`)
-- [ ] Appenzell Ausserrhoden (`ar`)
-- [ ] Nidwalden (`nw`)
-- [ ] Glarus (`gl`)
+- [x] Zug (`zg`), 2026-11-18, ohne Gemeinde (Stadt Zug zurückgestellt)
+- [x] Schaffhausen (`sh`), 2026-11-18, mit Stadt Schaffhausen
+- [x] Appenzell Ausserrhoden (`ar`), 2026-11-18, ohne Gemeinde (Herisau zurückgestellt)
+- [x] Nidwalden (`nw`), 2026-11-18, ohne Gemeinde (Stans zurückgestellt)
+- [x] Glarus (`gl`), 2026-11-18, mit Gemeinde Glarus
 - [ ] Obwalden (`ow`)
 - [ ] Uri (`ur`)
 - [x] Appenzell Innerrhoden (`ai`), 2026-11-17, ohne Gemeinde (Bezirk Appenzell zurückgestellt)
@@ -40,12 +40,12 @@ Ungefähr nach Bevölkerung. Schon erfasst: Zürich, Bern, Luzern, Aargau, St. G
 
 Erst nach dem Sonderlauf Mehrsprachigkeit. Bei zweisprachigen Kantonen beide Fassungen im selben Lauf, weil die Quellen dieselben sind.
 
-- [ ] Waadt (`vd`), französisch
+- [ ] Waadt (`vd`), französisch. Daten seit 2026-11-18 unter `data/fr-ch/` (Kanton und Lausanne), Seiten folgen mit dem Sonderlauf Mehrsprachigkeit.
 - [ ] Genf (`ge`), französisch
 - [ ] Wallis (`vs`), französisch und deutsch
-- [ ] Freiburg (`fr`), französisch und deutsch
+- [ ] Freiburg (`fr`), französisch und deutsch. Deutsche Kantonsseite seit 2026-11-18 gebaut. Französische Daten unter `data/fr-ch/` (Kanton und Ville de Fribourg), Seiten folgen mit dem Sonderlauf Mehrsprachigkeit.
 - [ ] Tessin (`ti`), italienisch
-- [ ] Neuenburg (`ne`), französisch
+- [ ] Neuenburg (`ne`), französisch. Daten seit 2026-11-18 unter `data/fr-ch/` (Kanton und Ville de Neuchâtel), Seiten folgen mit dem Sonderlauf Mehrsprachigkeit.
 - [ ] Jura (`ju`), französisch
 - [ ] Bern (`be`), französische Fassung des Kantons und von Biel/Bienne
 - [ ] Graubünden (`gr`), italienische Fassung
@@ -93,21 +93,21 @@ Ungefähr nach Grösse. Neue Kantone tragen hier ihre grössten Gemeinden ein.
 - [ ] Wil (SG)
 - [ ] Gossau (SG)
 - [ ] Uzwil (SG)
-- [ ] Winterthur (ZH)
+- [x] Winterthur (ZH), 2026-11-18
 - [ ] Biel/Bienne (BE), Adresse `biel-bienne`
 - [ ] Thun (BE)
 - [ ] Köniz (BE)
-- [ ] Uster (ZH)
+- [x] Uster (ZH), 2026-11-18
 - [ ] Emmen (LU)
-- [ ] Dübendorf (ZH)
+- [x] Dübendorf (ZH), 2026-11-18
 - [ ] Kriens (LU)
-- [ ] Dietikon (ZH)
-- [ ] Wetzikon (ZH)
-- [ ] Wädenswil (ZH)
+- [x] Dietikon (ZH), 2026-11-18
+- [x] Wetzikon (ZH), 2026-11-18
+- [x] Wädenswil (ZH), 2026-11-18
 - [ ] Burgdorf (BE)
 - [ ] Langenthal (BE)
-- [ ] Horgen (ZH)
-- [ ] Bülach (ZH)
+- [ ] Horgen (ZH): zurückgestellt am 2026-11-18. Nur zwei lokale Angaben belegt (Gebührentarif ab 2022: Ersthunde CHF 130, verspätetes Anmelden CHF 40). Die Seiten «Hunde» und «Hundekontrolle: Anmeldung» gaben zweimal einen Serverfehler, von der Polizeiverordnung war nur das Inhaltsverzeichnis lesbar (Art. 11 Tierhaltung).
+- [x] Bülach (ZH), 2026-11-18
 - [ ] Kloten (ZH)
 - [ ] Horw (LU)
 - [ ] Ebikon (LU)
@@ -129,6 +129,45 @@ Ungefähr nach Grösse. Neue Kantone tragen hier ihre grössten Gemeinden ein.
 - [ ] Ittigen (BE)
 - [ ] Hochdorf (LU)
 - [ ] Willisau (LU)
+- [ ] Herisau (AR): zurückgestellt am 2026-11-18. Zwei Suchen auf herisau.ch ergaben keine Seite mit lokalen Angaben. Hundesteuer und Anmeldung sind kantonal.
+- [ ] Teufen (AR). Hinweis für alle Ausserrhoder Gemeinden: Steuer und Anmeldung sind kantonal. Lokale Angaben gibt es nur, wenn die Gemeinde Leinenorte (Art. 8 Abs. 2 HuG) oder Zutrittsverbote (Art. 9 HuG) bezeichnet hat. Bei Urnäsch und Hundwil zählt die Wildruhezone.
+- [ ] Heiden (AR)
+- [ ] Speicher (AR)
+- [ ] Urnäsch (AR)
+- [ ] Hundwil (AR)
+- [ ] Zug (ZG): zurückgestellt am 2026-11-18. stadtzug.ch und lesesaal.stadtzug.ch (Stadtratsbeschluss Nr. 20.19 vom 15. Januar 2019 zur Leinenpflicht) waren nicht abrufbar, keine lokale Angabe belegt.
+- [ ] Baar (ZG)
+- [ ] Cham (ZG)
+- [ ] Risch (ZG). Hundereglement unter zg.ch/behoerden/gemeinden/risch-rotkreuz/…/101-hundereglement.
+- [ ] Steinhausen (ZG). Reglement über das Halten von Hunden und Merkblatt Hundesteuer 2025 auf zg.ch.
+- [ ] Stans (NW): zurückgestellt am 2026-11-18. Hundesteuer und Hundekontrolle sind in Nidwalden kantonal, auf stans.ch keine lokale Angabe zu Hunden gefunden.
+- [ ] Hergiswil (NW). Hinweis für alle Nidwaldner Gemeinden: vorher prüfen, ob es überhaupt Gemeinderegeln zu Hunden gibt. Sonst alle zurückstellen.
+- [ ] Buochs (NW)
+- [ ] Ennetbürgen (NW)
+- [ ] Stansstad (NW)
+- [x] Glarus (GL), 2026-11-18
+- [ ] Glarus Nord (GL)
+- [ ] Glarus Süd (GL)
+- [x] Schaffhausen (SH), 2026-11-18
+- [ ] Neuhausen am Rheinfall (SH)
+- [ ] Thayngen (SH)
+- [ ] Beringen (SH)
+- [ ] Stein am Rhein (SH)
+- [ ] Düdingen (FR), deutsch
+- [ ] Murten/Morat (FR), deutsch und französisch
+- [ ] Bulle (FR), französisch. Hinweis: Viele Freiburger Gemeinden haben ein «Règlement sur la détention et l'imposition des chiens» nach kantonalem Muster, mit Steuerbetrag, Leinenzonen und Bussen. Französische Gemeinden erst nach dem Sonderlauf Mehrsprachigkeit oder als Datei unter `data/fr-ch/`.
+- [ ] Villars-sur-Glâne (FR), französisch
+- [ ] Estavayer (FR), französisch
+- [ ] Yverdon-les-Bains (VD), französisch
+- [ ] Montreux (VD), französisch
+- [ ] Nyon (VD), französisch
+- [ ] Renens (VD), französisch
+- [ ] Vevey (VD), französisch
+- [ ] La Chaux-de-Fonds (NE), französisch
+- [ ] Le Locle (NE), französisch
+- [ ] Val-de-Ruz (NE), französisch
+- [ ] Val-de-Travers (NE), französisch
+- [ ] Milvignes (NE), französisch
 
 ## 4. Lücken in bestehenden Seiten
 
@@ -174,6 +213,29 @@ Ungefähr nach Grösse. Neue Kantone tragen hier ihre grössten Gemeinden ein.
 - [ ] Gemeinde Arth: «Hinweise-Hundehalter.pdf» (arth.ch/_doc/3664036) und die Robidog-Pläne waren am 2026-11-18 nicht abrufbar. Lesen und ergänzen. Prüfen, ob das Friedhofreglement von 2016 unverändert gilt (Genehmigung durch den Regierungsrat, spätere Änderungen).
 - [ ] Gemeinde Davos: Betrag der Ordnungsbussen (Gemeindegesetz über öffentliche Ruhe und Ordnung), Gebührentarif (DRB 22.1) und Friedhofsgesetz (DRB 17) lesen und ergänzen.
 - [ ] Gemeinde Landquart: Polizeigesetz, Steuergesetz, Friedhofordnung und Benützungsreglement für Flur- und Waldwege im Wortlaut lesen (landquart.ch/gesetze/gesetzesgrundlagen, am 2026-11-18 nicht abrufbar). Bisher ist Art. 50 Polizeigesetz nur über die Mitteilung des Gemeindepolizeiamts belegt. Meldefrist, Leinenpflicht, Verbote und Bussen ergänzen.
+
+- [ ] Kanton Appenzell Ausserrhoden: Seite des Veterinäramts (ar.ch/hunde) abrufen: heutige Meldestelle und Meldeweg, Abgleich mit `leine`.
+- [ ] Kanton Appenzell Ausserrhoden: geltenden Stand und Perimeter der Wildruhezone «südliches Appenzeller Hinterland» belegen, weitere Wildruhezonen oder Naturschutzgebiete mit Regeln für Hunde suchen.
+- [ ] Kanton Appenzell Ausserrhoden: Sömmerungsvorschriften und Alpen auf Regeln für Hunde prüfen. Bussenbeträge (Ordnungsbussen) für Leine und Kot belegen.
+- [ ] Kanton Zug: «Infoblatt Hundereglemente der Gemeinden im Kanton Zug» des Veterinärdienstes auswerten (cdn.zg.ch war nicht abrufbar). Damit die Karten Haftpflicht, Kurs, Rassen und Hundesteuer schärfen (heute nur Verweis auf die Gemeinde). Paragraf und Busse der Leinenpflicht im Einführungsgesetz zum Waldgesetz nachtragen, Meterangabe zum Waldrand, falls das Gesetz eine nennt.
+- [ ] Kanton Nidwalden: geltende Fassung des Hundegesetzes (NG 826.3) und der Hundeverordnung aus gesetze.nw.ch gegenprüfen (braucht einen Browser) und die Hinweise «Fassung von 2005» entfernen oder die Angaben korrigieren. Verordnung über die Wildruhegebiete (NG 841.15) im Volltext: Gebiete und Daten der Leinenpflicht nachtragen. Kantonales Waldgesetz auf Leinenpflicht prüfen.
+- [ ] Kanton Schaffhausen: geltende Fassung von SHR 455.200 und 455.201 abrufen (rechtsbuch.sh.ch braucht einen Browser) und alle Angaben mit «Stand des Gesetzestexts: 2010» abgleichen, danach die Stand-Hinweise entfernen. Karte Kurs klären, sobald die Seite des Veterinäramts lesbar ist.
+- [ ] Stadt Schaffhausen: Betrag der Hundeabgabe und Anmeldestelle belegen.
+- [ ] Kanton Glarus: Einführungsgesetz GS IV G/3/2 abrufen (gesetze.gl.ch braucht einen Browser) und daraus Leinenpflicht im öffentlichen Raum (Art. 31), Deckungssumme, Kotaufnahme und Bussen ergänzen. Die Leinenorte stehen bisher nur über die Seite der Gemeinde Glarus auf der Kantonsseite. Danach Karte Kurs und `ton` prüfen. Merkblatt bewilligungspflichtige Hundehaltung erneut abrufen.
+- [ ] Gemeinde Glarus: lokale Leinen- oder Verbotsorte und Bussen belegen (Polizeireglement nicht gefunden).
+- [ ] Kanton Freiburg: geltende deutsche Fassung des HHR (SGF 725.31, 2024) abrufen und die deutsche Datei damit belegen (Haftpflicht, Fristen). Bewilligung für mehr als vier Hunde und Ordnungsbusse für die Leine im Wald (OCAO, FR 107) belegen.
+- [ ] Ville de Fribourg: heutigen Betrag der Gemeindesteuer bestätigen (Reglement von 1993: CHF 120). Anmeldestelle der Stadt und allfällige Freilaufzonen suchen.
+- [ ] Kanton Waadt: geltende Fassung von LPolC (BLV 133.75) und RLPolC auf der Gesetzessammlung des Kantons gegenprüfen (gelesen: Stand 2014). Wortlaut von Art. 2a RLFaune abrufen. Regeln für Besuch und Zuzug mit bewilligungspflichtigen Hunden suchen.
+- [ ] Ville de Lausanne: Règlement général de police (Leine, Verbotsorte, Kot, Bussen) und Namen der Freilaufzonen suchen.
+- [ ] Kanton Neuenburg: Wortlaut der LChiens (Art. 4, 5, 7, 8, 14, 17) und der LFS am PDF gegenprüfen. Kursreglement des Staatsrats und eigene Seite des SCAV zu Hunden suchen.
+- [ ] Ville de Neuchâtel: Betrag der Hundetaxe, Namen der Freilaufzonen, geltende Fassung des Polizeireglements und Liste der Strände im Faltblatt gegenprüfen.
+- [ ] Winterthur: Allgemeine Polizeiverordnung und Nutzungsordnungen der Parks (Leine, Verbote, Bussen) nachtragen. Datum des Merkblatts Hundewesen klären.
+- [ ] Uster: Ordnungsbussen der Stadt zu Hunden suchen.
+- [ ] Dübendorf: klären, ob die Hundesteuer den Kantonsbeitrag enthält. Geltende Fassung der Polizeiverordnung prüfen.
+- [ ] Dietikon: Polizeiverordnung 510.1 abrufen (dietikon.ch/_doc/7194661): Leine, Verbote, Kot, Bussen.
+- [ ] Wetzikon: Art. 22 und 23 der Polizeiverordnung am Volltext gegenprüfen (auch die Aussage «keine eigene Leinenpflicht»), Ordnungsbussen und Hundewiese nachtragen.
+- [ ] Wädenswil: Kantonsbeitrag klären, Polizeiverordnung (Leine, Verbote, Kot, Bussen) nachtragen.
+- [ ] Bülach: Gebührenreglement (verspätete Meldung, Gebühr ab 1. April) und Polizeiverordnung nachtragen, Kantonsbeitrag klären.
 
 ## 5. Umbauten am Generator
 

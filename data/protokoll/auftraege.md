@@ -8,17 +8,10 @@ Alle Aufträge unten: vergeben am 2026-11-17 um 23:55 Uhr.
 
 ## Staffel A
 
-- `ar`: Kanton Appenzell Ausserrhoden samt Herisau
-- `vd-fr`: Kanton Waadt, französisch
-- `ne-fr`: Kanton Neuenburg, französisch
-- `gemeinden-zh-1`: Winterthur, Uster, Dübendorf, Dietikon
-- `gemeinden-zh-2`: Wetzikon, Wädenswil, Horgen, Bülach
 - `gemeinden-zh-3`: Kloten, Opfikon, Thalwil, Adliswil
 
 ## Staffel B
 
-- `zg`: Kanton Zug
-- `nw`: Kanton Nidwalden
 - `ge-fr`: Kanton Genf, französisch
 - `ju-fr`: Kanton Jura, französisch
 - `gemeinden-be-1`: Biel/Bienne (deutsch), Thun, Köniz, Burgdorf
@@ -27,8 +20,6 @@ Alle Aufträge unten: vergeben am 2026-11-17 um 23:55 Uhr.
 
 ## Staffel C
 
-- `sh`: Kanton Schaffhausen
-- `gl`: Kanton Glarus
 - `ti-it`: Kanton Tessin, italienisch
 - `be-fr`: Kanton Bern, französische Fassung, samt Biel/Bienne französisch
 - `gemeinden-lu-1`: Emmen, Kriens, Horw, Ebikon
@@ -47,8 +38,7 @@ Alle Aufträge unten: vergeben am 2026-11-17 um 23:55 Uhr.
 
 ## Staffel E
 
-- `fr-fr`: Kanton Freiburg, französisch und deutsch
-- `pruefung-bl`, `pruefung-tg`, `pruefung-so`: Gegenprüfung. Die Dateien dieser Kantone und ihrer Gemeinden ändert sonst niemand.
+- `pruefung-tg`, `pruefung-so`: Gegenprüfung. Die Dateien dieser Kantone und ihrer Gemeinden ändert sonst niemand.
 - `luecken-ag`, `luecken-sg`, `luecken-bs`, `luecken-zh`, `luecken-be`, `luecken-lu`: Lücken aus Abschnitt 4 des Backlogs samt Gegenprüfung. Die Dateien dieser Kantone und ihrer ersten Gemeinde ändert sonst niemand.
 
 Nicht vergeben und Sache der Kette: Schwyz (`sz`), danach die Sonderläufe Themenseiten und Mehrsprachigkeit, dazu das Einsammeln und Bauen.
