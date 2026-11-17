@@ -1,0 +1,36 @@
+{
+  "id": "thalwil",
+  "kanton": "zh",
+  "bfs": 141,
+  "name": "Thalwil",
+  "ort": "Thalwil",
+  "in_ort": "in Thalwil",
+  "geprueft": "2026-11-17",
+  "einleitung": "In Thalwil meldest du deinen Hund bei der Einwohnerkontrolle an. Die Rechnung für die Hundeabgabe kommt im Februar.",
+  "karten": [
+    {
+      "titel": "Hundetaxe",
+      "wert": "CHF 200 pro Jahr",
+      "text": "Die Jahresabgabe beträgt CHF 170, dazu kommt der Kantonsbeitrag von CHF 30. Die Gemeinde stellt im Februar Rechnung.",
+      "quellen": [
+        "zh_thalwil_hunde"
+      ]
+    },
+    {
+      "titel": "Ermässigung",
+      "wert": "Halbe Abgabe nach dem 30. Juni",
+      "text": "Wird dein Hund erst nach dem 30. Juni drei Monate alt, zahlst du im laufenden Jahr die Hälfte. Stirbt der Hund vor dem 30. Juni und schaffst du keinen Ersatzhund an, erhältst du die halbe Abgabe zurück. Für Polizei-, Militär-, Blinden- und Therapiehunde kannst du bei der Sicherheitskommission eine reduzierte Abgabe beantragen.",
+      "quellen": [
+        "zh_thalwil_hunde"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "wert": "Einwohnerkontrolle, innert 10 Tagen",
+      "text": "Du meldest deinen Hund innerhalb von zehn Tagen bei der Einwohnerkontrolle an, auch online. Mitbringen: Impfbüchlein, Heimtierausweis oder Hundepass, Kursnachweise und Versicherungsnachweis. Die Abmeldung geschieht nicht von selbst: Du meldest sie über den Online-Schalter.",
+      "quellen": [
+        "zh_thalwil_hunde"
+      ]
+    }
+  ]
+}

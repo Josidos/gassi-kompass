@@ -1,0 +1,36 @@
+{
+  "id": "opfikon",
+  "kanton": "zh",
+  "bfs": 66,
+  "name": "Opfikon",
+  "ort": "Opfikon",
+  "in_ort": "in Opfikon",
+  "geprueft": "2026-11-17",
+  "einleitung": "In Opfikon meldest du deinen Hund bei der Stadtverwaltung, Allgemeine Dienste, an. Die Gebühren stehen im Gebührentarif der Bevölkerungsdienste.",
+  "karten": [
+    {
+      "titel": "Hundetaxe",
+      "wert": "CHF 180 pro Jahr",
+      "text": "Die Abgabe beträgt CHF 180 pro Hund und Jahr, inklusive Kantonsbeitrag. Die Rechnung kommt Ende Februar und ist bis Ende März zahlbar. Für Hunde, die nach dem 30. Juni drei Monate alt oder erst dann erworben werden, zahlst du die halbe Abgabe. Verlierst du den Hund vor dem 30. Juni, erhältst du die halbe Abgabe zurück.",
+      "quellen": [
+        "zh_opfikon_hundeabgabe"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "wert": "Stadtverwaltung, innert 10 Tagen",
+      "text": "Du meldest deinen Hund innerhalb von 10 Tagen bei der Stadtverwaltung, Allgemeine Dienste, an oder ab, auch mit dem Online-Dienst. Für die Anmeldung brauchst du das Impfbüchlein oder den Hundepass. Die ordentliche Anmeldung kostet CHF 20 Einschreibegebühr.",
+      "quellen": [
+        "zh_opfikon_hundeabgabe"
+      ]
+    },
+    {
+      "titel": "Gebühren",
+      "wert": "CHF 40 bei verspäteter Meldung",
+      "text": "Eine verspätete An- oder Abmeldung kostet CHF 40. Muss die Stadt deine Daten in der Amicus-Datenbank ändern, verrechnet sie den Aufwand, höchstens CHF 150. Die erste Verfügung kostet CHF 50 Bearbeitungsgebühr, die zweite CHF 100.",
+      "quellen": [
+        "zh_opfikon_hundeabgabe"
+      ]
+    }
+  ]
+}

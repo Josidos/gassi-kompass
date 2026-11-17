@@ -1,0 +1,36 @@
+{
+  "id": "adliswil",
+  "kanton": "zh",
+  "bfs": 131,
+  "name": "Adliswil",
+  "ort": "Adliswil",
+  "in_ort": "in Adliswil",
+  "geprueft": "2026-11-17",
+  "einleitung": "In Adliswil ist die Polizei Adliswil - Langnau am Albis für die Anmeldung der Hunde zuständig.",
+  "karten": [
+    {
+      "titel": "Hundetaxe",
+      "wert": "CHF 180 pro Jahr",
+      "text": "Die Hundesteuer beträgt in Adliswil CHF 180 pro Jahr, inklusive Kantonsbeitrag.",
+      "quellen": [
+        "zh_adliswil_hundewesen"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "wert": "Polizei, innert 10 Tagen",
+      "text": "Ist dein Hund älter als drei Monate, meldest du ihn innert zehn Tagen an, online oder am Schalter der Polizei Adliswil - Langnau am Albis. Halterwechsel, Adressänderung oder den Tod des Hundes meldest du ebenfalls innert zehn Tagen der Polizei und bei Amicus.",
+      "quellen": [
+        "zh_adliswil_hundewesen"
+      ]
+    },
+    {
+      "titel": "Gebühren",
+      "wert": "CHF 20 bei der Anmeldung",
+      "text": "Bei der Anmeldung erhebt die Stadt eine einmalige Gebühr von CHF 20.",
+      "quellen": [
+        "zh_adliswil_hundewesen"
+      ]
+    }
+  ]
+}
