@@ -1,0 +1,128 @@
+{
+  "id": "ag",
+  "name": "Kanton Aargau",
+  "kurz": "AG",
+  "im": "im Kanton Aargau",
+  "des": "des Kantons Aargau",
+  "geprueft": "2026-11-17",
+  "wald": {
+    "saison": true,
+    "von": "04-01",
+    "bis": "07-31",
+    "wo": "im Wald und am Waldrand",
+    "quellen": [
+      "ag_wald",
+      "ag_jagdv"
+    ]
+  },
+  "leine": {
+    "punkte": [
+      "im Wald und am Waldrand, 1. April bis 31. Juli",
+      "überall, wo deine Gemeinde eine örtliche Leinenpflicht erlassen hat",
+      "Listenhunde im öffentlich zugänglichen Raum: an kurzer Leine und einzeln geführt, ausser die Person mit der Halteberechtigung führt den Hund selbst"
+    ],
+    "quellen": [
+      "ag_jagdv",
+      "ag_hug"
+    ]
+  },
+  "verbot": {
+    "einleitung": "Das Hundegesetz des Kantons nennt keine Orte mit Hundeverbot. Es überlässt das den Gemeinden.",
+    "punkte": [
+      "Hundeverbotszonen, die deine Gemeinde bezeichnet hat"
+    ],
+    "quellen": [
+      "ag_hug"
+    ]
+  },
+  "karten": [
+    {
+      "titel": "Haftpflicht",
+      "marke": "keine Pflicht",
+      "ton": "none",
+      "wert": "nur für Listenhunde",
+      "text": "Das Hundegesetz schreibt keine Haftpflichtversicherung für alle Hunde vor. Für Hunde mit erhöhtem Gefährdungspotenzial gehört der Nachweis einer ausreichenden Haftpflichtversicherung zu den Voraussetzungen der Halteberechtigung.",
+      "quellen": [
+        "ag_hug"
+      ]
+    },
+    {
+      "titel": "Kurs",
+      "marke": "keine Pflicht",
+      "ton": "none",
+      "wert": "nur für Listenhunde",
+      "text": "Das Hundegesetz kennt keinen Pflichtkurs für alle Hunde. Wer einen Listenhund hält, muss einen Hundeerziehungskurs besuchen und eine Prüfung bestehen.",
+      "quellen": [
+        "ag_hug",
+        "ag_listenhunde"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "marke": "10 Tage",
+      "ton": "note",
+      "wert": "Gemeinde und AMICUS",
+      "text": "Spätestens 10 Tage nach der Übernahme oder dem Import: Bei der Gemeinde meldest du den Hund und beantragst den Zugang zur Hundedatenbank AMICUS. Danach registriert eine Tierarztpraxis den Hund in AMICUS. Auch Abgabe oder Tod des Hundes meldest du innert 10 Tagen der Gemeinde und AMICUS.",
+      "quellen": [
+        "ag_vet"
+      ]
+    },
+    {
+      "titel": "Hundesteuer",
+      "marke": "jährlich",
+      "ton": "note",
+      "wert": "CHF 120 pro Hund",
+      "text": "Die Hundetaxe beträgt CHF 120 pro Hund und Jahr. Davon gehen CHF 20 an den Kanton, den Rest behält die Gemeinde. Befreit sind unter anderem einsatzfähige Schweiss-, Rettungs-, Blindenführ- und Assistenzhunde sowie Diensthunde. Schul- und Therapiehunde sind nicht befreit.",
+      "quellen": [
+        "ag_vet"
+      ]
+    },
+    {
+      "titel": "Rassen",
+      "marke": "Bewilligung",
+      "ton": "must",
+      "wert": "5 Rassetypen",
+      "text": "Für Listenhunde brauchst du eine Halteberechtigung des Kantons. Du musst sie beantragen und erhalten, bevor du den Hund anschaffst. Das gilt auch für Mischlinge dieser Rassen, zum Beispiel American Bully und Exotic Bully. Listenhunde auf Besuch im Kanton müssen an die Leine und einzeln geführt werden.",
+      "mehr": {
+        "titel": "Ganze Liste anzeigen",
+        "punkte": [
+          "American Staffordshire Terrier",
+          "Bullterrier",
+          "Pitbull Terrier",
+          "Rottweiler",
+          "Staffordshire Bullterrier"
+        ]
+      },
+      "quellen": [
+        "ag_listenhunde"
+      ]
+    },
+    {
+      "titel": "Unterwegs",
+      "marke": "Regel",
+      "ton": "note",
+      "wert": "Kot und Aufsicht",
+      "text": "Hundekot aufnehmen und entsorgen. Wer das nicht tut, zahlt eine Ordnungsbusse von CHF 100 (Stand der Verordnung: 1. Juli 2021). Dein Hund muss jederzeit beaufsichtigt und unter Kontrolle sein. Ausserhalb der Leinenzeit darf er auf Waldstrassen unter direkter Aufsicht ohne Leine laufen.",
+      "quellen": [
+        "ag_vet",
+        "ag_hug",
+        "ag_obvv",
+        "ag_jagdv"
+      ]
+    }
+  ],
+  "vergleich": {
+    "wald": "1.4. bis 31.7., im Wald und am Waldrand",
+    "haft": "keine allgemeine Pflicht, nur Listenhunde",
+    "kurs": "nur für Listenhunde",
+    "rassen": "Bewilligungspflicht für 5 Rassetypen",
+    "steuer": "CHF 120 pro Jahr",
+    "anm": "innert 10 Tagen, Gemeinde und AMICUS"
+  },
+  "umzug": {
+    "text": "Halteberechtigungen, Kurse und Prüfungen für Listenhunde aus anderen Kantonen oder dem Ausland erkennt der Kanton an, wenn sie ein gleichwertiges Schutzniveau gewährleisten.",
+    "quellen": [
+      "ag_hug"
+    ]
+  }
+}

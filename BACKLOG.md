@@ -15,9 +15,9 @@ In jedem Lauf ausser den Sonderläufen zusätzlich höchstens eine Lücke aus Ab
 
 ## 1. Deutschsprachige Kantone
 
-Ungefähr nach Bevölkerung. Schon erfasst: Zürich, Bern, Luzern.
+Ungefähr nach Bevölkerung. Schon erfasst: Zürich, Bern, Luzern, Aargau.
 
-- [ ] Aargau (`ag`)
+- [x] Aargau (`ag`), 2026-11-17
 - [ ] St. Gallen (`sg`)
 - [ ] Basel-Stadt (`bs`)
 - [ ] Basel-Landschaft (`bl`)
@@ -52,6 +52,11 @@ Erst nach dem Sonderlauf Mehrsprachigkeit. Bei zweisprachigen Kantonen beide Fas
 
 Ungefähr nach Grösse. Neue Kantone tragen hier ihre grössten Gemeinden ein.
 
+- [ ] Aarau (AG): zurückgestellt am 2026-11-17. Nur zwei lokale Angaben belegt (Hundetaxe CHF 120, Anmeldung beim Stadtbüro). Für die dritte fehlt die geltende Polizeiverordnung (SRS 5.1-1, aarau.tlex.ch): Der Lauf konnte nur die Fassung von 2010 lesen. Dort stand eine Leinenpflicht auf Strassen und Plätzen im überbauten Gebiet. Neu ansetzen mit der geltenden Fassung oder dem Bestattungs- und Friedhofreglement von 2023.
+- [ ] Wettingen (AG)
+- [ ] Baden (AG)
+- [ ] Wohlen (AG)
+- [ ] Rheinfelden (AG)
 - [ ] Winterthur (ZH)
 - [ ] Biel/Bienne (BE), Adresse `biel-bienne`
 - [ ] Thun (BE)
@@ -98,6 +103,9 @@ Ungefähr nach Grösse. Neue Kantone tragen hier ihre grössten Gemeinden ein.
 - [ ] Stadt Luzern: Bussen mit einer Quelle nach 2022 belegen
 - [ ] Kanton Bern: «kein Kursobligatorium» mit einer Quelle des Kantons statt der Gemeinde Büren belegen
 - [ ] Kanton Bern: Entscheid des Grossen Rats von 2023 zur Wald-Leinenpflicht mit einer amtlichen Quelle (Ratsprotokoll) belegen
+
+- [ ] Kanton Aargau: Hundeverordnung (HuV, SAR 393.411) in der geltenden Fassung lesen. Der Lauf vom 2026-11-17 erreichte nur die Fassungen von 2014 und 2016. Danach ergänzen, falls unverändert: Deckungssumme der Haftpflicht für Listenhunde, Fristen für Kurs und Prüfung, halbe Taxe.
+- [ ] Kanton Aargau: Ordnungsbusse für Hundekot (CHF 100) mit einer Fassung der OBVV nach 2021 bestätigen
 
 ## 5. Umbauten am Generator
 

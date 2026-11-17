@@ -98,5 +98,35 @@
     "kurz": "swisstopo: Ortschaftenverzeichnis",
     "lang": "Bundesamt für Landestopografie swisstopo: Amtliches Ortschaftenverzeichnis mit Postleitzahl",
     "url": "https://opendata.swiss/de/dataset/amtliches-ortschaftenverzeichnis-mit-postleitzahl-und-perimeter"
+  },
+  "ag_vet": {
+    "kurz": "Veterinärdienst AG",
+    "lang": "Kanton Aargau, Veterinärdienst: Hunde",
+    "url": "https://www.ag.ch/de/themen/landwirtschaft-tiere/heim-und-nutztiere/hunde"
+  },
+  "ag_listenhunde": {
+    "kurz": "Veterinärdienst AG: Listenhunde",
+    "lang": "Kanton Aargau, Veterinärdienst: Listenhunde",
+    "url": "https://www.ag.ch/de/themen/landwirtschaft-tiere/heim-und-nutztiere/hunde/listenhunde"
+  },
+  "ag_wald": {
+    "kurz": "Abteilung Wald AG",
+    "lang": "Kanton Aargau, Departement Bau, Verkehr und Umwelt: Leinenpflicht im Wald",
+    "url": "https://www.ag.ch/de/verwaltung/bvu/wald/erholungsraum-wald/leinenpflicht"
+  },
+  "ag_jagdv": {
+    "kurz": "Jagdverordnung AG",
+    "lang": "Kanton Aargau: Verordnung zum Jagdgesetz (AJSV, SAR 933.211), § 21, Stand 1. Januar 2023 (über LexFind)",
+    "url": "https://www.lexfind.ch/tolv/224323/de"
+  },
+  "ag_hug": {
+    "kurz": "Hundegesetz AG",
+    "lang": "Kanton Aargau: Hundegesetz (HuG, SAR 393.400), Stand 1. Juli 2024 (über LexFind)",
+    "url": "https://www.lexfind.ch/tol/1570/de"
+  },
+  "ag_obvv": {
+    "kurz": "Ordnungsbussen AG",
+    "lang": "Kanton Aargau: Verordnung über das Ordnungsbussenverfahren (OBVV, SAR 251.213), Anhang 1, Stand 1. Juli 2021 (über LexFind)",
+    "url": "https://www.lexfind.ch/tolv/207516/de"
   }
 }
