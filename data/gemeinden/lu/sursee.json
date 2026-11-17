@@ -1,0 +1,37 @@
+{
+  "id": "sursee",
+  "kanton": "lu",
+  "bfs": 1103,
+  "name": "Stadt Sursee",
+  "ort": "Sursee",
+  "in_ort": "in der Stadt Sursee",
+  "geprueft": "2026-11-17",
+  "einleitung": "Die Stadt Sursee verweist für Leinenpflicht und Betretverbote auf die Hundeverordnung des Kantons. Lokal belegt sind die Hundesteuer, die Anmeldung und die Bitte zu den Schul- und Sportwiesen.",
+  "karten": [
+    {
+      "titel": "Hundetaxe",
+      "wert": "CHF 120 pro Hund und Jahr",
+      "text": "Die Hundesteuer beträgt CHF 120 pro Hund und Kalenderjahr. Die Rechnung verschickt die Abteilung Öffentliche Sicherheit Mitte Jahr.",
+      "quellen": [
+        "lu_sursee_hundekontrolle"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "wert": "bei der Stadtverwaltung",
+      "text": "Hältst du zum ersten Mal einen Hund, meldest du dich bei der Verwaltung deiner Wohngemeinde, in Sursee also bei der Stadtverwaltung. Sie erfasst dich in der Datenbank AMICUS. Zuständig ist der Sachbereich Sicherheit und Ordnung mit der Hundekontrolle.",
+      "quellen": [
+        "lu_sursee_hundekontrolle",
+        "lu_sursee_sicherheit"
+      ]
+    },
+    {
+      "titel": "Kein Zutritt",
+      "wert": "Schul- und Sportwiesen sind keine Hundewiesen",
+      "text": "Die Stadt bittet, Schul- und Sportwiesen nicht als Hundewiesen zu nutzen. Sie nennt das Schulhaus Neufeld, die Rasenfläche zwischen Neu und Alt St. Georg und die Fussballfelder Allmend. Nach der kantonalen Hundeverordnung sind Pausenplätze sowie Spiel- und Sportfelder für Hunde verboten.",
+      "quellen": [
+        "lu_sursee_hundekontrolle"
+      ]
+    }
+  ]
+}
