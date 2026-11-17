@@ -17,7 +17,7 @@ Bleibt ein Kanton nach einem Lauf unvollständig (Entwurf unter `data/entwurf/`)
 
 ## 1. Deutschsprachige Kantone
 
-Ungefähr nach Bevölkerung. Schon erfasst: Zürich, Bern, Luzern, Aargau, St. Gallen, Basel-Stadt, Basel-Landschaft, Thurgau, Solothurn.
+Ungefähr nach Bevölkerung. Schon erfasst: Zürich, Bern, Luzern, Aargau, St. Gallen, Basel-Stadt, Basel-Landschaft, Thurgau, Solothurn, Schwyz.
 
 - [x] Aargau (`ag`), 2026-11-17
 - [x] St. Gallen (`sg`), 2026-11-17, mit Stadt St. Gallen
@@ -26,7 +26,7 @@ Ungefähr nach Bevölkerung. Schon erfasst: Zürich, Bern, Luzern, Aargau, St. G
 - [x] Thurgau (`tg`), 2026-11-17, mit Stadt Frauenfeld
 - [x] Solothurn (`so`), 2026-11-17, mit Stadt Olten
 - [ ] Graubünden (`gr`)
-- [ ] Schwyz (`sz`)
+- [x] Schwyz (`sz`), 2026-11-17, mit Bezirk Küssnacht
 - [ ] Zug (`zg`)
 - [ ] Schaffhausen (`sh`)
 - [ ] Appenzell Ausserrhoden (`ar`)
@@ -73,6 +73,10 @@ Ungefähr nach Grösse. Neue Kantone tragen hier ihre grössten Gemeinden ein.
 - [ ] Grenchen (SO)
 - [ ] Zuchwil (SO)
 - [ ] Biberist (SO)
+- [ ] Freienbach (SZ): zurückgestellt am 2026-11-17. Das Merkblatt Hundehaltung der Gemeinde ist ein PDF ohne lesbaren Text, die Seite dazu war nicht abrufbar.
+- [ ] Einsiedeln (SZ)
+- [ ] Schwyz (SZ)
+- [ ] Arth (SZ)
 - [ ] Riehen (BS)
 - [ ] Bettingen (BS)
 - [ ] Rapperswil-Jona (SG)
@@ -144,6 +148,8 @@ Ungefähr nach Grösse. Neue Kantone tragen hier ihre grössten Gemeinden ein.
 - [ ] Stadt Frauenfeld: Hundeverbote und Bussen der Stadt suchen (Polizeireglement), die Informationen für Hundehaltende nennen keine
 - [ ] Kanton Solothurn: Hundegesetz und Hundeverordnung im vollen Wortlaut lesen (das Abrufwerkzeug lieferte Zusammenfassungen mit kurzen Zitaten). Danach ergänzen, falls belegt: Gebühr der Haltebewilligung (Merkblatt des Veterinärdienstes, Gebührentarif), Bussen, was die Änderung vom 18. Mai 2025 gebracht hat. Klären, ob die Leinenpflicht vom 1. April bis 31. Juli auch am Waldrand gilt (Verordnung: «im Wald», Seite «Mein Hund und ich»: «Wald und Waldränder»).
 - [ ] Stadt Olten: prüfen, ob das Polizeireglement von 2016 (Art. 19, Leine im Siedlungsgebiet) nach der Teilrevision von 2019 unverändert gilt. Hundeverbote (Friedhof, Badi, Schulanlagen) und Freilaufflächen suchen, das Reglement nennt keine.
+- [ ] Kanton Schwyz: Die Teilrevision des Hundegesetzes war am 16. September 2026 im Kantonsrat. Ergebnis und Inkrafttreten waren am 2026-11-17 amtlich nicht auffindbar. Bei jedem Nachprüfen den Stand von SRSZ 546.100 prüfen. Die Revision bringt laut Medienmitteilung vom 25. August 2026: Kurspflicht innert 18 Monaten, Jahressteuer mit Sätzen des Gemeinderats, Freilaufzonen, keine Hundemarke mehr. Danach Kanton und Küssnacht anpassen.
+- [ ] Bezirk Küssnacht: Die Seite stützt sich auf die Broschüre von April 2019. Die aktuellen Seiten (Dienstleistung Hunde, Hundewiese, Ausnahme im Luterbach) lassen den Abruf nicht zu (robots). Mit einer neueren Quelle bestätigen, Hundewiese ergänzen.
 
 ## 5. Umbauten am Generator
 

@@ -1,0 +1,114 @@
+{
+  "id": "sz",
+  "name": "Kanton Schwyz",
+  "kurz": "SZ",
+  "im": "im Kanton Schwyz",
+  "des": "des Kantons Schwyz",
+  "geprueft": "2026-11-17",
+  "wald": {
+    "saison": false,
+    "text": "Das Hundegesetz des Kantons Schwyz kennt keine Leinenpflicht im Wald zu festen Daten. Dafür gilt das ganze Jahr Leinenpflicht in öffentlichen Anlagen, auf öffentlichen Wegen und im Strassenverkehr. Dein Hund darf zudem nirgends unbeaufsichtigt öffentlich umherlaufen.",
+    "quellen": [
+      "sz_hug",
+      "sz_rrb_leine"
+    ]
+  },
+  "leine": {
+    "punkte": [
+      "das ganze Jahr in öffentlichen Anlagen",
+      "das ganze Jahr auf öffentlichen Wegen",
+      "das ganze Jahr im Strassenverkehr",
+      "an weiteren Orten, für die dein Gemeinderat ein örtlich begrenztes Gebot erlassen hat",
+      "Ausgenommen sind Hunde beim Viehtrieb und Herdenschutzhunde im Einsatz."
+    ],
+    "quellen": [
+      "sz_hug",
+      "sz_rrb_leine"
+    ]
+  },
+  "verbot": {
+    "einleitung": "Das Hundegesetz nennt keine öffentlichen Orte mit Hundeverbot. Der Gemeinderat kann örtlich begrenzte Verbote erlassen.",
+    "punkte": [
+      "landwirtschaftliche Kulturen, ohne Einwilligung der berechtigten Person",
+      "fremdes, nicht öffentlich zugängliches Eigentum, ohne Einwilligung der berechtigten Person",
+      "Orte, für die dein Gemeinderat ein Verbot erlassen hat"
+    ],
+    "quellen": [
+      "sz_hug"
+    ]
+  },
+  "karten": [
+    {
+      "titel": "Haftpflicht",
+      "marke": "Pflicht",
+      "ton": "must",
+      "wert": "für alle Hunde",
+      "text": "Wer einen Hund hält, muss eine Tierhalter-Haftpflichtversicherung abschliessen. Das Gesetz nennt keine Mindestsumme.",
+      "quellen": [
+        "sz_hug"
+      ]
+    },
+    {
+      "titel": "Kurs",
+      "marke": "keine Pflicht",
+      "ton": "none",
+      "wert": "heute kein Kurs vorgeschrieben",
+      "text": "Im Kanton Schwyz gibt es heute keine Pflicht zu einem Hundeerziehungskurs. Das hält der Regierungsrat in seinem Bericht vom 23. Juni 2026 fest. Das Gesetz wird revidiert: Der Regierungsrat hat dem Kantonsrat am 23. Juni 2026 eine Teilrevision vorgelegt. Sie sieht einen obligatorischen Hundeerziehungskurs innert 18 Monaten vor. Ob und ab wann das gilt, ist auf dieser Seite noch nicht belegt.",
+      "quellen": [
+        "sz_rrb_revision",
+        "sz_mm_kommission"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "marke": "Pflicht",
+      "ton": "note",
+      "wert": "Mikrochip und AMICUS",
+      "text": "Dein Hund wird mit einem Mikrochip gekennzeichnet und in der Hundedatenbank AMICUS registriert. Die Hundesteuer bezahlst du bei der Bezugsstelle deiner Wohngemeinde. Das Hundegesetz verlangt noch eine amtliche Hundemarke. Laut Bericht des Regierungsrats vom 23. Juni 2026 wird sie seit der Kennzeichnung mit Mikrochip nicht mehr abgegeben.",
+      "quellen": [
+        "sz_rrb_revision",
+        "sz_hug"
+      ]
+    },
+    {
+      "titel": "Hundesteuer",
+      "marke": "jährlich",
+      "ton": "note",
+      "wert": "CHF 50 bis 100",
+      "text": "Die Hundesteuer beträgt CHF 50 pro Jahr, für einen Nutzhund CHF 20. Die Stimmberechtigten deiner Gemeinde können sie auf höchstens CHF 100 erhöhen, für Nutzhunde auf höchstens CHF 40. Jeder weitere Hund im selben Haushalt kostet CHF 100 mehr als die Grundsteuer. Steuerpflichtig sind Hunde ab vier Monaten. Zu bezahlen ist die Steuer im Januar oder sofort, wenn die Pflicht beginnt, an die Wohngemeinde. Beginnt die Pflicht während des Jahres, zahlst du nur für die restlichen Monate. Was du im selben Jahr schon in einer anderen Schwyzer Gemeinde bezahlt hast, wird angerechnet. Befreit sind ausgebildete und einsatzfähige Armee-, Polizei-, Rettungs-, Katastrophen-, Lawinen- und Schweisshunde sowie Blinden- und Assistenzhunde.",
+      "quellen": [
+        "sz_hug"
+      ]
+    },
+    {
+      "titel": "Rassen",
+      "marke": "keine Liste",
+      "ton": "none",
+      "wert": "keine Rasseliste",
+      "text": "Der Kanton Schwyz kennt keine Einschränkungen für bestimmte Hunderassen. Das hält der Regierungsrat in seinem Bericht vom 23. Juni 2026 fest. Auch die laufende Teilrevision sieht kein Rassenverbot vor. Wer wiederholt gegen das Hundegesetz verstösst, dem kann der Gemeinderat die Hundehaltung befristet oder unbefristet verbieten.",
+      "quellen": [
+        "sz_rrb_revision",
+        "sz_mm_kommission",
+        "sz_hug"
+      ]
+    },
+    {
+      "titel": "Unterwegs",
+      "marke": "Regel",
+      "ton": "note",
+      "wert": "Kot, Aufsicht, nachts drinnen",
+      "text": "Du entfernst den Kot deines Hundes und beseitigst ihn schadlos: in Dörfern, auf öffentlichen Strassen, Plätzen und Wegen, in Parkanlagen und auf Wegen durch intensiv genutztes Landwirtschaftsgebiet. Dein Hund darf nicht unbeaufsichtigt öffentlich umherlaufen und weder Menschen noch Tiere gefährden oder belästigen. In Wohnzonen muss er nachts in einem Gebäude oder einem geschlossenen Areal sein. Wer gegen das Hundegesetz oder Anordnungen des Gemeinderats verstösst, wird mit Busse bestraft. Einen Betrag nennt das Gesetz nicht.",
+      "quellen": [
+        "sz_hug"
+      ]
+    }
+  ],
+  "vergleich": {
+    "wald": "keine feste Leinenzeit, Leine ganzjährig auf öffentlichen Wegen",
+    "haft": "Pflicht, keine Mindestsumme im Gesetz",
+    "kurs": "keine Pflicht, Kurs in Teilrevision geplant",
+    "rassen": "keine Rasseliste",
+    "steuer": "CHF 50 bis 100, je nach Gemeinde",
+    "anm": "Mikrochip und AMICUS, Steuer bei der Gemeinde"
+  }
+}

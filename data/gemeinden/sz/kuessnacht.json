@@ -1,0 +1,45 @@
+{
+  "id": "kuessnacht",
+  "kanton": "sz",
+  "bfs": 1331,
+  "name": "Bezirk Küssnacht",
+  "ort": "Küssnacht",
+  "in_ort": "im Bezirk Küssnacht",
+  "geprueft": "2026-11-17",
+  "einleitung": "Im Bezirk Küssnacht gelten die Regeln des Kantons Schwyz. Die Angaben zum Bezirk stammen aus der Broschüre des Einwohneramts. Stand der Broschüre: April 2019.",
+  "karten": [
+    {
+      "titel": "Hundetaxe",
+      "wert": "CHF 100, Nutzhund CHF 40",
+      "text": "Die Hundesteuer beträgt im Bezirk Küssnacht CHF 100 pro Jahr, für einen Nutzhund CHF 40. Jeder weitere Hund im selben Haushalt kostet CHF 100 mehr als die Grundsteuer. Du bezahlst sie im Januar oder sofort, wenn die Steuerpflicht beginnt, beim Einwohneramt im Rathaus. Stand der Broschüre: April 2019.",
+      "quellen": [
+        "sz_kuessnacht_broschuere"
+      ]
+    },
+    {
+      "titel": "Leine",
+      "wert": "Areal Luterbach und Finnenbahn",
+      "text": "Im Areal Luterbach und auf der Finnenbahn gilt Leinenpflicht. Ausgenommen ist der eigens für Hunde vorgesehene «Hündeler-Platz». Dazu kommt die Regel des Kantons: Leine in öffentlichen Anlagen, auf öffentlichen Wegen und im Strassenverkehr. Stand der Broschüre: April 2019.",
+      "quellen": [
+        "sz_kuessnacht_broschuere",
+        "sz_hug"
+      ]
+    },
+    {
+      "titel": "Hundekot",
+      "wert": "Gratis-Säcklein an den Sammeleimern",
+      "text": "An den Hundekot-Sammeleimern im Bezirk gibt es kostenlose Säcklein. Das gefüllte Säcklein verknotest du und wirfst es in den Sammeleimer oder in einen Abfalleimer in der Nähe. Säcklein liegen zu lassen ist untersagt. Stand der Broschüre: April 2019.",
+      "quellen": [
+        "sz_kuessnacht_broschuere"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "wert": "Einwohneramt und AMICUS",
+      "text": "Bezugsstelle für die Hundesteuer ist das Einwohneramt, Rathaus 2, Küssnacht am Rigi. Der Mikrochip deines Hundes wird in der Datenbank AMICUS registriert. Änderungen von Name oder Adresse meldest du innert 10 Tagen. Stand der Broschüre: April 2019.",
+      "quellen": [
+        "sz_kuessnacht_broschuere"
+      ]
+    }
+  ]
+}

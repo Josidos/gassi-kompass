@@ -2,6 +2,20 @@
 
 Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen.
 
+## 2026-11-17, Nachtkette, Glied 5
+
+- Nachgeprüft: nichts. Keine Datei ist älter als 60 Tage. Eingesammelt: nichts. Graubünden ist an die Hauptsitzung vergeben und wurde übersprungen.
+- Neu: Kanton Schwyz (`/sz/`) und Bezirk Küssnacht (`/sz/kuessnacht/`), 10 von 26 Kantonen, 11 Gemeinden. Meilenstein: 10 Kantone erfasst, der nächste Lauf ist der Sonderlauf Themenseiten.
+- Quellen, alle am 17. November 2026 abgerufen: Hundegesetz (SRSZ 546.100, Stand 1. Februar 2024), Bericht des Regierungsrats zur Teilrevision (RRB 485/2026 vom 23. Juni 2026), Medienmitteilung vom 25. August 2026, Antwort des Regierungsrats zur Leinenpflicht (RRB 38/2024). Küssnacht: Broschüre des Einwohneramts, Ausgabe April 2019.
+- Das Abrufwerkzeug lieferte Zusammenfassungen mit kurzen Zitaten, nicht den vollen Wortlaut.
+- Teilrevision: Das Hundegesetz war am 16. September 2026 im Kantonsrat. Ergebnis und Inkrafttreten waren amtlich nicht auffindbar. Erfasst ist das Gesetz in der Fassung der Gesetzessammlung. Die Karten Kurs und Rassen nennen die Revision als geplant.
+- Wald: Das Gesetz kennt keine Leinenzeit im Wald, dafür ganzjährig Leine in öffentlichen Anlagen, auf öffentlichen Wegen und im Strassenverkehr.
+- Weggelassen: Meldepflicht bei der Gemeinde (kommt laut Bericht erst mit der Revision), Bussenbeträge (das Gesetz nennt keine).
+- Bezirk Küssnacht statt Freienbach: Das Merkblatt von Freienbach ist ein PDF ohne lesbaren Text. Küssnacht hat vier belegte lokale Angaben (Steuer, Leine im Areal Luterbach und auf der Finnenbahn, Gratis-Säcklein, Einwohneramt), alle mit Stand April 2019. Die aktuellen Seiten des Bezirks lassen den Abruf nicht zu.
+- Zurückgestellt: Freienbach (Merkblatt nicht lesbar).
+- Nicht gelungen: nichts.
+- Backlog: Einsiedeln, Schwyz und Arth eingetragen, zwei neue Lücken.
+
 ## 2026-11-17, Nachtkette, Glied 4
 
 - Dem Auftrag fehlte die Zusatznachricht mit der Nummer. Laut Protokoll sind die Glieder 1 bis 3 gelaufen, ein Glied 4 wurde ausgelöst, hat aber nichts geliefert (Nutzungsgrenze um 23:02 Uhr). Dieser Lauf zählt als Glied 4.

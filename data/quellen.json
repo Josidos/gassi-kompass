@@ -328,5 +328,30 @@
     "kurz": "Polizeireglement Olten",
     "lang": "Stadt Olten: Reglement über die gemeindepolizeilichen Aufgaben der Stadt Olten vom 29. September 2016, in Kraft seit 6. November 2016 (abgerufen am 17. November 2026)",
     "url": "https://www.olten.ch/_docn/1575280/212_Reglement_gemeindepol._Aufgaben-TR_29.9.16.pdf"
+  },
+  "sz_hug": {
+    "kurz": "Hundegesetz SZ",
+    "lang": "Kanton Schwyz: Gesetz über das Halten von Hunden (HuG, SRSZ 546.100) vom 23. Juni 1983, Stand 1. Februar 2024 (abgerufen am 17. November 2026)",
+    "url": "https://sz.ch/public/upload/assets/3802/546_100.pdf?fp=3"
+  },
+  "sz_rrb_revision": {
+    "kurz": "Regierungsrat SZ: Bericht zur Teilrevision",
+    "lang": "Regierungsrat des Kantons Schwyz: Gesetz über das Halten von Hunden, Bericht und Vorlage an den Kantonsrat, Beschluss Nr. 485/2026 vom 23. Juni 2026 (abgerufen am 17. November 2026)",
+    "url": "https://www.sz.ch/public/upload/assets/92984/B_Gesetz%20%C3%BCber%20das%20Halten%20von%20Hunden.pdf?fp=1"
+  },
+  "sz_mm_kommission": {
+    "kurz": "Kanton SZ: Medienmitteilung zur Teilrevision",
+    "lang": "Kanton Schwyz: Medienmitteilung vom 25. August 2026 zur Teilrevision des Gesetzes über das Halten von Hunden, Vorberatung der Kommission (abgerufen am 17. November 2026)",
+    "url": "https://www.sz.ch/kanton/medien-und-datenschutz/medienmitteilungen/detailseite.html/8756-8757-8803-10391-10392/news/25801/newsarchive/1"
+  },
+  "sz_rrb_leine": {
+    "kurz": "Regierungsrat SZ: Antwort zur Leinenpflicht",
+    "lang": "Regierungsrat des Kantons Schwyz: Beantwortung der Motion M 11/23 zur Leinenpflicht, Beschluss Nr. 38/2024 vom 23. Januar 2024 (abgerufen am 17. November 2026)",
+    "url": "https://www.sz.ch/public/upload/assets/72054/M_Leinenpflicht.pdf?fp=1"
+  },
+  "sz_kuessnacht_broschuere": {
+    "kurz": "Broschüre Hunde Bezirk Küssnacht",
+    "lang": "Bezirk Küssnacht, Einwohneramt: Broschüre zur Hundehaltung, Ausgabe April 2019 (abgerufen am 17. November 2026)",
+    "url": "https://www.kuessnacht.ch/public/upload/assets/3796/Brosch%C3%BCre%20Hunde%20Bezirk%20Oktober%202021.pdf?fp=1"
   }
 }
