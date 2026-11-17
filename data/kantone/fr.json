@@ -1,0 +1,121 @@
+{
+  "id": "fr",
+  "name": "Kanton Freiburg",
+  "kurz": "FR",
+  "im": "im Kanton Freiburg",
+  "des": "des Kantons Freiburg",
+  "geprueft": "2026-11-17",
+  "wald": {
+    "saison": true,
+    "von": "04-01",
+    "bis": "07-15",
+    "wo": "im Wald",
+    "quellen": [
+      "fr_wald",
+      "fr_rdch"
+    ]
+  },
+  "leine": {
+    "punkte": [
+      "im Wald, 1. April bis 15. Juli",
+      "in Biotopen wie Auengebieten und Mooren. Lass deinen Hund dort nicht in Gewässern herumtollen.",
+      "in Zonen mit Leinenzwang, die deine Gemeinde festgelegt hat. Für das ganze Gemeindegebiet darf eine Gemeinde den Leinenzwang nicht vorschreiben.",
+      "mit einem Hund des Typs Pitbull bei einem vorübergehenden Aufenthalt, zusätzlich mit Maulkorb"
+    ],
+    "quellen": [
+      "fr_wald",
+      "fr_hhg"
+    ]
+  },
+  "verbot": {
+    "einleitung": "Das kantonale Gesetz nennt selbst keine Orte mit Hundeverbot. Es überlässt das den Gemeinden.",
+    "punkte": [
+      "Hundeverbotszonen, die deine Gemeinde in einem Reglement festgelegt hat"
+    ],
+    "quellen": [
+      "fr_hhg"
+    ]
+  },
+  "karten": [
+    {
+      "titel": "Haftpflicht",
+      "marke": "Pflicht",
+      "ton": "must",
+      "wert": "mind. CHF 1 Mio.",
+      "text": "Du brauchst eine Haftpflichtversicherung für Personen- und Sachschäden. Die Mindestdeckung legt der Staatsrat fest: CHF 1 Million pro Ereignis.",
+      "quellen": [
+        "fr_hhg",
+        "fr_rdch"
+      ]
+    },
+    {
+      "titel": "Kurs",
+      "marke": "Pflicht",
+      "ton": "must",
+      "wert": "Theorie und Praxistest",
+      "text": "Seit 1. Januar 2024. Wer noch nie oder seit mehr als 10 Jahren keinen Hund gehalten hat, besucht vor Beginn der Hundehaltung einen Theoriekurs von mindestens 5 Stunden. Mit jedem neuen Hund machst du innerhalb von 18 Monaten nach dem Erwerb einen praktischen Test zur Beurteilung der Führbarkeit.",
+      "quellen": [
+        "fr_hhg",
+        "fr_neu"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "marke": "10 Tage",
+      "ton": "note",
+      "wert": "Gemeinde und AMICUS",
+      "text": "Als neue Halterin oder neuer Halter meldest du dich bei deiner Gemeinde und erhältst eine AMICUS-ID. Ein neu erworbener Hund muss innerhalb von 10 Tagen in der Datenbank AMICUS registriert sein.",
+      "quellen": [
+        "fr_neu"
+      ]
+    },
+    {
+      "titel": "Hundesteuer",
+      "marke": "jährlich",
+      "ton": "note",
+      "wert": "CHF 100 an den Kanton, dazu die Gemeinde",
+      "text": "Die kantonale Hundesteuer beträgt CHF 100 pro Hund. Dazu kommen CHF 5 für Verwaltungskosten und den Beitrag an die Kollektivhaftpflichtversicherung. Die Oberämter erheben sie. Deine Gemeinde kann zusätzlich eine eigene Hundesteuer verlangen, höchstens CHF 200 pro Tier und Jahr.",
+      "quellen": [
+        "fr_steuer",
+        "fr_hhg"
+      ]
+    },
+    {
+      "titel": "Rassen",
+      "marke": "Verbot",
+      "ton": "must",
+      "wert": "Hunde des Typs Pitbull",
+      "text": "Hunde des Typs Pitbull und ihre Kreuzungen sind verboten: Haltung, Zucht, Abgabe, Handel und Verbringen in den Kanton. Erlaubt ist nur ein vorübergehender Aufenthalt von höchstens 90 Tagen, an der Leine und mit Maulkorb. Bewilligungspflichtige Rassen gibt es seit 1. Januar 2024 nicht mehr.",
+      "quellen": [
+        "fr_hhg",
+        "fr_verboten"
+      ]
+    },
+    {
+      "titel": "Unterwegs",
+      "marke": "Regel",
+      "ton": "note",
+      "wert": "Kot und Rückruf",
+      "text": "Entferne den Kot deines Hundes. Im Wald rufst du deinen Hund zurück, sobald andere Personen in der Nähe sind, und er darf die Wildtiere nicht stören.",
+      "quellen": [
+        "fr_hhg",
+        "fr_wald"
+      ]
+    }
+  ],
+  "vergleich": {
+    "wald": "1.4. bis 15.7., im Wald",
+    "haft": "Pflicht, mind. CHF 1 Mio.",
+    "kurs": "Theorie für Ersthaltende, Praxistest mit jedem neuen Hund",
+    "rassen": "Typ Pitbull und Kreuzungen verboten",
+    "steuer": "CHF 100 an den Kanton, dazu die Gemeinde",
+    "anm": "innert 10 Tagen, Gemeinde und AMICUS"
+  },
+  "umzug": {
+    "text": "Ein Hund des Typs Pitbull oder eine Kreuzung damit darf nicht in den Kanton ziehen. Erlaubt ist nur ein Aufenthalt von höchstens 90 Tagen, an der Leine und mit Maulkorb.",
+    "quellen": [
+      "fr_hhg",
+      "fr_verboten"
+    ]
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "id": "fr",
+  "name": "Canton de Fribourg",
+  "kurz": "FR",
+  "im": "dans le canton de Fribourg",
+  "des": "du canton de Fribourg",
+  "geprueft": "2026-11-17",
+  "wald": {
+    "saison": true,
+    "von": "04-01",
+    "bis": "07-15",
+    "wo": "en forêt",
+    "quellen": [
+      "fr_rdch",
+      "fr_foret"
+    ]
+  },
+  "leine": {
+    "punkte": [
+      "en forêt, du 1er avril au 15 juillet",
+      "dans les biotopes. Ne laissez pas votre chien s'ébattre dans les plans d'eau.",
+      "dans les zones de laisse obligatoire que votre commune a délimitées par règlement. Une commune ne peut pas imposer la laisse sur tout son territoire.",
+      "dans les réserves naturelles, selon les prescriptions propres à chaque réserve",
+      "pour un chien de type pitbull en séjour temporaire, avec muselière"
+    ],
+    "quellen": [
+      "fr_rdch",
+      "fr_foret",
+      "fr_ldch"
+    ]
+  },
+  "verbot": {
+    "einleitung": "La loi cantonale ne désigne pas elle-même de lieux interdits. Elle laisse ce choix aux communes.",
+    "punkte": [
+      "les espaces interdits aux chiens que votre commune a délimités par règlement. Les chiens d'aide ne sont pas concernés."
+    ],
+    "quellen": [
+      "fr_ldch"
+    ]
+  },
+  "karten": [
+    {
+      "titel": "Responsabilité civile",
+      "marke": "Obligatoire",
+      "ton": "must",
+      "wert": "min. CHF 1 million",
+      "text": "Vous devez avoir une assurance responsabilité civile pour les dommages corporels et matériels, avec une couverture minimale de CHF 1 million par événement.",
+      "quellen": [
+        "fr_ldch",
+        "fr_rdch"
+      ]
+    },
+    {
+      "titel": "Cours",
+      "marke": "Obligatoire",
+      "ton": "must",
+      "wert": "Théorie et évaluation pratique",
+      "text": "Depuis le 1er janvier 2024. Si vous n'avez jamais eu de chien ou plus depuis dix ans, vous suivez un cours théorique d'au moins cinq heures avant de détenir le chien. Chaque chien nouvellement détenu passe avec vous une évaluation pratique de conductibilité auprès d'un éducateur ou d'une éducatrice, dans les 18 mois suivant son inscription dans AMICUS. Les chiens d'aide et de police en sont dispensés.",
+      "quellen": [
+        "fr_ldch",
+        "fr_rdch",
+        "fr_nouveau"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "marke": "10 jours",
+      "ton": "note",
+      "wert": "Commune et AMICUS",
+      "text": "Comme nouveau détenteur ou nouvelle détentrice, vous vous annoncez à votre commune, qui vous remet un identifiant AMICUS. Le chien doit être enregistré dans AMICUS dans les 10 jours suivant son acquisition. Un changement d'adresse ou la mort du chien s'annonce dans les quinze jours.",
+      "quellen": [
+        "fr_nouveau",
+        "fr_rdch"
+      ]
+    },
+    {
+      "titel": "Impôt sur les chiens",
+      "marke": "annuel",
+      "ton": "note",
+      "wert": "CHF 100 au canton, plus la commune",
+      "text": "L'impôt cantonal est de CHF 100 par chien et par année. S'y ajoutent CHF 5 pour l'émolument administratif et la contribution à l'assurance collective. Il est perçu par les préfectures. Votre commune peut prélever en plus son propre impôt, au maximum CHF 200 par an et par animal.",
+      "quellen": [
+        "fr_rdch",
+        "fr_impot",
+        "fr_ldch"
+      ]
+    },
+    {
+      "titel": "Races",
+      "marke": "Interdiction",
+      "ton": "must",
+      "wert": "Chiens de type pitbull",
+      "text": "Les chiens de type pitbull et leurs croisements sont interdits: détention, élevage, cession, commerce et introduction dans le canton. Seul un séjour temporaire de 90 jours au maximum est admis, en laisse et avec muselière. L'ancienne autorisation de détention pour certaines races est abrogée depuis le 1er janvier 2024.",
+      "quellen": [
+        "fr_ldch",
+        "fr_interdits"
+      ]
+    },
+    {
+      "titel": "En promenade",
+      "marke": "Règle",
+      "ton": "note",
+      "wert": "Déjections et contrôle",
+      "text": "Ramassez les déjections de votre chien. Un chien qui n'est pas sous le contrôle de la personne qui le détient: amende d'ordre de CHF 100. En forêt, rappelez votre chien dès que d'autres personnes sont à proximité.",
+      "quellen": [
+        "fr_ldch",
+        "fr_ocao",
+        "fr_foret"
+      ]
+    }
+  ],
+  "vergleich": {
+    "wald": "1.4 au 15.7, en forêt",
+    "haft": "obligatoire, min. CHF 1 million",
+    "kurs": "théorie pour les nouveaux détenteurs, évaluation pratique pour chaque chien",
+    "rassen": "type pitbull et croisements interdits",
+    "steuer": "CHF 100 au canton, plus la commune",
+    "anm": "dans les 10 jours, commune et AMICUS"
+  },
+  "umzug": {
+    "text": "Un chien de type pitbull ou issu d'un croisement avec un tel chien ne peut pas s'installer dans le canton. Seul un séjour de 90 jours au maximum est admis, en laisse et avec muselière.",
+    "quellen": [
+      "fr_ldch",
+      "fr_interdits"
+    ]
+  }
+}

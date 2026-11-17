@@ -1,0 +1,82 @@
+{
+  "fr_ldch": {
+    "kurz": "LDCh",
+    "lang": "Canton de Fribourg: Loi sur la détention des chiens (LDCh, RSF 725.3) du 2 novembre 2006, version en vigueur depuis le 1er janvier 2024",
+    "url": "https://fr.lexwork.naz.ch/fr/dta/725.3.pdf"
+  },
+  "fr_rdch": {
+    "kurz": "RDCh",
+    "lang": "Canton de Fribourg: Règlement sur la détention des chiens (RDCh, RSF 725.31) du 13 juin 2023, version en vigueur depuis le 1er janvier 2024",
+    "url": "https://fr.lexwork.naz.ch/fr/dta/725.31.pdf"
+  },
+  "fr_ocao": {
+    "kurz": "OCAO",
+    "lang": "Canton de Fribourg: Ordonnance sur les amendes d'ordre de droit cantonal et de droit fédéral (OCAO, RSF 33.11) du 23 novembre 2021, version en vigueur depuis le 1er juillet 2024",
+    "url": "https://www.lexfind.ch/tolv/240022/fr"
+  },
+  "fr_nouveau": {
+    "kurz": "SAAV: nouveau détenteur",
+    "lang": "Etat de Fribourg, Service de la sécurité alimentaire et des affaires vétérinaires: Nouveau détenteur ou nouvelle détentrice de chiens, page modifiée le 27 janvier 2026",
+    "url": "https://www.fr.ch/vie-quotidienne/animaux-de-compagnie/chiens/nouveau-detenteur-ou-nouvelle-detentrice-de-chiens"
+  },
+  "fr_interdits": {
+    "kurz": "SAAV: chiens interdits",
+    "lang": "Etat de Fribourg, Service de la sécurité alimentaire et des affaires vétérinaires: Chiens interdits, page modifiée le 26 septembre 2025",
+    "url": "https://www.fr.ch/vie-quotidienne/animaux-de-compagnie/chiens/chiens-interdits"
+  },
+  "fr_impot": {
+    "kurz": "Etat de Fribourg: impôt sur les chiens",
+    "lang": "Etat de Fribourg: Impôt sur les chiens, page modifiée le 28 octobre 2025",
+    "url": "https://www.fr.ch/vie-quotidienne/animaux-de-compagnie/chiens/impot-sur-les-chiens"
+  },
+  "fr_foret": {
+    "kurz": "Etat de Fribourg: en forêt",
+    "lang": "Etat de Fribourg, Service des forêts et de la nature: Comportements respectueux en forêt, page modifiée le 8 avril 2026",
+    "url": "https://www.fr.ch/energie-agriculture-et-environnement/forets/comportements-respectueux-en-foret"
+  },
+  "fr_hhg": {
+    "kurz": "HHG",
+    "lang": "Kanton Freiburg: Gesetz über die Hundehaltung (HHG, SGF 725.3) vom 2. November 2006, Fassung in Kraft seit 1. Januar 2024",
+    "url": "https://www.lexfind.ch/tol/6275/de"
+  },
+  "fr_neu": {
+    "kurz": "LSVW: neue Hundehaltende",
+    "lang": "Staat Freiburg, Amt für Lebensmittelsicherheit und Veterinärwesen: Neue Hundehalterin oder neuer Hundehalter, Seite geändert am 27. Januar 2026",
+    "url": "https://www.fr.ch/de/alltag/heimtiere/neue-hundehalterin-oder-neuer-hundehalter"
+  },
+  "fr_verboten": {
+    "kurz": "LSVW: verbotene Hunde",
+    "lang": "Staat Freiburg, Amt für Lebensmittelsicherheit und Veterinärwesen: Verbotene Hunderassen, Seite geändert am 26. September 2025",
+    "url": "https://www.fr.ch/de/alltag/heimtiere/verbotene-hunde"
+  },
+  "fr_steuer": {
+    "kurz": "Staat Freiburg: Hundegebühr",
+    "lang": "Staat Freiburg: Hundegebühr, Seite geändert am 28. Oktober 2025",
+    "url": "https://www.fr.ch/de/alltag/heimtiere/hunde/hundegebuehr"
+  },
+  "fr_wald": {
+    "kurz": "Staat Freiburg: im Wald",
+    "lang": "Staat Freiburg, Amt für Wald und Natur: Respektvolles Verhalten im Wald, Seite geändert am 8. April 2026",
+    "url": "https://www.fr.ch/de/energie-landwirtschaft-und-umwelt/waelder/respektvolles-verhalten-im-wald"
+  },
+  "fr_ville_impot": {
+    "kurz": "Ville de Fribourg: impôt sur les chiens",
+    "lang": "Ville de Fribourg: Règlement concernant l'impôt communal sur les chiens (410.2) du 18 janvier 1993, état au 26 janvier 1993",
+    "url": "https://www.ville-fribourg.ch/sites/default/files/2020-10/410.2_reglement_impot_sur_les_chiens_1993.pdf"
+  },
+  "fr_ville_rgp": {
+    "kurz": "Ville de Fribourg: règlement de police",
+    "lang": "Ville de Fribourg: Règlement général de police du 4 juillet 2023, texte adopté par le Conseil général (avis de publication)",
+    "url": "https://ville-fribourg.ch/sites/default/files/inline-files/CG230704_Règlement général de police.pdf"
+  },
+  "fr_ville_rgp_d": {
+    "kurz": "Stadt Freiburg: Polizeireglement",
+    "lang": "Stadt Freiburg: Allgemeines Polizeireglement (300.1) vom 4. Juli 2023, Stand 1. Januar 2025, in Kraft seit 1. Januar 2025 (deutsche Fassung)",
+    "url": "https://ville-fribourg.ch/sites/default/files/2024-12/300.1_reglement_de_police_2022_mv_d.pdf"
+  },
+  "fr_ville_cimetiere": {
+    "kurz": "Ville de Fribourg: cimetière",
+    "lang": "Ville de Fribourg: Règlement du cimetière communal (RCC, 610.1) du 16 septembre 2024, en vigueur depuis le 1er janvier 2026",
+    "url": "https://www.ville-fribourg.ch/sites/default/files/2025-12/610.1_reglement_du_cimetiere_communal_2024.pdf"
+  }
+}
