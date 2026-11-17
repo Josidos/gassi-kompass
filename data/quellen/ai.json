@@ -1,0 +1,32 @@
+{
+  "ai_hug": {
+    "kurz": "Hundegesetz AI",
+    "lang": "Kanton Appenzell Innerrhoden: Hundegesetz (HuG, GS 560.100) vom 24. April 2005, Stand 1. Januar 2011",
+    "url": "https://www.lexfind.ch/tol/1268/de"
+  },
+  "ai_huv": {
+    "kurz": "Verordnung zum Hundegesetz AI",
+    "lang": "Kanton Appenzell Innerrhoden: Verordnung zum Hundegesetz (HuV, GS 560.110) vom 21. November 2005, Stand 1. Januar 2025",
+    "url": "https://www.lexfind.ch/tolv/250167/de"
+  },
+  "ai_alpv": {
+    "kurz": "Alpverordnung AI",
+    "lang": "Kanton Appenzell Innerrhoden: Verordnung zum Alpgesetz (GS 916.510) vom 12. Februar 1996, Stand 1. Dezember 2014",
+    "url": "https://www.lexfind.ch/tol/1037/de"
+  },
+  "ai_jav": {
+    "kurz": "Verordnung zum Jagdgesetz AI",
+    "lang": "Kanton Appenzell Innerrhoden: Verordnung zum Jagdgesetz (JaV, GS 922.010) vom 13. Juni 1989, Stand 1. Januar 2025",
+    "url": "https://www.lexfind.ch/tolv/250166/de"
+  },
+  "ai_vob": {
+    "kurz": "Ordnungsbussen AI",
+    "lang": "Kanton Appenzell Innerrhoden: Verordnung über die Ordnungsbussen (VOB, GS 311.010) vom 20. Juni 2022 mit Anhang 1, Stand 1. August 2023",
+    "url": "https://ai.clex.ch/frontend/structured_documents/4200/download_pdf_file_and_annex?locale=de"
+  },
+  "ai_kurs": {
+    "kurz": "Kanton AI: Hundehalterausbildung",
+    "lang": "Kanton Appenzell Innerrhoden, Veterinäramt beider Appenzell: Hundehalterausbildung",
+    "url": "https://www.ai.ch/themen/landwirtschaft-tierhaltung/tierhaltung/hundehalterausbildung"
+  }
+}
