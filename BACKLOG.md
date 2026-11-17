@@ -17,7 +17,7 @@ Bleibt ein Kanton nach einem Lauf unvollständig (Entwurf unter `data/entwurf/`)
 
 ## 1. Deutschsprachige Kantone
 
-Ungefähr nach Bevölkerung. Schon erfasst: Zürich, Bern, Luzern, Aargau, St. Gallen, Basel-Stadt, Basel-Landschaft, Thurgau, Solothurn, Schwyz.
+Ungefähr nach Bevölkerung. Schon erfasst: Zürich, Bern, Luzern, Aargau, St. Gallen, Basel-Stadt, Basel-Landschaft, Thurgau, Solothurn, Schwyz, Appenzell Innerrhoden.
 
 - [x] Aargau (`ag`), 2026-11-17
 - [x] St. Gallen (`sg`), 2026-11-17, mit Stadt St. Gallen
@@ -34,7 +34,7 @@ Ungefähr nach Bevölkerung. Schon erfasst: Zürich, Bern, Luzern, Aargau, St. G
 - [ ] Glarus (`gl`)
 - [ ] Obwalden (`ow`)
 - [ ] Uri (`ur`)
-- [ ] Appenzell Innerrhoden (`ai`)
+- [x] Appenzell Innerrhoden (`ai`), 2026-11-17, ohne Gemeinde (Bezirk Appenzell zurückgestellt)
 
 ## 2. Französisch und Italienisch
 
@@ -77,6 +77,11 @@ Ungefähr nach Grösse. Neue Kantone tragen hier ihre grössten Gemeinden ein.
 - [ ] Einsiedeln (SZ)
 - [x] Schwyz (SZ), 2026-11-17
 - [ ] Arth (SZ)
+- [ ] Bezirk Appenzell (AI): zurückgestellt am 2026-11-17. Die Seite «Hundekontrolle / Vollzug HuG» des Bezirks nennt nur die kantonalen Steuerbeträge und die Meldestelle. Eigene Leinenzonen, hundefreie Zonen oder Bussen waren nach zwei Suchen nicht zu finden.
+- [ ] Schwende-Rüte (AI). Hinweis für alle Innerrhoder Bezirke: Die Hundesteuer ist kantonal festgelegt, lokale Angaben gibt es nur, wenn ein Bezirk Leinenzonen oder hundefreie Zonen nach Art. 6 HuG angeordnet hat.
+- [ ] Oberegg (AI)
+- [ ] Gonten (AI)
+- [ ] Schlatt-Haslen (AI)
 - [ ] Riehen (BS)
 - [ ] Bettingen (BS)
 - [ ] Rapperswil-Jona (SG)
@@ -154,6 +159,9 @@ Ungefähr nach Grösse. Neue Kantone tragen hier ihre grössten Gemeinden ein.
 - [ ] Bezirk Küssnacht: Eine Mitteilung des Bezirks vom 3. September 2020 beschreibt eine eingezäunte Hundewiese beim Sportzentrum Luterbach. Eine spätere Mitteilung («IG übernimmt Hundewiese») war nicht abrufbar. Mit aktueller Quelle ergänzen.
 - [ ] Kanton Schwyz: Die Teilrevision des Hundegesetzes war am 16. September 2026 im Kantonsrat. Ergebnis und Inkrafttreten waren am 2026-11-17 amtlich nicht auffindbar. Bei jedem Nachprüfen den Stand von SRSZ 546.100 prüfen. Die Revision bringt laut Medienmitteilung vom 25. August 2026: Kurspflicht innert 18 Monaten, Jahressteuer mit Sätzen des Gemeinderats, Freilaufzonen, keine Hundemarke mehr. Danach Kanton und Küssnacht anpassen.
 - [ ] Bezirk Küssnacht: Die Seite stützt sich auf die Broschüre von April 2019. Die aktuellen Seiten (Dienstleistung Hunde, Hundewiese, Ausnahme im Luterbach) lassen den Abruf nicht zu (robots). Mit einer neueren Quelle bestätigen, Hundewiese ergänzen.
+- [ ] Kanton Appenzell Innerrhoden: Jagdgesetz (GS 922.000) und Wildruhegebiete auf Regeln für Hunde prüfen. Danach den Wald-Text anpassen.
+- [ ] Kanton Appenzell Innerrhoden: Seite «Leinenpflicht in beiden Appenzell» (ar.ch, Veterinäramt) abrufen und mit `leine` abgleichen.
+- [ ] Kanton Appenzell Innerrhoden: Daten der Alpzeit und betroffene Alpen (Alpgesetz, Art. 1 der Verordnung) belegen.
 
 ## 5. Umbauten am Generator
 

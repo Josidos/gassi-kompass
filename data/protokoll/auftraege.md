@@ -48,7 +48,6 @@ Alle Aufträge unten: vergeben am 2026-11-17 um 23:55 Uhr.
 
 ## Staffel E
 
-- `ai`: Kanton Appenzell Innerrhoden
 - `fr-fr`: Kanton Freiburg, französisch und deutsch
 - `pruefung-bl`, `pruefung-tg`, `pruefung-so`: Gegenprüfung. Die Dateien dieser Kantone und ihrer Gemeinden ändert sonst niemand.
 - `luecken-ag`, `luecken-sg`, `luecken-bs`, `luecken-zh`, `luecken-be`, `luecken-lu`: Lücken aus Abschnitt 4 des Backlogs samt Gegenprüfung. Die Dateien dieser Kantone und ihrer ersten Gemeinde ändert sonst niemand.
