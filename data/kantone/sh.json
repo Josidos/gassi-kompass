@@ -1,0 +1,149 @@
+{
+  "id": "sh",
+  "name": "Kanton Schaffhausen",
+  "kurz": "SH",
+  "im": "im Kanton Schaffhausen",
+  "des": "des Kantons Schaffhausen",
+  "geprueft": "2026-11-17",
+  "wald": {
+    "saison": true,
+    "von": "04-15",
+    "bis": "06-30",
+    "wo": "im Wald und in Waldesnähe",
+    "quellen": [
+      "sh_merkblatt",
+      "sh_hundeg"
+    ]
+  },
+  "leine": {
+    "punkte": [
+      "auf öffentlichen Kinderspielplätzen",
+      "auf Friedhöfen",
+      "in öffentlich zugänglichen Gebäuden",
+      "an verkehrsreichen Strassen",
+      "in öffentlichen Verkehrsmitteln, an Bahnhöfen und Haltestellen",
+      "im Wald und in Waldesnähe während der Brut- und Setzzeit, 15. April bis 30. Juni",
+      "in unmittelbarer Nähe von Weiden, auf denen Tiere sind",
+      "an Orten, die der Gemeinderat signalisiert hat",
+      "immer im öffentlichen Raum, wenn der Hund läufig oder bissig ist oder eine ansteckende Krankheit hat"
+    ],
+    "quellen": [
+      "sh_hundeg",
+      "sh_merkblatt"
+    ]
+  },
+  "verbot": {
+    "einleitung": "Hier darfst du deinen Hund weder mitführen noch frei laufen lassen (Stand des Gesetzestexts: 2010):",
+    "punkte": [
+      "Badeanstalten",
+      "Pausenplätze von Schulhausanlagen",
+      "Orte, die der Gemeinderat signalisiert hat"
+    ],
+    "quellen": [
+      "sh_hundeg"
+    ]
+  },
+  "karten": [
+    {
+      "titel": "Haftpflicht",
+      "marke": "Pflicht",
+      "ton": "must",
+      "wert": "mind. CHF 1 Mio.",
+      "text": "Wer einen Hund hält, braucht eine Haftpflichtversicherung mit einer Deckungssumme von mindestens CHF 1 Mio. und muss sie nachweisen können. Stand des Gesetzestexts: 2010.",
+      "quellen": [
+        "sh_hundeg",
+        "sh_merkblatt"
+      ]
+    },
+    {
+      "titel": "Kurs",
+      "marke": "im Einzelfall",
+      "ton": "note",
+      "wert": "kein eigener Kurs im Hundegesetz",
+      "text": "Das Hundegesetz nennt keinen eigenen kantonalen Kurs. Es verweist für den Ausbildungsnachweis auf die Tierschutzgesetzgebung des Bundes. Die Behörde kann im Einzelfall den Besuch eines Hundeerziehungskurses anordnen. Für einen bewilligungspflichtigen Hund musst du kynologische Fachkenntnisse nachweisen. Stand des Gesetzestexts: 2010.",
+      "quellen": [
+        "sh_hundeg",
+        "sh_merkblatt"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "marke": "10 Tage",
+      "ton": "must",
+      "wert": "Gemeinde und AMICUS",
+      "text": "Hunde, die älter als drei Monate sind, meldest du innert 10 Tagen bei deiner Wohnsitzgemeinde an. Dazu kommt die Registrierung in der Hundedatenbank AMICUS. Änderungen von Name oder Adresse, eine Übernahme und den Tod des Hundes meldest du ebenfalls innert 10 Tagen. Der Hund trägt zusätzlich eine Kontrollmarke der Gemeinde (Stand der Verordnung: 2009).",
+      "quellen": [
+        "sh_hundeg",
+        "sh_hundev",
+        "sh_merkblatt"
+      ]
+    },
+    {
+      "titel": "Hundesteuer",
+      "marke": "jährlich",
+      "ton": "note",
+      "wert": "CHF 100 bis 200, je nach Gemeinde",
+      "text": "Die Hundeabgabe beträgt CHF 100 bis CHF 200 pro Hund und Kalenderjahr. Die Höhe legt der Gemeinderat fest. Hältst du den Hund erst nach dem 30. Juni neu oder wird er erst dann drei Monate alt, zahlst du für dieses Jahr die Hälfte. Befreit sind unter anderem Hunde unter drei Monaten, Diensthunde, Katastrophenhunde und Blindenhunde. Stand des Gesetzestexts: 2010, der Rahmen von CHF 100 bis 200 wird 2023 in einer Anfrage im Grossen Stadtrat Schaffhausen bestätigt.",
+      "quellen": [
+        "sh_hundeg",
+        "sh_stadt_ka"
+      ]
+    },
+    {
+      "titel": "Rassen",
+      "marke": "Bewilligung",
+      "ton": "must",
+      "wert": "Hunde mit erhöhtem Gefährdungspotenzial",
+      "text": "Für Hunde bestimmter Rassentypen und ihre Mischlinge brauchst du eine Bewilligung des Veterinäramts. Sie muss beantragt und erteilt sein, bevor du den Hund anschaffst, auch für eine Probehaltung oder kurzes Hüten. Verlangt werden unter anderem der Nachweis kynologischer Fachkenntnisse, ein Strafregisterauszug, eine Wohnsitzbescheinigung und der Nachweis der Haftpflichtversicherung. Wer zum ersten Mal einen Hund hält, erhält in der Regel keine Bewilligung. Auch neuere Züchtungen aus solchen Rassentypen sind bewilligungspflichtig, zum Beispiel American Bully oder Miniature Bullterrier. Im Zweifel entscheidet das Veterinäramt.",
+      "mehr": {
+        "titel": "Im Merkblatt genannte Rassentypen anzeigen",
+        "punkte": [
+          "American Staffordshire Terrier",
+          "Bullterrier",
+          "Staffordshire Bullterrier",
+          "American Pitbull",
+          "Cane Corso",
+          "Dobermann",
+          "Dogo Argentino",
+          "Fila Brasileiro",
+          "Mastiff",
+          "Mastín Español",
+          "Mastino Napoletano",
+          "Presa Canario",
+          "Rottweiler",
+          "Tosa"
+        ]
+      },
+      "quellen": [
+        "sh_merkblatt",
+        "sh_hundeg"
+      ]
+    },
+    {
+      "titel": "Unterwegs",
+      "marke": "Regel",
+      "ton": "note",
+      "wert": "Kot, Lärm und bei Fuss im Wald",
+      "text": "Den Kot deines Hundes nimmst du auf fremdem und öffentlichem Grund auf. Im Wald und in dessen unmittelbarer Nähe hältst du den Hund bei Fuss. Andauerndes Bellen oder Heulen, das andere belästigt, musst du verhindern. Verstösse gegen das Hundegesetz können mit Busse bis CHF 10 000 bestraft werden, in leichten Fällen mit einem Verweis. Stand des Gesetzestexts: 2010.",
+      "quellen": [
+        "sh_hundeg",
+        "sh_merkblatt"
+      ]
+    }
+  ],
+  "vergleich": {
+    "wald": "15.4. bis 30.6., im Wald und in Waldesnähe",
+    "haft": "Pflicht, mind. CHF 1 Mio.",
+    "kurs": "kein eigener Kurs, Anordnung im Einzelfall",
+    "rassen": "Bewilligungspflicht für Rassentypen",
+    "steuer": "CHF 100 bis 200, je nach Gemeinde",
+    "anm": "innert 10 Tagen, Gemeinde und AMICUS"
+  },
+  "umzug": {
+    "text": "Ziehst du mit einem bewilligungspflichtigen Hund in den Kanton Schaffhausen, reichst du das Gesuch um eine Haltungsbewilligung innert 10 Tagen ein.",
+    "quellen": [
+      "sh_merkblatt",
+      "sh_hundeg"
+    ]
+  }
+}

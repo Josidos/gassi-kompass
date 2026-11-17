@@ -1,0 +1,32 @@
+{
+  "sh_hundeg": {
+    "kurz": "Hundegesetz SH",
+    "lang": "Kanton Schaffhausen: Gesetz über das Halten von Hunden vom 27. Oktober 2008, SHR 455.200 (Fassung mit Stand 2010)",
+    "url": "https://www.lexfind.ch/tolv/74638/de"
+  },
+  "sh_hundev": {
+    "kurz": "Hundeverordnung SH",
+    "lang": "Kanton Schaffhausen: Verordnung zum Gesetz über das Halten von Hunden vom 10. März 2009 (Fassung von 2009)",
+    "url": "https://www.lexfind.ch/tolv/74640/de"
+  },
+  "sh_merkblatt": {
+    "kurz": "Veterinäramt SH: Merkblatt",
+    "lang": "Kanton Schaffhausen, Veterinäramt: Vorschriften für den Erwerb und das Halten eines Hundes mit erhöhtem Gefährdungspotential (Merkblatt ohne Datum)",
+    "url": "https://sh.ch/CMS/get/file/9fd13fad-f39e-49c5-b47a-1a0582c9b0fc"
+  },
+  "sh_stadt_ka": {
+    "kurz": "Stadt Schaffhausen: Kleine Anfrage Hundesteuer",
+    "lang": "Stadt Schaffhausen, Grosser Stadtrat: Kleine Anfrage 26/2023 zur Hundesteuer (eingegangen am 22.5.2023)",
+    "url": "https://www.stadt-schaffhausen.ch/_docn/4474495/KA_26_2023_M._Lacher_Hundesteuer.pdf"
+  },
+  "sh_stadt_polv": {
+    "kurz": "Polizeiverordnung Stadt Schaffhausen",
+    "lang": "Stadt Schaffhausen: Polizeiverordnung vom 18. März 2008, RSS 400.1 (Stand 1.1.2016)",
+    "url": "https://www.stadt-schaffhausen.ch/_docn/3720809/400.1_.pdf"
+  },
+  "sh_stadt_friedhof": {
+    "kurz": "Friedhofreglement Stadt Schaffhausen",
+    "lang": "Stadt Schaffhausen: Friedhof- und Bestattungsreglement vom 14. Juni 2011, RSS 570.1 (Stand 27.6.2023)",
+    "url": "https://www.stadt-schaffhausen.ch/_docn/4688449/570.1.pdf"
+  }
+}
