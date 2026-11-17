@@ -1,0 +1,32 @@
+{
+  "zh_regensdorf_hundewesen": {
+    "kurz": "Gemeinde Regensdorf: Hundewesen",
+    "lang": "Gemeinde Regensdorf: Hundewesen (Anmeldung bei den Einwohnerdiensten, Frist)",
+    "url": "https://www.regensdorf.ch/dienstleistungen/11373"
+  },
+  "zh_regensdorf_anmeldung": {
+    "kurz": "Gemeinde Regensdorf: Anmeldung Hund",
+    "lang": "Gemeinde Regensdorf: Anmeldung Hund (Unterlagen, Gebühr)",
+    "url": "https://www.regensdorf.ch/dienstleistungen/108583"
+  },
+  "zh_regensdorf_schalter": {
+    "kurz": "Gemeinde Regensdorf: Online-Schalter Hund",
+    "lang": "Gemeinde Regensdorf: Online-Schalter, Anmeldung/Abmeldung Hund (Rechnung der Hundesteuer)",
+    "url": "https://www.regensdorf.ch/online-schalter/35025/detail"
+  },
+  "zh_volketswil_hundeabgabe": {
+    "kurz": "Gemeinde Volketswil: Hundeabgabe",
+    "lang": "Gemeinde Volketswil, Sicherheitsabteilung: Hundeabgabe (verweist auf den Beschluss von 2017)",
+    "url": "https://www.volketswil.ch/verwaltung/abteilungen/sicherheit/dl-sicherheitsabteilung/hundeverabgabung.html/98"
+  },
+  "zh_volketswil_polv": {
+    "kurz": "Polizeiverordnung Volketswil",
+    "lang": "Politische Gemeinde Volketswil: Polizeiverordnung vom 12. April 2024, in Kraft seit 1. Juni 2024 (Art. 13 geändert per 1. Mai 2026)",
+    "url": "https://www.volketswil.ch/public/upload/assets/14101/50.01%20Polizeiverordnung%20der%20Politischen%20Gemeinde%20Volketswil.pdf?fp=2"
+  },
+  "zh_ilef_gebrgl": {
+    "kurz": "Gebührenreglement Illnau-Effretikon",
+    "lang": "Stadt Illnau-Effretikon: Gebührenreglement (IE-Nr. 200.02.01), vom Stadtrat festgesetzt am 25. Oktober 2018, Stand 1. Januar 2019",
+    "url": "https://www.ilef.ch/_docn/3061592/200.02.01_Gebuehrenreglement_GebRgl_per_01.01.2019.pdf"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "illnau-effretikon",
+  "kanton": "zh",
+  "bfs": 296,
+  "name": "Illnau-Effretikon",
+  "ort": "Illnau-Effretikon",
+  "in_ort": "in Illnau-Effretikon",
+  "geprueft": "2026-11-17",
+  "einleitung": "Alle Beträge stammen aus dem Gebührenreglement der Stadt mit Stand 1. Januar 2019. Eine neuere Fassung war nicht auffindbar.",
+  "karten": [
+    {
+      "titel": "Hundetaxe",
+      "wert": "CHF 150 pro Hund und Jahr (Stand 2019)",
+      "text": "Die Hundeabgabe beträgt CHF 150 pro Hund und Kalenderjahr. Wird die Abgabe erst nach dem 30. Juni fällig, sind es CHF 75. Stand des Gebührenreglements: 1. Januar 2019.",
+      "quellen": [
+        "zh_ilef_gebrgl"
+      ]
+    },
+    {
+      "titel": "Meldegebühr",
+      "wert": "gratis, verspätet CHF 20 (Stand 2019)",
+      "text": "Eine ordentliche Meldung ist gratis. Für eine verspätete Meldung oder eine Aufforderung verrechnet die Stadt CHF 20. Stand des Gebührenreglements: 1. Januar 2019.",
+      "quellen": [
+        "zh_ilef_gebrgl"
+      ]
+    },
+    {
+      "titel": "Entlaufener Hund",
+      "wert": "Vermittlung CHF 20 (Stand 2019)",
+      "text": "Für die Vermittlung eines entlaufenen Hundes verrechnet das Fundbüro CHF 20. Stand des Gebührenreglements: 1. Januar 2019.",
+      "quellen": [
+        "zh_ilef_gebrgl"
+      ]
+    }
+  ]
+}

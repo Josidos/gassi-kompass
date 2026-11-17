@@ -1,0 +1,45 @@
+{
+  "id": "regensdorf",
+  "kanton": "zh",
+  "bfs": 96,
+  "name": "Regensdorf",
+  "ort": "Regensdorf",
+  "in_ort": "in Regensdorf",
+  "geprueft": "2026-11-17",
+  "einleitung": "Die Gemeinde nimmt die Anmeldung online entgegen. Den Betrag der Hundesteuer nennt sie auf ihren Seiten nicht.",
+  "karten": [
+    {
+      "titel": "Anmeldung",
+      "wert": "Einwohnerdienste, online, innert 10 Tagen",
+      "text": "Du meldest deinen Hund innert 10 Tagen nach der Übernahme bei den Einwohnerdiensten Regensdorf an. Das geht über das Onlineformular der Gemeinde oder per E-Mail, ein Besuch am Schalter ist nicht nötig. Auch die Abgabe oder den Tod eines Hundes meldest du innert 10 Tagen.",
+      "quellen": [
+        "zh_regensdorf_hundewesen",
+        "zh_regensdorf_anmeldung"
+      ]
+    },
+    {
+      "titel": "Meldegebühr",
+      "wert": "CHF 20",
+      "text": "Die Anmeldung eines Hundes kostet CHF 20.",
+      "quellen": [
+        "zh_regensdorf_anmeldung"
+      ]
+    },
+    {
+      "titel": "Unterlagen",
+      "wert": "Ausweis, Heimtierpass, Kursnachweise",
+      "text": "Für die Anmeldung brauchst du deinen Pass, deine Identitätskarte oder deinen Ausländerausweis, den Heimtierpass des Hundes und die Nachweise über bereits besuchte Hundekurse.",
+      "quellen": [
+        "zh_regensdorf_anmeldung"
+      ]
+    },
+    {
+      "titel": "Hundetaxe",
+      "wert": "Rechnung im Februar oder März",
+      "text": "Die Rechnung für die Hundesteuer kommt jedes Jahr im Februar oder März per Post. Den Betrag nennt die Gemeinde auf ihren Seiten nicht.",
+      "quellen": [
+        "zh_regensdorf_schalter"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "volketswil",
+  "kanton": "zh",
+  "bfs": 199,
+  "name": "Volketswil",
+  "ort": "Volketswil",
+  "in_ort": "in Volketswil",
+  "geprueft": "2026-11-17",
+  "einleitung": "Die Polizeiverordnung der Gemeinde kennt keine eigene Leinenpflicht und keine Hundeverbote. Es gelten die Regeln des Kantons.",
+  "karten": [
+    {
+      "titel": "Hundetaxe",
+      "wert": "CHF 180 pro Hund und Jahr",
+      "text": "Die Hundeabgabe beträgt CHF 180 pro Hund und Jahr. Darin ist der Beitrag an den Kanton von CHF 30 enthalten.",
+      "quellen": [
+        "zh_volketswil_hundeabgabe"
+      ]
+    },
+    {
+      "titel": "Halbe Abgabe",
+      "wert": "bei Beginn nach dem 30. Juni",
+      "text": "Beginnt die Hundehaltung nach dem 30. Juni oder wird der Hund erst danach drei Monate alt, ist die Hälfte der Abgabe fällig.",
+      "quellen": [
+        "zh_volketswil_hundeabgabe"
+      ]
+    },
+    {
+      "titel": "Tierhaltung",
+      "wert": "Niemanden belästigen oder gefährden",
+      "text": "Nach der Polizeiverordnung sind Tiere so zu halten und zu beaufsichtigen, dass sie weder Personen noch andere Tiere belästigen oder gefährden (Art. 5). Entweicht ein gefährliches Tier, meldest du das sofort der Polizei.",
+      "quellen": [
+        "zh_volketswil_polv"
+      ]
+    },
+    {
+      "titel": "Bussen",
+      "wert": "Busse, Betrag legt der Gemeinderat fest",
+      "text": "Wer die Polizeiverordnung verletzt, wird mit Busse bestraft (Art. 25). Die Beträge der Ordnungsbussen legt der Gemeinderat fest, die Verordnung selbst nennt keine.",
+      "quellen": [
+        "zh_volketswil_polv"
+      ]
+    }
+  ]
+}
