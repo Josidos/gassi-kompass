@@ -1,0 +1,40 @@
+{
+  "id": "fribourg",
+  "kanton": "fr",
+  "bfs": 2196,
+  "name": "Ville de Fribourg",
+  "ort": "Fribourg",
+  "in_ort": "à Fribourg",
+  "geprueft": "2026-11-17",
+  "hinweis_heute": "En ville de Fribourg, la laisse est obligatoire toute l'année dans de nombreux lieux publics, notamment au centre-ville, dans les jardins publics et sur les places de jeux.",
+  "einleitung": "Le règlement général de police de la Ville, en vigueur depuis le 1er janvier 2025, fixe les lieux où la laisse est obligatoire. La Ville prélève son propre impôt sur les chiens, en plus de l'impôt cantonal.",
+  "karten": [
+    {
+      "titel": "Impôt sur les chiens",
+      "wert": "CHF 120 par an et par animal",
+      "text": "Impôt communal, en plus de l'impôt cantonal. Exonérés: chiens d'aveugles, de police, d'armée et d'avalanche, ainsi qu'un chien par bénéficiaire de prestations complémentaires AVS ou AI. Soustraction à l'impôt: amende de CHF 30 à CHF 100. État du règlement: 1993.",
+      "quellen": [
+        "fr_ville_impot"
+      ]
+    },
+    {
+      "titel": "Laisse",
+      "wert": "dans les lieux et manifestations publics",
+      "text": "En particulier au centre-ville, dans les zones piétonnes et les rues fréquentées, sur les places de jeux et à leurs abords, dans les jardins publics et d'agrément, sur les places de sport, dans les bâtiments et l'enceinte des écoles, dans les bâtiments communaux et dans les cimetières. Ailleurs, vous tenez votre chien en laisse à l'approche de passants. Le règlement du cimetière communal exige lui aussi la laisse pour les animaux de compagnie.",
+      "quellen": [
+        "fr_ville_rgp",
+        "fr_ville_rgp_d",
+        "fr_ville_cimetiere"
+      ]
+    },
+    {
+      "titel": "Amendes",
+      "wert": "CHF 20 à CHF 1000",
+      "text": "Les infractions au règlement général de police sont punies d'une amende de CHF 20 à CHF 1000. Les crottes doivent être enlevées aussitôt par la personne qui a la garde de l'animal. Il est interdit de laisser errer son animal sur le territoire communal.",
+      "quellen": [
+        "fr_ville_rgp",
+        "fr_ville_rgp_d"
+      ]
+    }
+  ]
+}
