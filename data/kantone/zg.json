@@ -1,0 +1,115 @@
+{
+  "id": "zg",
+  "name": "Kanton Zug",
+  "kurz": "ZG",
+  "im": "im Kanton Zug",
+  "des": "des Kantons Zug",
+  "geprueft": "2026-11-17",
+  "wald": {
+    "saison": true,
+    "von": "04-01",
+    "bis": "07-31",
+    "wo": "im Wald und am Waldrand",
+    "quellen": [
+      "zg_wald",
+      "zg_wald_mm"
+    ]
+  },
+  "leine": {
+    "punkte": [
+      "im Wald und am Waldrand, 1. April bis 31. Juli",
+      "in Naturschutzgebieten (teils sind Hunde dort gar nicht erlaubt)",
+      "überall, wo die Gemeinde oder ein Schild es verlangt",
+      "vom Kanton empfohlen, aber keine kantonale Pflicht: in öffentlichen Gebäuden, an Bahnhöfen und Bushaltestellen, in Restaurants und Läden, in Wohnzonen, bei Spiel- und Sportplätzen, an stark befahrenen Strassen, in der Dämmerung und nachts"
+    ],
+    "quellen": [
+      "zg_vet",
+      "zg_wald_mm"
+    ]
+  },
+  "verbot": {
+    "einleitung": "Der Kanton nennt Orte, an die du deinen Hund nicht mitnehmen sollst. Verbindlich sind die Regeln und Schilder deiner Gemeinde.",
+    "punkte": [
+      "Schulen und Pausenplätze",
+      "Spiel- und Sportplätze",
+      "Friedhöfe",
+      "öffentliche Schwimmbäder"
+    ],
+    "quellen": [
+      "zg_vet"
+    ]
+  },
+  "karten": [
+    {
+      "titel": "Haftpflicht",
+      "marke": "Gemeinde",
+      "ton": "note",
+      "wert": "Reglement der Gemeinde",
+      "text": "Für das Halten von Hunden sind laut Kanton die Tierschutzverordnung des Bundes und die Gesetze und Reglemente der Zuger Gemeinden massgebend. Die Seite des Kantons nennt keine Versicherungspflicht. Ob deine Gemeinde eine Haftpflichtversicherung verlangt, steht in ihrem Hundereglement.",
+      "quellen": [
+        "zg_vet"
+      ]
+    },
+    {
+      "titel": "Kurs",
+      "marke": "Gemeinde",
+      "ton": "note",
+      "wert": "Reglement der Gemeinde",
+      "text": "Für das Halten von Hunden sind laut Kanton die Tierschutzverordnung des Bundes und die Gesetze und Reglemente der Zuger Gemeinden massgebend. Die Seite des Kantons nennt keinen Pflichtkurs. Ob deine Gemeinde einen Kurs verlangt, steht in ihrem Hundereglement.",
+      "quellen": [
+        "zg_vet"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "marke": "Pflicht",
+      "ton": "note",
+      "wert": "Gemeinde und AMICUS",
+      "text": "Lass dich bei deiner Wohngemeinde als Halterin oder Halter eintragen. Sie erfasst deine Personendaten in der Hundedatenbank AMICUS. Den Hund registriert die Tierärztin oder der Tierarzt. Abgabe, Übernahme oder Tod des Hundes meldest du selbst an AMICUS. Importierte Hunde müssen innert 10 Tagen nach der Einreise registriert werden.",
+      "quellen": [
+        "zg_registrierung"
+      ]
+    },
+    {
+      "titel": "Hundesteuer",
+      "marke": "Gemeinde",
+      "ton": "note",
+      "wert": "je nach Gemeinde",
+      "text": "Die Hundesteuer steht im Reglement deiner Gemeinde. Die Daten der Hundedatenbank dürfen für die Erhebung der Hundesteuer verwendet werden. Ein Beispiel: Steinhausen verlangt CHF 70 pro Hund und Kalenderjahr für Hunde ab drei Monaten (Merkblatt 2025).",
+      "quellen": [
+        "zg_vv_tsg",
+        "zg_steinhausen_steuer"
+      ]
+    },
+    {
+      "titel": "Rassen",
+      "marke": "Gemeinde",
+      "ton": "note",
+      "wert": "Reglement der Gemeinde",
+      "text": "Für das Halten von Hunden sind laut Kanton die Tierschutzverordnung des Bundes und die Gesetze und Reglemente der Zuger Gemeinden massgebend. Die Seiten des Kantons nennen keine Rasseliste. Verletzt ein Hund Menschen oder Tiere erheblich oder zeigt er übermässiges Aggressionsverhalten, müssen Tierärzte, Ärzte, Tierheime, Tierbetreuungen, Hundeausbildner und Zoll das dem Veterinärdienst melden.",
+      "quellen": [
+        "zg_vet",
+        "zg_vorfaelle"
+      ]
+    },
+    {
+      "titel": "Unterwegs",
+      "marke": "Regel",
+      "ton": "note",
+      "wert": "Sichtdistanz und Abruf",
+      "text": "Halte deinen Hund jederzeit so unter Kontrolle, dass er weder Personen noch Tiere gefährdet. Im Wald und am Waldrand bleibt er auch ausserhalb der Leinenzeit in Sichtdistanz und ist jederzeit abrufbar. Örtliche Leinenpflichten und Hundeverbote gehen vor.",
+      "quellen": [
+        "zg_vet",
+        "zg_wald"
+      ]
+    }
+  ],
+  "vergleich": {
+    "wald": "1.4. bis 31.7., im Wald und am Waldrand",
+    "haft": "Reglement der Gemeinde",
+    "kurs": "Reglement der Gemeinde",
+    "rassen": "keine Liste beim Kanton genannt, Reglement der Gemeinde",
+    "steuer": "je nach Gemeinde",
+    "anm": "Wohngemeinde und AMICUS"
+  }
+}

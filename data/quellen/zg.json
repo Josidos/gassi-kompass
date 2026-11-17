@@ -1,0 +1,37 @@
+{
+  "zg_vet": {
+    "kurz": "Veterinärdienst ZG",
+    "lang": "Kanton Zug, Veterinärdienst: Hunde",
+    "url": "https://zg.ch/de/natur-umwelt-tiere/veterinaerwesen/hunde"
+  },
+  "zg_wald": {
+    "kurz": "Amt für Wald und Wild ZG",
+    "lang": "Kanton Zug, Amt für Wald und Wild: Freizeit und Erholung im Wald",
+    "url": "https://zg.ch/de/natur-umwelt-tiere/wald/freizeit-und-erholung"
+  },
+  "zg_wald_mm": {
+    "kurz": "Kanton ZG: Leinenpflicht im Wald",
+    "lang": "Kanton Zug, Medienmitteilung vom 27. März 2025: Hundeleinenpflicht im Wald und am Waldrand von April bis Juli (Einführungsgesetz zum Waldgesetz, in Kraft seit 1. Januar 2025)",
+    "url": "https://zg.ch/de/news/2025/March/hundeleinenpflicht-im-wald-und-am-waldrand-von-april-bis-juli"
+  },
+  "zg_registrierung": {
+    "kurz": "Veterinärdienst ZG: Registrierung",
+    "lang": "Kanton Zug, Veterinärdienst: Registrierung und Kennzeichnung",
+    "url": "https://zg.ch/de/natur-umwelt-tiere/veterinaerwesen/tiergesundheit/registrierung-kennzeichnung"
+  },
+  "zg_vorfaelle": {
+    "kurz": "Veterinärdienst ZG: Vorfälle",
+    "lang": "Kanton Zug, Veterinärdienst: Vorfälle mit Hunden",
+    "url": "https://zg.ch/de/natur-umwelt-tiere/veterinaerwesen/hunde/vorfaelle-mit-hunden"
+  },
+  "zg_vv_tsg": {
+    "kurz": "VV Tierseuchengesetz ZG",
+    "lang": "Kanton Zug, Vollziehungsverordnung zum Tierseuchengesetz (BGS 925.11), § 18 und § 18a, Stand 19. Dezember 2015",
+    "url": "https://www.lexfind.ch/tol/19997/de"
+  },
+  "zg_steinhausen_steuer": {
+    "kurz": "Steinhausen: Hundesteuer",
+    "lang": "Gemeinde Steinhausen, Merkblatt Hundesteuer 2025",
+    "url": "https://www.zg.ch/behoerden/gemeinden/steinhausen/verwaltung/praesidiales/hundesteuer/copy_of_dokumente/merkblatt-hundesteuer-2025/download"
+  }
+}
