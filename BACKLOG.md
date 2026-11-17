@@ -64,11 +64,11 @@ Ungefähr nach Grösse. Neue Kantone tragen hier ihre grössten Gemeinden ein.
 - [ ] Pratteln (BL)
 - [ ] Binningen (BL)
 - [ ] Liestal (BL)
-- [ ] Kreuzlingen (TG)
-- [ ] Arbon (TG)
-- [ ] Amriswil (TG)
-- [ ] Weinfelden (TG)
-- [ ] Romanshorn (TG)
+- [x] Kreuzlingen (TG), 2026-11-17
+- [x] Arbon (TG), 2026-11-17
+- [ ] Amriswil (TG): zurückgestellt am 2026-11-17. Nur die Meldestelle belegt (Hundekontrollstelle der Einwohnerdienste). Die Seite der Stadt nennt weder Steuerbetrag noch Orte, die Mitteilung zu den Hundesteuer-Rechnungen war nicht abrufbar.
+- [ ] Weinfelden (TG): zurückgestellt am 2026-11-17. weinfelden.ch lässt den Abruf nicht zu (robots), keine andere amtliche Quelle gefunden.
+- [ ] Romanshorn (TG): zurückgestellt am 2026-11-17. Das Merkblatt Hundehaltung der Stadt trägt kein Datum und ist beim Kurs veraltet (Stand vor April 2024). Es nennt Steuer CHF 100 und CHF 162.50, Leinenpflicht im Seepark, auf Schlosswiese und Surfwiese, Hundezone im Seepark, Verbot in der Holzensteiner Badi. Die aktuellen Seiten (Hundekontrolle, Hundewiese) lassen den Abruf nicht zu. Neu ansetzen, sobald eine datierte Quelle lesbar ist.
 - [ ] Riehen (BS)
 - [ ] Bettingen (BS)
 - [ ] Rapperswil-Jona (SG)
@@ -134,6 +134,9 @@ Ungefähr nach Grösse. Neue Kantone tragen hier ihre grössten Gemeinden ein.
 - [ ] Kanton Basel-Landschaft: Die Seiten des Veterinärdienstes und des Amts für Wald auf baselland.ch waren am 2026-11-17 nicht abrufbar. Beim Nachprüfen die Angaben aus den Gesetzen damit vergleichen und AMICUS, «Waldesnähe» und die Busse bei der Leinenpflicht ergänzen, falls dort belegt.
 - [ ] Allschwil: Freilaufwege aus dem Plan in Anhang I des Polizeireglements namentlich aufführen
 - [ ] Kanton Thurgau: Hundegesetz und Hundeverordnung im Rechtsbuch des Kantons (rechtsbuch.tg.ch) statt auf LexFind lesen und die Seite «Hunde» des Veterinäramts abgleichen. Danach ergänzen, falls belegt: Meldefrist bei der Gemeinde, Übergangsregel beim Kurs für kleine Hunde, Datum des Merkblatts mit der Gebühr von CHF 500.
+- [ ] Kreuzlingen: Orte mit Leinenpflicht, Hundeverbot oder Freilauf belegen (Seeufer, Seeburgpark). Broschüre und Website nennen keine. Die Seite steht bisher auf Steuer, Anmeldung und Kotsäcken.
+- [ ] Kreuzlingen und Arbon: Meldefrist bei der Stadt klären (Quellen der Stadt widersprechen sich: 10 und 30 Tage, 10 und 14 Tage)
+- [ ] Arbon: Stand der Broschüre und der Steuerbeträge mit einer datierten Quelle belegen
 - [ ] Stadt Frauenfeld: Hundeverbote und Bussen der Stadt suchen (Polizeireglement), die Informationen für Hundehaltende nennen keine
 
 ## 5. Umbauten am Generator

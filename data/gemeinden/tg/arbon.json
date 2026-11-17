@@ -1,0 +1,40 @@
+{
+  "id": "arbon",
+  "kanton": "tg",
+  "bfs": 4401,
+  "name": "Stadt Arbon",
+  "ort": "Arbon",
+  "in_ort": "in der Stadt Arbon",
+  "geprueft": "2026-11-17",
+  "hinweis_heute": "In Arbon gilt am See und im Weiher-Areal das ganze Jahr Leinenpflicht. Ausgenommen ist das Seeparkareal.",
+  "einleitung": "In Arbon gelten die Regeln des Kantons Thurgau. Die Stadt verlangt zusätzlich die Leine am See und im Weiher-Areal.",
+  "karten": [
+    {
+      "titel": "Hundetaxe",
+      "wert": "CHF 100, jeder weitere Hund CHF 150",
+      "text": "Die Hundesteuer beträgt in Arbon CHF 100 pro Jahr für den ersten Hund und CHF 150 für jeden weiteren Hund im selben Haushalt. Zu bezahlen ist sie bis Ende April oder innert 30 Tagen nach der Rechnung.",
+      "quellen": [
+        "tg_arbon_hunde",
+        "tg_arbon_broschuere"
+      ]
+    },
+    {
+      "titel": "Leine",
+      "wert": "am See und im Weiher-Areal",
+      "text": "Am See und im Weiher-Areal gehört dein Hund an die Leine. Ausgenommen ist das Seeparkareal. Dazu kommen die Regeln des Kantons: in Park-, Schul-, Spiel- und Sportanlagen und an verkehrsreichen Strassen, vom 1. April bis 31. Juli im Wald und am Waldrand.",
+      "quellen": [
+        "tg_arbon_hunde",
+        "tg_arbon_broschuere"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "wert": "Einwohnerdienste, Hauptstrasse 12",
+      "text": "Du meldest deinen Hund bei den Einwohnerdiensten der Stadt, Hundewesen, Hauptstrasse 12. Dasselbe gilt bei einem Halterwechsel und wenn der Hund stirbt. Die Stadt nennt dafür an einer Stelle 10 Tage und an einer anderen 14 Tage. Mit 10 Tagen bist du auf der sicheren Seite. In der Hundedatenbank AMICUS ist die Meldung innert 10 Tagen fällig.",
+      "quellen": [
+        "tg_arbon_broschuere",
+        "tg_arbon_hunde"
+      ]
+    }
+  ]
+}

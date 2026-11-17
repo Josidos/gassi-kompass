@@ -1,0 +1,39 @@
+{
+  "id": "kreuzlingen",
+  "kanton": "tg",
+  "bfs": 4671,
+  "name": "Stadt Kreuzlingen",
+  "ort": "Kreuzlingen",
+  "in_ort": "in der Stadt Kreuzlingen",
+  "geprueft": "2026-11-17",
+  "einleitung": "In Kreuzlingen gelten die Regeln des Kantons Thurgau. Die Unterlagen der Stadt nennen keine eigenen Orte mit Leinenpflicht oder Hundeverbot. Achte auf die Tafeln vor Ort.",
+  "karten": [
+    {
+      "titel": "Hundetaxe",
+      "wert": "CHF 100, jeder weitere Hund CHF 160",
+      "text": "Die Hundesteuer beträgt in Kreuzlingen CHF 100 pro Jahr für einen Hund und CHF 160 für jeden weiteren Hund im selben Haushalt. Zu bezahlen ist sie bis Ende April oder innert 30 Tagen nach Erhalt der Rechnung. Eine Rückerstattung gibt es nicht. Stand der Broschüre: Juni 2025.",
+      "quellen": [
+        "tg_kreuzlingen_broschuere"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "wert": "Einwohneramt, Hauptstrasse 62",
+      "text": "Du meldest deinen Hund beim Einwohneramt, Hundewesen, Hauptstrasse 62. Die Broschüre der Stadt nennt dafür 10 Tage nach der Anschaffung, die Website an einer Stelle 30 Tage. Mit 10 Tagen bist du auf der sicheren Seite. Die Meldung musst du auch in der Hundedatenbank AMICUS nachführen.",
+      "quellen": [
+        "tg_kreuzlingen_broschuere",
+        "tg_kreuzlingen_hunde"
+      ]
+    },
+    {
+      "titel": "Hundekot",
+      "wert": "Kotsäcke gratis am Schalter",
+      "text": "Hundekotsäcke bekommst du kostenlos am Schalter des Einwohneramts. Wer den Kot nicht korrekt beseitigt, zahlt nach der kantonalen Hundeverordnung eine Ordnungsbusse von CHF 150.",
+      "quellen": [
+        "tg_kreuzlingen_hunde",
+        "tg_kreuzlingen_broschuere",
+        "tg_hundev"
+      ]
+    }
+  ]
+}

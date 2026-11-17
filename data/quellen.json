@@ -268,5 +268,25 @@
     "kurz": "Merkblatt Leinenpflicht Frauenfeld",
     "lang": "Stadt Frauenfeld, Einwohnerdienste: Merkblatt Leinenpflicht vom 15. März 2024",
     "url": "https://frauenfeld.ch/public/upload/assets/44181/Merkblatt%20Leinenpflicht%202024.pdf?fp=1"
+  },
+  "tg_kreuzlingen_broschuere": {
+    "kurz": "Broschüre Hundehaltung Kreuzlingen",
+    "lang": "Stadt Kreuzlingen, Kommission für Kynologie und Tierschutz, Stadtverwaltung und Tierschutzverein Kreuzlingen und Umgebung: Informationen für (künftige) Hundehalterinnen und Hundehalter, Stand Juni 2025",
+    "url": "https://www.kreuzlingen.ch/datei-download/3159"
+  },
+  "tg_kreuzlingen_hunde": {
+    "kurz": "Stadt Kreuzlingen: Hundehaltung",
+    "lang": "Stadt Kreuzlingen, Einwohneramt: Informationen zur Hundehaltung (abgerufen am 17. November 2026)",
+    "url": "https://www.kreuzlingen.ch/inhalt/hundehaltung-informationen"
+  },
+  "tg_arbon_hunde": {
+    "kurz": "Stadt Arbon: Hundewesen",
+    "lang": "Stadt Arbon, Einwohnerdienste: Dienstleistung Hundewesen (ohne Datum, abgerufen am 17. November 2026)",
+    "url": "https://www.arbon.ch/stadt/service-und-aktuelles/dienstleistungen-a-z.html/226/print/pdf/service/452"
+  },
+  "tg_arbon_broschuere": {
+    "kurz": "Broschüre Hundehaltung Arbon",
+    "lang": "Stadt Arbon, Einwohnerdienste, Hundewesen: Informationsbroschüre für Hundehalterinnen und Hundehalter (ohne Datum, abgerufen am 17. November 2026)",
+    "url": "https://www.arbon.ch/public/upload/assets/3310/09.17%20Informationsbrosch%C3%BCre%20f%C3%BCr%20Hundehalterinnen%20und%20Hundehalter.pdf?fp=2"
   }
 }

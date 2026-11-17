@@ -2,6 +2,17 @@
 
 Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen.
 
+## 2026-11-17, Nachtkette, zweite Auslösung als Glied 3
+
+- Dieser Lauf wurde mit der Zusatznachricht «Glied 3» ausgelöst, kurz nachdem ein Lauf ohne Nummer als Glied 3 den Kanton Thurgau veröffentlicht und Glied 4 ausgelöst hatte. Es laufen damit zwei Auslösungen nebeneinander. Damit keine zweite Kette entsteht, löst dieser Lauf kein weiteres Glied aus.
+- Nachgeprüft: nichts. Eingesammelt: nichts, kein Parallel-Lauf hat bisher geliefert.
+- Alle offenen Kantone sind an Parallel-Läufe vergeben, also Gemeinden. Um dem schon ausgelösten Glied 4 nicht in die Quere zu kommen, nahm der Lauf die Thurgauer Gemeinden statt der obersten Einträge (Basel-Landschaft).
+- Neu: Stadt Arbon (`/tg/arbon/`) und Stadt Kreuzlingen (`/tg/kreuzlingen/`), 9 Gemeinden. Quellen, am 17. November 2026 abgerufen: Arbon Dienstleistung Hundewesen und Informationsbroschüre (beide ohne Datum), Kreuzlingen Broschüre (Stand Juni 2025) und Seite «Informationen zur Hundehaltung».
+- Kreuzlingen ist knapp: belegt sind Steuer, Anmeldestelle und Gratis-Kotsäcke. Orte mit Leinenpflicht oder Verbot nennen die Quellen nicht.
+- Meldefrist: Die Quellen der Städte widersprechen sich (Kreuzlingen 10 und 30 Tage, Arbon 10 und 14 Tage). Die Seiten nennen beide Angaben und raten zu 10 Tagen.
+- Zurückgestellt: Amriswil (nur eine Angabe belegt), Weinfelden (Website nicht abrufbar), Romanshorn (Merkblatt ohne Datum und teils veraltet, aktuelle Seiten nicht abrufbar).
+- Nicht gelungen: nichts.
+
 ## 2026-11-17, Nachtkette, Glied 3
 
 - Nachgeprüft: nichts. Keine Datei ist älter als 60 Tage.
