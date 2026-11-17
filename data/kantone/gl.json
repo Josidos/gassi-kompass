@@ -1,0 +1,133 @@
+{
+  "id": "gl",
+  "name": "Kanton Glarus",
+  "kurz": "GL",
+  "im": "im Kanton Glarus",
+  "des": "des Kantons Glarus",
+  "geprueft": "2026-11-17",
+  "wald": {
+    "saison": false,
+    "text": "Im Kanton Glarus gilt die Leinenpflicht im Wald das ganze Jahr. Alle Hunde sind im Wald und den Waldrändern entlang an der Leine zu führen oder angebunden zu halten. Ausgenommen sind Jagdhunde während der Jagdzeit, Treiberhunde bei Viehtreiberdiensten und anerkannte Gebrauchshunde, soweit Ausbildung oder Einsatz es unerlässlich machen.",
+    "quellen": [
+      "gl_jagdv"
+    ]
+  },
+  "leine": {
+    "punkte": [
+      "im Wald und den Waldrändern entlang, das ganze Jahr",
+      "in den eidgenössischen Jagdbanngebieten. In den Gebieten Kärpf, Schilt und Rauti-Tros gilt die Leinenpflicht grundsätzlich überall, auch ausserhalb des Waldes. Ausgenommen sind Nutzhunde in der Landwirtschaft (Stand der Vollzugsregelung: 2015).",
+      "immer, zusammen mit einem Maulkorb, wenn du nicht im Kanton wohnst und einen Hund mit erhöhtem Gefährdungspotenzial ausführst. Davon befreit dich nur eine Erlaubnis des kantonstierärztlichen Dienstes, die du bei dir trägst."
+    ],
+    "quellen": [
+      "gl_jagdv",
+      "gl_jagdbann",
+      "gl_vetv"
+    ]
+  },
+  "verbot": {
+    "einleitung": "Die Veterinärverordnung und die Jagdverordnung des Kantons nennen keine Orte mit Hundeverbot. Nicht erlaubt ist:",
+    "punkte": [
+      "einen Hund mit erhöhtem Gefährdungspotenzial ohne Bewilligung zu halten",
+      "den Hund im Wald oder den Waldrändern entlang frei laufen zu lassen"
+    ],
+    "quellen": [
+      "gl_vetv",
+      "gl_jagdv"
+    ]
+  },
+  "karten": [
+    {
+      "titel": "Haftpflicht",
+      "marke": "Pflicht",
+      "ton": "must",
+      "wert": "Police innert 1 Monat ans Einwohneramt",
+      "text": "Im Kanton Glarus gilt eine Versicherungspflicht. Du stellst dem Einwohneramt deiner Wohngemeinde innert eines Monats nach dem Erwerb des Hundes unaufgefordert eine Kopie der Versicherungspolice zu. Eine Deckungssumme nennt die Veterinärverordnung nicht. Für die Bewilligung eines Hundes mit erhöhtem Gefährdungspotenzial verlangt sie eine gültige Privathaftpflichtversicherung, die den Hund einschliesst.",
+      "quellen": [
+        "gl_vetv"
+      ]
+    },
+    {
+      "titel": "Kurs",
+      "marke": "Ersthundehalter",
+      "ton": "note",
+      "wert": "Nachweis ans Einwohneramt",
+      "text": "Hältst du zum ersten Mal einen Hund, stellst du dem Einwohneramt deiner Wohngemeinde eine Kopie des Sachkundenachweises zu, innert eines Monats, nachdem du ihn erhalten hast. Anerkannt sind der eidgenössische Sachkundenachweis oder der kantonale Ausbildungslehrgang. Laut den Einwohnerdiensten der Gemeinde Glarus absolvieren Ersthundehaltende die Ausbildung KAL1 innert eines Jahres. Für einen Hund mit erhöhtem Gefährdungspotenzial brauchst du den Nachweis mit jedem Hund und innert eines Jahres nach dem Erwerb, dazu eine anerkannte Prüfung zu Gehorsam und Führigkeit.",
+      "quellen": [
+        "gl_vetv",
+        "gl_glarus_hunde"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "marke": "1 Monat",
+      "ton": "must",
+      "wert": "Einwohneramt der Wohngemeinde",
+      "text": "Zuständig ist das Einwohneramt deiner Wohngemeinde. Dorthin schickst du innert eines Monats nach dem Erwerb des Hundes die Kopie der Versicherungspolice. Das Einwohneramt zieht auch die Hundetaxe ein. Die Stammdaten der Hunde führt eine Melde- und Registrierstelle.",
+      "quellen": [
+        "gl_vetv"
+      ]
+    },
+    {
+      "titel": "Hundesteuer",
+      "marke": "jährlich",
+      "ton": "note",
+      "wert": "CHF 55 Kanton, dazu Zuschlag der Gemeinde",
+      "text": "Die kantonale Hundetaxe beträgt CHF 55 pro Hund und Jahr, ab dem sechsten Lebensmonat des Hundes. Die Gemeinden entscheiden, ob sie einen Gemeindezuschlag erheben. Stirbt der Hund oder zieht er dauernd aus dem Kanton weg, kannst du Taxe und Zuschlag des laufenden Jahres auf einen neuen Hund übertragen. Fällt der Hund im ersten Halbjahr weg und wird nicht ersetzt, kann die Hälfte zurückerstattet werden. Befreit sind unter anderem Blindenführhunde, Therapiehunde im Einsatz, Diensthunde von Polizei und Armee, Katastrophen- und Lawinenhunde und Herdenschutzhunde.",
+      "quellen": [
+        "gl_vetv"
+      ]
+    },
+    {
+      "titel": "Rassen",
+      "marke": "Bewilligung",
+      "ton": "must",
+      "wert": "10 Rassen und ihre Mischlinge",
+      "text": "Für Hunde mit erhöhtem Gefährdungspotenzial brauchst du eine Bewilligung. Das Gesuch reichst du grundsätzlich vor der Übernahme des Hundes ein, spätestens 14 Tage danach. Verlangt werden unter anderem der Sachkundenachweis innert eines Jahres nach dem Erwerb, eine anerkannte Prüfung zu Gehorsam und Führigkeit, die der Hund spätestens am Ende seines zweiten Lebensjahres bestanden haben muss, und eine Privathaftpflichtversicherung, die den Hund einschliesst. Für die ersten sechs Rassen der Liste und ihre Mischlinge musst du mindestens 18 Jahre alt sein und reichst zusätzlich Auszüge aus dem Straf- und dem Betreibungsregister sowie ein Handlungsfähigkeitszeugnis ein. Die Gesuche gehen an die Fachstelle Hundewesen des Amts für Lebensmittelsicherheit und Tiergesundheit Graubünden, das auch für Glarus zuständig ist.",
+      "mehr": {
+        "titel": "Rassen mit Bewilligungspflicht anzeigen",
+        "punkte": [
+          "American Staffordshire Terrier",
+          "American Pit Bull Terrier",
+          "Bull Terrier",
+          "Staffordshire Bull Terrier",
+          "Rottweiler",
+          "Dobermann",
+          "Dogo Argentino",
+          "Cane Corso",
+          "Deutscher Schäferhund",
+          "Belgischer Schäferhund"
+        ]
+      },
+      "quellen": [
+        "gl_vetv",
+        "gl_hundewesen"
+      ]
+    },
+    {
+      "titel": "Unterwegs",
+      "marke": "Regel",
+      "ton": "note",
+      "wert": "Jagdbanngebiete und wildernde Hunde",
+      "text": "In den eidgenössischen Jagdbanngebieten gilt die Leinenpflicht auch ausserhalb des Waldes. Im Wald und in den Randbereichen mit reduzierter Leinenpflicht wird nach kantonalem Recht gebüsst, ausserhalb des Waldes folgt eine Verzeigung nach Bundesrecht. Wer einen jagenden Hund hält, wird immer verzeigt (Stand der Vollzugsregelung: 2015). Die kantonale Jagdbehörde kann wildernde Hunde abschiessen lassen.",
+      "quellen": [
+        "gl_jagdbann",
+        "gl_jagdv"
+      ]
+    }
+  ],
+  "vergleich": {
+    "wald": "ganzjährig, im Wald und den Waldrändern entlang",
+    "haft": "Pflicht, Police ans Einwohneramt",
+    "kurs": "Nachweis für Ersthundehalter",
+    "rassen": "Bewilligungspflicht für 10 Rassen",
+    "steuer": "CHF 55 Kanton plus Gemeindezuschlag",
+    "anm": "Einwohneramt, Police innert 1 Monat"
+  },
+  "umzug": {
+    "text": "Ziehst du mit einem Hund mit erhöhtem Gefährdungspotenzial in den Kanton Glarus, reichst du das Gesuch um eine Bewilligung innert eines Monats ab Wohnsitznahme ein. Hast du schon eine Halterbewilligung eines anderen Kantons, entfällt die Prüfung zu Gehorsam und Führigkeit.",
+    "quellen": [
+      "gl_vetv",
+      "gl_hundewesen"
+    ]
+  }
+}

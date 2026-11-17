@@ -1,0 +1,27 @@
+{
+  "gl_vetv": {
+    "kurz": "Veterinärverordnung GL",
+    "lang": "Kanton Glarus: Verordnung zum kantonalen Tierschutz- und Tierseuchengesetz (Veterinärverordnung, VetV) vom 17. September 2013, GS IX D/633/2 (Stand 1. Januar 2024)",
+    "url": "https://www.lexfind.ch/tol/6981/de"
+  },
+  "gl_jagdv": {
+    "kurz": "Jagdverordnung GL",
+    "lang": "Kanton Glarus: Verordnung zum kantonalen Jagdgesetz (Jagdverordnung) vom 27. Juni 1990, GS VI E/211/2 (Stand 1. Januar 2026)",
+    "url": "https://www.lexfind.ch/tol/7475/de"
+  },
+  "gl_jagdbann": {
+    "kurz": "Kanton GL: Leinenpflicht Jagdbanngebiete",
+    "lang": "Kanton Glarus, Jagd und Fischerei: Vollzug Leinenpflicht für Hunde in den eidgenössischen Jagdbanngebieten (16. September 2015)",
+    "url": "https://www.gl.ch/public/upload/assets/3476/VollzugLeinenpflichtEJBG.pdf?fp=1"
+  },
+  "gl_hundewesen": {
+    "kurz": "Fachstelle Hundewesen GR/GL",
+    "lang": "Amt für Lebensmittelsicherheit und Tiergesundheit Graubünden: Hundewesen, Angaben für den Kanton Glarus (abgerufen im November 2026)",
+    "url": "https://www.gr.ch/DE/institutionen/verwaltung/dvs/alt/tiere/hundewesen/Seiten/default.aspx"
+  },
+  "gl_glarus_hunde": {
+    "kurz": "Gemeinde Glarus: Hundewesen",
+    "lang": "Gemeinde Glarus, Einwohnerdienste: Hundewesen (abgerufen im November 2026)",
+    "url": "https://www.glarus.ch/onlineschalter/dienstleistungen-von-abisz.html/6136/egov_service/377"
+  }
+}
