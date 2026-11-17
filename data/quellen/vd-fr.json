@@ -1,0 +1,27 @@
+{
+  "vd_lpolc": {
+    "kurz": "LPolC VD",
+    "lang": "Canton de Vaud: loi sur la police des chiens (LPolC, BLV 133.75) du 31 octobre 2006, version en vigueur depuis le 1er mai 2014 (LexFind)",
+    "url": "https://lexfind.ch/tolv/134802/fr"
+  },
+  "vd_rlpolc": {
+    "kurz": "RLPolC VD",
+    "lang": "Canton de Vaud: règlement d'application de la loi sur la police des chiens (RLPolC) du 9 avril 2014, en vigueur depuis le 1er mai 2014",
+    "url": "https://www.vd.ch/fileadmin/user_upload/rag/2014/dte/R%C3%A8glement_police_des_chiens_1123625.pdf"
+  },
+  "vd_laisse": {
+    "kurz": "DGE VD: chiens en laisse",
+    "lang": "Canton de Vaud, Direction générale de l'environnement: dépliant «Chiens en laisse: où, quand et pourquoi» (art. 2a RLFaune, sans date)",
+    "url": "https://vd.ch/fileadmin/user_upload/themes/environnement/faune_nature/fichiers_pdf/Bonnes_pratiques/01_Chiens_en_laisse_ou_quand_et_pourquoi/Flyer_chien_en_laisse_DEF.PDF"
+  },
+  "vd_impot": {
+    "kurz": "État de Vaud: impôt sur les chiens",
+    "lang": "État de Vaud: autres impôts, impôt sur les chiens (consulté le 17 novembre 2026)",
+    "url": "https://www.vd.ch/etat-droit-finances/impots/impots-pour-les-individus/les-impots-les-differents-types-dimpots/autres-impots"
+  },
+  "vd_cpd": {
+    "kurz": "DGAV VD: autorisation",
+    "lang": "État de Vaud, DGAV, Affaires vétérinaires: demander une autorisation de détenir un chien potentiellement dangereux (consulté le 17 novembre 2026)",
+    "url": "https://www.vd.ch/prestation/demander-une-autorisation-de-detenir-un-chien-potentiellement-dangereux"
+  }
+}

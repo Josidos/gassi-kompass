@@ -1,0 +1,131 @@
+{
+  "id": "vd",
+  "name": "Canton de Vaud",
+  "kurz": "VD",
+  "im": "dans le canton de Vaud",
+  "des": "du canton de Vaud",
+  "geprueft": "2026-11-17",
+  "wald": {
+    "saison": true,
+    "von": "04-01",
+    "bis": "07-15",
+    "wo": "en forêt, à ses abords et dans les prairies attenantes",
+    "quellen": [
+      "vd_laisse"
+    ]
+  },
+  "leine": {
+    "punkte": [
+      "en forêt et à ses abords ainsi que dans les prairies attenantes en zone agricole, du 1er avril au 15 juillet",
+      "toute l'année dans les sites de protection de la faune: réserve de faune cantonale, district franc, réserve d'oiseaux d'eau",
+      "dans les pâturages, pendant la présence du bétail",
+      "dans les réserves naturelles, les sites naturels protégés et les zones de tranquillité, selon les dispositions propres au site",
+      "en laisse courte dans les bâtiments ouverts au public, dans les transports publics et lors de manifestations publiques",
+      "dans les lieux publics où votre commune impose la laisse",
+      "partout où vous ne maîtrisez pas suffisamment votre chien, si nécessaire avec une muselière"
+    ],
+    "quellen": [
+      "vd_laisse",
+      "vd_lpolc"
+    ]
+  },
+  "verbot": {
+    "einleitung": "La loi cantonale ne désigne pas elle-même de lieux interdits. Elle laisse ce choix aux communes.",
+    "punkte": [
+      "les lieux publics que votre commune interdit aux chiens",
+      "les bâtiments ouverts au public et les transports publics dont l'accès est interdit aux chiens"
+    ],
+    "quellen": [
+      "vd_lpolc"
+    ]
+  },
+  "karten": [
+    {
+      "titel": "Responsabilité civile",
+      "marke": "Obligatoire",
+      "ton": "must",
+      "wert": "pour chaque chien",
+      "text": "Tout propriétaire de chien doit être au bénéfice d'une assurance responsabilité civile. La loi ne fixe pas de montant minimal.",
+      "quellen": [
+        "vd_lpolc"
+      ]
+    },
+    {
+      "titel": "Cours",
+      "marke": "Selon le chien",
+      "ton": "note",
+      "wert": "72 heures pour les chiens potentiellement dangereux",
+      "text": "La loi cantonale n'impose des cours d'éducation canine que pour les chiens potentiellement dangereux: 72 heures sur deux ans au maximum. Pour les autres chiens, le service peut ordonner des cours comme mesure dans un cas particulier. État du règlement: 2014.",
+      "quellen": [
+        "vd_lpolc",
+        "vd_rlpolc"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "marke": "2 semaines",
+      "ton": "note",
+      "wert": "Commune et banque de données",
+      "text": "Comme propriétaire, vous annoncez votre chien dans les deux semaines à la banque de données et à l'administration communale.",
+      "quellen": [
+        "vd_lpolc"
+      ]
+    },
+    {
+      "titel": "Impôt sur les chiens",
+      "marke": "annuel",
+      "ton": "note",
+      "wert": "CHF 100 au canton, plus la commune",
+      "text": "L'impôt cantonal est de CHF 100 par chien, inscription comprise. L'impôt communal s'y ajoute. Son montant est fixé par l'arrêté de votre commune. Exonérés notamment: les chiens de moins de trois mois à la fin de la période fiscale, ainsi que les bénéficiaires de prestations complémentaires AVS/AI ou du revenu d'insertion.",
+      "quellen": [
+        "vd_impot"
+      ]
+    },
+    {
+      "titel": "Races",
+      "marke": "Autorisation",
+      "ton": "must",
+      "wert": "3 races et leurs croisements",
+      "text": "La détention d'un chien potentiellement dangereux est soumise à autorisation. Sont concernés l'American Staffordshire Terrier (Amstaff), l'American Pit Bull Terrier et le Rottweiler, ainsi que les chiens dont l'un des géniteurs appartient à l'une de ces races. L'autorisation coûte CHF 800. La reproduction de ces chiens et leur importation à des fins de commerce sont interdites. Lors de manifestations publiques, ils portent une muselière ou une applique dentaire.",
+      "mehr": {
+        "titel": "Afficher la liste",
+        "punkte": [
+          "American Staffordshire Terrier (Amstaff)",
+          "American Pit Bull Terrier",
+          "Rottweiler",
+          "chiens dont l'un des géniteurs appartient à l'une de ces races"
+        ]
+      },
+      "quellen": [
+        "vd_rlpolc",
+        "vd_lpolc",
+        "vd_cpd"
+      ]
+    },
+    {
+      "titel": "En promenade",
+      "marke": "Règle",
+      "ton": "note",
+      "wert": "Maîtrise et laisse courte",
+      "text": "Vous devez maîtriser votre chien. Sinon, il doit être tenu en laisse et, si nécessaire, porter une muselière. Dans les bâtiments ouverts au public, les transports publics et lors de manifestations publiques, la laisse courte est obligatoire. Une infraction à la loi sur la police des chiens est passible d'une amende jusqu'à CHF 20 000.",
+      "quellen": [
+        "vd_lpolc"
+      ]
+    }
+  ],
+  "vergleich": {
+    "wald": "1.4 au 15.7, en forêt, à ses abords et dans les prairies attenantes",
+    "haft": "obligatoire, sans montant minimal dans la loi",
+    "kurs": "seulement pour les chiens potentiellement dangereux (72 heures)",
+    "rassen": "autorisation pour Amstaff, American Pit Bull Terrier, Rottweiler et croisements",
+    "steuer": "CHF 100 au canton, plus la commune",
+    "anm": "dans les deux semaines, commune et banque de données"
+  },
+  "umzug": {
+    "text": "Pour détenir un Amstaff, un American Pit Bull Terrier, un Rottweiler ou un croisement de ces races dans le canton, il vous faut une autorisation. La demande s'envoie par courrier postal à la DGAV, Affaires vétérinaires.",
+    "quellen": [
+      "vd_cpd",
+      "vd_rlpolc"
+    ]
+  }
+}
