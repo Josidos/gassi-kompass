@@ -1,0 +1,145 @@
+{
+  "id": "tg",
+  "name": "Kanton Thurgau",
+  "kurz": "TG",
+  "im": "im Kanton Thurgau",
+  "des": "des Kantons Thurgau",
+  "geprueft": "2026-11-17",
+  "wald": {
+    "saison": true,
+    "von": "04-01",
+    "bis": "07-31",
+    "wo": "im Wald und am Waldrand",
+    "quellen": [
+      "tg_hundeg",
+      "tg_hundev"
+    ]
+  },
+  "leine": {
+    "punkte": [
+      "in Park-, Schul-, Spiel- und Sportanlagen",
+      "an verkehrsreichen Strassen",
+      "vom 1. April bis 31. Juli im Wald und am Waldrand. Die Ordnungsbusse beträgt CHF 100.",
+      "an weiteren Orten, die deine Gemeinde mit Tafeln bezeichnet hat"
+    ],
+    "quellen": [
+      "tg_hundeg",
+      "tg_hundev"
+    ]
+  },
+  "verbot": {
+    "einleitung": "An diesen Orten darfst du deinen Hund nicht mitführen. Die Ordnungsbusse beträgt CHF 100.",
+    "punkte": [
+      "Kirchen",
+      "Friedhöfe",
+      "Spitalanlagen",
+      "Badeanlagen",
+      "weitere Orte, die deine Gemeinde mit Tafeln bezeichnet hat"
+    ],
+    "quellen": [
+      "tg_hundeg",
+      "tg_hundev"
+    ]
+  },
+  "karten": [
+    {
+      "titel": "Haftpflicht",
+      "marke": "Pflicht",
+      "ton": "must",
+      "wert": "mind. CHF 3 Millionen",
+      "text": "Wer einen Hund hält, braucht eine Haftpflichtversicherung mit einer Deckungssumme von mindestens CHF 3 Millionen.",
+      "quellen": [
+        "tg_hundeg"
+      ]
+    },
+    {
+      "titel": "Kurs",
+      "marke": "Pflicht",
+      "ton": "must",
+      "wert": "innert eines Jahres, mind. 10 Lektionen",
+      "text": "Du musst innert eines Jahres nach der Anschaffung deines Hundes einen anerkannten Kurs in praktischer Hundeerziehung besuchen. Der Kurs umfasst mindestens 10 Lektionen zu Leinenführigkeit, Gehorsam und Verhalten in der Umwelt. Dazu kommt ein Welpenkurs, wenn das Alter des Hundes es zulässt. Den Besuch weist du nach, wenn die Gemeinde oder das Veterinäramt es verlangt.",
+      "quellen": [
+        "tg_hundeg",
+        "tg_hundev"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "marke": "Pflicht",
+      "ton": "must",
+      "wert": "Mikrochip und AMICUS",
+      "text": "Dein Hund muss nach den Vorschriften des Bundes gekennzeichnet und registriert sein. Registrierungsstelle ist die Hundedatenbank AMICUS. Das Hundegesetz nennt keine eigene Frist, es verweist auf das Bundesrecht. Die Hundesteuer zieht deine Gemeinde ein. Sie sagt dir, was du bei ihr melden musst.",
+      "quellen": [
+        "tg_hundeg",
+        "tg_hundev"
+      ]
+    },
+    {
+      "titel": "Hundesteuer",
+      "marke": "jährlich",
+      "ton": "note",
+      "wert": "CHF 80 bis 120",
+      "text": "Die Hundesteuer beträgt CHF 80 pro Jahr für einen Hund und CHF 130 für jeden weiteren Hund im selben Haushalt. Deine Gemeinde kann sie um höchstens 50 Prozent erhöhen, also auf höchstens CHF 120 und CHF 195. Zu bezahlen ist sie bis Ende April. Bezahlte Steuern werden nicht zurückerstattet. Befreit sind Hunde unter fünf Monaten und Nutzhunde, zum Beispiel Dienst-, Blindenführ-, Behinderten-, Rettungs-, Herdenschutz-, Treib- und Jagdhunde.",
+      "quellen": [
+        "tg_hundeg",
+        "tg_hundev"
+      ]
+    },
+    {
+      "titel": "Rassen",
+      "marke": "Bewilligung",
+      "ton": "must",
+      "wert": "14 Rassen und Typen",
+      "text": "Für potenziell gefährliche Hunde brauchst du eine Bewilligung des Veterinäramts, und zwar bevor du den Hund anschaffst oder ausführst. Sie gilt für das Halten, Betreuen und Ausführen. Erfasst sind auch Kreuzungen und Hunde, deren Aussehen auf eine dieser Rassen schliessen lässt. Ausgenommen ist ein Hund, wenn ein Gentest eines anerkannten Labors zeigt, dass er zu weniger als 50 Prozent von einer solchen Rasse abstammt. Verlangt werden unter anderem Volljährigkeit, ein fester Wohnsitz, ein Auszug aus dem Strafregister, Kenntnisse in der Hundehaltung, der Herkunftsnachweis des Hundes und die Haftpflichtversicherung. Laut Merkblatt des Veterinäramts kostet die Bewilligung CHF 500. Den Bewilligungsausweis trägst du bei dir, wenn du den Hund ausführst.",
+      "mehr": {
+        "titel": "Ganze Liste anzeigen",
+        "punkte": [
+          "American Staffordshire Terrier",
+          "Bullterrier",
+          "Cane Corso",
+          "Dobermann",
+          "Dogo Argentino",
+          "Fila Brasileiro",
+          "Mastiff",
+          "Mastín Español",
+          "Mastino Napoletano",
+          "Presa Canario (Dogo Canario)",
+          "Rottweiler",
+          "Staffordshire Bullterrier",
+          "Tosa",
+          "Hunde des Typs Pitbull"
+        ]
+      },
+      "quellen": [
+        "tg_hundeg",
+        "tg_hundev",
+        "tg_vet_rassen"
+      ]
+    },
+    {
+      "titel": "Unterwegs",
+      "marke": "Regel",
+      "ton": "note",
+      "wert": "Kot und Aufsicht",
+      "text": "Du entfernst den Kot deines Hundes korrekt. Trottoirs, Fusswege, Park-, Schul-, Spiel- und Sportanlagen, Gärten, Futterwiesen und Gemüsefelder dürfen nicht verunreinigt werden. Die Ordnungsbusse beträgt CHF 150. Dein Hund darf im Wald, am Waldrand und nachts im Freien nicht unbeaufsichtigt sein, sonst kostet es CHF 200. Ein entlaufener Hund muss unverzüglich öffentlich ausgeschrieben werden. Im ordentlichen Verfahren sind Bussen von CHF 50 bis CHF 5'000 möglich.",
+      "quellen": [
+        "tg_hundeg",
+        "tg_hundev"
+      ]
+    }
+  ],
+  "vergleich": {
+    "wald": "1.4. bis 31.7., im Wald und am Waldrand",
+    "haft": "Pflicht, mind. CHF 3 Mio.",
+    "kurs": "Pflicht, innert eines Jahres, mind. 10 Lektionen",
+    "rassen": "Bewilligungspflicht für 14 Rassen und Typen",
+    "steuer": "CHF 80 bis 120, je nach Gemeinde",
+    "anm": "Mikrochip und AMICUS"
+  },
+  "umzug": {
+    "text": "Ziehst du mit einem potenziell gefährlichen Hund in den Kanton Thurgau, musst du innert 10 Tagen beim Veterinäramt ein Gesuch um eine Bewilligung einreichen. Eine Haltebewilligung deines bisherigen Kantons kann berücksichtigt werden.",
+    "quellen": [
+      "tg_hundev"
+    ]
+  }
+}

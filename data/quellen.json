@@ -243,5 +243,30 @@
     "kurz": "Verordnung zum Polizeireglement Allschwil",
     "lang": "Einwohnergemeinde Allschwil: Verordnung zum Polizeireglement vom 14. Juni 2017, Stand 1. Januar 2024",
     "url": "https://allschwil.ch/de/verwaltung/dokumente/dokumente/VerordnungzumPolizeireglementvom14.Juni2017.pdf"
+  },
+  "tg_hundeg": {
+    "kurz": "Hundegesetz TG",
+    "lang": "Kanton Thurgau: Hundegesetz (HundeG, RB 641.2) vom 5. Dezember 1983, Stand 1. Mai 2025, Wortlaut auf LexFind",
+    "url": "https://www.lexfind.ch/tol/17744/de"
+  },
+  "tg_hundev": {
+    "kurz": "Hundeverordnung TG",
+    "lang": "Kanton Thurgau: Hundeverordnung (HundeV, RB 641.21) vom 16. Oktober 1984, Stand 1. Mai 2025, Wortlaut auf LexFind",
+    "url": "https://www.lexfind.ch/tolv/251901/de"
+  },
+  "tg_vet_rassen": {
+    "kurz": "Merkblatt bewilligungspflichtige Hunde TG",
+    "lang": "Kanton Thurgau, Veterinäramt: Merkblatt für bewilligungspflichtige Hunderassen und einzureichende Unterlagen (ohne Datum, abgerufen am 17. November 2026)",
+    "url": "https://veterinaeramt.tg.ch/public/upload/assets/148638/Merkblatt%20f%C3%BCr%20Bewilligungspflichtige%20Hunderassen%20und%20einzureichende%20Unterlagen.pdf?fp=1"
+  },
+  "tg_frauenfeld_info": {
+    "kurz": "Stadt Frauenfeld: Informationen für Hundehaltende",
+    "lang": "Stadt Frauenfeld, Einwohnerdienste: Informationen für Hundehaltende (ohne Datum, Stand 2026, abgerufen am 17. November 2026)",
+    "url": "https://www.frauenfeld.ch/public/upload/assets/45538/Informationen%20f%C3%BCr%20Hundehaltende.pdf?fp=2"
+  },
+  "tg_frauenfeld_leine": {
+    "kurz": "Merkblatt Leinenpflicht Frauenfeld",
+    "lang": "Stadt Frauenfeld, Einwohnerdienste: Merkblatt Leinenpflicht vom 15. März 2024",
+    "url": "https://frauenfeld.ch/public/upload/assets/44181/Merkblatt%20Leinenpflicht%202024.pdf?fp=1"
   }
 }

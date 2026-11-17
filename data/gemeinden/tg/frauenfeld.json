@@ -1,0 +1,39 @@
+{
+  "id": "frauenfeld",
+  "kanton": "tg",
+  "bfs": 4566,
+  "name": "Stadt Frauenfeld",
+  "ort": "Frauenfeld",
+  "in_ort": "in der Stadt Frauenfeld",
+  "geprueft": "2026-11-17",
+  "hinweis_heute": "In Frauenfeld gilt in den Wäldern Burgerholz, Pfaffenholz und Rüegerholz, nördlich der Wannenfeldstrasse und in den Schutzgebieten Allmend und Wuer das ganze Jahr Leinenpflicht.",
+  "einleitung": "In Frauenfeld gelten die Regeln des Kantons Thurgau. Die Stadt hat zusätzlich Wälder und Schutzgebiete bestimmt, in denen dein Hund das ganze Jahr an die Leine gehört.",
+  "karten": [
+    {
+      "titel": "Hundetaxe",
+      "wert": "CHF 120, jeder weitere Hund CHF 195",
+      "text": "Die Hundesteuer beträgt in Frauenfeld CHF 120 pro Jahr für den ersten Hund und CHF 195 für jeden weiteren Hund im selben Haushalt. Die Rechnung kommt im März, zu bezahlen ist sie bis 30. April. Eine Rückerstattung gibt es nicht, auch wenn du den Hund nicht das ganze Jahr hältst oder er stirbt. Nutzhunde sind befreit.",
+      "quellen": [
+        "tg_frauenfeld_info"
+      ]
+    },
+    {
+      "titel": "Leine",
+      "wert": "drei Wälder und zwei Schutzgebiete ganzjährig",
+      "text": "Das ganze Jahr an die Leine gehört dein Hund in den Wäldern Burgerholz, Pfaffenholz und Rüegerholz, im Wäldchen nördlich der Wannenfeldstrasse, im Auen- und Naturschutzgebiet Allmend und im Auenschutzgebiet Wuer nördlich des Chasperäckerweihers. Dazu kommen die Regeln des Kantons: ganzjährig in Park-, Schul-, Spiel- und Sportanlagen und an verkehrsreichen Strassen, vom 1. April bis 31. Juli im Wald und am Waldrand. Wer ein Anleingebot der Gemeinde missachtet, zahlt nach der kantonalen Hundeverordnung eine Ordnungsbusse von CHF 100.",
+      "quellen": [
+        "tg_frauenfeld_leine",
+        "tg_frauenfeld_info",
+        "tg_hundev"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "wert": "Einwohnerdienste, innert 10 Tagen",
+      "text": "Ziehst du mit einem Hund nach Frauenfeld, meldest du das innert 10 Tagen persönlich am Schalter der Einwohnerdienste, Rathausplatz 4. Hältst du zum ersten Mal einen Hund, erfasst dich die Stadt in der Hundedatenbank AMICUS. Übernahme, Weitergabe oder Tod eines Hundes meldest du innert 10 Tagen in AMICUS oder über die Stadt. Du brauchst den Mikrochip des Hundes und die obligatorische Haftpflichtversicherung, bei einem potenziell gefährlichen Hund auch die Bewilligung des Veterinäramts. Neue Hundehaltende und Zuziehende erhalten am Schalter eine kurze Einführung. Hundesäcke gibt es dort kostenlos.",
+      "quellen": [
+        "tg_frauenfeld_info"
+      ]
+    }
+  ]
+}

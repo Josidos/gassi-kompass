@@ -2,6 +2,20 @@
 
 Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen.
 
+## 2026-11-17, Nachtkette, Glied 3
+
+- Nachgeprüft: nichts. Keine Datei ist älter als 60 Tage.
+- Eingesammelt: nichts. Unter `data/protokoll/` lag nur `auftraege.md`, alle Aufträge sind jünger als drei Stunden.
+- Neu: Kanton Thurgau (`/tg/`) und Stadt Frauenfeld (`/tg/frauenfeld/`), 8 von 26 Kantonen erfasst. Quellen, alle am 17. November 2026 abgerufen: Hundegesetz (RB 641.2, Stand 1. Mai 2025), Hundeverordnung (RB 641.21, Stand 1. Mai 2025), Merkblatt des Veterinäramts für bewilligungspflichtige Hunderassen (ohne Datum). Frauenfeld: Informationen für Hundehaltende der Einwohnerdienste (Stand 2026), Merkblatt Leinenpflicht vom 15. März 2024.
+- Die Gesetzestexte wurden über LexFind gelesen. Das Rechtsbuch des Kantons (rechtsbuch.tg.ch) lieferte nur die Verordnung in der Fassung von 2008, die geltende Adresse des Gesetzes war nicht abrufbar. Das Abrufwerkzeug lieferte Zusammenfassungen mit kurzen Zitaten, nicht den vollen Wortlaut. Die Ordnungsbussen stimmen in zwei Fassungen der Verordnung (2023 und 2025) überein.
+- Hundesteuer: Das Gesetz in der Fassung von 2024 nannte einen Zuschlag der Gemeinde von höchstens 25 Prozent, die geltende Fassung nennt 50 Prozent. Erfasst ist die geltende Fassung. Dazu passen die Beträge von Frauenfeld (CHF 120 und CHF 195) und eine Mitteilung der Gemeinde Aadorf vom 9. Mai 2025.
+- Weggelassen: Meldefrist bei der Gemeinde auf der Kantonsseite (das Gesetz verweist seit 2025 auf das Bundesrecht und nennt keine Frist), die Übergangsregel beim Kurs für Hunde unter 15 kg (nur in einem Merkblatt des Verbands Thurgauer Gemeinden gefunden, keine Quelle des Kantons), Pauschalsteuer für Zuchten.
+- Stadt Frauenfeld: drei lokale Angaben belegt (Steuer, ganzjährige Leinenpflicht in namentlich genannten Wäldern und Schutzgebieten, Anmeldung). Hundeverbote und Bussen der Stadt nennen die Quellen nicht.
+- Dem Auftrag fehlte die Zusatznachricht mit der Nummer. Laut Protokoll sind Glied 1 und 2 schon gelaufen, dieser Lauf zählt als Glied 3.
+- `add_repo` und `register_repo_root` standen dem Lauf nicht zur Verfügung. Das Repository lag schon mit Push-Zugriff im Arbeitsordner.
+- Nicht gelungen: nichts.
+- Backlog: Kreuzlingen, Arbon, Amriswil, Weinfelden und Romanshorn eingetragen, zwei neue Lücken.
+
 ## 2026-11-17, Nachtkette, Glied 2
 
 - Nachgeprüft: nichts. Keine Datei ist älter als 60 Tage.
