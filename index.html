@@ -1,0 +1,466 @@
+<!doctype html>
+<html lang="de-CH">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="canonical" href="https://gassi-kompass.ch/">
+<title>Gassi-Kompass</title>
+<meta name="description" content="Hunderegeln für Zürich, Luzern und Bern mit Tagesstatus zur Wald-Leinenpflicht und amtlicher Quelle zu jeder Angabe.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: eine Lesespalte wie ein Wegweiser-Pfosten. Gelbe Richtungstafeln wählen den Ort, darunter hängen Tagesstatus, Regeln, Stadtregeln, Vergleich und Quellen. */
+:root{
+  --bg:#F3F5F0;--surface:#FFFFFF;--sunk:#E6EBE2;--line:#D2D9CE;
+  --ink:#141C16;--ink-2:#4B5750;
+  --plate:#F5C518;--plate-ink:#15150A;--plate-off:#E0E5DA;--plate-hover:#EBDC98;
+  --must:#B42318;--must-bg:#FCEAE8;
+  --free:#1F6E3D;--free-bg:#E3F2E8;
+  --note:#2355A0;--note-bg:#E7EEF9;
+  --none:#56625A;--none-bg:#EAEEE7;
+  --focus:#2355A0;
+  --font:"Archivo","Helvetica Neue",Arial,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+  --r:10px;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --bg:#0E1310;--surface:#161D18;--sunk:#1E2721;--line:#2C372F;
+    --ink:#E5EBE3;--ink-2:#A0AEA4;
+    --plate:#F5C518;--plate-ink:#15150A;--plate-off:#252F28;--plate-hover:#3B3A21;
+    --must:#FF8A7D;--must-bg:#3A1A17;
+    --free:#7CD39A;--free-bg:#142E1D;
+    --note:#94B8F4;--note-bg:#16253E;
+    --none:#A6B2A9;--none-bg:#212A24;
+    --focus:#94B8F4;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0E1310;--surface:#161D18;--sunk:#1E2721;--line:#2C372F;
+  --ink:#E5EBE3;--ink-2:#A0AEA4;
+  --plate:#F5C518;--plate-ink:#15150A;--plate-off:#252F28;--plate-hover:#3B3A21;
+  --must:#FF8A7D;--must-bg:#3A1A17;
+  --free:#7CD39A;--free-bg:#142E1D;
+  --note:#94B8F4;--note-bg:#16253E;
+  --none:#A6B2A9;--none-bg:#212A24;
+  --focus:#94B8F4;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font);font-size:16px;line-height:1.5;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+.wrap{max-width:980px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:20px 56px;display:grid;gap:44px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+/* Kopf */
+.top{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px 16px}
+.brand{position:relative;isolation:isolate;display:inline-flex;align-items:center;padding:7px 30px 7px 12px;color:var(--plate-ink);font-weight:800;font-stretch:118%;font-size:1rem;letter-spacing:.01em}
+.brand::before{content:"";position:absolute;inset:0;z-index:-1;background:var(--plate);border-radius:3px;clip-path:polygon(0 0,calc(100% - 16px) 0,100% 50%,calc(100% - 16px) 100%,0 100%)}
+.stamp{font-family:var(--mono);font-size:.76rem;color:var(--ink-2)}
+
+/* Einstieg und Ortswahl */
+.hero{display:grid;gap:18px}
+h1{margin:0;font-size:clamp(2.1rem,1.2rem + 4vw,3.4rem);line-height:1.04;font-weight:800;font-stretch:116%;letter-spacing:-.012em;max-width:15ch;text-wrap:balance}
+.lede{margin:0;color:var(--ink-2);font-size:1.06rem;max-width:58ch}
+.picker{display:grid;gap:12px}
+.plates{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.plates-label{font-size:.85rem;color:var(--ink-2);margin-right:2px}
+.dest{appearance:none;border:0;background:none;font:inherit;cursor:pointer;position:relative;isolation:isolate;display:flex;flex-direction:column;align-items:flex-start;gap:1px;padding:10px 36px 10px 14px;color:var(--ink);text-align:left;border-radius:4px}
+.dest::before{content:"";position:absolute;inset:0;z-index:-1;background:var(--plate-off);border-radius:4px;clip-path:polygon(0 0,calc(100% - 18px) 0,100% 50%,calc(100% - 18px) 100%,0 100%);transition:background .15s ease}
+.dest:hover::before{background:var(--plate-hover)}
+.dest[aria-pressed="true"]{color:var(--plate-ink)}
+.dest[aria-pressed="true"]::before{background:var(--plate)}
+.dest:focus-visible{outline:3px solid var(--focus);outline-offset:3px}
+.dest-name{font-weight:780;font-stretch:112%;font-size:1.05rem;line-height:1.2}
+.dest-sub{font-family:var(--mono);font-size:.7rem;opacity:.78}
+.plates.small .dest{padding:7px 30px 7px 12px}
+.plates.small .dest-name{font-size:.92rem}
+
+/* Bausteine */
+.eyebrow{font-size:.74rem;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:var(--ink-2)}
+.sec{display:grid;gap:16px}
+.sec-head{display:grid;gap:4px}
+h2{margin:0;font-size:1.45rem;line-height:1.2;font-weight:780;font-stretch:110%;text-wrap:balance}
+.sec-head p{margin:0;color:var(--ink-2);max-width:62ch}
+.chip{display:inline-flex;align-items:center;padding:2px 9px;border-radius:999px;font-size:.73rem;font-weight:700;letter-spacing:.02em;white-space:nowrap}
+.chip.must{background:var(--must-bg);color:var(--must)}
+.chip.free{background:var(--free-bg);color:var(--free)}
+.chip.note{background:var(--note-bg);color:var(--note)}
+.chip.none{background:var(--none-bg);color:var(--none)}
+.src{font-family:var(--mono);font-size:.72rem;color:var(--ink-2);display:flex;flex-wrap:wrap;gap:2px 10px}
+.src a{text-underline-offset:2px}
+.src a:hover{color:var(--ink)}
+.src a:focus-visible,.foot a:focus-visible{outline:2px solid var(--focus);outline-offset:2px;border-radius:2px}
+
+/* Tagesstatus */
+.today{display:grid;gap:20px;padding:20px;border-radius:var(--r);background:var(--surface);border:1px solid var(--line)}
+.today-head{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:4px 16px}
+.today-date{font-family:var(--mono);font-size:.78rem;color:var(--ink-2)}
+.today-body{display:grid;gap:22px}
+@media (min-width:780px){.today-body{grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);align-items:end}}
+.today-status{display:grid;gap:10px;min-width:0}
+.big{margin:0;font-size:clamp(1.55rem,1.05rem + 2.3vw,2.25rem);line-height:1.1;font-weight:800;font-stretch:112%;text-wrap:balance}
+.big.must{color:var(--must)}
+.big.free{color:var(--free)}
+.today-status p{margin:0;max-width:60ch}
+.today-note{padding:10px 12px;border-radius:8px;background:var(--sunk);font-size:.94rem}
+.bar{display:grid;gap:6px;padding-top:26px;min-width:0}
+.track{position:relative;display:grid;height:36px;border-radius:6px;background:var(--sunk)}
+.track .m{border-left:1px solid var(--line)}
+.track .m:first-child{border-left:0}
+.band{position:absolute;top:0;bottom:0;background:var(--must-bg);border:2px solid var(--must);border-radius:5px;display:flex;align-items:center;justify-content:center;overflow:hidden}
+.band span{font-size:.7rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--must);white-space:nowrap}
+.now{position:absolute;top:-24px;bottom:-5px;width:0;border-left:2px solid var(--ink)}
+.now span{position:absolute;top:0;left:0;transform:translateX(-50%);font-family:var(--mono);font-size:.7rem;font-weight:500;white-space:nowrap;background:var(--surface);padding:0 4px;line-height:1.4}
+.now.r span{transform:translateX(-100%)}
+.now.l span{transform:none}
+.months{display:grid;font-family:var(--mono);font-size:.66rem;color:var(--ink-2)}
+.months span{padding-left:3px;overflow:hidden}
+.bar-cap{margin:0;font-size:.8rem;color:var(--ink-2)}
+
+/* Leine und Zutritt */
+.split{display:grid;gap:12px}
+@media (min-width:720px){.split{grid-template-columns:1fr 1fr}}
+.list-card{padding:16px 18px;border-radius:var(--r);background:var(--surface);border:1px solid var(--line);display:grid;gap:12px;align-content:start;min-width:0}
+.list-card h3{margin:0;display:flex;align-items:center;flex-wrap:wrap;gap:8px;font-size:1.02rem;font-weight:750}
+.list-card p{margin:0;color:var(--ink-2);font-size:.94rem}
+.list-card ul{margin:0;padding:0;list-style:none;display:grid;gap:7px}
+.list-card li{position:relative;padding-left:20px}
+.list-card li::before{content:"";position:absolute;left:0;top:.55em;width:9px;height:9px;border-radius:2px;background:var(--ink-2)}
+.list-card.leash li::before{background:var(--must)}
+
+/* Karten */
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px}
+.card{padding:16px 18px;border-radius:var(--r);background:var(--surface);border:1px solid var(--line);display:grid;gap:8px;align-content:start;min-width:0}
+.card-top{display:flex;align-items:center;justify-content:space-between;gap:8px;min-height:22px}
+.card-k{font-size:.74rem;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:var(--ink-2)}
+.card-v{margin:0;font-size:1.22rem;line-height:1.2;font-weight:780;font-stretch:108%}
+.card p{margin:0;font-size:.95rem}
+.more summary{cursor:pointer;font-size:.88rem;font-weight:650;color:var(--note);width:max-content}
+.more summary:focus-visible{outline:2px solid var(--focus);outline-offset:2px;border-radius:2px}
+.more ul{margin:8px 0 0;padding-left:1.1em;columns:2 9rem;column-gap:16px;font-size:.88rem}
+
+/* Stadt */
+.zones{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:12px}
+.zone{padding:16px 18px;border-radius:var(--r);background:var(--free-bg);display:grid;gap:8px;align-content:start;min-width:0}
+.zone-name{font-size:1.15rem;font-weight:780;font-stretch:110%}
+.zone .chip{background:var(--surface)}
+.tags{display:flex;flex-wrap:wrap;gap:6px}
+.zone p{margin:0;font-size:.94rem}
+.plain-note{margin:0;padding:16px 18px;border-radius:var(--r);background:var(--sunk);max-width:none}
+
+/* Vergleich */
+.table-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:var(--r);background:var(--surface)}
+table{border-collapse:collapse;width:100%;min-width:640px;font-size:.92rem}
+th,td{padding:11px 14px;text-align:left;vertical-align:top;border-bottom:1px solid var(--line)}
+tbody tr:last-child th,tbody tr:last-child td{border-bottom:0}
+thead th{font-size:.74rem;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-2);font-weight:700}
+thead th.sel{color:var(--plate-ink);background:var(--plate)}
+td.sel{background:var(--sunk);font-weight:600}
+tbody th{font-weight:700;width:20%}
+.callout{margin:0;display:grid;gap:6px;padding:14px 16px;border-radius:var(--r);background:var(--note-bg)}
+.callout p{margin:0}
+
+/* Fuss */
+.foot{display:grid;gap:14px;padding-top:22px;border-top:1px solid var(--line);color:var(--ink-2);font-size:.92rem}
+.foot p{margin:0;max-width:70ch}
+.foot strong{color:var(--ink)}
+.foot ol{margin:0;padding-left:1.3em;display:grid;gap:5px;font-size:.84rem}
+.foot ol a{color:var(--ink);text-underline-offset:2px}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <span class="brand">Gassi-Kompass</span>
+    <span class="stamp" id="stamp">Pilot · Angaben geprüft am 16.11.2026</span>
+  </header>
+
+  <section class="hero" aria-labelledby="h1">
+    <h1 id="h1">Was gilt für deinen Hund hier?</h1>
+    <p class="lede">Regeln von Kanton und Stadt für Zürich, Luzern und Bern. Zu jeder Angabe findest du die amtliche Quelle.</p>
+    <div class="picker">
+      <div class="plates" id="plates-city" role="group" aria-label="Stadt wählen"></div>
+      <div class="plates small" id="plates-kt" role="group" aria-label="Andere Gemeinde im Kanton wählen"><span class="plates-label">Andere Gemeinde im Kanton:</span></div>
+    </div>
+  </section>
+
+  <section class="today" id="today" aria-live="polite"></section>
+  <section class="sec" id="rules"></section>
+  <section class="sec" id="duties"></section>
+  <section class="sec" id="local"></section>
+  <section class="sec" id="compare"></section>
+
+  <footer class="foot" id="foot"></footer>
+  <noscript><p>Diese Seite braucht JavaScript, um die Regeln anzuzeigen.</p></noscript>
+</div>
+
+<script>
+(function(){
+const CHECKED="16.11.2026";
+
+const SRC={
+  zh_vet:{s:"Veterinäramt ZH",l:"Kanton Zürich, Veterinäramt: Hunde",u:"https://www.zh.ch/de/umwelt-tiere/tiere/haustiere-heimtiere/hunde.html"},
+  zh_rassen:{s:"Veterinäramt ZH: Rassen",l:"Kanton Zürich, Veterinäramt: Verbotene Hunderassen",u:"https://www.zh.ch/de/umwelt-tiere/tiere/haustiere-heimtiere/hunde/verbotene-hunderassen.html"},
+  zh_stadt:{s:"Stadt Zürich",l:"Stadt Zürich: Hunde",u:"https://www.stadt-zuerich.ch/hunde"},
+  zh_zonen:{s:"Datensatz Hundezonen",l:"Stadt Zürich: Datensatz Hundezonen (Stand der Daten 14.07.2026)",u:"https://data.stadt-zuerich.ch/dataset/geo_hundezonen"},
+  lu_huv:{s:"Hundeverordnung LU",l:"Kanton Luzern: Verordnung über das Halten von Hunden, SRL 849 (Stand 1.1.2025)",u:"https://lu.lexwork.naz.ch/de/dta/849.pdf"},
+  lu_hug:{s:"Hundegesetz LU",l:"Kanton Luzern: Gesetz über das Halten von Hunden, SRL 848 (Stand 1.1.2025)",u:"https://lu.lexwork.naz.ch/de/dta/848.pdf"},
+  lu_wald:{s:"Geodaten LU",l:"Kanton Luzern, Geoinformation: Hundeleinenpflicht im Wald (2025)",u:"https://opendata.swiss/en/dataset/hundeleinenpflicht-im-wald"},
+  lu_nhb:{s:"Merkblatt Veterinärdienst LU",l:"Kanton Luzern, Veterinärdienst: Merkblatt zur revidierten Hundeverordnung (1.12.2022)",u:"https://www.stadt-kriens.ch/public/upload/assets/26319/2022_12_02_Merkblatt_Hundeverordnung_2023.pdf?fp=1"},
+  lu_stadt:{s:"Stadt Luzern",l:"Stadt Luzern: Broschüre «Hund und Mensch in der Stadt» (2022)",u:"https://stadtluzern.ch/_rte/publikation/104147"},
+  be_avet:{s:"Veterinärwesen BE",l:"Kanton Bern, Amt für Veterinärwesen: Broschüre «Hundegesetz: Das gilt im Kanton Bern» (Juli 2022)",u:"https://www.weu.be.ch/content/dam/weu/dokumente/avet/de/hunde/Broschuere-Hundegesetz-Kanton-Bern-DE.pdf"},
+  be_hug:{s:"Hundegesetz BE",l:"Kanton Bern: Hundegesetz, BSG 916.31",u:"https://be.lexwork.naz.ch/de/dta/916.31.pdf"},
+  be_kurs:{s:"Gemeinde Büren a.A.",l:"Gemeinde Büren an der Aare: Informationsblatt für Hundebesitzerinnen und Hundebesitzer",u:"https://www.bueren.ch/de/verwaltung/dokumente/dokumente/Hundehaltung-Informationsblatt-fuer-HundebesitzerInnen.pdf"},
+  be_wald:{s:"Grosser Rat BE 2023",l:"plattformj.ch: Grosser Rat lehnt Leinenpflicht in der Brut- und Setzzeit ab (13.9.2023)",u:"https://www.plattformj.ch/artikel/213577/"},
+  be_plan:{s:"Stadtplan Bern",l:"Stadt Bern: Stadtplan, Thema «Leinenpflicht für Hunde»",u:"https://map.bern.ch/geoportal/#/produkt/Hundeverordnung_Leinenpflicht"},
+  be_zoo:{s:"Gemeinderat Bern 2019",l:"Stadt Bern, Gemeinderat: Antwort auf die Motion zur Leinenpflicht (2019)",u:"https://stadtrat.bern.ch/de/dokumente/6826da361b6a48d890b7e840a497011e-332"},
+  be_taxe:{s:"Stadt Bern: Hundetaxe",l:"Stadt Bern: Vortrag zur Hundetaxe",u:"https://ris.bern.ch/de/dokumente/e1b88c4ccbbe4b1696cb3afa05969a01-332"},
+  srf:{s:"SRF 2024",l:"SRF: Diese Hunderassen sind in Ihrem Kanton verboten (19.12.2024)",u:"https://www.srf.ch/news/schweiz/rottweiler-pitbull-co-diese-hunderassen-sind-in-ihrem-kanton-verboten-die-uebersicht"}
+};
+
+const C={
+  zh:{
+    name:"Kanton Zürich",
+    wald:{season:true,where:"im Wald und bis 50 m ab Waldrand",src:["zh_vet"]},
+    leine:{items:[
+      "in öffentlich zugänglichen Gebäuden",
+      "an verkehrsreichen Strassen",
+      "in öffentlichen Verkehrsmitteln, an Bahnhöfen und Haltestellen",
+      "überall, wo ein Schild es verlangt",
+      "im Wald und bis 50 m ab Waldrand, 1. April bis 31. Juli"
+    ],src:["zh_stadt","zh_vet"]},
+    verbot:{items:["Friedhöfe","Badeanstalten","Pausenplätze von Schulhausanlagen","weitere Orte gemäss Hundegesetz"],src:["zh_vet"]},
+    cards:[
+      {k:"Haftpflicht",chip:"Pflicht",tone:"must",v:"mind. CHF 1 Mio.",t:"Gilt für alle Hunde, unabhängig von Grösse und Rasse.",src:["zh_vet"]},
+      {k:"Kurs",chip:"Pflicht",tone:"must",v:"Theorie und Praxis",t:"Theoriekurs mit Prüfung (rund 2 Stunden) für alle, die noch nie oder seit über 10 Jahren keinen Hund hatten: frühestens 1 Jahr vor, spätestens 2 Monate nach Beginn. Praxiskurs für jeden Hund: mindestens 6 Lektionen, Start frühestens mit 6 Monaten, Abschluss spätestens 12 Monate nach Übernahme. Gilt auch bei Zuzug in den Kanton.",src:["zh_vet"]},
+      {k:"Anmeldung",chip:"10 Tage",tone:"note",v:"Gemeinde und AMICUS",t:"Innert 10 Tagen nach Übernahme bei der Wohngemeinde melden und in der Hundedatenbank AMICUS auf dich registrieren.",src:["zh_vet"]},
+      {k:"Hundesteuer",chip:"jährlich",tone:"note",v:"je nach Gemeinde",t:"Für jeden Hund zahlst du jährlich eine Abgabe an deine Wohngemeinde.",src:["zh_vet"]},
+      {k:"Rassen",chip:"Verbote",tone:"must",v:"Rassetypenliste II",t:"Verboten sind unter anderem American Staffordshire Terrier, Pit Bull Terrier, Bull Terrier und American Bully, ebenso Mischlinge ab 10 % Anteil. Rottweiler: Neuanschaffung seit 1. Januar 2025 verboten. Zu Besuch höchstens 30 Tage pro Jahr, draussen mit Leine und Maulkorb.",more:{label:"Ganze Liste anzeigen",items:["American Bull Terrier","American Bully","American Bully XXL","American Pit Bull Terrier","American Pocket Bully","American Staffordshire Terrier","Bandog","Basicdog","Bull Terrier","Pit Bull Terrier","Rottweiler (seit 1.1.2025)","Staffordshire Bull Terrier","Swiss Blue Bully","Swiss Champagner Bully"]},src:["zh_rassen"]},
+      {k:"Unterwegs",chip:"Regel",tone:"note",v:"Kot und Lärm",t:"Kot korrekt beseitigen und Lärmbelästigung vermeiden. Orte mit Zutrittsverbot meiden.",src:["zh_vet"]}
+    ],
+    cmp:{wald:"1.4. bis 31.7., bis 50 m ab Waldrand",haft:"Pflicht, mind. CHF 1 Mio.",kurs:"Theorie für Ersthaltende, Praxis für jeden Hund",rassen:"Verbotsliste, Rottweiler seit 2025",steuer:"je nach Gemeinde",anm:"innert 10 Tagen, Gemeinde und AMICUS"}
+  },
+  lu:{
+    name:"Kanton Luzern",
+    wald:{season:true,where:"im Wald und bis 50 m ab Waldrand",src:["lu_wald","lu_stadt"]},
+    leine:{items:[
+      "in öffentlich zugänglichen Lokalen wie Restaurants und Läden",
+      "in Naturschutzgebieten und Parkanlagen",
+      "in öffentlichen Verkehrsmitteln",
+      "auf verkehrsreichen Strassen",
+      "im Wald und bis 50 m ab Waldrand, 1. April bis 31. Juli",
+      "läufige, bissige oder ansteckend kranke Hunde immer im Freien"
+    ],src:["lu_huv","lu_wald"]},
+    verbot:{items:["Friedhöfe","Badeanstalten","Spitalanlagen","Kinderspielplätze","Pausenplätze","Spiel- und Sportfelder"],src:["lu_huv"]},
+    cards:[
+      {k:"Haftpflicht",chip:"keine Pflicht",tone:"none",v:"nur im Einzelfall",t:"Es gibt keine allgemeine Versicherungspflicht. Der Veterinärdienst kann sie im Einzelfall anordnen.",src:["lu_huv","lu_hug"]},
+      {k:"Kurs",chip:"Pflicht",tone:"must",v:"NHB innert 18 Monaten",t:"Das Nationale Hundehalter-Brevet (NHB) müssen Ersthaltende und alle, die einen Hund aus dem Ausland einführen, innert 18 Monaten nach dem Erwerb bestehen. Der Hund muss dafür mindestens 12 Monate alt sein.",src:["lu_huv","lu_nhb"]},
+      {k:"Anmeldung",chip:"Pflicht",tone:"note",v:"AMICUS und Gemeinde",t:"Dein Hund braucht einen Mikrochip und einen Eintrag in AMICUS. Die Hundesteuer bezieht die Gemeinde.",src:["lu_stadt","lu_hug"]},
+      {k:"Hundesteuer",chip:"kantonal",tone:"note",v:"CHF 120 pro Jahr",t:"Gilt in allen Luzerner Gemeinden. Hofhunde auf Landwirtschaftsbetrieben: CHF 40. Befreit sind unter anderem Assistenz-, Dienst- und Militärhunde.",src:["lu_hug"]},
+      {k:"Rassen",chip:"keine Liste",tone:"none",v:"keine Einschränkungen",t:"Der Kanton Luzern kennt keine rassenspezifischen Verbote.",src:["srf"]},
+      {k:"Unterwegs",chip:"Regel",tone:"note",v:"nie unbeaufsichtigt",t:"Im Wald, am Waldrand, an Seeufern, entlang von Hecken und nachts darf dein Hund nie unbeaufsichtigt sein. Bestellte Felder nur mit Einverständnis betreten.",src:["lu_huv"]}
+    ],
+    cmp:{wald:"1.4. bis 31.7., bis 50 m ab Waldrand",haft:"keine allgemeine Pflicht",kurs:"NHB für Ersthaltende und Importe, innert 18 Monaten",rassen:"keine Einschränkungen",steuer:"CHF 120 pro Jahr",anm:"AMICUS, Steuer über die Gemeinde"}
+  },
+  be:{
+    name:"Kanton Bern",
+    wald:{season:false,text:"Im Kanton Bern gibt es keine allgemeine Leinenpflicht im Wald. Der Grosse Rat hat sie für die Brut- und Setzzeit 2023 mit 70 zu 63 Stimmen abgelehnt. Die Leine braucht es trotzdem auf Weiden mit Nutztieren, in Naturschutzgebieten und an Orten, die deine Gemeinde bezeichnet.",src:["be_wald","be_avet"]},
+    leine:{items:[
+      "auf Schulanlagen",
+      "auf öffentlichen Spiel- und Sportplätzen",
+      "in öffentlichen Verkehrsmitteln, an Bahnhöfen und Haltestellen",
+      "auf Weiden mit Nutztieren",
+      "in Naturschutzgebieten",
+      "an Orten, die deine Gemeinde bezeichnet"
+    ],src:["be_avet"]},
+    verbot:{lead:"Der Kanton selbst listet keine Orte. Gemeinden können Orte bezeichnen, zu denen Hunde keinen Zutritt haben.",items:["Orte, die deine Gemeinde bezeichnet"],src:["be_hug"]},
+    cards:[
+      {k:"Haftpflicht",chip:"Pflicht",tone:"must",v:"mind. CHF 3 Mio.",t:"Wer einen Hund hält, braucht eine Haftpflichtversicherung, die die Risiken der Hundehaltung deckt.",src:["be_avet"]},
+      {k:"Kurs",chip:"keine Pflicht",tone:"none",v:"kein Obligatorium",t:"Der Kanton Bern kennt kein Kursobligatorium. Empfohlen werden Kurse vor allem für Ersthaltende.",src:["be_kurs"]},
+      {k:"Anmeldung",chip:"Pflicht",tone:"note",v:"über die Gemeinde",t:"Melde dich bei deiner Wohngemeinde als Hundehalterin oder Hundehalter. Die Gemeinde registriert dich in AMICUS.",src:["be_avet"]},
+      {k:"Hundesteuer",chip:"Gemeinde",tone:"note",v:"je nach Gemeinde",t:"Die Gemeinde legt die Hundetaxe fest. Keine Taxe gibt es unter anderem für Assistenzhunde, für Hunde im Tierheim und wenn sie im gleichen Jahr schon anderswo bezahlt wurde.",src:["be_hug"]},
+      {k:"Rassen",chip:"keine Liste",tone:"none",v:"keine Einschränkungen",t:"Das Berner Hundegesetz kennt keine Rassenliste und keine rassenspezifischen Vorschriften.",src:["be_avet"]},
+      {k:"Unterwegs",chip:"Regel",tone:"note",v:"höchstens 3 Hunde",t:"Pro Person höchstens 3 Hunde, die älter als 4 Monate sind. Im öffentlichen Raum nie unbeaufsichtigt und jederzeit wirksam unter Kontrolle. Kot aufnehmen, sonst droht eine Ordnungsbusse.",src:["be_avet"]}
+    ],
+    cmp:{wald:"keine allgemeine Pflicht",haft:"Pflicht, mind. CHF 3 Mio.",kurs:"kein Obligatorium",rassen:"keine Einschränkungen",steuer:"je nach Gemeinde",anm:"über die Gemeinde"}
+  }
+};
+
+const P={
+  zuerich:{label:"Stadt Zürich",sub:"Kanton ZH",c:"zh",local:{
+    todayNote:"In der Stadt Zürich gilt zudem an den meisten Orten zumindest tagsüber Leinenpflicht. Massgebend sind die Schilder vor Ort.",
+    intro:"Die Stadt legt per Verfügung fest, wo Freilauf erlaubt ist, wo die Leine nötig ist und wo Hunde verboten sind.",
+    items:[
+      {k:"Leine",v:"meist Pflicht, zumindest tagsüber",t:"An den meisten Orten der Stadt gilt zumindest tagsüber Leinenpflicht. Achte auf die Schilder vor Ort.",src:["zh_stadt"]},
+      {k:"Zonen",v:"verbindlicher Plan der Stadt",t:"Freilaufzonen, Leinenpflicht- und Verbotszonen stehen im städtischen Datensatz «Hundezonen», Stand 14.07.2026.",src:["zh_zonen"]},
+      {k:"Anmeldung und Steuer",v:"Stadtpolizei Zürich",t:"Die Stadtpolizei ist für die obligatorische An- und Abmeldung und für die Hundesteuer zuständig.",src:["zh_stadt"]}
+    ]}},
+  luzern:{label:"Stadt Luzern",sub:"Kanton LU",c:"lu",local:{
+    todayNote:"In der Stadt Luzern gelten auf den meisten städtischen Flächen Hundeverbote oder Leinenzwang. Frei laufen darf dein Hund in den drei Freilaufzonen.",
+    intro:"Drei abgegrenzte und signalisierte Freilaufzonen. Auf den anderen städtischen Flächen gelten mehrheitlich Hundeverbote und Leinenzwang.",
+    zones:[
+      {n:"Allmend",tags:["grösste Zone","eigenes Wegnetz"],t:"Hinter dem Armee-Ausbildungszentrum Luzern, zwischen Schäferweg und Zirkusplatz. Mit Sitzgelegenheiten und Schattenbäumen."},
+      {n:"Churchillquai",tags:["Wasserzugang"],t:"Teil der Wiese zwischen Seeufer und Seeburgstrasse, mit Hecke und Zaun abgegrenzt. Mit Sitzbänken."},
+      {n:"Tribschenhorn",tags:["Seezugang"],t:"Zwischen der Tribschen-Badi und der Landwirtschaftsfläche, mit eigenen Spazierwegen und Sitzgelegenheiten."}
+    ],
+    zonesSrc:["lu_stadt"],
+    items:[
+      {k:"Bussen",v:"CHF 80 bis 150 je nach Verstoss",t:"Missachtung von Verboten oder Leinenzwang: CHF 100 bis 150 (Naturschutzgebiete). Hundekot liegen lassen: CHF 80. Stand der Broschüre: 2022.",src:["lu_stadt"]}
+    ]}},
+  bern:{label:"Stadt Bern",sub:"Kanton BE",c:"be",local:{
+    intro:"Zusätzlich zu den kantonalen Regeln legt die Stadt eigene Orte mit Leinenpflicht fest.",
+    items:[
+      {k:"Leine",v:"Orte im Stadtplan",t:"Wo in der Stadt zusätzlich Leinenpflicht gilt, zeigt der Stadtplan im Thema «Leinenpflicht für Hunde».",src:["be_plan"]},
+      {k:"Kein Zutritt",v:"Tierpark und Kinderzoo",t:"Im eintrittspflichtigen Teil des Tierparks und im Kinderzoo sind Hunde nicht erlaubt.",src:["be_zoo"]},
+      {k:"Hundetaxe",v:"Stichtag 1. August",t:"Taxpflichtig ist, wer am 1. August in der Stadt Bern wohnt.",src:["be_taxe"]}
+    ]}},
+  "kanton-zh":{label:"Zürich",sub:"übrige Gemeinden",c:"zh"},
+  "kanton-lu":{label:"Luzern",sub:"übrige Gemeinden",c:"lu"},
+  "kanton-be":{label:"Bern",sub:"übrige Gemeinden",c:"be"}
+};
+const CITY=["zuerich","luzern","bern"], KT=["kanton-zh","kanton-lu","kanton-be"];
+const ROWS=[["wald","Leine im Wald"],["haft","Haftpflicht"],["kurs","Kurs"],["rassen","Rassen"],["steuer","Hundesteuer"],["anm","Anmeldung"]];
+
+const DAY=864e5;
+const mid=d=>new Date(d.getFullYear(),d.getMonth(),d.getDate());
+const diff=(a,b)=>Math.round((mid(b)-mid(a))/DAY);
+const fmt=(d,y)=>d.toLocaleDateString("de-CH",y?{day:"numeric",month:"long",year:"numeric"}:{day:"numeric",month:"long"});
+const tage=n=>n===1?"1 Tag":n+" Tage";
+const tagen=n=>n===1?"1 Tag":n+" Tagen";
+
+function season(now){
+  const y=now.getFullYear(),t=mid(now),s=new Date(y,3,1),e=new Date(y,6,31);
+  if(t>=s&&t<=e) return {active:true,end:e,left:diff(t,e)};
+  const next=t<s?s:new Date(y+1,3,1);
+  return {active:false,next:next,until:diff(t,next)};
+}
+
+function src(keys){
+  return '<div class="src"><span>'+(keys.length>1?"Quellen:":"Quelle:")+'</span>'+
+    keys.map(k=>'<a href="'+SRC[k].u+'" target="_blank" rel="noopener">'+SRC[k].s+'</a>').join("")+'</div>';
+}
+
+function bar(hasSeason,now){
+  const y=now.getFullYear(),leap=(y%4===0&&y%100!==0)||y%400===0,total=leap?366:365;
+  const days=[31,leap?29:28,31,30,31,30,31,31,30,31,30,31];
+  const cols=days.map(d=>d+"fr").join(" ");
+  const doy=d=>Math.round((mid(d)-new Date(y,0,1))/DAY);
+  const L=doy(new Date(y,3,1))/total*100, W=(doy(new Date(y,7,1))-doy(new Date(y,3,1)))/total*100;
+  const N=(doy(now)+.5)/total*100, edge=N>88?"r":(N<12?"l":"");
+  const mn=["Jan","Feb","Mär","Apr","Mai","Jun","Jul","Aug","Sep","Okt","Nov","Dez"];
+  const label=(hasSeason?"Leinenpflicht im Wald vom 1. April bis 31. Juli":"Keine saisonale Leinenpflicht im Wald")+". Heute ist der "+fmt(now)+".";
+  return '<div class="bar" role="img" aria-label="'+label+'">'+
+    '<div class="track" style="grid-template-columns:'+cols+'">'+days.map(()=>'<span class="m"></span>').join("")+
+    (hasSeason?'<div class="band" style="left:'+L.toFixed(2)+'%;width:'+W.toFixed(2)+'%"><span>Leine</span></div>':"")+
+    '<div class="now '+edge+'" style="left:'+N.toFixed(2)+'%"><span>heute</span></div></div>'+
+    '<div class="months" style="grid-template-columns:'+cols+'" aria-hidden="true">'+mn.map(m=>'<span>'+m+'</span>').join("")+'</div>'+
+    '<p class="bar-cap">'+(hasSeason?"Brut- und Setzzeit: 1. April bis 31. Juli":"Keine Saisonregel im Kanton")+'</p></div>';
+}
+
+function renderToday(pl){
+  const c=C[pl.c],now=new Date();
+  const dateStr=now.toLocaleDateString("de-CH",{weekday:"long",day:"numeric",month:"long",year:"numeric"});
+  let big,tone,text;
+  if(c.wald.season){
+    const s=season(now);
+    if(s.active){
+      tone="must";big="Heute Leinenpflicht im Wald";
+      text="Bis "+fmt(s.end)+" gilt die Leinenpflicht "+c.wald.where+". "+(s.left===0?"Heute ist der letzte Tag.":"Noch "+tage(s.left)+".");
+    }else{
+      tone="free";big="Heute keine Leinenpflicht im Wald";
+      text="Die Leinenpflicht "+c.wald.where+" gilt wieder ab "+fmt(s.next,true)+", also in "+tagen(s.until)+". Bis dahin muss dein Hund trotzdem unter Kontrolle bleiben, und Schilder vor Ort gehen vor.";
+    }
+  }else{tone="none";big="Keine Saisonregel im Wald";text=c.wald.text;}
+  const note=pl.local&&pl.local.todayNote?'<p class="today-note">'+pl.local.todayNote+'</p>':"";
+  document.getElementById("today").innerHTML=
+    '<div class="today-head"><span class="eyebrow">Heute im Wald · '+c.name+'</span><span class="today-date">'+dateStr+'</span></div>'+
+    '<div class="today-body"><div class="today-status"><p class="big '+tone+'">'+big+'</p><p>'+text+'</p>'+note+src(c.wald.src)+'</div>'+bar(c.wald.season,now)+'</div>';
+}
+
+function card(x){
+  return '<article class="card"><div class="card-top"><span class="card-k">'+x.k+'</span>'+(x.chip?'<span class="chip '+x.tone+'">'+x.chip+'</span>':"")+'</div>'+
+    '<p class="card-v">'+x.v+'</p><p>'+x.t+'</p>'+
+    (x.more?'<details class="more"><summary>'+x.more.label+'</summary><ul>'+x.more.items.map(i=>'<li>'+i+'</li>').join("")+'</ul></details>':"")+
+    src(x.src)+'</article>';
+}
+
+function renderRules(pl){
+  const c=C[pl.c];
+  document.getElementById("rules").innerHTML=
+    '<div class="sec-head"><span class="eyebrow">'+c.name+'</span><h2>Leine und Zutritt</h2></div>'+
+    '<div class="split">'+
+      '<div class="list-card leash"><h3><span class="chip must">Leine</span>Immer an die Leine</h3><ul>'+c.leine.items.map(i=>'<li>'+i+'</li>').join("")+'</ul>'+src(c.leine.src)+'</div>'+
+      '<div class="list-card"><h3><span class="chip none">Verbot</span>Kein Zutritt für Hunde</h3>'+(c.verbot.lead?'<p>'+c.verbot.lead+'</p>':"")+'<ul>'+c.verbot.items.map(i=>'<li>'+i+'</li>').join("")+'</ul>'+src(c.verbot.src)+'</div>'+
+    '</div>';
+  document.getElementById("duties").innerHTML=
+    '<div class="sec-head"><span class="eyebrow">'+c.name+'</span><h2>Pflichten für Hundehaltende</h2></div>'+
+    '<div class="cards">'+c.cards.map(card).join("")+'</div>';
+}
+
+function renderLocal(pl){
+  const el=document.getElementById("local"),c=C[pl.c];
+  if(!pl.local){
+    el.innerHTML='<div class="sec-head"><span class="eyebrow">Gemeinde</span><h2>In deiner Gemeinde</h2></div>'+
+      '<p class="plain-note">Zusätzlich zu den Regeln im '+c.name+' kann deine Gemeinde weitere Orte mit Leinenpflicht oder Hundeverbot festlegen. Sie sind meist signalisiert. Weitere Gemeinden folgen im nächsten Ausbau.</p>';
+    return;
+  }
+  const L=pl.local;
+  el.innerHTML='<div class="sec-head"><span class="eyebrow">'+pl.label+'</span><h2>Zusätzlich in der '+pl.label+'</h2>'+(L.intro?'<p>'+L.intro+'</p>':"")+'</div>'+
+    (L.zones?'<div class="zones">'+L.zones.map(z=>'<article class="zone"><div class="zone-name">'+z.n+'</div><div class="tags">'+z.tags.map(t=>'<span class="chip free">'+t+'</span>').join("")+'</div><p>'+z.t+'</p></article>').join("")+'</div>'+src(L.zonesSrc):"")+
+    '<div class="cards">'+L.items.map(card).join("")+'</div>';
+}
+
+function renderCompare(pl){
+  const ks=["zh","lu","be"];
+  document.getElementById("compare").innerHTML=
+    '<div class="sec-head"><span class="eyebrow">Umzug</span><h2>Drei Kantone im Vergleich</h2><p>Was sich ändert, wenn du mit deinem Hund umziehst. Der Kanton deines Orts ist markiert.</p></div>'+
+    '<div class="table-wrap"><table><thead><tr><th scope="col"><span class="sr">Thema</span></th>'+
+      ks.map(k=>'<th scope="col"'+(k===pl.c?' class="sel"':"")+'>'+C[k].name+'</th>').join("")+'</tr></thead><tbody>'+
+      ROWS.map(r=>'<tr><th scope="row">'+r[1]+'</th>'+ks.map(k=>'<td'+(k===pl.c?' class="sel"':"")+'>'+C[k].cmp[r[0]]+'</td>').join("")+'</tr>').join("")+
+    '</tbody></table></div>'+
+    '<div class="callout"><p><strong>Umzug in den Kanton Zürich:</strong> Die Kurspflicht gilt auch bei Zuzug. Hunde der Rassetypenliste II dürfen nicht zuziehen.</p>'+src(["zh_vet","srf"])+'</div>';
+}
+
+function renderFoot(){
+  document.getElementById("foot").innerHTML=
+    '<p><strong>Keine Rechtsberatung.</strong> Massgebend sind Gesetz, Verordnung und die Schilder vor Ort. Gassi-Kompass ist ein privates Pilotprojekt und kein Angebot eines Kantons oder einer Stadt.</p>'+
+    '<p>Alle Angaben geprüft am '+CHECKED+'. Quellen:</p>'+
+    '<ol>'+Object.keys(SRC).map(k=>'<li><a href="'+SRC[k].u+'" target="_blank" rel="noopener">'+SRC[k].l+'</a></li>').join("")+'</ol>';
+}
+
+function plate(id){
+  const p=P[id];
+  return '<button type="button" class="dest" id="dest-'+id+'" data-place="'+id+'" aria-pressed="false"><span class="dest-name">'+p.label+'</span><span class="dest-sub">'+p.sub+'</span></button>';
+}
+
+let current=null;
+function show(id){
+  if(!P[id]) id="zuerich";
+  if(id===current) return;
+  current=id;
+  document.querySelectorAll(".dest").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.place===id)));
+  const pl=P[id];
+  renderToday(pl);renderRules(pl);renderLocal(pl);renderCompare(pl);
+  try{localStorage.setItem("gk-place",id)}catch(e){}
+}
+
+document.getElementById("plates-city").innerHTML=CITY.map(plate).join("");
+document.getElementById("plates-kt").insertAdjacentHTML("beforeend",KT.map(plate).join(""));
+document.querySelectorAll(".dest").forEach(b=>b.addEventListener("click",()=>{
+  const id=b.dataset.place;
+  if(location.hash.slice(1)!==id){location.hash=id}else{show(id)}
+}));
+window.addEventListener("hashchange",()=>show(location.hash.slice(1)));
+renderFoot();
+let start=location.hash.slice(1);
+if(!P[start]){try{start=localStorage.getItem("gk-place")||""}catch(e){start=""}}
+show(P[start]?start:"zuerich");
+})();
+</script>
+</body>
+</html>
