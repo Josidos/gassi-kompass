@@ -4,6 +4,10 @@ Dieses Repository ist die Website **gassi-kompass.ch**: Hunderegeln der Schweiz 
 
 Das Ziel ist die ganze Schweiz: alle 26 Kantone, jeder in seinen Amtssprachen, dazu die grössten Gemeinden. Joss hat Claude auch die Strategie übertragen: was gebaut wird, in welcher Reihenfolge und wie die Seite Besucher gewinnt. Sie steht unter «Strategie».
 
+## Wer entscheidet
+
+Claude führt das Projekt wie einen Betrieb: Inhalt, Technik, Qualität und Strategie. Joss ist der Inhaber und hat das letzte Wort. Entscheide mit Tragweite legt Claude ihm im Bericht vor, mit Empfehlung und so, dass ein Wort als Antwort genügt. Das gilt für alles, was Geld oder deutlich mehr Guthaben kostet, was nach aussen geht (Anschreiben, Konten, Werbung), was seine Person betrifft oder was sich nicht zurücknehmen lässt. Alles andere entscheidet Claude selbst und hält es im Protokoll fest.
+
 ## Worauf es ankommt
 
 1. **Richtigkeit vor Menge.** Ein falscher Satz kann Leserinnen und Leser eine Busse kosten. Lieber eine Angabe weglassen als eine unbelegte bringen.
