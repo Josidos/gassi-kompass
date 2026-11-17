@@ -1,0 +1,36 @@
+{
+  "id": "buelach",
+  "kanton": "zh",
+  "bfs": 53,
+  "name": "Bülach",
+  "ort": "Bülach",
+  "in_ort": "in Bülach",
+  "geprueft": "2026-11-17",
+  "einleitung": "In Bülach ist die Stadtpolizei für die Anmeldung und die Jahresgebühr zuständig.",
+  "karten": [
+    {
+      "titel": "Hundetaxe",
+      "wert": "CHF 170 pro Jahr",
+      "text": "Die Jahresgebühr für die Hundehaltung beträgt CHF 170. Die Stadtpolizei stellt sie jährlich in Rechnung. Du zahlst sie bis zum 31. März. Danach wird die Gebühr höher, ausser der Hund ist neu.",
+      "quellen": [
+        "zh_buelach_gebuehr"
+      ]
+    },
+    {
+      "titel": "Ermässigung",
+      "wert": "50 Prozent mit Hundehalter-Brevet",
+      "text": "Wer das nationale Hundehalter-Brevet absolviert, erhält im Jahr des Abschlusses einmalig 50 Prozent Reduktion. Die Stadt knüpft das an Bedingungen, unter anderem Wohnsitz in Bülach. Stirbt der Hund vor dem 30. Juni, erhältst du einen Teil der Gebühr zurück.",
+      "quellen": [
+        "zh_buelach_gebuehr"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "wert": "Stadtpolizei, innert 10 Tagen",
+      "text": "Ist dein Hund älter als 3 Monate, meldest du ihn innert 10 Tagen an, am Schalter der Stadtpolizei oder mit dem Onlineformular. Verspätete Meldungen kosten laut Stadt eine Gebühr.",
+      "quellen": [
+        "zh_buelach_meldungen"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "waedenswil",
+  "kanton": "zh",
+  "bfs": 293,
+  "name": "Wädenswil",
+  "ort": "Wädenswil",
+  "in_ort": "in Wädenswil",
+  "geprueft": "2026-11-17",
+  "einleitung": "Die Stadt erhebt die Hundesteuer und eine Gebühr für die Anmeldung.",
+  "karten": [
+    {
+      "titel": "Hundetaxe",
+      "wert": "CHF 150 pro Jahr",
+      "text": "Die Hundesteuer beträgt CHF 150 pro Jahr. Die Stadt stellt sie jährlich in Rechnung.",
+      "quellen": [
+        "zh_waedenswil_hundewesen"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "wert": "Innert 10 Tagen, CHF 20",
+      "text": "Du meldest deinen Hund innert 10 Tagen bei der Stadt und in der Datenbank Amicus. Die Stadt bietet dafür einen Online-Dienst an. Die Anmeldung kostet CHF 20, eine verspätete Meldung CHF 40. Ist es dein erster Hund, wendest du dich vorab an die Stabstelle Gesellschaft.",
+      "quellen": [
+        "zh_waedenswil_hundewesen"
+      ]
+    },
+    {
+      "titel": "Hundekot",
+      "wert": "Säcke gratis bei den Einwohnerdiensten",
+      "text": "Robidog-Säcke bekommst du kostenlos am Schalter der Einwohnerdienste.",
+      "quellen": [
+        "zh_waedenswil_hundewesen"
+      ]
+    }
+  ]
+}

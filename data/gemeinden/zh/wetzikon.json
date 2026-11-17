@@ -1,0 +1,46 @@
+{
+  "id": "wetzikon",
+  "kanton": "zh",
+  "bfs": 121,
+  "name": "Wetzikon",
+  "ort": "Wetzikon",
+  "in_ort": "in Wetzikon",
+  "geprueft": "2026-11-17",
+  "einleitung": "Die Stadt erhebt die Hundesteuer über die Einwohnerdienste. Die Polizeiverordnung regelt den Hundekot.",
+  "karten": [
+    {
+      "titel": "Hundetaxe",
+      "wert": "CHF 180 pro Hund",
+      "text": "Die Hundesteuer beträgt CHF 180 pro Hund und Jahr. Der Beitrag an den Kanton von CHF 30 ist darin enthalten. Übernimmst du den Hund nach dem 30. Juni oder wird er erst dann drei Monate alt, zahlst du CHF 90.",
+      "quellen": [
+        "zh_wetzikon_hundewesen",
+        "zh_wetzikon_tarif"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "wert": "Einwohnerdienste, innert 10 Tagen",
+      "text": "Ist dein Hund älter als drei Monate, meldest du ihn innert 10 Tagen bei den Einwohnerdiensten an. Meldest du ihn nicht an und muss die Stadt die Meldung bei der Datenbank Amicus selbst machen, kostet das CHF 30.",
+      "quellen": [
+        "zh_wetzikon_hundewesen",
+        "zh_wetzikon_tarif"
+      ]
+    },
+    {
+      "titel": "Hundekot",
+      "wert": "Aufnehmen und entsorgen",
+      "text": "Hundekot musst du aufnehmen und in den dafür bezeichneten Sammelstellen entsorgen. Das steht in Art. 22 der Polizeiverordnung, in Kraft seit 1. August 2026.",
+      "quellen": [
+        "zh_wetzikon_pvo"
+      ]
+    },
+    {
+      "titel": "Leine",
+      "wert": "Keine eigene Regel der Stadt",
+      "text": "Die Polizeiverordnung der Stadt enthält keine eigene Leinenpflicht und keine Hundeverbote für bestimmte Orte. Es gelten die Regeln des Kantons.",
+      "quellen": [
+        "zh_wetzikon_pvo"
+      ]
+    }
+  ]
+}

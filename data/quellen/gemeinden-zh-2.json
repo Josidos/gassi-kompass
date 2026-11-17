@@ -1,0 +1,32 @@
+{
+  "zh_wetzikon_hundewesen": {
+    "kurz": "Stadt Wetzikon: Hundewesen",
+    "lang": "Stadt Wetzikon, Einwohnerdienste: Hundewesen (Hundesteuer, Anmeldung)",
+    "url": "https://www.wetzikon.ch/de/verwaltung/dienstleistungen/36_hundewesen"
+  },
+  "zh_wetzikon_tarif": {
+    "kurz": "Gebührentarif Wetzikon",
+    "lang": "Stadt Wetzikon: Gebührentarif vom 1. Januar 2018, Stand 8. Juli 2026, Ziff. 7.2 Hundewesen",
+    "url": "https://www.wetzikon.ch/wAssets/docs/Rechtssammlung/7/751/751.2-E-Gebuehrentarif-vom-1.-Januar-2018-Stand-08072026.pdf"
+  },
+  "zh_wetzikon_pvo": {
+    "kurz": "Polizeiverordnung Wetzikon",
+    "lang": "Stadt Wetzikon: Polizeiverordnung (PVO) vom 9. März 2026, in Kraft seit 1. August 2026",
+    "url": "https://www.wetzikon.ch/wAssets/docs/Rechtssammlung/5/502/502.1-Polizeiverordnung-vom-09-03-2026.pdf"
+  },
+  "zh_waedenswil_hundewesen": {
+    "kurz": "Stadt Wädenswil: Hundewesen",
+    "lang": "Stadt Wädenswil: Hundewesen, Informationen für Hundehalterinnen und Hundehalter (Hundesteuer, Anmeldegebühr)",
+    "url": "https://www.waedenswil.ch/dienstleistungen/20941"
+  },
+  "zh_buelach_gebuehr": {
+    "kurz": "Stadt Bülach: Steuern, Hundegebühr",
+    "lang": "Stadt Bülach: Steuern (Abschnitt zur Gebühr für die Hundehaltung)",
+    "url": "https://www.buelach.ch/finanzen-steuern/69364"
+  },
+  "zh_buelach_meldungen": {
+    "kurz": "Stadt Bülach: Hunde-Meldungen",
+    "lang": "Stadt Bülach, Stadtpolizei: Hunde-Meldungen (Anmeldung, Änderungen)",
+    "url": "https://www.buelach.ch/dienstleistungen/98194"
+  }
+}
