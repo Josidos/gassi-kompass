@@ -32,6 +32,8 @@ RESERVIERT = {"assets", "data", "tests", "ueber"}
 VERGLEICH = [("wald", "Leine im Wald"), ("haft", "Haftpflicht"), ("kurs", "Kurs"),
              ("rassen", "Rassen"), ("steuer", "Hundesteuer"), ("anm", "Anmeldung")]
 MIN_LOKAL = 3  # so viele belegte lokale Angaben braucht eine Gemeinde für eine eigene Seite
+# Feste Dateien, die nie fehlen dürfen: Domain, Pages-Schalter, Bestätigung für die Google Search Console
+FEST = ["CNAME", ".nojekyll", "google49e2be530ce3822a.html"]
 
 e = html.escape
 
@@ -164,6 +166,9 @@ def pruefe(quellen, kantone, gemeinden):
         if len(zonen) + len(g["karten"]) < MIN_LOKAL:
             fehler.append(f"{wo}: weniger als {MIN_LOKAL} belegte lokale Angaben. "
                           "Für diese Gemeinde keine eigene Seite anlegen.")
+    for name in FEST:
+        if not (ROOT / name).is_file():
+            fehler.append(f"{name}: feste Datei fehlt. Nicht löschen, siehe CLAUDE.md.")
     return fehler
 
 

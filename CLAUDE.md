@@ -20,6 +20,8 @@ Dieses Repository ist die Website **gassi-kompass.ch**: Hunderegeln der Schweiz 
 | `tests/seiten.js` | Browser-Test der gebauten Seiten |
 | `BACKLOG.md` | Was als Nächstes dran ist |
 | `CHANGELOG.md` | Protokoll jedes Laufs |
+| `CNAME`, `.nojekyll` | Domain und Schalter für GitHub Pages. Nie löschen oder ändern. |
+| `google49e2be530ce3822a.html` | Bestätigungsdatei für die Google Search Console. Nie löschen oder ändern, sonst verliert Joss den Zugriff auf die Suchdaten. `build.py --check` meldet einen Fehler, wenn sie fehlt. |
 
 Erzeugte Dateien nie von Hand ändern: `index.html`, `404.html`, `sitemap.xml`, `robots.txt`, `ueber/` und die Kantonsordner wie `zh/`. Stattdessen Daten oder `build.py` anpassen und neu bauen.
 
