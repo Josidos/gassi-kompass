@@ -1,0 +1,32 @@
+{
+  "gr_vetg": {
+    "kurz": "Veterinärgesetz GR",
+    "lang": "Kanton Graubünden: Veterinärgesetz (VetG, BR 914.000) vom 30. August 2007, Stand 1. Januar 2016",
+    "url": "https://gr.lexwork.naz.ch/de/dta/914.000.pdf"
+  },
+  "gr_hundewesen": {
+    "kurz": "ALT GR: Hundewesen",
+    "lang": "Kanton Graubünden, Amt für Lebensmittelsicherheit und Tiergesundheit: Hundewesen (Fachstelle für Graubünden und Glarus)",
+    "url": "https://www.gr.ch/DE/institutionen/verwaltung/dvs/alt/tiere/hundewesen/Seiten/default.aspx"
+  },
+  "gr_jagdg": {
+    "kurz": "Jagdgesetz GR",
+    "lang": "Kanton Graubünden: Kantonales Jagdgesetz (KJG, BR 740.000) vom 4. Juni 1989, Stand 1. August 2025",
+    "url": "https://www.lexfind.ch/tol/8043/de"
+  },
+  "gr_jagdv": {
+    "kurz": "Jagdverordnung GR",
+    "lang": "Kanton Graubünden: Regierungsrätliche Jagdverordnung (BR 740.020), Stand 1. Juli 2026",
+    "url": "https://www.lexfind.ch/tol/8040/de"
+  },
+  "gr_chur_hunde": {
+    "kurz": "Stadt Chur: Hundewesen",
+    "lang": "Stadt Chur, Stadtpolizei: Hundewesen (abgerufen am 17. November 2026)",
+    "url": "https://www.chur.ch/stadtpolizei/327"
+  },
+  "gr_chur_regeln": {
+    "kurz": "Stadtpolizei Chur: Regeln",
+    "lang": "Stadtpolizei Chur: Wichtige Regeln für Hundehalter (Merkblatt ohne Datum)",
+    "url": "https://www.chur.ch/merkblaetter/94168"
+  }
+}

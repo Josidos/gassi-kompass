@@ -1,0 +1,54 @@
+{
+  "id": "chur",
+  "kanton": "gr",
+  "bfs": 3901,
+  "name": "Stadt Chur",
+  "ort": "Chur",
+  "in_ort": "in der Stadt Chur",
+  "geprueft": "2026-11-17",
+  "einleitung": "In Chur gelten die Regeln des Kantons Graubünden. Die Stadt schreibt zusätzlich an bestimmten Orten die Leine vor und verbietet Hunde an anderen ganz.",
+  "karten": [
+    {
+      "titel": "Hundetaxe",
+      "wert": "CHF 155 pro Hund und Jahr",
+      "text": "Die Hundetaxe der Stadt Chur beträgt zurzeit CHF 155 pro Hund und Jahr. Der Stadtrat legt den Betrag jedes Jahr fest, der Höchstansatz ist CHF 300. Junghunde sind ab dem 4. Lebensmonat melde- und taxpflichtig, die Taxe wird dann anteilig erhoben. Befreit sind einsatzfähige Hunde mit Prüfungsausweis, zum Beispiel Lawinen-, Polizei-, Therapie-, Blindenführ-, Such-, Sanitäts- und Katastrophenhunde, sowie Hunde von Personen, die Ergänzungsleistungen oder Sozialhilfe beziehen. Um die Hälfte ermässigt ist die Taxe für Hirten- und Schweisshunde, für Hunde mit einem Brevet der Schweizerischen Kynologischen Gesellschaft und für Sporthunde mit anerkannter Prüfung. Den Nachweis legst du jedes Jahr nach Erhalt der Rechnung vor.",
+      "quellen": [
+        "gr_chur_hunde"
+      ]
+    },
+    {
+      "titel": "Leine",
+      "wert": "an sieben Arten von Orten",
+      "text": "An der Leine führst du deinen Hund in städtischen Verwaltungsgebäuden, auf Schulhaus- und Kindergartenarealen, auf Kinderspielplätzen, auf Sportanlagen, in Gastwirtschaftsbetrieben, in öffentlichen Parkanlagen und in Wildruhezonen. Hunde dürfen nicht unbeaufsichtigt laufen gelassen werden.",
+      "quellen": [
+        "gr_chur_hunde"
+      ]
+    },
+    {
+      "titel": "Kein Zutritt",
+      "wert": "Schwimmanlagen, Kirchen, Friedhöfe, Säle",
+      "text": "Nicht mitnehmen darfst du deinen Hund in Schwimmanlagen, Kirchen, Friedhöfe, Konzertsäle, Theater und Kinos. Ausgenommen sind Führ- und Assistenzhunde. Laut dem Merkblatt der Stadtpolizei ist ausserdem das Betreten von Wiesland vom 15. März bis 15. November verboten, das Betreten von fremdem Kultur- und Ackerland das ganze Jahr.",
+      "quellen": [
+        "gr_chur_hunde",
+        "gr_chur_regeln"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "wert": "Schalter der Stadtpolizei",
+      "text": "Anmeldungen und Änderungen nimmt der Schalter der Stadtpolizei Chur am Kornplatz 10 entgegen. Bring den Heimtierausweis oder den Impfpass mit. Übernimmst du einen Hund, meldest du dich innert 14 Tagen. Dein Hund muss in der Datenbank AMICUS registriert sein, und die Daten müssen aktuell sein.",
+      "quellen": [
+        "gr_chur_hunde"
+      ]
+    },
+    {
+      "titel": "Bussen",
+      "wert": "CHF 100 für liegen gelassenen Kot",
+      "text": "Den Kot deines Hundes beseitigst du auf öffentlichem Grund und auf privatem Grund Dritter sofort. Wer ihn liegen lässt, zahlt laut dem Merkblatt der Stadtpolizei eine Busse von CHF 100. Hundekotbeutel gibt es kostenlos am Schalter der Stadtpolizei. Wer gegen die Flurordnung verstösst, wird verzeigt.",
+      "quellen": [
+        "gr_chur_hunde",
+        "gr_chur_regeln"
+      ]
+    }
+  ]
+}

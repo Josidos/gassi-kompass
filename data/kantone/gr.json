@@ -1,0 +1,114 @@
+{
+  "id": "gr",
+  "name": "Kanton Graubünden",
+  "kurz": "GR",
+  "im": "im Kanton Graubünden",
+  "des": "des Kantons Graubünden",
+  "geprueft": "2026-11-17",
+  "wald": {
+    "saison": false,
+    "text": "Jagdgesetz, Jagdverordnung und Veterinärgesetz des Kantons nennen keine Leinenpflicht im Wald und keine feste Leinenzeit. Die Gemeinden können eigene Bestimmungen erlassen. Achte auf die Regeln und Tafeln deiner Gemeinde.",
+    "quellen": [
+      "gr_jagdg",
+      "gr_jagdv",
+      "gr_vetg"
+    ]
+  },
+  "leine": {
+    "punkte": [
+      "dort, wo deine Gemeinde es vorschreibt. Die Gemeinden können eigene Bestimmungen über das Halten von Hunden erlassen.",
+      "wenn das Amt für Lebensmittelsicherheit und Tiergesundheit es für deinen Hund angeordnet hat. Bei gefährlichen Tieren kann es in Siedlungsgebieten Leine oder Maulkorb verlangen."
+    ],
+    "quellen": [
+      "gr_vetg",
+      "gr_hundewesen"
+    ]
+  },
+  "verbot": {
+    "einleitung": "Das Veterinärgesetz des Kantons nennt keine Orte mit Hundeverbot.",
+    "punkte": [
+      "Orte, an denen deine Gemeinde ein Verbot erlassen hat",
+      "Wildeinstandsgebiete, für die deine Gemeinde den Zutritt wegen übermässiger Störungen zeitlich und örtlich eingeschränkt hat"
+    ],
+    "quellen": [
+      "gr_vetg",
+      "gr_jagdg"
+    ]
+  },
+  "karten": [
+    {
+      "titel": "Haftpflicht",
+      "marke": "keine Pflicht",
+      "ton": "none",
+      "wert": "nur auf Anordnung",
+      "text": "Das Veterinärgesetz des Kantons schreibt keine Haftpflichtversicherung für alle Hunde vor. Das Amt für Lebensmittelsicherheit und Tiergesundheit kann sie aber anordnen, wenn ein Tier als gefährlich gilt. Deine Gemeinde kann eigene Bestimmungen kennen.",
+      "quellen": [
+        "gr_vetg"
+      ]
+    },
+    {
+      "titel": "Kurs",
+      "marke": "keine Pflicht",
+      "ton": "none",
+      "wert": "nur auf Anordnung",
+      "text": "Einen Kurs für alle Hundehaltenden schreibt das Veterinärgesetz nicht vor. Bei einem gefährlichen Tier kann das Amt anordnen, dass du Kurse oder Ausbildungen besuchst. Laut der Fachstelle Hundewesen kann das zum Beispiel ein Hundetraining sein. Die Kosten trägst du.",
+      "quellen": [
+        "gr_vetg",
+        "gr_hundewesen"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "marke": "Gemeinde",
+      "ton": "note",
+      "wert": "Gemeinde und Hundedatenbank",
+      "text": "Die Gemeinden müssen Hunde in einer von der Regierung bezeichneten Datenbank registrieren und die Daten aktuell halten. Sie kontrollieren auch die Hundehaltung. Wo und bis wann du deinen Hund meldest, sagt dir deine Gemeinde. Das Veterinärgesetz nennt dafür keine Frist. Hat dein Hund coupierte Ohren oder eine verkürzte Rute, meldest du das dem Amt für Lebensmittelsicherheit und Tiergesundheit. Diese Merkmale werden in der Datenbank AMICUS erfasst.",
+      "quellen": [
+        "gr_vetg",
+        "gr_hundewesen"
+      ]
+    },
+    {
+      "titel": "Hundesteuer",
+      "marke": "Gemeinde",
+      "ton": "note",
+      "wert": "je nach Gemeinde",
+      "text": "Das Veterinärgesetz des Kantons regelt keine Hundesteuer. Es überlässt weitere Bestimmungen über das Halten von Hunden den Gemeinden. Die Stadt Chur zum Beispiel erhebt eine Hundetaxe von CHF 155 pro Hund und Jahr. Den Betrag an deinem Wohnort erfährst du bei deiner Gemeinde.",
+      "quellen": [
+        "gr_vetg",
+        "gr_chur_hunde"
+      ]
+    },
+    {
+      "titel": "Rassen",
+      "marke": "keine Liste",
+      "ton": "none",
+      "wert": "keine Rasseliste",
+      "text": "Das Veterinärgesetz des Kantons Graubünden nennt keine verbotenen oder bewilligungspflichtigen Rassen. Die Fachstelle Hundewesen ist auch für den Kanton Glarus zuständig. Die Bewilligungspflicht für bestimmte Rassen, die auf ihrer Seite steht, gilt im Kanton Glarus. In Graubünden entscheidet das Amt im Einzelfall: Zeigt ein Hund Anzeichen von Verhaltensauffälligkeiten, kann es ihn beobachten lassen und eine Wesensprüfung durchführen.",
+      "quellen": [
+        "gr_vetg",
+        "gr_hundewesen"
+      ]
+    },
+    {
+      "titel": "Unterwegs",
+      "marke": "Regel",
+      "ton": "note",
+      "wert": "Kontrolle und Wildschutz",
+      "text": "Mit Busse wird bestraft, wer ein bösartiges Tier nicht gehörig verwahrt, ein Tier auf Menschen oder andere Tiere hetzt oder ein Tier unter seiner Aufsicht nicht von einem Angriff auf Menschen oder andere Tiere abhält. Wer das Veterinärgesetz oder darauf beruhende Erlasse von Kanton oder Gemeinde verletzt, riskiert eine Busse bis CHF 20 000. Als wildernd gelten Hunde, die sich unbeaufsichtigt in den Wildeinständen herumtreiben. Wildhüter dürfen Hunde erlegen, wenn sie Wild gerissen oder wiederholt gewildert haben. Tierärzte, Ärzte, Tierheime, Hundeausbildner, Polizei und Zoll müssen dem Amt Vorfälle melden, bei denen ein Hund Menschen oder Tiere verletzt hat oder auffällig aggressiv ist. Bei dringenden oder schweren Vorfällen wendest du dich an die Kantonspolizei.",
+      "quellen": [
+        "gr_vetg",
+        "gr_jagdv",
+        "gr_hundewesen"
+      ]
+    }
+  ],
+  "vergleich": {
+    "wald": "keine kantonale Leinenzeit, Gemeinden regeln",
+    "haft": "keine Pflicht, nur auf Anordnung",
+    "kurs": "keine Pflicht, nur auf Anordnung",
+    "rassen": "keine Rasseliste",
+    "steuer": "je nach Gemeinde",
+    "anm": "Gemeinde, Hundedatenbank"
+  }
+}
