@@ -1,0 +1,45 @@
+{
+  "id": "glarus",
+  "kanton": "gl",
+  "bfs": 1632,
+  "name": "Gemeinde Glarus",
+  "ort": "Glarus",
+  "in_ort": "in der Gemeinde Glarus",
+  "geprueft": "2026-11-17",
+  "einleitung": "In der Gemeinde Glarus gelten die Regeln des Kantons Glarus. Die Gemeinde erhebt einen Zuschlag zur kantonalen Hundetaxe. Zuständig für alle Hundefragen sind die Einwohnerdienste.",
+  "karten": [
+    {
+      "titel": "Hundetaxe",
+      "wert": "CHF 190 pro Hund und Jahr",
+      "text": "Die jährliche Hundetaxe beträgt seit dem 1. Januar 2019 CHF 190 pro Hund. Davon gehen CHF 135 an die Gemeinde Glarus und CHF 55 an den Kanton. Die Ausnahmen stehen in Artikel 33 der kantonalen Veterinärverordnung.",
+      "quellen": [
+        "gl_glarus_hunde",
+        "gl_vetv"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "wert": "Einwohnerdienste der Gemeinde Glarus",
+      "text": "Ansprechstelle sind die Einwohnerdienste der Gemeinde Glarus. Dort reichst du spätestens einen Monat nach dem Erwerb des Hundes eine Kopie der Haftpflichtpolice ein. Hältst du zum ersten Mal einen Hund, absolvierst du innert eines Jahres die Ausbildung KAL1 und reichst den Kursnachweis ein. Erwirbst du einen Hund oder übernimmst du ihn für mehr als drei Monate, meldest du Adress- und Halterwechsel innert 10 Tagen an AMICUS, ebenso den Tod des Hundes. Die Meldung läuft über das Onlinetool der Gemeinde.",
+      "quellen": [
+        "gl_glarus_hunde"
+      ]
+    },
+    {
+      "titel": "Leine",
+      "wert": "Wald, Strassen, Spiel- und Sportplätze",
+      "text": "Die Gemeinde nennt die Orte mit Leinenpflicht nach kantonalem Recht: öffentlich zugängliche Gebäude, stark befahrene Strassen, insbesondere Kantons- und Hauptstrassen, öffentliche Verkehrsmittel, Haltestellen und Bahnhöfe, Pausenplätze, Spiel- und Sportplätze, Orte, die die Gemeinde signalisiert, sowie Wald und Waldränder. Ausgenommen im Wald sind Jagdhunde während der Jagdzeit und Treiberhunde bei Viehtreiberdiensten.",
+      "quellen": [
+        "gl_glarus_hunde"
+      ]
+    },
+    {
+      "titel": "Hundekot",
+      "wert": "auf dem ganzen Gemeindegebiet aufnehmen",
+      "text": "Auf dem gesamten Gemeindegebiet nimmst du den Kot deines Hundes auf und entsorgst ihn ordnungsgemäss, zum Beispiel in den Robidog-Behältern. Das gilt unter anderem für Strassen, Wege, Plätze, Grünanlagen, Wiesen und Äcker.",
+      "quellen": [
+        "gl_glarus_hunde"
+      ]
+    }
+  ]
+}
