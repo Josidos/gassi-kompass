@@ -1,0 +1,155 @@
+{
+  "id": "ti",
+  "name": "Cantone Ticino",
+  "kurz": "TI",
+  "im": "nel Cantone Ticino",
+  "des": "del Cantone Ticino",
+  "geprueft": "2026-11-17",
+  "wald": {
+    "saison": false,
+    "text": "La legge sui cani non prevede un periodo di guinzaglio obbligatorio nel bosco. Vale tutto l'anno la regola generale: guinzaglio nei luoghi frequentati dal pubblico o da altri animali.",
+    "quellen": [
+      "ti_lcani"
+    ]
+  },
+  "leine": {
+    "punkte": [
+      "tutto l'anno nei luoghi frequentati dal pubblico o da altri animali",
+      "museruola, se le circostanze lo richiedono",
+      "nelle aree pubbliche i cani delle razze soggette a restrizioni si conducono solo singolarmente",
+      "nelle aree di svago per cani istituite dai Municipi valgono le regole del Comune"
+    ],
+    "quellen": [
+      "ti_lcani"
+    ]
+  },
+  "verbot": {
+    "einleitung": "La legge cantonale non elenca luoghi vietati ai cani. I Municipi regolano la gestione dei cani con un'ordinanza comunale.",
+    "punkte": [
+      "luoghi stabiliti dall'ordinanza del tuo Comune"
+    ],
+    "quellen": [
+      "ti_lcani"
+    ]
+  },
+  "karten": [
+    {
+      "titel": "Responsabilità civile",
+      "marke": "Obbligo",
+      "ton": "must",
+      "wert": "min. CHF 3 milioni",
+      "text": "Ogni detentore deve stipulare un'assicurazione di responsabilità civile per i danni causati dal cane, per un importo minimo di tre milioni di franchi. La prova va presentata alla registrazione. Se manca, il Comune fissa un termine di al massimo tre mesi. Multa disciplinare: CHF 80.",
+      "quellen": [
+        "ti_rcani",
+        "ti_lcani"
+      ]
+    },
+    {
+      "titel": "Corso",
+      "marke": "Obbligo",
+      "ton": "must",
+      "wert": "corso teorico di 6 ore",
+      "text": "Dal 1° settembre 2026 chi prende un cane per la prima volta o non ne ha tenuto uno da più di dieci anni deve frequentare il corso di base, qualunque sia la razza: due incontri teorici per un totale di 6 ore, CHF 120 a partecipante. Il corso va concluso prima di prendere il cane. Come prova di una detenzione precedente vale solo la registrazione in AMICUS. Multa disciplinare: CHF 150. Per le razze soggette a restrizioni si aggiungono un corso e due test.",
+      "quellen": [
+        "ti_uvc_corso",
+        "ti_rcani",
+        "ti_lcani"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "marke": "Comune",
+      "ton": "note",
+      "wert": "Comune e AMICUS",
+      "text": "Il Comune di domicilio ti registra come detentore nella banca dati AMICUS. Alla registrazione presenti l'attestato del corso di base e la prova dell'assicurazione. Il cane riceve il microchip entro tre mesi dalla nascita. Il cambio di indirizzo passa dal Comune, il cambio di detentore si notifica online in AMICUS. Mancata registrazione o notifica di cambiamenti: multa disciplinare di CHF 80.",
+      "quellen": [
+        "ti_rcani",
+        "ti_uvc_anagrafe"
+      ]
+    },
+    {
+      "titel": "Imposta sui cani",
+      "marke": "annuale",
+      "ton": "note",
+      "wert": "CHF 75 a 125, secondo il Comune",
+      "text": "Per ogni cane di età superiore ai 3 mesi paghi una tassa annuale. Il Comune la fissa tra CHF 75 e CHF 125 e la riscuote. Di questo importo CHF 25 vanno al Fondo per il soccorso degli animali e CHF 40 al Cantone. Nessuna tassa per l'anno se il cane è morto prima del 1° aprile o se l'hai preso dopo il 30 settembre.",
+      "quellen": [
+        "ti_lcani",
+        "ti_rcani"
+      ]
+    },
+    {
+      "titel": "Razze",
+      "marke": "Autorizzazione",
+      "ton": "must",
+      "wert": "elenco di razze soggette a restrizioni",
+      "text": "Per i cani delle razze elencate nati dopo il 1° aprile 2009, e per i loro incroci, serve l'autorizzazione dell'Ufficio del veterinario cantonale prima di entrare in possesso del cane. La domanda va al Municipio con il modulo ufficiale e un estratto del casellario giudiziale. Costo: CHF 350. Seguono un corso riconosciuto e due test: il primo tra il 9° e il 13° mese, il secondo tra il 2° e il 3° anno di età del cane. Le restrizioni valgono anche se soggiorni in Ticino con il cane per almeno 30 giorni all'anno.",
+      "mehr": {
+        "titel": "Mostra l'elenco completo",
+        "punkte": [
+          "Bull Terrier e Bull Terrier Miniature",
+          "Staffordshire Bull Terrier",
+          "American Staffordshire Terrier",
+          "American pit bull",
+          "Rottweiler",
+          "Fila Brasileiro",
+          "Dogo argentino",
+          "Alano (Deutsche Dogge)",
+          "Bulldog americano",
+          "Dogue de Bordeaux",
+          "Mastiff",
+          "Bullmastiff",
+          "Mastino napoletano",
+          "Tosa Inu",
+          "Cane Corso",
+          "Cane pastore del Caucaso",
+          "Cane pastore della Ciarplanina",
+          "Cane pastore dell'Asia centrale",
+          "Cane pastore dell'Anatolia",
+          "Mastino del Tibet",
+          "Presa canario (se acquisito dopo il 1° gennaio 2026)",
+          "Pastore tedesco",
+          "Pastori belga (Groenendael, Laekenois, Malinois, Tervueren)",
+          "Pastore olandese",
+          "Cane lupo cecoslovacco",
+          "Pastore della Beauce",
+          "Komondor",
+          "Kuvasz",
+          "Pastore dei Tatra",
+          "Pastore della Russia meridionale",
+          "Cane lupo di Saarloos (se acquisito dopo il 1° gennaio 2026)",
+          "Dobermann"
+        ]
+      },
+      "quellen": [
+        "ti_uvc_razze",
+        "ti_rcani"
+      ]
+    },
+    {
+      "titel": "A passeggio",
+      "marke": "Regola",
+      "ton": "note",
+      "wert": "escrementi e fuga",
+      "text": "Raccogli gli escrementi del tuo cane e gettali negli appositi contenitori: multa disciplinare di CHF 200. Mancato rispetto dell'obbligo di guinzaglio: CHF 80. Devi prendere precauzioni perché il cane non fugga e segnalare subito una fuga alla polizia. Le infrazioni alla legge possono costare fino a CHF 20 000.",
+      "quellen": [
+        "ti_lcani",
+        "ti_rcani"
+      ]
+    }
+  ],
+  "vergleich": {
+    "wald": "nessun periodo, guinzaglio nei luoghi frequentati",
+    "haft": "obbligo, min. CHF 3 milioni",
+    "kurs": "corso teorico di 6 ore per chi prende un cane per la prima volta",
+    "rassen": "elenco con autorizzazione, CHF 350",
+    "steuer": "CHF 75 a 125, secondo il Comune",
+    "anm": "registrazione al Comune, AMICUS"
+  },
+  "umzug": {
+    "text": "Se ti trasferisci in Ticino con un cane di una razza soggetta a restrizioni, presenti la domanda di autorizzazione entro 30 giorni e frequenti il corso entro 6 mesi.",
+    "quellen": [
+      "ti_rcani"
+    ]
+  }
+}
