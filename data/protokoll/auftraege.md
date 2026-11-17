@@ -8,7 +8,6 @@ Alle Aufträge unten: vergeben am 2026-11-17 um 23:55 Uhr.
 
 ## Staffel A
 
-- `gr`: Kanton Graubünden, deutsch, samt Chur
 - `ar`: Kanton Appenzell Ausserrhoden samt Herisau
 - `vd-fr`: Kanton Waadt, französisch
 - `ne-fr`: Kanton Neuenburg, französisch

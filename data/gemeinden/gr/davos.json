@@ -1,0 +1,57 @@
+{
+  "id": "davos",
+  "kanton": "gr",
+  "bfs": 3851,
+  "name": "Gemeinde Davos",
+  "ort": "Davos",
+  "in_ort": "in der Gemeinde Davos",
+  "geprueft": "2026-11-17",
+  "hinweis_heute": "Die Gemeinde Davos schreibt die Leine im Waldgebiet vor, ohne eine Jahreszeit zu nennen.",
+  "einleitung": "Davos hat ein eigenes Gesetz über das Halten von Hunden (Stand 1. Juni 2023) und eine Verordnung dazu vom 25. Februar 2020. Sie gelten auch für Gäste, die sich mit ihrem Hund nur vorübergehend in Davos aufhalten.",
+  "karten": [
+    {
+      "titel": "Hundetaxe",
+      "wert": "CHF 120, weiterer Hund CHF 240",
+      "text": "Die Hundetaxe beträgt in Davos CHF 120 pro Jahr für den ersten Hund und CHF 240 für jeden weiteren. Taxpflichtig sind Hunde ab vier Monaten von Halterinnen und Haltern mit Wohnsitz in Davos. Das Gesetz erlaubt für den ersten Hund höchstens CHF 300. Im ersten Jahr zahlst du anteilig ab der Anmeldung, danach kommt die Rechnung jedes Jahr im ersten Quartal. Hunde mit anerkannter Spezialausbildung sind befreit, zum Beispiel aktiv eingesetzte Sanitäts-, Katastrophen-, Lawinen-, Begleit- und Therapiehunde. Auf begründetes Gesuch gibt es die halbe Taxe, unter anderem für Hirtenhunde und für den ersten Hund von Personen mit voller AHV- oder IV-Rente.",
+      "quellen": [
+        "gr_davos_hunde",
+        "gr_davos_hundegesetz",
+        "gr_davos_hundeverordnung"
+      ]
+    },
+    {
+      "titel": "Leine",
+      "wert": "Wald, Parkanlagen, Spielplätze, Wildasyle",
+      "text": "An der Leine führst du deinen Hund in öffentlichen Parkanlagen, auf Kinderspielplätzen, in Wildasylen und im Waldgebiet. Eine Jahreszeit nennt die Verordnung nicht. In Gastwirtschaftslokalen ist der Hund stets an der Leine. Kranke Hunde und läufige Hündinnen führst du immer an der Leine aus. Ohne Aufsicht darf kein Hund frei laufen. Ausgenommen von der Leinenpflicht sind Nutzhunde bei ihrer Aufgabe. Stand der Verordnung: 25. Februar 2020.",
+      "quellen": [
+        "gr_davos_hundeverordnung",
+        "gr_davos_hundegesetz"
+      ]
+    },
+    {
+      "titel": "Kein Zutritt",
+      "wert": "Schulen, Amtslokale, Skipisten, Loipen",
+      "text": "In Schulen und Amtslokale darfst du keinen Hund mitnehmen. Auf markierten Skipisten, Skiübungsgeländen und Langlaufloipen sind Hunde ohne besondere Bewilligung verboten. Dazu kommen die amtlich signalisierten Verbote. Ausgenommen sind Begleithunde für Menschen mit Behinderung, in Schulen und Amtslokalen auch Therapiehunde, auf Pisten und Loipen anerkannte Lawinenhunde im Training. Stand der Verordnung: 25. Februar 2020.",
+      "quellen": [
+        "gr_davos_hundeverordnung"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "wert": "innert 14 Tagen beim Ordnungsamt",
+      "text": "Ziehst du nach Davos oder übernimmst du dort einen Hund, meldest du ihn innert 14 Tagen beim Ordnungsamt an. Die Meldepflicht gilt für Hunde ab vier Monaten. Bei der Anmeldung zeigst du den Impfausweis. Hältst du zum ersten Mal einen Hund, richtet die Gemeinde dein Konto in der Hundedatenbank AMICUS ein.",
+      "quellen": [
+        "gr_davos_hunde",
+        "gr_davos_hundegesetz"
+      ]
+    },
+    {
+      "titel": "Bussen",
+      "wert": "bis CHF 20 000",
+      "text": "Bei Verstössen kann das Ordnungsamt ermahnen, verwarnen, Auflagen machen und in schweren Fällen den Hund entziehen oder die Haltung verbieten. Die Kosten trägst du. Dazu oder stattdessen ist eine Busse bis CHF 20 000 möglich. Den Kot deines Hundes musst du sofort beseitigen. Stand des Gesetzes: 1. Juni 2023.",
+      "quellen": [
+        "gr_davos_hundegesetz"
+      ]
+    }
+  ]
+}

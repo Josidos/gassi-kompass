@@ -1,0 +1,38 @@
+{
+  "id": "einsiedeln",
+  "kanton": "sz",
+  "bfs": 1301,
+  "name": "Bezirk Einsiedeln",
+  "ort": "Einsiedeln",
+  "in_ort": "im Bezirk Einsiedeln",
+  "geprueft": "2026-11-17",
+  "einleitung": "Im Bezirk Einsiedeln gelten die Regeln des Kantons Schwyz. Eigene Orte mit Leinenpflicht oder Hundeverbot nennt der Bezirk in seiner Broschüre nicht. Achte auf die Tafeln vor Ort. Die Broschüre trägt kein Datum, sie nennt die Steuersätze ab 1. Januar 2012.",
+  "karten": [
+    {
+      "titel": "Hundetaxe",
+      "wert": "CHF 100, weiterer Hund CHF 200",
+      "text": "Die Hundesteuer beträgt im Bezirk Einsiedeln CHF 100 pro Jahr. Für jeden weiteren Hund im gleichen Haushalt sind es CHF 200, für einen Nutzhund CHF 40. So steht es im Anmeldeformular des Bezirks. Gebührenpflichtig ist ein Hund ab vier Monaten. Laut Broschüre des Bezirks kommt die Rechnung jedes Jahr im Februar. Beginnt die Pflicht während des Jahres, zahlst du anteilig. Stand der Broschüre: Steuersätze ab 1. Januar 2012.",
+      "quellen": [
+        "sz_einsiedeln_formular",
+        "sz_einsiedeln_broschuere"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "wert": "Bezirkskasse oder Online-Formular",
+      "text": "Einen neuen Hund meldest du bei der Bezirkskasse Einsiedeln an, Paracelsuspark 3. Das geht auch mit dem Online-Formular des Bezirks. Es verlangt die Chipnummer, die Rasse, den Grund der Anmeldung (Zuzug oder neuer Besitz) sowie die Haftpflichtversicherung mit Policennummer. Änderungen von Namen oder Adresse sind laut Broschüre innert zehn Tagen in AMICUS nachzuführen.",
+      "quellen": [
+        "sz_einsiedeln_formular",
+        "sz_einsiedeln_broschuere"
+      ]
+    },
+    {
+      "titel": "Hundekot",
+      "wert": "Gratis-Säcke bei den Abfalleimern",
+      "text": "Laut Broschüre des Bezirks liegen bei den Abfalleimern Gratis-Säcke für den Hundekot bereit. Aufnehmen und entsorgen musst du den Kot in den Dörfern, auf öffentlichen Strassen und Wegen, in Parkanlagen und auf Wegen durch Landwirtschaftsland. Die Broschüre trägt kein Datum (Steuersätze ab 1. Januar 2012).",
+      "quellen": [
+        "sz_einsiedeln_broschuere"
+      ]
+    }
+  ]
+}

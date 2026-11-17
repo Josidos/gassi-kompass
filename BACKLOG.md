@@ -17,7 +17,7 @@ Bleibt ein Kanton nach einem Lauf unvollständig (Entwurf unter `data/entwurf/`)
 
 ## 1. Deutschsprachige Kantone
 
-Ungefähr nach Bevölkerung. Schon erfasst: Zürich, Bern, Luzern, Aargau, St. Gallen, Basel-Stadt, Basel-Landschaft, Thurgau, Solothurn, Schwyz, Appenzell Innerrhoden.
+Ungefähr nach Bevölkerung. Schon erfasst: Zürich, Bern, Luzern, Aargau, St. Gallen, Basel-Stadt, Basel-Landschaft, Thurgau, Solothurn, Schwyz, Appenzell Innerrhoden, Graubünden.
 
 - [x] Aargau (`ag`), 2026-11-17
 - [x] St. Gallen (`sg`), 2026-11-17, mit Stadt St. Gallen
@@ -25,7 +25,7 @@ Ungefähr nach Bevölkerung. Schon erfasst: Zürich, Bern, Luzern, Aargau, St. G
 - [x] Basel-Landschaft (`bl`), 2026-11-17, mit Allschwil
 - [x] Thurgau (`tg`), 2026-11-17, mit Stadt Frauenfeld
 - [x] Solothurn (`so`), 2026-11-17, mit Stadt Olten
-- [ ] Graubünden (`gr`)
+- [x] Graubünden (`gr`), 2026-11-18, mit Stadt Chur
 - [x] Schwyz (`sz`), 2026-11-17, mit Bezirk Küssnacht
 - [ ] Zug (`zg`)
 - [ ] Schaffhausen (`sh`)
@@ -74,14 +74,19 @@ Ungefähr nach Grösse. Neue Kantone tragen hier ihre grössten Gemeinden ein.
 - [ ] Zuchwil (SO)
 - [ ] Biberist (SO)
 - [ ] Freienbach (SZ): zurückgestellt am 2026-11-17. Das Merkblatt Hundehaltung der Gemeinde ist ein PDF ohne lesbaren Text, die Seite dazu war nicht abrufbar.
-- [ ] Einsiedeln (SZ)
+- [x] Einsiedeln (SZ), 2026-11-18
 - [x] Schwyz (SZ), 2026-11-17
-- [ ] Arth (SZ)
+- [x] Arth (SZ), 2026-11-18
 - [ ] Bezirk Appenzell (AI): zurückgestellt am 2026-11-17. Die Seite «Hundekontrolle / Vollzug HuG» des Bezirks nennt nur die kantonalen Steuerbeträge und die Meldestelle. Eigene Leinenzonen, hundefreie Zonen oder Bussen waren nach zwei Suchen nicht zu finden.
 - [ ] Schwende-Rüte (AI). Hinweis für alle Innerrhoder Bezirke: Die Hundesteuer ist kantonal festgelegt, lokale Angaben gibt es nur, wenn ein Bezirk Leinenzonen oder hundefreie Zonen nach Art. 6 HuG angeordnet hat.
 - [ ] Oberegg (AI)
 - [ ] Gonten (AI)
 - [ ] Schlatt-Haslen (AI)
+- [x] Davos (GR), 2026-11-18
+- [x] Landquart (GR), 2026-11-18
+- [ ] Domat/Ems (GR)
+- [ ] St. Moritz (GR)
+- [ ] Ilanz/Glion (GR)
 - [ ] Riehen (BS)
 - [ ] Bettingen (BS)
 - [ ] Rapperswil-Jona (SG)
@@ -162,6 +167,13 @@ Ungefähr nach Grösse. Neue Kantone tragen hier ihre grössten Gemeinden ein.
 - [ ] Kanton Appenzell Innerrhoden: Jagdgesetz (GS 922.000) und Wildruhegebiete auf Regeln für Hunde prüfen. Danach den Wald-Text anpassen.
 - [ ] Kanton Appenzell Innerrhoden: Seite «Leinenpflicht in beiden Appenzell» (ar.ch, Veterinäramt) abrufen und mit `leine` abgleichen.
 - [ ] Kanton Appenzell Innerrhoden: Daten der Alpzeit und betroffene Alpen (Alpgesetz, Art. 1 der Verordnung) belegen.
+- [ ] Kanton Graubünden: geltende Fassung des Veterinärgesetzes (BR 914.000) auf gr-lex.gr.ch gegenprüfen. Gelesen wurde der Stand 1. Januar 2016.
+- [ ] Kanton Graubünden: Regeln zu Hunden in Wildruhezonen und Wildschutzgebieten suchen. Hundesteuer: Gesetz über die Gemeinde- und Kirchensteuern (BR 720.200) erneut abrufen.
+- [ ] Stadt Chur: Polizeigesetz der Stadt (RB 411) im Wortlaut suchen (Leine, Kot, Flurordnung, Bussen).
+- [ ] Bezirk Einsiedeln: Die Seite stützt sich auf eine Broschüre ohne Datum (Steuersätze ab 2012) und das Anmeldeformular. Mit einer datierten Quelle bestätigen, Orte mit Leinenpflicht oder Hundeverbot suchen (Friedhof, Klosterplatz, Sihlsee).
+- [ ] Gemeinde Arth: «Hinweise-Hundehalter.pdf» (arth.ch/_doc/3664036) und die Robidog-Pläne waren am 2026-11-18 nicht abrufbar. Lesen und ergänzen. Prüfen, ob das Friedhofreglement von 2016 unverändert gilt (Genehmigung durch den Regierungsrat, spätere Änderungen).
+- [ ] Gemeinde Davos: Betrag der Ordnungsbussen (Gemeindegesetz über öffentliche Ruhe und Ordnung), Gebührentarif (DRB 22.1) und Friedhofsgesetz (DRB 17) lesen und ergänzen.
+- [ ] Gemeinde Landquart: Polizeigesetz, Steuergesetz, Friedhofordnung und Benützungsreglement für Flur- und Waldwege im Wortlaut lesen (landquart.ch/gesetze/gesetzesgrundlagen, am 2026-11-18 nicht abrufbar). Bisher ist Art. 50 Polizeigesetz nur über die Mitteilung des Gemeindepolizeiamts belegt. Meldefrist, Leinenpflicht, Verbote und Bussen ergänzen.
 
 ## 5. Umbauten am Generator
 

@@ -1,0 +1,38 @@
+{
+  "id": "arth",
+  "kanton": "sz",
+  "bfs": 1362,
+  "name": "Gemeinde Arth",
+  "ort": "Arth",
+  "in_ort": "in der Gemeinde Arth",
+  "geprueft": "2026-11-17",
+  "einleitung": "In der Gemeinde Arth mit Arth, Oberarth und Goldau gelten die Regeln des Kantons Schwyz. Dazu kommt die Leinenpflicht auf den beiden Friedhöfen.",
+  "karten": [
+    {
+      "titel": "Hundetaxe",
+      "wert": "CHF 100, weiterer Hund CHF 200",
+      "text": "Die Hundesteuer beträgt in der Gemeinde Arth CHF 100 pro Jahr. Für jeden weiteren Hund im gleichen Haushalt sind es CHF 200. Für einen Nutzhund sind es CHF 40, auch für jeden weiteren. Als Nutzhunde gelten Zug- und Treibhunde in der Landwirtschaft sowie Jagdhunde, deren Halter im Vorjahr ein Jagdpatent gelöst haben. Für eine kommerzielle Hundezucht sind es CHF 500. Die Rechnung kommt jedes Jahr im Lauf des Januars.",
+      "quellen": [
+        "sz_arth_hundesteuer"
+      ]
+    },
+    {
+      "titel": "Leine",
+      "wert": "auf den Friedhöfen Arth und Goldau",
+      "text": "Auf den Friedhöfen bei den Pfarrkirchen in Arth und in Goldau müssen Hunde an der Leine gehalten werden. Das steht in Art. 18 des Reglements über das Bestattungs- und Friedhofwesen vom 26. August 2016. Die Stimmberechtigten haben es am 21. Mai 2017 angenommen. Dazu kommt die Regel des Kantons: Leine in öffentlichen Anlagen, auf öffentlichen Wegen und im Strassenverkehr.",
+      "quellen": [
+        "sz_arth_friedhof",
+        "sz_arth_abstimmung",
+        "sz_hug"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "wert": "Gemeindekassieramt und AMICUS",
+      "text": "Zuständig für die Hundesteuer ist das Gemeindekassieramt im Rathaus Arth. Die Rechnung stützt sich auf die Hundedatenbank AMICUS. Halterwechsel, Adressänderung, Anschaffung oder Tod eines Hundes müssen dort umgehend eingetragen sein. Die Gemeinde führt auf ihrer Seite auch Pläne mit den Standorten der Robidog-Behälter in Arth, Oberarth und Goldau.",
+      "quellen": [
+        "sz_arth_hundesteuer"
+      ]
+    }
+  ]
+}

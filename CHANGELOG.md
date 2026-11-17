@@ -2,6 +2,27 @@
 
 Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen.
 
+## 2026-11-18, Nachtkette, Glied 7
+
+- Nachgeprüft: nichts, keine Datei ist älter als 60 Tage. Eingesammelt: Parallel-Lauf `gr` (eigener Eintrag unten). Alle offenen Kantone sind an Parallel-Läufe vergeben (Staffeln von 23:55 Uhr), deshalb vier Gemeinden aus Abschnitt 3, die nicht vergeben sind.
+- Neu: Bezirk Einsiedeln (`/sz/einsiedeln/`), Gemeinde Arth (`/sz/arth/`), Gemeinde Davos (`/gr/davos/`), Gemeinde Landquart (`/gr/landquart/`). 12 von 26 Kantonen, 17 Gemeinden, Sitemap 38 Seiten. Alle Quellen am 18. November 2026 (Schweizer Zeit) abgerufen. `geprueft` steht auf 2026-11-17, weil `build.py` mit der Systemzeit (UTC) rechnet.
+- Einsiedeln: Anmeldeformular des Bezirks (CHF 100, weiterer Hund CHF 200, Nutzhund CHF 40, ab vier Monaten, verlangt Haftpflicht mit Policennummer) und Broschüre ohne Datum (Steuersätze ab 2012: Bezirkskasse, Rechnung im Februar, Gratis-Säcke). Der Stand steht auf der Seite. Eigene Leinenorte oder Verbote nennt der Bezirk nicht.
+- Arth: Dienstleistung Hundesteuer (CHF 100, weiterer CHF 200, Nutzhund CHF 40, Zucht CHF 500, Kassieramt, AMICUS). Leine auf den Friedhöfen Arth und Goldau: Art. 18 des Friedhofreglements vom 26. August 2016, angenommen am 21. Mai 2017 (80,19 % Ja). Gelesen wurde die Fassung der Abstimmungsvorlage. Die Genehmigung durch den Regierungsrat ist nicht belegt, als Lücke im Backlog.
+- Davos: Gemeindegesetz über das Halten von Hunden (DRB 32, Stand 1. Juni 2023), Verordnung vom 25. Februar 2020 (DRB 32.1), Dienstleistung Hunde. Taxe CHF 120 und CHF 240, Leine in Parkanlagen, auf Spielplätzen, in Wildasylen und im Waldgebiet (ohne Jahreszeit), Verbot in Schulen, Amtslokalen, auf Skipisten und Loipen, Anmeldung innert 14 Tagen, Busse bis CHF 20 000. `hinweis_heute` gesetzt.
+- Landquart: Seite Steuern (CHF 120 pro Hund, höchstens CHF 600 pro Haushalt, Befreiungen, Gesuch bis 31. März), Online-Schalter Hundekontrolle, Mitteilung des Gemeindepolizeiamts vom 11. Juli 2025 (Art. 50 Polizeigesetz, Robidog, Beutel), Seite Mastrilser Rheinauen (Bitte um Leine, als Bitte wiedergegeben).
+- Weggelassen: Arth «Hinweise-Hundehalter.pdf» und Robidog-Pläne (nicht abrufbar). Landquart: Polizeigesetz, Steuergesetz, Friedhofordnung im Wortlaut (nicht abrufbar), daher keine Angabe zu Leinenpflicht, Verboten, Bussen und Meldefrist. Davos: Beträge der Ordnungsbussen, Verwaltungs- und Umschreibegebühr (stehen im Gebührentarif, nicht gelesen). Einsiedeln: Leinenregeln der Broschüre sind kantonales Recht und stehen auf der Kantonsseite.
+- `add_repo` und `register_repo_root` standen nicht zur Verfügung, das Repository lag mit Push-Zugriff im Arbeitsordner. Die Zusatznachricht mit der Nummer fehlte, laut Protokoll ist dies Glied 7.
+- Nicht gelungen: nichts.
+
+## 2026-11-18, Parallel-Lauf `gr` (Staffel A), eingesammelt von Glied 7
+
+- Neu: Kanton Graubünden (`data/kantone/gr.json`) und Stadt Chur (`data/gemeinden/gr/chur.json`), sechs Quellen in `data/quellen/gr.json`. Alle Quellen in diesem Lauf abgerufen.
+- Graubünden hat kein Hundegesetz. Belegt sind: keine allgemeine Pflicht zu Haftpflicht, Kurs oder Leine und keine Rasseliste im Veterinärgesetz (Art. 64 bis 66, 76a, 77), Registrierung durch die Gemeinden, wildernde Hunde (Jagdverordnung Art. 32), Meldepflicht für Vorfälle (Seite Hundewesen). `wald` ohne Saison: Jagdgesetz, Jagdverordnung und Veterinärgesetz nennen keine Leinenpflicht im Wald.
+- Unsicherheit: Vom Veterinärgesetz war nur die Fassung «Stand 1. Januar 2016» abrufbar (gr.lexwork.naz.ch). gr-lex.gr.ch liess sich im Lauf nicht abrufen. Ob es eine neuere Fassung gibt, ist nicht geprüft. Der Stand steht im Langnamen der Quelle.
+- Weggelassen: Rasseliste und Bewilligungspflicht von der Seite Hundewesen, weil sie nur Glarus betreffen. Kantonale Hundesteuer: Das Gesetz über die Gemeinde- und Kirchensteuern wurde in diesem Lauf nicht abgerufen, die Karte stützt sich nur auf das Veterinärgesetz und das Beispiel Chur. Wildruhezonen des Kantons: keine amtliche Quelle zu Hunden abgerufen.
+- Chur: fünf Karten (Hundetaxe CHF 155, Leine, Kein Zutritt, Anmeldung, Bussen) aus der Seite Hundewesen der Stadtpolizei und dem Merkblatt «Wichtige Regeln für Hundehalter» (ohne Datum). Die Seite nennt kein Jahr zur Taxe von CHF 155. Weggelassen: Wortlaut des Polizeigesetzes der Stadt (RB 411), nicht gefunden. Das Merkblatt nennt Art. 23 Abs. 4 und Art. 30 «PG», ohne die Abkürzung zu erklären, deshalb steht der Gesetzesname nicht auf der Seite.
+- Nicht gelungen: nichts.
+
 ## 2026-11-17, Nachtkette, Glied 6 (Sonderlauf Themenseiten)
 
 - Sonderlauf: nur der Umbau, kein neuer Kanton, keine Gemeinde. Nachgeprüft: nichts. Eingesammelt: beim Start nichts, vor dem Push der Parallel-Lauf `ai` (eigener Eintrag unten).

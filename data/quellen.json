@@ -358,5 +358,65 @@
     "kurz": "Gemeinde Schwyz: Hundekontrolle",
     "lang": "Gemeinde Schwyz, Bereich Finanzen: Dienstleistung Hundekontrolle (ohne Datum, abgerufen am 17. November 2026)",
     "url": "https://www.gemeindeschwyz.ch/dienstleistungen/62884"
+  },
+  "sz_einsiedeln_broschuere": {
+    "kurz": "Bezirk Einsiedeln: Broschüre Hundesteuer",
+    "lang": "Bezirk Einsiedeln, Bezirkskasse: Wichtige Hinweise zum Hundegesetz im Kanton Schwyz (Broschüre ohne Datum, Steuersätze ab 1. Januar 2012)",
+    "url": "https://www.einsiedeln.ch/libraries.files/Broschuere_Hundesteuer.pdf"
+  },
+  "sz_einsiedeln_formular": {
+    "kurz": "Bezirk Einsiedeln: Hund anmelden",
+    "lang": "Bezirk Einsiedeln, Online-Schalter: Formular Hundesteuer, Anmeldung (abgerufen am 18. November 2026)",
+    "url": "https://www.einsiedeln.ch/bezirk/dienstleistungen-online-schalter?form=20"
+  },
+  "sz_arth_hundesteuer": {
+    "kurz": "Gemeinde Arth: Hundesteuer",
+    "lang": "Gemeinde Arth, Gemeindekassieramt: Dienstleistung Hundesteuer (ohne Datum, abgerufen am 18. November 2026)",
+    "url": "https://www.arth.ch/dienstleistungen/10780"
+  },
+  "sz_arth_friedhof": {
+    "kurz": "Gemeinde Arth: Friedhofreglement",
+    "lang": "Gemeinde Arth: Reglement über das Bestattungs- und Friedhofwesen vom 26. August 2016 (Fassung der Abstimmungsvorlage)",
+    "url": "https://www.arth.ch/_docn/1331262/Reglement_uber_das_Bestattungs-_und_Friedhofwesen.pdf"
+  },
+  "sz_arth_abstimmung": {
+    "kurz": "Gemeinde Arth: Abstimmung 21. Mai 2017",
+    "lang": "Gemeinde Arth: Abstimmung vom 21. Mai 2017 über das Reglement über das Bestattungs- und Friedhofwesen, Ergebnis",
+    "url": "https://www.arth.ch/_rte/abstimmung/159767"
+  },
+  "gr_davos_hundegesetz": {
+    "kurz": "Davos: Gemeindegesetz Hunde",
+    "lang": "Gemeinde Davos: Gemeindegesetz über das Halten von Hunden (DRB 32) vom 7. November 2019, Stand 1. Juni 2023",
+    "url": "https://www.gemeindedavos.ch/_docn/5009299/DRB_32.pdf"
+  },
+  "gr_davos_hundeverordnung": {
+    "kurz": "Davos: Verordnung Hunde",
+    "lang": "Gemeinde Davos: Verordnung zum Gemeindegesetz über das Halten von Hunden (DRB 32.1) vom 25. Februar 2020",
+    "url": "https://www.gemeindedavos.ch/_docn/3541403/Verordnung_zum_Gemeindegesetz_uber_das_Halten_von_Hunden32.1.pdf"
+  },
+  "gr_davos_hunde": {
+    "kurz": "Gemeinde Davos: Hunde",
+    "lang": "Gemeinde Davos, Sicherheitsdienste: Dienstleistung Hunde (ohne Datum, abgerufen am 18. November 2026)",
+    "url": "https://www.gemeindedavos.ch/dienstleistungen/27960"
+  },
+  "gr_landquart_steuern": {
+    "kurz": "Gemeinde Landquart: Steuern",
+    "lang": "Gemeinde Landquart, Abteilung Steuern: Hundesteuer (ohne Datum, abgerufen am 18. November 2026)",
+    "url": "https://www.landquart.ch/abteilungen/steuern/"
+  },
+  "gr_landquart_hundekontrolle": {
+    "kurz": "Gemeinde Landquart: Hundekontrolle",
+    "lang": "Gemeinde Landquart, Online-Schalter: Hundekontrolle, An- und Abmeldung (abgerufen am 18. November 2026)",
+    "url": "https://www.landquart.ch/landquart-online/online-schalter/hundekontrolle-an-und-abmeldung/"
+  },
+  "gr_landquart_hundekot": {
+    "kurz": "Gemeindepolizeiamt Landquart: Hundekot",
+    "lang": "Gemeinde Landquart, Gemeindepolizeiamt: Hundekot auf Wiesen, Feldern, Strassen und Wegen, Mitteilung vom 11. Juli 2025",
+    "url": "https://www.landquart.ch/hundekot-auf-wiesen-feldern-strassen-und-wegen-2/"
+  },
+  "gr_landquart_rheinauen": {
+    "kurz": "Gemeinde Landquart: Mastrilser Rheinauen",
+    "lang": "Gemeinde Landquart: Mastrilser Rheinauen (ohne Datum, abgerufen am 18. November 2026)",
+    "url": "https://www.landquart.ch/kultur-freizeit/natur/mastrilser-rheinauen/"
   }
 }

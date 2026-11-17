@@ -1,0 +1,38 @@
+{
+  "id": "landquart",
+  "kanton": "gr",
+  "bfs": 3955,
+  "name": "Gemeinde Landquart",
+  "ort": "Landquart",
+  "in_ort": "in der Gemeinde Landquart",
+  "geprueft": "2026-11-17",
+  "einleitung": "In der Gemeinde Landquart gelten die Regeln des Kantons Graubünden und das Polizeigesetz der Gemeinde. Orte mit Leinenpflicht oder Hundeverbot nennen die Seiten der Gemeinde nicht. Achte auf die Tafeln vor Ort.",
+  "karten": [
+    {
+      "titel": "Hundetaxe",
+      "wert": "CHF 120 pro Hund und Jahr",
+      "text": "Die Hundesteuer beträgt in der Gemeinde Landquart CHF 120 pro Hund und Jahr. Im selben Haushalt und Kalenderjahr fallen höchstens CHF 600 an, also für fünf Hunde. Lebt der Hund nicht das ganze Jahr in der Gemeinde, zahlst du anteilig, mindestens aber für drei Monate. Mit Ausweis befreit sind Polizeihunde, Rettungshunde sowie Blindenführ- und Gehörlosenhunde. Der Gemeindevorstand kann weitere Hunde befreien oder die Steuer ermässigen. Ein begründetes Gesuch reichst du bis am 31. März des Steuerjahres ein.",
+      "quellen": [
+        "gr_landquart_steuern"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "wert": "Hundekontrolle, auch online",
+      "text": "Du meldest deinen Hund bei der Hundekontrollstelle der Gemeinde an und ab, auch bei einem Besitzerwechsel oder wenn der Hund stirbt. Das geht mit dem Online-Formular der Gemeinde. Die Hundekontrollstelle trägt den Hund in die Datenbank der Gemeinde ein. Danach bekommst du jedes Jahr die Rechnung für die Hundesteuer. Fragen beantworten die Einwohnerdienste.",
+      "quellen": [
+        "gr_landquart_hundekontrolle",
+        "gr_landquart_steuern"
+      ]
+    },
+    {
+      "titel": "Hundekot",
+      "wert": "Robidog, Beutel gratis im Public-Shop",
+      "text": "Nach Art. 50 des Polizeigesetzes der Gemeinde musst du deinen Hund so beaufsichtigen, dass er niemanden mit dauerndem Gebell belästigt und weder Trottoirs, öffentliche Anlagen, Gärten noch landwirtschaftliches Nutzland verunreinigt. So zitiert es das Gemeindepolizeiamt in seiner Mitteilung vom 11. Juli 2025. Den Kot entsorgst du in den Robidog-Behältern. Beutel gibt es bei den Sammelbehältern und unentgeltlich im Public-Shop der Gemeinde. Die Gemeinde ersucht dich, auf Spaziergängen Wege und Strassen zu benützen und nicht über die Felder zu gehen. In den Mastrilser Rheinauen bittet sie darum, Hunde an die Leine zu nehmen.",
+      "quellen": [
+        "gr_landquart_hundekot",
+        "gr_landquart_rheinauen"
+      ]
+    }
+  ]
+}
