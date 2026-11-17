@@ -1,0 +1,27 @@
+{
+  "ow_vetg": {
+    "kurz": "Veterinärgesetz OW",
+    "lang": "Kanton Obwalden: Veterinärgesetz, GDB 818.1 (Stand 1.12.2024)",
+    "url": "https://ow.lexwork.naz.ch/de/dta/818.1.pdf"
+  },
+  "ow_abvetg": {
+    "kurz": "AB Veterinärgesetz OW",
+    "lang": "Kanton Obwalden: Ausführungsbestimmungen zum Veterinärgesetz, GDB 818.111 (Stand 1.12.2024)",
+    "url": "https://ow.lexwork.naz.ch/de/dta/818.111.pdf"
+  },
+  "ow_wildruhe": {
+    "kurz": "Wildruhezonen OW",
+    "lang": "Kanton Obwalden: Reglement über die kantonalen Wildruhezonen, GDB 651.150 (Stand 1.8.2021)",
+    "url": "https://ow.lexwork.naz.ch/de/dta/651.150.pdf"
+  },
+  "ow_leine_2022": {
+    "kurz": "Amt für Wald und Landschaft OW",
+    "lang": "Kanton Obwalden, Amt für Wald und Landschaft: Zum Schutz der Wildtiere, Hunde müssen an die Leine (Mitteilung vom 17.11.2022)",
+    "url": "https://ow.ch/_doc/315484"
+  },
+  "ow_vet": {
+    "kurz": "Veterinärdienst der Urkantone",
+    "lang": "Laboratorium der Urkantone, Kantonstierarzt: Tierschutz, Abschnitt Hunde (abgerufen 18.11.2026)",
+    "url": "https://laburk.ch/kantonstierarzt/tierschutz/"
+  }
+}

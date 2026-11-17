@@ -1,0 +1,96 @@
+{
+  "id": "ow",
+  "name": "Kanton Obwalden",
+  "kurz": "OW",
+  "im": "im Kanton Obwalden",
+  "des": "des Kantons Obwalden",
+  "geprueft": "2026-11-18",
+  "wald": {
+    "saison": false,
+    "text": "Laut dem Amt für Wald und Landschaft gilt in ganz Obwalden ausser in der Gemeinde Alpnach in und entlang von allen Wäldern eine Leinenpflicht. Geregelt ist sie in den Hundeverordnungen der Gemeinden. Eine Jahreszeit nennt die Mitteilung nicht. Stand der Mitteilung: 2022.",
+    "quellen": [
+      "ow_leine_2022"
+    ]
+  },
+  "leine": {
+    "punkte": [
+      "in und entlang von allen Wäldern, ausser in der Gemeinde Alpnach (Stand der Mitteilung: 2022)",
+      "in den Naturschutzzonen das ganze Jahr, zum Beispiel Usser Allmend, Städerried und Hinteregg-Andresen (Stand der Mitteilung: 2022)",
+      "in allen kantonalen Wildruhezonen vom 1. Dezember bis 30. April",
+      "in den Wildruhezonen Nr. 1 bis 7 vom 1. Dezember bis 15. Juli",
+      "wenn der Kantonstierarzt oder die Kantonstierärztin es für deinen Hund angeordnet hat"
+    ],
+    "quellen": [
+      "ow_leine_2022",
+      "ow_wildruhe",
+      "ow_vetg"
+    ]
+  },
+  "karten": [
+    {
+      "titel": "Kurs",
+      "marke": "keine Pflicht",
+      "ton": "note",
+      "wert": "nur als Massnahme im Einzelfall",
+      "text": "Das Veterinärgesetz nennt keinen Kurs für alle Hundehaltenden. Der Kantonstierarzt oder die Kantonstierärztin kann dich im Einzelfall zum Besuch eines Erziehungskurses mit dem Hund verpflichten, zum Beispiel nach einer gemeldeten Bissverletzung.",
+      "quellen": [
+        "ow_vetg"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "marke": "Pflicht",
+      "ton": "must",
+      "wert": "Mikrochip und AMICUS",
+      "text": "Hunde von Halterinnen und Haltern mit Wohnsitz im Kanton Obwalden werden mit Mikrochip in der Datenbank AMICUS registriert. Deine Einwohnergemeinde prüft, ob die Hunde auf ihrem Gebiet gekennzeichnet und registriert sind, und meldet fehlende Einträge dem Kantonstierarzt. Den Hundeausweis zeigst du Polizei und Gemeindebehörden auf Verlangen vor.",
+      "quellen": [
+        "ow_vetg",
+        "ow_abvetg"
+      ]
+    },
+    {
+      "titel": "Hundesteuer",
+      "marke": "jährlich",
+      "ton": "note",
+      "wert": "je nach Gemeinde",
+      "text": "Die Einwohnergemeinden erheben die Hundesteuer gestützt auf die Daten der Hundedatenbank. Einen Betrag nennt das Veterinärgesetz nicht.",
+      "quellen": [
+        "ow_vetg"
+      ]
+    },
+    {
+      "titel": "Rassen",
+      "marke": "keine Liste",
+      "ton": "note",
+      "wert": "Massnahmen im Einzelfall",
+      "text": "Das Veterinärgesetz nennt keine verbotenen oder bewilligungspflichtigen Rassen. Der Kantonstierarzt oder die Kantonstierärztin ordnet Massnahmen für den einzelnen Hund an, etwa nach einer Bissverletzung: Leinen- und Maulkorbzwang, Wesenstest, Erziehungskurs, Halteverbot, Beschlagnahme oder Einschläferung. Massnahmen, die ein anderer Kanton rechtskräftig verfügt hat, gelten auch in Obwalden.",
+      "quellen": [
+        "ow_vetg"
+      ]
+    },
+    {
+      "titel": "Unterwegs",
+      "marke": "Regel",
+      "ton": "note",
+      "wert": "Kontrolle",
+      "text": "Du musst deinen Hund jederzeit unter Kontrolle haben und dafür sorgen, dass er Menschen und Tiere nicht gefährdet. Wer gegen das Veterinärgesetz oder Anordnungen der Veterinärorgane verstösst, wird mit Busse bis CHF 20 000 bestraft.",
+      "quellen": [
+        "ow_vet",
+        "ow_vetg"
+      ]
+    }
+  ],
+  "vergleich": {
+    "wald": "Leinenpflicht in und entlang von Wäldern, ausser Alpnach",
+    "kurs": "keine allgemeine Pflicht",
+    "rassen": "keine Liste im Veterinärgesetz",
+    "steuer": "je nach Gemeinde",
+    "anm": "Mikrochip und AMICUS"
+  },
+  "umzug": {
+    "text": "Massnahmen, die ein anderer Kanton für deinen Hund rechtskräftig verfügt hat, gelten auch im Kanton Obwalden.",
+    "quellen": [
+      "ow_vetg"
+    ]
+  }
+}
