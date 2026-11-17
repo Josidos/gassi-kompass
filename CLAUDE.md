@@ -1,6 +1,6 @@
 # Gassi-Kompass: Arbeitshandbuch
 
-Dieses Repository ist die Website **gassi-kompass.ch**: Hunderegeln der Schweiz nach Kanton und Gemeinde, jede Angabe mit amtlicher Quelle. Die Seite gehört Joss und soll über Anzeigen ein Nebeneinkommen bringen. Claude pflegt und vergrössert sie in einem automatischen Lauf, bei dem niemand zuschaut. Er arbeitet täglich, bis alle 26 Kantone erfasst sind, und danach mittwochs und samstags. Dieses Handbuch ist für jeden Lauf verbindlich.
+Dieses Repository ist die Website **gassi-kompass.ch**: Hunderegeln der Schweiz nach Kanton und Gemeinde, jede Angabe mit amtlicher Quelle. Die Seite gehört Joss und soll über Anzeigen ein Nebeneinkommen bringen. Claude pflegt und vergrössert sie in einem automatischen Lauf, bei dem niemand zuschaut. Er arbeitet täglich, bis alle 26 Kantone und 60 Gemeinden erfasst sind, und danach mittwochs und samstags. Dieses Handbuch ist für jeden Lauf verbindlich.
 
 Das Ziel ist die ganze Schweiz: alle 26 Kantone, jeder in seinen Amtssprachen, dazu die grössten Gemeinden. Joss hat Claude auch die Strategie übertragen: was gebaut wird, in welcher Reihenfolge und wie die Seite Besucher gewinnt. Sie steht unter «Strategie».
 
@@ -87,7 +87,9 @@ Deutsch mit Schweizer Rechtschreibung (ss statt ß), Du-Form, kurze Sätze. Betr
 
 ## Der Wochenlauf
 
-Takt: Der Lauf startet jeden Tag um 04:23 Uhr. Solange in `BACKLOG.md` unter den Abschnitten 1 und 2 ein Kanton offen ist, arbeitet er täglich. Sind alle 26 Kantone erfasst, arbeitet er nur noch mittwochs und samstags und endet an den anderen Tagen sofort, ohne etwas zu ändern.
+Takt: Der Lauf startet jeden Tag um 08:23 Uhr. Solange in `BACKLOG.md` unter den Abschnitten 1 und 2 ein Kanton offen ist oder es unter `data/gemeinden/` weniger als 60 Gemeinde-Dateien gibt, arbeitet er täglich. Danach arbeitet er nur noch mittwochs und samstags und endet an den anderen Tagen sofort, ohne etwas zu ändern.
+
+Daneben kann eine Kette laufen: mehrere Läufe hintereinander, von denen jeder am Schluss den nächsten auslöst. Ob ein Lauf zu einer Kette gehört und wann sie endet, steht im Auftrag des Laufs. Für die Arbeit selbst gilt dasselbe Handbuch.
 
 Obergrenzen pro Lauf: höchstens **4 Dateien nachprüfen**, dazu entweder **1 neuer Kanton samt einer Gemeinde** oder **4 neue Gemeinden**. Ein Sonderlauf (siehe «Umbauten am Generator») macht nur den Umbau und sonst nichts.
 
@@ -201,7 +203,8 @@ Die Sitemap wurde am 17. November 2026 eingereicht. Zeigt die Search Console am 
 
 Hier steht, was Joss ausdrücklich freigegeben hat.
 
-- 2026-11-17: automatischer Lauf mit Push auf `main`. Täglich, bis alle 26 Kantone erfasst sind, danach mittwochs und samstags.
+- 2026-11-17: automatischer Lauf mit Push auf `main`. Täglich, bis alle 26 Kantone und 60 Gemeinden erfasst sind, danach mittwochs und samstags.
+- 2026-11-17: in der Nacht auf den 18. November 2026 eine Kette von Läufen: so viele Kantone wie möglich, danach Gemeinden.
 - 2026-11-17: Kontaktadresse kontakt@gassi-kompass.ch, eingerichtet bei Infomaniak. Sie steht im Fuss jeder Seite und auf «Über diese Seite» (Konstante `KONTAKT` in `build.py`). Eine andere Adresse oder weitere Angaben zu Joss gehören nicht auf die Seite. Der Lauf hat keinen Zugriff auf das Postfach.
 - 2026-11-17: Claude liest die Suchzahlen etwa einmal im Monat über den Browser von Joss aus der Search Console, ohne dort etwas zu ändern.
 - 2026-11-17: Ausbau auf alle 26 Kantone, Französisch und Italienisch in den Amtssprachen der Kantone, Themenseiten. Claude entscheidet über Reihenfolge und Strategie.
