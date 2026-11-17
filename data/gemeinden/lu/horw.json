@@ -1,0 +1,38 @@
+{
+  "id": "horw",
+  "kanton": "lu",
+  "bfs": 1058,
+  "name": "Horw",
+  "ort": "Horw",
+  "in_ort": "in Horw",
+  "geprueft": "2026-11-17",
+  "hinweis_heute": "Im Naturschutzgebiet am See zwischen Ennethorw und Hergiswil (Widenbachdelta) gilt laut der Gemeinde Leinenpflicht.",
+  "einleitung": "Lokal belegt sind die Hundesteuer, die Anmeldung bei den Einwohnerdiensten und zwei Orte mit Leinenpflicht. Sonst gilt die Hundeverordnung des Kantons.",
+  "karten": [
+    {
+      "titel": "Hundetaxe",
+      "wert": "CHF 120 pro Hund und Jahr",
+      "text": "Die Gemeinde stellt die Hundesteuer jedes Jahr in Rechnung. Sie beträgt CHF 120 pro Hund, für Hofhunde auf Landwirtschaftsbetrieben CHF 40. Zuständig ist der Bereich Finanzen.",
+      "quellen": [
+        "lu_horw_hunde"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "wert": "vor dem Kauf bei den Einwohnerdiensten",
+      "text": "Hältst du zum ersten Mal einen Hund, erfassen dich die Einwohnerdienste vor der Anschaffung in der Datenbank AMICUS. Den Hund selbst registriert die Tierarztpraxis. Weitergabe, Übernahme, Export oder Tod eines Hundes meldest du innert zehn Tagen in AMICUS.",
+      "quellen": [
+        "lu_horw_hunde"
+      ]
+    },
+    {
+      "titel": "Leine",
+      "wert": "Naturschutzgebiet Widenbachdelta, Park Krämerstein",
+      "text": "Im gesamten Naturschutzgebiet zwischen Ennethorw und Hergiswil gilt Leinenpflicht für Hunde. Stand der Mitteilung: 29. Juni 2015. Bei Anlässen in der Villa Krämerstein gilt auf der Terrasse und im Park Leinenpflicht, im Innern der Villa sind Hunde nicht erlaubt (Benutzungsverordnung, Anhang 10).",
+      "quellen": [
+        "lu_horw_widenbach",
+        "lu_horw_benutzung"
+      ]
+    }
+  ]
+}

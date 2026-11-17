@@ -1,0 +1,37 @@
+{
+  "id": "ebikon",
+  "kanton": "lu",
+  "bfs": 1054,
+  "name": "Ebikon",
+  "ort": "Ebikon",
+  "in_ort": "in Ebikon",
+  "geprueft": "2026-11-17",
+  "hinweis_heute": "Im Waldreservat im Riedholz auf dem Hundsrüggen sind Hunde laut der Gemeinde an der Leine zu führen.",
+  "einleitung": "Lokal belegt sind die Hundesteuer, die Anmeldung über die Formulare der Gemeinde und die Leinenregel im Waldreservat im Riedholz. Sonst gilt die Hundeverordnung des Kantons.",
+  "karten": [
+    {
+      "titel": "Hundetaxe",
+      "wert": "CHF 120 pro Hund und Jahr",
+      "text": "Die Hundesteuer beträgt CHF 120 für Haushunde und CHF 40 für Hof- und Jagdhunde. Für Junghunde gilt unter Bedingungen CHF 60. Zuständig ist die Abteilung Finanzen.",
+      "quellen": [
+        "lu_ebikon_hundesteuer"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "wert": "Online-Formular «Hundesteuer»",
+      "text": "Du meldest deinen Hund über das Online-Formular «Hundesteuer» der Gemeinde an. Hältst du zum ersten Mal einen Hund, forderst du für AMICUS mit dem Formular «AMICUS Personen-ID» eine Personen-ID an. Stirbt dein Hund, meldest du das Todesdatum über das Formular «Hundesteuer».",
+      "quellen": [
+        "lu_ebikon_hundesteuer"
+      ]
+    },
+    {
+      "titel": "Leine",
+      "wert": "Waldreservat im Riedholz",
+      "text": "Im Waldreservat im Riedholz auf dem Hundsrüggen sind Hunde an der Leine zu führen. Die Regel ist am Wegrand ausgeschildert. Stand der Mitteilung: 23. November 2023.",
+      "quellen": [
+        "lu_ebikon_waldreservat"
+      ]
+    }
+  ]
+}

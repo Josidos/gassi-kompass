@@ -1,0 +1,36 @@
+{
+  "id": "emmen",
+  "kanton": "lu",
+  "bfs": 1024,
+  "name": "Emmen",
+  "ort": "Emmen",
+  "in_ort": "in Emmen",
+  "geprueft": "2026-11-17",
+  "einleitung": "Lokal belegt sind die Hundesteuer, die Anmeldung bei der Einwohnerkontrolle und das Tierverbot auf dem Friedhof. Für Leinenpflicht und weitere Betretverbote gilt die Hundeverordnung des Kantons.",
+  "karten": [
+    {
+      "titel": "Hundetaxe",
+      "wert": "CHF 120 pro Hund und Jahr",
+      "text": "Die Gemeinde Emmen erhebt die Hundesteuer jedes Jahr für jeden Hund, der älter als sechs Monate ist. Sie beträgt CHF 120, für Hofhunde auf Landwirtschaftsbetrieben CHF 40.",
+      "quellen": [
+        "lu_emmen_steuer"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "wert": "bei der Einwohnerkontrolle",
+      "text": "Hast du noch nie einen Hund gehalten, meldest du dich zuerst bei der Einwohnerkontrolle Emmen. Sie erfasst dich in der Datenbank AMICUS. Abgabe, Übernahme und Tod eines Hundes meldest du der Gemeinde über das Online-Formular. Einen Zuzug oder Umzug meldest du innert zehn Tagen.",
+      "quellen": [
+        "lu_emmen_anmeldung"
+      ]
+    },
+    {
+      "titel": "Kein Zutritt",
+      "wert": "Friedhof: keine Tiere",
+      "text": "Auf dem Friedhof ist das Mitbringen oder Laufenlassen von Tieren verboten. Das steht in Art. 15 Abs. 3 des Reglements über das Friedhof- und Bestattungswesen.",
+      "quellen": [
+        "lu_emmen_friedhof"
+      ]
+    }
+  ]
+}

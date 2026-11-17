@@ -1,0 +1,42 @@
+{
+  "lu_emmen_steuer": {
+    "kurz": "Gemeinde Emmen: Sondersteuern",
+    "lang": "Gemeinde Emmen: Sondersteuern, Abschnitt Hundesteuer (abgerufen am 18.11.2026, ohne Datum)",
+    "url": "https://www.emmen.ch/steuern/71968"
+  },
+  "lu_emmen_anmeldung": {
+    "kurz": "Gemeinde Emmen: Hunde An- und Abmeldung",
+    "lang": "Gemeinde Emmen: Online-Schalter, Hunde An- und Abmeldung (abgerufen am 18.11.2026, ohne Datum)",
+    "url": "https://www.emmen.ch/online-schalter/88487/detail"
+  },
+  "lu_emmen_friedhof": {
+    "kurz": "Gemeinde Emmen: Friedhofreglement",
+    "lang": "Reglement über das Friedhof- und Bestattungswesen der Gemeinde Emmen vom 22. März 2016 (Ausgabe 2023, Änderungen in Kraft seit 1. Februar 2023)",
+    "url": "https://www.emmen.ch/_docn/5048941/Reglement.pdf"
+  },
+  "lu_horw_hunde": {
+    "kurz": "Gemeinde Horw: Hunde registrieren",
+    "lang": "Gemeinde Horw: Dienstleistung «Hunde registrieren» (Hundesteuer, AMICUS, Fristen; abgerufen am 18.11.2026, ohne Datum)",
+    "url": "https://www.horw.ch/dienstleistungen/7168"
+  },
+  "lu_horw_widenbach": {
+    "kurz": "Gemeinde Horw: Rücksicht im Widenbachdelta",
+    "lang": "Gemeinde Horw: Infokampagne «Rücksicht im Widenbachdelta» (Mitteilung vom 29. Juni 2015)",
+    "url": "https://www.horw.ch/newsarchiv/286017"
+  },
+  "lu_horw_benutzung": {
+    "kurz": "Gemeinde Horw: Benutzungsverordnung",
+    "lang": "Gemeinde Horw: Benutzungsverordnung für die Räume und Anlagen Nr. 550 vom 5. Januar 2006, Anhang 10 Villa Krämerstein (Stand 10. Dezember 2020)",
+    "url": "https://www.horw.ch/_docn/2909927/550_Benutzungsverordnung_Raume_und_Anlagen_2020-12-10.pdf"
+  },
+  "lu_ebikon_hundesteuer": {
+    "kurz": "Gemeinde Ebikon: Hundesteuer",
+    "lang": "Gemeinde Ebikon: Hundesteuer (Tarife, Anmeldung, Abmeldung; abgerufen am 18.11.2026, ohne Datum)",
+    "url": "https://www.ebikon.ch/topics/finanzen-steuern/steuern-inkasso/hundesteuer"
+  },
+  "lu_ebikon_waldreservat": {
+    "kurz": "Gemeinde Ebikon: Waldreservat unter Druck",
+    "lang": "Gemeinde Ebikon: «Waldreservat zunehmend unter Druck» (Mitteilung vom 23. November 2023)",
+    "url": "https://www.ebikon.ch/news/waldreservat-zunehmend-unter-druck"
+  }
+}
