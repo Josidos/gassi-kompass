@@ -1,0 +1,133 @@
+{
+  "id": "bl",
+  "name": "Kanton Basel-Landschaft",
+  "kurz": "BL",
+  "im": "im Kanton Basel-Landschaft",
+  "des": "des Kantons Basel-Landschaft",
+  "geprueft": "2026-11-17",
+  "wald": {
+    "saison": true,
+    "von": "04-01",
+    "bis": "07-31",
+    "wo": "im Wald und in Waldesnähe",
+    "quellen": [
+      "bl_wjg",
+      "bl_wald"
+    ]
+  },
+  "leine": {
+    "punkte": [
+      "überall, wenn du deinen Hund nicht unter Kontrolle halten kannst",
+      "im Wald auch ausserhalb der Zeit vom 1. April bis 31. Juli, wenn dein Hund nicht unter Kontrolle gehalten werden kann und die Wege verlässt",
+      "das ganze Jahr in Wildruhegebieten, auch auf den begrenzenden Waldstrassen und den ausgeschilderten Wanderwegen",
+      "an weiteren Orten, die deine Gemeinde bestimmt, zum Beispiel bei Dunkelheit, an verkehrsreichen Stellen oder in bestimmten Gebieten"
+    ],
+    "quellen": [
+      "bl_hug",
+      "bl_wjg",
+      "bl_wjv"
+    ]
+  },
+  "verbot": {
+    "einleitung": "Das Hundegesetz des Kantons nennt keine Orte mit Hundeverbot. Es überlässt den Gemeinden, den Zutritt zu öffentlichen Gebäuden und Arealen zu regeln.",
+    "punkte": [
+      "Orte, die deine Gemeinde in ihrem Reglement oder mit Signalisation bestimmt hat"
+    ],
+    "quellen": [
+      "bl_hug"
+    ]
+  },
+  "karten": [
+    {
+      "titel": "Haftpflicht",
+      "marke": "Pflicht",
+      "ton": "must",
+      "wert": "mind. CHF 3 Millionen",
+      "text": "Wer einen Hund hält, muss für ihn eine Haftpflichtversicherung abschliessen. Sie muss Personen-, Tier- und Sachschäden bis mindestens CHF 3 Millionen je Unfallereignis decken. Versichert sein muss auch die Person, die den Hund tatsächlich beaufsichtigt.",
+      "quellen": [
+        "bl_hug"
+      ]
+    },
+    {
+      "titel": "Kurs",
+      "marke": "keine Pflicht",
+      "ton": "none",
+      "wert": "nur für bewilligungspflichtige Hunde",
+      "text": "Das Hundegesetz kennt keinen Pflichtkurs für alle Hunde. Für die Bewilligung eines potenziell gefährlichen Hundes musst du Welpenspiel- und Hundeerziehungskurse besuchen. Anerkannt sind Kurse, die erfahrene Kynologinnen und Kynologen leiten und die mit einem Attest enden.",
+      "quellen": [
+        "bl_hug",
+        "bl_pgh"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "marke": "Pflicht",
+      "ton": "must",
+      "wert": "innert 14 Tagen",
+      "text": "Du meldest deinen Hund innert 14 Tagen bei deiner Gemeinde. Dasselbe gilt, wenn du ihn weitergibst oder wenn er stirbt. Jeder Hund muss mit einem Mikrochip gekennzeichnet sein. Die Gemeinde führt ein Register der Hunde, die älter als vier Monate sind. Sie kann zusätzlich ein eigenes Kennzeichen verlangen.",
+      "quellen": [
+        "bl_hug"
+      ]
+    },
+    {
+      "titel": "Hundesteuer",
+      "marke": "Gemeinde",
+      "ton": "note",
+      "wert": "je nach Gemeinde",
+      "text": "Die Gemeinden können eine Hundegebühr erheben. Das Hundegesetz nennt keinen Höchstbetrag. Befreit sind unter anderem Diensthunde, Blindenführhunde, ausgebildete Rettungs- und Katastrophenhunde und der erste Hund auf einem landwirtschaftlichen Nebenhof.",
+      "quellen": [
+        "bl_hug"
+      ]
+    },
+    {
+      "titel": "Rassen",
+      "marke": "Bewilligung",
+      "ton": "must",
+      "wert": "8 Rassen",
+      "text": "Für potenziell gefährliche Hunde brauchst du eine Bewilligung des Kantons, und zwar vor der Anschaffung. Das gilt auch für Kreuzungen dieser Rassen, für Hunde, die ihnen äusserlich ähnlich sind, und für Hunde, die durch ihr Verhalten aufgefallen sind. Verlangt werden unter anderem ein Strafregisterauszug, kynologische Fachkenntnisse, der Besuch von Kursen und die Haftpflichtversicherung. Im selben Haushalt darf kein weiterer Hund leben, der älter als 16 Wochen ist. Ausnahmen sind möglich. Das Gesuch kostet CHF 250.",
+      "mehr": {
+        "titel": "Ganze Liste anzeigen",
+        "punkte": [
+          "American Pit Bull Terrier",
+          "American Staffordshire Terrier",
+          "Bullterrier",
+          "Dobermann",
+          "Dogo Argentino",
+          "Fila Brasileiro",
+          "Rottweiler",
+          "Staffordshire Bull Terrier"
+        ]
+      },
+      "quellen": [
+        "bl_pgh",
+        "bl_hug"
+      ]
+    },
+    {
+      "titel": "Unterwegs",
+      "marke": "Regel",
+      "ton": "note",
+      "wert": "Kot und Wild",
+      "text": "Du nimmst den Kot deines Hundes auf öffentlichem Grund und auf landwirtschaftlich genutztem Land auf. Einen entlaufenen oder zugelaufenen Hund meldest du innert 2 Tagen. Wildert oder streunt ein Hund im Wald, kann ihn die Jagdaufsicht nach erfolgloser Mahnung abschiessen. Für Schäden am Wildbestand haftest du. Verstösse gegen das Hundegesetz werden mit Busse bestraft.",
+      "quellen": [
+        "bl_hug",
+        "bl_wjv"
+      ]
+    }
+  ],
+  "vergleich": {
+    "wald": "1.4. bis 31.7., im Wald und in Waldesnähe",
+    "haft": "Pflicht, mind. CHF 3 Mio.",
+    "kurs": "nur für bewilligungspflichtige Hunde",
+    "rassen": "Bewilligungspflicht für 8 Rassen",
+    "steuer": "je nach Gemeinde",
+    "anm": "innert 14 Tagen, Gemeinde"
+  },
+  "umzug": {
+    "text": "Nach dem Zuzug meldest du deinen Hund innert 14 Tagen bei deiner neuen Gemeinde. Ziehst du mit einem potenziell gefährlichen Hund zu, musst du innert 4 Wochen eine Haltebewilligung beantragen.",
+    "quellen": [
+      "bl_hug",
+      "bl_pgh"
+    ]
+  }
+}

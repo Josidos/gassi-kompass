@@ -1,0 +1,56 @@
+{
+  "id": "allschwil",
+  "kanton": "bl",
+  "bfs": 2762,
+  "name": "Allschwil",
+  "ort": "Allschwil",
+  "in_ort": "in Allschwil",
+  "geprueft": "2026-11-17",
+  "hinweis_heute": "In Allschwil gehört dein Hund im Wald und an Waldsäumen das ganze Jahr an die Leine. Ausserhalb der Zeit vom 1. April bis 31. Juli darf er auf den rot markierten Freilaufwegen frei laufen.",
+  "einleitung": "Allschwil regelt die Hundehaltung im Polizeireglement. Es ist strenger als das kantonale Recht: Im Wald gilt die Leinenpflicht das ganze Jahr, ausser auf den Freilaufwegen.",
+  "karten": [
+    {
+      "titel": "Hundetaxe",
+      "wert": "CHF 150 pro Hund und Jahr",
+      "text": "Die Hundegebühr beträgt in Allschwil CHF 150 pro Hund und Jahr. Bei der ersten Anmeldung kommt eine einmalige Einschreibegebühr von CHF 75 dazu. Befreit sind unter anderem Diensthunde, Blindenführhunde sowie Sozial-, Therapie-, Assistenz- und Begleithunde. Stand der Ansätze: 1. Januar 2024.",
+      "quellen": [
+        "bl_allschwil_gebuehren",
+        "bl_allschwil_hunde",
+        "bl_allschwil_prv"
+      ]
+    },
+    {
+      "titel": "Leine",
+      "wert": "Wald, Strassen, Spielplätze",
+      "text": "An die Leine gehört dein Hund an verkehrsreichen Strassen und auf Fahrradwegen, auf öffentlichen Spielplätzen, Sport- und Freizeitanlagen, auf Schularealen, in öffentlichen Gebäuden, in Naturschutzgebieten sowie an öffentlichen Veranstaltungen und in Menschenmengen. Im Wald und an Waldsäumen gilt die Leinenpflicht das ganze Jahr. Ausserhalb der Zeit vom 1. April bis 31. Juli darf dein Hund dort auf den Freilaufwegen frei laufen. Sie sind an den Bäumen entlang des Weges mit roten Streifen markiert.",
+      "quellen": [
+        "bl_allschwil_pr"
+      ]
+    },
+    {
+      "titel": "Kein Zutritt",
+      "wert": "signalisierte Orte, Kulturland",
+      "text": "Wo ein Zutrittsverbot signalisiert ist, darfst du deinen Hund nicht mitführen. Er darf auch nicht unerlaubt privates Areal oder landwirtschaftlich genutzte Parzellen betreten. Ausgenommen ist das Laufenlassen auf Wiesland von November bis Februar. Potenziell gefährliche Hunde haben zudem keinen Zutritt zu öffentlichen Spielplätzen, Sport- und Freizeitanlagen, Schularealen und öffentlichen Gebäuden.",
+      "quellen": [
+        "bl_allschwil_pr"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "wert": "Einwohnerdienste, innert 14 Tagen",
+      "text": "Du meldest deinen Hund innert 14 Tagen bei den Einwohnerdiensten der Gemeinde an, Baslerstrasse 111. Registriert werden Hunde ab 4 Monaten. Du brauchst den Hundepass oder Impfausweis und den Nachweis einer Haftpflichtversicherung mit mindestens CHF 3 Millionen Deckung. Dein Hund und du müsst zudem in der Hundedatenbank AMICUS registriert sein.",
+      "quellen": [
+        "bl_allschwil_hunde",
+        "bl_allschwil_prv"
+      ]
+    },
+    {
+      "titel": "Bussen",
+      "wert": "CHF 50, in einem Fall CHF 100",
+      "text": "Die Ordnungsbusse beträgt CHF 50, wenn du die Leinenpflicht oder ein signalisiertes Zutrittsverbot missachtest, den Kot liegen lässt oder den Kotsack nicht korrekt entsorgst. CHF 100 kostet es, wenn ein potenziell gefährlicher Hund einen für ihn gesperrten Ort betritt. Im ordentlichen Verfahren sind Bussen bis CHF 5'000 möglich.",
+      "quellen": [
+        "bl_allschwil_pr"
+      ]
+    }
+  ]
+}

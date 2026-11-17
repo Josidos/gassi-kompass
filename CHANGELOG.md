@@ -2,6 +2,19 @@
 
 Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen.
 
+## 2026-11-17, Nachtkette, Glied 2
+
+- Nachgeprüft: nichts. Keine Datei ist älter als 60 Tage.
+- Neu: Kanton Basel-Landschaft (`/bl/`) und Allschwil (`/bl/allschwil/`), 7 von 26 Kantonen erfasst. Quellen, alle am 17. November 2026 abgerufen: Hundegesetz (SGS 342, Stand 1. Januar 2008), Verordnung über das Halten potenziell gefährlicher Hunde (SGS 342.12, Stand 1. Februar 2013), Wildtier- und Jagdgesetz (SGS 520, Stand 1. Januar 2022), Wildtier- und Jagdverordnung (SGS 520.11, Stand 1. November 2026), Medienmitteilung des Kantons zur Leinenpflicht 2025. Allschwil: Seite der Einwohnerdienste, Gebührenordnung Hundegebühren (Stand 1. Januar 2024), Polizeireglement (Teilrevision 2024) und Verordnung dazu.
+- Die Gesetzestexte wurden über LexFind gelesen, weil der Lauf die Gesetzessammlung des Kantons (bl.clex.ch) nicht direkt fand. Das Abrufwerkzeug lieferte Zusammenfassungen mit kurzen Zitaten, nicht den vollen Wortlaut. Haftpflicht, Kurspflicht, Meldefrist und Rasseliste wurden gezielt je Paragraph abgefragt.
+- Nicht abrufbar (zwei Versuche): die Seite «Hunde» des Veterinärdienstes und die Seite «Leinenpflicht» des Amts für Wald auf baselland.ch. Deshalb weggelassen: AMICUS auf der Kantonsseite, eine Erklärung von «Waldesnähe» in Metern, Bussenbeträge des Kantons. Das Gesetz nennt keine Meterzahl.
+- Kurs: Die Kurspflicht steht im Hundegesetz nur als Voraussetzung der Bewilligung für potenziell gefährliche Hunde. Die Seite sagt deshalb «keine Pflicht» für alle anderen Hunde.
+- Allschwil: Das Hundereglement von 1996 steht noch auf der Website der Gemeinde, ist aber durch das Polizeireglement von 2017 ersetzt (§ 51). Erfasst ist das Polizeireglement. Es ist strenger als der Kanton: Leine im Wald das ganze Jahr, ausser auf den Freilaufwegen ausserhalb der Zeit vom 1. April bis 31. Juli. Der Plan der Freilaufwege war nicht lesbar, die Wege sind nicht namentlich aufgeführt.
+- Dem Auftrag fehlte die Zusatznachricht mit der Nummer. Weil Glied 1 laut Protokoll und Commit `d8d8300` schon gelaufen ist und dieser Lauf zwei Minuten danach ausgelöst wurde, zählt er als Glied 2.
+- `add_repo` und `register_repo_root` standen dem Lauf nicht zur Verfügung. Das Repository lag schon mit Push-Zugriff im Arbeitsordner.
+- Nicht gelungen: nichts.
+- Backlog: Reinach, Muttenz, Pratteln, Binningen und Liestal eingetragen, zwei neue Lücken.
+
 ## 2026-11-17, Nachtkette, Glied 1
 
 - Nachgeprüft: nichts. Keine Datei ist älter als 60 Tage.

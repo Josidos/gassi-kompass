@@ -17,12 +17,12 @@ Bleibt ein Kanton nach einem Lauf unvollständig (Entwurf unter `data/entwurf/`)
 
 ## 1. Deutschsprachige Kantone
 
-Ungefähr nach Bevölkerung. Schon erfasst: Zürich, Bern, Luzern, Aargau, St. Gallen, Basel-Stadt.
+Ungefähr nach Bevölkerung. Schon erfasst: Zürich, Bern, Luzern, Aargau, St. Gallen, Basel-Stadt, Basel-Landschaft.
 
 - [x] Aargau (`ag`), 2026-11-17
 - [x] St. Gallen (`sg`), 2026-11-17, mit Stadt St. Gallen
 - [x] Basel-Stadt (`bs`), 2026-11-17, mit Stadt Basel
-- [ ] Basel-Landschaft (`bl`)
+- [x] Basel-Landschaft (`bl`), 2026-11-17, mit Allschwil
 - [ ] Thurgau (`tg`)
 - [ ] Solothurn (`so`)
 - [ ] Graubünden (`gr`)
@@ -59,6 +59,11 @@ Ungefähr nach Grösse. Neue Kantone tragen hier ihre grössten Gemeinden ein.
 - [ ] Baden (AG)
 - [ ] Wohlen (AG)
 - [ ] Rheinfelden (AG)
+- [ ] Reinach (BL)
+- [ ] Muttenz (BL)
+- [ ] Pratteln (BL)
+- [ ] Binningen (BL)
+- [ ] Liestal (BL)
 - [ ] Riehen (BS)
 - [ ] Bettingen (BS)
 - [ ] Rapperswil-Jona (SG)
@@ -121,6 +126,8 @@ Ungefähr nach Grösse. Neue Kantone tragen hier ihre grössten Gemeinden ein.
 - [ ] Kanton Basel-Stadt: Busse CHF 100 mit der Ordnungsbussenverordnung belegen (bisher Seite des Veterinäramts)
 - [ ] Kanton Basel-Stadt: Das Hundegesetz wird revidiert (Entwurf in Vernehmlassung). Beim Nachprüfen den Stand von SG 365.100 beachten.
 - [ ] Stadt Basel: Hundefreilaufzonen aus der Karte geo.bs.ch/hundesignalisation namentlich aufführen
+- [ ] Kanton Basel-Landschaft: Die Seiten des Veterinärdienstes und des Amts für Wald auf baselland.ch waren am 2026-11-17 nicht abrufbar. Beim Nachprüfen die Angaben aus den Gesetzen damit vergleichen und AMICUS, «Waldesnähe» und die Busse bei der Leinenpflicht ergänzen, falls dort belegt.
+- [ ] Allschwil: Freilaufwege aus dem Plan in Anhang I des Polizeireglements namentlich aufführen
 
 ## 5. Umbauten am Generator
 

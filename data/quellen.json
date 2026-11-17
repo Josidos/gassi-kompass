@@ -198,5 +198,50 @@
     "kurz": "Hundeverbots- und Leinenpflichtzonen BS",
     "lang": "Kanton Basel-Stadt, Gesundheitsdepartement: Hundeverbots- und Leinenpflichtzonen (Liste ohne Datum, abgerufen am 17. November 2026)",
     "url": "https://media.bs.ch/original_file/7e5ff50aef5ff36b2b9416185a998da1000236aa/hundeverbots-und-leinenpflichtzonen.pdf"
+  },
+  "bl_hug": {
+    "kurz": "Hundegesetz BL",
+    "lang": "Kanton Basel-Landschaft: Gesetz über das Halten von Hunden (Hundegesetz, SGS 342), Stand 1. Januar 2008, Wortlaut auf LexFind",
+    "url": "https://www.lexfind.ch/tol/2724/de"
+  },
+  "bl_pgh": {
+    "kurz": "Verordnung gefährliche Hunde BL",
+    "lang": "Kanton Basel-Landschaft: Verordnung über das Halten potenziell gefährlicher Hunde (SGS 342.12), Stand 1. Februar 2013, Wortlaut auf LexFind",
+    "url": "https://www.lexfind.ch/tol/2723/de"
+  },
+  "bl_wjg": {
+    "kurz": "Wildtier- und Jagdgesetz BL",
+    "lang": "Kanton Basel-Landschaft: Wildtier- und Jagdgesetz (WJG, SGS 520), Stand 1. Januar 2022, Wortlaut auf LexFind",
+    "url": "https://www.lexfind.ch/tol/2268/de"
+  },
+  "bl_wjv": {
+    "kurz": "Wildtier- und Jagdverordnung BL",
+    "lang": "Kanton Basel-Landschaft: Wildtier- und Jagdverordnung (WJV, SGS 520.11), Stand 1. November 2026, Wortlaut auf LexFind",
+    "url": "https://www.lexfind.ch/tol/2261/de"
+  },
+  "bl_wald": {
+    "kurz": "Medienmitteilung Leinenpflicht BL",
+    "lang": "Kanton Basel-Landschaft, Volkswirtschafts- und Gesundheitsdirektion: Leinenpflicht zum Schutz von Wildtieren in beiden Basel (Medienmitteilung zur Leinenpflicht 2025)",
+    "url": "https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/medienmitteilungen/leinenpflicht-zum-schutz-von-wildtieren-in-beiden-basel"
+  },
+  "bl_allschwil_hunde": {
+    "kurz": "Gemeinde Allschwil: Hunde",
+    "lang": "Einwohnergemeinde Allschwil, Einwohnerdienste: An- und Abmeldung von Hunden (abgerufen am 17. November 2026)",
+    "url": "https://www.allschwil.ch/de/verwaltung/dienstleistungen/detail/detail.php?i=107"
+  },
+  "bl_allschwil_gebuehren": {
+    "kurz": "Hundegebühren Allschwil",
+    "lang": "Einwohnergemeinde Allschwil: Gebührenordnung Hundegebühren, Stand 1. Januar 2024",
+    "url": "https://www.allschwil.ch/de/verwaltung/dienstleistungen/detail/detail.php?i=341"
+  },
+  "bl_allschwil_pr": {
+    "kurz": "Polizeireglement Allschwil",
+    "lang": "Einwohnergemeinde Allschwil: Polizeireglement vom 22. Februar 2017, mit Teilrevision vom 12. Juni 2024",
+    "url": "https://www.allschwil.ch/de/verwaltung/dokumente/dokumente/Polizeireglementvom22.Februar2017.pdf"
+  },
+  "bl_allschwil_prv": {
+    "kurz": "Verordnung zum Polizeireglement Allschwil",
+    "lang": "Einwohnergemeinde Allschwil: Verordnung zum Polizeireglement vom 14. Juni 2017, Stand 1. Januar 2024",
+    "url": "https://allschwil.ch/de/verwaltung/dokumente/dokumente/VerordnungzumPolizeireglementvom14.Juni2017.pdf"
   }
 }
