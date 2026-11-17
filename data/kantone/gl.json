@@ -15,11 +15,17 @@
   "leine": {
     "punkte": [
       "im Wald und den Waldrändern entlang, das ganze Jahr",
+      "in öffentlich zugänglichen Gebäuden",
+      "an stark befahrenen Strassen, insbesondere Kantons- und Hauptstrassen",
+      "in öffentlichen Verkehrsmitteln, an Haltestellen und auf Bahnhöfen",
+      "auf Pausenplätzen, Spiel- und Sportplätzen",
+      "an Orten, die die Gemeinde entsprechend signalisiert",
       "in den eidgenössischen Jagdbanngebieten. In den Gebieten Kärpf, Schilt und Rauti-Tros gilt die Leinenpflicht grundsätzlich überall, auch ausserhalb des Waldes. Ausgenommen sind Nutzhunde in der Landwirtschaft (Stand der Vollzugsregelung: 2015).",
       "immer, zusammen mit einem Maulkorb, wenn du nicht im Kanton wohnst und einen Hund mit erhöhtem Gefährdungspotenzial ausführst. Davon befreit dich nur eine Erlaubnis des kantonstierärztlichen Dienstes, die du bei dir trägst."
     ],
     "quellen": [
       "gl_jagdv",
+      "gl_glarus_hunde",
       "gl_jagdbann",
       "gl_vetv"
     ]
