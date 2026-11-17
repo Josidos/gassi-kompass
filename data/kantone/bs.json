@@ -1,0 +1,150 @@
+{
+  "id": "bs",
+  "name": "Kanton Basel-Stadt",
+  "kurz": "BS",
+  "im": "im Kanton Basel-Stadt",
+  "des": "des Kantons Basel-Stadt",
+  "geprueft": "2026-11-17",
+  "wald": {
+    "saison": true,
+    "von": "04-01",
+    "bis": "07-31",
+    "wo": "im Wald, am Waldrand und auf der angrenzenden Wiese",
+    "quellen": [
+      "bs_wjg",
+      "bs_vet"
+    ]
+  },
+  "leine": {
+    "punkte": [
+      "nachts von 22 bis 6 Uhr",
+      "in Gastwirtschaften, auch in Gartenwirtschaften und Boulevard-Restaurants",
+      "in öffentlichen Verkehrsmitteln",
+      "auf stark frequentierten Strassen und Plätzen",
+      "auf Märkten",
+      "für Hündinnen während der Läufigkeit",
+      "überall, wo ein Schild die Leinenpflicht anzeigt",
+      "in Wildruhe- und Wildschutzgebieten"
+    ],
+    "quellen": [
+      "bs_huv",
+      "bs_vet",
+      "bs_wjg"
+    ]
+  },
+  "verbot": {
+    "einleitung": "Die Hundeverordnung des Kantons nennt diese Orte. Weitere Orte bestimmt das Veterinäramt und beschildert sie.",
+    "punkte": [
+      "Lebensmittelgeschäfte, ausser für Hunde, die eine behinderte Person führen oder begleiten",
+      "Kinderspielplätze",
+      "Friedhöfe",
+      "offizielle Badeplätze und öffentliche Schwimmbäder",
+      "überall, wo ein Hundeverbotsschild steht"
+    ],
+    "quellen": [
+      "bs_huv",
+      "bs_vet"
+    ]
+  },
+  "karten": [
+    {
+      "titel": "Haftpflicht",
+      "marke": "Pflicht",
+      "ton": "must",
+      "wert": "für alle Hunde",
+      "text": "Wer einen Hund hält, muss eine Haftpflichtversicherung abschliessen. Für potenziell gefährliche Hunde muss die Deckungssumme mindestens CHF 3 Millionen betragen. Die Versicherung muss dann auch Personen decken, die den Hund beaufsichtigen oder ausführen.",
+      "quellen": [
+        "bs_hug",
+        "bs_huv",
+        "bs_vet"
+      ]
+    },
+    {
+      "titel": "Kurs",
+      "marke": "Pflicht",
+      "ton": "must",
+      "wert": "für Neuhundehaltende",
+      "text": "Seit dem 1. April 2025 musst du einen Basiskurs besuchen, wenn du zum ersten Mal einen Hund hältst. Er umfasst mindestens 8 Lektionen und hat keine Prüfung. Du musst ihn innert 12 Monaten nach der Übernahme des Hundes absolvieren. Der Hund muss zu Kursbeginn mindestens 4 Monate alt sein. Wer schon Hunde gehalten hat, ist nicht kurspflichtig. Welpenspielstunden zählen nicht als Basiskurs.",
+      "quellen": [
+        "bs_kurse",
+        "bs_hug",
+        "bs_huv"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "marke": "Pflicht",
+      "ton": "must",
+      "wert": "innert 10 Tagen",
+      "text": "Du meldest deinen Hund innert 10 Tagen nach der Übernahme oder dem Zuzug beim Kantonalen Veterinäramt an, online oder am Schalter an der Schlachthofstrasse 55 in Basel. Jeder Hund braucht einen Mikrochip und muss über eine Tierarztpraxis in der Hundedatenbank AMICUS registriert sein. Verkauf, Wegzug oder Tod des Hundes meldest du ebenfalls innert 10 Tagen. Die Registrierungsmarke ist seit dem 1. April 2025 nicht mehr obligatorisch.",
+      "quellen": [
+        "bs_anmelden",
+        "bs_steuer",
+        "bs_huv"
+      ]
+    },
+    {
+      "titel": "Hundesteuer",
+      "marke": "jährlich",
+      "ton": "note",
+      "wert": "CHF 120 bis 160",
+      "text": "Die Hundesteuer beträgt pro Jahr CHF 160 in der Stadt Basel, CHF 150 in Riehen und CHF 120 in Bettingen. Sie ist für Hunde ab 3 Monaten geschuldet. Jeder weitere Hund im selben Haushalt kostet das Doppelte. Das Steuerjahr dauert vom 1. April bis 31. März. Wer Ergänzungsleistungen oder Sozialhilfe bezieht, erhält für den ersten Hund 70 % Reduktion. Für mehr als zwei Hunde brauchst du eine Bewilligung des Veterinäramts, sie kostet CHF 40 pro Jahr.",
+      "quellen": [
+        "bs_anmelden",
+        "bs_steuer",
+        "bs_hug"
+      ]
+    },
+    {
+      "titel": "Rassen",
+      "marke": "Bewilligung",
+      "ton": "must",
+      "wert": "8 Rassen",
+      "text": "Für potenziell gefährliche Hunde brauchst du eine Bewilligung des Veterinäramts, und zwar vor der Anschaffung. Das gilt auch für Kreuzungen mit diesen Rassen, für American Bully und Pocket Bully und für Hunde, deren Erscheinungsbild auf eine dieser Rassen schliessen lässt. Du musst mindestens 18 Jahre alt sein und schon einen Hund gehalten haben. Im selben Haushalt darf kein weiterer Hund leben. Cane Corso ohne FCI-anerkannte Papiere und American Bulldog lässt das Veterinäramt vor der Anschaffung anhand eines Fotos begutachten.",
+      "mehr": {
+        "titel": "Ganze Liste anzeigen",
+        "punkte": [
+          "American Staffordshire Terrier",
+          "Bullterrier (auch Miniatur Bullterrier)",
+          "Dobermann",
+          "Dogo Argentino",
+          "Fila Brasileiro",
+          "Pitbull Terrier",
+          "Rottweiler",
+          "Staffordshire Bullterrier"
+        ]
+      },
+      "quellen": [
+        "bs_rassen",
+        "bs_hug",
+        "bs_huv"
+      ]
+    },
+    {
+      "titel": "Unterwegs",
+      "marke": "Regel",
+      "ton": "note",
+      "wert": "Kot und Busse",
+      "text": "Du nimmst den Kot deines Hundes mit einem Kotbeutel auf und entsorgst ihn in einem Abfallbehälter. Das gilt auf öffentlichem Grund und auf landwirtschaftlich genutzten Flächen. Hunde dürfen nicht in öffentlichen Brunnen gebadet werden. Bei Verstössen gegen Leinenpflicht, Hundeverbot oder Kotaufnahmepflicht spricht die Kantonspolizei eine Busse von CHF 100 aus.",
+      "quellen": [
+        "bs_huv",
+        "bs_vet"
+      ]
+    }
+  ],
+  "vergleich": {
+    "wald": "1.4. bis 31.7., im Wald, am Waldrand und auf angrenzender Wiese",
+    "haft": "Pflicht, mind. CHF 3 Mio. für bewilligungspflichtige Hunde",
+    "kurs": "Basiskurs für Neuhundehaltende",
+    "rassen": "Bewilligungspflicht für 8 Rassen",
+    "steuer": "CHF 120 bis 160, je nach Gemeinde",
+    "anm": "innert 10 Tagen, Veterinäramt und AMICUS"
+  },
+  "umzug": {
+    "text": "Nach dem Zuzug meldest du deinen Hund innert 10 Tagen beim Veterinäramt an. Ziehst du mit einem bewilligungspflichtigen Hund zu, musst du innert 10 Tagen eine Haltebewilligung beantragen.",
+    "quellen": [
+      "bs_steuer",
+      "bs_rassen"
+    ]
+  }
+}

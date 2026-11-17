@@ -153,5 +153,50 @@
     "kurz": "Stadt St. Gallen",
     "lang": "Stadt St. Gallen, Stadtpolizei: Tiere, Tierschutz (Stand der Seite 30. Januar 2026)",
     "url": "https://www.stadt.sg.ch/home/gesellschaft-sicherheit/sicherheit-polizei/sicherheit/tiere--tierschutz.html"
+  },
+  "bs_vet": {
+    "kurz": "Veterinäramt BS",
+    "lang": "Kanton Basel-Stadt, Kantonales Veterinäramt: Informationen für Hundehaltende (Stand der Seite 28. Oktober 2026)",
+    "url": "https://www.bs.ch/gd/veterinaeramt/hundehaltende"
+  },
+  "bs_hug": {
+    "kurz": "Hundegesetz BS",
+    "lang": "Kanton Basel-Stadt: Gesetz betreffend das Halten von Hunden (Hundegesetz, SG 365.100), Stand 1. April 2025",
+    "url": "https://bs.lexwork.naz.ch/de/dta/365.100.pdf"
+  },
+  "bs_huv": {
+    "kurz": "Hundeverordnung BS",
+    "lang": "Kanton Basel-Stadt: Verordnung betreffend das Halten von Hunden (Hundeverordnung, SG 365.110), Stand 1. April 2025",
+    "url": "https://bs.lexwork.naz.ch/de/dta/365.110.pdf"
+  },
+  "bs_wjg": {
+    "kurz": "Wildtier- und Jagdgesetz BS",
+    "lang": "Kanton Basel-Stadt: Wildtier- und Jagdgesetz (WJG, SG 912.200), Stand 1. April 2024",
+    "url": "https://bs.lexwork.naz.ch/de/dta/912.200.pdf"
+  },
+  "bs_anmelden": {
+    "kurz": "Hund anmelden BS",
+    "lang": "Kanton Basel-Stadt: Hund anmelden (Stand der Seite 28. Oktober 2026)",
+    "url": "https://www.bs.ch/themen/umwelt-und-bauen/tiere-und-pflanzen/hunde/hund-anmelden"
+  },
+  "bs_steuer": {
+    "kurz": "Merkblatt Hundesteuer BS",
+    "lang": "Kanton Basel-Stadt, Veterinäramt, Hundekontrolle: Merkblatt Hundesteuer 2026/27",
+    "url": "https://media.bs.ch/original_file/2f725d1ea97f551a364bf2f58c526a40f0860cd8/merkblatt-hundesteuer-2026-27.pdf"
+  },
+  "bs_kurse": {
+    "kurz": "Hundekurse BS",
+    "lang": "Kanton Basel-Stadt, Kantonales Veterinäramt: Hundekurse (Stand der Seite 30. September 2026)",
+    "url": "https://www.bs.ch/gd/veterinaeramt/hundehaltende/hundekurse"
+  },
+  "bs_rassen": {
+    "kurz": "Bewilligungspflichtige Rassen BS",
+    "lang": "Kanton Basel-Stadt: Bewilligungspflichtige Hunderassen (Stand der Seite 4. Juni 2026)",
+    "url": "https://www.bs.ch/themen/umwelt-und-bauen/tiere-und-pflanzen/hunde/bewilligungspflichtige-hunderassen"
+  },
+  "bs_zonen": {
+    "kurz": "Hundeverbots- und Leinenpflichtzonen BS",
+    "lang": "Kanton Basel-Stadt, Gesundheitsdepartement: Hundeverbots- und Leinenpflichtzonen (Liste ohne Datum, abgerufen am 17. November 2026)",
+    "url": "https://media.bs.ch/original_file/7e5ff50aef5ff36b2b9416185a998da1000236aa/hundeverbots-und-leinenpflichtzonen.pdf"
   }
 }

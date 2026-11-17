@@ -17,11 +17,11 @@ Bleibt ein Kanton nach einem Lauf unvollständig (Entwurf unter `data/entwurf/`)
 
 ## 1. Deutschsprachige Kantone
 
-Ungefähr nach Bevölkerung. Schon erfasst: Zürich, Bern, Luzern, Aargau, St. Gallen.
+Ungefähr nach Bevölkerung. Schon erfasst: Zürich, Bern, Luzern, Aargau, St. Gallen, Basel-Stadt.
 
 - [x] Aargau (`ag`), 2026-11-17
 - [x] St. Gallen (`sg`), 2026-11-17, mit Stadt St. Gallen
-- [ ] Basel-Stadt (`bs`)
+- [x] Basel-Stadt (`bs`), 2026-11-17, mit Stadt Basel
 - [ ] Basel-Landschaft (`bl`)
 - [ ] Thurgau (`tg`)
 - [ ] Solothurn (`so`)
@@ -59,6 +59,8 @@ Ungefähr nach Grösse. Neue Kantone tragen hier ihre grössten Gemeinden ein.
 - [ ] Baden (AG)
 - [ ] Wohlen (AG)
 - [ ] Rheinfelden (AG)
+- [ ] Riehen (BS)
+- [ ] Bettingen (BS)
 - [ ] Rapperswil-Jona (SG)
 - [ ] Wil (SG)
 - [ ] Gossau (SG)
@@ -115,6 +117,10 @@ Ungefähr nach Grösse. Neue Kantone tragen hier ihre grössten Gemeinden ein.
 
 - [ ] Stadt St. Gallen: Leinenpflicht und Hundeverbote direkt mit dem Polizeireglement belegen (bisher nur über die Seite der Stadtpolizei), Bussen ergänzen
 - [ ] Kanton St. Gallen: Verordnung über die Jagdvorschriften (sGS 853.111) auf eine Leinenpflicht im Wald prüfen. Am 2026-11-17 war der Text nicht lesbar. Bis dahin sagt die Seite nur, was in Hundegesetz, Jagdgesetz und Jagdverordnung steht.
+- [ ] Kanton Basel-Stadt: Gebiete ohne Wald-Leinenpflicht (rechte Wieseseite, Vorländer und Dammwege laut Veterinäramt) mit dem Beschluss des Regierungsrats nach § 8 Abs. 3 WJG belegen und auf der Seite ergänzen
+- [ ] Kanton Basel-Stadt: Busse CHF 100 mit der Ordnungsbussenverordnung belegen (bisher Seite des Veterinäramts)
+- [ ] Kanton Basel-Stadt: Das Hundegesetz wird revidiert (Entwurf in Vernehmlassung). Beim Nachprüfen den Stand von SG 365.100 beachten.
+- [ ] Stadt Basel: Hundefreilaufzonen aus der Karte geo.bs.ch/hundesignalisation namentlich aufführen
 
 ## 5. Umbauten am Generator
 

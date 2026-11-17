@@ -2,6 +2,19 @@
 
 Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen.
 
+## 2026-11-17, Nachtkette, Glied 1
+
+- Nachgeprüft: nichts. Keine Datei ist älter als 60 Tage.
+- Neu: Kanton Basel-Stadt (`/bs/`) und Stadt Basel (`/bs/basel/`), 6 von 26 Kantonen erfasst. Quellen, alle am 17. November 2026 abgerufen: Veterinäramt (Hundehaltende, Hund anmelden, Hundekurse, bewilligungspflichtige Rassen, Merkblatt Hundesteuer 2026/27, Liste der Hundeverbots- und Leinenpflichtzonen), Hundegesetz und Hundeverordnung (Stand 1. April 2025), Wildtier- und Jagdgesetz (Stand 1. April 2024).
+- Wald: Leinenpflicht vom 1. April bis 31. Juli nach § 8 WJG «im Wald, am Waldrand und angrenzender Wiese». Das Veterinäramt nennt Ausnahmen an der Wiese (rechte Wieseseite, Vorländer, Dammwege). Weggelassen, weil der Beschluss dazu nicht gelesen wurde. Die Seite ist damit eher zu streng als zu locker.
+- Die Gesetzestexte hat das Abrufwerkzeug nur zusammengefasst und mit kurzen Zitaten geliefert, nicht im vollen Wortlaut. Beträge, Fristen und Listen wurden gezielt je Paragraph abgefragt und mit den Seiten des Veterinäramts verglichen. Kein Widerspruch gefunden.
+- Weggelassen: verbotene Rassen (das Gesetz erlaubt Verbote, eine Liste war nicht auffindbar), Kosten der Haltebewilligung, Folgen eines versäumten Basiskurses.
+- Stadt Basel: Der Kanton besorgt die Aufgaben der Stadt. Lokale Angaben sind der Steuerbetrag der Stadt und die namentlich aufgeführten Anlagen mit Hundeverbot und Leinenpflicht. Die Liste des Kantons trägt kein Datum.
+- Hinweis: Im Kanton läuft eine Revision des Hundegesetzes (Entwurf in Vernehmlassung gefunden). Erfasst ist das geltende Recht.
+- `add_repo` und `register_repo_root` standen dem Lauf nicht zur Verfügung. Das Repository lag schon mit Push-Zugriff im Arbeitsordner.
+- Nicht gelungen: nichts.
+- Backlog: Riehen und Bettingen eingetragen, vier neue Lücken zu Basel-Stadt.
+
 ## 2026-11-17, Sitzung mit Joss
 
 - Neu: Kontaktadresse kontakt@gassi-kompass.ch (Postfach bei Infomaniak, DNS-Einträge für Mail geprüft). Sie steht im Fuss jeder Seite und auf «Über diese Seite».

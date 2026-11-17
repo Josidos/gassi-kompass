@@ -1,0 +1,45 @@
+{
+  "id": "basel",
+  "kanton": "bs",
+  "bfs": 2701,
+  "name": "Stadt Basel",
+  "ort": "Basel",
+  "in_ort": "in der Stadt Basel",
+  "geprueft": "2026-11-17",
+  "einleitung": "Die Stadt Basel hat keine eigene Verwaltung für Hunde. Zuständig ist das Kantonale Veterinäramt. Die Liste des Kantons nennt die Anlagen in der Stadt mit Hundeverbot oder Leinenpflicht. Massgebend ist die Signalisation vor Ort.",
+  "karten": [
+    {
+      "titel": "Hundetaxe",
+      "wert": "CHF 160 pro Jahr",
+      "text": "Die Hundesteuer beträgt in der Stadt Basel CHF 160 pro Jahr. Jeder weitere Hund im selben Haushalt kostet CHF 320. Das Steuerjahr dauert vom 1. April bis 31. März.",
+      "quellen": [
+        "bs_anmelden",
+        "bs_steuer"
+      ]
+    },
+    {
+      "titel": "Kein Zutritt",
+      "wert": "viele Parks und Anlagen",
+      "text": "Ein Hundeverbot gilt unter anderem im Kannenfeldpark, im Schützenmattpark, im Horburgpark, im St. Johanns-Park, im Christoph Merian-Park, im Rosenfeldpark, auf der Claramatte, auf der Pfalz, auf der Rasenfläche der Kasernenmatte und auf den Grünflächen des Petersplatzes. Auch die unteren Rheinbermen sind für Hunde gesperrt, ausser in der ausgeschilderten Hundebadezone am St. Alban-Rheinweg. Die ganze Liste steht in der Quelle.",
+      "quellen": [
+        "bs_zonen"
+      ]
+    },
+    {
+      "titel": "Leine",
+      "wert": "Promenaden und Anlagen",
+      "text": "An die kurze Leine gehört dein Hund unter anderem auf den Fussgängerpromenaden am Oberen und Unteren Rheinweg, am Elsässerrheinweg, in der Elisabethen-Anlage, im Schwarzpark, im Falkensteinerpark, im Nachtigallenwäldeli, im Tierpark Lange Erlen und auf den Wegflächen des Erlenmattparks. Die ganze Liste steht in der Quelle.",
+      "quellen": [
+        "bs_zonen"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "wert": "Kantonales Veterinäramt",
+      "text": "Du meldest deinen Hund innert 10 Tagen beim Kantonalen Veterinäramt an, online oder am Schalter an der Schlachthofstrasse 55.",
+      "quellen": [
+        "bs_anmelden"
+      ]
+    }
+  ]
+}
