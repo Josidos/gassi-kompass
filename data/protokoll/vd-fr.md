@@ -8,3 +8,11 @@
 - Karte Kurs mit `ton: note`: keine allgemeine Kurspflicht im Gesetz, nur für potenziell gefährliche Hunde.
 - Unsicherheit: Die LPolC wurde in der Fassung «in Kraft seit 1. Mai 2014» gelesen (LexFind, dort als aktuell bezeichnet, Dokument erzeugt 2019), das RLPolC als PDF von 2014. Ob es seither Änderungen gab, ist nicht geprüft. Der Stand steht im Langnamen und in der Karte Kurs. Das Faltblatt zur Leinenpflicht trägt kein Datum. Der Wortlaut von Art. 2a RLFaune selbst wurde nicht abgerufen.
 - Weggelassen: Mindestsumme der Haftpflicht (steht in keiner Quelle), AMICUS beim Kanton (das Gesetz sagt nur «banque de données»), Regeln für Besuch mit Listenhunden aus anderen Kantonen (nicht gefunden), Pflicht zum Aufnehmen von Kot (nicht in der LPolC), Jahr des Steuerbetrags (die Seite nennt keines).
+- Neu: Ville de Lausanne französisch (`data/fr-ch/gemeinden/vd/lausanne.json`), drei Karten (Impôt sur les chiens CHF 190, davon CHF 90 Gemeinde; Annonce innert 15 Tagen; Laisse), drei weitere Quellen. Weggelassen: Namen der Freilaufzonen (stehen nur auf einer Karte, nicht im Text der Seite), Verbotsorte und Bussen (Règlement général de police der Stadt nach einem Suchversuch nicht gefunden, Schluss-Zeit nahe).
+- Nicht gelungen: nichts.
+
+## Backlog
+
+- Erledigt: Waadt (`vd`), französisch, Abschnitt 2, Daten unter `data/fr-ch/`. Ville de Lausanne. Die Seiten entstehen erst nach dem Sonderlauf Mehrsprachigkeit.
+- Weitere Gemeinden für Abschnitt 3: Yverdon-les-Bains, Montreux, Nyon, Renens, Vevey.
+- Neue Lücken für Abschnitt 4: geltende Fassung von LPolC (BLV 133.75) und RLPolC auf der Gesetzessammlung des Kantons gegenprüfen. Wortlaut von Art. 2a RLFaune abrufen. Lausanne: Règlement général de police (Leine, Verbotsorte, Kot, Bussen) und Namen der Freilaufzonen suchen. Regeln für Besuch und Zuzug mit bewilligungspflichtigen Hunden suchen.

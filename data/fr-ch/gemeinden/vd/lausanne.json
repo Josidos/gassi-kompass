@@ -1,0 +1,38 @@
+{
+  "id": "lausanne",
+  "kanton": "vd",
+  "bfs": 5586,
+  "name": "Ville de Lausanne",
+  "ort": "Lausanne",
+  "in_ort": "à Lausanne",
+  "geprueft": "2026-11-17",
+  "einleitung": "Depuis 2004, Lausanne aménage des espaces pour chiens en liberté dans les parcs publics et sur les rives du lac. La Ville prélève son propre impôt sur les chiens, en plus de l'impôt cantonal.",
+  "karten": [
+    {
+      "titel": "Impôt sur les chiens",
+      "wert": "CHF 190 par chien et par an",
+      "text": "Le montant comprend l'impôt communal de CHF 90 et l'impôt cantonal de CHF 100. L'impôt est dû par la personne propriétaire du chien au 1er janvier. Un chien par personne est exonéré, sur justificatif, pour les bénéficiaires de prestations complémentaires AVS/AI ou du revenu d'insertion. Un subside à l'assurance-maladie, les PC Familles ou la rente-pont ne donnent pas droit à l'exonération.",
+      "quellen": [
+        "vd_lausanne_faq",
+        "vd_lausanne_impot"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "wert": "dans les 15 jours, au Bureau des impôts",
+      "text": "Un chien acquis ou reçu en cours d'année, ou qui séjourne plus de trois mois dans la commune, s'annonce dans les 15 jours au Bureau des impôts, place Chauderon 9, par téléphone, au guichet ou par le formulaire en ligne. L'inscription d'un nouveau chien coûte CHF 20, ou CHF 50 en cas d'omission. La désinscription est aussi obligatoire.",
+      "quellen": [
+        "vd_lausanne_impot",
+        "vd_lausanne_faq"
+      ]
+    },
+    {
+      "titel": "Laisse",
+      "wert": "selon la signalisation, espaces de liberté dans les parcs",
+      "text": "La plupart des parcs et presque tous les quartiers disposent d'espaces pour chiens en liberté. La carte de la Ville distingue trois types de zones: en laisse, en laisse selon la saison, interdit aux chiens. Elle est indicative, seule la signalisation officielle fait foi. L'obligation de laisse du 1er avril au 15 juillet vaut aussi dans les forêts en ville, en lisière et dans les prairies attenantes.",
+      "quellen": [
+        "vd_lausanne_zones"
+      ]
+    }
+  ]
+}

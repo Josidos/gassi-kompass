@@ -23,5 +23,20 @@
     "kurz": "DGAV VD: autorisation",
     "lang": "État de Vaud, DGAV, Affaires vétérinaires: demander une autorisation de détenir un chien potentiellement dangereux (consulté le 17 novembre 2026)",
     "url": "https://www.vd.ch/prestation/demander-une-autorisation-de-detenir-un-chien-potentiellement-dangereux"
+  },
+  "vd_lausanne_faq": {
+    "kurz": "Ville de Lausanne: FAQ impôt sur les chiens",
+    "lang": "Ville de Lausanne, Service des finances: enregistrement des chiens, questions fréquentes sur l'impôt (page modifiée le 24 juillet 2025)",
+    "url": "https://www.lausanne.ch/prestations/finances/enregistrement-des-chiens/faq-impot-chiens.html"
+  },
+  "vd_lausanne_impot": {
+    "kurz": "Ville de Lausanne: impôt sur les chiens",
+    "lang": "Ville de Lausanne, Bureau des impôts: impôt sur les chiens (page mise à jour le 17 décembre 2024)",
+    "url": "https://www.lausanne.ch/officiel/administration/finances-et-mobilite/finances/impots/impots-chiens.html"
+  },
+  "vd_lausanne_zones": {
+    "kurz": "Ville de Lausanne: zones accessibles aux chiens",
+    "lang": "Ville de Lausanne, Bureau d'intégration canine et de la police des chiens (BICAN): zones accessibles aux chiens (consulté le 17 novembre 2026)",
+    "url": "https://www.lausanne.ch/officiel/administration/logement-environnement-et-architecture/parcs-et-domaines/vie-pratique-nature/bican/zones-accessibles-chiens.html"
   }
 }
