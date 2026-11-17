@@ -83,7 +83,7 @@ Obergrenzen pro Lauf: höchstens **4 Dateien nachprüfen** und höchstens **4 ne
    - Neuer Kanton: zuerst alle Felder der Kantonsdatei belegen (Gesetz, Verordnung, Veterinärdienst). Erst wenn die Datei vollständig ist, die grössten Gemeinden des Kantons ins Backlog aufnehmen.
 4. **Bauen und testen.** `python3 build.py`, dann `node tests/seiten.js`. Beides muss fehlerfrei sein. Wenn nicht: Fehler beheben oder die Änderung dieses Laufs zurücknehmen. **Nie mit Fehlern pushen.**
 5. **Protokoll.** `BACKLOG.md` nachführen. Oben in `CHANGELOG.md` einen Eintrag mit Datum ergänzen: nachgeprüft, geändert, neu, nicht gelungen.
-6. **Veröffentlichen.** Ein Commit auf `main` mit klarer Betreffzeile, dann Push.
+6. **Veröffentlichen.** Ein Commit auf `main` mit klarer Betreffzeile, dann Push. Etwa eine Minute später muss `gh run list -R Josidos/gassi-kompass --limit 1` für den neuen Commit `completed success` zeigen. Steht dort ein Fehler, kommt er zuoberst in den Bericht.
 7. **Bericht.** Kurz auf Deutsch: was nachgeprüft wurde, was sich geändert hat, welche Seiten neu sind, was nicht ging. Nur wenn etwas fällig ist: was Joss selbst tun muss.
 
 ### Hinweise zur Recherche
@@ -97,11 +97,15 @@ Obergrenzen pro Lauf: höchstens **4 Dateien nachprüfen** und höchstens **4 ne
 
 Diese Schritte verlangen sein Konto, sein Geld oder seine Entscheidung. Nie selbst versuchen. Im Bericht nur daran erinnern, wenn sie fällig sind.
 
-- Google Search Console einrichten und die Sitemap einreichen (so früh wie möglich)
-- «Enforce HTTPS» in den GitHub-Pages-Einstellungen einschalten
-- Entscheiden, welche Angaben zu seiner Person in Impressum und Datenschutzerklärung stehen dürfen
-- AdSense-Konto und Affiliate-Konten eröffnen (sinnvoll ab etwa 40 Seiten und den ersten Besuchern)
-- Domain verlängern
+- In der Search Console unter «Leistung» nachsehen, ob Google die Seite einblendet. Fällig ab 17. Februar 2027 (Abbruchkriterium) und sobald `sitemap.xml` 40 Seiten zählt.
+- AdSense-Konto und Affiliate-Konten eröffnen. Fällig, sobald `sitemap.xml` 40 Seiten zählt und die Search Console Besucher zeigt.
+- Entscheiden, welche Angaben zu seiner Person in Impressum und Datenschutzerklärung stehen dürfen. Fällig zusammen mit dem AdSense-Konto.
+- Domain verlängern. Registriert Mitte November 2026, ab Oktober 2027 daran erinnern.
+
+### Schon erledigt
+
+- 2026-11-17: «Enforce HTTPS» in den GitHub-Pages-Einstellungen eingeschaltet
+- 2026-11-17: Google Search Console eingerichtet. Property `https://gassi-kompass.ch/`, bestätigt über die Datei `google49e2be530ce3822a.html`. Sitemap eingereicht, Google hat 8 Seiten erkannt. Neue Seiten findet Google über die Sitemap von selbst.
 
 ## Fahrplan
 
@@ -109,7 +113,7 @@ Diese Schritte verlangen sein Konto, sein Geld oder seine Entscheidung. Nie selb
 2. **Anzeigen:** Sobald Joss ein AdSense-Konto hat und es unter «Freigaben» steht: Impressum, Datenschutzerklärung, `ads.txt` und Anzeigenplätze in `build.py` einbauen.
 3. **Erweitern:** Affiliate-Links und eine französische Fassung unter `/fr/`. Nur nach Freigabe.
 
-Abbruchkriterium: Zeigt die Search Console drei Monate nach dem Einreichen der Sitemap keine Einblendungen in der Suche, entscheidet Joss, ob es weitergeht.
+Abbruchkriterium: Die Sitemap wurde am 17. November 2026 eingereicht. Zeigt die Search Console am 17. Februar 2027 keine Einblendungen in der Suche, entscheidet Joss, ob es weitergeht.
 
 ## Freigaben
 
