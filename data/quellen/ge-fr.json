@@ -1,0 +1,57 @@
+{
+  "ge_lchiens": {
+    "kurz": "LChiens GE",
+    "lang": "République et canton de Genève: loi sur les chiens (LChiens, M 3 45) du 18 mars 2011, texte en vigueur (SILGeneve), consulté le 17 novembre 2026",
+    "url": "https://silgeneve.ch/legis/data/rsg_m3_45.htm"
+  },
+  "ge_rchiens": {
+    "kurz": "RChiens GE",
+    "lang": "République et canton de Genève: règlement d'application de la loi sur les chiens (RChiens, M 3 45.01) du 27 juillet 2011, texte en vigueur (SILGeneve), consulté le 17 novembre 2026",
+    "url": "https://silgeneve.ch/legis/data/rsg_m3_45p01.htm"
+  },
+  "ge_promenade": {
+    "kurz": "ge.ch: promener son chien",
+    "lang": "République et canton de Genève: «Détenir un chien: règles pour promener son chien», mise à jour du 27 janvier 2023",
+    "url": "https://www.ge.ch/detenir-chien/regles-promener-son-chien"
+  },
+  "ge_detenir": {
+    "kurz": "ge.ch: détenir un chien",
+    "lang": "République et canton de Genève: «Détenir un chien», mise à jour du 27 janvier 2023",
+    "url": "https://www.ge.ch/detenir-chien"
+  },
+  "ge_marque": {
+    "kurz": "ge.ch: marque de contrôle",
+    "lang": "République et canton de Genève: «Détenir un chien: obtenir la marque de contrôle», mise à jour du 27 janvier 2023",
+    "url": "https://www.ge.ch/detenir-chien/obtenir-marque-controle"
+  },
+  "ge_tmc": {
+    "kurz": "ge.ch: cours et TMC",
+    "lang": "République et canton de Genève: «Détenir un chien: cours d'éducation canine, TMC», mise à jour du 25 janvier 2023",
+    "url": "https://www.ge.ch/detenir-chien/cours-education-canine-tmc"
+  },
+  "ge_races": {
+    "kurz": "ge.ch: races interdites",
+    "lang": "République et canton de Genève: «Détenir un chien: races canines interdites à Genève», mise à jour du 19 septembre 2023",
+    "url": "https://www.ge.ch/detenir-chien/races-canines-interdites-geneve"
+  },
+  "ge_impot_calcul": {
+    "kurz": "ge.ch: calcul de l'impôt",
+    "lang": "République et canton de Genève: «L'impôt sur les chiens: calculer et payer», mise à jour du 21 avril 2026",
+    "url": "https://www.ge.ch/impot-chiens/calculer-payer-impot-chiens"
+  },
+  "ge_impot_qui": {
+    "kurz": "ge.ch: qui paie l'impôt",
+    "lang": "République et canton de Genève: «L'impôt sur les chiens: qui est soumis», mise à jour du 21 avril 2026",
+    "url": "https://www.ge.ch/impot-chiens/qui-est-soumis-impot-chiens"
+  },
+  "ge_ville_lieux": {
+    "kurz": "Ville de Genève: lieux permis ou interdits",
+    "lang": "Ville de Genève: «Lieux permis ou interdits aux chiens», modifié le 6 juillet 2026",
+    "url": "https://www.geneve.ch/public/proprietaires-chiens/lieux-permis-interdits-chiens"
+  },
+  "ge_ville_obligations": {
+    "kurz": "Ville de Genève: obligations",
+    "lang": "Ville de Genève: «Obligations des propriétaires de chiens», modifié le 13 mai 2026",
+    "url": "https://www.geneve.ch/public/proprietaires-chiens/obligations-proprietaires"
+  }
+}

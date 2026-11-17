@@ -1,0 +1,63 @@
+{
+  "id": "geneve",
+  "kanton": "ge",
+  "bfs": 6621,
+  "name": "Ville de Genève",
+  "ort": "Genève",
+  "in_ort": "à Genève",
+  "geprueft": "2026-11-17",
+  "einleitung": "En Ville de Genève, les chiens sont tenus en laisse dans l'espace public. Ils ne peuvent être détachés que dans les espaces de liberté, sous la maîtrise de leur détenteur.",
+  "freilaufzonen": [
+    {
+      "name": "Espaces de liberté clôturés",
+      "marken": [
+        "clôturé"
+      ],
+      "text": "Pelouse de Château-Banquet, parc Saint-Jean, Maison de la Concorde, parc des Franchises, rue Soubeyran, parc Liotard, promenade des Crêts, parc Eglantyne Jebb, parc des Falaises de Champel, parc Bertrand, rue des Contamines, parc Belmont. L'espace du parc Geisendorf est fermé depuis le 1er juin 2026."
+    },
+    {
+      "name": "Espaces de liberté non clôturés",
+      "marken": [
+        "non clôturé"
+      ],
+      "text": "Promenade des Crêts, pelouse de Moillebeau, sentier des Falaises, parc de Budé, parcelle Rigot, Jonction-Butin, Bois de la Bâtie, rive droite de l'Arve à la Jonction, rive gauche de l'Arve aux Vernets, plaine de Plainpalais, parc Bertrand, parc La Grange."
+    }
+  ],
+  "freilaufzonen_quellen": [
+    "ge_ville_lieux"
+  ],
+  "karten": [
+    {
+      "titel": "Laisse",
+      "wert": "partout dans l'espace public",
+      "text": "Dans les rues, sur les places, les quais et les promenades ainsi que dans les parcs où les chiens sont admis, votre chien est tenu en laisse. Il ne peut être détaché que dans les espaces de liberté. Vous en restez responsable et ne le laissez jamais seul.",
+      "quellen": [
+        "ge_ville_lieux"
+      ]
+    },
+    {
+      "titel": "Accès interdit",
+      "wert": "12 parcs et tout lieu signalé",
+      "text": "La Ville interdit aux chiens, même en laisse: Jardin de la Paix, parc Liotard, parc Bourgogne, parc des Délices, Jardin botanique, île Rousseau, sentier des Saules, parc Gourgas, parc Baud-Bovy, promenade du Pin, terrasse Agrippa d'Aubigné, plage des Eaux-Vives. Le parc Liotard figure aussi sur la liste des espaces de liberté clôturés. Sont aussi interdits tout endroit signalé comme tel, les pelouses, massifs et plantations des parcs, les places de jeux, les préaux et les cimetières.",
+      "quellen": [
+        "ge_ville_lieux"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "wert": "marque de contrôle à la police municipale",
+      "text": "Les habitants de la Ville de Genève obtiennent la marque de contrôle annuelle dans un poste de police municipale. Vous présentez l'attestation d'assurance responsabilité civile, le carnet de vaccination avec un vaccin contre la rage valide et la preuve de l'enregistrement dans AMICUS. État de la page du canton: 2023.",
+      "quellen": [
+        "ge_marque"
+      ]
+    },
+    {
+      "titel": "Amendes",
+      "wert": "contravention, montant non publié",
+      "text": "La police municipale peut verbaliser notamment l'absence de marque de contrôle ou de puce, les déjections non ramassées, le non-respect de la laisse ou des lieux interdits, l'impôt non payé et l'absence d'assurance responsabilité civile. La page de la Ville ne donne pas de montants.",
+      "quellen": [
+        "ge_ville_obligations"
+      ]
+    }
+  ]
+}

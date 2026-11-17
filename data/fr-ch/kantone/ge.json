@@ -1,0 +1,161 @@
+{
+  "id": "ge",
+  "name": "Canton de Genève",
+  "kurz": "GE",
+  "im": "dans le canton de Genève",
+  "des": "du canton de Genève",
+  "geprueft": "2026-11-17",
+  "wald": {
+    "saison": true,
+    "von": "04-01",
+    "bis": "07-15",
+    "wo": "en forêt",
+    "quellen": [
+      "ge_rchiens",
+      "ge_promenade"
+    ]
+  },
+  "leine": {
+    "punkte": [
+      "en forêt, du 1er avril au 15 juillet",
+      "en forêt le reste de l'année, si vous n'avez pas la stricte maîtrise de votre chien",
+      "dans les localités et sur les voies publiques ouvertes à la circulation",
+      "dans les promenades et quais promenades, les jardins et les parcs publics",
+      "à l'Aéroport international de Genève",
+      "dans les campings",
+      "sur les sentiers autorisés du site protégé du Moulin-de-Vert",
+      "dans le périmètre de protection renforcée de la réserve d'oiseaux d'eau «Rade et Rhône genevois», selon la signalisation"
+    ],
+    "quellen": [
+      "ge_rchiens",
+      "ge_promenade"
+    ]
+  },
+  "verbot": {
+    "einleitung": "Le règlement cantonal interdit ces lieux aux chiens, même tenus en laisse. Les chiens d'aveugle et d'assistance aux personnes handicapées ne sont pas concernés.",
+    "punkte": [
+      "les édifices religieux et leurs dépendances, les cimetières",
+      "les salles de spectacle et les établissements hospitaliers",
+      "les écoles et leurs préaux",
+      "les places de jeux pour enfants et les pataugeoires",
+      "les bains, plages et piscines publics ainsi que la jetée des Pâquis",
+      "les locaux destinés à la vente ou à la consommation de denrées alimentaires",
+      "les pelouses, massifs de fleurs et plantations des promenades, jardins et parcs publics",
+      "les parcs publics désignés comme interdits aux chiens",
+      "les réserves naturelles (sauf dérogation du plan de gestion), les réserves forestières et les secteurs mis à ban",
+      "toutes les cultures"
+    ],
+    "quellen": [
+      "ge_rchiens",
+      "ge_promenade"
+    ]
+  },
+  "karten": [
+    {
+      "titel": "Responsabilité civile",
+      "marke": "Obligatoire",
+      "ton": "must",
+      "wert": "pour chaque détenteur",
+      "text": "Vous devez être titulaire d'une assurance responsabilité civile en cours de validité. La loi ne fixe pas de montant minimal. L'attestation est demandée pour obtenir la marque de contrôle.",
+      "quellen": [
+        "ge_lchiens",
+        "ge_marque"
+      ]
+    },
+    {
+      "titel": "Cours",
+      "marke": "Selon le chien",
+      "ton": "note",
+      "wert": "test pour les chiens de grande taille",
+      "text": "Les cours d'éducation canine ne sont pas obligatoires, le canton les recommande vivement. Le test de maîtrise et de comportement (TMC) reste obligatoire pour les chiens de grande taille: plus de 25 kg et 56 cm au garrot. Vous annoncez un tel chien à un éducateur canin reconnu avant ses 18 mois. Le TMC réussi vaut autorisation de détention. État de la page du canton: 2023.",
+      "quellen": [
+        "ge_tmc",
+        "ge_lchiens"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "marke": "10 jours",
+      "ton": "note",
+      "wert": "AMICUS, puis marque de contrôle",
+      "text": "L'enregistrement du chien dans la banque de données AMICUS est obligatoire, dans les 10 jours dès l'acquisition. Un changement d'adresse ou de détenteur et le décès du chien s'annoncent aussi dans les 10 jours. Dès l'âge de 6 mois, votre chien porte au collier la marque de contrôle annuelle. Vous l'obtenez jusqu'au 1er avril auprès de votre commune, elle vaut jusqu'au 31 mars de l'année suivante et coûte entre CHF 0 et CHF 24 selon la commune. État des pages du canton: 2023.",
+      "quellen": [
+        "ge_lchiens",
+        "ge_rchiens",
+        "ge_detenir",
+        "ge_marque"
+      ]
+    },
+    {
+      "titel": "Impôt sur les chiens",
+      "marke": "annuel",
+      "ton": "note",
+      "wert": "CHF 50 au canton, plus la commune",
+      "text": "L'impôt cantonal est de CHF 50 pour le premier chien, CHF 70 pour le deuxième et CHF 100 pour le troisième et chaque chien supplémentaire. S'y ajoutent les centimes additionnels de votre commune, calculés en pour cent de l'impôt cantonal, ainsi que CHF 1 par chien pour l'assurance contre les dommages causés par les chiens errants et CHF 4 par chien pour le fonds cantonal des épizooties. L'impôt est dû si vous résidez dans le canton, pour un chien d'au moins 6 mois détenu depuis au moins 3 mois. Les chiens d'assistance et les chiens utilitaires de l'armée, de la police, des douanes ou du sauvetage sont notamment exonérés.",
+      "quellen": [
+        "ge_impot_calcul",
+        "ge_impot_qui"
+      ]
+    },
+    {
+      "titel": "Races",
+      "marke": "Interdites",
+      "ton": "must",
+      "wert": "15 races et leurs croisements",
+      "text": "Les chiens de races dites d'attaque ou jugées dangereuses, ainsi que leurs croisements, sont interdits sur le territoire cantonal. Il est interdit d'en acquérir un. Restent admis les chiens déjà présents avant l'inscription de leur race et titulaires d'une autorisation de détention. Ils sont tenus en laisse et portent une muselière dès qu'ils quittent le domicile, aussi dans les espaces de liberté. Les chiens dressés à l'attaque sont également interdits.",
+      "mehr": {
+        "titel": "Afficher la liste",
+        "punkte": [
+          "Am'staff",
+          "Boerbull",
+          "Cane corso",
+          "Dogue argentin",
+          "Fila brasileiro",
+          "Mastiff",
+          "Mâtin espagnol",
+          "Mâtin napolitain",
+          "Pitbull",
+          "Presa canario",
+          "Rottweiler",
+          "Tosa",
+          "Dogue de Bordeaux",
+          "Bullmastiff",
+          "Thaï Ridgeback Dog",
+          "croisements issus de ces races"
+        ]
+      },
+      "quellen": [
+        "ge_lchiens",
+        "ge_rchiens",
+        "ge_races"
+      ]
+    },
+    {
+      "titel": "En promenade",
+      "marke": "Règle",
+      "ton": "note",
+      "wert": "Ramasser, maîtriser, 3 chiens confiés au plus",
+      "text": "Vous ramassez les déjections de votre chien. Hors des lieux où la laisse est obligatoire, par exemple sur les chemins de campagne ou dans les espaces de liberté, votre chien reste sous votre maîtrise. Qui promène plus de trois chiens confiés par des tiers a besoin d'une autorisation du canton. Les infractions à la loi sur les chiens sont passibles de l'amende. La loi n'en fixe pas le montant.",
+      "quellen": [
+        "ge_lchiens",
+        "ge_rchiens",
+        "ge_promenade"
+      ]
+    }
+  ],
+  "vergleich": {
+    "wald": "1.4 au 15.7, en forêt",
+    "haft": "obligatoire, sans montant minimal dans la loi",
+    "kurs": "pas de cours obligatoire, test (TMC) pour les chiens de plus de 25 kg et 56 cm",
+    "rassen": "15 races et leurs croisements interdits",
+    "steuer": "CHF 50 au canton pour le premier chien, plus la commune",
+    "anm": "dans les 10 jours dans AMICUS, marque de contrôle annuelle"
+  },
+  "umzug": {
+    "text": "Les races listées sont interdites dans le canton. Si vous êtes domicilié à l'étranger et souhaitez vous établir à Genève avec un tel chien, une dérogation est possible à certaines conditions. La demande s'adresse par écrit au SCAV, quai Ernest-Ansermet 22, 1205 Genève, avant l'importation du chien.",
+    "quellen": [
+      "ge_races",
+      "ge_lchiens"
+    ]
+  }
+}
