@@ -1,0 +1,47 @@
+{
+  "id": "luzern",
+  "kanton": "lu",
+  "name": "Stadt Luzern",
+  "ort": "Luzern",
+  "in_ort": "in der Stadt Luzern",
+  "geprueft": "2026-11-16",
+  "hinweis_heute": "In der Stadt Luzern gelten auf den meisten städtischen Flächen Hundeverbote oder Leinenzwang. Frei laufen darf dein Hund in den drei Freilaufzonen.",
+  "einleitung": "Drei abgegrenzte und signalisierte Freilaufzonen. Auf den anderen städtischen Flächen gelten mehrheitlich Hundeverbote und Leinenzwang.",
+  "freilaufzonen": [
+    {
+      "name": "Allmend",
+      "marken": [
+        "grösste Zone",
+        "eigenes Wegnetz"
+      ],
+      "text": "Hinter dem Armee-Ausbildungszentrum Luzern, zwischen Schäferweg und Zirkusplatz. Mit Sitzgelegenheiten und Schattenbäumen."
+    },
+    {
+      "name": "Churchillquai",
+      "marken": [
+        "Wasserzugang"
+      ],
+      "text": "Teil der Wiese zwischen Seeufer und Seeburgstrasse, mit Hecke und Zaun abgegrenzt. Mit Sitzbänken."
+    },
+    {
+      "name": "Tribschenhorn",
+      "marken": [
+        "Seezugang"
+      ],
+      "text": "Zwischen der Tribschen-Badi und der Landwirtschaftsfläche, mit eigenen Spazierwegen und Sitzgelegenheiten."
+    }
+  ],
+  "freilaufzonen_quellen": [
+    "lu_stadt"
+  ],
+  "karten": [
+    {
+      "titel": "Bussen",
+      "wert": "CHF 80 bis 150 je nach Verstoss",
+      "text": "Missachtung von Verboten oder Leinenzwang: CHF 100 bis 150 (Naturschutzgebiete). Hundekot liegen lassen: CHF 80. Stand der Broschüre: 2022.",
+      "quellen": [
+        "lu_stadt"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "id": "be",
+  "name": "Kanton Bern",
+  "kurz": "BE",
+  "im": "im Kanton Bern",
+  "des": "des Kantons Bern",
+  "geprueft": "2026-11-16",
+  "wald": {
+    "saison": false,
+    "text": "Im Kanton Bern gibt es keine allgemeine Leinenpflicht im Wald. Der Grosse Rat hat sie für die Brut- und Setzzeit 2023 mit 70 zu 63 Stimmen abgelehnt. Die Leine braucht es trotzdem auf Weiden mit Nutztieren, in Naturschutzgebieten und an Orten, die deine Gemeinde bezeichnet.",
+    "quellen": [
+      "be_wald",
+      "be_avet"
+    ]
+  },
+  "leine": {
+    "punkte": [
+      "auf Schulanlagen",
+      "auf öffentlichen Spiel- und Sportplätzen",
+      "in öffentlichen Verkehrsmitteln, an Bahnhöfen und Haltestellen",
+      "auf Weiden mit Nutztieren",
+      "in Naturschutzgebieten",
+      "an Orten, die deine Gemeinde bezeichnet"
+    ],
+    "quellen": [
+      "be_avet"
+    ]
+  },
+  "verbot": {
+    "einleitung": "Der Kanton selbst listet keine Orte. Gemeinden können Orte bezeichnen, zu denen Hunde keinen Zutritt haben.",
+    "punkte": [
+      "Orte, die deine Gemeinde bezeichnet"
+    ],
+    "quellen": [
+      "be_hug"
+    ]
+  },
+  "karten": [
+    {
+      "titel": "Haftpflicht",
+      "marke": "Pflicht",
+      "ton": "must",
+      "wert": "mind. CHF 3 Mio.",
+      "text": "Wer einen Hund hält, braucht eine Haftpflichtversicherung, die die Risiken der Hundehaltung deckt.",
+      "quellen": [
+        "be_avet"
+      ]
+    },
+    {
+      "titel": "Kurs",
+      "marke": "keine Pflicht",
+      "ton": "none",
+      "wert": "kein Obligatorium",
+      "text": "Der Kanton Bern kennt kein Kursobligatorium. Empfohlen werden Kurse vor allem für Ersthaltende.",
+      "quellen": [
+        "be_kurs"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "marke": "Pflicht",
+      "ton": "note",
+      "wert": "über die Gemeinde",
+      "text": "Melde dich bei deiner Wohngemeinde als Hundehalterin oder Hundehalter. Die Gemeinde registriert dich in AMICUS.",
+      "quellen": [
+        "be_avet"
+      ]
+    },
+    {
+      "titel": "Hundesteuer",
+      "marke": "Gemeinde",
+      "ton": "note",
+      "wert": "je nach Gemeinde",
+      "text": "Die Gemeinde legt die Hundetaxe fest. Keine Taxe gibt es unter anderem für Assistenzhunde, für Hunde im Tierheim und wenn sie im gleichen Jahr schon anderswo bezahlt wurde.",
+      "quellen": [
+        "be_hug"
+      ]
+    },
+    {
+      "titel": "Rassen",
+      "marke": "keine Liste",
+      "ton": "none",
+      "wert": "keine Einschränkungen",
+      "text": "Das Berner Hundegesetz kennt keine Rassenliste und keine rassenspezifischen Vorschriften.",
+      "quellen": [
+        "be_avet"
+      ]
+    },
+    {
+      "titel": "Unterwegs",
+      "marke": "Regel",
+      "ton": "note",
+      "wert": "höchstens 3 Hunde",
+      "text": "Pro Person höchstens 3 Hunde, die älter als 4 Monate sind. Im öffentlichen Raum nie unbeaufsichtigt und jederzeit wirksam unter Kontrolle. Kot aufnehmen, sonst droht eine Ordnungsbusse.",
+      "quellen": [
+        "be_avet"
+      ]
+    }
+  ],
+  "vergleich": {
+    "wald": "keine allgemeine Pflicht",
+    "haft": "Pflicht, mind. CHF 3 Mio.",
+    "kurs": "kein Obligatorium",
+    "rassen": "keine Einschränkungen",
+    "steuer": "je nach Gemeinde",
+    "anm": "über die Gemeinde"
+  }
+}

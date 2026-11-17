@@ -1,0 +1,137 @@
+{
+  "id": "zh",
+  "name": "Kanton Zürich",
+  "kurz": "ZH",
+  "im": "im Kanton Zürich",
+  "des": "des Kantons Zürich",
+  "geprueft": "2026-11-16",
+  "wald": {
+    "saison": true,
+    "von": "04-01",
+    "bis": "07-31",
+    "wo": "im Wald und bis 50 m ab Waldrand",
+    "quellen": [
+      "zh_vet"
+    ]
+  },
+  "leine": {
+    "punkte": [
+      "in öffentlich zugänglichen Gebäuden",
+      "an verkehrsreichen Strassen",
+      "in öffentlichen Verkehrsmitteln, an Bahnhöfen und Haltestellen",
+      "überall, wo ein Schild es verlangt",
+      "im Wald und bis 50 m ab Waldrand, 1. April bis 31. Juli"
+    ],
+    "quellen": [
+      "zh_stadt",
+      "zh_vet"
+    ]
+  },
+  "verbot": {
+    "punkte": [
+      "Friedhöfe",
+      "Badeanstalten",
+      "Pausenplätze von Schulhausanlagen",
+      "weitere Orte gemäss Hundegesetz"
+    ],
+    "quellen": [
+      "zh_vet"
+    ]
+  },
+  "karten": [
+    {
+      "titel": "Haftpflicht",
+      "marke": "Pflicht",
+      "ton": "must",
+      "wert": "mind. CHF 1 Mio.",
+      "text": "Gilt für alle Hunde, unabhängig von Grösse und Rasse.",
+      "quellen": [
+        "zh_vet"
+      ]
+    },
+    {
+      "titel": "Kurs",
+      "marke": "Pflicht",
+      "ton": "must",
+      "wert": "Theorie und Praxis",
+      "text": "Theoriekurs mit Prüfung (rund 2 Stunden) für alle, die noch nie oder seit über 10 Jahren keinen Hund hatten: frühestens 1 Jahr vor, spätestens 2 Monate nach Beginn. Praxiskurs für jeden Hund: mindestens 6 Lektionen, Start frühestens mit 6 Monaten, Abschluss spätestens 12 Monate nach Übernahme. Gilt auch bei Zuzug in den Kanton.",
+      "quellen": [
+        "zh_vet"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "marke": "10 Tage",
+      "ton": "note",
+      "wert": "Gemeinde und AMICUS",
+      "text": "Innert 10 Tagen nach Übernahme bei der Wohngemeinde melden und in der Hundedatenbank AMICUS auf dich registrieren.",
+      "quellen": [
+        "zh_vet"
+      ]
+    },
+    {
+      "titel": "Hundesteuer",
+      "marke": "jährlich",
+      "ton": "note",
+      "wert": "je nach Gemeinde",
+      "text": "Für jeden Hund zahlst du jährlich eine Abgabe an deine Wohngemeinde.",
+      "quellen": [
+        "zh_vet"
+      ]
+    },
+    {
+      "titel": "Rassen",
+      "marke": "Verbote",
+      "ton": "must",
+      "wert": "Rassetypenliste II",
+      "text": "Verboten sind unter anderem American Staffordshire Terrier, Pit Bull Terrier, Bull Terrier und American Bully, ebenso Mischlinge ab 10 % Anteil. Rottweiler: Neuanschaffung seit 1. Januar 2025 verboten. Zu Besuch höchstens 30 Tage pro Jahr, draussen mit Leine und Maulkorb.",
+      "mehr": {
+        "titel": "Ganze Liste anzeigen",
+        "punkte": [
+          "American Bull Terrier",
+          "American Bully",
+          "American Bully XXL",
+          "American Pit Bull Terrier",
+          "American Pocket Bully",
+          "American Staffordshire Terrier",
+          "Bandog",
+          "Basicdog",
+          "Bull Terrier",
+          "Pit Bull Terrier",
+          "Rottweiler (seit 1.1.2025)",
+          "Staffordshire Bull Terrier",
+          "Swiss Blue Bully",
+          "Swiss Champagner Bully"
+        ]
+      },
+      "quellen": [
+        "zh_rassen"
+      ]
+    },
+    {
+      "titel": "Unterwegs",
+      "marke": "Regel",
+      "ton": "note",
+      "wert": "Kot und Lärm",
+      "text": "Kot korrekt beseitigen und Lärmbelästigung vermeiden. Orte mit Zutrittsverbot meiden.",
+      "quellen": [
+        "zh_vet"
+      ]
+    }
+  ],
+  "vergleich": {
+    "wald": "1.4. bis 31.7., bis 50 m ab Waldrand",
+    "haft": "Pflicht, mind. CHF 1 Mio.",
+    "kurs": "Theorie für Ersthaltende, Praxis für jeden Hund",
+    "rassen": "Verbotsliste, Rottweiler seit 2025",
+    "steuer": "je nach Gemeinde",
+    "anm": "innert 10 Tagen, Gemeinde und AMICUS"
+  },
+  "umzug": {
+    "text": "Die Kurspflicht gilt auch bei Zuzug. Hunde der Rassetypenliste II dürfen nicht zuziehen.",
+    "quellen": [
+      "zh_vet",
+      "srf"
+    ]
+  }
+}

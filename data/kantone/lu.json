@@ -1,0 +1,118 @@
+{
+  "id": "lu",
+  "name": "Kanton Luzern",
+  "kurz": "LU",
+  "im": "im Kanton Luzern",
+  "des": "des Kantons Luzern",
+  "geprueft": "2026-11-16",
+  "wald": {
+    "saison": true,
+    "von": "04-01",
+    "bis": "07-31",
+    "wo": "im Wald und bis 50 m ab Waldrand",
+    "quellen": [
+      "lu_wald",
+      "lu_stadt"
+    ]
+  },
+  "leine": {
+    "punkte": [
+      "in öffentlich zugänglichen Lokalen wie Restaurants und Läden",
+      "in Naturschutzgebieten und Parkanlagen",
+      "in öffentlichen Verkehrsmitteln",
+      "auf verkehrsreichen Strassen",
+      "im Wald und bis 50 m ab Waldrand, 1. April bis 31. Juli",
+      "läufige, bissige oder ansteckend kranke Hunde immer im Freien"
+    ],
+    "quellen": [
+      "lu_huv",
+      "lu_wald"
+    ]
+  },
+  "verbot": {
+    "punkte": [
+      "Friedhöfe",
+      "Badeanstalten",
+      "Spitalanlagen",
+      "Kinderspielplätze",
+      "Pausenplätze",
+      "Spiel- und Sportfelder"
+    ],
+    "quellen": [
+      "lu_huv"
+    ]
+  },
+  "karten": [
+    {
+      "titel": "Haftpflicht",
+      "marke": "keine Pflicht",
+      "ton": "none",
+      "wert": "nur im Einzelfall",
+      "text": "Es gibt keine allgemeine Versicherungspflicht. Der Veterinärdienst kann sie im Einzelfall anordnen.",
+      "quellen": [
+        "lu_huv",
+        "lu_hug"
+      ]
+    },
+    {
+      "titel": "Kurs",
+      "marke": "Pflicht",
+      "ton": "must",
+      "wert": "NHB innert 18 Monaten",
+      "text": "Das Nationale Hundehalter-Brevet (NHB) müssen Ersthaltende und alle, die einen Hund aus dem Ausland einführen, innert 18 Monaten nach dem Erwerb bestehen. Der Hund muss dafür mindestens 12 Monate alt sein.",
+      "quellen": [
+        "lu_huv",
+        "lu_nhb"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "marke": "Pflicht",
+      "ton": "note",
+      "wert": "AMICUS und Gemeinde",
+      "text": "Dein Hund braucht einen Mikrochip und einen Eintrag in AMICUS. Die Hundesteuer bezieht die Gemeinde.",
+      "quellen": [
+        "lu_stadt",
+        "lu_hug"
+      ]
+    },
+    {
+      "titel": "Hundesteuer",
+      "marke": "kantonal",
+      "ton": "note",
+      "wert": "CHF 120 pro Jahr",
+      "text": "Gilt in allen Luzerner Gemeinden. Hofhunde auf Landwirtschaftsbetrieben: CHF 40. Befreit sind unter anderem Assistenz-, Dienst- und Militärhunde.",
+      "quellen": [
+        "lu_hug"
+      ]
+    },
+    {
+      "titel": "Rassen",
+      "marke": "keine Liste",
+      "ton": "none",
+      "wert": "keine Einschränkungen",
+      "text": "Der Kanton Luzern kennt keine rassenspezifischen Verbote.",
+      "quellen": [
+        "srf"
+      ]
+    },
+    {
+      "titel": "Unterwegs",
+      "marke": "Regel",
+      "ton": "note",
+      "wert": "nie unbeaufsichtigt",
+      "text": "Im Wald, am Waldrand, an Seeufern, entlang von Hecken und nachts darf dein Hund nie unbeaufsichtigt sein. Bestellte Felder nur mit Einverständnis betreten.",
+      "quellen": [
+        "lu_huv"
+      ]
+    }
+  ],
+  "vergleich": {
+    "wald": "1.4. bis 31.7., bis 50 m ab Waldrand",
+    "haft": "keine allgemeine Pflicht",
+    "kurs": "NHB für Ersthaltende und Importe, innert 18 Monaten",
+    "rassen": "keine Einschränkungen",
+    "steuer": "CHF 120 pro Jahr",
+    "anm": "AMICUS, Steuer über die Gemeinde"
+  }
+}

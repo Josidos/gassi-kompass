@@ -1,0 +1,35 @@
+{
+  "id": "bern",
+  "kanton": "be",
+  "name": "Stadt Bern",
+  "ort": "Bern",
+  "in_ort": "in der Stadt Bern",
+  "geprueft": "2026-11-16",
+  "einleitung": "Zusätzlich zu den kantonalen Regeln legt die Stadt eigene Orte mit Leinenpflicht fest.",
+  "karten": [
+    {
+      "titel": "Leine",
+      "wert": "Orte im Stadtplan",
+      "text": "Wo in der Stadt zusätzlich Leinenpflicht gilt, zeigt der Stadtplan im Thema «Leinenpflicht für Hunde».",
+      "quellen": [
+        "be_plan"
+      ]
+    },
+    {
+      "titel": "Kein Zutritt",
+      "wert": "Tierpark und Kinderzoo",
+      "text": "Im eintrittspflichtigen Teil des Tierparks und im Kinderzoo sind Hunde nicht erlaubt.",
+      "quellen": [
+        "be_zoo"
+      ]
+    },
+    {
+      "titel": "Hundetaxe",
+      "wert": "Stichtag 1. August",
+      "text": "Taxpflichtig ist, wer am 1. August in der Stadt Bern wohnt.",
+      "quellen": [
+        "be_taxe"
+      ]
+    }
+  ]
+}

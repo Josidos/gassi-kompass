@@ -1,4 +1,11 @@
 User-agent: *
 Allow: /
+Disallow: /data/
+Disallow: /build.py
+Disallow: /tests/
+Disallow: /CLAUDE.md
+Disallow: /BACKLOG.md
+Disallow: /CHANGELOG.md
+Disallow: /README.md
 
 Sitemap: https://gassi-kompass.ch/sitemap.xml

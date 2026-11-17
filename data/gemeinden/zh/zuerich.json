@@ -1,0 +1,36 @@
+{
+  "id": "zuerich",
+  "kanton": "zh",
+  "name": "Stadt Zürich",
+  "ort": "Zürich",
+  "in_ort": "in der Stadt Zürich",
+  "geprueft": "2026-11-16",
+  "hinweis_heute": "In der Stadt Zürich gilt zudem an den meisten Orten zumindest tagsüber Leinenpflicht. Massgebend sind die Schilder vor Ort.",
+  "einleitung": "Die Stadt legt per Verfügung fest, wo Freilauf erlaubt ist, wo die Leine nötig ist und wo Hunde verboten sind.",
+  "karten": [
+    {
+      "titel": "Leine",
+      "wert": "meist Pflicht, zumindest tagsüber",
+      "text": "An den meisten Orten der Stadt gilt zumindest tagsüber Leinenpflicht. Achte auf die Schilder vor Ort.",
+      "quellen": [
+        "zh_stadt"
+      ]
+    },
+    {
+      "titel": "Zonen",
+      "wert": "verbindlicher Plan der Stadt",
+      "text": "Freilaufzonen, Leinenpflicht- und Verbotszonen stehen im städtischen Datensatz «Hundezonen», Stand 14.07.2026.",
+      "quellen": [
+        "zh_zonen"
+      ]
+    },
+    {
+      "titel": "Anmeldung und Steuer",
+      "wert": "Stadtpolizei Zürich",
+      "text": "Die Stadtpolizei ist für die obligatorische An- und Abmeldung und für die Hundesteuer zuständig.",
+      "quellen": [
+        "zh_stadt"
+      ]
+    }
+  ]
+}

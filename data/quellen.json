@@ -1,0 +1,87 @@
+{
+  "zh_vet": {
+    "kurz": "Veterinäramt ZH",
+    "lang": "Kanton Zürich, Veterinäramt: Hunde",
+    "url": "https://www.zh.ch/de/umwelt-tiere/tiere/haustiere-heimtiere/hunde.html"
+  },
+  "zh_rassen": {
+    "kurz": "Veterinäramt ZH: Rassen",
+    "lang": "Kanton Zürich, Veterinäramt: Verbotene Hunderassen",
+    "url": "https://www.zh.ch/de/umwelt-tiere/tiere/haustiere-heimtiere/hunde/verbotene-hunderassen.html"
+  },
+  "zh_stadt": {
+    "kurz": "Stadt Zürich",
+    "lang": "Stadt Zürich: Hunde",
+    "url": "https://www.stadt-zuerich.ch/hunde"
+  },
+  "zh_zonen": {
+    "kurz": "Datensatz Hundezonen",
+    "lang": "Stadt Zürich: Datensatz Hundezonen (Stand der Daten 14.07.2026)",
+    "url": "https://data.stadt-zuerich.ch/dataset/geo_hundezonen"
+  },
+  "lu_huv": {
+    "kurz": "Hundeverordnung LU",
+    "lang": "Kanton Luzern: Verordnung über das Halten von Hunden, SRL 849 (Stand 1.1.2025)",
+    "url": "https://lu.lexwork.naz.ch/de/dta/849.pdf"
+  },
+  "lu_hug": {
+    "kurz": "Hundegesetz LU",
+    "lang": "Kanton Luzern: Gesetz über das Halten von Hunden, SRL 848 (Stand 1.1.2025)",
+    "url": "https://lu.lexwork.naz.ch/de/dta/848.pdf"
+  },
+  "lu_wald": {
+    "kurz": "Geodaten LU",
+    "lang": "Kanton Luzern, Geoinformation: Hundeleinenpflicht im Wald (2025)",
+    "url": "https://opendata.swiss/en/dataset/hundeleinenpflicht-im-wald"
+  },
+  "lu_nhb": {
+    "kurz": "Merkblatt Veterinärdienst LU",
+    "lang": "Kanton Luzern, Veterinärdienst: Merkblatt zur revidierten Hundeverordnung (1.12.2022)",
+    "url": "https://www.stadt-kriens.ch/public/upload/assets/26319/2022_12_02_Merkblatt_Hundeverordnung_2023.pdf?fp=1"
+  },
+  "lu_stadt": {
+    "kurz": "Stadt Luzern",
+    "lang": "Stadt Luzern: Broschüre «Hund und Mensch in der Stadt» (2022)",
+    "url": "https://stadtluzern.ch/_rte/publikation/104147"
+  },
+  "be_avet": {
+    "kurz": "Veterinärwesen BE",
+    "lang": "Kanton Bern, Amt für Veterinärwesen: Broschüre «Hundegesetz: Das gilt im Kanton Bern» (Juli 2022)",
+    "url": "https://www.weu.be.ch/content/dam/weu/dokumente/avet/de/hunde/Broschuere-Hundegesetz-Kanton-Bern-DE.pdf"
+  },
+  "be_hug": {
+    "kurz": "Hundegesetz BE",
+    "lang": "Kanton Bern: Hundegesetz, BSG 916.31",
+    "url": "https://be.lexwork.naz.ch/de/dta/916.31.pdf"
+  },
+  "be_kurs": {
+    "kurz": "Gemeinde Büren a.A.",
+    "lang": "Gemeinde Büren an der Aare: Informationsblatt für Hundebesitzerinnen und Hundebesitzer",
+    "url": "https://www.bueren.ch/de/verwaltung/dokumente/dokumente/Hundehaltung-Informationsblatt-fuer-HundebesitzerInnen.pdf"
+  },
+  "be_wald": {
+    "kurz": "Grosser Rat BE 2023",
+    "lang": "plattformj.ch: Grosser Rat lehnt Leinenpflicht in der Brut- und Setzzeit ab (13.9.2023)",
+    "url": "https://www.plattformj.ch/artikel/213577/"
+  },
+  "be_plan": {
+    "kurz": "Stadtplan Bern",
+    "lang": "Stadt Bern: Stadtplan, Thema «Leinenpflicht für Hunde»",
+    "url": "https://map.bern.ch/geoportal/#/produkt/Hundeverordnung_Leinenpflicht"
+  },
+  "be_zoo": {
+    "kurz": "Gemeinderat Bern 2019",
+    "lang": "Stadt Bern, Gemeinderat: Antwort auf die Motion zur Leinenpflicht (2019)",
+    "url": "https://stadtrat.bern.ch/de/dokumente/6826da361b6a48d890b7e840a497011e-332"
+  },
+  "be_taxe": {
+    "kurz": "Stadt Bern: Hundetaxe",
+    "lang": "Stadt Bern: Vortrag zur Hundetaxe",
+    "url": "https://ris.bern.ch/de/dokumente/e1b88c4ccbbe4b1696cb3afa05969a01-332"
+  },
+  "srf": {
+    "kurz": "SRF 2024",
+    "lang": "SRF: Diese Hunderassen sind in Ihrem Kanton verboten (19.12.2024)",
+    "url": "https://www.srf.ch/news/schweiz/rottweiler-pitbull-co-diese-hunderassen-sind-in-ihrem-kanton-verboten-die-uebersicht"
+  }
+}
