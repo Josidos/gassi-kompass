@@ -1,6 +1,6 @@
 # Gassi-Kompass: Arbeitshandbuch
 
-Dieses Repository ist die Website **gassi-kompass.ch**: Hunderegeln der Schweiz nach Kanton und Gemeinde, jede Angabe mit amtlicher Quelle. Die Seite gehört Joss und soll über Anzeigen ein Nebeneinkommen bringen. Claude pflegt und vergrössert sie in einem automatischen Lauf, der mittwochs und samstags startet und bei dem niemand zuschaut. Dieses Handbuch ist für jeden Lauf verbindlich.
+Dieses Repository ist die Website **gassi-kompass.ch**: Hunderegeln der Schweiz nach Kanton und Gemeinde, jede Angabe mit amtlicher Quelle. Die Seite gehört Joss und soll über Anzeigen ein Nebeneinkommen bringen. Claude pflegt und vergrössert sie in einem automatischen Lauf, bei dem niemand zuschaut. Er arbeitet täglich, bis alle 26 Kantone erfasst sind, und danach mittwochs und samstags. Dieses Handbuch ist für jeden Lauf verbindlich.
 
 Das Ziel ist die ganze Schweiz: alle 26 Kantone, jeder in seinen Amtssprachen, dazu die grössten Gemeinden. Joss hat Claude auch die Strategie übertragen: was gebaut wird, in welcher Reihenfolge und wie die Seite Besucher gewinnt. Sie steht unter «Strategie».
 
@@ -87,7 +87,9 @@ Deutsch mit Schweizer Rechtschreibung (ss statt ß), Du-Form, kurze Sätze. Betr
 
 ## Der Wochenlauf
 
-Der Lauf startet mittwochs und samstags. Obergrenzen pro Lauf: höchstens **4 Dateien nachprüfen**, dazu entweder **1 neuer Kanton samt einer Gemeinde** oder **4 neue Gemeinden**. Ein Sonderlauf (siehe «Umbauten am Generator») macht nur den Umbau und sonst nichts.
+Takt: Der Lauf startet jeden Tag um 04:23 Uhr. Solange in `BACKLOG.md` unter den Abschnitten 1 und 2 ein Kanton offen ist, arbeitet er täglich. Sind alle 26 Kantone erfasst, arbeitet er nur noch mittwochs und samstags und endet an den anderen Tagen sofort, ohne etwas zu ändern.
+
+Obergrenzen pro Lauf: höchstens **4 Dateien nachprüfen**, dazu entweder **1 neuer Kanton samt einer Gemeinde** oder **4 neue Gemeinden**. Ein Sonderlauf (siehe «Umbauten am Generator») macht nur den Umbau und sonst nichts.
 
 1. **Start.** Repository klonen oder aktualisieren. `python3 build.py --check` muss fehlerfrei sein. `BACKLOG.md` und die letzten zwei Einträge in `CHANGELOG.md` lesen.
 2. **Nachprüfen.** Die Dateien in `data/kantone/` und `data/gemeinden/` sowie `data/schweiz.json` mit dem ältesten `geprueft` nehmen. Ist nichts älter als 60 Tage, diesen Schritt überspringen. Für jede Datei jede Quelle abrufen und jede Angabe vergleichen.
@@ -128,7 +130,7 @@ Diese Schritte verlangen sein Konto, sein Geld oder seine Entscheidung. Nie selb
 
 Besucher kommen über die Google-Suche. Gesucht wird nach Ort und Thema zusammen: «Leinenpflicht Aargau», «Hundesteuer Winterthur», «Listenhunde Schweiz». Daraus folgt die Reihenfolge:
 
-1. **Alle Kantone (läuft).** Pro Lauf ein neuer Kanton samt seiner grössten Gemeinde. Zuerst die deutschsprachigen Kantone, dann Französisch und Italienisch. Ziel: alle 26 Kantone bis Ende März 2027, weil die Leinenpflicht im Wald in mehreren Kantonen am 1. April beginnt und dann am meisten danach gesucht wird.
+1. **Alle Kantone (läuft).** Pro Lauf ein neuer Kanton samt seiner grössten Gemeinde. Zuerst die deutschsprachigen Kantone, dann Französisch und Italienisch. Ziel: alle 26 Kantone so früh wie möglich, spätestens bis Ende März 2027, weil die Leinenpflicht im Wald in mehreren Kantonen am 1. April beginnt und dann am meisten danach gesucht wird.
 2. **Themenseiten.** Sobald 10 Kantone erfasst sind: je eine Seite pro Thema mit dem Vergleich aller Kantone. Diese Seiten bedienen die Suche nach «… Schweiz» und sind das, was andere Seiten verlinken.
 3. **Gemeinden.** Nach den Kantonen die grössten Gemeinden aller Kantone. Ziel: 60 Gemeinde-Seiten mit echten lokalen Angaben.
 4. **Verbreitung.** Sobald alle deutschsprachigen Kantone erfasst sind, siehe «Verbreitung und Kontakt nach aussen».
@@ -198,5 +200,7 @@ Die Sitemap wurde am 17. November 2026 eingereicht. Zeigt die Search Console am 
 
 Hier steht, was Joss ausdrücklich freigegeben hat.
 
-- 2026-11-17: automatischer Lauf mit Push auf `main`, mittwochs und samstags
+- 2026-11-17: automatischer Lauf mit Push auf `main`. Täglich, bis alle 26 Kantone erfasst sind, danach mittwochs und samstags.
+- 2026-11-17: eine Kontaktadresse für das Projekt, zum Beispiel kontakt@gassi-kompass.ch. Sie ist noch nicht eingerichtet. Auf der Seite darf sie erst stehen, wenn sie hier mit dem Vermerk «eingerichtet» eingetragen ist.
+- 2026-11-17: Claude liest die Suchzahlen etwa einmal im Monat über den Browser von Joss aus der Search Console, ohne dort etwas zu ändern.
 - 2026-11-17: Ausbau auf alle 26 Kantone, Französisch und Italienisch in den Amtssprachen der Kantone, Themenseiten. Claude entscheidet über Reihenfolge und Strategie.
