@@ -32,3 +32,29 @@ Nicht vergeben und damit Sache des normalen Laufs: Basel-Landschaft (`bl`) und T
 - `gemeinden-ag-1`, 2026-11-17 22:45: Wettingen, Baden, Wohlen, Rheinfelden
 - `gemeinden-sg-1`, 2026-11-17 22:45: Rapperswil-Jona, Wil, Gossau, Uzwil
 - `gemeinden-bs-1`, 2026-11-17 22:45: Riehen, Bettingen, Aarau (AG, zweiter Anlauf)
+
+## Französisch und Italienisch
+
+Dateien unter `data/fr-ch/` und `data/it-ch/`, siehe `CLAUDE.md` unter «Französische und italienische Daten vor dem Umbau».
+
+- `vd`, 2026-11-17 23:05: Kanton Waadt, französisch, samt Lausanne
+- `ge`, 2026-11-17 23:05: Kanton Genf, französisch, samt Stadt Genf
+- `ne`, 2026-11-17 23:05: Kanton Neuenburg, französisch, samt grösster Gemeinde
+- `ju`, 2026-11-17 23:05: Kanton Jura, französisch, samt Delémont
+- `ti`, 2026-11-17 23:05: Kanton Tessin, italienisch, samt Lugano
+- `vs`, 2026-11-17 23:05: Kanton Wallis, deutsch und französisch, samt Sion (französisch)
+- `fr`, 2026-11-17 23:05: Kanton Freiburg, deutsch und französisch, samt Stadt Freiburg (französisch)
+- `be-fr`, 2026-11-17 23:05: Kanton Bern, französische Fassung, samt Biel/Bienne französisch
+
+## Lücken und Gegenprüfung
+
+Diese Läufe ändern bestehende Dateien. Bis ihr Protokoll eingesammelt ist, ändert sie sonst niemand.
+
+- `luecken-zh`, 2026-11-17 23:05: `data/gemeinden/zh/zuerich.json`
+- `luecken-be`, 2026-11-17 23:05: `data/kantone/be.json`, `data/gemeinden/be/bern.json`
+- `luecken-lu`, 2026-11-17 23:05: `data/gemeinden/lu/luzern.json`
+- `luecken-ag`, 2026-11-17 23:05: `data/kantone/ag.json`
+- `luecken-sg`, 2026-11-17 23:05: `data/kantone/sg.json`, `data/gemeinden/sg/st-gallen.json`
+- `luecken-bs`, 2026-11-17 23:05: `data/kantone/bs.json`, `data/gemeinden/bs/basel.json`
+- `pruefung-bl`, 2026-11-17 23:05: `data/kantone/bl.json` und die Gemeinde des Kantons
+- `pruefung-tg`, 2026-11-17 23:05: `data/kantone/tg.json` und die Gemeinde des Kantons

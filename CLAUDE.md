@@ -147,6 +147,17 @@ Soll viel auf einmal entstehen, arbeiten mehrere Läufe gleichzeitig. Jeder hat 
 - Für die Reihenfolge im Backlog zählt ein Kanton als erfasst, sobald seine Datei unter `data/kantone/` liegt.
 - Daten unter `data/fr-ch/` und `data/it-ch/` baut der Generator erst nach dem Sonderlauf Mehrsprachigkeit. Liegen dort schon Dateien aus Parallel-Läufen, sind sie beim Umbau die Probe: Der Sonderlauf baut sie mit, statt eine Probeseite anzulegen und wieder zu entfernen. Die Einträge in Abschnitt 2 des Backlogs hakt ab, wer die Seiten baut.
 
+### Französische und italienische Daten vor dem Umbau
+
+Parallel-Läufe dürfen französische und italienische Dateien schon anlegen, bevor der Generator sie bauen kann. Dafür gilt, zusätzlich zum Abschnitt «Französisch und Italienisch» weiter unten:
+
+- Ablage: `data/fr-ch/kantone/<kt>.json` und `data/fr-ch/gemeinden/<kt>/<gemeinde>.json`, italienisch unter `data/it-ch/`. Gleiche Felder und gleiche `id` wie in den deutschen Mustern.
+- Alle Texte stehen in der Sprache der Seite und stammen aus den amtlichen Quellen in dieser Sprache. Keine Übersetzung einer deutschen Datei. `name`, `im` und `des` in der Sprache der Seite («Canton de Vaud», «dans le canton de Vaud», «du canton de Vaud»; «Cantone Ticino», «nel Cantone Ticino», «del Cantone Ticino»), bei Gemeinden `in_ort` («à Lausanne», «a Lugano»).
+- Die Schlüssel der Felder (`wald`, `leine`, `verbot`, `karten`, `vergleich`, `ton` und so weiter) bleiben deutsch. Nur die Werte sind französisch oder italienisch.
+- Sechs Karten in der Reihenfolge des deutschen Musters. Titel französisch: Responsabilité civile, Cours, Annonce, Impôt sur les chiens, Races, En promenade. Titel italienisch: Responsabilità civile, Corso, Notifica, Imposta sui cani, Razze, A passeggio. Übliche Titel bei Gemeinden französisch: Impôt sur les chiens, Laisse, Accès interdit, Annonce, Amendes. Italienisch: Imposta sui cani, Guinzaglio, Accesso vietato, Notifica, Multe.
+- Prüfen, solange der Generator die Ordner nicht kennt: die Datei vorübergehend nach `data/kantone/<kt>.json` kopieren (eine deutsche Datei desselben Kantons vorher beiseitelegen und danach zurücklegen), die Gemeinde ebenso nach `data/gemeinden/<kt>/`, dann `python3 build.py` und `node tests/seiten.js`. Danach die Kopien wieder entfernen. Im Commit liegen die Dateien nur unter `data/fr-ch/` oder `data/it-ch/`, und `git status --short data/` zeigt keine Kopie mehr.
+- Bei einem zweisprachigen Kanton (BE, FR, VS) liegt die deutsche Fassung wie üblich unter `data/kantone/` und wird sofort gebaut. Eine Gemeinde bekommt nur die Fassungen in ihren eigenen Amtssprachen.
+
 ## Was nur Joss tun kann
 
 Diese Schritte verlangen sein Konto, sein Geld oder seine Entscheidung. Nie selbst versuchen. Im Bericht nur daran erinnern, wenn sie fällig sind.
