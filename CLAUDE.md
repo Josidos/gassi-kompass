@@ -93,6 +93,8 @@ Takt: Der Lauf startet jeden Tag um 08:23 Uhr. Solange in `BACKLOG.md` unter den
 
 Daneben kann eine Kette laufen: mehrere Läufe hintereinander, von denen jeder am Schluss den nächsten auslöst. Ob ein Lauf zu einer Kette gehört und wann sie endet, steht im Auftrag des Laufs. Für die Arbeit selbst gilt dasselbe Handbuch.
 
+Die Zusatznachricht einer Kette («Glied N») trifft oft erst ein, wenn der Lauf schon arbeitet oder fertig ist. Sie gehört zu diesem einen Lauf und ist nie ein zweiter Auftrag. Fehlt sie beim Start, zählst du dich nach `CHANGELOG.md`. Trifft sie nach deinem Bericht ein, antwortest du nur mit «erledigt»: kein zweiter Lauf, kein zweites Auslösen. In der Nacht auf den 18. November 2026 sind so mehrere Läufe doppelt gelaufen.
+
 Obergrenzen pro Lauf: höchstens **4 Dateien nachprüfen**, dazu entweder **1 neuer Kanton samt einer Gemeinde** oder **4 neue Gemeinden**. Ein Sonderlauf (siehe «Umbauten am Generator») macht nur den Umbau und sonst nichts.
 
 1. **Start.** Repository klonen oder aktualisieren. `python3 build.py --check` muss fehlerfrei sein. `BACKLOG.md` und die letzten zwei Einträge in `CHANGELOG.md` lesen. Danach einsammeln, was Parallel-Läufe geliefert haben (siehe «Parallel-Läufe»). Das gehört zu jedem Lauf, auch zum Sonderlauf.
