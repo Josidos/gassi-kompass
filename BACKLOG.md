@@ -75,7 +75,7 @@ Ungefähr nach Grösse. Neue Kantone tragen hier ihre grössten Gemeinden ein.
 - [ ] Biberist (SO)
 - [ ] Freienbach (SZ): zurückgestellt am 2026-11-17. Das Merkblatt Hundehaltung der Gemeinde ist ein PDF ohne lesbaren Text, die Seite dazu war nicht abrufbar.
 - [ ] Einsiedeln (SZ)
-- [ ] Schwyz (SZ)
+- [x] Schwyz (SZ), 2026-11-17
 - [ ] Arth (SZ)
 - [ ] Riehen (BS)
 - [ ] Bettingen (BS)
@@ -148,6 +148,10 @@ Ungefähr nach Grösse. Neue Kantone tragen hier ihre grössten Gemeinden ein.
 - [ ] Stadt Frauenfeld: Hundeverbote und Bussen der Stadt suchen (Polizeireglement), die Informationen für Hundehaltende nennen keine
 - [ ] Kanton Solothurn: Hundegesetz und Hundeverordnung im vollen Wortlaut lesen (das Abrufwerkzeug lieferte Zusammenfassungen mit kurzen Zitaten). Danach ergänzen, falls belegt: Gebühr der Haltebewilligung (Merkblatt des Veterinärdienstes, Gebührentarif), Bussen, was die Änderung vom 18. Mai 2025 gebracht hat. Klären, ob die Leinenpflicht vom 1. April bis 31. Juli auch am Waldrand gilt (Verordnung: «im Wald», Seite «Mein Hund und ich»: «Wald und Waldränder»).
 - [ ] Stadt Olten: prüfen, ob das Polizeireglement von 2016 (Art. 19, Leine im Siedlungsgebiet) nach der Teilrevision von 2019 unverändert gilt. Hundeverbote (Friedhof, Badi, Schulanlagen) und Freilaufflächen suchen, das Reglement nennt keine.
+- [ ] Kanton Schwyz: Veterinärgesetz (SRSZ 312.420, sz.ch/public/upload/assets/6711/312_420.pdf, gelesen mit Stand 2015) und Veterinärverordnung (SRSZ 312.421, lexfind.ch/tol/16642/de, gelesen mit Stand 2016) in der geltenden Fassung lesen und ergänzen, falls belegt: AMICUS als Datenbank des Kantons, Kontrolle durch die Gemeinden, Massnahmen des Kantonstierarztes im Einzelfall (Leine, Maulkorb, Wesenstest, Erziehungskurs). Meldung von Beissvorfällen: Seite «Tierschutz» des Kantonstierarztes der Urkantone (laburk.ch).
+- [ ] Kanton Schwyz: Jagd- und Wildschutzgesetz (SRSZ 761.100) lesen. Die am 2026-11-17 abgerufene Fassung trug den Stand «1.2.2027» und wurde nicht verwendet. Danach ergänzen, falls belegt: wildernde Hunde, Leinenpflicht in den kantonalen Schutzgebieten (Frauenwinkel, Lauerzersee, Rothenthurm, Ibergeregg und weitere) mit Ordnungsbusse CHF 100.
+- [ ] Gemeinde Schwyz: Orte mit Leinenpflicht, Hundeverbot oder Freilauf suchen (Friedhof, Badi, Schulanlagen). Die Seite steht bisher auf Steuer, Anmeldung und Meldungen. Die Schutzverordnung von 1999 enthält nichts zu Hunden.
+- [ ] Bezirk Küssnacht: Eine Mitteilung des Bezirks vom 3. September 2020 beschreibt eine eingezäunte Hundewiese beim Sportzentrum Luterbach. Eine spätere Mitteilung («IG übernimmt Hundewiese») war nicht abrufbar. Mit aktueller Quelle ergänzen.
 - [ ] Kanton Schwyz: Die Teilrevision des Hundegesetzes war am 16. September 2026 im Kantonsrat. Ergebnis und Inkrafttreten waren am 2026-11-17 amtlich nicht auffindbar. Bei jedem Nachprüfen den Stand von SRSZ 546.100 prüfen. Die Revision bringt laut Medienmitteilung vom 25. August 2026: Kurspflicht innert 18 Monaten, Jahressteuer mit Sätzen des Gemeinderats, Freilaufzonen, keine Hundemarke mehr. Danach Kanton und Küssnacht anpassen.
 - [ ] Bezirk Küssnacht: Die Seite stützt sich auf die Broschüre von April 2019. Die aktuellen Seiten (Dienstleistung Hunde, Hundewiese, Ausnahme im Luterbach) lassen den Abruf nicht zu (robots). Mit einer neueren Quelle bestätigen, Hundewiese ergänzen.
 

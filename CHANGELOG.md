@@ -2,6 +2,16 @@
 
 Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen.
 
+## 2026-11-17, Nachtkette, zweite Auslösung als Glied 5
+
+- Dieser Lauf wurde ohne Nummer ausgelöst und zählte sich nach dem Protokoll als Glied 5. Während er den Kanton Schwyz erfasste, veröffentlichte ein anderer Lauf als Glied 5 denselben Kanton mit dem Bezirk Küssnacht. Es liefen also wieder zwei Auslösungen nebeneinander. Die eigene Kantonsdatei wurde verworfen, die Datei auf `main` blieb unverändert. Damit keine zweite Kette entsteht, löst dieser Lauf kein weiteres Glied aus.
+- Nachgeprüft: nichts. Eingesammelt: nichts. Die Aufträge der fünf Staffeln von 23:55 Uhr blieben unberührt.
+- Neu: Gemeinde Schwyz (`/sz/schwyz/`), 12 Gemeinden. Quelle, am 17. November 2026 abgerufen: Dienstleistung Hundekontrolle der Gemeinde (ohne Datum). Belegt sind Steuer (CHF 100, weiterer Hund CHF 200, Nutzhund CHF 40, Rechnung im Januar), Anmeldung zuerst bei der Gemeinde (Bereich Finanzen) und Meldung von Änderungen innert zehn Tagen. Orte mit Leinenpflicht oder Verbot nennt die Gemeinde nicht.
+- Nach der Reihenfolge wäre der Sonderlauf Themenseiten dran gewesen. Die Recherche zur Gemeinde war beim Wechsel schon abgeschlossen, deshalb wurde nur diese eine Datei veröffentlicht. Der Sonderlauf bleibt Sache der Kette.
+- Aus der eigenen Recherche zum Kanton als Lücken ins Backlog: Veterinärgesetz und Veterinärverordnung (AMICUS, Massnahmen im Einzelfall), Jagd- und Wildschutzgesetz (Fassung mit unklarem Stand «1.2.2027», nicht verwendet), Hundewiese Küssnacht.
+- `add_repo` und `register_repo_root` standen nicht zur Verfügung. Das Repository lag mit Push-Zugriff im Arbeitsordner.
+- Nicht gelungen: nichts.
+
 ## 2026-11-17, Nachtkette, Glied 5
 
 - Nachgeprüft: nichts. Keine Datei ist älter als 60 Tage. Eingesammelt: nichts. Graubünden ist an die Hauptsitzung vergeben und wurde übersprungen.

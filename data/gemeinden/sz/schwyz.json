@@ -1,0 +1,36 @@
+{
+  "id": "schwyz",
+  "kanton": "sz",
+  "bfs": 1372,
+  "name": "Gemeinde Schwyz",
+  "ort": "Schwyz",
+  "in_ort": "in der Gemeinde Schwyz",
+  "geprueft": "2026-11-17",
+  "einleitung": "In der Gemeinde Schwyz gelten die Regeln des Kantons Schwyz. Die Seite «Hundekontrolle» der Gemeinde nennt keine eigenen Orte mit Leinenpflicht oder Hundeverbot. Achte auf die Tafeln vor Ort.",
+  "karten": [
+    {
+      "titel": "Hundetaxe",
+      "wert": "CHF 100, weiterer Hund CHF 200",
+      "text": "Die Hundesteuer beträgt in der Gemeinde Schwyz CHF 100 pro Jahr. Für jeden weiteren Hund im gleichen Haushalt sind es CHF 200. Für Nutzhunde sind es CHF 40. Als Nutzhunde gelten Zug- und Treibhunde in der Landwirtschaft sowie Jagdhunde, deren Halter im Vorjahr ein Jagdpatent gelöst haben. Die Rechnung kommt jedes Jahr im Lauf des Januars von der Gemeindekasse.",
+      "quellen": [
+        "sz_schwyz_hundekontrolle"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "wert": "zuerst bei der Gemeinde, dann AMICUS",
+      "text": "Hältst du zum ersten Mal einen Hund, meldest du dich zuerst bei der Gemeinde. Sie erfasst dich in der Hundedatenbank AMICUS. Erst danach kann ein Hund auf dich registriert werden. Zuständig ist der Bereich Finanzen der Gemeinde Schwyz, Herrengasse 17. Den Mikrochip setzt die Tierärztin oder der Tierarzt, spätestens drei Monate nach der Geburt und in jedem Fall vor der Weitergabe des Hundes. Bei einem Hund aus dem Ausland lässt du die Kennzeichnung innert zehn Tagen nach der Einfuhr tierärztlich überprüfen.",
+      "quellen": [
+        "sz_schwyz_hundekontrolle"
+      ]
+    },
+    {
+      "titel": "Änderungen melden",
+      "wert": "innert 10 Tagen",
+      "text": "Änderungen von Namen oder Adresse meldest du innert zehn Tagen der Gemeinde. Selbst erfassen kannst du sie in AMICUS nicht. Einen Halterwechsel (Verkauf, Erwerb, Abgabe oder Übernahme für länger als drei Monate) trägst du innert zehn Tagen selbst in AMICUS ein. Den Tod des Hundes kannst du in AMICUS erfassen, auch die Gemeinde oder die Tierarztpraxis kann das Datum eintragen.",
+      "quellen": [
+        "sz_schwyz_hundekontrolle"
+      ]
+    }
+  ]
+}
