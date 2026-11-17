@@ -1,6 +1,8 @@
 # Gassi-Kompass: Arbeitshandbuch
 
-Dieses Repository ist die Website **gassi-kompass.ch**: Hunderegeln der Schweiz nach Kanton und Gemeinde, jede Angabe mit amtlicher Quelle. Die Seite gehört Joss und soll über Anzeigen ein Nebeneinkommen bringen. Claude pflegt sie in einem wöchentlichen automatischen Lauf, bei dem niemand zuschaut. Dieses Handbuch ist für jeden Lauf verbindlich.
+Dieses Repository ist die Website **gassi-kompass.ch**: Hunderegeln der Schweiz nach Kanton und Gemeinde, jede Angabe mit amtlicher Quelle. Die Seite gehört Joss und soll über Anzeigen ein Nebeneinkommen bringen. Claude pflegt und vergrössert sie in einem automatischen Lauf, der mittwochs und samstags startet und bei dem niemand zuschaut. Dieses Handbuch ist für jeden Lauf verbindlich.
+
+Das Ziel ist die ganze Schweiz: alle 26 Kantone, jeder in seinen Amtssprachen, dazu die grössten Gemeinden. Joss hat Claude auch die Strategie übertragen: was gebaut wird, in welcher Reihenfolge und wie die Seite Besucher gewinnt. Sie steht unter «Strategie».
 
 ## Worauf es ankommt
 
@@ -15,6 +17,7 @@ Dieses Repository ist die Website **gassi-kompass.ch**: Hunderegeln der Schweiz 
 | `data/quellen.json` | Alle Quellen: Schlüssel, Kurzname, Langname, URL |
 | `data/kantone/<kt>.json` | Regeln eines Kantons |
 | `data/gemeinden/<kt>/<gemeinde>.json` | Lokale Regeln einer Gemeinde |
+| `data/entwurf/<kt>.json` | Angefangener Kanton, dem noch Felder fehlen. Wird nicht gebaut. |
 | `build.py` | Prüft die Daten und erzeugt alle Seiten |
 | `assets/` | Stylesheet, Skript, Schriften, Icon |
 | `tests/seiten.js` | Browser-Test der gebauten Seiten |
@@ -67,23 +70,23 @@ Deutsch mit Schweizer Rechtschreibung (ss statt ß), Du-Form, kurze Sätze. Betr
 7. **Nichts veröffentlichen, was Joss persönlich betrifft** (Name, Adresse, E-Mail, Telefon), ausser es steht unter «Freigaben».
 8. **Keine Werbung, keine Affiliate-Links, kein Tracking, keine Cookies, keine externen Skripte oder Schriften**, ausser es steht unter «Freigaben».
 9. **Kein amtliches Angebot vortäuschen.** Die Seite ist privat und darf nie wie die Seite eines Kantons oder einer Gemeinde wirken.
-10. **Nur dieses Repository ändern.** Keine Konten anlegen, nichts kaufen, keine anderen Repositories anfassen.
+10. **Nur dieses Repository ändern.** Keine Konten anlegen, nichts kaufen, keine Nachrichten senden, keine Formulare ausfüllen, keine anderen Repositories anfassen.
 
 ## Der Wochenlauf
 
-Obergrenzen pro Lauf: höchstens **4 Dateien nachprüfen** und höchstens **4 neue Gemeinden oder 1 neuer Kanton**.
+Der Lauf startet mittwochs und samstags. Obergrenzen pro Lauf: höchstens **4 Dateien nachprüfen**, dazu entweder **1 neuer Kanton samt einer Gemeinde** oder **4 neue Gemeinden**. Ein Sonderlauf (siehe «Umbauten am Generator») macht nur den Umbau und sonst nichts.
 
 1. **Start.** Repository klonen oder aktualisieren. `python3 build.py --check` muss fehlerfrei sein. `BACKLOG.md` und die letzten zwei Einträge in `CHANGELOG.md` lesen.
 2. **Nachprüfen.** Die Dateien in `data/kantone/` und `data/gemeinden/` mit dem ältesten `geprueft` nehmen. Ist nichts älter als 60 Tage, diesen Schritt überspringen. Für jede Datei jede Quelle abrufen und jede Angabe vergleichen.
    - Stimmt alles: `geprueft` auf das heutige Datum setzen.
    - Hat sich etwas geändert: Angabe und wenn nötig `vergleich` anpassen, im Protokoll mit alt und neu festhalten, `geprueft` setzen.
    - Quelle nicht erreichbar: nichts ändern, `geprueft` nicht anfassen, im Protokoll notieren. Ist dieselbe Quelle laut Protokoll zum dritten Mal nicht erreichbar, eine andere amtliche Quelle suchen.
-3. **Ausbauen.** Die obersten offenen Einträge in `BACKLOG.md` bearbeiten.
+3. **Ausbauen.** Was in diesem Lauf dran ist, steht oben in `BACKLOG.md` unter «Reihenfolge».
    - Neue Gemeinde: auf der Website der Gemeinde und im kantonalen Recht nach Betrag der Hundetaxe, lokalen Orten mit Leinenpflicht oder Hundeverbot, Freilaufzonen, Anmeldestelle und Bussen suchen. Unter drei belegten Angaben keine Datei anlegen. Den Eintrag im Backlog mit Datum und Grund als «zurückgestellt» markieren.
-   - Neuer Kanton: zuerst alle Felder der Kantonsdatei belegen (Gesetz, Verordnung, Veterinärdienst). Erst wenn die Datei vollständig ist, die grössten Gemeinden des Kantons ins Backlog aufnehmen.
-4. **Bauen und testen.** `python3 build.py`, dann `node tests/seiten.js`. Beides muss fehlerfrei sein. Wenn nicht: Fehler beheben oder die Änderung dieses Laufs zurücknehmen. **Nie mit Fehlern pushen.**
+   - Neuer Kanton: alle Felder der Kantonsdatei belegen (Gesetz, Verordnung, Veterinärdienst). Liegt unter `data/entwurf/` schon ein angefangener Stand, dort weitermachen. Fehlt nach zwei Suchversuchen noch ein Feld: den Stand als `data/entwurf/<kt>.json` sichern, im Backlog notieren, was fehlt, und den Kanton nicht veröffentlichen. Ist die Datei vollständig: nach `data/kantone/` legen, die grösste Gemeinde oder den Hauptort als Gemeinde anlegen und drei bis fünf weitere Gemeinden des Kantons in Abschnitt 3 des Backlogs eintragen.
+4. **Bauen und testen.** `python3 build.py`, dann `node tests/seiten.js`. Beides muss fehlerfrei sein. Wenn nicht: Fehler beheben oder die Änderung dieses Laufs zurücknehmen. **Nie mit Fehlern pushen.** Der Test bricht ab, wenn eine veröffentlichte Adresse verschwindet. Fällt eine Gemeinde beim Nachprüfen unter drei belegte Angaben, darf ihre Seite verschwinden: dann `node tests/seiten.js --entfernen-erlaubt` und die Adresse im Bericht nennen.
 5. **Protokoll.** `BACKLOG.md` nachführen. Oben in `CHANGELOG.md` einen Eintrag mit Datum ergänzen: nachgeprüft, geändert, neu, nicht gelungen.
-6. **Veröffentlichen.** Ein Commit auf `main` mit klarer Betreffzeile, dann Push. Etwa eine Minute später muss `gh run list -R Josidos/gassi-kompass --limit 1` für den neuen Commit `completed success` zeigen. Steht dort ein Fehler, kommt er zuoberst in den Bericht.
+6. **Veröffentlichen.** Ein Commit auf `main` mit klarer Betreffzeile, dann Push. Etwa eine Minute später muss `gh run list -R Josidos/gassi-kompass --limit 1` für den neuen Commit `completed success` zeigen. Steht dort ein Fehler, kommt er zuoberst in den Bericht. Lehnt GitHub den Push ab, weil sich `main` inzwischen geändert hat: `git pull --rebase origin main`. Konflikte in erzeugten Dateien nie von Hand lösen, sondern mit `python3 build.py` neu erzeugen, dann testen und pushen.
 7. **Bericht.** Kurz auf Deutsch: was nachgeprüft wurde, was sich geändert hat, welche Seiten neu sind, was nicht ging. Nur wenn etwas fällig ist: was Joss selbst tun muss.
 
 ### Hinweise zur Recherche
@@ -101,22 +104,86 @@ Diese Schritte verlangen sein Konto, sein Geld oder seine Entscheidung. Nie selb
 - AdSense-Konto und Affiliate-Konten eröffnen. Fällig, sobald `sitemap.xml` 40 Seiten zählt und die Search Console Besucher zeigt.
 - Entscheiden, welche Angaben zu seiner Person in Impressum und Datenschutzerklärung stehen dürfen. Fällig zusammen mit dem AdSense-Konto.
 - Domain verlängern. Registriert Mitte November 2026, ab Oktober 2027 daran erinnern.
+- Verbreitung freigeben: Absenderadresse, Empfänger und Wortlaut der Anschreiben. Fällig, sobald alle deutschsprachigen Kantone erfasst sind.
 
 ### Schon erledigt
 
 - 2026-11-17: «Enforce HTTPS» in den GitHub-Pages-Einstellungen eingeschaltet
 - 2026-11-17: Google Search Console eingerichtet. Property `https://gassi-kompass.ch/`, bestätigt über die Datei `google49e2be530ce3822a.html`. Sitemap eingereicht, Google hat 8 Seiten erkannt. Neue Seiten findet Google über die Sitemap von selbst.
 
-## Fahrplan
+## Strategie
 
-1. **Aufbau (läuft):** offene Lücken schliessen, dann Gemeinden der Kantone Zürich, Bern und Luzern, dazu weitere Deutschschweizer Kantone. Ziel: 40 bis 60 Gemeinde-Seiten mit echten lokalen Angaben.
-2. **Anzeigen:** Sobald Joss ein AdSense-Konto hat und es unter «Freigaben» steht: Impressum, Datenschutzerklärung, `ads.txt` und Anzeigenplätze in `build.py` einbauen.
-3. **Erweitern:** Affiliate-Links und eine französische Fassung unter `/fr/`. Nur nach Freigabe.
+Besucher kommen über die Google-Suche. Gesucht wird nach Ort und Thema zusammen: «Leinenpflicht Aargau», «Hundesteuer Winterthur», «Listenhunde Schweiz». Daraus folgt die Reihenfolge:
 
-Abbruchkriterium: Die Sitemap wurde am 17. November 2026 eingereicht. Zeigt die Search Console am 17. Februar 2027 keine Einblendungen in der Suche, entscheidet Joss, ob es weitergeht.
+1. **Alle Kantone (läuft).** Pro Lauf ein neuer Kanton samt seiner grössten Gemeinde. Zuerst die deutschsprachigen Kantone, dann Französisch und Italienisch. Ziel: alle 26 Kantone bis Ende März 2027, weil die Leinenpflicht im Wald in mehreren Kantonen am 1. April beginnt und dann am meisten danach gesucht wird.
+2. **Themenseiten.** Sobald 10 Kantone erfasst sind: je eine Seite pro Thema mit dem Vergleich aller Kantone. Diese Seiten bedienen die Suche nach «… Schweiz» und sind das, was andere Seiten verlinken.
+3. **Gemeinden.** Nach den Kantonen die grössten Gemeinden aller Kantone. Ziel: 60 Gemeinde-Seiten mit echten lokalen Angaben.
+4. **Verbreitung.** Sobald alle deutschsprachigen Kantone erfasst sind, siehe «Verbreitung und Kontakt nach aussen».
+5. **Anzeigen.** Sobald Joss ein AdSense-Konto hat und es unter «Freigaben» steht: Impressum, Datenschutzerklärung, `ads.txt` und Anzeigenplätze in `build.py` einbauen. Affiliate-Links nur nach Freigabe.
+
+Regeln für jede Seite:
+
+- Der Seitentitel nennt den Ort und die gesuchten Themen, so wie `build.py` es heute tut. Nicht kürzen, nicht verspielter machen.
+- Zuoberst steht die Antwort auf die häufigste Frage: Muss mein Hund hier an die Leine?
+- Beträge, Daten und Meter ausschreiben, weil genau danach gesucht wird.
+- Keine Seite ohne eigenen Inhalt. Keine Übersetzung in eine Sprache, die am Ort nicht Amtssprache ist.
+
+Suchdaten: Die Zahlen aus der Google Search Console liest Claude etwa einmal im Monat in einer eigenen Sitzung über den Browser von Joss aus und passt danach die Reihenfolge in `BACKLOG.md` an. Der Lauf hat keinen Zugriff darauf und richtet sich nach dem Backlog. Die Zahlen selbst gehören nicht ins Repository.
+
+## Umbauten am Generator (Sonderläufe)
+
+Änderungen an `build.py`, `assets/` und `tests/` sind heikler als neue Daten. Sie passieren nur in einem Sonderlauf, den `BACKLOG.md` unter «Reihenfolge» auslöst. Ein Sonderlauf macht nur diesen einen Umbau, keine neuen Kantone und keine Gemeinden.
+
+Regeln für jeden Sonderlauf:
+
+- Bestehende Adressen bleiben, wie sie sind.
+- Das Aussehen bleibt. Neue Seitenarten benutzen die vorhandenen Bausteine und Farben aus `assets/site.css`.
+- Nach dem Bau jede neue Seitenart als Bild ansehen: `node tests/seiten.js <pfad> bild.png`. Erst pushen, wenn die Seite ordentlich aussieht und Build und Test fehlerfrei sind.
+- Gelingt der Umbau in diesem Lauf nicht: alles zurücknehmen, im Protokoll festhalten, woran es lag, und im nächsten Lauf neu ansetzen. Nach zwei gescheiterten Versuchen den Punkt im Backlog als «zurückgestellt» markieren und im Bericht zuoberst melden.
+- Dieses Handbuch im selben Commit nachführen: Aufbau, Datenfelder, erzeugte Ordner.
+
+### Themenseiten (fällig, sobald 10 Kantone erfasst sind)
+
+Sechs Seiten unter `/thema/<name>/`, erzeugt aus den Kantonsdateien, ohne neue Angaben:
+
+| Adresse | Thema | Daten |
+|---|---|---|
+| `/thema/leinenpflicht-wald/` | Leinenpflicht im Wald | `wald`, `vergleich.wald` |
+| `/thema/haftpflicht/` | Haftpflichtversicherung | Karte Haftpflicht, `vergleich.haft` |
+| `/thema/hundekurs/` | Kurspflicht | Karte Kurs, `vergleich.kurs` |
+| `/thema/rassen/` | Rasselisten und Verbote | Karte Rassen, `vergleich.rassen` |
+| `/thema/hundesteuer/` | Hundesteuer | Karte Hundesteuer, `vergleich.steuer` |
+| `/thema/anmeldung/` | Anmeldung | Karte Anmeldung, `vergleich.anm` |
+
+Jede Seite hat einen Titel in der Form «Leinenpflicht im Wald: alle Kantone im Vergleich», einen Absatz, der zählt (wie viele der 26 Kantone erfasst sind und in wie vielen davon laut `ton` eine Pflicht gilt), eine Tabelle aller erfassten Kantone mit Link zur Kantonsseite und darunter je Kanton den Text der Karte mit ihren Quellen. Die Seiten stehen in der Sitemap. Die Startseite und jede Kantonsseite verlinken darauf.
+
+### Französisch und Italienisch (fällig, sobald alle deutschsprachigen Kantone erfasst sind)
+
+- **Adressen.** Deutsch bleibt unverändert an der Wurzel. Französisch liegt unter `/fr-ch/`, Italienisch unter `/it-ch/`, mit denselben Kürzeln und Namen: `/fr-ch/vd/`, `/fr-ch/ge/geneve/`, `/it-ch/ti/lugano/`. Nicht `/fr/`: das ist die deutsche Seite des Kantons Freiburg.
+- **Welche Sprache wo.** Jeder Kanton erscheint in seinen Amtssprachen: VD, GE, NE, JU französisch. TI italienisch. BE, FR, VS deutsch und französisch. GR deutsch, später italienisch. Alle übrigen nur deutsch.
+- **Daten.** Deutsche Dateien bleiben, wo sie sind. Französische liegen unter `data/fr-ch/kantone/` und `data/fr-ch/gemeinden/<kt>/`, italienische unter `data/it-ch/`. Gleiche Felder. Die Texte entstehen aus den amtlichen Quellen in dieser Sprache, nicht als Übersetzung der deutschen Datei. `data/quellen.json` bleibt eine Datei für alle Sprachen.
+- **Generator.** Alle festen Texte aus `build.py` und `assets/heute.js` in eine Tabelle je Sprache. `lang` im HTML, `hreflang` zwischen den Sprachfassungen derselben Seite, ein Sprachwechsel nur dort, wo es die Seite in der anderen Sprache gibt. Je Sprache eine Startseite und eine Seite «Über diese Seite», aber erst, wenn es in dieser Sprache mindestens einen Kanton gibt. Die deutsche Startseite führt alle erfassten Kantone auf und nennt bei rein französischen oder italienischen Kantonen die Sprache der Seite.
+- **Sprache.** Französisch mit «vous», Beträge als «CHF 120», Daten als «1er avril». Italienisch mit «tu», Beträge als «CHF 120», Daten als «1° aprile». Kurze Sätze, keine Werbesprache.
+- **Prüfung.** Der Umbau ist fertig, wenn die deutschen Seiten unverändert aussehen und eine französische Probeseite gebaut, als Bild angesehen und wieder entfernt wurde. Der erste echte französische Kanton folgt im nächsten Lauf.
+
+## Verbreitung und Kontakt nach aussen
+
+Der Lauf sendet nie eine Nachricht, füllt nie ein Kontaktformular aus, schreibt nirgends einen Kommentar oder Beitrag und legt keine Konten an. Anfragen an Behörden braucht es für die Daten nicht: Was nicht öffentlich und amtlich belegt ist, erscheint nicht auf der Seite.
+
+Was der Lauf für die Verbreitung tut:
+
+- Die Seite so bauen, dass andere sie verlinken wollen: vollständige Kantone, Themenseiten mit Vergleich, saubere Quellen.
+- Im Bericht melden, wenn ein Meilenstein erreicht ist: 10 Kantone, alle deutschsprachigen Kantone, alle 26 Kantone.
+
+Anschreiben verschickt Claude nur in einer Sitzung mit Joss und nur nach seinem Ja zu Empfängern und Wortlaut. Sinnvolle Empfänger in dieser Reihenfolge: kantonale Veterinärdienste mit der Bitte, die Zusammenfassung ihres Kantons zu prüfen. Hundeschulen, Hundevereine und Tierheime im Kanton. Lokalmedien, mit dem Vergleich der Hundesteuern als Aufhänger. Keine Massenmails.
+
+## Abbruchkriterium
+
+Die Sitemap wurde am 17. November 2026 eingereicht. Zeigt die Search Console am 17. Februar 2027 keine Einblendungen in der Suche, entscheidet Joss, ob es weitergeht.
 
 ## Freigaben
 
 Hier steht, was Joss ausdrücklich freigegeben hat.
 
-- 2026-11-17: wöchentlicher automatischer Lauf mit Push auf `main`
+- 2026-11-17: automatischer Lauf mit Push auf `main`, mittwochs und samstags
+- 2026-11-17: Ausbau auf alle 26 Kantone, Französisch und Italienisch in den Amtssprachen der Kantone, Themenseiten. Claude entscheidet über Reihenfolge und Strategie.

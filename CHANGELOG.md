@@ -12,7 +12,9 @@ Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen
 - «Enforce HTTPS» eingeschaltet. Die Seite läuft nur noch über https.
 - Google Search Console: Property `https://gassi-kompass.ch/` über die Datei `google49e2be530ce3822a.html` bestätigt, Sitemap eingereicht, 8 Seiten erkannt.
 - `build.py --check` meldet neu einen Fehler, wenn `CNAME`, `.nojekyll` oder die Bestätigungsdatei fehlen.
-- Wöchentlicher automatischer Lauf eingerichtet: mittwochs um 04:23 Uhr.
+- Automatischer Lauf eingerichtet: mittwochs und samstags um 04:23 Uhr.
+- Neue Strategie im Auftrag von Joss: alle 26 Kantone in ihren Amtssprachen, Themenseiten, danach Gemeinden. Reihenfolge in `BACKLOG.md`, Vorgaben in `CLAUDE.md`.
+- `tests/seiten.js` bricht neu ab, wenn eine veröffentlichte Adresse verschwindet.
 - Nicht gelungen: nichts.
 
 ## 2026-11-16

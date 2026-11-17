@@ -1,22 +1,56 @@
 # Ausbauliste
 
-Von oben nach unten abarbeiten. Erledigtes abhaken und das Datum dahinter schreiben. Was sich nicht belegen lässt, mit Datum und Grund als «zurückgestellt» markieren und weitergehen.
+Erledigtes abhaken und das Datum dahinter schreiben. Was sich nicht belegen lässt, mit Datum und Grund als «zurückgestellt» markieren und weitergehen.
 
-Rhythmus: Pro Lauf höchstens zwei Lücken aus Abschnitt 1, danach Gemeinden aus Abschnitt 2. Haben die letzten zwei Läufe laut `CHANGELOG.md` Gemeinden ergänzt, ist stattdessen ein neuer Kanton aus Abschnitt 3 dran.
+## Reihenfolge
 
-## 1. Lücken in bestehenden Seiten
+Ziel: alle 26 Kantone, jeder in seinen Amtssprachen. Für jeden Lauf gilt die erste Zeile, die zutrifft:
 
-- [ ] Stadt Zürich: Betrag der Hundeabgabe belegen und als Karte «Hundeabgabe» ergänzen
-- [ ] Stadt Zürich: Freilaufzonen aus dem städtischen Datensatz «Hundezonen» namentlich aufführen
-- [ ] Stadt Bern: Betrag der Hundetaxe belegen
-- [ ] Stadt Bern: Quelle «Gemeinderat Bern 2019» (Tierpark, Kinderzoo) durch eine aktuelle amtliche Quelle ersetzen
-- [ ] Stadt Luzern: Bussen mit einer Quelle nach 2022 belegen
-- [ ] Kanton Bern: «kein Kursobligatorium» mit einer Quelle des Kantons statt der Gemeinde Büren belegen
-- [ ] Kanton Bern: Entscheid des Grossen Rats von 2023 zur Wald-Leinenpflicht mit einer amtlichen Quelle (Ratsprotokoll) belegen
+1. **Sonderlauf Themenseiten.** Sind 10 Kantone erfasst und ist der Punkt in Abschnitt 5 offen, macht der Lauf nur das.
+2. **Sonderlauf Mehrsprachigkeit.** Ist Abschnitt 1 erledigt und ist der Punkt in Abschnitt 5 offen, macht der Lauf nur das.
+3. **Neuer Kanton.** Der oberste offene Kanton aus Abschnitt 1. Dazu seine grösste Gemeinde oder sein Hauptort. Ist Abschnitt 1 erledigt und die Mehrsprachigkeit in Abschnitt 5 abgehakt: der oberste offene Eintrag aus Abschnitt 2.
+4. **Gemeinden.** Ist kein Kanton möglich, bis zu 4 Gemeinden aus Abschnitt 3.
 
-## 2. Gemeinden in den erfassten Kantonen
+In jedem Lauf ausser den Sonderläufen zusätzlich höchstens eine Lücke aus Abschnitt 4.
 
-Ungefähr nach Grösse.
+## 1. Deutschsprachige Kantone
+
+Ungefähr nach Bevölkerung. Schon erfasst: Zürich, Bern, Luzern.
+
+- [ ] Aargau (`ag`)
+- [ ] St. Gallen (`sg`)
+- [ ] Basel-Stadt (`bs`)
+- [ ] Basel-Landschaft (`bl`)
+- [ ] Thurgau (`tg`)
+- [ ] Solothurn (`so`)
+- [ ] Graubünden (`gr`)
+- [ ] Schwyz (`sz`)
+- [ ] Zug (`zg`)
+- [ ] Schaffhausen (`sh`)
+- [ ] Appenzell Ausserrhoden (`ar`)
+- [ ] Nidwalden (`nw`)
+- [ ] Glarus (`gl`)
+- [ ] Obwalden (`ow`)
+- [ ] Uri (`ur`)
+- [ ] Appenzell Innerrhoden (`ai`)
+
+## 2. Französisch und Italienisch
+
+Erst nach dem Sonderlauf Mehrsprachigkeit. Bei zweisprachigen Kantonen beide Fassungen im selben Lauf, weil die Quellen dieselben sind.
+
+- [ ] Waadt (`vd`), französisch
+- [ ] Genf (`ge`), französisch
+- [ ] Wallis (`vs`), französisch und deutsch
+- [ ] Freiburg (`fr`), französisch und deutsch
+- [ ] Tessin (`ti`), italienisch
+- [ ] Neuenburg (`ne`), französisch
+- [ ] Jura (`ju`), französisch
+- [ ] Bern (`be`), französische Fassung des Kantons und von Biel/Bienne
+- [ ] Graubünden (`gr`), italienische Fassung
+
+## 3. Gemeinden
+
+Ungefähr nach Grösse. Neue Kantone tragen hier ihre grössten Gemeinden ein.
 
 - [ ] Winterthur (ZH)
 - [ ] Biel/Bienne (BE), Adresse `biel-bienne`
@@ -55,29 +89,26 @@ Ungefähr nach Grösse.
 - [ ] Hochdorf (LU)
 - [ ] Willisau (LU)
 
-## 3. Neue Kantone
+## 4. Lücken in bestehenden Seiten
 
-Deutschschweiz, ungefähr nach Bevölkerung. Nach jedem neuen Kanton dessen grösste Gemeinden oben in Abschnitt 2 einreihen.
+- [ ] Stadt Zürich: Betrag der Hundeabgabe belegen und als Karte «Hundeabgabe» ergänzen
+- [ ] Stadt Zürich: Freilaufzonen aus dem städtischen Datensatz «Hundezonen» namentlich aufführen
+- [ ] Stadt Bern: Betrag der Hundetaxe belegen
+- [ ] Stadt Bern: Quelle «Gemeinderat Bern 2019» (Tierpark, Kinderzoo) durch eine aktuelle amtliche Quelle ersetzen
+- [ ] Stadt Luzern: Bussen mit einer Quelle nach 2022 belegen
+- [ ] Kanton Bern: «kein Kursobligatorium» mit einer Quelle des Kantons statt der Gemeinde Büren belegen
+- [ ] Kanton Bern: Entscheid des Grossen Rats von 2023 zur Wald-Leinenpflicht mit einer amtlichen Quelle (Ratsprotokoll) belegen
 
-- [ ] Aargau (`ag`)
-- [ ] St. Gallen (`sg`)
-- [ ] Basel-Landschaft (`bl`)
-- [ ] Thurgau (`tg`)
-- [ ] Solothurn (`so`)
-- [ ] Graubünden (`gr`)
-- [ ] Basel-Stadt (`bs`)
-- [ ] Schwyz (`sz`)
-- [ ] Zug (`zg`)
-- [ ] Schaffhausen (`sh`)
-- [ ] Appenzell Ausserrhoden (`ar`)
-- [ ] Nidwalden (`nw`)
-- [ ] Glarus (`gl`)
-- [ ] Obwalden (`ow`)
-- [ ] Uri (`ur`)
-- [ ] Appenzell Innerrhoden (`ai`)
+## 5. Umbauten am Generator
 
-## 4. Später, nur nach Freigabe von Joss
+Vorgaben in `CLAUDE.md` unter «Umbauten am Generator».
 
-- Französische Fassung (Waadt, Genf, Freiburg, Neuenburg, Wallis, Jura) und Tessin
+- [ ] Themenseiten
+- [ ] Mehrsprachigkeit (Französisch und Italienisch)
+
+## 6. Später, nur nach Freigabe von Joss
+
+- Übersetzungen in Sprachen, die am Ort nicht Amtssprache sind, auch Englisch
 - Anzeigen und Affiliate-Links
 - Impressum und Datenschutzerklärung
+- Anschreiben an Behörden, Vereine und Medien

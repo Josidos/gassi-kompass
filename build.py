@@ -28,7 +28,7 @@ TAGE = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
 TOENE = {"must", "none", "note", "free"}
 SLUG = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 MMTT = re.compile(r"^(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])$")
-RESERVIERT = {"assets", "data", "tests", "ueber"}
+RESERVIERT = {"assets", "data", "tests", "ueber", "thema", "fr-ch", "it-ch"}
 VERGLEICH = [("wald", "Leine im Wald"), ("haft", "Haftpflicht"), ("kurs", "Kurs"),
              ("rassen", "Rassen"), ("steuer", "Hundesteuer"), ("anm", "Anmeldung")]
 MIN_LOKAL = 3  # so viele belegte lokale Angaben braucht eine Gemeinde für eine eigene Seite

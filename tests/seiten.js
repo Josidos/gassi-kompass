@@ -3,7 +3,10 @@
 //   node tests/seiten.js /lu/luzern/ bild.png   macht zusätzlich ein Bildschirmfoto dieser Seite
 // Geprüft wird: Seite lädt, keine Skriptfehler, kein seitliches Überlaufen,
 // alle internen Links und Dateien existieren, der Wald-Status wird gesetzt.
+// Der Test bricht auch ab, wenn eine Adresse aus dem letzten Commit in der Sitemap fehlt.
+// Soll eine Seite wirklich verschwinden: node tests/seiten.js --entfernen-erlaubt
 const http = require('http'), fs = require('fs'), path = require('path');
+const { execFileSync } = require('child_process');
 const { chromium } = require('playwright');
 const ROOT = path.resolve(__dirname, '..');
 const TYP = { '.html': 'text/html; charset=utf-8', '.css': 'text/css', '.js': 'text/javascript', '.svg': 'image/svg+xml', '.woff2': 'font/woff2', '.xml': 'application/xml', '.txt': 'text/plain' };
@@ -26,10 +29,18 @@ function datei(url) {
   const basis = 'http://127.0.0.1:' + server.address().port;
   const seiten = [...fs.readFileSync(path.join(ROOT, 'sitemap.xml'), 'utf8').matchAll(/<loc>https:\/\/[^/]+([^<]*)<\/loc>/g)].map(m => m[1]);
   seiten.push('/404.html');
-  const [fotoSeite, fotoDatei] = process.argv.slice(2);
+  const [fotoSeite, fotoDatei] = process.argv.slice(2).filter(a => !a.startsWith('--'));
   const browser = await chromium.launch();
   const ctx = await browser.newContext({ viewport: { width: 390, height: 844 }, deviceScaleFactor: 1 });
   const fehler = [];
+  // Keine veröffentlichte Adresse darf verschwinden (Vergleich mit der Sitemap im letzten Commit)
+  if (!process.argv.includes('--entfernen-erlaubt')) {
+    let alt = '';
+    try { alt = execFileSync('git', ['show', 'HEAD:sitemap.xml'], { cwd: ROOT, encoding: 'utf8', stdio: ['ignore', 'pipe', 'ignore'] }); } catch (e) { /* kein Git: nichts zu vergleichen */ }
+    for (const m of alt.matchAll(/<loc>https:\/\/[^/]+([^<]*)<\/loc>/g)) {
+      if (!seiten.includes(m[1])) fehler.push(`${m[1]}: Adresse war veröffentlicht und fehlt jetzt. Adressen nie ändern, siehe CLAUDE.md.`);
+    }
+  }
   for (const s of seiten) {
     const page = await ctx.newPage();
     const meldungen = [];
