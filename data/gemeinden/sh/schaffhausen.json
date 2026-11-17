@@ -1,0 +1,37 @@
+{
+  "id": "schaffhausen",
+  "kanton": "sh",
+  "bfs": 2939,
+  "name": "Stadt Schaffhausen",
+  "ort": "Schaffhausen",
+  "in_ort": "in der Stadt Schaffhausen",
+  "geprueft": "2026-11-17",
+  "hinweis_heute": "In der Stadt Schaffhausen gehört dein Hund in öffentlichen Anlagen das ganze Jahr an die Leine.",
+  "einleitung": "In der Stadt Schaffhausen gelten die Regeln des Kantons Schaffhausen. Die Stadt schreibt zusätzlich die Leine in öffentlichen Anlagen vor und lässt Hunde auf ihren Friedhöfen nur mit Bewilligung zu.",
+  "karten": [
+    {
+      "titel": "Leine",
+      "wert": "in öffentlichen Anlagen",
+      "text": "In öffentlichen Anlagen der Stadt sind Hunde an der Leine zu führen. So steht es in Artikel 30 der Polizeiverordnung. Hunde sind zudem so zu halten, dass sie öffentliche und private Wege, Anlagen und Plätze nicht verunreinigen. Stand der Polizeiverordnung: 1. Januar 2016.",
+      "quellen": [
+        "sh_stadt_polv"
+      ]
+    },
+    {
+      "titel": "Kein Zutritt",
+      "wert": "Friedhöfe, ausser mit Bewilligung",
+      "text": "Auf den städtischen Friedhöfen darfst du Hunde ohne besondere Bewilligung nicht mitnehmen. Das Reglement gilt für den Waldfriedhof und sinngemäss für die Friedhöfe Buchthalen, Hemmental und Herblingen.",
+      "quellen": [
+        "sh_stadt_friedhof"
+      ]
+    },
+    {
+      "titel": "Bussen",
+      "wert": "bis CHF 1000",
+      "text": "Wer gegen die Polizeiverordnung der Stadt verstösst, wird von der Stadtpolizei mit einer Busse bis CHF 1000 bestraft. Dazu kommen Gebühren und Kosten. Strafbar ist auch Fahrlässigkeit. Stand der Polizeiverordnung: 1. Januar 2016.",
+      "quellen": [
+        "sh_stadt_polv"
+      ]
+    }
+  ]
+}
