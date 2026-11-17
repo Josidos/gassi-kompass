@@ -26,7 +26,7 @@ Claude führt das Projekt wie einen Betrieb: Inhalt, Technik, Qualität und Stra
 | `data/entwurf/<kt>.json` | Angefangener Kanton, dem noch Felder fehlen. Wird nicht gebaut. |
 | `data/schweiz.json` | Regeln des Bundes für die Seite `/schweiz/`. Kartenfelder wie beim Kanton. |
 | `data/orte.json` | Alle Gemeinden, Ortschaften und Postleitzahlen der Schweiz (swisstopo). Grundlage der Ortssuche. Nie von Hand ändern, entsteht mit `tools/orte.py`. |
-| `build.py` | Prüft die Daten und erzeugt alle Seiten |
+| `build.py` | Prüft die Daten und erzeugt alle Seiten. Die Themenseiten stehen in der Liste `THEMEN` und in der Funktion `seite_thema()`. |
 | `assets/` | Stylesheet, Skripte (`heute.js` für den Wald-Status, `suche.js` für die Ortssuche), Schriften, Icon |
 | `tests/seiten.js` | Browser-Test der gebauten Seiten |
 | `BACKLOG.md` | Was als Nächstes dran ist |
@@ -34,7 +34,7 @@ Claude führt das Projekt wie einen Betrieb: Inhalt, Technik, Qualität und Stra
 | `CNAME`, `.nojekyll` | Domain und Schalter für GitHub Pages. Nie löschen oder ändern. |
 | `google49e2be530ce3822a.html` | Bestätigungsdatei für die Google Search Console. Nie löschen oder ändern, sonst verliert Joss den Zugriff auf die Suchdaten. `build.py --check` meldet einen Fehler, wenn sie fehlt. |
 
-Erzeugte Dateien nie von Hand ändern: `index.html`, `404.html`, `sitemap.xml`, `robots.txt`, `assets/orte.json`, `ueber/`, `schweiz/` und die Kantonsordner wie `zh/`. Stattdessen Daten oder `build.py` anpassen und neu bauen.
+Erzeugte Dateien nie von Hand ändern: `index.html`, `404.html`, `sitemap.xml`, `robots.txt`, `assets/orte.json`, `ueber/`, `schweiz/`, `thema/` und die Kantonsordner wie `zh/`. Stattdessen Daten oder `build.py` anpassen und neu bauen.
 
 ### Ortssuche
 
@@ -53,8 +53,8 @@ Muster: `data/kantone/zh.json`.
 - `geprueft`: Datum JJJJ-MM-TT, an dem alle Angaben der Datei zuletzt mit den Quellen abgeglichen wurden
 - `wald`: mit Saison `{"saison": true, "von": "04-01", "bis": "07-31", "wo": "im Wald und bis 50 m ab Waldrand", "quellen": [...]}`, ohne Saison `{"saison": false, "text": "...", "quellen": [...]}`
 - `leine` und `verbot`: `{"punkte": [...], "quellen": [...]}`, bei `verbot` wahlweise `einleitung`
-- `karten`: sechs Karten mit den Titeln Haftpflicht, Kurs, Anmeldung, Hundesteuer, Rassen, Unterwegs, in dieser Reihenfolge. Jede Karte: `titel`, `marke`, `ton`, `wert`, `text`, `quellen`, wahlweise `mehr: {"titel", "punkte"}`.
-- `ton`: `must` für Pflicht oder Verbot, `none` für «keine Pflicht», `note` für eine neutrale Angabe
+- `karten`: genau sechs Karten mit den Titeln Haftpflicht, Kurs, Anmeldung, Hundesteuer, Rassen, Unterwegs, in dieser Reihenfolge. `build.py` erzwingt das, weil die Themenseiten über die Position auf die Karten zugreifen. Jede Karte: `titel`, `marke`, `ton`, `wert`, `text`, `quellen`, wahlweise `mehr: {"titel", "punkte"}`.
+- `ton`: `must` für Pflicht oder Verbot, `none` für «keine Pflicht», `note` für eine neutrale Angabe. Die Themenseiten Haftpflicht, Kurs und Rassen zählen die Kantone mit `must`. Dort `must` nur setzen, wenn die Pflicht allgemein gilt (Haftpflicht und Kurs) oder es eine Liste mit Bewilligung oder Verbot gibt (Rassen).
 - `vergleich`: Kurzfassung für die Tabelle der Startseite mit den Schlüsseln `wald`, `haft`, `kurs`, `rassen`, `steuer`, `anm`
 - wahlweise `umzug: {"text", "quellen"}`: was beim Zuzug in den Kanton gilt
 
@@ -205,9 +205,9 @@ Regeln für jeden Sonderlauf:
 - Gelingt der Umbau in diesem Lauf nicht: alles zurücknehmen, im Protokoll festhalten, woran es lag, und im nächsten Lauf neu ansetzen. Nach zwei gescheiterten Versuchen den Punkt im Backlog als «zurückgestellt» markieren und im Bericht zuoberst melden.
 - Dieses Handbuch im selben Commit nachführen: Aufbau, Datenfelder, erzeugte Ordner.
 
-### Themenseiten (fällig, sobald 10 Kantone erfasst sind)
+### Themenseiten (gebaut am 18. November 2026)
 
-Sechs Seiten unter `/thema/<name>/`, erzeugt aus den Kantonsdateien, ohne neue Angaben:
+Sechs Seiten unter `/thema/<name>/`, erzeugt aus den Kantonsdateien, ohne neue Angaben. Ein neuer Kanton erscheint dort von selbst:
 
 | Adresse | Thema | Daten |
 |---|---|---|
@@ -219,6 +219,8 @@ Sechs Seiten unter `/thema/<name>/`, erzeugt aus den Kantonsdateien, ohne neue A
 | `/thema/anmeldung/` | Anmeldung | Karte Anmeldung, `vergleich.anm` |
 
 Jede Seite hat einen Titel in der Form «Leinenpflicht im Wald: alle Kantone im Vergleich», einen Absatz, der zählt (wie viele der 26 Kantone erfasst sind und in wie vielen davon laut `ton` eine Pflicht gilt), eine Tabelle aller erfassten Kantone mit Link zur Kantonsseite und darunter je Kanton den Text der Karte mit ihren Quellen. Die Seiten stehen in der Sitemap. Die Startseite und jede Kantonsseite verlinken darauf.
+
+So ist es gebaut: Leinenpflicht im Wald zählt die Kantone mit `wald.saison` und nennt die Daten, wenn sie überall gleich sind. Haftpflicht, Kurs und Rassen zählen `ton: must`. Hundesteuer und Anmeldung zählen nicht, weil `ton` dort keine Pflicht ausdrückt (die Anmeldung ist überall Pflicht, die Kantonsdateien setzen `ton` uneinheitlich). Der Test prüft, dass jede Themenseite jeden erfassten Kanton mit Quelle aufführt.
 
 ### Französisch und Italienisch (fällig, sobald alle deutschsprachigen Kantone erfasst sind)
 

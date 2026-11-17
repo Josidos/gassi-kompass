@@ -5,7 +5,7 @@
     python3 build.py --check  prüft nur, schreibt nichts
 
 Erzeugt werden: index.html, 404.html, sitemap.xml, robots.txt, ueber/, schweiz/,
-assets/orte.json, <kanton>/ und <kanton>/<gemeinde>/. Diese Ausgaben nie von Hand ändern:
+assets/orte.json, thema/<name>/, <kanton>/ und <kanton>/<gemeinde>/. Diese Ausgaben nie von Hand ändern:
 Daten in data/ oder dieses Skript anpassen und neu bauen.
 """
 import html
@@ -32,6 +32,49 @@ MMTT = re.compile(r"^(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])$")
 RESERVIERT = {"assets", "data", "tests", "tools", "ueber", "schweiz", "thema", "fr-ch", "it-ch"}
 VERGLEICH = [("wald", "Leine im Wald"), ("haft", "Haftpflicht"), ("kurs", "Kurs"),
              ("rassen", "Rassen"), ("steuer", "Hundesteuer"), ("anm", "Anmeldung")]
+# Die sechs Karten jedes Kantons, in dieser Reihenfolge. Die Themenseiten greifen über die Position zu.
+# Französische und italienische Titel für Dateien, die schon vor dem Umbau Mehrsprachigkeit geprüft werden.
+KARTEN_TITEL = [
+    ["Haftpflicht", "Kurs", "Anmeldung", "Hundesteuer", "Rassen", "Unterwegs"],
+    ["Responsabilité civile", "Cours", "Annonce", "Impôt sur les chiens", "Races", "En promenade"],
+    ["Responsabilità civile", "Corso", "Notifica", "Imposta sui cani", "Razze", "A passeggio"],
+]
+# Themenseiten unter /thema/<id>/: Vergleich aller erfassten Kantone, erzeugt aus den Kantonsdateien.
+# key: Schlüssel in 'vergleich'. karte: Position der Karte in 'karten' (None: Feld 'wald').
+# pflicht: Satzende nach «In N davon …», gezählt wird ton == must. Ohne 'pflicht' wird nicht gezählt,
+# weil 'ton' bei Hundesteuer und Anmeldung keine Pflicht ausdrückt. Dann steht 'sonst'.
+THEMEN = [
+    {"id": "leinenpflicht-wald", "name": "Leinenpflicht im Wald", "key": "wald", "karte": None,
+     "spalte": "Leine im Wald",
+     "beschr": "Leinenpflicht im Wald in der Schweiz: in welchen Kantonen sie gilt, von wann bis wann "
+               "und wie weit ab Waldrand. Mit amtlicher Quelle zu jeder Angabe."},
+    {"id": "haftpflicht", "name": "Haftpflichtversicherung für Hunde", "key": "haft", "karte": 0,
+     "spalte": "Haftpflicht",
+     "pflicht": "ist eine Haftpflichtversicherung für Hunde vorgeschrieben.",
+     "beschr": "Haftpflichtversicherung für Hunde in der Schweiz: in welchen Kantonen sie Pflicht ist "
+               "und welche Deckung verlangt wird. Mit amtlicher Quelle zu jeder Angabe."},
+    {"id": "hundekurs", "name": "Kurspflicht für Hundehaltende", "key": "kurs", "karte": 1,
+     "spalte": "Kurs",
+     "pflicht": "ist ein Kurs für Hundehaltende vorgeschrieben. Bei den übrigen steht beim Kanton, "
+                "ob ein Kurs für einzelne Hunde verlangt wird.",
+     "beschr": "Hundekurs in der Schweiz: in welchen Kantonen ein Kurs Pflicht ist, für wen und in "
+               "welcher Frist. Mit amtlicher Quelle zu jeder Angabe."},
+    {"id": "rassen", "name": "Rasselisten und Hundeverbote", "key": "rassen", "karte": 4,
+     "spalte": "Rassen",
+     "pflicht": "gilt für bestimmte Rassen eine Bewilligungspflicht oder ein Verbot.",
+     "beschr": "Listenhunde in der Schweiz: welche Kantone Rassen verbieten oder eine Bewilligung "
+               "verlangen und welche Rassen betroffen sind. Mit amtlicher Quelle zu jeder Angabe."},
+    {"id": "hundesteuer", "name": "Hundesteuer", "key": "steuer", "karte": 3,
+     "spalte": "Hundesteuer",
+     "sonst": "Je nach Kanton legt der Kanton oder die Gemeinde den Betrag fest.",
+     "beschr": "Hundesteuer in der Schweiz: was ein Hund pro Jahr kostet und wer den Betrag festlegt, "
+               "Kanton für Kanton. Mit amtlicher Quelle zu jeder Angabe."},
+    {"id": "anmeldung", "name": "Hund anmelden", "key": "anm", "karte": 2,
+     "spalte": "Anmeldung",
+     "sonst": "Wo und in welcher Frist du deinen Hund melden musst, ist je nach Kanton verschieden.",
+     "beschr": "Hund anmelden in der Schweiz: bei welcher Stelle und in welcher Frist, Kanton für "
+               "Kanton. Mit amtlicher Quelle zu jeder Angabe."},
+]
 MIN_LOKAL = 3  # so viele belegte lokale Angaben braucht eine Gemeinde für eine eigene Seite
 # Feste Dateien, die nie fehlen dürfen: Domain, Pages-Schalter, Bestätigung für die Google Search Console
 FEST = ["CNAME", ".nojekyll", "google49e2be530ce3822a.html"]
@@ -179,6 +222,9 @@ def pruefe(quellen, kantone, gemeinden, bund, orte):
             qs(k[teil].get("quellen"), f"{wo}, {teil}")
         for c in k["karten"]:
             karte(c, wo, True)
+        if [c.get("titel") for c in k["karten"]] not in KARTEN_TITEL:
+            fehler.append(f"{wo}: 'karten' braucht genau diese sechs Karten in dieser Reihenfolge: "
+                          + ", ".join(KARTEN_TITEL[0]))
         for key, titel in VERGLEICH:
             if not str(k["vergleich"].get(key, "")).strip():
                 fehler.append(f"{wo}, vergleich: '{key}' ({titel}) fehlt")
@@ -268,13 +314,15 @@ def qlinks(keys, Q, benutzt):
     return f'<div class="src"><span>{wort}</span>{links}</div>'
 
 
-def karte(c, Q, benutzt):
+def karte(c, Q, benutzt, link=None):
+    """link: Adresse, auf die der Kartentitel führt (Themenseiten: zur Kantonsseite)."""
+    kopf = f'<a href="{link}">{e(c["titel"])}</a>' if link else e(c["titel"])
     marke = f'<span class="chip {e(c["ton"])}">{e(c["marke"])}</span>' if c.get("marke") else ""
     mehr = ""
     if c.get("mehr"):
         punkte = "".join(f"<li>{e(p)}</li>" for p in c["mehr"]["punkte"])
         mehr = f'<details class="more"><summary>{e(c["mehr"]["titel"])}</summary><ul>{punkte}</ul></details>'
-    return (f'<article class="card"><div class="card-top"><span class="card-k">{e(c["titel"])}</span>{marke}</div>'
+    return (f'<article class="card"><div class="card-top"><span class="card-k">{kopf}</span>{marke}</div>'
             f'<p class="card-v">{e(c["wert"])}</p><p>{e(c["text"])}</p>{mehr}'
             f'{qlinks(c["quellen"], Q, benutzt)}</article>')
 
@@ -445,8 +493,16 @@ def ortsindex(kantone, gemeinden, orte):
     return json.dumps({"k": k, "g": g, "o": o, "a": ANDERE_NAMEN}, ensure_ascii=False, separators=(",", ":"))
 
 
+def themenleiste(ohne=None):
+    """Tafeln zu den Themenseiten. ohne: id der Seite, auf der die Leiste steht."""
+    return ('<div class="plates small">'
+            + "".join(tafel(f'/thema/{t["id"]}/', t["name"], "alle Kantone") for t in THEMEN if t["id"] != ohne)
+            + '</div>')
+
+
 def vergleich(kantone):
-    kopf = "".join(f'<th scope="col">{e(t)}</th>' for _, t in VERGLEICH)
+    thema = {t["key"]: t["id"] for t in THEMEN}
+    kopf = "".join(f'<th scope="col"><a href="/thema/{thema[key]}/">{e(t)}</a></th>' for key, t in VERGLEICH)
     zeilen = []
     for k in kantone:
         zellen = "".join(f'<td>{e(k["vergleich"][key])}</td>' for key, _ in VERGLEICH)
@@ -542,6 +598,8 @@ def seite_start(Q, kantone, gemeinden, bund):
 <section class="sec" id="vergleich">
 <div class="sec-head"><span class="eyebrow">Umzug</span><h2>Kantone im Vergleich</h2><p>Was sich ändert, wenn du mit deinem Hund in einen anderen Kanton ziehst.</p></div>
 {vergleich(kantone)}
+<h3 class="sub">Ein Thema, alle Kantone</h3>
+{themenleiste()}
 </section>"""
     return seite("/", "Hunderegeln Schweiz nach Kanton und Gemeinde | Gassi-Kompass",
                  "Gemeinde oder Postleitzahl eingeben und sehen, was für Hunde gilt: Leinenpflicht, "
@@ -596,6 +654,10 @@ def seite_kanton(k, Q, gemeinden):
 <p><a class="text-link" href="/schweiz/">Was zusätzlich in der ganzen Schweiz gilt</a></p>
 <p><a class="text-link" href="/#vergleich">Mit anderen Kantonen vergleichen</a></p>
 <p><a class="text-link" href="/">Anderen Ort suchen</a></p>
+</section>
+<section class="sec">
+<div class="sec-head"><span class="eyebrow">Vergleich</span><h2>Ein Thema, alle Kantone</h2><p>So regeln es die anderen Kantone.</p></div>
+{themenleiste()}
 </section>"""
     return seite(f'/{k["id"]}/',
                  f'Hunderegeln {k["im"]}: Leinenpflicht, Haftpflicht, Hundesteuer | Gassi-Kompass',
@@ -630,6 +692,69 @@ def seite_gemeinde(g, k, Q, gemeinden):
                  f'Was für Hunde {g["in_ort"]} gilt: lokale Regeln, Leinenpflicht, Hundesteuer und die '
                  f'Vorschriften {k["des"]}. Mit amtlicher Quelle zu jeder Angabe.',
                  inhalt, [("Start", "/"), (k["name"], f'/{k["id"]}/'), (g["name"], pfad)], stand, benutzt, Q)
+
+
+def seite_thema(t, Q, kantone):
+    """Vergleich aller erfassten Kantone zu einem Thema. Alle Angaben stammen aus den Kantonsdateien."""
+    benutzt = []
+    n = len(kantone)
+
+    def wieviele(m):
+        return {0: "keinem", 1: "einem"}.get(m, str(m))
+
+    zeilen, karten = [], []
+    if t["karte"] is None:
+        saison = [k for k in kantone if k["wald"].get("saison")]
+        zeiten = {(k["wald"]["von"], k["wald"]["bis"]) for k in saison}
+        zeit = ""
+        if len(saison) > 1 and len(zeiten) == 1:
+            von, bis = next(iter(zeiten))
+            zeit = f", überall vom {tag_monat(von)} bis {tag_monat(bis)}"
+        zahl = f"In {wieviele(len(saison))} davon gilt im Wald eine Leinenpflicht zu festen Daten{zeit}."
+        if len(saison) < n:
+            zahl += " Bei den übrigen ist keine feste Leinenzeit erfasst. Was dort gilt, steht beim Kanton."
+    elif t.get("pflicht"):
+        zahl = f'In {wieviele(sum(1 for k in kantone if k["karten"][t["karte"]]["ton"] == "must"))} davon {t["pflicht"]}'
+    else:
+        zahl = t["sonst"]
+    for k in kantone:
+        if t["karte"] is None:
+            w = k["wald"]
+            if w.get("saison"):
+                c = {"marke": "Leine", "ton": "must",
+                     "wert": f'{tag_monat(w["von"])} bis {tag_monat(w["bis"])}',
+                     "text": f'Leinenpflicht jedes Jahr {w["wo"]}.'}
+            else:
+                c = {"marke": "keine Saison", "ton": "none", "wert": "Keine Saisonregel im Wald", "text": w["text"]}
+            c["quellen"] = w["quellen"]
+        else:
+            c = dict(k["karten"][t["karte"]])
+        c["titel"] = k["name"]
+        zeilen.append(f'<tr><th scope="row"><a href="/{k["id"]}/">{e(k["name"])}</a></th>'
+                      f'<td><span class="chip {e(c["ton"])}">{e(c["marke"])}</span></td>'
+                      f'<td>{e(k["vergleich"][t["key"]])}</td></tr>')
+        karten.append(karte(c, Q, benutzt, link=f'/{k["id"]}/'))
+    rest = (f" Die übrigen {26 - n} folgen." if n < 25 else " Der letzte folgt." if n == 25 else "")
+    pfad = f'/thema/{t["id"]}/'
+    inhalt = f"""<section class="hero thema"><!--KRUMEN-->
+<h1>{e(t["name"])}: alle Kantone im Vergleich</h1>
+<p class="lede">{n} von 26 Kantonen sind erfasst.{rest} {e(zahl)} Was der Bund für alle Hunde vorschreibt, steht unter <a href="/schweiz/">Ganze Schweiz</a>.</p>
+</section>
+<section class="sec">
+<div class="sec-head"><span class="eyebrow">Überblick</span><h2>{e(t["spalte"])} nach Kanton</h2></div>
+<div class="table-wrap"><table><thead><tr><th scope="col">Kanton</th><th scope="col">Kurz</th><th scope="col">{e(t["spalte"])}</th></tr></thead><tbody>{"".join(zeilen)}</tbody></table></div>
+</section>
+<section class="sec">
+<div class="sec-head"><span class="eyebrow">Im Einzelnen</span><h2>Was jeder Kanton vorschreibt</h2><p>Der Name des Kantons führt zu allen Regeln dort. Gemeinden können zusätzliche Regeln haben.</p></div>
+<div class="cards">{"".join(karten)}</div>
+</section>
+<section class="sec">
+<div class="sec-head"><span class="eyebrow">Vergleich</span><h2>Weitere Themen</h2></div>
+{themenleiste(t["id"])}
+<p><a class="text-link" href="/">Gemeinde oder Postleitzahl suchen</a></p>
+</section>"""
+    return seite(pfad, f'{t["name"]}: alle Kantone im Vergleich | Gassi-Kompass', t["beschr"], inhalt,
+                 [("Start", "/"), (t["name"], pfad)], min(k["geprueft"] for k in kantone), benutzt, Q)
 
 
 def seite_ueber(Q):
@@ -688,6 +813,10 @@ def baue(Q, kantone, gemeinden, bund, orte):
     schreibe("schweiz/index.html", seite_schweiz(bund, Q, kantone))
     schreibe(f"schweiz/{MARKE}", "")
     schreibe("assets/orte.json", ortsindex(kantone, gemeinden, orte))
+    schreibe(f"thema/{MARKE}", "")
+    for t in THEMEN:
+        schreibe(f'thema/{t["id"]}/index.html', seite_thema(t, Q, kantone))
+        urls.append((f'/thema/{t["id"]}/', min(k["geprueft"] for k in kantone)))
     for k in kantone:
         schreibe(f'{k["id"]}/index.html', seite_kanton(k, Q, gemeinden))
         schreibe(f'{k["id"]}/{MARKE}', "")

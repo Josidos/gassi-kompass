@@ -4,7 +4,7 @@
 //   node tests/seiten.js /lu/luzern/ bild.png 1280  dasselbe in 1280 px Breite
 // Geprüft wird: Seite lädt, keine Skriptfehler, kein seitliches Überlaufen, genau eine Hauptüberschrift,
 // alle internen Links und Dateien existieren, der Wald-Status wird gesetzt, die Ortssuche findet Orte
-// und führt auf die richtige Seite.
+// und führt auf die richtige Seite, jede Themenseite führt jeden erfassten Kanton mit Quelle auf.
 // Der Test bricht auch ab, wenn eine Adresse aus dem letzten Commit in der Sitemap fehlt.
 // Soll eine Seite wirklich verschwinden: node tests/seiten.js --entfernen-erlaubt
 const http = require('http'), fs = require('fs'), path = require('path');
@@ -72,6 +72,12 @@ function datei(url) {
       for (const w of info.wald) {
         if (!w.heute || !w.datum) fehler.push(`${wo}: Heute-Markierung oder Datum fehlt`);
         if (w.saison === '1' && !/^Heute /.test(w.gross)) fehler.push(`${wo}: Wald-Status wurde nicht gesetzt`);
+      }
+      if (s.startsWith('/thema/')) {
+        const kantone = fs.readdirSync(path.join(ROOT, 'data', 'kantone')).filter(f => f.endsWith('.json')).length;
+        const t = await page.evaluate(() => ({ zeilen: document.querySelectorAll('tbody tr').length, karten: document.querySelectorAll('.card').length, quellen: document.querySelectorAll('.card .src a').length }));
+        if (t.zeilen !== kantone || t.karten !== kantone) fehler.push(`${wo}: ${t.zeilen} Zeilen und ${t.karten} Karten statt je ${kantone} (eine pro erfasstem Kanton)`);
+        if (t.quellen < kantone) fehler.push(`${wo}: Karte ohne Quelle`);
       }
       if (s === fotoSeite && fotoDatei && breite === Number(fotoBreite || 390)) await page.screenshot({ path: fotoDatei, fullPage: true });
       await page.close();

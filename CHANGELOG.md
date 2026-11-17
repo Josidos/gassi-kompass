@@ -2,6 +2,7 @@
 
 Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen.
 
+<<<<<<< HEAD
 ## 2026-11-17, Nachtkette, zweite Auslösung als Glied 5
 
 - Dieser Lauf wurde ohne Nummer ausgelöst und zählte sich nach dem Protokoll als Glied 5. Während er den Kanton Schwyz erfasste, veröffentlichte ein anderer Lauf als Glied 5 denselben Kanton mit dem Bezirk Küssnacht. Es liefen also wieder zwei Auslösungen nebeneinander. Die eigene Kantonsdatei wurde verworfen, die Datei auf `main` blieb unverändert. Damit keine zweite Kette entsteht, löst dieser Lauf kein weiteres Glied aus.
@@ -10,6 +11,19 @@ Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen
 - Nach der Reihenfolge wäre der Sonderlauf Themenseiten dran gewesen. Die Recherche zur Gemeinde war beim Wechsel schon abgeschlossen, deshalb wurde nur diese eine Datei veröffentlicht. Der Sonderlauf bleibt Sache der Kette.
 - Aus der eigenen Recherche zum Kanton als Lücken ins Backlog: Veterinärgesetz und Veterinärverordnung (AMICUS, Massnahmen im Einzelfall), Jagd- und Wildschutzgesetz (Fassung mit unklarem Stand «1.2.2027», nicht verwendet), Hundewiese Küssnacht.
 - `add_repo` und `register_repo_root` standen nicht zur Verfügung. Das Repository lag mit Push-Zugriff im Arbeitsordner.
+=======
+## 2026-11-17, Nachtkette, Glied 6 (Sonderlauf Themenseiten)
+
+- Sonderlauf: nur der Umbau, kein neuer Kanton, keine Gemeinde. Nachgeprüft: nichts. Eingesammelt: nichts, unter `data/protokoll/` lag nur `auftraege.md` (fünf Staffeln, vergeben um 23:55 Uhr).
+- Neu: sechs Themenseiten, erzeugt aus den Kantonsdateien, ohne neue Angaben: `/thema/leinenpflicht-wald/`, `/thema/haftpflicht/`, `/thema/hundekurs/`, `/thema/rassen/`, `/thema/hundesteuer/`, `/thema/anmeldung/`. Jede hat Titel «… alle Kantone im Vergleich», einen Absatz, der zählt, eine Tabelle mit Link zu jedem Kanton und je Kanton die Karte mit Quellen. Sitemap: 30 Seiten.
+- Startseite: Die Spaltenköpfe der Vergleichstabelle führen auf die Themenseiten, darunter stehen sechs Tafeln. Jede Kantonsseite hat am Schluss den Abschnitt «Ein Thema, alle Kantone». Bestehende Adressen und das Aussehen der übrigen Teile sind unverändert.
+- Abweichung von der Vorgabe: Hundesteuer und Anmeldung zählen keine «Pflicht» nach `ton`. Die Karten Hundesteuer haben überall `note`, die Karten Anmeldung teils `must`, teils `note`, obwohl die Anmeldung überall Pflicht ist. Eine Zahl daraus wäre falsch. Dort steht ein neutraler Satz.
+- Leinenpflicht im Wald zählt `wald.saison` (7 von 10, überall 1. April bis 31. Juli). Für die übrigen heisst es «keine feste Leinenzeit erfasst», nicht «keine Leinenpflicht».
+- `build.py`: prüft neu, dass jeder Kanton genau die sechs Karten in der festen Reihenfolge hat (deutsche, französische oder italienische Titel), weil die Themenseiten über die Position zugreifen. `assets/site.css`: drei Zeilen (Worttrennung der Hauptüberschrift auf Themenseiten, Links im Kartentitel und Tabellenkopf). `tests/seiten.js`: jede Themenseite muss jeden erfassten Kanton mit Quelle aufführen.
+- Als Bild angesehen: `/thema/haftpflicht/` (390 px), `/thema/leinenpflicht-wald/` (1280 px). Die Überschrift «Haftpflichtversicherung» lief bei 390 px zuerst über, behoben mit Worttrennung.
+- Handbuch nachgeführt: Aufbau, erzeugte Ordner, Datenfelder (`karten`, `ton`), Abschnitt Themenseiten.
+- Dem Auftrag fehlte die Zusatznachricht mit der Nummer. Laut Protokoll ist dies Glied 6. `add_repo` und `register_repo_root` standen nicht zur Verfügung, das Repository lag mit Push-Zugriff im Arbeitsordner.
+>>>>>>> 13f3c95 (Sonderlauf: sechs Themenseiten mit dem Vergleich aller Kantone)
 - Nicht gelungen: nichts.
 
 ## 2026-11-17, Nachtkette, Glied 5

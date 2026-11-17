@@ -215,3 +215,9 @@ p.callout{display:block;max-width:66ch}
 .callout strong{font-weight:780}
 .sec-head p a,.prose a{text-underline-offset:2px}
 .foot p a{color:inherit;text-underline-offset:2px}
+
+/* Themenseiten: lange Wörter in der Hauptüberschrift trennen, Kantonsname der Karte als Link */
+.thema h1{overflow-wrap:break-word;hyphens:auto}
+.card-k a{text-underline-offset:2px}
+.card-k a:hover{color:var(--ink)}
+thead th a{text-underline-offset:2px}

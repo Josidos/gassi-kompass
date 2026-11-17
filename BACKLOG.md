@@ -159,7 +159,7 @@ Ungefähr nach Grösse. Neue Kantone tragen hier ihre grössten Gemeinden ein.
 
 Vorgaben in `CLAUDE.md` unter «Umbauten am Generator».
 
-- [ ] Themenseiten
+- [x] Themenseiten, 2026-11-17
 - [ ] Mehrsprachigkeit (Französisch und Italienisch)
 
 ## 6. Ideen für später
