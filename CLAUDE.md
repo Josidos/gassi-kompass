@@ -19,6 +19,8 @@ Claude führt das Projekt wie einen Betrieb: Inhalt, Technik, Qualität und Stra
 | Pfad | Inhalt |
 |---|---|
 | `data/quellen.json` | Alle Quellen: Schlüssel, Kurzname, Langname, URL |
+| `data/quellen/<auftrag>.json` | Quellen aus Parallel-Läufen, gleiche Form wie `data/quellen.json`. Jeder Schlüssel darf über alle Quellendateien nur einmal vorkommen, `build.py` prüft das. |
+| `data/protokoll/` | Protokolle der Parallel-Läufe, bis ein Lauf sie einsammelt, und `auftraege.md` mit den vergebenen Aufträgen |
 | `data/kantone/<kt>.json` | Regeln eines Kantons |
 | `data/gemeinden/<kt>/<gemeinde>.json` | Lokale Regeln einer Gemeinde |
 | `data/entwurf/<kt>.json` | Angefangener Kanton, dem noch Felder fehlen. Wird nicht gebaut. |
@@ -93,7 +95,7 @@ Daneben kann eine Kette laufen: mehrere Läufe hintereinander, von denen jeder a
 
 Obergrenzen pro Lauf: höchstens **4 Dateien nachprüfen**, dazu entweder **1 neuer Kanton samt einer Gemeinde** oder **4 neue Gemeinden**. Ein Sonderlauf (siehe «Umbauten am Generator») macht nur den Umbau und sonst nichts.
 
-1. **Start.** Repository klonen oder aktualisieren. `python3 build.py --check` muss fehlerfrei sein. `BACKLOG.md` und die letzten zwei Einträge in `CHANGELOG.md` lesen.
+1. **Start.** Repository klonen oder aktualisieren. `python3 build.py --check` muss fehlerfrei sein. `BACKLOG.md` und die letzten zwei Einträge in `CHANGELOG.md` lesen. Danach einsammeln, was Parallel-Läufe geliefert haben (siehe «Parallel-Läufe»). Das gehört zu jedem Lauf, auch zum Sonderlauf.
 2. **Nachprüfen.** Die Dateien in `data/kantone/` und `data/gemeinden/` sowie `data/schweiz.json` mit dem ältesten `geprueft` nehmen. Ist nichts älter als 60 Tage, diesen Schritt überspringen. Für jede Datei jede Quelle abrufen und jede Angabe vergleichen.
    - Stimmt alles: `geprueft` auf das heutige Datum setzen.
    - Hat sich etwas geändert: Angabe und wenn nötig `vergleich` anpassen, im Protokoll mit alt und neu festhalten, `geprueft` setzen.
@@ -112,6 +114,38 @@ Obergrenzen pro Lauf: höchstens **4 Dateien nachprüfen**, dazu entweder **1 ne
 - Gute Einstiege: Veterinärdienst des Kantons, kantonale Gesetzessammlung (oft `<kt>.lexwork.naz.ch` oder lexfind.ch), Website der Gemeinde unter «Hunde», «Hundetaxe», «Gebührentarif» oder «Polizeireglement», opendata.swiss für Hundezonen.
 - Neue Quelle: Eintrag in `data/quellen.json` mit sprechendem Schlüssel (`<kt>_<stichwort>`), Kurzname, Langname mit Stand, URL.
 - Die Seite gassi-kompass.ch selbst muss im Lauf nicht abgerufen werden. Der lokale Test genügt.
+
+## Parallel-Läufe
+
+Soll viel auf einmal entstehen, arbeiten mehrere Läufe gleichzeitig. Jeder hat genau einen Auftrag: einen Kanton samt seiner grössten Gemeinde, bis zu vier Gemeinden, Lücken einer bestehenden Seite oder eine Gegenprüfung. Der Auftrag steht in der Nachricht, die den Lauf auslöst, und hat einen Namen wie `so`, `gemeinden-zh-1` oder `pruefung-so`. Die Qualitätsregeln gelten unverändert. Damit sich zwei Läufe nie dieselbe Datei teilen, gilt:
+
+### Für den Parallel-Lauf
+
+- Nur den Auftrag erledigen. Kein Nachprüfen, kein Einsammeln, nichts Weiteres aus dem Backlog.
+- Alles, was du anlegst oder änderst, liegt unter `data/`: die Datendateien, die der Auftrag nennt, neue Quellen in `data/quellen/<auftragsname>.json` (Schlüssel wie üblich `<kt>_<stichwort>`, keiner darf schon in einer anderen Quellendatei stehen) und das Protokoll `data/protokoll/<auftragsname>.md`.
+- Nie ändern: `BACKLOG.md`, `CHANGELOG.md`, `data/quellen.json`, `data/protokoll/auftraege.md`, Datendateien anderer Aufträge, `build.py`, `assets/`, `tests/`, dieses Handbuch.
+- Das Protokoll hat zwei Teile. «Protokoll»: was sonst in `CHANGELOG.md` stünde (neu, geändert mit alt und neu, weggelassen und warum, nicht gelungen). «Backlog»: was sonst in `BACKLOG.md` stünde (erledigt, zurückgestellt mit Grund, bei einem neuen Kanton drei bis fünf weitere Gemeinden für Abschnitt 3, neue Lücken für Abschnitt 4).
+- Kanton unvollständig: Stand als `data/entwurf/<kt>.json` sichern und im Protokoll festhalten, was fehlt. Gemeinde unter drei belegten Angaben: keine Datei, im Protokoll als zurückgestellt mit Grund.
+- Vor dem Commit müssen `python3 build.py` und `node tests/seiten.js` fehlerfrei sein. Die erzeugten Seiten gehören aber nicht in den Commit, sie entstehen beim Einsammeln. `git status --short data/` darf nur eigene Dateien zeigen. Dann genau so veröffentlichen:
+
+  ```
+  git add data/ && git commit -m "Parallel-Lauf <auftragsname>: <was neu ist>"
+  git checkout -- . && git clean -fdq
+  git pull --rebase origin main && python3 build.py --check && git push origin HEAD:main
+  ```
+
+  Lehnt GitHub den Push ab, die letzte Zeile wiederholen, höchstens fünfmal. Meldet `build.py --check` nach dem Pull einen Fehler in deinen Dateien (zum Beispiel einen doppelten Quellenschlüssel): beheben, neu committen, wiederholen. Nie pushen, solange `--check` einen Fehler meldet.
+- Liegt die Zieldatei des Auftrags schon auf `main`, weil ein anderer Lauf schneller war: eigene Arbeit verwerfen und enden.
+- Nennt der Auftrag eine Uhrzeit als Schluss: mit `TZ=Europe/Zurich date` prüfen. Danach keine neue Recherche beginnen, sondern veröffentlichen, was belegt ist, und enden.
+- Die Veröffentlichung auf GitHub Pages musst du nicht abwarten.
+
+### Für jeden anderen Lauf
+
+- **Vergebene Aufträge.** `data/protokoll/auftraege.md` nennt, welche Kantone, Gemeinden und Dateien an Parallel-Läufe vergeben sind, mit Uhrzeit. Was dort steht, lässt du aus und änderst du nicht, solange der Auftrag jünger als drei Stunden ist. Ist er älter und hat nichts geliefert, ist der Parallel-Lauf gescheitert: Zeile löschen, der Eintrag im Backlog ist wieder offen.
+- **Einsammeln**, gleich nach dem Start: Für jedes Protokoll unter `data/protokoll/` (ausser `auftraege.md`) den Teil «Protokoll» als eigenen Eintrag in `CHANGELOG.md` übernehmen, den Teil «Backlog» in `BACKLOG.md` nachführen (Kanton oder Gemeinde abhaken, Zurückgestelltes vermerken, Neues eintragen), dann das Protokoll und die Zeile in `auftraege.md` löschen. Die Seiten entstehen beim Bauen am Schluss des Laufs.
+- Meldet `python3 build.py --check` einen Fehler in einer Datei aus einem Parallel-Lauf, den du in zwei Versuchen nicht beheben kannst: Kantonsdatei nach `data/entwurf/` verschieben, Gemeindedatei löschen, im Backlog «zurückgestellt» mit Grund.
+- Für die Reihenfolge im Backlog zählt ein Kanton als erfasst, sobald seine Datei unter `data/kantone/` liegt.
+- Daten unter `data/fr-ch/` und `data/it-ch/` baut der Generator erst nach dem Sonderlauf Mehrsprachigkeit. Liegen dort schon Dateien aus Parallel-Läufen, sind sie beim Umbau die Probe: Der Sonderlauf baut sie mit, statt eine Probeseite anzulegen und wieder zu entfernen. Die Einträge in Abschnitt 2 des Backlogs hakt ab, wer die Seiten baut.
 
 ## Was nur Joss tun kann
 

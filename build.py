@@ -68,8 +68,29 @@ def lies(pfad):
     return daten
 
 
+LADEFEHLER = []
+
+
 def lade():
     quellen = json.loads((DATA / "quellen.json").read_text("utf-8"))
+    # Parallel-Läufe legen ihre Quellen in eigene Dateien, damit sich zwei Läufe nie dieselbe Datei teilen.
+    for pfad in sorted((DATA / "quellen").glob("*.json")):
+        wo = str(pfad.relative_to(ROOT))
+        try:
+            mehr = json.loads(pfad.read_text("utf-8"))
+        except ValueError as e:
+            LADEFEHLER.append(f"{wo}: kein gültiges JSON ({e})")
+            continue
+        if not isinstance(mehr, dict):
+            LADEFEHLER.append(f"{wo}: muss wie data/quellen.json ein Objekt mit Schlüsseln sein")
+            continue
+        for key, q in mehr.items():
+            if key in quellen:
+                LADEFEHLER.append(f"{wo}: Quelle '{key}' gibt es schon in einer anderen Quellendatei")
+            elif not isinstance(q, dict):
+                LADEFEHLER.append(f"{wo}: Quelle '{key}' muss ein Objekt mit kurz, lang und url sein")
+            else:
+                quellen[key] = q
     kantone = [lies(p) for p in sorted((DATA / "kantone").glob("*.json"))]
     gemeinden = [lies(p) for p in sorted((DATA / "gemeinden").glob("*/*.json"))]
     kantone.sort(key=lambda k: k.get("name", ""))
@@ -82,7 +103,7 @@ def lade():
 # ------------------------------------------------------------------- Prüfung
 
 def pruefe(quellen, kantone, gemeinden, bund, orte):
-    fehler = []
+    fehler = list(LADEFEHLER)
     alle = {kid for kid, _ in KANTONE_ALLE}
     verzeichnis = {x[0]: x for x in orte.get("gemeinden", [])}
 
@@ -92,7 +113,7 @@ def pruefe(quellen, kantone, gemeinden, bund, orte):
             return
         for key in keys:
             if key not in quellen:
-                fehler.append(f"{wo}: Quelle '{key}' fehlt in data/quellen.json")
+                fehler.append(f"{wo}: Quelle '{key}' fehlt in data/quellen.json und data/quellen/")
 
     def datum(wert, wo):
         try:
@@ -120,9 +141,9 @@ def pruefe(quellen, kantone, gemeinden, bund, orte):
     for key, q in quellen.items():
         for feld in ("kurz", "lang", "url"):
             if not str(q.get(feld, "")).strip():
-                fehler.append(f"data/quellen.json: '{key}' ohne '{feld}'")
+                fehler.append(f"Quelle '{key}' ohne '{feld}'")
         if not str(q.get("url", "")).startswith("https://"):
-            fehler.append(f"data/quellen.json: '{key}': URL muss mit https:// beginnen")
+            fehler.append(f"Quelle '{key}': URL muss mit https:// beginnen")
 
     ids = set()
     for k in kantone:
@@ -713,7 +734,7 @@ def main():
     benutzt.add("ch_swisstopo_orte")  # steht auf der Seite «Über diese Seite»
     unbenutzt = sorted(set(quellen) - benutzt)
     if unbenutzt:
-        print("Hinweis: unbenutzte Quellen in data/quellen.json:", ", ".join(unbenutzt))
+        print("Hinweis: unbenutzte Quellen:", ", ".join(unbenutzt))
     if "--check" in sys.argv:
         print(f"Daten in Ordnung: {len(kantone)} Kantone, {len(gemeinden)} Gemeinden, {len(quellen)} Quellen.")
         return 0
