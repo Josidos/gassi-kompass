@@ -1,0 +1,138 @@
+{
+  "id": "so",
+  "name": "Kanton Solothurn",
+  "kurz": "SO",
+  "im": "im Kanton Solothurn",
+  "des": "des Kantons Solothurn",
+  "geprueft": "2026-11-17",
+  "wald": {
+    "saison": true,
+    "von": "04-01",
+    "bis": "07-31",
+    "wo": "im Wald",
+    "quellen": [
+      "so_hundev",
+      "so_vet_leine"
+    ]
+  },
+  "leine": {
+    "punkte": [
+      "vom 1. April bis 31. Juli im Wald, für alle Hunde. Das Amt für Landwirtschaft nennt auf seiner Seite «Mein Hund und ich» auch die Waldränder.",
+      "überall dort, wo die zuständigen Stellen es im öffentlichen Raum bezeichnet haben",
+      "jederzeit, wenn du deinen Hund nicht ständig kontrollieren kannst, vor allem wenn er jagen oder wildern könnte",
+      "immer ausserhalb deiner Privatsphäre, wenn dein Hund zu einer bewilligungspflichtigen Rasse gehört. Er ist dann als Einzelhund an der Leine zu führen.",
+      "wenn das Oberamt oder der Veterinärdienst es für deinen Hund angeordnet hat"
+    ],
+    "quellen": [
+      "so_hundev",
+      "so_hundeg",
+      "so_vet_leine",
+      "so_hund_und_ich"
+    ]
+  },
+  "verbot": {
+    "einleitung": "Hundegesetz und Hundeverordnung des Kantons nennen keine Orte mit Hundeverbot.",
+    "punkte": [
+      "Orte, an denen deine Gemeinde ein Verbot erlassen und signalisiert hat"
+    ],
+    "quellen": [
+      "so_hundeg",
+      "so_hundev"
+    ]
+  },
+  "karten": [
+    {
+      "titel": "Haftpflicht",
+      "marke": "Pflicht",
+      "ton": "must",
+      "wert": "für alle Hunde",
+      "text": "Wer einen Hund hält, braucht eine Haftpflichtversicherung, die die Risiken der Hundehaltung einschliesst. Sie muss auch die Person decken, die den Hund tatsächlich beaufsichtigt. Das Gesetz nennt keine Mindestsumme. Den Nachweis legst du vor, wenn du den Hund bei der Gemeinde meldest.",
+      "quellen": [
+        "so_hundeg"
+      ]
+    },
+    {
+      "titel": "Kurs",
+      "marke": "keine Pflicht",
+      "ton": "none",
+      "wert": "nur für bewilligungspflichtige Rassen",
+      "text": "Einen Kurs für alle Hundehaltenden schreibt der Kanton nicht vor. Wer einen Hund einer bewilligungspflichtigen Rasse hält, muss mit dem Hund eine Ausbildung absolvieren. Sie gilt als absolviert, wenn ein von der Schweizerischen Kynologischen Gesellschaft (SKG) anerkannter Abschluss die Alltagstauglichkeit von Halter und Hund bestätigt. Im Einzelfall kann die Behörde einen Hundehalterkurs oder Erziehungskurs anordnen.",
+      "quellen": [
+        "so_hundeg",
+        "so_hundev"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "marke": "Pflicht",
+      "ton": "must",
+      "wert": "Gemeinde, Mikrochip und AMICUS",
+      "text": "Hältst du einen Hund, der älter als drei Monate ist, meldest du ihn bei deiner Einwohnergemeinde und gibst die Nummer des Mikrochips an. Dabei weist du die Haftpflichtversicherung nach. Jeder Hund muss nach den Vorschriften des Bundes gekennzeichnet und registriert sein, die Kosten trägst du. Das Hundegesetz nennt für die Meldung keine Frist.",
+      "quellen": [
+        "so_hundeg"
+      ]
+    },
+    {
+      "titel": "Hundesteuer",
+      "marke": "jährlich",
+      "ton": "note",
+      "wert": "CHF 85 bis 235",
+      "text": "Die Hundesteuer besteht aus zwei Teilen. Der Kanton erhebt CHF 35 pro Hund, deine Gemeinde CHF 50 bis höchstens CHF 200 pro Hund. Zusammen sind das CHF 85 bis CHF 235 pro Jahr. Die Gemeinde stellt beide Teile in Rechnung. Die Steuer gilt für ein Kalenderjahr, Stichtag ist der 1. April. Befreit sind unter anderem Hunde unter drei Monaten, Assistenzhunde, Diensthunde von Armee, Polizei und Grenzwachtkorps sowie Hunde, für die im selben Jahr schon in einer anderen Gemeinde oder einem anderen Kanton bezahlt wurde.",
+      "quellen": [
+        "so_hundeg"
+      ]
+    },
+    {
+      "titel": "Rassen",
+      "marke": "Bewilligung",
+      "ton": "must",
+      "wert": "9 Rassen und ihre Kreuzungen",
+      "text": "Für Hunde von neun Rassen und ihre Kreuzungen brauchst du eine Bewilligung des Veterinärdienstes. Das gilt, wenn du einen solchen Hund hältst, züchtest oder handelst oder ihn an mehr als 90 Tagen pro Jahr regelmässig betreust. Die Bewilligung holst du vor dem Erwerb ein, bei selbst gezüchteten Welpen spätestens 15 Wochen nach der Geburt. Verlangt werden unter anderem Mündigkeit, nachgewiesene Sachkenntnis, ein einwandfreier Leumund und ein Abstammungsausweis oder eine bestandene Wesensprüfung. Die Bewilligung kostet eine Gebühr. Bei einem Halterwechsel braucht es eine neue Bewilligung. Ohne Bewilligung gehaltene Hunde können auf deine Kosten eingezogen werden. Im Zweifel entscheidet die Kantonstierärztin oder der Kantonstierarzt, ob ein Hund dazugehört. Ausserhalb der Privatsphäre gehören diese Hunde immer an die Leine.",
+      "mehr": {
+        "titel": "Ganze Liste anzeigen",
+        "punkte": [
+          "Bullterrier",
+          "Staffordshire Bull Terrier",
+          "American Staffordshire Terrier",
+          "American Pit Bull Terrier",
+          "Rottweiler",
+          "Dobermann",
+          "Dogo Argentino",
+          "Fila Brasileiro",
+          "American Bully"
+        ]
+      },
+      "quellen": [
+        "so_hundev",
+        "so_hundeg",
+        "so_vet_bewilligung"
+      ]
+    },
+    {
+      "titel": "Unterwegs",
+      "marke": "Regel",
+      "ton": "note",
+      "wert": "Kot und Kontrolle",
+      "text": "Du musst deinen Hund stets unter Kontrolle halten. Laut dem Amt für Landwirtschaft nimmst du im öffentlichen Bereich den Kot deines Hundes auf und entsorgst ihn fachgerecht. Das Amt nennt dazu Verhaltensregeln: Im Wald bleibt der Hund auf den Wegen, landwirtschaftliche Nutzflächen betrittst du möglichst nicht, und begegnet dir ein angeleinter Hund, leinst du deinen an oder führst ihn bei Fuss. Wer das Hundegesetz oder seine Vollzugsbestimmungen verletzt, wird mit Busse bestraft. Einen Betrag nennt das Gesetz nicht.",
+      "quellen": [
+        "so_hundeg",
+        "so_hund_und_ich"
+      ]
+    }
+  ],
+  "vergleich": {
+    "wald": "1.4. bis 31.7., im Wald",
+    "haft": "Pflicht, keine Mindestsumme im Gesetz",
+    "kurs": "nur für bewilligungspflichtige Rassen",
+    "rassen": "Bewilligungspflicht für 9 Rassen",
+    "steuer": "CHF 85 bis 235, je nach Gemeinde",
+    "anm": "Einwohnergemeinde, Mikrochip und AMICUS"
+  },
+  "umzug": {
+    "text": "Ziehst du mit einem Hund einer bewilligungspflichtigen Rasse in den Kanton Solothurn, stellst du dem Veterinärdienst die Unterlagen vor dem Zuzug von dir aus zu. Bewilligungen anderer Kantone werden anerkannt, wenn der Hund bisher nicht auffällig geworden ist.",
+    "quellen": [
+      "so_vet_bewilligung",
+      "so_hundeg"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "olten",
+  "kanton": "so",
+  "bfs": 2581,
+  "name": "Stadt Olten",
+  "ort": "Olten",
+  "in_ort": "in der Stadt Olten",
+  "geprueft": "2026-11-17",
+  "hinweis_heute": "In Olten gehört dein Hund im Siedlungsgebiet das ganze Jahr an die Leine.",
+  "einleitung": "In Olten gelten die Regeln des Kantons Solothurn. Die Stadt schreibt zusätzlich die Leine im ganzen Siedlungsgebiet vor.",
+  "karten": [
+    {
+      "titel": "Hundetaxe",
+      "wert": "CHF 165 pro Hund und Jahr",
+      "text": "Die Hundesteuer der Stadt Olten beträgt CHF 130 pro Hund und Jahr. Dazu kommen CHF 35 für den Kanton Solothurn, zusammen CHF 165. Die Stadt stellt beides im April in Rechnung. Zu bezahlen ist innert 30 Tagen nach der Rechnung. Jede Mahnung kostet CHF 50. Bleibt die Steuer trotz Mahnung offen, erstattet die Stadt Strafanzeige nach dem Hundegesetz.",
+      "quellen": [
+        "so_olten_steuer"
+      ]
+    },
+    {
+      "titel": "Leine",
+      "wert": "im ganzen Siedlungsgebiet",
+      "text": "Im Siedlungsgebiet der Stadt Olten sind Hunde an der Leine zu führen. So steht es in Artikel 19 des Reglements über die gemeindepolizeilichen Aufgaben vom 29. September 2016. Übertretungen werden mit Busse bestraft, einen Betrag nennt das Reglement nicht. Dazu kommen die Regeln des Kantons: vom 1. April bis 31. Juli Leinenpflicht im Wald.",
+      "quellen": [
+        "so_olten_polizei",
+        "so_hundev"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "wert": "Einwohnerkontrolle und AMICUS",
+      "text": "Ziehst du nach Olten, meldest du dich bei der Einwohnerkontrolle und gibst an, dass du einen Hund hältst. Du weist dabei die Haftpflichtversicherung nach. Hund und Halter müssen in der Hundedatenbank AMICUS registriert sein. Gibst du einen Hund ab oder übernimmst du einen, meldest du das in AMICUS und der Einwohnerkontrolle. Die Ausfuhr ins Ausland und den Tod des Hundes meldest du in AMICUS. Fragen zur Hundesteuer beantwortet die Steuerverwaltung/Stadtkasse.",
+      "quellen": [
+        "so_olten_amicus",
+        "so_olten_steuer"
+      ]
+    }
+  ]
+}

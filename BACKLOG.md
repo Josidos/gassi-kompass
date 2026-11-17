@@ -17,14 +17,14 @@ Bleibt ein Kanton nach einem Lauf unvollständig (Entwurf unter `data/entwurf/`)
 
 ## 1. Deutschsprachige Kantone
 
-Ungefähr nach Bevölkerung. Schon erfasst: Zürich, Bern, Luzern, Aargau, St. Gallen, Basel-Stadt, Basel-Landschaft, Thurgau.
+Ungefähr nach Bevölkerung. Schon erfasst: Zürich, Bern, Luzern, Aargau, St. Gallen, Basel-Stadt, Basel-Landschaft, Thurgau, Solothurn.
 
 - [x] Aargau (`ag`), 2026-11-17
 - [x] St. Gallen (`sg`), 2026-11-17, mit Stadt St. Gallen
 - [x] Basel-Stadt (`bs`), 2026-11-17, mit Stadt Basel
 - [x] Basel-Landschaft (`bl`), 2026-11-17, mit Allschwil
 - [x] Thurgau (`tg`), 2026-11-17, mit Stadt Frauenfeld
-- [ ] Solothurn (`so`)
+- [x] Solothurn (`so`), 2026-11-17, mit Stadt Olten
 - [ ] Graubünden (`gr`)
 - [ ] Schwyz (`sz`)
 - [ ] Zug (`zg`)
@@ -69,6 +69,10 @@ Ungefähr nach Grösse. Neue Kantone tragen hier ihre grössten Gemeinden ein.
 - [ ] Amriswil (TG): zurückgestellt am 2026-11-17. Nur die Meldestelle belegt (Hundekontrollstelle der Einwohnerdienste). Die Seite der Stadt nennt weder Steuerbetrag noch Orte, die Mitteilung zu den Hundesteuer-Rechnungen war nicht abrufbar.
 - [ ] Weinfelden (TG): zurückgestellt am 2026-11-17. weinfelden.ch lässt den Abruf nicht zu (robots), keine andere amtliche Quelle gefunden.
 - [ ] Romanshorn (TG): zurückgestellt am 2026-11-17. Das Merkblatt Hundehaltung der Stadt trägt kein Datum und ist beim Kurs veraltet (Stand vor April 2024). Es nennt Steuer CHF 100 und CHF 162.50, Leinenpflicht im Seepark, auf Schlosswiese und Surfwiese, Hundezone im Seepark, Verbot in der Holzensteiner Badi. Die aktuellen Seiten (Hundekontrolle, Hundewiese) lassen den Abruf nicht zu. Neu ansetzen, sobald eine datierte Quelle lesbar ist.
+- [ ] Solothurn (SO)
+- [ ] Grenchen (SO)
+- [ ] Zuchwil (SO)
+- [ ] Biberist (SO)
 - [ ] Riehen (BS)
 - [ ] Bettingen (BS)
 - [ ] Rapperswil-Jona (SG)
@@ -138,6 +142,8 @@ Ungefähr nach Grösse. Neue Kantone tragen hier ihre grössten Gemeinden ein.
 - [ ] Kreuzlingen und Arbon: Meldefrist bei der Stadt klären (Quellen der Stadt widersprechen sich: 10 und 30 Tage, 10 und 14 Tage)
 - [ ] Arbon: Stand der Broschüre und der Steuerbeträge mit einer datierten Quelle belegen
 - [ ] Stadt Frauenfeld: Hundeverbote und Bussen der Stadt suchen (Polizeireglement), die Informationen für Hundehaltende nennen keine
+- [ ] Kanton Solothurn: Hundegesetz und Hundeverordnung im vollen Wortlaut lesen (das Abrufwerkzeug lieferte Zusammenfassungen mit kurzen Zitaten). Danach ergänzen, falls belegt: Gebühr der Haltebewilligung (Merkblatt des Veterinärdienstes, Gebührentarif), Bussen, was die Änderung vom 18. Mai 2025 gebracht hat. Klären, ob die Leinenpflicht vom 1. April bis 31. Juli auch am Waldrand gilt (Verordnung: «im Wald», Seite «Mein Hund und ich»: «Wald und Waldränder»).
+- [ ] Stadt Olten: prüfen, ob das Polizeireglement von 2016 (Art. 19, Leine im Siedlungsgebiet) nach der Teilrevision von 2019 unverändert gilt. Hundeverbote (Friedhof, Badi, Schulanlagen) und Freilaufflächen suchen, das Reglement nennt keine.
 
 ## 5. Umbauten am Generator
 

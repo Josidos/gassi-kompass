@@ -2,6 +2,19 @@
 
 Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen.
 
+## 2026-11-17, Nachtkette, Glied 4
+
+- Dem Auftrag fehlte die Zusatznachricht mit der Nummer. Laut Protokoll sind die Glieder 1 bis 3 gelaufen, ein Glied 4 wurde ausgelöst, hat aber nichts geliefert (Nutzungsgrenze um 23:02 Uhr). Dieser Lauf zählt als Glied 4.
+- Nachgeprüft: nichts. Keine Datei ist älter als 60 Tage. Eingesammelt: nichts, unter `data/protokoll/` lag nur `auftraege.md`. Graubünden ist dort an die Hauptsitzung vergeben und blieb unberührt.
+- Neu: Kanton Solothurn (`/so/`) und Stadt Olten (`/so/olten/`), 9 von 26 Kantonen, 10 Gemeinden. Quellen, alle am 17. November 2026 abgerufen: Hundegesetz (BGS 614.71, Stand 1. Januar 2026), Hundeverordnung (BGS 614.72, Stand 1. Juni 2026, über LexFind), Seiten «Leinenpflicht», «Bewilligungspflichtige Hunde» und «Mein Hund und ich» des Amts für Landwirtschaft (ohne Datum). Olten: Dienstleistung Hundesteuer, Übersicht AMICUS (beide ohne Datum), Reglement über die gemeindepolizeilichen Aufgaben vom 29. September 2016.
+- Das Abrufwerkzeug lieferte Zusammenfassungen mit kurzen Zitaten, nicht den vollen Wortlaut. Das Hundegesetz wurde zweimal gelesen (bgs.so.ch und LexFind), die Angaben stimmen überein.
+- Leine im Wald: Die Verordnung sagt «im Wald», die Seite «Mein Hund und ich» des Amts «Wald und Waldränder». Erfasst ist der Rechtstext, die Seite nennt den Hinweis des Amts.
+- Weggelassen: Betrag der Gebühr für die Haltebewilligung (das Merkblatt wurde nicht gelesen), Bussenbeträge (weder Gesetz noch Verordnung nennen welche), Meldefrist (das Gesetz nennt keine).
+- Stadt Olten: drei lokale Angaben belegt (Steuer CHF 130 plus CHF 35 Kanton, Leine im Siedlungsgebiet, Anmeldung bei der Einwohnerkontrolle). Ein Stadtratsbeschluss von 2007 nennt noch CHF 90, erfasst ist der Betrag der aktuellen Seite. Hundeverbote nennt das Reglement nicht.
+- `add_repo` und `register_repo_root` standen nicht zur Verfügung. Das Repository lag mit Push-Zugriff im Arbeitsordner.
+- Nicht gelungen: nichts.
+- Backlog: Solothurn, Grenchen, Zuchwil und Biberist eingetragen, zwei neue Lücken.
+
 ## 2026-11-17, Nachtkette, zweite Auslösung als Glied 3
 
 - Dieser Lauf wurde mit der Zusatznachricht «Glied 3» ausgelöst, kurz nachdem ein Lauf ohne Nummer als Glied 3 den Kanton Thurgau veröffentlicht und Glied 4 ausgelöst hatte. Es laufen damit zwei Auslösungen nebeneinander. Damit keine zweite Kette entsteht, löst dieser Lauf kein weiteres Glied aus.

@@ -288,5 +288,45 @@
     "kurz": "Broschüre Hundehaltung Arbon",
     "lang": "Stadt Arbon, Einwohnerdienste, Hundewesen: Informationsbroschüre für Hundehalterinnen und Hundehalter (ohne Datum, abgerufen am 17. November 2026)",
     "url": "https://www.arbon.ch/public/upload/assets/3310/09.17%20Informationsbrosch%C3%BCre%20f%C3%BCr%20Hundehalterinnen%20und%20Hundehalter.pdf?fp=2"
+  },
+  "so_hundeg": {
+    "kurz": "Hundegesetz SO",
+    "lang": "Kanton Solothurn: Gesetz über das Halten von Hunden (Hundegesetz, BGS 614.71) vom 7. November 2006, Stand 1. Januar 2026 (abgerufen am 17. November 2026)",
+    "url": "https://bgs.so.ch/api/de/versions/5574/pdf_file"
+  },
+  "so_hundev": {
+    "kurz": "Hundeverordnung SO",
+    "lang": "Kanton Solothurn: Verordnung zum Gesetz über das Halten von Hunden (Hundeverordnung, BGS 614.72) vom 6. März 2007, Stand 1. Juni 2026, gelesen über LexFind (abgerufen am 17. November 2026)",
+    "url": "https://www.lexfind.ch/tol/16193/de"
+  },
+  "so_vet_leine": {
+    "kurz": "Veterinärdienst SO: Leinenpflicht",
+    "lang": "Kanton Solothurn, Amt für Landwirtschaft, Veterinärdienst: Leinenpflicht (ohne Datum, abgerufen am 17. November 2026)",
+    "url": "https://so.ch/verwaltung/volkswirtschaftsdepartement/amt-fuer-landwirtschaft/tiere-und-lebensmittel/tierschutz/hunde/leinenpflicht/"
+  },
+  "so_hund_und_ich": {
+    "kurz": "Kanton SO: Mein Hund und ich",
+    "lang": "Kanton Solothurn, Amt für Landwirtschaft: Mein Hund und ich (ohne Datum, abgerufen am 17. November 2026)",
+    "url": "https://so.ch/verwaltung/volkswirtschaftsdepartement/amt-fuer-landwirtschaft/spezialseiten/mein-hund-und-ich"
+  },
+  "so_vet_bewilligung": {
+    "kurz": "Veterinärdienst SO: Bewilligungspflichtige Hunde",
+    "lang": "Kanton Solothurn, Amt für Landwirtschaft, Veterinärdienst: Bewilligungspflichtige Hunde (ohne Datum, abgerufen am 17. November 2026)",
+    "url": "https://so.ch/verwaltung/volkswirtschaftsdepartement/amt-fuer-landwirtschaft/tiere-und-lebensmittel/tierschutz/hunde/bewilligungspflichtige-hunde/"
+  },
+  "so_olten_steuer": {
+    "kurz": "Stadt Olten: Hundesteuer",
+    "lang": "Stadt Olten, Steuerverwaltung/Stadtkasse: Dienstleistung Hundesteuer (ohne Datum, abgerufen am 17. November 2026)",
+    "url": "https://www.olten.ch/dienstleistungen/2028"
+  },
+  "so_olten_amicus": {
+    "kurz": "Stadt Olten: Übersicht AMICUS",
+    "lang": "Stadt Olten: AMICUS, Übersicht für Hundehalter (ohne Datum, abgerufen am 17. November 2026)",
+    "url": "https://www.olten.ch/_doc/1215839"
+  },
+  "so_olten_polizei": {
+    "kurz": "Polizeireglement Olten",
+    "lang": "Stadt Olten: Reglement über die gemeindepolizeilichen Aufgaben der Stadt Olten vom 29. September 2016, in Kraft seit 6. November 2016 (abgerufen am 17. November 2026)",
+    "url": "https://www.olten.ch/_docn/1575280/212_Reglement_gemeindepol._Aufgaben-TR_29.9.16.pdf"
   }
 }
