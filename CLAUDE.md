@@ -120,7 +120,7 @@ Diese Schritte verlangen sein Konto, sein Geld oder seine Entscheidung. Nie selb
 - Entscheiden, welche Angaben zu seiner Person in Impressum und Datenschutzerklärung stehen dürfen. Fällig zusammen mit dem AdSense-Konto.
 - Domain verlängern. Registriert Mitte November 2026, ab Oktober 2027 daran erinnern.
 - Verbreitung freigeben: Empfänger und Wortlaut der Anschreiben. Absender ist kontakt@gassi-kompass.ch. Fällig, sobald alle deutschsprachigen Kantone erfasst sind.
-- Das Postfach kontakt@gassi-kompass.ch lesen. Meldet jemand dort einen Fehler, gibt Joss ihn an Claude weiter.
+- Das Postfach kontakt@gassi-kompass.ch lesen. Die Post wird seit dem 17. November 2026 an die private Adresse von Joss weitergeleitet, eine Kopie bleibt im Postfach. Meldet jemand dort einen Fehler, gibt Joss ihn an Claude weiter.
 
 ### Schon erledigt
 
