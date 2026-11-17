@@ -1,0 +1,52 @@
+{
+  "zh_winterthur_merkblatt": {
+    "kurz": "Stadt Winterthur: Merkblatt Hundewesen",
+    "lang": "Stadt Winterthur: Merkblatt Hundewesen (ohne Datum, nennt den Stadtratsbeschluss vom 23. Juni 2021 zur Hundeabgabe)",
+    "url": "https://stadt.winterthur.ch/themen/leben-in-winterthur/wohnen-und-umzug/hundewesen/ftw-simplelayout-filelistingblock/merkblatt-hundewesen.pdf/download"
+  },
+  "zh_winterthur_hundewesen": {
+    "kurz": "Stadt Winterthur: Hundewesen",
+    "lang": "Stadt Winterthur: Hundewesen (Anmeldung bei der Einwohnerkontrolle)",
+    "url": "https://stadt.winterthur.ch/themen/leben-in-winterthur/wohnen-und-umzug/hundewesen"
+  },
+  "zh_winterthur_bruderhaus": {
+    "kurz": "Stadt Winterthur: Wildpark Bruderhaus",
+    "lang": "Stadt Winterthur, Stadtgrün: Parkregeln im Wildpark Bruderhaus",
+    "url": "https://stadt.winterthur.ch/themen/leben-in-winterthur/freizeit-und-sport/ausflugsziele-freiraeume/wildpark-bruderhaus/parkregeln"
+  },
+  "zh_uster_hundewesen": {
+    "kurz": "Stadt Uster: Hundewesen",
+    "lang": "Stadt Uster: Hundewesen (Hundeabgabe, Anmeldung, Kotaufnahmepflicht)",
+    "url": "https://www.uster.ch/dienstleistungen/16018"
+  },
+  "zh_uster_waldplan": {
+    "kurz": "Stadt Uster: Übersichtsplan Wald",
+    "lang": "Stadt Uster, Abteilung Bau: Kantonale Leinenpflicht für Hunde im Wald, Übersichtsplan Uster (Stand 1. April 2023)",
+    "url": "https://www.uster.ch/publikationen/435532"
+  },
+  "zh_duebendorf_hunde": {
+    "kurz": "Stadt Dübendorf: Hunde",
+    "lang": "Stadt Dübendorf: Hunde (Hundesteuer, Anmeldung bei den Einwohnerdiensten)",
+    "url": "https://www.duebendorf.ch/de/verwaltung/dienstleistungen/?dienst_id=24805"
+  },
+  "zh_duebendorf_polv": {
+    "kurz": "Polizeiverordnung Dübendorf",
+    "lang": "Stadt Dübendorf: Polizeiverordnung, gültig ab 3. November 2014",
+    "url": "https://www.duebendorf.ch/_docn/2541880/Polizeiverordnung_der_Stadt_Dubendorf_vom_24._April_2015.pdf"
+  },
+  "zh_dietikon_hundewesen": {
+    "kurz": "Stadt Dietikon: Hundewesen",
+    "lang": "Stadt Dietikon: Hundewesen (Hundeabgabe, Meldegebühren)",
+    "url": "https://www.dietikon.ch/dienstleistungen/19074"
+  },
+  "zh_dietikon_tarif": {
+    "kurz": "Tarifverordnung Dietikon",
+    "lang": "Stadt Dietikon: Tarif- und Vollzugsverordnung, Totalrevision vom 25. November 2024, gültig ab 1. Januar 2025",
+    "url": "https://www.dietikon.ch/_docn/5406259/600.2_Tarif-_und_Vollzugsverordnung.pdf"
+  },
+  "zh_dietikon_anmeldung": {
+    "kurz": "Stadt Dietikon: Formular Anmeldung Hund",
+    "lang": "Stadt Dietikon, Sicherheits- und Gesundheitsabteilung: Formular «Anmeldung Hund»",
+    "url": "https://www.dietikon.ch/_docn/5687671/Anmeldung_Hund_V05.25.pdf"
+  }
+}

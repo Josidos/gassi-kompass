@@ -1,0 +1,37 @@
+{
+  "id": "winterthur",
+  "kanton": "zh",
+  "bfs": 230,
+  "name": "Winterthur",
+  "ort": "Winterthur",
+  "in_ort": "in Winterthur",
+  "geprueft": "2026-11-17",
+  "einleitung": "Die Stadt erhebt die Hundeabgabe und führt die Hundekontrolle. Für Leine und Wald gelten die Regeln des Kantons.",
+  "karten": [
+    {
+      "titel": "Hundetaxe",
+      "wert": "CHF 160 plus CHF 30 pro Hund und Jahr",
+      "text": "Die Gemeindeabgabe beträgt CHF 160 pro Hund und Jahr. Dazu kommt der Kantonsbeitrag von CHF 30 pro Hund und Jahr.",
+      "quellen": [
+        "zh_winterthur_merkblatt"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "wert": "Einwohnerkontrolle, innert 10 Tagen",
+      "text": "Ist dein Hund älter als 3 Monate, meldest du ihn innert 10 Tagen bei der Einwohnerkontrolle an, Pionierstrasse 7. Das geht auch online. Bei jeder Neuanmeldung und bei jedem Halterwechsel verrechnet die Stadt einmalig eine Meldegebühr von CHF 20.",
+      "quellen": [
+        "zh_winterthur_hundewesen",
+        "zh_winterthur_merkblatt"
+      ]
+    },
+    {
+      "titel": "Leine",
+      "wert": "Wildpark Bruderhaus: kurze Leine",
+      "text": "Im Wildpark Bruderhaus führst du deinen Hund an der kurzen Leine.",
+      "quellen": [
+        "zh_winterthur_bruderhaus"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "uster",
+  "kanton": "zh",
+  "bfs": 198,
+  "name": "Uster",
+  "ort": "Uster",
+  "in_ort": "in Uster",
+  "geprueft": "2026-11-17",
+  "einleitung": "Die Stadt erhebt die Hundeabgabe und zeigt auf einem Plan, wo in Uster die Leinenpflicht im Wald gilt.",
+  "karten": [
+    {
+      "titel": "Hundetaxe",
+      "wert": "CHF 200 pro Hund",
+      "text": "Die Hundeabgabe beträgt CHF 200 pro Hund. Der Kantonsbeitrag von CHF 30 ist darin enthalten.",
+      "quellen": [
+        "zh_uster_hundewesen"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "wert": "Einwohnerdienste, innert 10 Tagen, CHF 10",
+      "text": "Ist dein Hund älter als 3 Monate, meldest du ihn innert 10 Tagen bei den Einwohnerdiensten an, online oder am Schalter. Die Anmeldung kostet CHF 10.",
+      "quellen": [
+        "zh_uster_hundewesen"
+      ]
+    },
+    {
+      "titel": "Hundekot",
+      "wert": "Aufnahmepflicht in der ganzen Stadt",
+      "text": "Auf dem ganzen Gebiet der Stadt Uster musst du den Kot deines Hundes aufnehmen.",
+      "quellen": [
+        "zh_uster_hundewesen"
+      ]
+    },
+    {
+      "titel": "Leine",
+      "wert": "Plan zu Wald und Waldrand",
+      "text": "Die Stadt zeigt auf einem Übersichtsplan, welche Gebiete in Uster als Wald und Waldrand gelten. Dort gilt vom 1. April bis 31. Juli die Leinenpflicht des Kantons. Stand des Plans: 1. April 2023. Am Greifensee gilt laut Stadt keine ausdrückliche Leinenpflicht, weite Teile des Ufers stehen aber unter Schutz.",
+      "quellen": [
+        "zh_uster_waldplan",
+        "zh_uster_hundewesen"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "duebendorf",
+  "kanton": "zh",
+  "bfs": 191,
+  "name": "Dübendorf",
+  "ort": "Dübendorf",
+  "in_ort": "in Dübendorf",
+  "geprueft": "2026-11-17",
+  "einleitung": "Die Stadt erhebt die Hundesteuer. Ihre Polizeiverordnung verlangt, dass du Hundekot überall aufnimmst.",
+  "karten": [
+    {
+      "titel": "Hundetaxe",
+      "wert": "CHF 150, jeder weitere Hund CHF 170",
+      "text": "Die Hundesteuer beträgt CHF 150 pro Kalenderjahr. Für jeden weiteren Hund im selben Haushalt sind es CHF 170. Wird ein Hund nach dem 30. Juni über drei Monate alt oder neu im Kanton gehalten, ist die Hälfte fällig.",
+      "quellen": [
+        "zh_duebendorf_hunde"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "wert": "Einwohnerdienste, innert 10 Tagen",
+      "text": "Ist dein Hund älter als drei Monate, meldest du ihn innert 10 Tagen bei den Einwohnerdiensten und in der Datenbank AMICUS an. Wer zum ersten Mal einen Hund hält, meldet sich vorab bei den Einwohnerdiensten.",
+      "quellen": [
+        "zh_duebendorf_hunde"
+      ]
+    },
+    {
+      "titel": "Hundekot",
+      "wert": "Aufnahmepflicht auf dem ganzen Gemeindegebiet",
+      "text": "Du musst den Kot deines Hundes überall aufnehmen: auf öffentlichem und privatem Grund, auf landwirtschaftlichem Kulturland und im Wald. Stand der Polizeiverordnung: 2014.",
+      "quellen": [
+        "zh_duebendorf_polv"
+      ]
+    },
+    {
+      "titel": "Bussen",
+      "wert": "bis CHF 500",
+      "text": "Wer gegen die Polizeiverordnung verstösst, wird mit Busse bis CHF 500 bestraft. Stand der Polizeiverordnung: 2014.",
+      "quellen": [
+        "zh_duebendorf_polv"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "dietikon",
+  "kanton": "zh",
+  "bfs": 243,
+  "name": "Dietikon",
+  "ort": "Dietikon",
+  "in_ort": "in Dietikon",
+  "geprueft": "2026-11-17",
+  "einleitung": "Die Stadt erhebt die Hundeabgabe und Gebühren für Meldungen.",
+  "karten": [
+    {
+      "titel": "Hundetaxe",
+      "wert": "CHF 160 pro Hund und Jahr",
+      "text": "Die Hundeabgabe beträgt CHF 160 pro Hund und Jahr und wird im Voraus für das Kalenderjahr erhoben. Wird ein Hund zwischen dem 1. Juli und dem 31. Dezember abgabepflichtig, ist die Hälfte fällig.",
+      "quellen": [
+        "zh_dietikon_hundewesen",
+        "zh_dietikon_tarif"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "wert": "Hundewesen der Stadt, innert 10 Tagen",
+      "text": "Ab dem dritten Lebensmonat meldest du deinen Hund innert 10 Tagen an: Sicherheits- und Gesundheitsabteilung, Hundewesen, Bremgartnerstrasse 22. Für jeden Hund braucht es ein eigenes Formular.",
+      "quellen": [
+        "zh_dietikon_anmeldung",
+        "zh_dietikon_hundewesen"
+      ]
+    },
+    {
+      "titel": "Meldegebühr",
+      "wert": "CHF 20, verspätet CHF 40",
+      "text": "Eine ordentliche Meldung kostet CHF 20 pro Hund, eine verspätete CHF 40.",
+      "quellen": [
+        "zh_dietikon_hundewesen",
+        "zh_dietikon_tarif"
+      ]
+    },
+    {
+      "titel": "Entlaufener Hund",
+      "wert": "Vermittlung CHF 50",
+      "text": "Für die Vermittlung eines entlaufenen Hundes verrechnet die Stadt CHF 50.",
+      "quellen": [
+        "zh_dietikon_tarif"
+      ]
+    }
+  ]
+}
