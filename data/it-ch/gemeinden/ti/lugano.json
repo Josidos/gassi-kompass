@@ -1,0 +1,82 @@
+{
+  "id": "lugano",
+  "kanton": "ti",
+  "bfs": 5192,
+  "name": "Città di Lugano",
+  "ort": "Lugano",
+  "in_ort": "a Lugano",
+  "geprueft": "2026-11-17",
+  "einleitung": "A Lugano i cani vanno tenuti sempre al guinzaglio. Senza guinzaglio possono stare nelle aree per cani recintate, riservate ai residenti di Lugano con cani notificati.",
+  "freilaufzonen": [
+    {
+      "name": "Parco Tassino",
+      "marken": [
+        "recintata",
+        "acqua per i cani"
+      ],
+      "text": "Aperta ogni giorno dalle 6:30 alle 23:30 da marzo a ottobre e dalle 6:30 alle 21:00 da novembre a febbraio."
+    },
+    {
+      "name": "Rugì, Pregassona",
+      "marken": [
+        "recintata",
+        "lungo il Cassarate"
+      ],
+      "text": "Aperta ogni giorno dalle 7:00 alle 22:00."
+    },
+    {
+      "name": "Barbengo, Via delle Scuole",
+      "marken": [
+        "orari fissi"
+      ],
+      "text": "Aperta ogni giorno dalle 7:00 alle 22:00."
+    }
+  ],
+  "freilaufzonen_quellen": [
+    "ti_lugano_parchi",
+    "ti_lugano_ord"
+  ],
+  "karten": [
+    {
+      "titel": "Imposta sui cani",
+      "wert": "CHF 115 per cane e anno",
+      "text": "La tassa annuale è dovuta per ogni cane di età superiore ai tre mesi. Di questo importo CHF 40 vanno al Cantone e CHF 25 al Fondo soccorso animali.",
+      "quellen": [
+        "ti_lugano_ord"
+      ]
+    },
+    {
+      "titel": "Guinzaglio",
+      "wert": "sempre, tranne nelle aree per cani",
+      "text": "I cani vanno tenuti costantemente al guinzaglio. È vietato lasciarli vagare incustoditi su vie pubbliche, piazze, aree scolastiche, campi sportivi, parchi e giardini pubblici. Nelle aree per cani possono stare senza guinzaglio sotto sorveglianza costante, entrata e uscita avvengono con il guinzaglio. Lì i cani delle razze soggette ad autorizzazione portano la museruola e le femmine in calore non sono ammesse. Nell'area di svago di Pian Casoro i cani vanno sempre tenuti al guinzaglio.",
+      "quellen": [
+        "ti_lugano_ord",
+        "ti_lugano_parchi"
+      ]
+    },
+    {
+      "titel": "Accesso vietato",
+      "wert": "secondo la segnaletica",
+      "text": "Il Municipio può vietare con la segnaletica l'accesso ai cani in determinate zone, anche al guinzaglio. I cani con malattie trasmissibili non possono frequentare aree pubbliche o aperte al pubblico.",
+      "quellen": [
+        "ti_lugano_ord"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "wert": "subito al Comune",
+      "text": "I cani provenienti da altri Cantoni o Paesi vanno notificati subito al Comune. La morte del cane va comunicata ad AMICUS entro 10 giorni.",
+      "quellen": [
+        "ti_lugano_ord"
+      ]
+    },
+    {
+      "titel": "Multe",
+      "wert": "almeno CHF 300 per escrementi non raccolti",
+      "text": "Gli escrementi vanno raccolti subito e gettati negli appositi contenitori o in quelli dei rifiuti. La multa minima per la mancata raccolta è di CHF 300. Le infrazioni all'ordinanza sono punite con una multa fino a CHF 10 000.",
+      "quellen": [
+        "ti_lugano_ord"
+      ]
+    }
+  ]
+}
