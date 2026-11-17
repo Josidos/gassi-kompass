@@ -1,0 +1,117 @@
+{
+  "id": "nw",
+  "name": "Kanton Nidwalden",
+  "kurz": "NW",
+  "im": "im Kanton Nidwalden",
+  "des": "des Kantons Nidwalden",
+  "geprueft": "2026-11-17",
+  "wald": {
+    "saison": false,
+    "text": "Hundegesetz und Jagdverordnung des Kantons enthalten keine Leinenpflicht im Wald zu festen Daten. Unbeaufsichtigt frei laufen lassen darfst du deinen Hund aber nirgends. In den Wildruhegebieten sieht die Verordnung über die Wildruhegebiete eine Leinenpflicht für Hunde vor (Stand der Verordnung: 2019). Achte dort auf die Tafeln. Hunde, die sich unbeaufsichtigt in Wildeinständen herumtreiben oder Wild verfolgen, hetzen oder reissen, gelten als wildernd und dürfen von der Wildhut erlegt werden.",
+    "quellen": [
+      "nw_hug",
+      "nw_jsv",
+      "nw_wrg"
+    ]
+  },
+  "leine": {
+    "punkte": [
+      "auf Sportplätzen und in Schulhausanlagen (Hundegesetz, Fassung von 2005)",
+      "in den Wildruhegebieten, soweit die Verordnung über die Wildruhegebiete es vorsieht (Stand 2019)",
+      "überall, wo der Regierungsrat Leinen- oder Maulkorbzwang angeordnet hat",
+      "wenn der Kantonstierarzt es für deinen Hund im Einzelfall anordnet"
+    ],
+    "quellen": [
+      "nw_hug",
+      "nw_wrg"
+    ]
+  },
+  "verbot": {
+    "einleitung": "Das Hundegesetz verbietet, Hunde an diese Orte mitzuführen oder dort laufen zu lassen (Fassung von 2005). Die Ordnungsbusse beträgt CHF 100.",
+    "punkte": [
+      "Friedhöfe",
+      "Spielplätze",
+      "Strandbäder"
+    ],
+    "quellen": [
+      "nw_hug",
+      "nw_kobv"
+    ]
+  },
+  "karten": [
+    {
+      "titel": "Haftpflicht",
+      "marke": "Hundegesetz",
+      "ton": "note",
+      "wert": "im Hundegesetz nicht genannt",
+      "text": "Das Hundegesetz des Kantons enthält in der abgerufenen Fassung (in Kraft seit 2005) keine Bestimmung zu einer Haftpflichtversicherung. Auch die Seite der Hundekontrolle nennt keine Versicherungspflicht.",
+      "quellen": [
+        "nw_hug",
+        "nw_hundekontrolle"
+      ]
+    },
+    {
+      "titel": "Kurs",
+      "marke": "Einzelfall",
+      "ton": "note",
+      "wert": "nur auf Anordnung",
+      "text": "Eine allgemeine Kurspflicht nennt das Hundegesetz nicht (Fassung von 2005). Nach einem Biss, einer Bedrohung oder bei auffälligem Verhalten kann der Kantonstierarzt den Besuch eines Erziehungskurses anordnen.",
+      "quellen": [
+        "nw_hug",
+        "nw_gefaehrlich"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "marke": "Pflicht",
+      "ton": "must",
+      "wert": "Amt für Justiz, innert 3 Monaten nach Geburt",
+      "text": "Du meldest deinen Hund beim kantonalen Amt für Justiz an, spätestens drei Monate nach der Geburt. Das geht über das Online-Formular «Anmeldung Hund». Das Amt erfasst dich in der Hundedatenbank AMICUS. Der Hund trägt einen Mikrochip. Änderungen von Name oder Adresse meldest du dem Amt innert 10 Tagen. Ordnungsbusse bei nicht erfüllter Meldepflicht oder fehlender Kennzeichnung: je CHF 100.",
+      "quellen": [
+        "nw_hundekontrolle",
+        "nw_huv",
+        "nw_kobv"
+      ]
+    },
+    {
+      "titel": "Hundesteuer",
+      "marke": "Kanton",
+      "ton": "note",
+      "wert": "CHF 120 pro Jahr",
+      "text": "Die Hundesteuer beträgt im ganzen Kanton CHF 120 pro Kalenderjahr. Das Amt für Justiz veranlagt und bezieht sie. Ziehst du weg oder stirbt dein Hund, kann dir die Steuer auf Antrag anteilsmässig zurückerstattet werden.",
+      "quellen": [
+        "nw_hundekontrolle"
+      ]
+    },
+    {
+      "titel": "Rassen",
+      "marke": "Einzelfall",
+      "ton": "note",
+      "wert": "keine Liste genannt",
+      "text": "Hundegesetz (Fassung von 2005) und die Seite des Kantons zu gefährlichen Hunden nennen keine Hunderassen. Bissverletzungen und Bedrohungen durch Hunde werden dem Kantonstierarzt gemeldet. Er kann Massnahmen anordnen, zum Beispiel Leinen- oder Maulkorbzwang oder ein Haltungsverbot. Eine Zucht, die auf Aggressivität zielt, ist verboten.",
+      "quellen": [
+        "nw_hug",
+        "nw_gefaehrlich"
+      ]
+    },
+    {
+      "titel": "Unterwegs",
+      "marke": "Regel",
+      "ton": "must",
+      "wert": "Kot aufnehmen, Hund beaufsichtigen",
+      "text": "Du nimmst den Kot deines Hundes auf öffentlichem und fremdem privatem Grund auf und entsorgst ihn. Deinen Hund unbeaufsichtigt frei laufen zu lassen, ist verboten. Ordnungsbussen: Hundekot nicht beseitigt CHF 100, Hund nicht gehörig verwahrt oder beaufsichtigt CHF 100, Hund absichtlich gereizt CHF 300.",
+      "quellen": [
+        "nw_hug",
+        "nw_kobv"
+      ]
+    }
+  ],
+  "vergleich": {
+    "wald": "keine feste Leinenzeit, Leine in Wildruhegebieten",
+    "haft": "im Hundegesetz nicht genannt",
+    "kurs": "nur auf Anordnung",
+    "rassen": "keine Liste genannt",
+    "steuer": "CHF 120 pro Jahr, kantonal",
+    "anm": "Amt für Justiz, innert 3 Monaten nach Geburt"
+  }
+}
