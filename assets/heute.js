@@ -1,4 +1,4 @@
-/* Gassi-Kompass: Tagesstatus zur Wald-Leinenpflicht und Ortsfilter der Startseite.
+/* Gassi-Kompass: Tagesstatus zur Wald-Leinenpflicht. Die Ortssuche steht in suche.js.
    Ohne dieses Skript zeigen die Seiten die Regel neutral an (kein veralteter "Heute"-Text). */
 (function () {
   var DAY = 864e5;
@@ -48,23 +48,4 @@
     }
   });
 
-  var box = document.querySelector("[data-filter]"), feld = document.getElementById("ortsfilter");
-  if (box && feld) {
-    box.hidden = false;
-    var leer = document.getElementById("kein-treffer");
-    feld.addEventListener("input", function () {
-      var q = feld.value.trim().toLowerCase(), treffer = 0;
-      document.querySelectorAll("[data-gruppe]").forEach(function (gruppe) {
-        var sichtbar = 0;
-        gruppe.querySelectorAll(".dest").forEach(function (a) {
-          var passt = !q || (a.getAttribute("data-such") || "").indexOf(q) !== -1;
-          a.hidden = !passt;
-          if (passt) sichtbar++;
-        });
-        gruppe.hidden = sichtbar === 0;
-        treffer += sichtbar;
-      });
-      if (leer) leer.hidden = treffer !== 0;
-    });
-  }
 })();

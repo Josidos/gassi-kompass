@@ -1,0 +1,84 @@
+{
+  "geprueft": "2026-11-17",
+  "karten": [
+    {
+      "titel": "Chip und Registrierung",
+      "marke": "Pflicht",
+      "ton": "must",
+      "wert": "Mikrochip und AMICUS",
+      "text": "Jeder Hund muss mit einem Mikrochip gekennzeichnet und in der Datenbank AMICUS registriert sein. Den Chip darf in der Schweiz nur eine Tierärztin oder ein Tierarzt setzen. Die Praxis registriert auch den Hund.",
+      "mehr": {
+        "titel": "Was du melden musst",
+        "punkte": [
+          "Neue Adresse oder neuer Name: der Gemeinde melden",
+          "Abgabe, Übernahme oder Tod des Hundes: direkt in AMICUS melden"
+        ]
+      },
+      "quellen": ["ch_blv_hunde"]
+    },
+    {
+      "titel": "Anmeldung",
+      "marke": "Pflicht",
+      "ton": "must",
+      "wert": "Bei der Wohngemeinde",
+      "text": "Wer einen Hund hat, meldet ihn bei der Wohngemeinde an. Je nach Ort ist die Gemeinde oder der Kanton für Registrierung und Hundesteuer zuständig. Deine Gemeinde sagt dir, wer es bei dir ist.",
+      "quellen": ["ch_chch_steuer"]
+    },
+    {
+      "titel": "Hundesteuer",
+      "marke": "Pflicht",
+      "ton": "must",
+      "wert": "Rund CHF 100 bis 200 pro Jahr",
+      "text": "Für den Hund ist eine Steuer fällig. Der Betrag hängt vom Ort ab und kann sich nach Grösse oder Gewicht des Hundes richten. Die Rechnung kommt jedes Jahr. Blindenhunde und Rettungshunde sind oft befreit.",
+      "quellen": ["ch_chch_steuer"]
+    },
+    {
+      "titel": "Kurs",
+      "marke": "keine Pflicht",
+      "ton": "none",
+      "wert": "Kein Pflichtkurs des Bundes",
+      "text": "Der obligatorische Sachkundenachweis galt vom 1. September 2008 bis 31. Dezember 2016. Seit dem 1. Januar 2017 ist er aufgehoben. Der Bund empfiehlt allen, die zum ersten Mal einen Hund halten, einen freiwilligen Kurs. Einige Kantone verlangen eigene Kurse.",
+      "quellen": ["ch_blv_hunde"]
+    },
+    {
+      "titel": "Hund aus dem Ausland",
+      "marke": "Pflicht",
+      "ton": "must",
+      "wert": "Innert 10 Tagen zum Tierarzt",
+      "text": "Nach der Einfuhr muss eine Tierärztin oder ein Tierarzt innert 10 Tagen die Kennzeichnung prüfen und den Hund in AMICUS melden. Der Import von Hunden mit kupierten Ohren oder kupierter Rute ist verboten.",
+      "quellen": ["ch_blv_hunde"]
+    },
+    {
+      "titel": "Haltung",
+      "marke": "Pflicht",
+      "ton": "must",
+      "wert": "Täglich Bewegung und Kontakt",
+      "text": "Hunde müssen täglich im Freien bewegt werden und brauchen täglich Kontakt zu Menschen, wenn möglich auch zu anderen Hunden. Frisches Wasser muss jederzeit verfügbar sein. Welpen bleiben mindestens acht Wochen bei der Mutter und den Geschwistern.",
+      "mehr": {
+        "titel": "Angebunden oder im Zwinger",
+        "punkte": [
+          "Angebundene Hunde brauchen mindestens 20 m² an der Laufleine und mindestens fünf Stunden pro Tag ohne Kette",
+          "Zwinger und Laufkette gelten nicht als Auslauf",
+          "Hunde, die im Freien leben, brauchen eine Hütte oder einen geschützten Raum und eine erhöhte Liegefläche"
+        ]
+      },
+      "quellen": ["ch_blv_hunde"]
+    },
+    {
+      "titel": "Hilfsmittel",
+      "marke": "Verbot",
+      "ton": "must",
+      "wert": "Kein Stachelhalsband, kein Strom",
+      "text": "Verboten sind Stachelhalsbänder, Zughalsbänder ohne Stopp und Geräte, die mit Strom, unangenehmen Geräuschen oder chemischen Stoffen wirken. Eine Ausnahme gilt nur für Fachpersonen mit kantonaler Bewilligung. Ein Maulkorb darf das Hecheln nicht verhindern. Auch das Kupieren von Ohren oder Rute ist verboten.",
+      "quellen": ["ch_blv_hunde"]
+    },
+    {
+      "titel": "Reisen",
+      "marke": "Regel",
+      "ton": "note",
+      "wert": "Ausweis, Chip, Tollwutimpfung",
+      "text": "Für Reisen ins Ausland braucht dein Hund mindestens einen Heimtierausweis, einen Mikrochip und eine gültige Tollwutimpfung. Dazu kommen die Vorschriften des Ziellandes und die Bedingungen für die Wiedereinreise.",
+      "quellen": ["ch_blv_hunde"]
+    }
+  ]
+}

@@ -106,7 +106,23 @@ Vorgaben in `CLAUDE.md` unter «Umbauten am Generator».
 - [ ] Themenseiten
 - [ ] Mehrsprachigkeit (Französisch und Italienisch)
 
-## 6. Später, nur nach Freigabe von Joss
+## 6. Ideen für später
+
+Aus dem Vergleich mit anderen Seiten. Erst angehen, wenn alle Kantone erfasst sind, jeweils als Sonderlauf.
+
+- Rassen-Check: Rasse wählen und sehen, in welchen Kantonen sie verboten oder bewilligungspflichtig ist. Braucht die Rasselisten als eigene Datenfelder.
+- Kantone direkt vergleichen: zwei Kantone wählen und nur die Unterschiede sehen (für den Umzug).
+- Checkliste «Neu mit Hund» pro Kanton zum Abhaken und Drucken, erzeugt aus den Karten.
+- «Standort verwenden» in der Ortssuche. Die Koordinaten stehen im Ortschaftenverzeichnis.
+- Fragen als Überschriften («Braucht es im Kanton Zürich einen Hundekurs?»), sobald die Suchdaten zeigen, wie gefragt wird.
+
+## 7. Braucht Zugriff, den der Lauf nicht hat
+
+- Ortsverzeichnis `data/orte.json` auf den aktuellen Stand bringen. Es braucht die aktuelle CSV-Datei «Amtliches Ortschaftenverzeichnis» von swisstopo, dann `python3 tools/orte.py DATEI "Stand"`. Der Lauf kann die Datei nicht abrufen. Offen, bis Joss sie liefert oder Claude sie in einer Sitzung mit Browser holt.
+- Suchdaten aus der Google Search Console auswerten: macht Claude in einer Sitzung über den Browser von Joss.
+- «Fehler melden» auf jeder Seite: braucht eine Kontaktadresse, die Joss freigibt.
+
+## 8. Später, nur nach Freigabe von Joss
 
 - Übersetzungen in Sprachen, die am Ort nicht Amtssprache sind, auch Englisch
 - Anzeigen und Affiliate-Links

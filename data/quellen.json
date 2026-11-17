@@ -83,5 +83,20 @@
     "kurz": "SRF 2024",
     "lang": "SRF: Diese Hunderassen sind in Ihrem Kanton verboten (19.12.2024)",
     "url": "https://www.srf.ch/news/schweiz/rottweiler-pitbull-co-diese-hunderassen-sind-in-ihrem-kanton-verboten-die-uebersicht"
+  },
+  "ch_blv_hunde": {
+    "kurz": "BLV: Hunde",
+    "lang": "Bundesamt für Lebensmittelsicherheit und Veterinärwesen BLV: Hunde",
+    "url": "https://www.blv.admin.ch/de/hunde"
+  },
+  "ch_chch_steuer": {
+    "kurz": "ch.ch: Hundesteuer",
+    "lang": "ch.ch, Behördenportal von Bund, Kantonen und Gemeinden: Hundesteuer",
+    "url": "https://www.ch.ch/de/steuern-und-finanzen/steuerarten/hundesteuer/"
+  },
+  "ch_swisstopo_orte": {
+    "kurz": "swisstopo: Ortschaftenverzeichnis",
+    "lang": "Bundesamt für Landestopografie swisstopo: Amtliches Ortschaftenverzeichnis mit Postleitzahl",
+    "url": "https://opendata.swiss/de/dataset/amtliches-ortschaftenverzeichnis-mit-postleitzahl-und-perimeter"
   }
 }

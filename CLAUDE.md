@@ -18,15 +18,23 @@ Das Ziel ist die ganze Schweiz: alle 26 Kantone, jeder in seinen Amtssprachen, d
 | `data/kantone/<kt>.json` | Regeln eines Kantons |
 | `data/gemeinden/<kt>/<gemeinde>.json` | Lokale Regeln einer Gemeinde |
 | `data/entwurf/<kt>.json` | Angefangener Kanton, dem noch Felder fehlen. Wird nicht gebaut. |
+| `data/schweiz.json` | Regeln des Bundes für die Seite `/schweiz/`. Kartenfelder wie beim Kanton. |
+| `data/orte.json` | Alle Gemeinden, Ortschaften und Postleitzahlen der Schweiz (swisstopo). Grundlage der Ortssuche. Nie von Hand ändern, entsteht mit `tools/orte.py`. |
 | `build.py` | Prüft die Daten und erzeugt alle Seiten |
-| `assets/` | Stylesheet, Skript, Schriften, Icon |
+| `assets/` | Stylesheet, Skripte (`heute.js` für den Wald-Status, `suche.js` für die Ortssuche), Schriften, Icon |
 | `tests/seiten.js` | Browser-Test der gebauten Seiten |
 | `BACKLOG.md` | Was als Nächstes dran ist |
 | `CHANGELOG.md` | Protokoll jedes Laufs |
 | `CNAME`, `.nojekyll` | Domain und Schalter für GitHub Pages. Nie löschen oder ändern. |
 | `google49e2be530ce3822a.html` | Bestätigungsdatei für die Google Search Console. Nie löschen oder ändern, sonst verliert Joss den Zugriff auf die Suchdaten. `build.py --check` meldet einen Fehler, wenn sie fehlt. |
 
-Erzeugte Dateien nie von Hand ändern: `index.html`, `404.html`, `sitemap.xml`, `robots.txt`, `ueber/` und die Kantonsordner wie `zh/`. Stattdessen Daten oder `build.py` anpassen und neu bauen.
+Erzeugte Dateien nie von Hand ändern: `index.html`, `404.html`, `sitemap.xml`, `robots.txt`, `assets/orte.json`, `ueber/`, `schweiz/` und die Kantonsordner wie `zh/`. Stattdessen Daten oder `build.py` anpassen und neu bauen.
+
+### Ortssuche
+
+Auf der Startseite gibt man eine Gemeinde, einen Ort, eine Postleitzahl oder einen Kanton ein. Die Suche kennt die ganze Schweiz aus `data/orte.json` und führt auf die genaueste Seite, die es gibt: die Gemeinde (über das Feld `bfs`), sonst den Kanton mit einem Hinweis zum Ort, sonst `/schweiz/` mit dem Hinweis, dass der Kanton noch folgt. Ein neuer Kanton oder eine neue Gemeinde erscheint in der Suche von selbst, sobald die Datei da ist. Alle Texte der Suche stehen in `build.py` in der Funktion `suche()`.
+
+Das Verzeichnis in `data/orte.json` ist eine Ausgabe von vor 2024, der Kantonswechsel von Moutier ist nachgeführt. Für die Suche zählt nur die Zuordnung von Ort und Postleitzahl zum Kanton. Gemeindenamen aus dem Verzeichnis erscheinen deshalb nirgends als Aussage über die heutige Gemeinde. Eine neuere Ausgabe kann der Lauf nicht abrufen, siehe `BACKLOG.md`.
 
 GitHub Pages veröffentlicht den Zweig `main`. Jeder Push auf `main` ist nach etwa einer Minute live.
 
@@ -49,6 +57,7 @@ Muster: `data/kantone/zh.json`.
 Muster: `data/gemeinden/lu/luzern.json`.
 
 - `id`, `kanton`, `geprueft`
+- `bfs`: BFS-Nummer der Gemeinde. Sie steht in `data/orte.json` unter `gemeinden` als `[Nummer, Name, Kanton]`. Über sie findet die Ortssuche die Seite. Steht die Gemeinde dort nicht (zum Beispiel nach einer Fusion), keine Seite anlegen und im Backlog notieren.
 - `name` («Stadt Luzern», «Winterthur»), `ort` («Luzern», für die Sortierung), `in_ort` («in der Stadt Luzern», «in Winterthur»)
 - wahlweise `hinweis_heute`: ein Satz für den Wald-Kasten, wenn die Gemeinde strenger ist als der Kanton
 - wahlweise `einleitung`
@@ -77,7 +86,7 @@ Deutsch mit Schweizer Rechtschreibung (ss statt ß), Du-Form, kurze Sätze. Betr
 Der Lauf startet mittwochs und samstags. Obergrenzen pro Lauf: höchstens **4 Dateien nachprüfen**, dazu entweder **1 neuer Kanton samt einer Gemeinde** oder **4 neue Gemeinden**. Ein Sonderlauf (siehe «Umbauten am Generator») macht nur den Umbau und sonst nichts.
 
 1. **Start.** Repository klonen oder aktualisieren. `python3 build.py --check` muss fehlerfrei sein. `BACKLOG.md` und die letzten zwei Einträge in `CHANGELOG.md` lesen.
-2. **Nachprüfen.** Die Dateien in `data/kantone/` und `data/gemeinden/` mit dem ältesten `geprueft` nehmen. Ist nichts älter als 60 Tage, diesen Schritt überspringen. Für jede Datei jede Quelle abrufen und jede Angabe vergleichen.
+2. **Nachprüfen.** Die Dateien in `data/kantone/` und `data/gemeinden/` sowie `data/schweiz.json` mit dem ältesten `geprueft` nehmen. Ist nichts älter als 60 Tage, diesen Schritt überspringen. Für jede Datei jede Quelle abrufen und jede Angabe vergleichen.
    - Stimmt alles: `geprueft` auf das heutige Datum setzen.
    - Hat sich etwas geändert: Angabe und wenn nötig `vergleich` anpassen, im Protokoll mit alt und neu festhalten, `geprueft` setzen.
    - Quelle nicht erreichbar: nichts ändern, `geprueft` nicht anfassen, im Protokoll notieren. Ist dieselbe Quelle laut Protokoll zum dritten Mal nicht erreichbar, eine andere amtliche Quelle suchen.

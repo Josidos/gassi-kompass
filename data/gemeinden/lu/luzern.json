@@ -1,6 +1,7 @@
 {
   "id": "luzern",
   "kanton": "lu",
+  "bfs": 1061,
   "name": "Stadt Luzern",
   "ort": "Luzern",
   "in_ort": "in der Stadt Luzern",

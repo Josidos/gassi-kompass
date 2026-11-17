@@ -1,6 +1,7 @@
 {
   "id": "zuerich",
   "kanton": "zh",
+  "bfs": 261,
   "name": "Stadt Zürich",
   "ort": "Zürich",
   "in_ort": "in der Stadt Zürich",

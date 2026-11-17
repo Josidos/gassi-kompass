@@ -194,3 +194,23 @@ table.wide tbody th a{text-underline-offset:2px}
 .prose h2{margin-top:12px}
 .foot nav{display:flex;flex-wrap:wrap;gap:6px 18px}
 .foot nav a{color:var(--ink);text-underline-offset:2px}
+
+/* Ortssuche, Kantonsraster, Hinweis zum gewählten Ort */
+.search{display:grid;gap:8px;max-width:600px}
+.search label{font-size:.92rem;font-weight:700}
+.search input{font:inherit;font-size:1.15rem;padding:14px 16px;border-radius:10px;border:2px solid var(--ink);background:var(--surface);color:var(--ink);width:100%}
+.search input::placeholder{color:var(--ink-2);opacity:.8}
+.search input:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+.search-status{margin:0;font-size:.85rem;color:var(--ink-2);min-height:1.35em}
+.dest.ok::before{background:var(--free-bg)}
+.dest.ok:hover::before{background:var(--plate-hover)}
+.dest.ok .dest-sub{color:var(--free);opacity:1}
+.dest.wait .dest-name{font-weight:620}
+.dest.wait::before{background:repeating-linear-gradient(135deg,var(--plate-off) 0 7px,var(--sunk) 7px 11px)}
+.dest.wait:hover::before{background:var(--plate-hover)}
+p.callout{display:block;max-width:66ch}
+.plates.raster{display:grid;grid-template-columns:repeat(auto-fill,minmax(158px,1fr));gap:8px 6px;align-items:stretch}
+.plates.raster .dest{justify-content:center;min-width:0}
+.plates.raster .dest-name{overflow-wrap:anywhere}
+.callout strong{font-weight:780}
+.sec-head p a,.prose a{text-underline-offset:2px}

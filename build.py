@@ -4,8 +4,8 @@
     python3 build.py          prüft die Daten und schreibt alle Seiten
     python3 build.py --check  prüft nur, schreibt nichts
 
-Erzeugt werden: index.html, 404.html, sitemap.xml, robots.txt, ueber/,
-<kanton>/ und <kanton>/<gemeinde>/. Diese Ausgaben nie von Hand ändern:
+Erzeugt werden: index.html, 404.html, sitemap.xml, robots.txt, ueber/, schweiz/,
+assets/orte.json, <kanton>/ und <kanton>/<gemeinde>/. Diese Ausgaben nie von Hand ändern:
 Daten in data/ oder dieses Skript anpassen und neu bauen.
 """
 import html
@@ -28,12 +28,31 @@ TAGE = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
 TOENE = {"must", "none", "note", "free"}
 SLUG = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 MMTT = re.compile(r"^(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])$")
-RESERVIERT = {"assets", "data", "tests", "ueber", "thema", "fr-ch", "it-ch"}
+RESERVIERT = {"assets", "data", "tests", "tools", "ueber", "schweiz", "thema", "fr-ch", "it-ch"}
 VERGLEICH = [("wald", "Leine im Wald"), ("haft", "Haftpflicht"), ("kurs", "Kurs"),
              ("rassen", "Rassen"), ("steuer", "Hundesteuer"), ("anm", "Anmeldung")]
 MIN_LOKAL = 3  # so viele belegte lokale Angaben braucht eine Gemeinde für eine eigene Seite
 # Feste Dateien, die nie fehlen dürfen: Domain, Pages-Schalter, Bestätigung für die Google Search Console
 FEST = ["CNAME", ".nojekyll", "google49e2be530ce3822a.html"]
+# Alle 26 Kantone. Für Kantone ohne Datei in data/kantone/ führt die Seite zu den Regeln des Bundes.
+KANTONE_ALLE = [("ag", "Aargau"), ("ar", "Appenzell Ausserrhoden"), ("ai", "Appenzell Innerrhoden"),
+                ("bl", "Basel-Landschaft"), ("bs", "Basel-Stadt"), ("be", "Bern"), ("fr", "Freiburg"),
+                ("ge", "Genf"), ("gl", "Glarus"), ("gr", "Graubünden"), ("ju", "Jura"), ("lu", "Luzern"),
+                ("ne", "Neuenburg"), ("nw", "Nidwalden"), ("ow", "Obwalden"), ("sh", "Schaffhausen"),
+                ("sz", "Schwyz"), ("so", "Solothurn"), ("sg", "St. Gallen"), ("ti", "Tessin"),
+                ("tg", "Thurgau"), ("ur", "Uri"), ("vd", "Waadt"), ("vs", "Wallis"), ("zg", "Zug"),
+                ("zh", "Zürich")]
+# Andere Schreibweisen grosser Orte für die Suche: so getippt (klein, ohne Akzente) -> amtlicher Gemeindename
+ANDERE_NAMEN = {
+    "genf": "Genève", "geneva": "Genève", "ginevra": "Genève", "neuenburg": "Neuchâtel",
+    "freiburg": "Fribourg", "friburgo": "Fribourg", "sitten": "Sion", "siders": "Sierre",
+    "delsberg": "Delémont", "pruntrut": "Porrentruy", "martinach": "Martigny", "losanna": "Lausanne",
+    "bale": "Basel", "basilea": "Basel", "berne": "Bern", "berna": "Bern", "lucerne": "Luzern",
+    "lucerna": "Luzern", "zurigo": "Zürich", "coire": "Chur", "coira": "Chur", "soleure": "Solothurn",
+    "soletta": "Solothurn", "saint gall": "St. Gallen", "sankt gallen": "St. Gallen",
+    "san gallo": "St. Gallen", "schaffhouse": "Schaffhausen", "sciaffusa": "Schaffhausen",
+    "thoune": "Thun", "bienne": "Biel/Bienne", "winterthour": "Winterthur", "bellenz": "Bellinzona",
+}
 
 e = html.escape
 
@@ -52,13 +71,17 @@ def lade():
     gemeinden = [lies(p) for p in sorted((DATA / "gemeinden").glob("*/*.json"))]
     kantone.sort(key=lambda k: k.get("name", ""))
     gemeinden.sort(key=lambda g: g.get("ort", ""))
-    return quellen, kantone, gemeinden
+    bund = lies(DATA / "schweiz.json")
+    orte = json.loads((DATA / "orte.json").read_text("utf-8"))
+    return quellen, kantone, gemeinden, bund, orte
 
 
 # ------------------------------------------------------------------- Prüfung
 
-def pruefe(quellen, kantone, gemeinden):
+def pruefe(quellen, kantone, gemeinden, bund, orte):
     fehler = []
+    alle = {kid for kid, _ in KANTONE_ALLE}
+    verzeichnis = {x[0]: x for x in orte.get("gemeinden", [])}
 
     def qs(keys, wo):
         if not keys:
@@ -109,6 +132,8 @@ def pruefe(quellen, kantone, gemeinden):
         kid = k["id"]
         if not SLUG.match(kid) or kid in RESERVIERT:
             fehler.append(f"{wo}: id '{kid}' ist ungültig oder reserviert")
+        if kid not in alle:
+            fehler.append(f"{wo}: id '{kid}' ist kein Kantonskürzel")
         if Path(wo).stem != kid:
             fehler.append(f"{wo}: Dateiname und id stimmen nicht überein")
         ids.add(kid)
@@ -141,10 +166,17 @@ def pruefe(quellen, kantone, gemeinden):
     gesehen = set()
     for g in gemeinden:
         wo = g["_datei"]
-        fehlt = [f for f in ("id", "kanton", "name", "ort", "in_ort", "geprueft", "karten") if f not in g]
+        fehlt = [f for f in ("id", "kanton", "bfs", "name", "ort", "in_ort", "geprueft", "karten") if f not in g]
         if fehlt:
             fehler.append(f"{wo}: Felder fehlen: {', '.join(fehlt)}")
             continue
+        eintrag = verzeichnis.get(g["bfs"])
+        if not eintrag:
+            fehler.append(f"{wo}: 'bfs' {g['bfs']} steht nicht in data/orte.json")
+        elif eintrag[2] != g["kanton"]:
+            fehler.append(f"{wo}: 'bfs' {g['bfs']} ({eintrag[1]}) liegt laut data/orte.json im Kanton {eintrag[2].upper()}")
+        if sum(1 for x in gemeinden if x.get("bfs") == g["bfs"]) > 1:
+            fehler.append(f"{wo}: 'bfs' {g['bfs']} kommt in mehreren Gemeinde-Dateien vor")
         if g["kanton"] not in ids:
             fehler.append(f"{wo}: Kanton '{g['kanton']}' hat keine Datei in data/kantone/")
         if Path(wo).parent.name != g["kanton"]:
@@ -166,6 +198,19 @@ def pruefe(quellen, kantone, gemeinden):
         if len(zonen) + len(g["karten"]) < MIN_LOKAL:
             fehler.append(f"{wo}: weniger als {MIN_LOKAL} belegte lokale Angaben. "
                           "Für diese Gemeinde keine eigene Seite anlegen.")
+    wo = bund["_datei"]
+    if "geprueft" not in bund or not bund.get("karten"):
+        fehler.append(f"{wo}: 'geprueft' und 'karten' sind Pflicht")
+    else:
+        datum(bund["geprueft"], wo)
+        for c in bund["karten"]:
+            karte(c, wo, True)
+    if len(verzeichnis) < 2000 or {x[2] for x in verzeichnis.values()} != alle:
+        fehler.append("data/orte.json: Verzeichnis ist unvollständig (weniger als 2000 Gemeinden oder nicht 26 Kantone)")
+    namen = {x[1] for x in verzeichnis.values()}
+    for getippt, name in ANDERE_NAMEN.items():
+        if name not in namen:
+            fehler.append(f"build.py, ANDERE_NAMEN: '{name}' (für '{getippt}') steht nicht in data/orte.json")
     for name in FEST:
         if not (ROOT / name).is_file():
             fehler.append(f"{name}: feste Datei fehlt. Nicht löschen, siehe CLAUDE.md.")
@@ -285,10 +330,95 @@ def lokal(g, Q, benutzt):
             f'<div class="cards">{karten}</div></section>')
 
 
-def tafel(href, name, unter, aktiv=False, such=""):
+def tafel(href, name, unter, aktiv=False, klasse=""):
     cur = ' aria-current="page"' if aktiv else ""
-    return (f'<a class="dest" href="{href}"{cur} data-such="{e(such.lower())}">'
+    art = f"dest {klasse}".strip()
+    return (f'<a class="{art}" href="{href}"{cur}>'
             f'<span class="dest-name">{e(name)}</span><span class="dest-sub">{e(unter)}</span></a>')
+
+
+def suche():
+    """Suchfeld für Gemeinde, Ort, Postleitzahl oder Kanton. Ohne Skript bleibt es unsichtbar.
+    Alle Texte stehen hier, assets/suche.js kennt keine Sprache."""
+    texte = {
+        "lade": "Das Ortsverzeichnis wird geladen.",
+        "leer": "Kein Ort gefunden. Prüfe die Schreibweise oder gib die Postleitzahl ein.",
+        "fehler": "Die Ortssuche lässt sich gerade nicht laden. Wähle unten deinen Kanton.",
+        "treffer": "{n} Treffer",
+        "viele": "Die ersten {max} von {n} Treffern. Tippe weiter, um einzugrenzen.",
+        "kt": "Kanton",
+        "gemeinde": "Gemeinde",
+        "lokal": "lokale Regeln",
+        "kanton": "Regeln des Kantons",
+        "bund": "Kanton folgt, Regeln des Bundes",
+    }
+    attrs = "".join(f' data-{k}="{e(v)}"' for k, v in texte.items())
+    return (f'<div class="search" data-suche{attrs} hidden>'
+            '<label for="ortssuche">Gemeinde, Ort oder Postleitzahl</label>'
+            '<input id="ortssuche" type="search" autocomplete="off" enterkeyhint="search" '
+            'placeholder="z. B. Wettingen oder 5430" aria-describedby="such-status">'
+            '<p class="search-status" id="such-status" role="status"></p>'
+            '<div class="plates" id="treffer"></div></div>'
+            '<noscript><p>Die Ortssuche braucht JavaScript. Ohne JavaScript wählst du unten deinen Kanton.</p></noscript>')
+
+
+def kantonsraster(kantone):
+    """Alle 26 Kantone: erfasste führen zur Kantonsseite, die übrigen zu den Regeln des Bundes."""
+    da = {k["id"] for k in kantone}
+    teile = []
+    for kid, name in KANTONE_ALLE:
+        if kid in da:
+            teile.append(tafel(f"/{kid}/", name, f"{kid.upper()} · erfasst", klasse="ok"))
+        else:
+            teile.append(tafel(f"/schweiz/#kt={kid}", name, f"{kid.upper()} · folgt", klasse="wait"))
+    return f'<div class="plates small raster">{"".join(teile)}</div>'
+
+
+def ortsindex(kantone, gemeinden, orte):
+    """Kompakte Liste für die Suche im Browser (assets/orte.json).
+    k: [Kürzel, Name, erfasst], g: [Gemeindename, Kanton-Nr., Adresse der Gemeinde-Seite oder 0],
+    o: [Ortsname oder 0 (gleich wie Gemeinde), PLZ, Gemeinde-Nr.], a: andere Schreibweisen."""
+    codes = [kid for kid, _ in KANTONE_ALLE]
+    da = {k["id"] for k in kantone}
+    seiten = {g["bfs"]: f'/{g["kanton"]}/{g["id"]}/' for g in gemeinden}
+    reihen = sorted(orte["gemeinden"], key=lambda x: x[0])
+    nr = {x[0]: i for i, x in enumerate(reihen)}
+    g = [[name, codes.index(kt), seiten.get(bfs, 0)] for bfs, name, kt in reihen]
+    k = [[kid, name, 1 if kid in da else 0] for kid, name in KANTONE_ALLE]
+
+    # Das Verzeichnis führt einen Ort bei jeder Gemeinde, in die sein Gebiet hineinreicht, oft nur
+    # mit einem schmalen Streifen. Heisst der Ort wie eine Gemeinde, zählt für die Suche nur sie.
+    zusatz = re.compile(r"\s*\(?\b(" + "|".join(c.upper() for c in codes) + r")\)?$")
+
+    def kern(name):
+        return zusatz.sub("", name).strip().lower()
+
+    gleichnamig = {}
+    for bfs, name, kt in reihen:
+        gleichnamig.setdefault(kern(name), []).append((bfs, kt))
+
+    def hauptgemeinde(name, bfs):
+        kandidaten = gleichnamig.get(kern(name))
+        if not kandidaten or any(b == bfs for b, _ in kandidaten):
+            return bfs
+        im_kanton = [b for b, kt in kandidaten if kt == reihen[nr[bfs]][2]]
+        if len(im_kanton) == 1:
+            return im_kanton[0]
+        m = zusatz.search(name)
+        laut_zusatz = [b for b, kt in kandidaten if m and kt == m.group(1).lower()]
+        if len(laut_zusatz) == 1:
+            return laut_zusatz[0]
+        return kandidaten[0][0] if len(kandidaten) == 1 else bfs
+
+    paare = {}
+    for name, plz, bfs in orte["orte"]:
+        paare.setdefault((plz, name), set()).add(hauptgemeinde(name, bfs))
+    o = []
+    for (plz, name), menge in sorted(paare.items()):
+        eigene = [b for b in menge if kern(reihen[nr[b]][1]) == kern(name)]
+        for b in sorted(eigene or menge):
+            o.append([0 if kern(reihen[nr[b]][1]) == kern(name) else name, int(plz), nr[b]])
+    return json.dumps({"k": k, "g": g, "o": o, "a": ANDERE_NAMEN}, ensure_ascii=False, separators=(",", ":"))
 
 
 def vergleich(kantone):
@@ -350,10 +480,11 @@ def seite(pfad, titel, beschr, inhalt, krumen, stand, benutzt, Q, index=True):
 <footer class="foot">
 <p><strong>Keine Rechtsberatung.</strong> Massgebend sind Gesetz, Verordnung und die Schilder vor Ort. Gassi-Kompass ist ein privates Projekt und kein Angebot eines Kantons oder einer Gemeinde.</p>
 {quellen}
-<nav aria-label="Fussnavigation"><a href="/">Start</a><a href="/#vergleich">Kantone im Vergleich</a><a href="/ueber/">Über diese Seite</a></nav>
+<nav aria-label="Fussnavigation"><a href="/">Ort suchen</a><a href="/schweiz/">Ganze Schweiz</a><a href="/#vergleich">Kantone im Vergleich</a><a href="/ueber/">Über diese Seite</a></nav>
 </footer>
 </div>
 <script src="/assets/heute.js" defer></script>
+<script src="/assets/suche.js" defer></script>
 </body>
 </html>
 """
@@ -361,26 +492,26 @@ def seite(pfad, titel, beschr, inhalt, krumen, stand, benutzt, Q, index=True):
 
 # --------------------------------------------------------------------- Seiten
 
-def seite_start(Q, kantone, gemeinden):
+def seite_start(Q, kantone, gemeinden, bund):
     gruppen = []
     for k in kantone:
-        tafeln = "".join(
-            tafel(f'/{k["id"]}/{g["id"]}/', g["name"], f'Kanton {k["kurz"]}',
-                  such=f'{g["name"]} {g["ort"]} {k["name"]} {k["kurz"]}')
-            for g in gemeinden if g["kanton"] == k["id"])
-        tafeln += tafel(f'/{k["id"]}/', "Übrige Gemeinden", k["name"], such=f'{k["name"]} {k["kurz"]}')
-        gruppen.append(f'<div class="group" data-gruppe><h3><a href="/{k["id"]}/">{e(k["name"])}</a></h3>'
-                       f'<div class="plates">{tafeln}</div></div>')
-    namen = ", ".join(k["name"].replace("Kanton ", "") for k in kantone)
-    stand = min(k["geprueft"] for k in kantone)
+        tafeln = "".join(tafel(f'/{k["id"]}/{g["id"]}/', g["name"], f'Kanton {k["kurz"]}')
+                         for g in gemeinden if g["kanton"] == k["id"])
+        if tafeln:
+            gruppen.append(f'<div class="group"><h3><a href="/{k["id"]}/">{e(k["name"])}</a></h3>'
+                           f'<div class="plates">{tafeln}</div></div>')
+    stand = min([k["geprueft"] for k in kantone] + [bund["geprueft"]])
     inhalt = f"""<section class="hero">
 <h1>Was gilt für deinen Hund hier?</h1>
-<p class="lede">Hunderegeln der Schweiz nach Kanton und Gemeinde. Zu jeder Angabe findest du die amtliche Quelle. Bisher erfasst: {namen}.</p>
+<p class="lede">Gib deine Gemeinde oder deine Postleitzahl ein. Du siehst, was dort gilt: die Regeln des Bundes, deines Kantons und, wo schon erfasst, deiner Gemeinde. Zu jeder Angabe findest du die amtliche Quelle.</p>
+{suche()}
 </section>
 <section class="sec" id="orte">
-<div class="sec-head"><span class="eyebrow">Ort wählen</span><h2>Kanton oder Gemeinde</h2></div>
-<div class="filter" data-filter hidden><label for="ortsfilter">Gemeinde oder Kanton suchen</label><input id="ortsfilter" type="search" autocomplete="off" placeholder="z. B. Luzern"></div>
-<p class="empty" id="kein-treffer" hidden>Kein Treffer. Wähle deinen Kanton: Dort stehen die Regeln, die in allen Gemeinden gelten.</p>
+<div class="sec-head"><span class="eyebrow">Kanton wählen</span><h2>Alle 26 Kantone</h2><p>{len(kantone)} von 26 Kantonen sind erfasst, weitere kommen laufend dazu. Bei den übrigen siehst du, <a href="/schweiz/">was in der ganzen Schweiz gilt</a>.</p></div>
+{kantonsraster(kantone)}
+</section>
+<section class="sec" id="gemeinden">
+<div class="sec-head"><span class="eyebrow">Lokale Regeln</span><h2>Gemeinden mit eigener Seite</h2><p>Für diese Gemeinden sind zusätzlich lokale Angaben erfasst, zum Beispiel Hundetaxe, Leinenzonen oder Freilaufzonen.</p></div>
 {"".join(gruppen)}
 </section>
 <section class="sec" id="vergleich">
@@ -388,9 +519,37 @@ def seite_start(Q, kantone, gemeinden):
 {vergleich(kantone)}
 </section>"""
     return seite("/", "Hunderegeln Schweiz nach Kanton und Gemeinde | Gassi-Kompass",
-                 "Leinenpflicht, Haftpflicht, Kurse und Hundesteuer nach Kanton und Gemeinde. "
-                 "Mit amtlicher Quelle zu jeder Angabe.",
+                 "Gemeinde oder Postleitzahl eingeben und sehen, was für Hunde gilt: Leinenpflicht, "
+                 "Haftpflicht, Kurse und Hundesteuer. Mit amtlicher Quelle zu jeder Angabe.",
                  inhalt, None, stand, [], Q)
+
+
+def seite_schweiz(bund, Q, kantone):
+    benutzt = []
+    karten = "".join(karte(c, Q, benutzt) for c in bund["karten"])
+    da = {k["id"] for k in kantone}
+    offen = json.dumps({kid: name for kid, name in KANTONE_ALLE if kid not in da}, ensure_ascii=False)
+    hinweis = (f'<p class="callout" data-ort-hinweis data-kantone="{e(offen)}" data-text="Der Kanton '
+               '{kanton} ist noch nicht erfasst. Auf dieser Seite steht, was in der ganzen Schweiz gilt. '
+               'Kanton und Gemeinde können zusätzliche Regeln haben." hidden></p>')
+    inhalt = f"""<section class="hero"><!--KRUMEN-->
+<h1>Das gilt in der ganzen Schweiz</h1>
+<p class="lede">Diese Regeln des Bundes gelten in jedem Kanton und in jeder Gemeinde. Leinenpflicht, Haftpflichtversicherung, Rasselisten und Kurse sind je nach Kanton verschieden und stehen auf den Kantonsseiten.</p>
+{hinweis}
+</section>
+<section class="sec">
+<div class="sec-head"><span class="eyebrow">Bund</span><h2>Pflichten für alle Hundehaltenden</h2></div>
+<div class="cards">{karten}</div>
+</section>
+<section class="sec" id="kantone">
+<div class="sec-head"><span class="eyebrow">Kanton wählen</span><h2>Dazu kommt dein Kanton</h2><p>{len(kantone)} von 26 Kantonen sind erfasst, weitere kommen laufend dazu.</p></div>
+{kantonsraster(kantone)}
+<p><a class="text-link" href="/">Gemeinde oder Postleitzahl suchen</a></p>
+</section>"""
+    return seite("/schweiz/", "Hunderegeln Schweiz: Was in allen Kantonen gilt | Gassi-Kompass",
+                 "Was der Bund für alle Hunde in der Schweiz vorschreibt: Mikrochip, AMICUS, Anmeldung, "
+                 "Hundesteuer, Haltung und verbotene Hilfsmittel. Mit amtlicher Quelle zu jeder Angabe.",
+                 inhalt, [("Start", "/"), ("Ganze Schweiz", "/schweiz/")], bund["geprueft"], benutzt, Q)
 
 
 def seite_kanton(k, Q, gemeinden):
@@ -401,6 +560,7 @@ def seite_kanton(k, Q, gemeinden):
     inhalt = f"""<section class="hero"><!--KRUMEN-->
 <h1>Hunderegeln {e(k["im"])}</h1>
 <p class="lede">Diese Regeln gelten in allen Gemeinden {e(k["des"])}. Gemeinden können zusätzliche Orte mit Leinenpflicht oder Hundeverbot festlegen.</p>
+<p class="callout" data-ort-hinweis data-text="Für diesen Ort sind noch keine lokalen Angaben erfasst. Auf dieser Seite stehen die Regeln, die im ganzen {e(k["name"])} gelten. Die Gemeinde kann zusätzliche Regeln haben." hidden></p>
 </section>
 {wald(k, Q, benutzt)}
 {regeln(k, Q, benutzt)}
@@ -408,7 +568,9 @@ def seite_kanton(k, Q, gemeinden):
 <section class="sec">
 <div class="sec-head"><span class="eyebrow">Gemeinden</span><h2>Lokale Regeln {e(k["im"])}</h2><p>Fehlt deine Gemeinde, gelten die Regeln auf dieser Seite und die Schilder vor Ort. Weitere Gemeinden kommen laufend dazu.</p></div>
 {orte}
+<p><a class="text-link" href="/schweiz/">Was zusätzlich in der ganzen Schweiz gilt</a></p>
 <p><a class="text-link" href="/#vergleich">Mit anderen Kantonen vergleichen</a></p>
+<p><a class="text-link" href="/">Anderen Ort suchen</a></p>
 </section>"""
     return seite(f'/{k["id"]}/',
                  f'Hunderegeln {k["im"]}: Leinenpflicht, Haftpflicht, Hundesteuer | Gassi-Kompass',
@@ -434,6 +596,8 @@ def seite_gemeinde(g, k, Q, gemeinden):
 <section class="sec">
 <div class="sec-head"><span class="eyebrow">{e(k["name"])}</span><h2>Weitere Orte {e(k["im"])}</h2></div>
 <div class="plates">{andere}</div>
+<p><a class="text-link" href="/schweiz/">Was zusätzlich in der ganzen Schweiz gilt</a></p>
+<p><a class="text-link" href="/">Anderen Ort suchen</a></p>
 </section>"""
     pfad = f'/{k["id"]}/{g["id"]}/'
     return seite(pfad,
@@ -444,13 +608,15 @@ def seite_gemeinde(g, k, Q, gemeinden):
 
 
 def seite_ueber(Q):
-    inhalt = """<section class="hero"><!--KRUMEN-->
+    inhalt = f"""<section class="hero"><!--KRUMEN-->
 <h1>Über Gassi-Kompass</h1>
 <p class="lede">Gassi-Kompass sammelt die Regeln für Hunde in der Schweiz an einem Ort: pro Kanton und pro Gemeinde, mit der amtlichen Quelle zu jeder Angabe.</p>
 </section>
 <section class="prose">
 <h2>Woher die Angaben stammen</h2>
-<p>Alle Angaben kommen aus amtlichen Quellen: Gesetze und Verordnungen der Kantone, Merkblätter der Veterinärdienste, Websites und offene Daten der Gemeinden. Wo ein politischer Entscheid nur in den Medien dokumentiert ist, steht das bei der Quelle.</p>
+<p>Alle Angaben kommen aus amtlichen Quellen: Informationen des Bundes, Gesetze und Verordnungen der Kantone, Merkblätter der Veterinärdienste, Websites und offene Daten der Gemeinden. Wo ein politischer Entscheid nur in den Medien dokumentiert ist, steht das bei der Quelle.</p>
+<h2>Wie die Ortssuche funktioniert</h2>
+<p>Die Suche kennt alle Gemeinden, Ortschaften und Postleitzahlen der Schweiz und ordnet sie dem Kanton zu. Sie zeigt dir die genaueste Seite, die es für deinen Ort schon gibt: die Gemeinde, sonst den Kanton, sonst die Regeln des Bundes. Grundlage ist das <a href="{e(Q["ch_swisstopo_orte"]["url"])}" target="_blank" rel="noopener">Amtliche Ortschaftenverzeichnis</a>. Quelle: Bundesamt für Landestopografie swisstopo.</p>
 <h2>Wie geprüft wird</h2>
 <p>Die Angaben werden automatisiert mit KI-Unterstützung zusammengestellt und regelmässig mit den Quellen abgeglichen. Auf jeder Seite steht, wann sie zuletzt geprüft wurde. Eine Gemeinde bekommt erst dann eine eigene Seite, wenn mindestens drei lokale Angaben amtlich belegt sind.</p>
 <h2>Was die Seite nicht ist</h2>
@@ -463,9 +629,10 @@ def seite_ueber(Q):
 
 
 def seite_404(Q):
-    inhalt = """<section class="hero">
+    inhalt = f"""<section class="hero">
 <h1>Diese Seite gibt es nicht</h1>
-<p class="lede">Vielleicht wurde die Adresse geändert. Auf der Startseite findest du alle Kantone und Gemeinden.</p>
+<p class="lede">Vielleicht wurde die Adresse geändert. Such deinen Ort gleich hier oder geh zur Startseite.</p>
+{suche()}
 <p><a class="text-link" href="/">Zur Startseite</a></p>
 </section>"""
     return seite("/404.html", "Seite nicht gefunden | Gassi-Kompass",
@@ -480,16 +647,20 @@ def schreibe(rel, text):
     ziel.write_text(text, "utf-8")
 
 
-def baue(Q, kantone, gemeinden):
+def baue(Q, kantone, gemeinden, bund, orte):
     for ordner in ROOT.iterdir():
         if ordner.is_dir() and (ordner / MARKE).exists():
             shutil.rmtree(ordner)
     nach_id = {k["id"]: k for k in kantone}
-    urls = [("/", min(k["geprueft"] for k in kantone)), ("/ueber/", None)]
-    schreibe("index.html", seite_start(Q, kantone, gemeinden))
+    urls = [("/", min([k["geprueft"] for k in kantone] + [bund["geprueft"]])), ("/ueber/", None),
+            ("/schweiz/", bund["geprueft"])]
+    schreibe("index.html", seite_start(Q, kantone, gemeinden, bund))
     schreibe("404.html", seite_404(Q))
     schreibe("ueber/index.html", seite_ueber(Q))
     schreibe(f"ueber/{MARKE}", "")
+    schreibe("schweiz/index.html", seite_schweiz(bund, Q, kantone))
+    schreibe(f"schweiz/{MARKE}", "")
+    schreibe("assets/orte.json", ortsindex(kantone, gemeinden, orte))
     for k in kantone:
         schreibe(f'{k["id"]}/index.html', seite_kanton(k, Q, gemeinden))
         schreibe(f'{k["id"]}/{MARKE}', "")
@@ -504,14 +675,14 @@ def baue(Q, kantone, gemeinden):
     schreibe("sitemap.xml", '<?xml version="1.0" encoding="UTF-8"?>\n'
              '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + eintraege + "</urlset>\n")
     schreibe("robots.txt", "User-agent: *\nAllow: /\nDisallow: /data/\nDisallow: /build.py\n"
-             "Disallow: /tests/\nDisallow: /CLAUDE.md\nDisallow: /BACKLOG.md\nDisallow: /CHANGELOG.md\nDisallow: /README.md\n\n"
+             "Disallow: /tests/\nDisallow: /tools/\nDisallow: /CLAUDE.md\nDisallow: /BACKLOG.md\nDisallow: /CHANGELOG.md\nDisallow: /README.md\n\n"
              f"Sitemap: {SITE}/sitemap.xml\n")
     return len(urls)
 
 
 def main():
-    quellen, kantone, gemeinden = lade()
-    fehler = pruefe(quellen, kantone, gemeinden)
+    quellen, kantone, gemeinden, bund, orte = lade()
+    fehler = pruefe(quellen, kantone, gemeinden, bund, orte)
     if fehler:
         print(f"FEHLER ({len(fehler)}). Nichts wurde geschrieben:")
         for f in fehler:
@@ -532,14 +703,17 @@ def main():
 
     sammle(kantone)
     sammle(gemeinden)
+    sammle(bund)
+    benutzt.add("ch_swisstopo_orte")  # steht auf der Seite «Über diese Seite»
     unbenutzt = sorted(set(quellen) - benutzt)
     if unbenutzt:
         print("Hinweis: unbenutzte Quellen in data/quellen.json:", ", ".join(unbenutzt))
     if "--check" in sys.argv:
         print(f"Daten in Ordnung: {len(kantone)} Kantone, {len(gemeinden)} Gemeinden, {len(quellen)} Quellen.")
         return 0
-    anzahl = baue(quellen, kantone, gemeinden)
-    print(f"Gebaut: {anzahl} Seiten ({len(kantone)} Kantone, {len(gemeinden)} Gemeinden, {len(quellen)} Quellen).")
+    anzahl = baue(quellen, kantone, gemeinden, bund, orte)
+    print(f"Gebaut: {anzahl} Seiten ({len(kantone)} Kantone, {len(gemeinden)} Gemeinden, {len(quellen)} Quellen). "
+          f"Ortssuche: {len(orte['gemeinden'])} Gemeinden, {len(orte['orte'])} Orte mit Postleitzahl.")
     return 0
 
 

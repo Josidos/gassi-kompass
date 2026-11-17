@@ -15,6 +15,10 @@ Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen
 - Automatischer Lauf eingerichtet: mittwochs und samstags um 04:23 Uhr.
 - Neue Strategie im Auftrag von Joss: alle 26 Kantone in ihren Amtssprachen, Themenseiten, danach Gemeinden. Reihenfolge in `BACKLOG.md`, Vorgaben in `CLAUDE.md`.
 - `tests/seiten.js` bricht neu ab, wenn eine veröffentlichte Adresse verschwindet.
+- Neu: Ortssuche für die ganze Schweiz (2137 Gemeinden, 5677 Orte mit Postleitzahl, Quelle swisstopo). Sie führt auf die Gemeinde, sonst auf den Kanton, sonst auf die Regeln des Bundes.
+- Neu: Seite `/schweiz/` mit den Regeln des Bundes (Quellen: BLV und ch.ch, abgerufen am 17. November 2026).
+- Neu: Übersicht aller 26 Kantone mit Stand «erfasst» oder «folgt».
+- Der Browser-Test prüft jede Seite neu in zwei Breiten und dazu die Ortssuche.
 - Nicht gelungen: nichts.
 
 ## 2026-11-16

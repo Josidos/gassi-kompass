@@ -3,6 +3,7 @@ Allow: /
 Disallow: /data/
 Disallow: /build.py
 Disallow: /tests/
+Disallow: /tools/
 Disallow: /CLAUDE.md
 Disallow: /BACKLOG.md
 Disallow: /CHANGELOG.md
