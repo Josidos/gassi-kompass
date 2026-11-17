@@ -1,0 +1,116 @@
+{
+  "id": "ne",
+  "name": "Canton de Neuchâtel",
+  "kurz": "NE",
+  "im": "dans le canton de Neuchâtel",
+  "des": "du canton de Neuchâtel",
+  "geprueft": "2026-11-17",
+  "wald": {
+    "saison": true,
+    "von": "04-15",
+    "bis": "06-30",
+    "wo": "en forêt",
+    "quellen": [
+      "ne_lfs",
+      "ne_laisse"
+    ]
+  },
+  "leine": {
+    "punkte": [
+      "en forêt, du 15 avril au 30 juin",
+      "toute l'année dans les zones de protection de la nature balisées, selon la signalisation sur place et les dispositions propres au site",
+      "en tout temps et partout, si vous ne pouvez pas maîtriser votre chien par la voix ou le geste",
+      "si le service vétérinaire l'a ordonné pour votre chien après un incident"
+    ],
+    "quellen": [
+      "ne_lfs",
+      "ne_laisse",
+      "ne_lchiens"
+    ]
+  },
+  "verbot": {
+    "einleitung": "La loi cantonale sur les chiens ne désigne pas de lieux interdits aux chiens. Les règles locales relèvent des communes.",
+    "punkte": [
+      "il est interdit de laisser errer un chien",
+      "il est interdit de laisser un chien quêter, poursuivre ou chasser des animaux sauvages"
+    ],
+    "quellen": [
+      "ne_lchiens",
+      "ne_lfs"
+    ]
+  },
+  "karten": [
+    {
+      "titel": "Responsabilité civile",
+      "marke": "Pas dans la loi",
+      "ton": "none",
+      "wert": "aucune obligation dans la loi sur les chiens",
+      "text": "La loi cantonale sur les chiens ne contient aucune disposition sur une assurance responsabilité civile.",
+      "quellen": [
+        "ne_lchiens"
+      ]
+    },
+    {
+      "titel": "Cours",
+      "marke": "Obligatoire",
+      "ton": "must",
+      "wert": "pour le premier chien",
+      "text": "Les nouveaux propriétaires de chiens doivent suivre un cours obligatoire. Selon le SCAV, il concerne toute personne d'au moins 18 ans domiciliée dans le canton qui a acquis un chien depuis le 1er janvier 2021 et ne peut pas prouver avoir déjà détenu un chien. Le cours comprend 2 heures de théorie et 8 périodes pratiques de 45 minutes avec le chien. Il doit débuter au plus tard 6 mois après l'acquisition et se terminer dans les 6 mois suivants.",
+      "quellen": [
+        "ne_lchiens",
+        "ne_scav"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "marke": "Obligatoire",
+      "ton": "note",
+      "wert": "Commune et AMICUS",
+      "text": "Comme nouveau propriétaire, vous annoncez votre arrivée à votre commune de domicile et le changement de propriétaire dans AMICUS. Vous y signalez ensuite les changements d'adresse et le décès du chien. Les frais d'identification et d'enregistrement sont à votre charge.",
+      "quellen": [
+        "ne_scav",
+        "ne_lchiens"
+      ]
+    },
+    {
+      "titel": "Impôt sur les chiens",
+      "marke": "annuel",
+      "ton": "note",
+      "wert": "au plus CHF 120 par chien",
+      "text": "La taxe est perçue par votre commune. Elle ne peut pas dépasser CHF 120 par an et par chien, y compris la part de CHF 30 due à l'État. Exonérés notamment: les chiens de moins de trois mois, les chiens d'assistance ou d'alerte, les chiens de catastrophe reconnus et les chiens utilisés en zoothérapie. Aucune taxe n'est due si le chien est acquis au second semestre. Taxe impayée: amende administrative jusqu'au double de la taxe éludée.",
+      "quellen": [
+        "ne_lchiens",
+        "ne_relchiens"
+      ]
+    },
+    {
+      "titel": "Races",
+      "marke": "Aucune liste",
+      "ton": "none",
+      "wert": "mesures au cas par cas",
+      "text": "La loi cantonale sur les chiens ne contient pas de liste de races. Après un incident, le service peut ordonner des mesures pour un chien précis: laisse, muselière, expertise comportementale, saisie, et dans les cas graves l'interdiction de détenir des chiens.",
+      "quellen": [
+        "ne_lchiens"
+      ]
+    },
+    {
+      "titel": "En promenade",
+      "marke": "Règle",
+      "ton": "note",
+      "wert": "Maîtrise par la voix ou le geste",
+      "text": "Vous devez pouvoir maîtriser votre chien à tout moment par la voix ou le geste. Sinon, il doit être tenu en laisse. Votre chien ne doit pas souiller le domaine public, les prés et les pâturages. À défaut, vous nettoyez l'endroit. Une infraction à la loi sur les chiens est passible d'une amende, une infraction à la loi sur la faune sauvage d'une amende jusqu'à CHF 40 000.",
+      "quellen": [
+        "ne_lchiens",
+        "ne_lfs"
+      ]
+    }
+  ],
+  "vergleich": {
+    "wald": "15.4 au 30.6, en forêt",
+    "haft": "aucune obligation dans la loi sur les chiens",
+    "kurs": "obligatoire pour le premier chien (2 heures de théorie, 8 périodes pratiques)",
+    "rassen": "aucune liste, mesures au cas par cas",
+    "steuer": "au plus CHF 120, perçue par la commune",
+    "anm": "commune de domicile et AMICUS"
+  }
+}

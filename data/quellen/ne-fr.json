@@ -1,0 +1,37 @@
+{
+  "ne_lchiens": {
+    "kurz": "LChiens NE",
+    "lang": "République et Canton de Neuchâtel: loi sur les chiens (LChiens, RSN 636.20) du 3 septembre 2019, état au 1er janvier 2026",
+    "url": "https://rsn.ne.ch/DATA/program/books/rsne/pdf/636.20.pdf"
+  },
+  "ne_relchiens": {
+    "kurz": "RELChiens NE",
+    "lang": "République et Canton de Neuchâtel: règlement d'exécution de la loi sur les chiens (RELChiens, RSN 636.201) du 18 décembre 2019, état au 1er mars 2024",
+    "url": "https://rsn.ne.ch/DATA/program/books/rsne/pdf/636.201.pdf"
+  },
+  "ne_lfs": {
+    "kurz": "LFS NE",
+    "lang": "République et Canton de Neuchâtel: loi sur la faune sauvage (LFS, RSN 922.10) du 7 février 1995, état au 1er février 2025",
+    "url": "https://rsn.ne.ch/DATA/program/books/rsne/pdf/92210.pdf"
+  },
+  "ne_laisse": {
+    "kurz": "Canton NE: chiens en laisse",
+    "lang": "République et Canton de Neuchâtel: dépliant «Chiens en laisse» (2024, art. 21 LFS)",
+    "url": "https://www.ne.ch:443/medias/Documents/24/03/flyer_chiens%20en%20laisse_2024.pdf"
+  },
+  "ne_scav": {
+    "kurz": "SCAV NE: chiens",
+    "lang": "République et Canton de Neuchâtel, Service de la consommation et des affaires vétérinaires (SCAV): informations aux propriétaires de chiens, cours obligatoire et enregistrement (consulté le 17 novembre 2026)",
+    "url": "https://www.NE.ch/autorites/DDTE/SCAV/animaux/Documents/ReglementCoursChiensRCC.pdf"
+  },
+  "ne_ville_chien": {
+    "kurz": "Ville de Neuchâtel: Mon chien en ville",
+    "lang": "Ville de Neuchâtel, Accueil et quartiers: dépliant «Mon chien en ville» (2022)",
+    "url": "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/Vivre_a_Neuchatel/Foyer_et_famille/Animaux_de_compagnie/Mon_chien_en_ville_-_2022.pdf"
+  },
+  "ne_ville_police": {
+    "kurz": "Ville de Neuchâtel: règlement de police",
+    "lang": "Ville de Neuchâtel: règlement de police du 17 janvier 2000 (12.2), version publiée avec modifications jusqu'au 1er juin 2015",
+    "url": "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/12_2_R_police.pdf"
+  }
+}
