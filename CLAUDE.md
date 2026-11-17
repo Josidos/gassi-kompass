@@ -119,7 +119,8 @@ Diese Schritte verlangen sein Konto, sein Geld oder seine Entscheidung. Nie selb
 - AdSense-Konto und Affiliate-Konten eröffnen. Fällig, sobald `sitemap.xml` 40 Seiten zählt und die Search Console Besucher zeigt.
 - Entscheiden, welche Angaben zu seiner Person in Impressum und Datenschutzerklärung stehen dürfen. Fällig zusammen mit dem AdSense-Konto.
 - Domain verlängern. Registriert Mitte November 2026, ab Oktober 2027 daran erinnern.
-- Verbreitung freigeben: Absenderadresse, Empfänger und Wortlaut der Anschreiben. Fällig, sobald alle deutschsprachigen Kantone erfasst sind.
+- Verbreitung freigeben: Empfänger und Wortlaut der Anschreiben. Absender ist kontakt@gassi-kompass.ch. Fällig, sobald alle deutschsprachigen Kantone erfasst sind.
+- Das Postfach kontakt@gassi-kompass.ch lesen. Meldet jemand dort einen Fehler, gibt Joss ihn an Claude weiter.
 
 ### Schon erledigt
 
@@ -201,6 +202,6 @@ Die Sitemap wurde am 17. November 2026 eingereicht. Zeigt die Search Console am 
 Hier steht, was Joss ausdrücklich freigegeben hat.
 
 - 2026-11-17: automatischer Lauf mit Push auf `main`. Täglich, bis alle 26 Kantone erfasst sind, danach mittwochs und samstags.
-- 2026-11-17: eine Kontaktadresse für das Projekt, zum Beispiel kontakt@gassi-kompass.ch. Sie ist noch nicht eingerichtet. Auf der Seite darf sie erst stehen, wenn sie hier mit dem Vermerk «eingerichtet» eingetragen ist.
+- 2026-11-17: Kontaktadresse kontakt@gassi-kompass.ch, eingerichtet bei Infomaniak. Sie steht im Fuss jeder Seite und auf «Über diese Seite» (Konstante `KONTAKT` in `build.py`). Eine andere Adresse oder weitere Angaben zu Joss gehören nicht auf die Seite. Der Lauf hat keinen Zugriff auf das Postfach.
 - 2026-11-17: Claude liest die Suchzahlen etwa einmal im Monat über den Browser von Joss aus der Search Console, ohne dort etwas zu ändern.
 - 2026-11-17: Ausbau auf alle 26 Kantone, Französisch und Italienisch in den Amtssprachen der Kantone, Themenseiten. Claude entscheidet über Reihenfolge und Strategie.

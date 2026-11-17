@@ -112,6 +112,7 @@ Ungefähr nach Grösse. Neue Kantone tragen hier ihre grössten Gemeinden ein.
 - [ ] Kanton Aargau: Ordnungsbusse für Hundekot (CHF 100) mit einer Fassung der OBVV nach 2021 bestätigen
 
 - [ ] Stadt St. Gallen: Leinenpflicht und Hundeverbote direkt mit dem Polizeireglement belegen (bisher nur über die Seite der Stadtpolizei), Bussen ergänzen
+- [ ] Kanton St. Gallen: Verordnung über die Jagdvorschriften (sGS 853.111) auf eine Leinenpflicht im Wald prüfen. Am 2026-11-17 war der Text nicht lesbar. Bis dahin sagt die Seite nur, was in Hundegesetz, Jagdgesetz und Jagdverordnung steht.
 
 ## 5. Umbauten am Generator
 
@@ -134,7 +135,7 @@ Aus dem Vergleich mit anderen Seiten. Erst angehen, wenn alle Kantone erfasst si
 
 - Ortsverzeichnis `data/orte.json` auf den aktuellen Stand bringen. Es braucht die aktuelle CSV-Datei «Amtliches Ortschaftenverzeichnis» von swisstopo, dann `python3 tools/orte.py DATEI "Stand"`. Der Lauf kann die Datei nicht abrufen. Offen, bis Joss sie liefert oder Claude sie in einer Sitzung mit Browser holt.
 - Suchdaten aus der Google Search Console auswerten: macht Claude in einer Sitzung über den Browser von Joss.
-- «Fehler melden» auf jeder Seite: braucht eine Kontaktadresse, die Joss freigibt.
+- Postfach kontakt@gassi-kompass.ch lesen und beantworten: macht Joss, oder Claude in einer Sitzung über den Browser von Joss. Der Lauf hat keinen Zugriff darauf.
 
 ## 8. Später, nur nach Freigabe von Joss
 

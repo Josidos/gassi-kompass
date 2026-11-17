@@ -214,3 +214,4 @@ p.callout{display:block;max-width:66ch}
 .plates.raster .dest-name{overflow-wrap:anywhere}
 .callout strong{font-weight:780}
 .sec-head p a,.prose a{text-underline-offset:2px}
+.foot p a{color:inherit;text-underline-offset:2px}

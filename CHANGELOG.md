@@ -2,6 +2,13 @@
 
 Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen.
 
+## 2026-11-17, Sitzung mit Joss
+
+- Neu: Kontaktadresse kontakt@gassi-kompass.ch (Postfach bei Infomaniak, DNS-Einträge für Mail geprüft). Sie steht im Fuss jeder Seite und auf «Über diese Seite».
+- Entscheid von Joss: Der Lauf arbeitet täglich, bis alle 26 Kantone erfasst sind, danach mittwochs und samstags.
+- Stichprobe Kanton Aargau: Hundetaxe, Anmeldefrist und Leinenpflicht im Wald mit den Seiten des Kantons verglichen, alles stimmt.
+- Geändert, Kanton St. Gallen, Vergleichstabelle «Leine im Wald»: alt «keine Saisonregel, Leine ohne wirksame Kontrolle», neu «keine feste Leinenzeit im Hunde- und Jagdgesetz, Leine ohne wirksame Kontrolle». Grund: Die Verordnung über die Jagdvorschriften (sGS 853.111) war nicht lesbar und ist noch nicht geprüft.
+
 ## 2026-11-17, zweiter Lauf (von Hand ausgelöst)
 
 - Nachgeprüft: nichts. Keine Datei ist älter als 60 Tage.

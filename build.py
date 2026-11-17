@@ -15,6 +15,7 @@ import shutil
 import sys
 from datetime import date
 from pathlib import Path
+from urllib.parse import quote
 
 ROOT = Path(__file__).resolve().parent
 DATA = ROOT / "data"
@@ -34,6 +35,8 @@ VERGLEICH = [("wald", "Leine im Wald"), ("haft", "Haftpflicht"), ("kurs", "Kurs"
 MIN_LOKAL = 3  # so viele belegte lokale Angaben braucht eine Gemeinde für eine eigene Seite
 # Feste Dateien, die nie fehlen dürfen: Domain, Pages-Schalter, Bestätigung für die Google Search Console
 FEST = ["CNAME", ".nojekyll", "google49e2be530ce3822a.html"]
+# Kontaktadresse des Projekts, von Joss freigegeben (siehe CLAUDE.md, «Freigaben»). Keine andere Adresse einsetzen.
+KONTAKT = "kontakt@gassi-kompass.ch"
 # Alle 26 Kantone. Für Kantone ohne Datei in data/kantone/ führt die Seite zu den Regeln des Bundes.
 KANTONE_ALLE = [("ag", "Aargau"), ("ar", "Appenzell Ausserrhoden"), ("ai", "Appenzell Innerrhoden"),
                 ("bl", "Basel-Landschaft"), ("bs", "Basel-Stadt"), ("be", "Bern"), ("fr", "Freiburg"),
@@ -479,6 +482,7 @@ def seite(pfad, titel, beschr, inhalt, krumen, stand, benutzt, Q, index=True):
 {inhalt.replace("<!--KRUMEN-->", crumbs)}
 <footer class="foot">
 <p><strong>Keine Rechtsberatung.</strong> Massgebend sind Gesetz, Verordnung und die Schilder vor Ort. Gassi-Kompass ist ein privates Projekt und kein Angebot eines Kantons oder einer Gemeinde.</p>
+<p>Stimmt etwas nicht oder fehlt etwas? Schreib an <a href="mailto:{KONTAKT}?subject={quote("Hinweis zu " + pfad)}">{KONTAKT}</a>.</p>
 {quellen}
 <nav aria-label="Fussnavigation"><a href="/">Ort suchen</a><a href="/schweiz/">Ganze Schweiz</a><a href="/#vergleich">Kantone im Vergleich</a><a href="/ueber/">Über diese Seite</a></nav>
 </footer>
@@ -619,6 +623,8 @@ def seite_ueber(Q):
 <p>Die Suche kennt alle Gemeinden, Ortschaften und Postleitzahlen der Schweiz und ordnet sie dem Kanton zu. Sie zeigt dir die genaueste Seite, die es für deinen Ort schon gibt: die Gemeinde, sonst den Kanton, sonst die Regeln des Bundes. Grundlage ist das <a href="{e(Q["ch_swisstopo_orte"]["url"])}" target="_blank" rel="noopener">Amtliche Ortschaftenverzeichnis</a>. Quelle: Bundesamt für Landestopografie swisstopo.</p>
 <h2>Wie geprüft wird</h2>
 <p>Die Angaben werden automatisiert mit KI-Unterstützung zusammengestellt und regelmässig mit den Quellen abgeglichen. Auf jeder Seite steht, wann sie zuletzt geprüft wurde. Eine Gemeinde bekommt erst dann eine eigene Seite, wenn mindestens drei lokale Angaben amtlich belegt sind.</p>
+<h2>Fehler melden</h2>
+<p>Stimmt eine Angabe nicht mehr oder fehlt etwas? Schreib an <a href="mailto:{KONTAKT}">{KONTAKT}</a>. Nenn bitte den Ort und, wenn du sie hast, die amtliche Quelle.</p>
 <h2>Was die Seite nicht ist</h2>
 <p>Gassi-Kompass ist keine Rechtsberatung und kein Angebot eines Kantons oder einer Gemeinde. Massgebend sind Gesetz, Verordnung und die Schilder vor Ort. Regeln können sich ändern, und Fehler sind möglich. Im Zweifel gilt die verlinkte Quelle.</p>
 <p>Gassi-Kompass ist ein privates Projekt aus der Schweiz.</p>
