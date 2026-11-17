@@ -1,0 +1,46 @@
+{
+  "id": "neuchatel",
+  "kanton": "ne",
+  "bfs": 6458,
+  "name": "Ville de Neuchâtel",
+  "ort": "Neuchâtel",
+  "in_ort": "à Neuchâtel",
+  "geprueft": "2026-11-17",
+  "hinweis_heute": "En ville de Neuchâtel, la laisse est obligatoire toute l'année dans les zones piétonnes, sur les allées des Jeunes-Rives et dans les jardins publics.",
+  "einleitung": "Le dépliant «Mon chien en ville» de la Ville résume les règles locales. État du dépliant: 2022.",
+  "karten": [
+    {
+      "titel": "Laisse",
+      "wert": "zones piétonnes, Jeunes-Rives, jardins publics",
+      "text": "La laisse est obligatoire dans les zones piétonnes, sur les allées des Jeunes-Rives et dans les jardins publics. En forêt, elle est obligatoire du 15 avril au 30 juin. Les chiens hargneux doivent être tenus en laisse et munis d'une muselière. État du dépliant: 2022. État du règlement de police: 2015.",
+      "quellen": [
+        "ne_ville_chien",
+        "ne_ville_police"
+      ]
+    },
+    {
+      "titel": "Accès interdit",
+      "wert": "places de sport et de jeux, cours de collèges, plages en journée",
+      "text": "Les chiens n'ont pas accès aux places de sport, aux places de jeux, aux cours de collèges, aux zones engazonnées et aux massifs floraux. Sur plusieurs plages de baignade, l'accès est interdit de 9 h à 22 h: Favarge, ouest du Nid-du-Crô, Jeunes-Rives, quai Ostervald, quai Max-Petitpierre, plage et piscine de Serrières. Cette interdiction est levée du 15 octobre au 15 mars. État du dépliant: 2022.",
+      "quellen": [
+        "ne_ville_chien"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "wert": "à l'Office de l'accueil et des quartiers",
+      "text": "Vous annoncez votre chien à l'Office de l'accueil et des quartiers pour obtenir votre numéro Amicus. Vous y annoncez aussi les changements: nouvelle adresse, décès ou don du chien. La Ville envoie ensuite chaque année la facture de la taxe. État du dépliant: 2022.",
+      "quellen": [
+        "ne_ville_chien"
+      ]
+    },
+    {
+      "titel": "Amendes",
+      "wert": "jusqu'à CHF 5000",
+      "text": "Les infractions au règlement de police sont punies d'une amende jusqu'à CHF 5000. Le règlement interdit de laisser errer les chiens et vous oblige à empêcher votre chien de faire ses besoins sur la voie publique, en particulier sur les cheminements piétonniers, les promenades, les parcs publics et les aires de jeux. À défaut, vous nettoyez l'endroit. Un chien errant est saisi et mis en fourrière. État du règlement: 2015.",
+      "quellen": [
+        "ne_ville_police"
+      ]
+    }
+  ]
+}
