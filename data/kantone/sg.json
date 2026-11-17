@@ -1,0 +1,118 @@
+{
+  "id": "sg",
+  "name": "Kanton St. Gallen",
+  "kurz": "SG",
+  "im": "im Kanton St. Gallen",
+  "des": "des Kantons St. Gallen",
+  "geprueft": "2026-11-17",
+  "wald": {
+    "saison": false,
+    "text": "Hundegesetz, Jagdgesetz und Jagdverordnung des Kantons enthalten keine Leinenpflicht im Wald zu festen Daten. Du musst deinen Hund aber überall anleinen, wenn du ihn nicht anders wirksam kontrollieren kannst. Gemeinden können mit Signalisation weitere Orte mit Leinenpflicht bestimmen. Ein wildernder Hund, der das Wild unmittelbar gefährdet, darf abgeschossen werden.",
+    "quellen": [
+      "sg_hug",
+      "sg_jagdg",
+      "sg_jagdv"
+    ]
+  },
+  "leine": {
+    "punkte": [
+      "auf Schulanlagen",
+      "auf öffentlichen Spiel- und Sportplätzen",
+      "in öffentlich zugänglichen Gebäuden",
+      "in öffentlichen Verkehrsmitteln, an Bahnhöfen und Haltestellen",
+      "an weiteren Orten, die deine Gemeinde mit Reglement oder Signalisation bestimmt hat",
+      "überall, wo du deinen Hund nicht anders wirksam kontrollieren kannst"
+    ],
+    "quellen": [
+      "sg_hug"
+    ]
+  },
+  "verbot": {
+    "einleitung": "Das Hundegesetz des Kantons nennt keine Orte mit Hundeverbot. Es überlässt das den Gemeinden.",
+    "punkte": [
+      "Orte, die deine Gemeinde mit Reglement oder signalisierter Verfügung bestimmt hat"
+    ],
+    "quellen": [
+      "sg_hug"
+    ]
+  },
+  "karten": [
+    {
+      "titel": "Haftpflicht",
+      "marke": "Pflicht",
+      "ton": "must",
+      "wert": "für alle Hunde",
+      "text": "Wer einen Hund hält, braucht eine Haftpflichtversicherung. Sie muss auch die Person decken, die den Hund tatsächlich beaufsichtigt. Eine Mindestsumme nennt das Hundegesetz nicht.",
+      "quellen": [
+        "sg_hug"
+      ]
+    },
+    {
+      "titel": "Kurs",
+      "marke": "keine Pflicht",
+      "ton": "none",
+      "wert": "nur im Einzelfall",
+      "text": "Das Hundegesetz kennt keinen Pflichtkurs für alle Hunde. Der Kanton kann im Einzelfall den Besuch von Ausbildungskursen anordnen, zum Beispiel nach einem Vorfall.",
+      "quellen": [
+        "sg_hug"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "marke": "Pflicht",
+      "ton": "note",
+      "wert": "Gemeinde und AMICUS",
+      "text": "Alle Hunde brauchen einen Mikrochip und müssen in der Hundedatenbank AMICUS angemeldet sein. Kennzeichnung und Registrierung richten sich nach Bundesrecht. Deine Wohnsitzgemeinde registriert dich als Halterin oder Halter in der Hundedatenbank und erfasst Namens- und Adressänderungen.",
+      "quellen": [
+        "sg_vet",
+        "sg_hug"
+      ]
+    },
+    {
+      "titel": "Hundesteuer",
+      "marke": "jährlich",
+      "ton": "note",
+      "wert": "CHF 60 bis 200",
+      "text": "Für jeden Hund, der älter als drei Monate ist, zahlst du deiner Wohnsitzgemeinde eine Steuer von CHF 60 bis CHF 200 pro Kalenderjahr. Die Höhe legt der Gemeinderat fest. Befreit sind unter anderem Blindenführ- und Behindertenhunde.",
+      "quellen": [
+        "sg_hug"
+      ]
+    },
+    {
+      "titel": "Rassen",
+      "marke": "keine Liste",
+      "ton": "none",
+      "wert": "keine Rasseliste",
+      "text": "Das Hundegesetz enthält keine Liste verbotener oder bewilligungspflichtiger Rassen. Der Kanton ordnet Einschränkungen im Einzelfall an, etwa wenn ein Hund Menschen oder Tiere erheblich verletzt hat oder übermässig aggressiv ist. Eine generelle Maulkorbpflicht gibt es nicht.",
+      "quellen": [
+        "sg_hug",
+        "sg_vet"
+      ]
+    },
+    {
+      "titel": "Unterwegs",
+      "marke": "Regel",
+      "ton": "note",
+      "wert": "Kot und Kontrolle",
+      "text": "Wer einen Hund ausführt, beseitigt dessen Kot. Dein Hund muss jederzeit kontrollierbar sein und darf sich im öffentlichen Raum nicht unbeaufsichtigt bewegen. Verstösse gegen Leinen-, Zutritts-, Kot- und Versicherungspflicht können mit Busse bis CHF 10'000 bestraft werden.",
+      "quellen": [
+        "sg_hug"
+      ]
+    }
+  ],
+  "vergleich": {
+    "wald": "keine Saisonregel, Leine ohne wirksame Kontrolle",
+    "haft": "Pflicht, keine Mindestsumme im Gesetz",
+    "kurs": "keine Pflicht, nur im Einzelfall",
+    "rassen": "keine Rasseliste",
+    "steuer": "CHF 60 bis 200, je nach Gemeinde",
+    "anm": "Wohnsitzgemeinde und AMICUS"
+  },
+  "umzug": {
+    "text": "Hat ein anderer Kanton für deinen Hund Einschränkungen angeordnet, musst du sie innert 10 Tagen dem Amt für Verbraucherschutz und Veterinärwesen melden.",
+    "quellen": [
+      "sg_hug",
+      "sg_vet"
+    ]
+  }
+}

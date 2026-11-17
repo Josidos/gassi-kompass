@@ -15,10 +15,10 @@ In jedem Lauf ausser den Sonderläufen zusätzlich höchstens eine Lücke aus Ab
 
 ## 1. Deutschsprachige Kantone
 
-Ungefähr nach Bevölkerung. Schon erfasst: Zürich, Bern, Luzern, Aargau.
+Ungefähr nach Bevölkerung. Schon erfasst: Zürich, Bern, Luzern, Aargau, St. Gallen.
 
 - [x] Aargau (`ag`), 2026-11-17
-- [ ] St. Gallen (`sg`)
+- [x] St. Gallen (`sg`), 2026-11-17, mit Stadt St. Gallen
 - [ ] Basel-Stadt (`bs`)
 - [ ] Basel-Landschaft (`bl`)
 - [ ] Thurgau (`tg`)
@@ -57,6 +57,10 @@ Ungefähr nach Grösse. Neue Kantone tragen hier ihre grössten Gemeinden ein.
 - [ ] Baden (AG)
 - [ ] Wohlen (AG)
 - [ ] Rheinfelden (AG)
+- [ ] Rapperswil-Jona (SG)
+- [ ] Wil (SG)
+- [ ] Gossau (SG)
+- [ ] Uzwil (SG)
 - [ ] Winterthur (ZH)
 - [ ] Biel/Bienne (BE), Adresse `biel-bienne`
 - [ ] Thun (BE)
@@ -106,6 +110,8 @@ Ungefähr nach Grösse. Neue Kantone tragen hier ihre grössten Gemeinden ein.
 
 - [ ] Kanton Aargau: Hundeverordnung (HuV, SAR 393.411) in der geltenden Fassung lesen. Der Lauf vom 2026-11-17 erreichte nur die Fassungen von 2014 und 2016. Danach ergänzen, falls unverändert: Deckungssumme der Haftpflicht für Listenhunde, Fristen für Kurs und Prüfung, halbe Taxe.
 - [ ] Kanton Aargau: Ordnungsbusse für Hundekot (CHF 100) mit einer Fassung der OBVV nach 2021 bestätigen
+
+- [ ] Stadt St. Gallen: Leinenpflicht und Hundeverbote direkt mit dem Polizeireglement belegen (bisher nur über die Seite der Stadtpolizei), Bussen ergänzen
 
 ## 5. Umbauten am Generator
 

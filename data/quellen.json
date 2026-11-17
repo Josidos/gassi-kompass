@@ -128,5 +128,30 @@
     "kurz": "Ordnungsbussen AG",
     "lang": "Kanton Aargau: Verordnung über das Ordnungsbussenverfahren (OBVV, SAR 251.213), Anhang 1, Stand 1. Juli 2021 (über LexFind)",
     "url": "https://www.lexfind.ch/tolv/207516/de"
+  },
+  "sg_vet": {
+    "kurz": "Veterinärwesen SG",
+    "lang": "Kanton St. Gallen, Amt für Verbraucherschutz und Veterinärwesen: Hunde (Stand der Seite 5. Dezember 2025)",
+    "url": "https://www.sg.ch/umwelt-natur/veterinaerwesen/tiere-halten/hunde.html"
+  },
+  "sg_hug": {
+    "kurz": "Hundegesetz SG",
+    "lang": "Kanton St. Gallen: Hundegesetz (HuG, sGS 456.1) vom 13. August 2019, Stand 1. Januar 2020",
+    "url": "https://sg.lexwork.naz.ch/de/dta/456.1.pdf"
+  },
+  "sg_jagdg": {
+    "kurz": "Jagdgesetz SG",
+    "lang": "Kanton St. Gallen: Jagdgesetz (sGS 853.1), Stand 1. April 2024",
+    "url": "https://sg.lexwork.naz.ch/de/dta/853.1.pdf"
+  },
+  "sg_jagdv": {
+    "kurz": "Jagdverordnung SG",
+    "lang": "Kanton St. Gallen: Jagdverordnung (JV, sGS 853.11), Stand 1. April 2024",
+    "url": "https://sg.lexwork.naz.ch/de/dta/853.11.pdf"
+  },
+  "sg_stadt": {
+    "kurz": "Stadt St. Gallen",
+    "lang": "Stadt St. Gallen, Stadtpolizei: Tiere, Tierschutz (Stand der Seite 30. Januar 2026)",
+    "url": "https://www.stadt.sg.ch/home/gesellschaft-sicherheit/sicherheit-polizei/sicherheit/tiere--tierschutz.html"
   }
 }

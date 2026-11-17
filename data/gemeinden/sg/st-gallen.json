@@ -1,0 +1,43 @@
+{
+  "id": "st-gallen",
+  "kanton": "sg",
+  "bfs": 3203,
+  "name": "Stadt St. Gallen",
+  "ort": "St. Gallen",
+  "in_ort": "in der Stadt St. Gallen",
+  "geprueft": "2026-11-17",
+  "karten": [
+    {
+      "titel": "Hundetaxe",
+      "wert": "CHF 130 pro Hund und Jahr",
+      "text": "Die Hundesteuer beträgt in der Stadt St. Gallen CHF 130 pro Hund im Kalenderjahr.",
+      "quellen": [
+        "sg_stadt"
+      ]
+    },
+    {
+      "titel": "Leine",
+      "wert": "Pausenplätze, Spielplätze, ÖV",
+      "text": "Nach dem städtischen Polizeireglement gehört dein Hund auf Pausenplätzen, auf Kinderspielplätzen und in öffentlichen Verkehrsmitteln an die Leine.",
+      "quellen": [
+        "sg_stadt"
+      ]
+    },
+    {
+      "titel": "Kein Zutritt",
+      "wert": "Friedhöfe und Badeanstalten",
+      "text": "Ein Hundeverbot gilt auf Friedhöfen und in Badeanstalten. Ausgenommen sind Hunde, die eine sehbehinderte Person führen.",
+      "quellen": [
+        "sg_stadt"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "wert": "Stadtpolizei",
+      "text": "Du meldest deinen Hund bei der Stadtpolizei St. Gallen an, Vadianstrasse 57. Für An- und Abmeldung und Änderungen gibt es ein Online-Formular der Stadt.",
+      "quellen": [
+        "sg_stadt"
+      ]
+    }
+  ]
+}
