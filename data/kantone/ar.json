@@ -1,0 +1,128 @@
+{
+  "id": "ar",
+  "name": "Kanton Appenzell Ausserrhoden",
+  "kurz": "AR",
+  "im": "im Kanton Appenzell Ausserrhoden",
+  "des": "des Kantons Appenzell Ausserrhoden",
+  "geprueft": "2026-11-17",
+  "wald": {
+    "saison": false,
+    "text": "Hundegesetz, Hundeverordnung, Jagdgesetz und Jagdverordnung des Kantons enthalten keine Leinenpflicht im Wald zu festen Daten. Du musst deinen Hund aber jederzeit unter Aufsicht und wirksamer Kontrolle haben. Geht das nicht anders, gehört er an die Leine. In der Wildruhezone «südliches Appenzeller Hinterland» im Raum Schwägalp-Hochalp (Gemeinden Hundwil und Urnäsch) sind Hunde jederzeit an der Leine zu führen (Schutzverordnung von 2009, genehmigt 2011). Wildernde Hunde können von den Jagdpolizeiorganen abgeschossen werden.",
+    "quellen": [
+      "ar_hug",
+      "ar_huv",
+      "ar_jag",
+      "ar_jav",
+      "ar_wrz"
+    ]
+  },
+  "leine": {
+    "punkte": [
+      "wenn du deinen Hund nicht anders wirksam kontrollieren kannst",
+      "auf Schulanlagen, auf öffentlich zugänglichen Spiel- und Sportplätzen und in öffentlichen Parkanlagen",
+      "in öffentlichen Gebäuden",
+      "in öffentlichen Verkehrsmitteln, an Bahnhöfen und an Haltestellen",
+      "beim Betreten von Weiden mit Nutztieren",
+      "wenn dein Hund einen Maulkorb trägt. Einen Maulkorb brauchen bissige Hunde und Hunde, für die ihn die Behörde angeordnet hat.",
+      "wenn die Behörde die Leine für deinen Hund im Einzelfall angeordnet hat",
+      "an weiteren Orten, die deine Gemeinde bezeichnet hat",
+      "jederzeit in der Wildruhezone «südliches Appenzeller Hinterland» (Schwägalp-Hochalp, Gemeinden Hundwil und Urnäsch). Ausgenommen sind Hütehunde und Hunde in Sonderfunktionen wie Polizei, jagdliche Nachsuche, Lawinen- und Rettungssuche."
+    ],
+    "quellen": [
+      "ar_hug",
+      "ar_wrz"
+    ]
+  },
+  "verbot": {
+    "einleitung": "Das Hundegesetz nennt selbst keine Orte, die für Hunde gesperrt sind. Es überlässt das den Gemeinden.",
+    "punkte": [
+      "Orte, zu denen deine Gemeinde Hunden den Zutritt verboten hat"
+    ],
+    "quellen": [
+      "ar_hug"
+    ]
+  },
+  "karten": [
+    {
+      "titel": "Haftpflicht",
+      "marke": "Pflicht",
+      "ton": "must",
+      "wert": "mindestens CHF 5 Millionen",
+      "text": "Wer einen Hund hält, braucht eine Haftpflichtversicherung, die die Risiken der Hundehaltung deckt. Die Mindestdeckungssumme beträgt CHF 5 Millionen. Die Police zeigst du auf Verlangen vor.",
+      "quellen": [
+        "ar_hug",
+        "ar_huv"
+      ]
+    },
+    {
+      "titel": "Kurs",
+      "marke": "keine Pflicht",
+      "ton": "none",
+      "wert": "nur im Einzelfall",
+      "text": "Hundegesetz und Hundeverordnung nennen keinen Pflichtkurs für alle Hundehaltenden. Die Behörde kann den Besuch von Ausbildungskursen mit oder ohne Hund als Massnahme im Einzelfall anordnen. Der Kanton empfiehlt in seiner Broschüre den Besuch von Hundekursen (Stand der Broschüre: 2019).",
+      "quellen": [
+        "ar_hug",
+        "ar_huv",
+        "ar_brosch"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "marke": "Pflicht",
+      "ton": "must",
+      "wert": "innert 14 Tagen beim Kanton",
+      "text": "Hältst du einen Hund, der älter als drei Monate ist, meldest du das innert 14 Tagen der zuständigen kantonalen Stelle. Die gleiche Frist gilt für Halterwechsel, Tod des Hundes, eine Änderung deines Namens oder deiner Adresse und für Massnahmen, die ein anderer Kanton angeordnet hat. Zuständige kantonale Stelle ist das Veterinäramt. Laut Broschüre des Kantons meldest du dich beim Veterinäramt in Herisau als Hundehalterin oder Hundehalter an (Stand der Broschüre: 2019). Jeder Hund muss nach dem Tierseuchenrecht des Bundes gekennzeichnet und registriert sein.",
+      "quellen": [
+        "ar_hug",
+        "ar_huv",
+        "ar_brosch"
+      ]
+    },
+    {
+      "titel": "Hundesteuer",
+      "marke": "jährlich",
+      "ton": "note",
+      "wert": "CHF 120, weiterer Hund doppelt",
+      "text": "Die Hundesteuer ist im ganzen Kanton gleich. Sie beträgt CHF 120 pro Kalenderjahr und ist für jeden Hund geschuldet, der älter als drei Monate ist. Für jeden weiteren Hund gilt die doppelte Steuer. Hältst du den Hund nicht das ganze Jahr, zahlst du anteilsmässig. Wer die Meldung unterlässt, zahlt eine Nachsteuer von CHF 180 pro Hund und Kalenderjahr, für jeden weiteren Hund das Doppelte. Befreit sind Hunde, die nachweislich als Nutzhunde im Einsatz stehen, zum Beispiel Such- und Rettungshunde, Assistenzhunde, Schweisshunde, Diensthunde von Armee, Grenzwachtkorps und Polizei und Herdenschutzhunde. Den Nachweis erneuerst du jedes Jahr unaufgefordert bis spätestens 31. Januar. Befreit sind auch Hunde, für die im selben Jahr schon in einem anderen Kanton bezahlt wurde.",
+      "quellen": [
+        "ar_huv",
+        "ar_hug"
+      ]
+    },
+    {
+      "titel": "Rassen",
+      "marke": "keine Liste",
+      "ton": "none",
+      "wert": "keine Rasseliste",
+      "text": "Hundegesetz und Hundeverordnung nennen keine verbotenen oder bewilligungspflichtigen Rassen. Massnahmen gibt es im Einzelfall, zum Beispiel wenn ein Hund Menschen oder Tiere erheblich verletzt hat oder übermässig aggressiv ist. Die Behörde kann dann unter anderem eine Verhaltensabklärung, Leinen- und Maulkorbpflicht, Ausbildungskurse oder ein Halteverbot anordnen, das auch auf bestimmte Rassetypen oder Grössen beschränkt sein kann. Vorfälle mit Hunden sind dem Veterinäramt zu melden.",
+      "quellen": [
+        "ar_hug",
+        "ar_huv"
+      ]
+    },
+    {
+      "titel": "Unterwegs",
+      "marke": "Regel",
+      "ton": "note",
+      "wert": "Kot aufnehmen, Hund unter Kontrolle",
+      "text": "Du nimmst den Kot deines Hundes auf fremdem und öffentlich zugänglichem Grund auf und entsorgst ihn. Du hast deinen Hund jederzeit unter Aufsicht und wirksamer Kontrolle und hältst ihn so, dass er Menschen, Tiere und fremdes Eigentum nicht belästigt, gefährdet oder beschädigt. Wer gegen diese Pflichten, die Leinenpflicht oder die Meldepflicht verstösst, wird mit Busse bestraft. Einen Betrag nennt das Hundegesetz nicht.",
+      "quellen": [
+        "ar_hug"
+      ]
+    }
+  ],
+  "vergleich": {
+    "wald": "keine feste Leinenzeit im Hunde- und Jagdrecht, Leine ganzjährig in der Wildruhezone Schwägalp-Hochalp",
+    "haft": "Pflicht, mindestens CHF 5 Millionen",
+    "kurs": "keine Pflicht, nur im Einzelfall",
+    "rassen": "keine Rasseliste",
+    "steuer": "CHF 120, weiterer Hund doppelt",
+    "anm": "innert 14 Tagen beim Veterinäramt"
+  },
+  "umzug": {
+    "text": "Massnahmen, die ein anderer Kanton rechtskräftig verfügt hat, zum Beispiel eine Leinen- oder Maulkorbpflicht, gelten auch im Kanton Appenzell Ausserrhoden. Du meldest sie innert 14 Tagen der zuständigen kantonalen Stelle.",
+    "quellen": [
+      "ar_hug"
+    ]
+  }
+}

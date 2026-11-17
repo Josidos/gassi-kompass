@@ -1,0 +1,32 @@
+{
+  "ar_hug": {
+    "kurz": "Hundegesetz AR",
+    "lang": "Kanton Appenzell Ausserrhoden: Hundegesetz (HuG, bGS 525.1) vom 23. März 2015, Stand 1. Januar 2016",
+    "url": "https://ar.lexwork.naz.ch/de/dta/525.1.pdf"
+  },
+  "ar_huv": {
+    "kurz": "Hundeverordnung AR",
+    "lang": "Kanton Appenzell Ausserrhoden: Hundeverordnung (HuV, bGS 525.11) vom 12. Januar 2016, Stand 1. Januar 2025",
+    "url": "https://ar.lexwork.naz.ch/de/dta/525.11.pdf"
+  },
+  "ar_jag": {
+    "kurz": "Jagdgesetz AR",
+    "lang": "Kanton Appenzell Ausserrhoden: Gesetz über Jagd, Wild- und Vogelschutz (Jagdgesetz, bGS 526.2) vom 17. Februar 2003, Stand 1. Juni 2023",
+    "url": "https://ar.lexwork.naz.ch/de/dta/526.2.pdf"
+  },
+  "ar_jav": {
+    "kurz": "Jagdverordnung AR",
+    "lang": "Kanton Appenzell Ausserrhoden: Verordnung zum Gesetz über Jagd, Wild- und Vogelschutz (Jagdverordnung, bGS 526.21) vom 23. April 2003, Stand 1. April 2024",
+    "url": "https://ar.lexwork.naz.ch/de/dta/526.21.pdf"
+  },
+  "ar_wrz": {
+    "kurz": "Schutzverordnung Wildruhezone AR",
+    "lang": "Kanton Appenzell Ausserrhoden: Schutzverordnung Wildruhezone «südliches Appenzeller Hinterland» vom 9. September 2009, vom Regierungsrat genehmigt am 11. Januar 2011",
+    "url": "https://www.AR.ch/fileadmin/user_upload/Departement_Bau_Volkswirtschaft/Amt_fuer_Raum_Wald/Natur_und_Wildtiere/Wildruhezone/Schutzverordnung_Text.pdf"
+  },
+  "ar_brosch": {
+    "kurz": "Kanton AR: Broschüre Hundehaltung",
+    "lang": "Kanton Appenzell Ausserrhoden, Veterinäramt: Informationsbroschüre zur Hundehaltung, Version 07/2019",
+    "url": "https://www.AR.ch/fileadmin/user_upload/Departement_Gesundheit_Soziales/Veterinaeramt/Hunde/Informationsbroschuere_zur_Hundehaltung_AR_190626.pdf"
+  }
+}
