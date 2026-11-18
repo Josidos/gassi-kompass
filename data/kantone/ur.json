@@ -1,0 +1,128 @@
+{
+  "id": "ur",
+  "name": "Kanton Uri",
+  "kurz": "UR",
+  "im": "im Kanton Uri",
+  "des": "des Kantons Uri",
+  "geprueft": "2026-11-18",
+  "wald": {
+    "saison": true,
+    "von": "04-01",
+    "bis": "07-31",
+    "wo": "im Wald und bis 50 m ab Waldrand",
+    "quellen": [
+      "ur_kjsv",
+      "ur_kjsv_bericht"
+    ]
+  },
+  "leine": {
+    "punkte": [
+      "im Wald und in einem Streifen von 50 m ab Waldrand, 1. April bis 31. Juli. Arbeitshunde sind ausgenommen.",
+      "in Gebieten und Zeiträumen, für die der Kanton in ausserordentlichen Situationen für das Wild eine Leinenpflicht anordnet",
+      "wo deine Gemeinde es verlangt. Beispiel Silenen: in gemeindeeigenen Anlagen wie Schulhausanlagen und öffentlichen Spiel- und Sportplätzen (Verordnung in Kraft seit 1. Januar 2026)",
+      "Beispiel Andermatt: im Dorf, im Wald und an Waldrändern, an verkehrsreichen Strassen, an Veranstaltungen und in öffentlichen Gebäuden (Stand der Verordnung: 2008)",
+      "wenn die Kantonstierärztin oder der Kantonstierarzt es für deinen Hund im Einzelfall anordnet"
+    ],
+    "quellen": [
+      "ur_kjsv",
+      "ur_silenen_hhv",
+      "ur_andermatt_hv",
+      "ur_vetv"
+    ]
+  },
+  "verbot": {
+    "einleitung": "Jagdverordnung und Veterinärverordnung des Kantons nennen keine Orte, an denen Hunde verboten sind. Verbindlich sind die Verordnung und die Schilder deiner Gemeinde. Ein Beispiel: Andermatt lässt Hunde an diesen Orten nicht zu (Stand der Verordnung: 2008).",
+    "punkte": [
+      "Schulen, Kirchen und Friedhöfe",
+      "Spitäler, Amtsräume und Lebensmittelgeschäfte",
+      "Skipisten, Skiübungsgelände und Langlaufloipen"
+    ],
+    "quellen": [
+      "ur_kjsv",
+      "ur_vetv",
+      "ur_andermatt_hv"
+    ]
+  },
+  "karten": [
+    {
+      "titel": "Haftpflicht",
+      "marke": "Gemeinde",
+      "ton": "note",
+      "wert": "im kantonalen Recht nicht genannt",
+      "text": "Die Veterinärverordnung des Kantons enthält keine Bestimmung zu einer Haftpflichtversicherung. Auch die gelesenen Verordnungen der Gemeinden Silenen und Andermatt verlangen keine. Andermatt hält fest, dass sich die Haftung für Schäden und Verletzungen nach dem Zivilrecht richtet (Stand der Verordnung: 2008). Was in deiner Gemeinde gilt, steht in ihrer Hundeverordnung.",
+      "quellen": [
+        "ur_vetv",
+        "ur_silenen_hhv",
+        "ur_andermatt_hv"
+      ]
+    },
+    {
+      "titel": "Kurs",
+      "marke": "Einzelfall",
+      "ton": "note",
+      "wert": "nur auf Anordnung",
+      "text": "Eine allgemeine Kurspflicht nennt die Veterinärverordnung nicht. Erfüllst du deine Pflichten als Halterin oder Halter nicht, wird ein Biss gemeldet oder fällt dein Hund im Verhalten auf, kann die Kantonstierärztin oder der Kantonstierarzt den Besuch eines Erziehungskurses anordnen.",
+      "quellen": [
+        "ur_vetv"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "marke": "Pflicht",
+      "ton": "must",
+      "wert": "Gemeinde und AMICUS",
+      "text": "Hunde, die im Kanton Uri gehalten werden, müssen in der Datenbank AMICUS registriert sein. Gemeinden und Kantonspolizei prüfen Kennzeichnung und Registrierung und melden nicht registrierte Hunde dem Kantonstierarzt. Den Hundeausweis zeigst du auf Verlangen vor. Dazu meldest du den Hund deiner Gemeinde. Die Frist steht in ihrer Verordnung. Beispiele: In Silenen meldest du Hunde, die älter als drei Monate sind, innert 30 Tagen, ebenso Weitergabe und Tod. Altdorf verlangt die An- oder Abmeldung bei der Einwohnerkontrolle spätestens 30 Tage nach einem Besitzerwechsel oder dem Tod des Hundes.",
+      "quellen": [
+        "ur_vetv",
+        "ur_vetr",
+        "ur_silenen_hhv",
+        "ur_altdorf_steuer"
+      ]
+    },
+    {
+      "titel": "Hundesteuer",
+      "marke": "Gemeinde",
+      "ton": "note",
+      "wert": "je nach Gemeinde",
+      "text": "Die Hundesteuer steht in der Verordnung deiner Gemeinde. Die Veterinärverordnung des Kantons regelt sie nicht. Beispiele: Altdorf verlangt CHF 80 pro Hund und Jahr. Silenen verlangt CHF 80 pro Hund und Kalenderjahr (Verordnung in Kraft seit 1. Januar 2026). Andermatt nennt in seiner Verordnung CHF 110 für den ersten und CHF 160 für jeden weiteren Hund im Haushalt (Stand der Verordnung: 2008).",
+      "quellen": [
+        "ur_vetv",
+        "ur_altdorf_steuer",
+        "ur_silenen_hhv",
+        "ur_andermatt_hv"
+      ]
+    },
+    {
+      "titel": "Rassen",
+      "marke": "Einzelfall",
+      "ton": "note",
+      "wert": "keine Liste genannt",
+      "text": "Veterinärverordnung und Veterinärreglement des Kantons nennen keine Hunderassen. Die Kantonstierärztin oder der Kantonstierarzt ist Meldestelle für Vorfälle mit gefährlichen Hunden und ordnet im Einzelfall Massnahmen an: Weisungen zu Erziehung und Beaufsichtigung, Leinen- und Maulkorbzwang, Wesenstest, Erziehungskurs und in schwerwiegenden Fällen ein Haltungsverbot oder die Beschlagnahmung. Massnahmen, die ein anderer Kanton im Einzelfall rechtskräftig verfügt hat, gelten auch im Kanton Uri.",
+      "quellen": [
+        "ur_vetv",
+        "ur_vetr"
+      ]
+    },
+    {
+      "titel": "Unterwegs",
+      "marke": "Regel",
+      "ton": "note",
+      "wert": "Hund jederzeit unter Kontrolle",
+      "text": "Du musst deinen Hund jederzeit unter Kontrolle haben. Hunde, die nachweisbar dem Wild nachstellen und deren Halterin oder Halter schon einmal verwarnt wurde, darf die Wildhut unschädlich machen. Bissverletzungen, die ärztlich oder tierärztlich versorgt werden müssen, melden Ärzte, Tierärzte, Hundeausbildner, Polizei und Gemeinden dem Veterinärdienst der Urkantone. Ob und wo du den Kot aufnehmen musst, steht in der Verordnung deiner Gemeinde. Silenen und Andermatt verlangen es auf öffentlichem und fremdem Grund.",
+      "quellen": [
+        "ur_vdu_tierschutz",
+        "ur_kjsv",
+        "ur_silenen_hhv",
+        "ur_andermatt_hv"
+      ]
+    }
+  ],
+  "vergleich": {
+    "wald": "1.4. bis 31.7., bis 50 m ab Waldrand",
+    "haft": "im kantonalen Recht nicht genannt",
+    "kurs": "nur auf Anordnung",
+    "rassen": "keine Liste genannt",
+    "steuer": "je nach Gemeinde",
+    "anm": "Gemeinde und AMICUS"
+  }
+}

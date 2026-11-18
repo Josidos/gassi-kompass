@@ -2,6 +2,18 @@
 
 Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen.
 
+## 2026-11-18, automatischer Lauf: Kanton Uri und Gemeinde Silenen
+
+- Start: `build.py --check` fehlerfrei. Unter `data/protokoll/` lag nichts zum Einsammeln, in `auftraege.md` ist nichts vergeben. Das Werkzeug `add_repo` stand dem Lauf nicht zur Verfügung, das Repository war schon geklont und auf dem Stand von `main`.
+- Nachgeprüft: nichts. Keine Datei ist älter als 60 Tage (ältestes `geprueft`: 2026-11-16).
+- Neu: Kanton Uri (`/ur/`). Der Kanton hat kein Hundegesetz. Belegt aus der Jagdverordnung (RB 40.3111, Stand 1. Januar 2026): Leinenpflicht im Wald und in einem Streifen von 50 m ab Waldrand vom 1. April bis 31. Juli, Arbeitshunde ausgenommen. Aus Veterinärverordnung (RB 60.2111) und Veterinärreglement (RB 60.2113): Registrierung in AMICUS, Massnahmen im Einzelfall, keine Bestimmung zu Haftpflicht, Kurspflicht, Rassen oder Hundesteuer. Hundesteuer, Meldung, Leinenorte und Verbote regeln die Gemeinden. Die Kantonsseite nennt dafür Beispiele aus Altdorf, Silenen und Andermatt, bei Andermatt mit dem Hinweis «Stand der Verordnung: 2008».
+- Neu: Gemeinde Silenen (`/ur/silenen/`), fünf lokale Angaben aus der Hundehalteverordnung vom 21. Mai 2025 (in Kraft seit 1. Januar 2026): Hundesteuer CHF 80, Meldung innert 30 Tagen, Leinenpflicht in gemeindeeigenen Anlagen, Hundekot, Busse bis CHF 1000.
+- Entscheid: Silenen statt Altdorf als Gemeinde zum Kanton. Für den Hauptort Altdorf sind nur zwei lokale Angaben belegt. Silenen ist die Urner Gemeinde, deren geltende Verordnung der Lauf lesen konnte.
+- Zurückgestellt: Altdorf. Das PDF der Verordnung über das Halten von Hunden (30.31) liess das Abrufwerkzeug zweimal nicht zu.
+- Weggelassen: Bussenbetrag für die Leinenpflicht im Wald (Art. 44 KJSV nennt keinen). Die Hundegebühr von CHF 110 in der Jagdverordnung betrifft nur Jagdhunde und steht nicht auf der Seite.
+- Nicht gelungen: Merkblatt «Verhaltensregeln für Hundehalter» des Veterinärdienstes der Urkantone und die Hundehalteverordnung Flüelen (beide nicht abrufbar). Keine Lücke aus Abschnitt 4 bearbeitet.
+- Stand: 19 Kantone mit deutscher Seite, 37 Gemeinden, 65 Seiten in der Sitemap. In Abschnitt 1 ist nur noch Obwalden offen (zurückgestellt, Entwurf). Der nächste Lauf nimmt Obwalden wieder auf.
+
 ## 2026-11-18, Hauptsitzung: Schlusskontrolle der Nacht
 
 - Verlauf: Am 17. November um 23:02 Uhr und in der Nacht um etwa 00:33 Uhr erreichte das Konto die Nutzungsgrenze. Beide Male brachen alle Läufe in der Cloud mitten in der Arbeit ab. Die Parallel-Läufe von 22:52 bis 23:02 Uhr lieferten nichts. Von 23:52 bis 00:33 Uhr arbeiteten bis zu acht Staffeln und die Nachtkette. Seit 00:33 Uhr hat kein Lauf mehr veröffentlicht, die Kette endete mit Glied 8.

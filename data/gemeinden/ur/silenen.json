@@ -1,0 +1,52 @@
+{
+  "id": "silenen",
+  "kanton": "ur",
+  "bfs": 1216,
+  "name": "Gemeinde Silenen",
+  "ort": "Silenen",
+  "in_ort": "in der Gemeinde Silenen",
+  "geprueft": "2026-11-18",
+  "einleitung": "In der Gemeinde Silenen gilt seit dem 1. Januar 2026 eine neue Hundehalteverordnung. Sie regelt Meldung, Hundesteuer, Leine und Hundekot. Dazu kommt die Leinenpflicht des Kantons Uri im Wald.",
+  "karten": [
+    {
+      "titel": "Hundetaxe",
+      "wert": "CHF 80 pro Hund und Kalenderjahr",
+      "text": "Die Hundesteuer beträgt CHF 80 pro Hund und Kalenderjahr. Die Gemeinde erhebt sie im Frühjahr. Keine Steuer zahlst du für das laufende Jahr, wenn du den Hund nach dem 1. November anschaffst, wenn du ihn weniger als zwei Monate im Jahr hältst oder wenn du die Steuer schon in einer anderen Gemeinde bezahlt hast. Befreit sind Hunde im Dienst öffentlicher Organisationen und von Rettungsorganisationen sowie Begleithunde für Blinde, Gehörlose und Menschen mit Behinderung, jeweils mit Nachweis.",
+      "quellen": [
+        "ur_silenen_hhv"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "wert": "innert 30 Tagen bei der Gemeinde",
+      "text": "Hältst du einen Hund, der älter als drei Monate ist, meldest du das der Gemeinde innert 30 Tagen. Auch die Weitergabe und den Tod des Hundes meldest du. Der Hund braucht spätestens drei Monate nach der Geburt und in jedem Fall vor der Weitergabe einen Mikrochip und muss registriert sein.",
+      "quellen": [
+        "ur_silenen_hhv"
+      ]
+    },
+    {
+      "titel": "Leine",
+      "wert": "in gemeindeeigenen Anlagen",
+      "text": "In gemeindeeigenen Anlagen gilt Leinenpflicht, zum Beispiel in Schulhausanlagen und auf öffentlichen Spiel- und Sportplätzen. Ausserhalb deines Grundstücks darf dein Hund nicht unbeaufsichtigt frei laufen. Der Gemeinderat kann im Einzelfall Leinenpflicht oder Maulkorbzwang anordnen.",
+      "quellen": [
+        "ur_silenen_hhv"
+      ]
+    },
+    {
+      "titel": "Hundekot",
+      "wert": "sofort aufnehmen",
+      "text": "Auf öffentlichem und fremdem Grund nimmst du den Kot deines Hundes sofort auf und entsorgst ihn im Beutel. Die Gemeinde stellt Entsorgungsstellen bereit.",
+      "quellen": [
+        "ur_silenen_hhv"
+      ]
+    },
+    {
+      "titel": "Bussen",
+      "wert": "bis CHF 1000",
+      "text": "Verstösse gegen die Hundehalteverordnung können mit Busse bis CHF 1000 bestraft werden. In leichten Fällen ist beim ersten Mal eine Verwarnung möglich.",
+      "quellen": [
+        "ur_silenen_hhv"
+      ]
+    }
+  ]
+}
