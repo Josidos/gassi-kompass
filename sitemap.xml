@@ -51,6 +51,8 @@
   <url><loc>https://gassi-kompass.ch/sz/einsiedeln/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://gassi-kompass.ch/lu/emmen/</loc><lastmod>2026-11-16</lastmod></url>
   <url><loc>https://gassi-kompass.ch/tg/frauenfeld/</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://gassi-kompass.ch/fr/fribourg/</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://gassi-kompass.ch/ge/geneve/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://gassi-kompass.ch/gl/glarus/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://gassi-kompass.ch/lu/horw/</loc><lastmod>2026-11-16</lastmod></url>
   <url><loc>https://gassi-kompass.ch/zh/illnau-effretikon/</loc><lastmod>2026-11-16</lastmod></url>
@@ -58,6 +60,7 @@
   <url><loc>https://gassi-kompass.ch/sz/kuessnacht/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://gassi-kompass.ch/gr/landquart/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://gassi-kompass.ch/vd/lausanne/</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://gassi-kompass.ch/ti/lugano/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://gassi-kompass.ch/lu/luzern/</loc><lastmod>2026-11-16</lastmod></url>
   <url><loc>https://gassi-kompass.ch/so/olten/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://gassi-kompass.ch/zh/opfikon/</loc><lastmod>2026-11-16</lastmod></url>
@@ -66,6 +69,7 @@
   <url><loc>https://gassi-kompass.ch/sh/schaffhausen/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://gassi-kompass.ch/sz/schwyz/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://gassi-kompass.ch/ur/silenen/</loc><lastmod>2026-11-18</lastmod></url>
+  <url><loc>https://gassi-kompass.ch/vs/sion/</loc><lastmod>2026-11-18</lastmod></url>
   <url><loc>https://gassi-kompass.ch/sg/st-gallen/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://gassi-kompass.ch/lu/sursee/</loc><lastmod>2026-11-16</lastmod></url>
   <url><loc>https://gassi-kompass.ch/zh/thalwil/</loc><lastmod>2026-11-16</lastmod></url>
@@ -111,18 +115,30 @@
   <url><loc>https://gassi-kompass.ch/fr-ch/zg/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://gassi-kompass.ch/fr-ch/zh/</loc><lastmod>2026-11-16</lastmod></url>
   <url><loc>https://gassi-kompass.ch/fr-ch/zh/adliswil/</loc><lastmod>2026-11-16</lastmod></url>
+  <url><loc>https://gassi-kompass.ch/fr-ch/bl/allschwil/</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://gassi-kompass.ch/fr-ch/tg/arbon/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://gassi-kompass.ch/fr-ch/be/bern/</loc><lastmod>2026-11-16</lastmod></url>
+  <url><loc>https://gassi-kompass.ch/fr-ch/vs/brig-glis/</loc><lastmod>2026-11-18</lastmod></url>
   <url><loc>https://gassi-kompass.ch/fr-ch/zh/buelach/</loc><lastmod>2026-11-16</lastmod></url>
   <url><loc>https://gassi-kompass.ch/fr-ch/zh/dietikon/</loc><lastmod>2026-11-16</lastmod></url>
   <url><loc>https://gassi-kompass.ch/fr-ch/zh/duebendorf/</loc><lastmod>2026-11-16</lastmod></url>
+  <url><loc>https://gassi-kompass.ch/fr-ch/lu/ebikon/</loc><lastmod>2026-11-16</lastmod></url>
+  <url><loc>https://gassi-kompass.ch/fr-ch/lu/emmen/</loc><lastmod>2026-11-16</lastmod></url>
+  <url><loc>https://gassi-kompass.ch/fr-ch/tg/frauenfeld/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://gassi-kompass.ch/fr-ch/fr/fribourg/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://gassi-kompass.ch/fr-ch/ge/geneve/</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://gassi-kompass.ch/fr-ch/lu/horw/</loc><lastmod>2026-11-16</lastmod></url>
   <url><loc>https://gassi-kompass.ch/fr-ch/zh/illnau-effretikon/</loc><lastmod>2026-11-16</lastmod></url>
   <url><loc>https://gassi-kompass.ch/fr-ch/vd/lausanne/</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://gassi-kompass.ch/fr-ch/lu/luzern/</loc><lastmod>2026-11-16</lastmod></url>
+  <url><loc>https://gassi-kompass.ch/fr-ch/ti/lugano/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://gassi-kompass.ch/fr-ch/ne/neuchatel/</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://gassi-kompass.ch/fr-ch/so/olten/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://gassi-kompass.ch/fr-ch/zh/opfikon/</loc><lastmod>2026-11-16</lastmod></url>
   <url><loc>https://gassi-kompass.ch/fr-ch/zh/regensdorf/</loc><lastmod>2026-11-16</lastmod></url>
+  <url><loc>https://gassi-kompass.ch/fr-ch/sg/st-gallen/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://gassi-kompass.ch/fr-ch/vs/sion/</loc><lastmod>2026-11-18</lastmod></url>
+  <url><loc>https://gassi-kompass.ch/fr-ch/lu/sursee/</loc><lastmod>2026-11-16</lastmod></url>
   <url><loc>https://gassi-kompass.ch/fr-ch/zh/thalwil/</loc><lastmod>2026-11-16</lastmod></url>
   <url><loc>https://gassi-kompass.ch/fr-ch/zh/uster/</loc><lastmod>2026-11-16</lastmod></url>
   <url><loc>https://gassi-kompass.ch/fr-ch/zh/volketswil/</loc><lastmod>2026-11-16</lastmod></url>
@@ -166,15 +182,29 @@
   <url><loc>https://gassi-kompass.ch/it-ch/zg/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://gassi-kompass.ch/it-ch/zh/</loc><lastmod>2026-11-16</lastmod></url>
   <url><loc>https://gassi-kompass.ch/it-ch/zh/adliswil/</loc><lastmod>2026-11-16</lastmod></url>
+  <url><loc>https://gassi-kompass.ch/it-ch/bl/allschwil/</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://gassi-kompass.ch/it-ch/tg/arbon/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://gassi-kompass.ch/it-ch/be/bern/</loc><lastmod>2026-11-16</lastmod></url>
+  <url><loc>https://gassi-kompass.ch/it-ch/vs/brig-glis/</loc><lastmod>2026-11-18</lastmod></url>
   <url><loc>https://gassi-kompass.ch/it-ch/zh/buelach/</loc><lastmod>2026-11-16</lastmod></url>
   <url><loc>https://gassi-kompass.ch/it-ch/zh/dietikon/</loc><lastmod>2026-11-16</lastmod></url>
   <url><loc>https://gassi-kompass.ch/it-ch/zh/duebendorf/</loc><lastmod>2026-11-16</lastmod></url>
+  <url><loc>https://gassi-kompass.ch/it-ch/lu/ebikon/</loc><lastmod>2026-11-16</lastmod></url>
+  <url><loc>https://gassi-kompass.ch/it-ch/lu/emmen/</loc><lastmod>2026-11-16</lastmod></url>
+  <url><loc>https://gassi-kompass.ch/it-ch/tg/frauenfeld/</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://gassi-kompass.ch/it-ch/fr/fribourg/</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://gassi-kompass.ch/it-ch/ge/geneve/</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://gassi-kompass.ch/it-ch/lu/horw/</loc><lastmod>2026-11-16</lastmod></url>
   <url><loc>https://gassi-kompass.ch/it-ch/zh/illnau-effretikon/</loc><lastmod>2026-11-16</lastmod></url>
   <url><loc>https://gassi-kompass.ch/it-ch/vd/lausanne/</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://gassi-kompass.ch/it-ch/lu/luzern/</loc><lastmod>2026-11-16</lastmod></url>
   <url><loc>https://gassi-kompass.ch/it-ch/ti/lugano/</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://gassi-kompass.ch/it-ch/so/olten/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://gassi-kompass.ch/it-ch/zh/opfikon/</loc><lastmod>2026-11-16</lastmod></url>
   <url><loc>https://gassi-kompass.ch/it-ch/zh/regensdorf/</loc><lastmod>2026-11-16</lastmod></url>
+  <url><loc>https://gassi-kompass.ch/it-ch/sg/st-gallen/</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://gassi-kompass.ch/it-ch/vs/sion/</loc><lastmod>2026-11-18</lastmod></url>
+  <url><loc>https://gassi-kompass.ch/it-ch/lu/sursee/</loc><lastmod>2026-11-16</lastmod></url>
   <url><loc>https://gassi-kompass.ch/it-ch/zh/thalwil/</loc><lastmod>2026-11-16</lastmod></url>
   <url><loc>https://gassi-kompass.ch/it-ch/zh/uster/</loc><lastmod>2026-11-16</lastmod></url>
   <url><loc>https://gassi-kompass.ch/it-ch/zh/volketswil/</loc><lastmod>2026-11-16</lastmod></url>
