@@ -1,0 +1,135 @@
+{
+  "id": "vs",
+  "kurz": "VS",
+  "uebersetzt_aus": "de",
+  "original": "76736c2608ff",
+  "wald": {
+    "saison": false,
+    "text": "L'Ausführungsgesetz zum Tierschutzgesetz (legge d'applicazione della legge sulla protezione degli animali) del Vallese non indica un obbligo di guinzaglio specifico per il bosco né una stagione. Fuori dalle località il tuo cane deve essere sotto controllo. Nelle zone protette e nelle zone naturali il guinzaglio può essere prescritto, tutto l'anno o per determinati periodi. Fai attenzione alla segnaletica sul posto.",
+    "quellen": [
+      "vs_agtschg",
+      "vs_vet_sicherheit"
+    ]
+  },
+  "leine": {
+    "punkte": [
+      "all'interno delle località, se il tuo Comune non decide altrimenti",
+      "nei dintorni delle scuole e negli impianti pubblici di gioco e di sport",
+      "sui mezzi di trasporto pubblici, nelle stazioni e alle fermate",
+      "nei luoghi molto frequentati e nelle immediate vicinanze di strade molto trafficate o con scarsa visibilità",
+      "in prossimità di animali da reddito",
+      "nei luoghi con obbligo di guinzaglio segnalato e nelle zone protette e naturali in cui il guinzaglio è prescritto",
+      "in tutti gli altri luoghi: tenere il cane sotto controllo"
+    ],
+    "quellen": [
+      "vs_agtschg",
+      "vs_vet_sicherheit",
+      "vs_vet_hundewesen"
+    ]
+  },
+  "verbot": {
+    "einleitung": "La legge cantonale stessa non indica luoghi in cui i cani sono vietati. I Comuni possono stabilire tali luoghi.",
+    "punkte": [
+      "luoghi che il tuo Comune ha chiuso ai cani",
+      "lasciare i cani liberi senza sorveglianza è vietato negli spazi pubblici e sulle superfici agricole coltivate"
+    ],
+    "quellen": [
+      "vs_agtschg",
+      "vs_vet_sicherheit"
+    ]
+  },
+  "karten": [
+    {
+      "titel": "Responsabilità civile",
+      "marke": "Obbligo",
+      "ton": "must",
+      "wert": "per ogni cane",
+      "text": "Rispondi dei danni causati dal tuo cane e devi avere per lui un'assicurazione di responsabilità civile. Il Comune lo controlla: chiede un attestato dell'assicurazione quando annunci il primo cane e quando paghi l'imposta sui cani.",
+      "quellen": [
+        "vs_agtschg",
+        "vs_steuerregl",
+        "vs_vet_erwerb"
+      ]
+    },
+    {
+      "titel": "Corso",
+      "marke": "Obbligo",
+      "ton": "must",
+      "wert": "per i nuovi detentori di cani, almeno 6 ore",
+      "text": "Dal 1° gennaio 2020. Chi abita nel Vallese, ha più di 16 anni e non può dimostrare di avere già detenuto un cane in passato frequenta un corso pratico presso un educatore cinofilo riconosciuto. Il corso dura almeno 6 ore (8 unità da 45 minuti). Lo assolvi al più tardi 12 mesi dopo la presa a carico del cane e al più presto quando il cane ha 8 mesi. Presenti l'attestato del corso al Comune. È esentato tra gli altri chi ha il brevetto NHB.",
+      "quellen": [
+        "vs_agtschg",
+        "vs_kursv",
+        "vs_vet_erwerb"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "marke": "Obbligo",
+      "ton": "must",
+      "wert": "Comune e AMICUS",
+      "text": "Per il primo cane ti annunci al tuo Comune di domicilio. Il Comune crea il tuo profilo nella banca dati AMICUS e chiede l'attestato dell'assicurazione di responsabilità civile. In seguito una veterinaria o un veterinario registra il cane. Il microchip deve essere impiantato al più tardi tre mesi dopo la nascita. Vendita, cessione, morte del cane e nuovo indirizzo li annunci tu in AMICUS.",
+      "quellen": [
+        "vs_vet_erwerb",
+        "vs_agtschg"
+      ]
+    },
+    {
+      "titel": "Imposta sui cani",
+      "marke": "annuale",
+      "ton": "note",
+      "wert": "da CHF 100 a 250, secondo il Comune",
+      "text": "L'imposta è riscossa dal Comune in cui hai il domicilio. Il Gemeinderat (esecutivo comunale) fissa l'importo, la legge fiscale prevede da CHF 100 a 250 all'anno. Da pagare entro il 31 marzo. Sono esonerati tra gli altri i cani guida per ciechi e i cani d'assistenza, i cani da salvataggio riconosciuti, i cani che il 31 dicembre hanno meno di sei mesi, i cani che si trovano nel Cantone per meno di tre mesi all'anno e un cane di persone che ricevono prestazioni complementari. Chi non paga in tempo rischia una multa fino al triplo dell'imposta.",
+      "quellen": [
+        "vs_steuerregl",
+        "vs_lf"
+      ]
+    },
+    {
+      "titel": "Razze",
+      "marke": "Divieto",
+      "ton": "must",
+      "wert": "12 razze vietate",
+      "text": "Dal 2005 è vietata la detenzione di queste razze e dei loro incroci: American Staffordshire Terrier, Bull Terrier, Staffordshire Bull Terrier, Pit Bull Terrier, Dobermann, Argentinische Dogge, Fila Brasileiro, Tosa, Rottweiler, Mastiff, Neapolitanischer Mastiff e Spanischer Mastiff. L'American Bully è considerato un incrocio di due razze vietate ed è anch'esso vietato.",
+      "mehr": {
+        "titel": "In vacanza con un cane di queste razze",
+        "punkte": [
+          "è permesso un soggiorno di al massimo 30 giorni all'anno",
+          "fuori dall'ambito privato al guinzaglio e con museruola o con una protezione dentale che impedisce i morsi",
+          "le infrazioni sono perseguite, il cane può essere sequestrato"
+        ]
+      },
+      "quellen": [
+        "vs_vet_sicherheit",
+        "vs_agtschg"
+      ]
+    },
+    {
+      "titel": "A passeggio",
+      "marke": "Regola",
+      "ton": "note",
+      "wert": "raccogliere gli escrementi, cane sotto controllo",
+      "text": "Raccogli gli escrementi del tuo cane, porti con te il materiale necessario e li smaltisci nelle strutture previste a questo scopo. Se il tuo cane aggredisce una persona, lo annunci all'ufficio veterinario cantonale. Sugli alpeggi con cani da protezione delle greggi valgono regole di comportamento, per le quali il Cantone rinvia al sito web della protezione delle greggi.",
+      "quellen": [
+        "vs_agtschg",
+        "vs_vet_hundewesen",
+        "vs_vet_bisse",
+        "vs_vet_sicherheit"
+      ]
+    }
+  ],
+  "vergleich": {
+    "wald": "nessuna stagione nella legge d'applicazione sulla protezione degli animali, fuori dalle località sotto controllo",
+    "haft": "obbligo",
+    "kurs": "obbligo per i nuovi detentori di cani, almeno 6 ore",
+    "rassen": "12 razze e i loro incroci vietati",
+    "steuer": "da CHF 100 a 250, secondo il Comune",
+    "anm": "Comune e AMICUS"
+  },
+  "umzug": {
+    "text": "Nel Vallese non è permesso iniziare a detenere cani delle dodici razze vietate o loro incroci. È permesso solo un soggiorno di al massimo 30 giorni all'anno, al guinzaglio e con museruola.",
+    "quellen": [
+      "vs_vet_sicherheit"
+    ]
+  }
+}

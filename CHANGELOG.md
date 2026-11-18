@@ -2,6 +2,22 @@
 
 Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen.
 
+## 2026-11-18, Kette Übersetzungen, Glied 1: Übersetzungen der Kantone, erste Portion
+
+- Neu, 14 Übersetzungen für 8 Kantone, in der Reihenfolge von `--fehlend`:
+  - Deutsch (3): Waadt, Genf, Tessin (`data/kantone/vd.json`, `ge.json`, `ti.json`).
+  - Französisch (4): Aargau, St. Gallen, Luzern, Tessin (`data/fr-ch/kantone/ag.json`, `sg.json`, `lu.json`, `ti.json`).
+  - Italienisch (7): Bern, Waadt, Aargau, St. Gallen, Genf, Luzern, Wallis (`data/it-ch/kantone/be.json`, `vd.json`, `ag.json`, `sg.json`, `ge.json`, `lu.json`, `vs.json`).
+- Entscheide zur Wortwahl: «Listenhunde» heisst «chiens de la liste» und «cani dell'elenco», «Halteberechtigung» heisst «autorisation de détention» und «autorizzazione di detenzione», «Ordnungsbusse» heisst «amende d'ordre» und «multa disciplinare» (wie in der Tessiner Originalfassung). «Gemeinderat» und «Municipio» bleiben stehen, mit «conseil communal», «esecutivo comunale» oder «Gemeindeexekutive» in Klammern. Rassenamen bleiben wie im Original, auch «Argentinische Dogge» auf der italienischen Walliser Seite und die italienischen Namen auf der deutschen und französischen Tessiner Seite.
+- Geprüft: `build.py --check` ohne Meldung, Bau und Test fehlerfrei. Als Bild angesehen und ganz gelesen: `/ti/`, `/fr-ch/ag/`, `/it-ch/vs/`.
+- Aufgefallen (nichts davon geändert):
+  - `data/fr-ch/kantone/vd.json` und `data/fr-ch/kantone/ge.json`, Feld `vergleich.wald`: «1.4 au 15.7» ohne Punkt nach Monat, die deutschen Dateien und das Muster Zürich schreiben «1.4. bis 31.7.» und «du 1.4. au 31.7.».
+  - `data/kantone/lu.json`, Karte Rassen: einzige Quelle ist `srf` (Medium), keine amtliche Quelle.
+  - `data/kantone/vs.json`, Karte Rassen: «Neapolitanischer Mastiff» und «Spanischer Mastiff» sind keine üblichen deutschen Rassenamen (üblich: Mastino Napoletano, Mastín Español). Beim Nachprüfen mit der Quelle vergleichen.
+  - `data/it-ch/kantone/ti.json`, Karte Rassen, Liste: «Pastori belga» (Mehrzahl und Einzahl gemischt), wohl so aus der Quelle.
+  - Darstellung, betrifft `build.py` oder `assets/`: Auf französischen Seiten stossen bei 390 Pixeln die Monatskürzel unter dem Wald-Balken aneinander («janv fév: mars avr»).
+- Offen: 120 Übersetzungen (32 Kantonsfassungen, 88 Gemeindefassungen). Nächster Kanton laut Liste: Freiburg italienisch.
+
 ## 2026-11-18, Sitzung mit Joss: Übersetzungen im Generator, Probe Zürich
 
 Entscheid von Joss: Jede Seite soll es auf Deutsch, Französisch und Italienisch geben, auch wo die Sprache am Ort nicht Amtssprache ist.

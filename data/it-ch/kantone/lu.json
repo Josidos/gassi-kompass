@@ -1,0 +1,116 @@
+{
+  "id": "lu",
+  "kurz": "LU",
+  "uebersetzt_aus": "de",
+  "original": "3443b7d75e77",
+  "wald": {
+    "saison": true,
+    "von": "04-01",
+    "bis": "07-31",
+    "wo": "nel bosco e fino a 50 m dal margine del bosco",
+    "quellen": [
+      "lu_wald",
+      "lu_stadt"
+    ]
+  },
+  "leine": {
+    "punkte": [
+      "nei locali accessibili al pubblico come ristoranti e negozi",
+      "nelle riserve naturali e nei parchi",
+      "sui mezzi di trasporto pubblici",
+      "sulle strade molto trafficate",
+      "nel bosco e fino a 50 m dal margine del bosco, dal 1° aprile al 31 luglio",
+      "cagne in calore, cani mordaci o affetti da una malattia contagiosa: sempre all'aperto"
+    ],
+    "quellen": [
+      "lu_huv",
+      "lu_wald"
+    ]
+  },
+  "verbot": {
+    "punkte": [
+      "cimiteri",
+      "stabilimenti balneari",
+      "aree ospedaliere",
+      "parchi giochi per bambini",
+      "cortili delle scuole",
+      "campi da gioco e campi sportivi"
+    ],
+    "quellen": [
+      "lu_huv"
+    ]
+  },
+  "karten": [
+    {
+      "titel": "Responsabilità civile",
+      "marke": "Nessun obbligo",
+      "ton": "none",
+      "wert": "solo nel singolo caso",
+      "text": "Non c'è un obbligo generale di assicurazione. Il servizio veterinario può ordinarlo nel singolo caso.",
+      "quellen": [
+        "lu_huv",
+        "lu_hug"
+      ]
+    },
+    {
+      "titel": "Corso",
+      "marke": "Obbligo",
+      "ton": "must",
+      "wert": "NHB entro 18 mesi",
+      "text": "Chi detiene un cane per la prima volta e chiunque importi un cane dall'estero deve superare il Nationales Hundehalter-Brevet (NHB, brevetto nazionale per detentori di cani) entro 18 mesi dall'acquisto. Per farlo il cane deve avere almeno 12 mesi.",
+      "quellen": [
+        "lu_huv",
+        "lu_nhb"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "marke": "Obbligo",
+      "ton": "note",
+      "wert": "AMICUS e Comune",
+      "text": "Il tuo cane deve avere un microchip ed essere iscritto in AMICUS. L'imposta sui cani è riscossa dal Comune.",
+      "quellen": [
+        "lu_stadt",
+        "lu_hug"
+      ]
+    },
+    {
+      "titel": "Imposta sui cani",
+      "marke": "cantonale",
+      "ton": "note",
+      "wert": "CHF 120 all'anno",
+      "text": "Vale in tutti i Comuni lucernesi. Cani da cortile nelle aziende agricole: CHF 40. Sono esonerati tra gli altri i cani d'assistenza, di servizio e militari.",
+      "quellen": [
+        "lu_hug"
+      ]
+    },
+    {
+      "titel": "Razze",
+      "marke": "nessun elenco",
+      "ton": "none",
+      "wert": "nessuna restrizione",
+      "text": "Il Cantone di Lucerna non prevede divieti specifici per singole razze.",
+      "quellen": [
+        "srf"
+      ]
+    },
+    {
+      "titel": "A passeggio",
+      "marke": "Regola",
+      "ton": "note",
+      "wert": "mai incustodito",
+      "text": "Nel bosco, al margine del bosco, sulle rive dei laghi, lungo le siepi e di notte il tuo cane non può mai restare incustodito. Entra nei campi coltivati solo con il consenso di chi li coltiva.",
+      "quellen": [
+        "lu_huv"
+      ]
+    }
+  ],
+  "vergleich": {
+    "wald": "dal 1.4. al 31.7., fino a 50 m dal margine del bosco",
+    "haft": "nessun obbligo generale",
+    "kurs": "NHB per il primo cane e per le importazioni, entro 18 mesi",
+    "rassen": "nessuna restrizione",
+    "steuer": "CHF 120 all'anno",
+    "anm": "AMICUS, imposta tramite il Comune"
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "id": "ti",
+  "kurz": "TI",
+  "uebersetzt_aus": "it",
+  "original": "6402e55c065c",
+  "wald": {
+    "saison": false,
+    "text": "La Legge sui cani (loi sur les chiens) ne prévoit pas de période de laisse obligatoire en forêt. La règle générale vaut toute l'année : laisse dans les lieux fréquentés par le public ou par d'autres animaux.",
+    "quellen": [
+      "ti_lcani"
+    ]
+  },
+  "leine": {
+    "punkte": [
+      "toute l'année dans les lieux fréquentés par le public ou par d'autres animaux",
+      "muselière, si les circonstances l'exigent",
+      "dans les espaces publics, les chiens des races soumises à des restrictions ne se conduisent qu'un par un",
+      "dans les espaces de liberté pour chiens créés par les Municipi (exécutifs communaux), les règles de la commune s'appliquent"
+    ],
+    "quellen": [
+      "ti_lcani"
+    ]
+  },
+  "verbot": {
+    "einleitung": "La loi cantonale n'énumère pas de lieux interdits aux chiens. Les Municipi (exécutifs communaux) règlent la gestion des chiens par une ordonnance communale.",
+    "punkte": [
+      "les lieux fixés par l'ordonnance de votre commune"
+    ],
+    "quellen": [
+      "ti_lcani"
+    ]
+  },
+  "karten": [
+    {
+      "titel": "Responsabilité civile",
+      "marke": "Obligatoire",
+      "ton": "must",
+      "wert": "au moins CHF 3 millions",
+      "text": "Chaque détenteur doit conclure une assurance responsabilité civile pour les dommages causés par le chien, pour un montant minimal de trois millions de francs. La preuve est à présenter lors de l'enregistrement. Si elle manque, la commune fixe un délai de trois mois au maximum. Amende d'ordre : CHF 80.",
+      "quellen": [
+        "ti_rcani",
+        "ti_lcani"
+      ]
+    },
+    {
+      "titel": "Cours",
+      "marke": "Obligatoire",
+      "ton": "must",
+      "wert": "cours théorique de 6 heures",
+      "text": "Depuis le 1er septembre 2026, toute personne qui prend un chien pour la première fois ou n'en a plus détenu depuis plus de dix ans doit suivre le cours de base, quelle que soit la race : deux séances théoriques d'une durée totale de 6 heures, CHF 120 par participant. Le cours doit être terminé avant de prendre le chien. Seul l'enregistrement dans AMICUS vaut preuve d'une détention antérieure. Amende d'ordre : CHF 150. Pour les races soumises à des restrictions s'ajoutent un cours et deux tests.",
+      "quellen": [
+        "ti_uvc_corso",
+        "ti_rcani",
+        "ti_lcani"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "marke": "Commune",
+      "ton": "note",
+      "wert": "commune et AMICUS",
+      "text": "La commune de domicile vous enregistre comme détenteur dans la banque de données AMICUS. Lors de l'enregistrement, vous présentez l'attestation du cours de base et la preuve de l'assurance. Le chien reçoit sa puce électronique dans les trois mois suivant sa naissance. Le changement d'adresse passe par la commune, le changement de détenteur s'annonce en ligne dans AMICUS. Défaut d'enregistrement ou d'annonce des changements : amende d'ordre de CHF 80.",
+      "quellen": [
+        "ti_rcani",
+        "ti_uvc_anagrafe"
+      ]
+    },
+    {
+      "titel": "Impôt sur les chiens",
+      "marke": "annuel",
+      "ton": "note",
+      "wert": "CHF 75 à 125, selon la commune",
+      "text": "Pour chaque chien âgé de plus de 3 mois, vous payez une taxe annuelle. La commune la fixe entre CHF 75 et CHF 125 et la perçoit. Sur ce montant, CHF 25 vont au Fondo per il soccorso degli animali (fonds de secours aux animaux) et CHF 40 au canton. Aucune taxe pour l'année si le chien est mort avant le 1er avril ou si vous l'avez pris après le 30 septembre.",
+      "quellen": [
+        "ti_lcani",
+        "ti_rcani"
+      ]
+    },
+    {
+      "titel": "Races",
+      "marke": "Autorisation",
+      "ton": "must",
+      "wert": "liste de races soumises à des restrictions",
+      "text": "Pour les chiens des races de la liste nés après le 1er avril 2009, et pour leurs croisements, il faut l'autorisation de l'Ufficio del veterinario cantonale (office du vétérinaire cantonal) avant d'entrer en possession du chien. La demande s'adresse au Municipio (exécutif communal) avec le formulaire officiel et un extrait du casier judiciaire. Coût : CHF 350. Suivent un cours reconnu et deux tests : le premier entre le 9e et le 13e mois, le second entre la 2e et la 3e année de vie du chien. Les restrictions valent aussi si vous séjournez au Tessin avec le chien pendant au moins 30 jours par an.",
+      "mehr": {
+        "titel": "Afficher la liste complète",
+        "punkte": [
+          "Bull Terrier e Bull Terrier Miniature",
+          "Staffordshire Bull Terrier",
+          "American Staffordshire Terrier",
+          "American pit bull",
+          "Rottweiler",
+          "Fila Brasileiro",
+          "Dogo argentino",
+          "Alano (Deutsche Dogge)",
+          "Bulldog americano",
+          "Dogue de Bordeaux",
+          "Mastiff",
+          "Bullmastiff",
+          "Mastino napoletano",
+          "Tosa Inu",
+          "Cane Corso",
+          "Cane pastore del Caucaso",
+          "Cane pastore della Ciarplanina",
+          "Cane pastore dell'Asia centrale",
+          "Cane pastore dell'Anatolia",
+          "Mastino del Tibet",
+          "Presa canario (s'il a été acquis après le 1er janvier 2026)",
+          "Pastore tedesco",
+          "Pastori belga (Groenendael, Laekenois, Malinois, Tervueren)",
+          "Pastore olandese",
+          "Cane lupo cecoslovacco",
+          "Pastore della Beauce",
+          "Komondor",
+          "Kuvasz",
+          "Pastore dei Tatra",
+          "Pastore della Russia meridionale",
+          "Cane lupo di Saarloos (s'il a été acquis après le 1er janvier 2026)",
+          "Dobermann"
+        ]
+      },
+      "quellen": [
+        "ti_uvc_razze",
+        "ti_rcani"
+      ]
+    },
+    {
+      "titel": "En promenade",
+      "marke": "Règle",
+      "ton": "note",
+      "wert": "crottes et fugue",
+      "text": "Ramassez les crottes de votre chien et jetez-les dans les récipients prévus à cet effet : amende d'ordre de CHF 200. Non-respect de la laisse obligatoire : CHF 80. Vous devez prendre des précautions pour que le chien ne s'échappe pas et signaler immédiatement une fugue à la police. Les infractions à la loi peuvent coûter jusqu'à CHF 20 000.",
+      "quellen": [
+        "ti_lcani",
+        "ti_rcani"
+      ]
+    }
+  ],
+  "vergleich": {
+    "wald": "pas de période, laisse dans les lieux fréquentés",
+    "haft": "obligatoire, au moins CHF 3 millions",
+    "kurs": "cours théorique de 6 heures pour qui prend un chien pour la première fois",
+    "rassen": "liste avec autorisation, CHF 350",
+    "steuer": "CHF 75 à 125, selon la commune",
+    "anm": "enregistrement à la commune, AMICUS"
+  },
+  "umzug": {
+    "text": "Si vous vous établissez au Tessin avec un chien d'une race soumise à des restrictions, vous déposez la demande d'autorisation dans les 30 jours et suivez le cours dans les 6 mois.",
+    "quellen": [
+      "ti_rcani"
+    ]
+  }
+}

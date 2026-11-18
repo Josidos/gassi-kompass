@@ -1,0 +1,153 @@
+{
+  "id": "ti",
+  "kurz": "TI",
+  "uebersetzt_aus": "it",
+  "original": "6402e55c065c",
+  "wald": {
+    "saison": false,
+    "text": "Die Legge sui cani (Hundegesetz) sieht keine Zeit mit Leinenpflicht im Wald vor. Das ganze Jahr gilt die allgemeine Regel: Leine an Orten, an denen sich Publikum oder andere Tiere aufhalten.",
+    "quellen": [
+      "ti_lcani"
+    ]
+  },
+  "leine": {
+    "punkte": [
+      "das ganze Jahr an Orten, an denen sich Publikum oder andere Tiere aufhalten",
+      "Maulkorb, wenn die Umstände es verlangen",
+      "auf öffentlichem Grund werden Hunde der Rassen mit Einschränkungen nur einzeln geführt",
+      "in den Freilaufzonen, die die Municipi (Gemeindeexekutiven) eingerichtet haben, gelten die Regeln der Gemeinde"
+    ],
+    "quellen": [
+      "ti_lcani"
+    ]
+  },
+  "verbot": {
+    "einleitung": "Das kantonale Gesetz zählt keine Orte mit Hundeverbot auf. Die Municipi (Gemeindeexekutiven) regeln den Umgang mit Hunden in einer Gemeindeverordnung.",
+    "punkte": [
+      "Orte, die die Verordnung deiner Gemeinde festlegt"
+    ],
+    "quellen": [
+      "ti_lcani"
+    ]
+  },
+  "karten": [
+    {
+      "titel": "Haftpflicht",
+      "marke": "Pflicht",
+      "ton": "must",
+      "wert": "mind. CHF 3 Mio.",
+      "text": "Alle Hundehaltenden müssen eine Haftpflichtversicherung für Schäden abschliessen, die der Hund verursacht, mit einer Deckung von mindestens drei Millionen Franken. Der Nachweis ist bei der Registrierung vorzulegen. Fehlt er, setzt die Gemeinde eine Frist von höchstens drei Monaten. Ordnungsbusse: CHF 80.",
+      "quellen": [
+        "ti_rcani",
+        "ti_lcani"
+      ]
+    },
+    {
+      "titel": "Kurs",
+      "marke": "Pflicht",
+      "ton": "must",
+      "wert": "Theoriekurs von 6 Stunden",
+      "text": "Seit dem 1. September 2026 muss den Grundkurs besuchen, wer zum ersten Mal einen Hund übernimmt oder seit mehr als zehn Jahren keinen gehalten hat, unabhängig von der Rasse: zwei Theorieabende von insgesamt 6 Stunden, CHF 120 pro Person. Der Kurs muss abgeschlossen sein, bevor du den Hund übernimmst. Als Nachweis einer früheren Hundehaltung gilt nur die Registrierung in AMICUS. Ordnungsbusse: CHF 150. Für die Rassen mit Einschränkungen kommen ein Kurs und zwei Tests dazu.",
+      "quellen": [
+        "ti_uvc_corso",
+        "ti_rcani",
+        "ti_lcani"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "marke": "Gemeinde",
+      "ton": "note",
+      "wert": "Gemeinde und AMICUS",
+      "text": "Die Wohngemeinde registriert dich als Halterin oder Halter in der Datenbank AMICUS. Bei der Registrierung legst du die Bestätigung des Grundkurses und den Versicherungsnachweis vor. Der Hund erhält den Mikrochip innert drei Monaten nach der Geburt. Die Adressänderung läuft über die Gemeinde, den Halterwechsel meldest du online in AMICUS. Unterlassene Registrierung oder Meldung von Änderungen: Ordnungsbusse von CHF 80.",
+      "quellen": [
+        "ti_rcani",
+        "ti_uvc_anagrafe"
+      ]
+    },
+    {
+      "titel": "Hundesteuer",
+      "marke": "jährlich",
+      "ton": "note",
+      "wert": "CHF 75 bis 125, je nach Gemeinde",
+      "text": "Für jeden Hund, der älter als 3 Monate ist, zahlst du eine jährliche Taxe. Die Gemeinde legt sie zwischen CHF 75 und CHF 125 fest und zieht sie ein. Von diesem Betrag gehen CHF 25 an den Fondo per il soccorso degli animali (Tierhilfefonds) und CHF 40 an den Kanton. Keine Taxe für das Jahr, wenn der Hund vor dem 1. April gestorben ist oder du ihn nach dem 30. September übernommen hast.",
+      "quellen": [
+        "ti_lcani",
+        "ti_rcani"
+      ]
+    },
+    {
+      "titel": "Rassen",
+      "marke": "Bewilligung",
+      "ton": "must",
+      "wert": "Liste von Rassen mit Einschränkungen",
+      "text": "Für Hunde der aufgelisteten Rassen, die nach dem 1. April 2009 geboren sind, und für ihre Kreuzungen braucht es die Bewilligung des Ufficio del veterinario cantonale (Amt des Kantonstierarztes), bevor du den Hund übernimmst. Das Gesuch geht mit dem amtlichen Formular und einem Strafregisterauszug an das Municipio (Gemeindeexekutive). Kosten: CHF 350. Es folgen ein anerkannter Kurs und zwei Tests: der erste zwischen dem 9. und dem 13. Lebensmonat, der zweite zwischen dem 2. und dem 3. Lebensjahr des Hundes. Die Einschränkungen gelten auch, wenn du dich mit dem Hund mindestens 30 Tage pro Jahr im Tessin aufhältst.",
+      "mehr": {
+        "titel": "Ganze Liste anzeigen",
+        "punkte": [
+          "Bull Terrier e Bull Terrier Miniature",
+          "Staffordshire Bull Terrier",
+          "American Staffordshire Terrier",
+          "American pit bull",
+          "Rottweiler",
+          "Fila Brasileiro",
+          "Dogo argentino",
+          "Alano (Deutsche Dogge)",
+          "Bulldog americano",
+          "Dogue de Bordeaux",
+          "Mastiff",
+          "Bullmastiff",
+          "Mastino napoletano",
+          "Tosa Inu",
+          "Cane Corso",
+          "Cane pastore del Caucaso",
+          "Cane pastore della Ciarplanina",
+          "Cane pastore dell'Asia centrale",
+          "Cane pastore dell'Anatolia",
+          "Mastino del Tibet",
+          "Presa canario (falls nach dem 1. Januar 2026 erworben)",
+          "Pastore tedesco",
+          "Pastori belga (Groenendael, Laekenois, Malinois, Tervueren)",
+          "Pastore olandese",
+          "Cane lupo cecoslovacco",
+          "Pastore della Beauce",
+          "Komondor",
+          "Kuvasz",
+          "Pastore dei Tatra",
+          "Pastore della Russia meridionale",
+          "Cane lupo di Saarloos (falls nach dem 1. Januar 2026 erworben)",
+          "Dobermann"
+        ]
+      },
+      "quellen": [
+        "ti_uvc_razze",
+        "ti_rcani"
+      ]
+    },
+    {
+      "titel": "Unterwegs",
+      "marke": "Regel",
+      "ton": "note",
+      "wert": "Kot und Entlaufen",
+      "text": "Nimm den Kot deines Hundes auf und wirf ihn in die dafür vorgesehenen Behälter: Ordnungsbusse von CHF 200. Missachtung der Leinenpflicht: CHF 80. Du musst Vorkehrungen treffen, damit der Hund nicht entläuft, und ein Entlaufen sofort der Polizei melden. Verstösse gegen das Gesetz können bis CHF 20'000 kosten.",
+      "quellen": [
+        "ti_lcani",
+        "ti_rcani"
+      ]
+    }
+  ],
+  "vergleich": {
+    "wald": "keine Leinenzeit, Leine an Orten mit Publikum oder anderen Tieren",
+    "haft": "Pflicht, mind. CHF 3 Mio.",
+    "kurs": "Theoriekurs von 6 Stunden für alle, die zum ersten Mal einen Hund übernehmen",
+    "rassen": "Liste mit Bewilligung, CHF 350",
+    "steuer": "CHF 75 bis 125, je nach Gemeinde",
+    "anm": "Registrierung bei der Gemeinde, AMICUS"
+  },
+  "umzug": {
+    "text": "Wenn du mit einem Hund einer Rasse mit Einschränkungen ins Tessin ziehst, reichst du das Bewilligungsgesuch innert 30 Tagen ein und besuchst den Kurs innert 6 Monaten.",
+    "quellen": [
+      "ti_rcani"
+    ]
+  }
+}

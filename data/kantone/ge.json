@@ -1,0 +1,159 @@
+{
+  "id": "ge",
+  "kurz": "GE",
+  "uebersetzt_aus": "fr",
+  "original": "400c765d11cd",
+  "wald": {
+    "saison": true,
+    "von": "04-01",
+    "bis": "07-15",
+    "wo": "im Wald",
+    "quellen": [
+      "ge_rchiens",
+      "ge_promenade"
+    ]
+  },
+  "leine": {
+    "punkte": [
+      "im Wald, 1. April bis 15. Juli",
+      "im Wald in der übrigen Zeit des Jahres, wenn du deinen Hund nicht strikt unter Kontrolle hast",
+      "in den Ortschaften und auf öffentlichen Strassen, die dem Verkehr offenstehen",
+      "auf Promenaden und Uferpromenaden, in öffentlichen Gärten und Parks",
+      "am internationalen Flughafen Genf",
+      "auf Campingplätzen",
+      "auf den erlaubten Wegen im Schutzgebiet Moulin-de-Vert",
+      "im Perimeter mit verstärktem Schutz des Wasservogelreservats «Rade et Rhône genevois», gemäss Signalisation"
+    ],
+    "quellen": [
+      "ge_rchiens",
+      "ge_promenade"
+    ]
+  },
+  "verbot": {
+    "einleitung": "Das kantonale Reglement verbietet Hunden den Zutritt zu diesen Orten, auch an der Leine. Blindenführhunde und Assistenzhunde für Menschen mit Behinderung sind nicht betroffen.",
+    "punkte": [
+      "religiöse Gebäude und ihre Nebengebäude, Friedhöfe",
+      "Veranstaltungssäle und Spitäler",
+      "Schulen und ihre Pausenplätze",
+      "Kinderspielplätze und Planschbecken",
+      "öffentliche Bäder, Strände und Schwimmbäder sowie der Steg der Pâquis (jetée des Pâquis)",
+      "Räume, in denen Lebensmittel verkauft oder konsumiert werden",
+      "Rasenflächen, Blumenbeete und Bepflanzungen der Promenaden, der öffentlichen Gärten und Parks",
+      "öffentliche Parks, die als für Hunde verboten bezeichnet sind",
+      "Naturschutzgebiete (ausser bei einer Ausnahme im Managementplan), Waldreservate und mit Betretungsverbot belegte Gebiete (secteurs mis à ban)",
+      "alle landwirtschaftlichen Kulturen"
+    ],
+    "quellen": [
+      "ge_rchiens",
+      "ge_promenade"
+    ]
+  },
+  "karten": [
+    {
+      "titel": "Haftpflicht",
+      "marke": "Pflicht",
+      "ton": "must",
+      "wert": "für alle Hundehaltenden",
+      "text": "Du brauchst eine gültige Haftpflichtversicherung. Einen Mindestbetrag legt das Gesetz nicht fest. Den Nachweis musst du vorlegen, um die Kontrollmarke (marque de contrôle) zu erhalten.",
+      "quellen": [
+        "ge_lchiens",
+        "ge_marque"
+      ]
+    },
+    {
+      "titel": "Kurs",
+      "marke": "Je nach Hund",
+      "ton": "note",
+      "wert": "Test für grosse Hunde",
+      "text": "Hundeerziehungskurse sind nicht obligatorisch, der Kanton empfiehlt sie nachdrücklich. Der test de maîtrise et de comportement (TMC, Test zu Kontrolle und Verhalten) bleibt für grosse Hunde obligatorisch: über 25 kg und 56 cm Widerristhöhe. Einen solchen Hund meldest du bei einer anerkannten Hundetrainerin oder einem anerkannten Hundetrainer an, bevor er 18 Monate alt ist. Der bestandene TMC gilt als Haltebewilligung. Stand der Seite des Kantons: 2023.",
+      "quellen": [
+        "ge_tmc",
+        "ge_lchiens"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "marke": "10 Tage",
+      "ton": "note",
+      "wert": "AMICUS, dann Kontrollmarke",
+      "text": "Die Registrierung des Hundes in der Datenbank AMICUS ist Pflicht, innert 10 Tagen ab dem Erwerb. Auch eine Adressänderung, ein Halterwechsel und der Tod des Hundes sind innert 10 Tagen zu melden. Ab dem Alter von 6 Monaten trägt dein Hund die jährliche Kontrollmarke am Halsband. Du erhältst sie bis zum 1. April bei deiner Gemeinde, sie gilt bis zum 31. März des folgenden Jahres und kostet je nach Gemeinde zwischen CHF 0 und CHF 24. Stand der Seiten des Kantons: 2023.",
+      "quellen": [
+        "ge_lchiens",
+        "ge_rchiens",
+        "ge_detenir",
+        "ge_marque"
+      ]
+    },
+    {
+      "titel": "Hundesteuer",
+      "marke": "jährlich",
+      "ton": "note",
+      "wert": "CHF 50 an den Kanton, dazu die Gemeinde",
+      "text": "Die kantonale Hundesteuer beträgt CHF 50 für den ersten Hund, CHF 70 für den zweiten und CHF 100 für den dritten und jeden weiteren Hund. Dazu kommen die Zuschlagsrappen (centimes additionnels) deiner Gemeinde, berechnet in Prozent der kantonalen Steuer, sowie CHF 1 pro Hund für die Versicherung gegen Schäden durch streunende Hunde und CHF 4 pro Hund für den kantonalen Tierseuchenfonds. Die Steuer ist geschuldet, wenn du im Kanton wohnst, für einen Hund von mindestens 6 Monaten, den du seit mindestens 3 Monaten hältst. Befreit sind unter anderem Assistenzhunde und Diensthunde der Armee, der Polizei, des Zolls oder der Rettung.",
+      "quellen": [
+        "ge_impot_calcul",
+        "ge_impot_qui"
+      ]
+    },
+    {
+      "titel": "Rassen",
+      "marke": "Verboten",
+      "ton": "must",
+      "wert": "15 Rassen und ihre Kreuzungen",
+      "text": "Hunde von Rassen, die als Angriffshunde gelten oder als gefährlich eingestuft sind, sowie ihre Kreuzungen sind auf dem Kantonsgebiet verboten. Es ist verboten, einen solchen Hund zu erwerben. Zugelassen bleiben Hunde, die schon vor der Aufnahme ihrer Rasse in die Liste da waren und eine Haltebewilligung haben. Sie werden an der Leine geführt und tragen einen Maulkorb, sobald sie das Zuhause verlassen, auch in den Freilaufzonen. Auf Angriff abgerichtete Hunde sind ebenfalls verboten.",
+      "mehr": {
+        "titel": "Liste anzeigen",
+        "punkte": [
+          "Am'staff",
+          "Boerbull",
+          "Cane corso",
+          "Dogue argentin",
+          "Fila brasileiro",
+          "Mastiff",
+          "Mâtin espagnol",
+          "Mâtin napolitain",
+          "Pitbull",
+          "Presa canario",
+          "Rottweiler",
+          "Tosa",
+          "Dogue de Bordeaux",
+          "Bullmastiff",
+          "Thaï Ridgeback Dog",
+          "Kreuzungen aus diesen Rassen"
+        ]
+      },
+      "quellen": [
+        "ge_lchiens",
+        "ge_rchiens",
+        "ge_races"
+      ]
+    },
+    {
+      "titel": "Unterwegs",
+      "marke": "Regel",
+      "ton": "note",
+      "wert": "Kot aufnehmen, Kontrolle, höchstens 3 anvertraute Hunde",
+      "text": "Du nimmst den Kot deines Hundes auf. Ausserhalb der Orte mit Leinenpflicht, zum Beispiel auf Feldwegen oder in den Freilaufzonen, bleibt dein Hund unter deiner Kontrolle. Wer mehr als drei Hunde ausführt, die ihm Dritte anvertraut haben, braucht eine Bewilligung des Kantons. Verstösse gegen die loi sur les chiens (Hundegesetz) werden mit Busse bestraft. Den Betrag legt das Gesetz nicht fest.",
+      "quellen": [
+        "ge_lchiens",
+        "ge_rchiens",
+        "ge_promenade"
+      ]
+    }
+  ],
+  "vergleich": {
+    "wald": "1.4. bis 15.7., im Wald",
+    "haft": "Pflicht, kein Mindestbetrag im Gesetz",
+    "kurs": "kein Pflichtkurs, Test (TMC) für Hunde über 25 kg und 56 cm",
+    "rassen": "15 Rassen und ihre Kreuzungen verboten",
+    "steuer": "CHF 50 an den Kanton für den ersten Hund, dazu die Gemeinde",
+    "anm": "innert 10 Tagen in AMICUS, jährliche Kontrollmarke"
+  },
+  "umzug": {
+    "text": "Die Rassen der Liste sind im Kanton verboten. Wenn du im Ausland wohnst und mit einem solchen Hund nach Genf ziehen möchtest, ist unter bestimmten Bedingungen eine Ausnahme möglich. Das Gesuch geht schriftlich an den SCAV, quai Ernest-Ansermet 22, 1205 Genève, bevor der Hund eingeführt wird.",
+    "quellen": [
+      "ge_races",
+      "ge_lchiens"
+    ]
+  }
+}

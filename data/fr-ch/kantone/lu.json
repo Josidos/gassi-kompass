@@ -1,0 +1,116 @@
+{
+  "id": "lu",
+  "kurz": "LU",
+  "uebersetzt_aus": "de",
+  "original": "3443b7d75e77",
+  "wald": {
+    "saison": true,
+    "von": "04-01",
+    "bis": "07-31",
+    "wo": "en forêt et jusqu'à 50 m de la lisière",
+    "quellen": [
+      "lu_wald",
+      "lu_stadt"
+    ]
+  },
+  "leine": {
+    "punkte": [
+      "dans les locaux ouverts au public comme les restaurants et les magasins",
+      "dans les réserves naturelles et les parcs",
+      "dans les transports publics",
+      "sur les routes à fort trafic",
+      "en forêt et jusqu'à 50 m de la lisière, du 1er avril au 31 juillet",
+      "chiennes en chaleur, chiens mordeurs ou atteints d'une maladie contagieuse : toujours à l'extérieur"
+    ],
+    "quellen": [
+      "lu_huv",
+      "lu_wald"
+    ]
+  },
+  "verbot": {
+    "punkte": [
+      "les cimetières",
+      "les établissements de bains",
+      "les enceintes des hôpitaux",
+      "les places de jeux pour enfants",
+      "les préaux",
+      "les terrains de jeu et de sport"
+    ],
+    "quellen": [
+      "lu_huv"
+    ]
+  },
+  "karten": [
+    {
+      "titel": "Responsabilité civile",
+      "marke": "Pas d'obligation",
+      "ton": "none",
+      "wert": "seulement au cas par cas",
+      "text": "Il n'y a pas d'obligation générale de s'assurer. Le service vétérinaire peut l'ordonner dans un cas particulier.",
+      "quellen": [
+        "lu_huv",
+        "lu_hug"
+      ]
+    },
+    {
+      "titel": "Cours",
+      "marke": "Obligatoire",
+      "ton": "must",
+      "wert": "NHB dans les 18 mois",
+      "text": "Les personnes qui détiennent un chien pour la première fois et toutes celles qui importent un chien de l'étranger doivent réussir le Nationales Hundehalter-Brevet (NHB, brevet national pour détenteurs de chiens) dans les 18 mois suivant l'acquisition. Le chien doit pour cela être âgé d'au moins 12 mois.",
+      "quellen": [
+        "lu_huv",
+        "lu_nhb"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "marke": "Obligatoire",
+      "ton": "note",
+      "wert": "AMICUS et commune",
+      "text": "Votre chien doit porter une puce électronique et être inscrit dans AMICUS. L'impôt sur les chiens est perçu par la commune.",
+      "quellen": [
+        "lu_stadt",
+        "lu_hug"
+      ]
+    },
+    {
+      "titel": "Impôt sur les chiens",
+      "marke": "cantonal",
+      "ton": "note",
+      "wert": "CHF 120 par an",
+      "text": "Vaut dans toutes les communes lucernoises. Chiens de ferme dans les exploitations agricoles : CHF 40. Sont exonérés notamment les chiens d'assistance, les chiens de service et les chiens militaires.",
+      "quellen": [
+        "lu_hug"
+      ]
+    },
+    {
+      "titel": "Races",
+      "marke": "pas de liste",
+      "ton": "none",
+      "wert": "aucune restriction",
+      "text": "Le canton de Lucerne ne connaît pas d'interdictions visant des races particulières.",
+      "quellen": [
+        "srf"
+      ]
+    },
+    {
+      "titel": "En promenade",
+      "marke": "Règle",
+      "ton": "note",
+      "wert": "jamais sans surveillance",
+      "text": "En forêt, en lisière, sur les rives des lacs, le long des haies et la nuit, votre chien ne doit jamais rester sans surveillance. N'entrez dans les champs cultivés qu'avec l'accord de l'exploitant.",
+      "quellen": [
+        "lu_huv"
+      ]
+    }
+  ],
+  "vergleich": {
+    "wald": "du 1.4. au 31.7., jusqu'à 50 m de la lisière",
+    "haft": "pas d'obligation générale",
+    "kurs": "NHB pour un premier chien et pour les importations, dans les 18 mois",
+    "rassen": "aucune restriction",
+    "steuer": "CHF 120 par an",
+    "anm": "AMICUS, impôt par la commune"
+  }
+}
