@@ -1,0 +1,64 @@
+{
+  "id": "geneve",
+  "kanton": "ge",
+  "bfs": 6621,
+  "uebersetzt_aus": "fr",
+  "original": "135169c0dac9",
+  "name": "Città di Ginevra",
+  "ort": "Ginevra",
+  "in_ort": "a Ginevra",
+  "einleitung": "Nella Città di Ginevra i cani sono tenuti al guinzaglio nello spazio pubblico. Possono essere slegati solo nelle aree di svago per cani, sotto il controllo di chi li detiene.",
+  "freilaufzonen": [
+    {
+      "name": "Aree di svago recintate",
+      "marken": [
+        "recintata"
+      ],
+      "text": "Pelouse de Château-Banquet, parc Saint-Jean, Maison de la Concorde, parc des Franchises, rue Soubeyran, parc Liotard, promenade des Crêts, parc Eglantyne Jebb, parc des Falaises de Champel, parc Bertrand, rue des Contamines, parc Belmont. L'area del parc Geisendorf è chiusa dal 1° giugno 2026."
+    },
+    {
+      "name": "Aree di svago non recintate",
+      "marken": [
+        "non recintata"
+      ],
+      "text": "Promenade des Crêts, pelouse de Moillebeau, sentier des Falaises, parc de Budé, parcelle Rigot, Jonction-Butin, Bois de la Bâtie, riva destra dell'Arve alla Jonction, riva sinistra dell'Arve ai Vernets, plaine de Plainpalais, parc Bertrand, parc La Grange."
+    }
+  ],
+  "freilaufzonen_quellen": [
+    "ge_ville_lieux"
+  ],
+  "karten": [
+    {
+      "titel": "Guinzaglio",
+      "wert": "ovunque nello spazio pubblico",
+      "text": "Nelle strade, sulle piazze, sui lungolago e sulle passeggiate come pure nei parchi in cui i cani sono ammessi, il tuo cane è tenuto al guinzaglio. Può essere slegato solo nelle aree di svago per cani. Ne resti responsabile e non lo lasci mai solo.",
+      "quellen": [
+        "ge_ville_lieux"
+      ]
+    },
+    {
+      "titel": "Accesso vietato",
+      "wert": "12 parchi e ogni luogo segnalato",
+      "text": "La Città vieta ai cani, anche al guinzaglio: Jardin de la Paix, parc Liotard, parc Bourgogne, parc des Délices, Jardin botanique, île Rousseau, sentier des Saules, parc Gourgas, parc Baud-Bovy, promenade du Pin, terrasse Agrippa d'Aubigné, plage des Eaux-Vives. Il parc Liotard figura anche nell'elenco delle aree di svago recintate. Sono inoltre vietati ogni luogo segnalato come tale, i prati, le aiuole e le piantagioni dei parchi, i parchi giochi, i cortili scolastici e i cimiteri.",
+      "quellen": [
+        "ge_ville_lieux"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "wert": "contrassegno di controllo alla police municipale",
+      "text": "Chi abita nella Città di Ginevra ottiene il contrassegno di controllo annuale (marque de contrôle) in un posto della police municipale (polizia comunale). Presenti l'attestato dell'assicurazione di responsabilità civile, il libretto delle vaccinazioni con un vaccino contro la rabbia valido e la prova della registrazione in AMICUS. Stato della pagina del Cantone: 2023.",
+      "quellen": [
+        "ge_marque"
+      ]
+    },
+    {
+      "titel": "Multe",
+      "wert": "contravvenzione, importo non pubblicato",
+      "text": "La police municipale può sanzionare in particolare l'assenza del contrassegno di controllo o del microchip, gli escrementi non raccolti, il mancato rispetto del guinzaglio o dei luoghi vietati, l'imposta non pagata e l'assenza dell'assicurazione di responsabilità civile. La pagina della Città non indica importi.",
+      "quellen": [
+        "ge_ville_obligations"
+      ]
+    }
+  ]
+}

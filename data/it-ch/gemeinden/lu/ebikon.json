@@ -1,0 +1,38 @@
+{
+  "id": "ebikon",
+  "kanton": "lu",
+  "bfs": 1054,
+  "uebersetzt_aus": "de",
+  "original": "63ed253d0e39",
+  "name": "Ebikon",
+  "ort": "Ebikon",
+  "in_ort": "a Ebikon",
+  "hinweis_heute": "Nella riserva forestale del Riedholz, sullo Hundsrüggen, i cani vanno tenuti al guinzaglio secondo il Comune.",
+  "einleitung": "A livello locale sono documentate l'imposta sui cani, la notifica tramite i moduli del Comune e la regola del guinzaglio nella riserva forestale del Riedholz. Per il resto vale la Hundeverordnung (ordinanza sui cani) del Cantone.",
+  "karten": [
+    {
+      "titel": "Imposta sui cani",
+      "wert": "CHF 120 per cane all'anno",
+      "text": "L'imposta sui cani ammonta a CHF 120 per i cani domestici e a CHF 40 per i cani da fattoria e da caccia. Per i cani giovani vale, a determinate condizioni, CHF 60. È competente l'Abteilung Finanzen (servizio finanze).",
+      "quellen": [
+        "lu_ebikon_hundesteuer"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "wert": "modulo online «Hundesteuer»",
+      "text": "Annunci il tuo cane tramite il modulo online «Hundesteuer» (imposta sui cani) del Comune. Se detieni un cane per la prima volta, richiedi un ID personale per AMICUS con il modulo «AMICUS Personen-ID». Se il tuo cane muore, annunci la data del decesso tramite il modulo «Hundesteuer».",
+      "quellen": [
+        "lu_ebikon_hundesteuer"
+      ]
+    },
+    {
+      "titel": "Guinzaglio",
+      "wert": "riserva forestale del Riedholz",
+      "text": "Nella riserva forestale del Riedholz, sullo Hundsrüggen, i cani vanno tenuti al guinzaglio. La regola è segnalata lungo il sentiero. Stato della comunicazione: 23 novembre 2023.",
+      "quellen": [
+        "lu_ebikon_waldreservat"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "st-gallen",
+  "kanton": "sg",
+  "bfs": 3203,
+  "uebersetzt_aus": "de",
+  "original": "90be54d7c386",
+  "name": "Ville de Saint-Gall",
+  "ort": "Saint-Gall",
+  "in_ort": "à Saint-Gall",
+  "karten": [
+    {
+      "titel": "Impôt sur les chiens",
+      "wert": "CHF 130 par chien et par an",
+      "text": "En ville de Saint-Gall, l'impôt sur les chiens s'élève à CHF 130 par chien et par année civile.",
+      "quellen": [
+        "sg_stadt"
+      ]
+    },
+    {
+      "titel": "Laisse",
+      "wert": "préaux, places de jeux, transports publics",
+      "text": "Selon le Polizeireglement (règlement de police) de la Ville, votre chien doit être tenu en laisse dans les préaux, sur les places de jeux pour enfants et dans les transports publics.",
+      "quellen": [
+        "sg_stadt"
+      ]
+    },
+    {
+      "titel": "Accès interdit",
+      "wert": "cimetières et établissements de bains",
+      "text": "Les chiens sont interdits dans les cimetières et dans les établissements de bains. Font exception les chiens qui guident une personne malvoyante.",
+      "quellen": [
+        "sg_stadt"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "wert": "Stadtpolizei (police municipale)",
+      "text": "Vous annoncez votre chien à la Stadtpolizei St. Gallen, Vadianstrasse 57. Pour l'annonce d'arrivée, l'annonce de départ et les changements, la Ville propose un formulaire en ligne.",
+      "quellen": [
+        "sg_stadt"
+      ]
+    }
+  ]
+}

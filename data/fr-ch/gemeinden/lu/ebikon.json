@@ -1,0 +1,38 @@
+{
+  "id": "ebikon",
+  "kanton": "lu",
+  "bfs": 1054,
+  "uebersetzt_aus": "de",
+  "original": "63ed253d0e39",
+  "name": "Ebikon",
+  "ort": "Ebikon",
+  "in_ort": "à Ebikon",
+  "hinweis_heute": "Dans la réserve forestière du Riedholz, sur le Hundsrüggen, les chiens doivent être tenus en laisse selon la commune.",
+  "einleitung": "Sont attestés au niveau local l'impôt sur les chiens, l'annonce au moyen des formulaires de la commune et la règle de la laisse dans la réserve forestière du Riedholz. Pour le reste, la Hundeverordnung (ordonnance sur les chiens) du canton s'applique.",
+  "karten": [
+    {
+      "titel": "Impôt sur les chiens",
+      "wert": "CHF 120 par chien et par an",
+      "text": "L'impôt sur les chiens s'élève à CHF 120 pour les chiens de maison et à CHF 40 pour les chiens de ferme et de chasse. Pour les jeunes chiens, il est de CHF 60 sous conditions. Le service compétent est l'Abteilung Finanzen (service des finances).",
+      "quellen": [
+        "lu_ebikon_hundesteuer"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "wert": "formulaire en ligne «Hundesteuer»",
+      "text": "Vous annoncez votre chien au moyen du formulaire en ligne «Hundesteuer» (impôt sur les chiens) de la commune. Si vous détenez un chien pour la première fois, vous demandez un identifiant personnel pour AMICUS au moyen du formulaire «AMICUS Personen-ID». Si votre chien meurt, vous annoncez la date du décès au moyen du formulaire «Hundesteuer».",
+      "quellen": [
+        "lu_ebikon_hundesteuer"
+      ]
+    },
+    {
+      "titel": "Laisse",
+      "wert": "réserve forestière du Riedholz",
+      "text": "Dans la réserve forestière du Riedholz, sur le Hundsrüggen, les chiens doivent être tenus en laisse. La règle est signalée au bord du chemin. État de la communication: 23 novembre 2023.",
+      "quellen": [
+        "lu_ebikon_waldreservat"
+      ]
+    }
+  ]
+}

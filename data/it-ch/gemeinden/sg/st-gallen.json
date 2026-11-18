@@ -1,0 +1,44 @@
+{
+  "id": "st-gallen",
+  "kanton": "sg",
+  "bfs": 3203,
+  "uebersetzt_aus": "de",
+  "original": "90be54d7c386",
+  "name": "Città di San Gallo",
+  "ort": "San Gallo",
+  "in_ort": "a San Gallo",
+  "karten": [
+    {
+      "titel": "Imposta sui cani",
+      "wert": "CHF 130 per cane all'anno",
+      "text": "Nella città di San Gallo l'imposta sui cani ammonta a CHF 130 per cane e per anno civile.",
+      "quellen": [
+        "sg_stadt"
+      ]
+    },
+    {
+      "titel": "Guinzaglio",
+      "wert": "cortili scolastici, parchi giochi, trasporti pubblici",
+      "text": "Secondo il Polizeireglement (regolamento di polizia) della Città, il tuo cane va tenuto al guinzaglio nei cortili scolastici, nei parchi giochi per bambini e sui mezzi di trasporto pubblici.",
+      "quellen": [
+        "sg_stadt"
+      ]
+    },
+    {
+      "titel": "Accesso vietato",
+      "wert": "cimiteri e stabilimenti balneari",
+      "text": "I cani sono vietati nei cimiteri e negli stabilimenti balneari. Fanno eccezione i cani che guidano una persona ipovedente.",
+      "quellen": [
+        "sg_stadt"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "wert": "Stadtpolizei (polizia comunale)",
+      "text": "Annunci il tuo cane alla Stadtpolizei St. Gallen, Vadianstrasse 57. Per la notifica di arrivo, la notifica di partenza e le modifiche la Città mette a disposizione un modulo online.",
+      "quellen": [
+        "sg_stadt"
+      ]
+    }
+  ]
+}

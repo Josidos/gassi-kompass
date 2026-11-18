@@ -1,0 +1,64 @@
+{
+  "id": "geneve",
+  "kanton": "ge",
+  "bfs": 6621,
+  "uebersetzt_aus": "fr",
+  "original": "135169c0dac9",
+  "name": "Stadt Genf",
+  "ort": "Genf",
+  "in_ort": "in der Stadt Genf",
+  "einleitung": "In der Stadt Genf sind Hunde im öffentlichen Raum an der Leine zu führen. Frei laufen dürfen sie nur in den Freilaufzonen, unter der Kontrolle ihrer Halterin oder ihres Halters.",
+  "freilaufzonen": [
+    {
+      "name": "Eingezäunte Freilaufzonen",
+      "marken": [
+        "eingezäunt"
+      ],
+      "text": "Pelouse de Château-Banquet, parc Saint-Jean, Maison de la Concorde, parc des Franchises, rue Soubeyran, parc Liotard, promenade des Crêts, parc Eglantyne Jebb, parc des Falaises de Champel, parc Bertrand, rue des Contamines, parc Belmont. Die Zone im parc Geisendorf ist seit dem 1. Juni 2026 geschlossen."
+    },
+    {
+      "name": "Nicht eingezäunte Freilaufzonen",
+      "marken": [
+        "nicht eingezäunt"
+      ],
+      "text": "Promenade des Crêts, pelouse de Moillebeau, sentier des Falaises, parc de Budé, parcelle Rigot, Jonction-Butin, Bois de la Bâtie, rechtes Ufer der Arve bei der Jonction, linkes Ufer der Arve bei Les Vernets, plaine de Plainpalais, parc Bertrand, parc La Grange."
+    }
+  ],
+  "freilaufzonen_quellen": [
+    "ge_ville_lieux"
+  ],
+  "karten": [
+    {
+      "titel": "Leine",
+      "wert": "überall im öffentlichen Raum",
+      "text": "Auf Strassen, Plätzen, Quais und Promenaden sowie in den Parks, in denen Hunde zugelassen sind, führst du deinen Hund an der Leine. Frei laufen darf er nur in den Freilaufzonen. Du bleibst für ihn verantwortlich und lässt ihn nie allein.",
+      "quellen": [
+        "ge_ville_lieux"
+      ]
+    },
+    {
+      "titel": "Kein Zutritt",
+      "wert": "12 Parks und jeder signalisierte Ort",
+      "text": "Die Stadt verbietet Hunde, auch an der Leine, an diesen Orten: Jardin de la Paix, parc Liotard, parc Bourgogne, parc des Délices, Jardin botanique, île Rousseau, sentier des Saules, parc Gourgas, parc Baud-Bovy, promenade du Pin, terrasse Agrippa d'Aubigné, plage des Eaux-Vives. Der parc Liotard steht auch auf der Liste der eingezäunten Freilaufzonen. Verboten sind Hunde zudem an jedem Ort, der so signalisiert ist, auf den Rasenflächen, in den Beeten und Pflanzungen der Parks, auf Spielplätzen, auf Pausenplätzen und auf Friedhöfen.",
+      "quellen": [
+        "ge_ville_lieux"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "wert": "Kontrollmarke bei der Police municipale",
+      "text": "Wer in der Stadt Genf wohnt, erhält die jährliche Kontrollmarke (marque de contrôle) auf einem Posten der Police municipale (Gemeindepolizei). Du legst den Nachweis der Haftpflichtversicherung, den Impfausweis mit gültiger Tollwutimpfung und den Nachweis der Registrierung in AMICUS vor. Stand der Seite des Kantons: 2023.",
+      "quellen": [
+        "ge_marque"
+      ]
+    },
+    {
+      "titel": "Bussen",
+      "wert": "Busse, Betrag nicht veröffentlicht",
+      "text": "Die Police municipale kann namentlich büssen, wenn die Kontrollmarke oder der Chip fehlt, der Kot nicht aufgenommen wird, die Leinenpflicht oder die verbotenen Orte missachtet werden, die Hundesteuer nicht bezahlt ist oder die Haftpflichtversicherung fehlt. Die Seite der Stadt nennt keine Beträge.",
+      "quellen": [
+        "ge_ville_obligations"
+      ]
+    }
+  ]
+}
