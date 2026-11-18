@@ -17,14 +17,14 @@ Bleibt ein Kanton nach einem Lauf unvollständig (Entwurf unter `data/entwurf/`)
 
 ## Kette
 
-keine Kette
+Name: Kette Übersetzungen. Höchstens 8 Glieder. Schluss: 18. November 2026, 20:00 Uhr Schweizer Zeit. Von Joss am 18. November 2026 um 11:55 Uhr freigegeben, gestartet um 12:10 Uhr. Wie ein Glied arbeitet, steht in `CLAUDE.md` unter «Kette». Wie eine Übersetzung entsteht, steht dort unter «Alle Sprachen überall».
 
-Von Joss am 18. November 2026 um 11:55 Uhr freigegeben, aber noch nicht gestartet: eine Kette von höchstens 8 Gliedern nur für die Übersetzungen, ein Lauf aufs Mal. Claude startet sie in der Sitzung mit Joss, sobald der Generator Übersetzungen kennzeichnet und die Probe Zürich steht, und trägt dann hier Name, Höchstzahl und Schluss-Zeit ein. Bis dahin gilt «keine Kette». Wie ein Glied arbeitet, steht in `CLAUDE.md` unter «Kette».
+Programm:
 
-Programm der Kette:
+- [ ] a) Übersetzungen der Kantone. Pro Glied bis zu 8 Kantone in alle ihre fehlenden Sprachen (rund 16 Dateien), in der Reihenfolge von `python3 build.py --fehlend`. Offen, bis in der Liste kein Kanton mehr steht.
+- [ ] b) Übersetzungen der Gemeinden. Pro Glied bis zu 15 Gemeinden in alle ihre fehlenden Sprachen (rund 30 Dateien), in der Reihenfolge der Liste. Offen, bis die Liste leer ist.
 
-- [ ] a) Übersetzungen der Kantone. Pro Glied bis zu 6 Kantone in ihre fehlenden Sprachen, in der Reihenfolge von `python3 build.py --fehlend`. Offen, bis kein Kanton mehr fehlt.
-- [ ] b) Übersetzungen der Gemeinden. Pro Glied bis zu 12 Gemeinden in ihre fehlenden Sprachen. Offen, bis keine Gemeinde mehr fehlt.
+Ein Glied übersetzt nur. Es ändert keine Originalfassung und recherchiert nichts. Fällt ihm in einer Originalfassung etwas auf, steht das im Eintrag in `CHANGELOG.md` unter «Aufgefallen». Während die Kette läuft, arbeitet Claude in der Sitzung mit Joss an `build.py`, `assets/` und `tests/` (Darstellung, Bund und Themenseiten in drei Sprachen).
 
 ## 1. Deutschsprachige Kantone
 
