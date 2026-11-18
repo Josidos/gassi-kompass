@@ -1,0 +1,55 @@
+{
+  "id": "chur",
+  "kanton": "gr",
+  "bfs": 3901,
+  "uebersetzt_aus": "de",
+  "original": "9d90403a7908",
+  "name": "Ville de Coire",
+  "ort": "Coire",
+  "in_ort": "à Coire",
+  "einleitung": "À Coire s'appliquent les règles du canton des Grisons. La Ville impose en plus la laisse dans certains lieux et interdit totalement les chiens dans d'autres.",
+  "karten": [
+    {
+      "titel": "Impôt sur les chiens",
+      "wert": "CHF 155 par chien et par an",
+      "text": "L'impôt sur les chiens de la Ville de Coire s'élève actuellement à CHF 155 par chien et par an. Le Stadtrat (exécutif de la Ville) fixe le montant chaque année, le taux maximal est de CHF 300. Les jeunes chiens sont soumis à l'annonce et à l'impôt dès le 4e mois de vie, l'impôt est alors perçu au prorata. Sont exonérés les chiens aptes à l'engagement et titulaires d'un certificat d'examen, par exemple les chiens d'avalanche, de police, de thérapie, les chiens guides d'aveugles, les chiens de recherche, les chiens sanitaires et les chiens de catastrophe, ainsi que les chiens de personnes qui touchent des prestations complémentaires ou l'aide sociale. L'impôt est réduit de moitié pour les chiens de berger et les chiens de rouge, pour les chiens titulaires d'un brevet de la Société Cynologique Suisse et pour les chiens de sport ayant réussi un examen reconnu. Vous présentez le justificatif chaque année après réception de la facture.",
+      "quellen": [
+        "gr_chur_hunde"
+      ]
+    },
+    {
+      "titel": "Laisse",
+      "wert": "dans sept types de lieux",
+      "text": "Vous tenez votre chien en laisse dans les bâtiments administratifs de la Ville, dans les enceintes des écoles et des jardins d'enfants, sur les places de jeux pour enfants, sur les installations sportives, dans les établissements de restauration, dans les parcs publics et dans les zones de tranquillité pour la faune. Il est interdit de laisser courir les chiens sans surveillance.",
+      "quellen": [
+        "gr_chur_hunde"
+      ]
+    },
+    {
+      "titel": "Accès interdit",
+      "wert": "installations de natation, églises, cimetières, salles",
+      "text": "Vous ne pouvez pas emmener votre chien dans les installations de natation, les églises, les cimetières, les salles de concert, les théâtres et les cinémas. Les chiens guides et les chiens d'assistance font exception. Selon la notice de la Stadtpolizei (police municipale), il est en outre interdit de pénétrer dans les prairies du 15 mars au 15 novembre, et toute l'année sur les terres cultivées et les champs d'autrui.",
+      "quellen": [
+        "gr_chur_hunde",
+        "gr_chur_regeln"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "wert": "guichet de la Stadtpolizei",
+      "text": "Le guichet de la Stadtpolizei Chur, Kornplatz 10, reçoit les annonces et les modifications. Apportez le passeport pour animaux de compagnie ou le carnet de vaccination. Si vous prenez un chien en charge, vous vous annoncez dans les 14 jours. Votre chien doit être enregistré dans la banque de données AMICUS, et les données doivent être à jour.",
+      "quellen": [
+        "gr_chur_hunde"
+      ]
+    },
+    {
+      "titel": "Amendes",
+      "wert": "CHF 100 pour des crottes laissées sur place",
+      "text": "Vous éliminez immédiatement les crottes de votre chien sur le domaine public et sur le terrain privé de tiers. Quiconque les laisse sur place paie, selon la notice de la Stadtpolizei, une amende de CHF 100. Des sachets à crottes sont disponibles gratuitement au guichet de la Stadtpolizei. Quiconque enfreint la Flurordnung (règlement sur les champs) est dénoncé.",
+      "quellen": [
+        "gr_chur_hunde",
+        "gr_chur_regeln"
+      ]
+    }
+  ]
+}

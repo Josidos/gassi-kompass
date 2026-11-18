@@ -1,0 +1,40 @@
+{
+  "id": "kreuzlingen",
+  "kanton": "tg",
+  "bfs": 4671,
+  "uebersetzt_aus": "de",
+  "original": "2bc62631d066",
+  "name": "Città di Kreuzlingen",
+  "ort": "Kreuzlingen",
+  "in_ort": "a Kreuzlingen",
+  "einleitung": "A Kreuzlingen valgono le regole del Cantone di Turgovia. I documenti della Città non indicano luoghi propri con obbligo di guinzaglio o divieto per i cani. Fai attenzione ai cartelli sul posto.",
+  "karten": [
+    {
+      "titel": "Imposta sui cani",
+      "wert": "CHF 100, ogni altro cane CHF 160",
+      "text": "A Kreuzlingen l'imposta sui cani ammonta a CHF 100 all'anno per un cane e a CHF 160 per ogni altro cane nella stessa economia domestica. Va pagata entro fine aprile oppure entro 30 giorni dal ricevimento della fattura. Non è previsto alcun rimborso. Stato dell'opuscolo: giugno 2025.",
+      "quellen": [
+        "tg_kreuzlingen_broschuere"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "wert": "Einwohneramt (ufficio abitanti), Hauptstrasse 62",
+      "text": "Annunci il tuo cane all'Einwohneramt, Hundewesen (ufficio cani), Hauptstrasse 62. L'opuscolo della Città indica a tal fine 10 giorni dall'acquisto, il sito web in un punto 30 giorni. Con 10 giorni vai sul sicuro. La notifica va aggiornata anche nella banca dati dei cani AMICUS.",
+      "quellen": [
+        "tg_kreuzlingen_broschuere",
+        "tg_kreuzlingen_hunde"
+      ]
+    },
+    {
+      "titel": "Escrementi",
+      "wert": "sacchetti gratuiti allo sportello",
+      "text": "I sacchetti per gli escrementi li ricevi gratuitamente allo sportello dell'Einwohneramt. Chi non elimina correttamente gli escrementi paga, secondo la Hundeverordnung (ordinanza sui cani) cantonale, una multa disciplinare di CHF 150.",
+      "quellen": [
+        "tg_kreuzlingen_hunde",
+        "tg_kreuzlingen_broschuere",
+        "tg_hundev"
+      ]
+    }
+  ]
+}

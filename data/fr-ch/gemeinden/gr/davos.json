@@ -1,0 +1,58 @@
+{
+  "id": "davos",
+  "kanton": "gr",
+  "bfs": 3851,
+  "uebersetzt_aus": "de",
+  "original": "c0e02836837a",
+  "name": "Commune de Davos",
+  "ort": "Davos",
+  "in_ort": "à Davos",
+  "hinweis_heute": "La commune de Davos impose la laisse en zone forestière, sans indiquer de saison.",
+  "einleitung": "Davos a sa propre loi sur la détention de chiens (état au 1er juin 2023) et une ordonnance y relative du 25 février 2020. Elles s'appliquent aussi aux hôtes qui ne séjournent que temporairement à Davos avec leur chien.",
+  "karten": [
+    {
+      "titel": "Impôt sur les chiens",
+      "wert": "CHF 120, chien supplémentaire CHF 240",
+      "text": "À Davos, l'impôt sur les chiens s'élève à CHF 120 par an pour le premier chien et à CHF 240 pour chaque chien supplémentaire. Sont soumis à l'impôt les chiens dès quatre mois dont la détentrice ou le détenteur est domicilié à Davos. La loi autorise au maximum CHF 300 pour le premier chien. La première année, vous payez au prorata à partir de l'annonce, ensuite la facture arrive chaque année au premier trimestre. Les chiens ayant une formation spéciale reconnue sont exonérés, par exemple les chiens sanitaires, de catastrophe, d'avalanche, d'accompagnement et de thérapie activement engagés. Sur demande motivée, l'impôt est réduit de moitié, notamment pour les chiens de berger et pour le premier chien de personnes touchant une rente AVS ou AI entière.",
+      "quellen": [
+        "gr_davos_hunde",
+        "gr_davos_hundegesetz",
+        "gr_davos_hundeverordnung"
+      ]
+    },
+    {
+      "titel": "Laisse",
+      "wert": "forêt, parcs, places de jeux, asiles pour la faune",
+      "text": "Vous tenez votre chien en laisse dans les parcs publics, sur les places de jeux pour enfants, dans les asiles pour la faune (Wildasyle) et en zone forestière. L'ordonnance n'indique pas de saison. Dans les établissements de restauration, le chien est toujours en laisse. Vous sortez toujours en laisse les chiens malades et les chiennes en chaleur. Aucun chien ne peut courir en liberté sans surveillance. Les chiens d'utilité sont dispensés de la laisse obligatoire lorsqu'ils accomplissent leur tâche. État de l'ordonnance: 25 février 2020.",
+      "quellen": [
+        "gr_davos_hundeverordnung",
+        "gr_davos_hundegesetz"
+      ]
+    },
+    {
+      "titel": "Accès interdit",
+      "wert": "écoles, locaux officiels, pistes de ski, pistes de fond",
+      "text": "Vous ne pouvez emmener aucun chien dans les écoles et les locaux officiels. Sur les pistes de ski balisées, les terrains d'exercice de ski et les pistes de ski de fond, les chiens sont interdits sans autorisation spéciale. S'y ajoutent les interdictions signalées officiellement. Font exception les chiens d'accompagnement pour personnes en situation de handicap, dans les écoles et les locaux officiels aussi les chiens de thérapie, sur les pistes de ski et de fond les chiens d'avalanche reconnus à l'entraînement. État de l'ordonnance: 25 février 2020.",
+      "quellen": [
+        "gr_davos_hundeverordnung"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "wert": "dans les 14 jours à l'Ordnungsamt (office de l'ordre public)",
+      "text": "Si vous vous installez à Davos ou si vous y prenez un chien en charge, vous l'annoncez dans les 14 jours à l'Ordnungsamt. L'obligation d'annonce vaut pour les chiens dès quatre mois. Lors de l'annonce, vous présentez le certificat de vaccination. Si vous détenez un chien pour la première fois, la commune ouvre votre compte dans la banque de données sur les chiens AMICUS.",
+      "quellen": [
+        "gr_davos_hunde",
+        "gr_davos_hundegesetz"
+      ]
+    },
+    {
+      "titel": "Amendes",
+      "wert": "jusqu'à CHF 20 000",
+      "text": "En cas d'infraction, l'Ordnungsamt peut rappeler à l'ordre, avertir, imposer des charges et, dans les cas graves, retirer le chien ou interdire la détention. Les frais sont à votre charge. Une amende jusqu'à CHF 20 000 est possible en plus ou à la place. Vous devez éliminer immédiatement les crottes de votre chien. État de la loi: 1er juin 2023.",
+      "quellen": [
+        "gr_davos_hundegesetz"
+      ]
+    }
+  ]
+}

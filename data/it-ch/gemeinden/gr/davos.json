@@ -1,0 +1,58 @@
+{
+  "id": "davos",
+  "kanton": "gr",
+  "bfs": 3851,
+  "uebersetzt_aus": "de",
+  "original": "c0e02836837a",
+  "name": "Comune di Davos",
+  "ort": "Davos",
+  "in_ort": "a Davos",
+  "hinweis_heute": "Il Comune di Davos prescrive il guinzaglio nell'area boschiva, senza indicare una stagione.",
+  "einleitung": "Davos ha una propria legge sulla detenzione di cani (stato 1° giugno 2023) e una relativa ordinanza del 25 febbraio 2020. Valgono anche per gli ospiti che soggiornano a Davos con il loro cane solo temporaneamente.",
+  "karten": [
+    {
+      "titel": "Imposta sui cani",
+      "wert": "CHF 120, altro cane CHF 240",
+      "text": "A Davos l'imposta sui cani ammonta a CHF 120 all'anno per il primo cane e a CHF 240 per ogni altro cane. Sono soggetti all'imposta i cani a partire da quattro mesi di detentrici e detentori domiciliati a Davos. La legge consente al massimo CHF 300 per il primo cane. Il primo anno paghi in proporzione a partire dalla notifica, poi la fattura arriva ogni anno nel primo trimestre. I cani con una formazione speciale riconosciuta sono esentati, per esempio cani sanitari, da catastrofe, da valanga, d'accompagnamento e da terapia impiegati attivamente. Su domanda motivata si paga la metà dell'imposta, tra l'altro per i cani da pastore e per il primo cane di persone con una rendita AVS o AI intera.",
+      "quellen": [
+        "gr_davos_hunde",
+        "gr_davos_hundegesetz",
+        "gr_davos_hundeverordnung"
+      ]
+    },
+    {
+      "titel": "Guinzaglio",
+      "wert": "bosco, parchi, parchi giochi, asili per la selvaggina",
+      "text": "Tieni il tuo cane al guinzaglio nei parchi pubblici, nei parchi giochi per bambini, negli asili per la selvaggina (Wildasyle) e nell'area boschiva. L'ordinanza non indica una stagione. Negli esercizi pubblici il cane è sempre al guinzaglio. I cani malati e le cagne in calore li porti fuori sempre al guinzaglio. Nessun cane può correre libero senza sorveglianza. Sono esclusi dall'obbligo di guinzaglio i cani da utilità mentre svolgono il loro compito. Stato dell'ordinanza: 25 febbraio 2020.",
+      "quellen": [
+        "gr_davos_hundeverordnung",
+        "gr_davos_hundegesetz"
+      ]
+    },
+    {
+      "titel": "Accesso vietato",
+      "wert": "scuole, locali ufficiali, piste da sci, piste di fondo",
+      "text": "Nelle scuole e nei locali ufficiali non puoi portare nessun cane. Sulle piste da sci segnalate, sui campi scuola di sci e sulle piste di sci di fondo i cani sono vietati senza un'autorizzazione speciale. Si aggiungono i divieti segnalati ufficialmente. Fanno eccezione i cani d'accompagnamento per persone con disabilità, nelle scuole e nei locali ufficiali anche i cani da terapia, sulle piste da sci e di fondo i cani da valanga riconosciuti in allenamento. Stato dell'ordinanza: 25 febbraio 2020.",
+      "quellen": [
+        "gr_davos_hundeverordnung"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "wert": "entro 14 giorni all'Ordnungsamt (ufficio dell'ordine pubblico)",
+      "text": "Se ti trasferisci a Davos o vi prendi a carico un cane, lo annunci entro 14 giorni all'Ordnungsamt. L'obbligo di notifica vale per i cani a partire da quattro mesi. Alla notifica mostri il certificato di vaccinazione. Se detieni un cane per la prima volta, il Comune apre il tuo conto nella banca dati dei cani AMICUS.",
+      "quellen": [
+        "gr_davos_hunde",
+        "gr_davos_hundegesetz"
+      ]
+    },
+    {
+      "titel": "Multe",
+      "wert": "fino a CHF 20 000",
+      "text": "In caso di infrazioni l'Ordnungsamt può ammonire, diffidare, imporre oneri e, nei casi gravi, togliere il cane o vietarne la detenzione. I costi sono a tuo carico. In aggiunta o in alternativa è possibile una multa fino a CHF 20 000. Devi eliminare subito gli escrementi del tuo cane. Stato della legge: 1° giugno 2023.",
+      "quellen": [
+        "gr_davos_hundegesetz"
+      ]
+    }
+  ]
+}

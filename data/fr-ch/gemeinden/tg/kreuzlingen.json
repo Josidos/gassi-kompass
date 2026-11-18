@@ -1,0 +1,40 @@
+{
+  "id": "kreuzlingen",
+  "kanton": "tg",
+  "bfs": 4671,
+  "uebersetzt_aus": "de",
+  "original": "2bc62631d066",
+  "name": "Ville de Kreuzlingen",
+  "ort": "Kreuzlingen",
+  "in_ort": "à Kreuzlingen",
+  "einleitung": "À Kreuzlingen s'appliquent les règles du canton de Thurgovie. Les documents de la Ville ne mentionnent pas de lieux propres où la laisse est obligatoire ou les chiens interdits. Observez les panneaux sur place.",
+  "karten": [
+    {
+      "titel": "Impôt sur les chiens",
+      "wert": "CHF 100, chaque chien supplémentaire CHF 160",
+      "text": "À Kreuzlingen, l'impôt sur les chiens s'élève à CHF 100 par an pour un chien et à CHF 160 pour chaque chien supplémentaire du même ménage. Il doit être payé jusqu'à fin avril ou dans les 30 jours suivant la réception de la facture. Il n'y a pas de remboursement. État de la brochure: juin 2025.",
+      "quellen": [
+        "tg_kreuzlingen_broschuere"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "wert": "Einwohneramt (office des habitants), Hauptstrasse 62",
+      "text": "Vous annoncez votre chien à l'Einwohneramt, Hundewesen (service des chiens), Hauptstrasse 62. La brochure de la Ville indique pour cela 10 jours après l'acquisition, le site internet 30 jours à un endroit. En respectant les 10 jours, vous ne prenez aucun risque. Vous devez aussi mettre à jour l'annonce dans la banque de données sur les chiens AMICUS.",
+      "quellen": [
+        "tg_kreuzlingen_broschuere",
+        "tg_kreuzlingen_hunde"
+      ]
+    },
+    {
+      "titel": "Crottes de chien",
+      "wert": "sachets à crottes gratuits au guichet",
+      "text": "Vous recevez gratuitement des sachets à crottes au guichet de l'Einwohneramt. Quiconque n'élimine pas correctement les crottes paie, selon la Hundeverordnung (ordonnance sur les chiens) du canton, une amende d'ordre de CHF 150.",
+      "quellen": [
+        "tg_kreuzlingen_hunde",
+        "tg_kreuzlingen_broschuere",
+        "tg_hundev"
+      ]
+    }
+  ]
+}
