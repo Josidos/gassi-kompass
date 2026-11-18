@@ -1,0 +1,116 @@
+{
+  "id": "ju",
+  "name": "Canton du Jura",
+  "kurz": "JU",
+  "im": "dans le canton du Jura",
+  "des": "du canton du Jura",
+  "geprueft": "2026-11-18",
+  "wald": {
+    "saison": false,
+    "text": "Le droit cantonal ne fixe pas de période de laisse obligatoire en forêt. En forêt, vous devez pouvoir maîtriser votre chien en permanence. Sinon, il doit être tenu en laisse. État du texte consulté: 2012. Le canton l'a rappelé le 30 avril 2026: vous devez pouvoir maîtriser votre chien en tout temps et, au besoin, le tenir en laisse. Les chiens dérangent particulièrement la faune pendant la période de reproduction.",
+    "quellen": [
+      "ju_ochasse",
+      "ju_milieux_2026"
+    ]
+  },
+  "leine": {
+    "punkte": [
+      "en forêt, si vous ne pouvez pas maîtriser votre chien en permanence (état du texte consulté: 2012)",
+      "si le vétérinaire cantonal l'a ordonné pour votre chien, y compris hors du milieu habité",
+      "selon le règlement de votre commune: les chiens errants sur la voie publique relèvent de la compétence communale"
+    ],
+    "quellen": [
+      "ju_ochasse",
+      "ju_opa",
+      "ju_scav_chiens"
+    ]
+  },
+  "verbot": {
+    "einleitung": "Les textes cantonaux consultés ne désignent pas de lieux interdits aux chiens. Les règles locales relèvent des communes.",
+    "punkte": [
+      "il est interdit de laisser un chien errer, c'est-à-dire hors du contrôle de son détenteur (état du texte consulté: 2012)",
+      "il est interdit de laisser un chien rechercher ou poursuivre des animaux sauvages (état du texte consulté: 2012)"
+    ],
+    "quellen": [
+      "ju_ochasse",
+      "ju_scav_chiens"
+    ]
+  },
+  "karten": [
+    {
+      "titel": "Responsabilité civile",
+      "marke": "Pas mentionnée",
+      "ton": "none",
+      "wert": "aucune obligation dans les textes consultés",
+      "text": "Ni l'ordonnance cantonale sur la protection des animaux ni la page «Chiens» du Service de la consommation et des affaires vétérinaires (SCAV) ne mentionnent une assurance responsabilité civile obligatoire.",
+      "quellen": [
+        "ju_opa",
+        "ju_scav_chiens"
+      ]
+    },
+    {
+      "titel": "Cours",
+      "marke": "Facultatif",
+      "ton": "none",
+      "wert": "cours recommandé, pas obligatoire",
+      "text": "Le SCAV recommande aux personnes qui détiennent un chien pour la première fois de suivre un cours facultatif durant la première année après l'acquisition. Après une morsure ou un comportement agressif hors norme, le vétérinaire cantonal peut imposer des cours spécifiques.",
+      "quellen": [
+        "ju_scav_chiens",
+        "ju_opa"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "marke": "Obligatoire",
+      "ton": "must",
+      "wert": "commune dans les 30 jours, AMICUS",
+      "text": "Vous déclarez votre chien à votre commune de domicile dans les 30 jours après l'acquisition. Si vous n'avez encore jamais été enregistré comme détenteur, vous vous annoncez au Contrôle des habitants de votre commune, qui saisit vos données dans AMICUS. Votre vétérinaire identifie ensuite le chien et l'enregistre dans AMICUS. La puce électronique est posée au plus tard trois mois après la naissance. Vous annoncez à AMICUS tout changement de détenteur ou d'adresse dans les 10 jours.",
+      "quellen": [
+        "ju_scav_chiens",
+        "ju_scav_amicus"
+      ]
+    },
+    {
+      "titel": "Impôt sur les chiens",
+      "marke": "annuel",
+      "ton": "note",
+      "wert": "taxe communale, montant selon la commune",
+      "text": "La taxe des chiens est une taxe communale. Elle est réglée par la loi cantonale concernant la taxe des chiens (RSJU 645.1) et son ordonnance. Le montant dépend de votre commune. Exemple: à Delémont, la taxe de base est de CHF 130 selon le budget 2026. Les montants limites de la loi ne sont pas indiqués ici. Renseignez-vous auprès de votre commune.",
+      "quellen": [
+        "ju_rsju_taxe",
+        "ju_delemont_budget"
+      ]
+    },
+    {
+      "titel": "Races",
+      "marke": "Aucune liste",
+      "ton": "none",
+      "wert": "mesures au cas par cas",
+      "text": "L'ordonnance cantonale sur la protection des animaux ne contient pas de liste de races. Pour un chien précis, le vétérinaire cantonal peut ordonner des mesures: laisse, muselière, stérilisation, examen et thérapie comportementale, cours d'éducation canine ou examen d'aptitude, séquestre, interdiction de détenir des chiens. Les frais sont à la charge du détenteur. Les morsures sur des personnes ou des animaux et les chiens d'une agressivité hors norme sont annoncés au SCAV, notamment par les vétérinaires, le corps médical, la police et les communes.",
+      "quellen": [
+        "ju_opa",
+        "ju_scav_chiens"
+      ]
+    },
+    {
+      "titel": "En promenade",
+      "marke": "Règle",
+      "ton": "note",
+      "wert": "chien maîtrisé en tout temps",
+      "text": "Vous devez pouvoir maîtriser votre chien en tout temps et, au besoin, le tenir en laisse. Il est interdit de le laisser errer ou poursuivre des animaux sauvages (état du texte consulté: 2012). Les aboiements intempestifs, les chiens errants sur la voie publique ou dans des propriétés privées et les problèmes de voisinage relèvent de votre commune.",
+      "quellen": [
+        "ju_milieux_2026",
+        "ju_ochasse",
+        "ju_scav_chiens"
+      ]
+    }
+  ],
+  "vergleich": {
+    "wald": "aucune période, chien maîtrisé en permanence en forêt, sinon laisse",
+    "haft": "aucune obligation dans les textes consultés",
+    "kurs": "facultatif, recommandé pour le premier chien",
+    "rassen": "aucune liste, mesures au cas par cas",
+    "steuer": "taxe communale, montant selon la commune",
+    "anm": "commune dans les 30 jours et AMICUS"
+  }
+}

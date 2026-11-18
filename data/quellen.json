@@ -553,5 +553,40 @@
     "kurz": "Polizeireglement Brig-Glis",
     "lang": "Stadtgemeinde Brig-Glis: Polizeireglement, von der Urversammlung angenommen am 26. Mai 2014, vom Staatsrat genehmigt am 1. Oktober 2014",
     "url": "https://www.brig-glis.ch/wp-content/uploads/2023/01/Polizeireglement-BRIG-GLIS.pdf"
+  },
+  "ju_scav_chiens": {
+    "kurz": "SCAV Jura: Chiens",
+    "lang": "République et Canton du Jura, Service de la consommation et des affaires vétérinaires (SCAV): page «Chiens» (sans date, consultée le 18 novembre 2026)",
+    "url": "https://www.jura.ch/fr/Autorites/Administration/DES/SCAV/Section-affaires-veterinaires/Chiens/Chiens.html"
+  },
+  "ju_scav_amicus": {
+    "kurz": "SCAV Jura: AMICUS",
+    "lang": "République et Canton du Jura, SCAV: page «AMICUS - Banque de données des chiens» (sans date, consultée le 18 novembre 2026)",
+    "url": "https://www.jura.ch/fr/Autorites/Administration/DES/SCAV/Section-affaires-veterinaires/Chiens/AMICUS-Banque-de-donnees-des-chiens/Banque-de-donnees-nationale-des-chiens.html"
+  },
+  "ju_opa": {
+    "kurz": "Ordonnance protection des animaux JU",
+    "lang": "Ordonnance portant exécution de la législation fédérale sur la protection des animaux (RSJU 455.1) du 29 janvier 2013, en vigueur depuis le 1er mars 2013",
+    "url": "https://rsju.jura.ch/fr/viewdocument.html?idn=20087&id=34499&download=1"
+  },
+  "ju_ochasse": {
+    "kurz": "Ordonnance sur la chasse JU",
+    "lang": "Ordonnance sur la chasse et la protection de la faune sauvage (RSJU 922.111) du 6 février 2007, art. 40. Version consultée: état 2012",
+    "url": "https://rsju.jura.ch/fr/viewdocument.html?idn=20201&id=34015&v=1&Download=1"
+  },
+  "ju_milieux_2026": {
+    "kurz": "Canton du Jura: communiqué du 30 avril 2026",
+    "lang": "République et Canton du Jura: communiqué «Les milieux naturels du canton accueillent le public dans le respect de la faune et de la flore sauvages» du 30 avril 2026",
+    "url": "https://www.jura.ch/fr/Autorites/Administration/CHA/SIC/Centre-medias/Communiques-2026/Les-milieux-naturels-du-canton-accueillent-le-public-dans-le-respect-de-la-faune-et-de-la-flore-sauvages.html"
+  },
+  "ju_rsju_taxe": {
+    "kurz": "RSJU 645: taxe des chiens",
+    "lang": "Recueil systématique du droit jurassien, rubrique «Taxe des chiens»: loi concernant la taxe des chiens (RSJU 645.1) et ordonnance (RSJU 645.11), textes en vigueur",
+    "url": "https://rsju.jura.ch/fr/viewdocument.html?idn=20117&id=26739"
+  },
+  "ju_delemont_budget": {
+    "kurz": "Delémont: budget 2026",
+    "lang": "Ville de Delémont: Budget 2026, accepté par le Conseil de Ville le 8 décembre 2025, chiffre 3.2.4 «Taxe des chiens»",
+    "url": "https://www.delemont.ch/Htdocs/Files/v/3667224c220a3f70ef5e4e3f23240ced5ba7d5c524dd01482e367de65f42bdc5.pdf/Documents-du-Conseil-de-Ville/Budget-communal-2026_message-final.pdf"
   }
 }

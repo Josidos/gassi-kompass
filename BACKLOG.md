@@ -46,7 +46,7 @@ Der Generator baut Französisch und Italienisch seit dem 2026-11-18. Bei zweispr
 - [x] Freiburg (`fr`), französisch und deutsch, 2026-11-18, mit Ville de Fribourg französisch (`/fr/`, `/fr-ch/fr/`)
 - [x] Tessin (`ti`), italienisch, 2026-11-18, mit Città di Lugano (`/it-ch/ti/`)
 - [x] Neuenburg (`ne`), französisch, 2026-11-18, mit Ville de Neuchâtel (`/fr-ch/ne/`)
-- [ ] Jura (`ju`), französisch
+- [x] Jura (`ju`), französisch, 2026-11-18, ohne Gemeinde (Delémont zurückgestellt) (`/fr-ch/ju/`)
 - [x] Bern (`be`), französische Fassung des Kantons, 2026-11-18 (`/fr-ch/be/`). Biel/Bienne französisch steht in Abschnitt 3.
 - [ ] Graubünden (`gr`), italienische Fassung
 
@@ -196,6 +196,11 @@ Ungefähr nach Grösse. Neue Kantone tragen hier ihre grössten Gemeinden ein.
 - [ ] Martigny (VS), französisch
 - [ ] Monthey (VS), französisch
 - [ ] Sierre (VS), französisch. Hinweis für alle Walliser Gemeinden: Die Gemeinde legt die Hundesteuer fest (CHF 100 bis 250) und kann Leinenzonen und Verbotsorte bestimmen. Viele veröffentlichen jedes Jahr einen Anschlag «Hundesteuer» oder «Avis aux propriétaires de chiens».
+- [ ] Delémont (JU), französisch: zurückgestellt am 2026-11-18. Nur zwei lokale Angaben belegt (Grundtaxe CHF 130 laut Budget 2026, Anmeldung beim Secrétariat de la police administrative). Das «Règlement communal sur la garde et la taxe des chiens» (delemont.ch/Htdocs/Files/v/26541.pdf) ist ein PDF ohne lesbaren Text, die Rechtssammlung delemont.tlex.ch liefert dem Abrufwerkzeug keinen Inhalt.
+- [ ] Porrentruy (JU), französisch. Règlement concernant la garde et la taxe des chiens unter porrentruy.ch/_docn/5559397/… (am 2026-11-18 Serverfehler). Hinweis für alle jurassischen Gemeinden: Die Gemeinde legt die Taxe mit dem Budget fest und regelt Leine, Verbotsorte und Bussen in einem eigenen Reglement über Haltung und Taxe der Hunde.
+- [ ] Saignelégier (JU), französisch. Règlement concernant la garde et la taxe des chiens vom 17. Juni 2003 unter saignelegier.ch/FileDownload/Download/30 (lesbar: Leine auf öffentlichen Strassen und Plätzen, Verbot auf Spielplätzen, Friedhöfen und Schulanlagen, Bussen CHF 50 bis 1000). Der Betrag der Taxe fehlt noch.
+- [ ] Haute-Sorne (JU), französisch
+- [ ] Develier (JU), französisch. Seite «Chiens» unter develier.ch.
 - [ ] Bellinzona (TI), italienisch
 - [ ] Locarno (TI), italienisch
 - [ ] Mendrisio (TI), italienisch
@@ -289,6 +294,8 @@ Ungefähr nach Grösse. Neue Kantone tragen hier ihre grössten Gemeinden ein.
 - [ ] Kanton Wallis: französischen Wortlaut der LALPA (RS/VS 455.1) lesen. lex.vs.ch war am 2026-11-18 nicht abrufbar, die französische Fassung stützt sich auf die Seiten des Service cantonal. Danach ergänzen, falls belegt: Verbotsorte der Gemeinden (Art. 33), Material für den Kot (Art. 32), Bussen. Deutsche Fassung: geltenden Stand des AGTSchG prüfen (gelesen: Stand 1.1.2020) und die Bussenbeträge klären (Art. 53 und 54, die Ausbildungsverordnung verweist für die Busse des Veterinäramts auf Art. 54).
 - [ ] Kanton Wallis: deutsche Fassung des Steuergesetzes (SGS 642.1, Art. 182) in der geltenden Fassung lesen. Der Rahmen CHF 100 bis 250 ist in der deutschen Datei mit dem französischen Gesetzestext belegt (Stand 1.1.2026).
 - [ ] Kanton Wallis: Jagd- und Naturschutzrecht auf eine Leinenpflicht im Wald oder in Wildruhezonen prüfen. Die Richtlinien für Gemeinden zu verbotenen Hunden (PDF auf vs.ch) liessen den Abruf nicht zu. Der Kanton hat 2026 ein neues kantonales Hundegesetz in die Vernehmlassung gegeben: beim Nachprüfen den Stand beachten.
+- [ ] Kanton Jura: Wortlaut der Loi concernant la taxe des chiens (RSJU 645.1, Stand 1.1.2020) aus amtlicher Quelle lesen und Rahmen der Taxe, Stichtag, Befreiungen und Strafsteuer ergänzen. Am 2026-11-18 lieferte rsju.jura.ch nur die Rahmenseite, die PDF auf jura.ch und delemont.ch liess das Abrufwerkzeug nicht zu. Die Karte nennt deshalb nur, dass die Taxe kommunal ist, und Delémont als Beispiel.
+- [ ] Kanton Jura: geltende Fassung der Ordonnance sur la chasse (RSJU 922.111, Art. 40) lesen. Abrufbar war nur der Stand 2012, die Seite nennt ihn. Danach auch Bussen ergänzen (Loi sur la chasse, RSJU 922.11, Art. 71: nur im Stand 2013 gelesen, weggelassen).
 - [ ] Ville de Sion: geltende Fassung des Règlement communal de police prüfen (gelesen: Fassung von 1996, homologiert 1997). Freilaufzonen und Verbotsorte suchen.
 - [ ] Brig-Glis: Datum des Merkblatts «Freilauf-Zonen / Leinenpflicht» klären, Merkblatt Robidogs lesen.
 

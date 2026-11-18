@@ -2,6 +2,17 @@
 
 Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen.
 
+## 2026-11-18, Kette, Glied 3: Kanton Jura französisch
+
+- Start: `build.py --check` fehlerfrei, nichts einzusammeln. Das Werkzeug `add_repo` stand nicht zur Verfügung, das Repository war geklont und auf dem Stand von `main`. Angemeldet in `auftraege.md` um 10:41 Uhr, am Schluss wieder gelöscht. Kein Nachprüfen (Kette: nur ein Schritt).
+- Neu: Kanton Jura französisch (`/fr-ch/ju/`). 7 neue Quellen `ju_…` in `data/quellen.json`: zwei Seiten des SCAV auf jura.ch, Ordonnance sur la protection des animaux (RSJU 455.1), Ordonnance sur la chasse (RSJU 922.111, Art. 40), Medienmitteilung des Kantons vom 30. April 2026, Rubrik «Taxe des chiens» der Gesetzessammlung, Budget 2026 der Stadt Delémont.
+- Zurückgestellt: Delémont. Nur zwei lokale Angaben belegt (Grundtaxe CHF 130, Anmeldung bei der Police administrative). Das Reglement der Stadt ist ein PDF ohne lesbaren Text, delemont.tlex.ch liefert dem Abrufwerkzeug keinen Inhalt. Der Kanton hat deshalb keine Gemeindeseite.
+- Entscheid: `wald` ohne Saison. Art. 40 der Jagdverordnung verlangt im Wald, dass der Hund jederzeit beherrscht wird, sonst Leine. Eine Periode nennt er nicht. Abrufbar war nur der Stand 2012, die Seite nennt ihn. Die Medienmitteilung von 2026 bestätigt den Grundsatz.
+- Entscheid: Die Karte «Impôt sur les chiens» nennt nur, was amtlich belegt ist: Die Taxe ist kommunal und im Gesetz RSJU 645.1 geregelt, Delémont erhebt CHF 130. Der Wortlaut des Gesetzes war aus keiner amtlichen Quelle lesbar (rsju.jura.ch lieferte nur die Rahmenseite, die PDF auf jura.ch und delemont.ch liess das Werkzeug nicht zu). Eine private Gesetzessammlung (lexaris.de) nennt CHF 20 bis 130: nicht amtlich, deshalb weggelassen.
+- Weggelassen: Rahmen, Stichtag, Befreiungen und Strafsteuer der Taxe (siehe oben). Bussen nach dem Jagdgesetz (nur im Stand 2013 gelesen). Haftpflicht und Rassen: Die Texte sagen, dass die gelesenen kantonalen Texte nichts dazu enthalten, und behaupten nicht mehr.
+- Backlog: Abschnitt 2 Jura abgehakt. Abschnitt 3: Delémont zurückgestellt, Porrentruy, Saignelégier, Haute-Sorne und Develier eingetragen. Abschnitt 4: zwei Lücken zum Jura.
+- Stand: 25 von 26 Kantonen mit Seite (20 deutsch, 7 französisch, 1 italienisch), 44 Gemeinden, 85 Seiten. Es fehlt Obwalden.
+
 ## 2026-11-18, Kette, Glied 2: Kanton Wallis deutsch und französisch, Sion und Brig-Glis
 
 - Start: `build.py --check` fehlerfrei, nichts einzusammeln. Das Werkzeug `add_repo` stand nicht zur Verfügung, das Repository war geklont und auf dem Stand von `main`. Angemeldet in `auftraege.md` um 10:22 Uhr, am Schluss wieder gelöscht. Kein Nachprüfen (Kette: nur ein Schritt).
