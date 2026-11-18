@@ -2,6 +2,18 @@
 
 Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen.
 
+## 2026-11-18, Sitzung mit Joss: Darstellung, Bund und Themenseiten in drei Sprachen
+
+- Geändert, Startseite in allen drei Sprachen: unter der Suche der Umfang in Zahlen, Kantonstafeln mit der Zahl der Gemeinden, ein kompaktes Gemeindeverzeichnis mit kurzen Ortsnamen und sechs Thementafeln. Die Vergleichstabelle mit 26 Zeilen und 7 Spalten ist weg, sie war am Bildschirm abgeschnitten und auf dem Telefon nicht lesbar.
+- Geändert: Karten in zwei Spalten statt drei. Tafeln zu Gemeinden zeigen nur den Ortsnamen. Auf der Gemeindeseite führt ein Link «Alle Regeln des Kantons …» zum Kanton. Sätze über den Stand des Projekts («Weitere Gemeinden kommen laufend dazu») sind entfernt.
+- Neu: Themenseiten auf Französisch und Italienisch (`/fr-ch/thema/…`, `/it-ch/thema/…`), je sechs. Jede vergleicht die Kantone, die es in ihrer Sprache gibt. Tabelle mit dem Spaltenkopf «Auf einen Blick» statt «Kurz», auf dem Telefon gestapelt.
+- Neu: Regeln des Bundes auf Französisch (`/fr-ch/schweiz/`) und Italienisch (`/it-ch/schweiz/`) als Originalfassungen aus den Seiten des OSAV/USAV und von ch.ch in dieser Sprache, heute abgerufen. Vier neue Quellen: `ch_blv_chiens`, `ch_chch_taxe`, `ch_blv_cani`, `ch_chch_imposta`.
+- Unterschied zwischen den Sprachfassungen des Bundes, so belassen, weil jede Fassung nur sagt, was ihre Quelle sagt: Die französische Seite des OSAV nennt für den Sachkundenachweis nur das Ende (31. Dezember 2016), die deutsche und die italienische auch den Beginn (1. September 2008). ch.ch nennt die Abgabe auf Französisch «taxe sur les chiens».
+- Neu: Die Fehlerseite führt auf alle drei Startseiten. Fuss, Kantons- und Gemeindeseiten verlinken den Bund und die Themen in ihrer Sprache.
+- Behoben: Monatskürzel unter dem Jahresbalken stiessen auf französischen Seiten am Telefon aneinander (gemeldet von Glied 1 der Kette).
+- Angesehen bei 390 und 1280 Pixeln: Startseite, Kanton, Thema, Bund, Fehlerseite. Test: alle Seiten in beiden Breiten ohne seitliches Überlaufen.
+- Ins Backlog übernommen (Abschnitt 4): was Glied 1 der Kette in den Originalfassungen aufgefallen ist.
+
 ## 2026-11-18, Kette Übersetzungen, Glied 1: Übersetzungen der Kantone, erste Portion
 
 - Neu, 14 Übersetzungen für 8 Kantone, in der Reihenfolge von `--fehlend`:

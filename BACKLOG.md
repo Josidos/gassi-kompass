@@ -310,6 +310,10 @@ Ungefähr nach Grösse. Neue Kantone tragen hier ihre grössten Gemeinden ein.
 - [ ] Kanton Jura: geltende Fassung der Ordonnance sur la chasse (RSJU 922.111, Art. 40) lesen. Abrufbar war nur der Stand 2012, die Seite nennt ihn. Danach auch Bussen ergänzen (Loi sur la chasse, RSJU 922.11, Art. 71: nur im Stand 2013 gelesen, weggelassen).
 - [ ] Ville de Sion: geltende Fassung des Règlement communal de police prüfen (gelesen: Fassung von 1996, homologiert 1997). Freilaufzonen und Verbotsorte suchen.
 - [ ] Brig-Glis: Datum des Merkblatts «Freilauf-Zonen / Leinenpflicht» klären, Merkblatt Robidogs lesen.
+- [ ] Luzern, Karte Rassen: Die einzige Quelle ist ein Medium (`srf`). Amtliche Quelle suchen, sonst die Angabe kürzen (aufgefallen in der Kette Übersetzungen, 18.11.2026)
+- [ ] Wallis deutsch, Karte Rassen: die Rassenamen «Neapolitanischer Mastiff» und «Spanischer Mastiff» mit der Quelle vergleichen (aufgefallen 18.11.2026)
+- [ ] Tessin, Karte Rassen, Liste: «Pastori belga» mit der Quelle vergleichen (aufgefallen 18.11.2026)
+- [ ] Waadt und Genf französisch, `vergleich.wald`: Schreibweise «1.4 au 15.7» an «du 1.4. au 15.7.» angleichen. Danach sind die Übersetzungen veraltet und im selben Lauf nachzuführen (aufgefallen 18.11.2026)
 
 ## 5. Umbauten am Generator
 
@@ -317,9 +321,9 @@ Vorgaben in `CLAUDE.md` unter «Umbauten am Generator».
 
 - [x] Themenseiten, 2026-11-17
 - [x] Mehrsprachigkeit (Französisch und Italienisch), 2026-11-18
-- [ ] Darstellung überarbeiten (fällig; seit 18. November 2026, 12 Uhr in der Sitzung mit Joss in Arbeit)
+- [x] Darstellung überarbeiten: Startseite ohne Vergleichstabelle, Gemeindeverzeichnis, Thementafeln, Karten in zwei Spalten (18.11.2026)
 - [x] Übersetzungen im Generator: Kennzeichnung, Prüfsumme, Zahlenvergleich, `--fehlend`. Probe: Kanton und Stadt Zürich auf Französisch und Italienisch (18.11.2026)
-- [ ] Bund, Themenseiten und Fehlerseite in drei Sprachen (fällig; seit 18. November 2026 in der Sitzung mit Joss in Arbeit)
+- [x] Bund, Themenseiten und Fehlerseite in drei Sprachen (18.11.2026)
 
 ## 6. Ideen für später
 
