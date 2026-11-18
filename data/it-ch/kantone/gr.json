@@ -1,0 +1,112 @@
+{
+  "id": "gr",
+  "name": "Cantone dei Grigioni",
+  "kurz": "GR",
+  "im": "nel Cantone dei Grigioni",
+  "des": "del Cantone dei Grigioni",
+  "geprueft": "2026-11-18",
+  "wald": {
+    "saison": false,
+    "text": "La legge sulla caccia, l'ordinanza sulla caccia e la legge sulla veterinaria del Cantone non prevedono un obbligo di guinzaglio nel bosco né un periodo fisso. I comuni possono emanare disposizioni proprie. Osserva le regole e i cartelli del tuo comune.",
+    "quellen": [
+      "gr_lcc_it",
+      "gr_ogc_it",
+      "gr_lvet_it"
+    ]
+  },
+  "leine": {
+    "punkte": [
+      "dove lo prescrive il tuo comune. I comuni possono emanare ulteriori disposizioni sulla detenzione di cani.",
+      "se l'Ufficio per la sicurezza delle derrate alimentari e la salute degli animali lo ha disposto per il tuo cane. Per un animale pericoloso può imporre la museruola o il guinzaglio nelle zone abitate."
+    ],
+    "quellen": [
+      "gr_lvet_it",
+      "gr_cani_it"
+    ]
+  },
+  "verbot": {
+    "einleitung": "La legge sulla veterinaria del Cantone non elenca luoghi vietati ai cani.",
+    "punkte": [
+      "luoghi in cui il tuo comune ha emanato un divieto",
+      "zone di passaggio della selvaggina alle quali il tuo comune ha limitato l'accesso, nel tempo e nel luogo, perché i disturbi superano la misura usuale"
+    ],
+    "quellen": [
+      "gr_lvet_it",
+      "gr_lcc_it"
+    ]
+  },
+  "karten": [
+    {
+      "titel": "Responsabilità civile",
+      "marke": "nessun obbligo",
+      "ton": "none",
+      "wert": "solo su disposizione",
+      "text": "La legge sulla veterinaria del Cantone non prescrive un'assicurazione di responsabilità civile per tutti i cani. L'Ufficio per la sicurezza delle derrate alimentari e la salute degli animali può però imporla al detentore se un animale è pericoloso. Il tuo comune può avere disposizioni proprie.",
+      "quellen": [
+        "gr_lvet_it"
+      ]
+    },
+    {
+      "titel": "Corso",
+      "marke": "nessun obbligo",
+      "ton": "none",
+      "wert": "solo su disposizione",
+      "text": "La legge sulla veterinaria non prescrive un corso per tutti i detentori di cani. Per un animale pericoloso l'Ufficio può disporre che tu frequenti corsi o formazioni. Secondo il servizio specializzato può trattarsi di un corso di addestramento. Le spese del provvedimento sono a tuo carico.",
+      "quellen": [
+        "gr_lvet_it",
+        "gr_cani_it"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "marke": "Comune",
+      "ton": "note",
+      "wert": "comune e banca dati",
+      "text": "I comuni devono registrare i cani in una banca dati definita dal Governo e tenerla aggiornata. Controllano anche la detenzione dei cani. Dove ed entro quando notifichi il tuo cane te lo dice il tuo comune: la legge sulla veterinaria non fissa un termine. Se il tuo cane ha la coda corta o le orecchie recise, lo notifichi con l'apposito modulo al servizio specializzato del Cantone. L'Ufficio registra queste caratteristiche nella banca dati AMICUS.",
+      "quellen": [
+        "gr_lvet_it",
+        "gr_cani_it"
+      ]
+    },
+    {
+      "titel": "Imposta sui cani",
+      "marke": "Comune",
+      "ton": "note",
+      "wert": "secondo il comune",
+      "text": "La legge sulla veterinaria del Cantone non disciplina un'imposta sui cani. Lascia ai comuni le ulteriori disposizioni sulla detenzione di cani. L'importo nel tuo luogo di domicilio lo conosce il tuo comune.",
+      "quellen": [
+        "gr_lvet_it"
+      ]
+    },
+    {
+      "titel": "Razze",
+      "marke": "nessun elenco",
+      "ton": "none",
+      "wert": "nessun elenco di razze",
+      "text": "La legge sulla veterinaria del Cantone dei Grigioni non menziona razze vietate o soggette ad autorizzazione. L'Ufficio decide caso per caso: se un cane presenta anomalie di comportamento, può porlo sotto osservazione con un esame comportamentale. Se dall'esame risulta che il cane è pericoloso per la collettività, le spese sono a carico del detentore.",
+      "quellen": [
+        "gr_lvet_it"
+      ]
+    },
+    {
+      "titel": "A passeggio",
+      "marke": "Regola",
+      "ton": "note",
+      "wert": "controllo e selvaggina",
+      "text": "È punito con la multa chi non custodisce a dovere un animale pericoloso, chi aizza un animale contro persone o altri animali e chi non trattiene un animale sotto la sua vigilanza da attacchi a persone o altri animali. Chi viola la legge sulla veterinaria o gli atti normativi cantonali o comunali che si basano su di essa rischia una multa fino a CHF 20 000. Sono considerati randagi i cani che si aggirano senza sorveglianza nelle zone di passaggio della selvaggina seguendone le tracce, dandole la caccia o sbranandola. I guardiani della selvaggina possono abbattere un cane se ha sbranato o attaccato ripetutamente selvaggina. Veterinari, medici, gestori di pensioni e rifugi per animali, addestratori di cani, polizia e dogana devono notificare all'Ufficio le morsicature a persone o animali e i cani con un'aggressività marcata. Nei casi urgenti o gravi ti rivolgi alla polizia cantonale.",
+      "quellen": [
+        "gr_lvet_it",
+        "gr_ogc_it",
+        "gr_cani_it"
+      ]
+    }
+  ],
+  "vergleich": {
+    "wald": "nessun periodo cantonale, decidono i comuni",
+    "haft": "nessun obbligo, solo su disposizione",
+    "kurs": "nessun obbligo, solo su disposizione",
+    "rassen": "nessun elenco di razze",
+    "steuer": "secondo il comune",
+    "anm": "comune, banca dati dei cani"
+  }
+}

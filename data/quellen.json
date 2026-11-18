@@ -608,5 +608,25 @@
     "kurz": "Sarnen: Hunderegistrierung",
     "lang": "Einwohnergemeinde Sarnen: Hunderegistrierung (abgerufen 18.11.2026)",
     "url": "https://www.sarnen.ch/dienstleistungen/10692"
+  },
+  "gr_lvet_it": {
+    "kurz": "Legge sulla veterinaria GR",
+    "lang": "Cantone dei Grigioni: Legge sulla veterinaria (LVet, CSC 914.000) del 30 agosto 2007, stato 1° gennaio 2016",
+    "url": "https://www.lexfind.ch/tolv/40421/it"
+  },
+  "gr_cani_it": {
+    "kurz": "USDA GR: Cani",
+    "lang": "Cantone dei Grigioni, Ufficio per la sicurezza delle derrate alimentari e la salute degli animali: Cani (servizio specializzato per i Grigioni e Glarona), consultato il 18 novembre 2026",
+    "url": "https://www.gr.ch/IT/istituzioni/amministrazione/dvs/alt/tiere/cani/Seiten/default.aspx"
+  },
+  "gr_lcc_it": {
+    "kurz": "Legge sulla caccia GR",
+    "lang": "Cantone dei Grigioni: Legge cantonale sulla caccia (LCC, CSC 740.000) del 4 giugno 1989, stato 1° agosto 2025",
+    "url": "https://www.lexfind.ch/tol/8043/it"
+  },
+  "gr_ogc_it": {
+    "kurz": "Ordinanza sulla caccia GR",
+    "lang": "Cantone dei Grigioni: Ordinanza governativa sulla caccia (OGC, CSC 740.020) del 27 marzo 2007, stato 1° luglio 2026",
+    "url": "https://www.lexfind.ch/tol/8040/it"
   }
 }

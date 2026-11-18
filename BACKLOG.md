@@ -48,7 +48,7 @@ Der Generator baut Französisch und Italienisch seit dem 2026-11-18. Bei zweispr
 - [x] Neuenburg (`ne`), französisch, 2026-11-18, mit Ville de Neuchâtel (`/fr-ch/ne/`)
 - [x] Jura (`ju`), französisch, 2026-11-18, ohne Gemeinde (Delémont zurückgestellt) (`/fr-ch/ju/`)
 - [x] Bern (`be`), französische Fassung des Kantons, 2026-11-18 (`/fr-ch/be/`). Biel/Bienne französisch steht in Abschnitt 3.
-- [ ] Graubünden (`gr`), italienische Fassung
+- [x] Graubünden (`gr`), italienische Fassung, 2026-11-18, ohne Gemeinde (`/it-ch/gr/`)
 
 ## 3. Gemeinden
 
@@ -245,6 +245,7 @@ Ungefähr nach Grösse. Neue Kantone tragen hier ihre grössten Gemeinden ein.
 - [ ] Kanton Appenzell Innerrhoden: Daten der Alpzeit und betroffene Alpen (Alpgesetz, Art. 1 der Verordnung) belegen.
 - [ ] Kanton Graubünden: geltende Fassung des Veterinärgesetzes (BR 914.000) auf gr-lex.gr.ch gegenprüfen. Gelesen wurde der Stand 1. Januar 2016.
 - [ ] Kanton Graubünden: Regeln zu Hunden in Wildruhezonen und Wildschutzgebieten suchen. Hundesteuer: Gesetz über die Gemeinde- und Kirchensteuern (BR 720.200) erneut abrufen.
+- [ ] Kanton Graubünden italienisch: eine italienischsprachige Gemeinde anlegen (Poschiavo, Roveredo oder Mesocco), wenn drei lokale Angaben belegt sind. Die Karte «Imposta sui cani» nennt noch kein Beispiel einer Gemeinde. Die Legge sulla veterinaria (CSC 914.000) wurde wie die deutsche Fassung im Stand 1. Januar 2016 gelesen: geltende Fassung gegenprüfen.
 - [ ] Stadt Chur: Polizeigesetz der Stadt (RB 411) im Wortlaut suchen (Leine, Kot, Flurordnung, Bussen).
 - [ ] Bezirk Einsiedeln: Die Seite stützt sich auf eine Broschüre ohne Datum (Steuersätze ab 2012) und das Anmeldeformular. Mit einer datierten Quelle bestätigen, Orte mit Leinenpflicht oder Hundeverbot suchen (Friedhof, Klosterplatz, Sihlsee).
 - [ ] Gemeinde Arth: «Hinweise-Hundehalter.pdf» (arth.ch/_doc/3664036) und die Robidog-Pläne waren am 2026-11-18 nicht abrufbar. Lesen und ergänzen. Prüfen, ob das Friedhofreglement von 2016 unverändert gilt (Genehmigung durch den Regierungsrat, spätere Änderungen).

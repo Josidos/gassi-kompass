@@ -2,6 +2,17 @@
 
 Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen.
 
+## 2026-11-18, Kette, Glied 5: Kanton Graubünden italienisch
+
+- Start: `build.py --check` fehlerfrei, nichts einzusammeln. Das Werkzeug `add_repo` stand nicht zur Verfügung, das Repository war geklont und auf dem Stand von `main`. Angemeldet in `auftraege.md` um 11:27 Uhr, am Schluss wieder gelöscht. Kein Nachprüfen (Kette: nur ein Schritt).
+- Neu: Kanton Graubünden italienisch (`/it-ch/gr/`), aus den italienischen amtlichen Fassungen, keine Übersetzung der deutschen Datei. Vier neue Quellen: `gr_lvet_it` (Legge sulla veterinaria, CSC 914.000, Stand 1.1.2016), `gr_lcc_it` (Legge cantonale sulla caccia, CSC 740.000, Stand 1.8.2025), `gr_ogc_it` (Ordinanza governativa sulla caccia, CSC 740.020, Stand 1.7.2026), `gr_cani_it` (Seite «Cani» des Amts). Alle vier in diesem Lauf abgerufen.
+- Weggelassen gegenüber der deutschen Fassung: das Beispiel der Churer Hundetaxe (nur deutsche Quelle) und der Hinweis auf die Glarner Rasseliste (die italienische Seite des Amts nennt keine Rassen). Die Karte «Razze» stützt sich nur auf die Legge sulla veterinaria, in der das Wort «razza» nicht vorkommt.
+- Keine Gemeinde: Das Programm der Kette verlangt für diesen Schritt nur die Kantonsfassung. Eine italienischsprachige Gemeinde steht neu in Abschnitt 4 des Backlogs.
+- Offen: Die Legge sulla veterinaria wurde im Stand 1. Januar 2016 gelesen, wie die deutsche Fassung. Gegenprüfung der geltenden Fassung steht im Backlog.
+- Geprüft als Bild: `/it-ch/gr/`. Die deutsche Seite `/gr/` hat neu den Sprachwechsel und `hreflang` auf die italienische Fassung.
+- Programm der Kette erledigt: Alle 26 Kantone haben eine Seite, jeder in seinen Amtssprachen.
+- Stand: 26 Kantone, 45 Gemeinden, 88 Seiten in der Sitemap. Build und Test fehlerfrei.
+
 ## 2026-11-18, Kette, Glied 4: Kanton Obwalden und Gemeinde Sarnen
 
 - Start: `build.py --check` fehlerfrei, nichts einzusammeln. Das Werkzeug `add_repo` stand nicht zur Verfügung, das Repository war geklont und auf dem Stand von `main`. Angemeldet in `auftraege.md` um 11:10 Uhr, am Schluss wieder gelöscht. Kein Nachprüfen (Kette: nur ein Schritt).
