@@ -1,0 +1,39 @@
+{
+  "id": "einsiedeln",
+  "kanton": "sz",
+  "bfs": 1301,
+  "uebersetzt_aus": "de",
+  "original": "faeb935c6582",
+  "name": "Distretto di Einsiedeln",
+  "ort": "Einsiedeln",
+  "in_ort": "nel distretto di Einsiedeln",
+  "einleitung": "Nel distretto di Einsiedeln valgono le regole del Cantone di Svitto. Nel suo opuscolo il distretto non indica luoghi propri con obbligo di guinzaglio o divieto per i cani. Fai attenzione ai cartelli sul posto. L'opuscolo non reca una data, indica le aliquote d'imposta valide dal 1° gennaio 2012.",
+  "karten": [
+    {
+      "titel": "Imposta sui cani",
+      "wert": "CHF 100, altro cane CHF 200",
+      "text": "Nel distretto di Einsiedeln l'imposta sui cani ammonta a CHF 100 all'anno. Per ogni altro cane nella stessa economia domestica sono CHF 200, per un cane da utilità CHF 40. Così sta scritto nel modulo di notifica del distretto. Un cane è soggetto alla tassa a partire da quattro mesi. Secondo l'opuscolo del distretto la fattura arriva ogni anno in febbraio. Se l'obbligo inizia nel corso dell'anno, paghi in proporzione. Stato dell'opuscolo: aliquote d'imposta dal 1° gennaio 2012.",
+      "quellen": [
+        "sz_einsiedeln_formular",
+        "sz_einsiedeln_broschuere"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "wert": "Bezirkskasse (cassa del distretto) o modulo online",
+      "text": "Un nuovo cane lo annunci alla Bezirkskasse Einsiedeln, Paracelsuspark 3. Puoi farlo anche con il modulo online del distretto. Richiede il numero del chip, la razza, il motivo della notifica (arrivo o nuovo possesso) nonché l'assicurazione di responsabilità civile con il numero di polizza. Secondo l'opuscolo, i cambiamenti di nome o di indirizzo vanno aggiornati in AMICUS entro dieci giorni.",
+      "quellen": [
+        "sz_einsiedeln_formular",
+        "sz_einsiedeln_broschuere"
+      ]
+    },
+    {
+      "titel": "Escrementi",
+      "wert": "sacchetti gratuiti presso i cestini dei rifiuti",
+      "text": "Secondo l'opuscolo del distretto, presso i cestini dei rifiuti sono a disposizione sacchetti gratuiti per gli escrementi dei cani. Devi raccogliere ed eliminare gli escrementi nei villaggi, sulle strade e sulle vie pubbliche, nei parchi e sui sentieri che attraversano terreni agricoli. L'opuscolo non reca una data (aliquote d'imposta dal 1° gennaio 2012).",
+      "quellen": [
+        "sz_einsiedeln_broschuere"
+      ]
+    }
+  ]
+}

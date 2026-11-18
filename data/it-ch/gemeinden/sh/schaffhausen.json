@@ -1,0 +1,38 @@
+{
+  "id": "schaffhausen",
+  "kanton": "sh",
+  "bfs": 2939,
+  "uebersetzt_aus": "de",
+  "original": "fc366ec1a9dc",
+  "name": "Città di Sciaffusa",
+  "ort": "Sciaffusa",
+  "in_ort": "a Sciaffusa",
+  "hinweis_heute": "Nella città di Sciaffusa il tuo cane va tenuto al guinzaglio tutto l'anno negli impianti pubblici.",
+  "einleitung": "Nella città di Sciaffusa valgono le regole del Cantone di Sciaffusa. La Città prescrive inoltre il guinzaglio negli impianti pubblici e ammette i cani nei suoi cimiteri solo con un'autorizzazione.",
+  "karten": [
+    {
+      "titel": "Guinzaglio",
+      "wert": "negli impianti pubblici",
+      "text": "Negli impianti pubblici della città i cani vanno tenuti al guinzaglio. Lo prevede l'articolo 30 della Polizeiverordnung (ordinanza di polizia). I cani vanno inoltre tenuti in modo che non sporchino vie, impianti e piazze pubblici e privati. Stato della Polizeiverordnung: 1° gennaio 2016.",
+      "quellen": [
+        "sh_stadt_polv"
+      ]
+    },
+    {
+      "titel": "Accesso vietato",
+      "wert": "cimiteri, salvo autorizzazione",
+      "text": "Nei cimiteri della città non puoi portare cani senza un'autorizzazione speciale. Il regolamento vale per il Waldfriedhof (cimitero nel bosco) e per analogia per i cimiteri di Buchthalen, Hemmental e Herblingen.",
+      "quellen": [
+        "sh_stadt_friedhof"
+      ]
+    },
+    {
+      "titel": "Multe",
+      "wert": "fino a CHF 1000",
+      "text": "Chi viola la Polizeiverordnung della Città è punito dalla Stadtpolizei (polizia comunale) con una multa fino a CHF 1000. Si aggiungono tasse e spese. È punibile anche la negligenza. Stato della Polizeiverordnung: 1° gennaio 2016.",
+      "quellen": [
+        "sh_stadt_polv"
+      ]
+    }
+  ]
+}

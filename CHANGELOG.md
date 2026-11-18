@@ -2,6 +2,24 @@
 
 Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen.
 
+## 2026-11-18, Kette Übersetzungen, Glied 7: Übersetzungen der Gemeinden, letzte Portion
+
+- Neu, 28 Übersetzungen für 14 Gemeinden: Kreuzlingen, Chur, Davos, Landquart, Basel, Arth, Einsiedeln, Küssnacht, Schwyz, Schaffhausen, Glarus, Sarnen und Silenen französisch und italienisch, Neuchâtel deutsch und italienisch. Je Sprache: 13 französisch, 14 italienisch, 1 deutsch.
+- Damit ist Schritt b und das Programm der Kette erledigt: `build.py --fehlend` meldet nichts mehr, alle 26 Kantone und 45 Gemeinden gibt es in drei Sprachen. In `BACKLOG.md` steht unter «Kette» wieder «keine Kette».
+- Entscheide zur Wortwahl: Ortsnamen nach der Liste im Handbuch (Coire und Coira, Bâle und Basilea, Schaffhouse und Sciaffusa, Neuenburg). Für die Gemeinden Glarus und Schwyz stehen wie beim Kanton Glaris und Glarona, Schwytz und Svitto, weil die Seite sonst «Commune de Glarus dans le canton de Glaris» schriebe. Die Liste im Handbuch nennt diese vier Namen nicht, Joss kann das umkehren. Kreuzlingen, Davos, Landquart, Arth, Einsiedeln, Küssnacht, Sarnen und Silenen behalten den amtlichen Namen. «Bezirk Einsiedeln» heisst «District d'Einsiedeln» und «Distretto di Einsiedeln», ebenso Küssnacht. «Tafeln vor Ort» heisst «panneaux sur place» und «cartelli sul posto». Nutzhund «chien d'utilité» und «cane da utilità», Schweisshund «chien de rouge» und «cane da traccia», Wildruhezone «zone de tranquillité pour la faune» und «zona di tranquillità per la selvaggina», Wildasyl «asile pour la faune (Wildasyle)» und «asilo per la selvaggina (Wildasyle)», Finnenbahn «piste finlandaise» und «pista finlandese», öffentliche Anlagen «installations publiques» und «impianti pubblici» wie in den Kantonsfassungen von Schwyz. Stadtrat, Gemeindevorstand und Gemeinderat bleiben deutsch mit «exécutif» und «esecutivo» in Klammern. Im Deutschen für Neuchâtel: «dépliant» ist «Faltblatt», «chiens hargneux» «bissige Hunde», «cours de collèges» «Schulhöfe», «mis en fourrière» «in Verwahrung genommen (fourrière)» wie bei Sitten. Parks, Strassen und Strände behalten ihre Namen.
+- Geprüft: `build.py --check` ohne Meldung, Bau und Test fehlerfrei (240 Seiten). Als Bild angesehen: `/fr-ch/gr/davos/`, `/it-ch/ow/sarnen/`, `/ne/neuchatel/`.
+- Aufgefallen (nichts davon geändert):
+  - `data/gemeinden/ow/sarnen.json`, Karte Anmeldung: `wert` nennt die «Bevölkerungsdienste», der Text die «Einwohnerdienste». Karte Hundetaxe: «ab CHF 120 pro Hund» sagt nicht, wovon der höhere Betrag abhängt.
+  - `data/gemeinden/tg/kreuzlingen.json`, Karte Anmeldung: Broschüre 10 Tage, Website 30 Tage. Die Karte sagt das offen. Bei der Nachprüfung klären.
+  - `data/gemeinden/sz/kuessnacht.json`, Karte Hundetaxe: «Jeder weitere Hund kostet CHF 100 mehr als die Grundsteuer» lässt offen, ob das auch für Nutzhunde gilt (CHF 140) und ob es pro Hund weiter steigt. Arth, Einsiedeln und Schwyz nennen CHF 200.
+  - `data/gemeinden/sz/schwyz.json`, Karte «Änderungen melden»: `wert` schreibt «10 Tagen», der Text «zehn Tagen». Einsiedeln schreibt «zehn», Küssnacht «10».
+  - `data/gemeinden/sz/einsiedeln.json`: Die Steuersätze stammen aus einer Broschüre ohne Datum mit Sätzen ab 2012. Die Karte sagt das, die Zahl ist trotzdem alt.
+  - `data/gemeinden/gr/chur.json`, Karte Leine: «in Gastwirtschaftsbetrieben» steht als Ort mit Leinenpflicht zwischen Anlagen der Stadt. Karte «Kein Zutritt»: Das Betretverbot für Wiesland steht ohne den Hinweis, ob es für Hunde oder für alle gilt.
+  - `data/gemeinden/gr/landquart.json`, Karte Hundetaxe: «höchstens CHF 600, also für fünf Hunde». Der Zusatz ist eine eigene Rechnung, mit der Quelle vergleichen.
+  - `data/gemeinden/gl/glarus.json`, Karte Leine: Wald und Waldränder stehen ohne Jahreszeit. Mit `wald` in `data/kantone/gl.json` vergleichen.
+  - `data/fr-ch/gemeinden/ne/neuchatel.json`: Die Karte «Annonce» spricht von «taxe», eine Karte zum Betrag fehlt. «Amicus» steht dort in Kleinbuchstaben, sonst überall «AMICUS».
+- Offen: keine Übersetzungen.
+
 ## 2026-11-18, Kette Übersetzungen, Glied 6: Übersetzungen der Gemeinden, zweite Portion
 
 - Neu, 30 Übersetzungen für 15 Gemeinden: St. Gallen, Ebikon, Emmen, Horw, Luzern, Sursee, Brig-Glis, Allschwil, Olten, Arbon und Frauenfeld französisch und italienisch, Genf, Sitten und Freiburg deutsch und italienisch, Lugano deutsch und französisch. Je Sprache: 12 französisch, 14 italienisch, 4 deutsch.

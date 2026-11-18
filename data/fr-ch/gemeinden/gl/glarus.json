@@ -1,0 +1,46 @@
+{
+  "id": "glarus",
+  "kanton": "gl",
+  "bfs": 1632,
+  "uebersetzt_aus": "de",
+  "original": "3b1c4445fbed",
+  "name": "Commune de Glaris",
+  "ort": "Glaris",
+  "in_ort": "à Glaris",
+  "einleitung": "Dans la commune de Glaris s'appliquent les règles du canton de Glaris. La commune perçoit un supplément à l'impôt cantonal sur les chiens. Les Einwohnerdienste (services des habitants) sont compétents pour toutes les questions relatives aux chiens.",
+  "karten": [
+    {
+      "titel": "Impôt sur les chiens",
+      "wert": "CHF 190 par chien et par an",
+      "text": "Depuis le 1er janvier 2019, l'impôt annuel sur les chiens s'élève à CHF 190 par chien. Sur ce montant, CHF 135 reviennent à la commune de Glaris et CHF 55 au canton. Les exceptions figurent à l'article 33 de la Veterinärverordnung (ordonnance vétérinaire) cantonale.",
+      "quellen": [
+        "gl_glarus_hunde",
+        "gl_vetv"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "wert": "Einwohnerdienste de la commune de Glaris",
+      "text": "Les Einwohnerdienste de la commune de Glaris sont votre interlocuteur. Vous y remettez une copie de la police d'assurance responsabilité civile au plus tard un mois après l'acquisition du chien. Si vous détenez un chien pour la première fois, vous suivez la formation KAL1 dans un délai d'un an et remettez l'attestation de cours. Si vous acquérez un chien ou le prenez en charge pour plus de trois mois, vous annoncez le changement d'adresse et de détenteur à AMICUS dans les 10 jours, de même que la mort du chien. L'annonce se fait au moyen de l'outil en ligne de la commune.",
+      "quellen": [
+        "gl_glarus_hunde"
+      ]
+    },
+    {
+      "titel": "Laisse",
+      "wert": "forêt, routes, places de jeux et de sport",
+      "text": "La commune énumère les lieux où la laisse est obligatoire selon le droit cantonal: bâtiments accessibles au public, routes à fort trafic, en particulier routes cantonales et routes principales, transports publics, arrêts et gares, préaux, places de jeux et de sport, lieux signalés par la commune ainsi que forêt et lisières. En forêt, font exception les chiens de chasse pendant la période de chasse et les chiens de conduite de troupeaux lorsqu'ils conduisent le bétail.",
+      "quellen": [
+        "gl_glarus_hunde"
+      ]
+    },
+    {
+      "titel": "Crottes de chien",
+      "wert": "à ramasser sur tout le territoire communal",
+      "text": "Sur l'ensemble du territoire communal, vous ramassez les crottes de votre chien et les éliminez correctement, par exemple dans les conteneurs Robidog. Cela vaut notamment pour les routes, les chemins, les places, les espaces verts, les prairies et les champs.",
+      "quellen": [
+        "gl_glarus_hunde"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "kuessnacht",
+  "kanton": "sz",
+  "bfs": 1331,
+  "uebersetzt_aus": "de",
+  "original": "2b6048555110",
+  "name": "District de Küssnacht",
+  "ort": "Küssnacht",
+  "in_ort": "dans le district de Küssnacht",
+  "einleitung": "Dans le district de Küssnacht s'appliquent les règles du canton de Schwytz. Les indications sur le district proviennent de la brochure de l'Einwohneramt (office des habitants). État de la brochure: avril 2019.",
+  "karten": [
+    {
+      "titel": "Impôt sur les chiens",
+      "wert": "CHF 100, chien d'utilité CHF 40",
+      "text": "Dans le district de Küssnacht, l'impôt sur les chiens s'élève à CHF 100 par an, pour un chien d'utilité à CHF 40. Chaque chien supplémentaire du même ménage coûte CHF 100 de plus que l'impôt de base. Vous le payez en janvier, ou immédiatement lorsque l'assujettissement commence, à l'Einwohneramt, au Rathaus (hôtel de ville). État de la brochure: avril 2019.",
+      "quellen": [
+        "sz_kuessnacht_broschuere"
+      ]
+    },
+    {
+      "titel": "Laisse",
+      "wert": "site de Luterbach et piste finlandaise",
+      "text": "Sur le site de Luterbach et sur la piste finlandaise (Finnenbahn), la laisse est obligatoire. Fait exception le «Hündeler-Platz», spécialement prévu pour les chiens. S'y ajoute la règle du canton: laisse dans les installations publiques, sur les chemins publics et dans la circulation routière. État de la brochure: avril 2019.",
+      "quellen": [
+        "sz_kuessnacht_broschuere",
+        "sz_hug"
+      ]
+    },
+    {
+      "titel": "Crottes de chien",
+      "wert": "sachets gratuits aux poubelles à crottes",
+      "text": "Des sachets gratuits sont disponibles aux poubelles à crottes de chien du district. Vous nouez le sachet rempli et le jetez dans la poubelle à crottes ou dans une poubelle à proximité. Il est interdit de laisser des sachets sur place. État de la brochure: avril 2019.",
+      "quellen": [
+        "sz_kuessnacht_broschuere"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "wert": "Einwohneramt et AMICUS",
+      "text": "L'impôt sur les chiens est perçu par l'Einwohneramt, Rathaus 2, Küssnacht am Rigi. La puce électronique de votre chien est enregistrée dans la banque de données AMICUS. Vous annoncez les changements de nom ou d'adresse dans les 10 jours. État de la brochure: avril 2019.",
+      "quellen": [
+        "sz_kuessnacht_broschuere"
+      ]
+    }
+  ]
+}

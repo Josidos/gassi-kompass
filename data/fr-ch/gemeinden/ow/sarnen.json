@@ -1,0 +1,56 @@
+{
+  "id": "sarnen",
+  "kanton": "ow",
+  "bfs": 1407,
+  "uebersetzt_aus": "de",
+  "original": "bdfb9ed07f93",
+  "name": "Commune de Sarnen",
+  "ort": "Sarnen",
+  "in_ort": "à Sarnen",
+  "hinweis_heute": "À Sarnen, la laisse est obligatoire dans les forêts et le long de celles-ci de la mi-décembre à la fin juin (état de l'ordonnance: 2009).",
+  "einleitung": "La Hundeverordnung (ordonnance sur les chiens) de l'Einwohnergemeinde Sarnen (commune des habitants) règle la laisse, les interdictions d'accès, les crottes de chien et l'impôt sur les chiens. Elle date de 2007, état 2009.",
+  "karten": [
+    {
+      "titel": "Impôt sur les chiens",
+      "wert": "dès CHF 120 par chien et par an",
+      "text": "Selon la commune, l'impôt sur les chiens s'élève à CHF 120 au minimum par chien. La facture arrive au printemps. Si vous acquérez le chien après le 30 juin ou s'il n'atteint l'âge de six mois qu'à ce moment-là, vous payez la moitié. Pour les chiens que vous acquérez après le 1er novembre, vous ne payez rien la même année. Sont exonérés les chiens de rouge, les chiens de service, les chiens militaires et les chiens d'aveugles. Dans les exploitations agricoles détenant du gros bétail, le premier chien est exempt d'impôt. Les impôts payés ne sont pas remboursés.",
+      "quellen": [
+        "ow_sarnen_steuer",
+        "ow_sarnen_hv"
+      ]
+    },
+    {
+      "titel": "Laisse",
+      "wert": "en forêt de la mi-décembre à la fin juin",
+      "text": "Votre chien doit être tenu en laisse dans les bâtiments et locaux accessibles au public, dans les parcs publics, sur les routes, les trottoirs ainsi que les chemins pédestres et de randonnée dans les zones densément habitées, et partout où cela est signalé. Dans les forêts et le long de celles-ci, la laisse est obligatoire pendant les mois d'hiver et la période de mise bas, de la mi-décembre à la fin juin. Vous tenez toujours en laisse les chiens en chaleur, mordeurs ou malades, les chiens mordeurs portant en plus une muselière. État de l'ordonnance: 2009.",
+      "quellen": [
+        "ow_sarnen_hv"
+      ]
+    },
+    {
+      "titel": "Accès interdit",
+      "wert": "cimetières, établissements de bains, places de jeux et autres",
+      "text": "Vous ne pouvez ni emmener votre chien ni le laisser courir dans les cimetières, dans les établissements de bains et les enceintes d'hôpitaux, sur les places de jeux publiques pour enfants, dans les préaux des écoles et sur les terrains de jeu et de sport publics. La Gemeindekanzlei (chancellerie communale) peut autoriser des exceptions pour des manifestations de sport canin. État de l'ordonnance: 2009.",
+      "quellen": [
+        "ow_sarnen_hv"
+      ]
+    },
+    {
+      "titel": "Crottes de chien",
+      "wert": "ramasser et éliminer",
+      "text": "Si vous emmenez votre chien hors de votre terrain, vous ramassez les crottes et les éliminez. Font exception les détentrices et détenteurs de chiens d'aveugles et de chiens de chasse pendant la chasse. État de l'ordonnance: 2009.",
+      "quellen": [
+        "ow_sarnen_hv"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "wert": "dans les 30 jours aux Bevölkerungsdienste (services de la population)",
+      "text": "Vous annoncez à la commune dans les 30 jours un nouveau chien et les changements tels que changement d'adresse, changement de propriétaire ou décès: par téléphone, au guichet ou au moyen du formulaire en ligne. Vous inscrivez en plus les changements dans la banque de données AMICUS. Si vous détenez un chien pour la première fois, vous vous annoncez d'abord aux Einwohnerdienste (services des habitants), qui vous enregistrent dans AMICUS. Le cabinet vétérinaire enregistre ensuite le chien.",
+      "quellen": [
+        "ow_sarnen_steuer",
+        "ow_sarnen_registrierung"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "schwyz",
+  "kanton": "sz",
+  "bfs": 1372,
+  "uebersetzt_aus": "de",
+  "original": "a7ea1de7f0b9",
+  "name": "Comune di Svitto",
+  "ort": "Svitto",
+  "in_ort": "a Svitto",
+  "einleitung": "Nel Comune di Svitto valgono le regole del Cantone di Svitto. La pagina «Hundekontrolle» del Comune non indica luoghi propri con obbligo di guinzaglio o divieto per i cani. Fai attenzione ai cartelli sul posto.",
+  "karten": [
+    {
+      "titel": "Imposta sui cani",
+      "wert": "CHF 100, altro cane CHF 200",
+      "text": "Nel Comune di Svitto l'imposta sui cani ammonta a CHF 100 all'anno. Per ogni altro cane nella stessa economia domestica sono CHF 200. Per i cani da utilità sono CHF 40. Sono considerati cani da utilità i cani da tiro e i cani da conduzione del bestiame nell'agricoltura nonché i cani da caccia i cui detentori hanno staccato una patente di caccia l'anno precedente. La fattura della Gemeindekasse (cassa comunale) arriva ogni anno nel corso di gennaio.",
+      "quellen": [
+        "sz_schwyz_hundekontrolle"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "wert": "prima al Comune, poi AMICUS",
+      "text": "Se detieni un cane per la prima volta, ti annunci prima al Comune, che ti registra nella banca dati dei cani AMICUS. Solo dopo un cane può essere registrato a tuo nome. È competente il settore Finanze del Comune di Svitto, Herrengasse 17. Il microchip lo applica la veterinaria o il veterinario, al più tardi tre mesi dopo la nascita e in ogni caso prima della cessione del cane. Per un cane proveniente dall'estero fai verificare il contrassegno da un veterinario entro dieci giorni dall'importazione.",
+      "quellen": [
+        "sz_schwyz_hundekontrolle"
+      ]
+    },
+    {
+      "titel": "Notificare i cambiamenti",
+      "wert": "entro 10 giorni",
+      "text": "I cambiamenti di nome o di indirizzo li annunci al Comune entro dieci giorni. Non puoi registrarli tu stesso in AMICUS. Un cambio di detentore (vendita, acquisto, cessione o presa a carico per più di tre mesi) lo iscrivi tu stesso in AMICUS entro dieci giorni. La morte del cane puoi registrarla in AMICUS, anche il Comune o lo studio veterinario possono iscrivere la data.",
+      "quellen": [
+        "sz_schwyz_hundekontrolle"
+      ]
+    }
+  ]
+}

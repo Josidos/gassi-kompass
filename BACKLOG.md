@@ -17,14 +17,14 @@ Bleibt ein Kanton nach einem Lauf unvollständig (Entwurf unter `data/entwurf/`)
 
 ## Kette
 
-Name: Kette Übersetzungen. Höchstens 8 Glieder. Schluss: 18. November 2026, 20:00 Uhr Schweizer Zeit. Von Joss am 18. November 2026 um 11:55 Uhr freigegeben, gestartet um 12:10 Uhr. Wie ein Glied arbeitet, steht in `CLAUDE.md` unter «Kette». Wie eine Übersetzung entsteht, steht dort unter «Alle Sprachen überall».
+keine Kette
 
-Programm:
+Die «Kette Übersetzungen» (von Joss am 18. November 2026 um 11:55 Uhr freigegeben, höchstens 8 Glieder) ist mit Glied 7 am 18. November 2026 erledigt: Alle 26 Kantone und 45 Gemeinden gibt es auf Deutsch, Französisch und Italienisch, `python3 build.py --fehlend` meldet nichts mehr.
 
-- [x] a) Übersetzungen der Kantone (erledigt mit Glied 4 am 18.11.2026). Pro Glied bis zu 8 Kantone in alle ihre fehlenden Sprachen (rund 16 Dateien), in der Reihenfolge von `python3 build.py --fehlend`. Offen, bis in der Liste kein Kanton mehr steht.
-- [ ] b) Übersetzungen der Gemeinden. Pro Glied bis zu 15 Gemeinden in alle ihre fehlenden Sprachen (rund 30 Dateien), in der Reihenfolge der Liste. Offen, bis die Liste leer ist. Stand nach Glied 6: 30 Gemeinden erledigt, 28 Dateien für 14 Gemeinden fehlen.
+- [x] a) Übersetzungen der Kantone (erledigt mit Glied 4 am 18.11.2026)
+- [x] b) Übersetzungen der Gemeinden (erledigt mit Glied 7 am 18.11.2026)
 
-Ein Glied übersetzt nur. Es ändert keine Originalfassung und recherchiert nichts. Fällt ihm in einer Originalfassung etwas auf, steht das im Eintrag in `CHANGELOG.md` unter «Aufgefallen». Während die Kette läuft, arbeitet Claude in der Sitzung mit Joss an `build.py`, `assets/` und `tests/` (Darstellung, Bund und Themenseiten in drei Sprachen).
+Was die Glieder in Originalfassungen bemerkt haben, steht in `CHANGELOG.md` unter «Aufgefallen» und gehört in die nächste Nachprüfung.
 
 ## 1. Deutschsprachige Kantone
 

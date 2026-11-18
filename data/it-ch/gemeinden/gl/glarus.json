@@ -1,0 +1,46 @@
+{
+  "id": "glarus",
+  "kanton": "gl",
+  "bfs": 1632,
+  "uebersetzt_aus": "de",
+  "original": "3b1c4445fbed",
+  "name": "Comune di Glarona",
+  "ort": "Glarona",
+  "in_ort": "a Glarona",
+  "einleitung": "Nel Comune di Glarona valgono le regole del Cantone di Glarona. Il Comune riscuote un supplemento all'imposta cantonale sui cani. Per tutte le questioni sui cani sono competenti gli Einwohnerdienste (servizi abitanti).",
+  "karten": [
+    {
+      "titel": "Imposta sui cani",
+      "wert": "CHF 190 per cane all'anno",
+      "text": "Dal 1° gennaio 2019 l'imposta annua sui cani ammonta a CHF 190 per cane. Di questi, CHF 135 vanno al Comune di Glarona e CHF 55 al Cantone. Le eccezioni figurano nell'articolo 33 della Veterinärverordnung (ordinanza veterinaria) cantonale.",
+      "quellen": [
+        "gl_glarus_hunde",
+        "gl_vetv"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "wert": "Einwohnerdienste del Comune di Glarona",
+      "text": "Il servizio di riferimento sono gli Einwohnerdienste del Comune di Glarona. Lì consegni una copia della polizza di responsabilità civile al più tardi un mese dopo l'acquisto del cane. Se detieni un cane per la prima volta, segui entro un anno la formazione KAL1 e consegni l'attestato del corso. Se acquisti un cane o lo prendi a carico per più di tre mesi, annunci ad AMICUS entro 10 giorni il cambio di indirizzo e di detentore, come pure la morte del cane. La notifica avviene tramite lo strumento online del Comune.",
+      "quellen": [
+        "gl_glarus_hunde"
+      ]
+    },
+    {
+      "titel": "Guinzaglio",
+      "wert": "bosco, strade, parchi giochi e campi sportivi",
+      "text": "Il Comune elenca i luoghi con obbligo di guinzaglio secondo il diritto cantonale: edifici accessibili al pubblico, strade molto trafficate, in particolare strade cantonali e principali, mezzi di trasporto pubblici, fermate e stazioni, piazzali per la ricreazione, parchi giochi e campi sportivi, luoghi segnalati dal Comune nonché bosco e margini del bosco. Nel bosco fanno eccezione i cani da caccia durante il periodo di caccia e i cani da conduzione del bestiame mentre conducono il bestiame.",
+      "quellen": [
+        "gl_glarus_hunde"
+      ]
+    },
+    {
+      "titel": "Escrementi",
+      "wert": "da raccogliere su tutto il territorio comunale",
+      "text": "Su tutto il territorio comunale raccogli gli escrementi del tuo cane e li elimini correttamente, per esempio nei contenitori Robidog. Ciò vale tra l'altro per strade, sentieri, piazze, aree verdi, prati e campi.",
+      "quellen": [
+        "gl_glarus_hunde"
+      ]
+    }
+  ]
+}

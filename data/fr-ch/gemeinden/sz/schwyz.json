@@ -1,0 +1,37 @@
+{
+  "id": "schwyz",
+  "kanton": "sz",
+  "bfs": 1372,
+  "uebersetzt_aus": "de",
+  "original": "a7ea1de7f0b9",
+  "name": "Commune de Schwytz",
+  "ort": "Schwytz",
+  "in_ort": "à Schwytz",
+  "einleitung": "Dans la commune de Schwytz s'appliquent les règles du canton de Schwytz. La page «Hundekontrolle» de la commune ne mentionne pas de lieux propres où la laisse est obligatoire ou les chiens interdits. Observez les panneaux sur place.",
+  "karten": [
+    {
+      "titel": "Impôt sur les chiens",
+      "wert": "CHF 100, chien supplémentaire CHF 200",
+      "text": "Dans la commune de Schwytz, l'impôt sur les chiens s'élève à CHF 100 par an. Pour chaque chien supplémentaire du même ménage, il est de CHF 200. Pour les chiens d'utilité, il est de CHF 40. Sont considérés comme chiens d'utilité les chiens de trait et les chiens de conduite de troupeaux dans l'agriculture ainsi que les chiens de chasse dont le détenteur a pris un permis de chasse l'année précédente. La facture de la Gemeindekasse (caisse communale) arrive chaque année dans le courant de janvier.",
+      "quellen": [
+        "sz_schwyz_hundekontrolle"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "wert": "d'abord à la commune, puis AMICUS",
+      "text": "Si vous détenez un chien pour la première fois, vous vous annoncez d'abord à la commune. Elle vous enregistre dans la banque de données sur les chiens AMICUS. Ce n'est qu'ensuite qu'un chien peut être enregistré à votre nom. Le secteur Finances de la commune de Schwytz, Herrengasse 17, est compétent. La vétérinaire ou le vétérinaire pose la puce électronique, au plus tard trois mois après la naissance et dans tous les cas avant la remise du chien. Pour un chien venant de l'étranger, vous faites vérifier l'identification par un vétérinaire dans les dix jours suivant l'importation.",
+      "quellen": [
+        "sz_schwyz_hundekontrolle"
+      ]
+    },
+    {
+      "titel": "Annoncer les changements",
+      "wert": "dans les 10 jours",
+      "text": "Vous annoncez les changements de nom ou d'adresse à la commune dans les dix jours. Vous ne pouvez pas les saisir vous-même dans AMICUS. Un changement de détenteur (vente, acquisition, cession ou prise en charge pour plus de trois mois), vous l'inscrivez vous-même dans AMICUS dans les dix jours. Vous pouvez saisir la mort du chien dans AMICUS, la commune ou le cabinet vétérinaire peuvent aussi inscrire la date.",
+      "quellen": [
+        "sz_schwyz_hundekontrolle"
+      ]
+    }
+  ]
+}

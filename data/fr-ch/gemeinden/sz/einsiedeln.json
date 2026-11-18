@@ -1,0 +1,39 @@
+{
+  "id": "einsiedeln",
+  "kanton": "sz",
+  "bfs": 1301,
+  "uebersetzt_aus": "de",
+  "original": "faeb935c6582",
+  "name": "District d'Einsiedeln",
+  "ort": "Einsiedeln",
+  "in_ort": "dans le district d'Einsiedeln",
+  "einleitung": "Dans le district d'Einsiedeln s'appliquent les règles du canton de Schwytz. Dans sa brochure, le district ne mentionne pas de lieux propres où la laisse est obligatoire ou les chiens interdits. Observez les panneaux sur place. La brochure ne porte pas de date, elle indique les taux d'impôt valables dès le 1er janvier 2012.",
+  "karten": [
+    {
+      "titel": "Impôt sur les chiens",
+      "wert": "CHF 100, chien supplémentaire CHF 200",
+      "text": "Dans le district d'Einsiedeln, l'impôt sur les chiens s'élève à CHF 100 par an. Pour chaque chien supplémentaire du même ménage, il est de CHF 200, pour un chien d'utilité de CHF 40. C'est ce qu'indique le formulaire d'annonce du district. Un chien est soumis à la taxe dès quatre mois. Selon la brochure du district, la facture arrive chaque année en février. Si l'obligation commence en cours d'année, vous payez au prorata. État de la brochure: taux d'impôt dès le 1er janvier 2012.",
+      "quellen": [
+        "sz_einsiedeln_formular",
+        "sz_einsiedeln_broschuere"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "wert": "Bezirkskasse (caisse du district) ou formulaire en ligne",
+      "text": "Vous annoncez un nouveau chien à la Bezirkskasse Einsiedeln, Paracelsuspark 3. Cela se fait aussi avec le formulaire en ligne du district. Il demande le numéro de puce, la race, le motif de l'annonce (arrivée ou nouvelle acquisition) ainsi que l'assurance responsabilité civile avec le numéro de police. Selon la brochure, les changements de nom ou d'adresse doivent être reportés dans AMICUS dans les dix jours.",
+      "quellen": [
+        "sz_einsiedeln_formular",
+        "sz_einsiedeln_broschuere"
+      ]
+    },
+    {
+      "titel": "Crottes de chien",
+      "wert": "sachets gratuits près des poubelles",
+      "text": "Selon la brochure du district, des sachets gratuits pour les crottes de chien sont à disposition près des poubelles. Vous devez ramasser et éliminer les crottes dans les villages, sur les routes et chemins publics, dans les parcs et sur les chemins qui traversent des terres agricoles. La brochure ne porte pas de date (taux d'impôt dès le 1er janvier 2012).",
+      "quellen": [
+        "sz_einsiedeln_broschuere"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "silenen",
+  "kanton": "ur",
+  "bfs": 1216,
+  "uebersetzt_aus": "de",
+  "original": "7307fccede69",
+  "name": "Commune de Silenen",
+  "ort": "Silenen",
+  "in_ort": "à Silenen",
+  "einleitung": "Dans la commune de Silenen, une nouvelle Hundehalteverordnung (ordonnance sur la détention de chiens) est en vigueur depuis le 1er janvier 2026. Elle règle l'annonce, l'impôt sur les chiens, la laisse et les crottes de chien. S'y ajoute la laisse obligatoire en forêt prévue par le canton d'Uri.",
+  "karten": [
+    {
+      "titel": "Impôt sur les chiens",
+      "wert": "CHF 80 par chien et par année civile",
+      "text": "L'impôt sur les chiens s'élève à CHF 80 par chien et par année civile. La commune le perçoit au printemps. Vous ne payez pas d'impôt pour l'année en cours si vous acquérez le chien après le 1er novembre, si vous le détenez moins de deux mois dans l'année ou si vous avez déjà payé l'impôt dans une autre commune. Sont exonérés les chiens au service d'organisations publiques et d'organisations de sauvetage ainsi que les chiens d'accompagnement pour personnes aveugles, sourdes ou en situation de handicap, chaque fois sur présentation d'un justificatif.",
+      "quellen": [
+        "ur_silenen_hhv"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "wert": "dans les 30 jours à la commune",
+      "text": "Si vous détenez un chien âgé de plus de trois mois, vous l'annoncez à la commune dans les 30 jours. Vous annoncez aussi la remise et la mort du chien. Le chien doit porter une puce électronique au plus tard trois mois après sa naissance et dans tous les cas avant sa remise, et il doit être enregistré.",
+      "quellen": [
+        "ur_silenen_hhv"
+      ]
+    },
+    {
+      "titel": "Laisse",
+      "wert": "dans les installations appartenant à la commune",
+      "text": "Dans les installations appartenant à la commune, la laisse est obligatoire, par exemple dans les enceintes scolaires et sur les places de jeux et de sport publiques. Hors de votre terrain, votre chien ne peut pas courir en liberté sans surveillance. Le Gemeinderat (exécutif communal) peut ordonner dans un cas particulier la laisse ou la muselière.",
+      "quellen": [
+        "ur_silenen_hhv"
+      ]
+    },
+    {
+      "titel": "Crottes de chien",
+      "wert": "à ramasser immédiatement",
+      "text": "Sur le domaine public et sur le terrain d'autrui, vous ramassez immédiatement les crottes de votre chien et les éliminez dans un sachet. La commune met à disposition des points d'élimination.",
+      "quellen": [
+        "ur_silenen_hhv"
+      ]
+    },
+    {
+      "titel": "Amendes",
+      "wert": "jusqu'à CHF 1000",
+      "text": "Les infractions à la Hundehalteverordnung peuvent être punies d'une amende jusqu'à CHF 1000. Dans les cas de peu de gravité, un avertissement est possible la première fois.",
+      "quellen": [
+        "ur_silenen_hhv"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "silenen",
+  "kanton": "ur",
+  "bfs": 1216,
+  "uebersetzt_aus": "de",
+  "original": "7307fccede69",
+  "name": "Comune di Silenen",
+  "ort": "Silenen",
+  "in_ort": "a Silenen",
+  "einleitung": "Nel Comune di Silenen è in vigore dal 1° gennaio 2026 una nuova Hundehalteverordnung (ordinanza sulla detenzione di cani). Disciplina notifica, imposta sui cani, guinzaglio ed escrementi. Si aggiunge l'obbligo di guinzaglio del Cantone di Uri nel bosco.",
+  "karten": [
+    {
+      "titel": "Imposta sui cani",
+      "wert": "CHF 80 per cane e anno civile",
+      "text": "L'imposta sui cani ammonta a CHF 80 per cane e anno civile. Il Comune la riscuote in primavera. Non paghi l'imposta per l'anno in corso se acquisti il cane dopo il 1° novembre, se lo detieni per meno di due mesi all'anno o se hai già pagato l'imposta in un altro Comune. Sono esentati i cani al servizio di organizzazioni pubbliche e di organizzazioni di salvataggio nonché i cani d'accompagnamento per persone cieche, sorde e con disabilità, in ogni caso con una prova.",
+      "quellen": [
+        "ur_silenen_hhv"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "wert": "entro 30 giorni al Comune",
+      "text": "Se detieni un cane di età superiore a tre mesi, lo annunci al Comune entro 30 giorni. Annunci anche la cessione e la morte del cane. Al più tardi tre mesi dopo la nascita e in ogni caso prima della cessione il cane deve avere un microchip e deve essere registrato.",
+      "quellen": [
+        "ur_silenen_hhv"
+      ]
+    },
+    {
+      "titel": "Guinzaglio",
+      "wert": "negli impianti di proprietà del Comune",
+      "text": "Negli impianti di proprietà del Comune vale l'obbligo di guinzaglio, per esempio nelle aree scolastiche e nei parchi giochi e campi sportivi pubblici. Fuori dal tuo fondo il tuo cane non può correre libero senza sorveglianza. Il Gemeinderat (esecutivo comunale) può ordinare nel singolo caso l'obbligo di guinzaglio o di museruola.",
+      "quellen": [
+        "ur_silenen_hhv"
+      ]
+    },
+    {
+      "titel": "Escrementi",
+      "wert": "da raccogliere subito",
+      "text": "Sul suolo pubblico e altrui raccogli subito gli escrementi del tuo cane e li elimini nel sacchetto. Il Comune mette a disposizione punti di smaltimento.",
+      "quellen": [
+        "ur_silenen_hhv"
+      ]
+    },
+    {
+      "titel": "Multe",
+      "wert": "fino a CHF 1000",
+      "text": "Le infrazioni alla Hundehalteverordnung possono essere punite con una multa fino a CHF 1000. Nei casi lievi la prima volta è possibile un ammonimento.",
+      "quellen": [
+        "ur_silenen_hhv"
+      ]
+    }
+  ]
+}

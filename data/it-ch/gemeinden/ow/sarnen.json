@@ -1,0 +1,56 @@
+{
+  "id": "sarnen",
+  "kanton": "ow",
+  "bfs": 1407,
+  "uebersetzt_aus": "de",
+  "original": "bdfb9ed07f93",
+  "name": "Comune di Sarnen",
+  "ort": "Sarnen",
+  "in_ort": "a Sarnen",
+  "hinweis_heute": "A Sarnen vale l'obbligo di guinzaglio nei boschi e lungo i boschi da metà dicembre a fine giugno (stato dell'ordinanza: 2009).",
+  "einleitung": "La Hundeverordnung (ordinanza sui cani) dell'Einwohnergemeinde Sarnen (Comune degli abitanti) disciplina guinzaglio, divieti di accesso, escrementi e imposta sui cani. Risale al 2007, stato 2009.",
+  "karten": [
+    {
+      "titel": "Imposta sui cani",
+      "wert": "da CHF 120 per cane all'anno",
+      "text": "Secondo il Comune l'imposta sui cani ammonta ad almeno CHF 120 per cane. La fattura arriva in primavera. Se acquisti il cane dopo il 30 giugno o se compie sei mesi solo allora, paghi la metà. Per i cani che acquisti dopo il 1° novembre non paghi nulla nello stesso anno. Sono esentati i cani da traccia, i cani di servizio, i cani militari e i cani per ciechi. Nelle aziende agricole con bestiame grosso il primo cane è esente da imposta. Le imposte pagate non vengono rimborsate.",
+      "quellen": [
+        "ow_sarnen_steuer",
+        "ow_sarnen_hv"
+      ]
+    },
+    {
+      "titel": "Guinzaglio",
+      "wert": "nel bosco da metà dicembre a fine giugno",
+      "text": "Il tuo cane va tenuto al guinzaglio negli edifici e nei locali accessibili al pubblico, nei parchi pubblici, su strade, marciapiedi nonché sentieri pedonali ed escursionistici nelle zone densamente abitate e ovunque sia segnalato. Nei boschi e lungo i boschi l'obbligo di guinzaglio vale durante i mesi invernali e il periodo dei parti, da metà dicembre a fine giugno. I cani in calore, mordaci e malati li tieni sempre al guinzaglio, quelli mordaci anche con la museruola. Stato dell'ordinanza: 2009.",
+      "quellen": [
+        "ow_sarnen_hv"
+      ]
+    },
+    {
+      "titel": "Accesso vietato",
+      "wert": "cimiteri, stabilimenti balneari, parchi giochi e altri",
+      "text": "Non puoi portare con te il tuo cane né lasciarlo correre nei cimiteri, negli stabilimenti balneari e nelle aree degli ospedali, nei parchi giochi pubblici per bambini, nei piazzali per la ricreazione delle scuole e sui campi da gioco e sportivi pubblici. Per manifestazioni di sport cinofili la Gemeindekanzlei (cancelleria comunale) può autorizzare eccezioni. Stato dell'ordinanza: 2009.",
+      "quellen": [
+        "ow_sarnen_hv"
+      ]
+    },
+    {
+      "titel": "Escrementi",
+      "wert": "raccogliere ed eliminare",
+      "text": "Se porti il tuo cane fuori dal tuo fondo, raccogli gli escrementi e li elimini. Fanno eccezione le detentrici e i detentori di cani per ciechi e di cani da caccia durante la caccia. Stato dell'ordinanza: 2009.",
+      "quellen": [
+        "ow_sarnen_hv"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "wert": "entro 30 giorni ai Bevölkerungsdienste (servizi alla popolazione)",
+      "text": "Un nuovo cane e cambiamenti come cambio di indirizzo, cambio di proprietario o morte li annunci al Comune entro 30 giorni: per telefono, allo sportello o tramite il modulo online. I cambiamenti li iscrivi inoltre nella banca dati AMICUS. Se detieni un cane per la prima volta, ti annunci prima agli Einwohnerdienste (servizi abitanti), che ti registrano in AMICUS. Il cane lo registra poi lo studio veterinario.",
+      "quellen": [
+        "ow_sarnen_steuer",
+        "ow_sarnen_registrierung"
+      ]
+    }
+  ]
+}

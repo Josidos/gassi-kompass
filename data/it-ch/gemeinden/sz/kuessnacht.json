@@ -1,0 +1,46 @@
+{
+  "id": "kuessnacht",
+  "kanton": "sz",
+  "bfs": 1331,
+  "uebersetzt_aus": "de",
+  "original": "2b6048555110",
+  "name": "Distretto di Küssnacht",
+  "ort": "Küssnacht",
+  "in_ort": "nel distretto di Küssnacht",
+  "einleitung": "Nel distretto di Küssnacht valgono le regole del Cantone di Svitto. Le indicazioni sul distretto provengono dall'opuscolo dell'Einwohneramt (ufficio abitanti). Stato dell'opuscolo: aprile 2019.",
+  "karten": [
+    {
+      "titel": "Imposta sui cani",
+      "wert": "CHF 100, cane da utilità CHF 40",
+      "text": "Nel distretto di Küssnacht l'imposta sui cani ammonta a CHF 100 all'anno, per un cane da utilità a CHF 40. Ogni altro cane nella stessa economia domestica costa CHF 100 in più rispetto all'imposta di base. La paghi in gennaio, oppure subito quando inizia l'obbligo fiscale, all'Einwohneramt nel Rathaus (municipio). Stato dell'opuscolo: aprile 2019.",
+      "quellen": [
+        "sz_kuessnacht_broschuere"
+      ]
+    },
+    {
+      "titel": "Guinzaglio",
+      "wert": "area Luterbach e pista finlandese",
+      "text": "Nell'area Luterbach e sulla pista finlandese (Finnenbahn) vale l'obbligo di guinzaglio. Fa eccezione l'«Hündeler-Platz», previsto appositamente per i cani. Si aggiunge la regola del Cantone: guinzaglio negli impianti pubblici, sulle vie pubbliche e nel traffico stradale. Stato dell'opuscolo: aprile 2019.",
+      "quellen": [
+        "sz_kuessnacht_broschuere",
+        "sz_hug"
+      ]
+    },
+    {
+      "titel": "Escrementi",
+      "wert": "sacchetti gratuiti presso i cestini di raccolta",
+      "text": "Presso i cestini di raccolta per gli escrementi dei cani nel distretto trovi sacchetti gratuiti. Annodi il sacchetto pieno e lo getti nel cestino di raccolta o in un cestino dei rifiuti nelle vicinanze. È vietato lasciare i sacchetti sul posto. Stato dell'opuscolo: aprile 2019.",
+      "quellen": [
+        "sz_kuessnacht_broschuere"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "wert": "Einwohneramt e AMICUS",
+      "text": "L'imposta sui cani è riscossa dall'Einwohneramt, Rathaus 2, Küssnacht am Rigi. Il microchip del tuo cane viene registrato nella banca dati AMICUS. I cambiamenti di nome o di indirizzo li annunci entro 10 giorni. Stato dell'opuscolo: aprile 2019.",
+      "quellen": [
+        "sz_kuessnacht_broschuere"
+      ]
+    }
+  ]
+}

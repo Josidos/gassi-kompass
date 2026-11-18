@@ -1,0 +1,38 @@
+{
+  "id": "schaffhausen",
+  "kanton": "sh",
+  "bfs": 2939,
+  "uebersetzt_aus": "de",
+  "original": "fc366ec1a9dc",
+  "name": "Ville de Schaffhouse",
+  "ort": "Schaffhouse",
+  "in_ort": "à Schaffhouse",
+  "hinweis_heute": "En ville de Schaffhouse, votre chien doit être tenu en laisse toute l'année dans les installations publiques.",
+  "einleitung": "En ville de Schaffhouse s'appliquent les règles du canton de Schaffhouse. La Ville impose en plus la laisse dans les installations publiques et n'admet les chiens dans ses cimetières qu'avec une autorisation.",
+  "karten": [
+    {
+      "titel": "Laisse",
+      "wert": "dans les installations publiques",
+      "text": "Dans les installations publiques de la ville, les chiens doivent être tenus en laisse. C'est ce que prévoit l'article 30 de la Polizeiverordnung (ordonnance de police). Les chiens doivent en outre être détenus de manière à ne pas souiller les chemins, installations et places publics et privés. État de la Polizeiverordnung: 1er janvier 2016.",
+      "quellen": [
+        "sh_stadt_polv"
+      ]
+    },
+    {
+      "titel": "Accès interdit",
+      "wert": "cimetières, sauf avec autorisation",
+      "text": "Vous ne pouvez pas emmener de chien dans les cimetières de la ville sans autorisation spéciale. Le règlement s'applique au Waldfriedhof (cimetière forestier) et par analogie aux cimetières de Buchthalen, Hemmental et Herblingen.",
+      "quellen": [
+        "sh_stadt_friedhof"
+      ]
+    },
+    {
+      "titel": "Amendes",
+      "wert": "jusqu'à CHF 1000",
+      "text": "Quiconque enfreint la Polizeiverordnung de la Ville est puni par la Stadtpolizei (police municipale) d'une amende jusqu'à CHF 1000. S'y ajoutent des émoluments et des frais. La négligence est aussi punissable. État de la Polizeiverordnung: 1er janvier 2016.",
+      "quellen": [
+        "sh_stadt_polv"
+      ]
+    }
+  ]
+}
