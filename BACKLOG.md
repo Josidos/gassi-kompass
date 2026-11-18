@@ -32,7 +32,7 @@ Ungefähr nach Bevölkerung. Schon erfasst: Zürich, Bern, Luzern, Aargau, St. G
 - [x] Appenzell Ausserrhoden (`ar`), 2026-11-18, ohne Gemeinde (Herisau zurückgestellt)
 - [x] Nidwalden (`nw`), 2026-11-18, ohne Gemeinde (Stans zurückgestellt)
 - [x] Glarus (`gl`), 2026-11-18, mit Gemeinde Glarus
-- [ ] Obwalden (`ow`): zurückgestellt am 2026-11-18. Entwurf unter `data/entwurf/ow.json`. Es fehlen Haftpflicht, `verbot` und `vergleich.haft`. Nötig: GDB 818.3 aus einer amtlichen Quelle (gdb.ow.ch oder LexFind), danach die Karten Kurs und Rassen gegenlesen.
+- [ ] Obwalden (`ow`): zurückgestellt am 2026-11-18. Entwurf unter `data/entwurf/ow.json`. Es fehlen Haftpflicht, `verbot` und `vergleich.haft`. Nötig: GDB 818.3 aus einer amtlichen Quelle (gdb.ow.ch oder LexFind), danach die Karten Kurs und Rassen gegenlesen. Hinweis vom 18. November: Die Obwaldner Gesetzessammlung ist als PDF abrufbar unter ow.lexwork.naz.ch/de/dta/<Nummer>.pdf (zum Beispiel 818.1.pdf für das Veterinärgesetz). Der Regierungsrat hat am 19. März 2024 einen Nachtrag zum Veterinärgesetz zu Massnahmen bei Hunden vorgelegt (ow.ch/_doc/381397): prüfen, ob er in Kraft ist. lexfind.ch/tolv/63743/de ist das Nidwaldner Hundegesetz, nicht das Obwaldner.
 - [x] Uri (`ur`), 2026-11-18, mit Gemeinde Silenen (Altdorf zurückgestellt)
 - [x] Appenzell Innerrhoden (`ai`), 2026-11-17, ohne Gemeinde (Bezirk Appenzell zurückgestellt)
 
