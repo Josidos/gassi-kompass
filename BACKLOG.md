@@ -286,6 +286,7 @@ Vorgaben in `CLAUDE.md` unter «Umbauten am Generator».
 
 - [x] Themenseiten, 2026-11-17
 - [ ] Mehrsprachigkeit (Französisch und Italienisch)
+- [ ] Themenseiten auf Französisch und Italienisch. Erst angehen, wenn es in der Sprache mindestens drei Kantone gibt, und nur als eigener Sonderlauf.
 
 ## 6. Ideen für später
 
