@@ -4,16 +4,27 @@ Erledigtes abhaken und das Datum dahinter schreiben. Was sich nicht belegen läs
 
 ## Reihenfolge
 
-Ziel: alle 26 Kantone, jeder in seinen Amtssprachen. Für jeden Lauf gilt die erste Zeile, die zutrifft:
+Ziel: jede Seite auf Deutsch, Französisch und Italienisch, dazu 60 Gemeinden. Für jeden Lauf gilt die erste Zeile, die zutrifft:
 
-1. **Sonderlauf Themenseiten.** Sind 10 Kantone erfasst und ist der Punkt in Abschnitt 5 offen, macht der Lauf nur das.
-2. **Sonderlauf Mehrsprachigkeit.** Ist Abschnitt 1 erledigt und ist der Punkt in Abschnitt 5 offen, macht der Lauf nur das.
+1. **Sonderlauf.** Ist in Abschnitt 5 ein Punkt mit dem Vermerk «fällig» offen, macht der Lauf nur den obersten davon.
+2. **Übersetzungen.** Fehlen laut `python3 build.py --fehlend` mehr als 12 Übersetzungen, macht der Lauf nur Übersetzungen, höchstens 12 Dateien.
 3. **Neuer Kanton.** Der oberste offene Kanton aus Abschnitt 1. Dazu seine grösste Gemeinde oder sein Hauptort. Ist Abschnitt 1 erledigt und die Mehrsprachigkeit in Abschnitt 5 abgehakt: der oberste offene Eintrag aus Abschnitt 2.
 4. **Gemeinden.** Ist kein Kanton möglich, bis zu 4 Gemeinden aus Abschnitt 3.
 
 In jedem Lauf ausser den Sonderläufen zusätzlich höchstens eine Lücke aus Abschnitt 4.
 
 Bleibt ein Kanton nach einem Lauf unvollständig (Entwurf unter `data/entwurf/`), bekommt er in der Liste den Vermerk «zurückgestellt» mit Datum und dem, was fehlt. Der nächste Lauf nimmt den nächsten offenen Kanton. Zurückgestellte Kantone kommen wieder dran, sobald in ihrem Abschnitt kein anderer mehr offen ist. Scheitert ein Kanton dabei ein zweites Mal, bleibt er zurückgestellt, der Bericht meldet ihn zuoberst, und der Abschnitt gilt für die Reihenfolge als erledigt.
+
+## Kette
+
+Name: Kette vom 18. November, Nachmittag. Höchstens 12 Glieder. Schluss: 18. November 2026, 18:00 Uhr Schweizer Zeit. Entscheid von Joss vom 18. November 2026, 11:41 Uhr: alle Seiten in allen drei Sprachen, Darstellung überarbeiten. Wie ein Glied arbeitet, steht in `CLAUDE.md` unter «Kette».
+
+Programm:
+
+- [ ] a) Sonderlauf Darstellung. Vorgaben in `CLAUDE.md` unter «Darstellung».
+- [ ] b) Sonderlauf «Alle Sprachen überall: Generator». Vorgaben in `CLAUDE.md`. Als Probe im selben Lauf den Kanton Zürich und die Stadt Zürich ins Französische und Italienische übersetzen und beide Seiten als Bild ansehen.
+- [ ] c) Übersetzungen der Kantone. Pro Glied bis zu 6 Kantone in ihre fehlenden Sprachen, in der Reihenfolge von `python3 build.py --fehlend`. Offen, bis kein Kanton mehr fehlt.
+- [ ] d) Übersetzungen der Gemeinden. Pro Glied bis zu 12 Gemeinden in ihre fehlenden Sprachen. Offen, bis keine Gemeinde mehr fehlt.
 
 ## 1. Deutschsprachige Kantone
 
@@ -306,7 +317,8 @@ Vorgaben in `CLAUDE.md` unter «Umbauten am Generator».
 
 - [x] Themenseiten, 2026-11-17
 - [x] Mehrsprachigkeit (Französisch und Italienisch), 2026-11-18
-- [ ] Themenseiten auf Französisch und Italienisch. Erst angehen, wenn es in der Sprache mindestens drei Kantone gibt, und nur als eigener Sonderlauf.
+- [ ] Darstellung überarbeiten (fällig, Schritt a der Kette vom 18. November)
+- [ ] Alle Sprachen überall: Generator, Bund und Themenseiten in drei Sprachen (fällig, Schritt b der Kette vom 18. November)
 
 ## 6. Ideen für später
 
@@ -326,7 +338,7 @@ Aus dem Vergleich mit anderen Seiten. Erst angehen, wenn alle Kantone erfasst si
 
 ## 8. Später, nur nach Freigabe von Joss
 
-- Übersetzungen in Sprachen, die am Ort nicht Amtssprache sind, auch Englisch
+- Englisch und weitere Sprachen
 - Anzeigen und Affiliate-Links
 - Impressum und Datenschutzerklärung
 - Anschreiben an Behörden, Vereine und Medien

@@ -93,11 +93,9 @@ Deutsch mit Schweizer Rechtschreibung (ss statt ß), Du-Form, kurze Sätze. Betr
 
 Takt: Der Lauf startet jeden Tag um 08:23 Uhr. Solange in `BACKLOG.md` unter den Abschnitten 1 und 2 ein Kanton offen ist oder weniger als 60 Gemeinden erfasst sind, arbeitet er täglich. Gezählt wird über alle Sprachen, jede Gemeinde einmal: `python3 build.py --check` nennt die Zahl. Danach arbeitet er nur noch mittwochs und samstags und endet an den anderen Tagen sofort, ohne etwas zu ändern.
 
-Daneben kann eine Kette laufen: mehrere Läufe hintereinander, von denen jeder am Schluss den nächsten auslöst. Ob ein Lauf zu einer Kette gehört und wann sie endet, steht im Auftrag des Laufs. Für die Arbeit selbst gilt dasselbe Handbuch.
+Daneben kann eine Kette laufen, siehe «Kette» weiter unten.
 
-Die Zusatznachricht einer Kette («Glied N») trifft oft erst ein, wenn der Lauf schon arbeitet oder fertig ist. Sie gehört zu diesem einen Lauf und ist nie ein zweiter Auftrag. Fehlt sie beim Start, zählst du dich nach `CHANGELOG.md`. Trifft sie nach deinem Bericht ein, antwortest du nur mit «erledigt»: kein zweiter Lauf, kein zweites Auslösen. In der Nacht auf den 18. November 2026 sind so mehrere Läufe doppelt gelaufen.
-
-Obergrenzen pro Lauf: höchstens **4 Dateien nachprüfen**, dazu entweder **1 neuer Kanton samt einer Gemeinde** oder **4 neue Gemeinden**. Ein Sonderlauf (siehe «Umbauten am Generator») macht nur den Umbau und sonst nichts.
+Obergrenzen pro Lauf: höchstens **4 Dateien nachprüfen**, dazu entweder **1 neuer Kanton samt einer Gemeinde** oder **4 neue Gemeinden**, dazu höchstens **12 Übersetzungen**. Ein Sonderlauf (siehe «Umbauten am Generator») macht nur den Umbau und sonst nichts.
 
 1. **Start.** Repository klonen oder aktualisieren. `python3 build.py --check` muss fehlerfrei sein. `BACKLOG.md` und die letzten zwei Einträge in `CHANGELOG.md` lesen. Danach einsammeln, was Parallel-Läufe geliefert haben (siehe «Parallel-Läufe»). Das gehört zu jedem Lauf, auch zum Sonderlauf.
 2. **Nachprüfen.** Die Dateien in `data/kantone/` und `data/gemeinden/`, ihre französischen und italienischen Fassungen unter `data/fr-ch/` und `data/it-ch/` sowie `data/schweiz.json` mit dem ältesten `geprueft` nehmen. Jede Fassung wird mit den Quellen in ihrer Sprache abgeglichen. Ist nichts älter als 60 Tage, diesen Schritt überspringen. Für jede Datei jede Quelle abrufen und jede Angabe vergleichen.
@@ -107,10 +105,24 @@ Obergrenzen pro Lauf: höchstens **4 Dateien nachprüfen**, dazu entweder **1 ne
 3. **Ausbauen.** Was in diesem Lauf dran ist, steht oben in `BACKLOG.md` unter «Reihenfolge».
    - Neue Gemeinde: auf der Website der Gemeinde und im kantonalen Recht nach Betrag der Hundetaxe, lokalen Orten mit Leinenpflicht oder Hundeverbot, Freilaufzonen, Anmeldestelle und Bussen suchen. Unter drei belegten Angaben keine Datei anlegen. Den Eintrag im Backlog mit Datum und Grund als «zurückgestellt» markieren.
    - Neuer Kanton: alle Felder der Kantonsdatei belegen (Gesetz, Verordnung, Veterinärdienst). Liegt unter `data/entwurf/` schon ein angefangener Stand, dort weitermachen. Fehlt nach zwei Suchversuchen noch ein Feld: den Stand als `data/entwurf/<kt>.json` sichern, im Backlog notieren, was fehlt, und den Kanton nicht veröffentlichen. Ist die Datei vollständig: nach `data/kantone/` legen, die grösste Gemeinde oder den Hauptort als Gemeinde anlegen und drei bis fünf weitere Gemeinden des Kantons in Abschnitt 3 des Backlogs eintragen.
+   - Übersetzungen nachführen: siehe «Alle Sprachen überall», Teil «Im Lauf».
 4. **Bauen und testen.** `python3 build.py`, dann `node tests/seiten.js`. Beides muss fehlerfrei sein. Wenn nicht: Fehler beheben oder die Änderung dieses Laufs zurücknehmen. **Nie mit Fehlern pushen.** Der Test bricht ab, wenn eine veröffentlichte Adresse verschwindet. Fällt eine Gemeinde beim Nachprüfen unter drei belegte Angaben, darf ihre Seite verschwinden: dann `node tests/seiten.js --entfernen-erlaubt` und die Adresse im Bericht nennen.
 5. **Protokoll.** `BACKLOG.md` nachführen. Oben in `CHANGELOG.md` einen Eintrag mit Datum ergänzen: nachgeprüft, geändert, neu, nicht gelungen.
 6. **Veröffentlichen.** Ein Commit auf `main` mit klarer Betreffzeile, dann Push. Etwa eine Minute später muss `gh run list -R Josidos/gassi-kompass --limit 1` für den neuen Commit `completed success` zeigen. Steht dort ein Fehler, kommt er zuoberst in den Bericht. Lehnt GitHub den Push ab, weil sich `main` inzwischen geändert hat: `git pull --rebase origin main`. Konflikte in erzeugten Dateien nie von Hand lösen, sondern mit `python3 build.py` neu erzeugen, dann testen und pushen.
 7. **Bericht.** Kurz auf Deutsch: was nachgeprüft wurde, was sich geändert hat, welche Seiten neu sind, was nicht ging. Nur wenn etwas fällig ist: was Joss selbst tun muss.
+
+### Kette
+
+Eine Kette sind mehrere Läufe hintereinander, von denen jeder am Schluss den nächsten auslöst. Sie läuft nur nach einem Entscheid von Joss. Ihr Name, ihr Programm, die Höchstzahl der Glieder und die Schluss-Zeit stehen in `BACKLOG.md` unter «Kette». Steht dort «keine Kette», endet ein Lauf, der als Glied ausgelöst wurde, sofort. Für die Arbeit selbst gilt dieses Handbuch, die «Reihenfolge» im Backlog gilt für ein Glied nicht.
+
+Ein Glied arbeitet so:
+
+1. **Nummer.** N ist die Zahl der Einträge in `CHANGELOG.md`, deren Überschrift den Namen der Kette und «Glied» enthält, plus eins. Die Zusatznachricht («Glied N») trifft oft erst ein, wenn der Lauf schon arbeitet oder fertig ist. Sie ändert nichts und ist nie ein zweiter Auftrag: Trifft sie nach dem Bericht ein, ist die Antwort nur «erledigt». In der Nacht auf den 18. November 2026 sind so mehrere Läufe doppelt gelaufen.
+2. **Anmelden.** In `data/protokoll/auftraege.md` die Zeile «- <Name der Kette>, Glied N, gestartet HH:MM Uhr» anhängen, nur diese Datei committen und sofort pushen. Lehnt GitHub ab, oder steht nach `git pull --rebase origin main` schon eine Zeile für Glied N da, läuft ein Doppel: sofort enden, nichts ändern, nichts auslösen.
+3. **Ein Schritt.** Den ersten Schritt des Programms erledigen, der offen ist. Ein Schritt mit mehreren Portionen (zum Beispiel Übersetzungen) bleibt offen, bis nichts mehr fehlt. Dann macht das Glied eine Portion.
+4. **Abschliessen.** Bauen und testen. In `BACKLOG.md` erledigte Schritte des Programms abhaken. In `CHANGELOG.md` zuoberst ein Eintrag mit der Überschrift «## <Datum>, <Name der Kette>, Glied N: <Schritt>». Die Zeile in `auftraege.md` löschen. Ein Commit auf `main`, Push.
+5. **Weitergeben.** Das nächste Glied auslösen: genau ein Aufruf des Werkzeugs `fire_trigger` mit der Aufgabe aus dem Auftrag des Laufs und dem Text «Glied N+1». Nicht auslösen, wenn N die Höchstzahl erreicht hat, das Programm erledigt ist, die Schluss-Zeit vorbei ist, der Push nicht gelungen ist, Build oder Test am Schluss Fehler hatten, `gh run list -R Josidos/gassi-kompass --limit 3` beim neuesten abgeschlossenen Lauf «failure» zeigt, oder schon das Glied davor denselben Schritt versucht hat, ohne etwas zu veröffentlichen.
+6. **Ende.** Ist das Programm erledigt, trägt das letzte Glied in `BACKLOG.md` unter «Kette» wieder «keine Kette» ein und nennt im Bericht den Stand.
 
 ### Hinweise zur Recherche
 
@@ -157,11 +169,32 @@ Parallel-Läufe startet nur Claude in einer Sitzung mit Joss und nur nach seinem
 Seit dem Umbau vom 18. November 2026 baut der Generator die Dateien unter `data/fr-ch/` und `data/it-ch/` wie die deutschen. Für sie gilt, zusätzlich zum Abschnitt «Französisch und Italienisch» weiter unten:
 
 - Ablage: `data/fr-ch/kantone/<kt>.json` und `data/fr-ch/gemeinden/<kt>/<gemeinde>.json`, italienisch unter `data/it-ch/`. Gleiche Felder und gleiche `id` wie in den deutschen Mustern.
-- Alle Texte stehen in der Sprache der Seite und stammen aus den amtlichen Quellen in dieser Sprache. Keine Übersetzung einer deutschen Datei. `name`, `im` und `des` in der Sprache der Seite («Canton de Vaud», «dans le canton de Vaud», «du canton de Vaud»; «Cantone Ticino», «nel Cantone Ticino», «del Cantone Ticino»), bei Gemeinden `in_ort` («à Lausanne», «a Lugano»).
+- Alle Texte stehen in der Sprache der Seite. In einer Amtssprache des Ortes stammen sie aus den amtlichen Quellen in dieser Sprache (Originalfassung). In den anderen Sprachen sind sie eine gekennzeichnete Übersetzung der Originalfassung, siehe «Alle Sprachen überall». `name`, `im` und `des` in der Sprache der Seite («Canton de Vaud», «dans le canton de Vaud», «du canton de Vaud»; «Cantone Ticino», «nel Cantone Ticino», «del Cantone Ticino»), bei Gemeinden `in_ort` («à Lausanne», «a Lugano»).
 - Die Schlüssel der Felder (`wald`, `leine`, `verbot`, `karten`, `vergleich`, `ton` und so weiter) bleiben deutsch. Nur die Werte sind französisch oder italienisch.
 - Sechs Karten in der Reihenfolge des deutschen Musters. Titel französisch: Responsabilité civile, Cours, Annonce, Impôt sur les chiens, Races, En promenade. Titel italienisch: Responsabilità civile, Corso, Notifica, Imposta sui cani, Razze, A passeggio. Übliche Titel bei Gemeinden französisch: Impôt sur les chiens, Laisse, Accès interdit, Annonce, Amendes. Italienisch: Imposta sui cani, Guinzaglio, Accesso vietato, Notifica, Multe.
 - Prüfen wie bei deutschen Dateien: `python3 build.py`, dann `node tests/seiten.js`. `build.py` verlangt je Sprache die Kartentitel dieser Sprache. Eine Gemeinde braucht die Kantonsdatei in derselben Sprache.
-- Bei einem zweisprachigen Kanton (BE, FR, VS) liegt die deutsche Fassung wie üblich unter `data/kantone/`. Eine Gemeinde bekommt nur die Fassungen in ihren eigenen Amtssprachen. Dieselbe Gemeinde hat in jeder Sprache dieselbe `id` und dieselbe `bfs`: Darüber verbindet der Generator die Sprachfassungen.
+- Bei einem zweisprachigen Kanton (BE, FR, VS) liegt die deutsche Fassung wie üblich unter `data/kantone/`. Eine Gemeinde hat Originalfassungen nur in ihren eigenen Amtssprachen, die übrigen Fassungen sind Übersetzungen. Dieselbe Gemeinde hat in jeder Sprache dieselbe `id` und dieselbe `bfs`: Darüber verbindet der Generator die Sprachfassungen.
+
+## Alle Sprachen überall
+
+Entscheid von Joss vom 18. November 2026: Wer in der Schweiz wohnt, soll die Regeln seines Ortes in seiner Sprache lesen können, egal welche Amtssprache am Ort gilt. Jede Seite gibt es deshalb auf Deutsch, Französisch und Italienisch: Kantone, Gemeinden, Bund, Themenseiten, Startseite und «Über diese Seite». Dieser Abschnitt geht älteren Sätzen im Handbuch vor, die Übersetzungen ausschliessen.
+
+### Originalfassung und Übersetzung
+
+- **Originalfassung:** die Datei in einer Amtssprache des Ortes. Ihre Texte stammen aus den amtlichen Quellen in dieser Sprache. Zweisprachige Kantone haben zwei Originalfassungen (BE, FR und VS deutsch und französisch, GR deutsch und italienisch). Für den Bund gibt es drei: `data/schweiz.json`, `data/fr-ch/schweiz.json` und `data/it-ch/schweiz.json`, jede aus den Seiten des Bundes in ihrer Sprache.
+- **Übersetzung:** die Datei in einer Sprache, die am Ort nicht Amtssprache ist. Sie liegt dort, wo auch eine Originalfassung dieser Sprache läge (`data/fr-ch/kantone/zh.json`, `data/it-ch/gemeinden/zh/winterthur.json`, `data/kantone/vd.json`), und hat dieselben Felder. Dazu kommen `uebersetzt_aus` (Sprache der Originalfassung: `de`, `fr` oder `it`) und `original` (Prüfsumme der Originalfassung zum Zeitpunkt der Übersetzung, `python3 build.py --pruefsumme <Datei>`). Gibt es zwei Originalfassungen, wird aus der deutschen übersetzt.
+- Übersetzt werden alle Texte, die auf der Seite erscheinen. Unverändert bleiben `id`, `kurz`, `bfs`, `geprueft`, `ton`, `saison`, `von`, `bis` und alle Quellenschlüssel. Eine Übersetzung braucht keine eigene Recherche und keine neuen Quellen.
+- **Zahlen bleiben Ziffern.** Jeder Betrag, jedes Datum, jede Frist, jeder Abstand und jede Artikelnummer steht in der Übersetzung mit denselben Ziffern wie im Original, im Format der Zielsprache («1er avril», «1° aprile», «CHF 120»). `build.py` vergleicht die Ziffern Feld für Feld und meldet jede Abweichung als Fehler.
+- **Eigennamen.** Namen von Gesetzen, Verordnungen, Reglementen und Ämtern bleiben in der Originalsprache. Beim ersten Vorkommen darf eine kurze Übersetzung in Klammern folgen. Kantone heissen wie in `KANTONSNAMEN`. Orte behalten den amtlichen Namen, ausser die Zielsprache hat einen gebräuchlichen eigenen (Zurich, Zurigo, Bâle, Basilea, Lucerne, Lucerna, Saint-Gall, San Gallo, Coire, Coira, Berne, Berna, Genf, Ginevra, Neuenburg, Freiburg, Friburgo, Sitten, Soleure, Soletta, Schaffhouse, Sciaffusa). Im Zweifel der amtliche Name.
+- **Sprache.** Übersetze den Sinn Satz für Satz, ohne etwas wegzulassen, zu ergänzen oder zu verschärfen. Aus «kann» wird nie «muss». Wortwahl wie in den Texten des Bundes und der Kantone in der Zielsprache (französisch: détenteur de chien, laisse, assurance responsabilité civile, impôt sur les chiens, commune. Italienisch: detentore di cani, guinzaglio, assicurazione di responsabilità civile, imposta sui cani, Comune). Anrede und Schreibweise wie unter «Französisch und Italienisch». Deutsch: Schweizer Rechtschreibung und Du-Form.
+- **Kennzeichnung.** Der Generator setzt unter den Titel jeder übersetzten Seite den Hinweis, dass sie eine Übersetzung ist und in welcher Sprache die amtlichen Quellen sind. Die Namen der Quellen bleiben in der Originalsprache.
+- **Veraltet.** Ändert sich die Originalfassung, stimmt die Prüfsumme nicht mehr. Der Generator zeigt dann auf der übersetzten Seite den Hinweis, dass die Originalfassung neuer ist, mit Link dorthin. `python3 build.py --fehlend` listet fehlende und veraltete Übersetzungen auf.
+
+### Im Lauf
+
+- Jeder Lauf führt nach dem Ausbauen die Übersetzungen nach: zuerst veraltete, dann fehlende, höchstens 12 Dateien pro Lauf. Wer eine Originalfassung anlegt oder ändert, übersetzt sie im selben Lauf in die beiden anderen Sprachen.
+- Vor dem Übersetzen eine fertige Übersetzung derselben Art lesen und Wortwahl und Aufbau übernehmen, damit alle Seiten gleich klingen.
+- Nach dem Übersetzen: `python3 build.py` und `node tests/seiten.js`. Je eine übersetzte Seite pro Sprache als Bild ansehen.
 
 ## Was nur Joss tun kann
 
@@ -194,7 +227,8 @@ Regeln für jede Seite:
 - Der Seitentitel nennt den Ort und die gesuchten Themen, so wie `build.py` es heute tut. Nicht kürzen, nicht verspielter machen.
 - Zuoberst steht die Antwort auf die häufigste Frage: Muss mein Hund hier an die Leine?
 - Beträge, Daten und Meter ausschreiben, weil genau danach gesucht wird.
-- Keine Seite ohne eigenen Inhalt. Keine Übersetzung in eine Sprache, die am Ort nicht Amtssprache ist.
+- Keine Seite ohne eigenen Inhalt. Jede Seite gibt es auf Deutsch, Französisch und Italienisch, siehe «Alle Sprachen überall».
+- Nichts auf der Seite spricht über den Stand des Projekts. Wörter wie «erfasst», «folgt» oder «Fassung» gehören ins Protokoll, nicht auf die Seite.
 
 Suchdaten: Die Zahlen aus der Google Search Console liest Claude etwa einmal im Monat in einer eigenen Sitzung über den Browser von Joss aus und passt danach die Reihenfolge in `BACKLOG.md` an. Der Lauf hat keinen Zugriff darauf und richtet sich nach dem Backlog. Die Zahlen selbst gehören nicht ins Repository.
 
@@ -243,6 +277,31 @@ Die Vorgaben, die dafür galten und weiter gelten:
 - **Sitemap und Test.** Alle Sprachfassungen stehen in der einen `sitemap.xml`. `tests/seiten.js` prüft die Seiten aller Sprachen, das Attribut `lang` und dass `hreflang` in beide Richtungen stimmt.
 - **Prüfung.** Bei jeder späteren Änderung an den Texten oder am Aufbau: je eine Kantonsseite und eine Gemeindeseite pro Sprache und die Startseiten als Bild ansehen. Die deutschen Seiten müssen dabei unverändert aussehen.
 
+### Darstellung (fällig, Sonderlauf)
+
+Befund der Durchsicht vom 18. November 2026. Ziel: eine Seite, die man einem Amt zeigen kann. Die Statuswörter («erfasst», «saisi», «registrato») sind am selben Tag schon aus allen Texten entfernt worden.
+
+- Startseite, Vergleich: Die Tabelle mit 26 Zeilen und 7 Spalten entfällt. Sie ist auf dem Telefon nicht lesbar und am Bildschirm abgeschnitten. An ihre Stelle treten sechs Tafeln «Kantone vergleichen», eine pro Themenseite, mit einem Satz, was man dort findet.
+- Startseite, Gemeinden: ein kompaktes Verzeichnis. Pro Kanton eine Zeile mit dem Kantonsnamen und den Gemeinden als Links, alphabetisch, mit dem kurzen Ortsnamen (`ort`) statt «Stadt …», «Gemeinde …» oder «Bezirk …». Kein «Kanton XX» mehr bei jeder Gemeinde.
+- Kantonstafeln: Kürzel und Zahl der Gemeinden mit lokalen Regeln («ZH · 14 Gemeinden»). Ohne Zahl, wenn es keine gibt.
+- Startseite, Kopf: unter der Suche eine Zeile mit dem Umfang in Zahlen aus den Daten (26 Kantone, Zahl der Gemeinden, jede Angabe mit amtlicher Quelle).
+- Karten einer Reihe nicht mehr auf gleiche Höhe strecken, wenn dadurch grosse leere Flächen entstehen.
+- Themenseiten: Spaltenkopf «Kurz» ersetzen durch «Auf einen Blick». Auf dem Telefon werden die Zeilen der Tabelle gestapelt, nichts braucht seitliches Scrollen.
+- Jede Seitenart bei 390 und 1280 Pixeln als Bild ansehen: Startseite (oben, Gemeinden, Themen), Kanton, Gemeinde, Thema, Bund, «Über diese Seite». Was unruhig, abgeschnitten oder leer wirkt, in diesem Lauf beheben und im Protokoll nennen.
+- Alle neuen Texte in allen drei Sprachen in `TEXTE`. Bestehende Adressen bleiben. Farben, Schriften und Bausteine bleiben die aus `assets/site.css`.
+
+### Alle Sprachen überall: Generator (fällig, Sonderlauf)
+
+Die Regeln für die Daten stehen unter «Alle Sprachen überall». Der Umbau am Generator:
+
+- `build.py` kennt Übersetzungen: Feld `uebersetzt_aus`, Prüfsumme über die übersetzbaren Inhalte der Originalfassung (`--pruefsumme <Datei>`), Liste der fehlenden und veralteten Übersetzungen (`--fehlend`, eine Zeile pro Datei und Zielsprache, Kantone vor Gemeinden), Ziffernvergleich mit der Originalfassung als Fehler, Hinweis «Übersetzung» unter dem Titel, Hinweis «veraltet» mit Link zur Originalfassung. Die Texte der Hinweise stehen in `TEXTE`.
+- Der Bund in drei Sprachen: `/schweiz/`, `/fr-ch/schweiz/` und `/it-ch/schweiz/`. Die französische und die italienische Originalfassung entstehen im selben Sonderlauf aus den Seiten des BLV und von ch.ch in dieser Sprache.
+- Themenseiten in drei Sprachen: `/fr-ch/thema/<id>/` und `/it-ch/thema/<id>/` mit denselben `id` wie auf Deutsch. Jede vergleicht die Kantone, die es in ihrer Sprache gibt, und nennt die übrigen darunter mit Link.
+- Sprachwechsel und `hreflang` auf jeder Seite für alle Fassungen, die es gibt. `404.html` führt auf alle drei Startseiten.
+- Startseiten, Suche, Kantonsraster und Gemeindeverzeichnis jeder Sprache führen auf die Fassung in dieser Sprache, sobald es sie gibt.
+- `--check` und der Bericht unterscheiden Originalfassungen und Übersetzungen. Für den Takt zählt jede Gemeinde einmal, egal in wie vielen Sprachen.
+- Der Test prüft: Jede Übersetzung trägt den Hinweis, `hreflang` stimmt in alle Richtungen, die Suche jeder Startseite führt in die eigene Sprache.
+
 ## Verbreitung und Kontakt nach aussen
 
 Der Lauf sendet nie eine Nachricht, füllt nie ein Kontaktformular aus, schreibt nirgends einen Kommentar oder Beitrag und legt keine Konten an. Anfragen an Behörden braucht es für die Daten nicht: Was nicht öffentlich und amtlich belegt ist, erscheint nicht auf der Seite.
@@ -268,3 +327,4 @@ Hier steht, was Joss ausdrücklich freigegeben hat.
 - 2026-11-17: Claude liest die Suchzahlen etwa einmal im Monat über den Browser von Joss aus der Search Console, ohne dort etwas zu ändern.
 - 2026-11-17: Ausbau auf alle 26 Kantone, Französisch und Italienisch in den Amtssprachen der Kantone, Themenseiten. Claude entscheidet über Reihenfolge und Strategie.
 - 2026-11-18: eine Kette von höchstens sechs Läufen am 18. November 2026, damit alle 26 Kantone samt Französisch und Italienisch fertig werden. Ihr Programm steht im Auftrag der Kette: Mehrsprachigkeit, Wallis, Jura, Obwalden, Graubünden italienisch.
+- 2026-11-18: Jede Seite auf Deutsch, Französisch und Italienisch, mit gekennzeichneten Übersetzungen, wo die Sprache am Ort nicht Amtssprache ist. Dazu die Darstellung überarbeiten. Dafür eine Kette von höchstens 12 Läufen am 18. November 2026, ein Lauf aufs Mal.
