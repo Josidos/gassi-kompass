@@ -1,0 +1,148 @@
+{
+  "id": "bs",
+  "kurz": "BS",
+  "uebersetzt_aus": "de",
+  "original": "6cf3a886b7a4",
+  "wald": {
+    "saison": true,
+    "von": "04-01",
+    "bis": "07-31",
+    "wo": "en forêt, en lisière et sur la prairie attenante",
+    "quellen": [
+      "bs_wjg",
+      "bs_vet"
+    ]
+  },
+  "leine": {
+    "punkte": [
+      "la nuit, de 22 h à 6 h",
+      "dans les restaurants, y compris dans les restaurants-jardins et sur les terrasses de boulevard",
+      "dans les transports publics",
+      "sur les rues et les places très fréquentées",
+      "sur les marchés",
+      "pour les chiennes pendant les chaleurs",
+      "partout où un panneau indique la laisse obligatoire",
+      "dans les zones de tranquillité et de protection de la faune"
+    ],
+    "quellen": [
+      "bs_huv",
+      "bs_vet",
+      "bs_wjg"
+    ]
+  },
+  "verbot": {
+    "einleitung": "La Hundeverordnung (ordonnance sur les chiens) du canton désigne ces lieux. Le Veterinäramt (office vétérinaire) désigne d'autres lieux et les signale par des panneaux.",
+    "punkte": [
+      "les magasins d'alimentation, sauf pour les chiens qui guident ou accompagnent une personne handicapée",
+      "les places de jeux pour enfants",
+      "les cimetières",
+      "les lieux de baignade officiels et les piscines publiques",
+      "partout où se trouve un panneau d'interdiction des chiens"
+    ],
+    "quellen": [
+      "bs_huv",
+      "bs_vet"
+    ]
+  },
+  "karten": [
+    {
+      "titel": "Responsabilité civile",
+      "marke": "Obligatoire",
+      "ton": "must",
+      "wert": "pour tous les chiens",
+      "text": "Toute personne qui détient un chien doit conclure une assurance responsabilité civile. Pour les chiens potentiellement dangereux, la somme de couverture doit être d'au moins CHF 3 millions. L'assurance doit alors aussi couvrir les personnes qui surveillent ou promènent le chien.",
+      "quellen": [
+        "bs_hug",
+        "bs_huv",
+        "bs_vet"
+      ]
+    },
+    {
+      "titel": "Cours",
+      "marke": "Obligatoire",
+      "ton": "must",
+      "wert": "pour les nouveaux détenteurs de chiens",
+      "text": "Depuis le 1er avril 2025, vous devez suivre un cours de base si vous détenez un chien pour la première fois. Il comprend au moins 8 leçons et n'a pas d'examen. Vous devez l'accomplir dans les 12 mois suivant la prise en charge du chien. Le chien doit avoir au moins 4 mois au début du cours. Les personnes qui ont déjà détenu des chiens ne sont pas soumises à l'obligation de suivre le cours. Les classes de jeux pour chiots ne comptent pas comme cours de base.",
+      "quellen": [
+        "bs_kurse",
+        "bs_hug",
+        "bs_huv"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "marke": "Obligatoire",
+      "ton": "must",
+      "wert": "dans les 10 jours",
+      "text": "Vous annoncez votre chien au Kantonales Veterinäramt (office vétérinaire cantonal) dans les 10 jours suivant la prise en charge ou votre arrivée, en ligne ou au guichet de la Schlachthofstrasse 55 à Bâle. Chaque chien a besoin d'une puce électronique et doit être enregistré dans la banque de données AMICUS par l'intermédiaire d'un cabinet vétérinaire. Vous annoncez également dans les 10 jours la vente, le départ ou la mort du chien. La marque d'enregistrement n'est plus obligatoire depuis le 1er avril 2025.",
+      "quellen": [
+        "bs_anmelden",
+        "bs_steuer",
+        "bs_huv"
+      ]
+    },
+    {
+      "titel": "Impôt sur les chiens",
+      "marke": "annuel",
+      "ton": "note",
+      "wert": "CHF 120 à 160",
+      "text": "L'impôt sur les chiens est par an de CHF 160 en ville de Bâle, de CHF 150 à Riehen et de CHF 120 à Bettingen. Il est dû pour les chiens dès 3 mois. Chaque chien supplémentaire dans le même ménage coûte le double. L'année fiscale va du 1er avril au 31 mars. Les bénéficiaires de prestations complémentaires ou de l'aide sociale obtiennent une réduction de 70 % pour le premier chien. Pour plus de deux chiens, il vous faut une autorisation du Veterinäramt (office vétérinaire), elle coûte CHF 40 par an.",
+      "quellen": [
+        "bs_anmelden",
+        "bs_steuer",
+        "bs_hug"
+      ]
+    },
+    {
+      "titel": "Races",
+      "marke": "Autorisation",
+      "ton": "must",
+      "wert": "8 races",
+      "text": "Pour un chien potentiellement dangereux, il vous faut une autorisation du Veterinäramt (office vétérinaire), et cela avant l'acquisition. Cela vaut aussi pour les croisements avec ces races, pour l'American Bully et le Pocket Bully et pour les chiens dont l'apparence laisse supposer qu'ils appartiennent à l'une de ces races. Vous devez avoir au moins 18 ans et avoir déjà détenu un chien. Aucun autre chien ne peut vivre dans le même ménage. Pour un Cane Corso sans papiers reconnus par la FCI et pour un American Bulldog, le Veterinäramt fait procéder à une expertise sur la base d'une photo avant l'acquisition.",
+      "mehr": {
+        "titel": "Afficher la liste complète",
+        "punkte": [
+          "American Staffordshire Terrier",
+          "Bullterrier (aussi Miniatur Bullterrier)",
+          "Dobermann",
+          "Dogo Argentino",
+          "Fila Brasileiro",
+          "Pitbull Terrier",
+          "Rottweiler",
+          "Staffordshire Bullterrier"
+        ]
+      },
+      "quellen": [
+        "bs_rassen",
+        "bs_hug",
+        "bs_huv"
+      ]
+    },
+    {
+      "titel": "En promenade",
+      "marke": "Règle",
+      "ton": "note",
+      "wert": "crottes et amende",
+      "text": "Vous ramassez les crottes de votre chien avec un sachet et les jetez dans une poubelle. Cela vaut sur le domaine public et sur les surfaces agricoles. Il est interdit de baigner les chiens dans les fontaines publiques. En cas d'infraction à la laisse obligatoire, à l'interdiction des chiens ou à l'obligation de ramasser les crottes, la police cantonale inflige une amende de CHF 100.",
+      "quellen": [
+        "bs_huv",
+        "bs_vet"
+      ]
+    }
+  ],
+  "vergleich": {
+    "wald": "du 1.4. au 31.7., en forêt, en lisière et sur la prairie attenante",
+    "haft": "obligatoire, au moins CHF 3 millions pour les chiens soumis à autorisation",
+    "kurs": "cours de base pour les nouveaux détenteurs de chiens",
+    "rassen": "autorisation obligatoire pour 8 races",
+    "steuer": "CHF 120 à 160, selon la commune",
+    "anm": "dans les 10 jours, Veterinäramt (office vétérinaire) et AMICUS"
+  },
+  "umzug": {
+    "text": "Après votre arrivée, vous annoncez votre chien au Veterinäramt (office vétérinaire) dans les 10 jours. Si vous arrivez avec un chien soumis à autorisation, vous devez demander une autorisation de détention dans les 10 jours.",
+    "quellen": [
+      "bs_steuer",
+      "bs_rassen"
+    ]
+  }
+}

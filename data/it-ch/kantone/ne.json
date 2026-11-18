@@ -1,0 +1,114 @@
+{
+  "id": "ne",
+  "kurz": "NE",
+  "uebersetzt_aus": "fr",
+  "original": "2b77694b679a",
+  "wald": {
+    "saison": true,
+    "von": "04-15",
+    "bis": "06-30",
+    "wo": "nel bosco",
+    "quellen": [
+      "ne_lfs",
+      "ne_laisse"
+    ]
+  },
+  "leine": {
+    "punkte": [
+      "nel bosco, dal 15 aprile al 30 giugno",
+      "tutto l'anno nelle zone di protezione della natura segnalate, secondo la segnaletica sul posto e le disposizioni proprie del sito",
+      "in ogni momento e ovunque, se non riesci a controllare il tuo cane con la voce o con il gesto",
+      "se il servizio veterinario lo ha ordinato per il tuo cane dopo un incidente"
+    ],
+    "quellen": [
+      "ne_lfs",
+      "ne_laisse",
+      "ne_lchiens"
+    ]
+  },
+  "verbot": {
+    "einleitung": "La legge cantonale sui cani (loi sur les chiens) non indica luoghi vietati ai cani. Le regole locali competono ai Comuni.",
+    "punkte": [
+      "è vietato lasciar vagare un cane",
+      "è vietato lasciare che un cane cerchi, insegua o cacci animali selvatici"
+    ],
+    "quellen": [
+      "ne_lchiens",
+      "ne_lfs"
+    ]
+  },
+  "karten": [
+    {
+      "titel": "Responsabilità civile",
+      "marke": "Non nella legge",
+      "ton": "none",
+      "wert": "nessun obbligo nella legge sui cani",
+      "text": "La legge cantonale sui cani non contiene alcuna disposizione su un'assicurazione di responsabilità civile.",
+      "quellen": [
+        "ne_lchiens"
+      ]
+    },
+    {
+      "titel": "Corso",
+      "marke": "Obbligo",
+      "ton": "must",
+      "wert": "per il primo cane",
+      "text": "I nuovi proprietari di cani devono frequentare un corso obbligatorio. Secondo lo SCAV riguarda ogni persona di almeno 18 anni domiciliata nel Cantone che ha acquisito un cane dal 1° gennaio 2021 e non può dimostrare di aver già detenuto un cane. Il corso comprende 2 ore di teoria e 8 lezioni pratiche di 45 minuti con il cane. Deve iniziare al più tardi 6 mesi dopo l'acquisizione e concludersi entro i 6 mesi successivi.",
+      "quellen": [
+        "ne_lchiens",
+        "ne_scav"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "marke": "Obbligo",
+      "ton": "note",
+      "wert": "Comune e AMICUS",
+      "text": "Come nuova proprietaria o nuovo proprietario ti annunci al tuo Comune di domicilio e notifichi il cambio di proprietario in AMICUS. In seguito vi segnali i cambiamenti di indirizzo e la morte del cane. Le spese di identificazione e di registrazione sono a tuo carico.",
+      "quellen": [
+        "ne_scav",
+        "ne_lchiens"
+      ]
+    },
+    {
+      "titel": "Imposta sui cani",
+      "marke": "annuale",
+      "ton": "note",
+      "wert": "al massimo CHF 120 per cane",
+      "text": "La tassa è riscossa dal tuo Comune. Non può superare CHF 120 all'anno e per cane, compresa la quota di CHF 30 dovuta al Cantone. Sono esentati tra gli altri i cani di età inferiore a tre mesi, i cani d'assistenza o d'allerta, i cani da catastrofe riconosciuti e i cani impiegati nella zooterapia. Non è dovuta alcuna tassa se il cane è acquisito nel secondo semestre. Tassa non pagata: multa amministrativa fino al doppio della tassa elusa.",
+      "quellen": [
+        "ne_lchiens",
+        "ne_relchiens"
+      ]
+    },
+    {
+      "titel": "Razze",
+      "marke": "Nessun elenco",
+      "ton": "none",
+      "wert": "misure caso per caso",
+      "text": "La legge cantonale sui cani non contiene un elenco delle razze. Dopo un incidente il servizio può ordinare misure per un cane preciso: guinzaglio, museruola, perizia comportamentale, sequestro e, nei casi gravi, il divieto di detenere cani.",
+      "quellen": [
+        "ne_lchiens"
+      ]
+    },
+    {
+      "titel": "A passeggio",
+      "marke": "Regola",
+      "ton": "note",
+      "wert": "controllo con la voce o con il gesto",
+      "text": "Devi poter controllare il tuo cane in ogni momento con la voce o con il gesto. Altrimenti va tenuto al guinzaglio. Il tuo cane non deve sporcare il suolo pubblico, i prati e i pascoli. Se succede, pulisci il posto. Un'infrazione alla legge sui cani è punita con la multa, un'infrazione alla legge sulla fauna selvatica (loi sur la faune sauvage) con una multa fino a CHF 40 000.",
+      "quellen": [
+        "ne_lchiens",
+        "ne_lfs"
+      ]
+    }
+  ],
+  "vergleich": {
+    "wald": "dal 15.4. al 30.6., nel bosco",
+    "haft": "nessun obbligo nella legge sui cani",
+    "kurs": "obbligo per il primo cane (2 ore di teoria, 8 lezioni pratiche)",
+    "rassen": "nessun elenco, misure caso per caso",
+    "steuer": "al massimo CHF 120, riscossa dal Comune",
+    "anm": "Comune di domicilio e AMICUS"
+  }
+}

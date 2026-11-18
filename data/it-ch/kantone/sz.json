@@ -1,0 +1,112 @@
+{
+  "id": "sz",
+  "kurz": "SZ",
+  "uebersetzt_aus": "de",
+  "original": "6fa9334e499a",
+  "wald": {
+    "saison": false,
+    "text": "La Hundegesetz (legge sui cani) del Cantone di Svitto non prevede un obbligo di guinzaglio nel bosco in date fisse. In compenso l'obbligo di guinzaglio vale tutto l'anno negli impianti pubblici, sulle vie pubbliche e nella circolazione stradale. Inoltre il tuo cane non può girare in pubblico senza sorveglianza in nessun luogo.",
+    "quellen": [
+      "sz_hug",
+      "sz_rrb_leine"
+    ]
+  },
+  "leine": {
+    "punkte": [
+      "tutto l'anno negli impianti pubblici",
+      "tutto l'anno sulle vie pubbliche",
+      "tutto l'anno nella circolazione stradale",
+      "in altri luoghi per i quali il tuo Gemeinderat (esecutivo comunale) ha emanato un obbligo limitato a una zona",
+      "Fanno eccezione i cani che conducono il bestiame e i cani da protezione delle greggi in servizio."
+    ],
+    "quellen": [
+      "sz_hug",
+      "sz_rrb_leine"
+    ]
+  },
+  "verbot": {
+    "einleitung": "La Hundegesetz (legge sui cani) non indica luoghi pubblici vietati ai cani. Il Gemeinderat (esecutivo comunale) può emanare divieti limitati a una zona.",
+    "punkte": [
+      "colture agricole, senza il consenso dell'avente diritto",
+      "proprietà altrui non accessibile al pubblico, senza il consenso dell'avente diritto",
+      "luoghi per i quali il tuo Gemeinderat ha emanato un divieto"
+    ],
+    "quellen": [
+      "sz_hug"
+    ]
+  },
+  "karten": [
+    {
+      "titel": "Responsabilità civile",
+      "marke": "Obbligo",
+      "ton": "must",
+      "wert": "per tutti i cani",
+      "text": "Chi detiene un cane deve stipulare un'assicurazione di responsabilità civile per detentori di animali. La legge non indica una somma minima.",
+      "quellen": [
+        "sz_hug"
+      ]
+    },
+    {
+      "titel": "Corso",
+      "marke": "Nessun obbligo",
+      "ton": "none",
+      "wert": "oggi nessun corso prescritto",
+      "text": "Nel Cantone di Svitto oggi non c'è alcun obbligo di frequentare un corso di educazione cinofila. Lo constata il Regierungsrat (governo cantonale) nel suo rapporto del 23 giugno 2026. La legge è in revisione: il 23 giugno 2026 il Regierungsrat ha sottoposto al Kantonsrat (parlamento cantonale) una revisione parziale. Prevede un corso di educazione cinofila obbligatorio entro 18 mesi. Su questa pagina non è ancora documentato se e da quando varrà.",
+      "quellen": [
+        "sz_rrb_revision",
+        "sz_mm_kommission"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "marke": "Obbligo",
+      "ton": "note",
+      "wert": "microchip e AMICUS",
+      "text": "Il tuo cane viene contrassegnato con un microchip e registrato nella banca dati AMICUS. Paghi l'imposta sui cani all'ufficio di riscossione del tuo Comune di domicilio. La Hundegesetz richiede ancora una medaglietta ufficiale per cani. Secondo il rapporto del Regierungsrat del 23 giugno 2026, non viene più consegnata da quando i cani sono contrassegnati con il microchip.",
+      "quellen": [
+        "sz_rrb_revision",
+        "sz_hug"
+      ]
+    },
+    {
+      "titel": "Imposta sui cani",
+      "marke": "annuale",
+      "ton": "note",
+      "wert": "CHF 50 a 100",
+      "text": "L'imposta sui cani è di CHF 50 all'anno, per un cane da utilità di CHF 20. Gli aventi diritto di voto del tuo Comune possono aumentarla fino a un massimo di CHF 100, per i cani da utilità fino a un massimo di CHF 40. Ogni altro cane nella stessa economia domestica costa CHF 100 in più dell'imposta di base. Sono soggetti all'imposta i cani a partire da quattro mesi. L'imposta va pagata al Comune di domicilio in gennaio oppure subito, quando inizia l'obbligo. Se l'obbligo inizia durante l'anno, paghi solo per i mesi rimanenti. Quello che nello stesso anno hai già pagato in un altro Comune svittese viene computato. Sono esentati i cani addestrati e pronti all'impiego dell'esercito, della polizia, da salvataggio, da catastrofe, da valanga e da traccia nonché i cani guida per ciechi e i cani d'assistenza.",
+      "quellen": [
+        "sz_hug"
+      ]
+    },
+    {
+      "titel": "Razze",
+      "marke": "Nessun elenco",
+      "ton": "none",
+      "wert": "nessun elenco delle razze",
+      "text": "Il Cantone di Svitto non conosce restrizioni per determinate razze di cani. Lo constata il Regierungsrat nel suo rapporto del 23 giugno 2026. Anche la revisione parziale in corso non prevede alcun divieto di razze. A chi viola ripetutamente la Hundegesetz il Gemeinderat (esecutivo comunale) può vietare la detenzione di cani, a tempo determinato o indeterminato.",
+      "quellen": [
+        "sz_rrb_revision",
+        "sz_mm_kommission",
+        "sz_hug"
+      ]
+    },
+    {
+      "titel": "A passeggio",
+      "marke": "Regola",
+      "ton": "note",
+      "wert": "escrementi, sorveglianza, di notte al chiuso",
+      "text": "Raccogli gli escrementi del tuo cane e li elimini senza causare danni: nei villaggi, su strade, piazze e vie pubbliche, nei parchi e sulle vie che attraversano zone agricole sfruttate intensivamente. Il tuo cane non può girare in pubblico senza sorveglianza e non deve mettere in pericolo né molestare persone o animali. Nelle zone residenziali di notte deve trovarsi in un edificio o in un'area chiusa. Chi viola la Hundegesetz o le disposizioni del Gemeinderat è punito con la multa. La legge non indica un importo.",
+      "quellen": [
+        "sz_hug"
+      ]
+    }
+  ],
+  "vergleich": {
+    "wald": "nessun periodo fisso, guinzaglio tutto l'anno sulle vie pubbliche",
+    "haft": "obbligo, nessuna somma minima nella legge",
+    "kurs": "nessun obbligo, corso previsto nella revisione parziale",
+    "rassen": "nessun elenco delle razze",
+    "steuer": "CHF 50 a 100, secondo il Comune",
+    "anm": "microchip e AMICUS, imposta presso il Comune"
+  }
+}

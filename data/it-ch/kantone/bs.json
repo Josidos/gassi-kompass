@@ -1,0 +1,148 @@
+{
+  "id": "bs",
+  "kurz": "BS",
+  "uebersetzt_aus": "de",
+  "original": "6cf3a886b7a4",
+  "wald": {
+    "saison": true,
+    "von": "04-01",
+    "bis": "07-31",
+    "wo": "nel bosco, al margine del bosco e sul prato adiacente",
+    "quellen": [
+      "bs_wjg",
+      "bs_vet"
+    ]
+  },
+  "leine": {
+    "punkte": [
+      "di notte dalle 22 alle 6",
+      "nei ristoranti, anche nei ristoranti con giardino e nei locali con tavolini sul marciapiede",
+      "sui mezzi di trasporto pubblici",
+      "nelle strade e nelle piazze molto frequentate",
+      "ai mercati",
+      "per le femmine durante il calore",
+      "ovunque un cartello indichi l'obbligo di guinzaglio",
+      "nelle zone di tranquillità e di protezione della selvaggina"
+    ],
+    "quellen": [
+      "bs_huv",
+      "bs_vet",
+      "bs_wjg"
+    ]
+  },
+  "verbot": {
+    "einleitung": "La Hundeverordnung (ordinanza sui cani) del Cantone indica questi luoghi. Altri luoghi sono stabiliti dal Veterinäramt (ufficio veterinario), che li segnala con cartelli.",
+    "punkte": [
+      "negozi di alimentari, tranne per i cani che guidano o accompagnano una persona con disabilità",
+      "parchi giochi per bambini",
+      "cimiteri",
+      "luoghi di balneazione ufficiali e piscine pubbliche",
+      "ovunque ci sia un cartello di divieto per i cani"
+    ],
+    "quellen": [
+      "bs_huv",
+      "bs_vet"
+    ]
+  },
+  "karten": [
+    {
+      "titel": "Responsabilità civile",
+      "marke": "Obbligo",
+      "ton": "must",
+      "wert": "per tutti i cani",
+      "text": "Chi detiene un cane deve stipulare un'assicurazione di responsabilità civile. Per i cani potenzialmente pericolosi la somma di copertura deve essere di almeno CHF 3 milioni. In questo caso l'assicurazione deve coprire anche le persone che sorvegliano il cane o lo portano a passeggio.",
+      "quellen": [
+        "bs_hug",
+        "bs_huv",
+        "bs_vet"
+      ]
+    },
+    {
+      "titel": "Corso",
+      "marke": "Obbligo",
+      "ton": "must",
+      "wert": "per chi detiene un cane per la prima volta",
+      "text": "Dal 1° aprile 2025 devi frequentare un corso di base se detieni un cane per la prima volta. Comprende almeno 8 lezioni e non ha esame. Devi concluderlo entro 12 mesi dalla presa a carico del cane. All'inizio del corso il cane deve avere almeno 4 mesi. Chi ha già detenuto cani non è soggetto all'obbligo del corso. Le ore di gioco per cuccioli non valgono come corso di base.",
+      "quellen": [
+        "bs_kurse",
+        "bs_hug",
+        "bs_huv"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "marke": "Obbligo",
+      "ton": "must",
+      "wert": "entro 10 giorni",
+      "text": "Annunci il tuo cane al Kantonales Veterinäramt (ufficio veterinario cantonale) entro 10 giorni dalla presa a carico o dal trasferimento nel Cantone, online o allo sportello in Schlachthofstrasse 55 a Basilea. Ogni cane ha bisogno di un microchip e deve essere registrato nella banca dati AMICUS tramite uno studio veterinario. Anche la vendita, la partenza dal Cantone o la morte del cane vanno annunciate entro 10 giorni. Dal 1° aprile 2025 la medaglietta di registrazione non è più obbligatoria.",
+      "quellen": [
+        "bs_anmelden",
+        "bs_steuer",
+        "bs_huv"
+      ]
+    },
+    {
+      "titel": "Imposta sui cani",
+      "marke": "annuale",
+      "ton": "note",
+      "wert": "CHF 120 a 160",
+      "text": "L'imposta sui cani è all'anno di CHF 160 nella città di Basilea, CHF 150 a Riehen e CHF 120 a Bettingen. È dovuta per i cani a partire da 3 mesi. Ogni altro cane nella stessa economia domestica costa il doppio. L'anno fiscale va dal 1° aprile al 31 marzo. Chi riceve prestazioni complementari o l'aiuto sociale ottiene per il primo cane una riduzione del 70 %. Per più di due cani ti serve un'autorizzazione del Veterinäramt (ufficio veterinario), che costa CHF 40 all'anno.",
+      "quellen": [
+        "bs_anmelden",
+        "bs_steuer",
+        "bs_hug"
+      ]
+    },
+    {
+      "titel": "Razze",
+      "marke": "Autorizzazione",
+      "ton": "must",
+      "wert": "8 razze",
+      "text": "Per un cane potenzialmente pericoloso ti serve un'autorizzazione del Veterinäramt (ufficio veterinario), e questo prima dell'acquisto. Vale anche per gli incroci con queste razze, per American Bully e Pocket Bully e per i cani il cui aspetto fa pensare a una di queste razze. Devi avere almeno 18 anni e avere già detenuto un cane. Nella stessa economia domestica non può vivere nessun altro cane. Per un Cane Corso senza documenti riconosciuti dalla FCI e per un American Bulldog, il Veterinäramt fa eseguire prima dell'acquisto una perizia sulla base di una foto.",
+      "mehr": {
+        "titel": "Mostra l'elenco completo",
+        "punkte": [
+          "American Staffordshire Terrier",
+          "Bullterrier (anche Miniatur Bullterrier)",
+          "Dobermann",
+          "Dogo Argentino",
+          "Fila Brasileiro",
+          "Pitbull Terrier",
+          "Rottweiler",
+          "Staffordshire Bullterrier"
+        ]
+      },
+      "quellen": [
+        "bs_rassen",
+        "bs_hug",
+        "bs_huv"
+      ]
+    },
+    {
+      "titel": "A passeggio",
+      "marke": "Regola",
+      "ton": "note",
+      "wert": "escrementi e multa",
+      "text": "Raccogli gli escrementi del tuo cane con un sacchetto e li getti in un contenitore per i rifiuti. Vale sul suolo pubblico e sulle superfici agricole. È vietato fare il bagno ai cani nelle fontane pubbliche. In caso di infrazione all'obbligo di guinzaglio, al divieto per i cani o all'obbligo di raccogliere gli escrementi, la polizia cantonale infligge una multa di CHF 100.",
+      "quellen": [
+        "bs_huv",
+        "bs_vet"
+      ]
+    }
+  ],
+  "vergleich": {
+    "wald": "dal 1.4. al 31.7., nel bosco, al margine del bosco e sul prato adiacente",
+    "haft": "obbligo, almeno CHF 3 milioni per i cani soggetti ad autorizzazione",
+    "kurs": "corso di base per chi detiene un cane per la prima volta",
+    "rassen": "obbligo di autorizzazione per 8 razze",
+    "steuer": "CHF 120 a 160, secondo il Comune",
+    "anm": "entro 10 giorni, Veterinäramt (ufficio veterinario) e AMICUS"
+  },
+  "umzug": {
+    "text": "Dopo il trasferimento annunci il tuo cane al Veterinäramt (ufficio veterinario) entro 10 giorni. Se ti trasferisci con un cane soggetto ad autorizzazione, devi chiedere un'autorizzazione di detenzione entro 10 giorni.",
+    "quellen": [
+      "bs_steuer",
+      "bs_rassen"
+    ]
+  }
+}

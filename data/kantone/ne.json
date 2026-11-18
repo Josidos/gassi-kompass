@@ -1,0 +1,114 @@
+{
+  "id": "ne",
+  "kurz": "NE",
+  "uebersetzt_aus": "fr",
+  "original": "2b77694b679a",
+  "wald": {
+    "saison": true,
+    "von": "04-15",
+    "bis": "06-30",
+    "wo": "im Wald",
+    "quellen": [
+      "ne_lfs",
+      "ne_laisse"
+    ]
+  },
+  "leine": {
+    "punkte": [
+      "im Wald, 15. April bis 30. Juni",
+      "das ganze Jahr in den markierten Naturschutzzonen, nach den Schildern vor Ort und den Bestimmungen des jeweiligen Gebiets",
+      "jederzeit und überall, wenn du deinen Hund nicht mit Stimme oder Handzeichen unter Kontrolle halten kannst",
+      "wenn der Veterinärdienst es nach einem Vorfall für deinen Hund angeordnet hat"
+    ],
+    "quellen": [
+      "ne_lfs",
+      "ne_laisse",
+      "ne_lchiens"
+    ]
+  },
+  "verbot": {
+    "einleitung": "Das kantonale Hundegesetz (loi sur les chiens) bezeichnet keine Orte mit Hundeverbot. Die lokalen Regeln sind Sache der Gemeinden.",
+    "punkte": [
+      "Es ist verboten, einen Hund streunen zu lassen.",
+      "Es ist verboten, einen Hund Wildtiere aufstöbern, verfolgen oder jagen zu lassen."
+    ],
+    "quellen": [
+      "ne_lchiens",
+      "ne_lfs"
+    ]
+  },
+  "karten": [
+    {
+      "titel": "Haftpflicht",
+      "marke": "Nicht im Gesetz",
+      "ton": "none",
+      "wert": "keine Pflicht im Hundegesetz",
+      "text": "Das kantonale Hundegesetz enthält keine Bestimmung über eine Haftpflichtversicherung.",
+      "quellen": [
+        "ne_lchiens"
+      ]
+    },
+    {
+      "titel": "Kurs",
+      "marke": "Pflicht",
+      "ton": "must",
+      "wert": "für den ersten Hund",
+      "text": "Neue Hundeeigentümerinnen und Hundeeigentümer müssen einen obligatorischen Kurs besuchen. Laut dem SCAV betrifft er alle Personen ab 18 Jahren mit Wohnsitz im Kanton, die seit dem 1. Januar 2021 einen Hund erworben haben und nicht nachweisen können, dass sie schon einmal einen Hund gehalten haben. Der Kurs umfasst 2 Stunden Theorie und 8 Praxislektionen von 45 Minuten mit dem Hund. Er muss spätestens 6 Monate nach dem Erwerb beginnen und in den folgenden 6 Monaten abgeschlossen sein.",
+      "quellen": [
+        "ne_lchiens",
+        "ne_scav"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "marke": "Pflicht",
+      "ton": "note",
+      "wert": "Gemeinde und AMICUS",
+      "text": "Als neue Eigentümerin oder neuer Eigentümer meldest du dich bei deiner Wohngemeinde und meldest den Eigentümerwechsel in AMICUS. Dort meldest du später auch Adressänderungen und den Tod des Hundes. Die Kosten für Kennzeichnung und Registrierung trägst du.",
+      "quellen": [
+        "ne_scav",
+        "ne_lchiens"
+      ]
+    },
+    {
+      "titel": "Hundesteuer",
+      "marke": "jährlich",
+      "ton": "note",
+      "wert": "höchstens CHF 120 pro Hund",
+      "text": "Die Hundetaxe erhebt deine Gemeinde. Sie darf CHF 120 pro Jahr und Hund nicht übersteigen, den Anteil von CHF 30 für den Kanton inbegriffen. Befreit sind unter anderem Hunde unter drei Monaten, Assistenz- und Warnhunde, anerkannte Katastrophenhunde und Hunde, die in der tiergestützten Therapie eingesetzt werden. Keine Taxe ist geschuldet, wenn du den Hund im zweiten Halbjahr erwirbst. Unbezahlte Taxe: Verwaltungsbusse bis zum Doppelten der hinterzogenen Taxe.",
+      "quellen": [
+        "ne_lchiens",
+        "ne_relchiens"
+      ]
+    },
+    {
+      "titel": "Rassen",
+      "marke": "keine Liste",
+      "ton": "none",
+      "wert": "Massnahmen im Einzelfall",
+      "text": "Das kantonale Hundegesetz enthält keine Rasseliste. Nach einem Vorfall kann die Dienststelle für einen bestimmten Hund Massnahmen anordnen: Leine, Maulkorb, Verhaltensgutachten, Beschlagnahme und in schweren Fällen ein Verbot, Hunde zu halten.",
+      "quellen": [
+        "ne_lchiens"
+      ]
+    },
+    {
+      "titel": "Unterwegs",
+      "marke": "Regel",
+      "ton": "note",
+      "wert": "Kontrolle mit Stimme oder Handzeichen",
+      "text": "Du musst deinen Hund jederzeit mit Stimme oder Handzeichen unter Kontrolle halten können. Sonst muss er an der Leine geführt werden. Dein Hund darf öffentlichen Grund, Wiesen und Weiden nicht verschmutzen. Passiert es doch, reinigst du die Stelle. Ein Verstoss gegen das Hundegesetz wird mit Busse bestraft, ein Verstoss gegen das Gesetz über die wildlebenden Tiere (loi sur la faune sauvage) mit Busse bis CHF 40 000.",
+      "quellen": [
+        "ne_lchiens",
+        "ne_lfs"
+      ]
+    }
+  ],
+  "vergleich": {
+    "wald": "15.4. bis 30.6., im Wald",
+    "haft": "keine Pflicht im Hundegesetz",
+    "kurs": "Pflicht für den ersten Hund (2 Stunden Theorie, 8 Praxislektionen)",
+    "rassen": "keine Liste, Massnahmen im Einzelfall",
+    "steuer": "höchstens CHF 120, von der Gemeinde erhoben",
+    "anm": "Wohngemeinde und AMICUS"
+  }
+}

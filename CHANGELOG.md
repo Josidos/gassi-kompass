@@ -14,6 +14,22 @@ Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen
 - Angesehen bei 390 und 1280 Pixeln: Startseite, Kanton, Thema, Bund, Fehlerseite. Test: alle Seiten in beiden Breiten ohne seitliches Überlaufen.
 - Ins Backlog übernommen (Abschnitt 4): was Glied 1 der Kette in den Originalfassungen aufgefallen ist.
 
+## 2026-11-18, Kette Übersetzungen, Glied 2: Übersetzungen der Kantone, zweite Portion
+
+- Neu, 14 Übersetzungen für 8 Kantone, in der Reihenfolge von `--fehlend`:
+  - Deutsch (1): Neuenburg (`data/kantone/ne.json`).
+  - Französisch (6): Basel-Landschaft, Solothurn, Thurgau, Graubünden, Basel-Stadt, Schwyz (`data/fr-ch/kantone/bl.json`, `so.json`, `tg.json`, `gr.json`, `bs.json`, `sz.json`).
+  - Italienisch (7): Freiburg, Basel-Landschaft, Solothurn, Thurgau, Basel-Stadt, Neuenburg, Schwyz (`data/it-ch/kantone/fr.json`, `bl.json`, `so.json`, `tg.json`, `bs.json`, `ne.json`, `sz.json`).
+- Entscheide zur Wortwahl: «potenziell gefährliche Hunde» heisst «chiens potentiellement dangereux» und «cani potenzialmente pericolosi», «bewilligungspflichtig» heisst «soumis à autorisation» und «soggetto ad autorizzazione», «Wesensprüfung» heisst «test de caractère» und «esame caratteriale», «Welpenspielkurse» heisst «classes de jeux pour chiots» und «corsi di gioco per cuccioli», «Nutzhund» heisst «chien d'utilité» und «cane da utilità». Ämter bleiben deutsch mit Übersetzung in Klammern (Veterinäramt, Veterinärdienst, Oberamt, Amt für Landwirtschaft, Amt für Lebensmittelsicherheit und Tiergesundheit, Fachstelle Hundewesen, Regierungsrat, Kantonsrat, Gemeinderat). «Staatsrat» des zweisprachigen Kantons Freiburg heisst italienisch «Consiglio di Stato». Auf der deutschen Neuenburger Seite steht «Kanton» für «l'État» und «Dienststelle» für «le service», «SCAV» bleibt. Tausender bleiben geschrieben wie im Original («CHF 5'000», «CHF 20 000»).
+- Geprüft: `build.py --check` ohne Meldung, Bau und Test fehlerfrei. Als Bild angesehen und ganz gelesen: `/ne/`, `/fr-ch/so/`, `/it-ch/bs/`.
+- Aufgefallen (nichts davon geändert):
+  - `data/fr-ch/kantone/ne.json`, Feld `vergleich.wald`: «15.4 au 30.6» ohne Punkt nach dem Monat, wie schon bei VD und GE gemeldet. Die Übersetzungen schreiben «15.4. bis 30.6.» und «dal 15.4. al 30.6.».
+  - `data/fr-ch/kantone/ne.json`, Karte Annonce: «vous annoncez votre arrivée à votre commune de domicile» ist unklar (wessen Ankunft?). Übersetzt als «meldest du dich bei deiner Wohngemeinde». Beim Nachprüfen mit der Quelle vergleichen.
+  - `data/kantone/bl.json`, Karte Hundesteuer: «landwirtschaftlicher Nebenhof» ist ein Begriff aus dem Gesetz ohne Erklärung. In den Übersetzungen steht er deutsch in Klammern hinter «ferme annexe» und «fattoria annessa».
+  - `data/kantone/sz.json`, Karte Anmeldung: Marke «Pflicht» mit `ton: note`, bei BL, SO und TG steht dieselbe Marke mit `ton: must`.
+  - `data/kantone/tg.json` und `data/kantone/gr.json`: Tausender verschieden geschrieben («CHF 5'000» und «CHF 20 000»).
+- Offen: 106 Übersetzungen (18 Kantonsfassungen, 88 Gemeindefassungen). Nächster Kanton laut Liste: Zug französisch.
+
 ## 2026-11-18, Kette Übersetzungen, Glied 1: Übersetzungen der Kantone, erste Portion
 
 - Neu, 14 Übersetzungen für 8 Kantone, in der Reihenfolge von `--fehlend`:
