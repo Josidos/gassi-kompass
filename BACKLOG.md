@@ -17,7 +17,7 @@ Bleibt ein Kanton nach einem Lauf unvollständig (Entwurf unter `data/entwurf/`)
 
 ## 1. Deutschsprachige Kantone
 
-Ungefähr nach Bevölkerung. Schon erfasst: Zürich, Bern, Luzern, Aargau, St. Gallen, Basel-Stadt, Basel-Landschaft, Thurgau, Solothurn, Schwyz, Appenzell Innerrhoden, Graubünden, Zug, Schaffhausen, Appenzell Ausserrhoden, Nidwalden, Glarus, Uri. Aus Abschnitt 2 schon deutsch erfasst: Freiburg.
+Ungefähr nach Bevölkerung. Schon erfasst: Zürich, Bern, Luzern, Aargau, St. Gallen, Basel-Stadt, Basel-Landschaft, Thurgau, Solothurn, Schwyz, Appenzell Innerrhoden, Graubünden, Zug, Schaffhausen, Appenzell Ausserrhoden, Nidwalden, Glarus, Uri, Obwalden. Aus Abschnitt 2 schon deutsch erfasst: Freiburg.
 
 - [x] Aargau (`ag`), 2026-11-17
 - [x] St. Gallen (`sg`), 2026-11-17, mit Stadt St. Gallen
@@ -32,7 +32,7 @@ Ungefähr nach Bevölkerung. Schon erfasst: Zürich, Bern, Luzern, Aargau, St. G
 - [x] Appenzell Ausserrhoden (`ar`), 2026-11-18, ohne Gemeinde (Herisau zurückgestellt)
 - [x] Nidwalden (`nw`), 2026-11-18, ohne Gemeinde (Stans zurückgestellt)
 - [x] Glarus (`gl`), 2026-11-18, mit Gemeinde Glarus
-- [ ] Obwalden (`ow`): zurückgestellt am 2026-11-18. Entwurf unter `data/entwurf/ow.json`. Es fehlen Haftpflicht, `verbot` und `vergleich.haft`. Nötig: GDB 818.3 aus einer amtlichen Quelle (gdb.ow.ch oder LexFind), danach die Karten Kurs und Rassen gegenlesen. Hinweis vom 18. November: Die Obwaldner Gesetzessammlung ist als PDF abrufbar unter ow.lexwork.naz.ch/de/dta/<Nummer>.pdf (zum Beispiel 818.1.pdf für das Veterinärgesetz). Der Regierungsrat hat am 19. März 2024 einen Nachtrag zum Veterinärgesetz zu Massnahmen bei Hunden vorgelegt (ow.ch/_doc/381397): prüfen, ob er in Kraft ist. lexfind.ch/tolv/63743/de ist das Nidwaldner Hundegesetz, nicht das Obwaldner.
+- [x] Obwalden (`ow`), 2026-11-18, mit Gemeinde Sarnen. Haftpflicht steht weder im Hundegesetz (GDB 818.3, Stand 2007) noch im Veterinärgesetz. Der Nachtrag zum Veterinärgesetz (Art. 26, Massnahmen bei Hunden) ist seit 1. Dezember 2024 in Kraft.
 - [x] Uri (`ur`), 2026-11-18, mit Gemeinde Silenen (Altdorf zurückgestellt)
 - [x] Appenzell Innerrhoden (`ai`), 2026-11-17, ohne Gemeinde (Bezirk Appenzell zurückgestellt)
 
@@ -168,7 +168,7 @@ Ungefähr nach Grösse. Neue Kantone tragen hier ihre grössten Gemeinden ein.
 - [ ] Val-de-Ruz (NE), französisch
 - [ ] Val-de-Travers (NE), französisch
 - [ ] Milvignes (NE), französisch
-- [ ] Sarnen (OW): zurückgestellt am 2026-11-18, bis der Kanton steht. Drei lokale Angaben sind belegt (Protokoll des Parallel-Laufs `ow` in `CHANGELOG.md`). Die Hundeverordnung der Gemeinde (Leinenpflicht im Wald, Betretverbote, Bussen) fehlt noch.
+- [x] Sarnen (OW), 2026-11-18
 - [ ] Kerns (OW). Hinweis für alle Obwaldner Gemeinden: Die Leinenpflicht im Wald steht in den Hundeverordnungen der Gemeinden, Alpnach hat laut Kanton keine.
 - [ ] Alpnach (OW)
 - [ ] Sachseln (OW)
@@ -273,7 +273,7 @@ Ungefähr nach Grösse. Neue Kantone tragen hier ihre grössten Gemeinden ein.
 - [ ] Wetzikon: Art. 22 und 23 der Polizeiverordnung am Volltext gegenprüfen (auch die Aussage «keine eigene Leinenpflicht»), Ordnungsbussen und Hundewiese nachtragen.
 - [ ] Wädenswil: Kantonsbeitrag klären, Polizeiverordnung (Leine, Verbote, Kot, Bussen) nachtragen.
 - [ ] Bülach: Gebührenreglement (verspätete Meldung, Gebühr ab 1. April) und Polizeiverordnung nachtragen, Kantonsbeitrag klären.
-- [ ] Kanton Obwalden: Zeitraum und Abstand der Leinenpflicht im Wald je Gemeinde. Nummern und Namen der Wildruhezonen 1 bis 7. Aktuelle Liste der Naturschutzzonen mit Leinenpflicht.
+- [ ] Kanton Obwalden: Zeitraum der Leinenpflicht im Wald je Gemeinde (Sarnen ist erfasst: Mitte Dezember bis Ende Juni, ohne Abstand in Metern). Nummern und Namen der Wildruhezonen 1 bis 7. Aktuelle Liste der Naturschutzzonen mit Leinenpflicht. Höhe der Bussen in Sarnen (die Verordnung nennt keinen Betrag).
 - [ ] Kanton Bern, französische Fassung: Loi sur les chiens (RSB 916.31) französisch im Wortlaut lesen und `data/fr-ch/kantone/be.json` daran gegenprüfen, vor allem Befreiungen von der Taxe, Zutrittsverbote der Gemeinden und Bussen. Geltende Fassung der OCAO für die Bussenbeträge. Französische amtliche Quelle zur Leinenpflicht im Wald.
 - [ ] Kanton Genf: LChiens und RChiens im Volltext gegenprüfen, besonders RChiens Art. 13 Bst. l (Ufer, Oktober bis März) und Art. 14 Bst. d und e sowie die Änderungen vom 17. November 2026. Gemeindezuschläge zur Hundesteuer (ge.ch/node/110), auch für die Stadt Genf. Bussenbeträge. PDF «Liste des races de chiens considérées comme potentiellement dangereuses» mit RChiens Art. 17 abgleichen.
 - [ ] Kanton Tessin: geltende Fassung der LCani auf der Gesetzessammlung des Kantons (www3.ti.ch) im Wortlaut gegenprüfen, besonders Art. 4, 4a, 7 und 11a. Datum der Kurspflicht klären (1. Juni oder 1. September 2026). Tessiner Jagd- und Waldrecht auf Leinenpflicht prüfen. Lugano: italienische Seite der Hundezonen suchen und Barbengo bestätigen.

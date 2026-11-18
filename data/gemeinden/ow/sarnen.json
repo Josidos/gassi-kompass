@@ -1,0 +1,55 @@
+{
+  "id": "sarnen",
+  "kanton": "ow",
+  "bfs": 1407,
+  "name": "Gemeinde Sarnen",
+  "ort": "Sarnen",
+  "in_ort": "in der Gemeinde Sarnen",
+  "geprueft": "2026-11-18",
+  "hinweis_heute": "In Sarnen gilt in und entlang von Wäldern von Mitte Dezember bis Ende Juni Leinenpflicht (Stand der Verordnung: 2009).",
+  "einleitung": "Die Hundeverordnung der Einwohnergemeinde Sarnen regelt Leine, Betretverbote, Hundekot und Hundesteuer. Sie stammt von 2007, Stand 2009.",
+  "karten": [
+    {
+      "titel": "Hundetaxe",
+      "wert": "ab CHF 120 pro Hund und Jahr",
+      "text": "Die Hundesteuer beträgt laut Gemeinde ab CHF 120 pro Hund. Die Rechnung kommt im Frühling. Schaffst du den Hund nach dem 30. Juni an oder wird er erst dann sechs Monate alt, zahlst du die Hälfte. Für Hunde, die du nach dem 1. November anschaffst, zahlst du im selben Jahr nichts. Befreit sind Schweiss-, Dienst-, Militär- und Blindenhunde. Auf Landwirtschaftsbetrieben mit Grossviehhaltung ist der erste Hund steuerfrei. Bezahlte Steuern werden nicht zurückerstattet.",
+      "quellen": [
+        "ow_sarnen_steuer",
+        "ow_sarnen_hv"
+      ]
+    },
+    {
+      "titel": "Leine",
+      "wert": "im Wald von Mitte Dezember bis Ende Juni",
+      "text": "An die Leine muss dein Hund in öffentlich zugänglichen Gebäuden und Lokalen, in öffentlichen Parkanlagen, auf Strassen, Trottoirs sowie Fuss- und Wanderwegen in dicht bewohnten Gebieten und überall, wo es signalisiert ist. In und entlang von Wäldern gilt die Leinenpflicht während der Wintermonate und der Setzzeit, von Mitte Dezember bis Ende Juni. Läufige, bissige und kranke Hunde führst du immer an der Leine, bissige zusätzlich mit Maulkorb. Stand der Verordnung: 2009.",
+      "quellen": [
+        "ow_sarnen_hv"
+      ]
+    },
+    {
+      "titel": "Kein Zutritt",
+      "wert": "Friedhöfe, Badeanstalten, Spielplätze und weitere",
+      "text": "Du darfst deinen Hund nicht mitführen oder laufen lassen auf Friedhöfen, in Badeanstalten und Spitalanlagen, auf öffentlichen Kinderspielplätzen, auf Pausenplätzen von Schulhausanlagen und auf öffentlichen Spiel- und Sportfeldern. Für hundesportliche Veranstaltungen kann die Gemeindekanzlei Ausnahmen bewilligen. Stand der Verordnung: 2009.",
+      "quellen": [
+        "ow_sarnen_hv"
+      ]
+    },
+    {
+      "titel": "Hundekot",
+      "wert": "aufnehmen und beseitigen",
+      "text": "Führst du deinen Hund ausserhalb deines Grundstücks mit, nimmst du den Kot auf und beseitigst ihn. Ausgenommen sind Halterinnen und Halter von Blindenhunden und von Jagdhunden auf der Jagd. Stand der Verordnung: 2009.",
+      "quellen": [
+        "ow_sarnen_hv"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "wert": "innert 30 Tagen bei den Bevölkerungsdiensten",
+      "text": "Einen neuen Hund und Änderungen wie Adresswechsel, Besitzerwechsel oder Tod meldest du innert 30 Tagen der Gemeinde: telefonisch, am Schalter oder über das Online-Formular. Änderungen trägst du zusätzlich in der Datenbank AMICUS ein. Hältst du zum ersten Mal einen Hund, meldest du dich zuerst bei den Einwohnerdiensten, die dich in AMICUS erfassen. Den Hund registriert danach die Tierarztpraxis.",
+      "quellen": [
+        "ow_sarnen_steuer",
+        "ow_sarnen_registrierung"
+      ]
+    }
+  ]
+}

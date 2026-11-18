@@ -2,6 +2,19 @@
 
 Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen.
 
+## 2026-11-18, Kette, Glied 4: Kanton Obwalden und Gemeinde Sarnen
+
+- Start: `build.py --check` fehlerfrei, nichts einzusammeln. Das Werkzeug `add_repo` stand nicht zur Verfügung, das Repository war geklont und auf dem Stand von `main`. Angemeldet in `auftraege.md` um 11:10 Uhr, am Schluss wieder gelöscht. Kein Nachprüfen (Kette: nur ein Schritt).
+- Neu: Kanton Obwalden (`/ow/`), aus dem Entwurf fertiggestellt. Alle fünf Quellen des Entwurfs in diesem Lauf neu abgerufen und jede Angabe verglichen, keine Abweichung. Neue Quelle `ow_hug`: Gesetz über das Halten von Hunden und die Hundesteuer, GDB 818.3, Stand 1.8.2007 (ow.lexwork.naz.ch/de/dta/818.3.pdf). Daraus: Karte Haftpflicht, `verbot`, Ergänzungen bei Hundesteuer und Unterwegs.
+- Neu: Gemeinde Sarnen (`/ow/sarnen/`) mit fünf lokalen Angaben: Hundetaxe, Leine, Kein Zutritt, Hundekot, Anmeldung. Drei neue Quellen `ow_sarnen_…`: Hundeverordnung vom 20.8.2007 (Stand 2.3.2009), Seiten «Hundesteuer» und «Hunderegistrierung» der Gemeinde.
+- Entscheid: Karte Haftpflicht mit `ton: note` und «im kantonalen Recht nicht genannt», wie bei Uri und Nidwalden. Weder Hundegesetz noch Veterinärgesetz noch die Sarner Verordnung enthalten das Wort. Kein «keine Pflicht», weil die Gemeinden weitergehende Vorschriften erlassen können.
+- Entscheid: `verbot` nennt als Beispiel die Betretverbote von Sarnen, weil das Hundegesetz selbst keine Orte verbietet, sondern die Gemeinden dazu ermächtigt (Art. 1 Abs. 3).
+- Geprüft: Der Nachtrag zum Veterinärgesetz vom 12. September 2024 (Art. 26, Massnahmen bei Hunden) ist laut GDB 818.1 seit 1. Dezember 2024 in Kraft. Die Karten Kurs und Rassen stimmen damit überein.
+- Entscheid Sarnen: Betrag «ab CHF 120» nach der Seite der Gemeinde. Die Verordnung nennt CHF 120 mit Anpassung an den Landesindex. Meldefrist 30 Tage nach Verordnung und Seite «Hundesteuer». Die Seite «Hunderegistrierung» nennt 10 Tage für Meldungen in AMICUS: weggelassen, das ist Bundesrecht und keine lokale Angabe. Die Verordnung nennt noch die Datenbank ANIS: die Seite nennt AMICUS, wie die Website der Gemeinde.
+- Weggelassen: Höhe der Bussen in Sarnen (die Verordnung sagt nur «mit Busse»). Abstand zum Wald in Metern (keine Quelle nennt einen).
+- Meilenstein: Alle 26 Kantone haben eine Seite, alle deutschsprachigen Kantone sind erfasst. Damit ist die Freigabe der Verbreitung durch Joss fällig (Handbuch, «Was nur Joss tun kann»).
+- Stand: 26 Kantone, 45 Gemeinden, 87 Seiten in der Sitemap. Build und Test fehlerfrei.
+
 ## 2026-11-18, Kette, Glied 3: Kanton Jura französisch
 
 - Start: `build.py --check` fehlerfrei, nichts einzusammeln. Das Werkzeug `add_repo` stand nicht zur Verfügung, das Repository war geklont und auf dem Stand von `main`. Angemeldet in `auftraege.md` um 10:41 Uhr, am Schluss wieder gelöscht. Kein Nachprüfen (Kette: nur ein Schritt).

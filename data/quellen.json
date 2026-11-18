@@ -588,5 +588,25 @@
     "kurz": "Delémont: budget 2026",
     "lang": "Ville de Delémont: Budget 2026, accepté par le Conseil de Ville le 8 décembre 2025, chiffre 3.2.4 «Taxe des chiens»",
     "url": "https://www.delemont.ch/Htdocs/Files/v/3667224c220a3f70ef5e4e3f23240ced5ba7d5c524dd01482e367de65f42bdc5.pdf/Documents-du-Conseil-de-Ville/Budget-communal-2026_message-final.pdf"
+  },
+  "ow_hug": {
+    "kurz": "Hundegesetz OW",
+    "lang": "Kanton Obwalden: Gesetz über das Halten von Hunden und die Hundesteuer, GDB 818.3 (Stand 1.8.2007)",
+    "url": "https://ow.lexwork.naz.ch/de/dta/818.3.pdf"
+  },
+  "ow_sarnen_hv": {
+    "kurz": "Hundeverordnung Sarnen",
+    "lang": "Einwohnergemeinde Sarnen: Verordnung über das Halten von Hunden und die Hundesteuer vom 20.8.2007 (Stand 2.3.2009)",
+    "url": "https://www.sarnen.ch/_doc/98587"
+  },
+  "ow_sarnen_steuer": {
+    "kurz": "Sarnen: Hundesteuer",
+    "lang": "Einwohnergemeinde Sarnen, Bevölkerungsdienste: Hundesteuer (abgerufen 18.11.2026)",
+    "url": "https://www.sarnen.ch/dienstleistungen/8378"
+  },
+  "ow_sarnen_registrierung": {
+    "kurz": "Sarnen: Hunderegistrierung",
+    "lang": "Einwohnergemeinde Sarnen: Hunderegistrierung (abgerufen 18.11.2026)",
+    "url": "https://www.sarnen.ch/dienstleistungen/10692"
   }
 }

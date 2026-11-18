@@ -1,0 +1,127 @@
+{
+  "id": "ow",
+  "name": "Kanton Obwalden",
+  "kurz": "OW",
+  "im": "im Kanton Obwalden",
+  "des": "des Kantons Obwalden",
+  "geprueft": "2026-11-18",
+  "wald": {
+    "saison": false,
+    "text": "Das kantonale Recht nennt keine Leinenzeit im Wald. Laut dem Amt für Wald und Landschaft gilt aber in ganz Obwalden ausser in der Gemeinde Alpnach in und entlang von allen Wäldern eine Leinenpflicht (Stand der Mitteilung: 2022). Geregelt ist sie in den Hundeverordnungen der Gemeinden, dort steht auch der Zeitraum. Ein Beispiel: In Sarnen gilt sie von Mitte Dezember bis Ende Juni (Stand der Verordnung: 2009).",
+    "quellen": [
+      "ow_leine_2022",
+      "ow_sarnen_hv"
+    ]
+  },
+  "leine": {
+    "punkte": [
+      "in und entlang von allen Wäldern, ausser in der Gemeinde Alpnach. Den Zeitraum nennt die Hundeverordnung deiner Gemeinde (Stand der Mitteilung: 2022)",
+      "in den Naturschutzzonen das ganze Jahr, zum Beispiel Usser Allmend, Städerried und Hinteregg-Andresen (Stand der Mitteilung: 2022)",
+      "in allen kantonalen Wildruhezonen vom 1. Dezember bis 30. April",
+      "in den Wildruhezonen Nr. 1 bis 7 vom 1. Dezember bis 15. Juli",
+      "wenn der Kantonstierarzt oder die Kantonstierärztin es für deinen Hund angeordnet hat"
+    ],
+    "quellen": [
+      "ow_leine_2022",
+      "ow_wildruhe",
+      "ow_vetg"
+    ]
+  },
+  "karten": [
+    {
+      "titel": "Haftpflicht",
+      "marke": "Gemeinde",
+      "ton": "note",
+      "wert": "im kantonalen Recht nicht genannt",
+      "text": "Das Hundegesetz (Stand: 2007) und das Veterinärgesetz des Kantons enthalten keine Bestimmung zu einer Haftpflichtversicherung. Auch die Hundeverordnung der Gemeinde Sarnen verlangt keine (Stand der Verordnung: 2009). Die Gemeinden können weitergehende Vorschriften zur Hundehaltung erlassen. Was in deiner Gemeinde gilt, steht in ihrer Hundeverordnung.",
+      "quellen": [
+        "ow_hug",
+        "ow_vetg",
+        "ow_sarnen_hv"
+      ]
+    },
+    {
+      "titel": "Kurs",
+      "marke": "keine Pflicht",
+      "ton": "note",
+      "wert": "nur als Massnahme im Einzelfall",
+      "text": "Das Veterinärgesetz und das Hundegesetz nennen keinen Kurs für alle Hundehaltenden. Der Kantonstierarzt oder die Kantonstierärztin kann dich im Einzelfall zum Besuch eines Erziehungskurses mit dem Hund verpflichten, zum Beispiel nach einer gemeldeten Bissverletzung.",
+      "quellen": [
+        "ow_vetg",
+        "ow_hug"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "marke": "Pflicht",
+      "ton": "must",
+      "wert": "Mikrochip und AMICUS",
+      "text": "Hunde von Halterinnen und Haltern mit Wohnsitz im Kanton Obwalden werden mit Mikrochip in der Datenbank AMICUS registriert. Deine Einwohnergemeinde prüft, ob die Hunde auf ihrem Gebiet gekennzeichnet und registriert sind, und meldet fehlende Einträge dem Kantonstierarzt. Den Hundeausweis zeigst du Polizei und Gemeindebehörden auf Verlangen vor.",
+      "quellen": [
+        "ow_vetg",
+        "ow_abvetg"
+      ]
+    },
+    {
+      "titel": "Hundesteuer",
+      "marke": "jährlich",
+      "ton": "note",
+      "wert": "je nach Gemeinde",
+      "text": "Die Einwohnergemeinden können durch Verordnung eine Hundesteuer einführen und legen den Betrag selbst fest (Stand des Hundegesetzes: 2007). Sie erheben die Steuer gestützt auf die Daten der Hundedatenbank. Ein Beispiel: Sarnen verlangt ab CHF 120 pro Hund und Jahr.",
+      "quellen": [
+        "ow_hug",
+        "ow_vetg",
+        "ow_sarnen_steuer"
+      ]
+    },
+    {
+      "titel": "Rassen",
+      "marke": "keine Liste",
+      "ton": "note",
+      "wert": "Massnahmen im Einzelfall",
+      "text": "Das Veterinärgesetz und das Hundegesetz nennen keine verbotenen oder bewilligungspflichtigen Rassen. Der Kantonstierarzt oder die Kantonstierärztin ordnet Massnahmen für den einzelnen Hund an, etwa nach einer Bissverletzung: Leinen- und Maulkorbzwang, Wesenstest, Erziehungskurs, Halteverbot, Beschlagnahmung oder Einschläferung. Massnahmen, die ein anderer Kanton rechtskräftig verfügt hat, gelten auch in Obwalden.",
+      "quellen": [
+        "ow_vetg",
+        "ow_hug"
+      ]
+    },
+    {
+      "titel": "Unterwegs",
+      "marke": "Regel",
+      "ton": "note",
+      "wert": "Kontrolle und Sauberkeit",
+      "text": "Du musst deinen Hund jederzeit unter Kontrolle haben und so beaufsichtigen, dass er weder Menschen noch Tiere anfällt und niemanden mit unzumutbarem Gebell belästigt. Er darf Trottoirs, Geh- und Wanderwege, fremde Gärten, Parkanlagen, Kinderspielplätze und während der Vegetationszeit landwirtschaftliche Kulturen nicht verunreinigen (Stand des Hundegesetzes: 2007). Verstösse gegen das Hundegesetz werden mit Busse bestraft. Wer gegen das Veterinärgesetz oder Anordnungen der Veterinärorgane verstösst, wird mit Busse bis CHF 20 000 bestraft.",
+      "quellen": [
+        "ow_vet",
+        "ow_hug",
+        "ow_vetg"
+      ]
+    }
+  ],
+  "vergleich": {
+    "wald": "Leinenpflicht in und entlang von Wäldern, ausser Alpnach",
+    "haft": "im kantonalen Recht nicht genannt",
+    "kurs": "keine allgemeine Pflicht",
+    "rassen": "keine Liste genannt",
+    "steuer": "je nach Gemeinde",
+    "anm": "Mikrochip und AMICUS"
+  },
+  "umzug": {
+    "text": "Massnahmen, die ein anderer Kanton für deinen Hund rechtskräftig verfügt hat, gelten auch im Kanton Obwalden.",
+    "quellen": [
+      "ow_vetg"
+    ]
+  },
+  "verbot": {
+    "einleitung": "Das Hundegesetz des Kantons nennt keine Orte, an denen Hunde verboten sind. Es verlangt, dass dein Hund bestimmte Orte nicht verunreinigt, und erlaubt den Gemeinden, Betretverbote zu erlassen (Stand des Gesetzes: 2007). Verbindlich sind die Hundeverordnung und die Schilder deiner Gemeinde. Ein Beispiel: Sarnen lässt Hunde an diesen Orten nicht zu (Stand der Verordnung: 2009).",
+    "punkte": [
+      "Friedhöfe, Badeanstalten und Spitalanlagen",
+      "öffentliche Kinderspielplätze und Pausenplätze von Schulhausanlagen",
+      "öffentliche Spiel- und Sportfelder"
+    ],
+    "quellen": [
+      "ow_hug",
+      "ow_sarnen_hv"
+    ]
+  }
+}
