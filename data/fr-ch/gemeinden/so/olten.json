@@ -1,0 +1,40 @@
+{
+  "id": "olten",
+  "kanton": "so",
+  "bfs": 2581,
+  "uebersetzt_aus": "de",
+  "original": "fe4a38c3fd6a",
+  "name": "Ville d'Olten",
+  "ort": "Olten",
+  "in_ort": "à Olten",
+  "hinweis_heute": "À Olten, votre chien doit être tenu en laisse toute l'année dans la zone urbanisée.",
+  "einleitung": "À Olten s'appliquent les règles du canton de Soleure. La Ville impose en plus la laisse dans toute la zone urbanisée.",
+  "karten": [
+    {
+      "titel": "Impôt sur les chiens",
+      "wert": "CHF 165 par chien et par an",
+      "text": "L'impôt sur les chiens de la Ville d'Olten s'élève à CHF 130 par chien et par an. S'y ajoutent CHF 35 pour le canton de Soleure, soit CHF 165 au total. La Ville facture les deux montants en avril. Le paiement est dû dans les 30 jours suivant la facture. Chaque rappel coûte CHF 50. Si l'impôt reste impayé malgré le rappel, la Ville dépose une dénonciation pénale selon le Hundegesetz (loi sur les chiens).",
+      "quellen": [
+        "so_olten_steuer"
+      ]
+    },
+    {
+      "titel": "Laisse",
+      "wert": "dans toute la zone urbanisée",
+      "text": "Dans la zone urbanisée de la Ville d'Olten, les chiens doivent être tenus en laisse. C'est ce que prévoit l'article 19 du Reglement über die gemeindepolizeilichen Aufgaben (règlement sur les tâches de police communale) du 29 septembre 2016. Les contraventions sont punies de l'amende, le règlement n'indique pas de montant. S'y ajoutent les règles du canton: du 1er avril au 31 juillet, laisse obligatoire en forêt.",
+      "quellen": [
+        "so_olten_polizei",
+        "so_hundev"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "wert": "Einwohnerkontrolle (contrôle des habitants) et AMICUS",
+      "text": "Si vous vous installez à Olten, vous vous annoncez à l'Einwohnerkontrolle et indiquez que vous détenez un chien. Vous présentez à cette occasion la preuve de l'assurance responsabilité civile. Le chien et son détenteur doivent être enregistrés dans la banque de données sur les chiens AMICUS. Si vous cédez un chien ou en prenez un en charge, vous l'annoncez dans AMICUS et à l'Einwohnerkontrolle. Vous annoncez dans AMICUS l'exportation à l'étranger et la mort du chien. La Steuerverwaltung/Stadtkasse (administration des impôts/caisse de la Ville) répond aux questions sur l'impôt sur les chiens.",
+      "quellen": [
+        "so_olten_amicus",
+        "so_olten_steuer"
+      ]
+    }
+  ]
+}

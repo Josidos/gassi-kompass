@@ -1,0 +1,40 @@
+{
+  "id": "frauenfeld",
+  "kanton": "tg",
+  "bfs": 4566,
+  "uebersetzt_aus": "de",
+  "original": "0410309f4632",
+  "name": "Città di Frauenfeld",
+  "ort": "Frauenfeld",
+  "in_ort": "a Frauenfeld",
+  "hinweis_heute": "A Frauenfeld l'obbligo di guinzaglio vale tutto l'anno nei boschi Burgerholz, Pfaffenholz e Rüegerholz, a nord della Wannenfeldstrasse e nelle zone protette Allmend e Wuer.",
+  "einleitung": "A Frauenfeld valgono le regole del Cantone di Turgovia. La Città ha inoltre designato boschi e zone protette in cui il tuo cane va tenuto al guinzaglio tutto l'anno.",
+  "karten": [
+    {
+      "titel": "Imposta sui cani",
+      "wert": "CHF 120, ogni cane in più CHF 195",
+      "text": "A Frauenfeld l'imposta sui cani ammonta a CHF 120 all'anno per il primo cane e a CHF 195 per ogni cane in più nella stessa economia domestica. La fattura arriva in marzo, va pagata entro il 30 aprile. Non c'è alcun rimborso, nemmeno se non detieni il cane per tutto l'anno o se muore. I cani da lavoro sono esentati.",
+      "quellen": [
+        "tg_frauenfeld_info"
+      ]
+    },
+    {
+      "titel": "Guinzaglio",
+      "wert": "tre boschi e due zone protette tutto l'anno",
+      "text": "Il tuo cane va tenuto al guinzaglio tutto l'anno nei boschi Burgerholz, Pfaffenholz e Rüegerholz, nel boschetto a nord della Wannenfeldstrasse, nella zona golenale e riserva naturale Allmend e nella zona golenale protetta Wuer a nord del Chasperäckerweiher. Si aggiungono le regole del Cantone: tutto l'anno nei parchi, negli impianti scolastici, nei parchi giochi e negli impianti sportivi e lungo le strade molto trafficate, dal 1° aprile al 31 luglio nel bosco e al margine del bosco. Chi non rispetta un obbligo di guinzaglio stabilito dal Comune paga, secondo la Hundeverordnung (ordinanza sui cani) del Cantone, una multa disciplinare di CHF 100.",
+      "quellen": [
+        "tg_frauenfeld_leine",
+        "tg_frauenfeld_info",
+        "tg_hundev"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "wert": "Einwohnerdienste (servizi abitanti), entro 10 giorni",
+      "text": "Se ti trasferisci a Frauenfeld con un cane, lo annunci entro 10 giorni di persona allo sportello degli Einwohnerdienste, Rathausplatz 4. Se detieni un cane per la prima volta, la Città ti registra nella banca dati dei cani AMICUS. La presa a carico, la cessione o la morte di un cane le annunci entro 10 giorni in AMICUS o tramite la Città. Ti servono il microchip del cane e l'assicurazione di responsabilità civile obbligatoria, per un cane potenzialmente pericoloso anche l'autorizzazione del Veterinäramt (ufficio veterinario). I nuovi detentori di cani e i nuovi arrivati ricevono allo sportello una breve introduzione. I sacchetti per gli escrementi sono disponibili gratuitamente allo sportello informazioni del Rathaus (municipio).",
+      "quellen": [
+        "tg_frauenfeld_info"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "arbon",
+  "kanton": "tg",
+  "bfs": 4401,
+  "uebersetzt_aus": "de",
+  "original": "a4aa3780d4b8",
+  "name": "Ville d'Arbon",
+  "ort": "Arbon",
+  "in_ort": "à Arbon",
+  "hinweis_heute": "À Arbon, la laisse est obligatoire toute l'année au bord du lac et dans le Weiher-Areal (site de l'étang). Le Seeparkareal (site du Seepark) fait exception.",
+  "einleitung": "À Arbon s'appliquent les règles du canton de Thurgovie. La Ville exige en plus la laisse au bord du lac et dans le Weiher-Areal.",
+  "karten": [
+    {
+      "titel": "Impôt sur les chiens",
+      "wert": "CHF 100, chaque chien supplémentaire CHF 150",
+      "text": "À Arbon, l'impôt sur les chiens s'élève à CHF 100 par an pour le premier chien et à CHF 150 pour chaque chien supplémentaire du même ménage. Il doit être payé jusqu'à fin avril ou dans les 30 jours suivant la facture.",
+      "quellen": [
+        "tg_arbon_hunde",
+        "tg_arbon_broschuere"
+      ]
+    },
+    {
+      "titel": "Laisse",
+      "wert": "au bord du lac et dans le Weiher-Areal",
+      "text": "Au bord du lac et dans le Weiher-Areal (site de l'étang), votre chien doit être tenu en laisse. Le Seeparkareal (site du Seepark) fait exception. S'y ajoutent les règles du canton: dans les parcs, les installations scolaires, les places de jeux et les installations sportives et le long des routes à fort trafic, et du 1er avril au 31 juillet en forêt et en lisière.",
+      "quellen": [
+        "tg_arbon_hunde",
+        "tg_arbon_broschuere"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "wert": "Einwohnerdienste, Hauptstrasse 12",
+      "text": "Vous annoncez votre chien aux Einwohnerdienste (services des habitants) de la Ville, Hundewesen (affaires canines), Hauptstrasse 12. Il en va de même en cas de changement de détenteur et lorsque le chien meurt. La Ville indique pour cela 10 jours à un endroit et 14 jours à un autre. En respectant 10 jours, vous ne prenez aucun risque. Dans la banque de données sur les chiens AMICUS, l'annonce est due dans les 10 jours.",
+      "quellen": [
+        "tg_arbon_broschuere",
+        "tg_arbon_hunde"
+      ]
+    }
+  ]
+}

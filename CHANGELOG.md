@@ -2,6 +2,23 @@
 
 Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen.
 
+## 2026-11-18, Kette Übersetzungen, Glied 6: Übersetzungen der Gemeinden, zweite Portion
+
+- Neu, 30 Übersetzungen für 15 Gemeinden: St. Gallen, Ebikon, Emmen, Horw, Luzern, Sursee, Brig-Glis, Allschwil, Olten, Arbon und Frauenfeld französisch und italienisch, Genf, Sitten und Freiburg deutsch und italienisch, Lugano deutsch und französisch. Je Sprache: 12 französisch, 14 italienisch, 4 deutsch.
+- Entscheide zur Wortwahl: «Lokal belegt sind» heisst «Sont attestés au niveau local» und «A livello locale sono documentati». Siedlungsgebiet «zone urbanisée» und «zona abitata», Ordnungsbusse «amende d'ordre» und «multa disciplinare», Freilaufwege (Allschwil) «chemins de liberté pour chiens» und «sentieri di svago per cani», Merkblatt «notice» und «promemoria». In Lugano heissen die «aree per cani» deutsch «Hundezonen» und französisch «espaces pour chiens», die «area di svago di Pian Casoro» heisst «Erholungsgebiet» und «zone de détente», weil dort gerade keine Freilaufzone ist. «rappel d'impôt» (Sitten) heisst «Nachsteuer» und «ricupero d'imposta», «mis en fourrière» «in Verwahrung genommen (fourrière)». Stadtpolizei, Einwohnerkontrolle, Einwohnerdienste, Stadtbüro, Polizeireglement, Hundeverordnung, Guichet citoyen, Police municipale, Municipio und die Namen der Reglemente bleiben in der Originalsprache, beim ersten Vorkommen mit Übersetzung in Klammern. Namen von Parks, Strassen und Wäldern bleiben unverändert.
+- Ortsnamen: Saint-Gall und San Gallo, Lucerne und Lucerna, Genf und Ginevra, Sitten, Freiburg und Friburgo nach der Liste im Handbuch. Brig-Glis, Sion (italienisch), Lugano, Olten, Arbon, Frauenfeld, Allschwil und die Luzerner Gemeinden behalten den amtlichen Namen. «Stadtgemeinde Brig-Glis» heisst «Commune de Brig-Glis» und «Comune di Brig-Glis».
+- Geprüft: `build.py --check` ohne Meldung, Bau und Test fehlerfrei (213 Seiten). Als Bild angesehen: `/fr-ch/tg/frauenfeld/`, `/it-ch/bl/allschwil/`, `/ge/geneve/`.
+- Aufgefallen (nichts davon geändert):
+  - `data/fr-ch/gemeinden/ge/geneve.json`, `freilaufzonen`: «promenade des Crêts» und «parc Bertrand» stehen in beiden Listen (eingezäunt und nicht eingezäunt). Der parc Liotard steht bei den Freilaufzonen und bei den Verboten, die Karte «Accès interdit» sagt das selbst. Mit der Quelle vergleichen.
+  - `data/it-ch/gemeinden/ti/lugano.json`: Karte «Imposta sui cani» spricht im Text von «tassa». Die Datei nennt die Freilaufzonen «aree per cani», die Wortliste des Handbuchs «area di svago per cani», und in der Karte «Guinzaglio» ist die «area di svago di Pian Casoro» ein Ort mit Leinenpflicht. Das kann man verwechseln.
+  - `data/gemeinden/lu/luzern.json`: nur eine Karte (Bussen). Dort ist «CHF 100 bis 150 (Naturschutzgebiete)» unklar: Gilt der ganze Rahmen oder nur der obere Betrag für Naturschutzgebiete?
+  - `data/gemeinden/vs/brig-glis.json`, Karte Hundetaxe: `wert` «CHF 125 pro Jahr» ohne «pro Hund». Karte Leine: `wert` nennt «Brig, Glis, Gamsen und Brigerbad», der Text «Brig-Glis und Gamsen».
+  - `data/fr-ch/gemeinden/fr/fribourg.json`, Karte «Laisse»: `wert` nennt «manifestations», der Text nicht.
+  - `data/fr-ch/gemeinden/vs/sion.json`, Karte «Annonce»: «le passeport de l'animal avec son numéro AMICUS» lässt offen, ob die Nummer im Pass stehen muss oder zusätzlich vorzulegen ist.
+  - `data/gemeinden/bl/allschwil.json`: Karte Hundetaxe spricht von «Hundegebühr». Karte Bussen schreibt «CHF 5'000», die anderen Dateien «CHF 5000».
+  - `data/gemeinden/tg/arbon.json`, Karte Anmeldung: Die Stadt nennt 10 und 14 Tage, die Karte sagt das offen. Bei der Nachprüfung klären.
+- Offen: 28 Übersetzungen für 15 Gemeinden (Schritt b): Kreuzlingen, Chur, Davos, Landquart, Basel, Neuchâtel, Arth, Einsiedeln, Küssnacht, Schwyz, Schaffhausen, Glarus, Sarnen, Silenen.
+
 ## 2026-11-18, Kette Übersetzungen, Glied 5: Übersetzungen der Gemeinden, erste Portion
 
 - Neu, 30 Übersetzungen für 15 Gemeinden: Adliswil, Bülach, Dietikon, Dübendorf, Illnau-Effretikon, Opfikon, Regensdorf, Thalwil, Uster, Volketswil, Wädenswil, Wetzikon, Winterthur und Stadt Bern französisch und italienisch (je 14 Dateien unter `data/fr-ch/gemeinden/` und `data/it-ch/gemeinden/`), Lausanne deutsch und italienisch (`data/gemeinden/vd/lausanne.json`, `data/it-ch/gemeinden/vd/lausanne.json`). Je Sprache: 14 französisch, 15 italienisch, 1 deutsch.

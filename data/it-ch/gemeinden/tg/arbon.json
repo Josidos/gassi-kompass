@@ -1,0 +1,41 @@
+{
+  "id": "arbon",
+  "kanton": "tg",
+  "bfs": 4401,
+  "uebersetzt_aus": "de",
+  "original": "a4aa3780d4b8",
+  "name": "Città di Arbon",
+  "ort": "Arbon",
+  "in_ort": "ad Arbon",
+  "hinweis_heute": "Ad Arbon l'obbligo di guinzaglio vale tutto l'anno in riva al lago e nel Weiher-Areal (area dello stagno). Fa eccezione il Seeparkareal (area del Seepark).",
+  "einleitung": "Ad Arbon valgono le regole del Cantone di Turgovia. La Città esige inoltre il guinzaglio in riva al lago e nel Weiher-Areal.",
+  "karten": [
+    {
+      "titel": "Imposta sui cani",
+      "wert": "CHF 100, ogni cane in più CHF 150",
+      "text": "Ad Arbon l'imposta sui cani ammonta a CHF 100 all'anno per il primo cane e a CHF 150 per ogni cane in più nella stessa economia domestica. Va pagata entro fine aprile o entro 30 giorni dalla fattura.",
+      "quellen": [
+        "tg_arbon_hunde",
+        "tg_arbon_broschuere"
+      ]
+    },
+    {
+      "titel": "Guinzaglio",
+      "wert": "in riva al lago e nel Weiher-Areal",
+      "text": "In riva al lago e nel Weiher-Areal (area dello stagno) il tuo cane va tenuto al guinzaglio. Fa eccezione il Seeparkareal (area del Seepark). Si aggiungono le regole del Cantone: nei parchi, negli impianti scolastici, nei parchi giochi e negli impianti sportivi e lungo le strade molto trafficate, dal 1° aprile al 31 luglio nel bosco e al margine del bosco.",
+      "quellen": [
+        "tg_arbon_hunde",
+        "tg_arbon_broschuere"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "wert": "Einwohnerdienste, Hauptstrasse 12",
+      "text": "Annunci il tuo cane agli Einwohnerdienste (servizi abitanti) della Città, Hundewesen (ufficio cani), Hauptstrasse 12. Lo stesso vale in caso di cambio di detentore e quando il cane muore. La Città indica a tal fine 10 giorni in un punto e 14 giorni in un altro. Con 10 giorni vai sul sicuro. Nella banca dati dei cani AMICUS la notifica è dovuta entro 10 giorni.",
+      "quellen": [
+        "tg_arbon_broschuere",
+        "tg_arbon_hunde"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "frauenfeld",
+  "kanton": "tg",
+  "bfs": 4566,
+  "uebersetzt_aus": "de",
+  "original": "0410309f4632",
+  "name": "Ville de Frauenfeld",
+  "ort": "Frauenfeld",
+  "in_ort": "à Frauenfeld",
+  "hinweis_heute": "À Frauenfeld, la laisse est obligatoire toute l'année dans les forêts du Burgerholz, du Pfaffenholz et du Rüegerholz, au nord de la Wannenfeldstrasse et dans les zones protégées de l'Allmend et du Wuer.",
+  "einleitung": "À Frauenfeld s'appliquent les règles du canton de Thurgovie. La Ville a en plus désigné des forêts et des zones protégées où votre chien doit être tenu en laisse toute l'année.",
+  "karten": [
+    {
+      "titel": "Impôt sur les chiens",
+      "wert": "CHF 120, chaque chien supplémentaire CHF 195",
+      "text": "À Frauenfeld, l'impôt sur les chiens s'élève à CHF 120 par an pour le premier chien et à CHF 195 pour chaque chien supplémentaire du même ménage. La facture arrive en mars, elle doit être payée jusqu'au 30 avril. Il n'y a pas de remboursement, même si vous ne détenez pas le chien toute l'année ou s'il meurt. Les chiens utilitaires sont exonérés.",
+      "quellen": [
+        "tg_frauenfeld_info"
+      ]
+    },
+    {
+      "titel": "Laisse",
+      "wert": "trois forêts et deux zones protégées toute l'année",
+      "text": "Votre chien doit être tenu en laisse toute l'année dans les forêts du Burgerholz, du Pfaffenholz et du Rüegerholz, dans le petit bois au nord de la Wannenfeldstrasse, dans la zone alluviale et réserve naturelle de l'Allmend et dans la zone alluviale protégée du Wuer, au nord du Chasperäckerweiher. S'y ajoutent les règles du canton: toute l'année dans les parcs, les installations scolaires, les places de jeux et les installations sportives et le long des routes à fort trafic, et du 1er avril au 31 juillet en forêt et en lisière. Quiconque ne respecte pas une obligation de tenir en laisse fixée par la commune paie, selon la Hundeverordnung (ordonnance sur les chiens) du canton, une amende d'ordre de CHF 100.",
+      "quellen": [
+        "tg_frauenfeld_leine",
+        "tg_frauenfeld_info",
+        "tg_hundev"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "wert": "Einwohnerdienste (services des habitants), dans les 10 jours",
+      "text": "Si vous vous installez à Frauenfeld avec un chien, vous l'annoncez dans les 10 jours en personne au guichet des Einwohnerdienste, Rathausplatz 4. Si vous détenez un chien pour la première fois, la Ville vous enregistre dans la banque de données sur les chiens AMICUS. Vous annoncez la prise en charge, la cession ou la mort d'un chien dans les 10 jours dans AMICUS ou par l'intermédiaire de la Ville. Il vous faut la puce électronique du chien et l'assurance responsabilité civile obligatoire, et pour un chien potentiellement dangereux aussi l'autorisation du Veterinäramt (office vétérinaire). Les nouveaux détenteurs de chiens et les nouveaux arrivants reçoivent une brève introduction au guichet. Des sachets à crottes sont disponibles gratuitement au guichet d'information du Rathaus (hôtel de ville).",
+      "quellen": [
+        "tg_frauenfeld_info"
+      ]
+    }
+  ]
+}

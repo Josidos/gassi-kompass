@@ -1,0 +1,57 @@
+{
+  "id": "allschwil",
+  "kanton": "bl",
+  "bfs": 2762,
+  "uebersetzt_aus": "de",
+  "original": "10ee1f91eeee",
+  "name": "Allschwil",
+  "ort": "Allschwil",
+  "in_ort": "ad Allschwil",
+  "hinweis_heute": "Ad Allschwil il tuo cane va tenuto al guinzaglio tutto l'anno nel bosco e ai margini del bosco. Al di fuori del periodo dal 1° aprile al 31 luglio può correre libero sui sentieri di svago per cani contrassegnati in rosso.",
+  "einleitung": "Allschwil disciplina la detenzione di cani nel Polizeireglement (regolamento di polizia). È più severo del diritto cantonale: nel bosco l'obbligo di guinzaglio vale tutto l'anno, tranne sui sentieri di svago per cani.",
+  "karten": [
+    {
+      "titel": "Imposta sui cani",
+      "wert": "CHF 150 per cane all'anno",
+      "text": "Ad Allschwil l'imposta sui cani ammonta a CHF 150 per cane all'anno. Alla prima notifica si aggiunge una tassa d'iscrizione unica di CHF 75. Sono esentati tra l'altro i cani di servizio, i cani guida per ciechi, i cani d'assistenza e d'accompagnamento nonché i cani sociali e da terapia impiegati gratuitamente in istituzioni sociali. Stato delle tariffe: 1° gennaio 2024.",
+      "quellen": [
+        "bl_allschwil_gebuehren",
+        "bl_allschwil_hunde",
+        "bl_allschwil_prv"
+      ]
+    },
+    {
+      "titel": "Guinzaglio",
+      "wert": "bosco, strade, parchi giochi",
+      "text": "Il tuo cane va tenuto al guinzaglio lungo le strade molto trafficate e sulle piste ciclabili, nei parchi giochi pubblici, negli impianti sportivi e per il tempo libero, nelle aree scolastiche, negli edifici pubblici, nelle riserve naturali nonché durante le manifestazioni pubbliche e tra la folla. Nel bosco e ai margini del bosco l'obbligo di guinzaglio vale tutto l'anno. Al di fuori del periodo dal 1° aprile al 31 luglio il tuo cane può correre libero lì sui sentieri di svago per cani. Sono contrassegnati con strisce rosse sugli alberi lungo il sentiero.",
+      "quellen": [
+        "bl_allschwil_pr"
+      ]
+    },
+    {
+      "titel": "Accesso vietato",
+      "wert": "luoghi segnalati, terreni coltivati",
+      "text": "Dove è segnalato un divieto di accesso non puoi portare con te il tuo cane. Non può nemmeno entrare senza permesso in aree private o su particelle a uso agricolo. Fa eccezione il lasciarlo correre sui prati da novembre a febbraio. I cani potenzialmente pericolosi non hanno inoltre accesso ai parchi giochi pubblici, agli impianti sportivi e per il tempo libero, alle aree scolastiche e agli edifici pubblici.",
+      "quellen": [
+        "bl_allschwil_pr"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "wert": "Einwohnerdienste (servizi abitanti), entro 14 giorni",
+      "text": "Annunci il tuo cane entro 14 giorni agli Einwohnerdienste del Comune, Baslerstrasse 111. Vengono registrati i cani a partire da 4 mesi. Ti servono il passaporto del cane o il libretto delle vaccinazioni e l'attestato di un'assicurazione di responsabilità civile con una copertura di almeno CHF 3 milioni. Tu e il tuo cane dovete inoltre essere registrati nella banca dati dei cani AMICUS.",
+      "quellen": [
+        "bl_allschwil_hunde",
+        "bl_allschwil_prv"
+      ]
+    },
+    {
+      "titel": "Multe",
+      "wert": "CHF 50, in un caso CHF 100",
+      "text": "La multa disciplinare ammonta a CHF 50 se non rispetti l'obbligo di guinzaglio o un divieto di accesso segnalato, se lasci sul posto gli escrementi o se non smaltisci correttamente il sacchetto. Costa CHF 100 se un cane potenzialmente pericoloso entra in un luogo che gli è vietato. Nella procedura ordinaria sono possibili multe fino a CHF 5'000.",
+      "quellen": [
+        "bl_allschwil_pr"
+      ]
+    }
+  ]
+}

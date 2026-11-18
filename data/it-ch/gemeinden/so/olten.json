@@ -1,0 +1,40 @@
+{
+  "id": "olten",
+  "kanton": "so",
+  "bfs": 2581,
+  "uebersetzt_aus": "de",
+  "original": "fe4a38c3fd6a",
+  "name": "Città di Olten",
+  "ort": "Olten",
+  "in_ort": "a Olten",
+  "hinweis_heute": "A Olten il tuo cane va tenuto al guinzaglio tutto l'anno nella zona abitata.",
+  "einleitung": "A Olten valgono le regole del Cantone di Soletta. La Città prescrive inoltre il guinzaglio in tutta la zona abitata.",
+  "karten": [
+    {
+      "titel": "Imposta sui cani",
+      "wert": "CHF 165 per cane all'anno",
+      "text": "L'imposta sui cani della Città di Olten ammonta a CHF 130 per cane all'anno. Si aggiungono CHF 35 per il Cantone di Soletta, in totale CHF 165. La Città fattura entrambi gli importi in aprile. Il pagamento va effettuato entro 30 giorni dalla fattura. Ogni sollecito costa CHF 50. Se l'imposta resta scoperta nonostante il sollecito, la Città sporge denuncia penale secondo lo Hundegesetz (legge sui cani).",
+      "quellen": [
+        "so_olten_steuer"
+      ]
+    },
+    {
+      "titel": "Guinzaglio",
+      "wert": "in tutta la zona abitata",
+      "text": "Nella zona abitata della Città di Olten i cani vanno tenuti al guinzaglio. Lo stabilisce l'articolo 19 del Reglement über die gemeindepolizeilichen Aufgaben (regolamento sui compiti di polizia comunale) del 29 settembre 2016. Le contravvenzioni sono punite con la multa, il regolamento non indica un importo. Si aggiungono le regole del Cantone: dal 1° aprile al 31 luglio obbligo di guinzaglio nel bosco.",
+      "quellen": [
+        "so_olten_polizei",
+        "so_hundev"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "wert": "Einwohnerkontrolle (controllo abitanti) e AMICUS",
+      "text": "Se ti trasferisci a Olten, ti annunci all'Einwohnerkontrolle e indichi che detieni un cane. In quell'occasione comprovi l'assicurazione di responsabilità civile. Cane e detentore devono essere registrati nella banca dati dei cani AMICUS. Se cedi un cane o ne prendi uno a carico, lo annunci in AMICUS e all'Einwohnerkontrolle. L'esportazione all'estero e la morte del cane le annunci in AMICUS. Alle domande sull'imposta sui cani risponde la Steuerverwaltung/Stadtkasse (amministrazione delle contribuzioni/cassa comunale).",
+      "quellen": [
+        "so_olten_amicus",
+        "so_olten_steuer"
+      ]
+    }
+  ]
+}

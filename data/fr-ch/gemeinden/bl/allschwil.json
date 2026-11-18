@@ -1,0 +1,57 @@
+{
+  "id": "allschwil",
+  "kanton": "bl",
+  "bfs": 2762,
+  "uebersetzt_aus": "de",
+  "original": "10ee1f91eeee",
+  "name": "Allschwil",
+  "ort": "Allschwil",
+  "in_ort": "à Allschwil",
+  "hinweis_heute": "À Allschwil, votre chien doit être tenu en laisse toute l'année en forêt et en lisière. En dehors de la période du 1er avril au 31 juillet, il peut courir en liberté sur les chemins de liberté pour chiens marqués en rouge.",
+  "einleitung": "Allschwil règle la détention de chiens dans le Polizeireglement (règlement de police). Il est plus strict que le droit cantonal: en forêt, la laisse est obligatoire toute l'année, sauf sur les chemins de liberté pour chiens.",
+  "karten": [
+    {
+      "titel": "Impôt sur les chiens",
+      "wert": "CHF 150 par chien et par an",
+      "text": "À Allschwil, l'impôt sur les chiens s'élève à CHF 150 par chien et par an. Lors de la première annonce s'y ajoute un émolument d'inscription unique de CHF 75. Sont notamment exonérés les chiens de service, les chiens guides d'aveugles, les chiens d'assistance et d'accompagnement ainsi que les chiens sociaux et de thérapie engagés gratuitement dans des institutions sociales. État des tarifs: 1er janvier 2024.",
+      "quellen": [
+        "bl_allschwil_gebuehren",
+        "bl_allschwil_hunde",
+        "bl_allschwil_prv"
+      ]
+    },
+    {
+      "titel": "Laisse",
+      "wert": "forêt, routes, places de jeux",
+      "text": "Votre chien doit être tenu en laisse le long des routes à fort trafic et sur les pistes cyclables, sur les places de jeux publiques, dans les installations de sport et de loisirs, dans les enceintes scolaires, dans les bâtiments publics, dans les réserves naturelles ainsi que lors de manifestations publiques et dans la foule. En forêt et en lisière, la laisse est obligatoire toute l'année. En dehors de la période du 1er avril au 31 juillet, votre chien peut y courir en liberté sur les chemins de liberté pour chiens. Ils sont marqués par des bandes rouges sur les arbres le long du chemin.",
+      "quellen": [
+        "bl_allschwil_pr"
+      ]
+    },
+    {
+      "titel": "Accès interdit",
+      "wert": "lieux signalés, terres cultivées",
+      "text": "Là où une interdiction d'accès est signalée, vous ne pouvez pas emmener votre chien. Il ne doit pas non plus pénétrer sans autorisation sur un terrain privé ou sur des parcelles exploitées par l'agriculture. Fait exception le fait de le laisser courir sur les prairies de novembre à février. Les chiens potentiellement dangereux n'ont en outre pas accès aux places de jeux publiques, aux installations de sport et de loisirs, aux enceintes scolaires et aux bâtiments publics.",
+      "quellen": [
+        "bl_allschwil_pr"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "wert": "Einwohnerdienste (services des habitants), dans les 14 jours",
+      "text": "Vous annoncez votre chien dans les 14 jours aux Einwohnerdienste de la commune, Baslerstrasse 111. Les chiens sont enregistrés dès 4 mois. Il vous faut le passeport du chien ou le carnet de vaccination et l'attestation d'une assurance responsabilité civile avec une couverture d'au moins CHF 3 millions. Votre chien et vous devez en outre être enregistrés dans la banque de données sur les chiens AMICUS.",
+      "quellen": [
+        "bl_allschwil_hunde",
+        "bl_allschwil_prv"
+      ]
+    },
+    {
+      "titel": "Amendes",
+      "wert": "CHF 50, dans un cas CHF 100",
+      "text": "L'amende d'ordre est de CHF 50 si vous ne respectez pas la laisse obligatoire ou une interdiction d'accès signalée, si vous laissez les crottes sur place ou si vous n'éliminez pas correctement le sachet à crottes. Il en coûte CHF 100 lorsqu'un chien potentiellement dangereux pénètre dans un lieu qui lui est interdit. En procédure ordinaire, des amendes jusqu'à CHF 5'000 sont possibles.",
+      "quellen": [
+        "bl_allschwil_pr"
+      ]
+    }
+  ]
+}
