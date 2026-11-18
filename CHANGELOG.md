@@ -2,6 +2,20 @@
 
 Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen.
 
+## 2026-11-18, Kette Übersetzungen, Glied 5: Übersetzungen der Gemeinden, erste Portion
+
+- Neu, 30 Übersetzungen für 15 Gemeinden: Adliswil, Bülach, Dietikon, Dübendorf, Illnau-Effretikon, Opfikon, Regensdorf, Thalwil, Uster, Volketswil, Wädenswil, Wetzikon, Winterthur und Stadt Bern französisch und italienisch (je 14 Dateien unter `data/fr-ch/gemeinden/` und `data/it-ch/gemeinden/`), Lausanne deutsch und italienisch (`data/gemeinden/vd/lausanne.json`, `data/it-ch/gemeinden/vd/lausanne.json`). Je Sprache: 14 französisch, 15 italienisch, 1 deutsch.
+- Entscheide zur Wortwahl: Hundeabgabe, Hundesteuer und Hundetaxe heissen einheitlich «impôt sur les chiens» und «imposta sui cani», Gebühren «émolument» und «tassa», Kantonsbeitrag «contribution cantonale» und «contributo cantonale». Kartentitel: Ermässigung «Réduction» und «Riduzione», Meldegebühr «Émolument d'annonce» und «Tassa di notifica», Entlaufener Hund «Chien égaré» und «Cane smarrito», Hundekot «Crottes de chien» und «Escrementi», Unterlagen «Documents» und «Documenti», Halbe Abgabe «Demi-impôt» und «Mezza imposta», Tierhaltung «Détention d'animaux» und «Detenzione di animali». Stadtpolizei, Einwohnerdienste, Einwohnerkontrolle, Polizeiverordnung, Gebührenreglement, Sicherheitskommission, Gemeinderat, Hundehalter-Brevet, Wildpark Bruderhaus, Tierpark und Kinderzoo bleiben deutsch, beim ersten Vorkommen mit Übersetzung in Klammern. In der deutschen Fassung von Lausanne bleiben Bureau des impôts, Revenu d'insertion, PC Familles und Rente-pont französisch mit Übersetzung in Klammern, «AVS/AI» heisst «AHV/IV».
+- Ortsnamen, die nicht in der Liste des Handbuchs stehen: französisch «Winterthour», italienisch «Losanna», weil beide gebräuchlich sind. Italienisch bleibt «Winterthur». Soll der amtliche Name gelten, sind es je drei Felder in `data/fr-ch/gemeinden/zh/winterthur.json` und `data/it-ch/gemeinden/vd/lausanne.json`.
+- Geprüft: `build.py --check` ohne Meldung, Bau und Test fehlerfrei (183 Seiten). Als Bild angesehen und ganz gelesen: `/fr-ch/zh/uster/`, `/it-ch/zh/thalwil/`, `/vd/lausanne/`.
+- Aufgefallen (nichts davon geändert):
+  - `data/gemeinden/zh/dietikon.json` und `data/gemeinden/zh/illnau-effretikon.json`, Karte «Entlaufener Hund»: «Vermittlung eines entlaufenen Hundes» ist unklar (Rückgabe an die Halterin oder Weitervermittlung?). Übersetzt als «restitution» und «riconsegna», also Rückgabe. Bei der nächsten Nachprüfung am Tarif klären.
+  - `data/gemeinden/zh/adliswil.json`, Karte Gebühren: «erhebt die Stadt», die Einleitung nennt aber die Polizei Adliswil - Langnau am Albis als zuständig. Karte Anmeldung: `wert` mit «10», `text` mit «zehn».
+  - `data/gemeinden/zh/regensdorf.json` und `data/gemeinden/be/bern.json`, Karte Hundetaxe: kein Betrag. Bei Bern steht nur der Stichtag.
+  - `data/gemeinden/zh/illnau-effretikon.json`: alle drei Karten stammen aus derselben Quelle mit Stand 2019.
+  - `data/gemeinden/zh/buelach.json`, Karte Hundetaxe: «Danach wird die Gebühr höher, ausser der Hund ist neu» nennt keinen Betrag und sagt nicht, was «neu» heisst.
+- Offen: 58 Übersetzungen für 30 Gemeinden (Schritt b).
+
 ## 2026-11-18, Kette Übersetzungen, Glied 4: Übersetzungen der Kantone, letzte Portion
 
 - Neu, 2 Übersetzungen für 1 Kanton: Appenzell Innerrhoden französisch und italienisch (`data/fr-ch/kantone/ai.json`, `data/it-ch/kantone/ai.json`). Damit gibt es alle 26 Kantone in allen drei Sprachen. Schritt a) des Programms ist abgehakt.
