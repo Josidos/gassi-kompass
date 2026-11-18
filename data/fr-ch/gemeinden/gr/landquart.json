@@ -1,0 +1,39 @@
+{
+  "id": "landquart",
+  "kanton": "gr",
+  "bfs": 3955,
+  "uebersetzt_aus": "de",
+  "original": "b34fa58d10a0",
+  "name": "Commune de Landquart",
+  "ort": "Landquart",
+  "in_ort": "à Landquart",
+  "einleitung": "Dans la commune de Landquart s'appliquent les règles du canton des Grisons et le Polizeigesetz (loi de police) de la commune. Les pages de la commune ne mentionnent pas de lieux où la laisse est obligatoire ou les chiens interdits. Observez les panneaux sur place.",
+  "karten": [
+    {
+      "titel": "Impôt sur les chiens",
+      "wert": "CHF 120 par chien et par an",
+      "text": "Dans la commune de Landquart, l'impôt sur les chiens s'élève à CHF 120 par chien et par an. Pour un même ménage et une même année civile, il est dû au maximum CHF 600, soit pour cinq chiens. Si le chien ne vit pas toute l'année dans la commune, vous payez au prorata, mais au moins pour trois mois. Sont exonérés, sur présentation d'une attestation, les chiens de police, les chiens de sauvetage ainsi que les chiens guides d'aveugles et les chiens pour personnes sourdes. Le Gemeindevorstand (exécutif communal) peut exonérer d'autres chiens ou réduire l'impôt. Vous déposez une demande motivée jusqu'au 31 mars de l'année fiscale.",
+      "quellen": [
+        "gr_landquart_steuern"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "wert": "Hundekontrolle (contrôle des chiens), aussi en ligne",
+      "text": "Vous annoncez l'arrivée et le départ de votre chien à la Hundekontrollstelle (service de contrôle des chiens) de la commune, également en cas de changement de propriétaire ou si le chien meurt. Cela se fait avec le formulaire en ligne de la commune. La Hundekontrollstelle inscrit le chien dans la banque de données de la commune. Vous recevez ensuite chaque année la facture de l'impôt sur les chiens. Les Einwohnerdienste (services des habitants) répondent aux questions.",
+      "quellen": [
+        "gr_landquart_hundekontrolle",
+        "gr_landquart_steuern"
+      ]
+    },
+    {
+      "titel": "Crottes de chien",
+      "wert": "Robidog, sachets gratuits au Public-Shop",
+      "text": "Selon l'art. 50 du Polizeigesetz de la commune, vous devez surveiller votre chien de manière qu'il n'importune personne par des aboiements continuels et ne souille ni les trottoirs, ni les installations publiques, ni les jardins, ni les terres agricoles. C'est ainsi que le Gemeindepolizeiamt (office de police communale) le cite dans sa communication du 11 juillet 2025. Vous jetez les crottes dans les conteneurs Robidog. Des sachets sont disponibles aux conteneurs et gratuitement au Public-Shop de la commune. La commune vous prie d'utiliser les chemins et les routes en promenade et de ne pas traverser les champs. Dans les Mastrilser Rheinauen (zones alluviales du Rhin à Mastrils), elle demande de tenir les chiens en laisse.",
+      "quellen": [
+        "gr_landquart_hundekot",
+        "gr_landquart_rheinauen"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "basel",
+  "kanton": "bs",
+  "bfs": 2701,
+  "uebersetzt_aus": "de",
+  "original": "2d746a70478b",
+  "name": "Città di Basilea",
+  "ort": "Basilea",
+  "in_ort": "a Basilea",
+  "einleitung": "La Città di Basilea non ha una propria amministrazione per i cani. È competente il Kantonales Veterinäramt (ufficio veterinario cantonale). L'elenco del Cantone indica gli spazi pubblici della città con divieto per i cani od obbligo di guinzaglio. Fa stato la segnaletica sul posto.",
+  "karten": [
+    {
+      "titel": "Imposta sui cani",
+      "wert": "CHF 160 all'anno",
+      "text": "Nella città di Basilea l'imposta sui cani ammonta a CHF 160 all'anno. Ogni altro cane nella stessa economia domestica costa CHF 320. L'anno fiscale va dal 1° aprile al 31 marzo.",
+      "quellen": [
+        "bs_anmelden",
+        "bs_steuer"
+      ]
+    },
+    {
+      "titel": "Accesso vietato",
+      "wert": "molti parchi e spazi pubblici",
+      "text": "Il divieto per i cani vale tra l'altro nel Kannenfeldpark, nello Schützenmattpark, nell'Horburgpark, nel St. Johanns-Park, nel Christoph Merian-Park, nel Rosenfeldpark, sulla Claramatte, sulla Pfalz, sul prato della Kasernenmatte e sulle aree verdi della Petersplatz. Anche le banchine inferiori del Reno sono chiuse ai cani, tranne nella zona di balneazione per cani segnalata al St. Alban-Rheinweg. L'elenco completo si trova nella fonte.",
+      "quellen": [
+        "bs_zonen"
+      ]
+    },
+    {
+      "titel": "Guinzaglio",
+      "wert": "passeggiate e spazi pubblici",
+      "text": "Il tuo cane va tenuto al guinzaglio corto tra l'altro sulle passeggiate pedonali dell'Oberer e dell'Unterer Rheinweg, sull'Elsässerrheinweg, nell'Elisabethen-Anlage, nello Schwarzpark, nel Falkensteinerpark, nel Nachtigallenwäldeli, nel Tierpark Lange Erlen e sui vialetti dell'Erlenmattpark. L'elenco completo si trova nella fonte.",
+      "quellen": [
+        "bs_zonen"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "wert": "Kantonales Veterinäramt (ufficio veterinario cantonale)",
+      "text": "Annunci il tuo cane entro 10 giorni al Kantonales Veterinäramt, online o allo sportello in Schlachthofstrasse 55.",
+      "quellen": [
+        "bs_anmelden"
+      ]
+    }
+  ]
+}

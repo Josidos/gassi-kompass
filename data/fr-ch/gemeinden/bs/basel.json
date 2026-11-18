@@ -1,0 +1,46 @@
+{
+  "id": "basel",
+  "kanton": "bs",
+  "bfs": 2701,
+  "uebersetzt_aus": "de",
+  "original": "2d746a70478b",
+  "name": "Ville de Bâle",
+  "ort": "Bâle",
+  "in_ort": "à Bâle",
+  "einleitung": "La Ville de Bâle n'a pas d'administration propre pour les chiens. Le Kantonales Veterinäramt (office vétérinaire cantonal) est compétent. La liste du canton indique les espaces publics de la ville où les chiens sont interdits ou la laisse obligatoire. La signalisation sur place fait foi.",
+  "karten": [
+    {
+      "titel": "Impôt sur les chiens",
+      "wert": "CHF 160 par an",
+      "text": "En ville de Bâle, l'impôt sur les chiens s'élève à CHF 160 par an. Chaque chien supplémentaire du même ménage coûte CHF 320. L'année fiscale va du 1er avril au 31 mars.",
+      "quellen": [
+        "bs_anmelden",
+        "bs_steuer"
+      ]
+    },
+    {
+      "titel": "Accès interdit",
+      "wert": "de nombreux parcs et espaces publics",
+      "text": "Les chiens sont interdits notamment au Kannenfeldpark, au Schützenmattpark, au Horburgpark, au St. Johanns-Park, au Christoph Merian-Park, au Rosenfeldpark, sur la Claramatte, sur la Pfalz, sur la pelouse de la Kasernenmatte et sur les espaces verts de la Petersplatz. Les bermes inférieures du Rhin sont également fermées aux chiens, sauf dans la zone de baignade pour chiens signalée au St. Alban-Rheinweg. La liste complète figure dans la source.",
+      "quellen": [
+        "bs_zonen"
+      ]
+    },
+    {
+      "titel": "Laisse",
+      "wert": "promenades et espaces publics",
+      "text": "Votre chien doit être tenu en laisse courte notamment sur les promenades piétonnes de l'Oberer et de l'Unterer Rheinweg, à l'Elsässerrheinweg, dans l'Elisabethen-Anlage, au Schwarzpark, au Falkensteinerpark, au Nachtigallenwäldeli, au Tierpark Lange Erlen et sur les chemins de l'Erlenmattpark. La liste complète figure dans la source.",
+      "quellen": [
+        "bs_zonen"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "wert": "Kantonales Veterinäramt (office vétérinaire cantonal)",
+      "text": "Vous annoncez votre chien dans les 10 jours au Kantonales Veterinäramt, en ligne ou au guichet de la Schlachthofstrasse 55.",
+      "quellen": [
+        "bs_anmelden"
+      ]
+    }
+  ]
+}

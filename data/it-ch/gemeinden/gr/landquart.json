@@ -1,0 +1,39 @@
+{
+  "id": "landquart",
+  "kanton": "gr",
+  "bfs": 3955,
+  "uebersetzt_aus": "de",
+  "original": "b34fa58d10a0",
+  "name": "Comune di Landquart",
+  "ort": "Landquart",
+  "in_ort": "a Landquart",
+  "einleitung": "Nel Comune di Landquart valgono le regole del Cantone dei Grigioni e il Polizeigesetz (legge di polizia) del Comune. Le pagine del Comune non indicano luoghi con obbligo di guinzaglio o divieto per i cani. Fai attenzione ai cartelli sul posto.",
+  "karten": [
+    {
+      "titel": "Imposta sui cani",
+      "wert": "CHF 120 per cane all'anno",
+      "text": "Nel Comune di Landquart l'imposta sui cani ammonta a CHF 120 per cane all'anno. Nella stessa economia domestica e nello stesso anno civile sono dovuti al massimo CHF 600, cioè per cinque cani. Se il cane non vive tutto l'anno nel Comune, paghi in proporzione, ma almeno per tre mesi. Con un attestato sono esentati i cani di polizia, i cani da salvataggio nonché i cani guida per ciechi e i cani per persone sorde. Il Gemeindevorstand (esecutivo comunale) può esentare altri cani o ridurre l'imposta. Una domanda motivata la presenti entro il 31 marzo dell'anno fiscale.",
+      "quellen": [
+        "gr_landquart_steuern"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "wert": "Hundekontrolle (controllo dei cani), anche online",
+      "text": "Annunci l'arrivo e la partenza del tuo cane alla Hundekontrollstelle (ufficio di controllo dei cani) del Comune, anche in caso di cambio di proprietario o se il cane muore. Puoi farlo con il modulo online del Comune. La Hundekontrollstelle iscrive il cane nella banca dati del Comune. In seguito ricevi ogni anno la fattura dell'imposta sui cani. Alle domande rispondono gli Einwohnerdienste (servizi abitanti).",
+      "quellen": [
+        "gr_landquart_hundekontrolle",
+        "gr_landquart_steuern"
+      ]
+    },
+    {
+      "titel": "Escrementi",
+      "wert": "Robidog, sacchetti gratuiti al Public-Shop",
+      "text": "Secondo l'art. 50 del Polizeigesetz del Comune devi sorvegliare il tuo cane in modo che non disturbi nessuno con un abbaiare continuo e non sporchi né marciapiedi, né impianti pubblici, né giardini, né terreni agricoli. Così lo cita il Gemeindepolizeiamt (ufficio di polizia comunale) nella sua comunicazione dell'11 luglio 2025. Gli escrementi li getti nei contenitori Robidog. I sacchetti si trovano presso i contenitori e gratuitamente al Public-Shop del Comune. Il Comune ti prega di usare sentieri e strade durante le passeggiate e di non attraversare i campi. Nelle Mastrilser Rheinauen (zone golenali del Reno a Mastrils) chiede di tenere i cani al guinzaglio.",
+      "quellen": [
+        "gr_landquart_hundekot",
+        "gr_landquart_rheinauen"
+      ]
+    }
+  ]
+}

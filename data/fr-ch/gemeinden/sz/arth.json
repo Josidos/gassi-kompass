@@ -1,0 +1,39 @@
+{
+  "id": "arth",
+  "kanton": "sz",
+  "bfs": 1362,
+  "uebersetzt_aus": "de",
+  "original": "87949fbf82e9",
+  "name": "Commune d'Arth",
+  "ort": "Arth",
+  "in_ort": "à Arth",
+  "einleitung": "Dans la commune d'Arth, qui comprend Arth, Oberarth et Goldau, s'appliquent les règles du canton de Schwytz. S'y ajoute la laisse obligatoire dans les deux cimetières.",
+  "karten": [
+    {
+      "titel": "Impôt sur les chiens",
+      "wert": "CHF 100, chien supplémentaire CHF 200",
+      "text": "Dans la commune d'Arth, l'impôt sur les chiens s'élève à CHF 100 par an. Pour chaque chien supplémentaire du même ménage, il est de CHF 200. Pour un chien d'utilité, il est de CHF 40, également pour chaque chien supplémentaire. Sont considérés comme chiens d'utilité les chiens de trait et les chiens de conduite de troupeaux dans l'agriculture ainsi que les chiens de chasse dont le détenteur a pris un permis de chasse l'année précédente. Pour un élevage commercial de chiens, il est de CHF 500. La facture arrive chaque année dans le courant de janvier.",
+      "quellen": [
+        "sz_arth_hundesteuer"
+      ]
+    },
+    {
+      "titel": "Laisse",
+      "wert": "dans les cimetières d'Arth et de Goldau",
+      "text": "Dans les cimetières situés près des églises paroissiales d'Arth et de Goldau, les chiens doivent être tenus en laisse. C'est ce que prévoit l'art. 18 du Reglement über das Bestattungs- und Friedhofwesen (règlement sur les inhumations et les cimetières) du 26 août 2016. Les citoyens l'ont accepté le 21 mai 2017. S'y ajoute la règle du canton: laisse dans les installations publiques, sur les chemins publics et dans la circulation routière.",
+      "quellen": [
+        "sz_arth_friedhof",
+        "sz_arth_abstimmung",
+        "sz_hug"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "wert": "Gemeindekassieramt (caisse communale) et AMICUS",
+      "text": "Le Gemeindekassieramt, au Rathaus (hôtel de ville) d'Arth, est compétent pour l'impôt sur les chiens. La facture se fonde sur la banque de données sur les chiens AMICUS. Un changement de détenteur, un changement d'adresse, l'acquisition ou la mort d'un chien doivent y être inscrits sans délai. La commune publie aussi sur sa page des plans indiquant l'emplacement des conteneurs Robidog à Arth, Oberarth et Goldau.",
+      "quellen": [
+        "sz_arth_hundesteuer"
+      ]
+    }
+  ]
+}

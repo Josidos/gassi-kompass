@@ -1,0 +1,39 @@
+{
+  "id": "arth",
+  "kanton": "sz",
+  "bfs": 1362,
+  "uebersetzt_aus": "de",
+  "original": "87949fbf82e9",
+  "name": "Comune di Arth",
+  "ort": "Arth",
+  "in_ort": "ad Arth",
+  "einleitung": "Nel Comune di Arth, con Arth, Oberarth e Goldau, valgono le regole del Cantone di Svitto. Si aggiunge l'obbligo di guinzaglio nei due cimiteri.",
+  "karten": [
+    {
+      "titel": "Imposta sui cani",
+      "wert": "CHF 100, altro cane CHF 200",
+      "text": "Nel Comune di Arth l'imposta sui cani ammonta a CHF 100 all'anno. Per ogni altro cane nella stessa economia domestica sono CHF 200. Per un cane da utilità sono CHF 40, anche per ogni altro cane. Sono considerati cani da utilità i cani da tiro e i cani da conduzione del bestiame nell'agricoltura nonché i cani da caccia i cui detentori hanno staccato una patente di caccia l'anno precedente. Per un allevamento commerciale di cani sono CHF 500. La fattura arriva ogni anno nel corso di gennaio.",
+      "quellen": [
+        "sz_arth_hundesteuer"
+      ]
+    },
+    {
+      "titel": "Guinzaglio",
+      "wert": "nei cimiteri di Arth e Goldau",
+      "text": "Nei cimiteri presso le chiese parrocchiali di Arth e di Goldau i cani devono essere tenuti al guinzaglio. Lo prevede l'art. 18 del Reglement über das Bestattungs- und Friedhofwesen (regolamento sulle sepolture e sui cimiteri) del 26 agosto 2016. Gli aventi diritto di voto lo hanno accettato il 21 maggio 2017. Si aggiunge la regola del Cantone: guinzaglio negli impianti pubblici, sulle vie pubbliche e nel traffico stradale.",
+      "quellen": [
+        "sz_arth_friedhof",
+        "sz_arth_abstimmung",
+        "sz_hug"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "wert": "Gemeindekassieramt (cassa comunale) e AMICUS",
+      "text": "Per l'imposta sui cani è competente il Gemeindekassieramt nel Rathaus (municipio) di Arth. La fattura si basa sulla banca dati dei cani AMICUS. Cambio di detentore, cambio di indirizzo, acquisto o morte di un cane devono esservi iscritti senza indugio. Sulla sua pagina il Comune pubblica anche piani con l'ubicazione dei contenitori Robidog ad Arth, Oberarth e Goldau.",
+      "quellen": [
+        "sz_arth_hundesteuer"
+      ]
+    }
+  ]
+}

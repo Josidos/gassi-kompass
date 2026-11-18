@@ -1,0 +1,47 @@
+{
+  "id": "neuchatel",
+  "kanton": "ne",
+  "bfs": 6458,
+  "uebersetzt_aus": "fr",
+  "original": "5925836c310f",
+  "name": "Città di Neuchâtel",
+  "ort": "Neuchâtel",
+  "in_ort": "a Neuchâtel",
+  "hinweis_heute": "Nella città di Neuchâtel il guinzaglio è obbligatorio tutto l'anno nelle zone pedonali, sui viali delle Jeunes-Rives e nei giardini pubblici.",
+  "einleitung": "Il pieghevole «Mon chien en ville» della Città riassume le regole locali. Stato del pieghevole: 2022.",
+  "karten": [
+    {
+      "titel": "Guinzaglio",
+      "wert": "zone pedonali, Jeunes-Rives, giardini pubblici",
+      "text": "Il guinzaglio è obbligatorio nelle zone pedonali, sui viali delle Jeunes-Rives e nei giardini pubblici. Nel bosco è obbligatorio dal 15 aprile al 30 giugno. I cani mordaci devono essere tenuti al guinzaglio e portare la museruola. Stato del pieghevole: 2022. Stato del règlement de police (regolamento di polizia): 2015.",
+      "quellen": [
+        "ne_ville_chien",
+        "ne_ville_police"
+      ]
+    },
+    {
+      "titel": "Accesso vietato",
+      "wert": "campi sportivi e parchi giochi, cortili delle scuole, spiagge di giorno",
+      "text": "I cani non hanno accesso ai campi sportivi, ai parchi giochi, ai cortili delle scuole, alle superfici a prato e alle aiuole fiorite. Su diverse spiagge balneari l'accesso è vietato dalle 9 alle 22: Favarge, a ovest del Nid-du-Crô, Jeunes-Rives, quai Ostervald, quai Max-Petitpierre, spiaggia e piscina di Serrières. Questo divieto è sospeso dal 15 ottobre al 15 marzo. Stato del pieghevole: 2022.",
+      "quellen": [
+        "ne_ville_chien"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "wert": "all'Office de l'accueil et des quartiers",
+      "text": "Annunci il tuo cane all'Office de l'accueil et des quartiers (ufficio dell'accoglienza e dei quartieri) per ottenere il tuo numero Amicus. Lì annunci anche i cambiamenti: nuovo indirizzo, morte o donazione del cane. La Città invia poi ogni anno la fattura della tassa. Stato del pieghevole: 2022.",
+      "quellen": [
+        "ne_ville_chien"
+      ]
+    },
+    {
+      "titel": "Multe",
+      "wert": "fino a CHF 5000",
+      "text": "Le infrazioni al règlement de police sono punite con una multa fino a CHF 5000. Il regolamento vieta di lasciar vagare i cani e ti obbliga a impedire che il tuo cane faccia i suoi bisogni sulla via pubblica, in particolare sui percorsi pedonali, sulle passeggiate, nei parchi pubblici e nelle aree gioco. In caso contrario pulisci tu il posto. Un cane vagante viene catturato e messo in custodia (fourrière). Stato del regolamento: 2015.",
+      "quellen": [
+        "ne_ville_police"
+      ]
+    }
+  ]
+}
