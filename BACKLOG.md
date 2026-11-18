@@ -315,7 +315,46 @@ Ungefähr nach Grösse. Neue Kantone tragen hier ihre grössten Gemeinden ein.
 - [ ] Tessin, Karte Rassen, Liste: «Pastori belga» mit der Quelle vergleichen (aufgefallen 18.11.2026)
 - [ ] Glarus, Feld `wald`: `saison` ist `false`, die Leine gilt aber ganzjährig. Die Seite titelt «Keine Saisonregel im Wald». Titel oder Daten so anpassen, dass niemand «keine Pflicht» liest (aufgefallen in der Kette Übersetzungen, 18.11.2026)
 - [ ] Uri, Karte Unterwegs: «unschädlich machen» mit der Jagdverordnung vergleichen und klarer fassen (aufgefallen 18.11.2026)
-- [ ] Waadt und Genf französisch, `vergleich.wald`: Schreibweise «1.4 au 15.7» an «du 1.4. au 15.7.» angleichen. Danach sind die Übersetzungen veraltet und im selben Lauf nachzuführen (aufgefallen 18.11.2026)
+- [ ] Waadt, Genf und Neuenburg französisch, `vergleich.wald`: Schreibweise «1.4 au 15.7» an «du 1.4. au 15.7.» angleichen. Danach sind die Übersetzungen veraltet und im selben Lauf nachzuführen (aufgefallen 18.11.2026)
+
+### Aufgefallen beim Übersetzen (Kette Übersetzungen, 18.11.2026)
+
+Die Glieder der Kette haben jede Originalfassung Satz für Satz gelesen und notiert, was unklar oder uneinheitlich ist. Nichts davon ist ein belegter Fehler. Beim Nachprüfen der jeweiligen Datei mit der Quelle klären. Ändert sich dabei die Originalfassung, sind ihre Übersetzungen veraltet und im selben Lauf nachzuführen.
+
+- [ ] `data/fr-ch/kantone/ne.json`, Feld `vergleich.wald`: «15.4 au 30.6» ohne Punkt nach dem Monat, wie schon bei VD und GE gemeldet. Die Übersetzungen schreiben «15.4. bis 30.6.» und «dal 15.4. al 30.6.».
+- [ ] `data/fr-ch/kantone/ne.json`, Karte Annonce: «vous annoncez votre arrivée à votre commune de domicile» ist unklar (wessen Ankunft?). Übersetzt als «meldest du dich bei deiner Wohngemeinde». Beim Nachprüfen mit der Quelle vergleichen.
+- [ ] `data/kantone/bl.json`, Karte Hundesteuer: «landwirtschaftlicher Nebenhof» ist ein Begriff aus dem Gesetz ohne Erklärung. In den Übersetzungen steht er deutsch in Klammern hinter «ferme annexe» und «fattoria annessa».
+- [ ] `data/kantone/sz.json`, Karte Anmeldung: Marke «Pflicht» mit `ton: note`, bei BL, SO und TG steht dieselbe Marke mit `ton: must`.
+- [ ] `data/kantone/tg.json` und `data/kantone/gr.json`: Tausender verschieden geschrieben («CHF 5'000» und «CHF 20 000»).
+- [ ] `data/kantone/gl.json`, Karte Haftpflicht: im `wert` «innert 1 Monat» mit Ziffer, im Text «innert eines Monats» als Wort. Die Übersetzungen folgen dem Original.
+- [ ] `data/kantone/nw.json`, Karte Anmeldung: «spätestens drei Monate nach der Geburt» gilt wörtlich nur für Welpen. Für später übernommene Hunde nennt die Karte keine Frist.
+- [ ] `data/kantone/ur.json`, Karte Unterwegs: «unschädlich machen» ist unklar (erlegen?). Übersetzt als «mis hors d'état de nuire» und «resi inoffensivi». Beim Nachprüfen mit der Jagdverordnung vergleichen.
+- [ ] `data/kantone/zg.json`, Karten Haftpflicht, Kurs und Rassen: derselbe erste Satz steht dreimal auf der Seite.
+- [ ] `data/kantone/ai.json`, Feld `leine`, erster Punkt, und `wald`: «Alpzeit» ohne Daten. Wer die Seite liest, erfährt nicht, wann die Leinenpflicht auf den Alpen gilt. Der Satz dazu steht nur im Feld `leine`.
+- [ ] `data/kantone/ai.json`, Karte Anmeldung: Die Karte nennt keine Frist für die Meldung an den Bezirk und nennt die Hundedatenbank nicht beim Namen (andere Kantone: AMICUS).
+- [ ] `data/gemeinden/zh/adliswil.json`, Karte Gebühren: «erhebt die Stadt», die Einleitung nennt aber die Polizei Adliswil - Langnau am Albis als zuständig. Karte Anmeldung: `wert` mit «10», `text` mit «zehn».
+- [ ] `data/gemeinden/zh/buelach.json`, Karte Hundetaxe: «Danach wird die Gebühr höher, ausser der Hund ist neu» nennt keinen Betrag und sagt nicht, was «neu» heisst.
+- [ ] `data/gemeinden/zh/dietikon.json` und `data/gemeinden/zh/illnau-effretikon.json`, Karte «Entlaufener Hund»: «Vermittlung eines entlaufenen Hundes» ist unklar (Rückgabe an die Halterin oder Weitervermittlung?). Übersetzt als «restitution» und «riconsegna», also Rückgabe. Bei der nächsten Nachprüfung am Tarif klären.
+- [ ] `data/gemeinden/zh/illnau-effretikon.json`: alle drei Karten stammen aus derselben Quelle mit Stand 2019.
+- [ ] `data/gemeinden/zh/regensdorf.json` und `data/gemeinden/be/bern.json`, Karte Hundetaxe: kein Betrag. Bei Bern steht nur der Stichtag.
+- [ ] `data/fr-ch/gemeinden/fr/fribourg.json`, Karte «Laisse»: `wert` nennt «manifestations», der Text nicht.
+- [ ] `data/fr-ch/gemeinden/ge/geneve.json`, `freilaufzonen`: «promenade des Crêts» und «parc Bertrand» stehen in beiden Listen (eingezäunt und nicht eingezäunt). Der parc Liotard steht bei den Freilaufzonen und bei den Verboten, die Karte «Accès interdit» sagt das selbst. Mit der Quelle vergleichen.
+- [ ] `data/fr-ch/gemeinden/vs/sion.json`, Karte «Annonce»: «le passeport de l'animal avec son numéro AMICUS» lässt offen, ob die Nummer im Pass stehen muss oder zusätzlich vorzulegen ist.
+- [ ] `data/gemeinden/bl/allschwil.json`: Karte Hundetaxe spricht von «Hundegebühr». Karte Bussen schreibt «CHF 5'000», die anderen Dateien «CHF 5000».
+- [ ] `data/gemeinden/lu/luzern.json`: nur eine Karte (Bussen). Dort ist «CHF 100 bis 150 (Naturschutzgebiete)» unklar: Gilt der ganze Rahmen oder nur der obere Betrag für Naturschutzgebiete?
+- [ ] `data/gemeinden/tg/arbon.json`, Karte Anmeldung: Die Stadt nennt 10 und 14 Tage, die Karte sagt das offen. Bei der Nachprüfung klären.
+- [ ] `data/gemeinden/vs/brig-glis.json`, Karte Hundetaxe: `wert` «CHF 125 pro Jahr» ohne «pro Hund». Karte Leine: `wert` nennt «Brig, Glis, Gamsen und Brigerbad», der Text «Brig-Glis und Gamsen».
+- [ ] `data/it-ch/gemeinden/ti/lugano.json`: Karte «Imposta sui cani» spricht im Text von «tassa». Die Datei nennt die Freilaufzonen «aree per cani», die Wortliste des Handbuchs «area di svago per cani», und in der Karte «Guinzaglio» ist die «area di svago di Pian Casoro» ein Ort mit Leinenpflicht. Das kann man verwechseln.
+- [ ] `data/fr-ch/gemeinden/ne/neuchatel.json`: Die Karte «Annonce» spricht von «taxe», eine Karte zum Betrag fehlt. «Amicus» steht dort in Kleinbuchstaben, sonst überall «AMICUS».
+- [ ] `data/gemeinden/gl/glarus.json`, Karte Leine: Wald und Waldränder stehen ohne Jahreszeit. Mit `wald` in `data/kantone/gl.json` vergleichen.
+- [ ] `data/gemeinden/gr/chur.json`, Karte Leine: «in Gastwirtschaftsbetrieben» steht als Ort mit Leinenpflicht zwischen Anlagen der Stadt. Karte «Kein Zutritt»: Das Betretverbot für Wiesland steht ohne den Hinweis, ob es für Hunde oder für alle gilt.
+- [ ] `data/gemeinden/gr/landquart.json`, Karte Hundetaxe: «höchstens CHF 600, also für fünf Hunde». Der Zusatz ist eine eigene Rechnung, mit der Quelle vergleichen.
+- [ ] `data/gemeinden/ow/sarnen.json`, Karte Anmeldung: `wert` nennt die «Bevölkerungsdienste», der Text die «Einwohnerdienste». Karte Hundetaxe: «ab CHF 120 pro Hund» sagt nicht, wovon der höhere Betrag abhängt.
+- [ ] `data/gemeinden/sz/einsiedeln.json`: Die Steuersätze stammen aus einer Broschüre ohne Datum mit Sätzen ab 2012. Die Karte sagt das, die Zahl ist trotzdem alt.
+- [ ] `data/gemeinden/sz/kuessnacht.json`, Karte Hundetaxe: «Jeder weitere Hund kostet CHF 100 mehr als die Grundsteuer» lässt offen, ob das auch für Nutzhunde gilt (CHF 140) und ob es pro Hund weiter steigt. Arth, Einsiedeln und Schwyz nennen CHF 200.
+- [ ] `data/gemeinden/sz/schwyz.json`, Karte «Änderungen melden»: `wert` schreibt «10 Tagen», der Text «zehn Tagen». Einsiedeln schreibt «zehn», Küssnacht «10».
+- [ ] `data/gemeinden/tg/kreuzlingen.json`, Karte Anmeldung: Broschüre 10 Tage, Website 30 Tage. Die Karte sagt das offen. Bei der Nachprüfung klären.
+- [ ] Schreibweisen in allen Originalfassungen vereinheitlichen: Tausender («CHF 5'000», «CHF 20 000», «CHF 5000»), «mind.» und «mindestens», «Mio.» und «Millionen», Ziffer oder Zahlwort im selben Feld. In den Tabellen der Themenseiten stehen die Kantone untereinander, dort fällt es auf.
 
 ## 5. Umbauten am Generator
 

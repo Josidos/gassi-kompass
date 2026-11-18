@@ -2,9 +2,10 @@
   "id": "ow",
   "kurz": "OW",
   "uebersetzt_aus": "de",
-  "original": "6a89b3ec36e8",
+  "original": "280a3fff2d68",
   "wald": {
     "saison": false,
+    "titel": "Laisse en forêt : selon la commune",
     "text": "Le droit cantonal ne prévoit pas de période de laisse en forêt. Selon l'Amt für Wald und Landschaft (office des forêts et du paysage), la laisse est toutefois obligatoire dans tout Obwald, sauf dans la commune d'Alpnach, dans toutes les forêts et le long de celles-ci (état de la communication : 2022). Elle est réglée dans les Hundeverordnungen (ordonnances sur les chiens) des communes, qui indiquent aussi la période. Un exemple : à Sarnen, elle vaut de la mi-décembre à la fin juin (état de l'ordonnance : 2009).",
     "quellen": [
       "ow_leine_2022",

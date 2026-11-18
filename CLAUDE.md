@@ -53,7 +53,7 @@ Muster: `data/kantone/zh.json`.
 - `id`: Dateiname und Adresse, zum Beispiel `zh`
 - `name` («Kanton Zürich»), `kurz` («ZH», immer das Kürzel in Grossbuchstaben), `im` («im Kanton Zürich»), `des` («des Kantons Zürich»)
 - `geprueft`: Datum JJJJ-MM-TT, an dem alle Angaben der Datei zuletzt mit den Quellen abgeglichen wurden
-- `wald`: mit Saison `{"saison": true, "von": "04-01", "bis": "07-31", "wo": "im Wald und bis 50 m ab Waldrand", "quellen": [...]}`, ohne Saison `{"saison": false, "text": "...", "quellen": [...]}`
+- `wald`: mit Saison `{"saison": true, "von": "04-01", "bis": "07-31", "wo": "im Wald und bis 50 m ab Waldrand", "quellen": [...]}`, ohne Saison `{"saison": false, "text": "...", "quellen": [...]}`. Ohne Saison gibt es zwei Zusätze. `"ganzjaehrig": true`, wenn die Leine im Wald das ganze Jahr Pflicht ist: Die Seite titelt dann «Leinenpflicht im Wald das ganze Jahr» und markiert den ganzen Jahresbalken. `"titel": "..."` für eine eigene kurze Überschrift statt «Keine feste Leinenzeit im Wald», wenn diese falsch verstanden würde (Obwalden: «Leinenpflicht im Wald: je nach Gemeinde»). Die Überschrift darf nie weniger streng klingen als der Text darunter.
 - `leine` und `verbot`: `{"punkte": [...], "quellen": [...]}`, bei `verbot` wahlweise `einleitung`
 - `karten`: genau sechs Karten mit den Titeln Haftpflicht, Kurs, Anmeldung, Hundesteuer, Rassen, Unterwegs, in dieser Reihenfolge (französisch und italienisch: siehe «Französische und italienische Daten»). `build.py` erzwingt das je Sprache, weil die Themenseiten über die Position auf die Karten zugreifen. Jede Karte: `titel`, `marke`, `ton`, `wert`, `text`, `quellen`, wahlweise `mehr: {"titel", "punkte"}`.
 - `ton`: `must` für Pflicht oder Verbot, `none` für «keine Pflicht», `note` für eine neutrale Angabe. Die Themenseiten Haftpflicht, Kurs und Rassen zählen die Kantone mit `must`. Dort `must` nur setzen, wenn die Pflicht allgemein gilt (Haftpflicht und Kurs) oder es eine Liste mit Bewilligung oder Verbot gibt (Rassen).
@@ -195,7 +195,7 @@ Entscheid von Joss vom 18. November 2026: Wer in der Schweiz wohnt, soll die Reg
 - **Gleicher Aufbau.** Eine Übersetzung hat dieselben Felder wie ihre Originalfassung, in jeder Liste gleich viele Einträge in derselben Reihenfolge und dieselben Werte in `id`, `kanton`, `kurz`, `bfs`, `ton`, `saison`, `von`, `bis` und in allen Quellenlisten. Sie braucht keine eigene Recherche und keine neuen Quellen.
 - **Was die Übersetzung nicht enthält:** `geprueft` (der Generator nimmt das Prüfdatum der Originalfassung) und bei Kantonen `name`, `im`, `des` (der Generator setzt sie aus `kantonsformen()` in `build.py` ein: «Canton de Zurich», «dans le canton de Zurich», «du canton de Zurich», «Cantone di Zurigo», «Kanton Waadt»).
 - **Zahlen bleiben Ziffern.** Jeder Betrag, jedes Datum, jede Frist, jeder Abstand und jede Artikelnummer steht in der Übersetzung mit denselben Ziffern wie im Original, im Format der Zielsprache («1er avril», «1° aprile», «CHF 120»). `build.py` vergleicht die Zahlen Feld für Feld und meldet jede Abweichung als Fehler. Darum: Steht im Original eine Ziffer, steht sie auch in der Übersetzung («1 Jahr» wird «1 an», nicht «un an»). Steht im Original ein Zahlwort, bleibt es ein Zahlwort. Ein Datum in Ziffern bleibt in Ziffern («1.4. bis 31.7.» wird «du 1.4. au 31.7.» oder «dal 1.4. al 31.7.»).
-- **Eigennamen.** Namen von Gesetzen, Verordnungen, Reglementen, Ämtern und amtlichen Listen bleiben in der Originalsprache. Beim ersten Vorkommen darf eine kurze Übersetzung in Klammern folgen: «selon le Hundegesetz (loi sur les chiens)», «Stadtpolizei Zürich (police municipale)». Namen von Hunderassen bleiben, wie sie sind. Kantone heissen wie in `KANTONSNAMEN`. Orte behalten den amtlichen Namen, ausser die Zielsprache hat einen gebräuchlichen eigenen (Zurich, Zurigo, Bâle, Basilea, Lucerne, Lucerna, Saint-Gall, San Gallo, Coire, Coira, Berne, Berna, Genf, Ginevra, Neuenburg, Freiburg, Friburgo, Sitten, Soleure, Soletta, Schaffhouse, Sciaffusa). Im Zweifel der amtliche Name.
+- **Eigennamen.** Namen von Gesetzen, Verordnungen, Reglementen, Ämtern und amtlichen Listen bleiben in der Originalsprache. Beim ersten Vorkommen darf eine kurze Übersetzung in Klammern folgen: «selon le Hundegesetz (loi sur les chiens)», «Stadtpolizei Zürich (police municipale)». Namen von Hunderassen bleiben, wie sie sind. Kantone heissen wie in `KANTONSNAMEN`. Orte behalten den amtlichen Namen, ausser die Zielsprache hat einen gebräuchlichen eigenen (Zurich, Zurigo, Bâle, Basilea, Lucerne, Lucerna, Saint-Gall, San Gallo, Coire, Coira, Berne, Berna, Genf, Ginevra, Neuenburg, Freiburg, Friburgo, Sitten, Soleure, Soletta, Schaffhouse, Sciaffusa, Winterthour). Heisst eine Gemeinde wie ihr Kanton, heisst sie wie in `KANTONSNAMEN` (Glaris, Glarona, Schwytz, Svitto, Zoug, Zugo). Im Zweifel der amtliche Name.
 - **Gemeinden:** `name`, `ort` und `in_ort` stehen in der Zielsprache, so wie die Originalfassungen dieser Sprache sie schreiben: «Ville de Zurich», «Zurich», «à Zurich». «Città di Zurigo», «Zurigo», «a Zurigo». «Stadt Lausanne», «Lausanne», «in Lausanne». Die Kartentitel folgen den üblichen Titeln der Zielsprache (siehe «Französische und italienische Daten»), bei Kantonen den sechs festen Titeln.
 - **Sprache.** Übersetze den Sinn Satz für Satz, ohne etwas wegzulassen, zu ergänzen oder zu verschärfen. Aus «kann» wird nie «muss». Französisch mit «vous», Italienisch mit «tu», Deutsch mit «du» und Schweizer Rechtschreibung. Kurze Sätze wie im Original. `wald.wo` muss in die festen Sätze der Zielsprache passen: «Gilt jedes Jahr {wo}», «S'applique chaque année {wo}», «Vale ogni anno {wo}».
 - **Wortwahl**, damit alle Seiten gleich klingen:
@@ -221,6 +221,21 @@ Entscheid von Joss vom 18. November 2026: Wer in der Schweiz wohnt, soll die Reg
   | Busse | amende | multa |
   | Pflicht, keine Pflicht (Marke) | Obligatoire, Pas d'obligation | Obbligo, Nessun obbligo |
   | Gemeinde, Kanton, Bund | commune, canton, Confédération | Comune, Cantone, Confederazione |
+  | Listenhunde | chiens de la liste | cani dell'elenco |
+  | potenziell gefährliche Hunde | chiens potentiellement dangereux | cani potenzialmente pericolosi |
+  | bewilligungspflichtig | soumis à autorisation | soggetto ad autorizzazione |
+  | Halteberechtigung | autorisation de détention | autorizzazione di detenzione |
+  | Ordnungsbusse | amende d'ordre | multa disciplinare |
+  | Wesenstest, Wesensprüfung | test de comportement | test caratteriale |
+  | Sachkundenachweis | attestation de compétences | attestato di competenza |
+  | Wildruhezone, Wildruhegebiet | zone de tranquillité pour la faune | zona di tranquillità per la selvaggina |
+  | Jagdbanngebiet | district franc fédéral | bandita federale di caccia |
+  | Nutzhund, Hofhund | chien d'utilité, chien de ferme | cane da utilità, cane da fattoria |
+  | Gebühr | émolument | tassa |
+  | Merkblatt | notice | promemoria |
+  | Ersthaltende | personnes qui détiennent un chien pour la première fois | chi detiene un cane per la prima volta |
+
+  Weitere Entscheide zur Wortwahl stehen in den Einträgen der «Kette Übersetzungen» vom 18. November 2026 in `CHANGELOG.md`. Wer übersetzt, liest sie zuerst.
 
 - **Muster:** `data/fr-ch/kantone/zh.json`, `data/it-ch/kantone/zh.json`, `data/fr-ch/gemeinden/zh/zuerich.json` und `data/it-ch/gemeinden/zh/zuerich.json`, jeweils neben der Originalfassung unter `data/kantone/` und `data/gemeinden/` zu lesen. Für die Wortwahl im Französischen und Italienischen zusätzlich eine Originalfassung dieser Sprache (`data/fr-ch/kantone/vd.json`, `data/it-ch/kantone/ti.json`).
 - **Kennzeichnung.** Der Generator setzt unter den Titel jeder übersetzten Seite den Hinweis, dass sie eine Übersetzung ist und in welcher Sprache die amtlichen Quellen sind, mit Link zur Originalfassung. Die Namen der Quellen bleiben in der Originalsprache.

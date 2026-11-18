@@ -2,6 +2,15 @@
 
 Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen.
 
+## 2026-11-18, Sitzung mit Joss: Leinenpflicht im Wald das ganze Jahr, Abschluss der Kette
+
+- Geändert, Glarus (gemeldet von Glied 3 der Kette): Die Seite titelte «Keine Saisonregel im Wald», obwohl die Leine im Wald das ganze Jahr Pflicht ist. Neu gibt es im Feld `wald` den Zusatz `ganzjaehrig`: Die Seite titelt «Leinenpflicht im Wald das ganze Jahr» und markiert den ganzen Jahresbalken. Die Angabe selbst ist unverändert.
+- Geändert, Obwalden: eigene Überschrift «Leinenpflicht im Wald: je nach Gemeinde» (neues Feld `wald.titel`), weil dort in und entlang von fast allen Wäldern eine Leinenpflicht gilt, die die Gemeinden regeln.
+- Geändert, alle Kantone ohne feste Leinenzeit: Überschrift «Keine feste Leinenzeit im Wald» statt «Keine Saisonregel im Wald». Die Themenseite «Leinenpflicht im Wald» zählt jetzt auch die Kantone mit Leinenpflicht das ganze Jahr.
+- Nachgeführt: die französischen und italienischen Übersetzungen von Glarus und Obwalden.
+- Kette Übersetzungen: in 7 Gliedern erledigt (12:13 bis 13:50 Uhr). 134 Übersetzungen, dazu 4 aus der Probe. Jede der 26 Kantons- und 45 Gemeindeseiten gibt es auf Deutsch, Französisch und Italienisch. Stichproben mit der Originalfassung verglichen: Waadt deutsch (ganz), Bern italienisch, Luzern französisch, Winterthur französisch, Lausanne deutsch. Keine Abweichung im Sinn gefunden.
+- Backlog, Abschnitt 4: was den Gliedern beim Übersetzen in den Originalfassungen aufgefallen ist, als eigene Liste. Handbuch: Wortliste um die Entscheide der Kette ergänzt.
+
 ## 2026-11-18, Kette Übersetzungen, Glied 7: Übersetzungen der Gemeinden, letzte Portion
 
 - Neu, 28 Übersetzungen für 14 Gemeinden: Kreuzlingen, Chur, Davos, Landquart, Basel, Arth, Einsiedeln, Küssnacht, Schwyz, Schaffhausen, Glarus, Sarnen und Silenen französisch und italienisch, Neuchâtel deutsch und italienisch. Je Sprache: 13 französisch, 14 italienisch, 1 deutsch.

@@ -7,6 +7,7 @@
   "geprueft": "2026-11-17",
   "wald": {
     "saison": false,
+    "ganzjaehrig": true,
     "text": "Im Kanton Glarus gilt die Leinenpflicht im Wald das ganze Jahr. Alle Hunde sind im Wald und den Waldrändern entlang an der Leine zu führen oder angebunden zu halten. Ausgenommen sind Jagdhunde während der Jagdzeit, Treiberhunde bei Viehtreiberdiensten und anerkannte Gebrauchshunde, soweit Ausbildung oder Einsatz es unerlässlich machen.",
     "quellen": [
       "gl_jagdv"

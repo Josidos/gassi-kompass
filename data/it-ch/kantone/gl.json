@@ -2,9 +2,10 @@
   "id": "gl",
   "kurz": "GL",
   "uebersetzt_aus": "de",
-  "original": "d882ae0fc9c9",
+  "original": "9c0794bc39e1",
   "wald": {
     "saison": false,
+    "ganzjaehrig": true,
     "text": "Nel Cantone di Glarona l'obbligo di guinzaglio nel bosco vale tutto l'anno. Tutti i cani vanno tenuti al guinzaglio o legati nel bosco e lungo i margini del bosco. Fanno eccezione i cani da caccia durante il periodo di caccia, i cani da conduzione durante gli spostamenti del bestiame e i cani da utilità riconosciuti, per quanto la formazione o l'impiego lo rendano indispensabile.",
     "quellen": [
       "gl_jagdv"

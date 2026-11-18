@@ -122,7 +122,7 @@ def kantonsformen(lang, kid):
 KANTONE_GROESSE = ["zh", "be", "vd", "ag", "sg", "ge", "lu", "ti", "vs", "fr", "bl", "so", "tg", "gr",
                    "bs", "ne", "sz", "zg", "sh", "ju", "ar", "nw", "gl", "ow", "ur", "ai"]
 # Übersetzungen: Diese Felder sind in jeder Sprache gleich, alle anderen Texte werden übersetzt.
-GLEICH = {"id", "kanton", "kurz", "bfs", "ton", "saison", "von", "bis"}
+GLEICH = {"id", "kanton", "kurz", "bfs", "ton", "saison", "ganzjaehrig", "von", "bis"}
 TAUSENDER = re.compile(r"(?<=\d)['’\u00a0\u202f ](?=\d{3}(?!\d))")
 # Andere Schreibweisen grosser Orte für die Suche: so getippt (klein, ohne Akzente) -> amtlicher Gemeindename
 ANDERE_NAMEN = {
@@ -173,7 +173,10 @@ TEXTE = {
         "wald_text": "Gilt jedes Jahr {wo}. Ausserhalb dieser Zeit muss dein Hund trotzdem unter Kontrolle bleiben, und Schilder vor Ort gehen vor.",
         "wald_unter": "Markiert: Leinenpflicht im Wald, {von} bis {bis}",
         "wald_aria": "Jahresbalken: Leinenpflicht im Wald vom {von} bis {bis}.",
-        "wald_ohne_gross": "Keine Saisonregel im Wald",
+        "wald_ohne_gross": "Keine feste Leinenzeit im Wald",
+        "wald_immer_gross": "Leinenpflicht im Wald das ganze Jahr",
+        "wald_immer_unter": "Markiert: Leinenpflicht im Wald, das ganze Jahr",
+        "wald_immer_aria": "Jahresbalken: Leinenpflicht im Wald das ganze Jahr.",
         "wald_ohne_unter": "Keine saisonale Leinenpflicht {im}",
         "wald_ohne_aria": "Jahresbalken ohne saisonale Leinenpflicht.",
         "heute": {
@@ -264,10 +267,12 @@ TEXTE = {
             "alle": "alle Kantone",
             "wald_zahl": "In {m} der {n} Kantone gilt im Wald eine Leinenpflicht zu festen Daten{zeit}.",
             "wald_zeit": ", überall vom {von} bis {bis}",
-            "wald_rest": " Bei den übrigen gelten andere Regeln, zum Beispiel eine Leinenpflicht das ganze Jahr oder Regeln der Gemeinden. Sie stehen beim Kanton.",
+            "wald_immer_zahl": " Das ganze Jahr gilt sie in {g} der {n} Kantone.",
+            "wald_immer_wert": "Das ganze Jahr",
+            "wald_rest": " Bei den übrigen nennt das kantonale Recht keine feste Leinenzeit. Was dort gilt, zum Beispiel Regeln der Gemeinden, steht beim Kanton.",
             "wald_wert": "{von} bis {bis}",
             "wald_text": "Leinenpflicht jedes Jahr {wo}.",
-            "wald_ohne": "keine Saison"
+            "wald_ohne": "keine feste Zeit"
         },
         "themen": {
             "leinenpflicht-wald": {
@@ -366,6 +371,9 @@ TEXTE = {
         "wald_unter": "En couleur : laisse obligatoire en forêt, du {von} au {bis}",
         "wald_aria": "Barre annuelle : laisse obligatoire en forêt du {von} au {bis}.",
         "wald_ohne_gross": "Pas de période fixe en forêt",
+        "wald_immer_gross": "Laisse obligatoire en forêt toute l'année",
+        "wald_immer_unter": "En couleur : laisse obligatoire en forêt, toute l'année",
+        "wald_immer_aria": "Barre annuelle : laisse obligatoire en forêt toute l'année.",
         "wald_ohne_unter": "Pas de laisse obligatoire saisonnière {im}",
         "wald_ohne_aria": "Barre annuelle sans laisse obligatoire saisonnière.",
         "heute": {
@@ -456,7 +464,9 @@ TEXTE = {
             "alle": "tous les cantons",
             "wald_zahl": "Dans {m} des {n} cantons, la laisse est obligatoire en forêt à des dates fixes{zeit}.",
             "wald_zeit": ", partout du {von} au {bis}",
-            "wald_rest": " Dans les autres, d'autres règles s'appliquent, par exemple la laisse toute l'année ou des règles communales. Elles figurent sur la page du canton.",
+            "wald_immer_zahl": " Elle vaut toute l'année dans {g} des {n} cantons.",
+            "wald_immer_wert": "Toute l'année",
+            "wald_rest": " Dans les autres, le droit cantonal ne fixe pas de période. Ce qui s'y applique, par exemple des règles communales, figure sur la page du canton.",
             "wald_wert": "du {von} au {bis}",
             "wald_text": "Laisse obligatoire chaque année {wo}.",
             "wald_ohne": "pas de période"
@@ -558,6 +568,9 @@ TEXTE = {
         "wald_unter": "Evidenziato: obbligo di guinzaglio nel bosco, {dal_von} {al_bis}",
         "wald_aria": "Barra annuale: obbligo di guinzaglio nel bosco {dal_von} {al_bis}.",
         "wald_ohne_gross": "Nessun periodo fisso nel bosco",
+        "wald_immer_gross": "Obbligo di guinzaglio nel bosco tutto l'anno",
+        "wald_immer_unter": "Evidenziato: obbligo di guinzaglio nel bosco, tutto l'anno",
+        "wald_immer_aria": "Barra annuale: obbligo di guinzaglio nel bosco tutto l'anno.",
         "wald_ohne_unter": "Nessun obbligo stagionale di guinzaglio {im}",
         "wald_ohne_aria": "Barra annuale senza obbligo stagionale di guinzaglio.",
         "heute": {
@@ -648,7 +661,9 @@ TEXTE = {
             "alle": "tutti i Cantoni",
             "wald_zahl": "In {m} dei {n} Cantoni vale nel bosco un obbligo di guinzaglio a date fisse{zeit}.",
             "wald_zeit": ", ovunque {dal_von} {al_bis}",
-            "wald_rest": " Negli altri valgono altre regole, per esempio il guinzaglio tutto l'anno o regole comunali. Si trovano sulla pagina del Cantone.",
+            "wald_immer_zahl": " Vale tutto l'anno in {g} dei {n} Cantoni.",
+            "wald_immer_wert": "Tutto l'anno",
+            "wald_rest": " Negli altri il diritto cantonale non fissa un periodo. Ciò che vale lì, per esempio regole comunali, si trova sulla pagina del Cantone.",
             "wald_wert": "{dal_von} {al_bis}",
             "wald_text": "Obbligo di guinzaglio ogni anno {wo}.",
             "wald_ohne": "nessun periodo"
@@ -1005,6 +1020,10 @@ def pruefe(quellen, welt, bund, orte):
                     fehler.append(f"{wo}, wald: 'wo' fehlt")
             elif not w.get("text"):
                 fehler.append(f"{wo}, wald: ohne Saison braucht es 'text'")
+            if "ganzjaehrig" in w and (w.get("saison") or w["ganzjaehrig"] is not True):
+                fehler.append(f"{wo}, wald: 'ganzjaehrig' gibt es nur als true und nur mit 'saison': false")
+            if "titel" in w and (w.get("saison") or w.get("ganzjaehrig") or not str(w["titel"]).strip()):
+                fehler.append(f"{wo}, wald: 'titel' gibt es nur ohne Saison und ohne 'ganzjaehrig'")
             for teil in ("leine", "verbot"):
                 if not k[teil].get("punkte"):
                     fehler.append(f"{wo}, {teil}: 'punkte' fehlt")
@@ -1210,6 +1229,7 @@ def wald(k, Q, benutzt, hinweis=None):
     # Texte für assets/heute.js: Datum, Markierung «heute» und der Tagesstatus in der Sprache der Seite
     js = {key: S["heute"][key] for key in ("heute", "datum", "punkt", "erster")}
     js["mon"], js["wt"] = S["monate"], S["wochentage"]
+    klasse = ""
     if w.get("saison"):
         d = daten_wald(w)
         links = tag_im_jahr(w["von"]) / 365 * 100
@@ -1224,9 +1244,14 @@ def wald(k, Q, benutzt, hinweis=None):
             js[key] = S["heute"][key]
         js["in_text"] = S["heute"]["in_text"].format(**d)
         js["aus_text"] = S["heute"]["aus_text"].format(**d)
+    elif w.get("ganzjaehrig"):  # Leinenpflicht im Wald das ganze Jahr: der Balken ist ganz markiert
+        band = f'<div class="band" style="left:0;width:100%"><span>{S["wald_band"]}</span></div>'
+        attrs, klasse = ' data-saison="0"', " must"
+        gross, text = S["wald_immer_gross"], w["text"]
+        unter, aria = S["wald_immer_unter"], S["wald_immer_aria"]
     else:
         band, attrs = "", ' data-saison="0"'
-        gross, text = S["wald_ohne_gross"], w["text"]
+        gross, text = w.get("titel") or S["wald_ohne_gross"], w["text"]
         unter = S["wald_ohne_unter"].format(im=k["im"])
         aria = S["wald_ohne_aria"]
     attrs += f' data-texte="{e(json.dumps(js, ensure_ascii=False, separators=(",", ":")))}"'
@@ -1235,7 +1260,7 @@ def wald(k, Q, benutzt, hinweis=None):
             f'<div class="today-head"><span class="eyebrow">{S["wald_kopf"]} · {e(k["name"])}</span>'
             '<span class="today-date" data-heute-datum></span></div>'
             '<div class="today-body"><div class="today-status">'
-            f'<p class="big" data-heute-gross>{e(gross)}</p><p data-heute-text>{e(text)}</p>{note}'
+            f'<p class="big{klasse}" data-heute-gross>{e(gross)}</p><p data-heute-text>{e(text)}</p>{note}'
             f'{qlinks(w["quellen"], Q, benutzt)}</div>'
             f'<div class="bar" role="img" aria-label="{e(aria)}">'
             f'<div class="track" style="grid-template-columns:{spalten}">{zellen}{band}</div>'
@@ -1655,8 +1680,11 @@ def seite_thema(t, Q):
         if len(saison) > 1 and len(zeiten) == 1:
             von, bis = next(iter(zeiten))
             zeit = T["wald_zeit"].format(**daten_wald({"von": von, "bis": bis, "wo": ""}))
+        immer = sum(1 for k in kantone if k["wald"].get("ganzjaehrig"))
         zahl = T["wald_zahl"].format(m=len(saison), n=n, zeit=zeit)
-        if len(saison) < n:
+        if immer:
+            zahl += T["wald_immer_zahl"].format(g=immer, n=n)
+        if len(saison) + immer < n:
             zahl += T["wald_rest"]
     elif t.get("zaehlt"):
         zahl = tt["pflicht"].format(m=sum(1 for k in kantone if k["karten"][t["karte"]]["ton"] == "must"), n=n)
@@ -1671,8 +1699,11 @@ def seite_thema(t, Q):
                 wert = T["wald_wert"].format(**d)
                 c = {"marke": S["wald_band"], "ton": "must", "wert": wert[0].upper() + wert[1:],
                      "text": T["wald_text"].format(**d)}
+            elif w.get("ganzjaehrig"):
+                c = {"marke": S["wald_band"], "ton": "must", "wert": T["wald_immer_wert"], "text": w["text"]}
             else:
-                c = {"marke": T["wald_ohne"], "ton": "none", "wert": S["wald_ohne_gross"], "text": w["text"]}
+                c = {"marke": T["wald_ohne"], "ton": "none", "wert": w.get("titel") or S["wald_ohne_gross"],
+                     "text": w["text"]}
             c["quellen"] = w["quellen"]
         else:
             c = dict(k["karten"][t["karte"]])

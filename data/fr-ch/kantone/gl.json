@@ -2,9 +2,10 @@
   "id": "gl",
   "kurz": "GL",
   "uebersetzt_aus": "de",
-  "original": "d882ae0fc9c9",
+  "original": "9c0794bc39e1",
   "wald": {
     "saison": false,
+    "ganzjaehrig": true,
     "text": "Dans le canton de Glaris, la laisse est obligatoire en forêt toute l'année. Tous les chiens doivent être tenus en laisse ou attachés en forêt et le long des lisières. Font exception les chiens de chasse pendant la période de chasse, les chiens de conduite lors du déplacement du bétail et les chiens d'utilité reconnus, dans la mesure où la formation ou l'engagement le rendent indispensable.",
     "quellen": [
       "gl_jagdv"
