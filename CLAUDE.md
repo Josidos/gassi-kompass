@@ -121,6 +121,8 @@ Obergrenzen pro Lauf: höchstens **4 Dateien nachprüfen**, dazu entweder **1 ne
 
 Soll viel auf einmal entstehen, arbeiten mehrere Läufe gleichzeitig. Jeder hat genau einen Auftrag: einen Kanton samt seiner grössten Gemeinde, bis zu vier Gemeinden, Lücken einer bestehenden Seite oder eine Gegenprüfung. Der Auftrag steht in der Nachricht, die den Lauf auslöst, und hat einen Namen wie `so`, `gemeinden-zh-1` oder `pruefung-so`. Die Qualitätsregeln gelten unverändert. Damit sich zwei Läufe nie dieselbe Datei teilen, gilt:
 
+Parallel-Läufe startet nur Claude in einer Sitzung mit Joss und nur nach seinem Entscheid, weil sie deutlich mehr Guthaben kosten. Der automatische Lauf startet nie welche. Erfahrung aus der Nacht auf den 18. November 2026: Das Konto hat eine Nutzungsgrenze. Ist sie erreicht, brechen alle Läufe mitten in der Arbeit ab, und was nicht veröffentlicht ist, geht verloren. Darum höchstens fünf Staffeln gleichzeitig, jede mit einer Schluss-Zeit, und jedes fertige Stück wird sofort veröffentlicht.
+
 ### Für den Parallel-Lauf
 
 - Nur den Auftrag erledigen. Kein Nachprüfen, kein Einsammeln, nichts Weiteres aus dem Backlog.

@@ -2,6 +2,151 @@
 
 Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen.
 
+## 2026-11-18, Hauptsitzung: Schlusskontrolle der Nacht
+
+- Verlauf: Am 17. November um 23:02 Uhr und in der Nacht um etwa 00:33 Uhr erreichte das Konto die Nutzungsgrenze. Beide Male brachen alle Läufe in der Cloud mitten in der Arbeit ab. Die Parallel-Läufe von 22:52 bis 23:02 Uhr lieferten nichts. Von 23:52 bis 00:33 Uhr arbeiteten bis zu acht Staffeln und die Nachtkette. Seit 00:33 Uhr hat kein Lauf mehr veröffentlicht, die Kette endete mit Glied 8.
+- Stand: 18 Kantone mit deutscher Seite, 36 Gemeinden, 6 Themenseiten, 63 Seiten in der Sitemap. Daten ohne Seite, bis der Sonderlauf Mehrsprachigkeit gebaut ist: Waadt, Genf, Neuenburg, Tessin, die französischen Fassungen von Bern und Freiburg sowie Lausanne, Genève, Neuchâtel, Fribourg und Lugano.
+- Offen bei den Kantonen: Obwalden (Entwurf), Uri, Wallis, Jura.
+- Nicht geliefert und im Backlog wieder offen: Uri, Wallis, Jura, die Berner Gemeinden, die Gemeinden der Aufträge `ag-1`, `sg-1`, `bl-1` und `bs-1`, die Gegenprüfung Solothurn und die Lücken aus Abschnitt 4 zu AG, SG, BS, ZH, BE und LU.
+- Eingesammelt: neun Protokolle, siehe die folgenden Einträge. In `data/protokoll/auftraege.md` ist nichts mehr vergeben.
+- Stichproben gegen die amtlichen Quellen, je vier Angaben, alle bestätigt. Kanton Solothurn: Leinenpflicht im Wald vom 1. April bis 31. Juli, Hundesteuer CHF 35 für den Kanton und CHF 50 bis 200 für die Gemeinde, Haftpflicht ohne Mindestsumme, Meldung ab drei Monaten. Kanton Glarus: Hundetaxe CHF 55 ab dem sechsten Lebensmonat, Police innert eines Monats ans Einwohneramt, zehn Rassen mit Bewilligung, Gesuch spätestens 14 Tage nach der Übernahme. Kanton Schaffhausen: Haftpflicht mindestens CHF 1 Mio., Hundeabgabe CHF 100 bis 200, Leinenpflicht vom 15. April bis 30. Juni, Bewilligung vor der Anschaffung.
+- Geändert, `build.py`: `geprueft` wird neu mit dem Schweizer Datum verglichen. Bisher lehnte der Build zwischen Mitternacht und 01:00 Uhr das neue Datum als Zukunft ab, weil die Läufe in UTC rechnen.
+- Die Nachtkette ist abgeschaltet. Es läuft nur noch der tägliche Lauf um 08:23 Uhr.
+- Nicht gelungen: nichts.
+
+## 2026-11-18, Parallel-Lauf `ow`, eingesammelt in der Hauptsitzung
+
+- Abschnitt 3, weitere Gemeinden, sobald der Kanton steht: Sarnen, Kerns, Alpnach, Sachseln, Engelberg. Die Leinenpflicht im Wald steht in den Hundeverordnungen der Gemeinden, Alpnach hat laut Kanton keine.
+- Abschnitt 4, Lücken OW: Zeitraum und Abstand der Leinenpflicht im Wald je Gemeinde. Nummern und Namen der Wildruhezonen 1 bis 7. Aktuelle Liste der Naturschutzzonen mit Leinenpflicht.
+
+## 2026-11-18, Parallel-Lauf `be-fr`, eingesammelt in der Hauptsitzung
+
+- Der Lauf startete zuerst ohne Zusatznachricht und endete. Die Nachricht traf danach ein, die Arbeit begann um 00:25 Uhr, Schluss war 00:45 Uhr. Deshalb nur die Kantonsdatei.
+- Neu: Kanton Bern französisch (`data/fr-ch/kantone/be.json`), zwei Quellen in `data/quellen/be-fr.json`, beide in diesem Lauf abgerufen. Die deutsche Datei `data/kantone/be.json` ist unverändert. Geprüft über eine vorübergehende Kopie unter `data/kantone/`.
+- `geprueft` steht auf 2026-11-17 wie bei `vd-fr` und `ne-fr`.
+- Belegt aus der französischen Broschüre des Veterinärdienstes (Juli 2022): Haftpflicht CHF 3 Mio., Orte mit Leinenpflicht, höchstens drei Hunde über vier Monate, Aufsicht, Kot, AMICUS, keine Rasseliste, kein Kursobligatorium. Aus der Änderung der OCE vom 17. Mai 2017 (Art. 13, 13a): Wohngemeinde als Registrierstelle, Hundetaxe wird von den Gemeinden erhoben.
+- Unsicherheit: WebFetch gab die Broschüre nur zusammengefasst wieder, nicht im Wortlaut. Die OCE wurde nur als Änderungserlass von 2017 gelesen, nicht in der geltenden Fassung.
+- Weggelassen: der Entscheid des Grossen Rates von 2023 zur Leinenpflicht im Wald (keine französische Quelle abgerufen), Befreiungen von der Hundetaxe (die französische Fassung der Loi sur les chiens, RSB 916.31, liess sich nicht abrufen: be.lexwork.naz.ch/fr wurde von WebFetch abgelehnt), Bussenbeträge (gefunden nur in der OCAO mit Stand 1. Januar 2018, lexfind.ch/tolv/119581/fr: Leine CHF 100, Kot CHF 150, zu alt für eine Angabe), Feld `umzug`.
+- Nicht gelungen: Biel/Bienne französisch. Zwei Suchen auf biel-bienne.ch brachten nur Budgets und Rechnungen, keine Seite zu Hunden. Keine Datei angelegt.
+
+## 2026-11-18, Parallel-Lauf `ge-fr`, eingesammelt in der Hauptsitzung
+
+- Neu: Kanton Genf französisch (`data/fr-ch/kantone/ge.json`), elf Quellen in `data/quellen/ge-fr.json`. Alle Quellen in diesem Lauf abgerufen. Geprüft über eine vorübergehende Kopie unter `data/kantone/` und `data/gemeinden/ge/`, Build und Test fehlerfrei.
+- `geprueft` steht auf 2026-11-17, wie bei `vd-fr` (der Build lehnt das Datum 2026-11-18 kurz nach Mitternacht ab).
+- Belegt: Leinenpflicht im Wald 1. April bis 15. Juli (RChiens Art. 14 Bst. f, Seite des Kantons), Leinenpflicht in Ortschaften, Parks, Flughafen, Campings (Art. 14), Verbotsorte (Art. 13 Abs. 1), Haftpflicht für alle ohne Mindestsumme (LChiens Art. 16 Abs. 3), keine Kurspflicht, TMC für Hunde über 25 kg und 56 cm (LChiens Art. 22 und 27, Seite des Kantons), Eintrag in AMICUS innert 10 Tagen (LChiens Art. 17 Abs. 2, RChiens Art. 23), Kontrollmarke ab 6 Monaten bis 1. April (RChiens Art. 9), Kantonssteuer CHF 50 / 70 / 100 plus Gemeindezuschlag, CHF 1 Versicherung und CHF 4 Tierseuchenfonds, 15 verbotene Rassen samt Kreuzungen (LChiens Art. 23, RChiens Art. 17 Abs. 2), Kot aufnehmen (LChiens Art. 21 Abs. 2), Bewilligung ab mehr als drei anvertrauten Hunden (Art. 18 Abs. 3).
+- Karte Kurs mit `ton: note`: keine allgemeine Kurspflicht, Test nur für grosse Hunde. Karte Rassen mit `ton: must`: Liste mit Verbot.
+- Unsicherheit: Gesetz und Reglement wurden über eine Zusammenfassung des Abrufwerkzeugs mit Zitaten gelesen, nicht Artikel für Artikel im Volltext. Bei RChiens Art. 14 kamen nur die Buchstaben a, b, c, f und g zurück. Die Buchstaben d und e (vermutlich Moulin-de-Vert und Vogelreservat) stammen deshalb von der Seite des Kantons (Stand 2023). SILGeneve nennt für beide Erlasse eine Änderung oder Berichtigung vom 17. November 2026 (bei der LChiens zu Art. 3 Abs. 1). Was genau sich geändert hat, ist nicht geprüft. Die Seiten des Kantons zu Hunden sind von 2023, der Stand steht in den Karten Kurs und Annonce.
+- Weggelassen: Mindestsumme der Haftpflicht (in keiner Quelle), Bussenbeträge (weder Gesetz noch Reglement nennen welche), Leinenverbot an Ufern und im Wasser von Oktober bis März (Art. 13 Bst. l, Geltungsbereich im Abruf abgeschnitten), Gemeindezuschläge zur Hundesteuer je Gemeinde (eigene Seite ge.ch/node/110, nicht abgerufen), Chip-Frist für Welpen, Regeln für Besuch mit Listenhunden (nicht gefunden).
+- Neu: Ville de Genève französisch (`data/fr-ch/gemeinden/ge/geneve.json`, BFS 6621), vier Karten (Laisse, Accès interdit mit 12 namentlich genannten Parks, Annonce bei der Police municipale, Amendes ohne Beträge) und zwei Gruppen von Freilaufzonen mit Namen, zwei weitere Quellen der Stadt. Der Parc Liotard steht auf der Seite der Stadt sowohl bei den eingezäunten Freilaufzonen als auch bei den verbotenen Parks, die Karte sagt das so. Der Parc Geisendorf ist seit 1. Juni 2026 geschlossen und nicht als Zone aufgeführt.
+- Weggelassen bei Genf: Hundesteuer der Stadt (Zuschlag nicht abgerufen), Bussenbeträge (nicht veröffentlicht).
+- Nicht gelungen: nichts.
+
+## 2026-11-18, Parallel-Lauf `ti-it`, eingesammelt in der Hauptsitzung
+
+- Neu: Kanton Tessin italienisch (`data/it-ch/kantone/ti.json`), Quellen in `data/quellen/ti-it.json`. Alle Quellen in diesem Lauf abgerufen. Geprüft über eine vorübergehende Kopie unter `data/kantone/`, Build und Test fehlerfrei.
+- `geprueft` steht auf 2026-11-17, weil `build.py` das Datum 2026-11-18 (kurz nach Mitternacht) als «in der Zukunft» ablehnt.
+- Belegt: Leine an Orten mit Publikum oder anderen Tieren (LCani Art. 7 Abs. 4), Haftpflicht mindestens CHF 3 Mio. (RCani Art. 6), Grundkurs 6 Stunden für Ersthaltende seit 1. September 2026 (LCani Art. 11a, RCani Art. 9 bis 12, Seite des UVC, CHF 120), Hundetaxe CHF 75 bis 125 (LCani Art. 4 und 4a), Rasseliste mit Bewilligung CHF 350 und zwei Tests (RCani Art. 14 bis 20, Seite des UVC), Ordnungsbussen aus dem Anhang des RCani, Busse bis CHF 20 000 (LCani Art. 21).
+- Unsicherheit: Die Legge sui cani wurde über LexFind gelesen (Stand 15. Mai 2026). Das PDF der kantonalen Sammlung (m3.ti.ch, atto 479) zeigte eine ältere Fassung (Taxe CHF 50 bis 100) und wurde nicht verwendet. Beginn der Kurspflicht: Das RCani nennt für Art. 9 bis 12 den 1. Juni 2026, Gesetz und Seite des UVC den 1. September 2026. Übernommen ist der 1. September. WebFetch gibt Gesetzestexte nur zusammengefasst wieder, der Wortlaut einzelner Absätze wurde nicht Wort für Wort gelesen.
+- Weggelassen: Leinenpflicht im Wald oder Jagdrecht (in LCani und RCani nichts gefunden, Jagdrecht nicht abgerufen, `wald` ohne Saison), kantonale Verbotsorte (das Gesetz nennt keine), Frist in Tagen für die Anmeldung (in keiner Quelle), Befreiungen von der Taxe für Diensthunde im Einzelnen.
+- Neu: Città di Lugano italienisch (`data/it-ch/gemeinden/ti/lugano.json`): fünf Karten (Taxe CHF 115, Leine, Zutrittsverbot, Meldung, Bussen) und drei Hundezonen mit Öffnungszeiten. Quelle für Zonen und Öffnungszeiten ist die deutsche Fassung der städtischen Seite, die italienische Seite wurde nicht gefunden. Die Zone Barbengo steht dort nur in der Liste der Öffnungszeiten.
+- Nicht gelungen: nichts.
+
+## 2026-11-18, Parallel-Lauf `pruefung-tg`, eingesammelt in der Hauptsitzung
+
+Gegenprüfung von `data/kantone/tg.json` und der drei Gemeinden Arbon, Frauenfeld und Kreuzlingen. Jede Quelle neu abgerufen.
+
+- **Nicht abrufbar:** `tg_hundeg` (Hundegesetz, lexfind.ch/tol/17744/de). WebFetch gab die Adresse nicht frei, zwei Suchen fanden keinen anderen amtlichen Wortlaut der geltenden Fassung. Erster Fehlversuch für diese Quelle. `geprueft` von `tg.json` bleibt deshalb auf 2026-11-17, an der Datei wurde nichts geändert.
+- **Kanton, mit der Hundeverordnung (Stand 1. Mai 2025) und dem Merkblatt des Veterinäramts verglichen, alles stimmt (rund 25 Angaben):** Kurs mindestens 10 Lektionen mit Inhalten und Welpenkurs, Registrierungsstelle AMICUS, befreite Nutzhunde, Liste der 14 Rassen und Typen samt Kreuzungen, Unterlagen für die Bewilligung, Ausweis mitführen, Zuzug 10 Tage und Bewilligung des Herkunftskantons, Ordnungsbussen CHF 200 (unbeaufsichtigt), CHF 150 (Kot), CHF 100 (Mitführverbot), CHF 100 (Wald 1. April bis 31. Juli), CHF 100 (Anordnung der Gemeinde), entlaufene Hunde ausschreiben, Bewilligung CHF 500.
+- **Kanton, nicht gegengeprüft, weil nur im Hundegesetz belegt (rund 12 Angaben):** Haftpflicht CHF 3 Millionen, Kursfrist ein Jahr und Nachweis, Steuer CHF 80 und CHF 130, Erhöhung um höchstens 50 Prozent, Zahlung bis Ende April, Befreiung unter fünf Monaten, Orte der Leinenpflicht und des Mitführverbots, Aussehen und Gentest unter 50 Prozent, Volljährigkeit und fester Wohnsitz, Bussenrahmen CHF 50 bis CHF 5'000. Die Informationen der Stadt Frauenfeld nennen ebenfalls CHF 3 Millionen und 10 Lektionen innert eines Jahres, das ersetzt den Gesetzestext aber nicht.
+- **Arbon (9 Angaben):** alles stimmt. `geprueft` bleibt 2026-11-17 (das Datum des Generators, der in UTC rechnet).
+- **Frauenfeld (17 Angaben):** eine Änderung. Alt: «Hundesäcke gibt es dort kostenlos.» (bezogen auf den Schalter der Einwohnerdienste). Neu: «Hundesäcke gibt es kostenlos am Informationsschalter im Rathaus.», so steht es in der Quelle. `geprueft` bleibt 2026-11-17 (das Datum des Generators, der in UTC rechnet).
+- **Kreuzlingen (9 Angaben):** alles stimmt. `geprueft` bleibt 2026-11-17 (das Datum des Generators, der in UTC rechnet).
+- Hinweis ohne Änderung: Die Ordnungsbusse für das Nichtanleinen in Park-, Schul-, Spiel- und Sportanlagen und an verkehrsreichen Strassen beträgt CHF 50 (HundeV § 13 Ziff. 3). Die Seite nennt diesen Betrag nicht und sagt nichts Falsches.
+
+## 2026-11-18, Parallel-Lauf `gemeinden-lu-1`, eingesammelt in der Hauptsitzung
+
+Der Lauf startete ohne Zusatznachricht und endete zuerst ohne Änderung. Die Zusatznachricht (Staffel H) kam danach als zweite Auslösung um 00:29 Uhr, 16 Minuten vor Schluss. Weil vorher nichts erledigt war, wurde der Auftrag dann bearbeitet. Die Recherche ist entsprechend knapp. Alle Quellen am 18. November 2026 abgerufen. Die Angaben stammen aus der Zusammenfassung des Abrufwerkzeugs mit kurzen wörtlichen Zitaten, nicht aus dem vollen Wortlaut: bei der nächsten Gegenprüfung den Wortlaut vergleichen.
+
+Neu:
+
+- **Emmen** (`data/gemeinden/lu/emmen.json`): Hundesteuer CHF 120, Hofhunde CHF 40, ab sechs Monaten (Seite Sondersteuern). Anmeldung bei der Einwohnerkontrolle, Meldungen über das Online-Formular, Zuzug innert zehn Tagen. Friedhof: Mitbringen oder Laufenlassen von Tieren verboten (Friedhofreglement Art. 15 Abs. 3).
+- **Horw** (`data/gemeinden/lu/horw.json`): Hundesteuer CHF 120, Hofhunde CHF 40, Bereich Finanzen. Erfassung in AMICUS durch die Einwohnerdienste vor der Anschaffung. Leinenpflicht im Naturschutzgebiet zwischen Ennethorw und Hergiswil (Mitteilung vom 29. Juni 2015, Stand genannt) sowie auf Terrasse und im Park der Villa Krämerstein, im Innern keine Hunde (Benutzungsverordnung Nr. 550, Anhang 10, verbindlich für Veranstaltende).
+- **Ebikon** (`data/gemeinden/lu/ebikon.json`): Hundesteuer CHF 120, Hof- und Jagdhunde CHF 40, Junghunde unter Bedingungen CHF 60. Anmeldung über das Formular «Hundesteuer», Personen-ID über das Formular «AMICUS Personen-ID». Hunde im Waldreservat im Riedholz auf dem Hundsrüggen an der Leine (Mitteilung vom 23. November 2023, Stand genannt).
+
+Weggelassen:
+
+- Emmen: Betrag CHF 60 für Junghunde, weil die Bedingung aus dem Abruf nicht eindeutig hervorging. Hundefreilaufzonen: Der Gemeinderat lehnte am 16. April 2026 ein Postulat ab, der Einwohnerrat entschied am 12. Mai 2026, der Ausgang wurde nicht abgerufen.
+- Ebikon: Ermässigung CHF 60 «nach §10» und CHF 0 für Schweisshunde, weil die Bedingungen nicht gelesen wurden. Rechtsgrundlage und Geltungszeit der Leinenregel im Waldreservat nennt die Mitteilung nicht.
+- Horw: Rechtsgrundlage der Leinenpflicht im Widenbachdelta nennt die Mitteilung nicht.
+
+Zurückgestellt:
+
+- **Kriens**: Die Seiten der Stadt (stadt-kriens.ch/dienstleistungen/hundehaltung/…: Hundesteuer, Hundehaltung, Hund anmelden) liessen sich nicht abrufen (robots_disallowed, einmal Serverfehler). Keine Angabe belegt, keine Datei angelegt.
+
+Nicht gelungen: nichts weiter.
+
+## 2026-11-18, Parallel-Lauf `gemeinden-lu-2`, eingesammelt in der Hauptsitzung
+
+Der Lauf startete ohne Zusatznachricht und endete zuerst ohne Änderung. Die Zusatznachricht kam danach als zweite Auslösung um 00:25 Uhr, 20 Minuten vor Schluss der Staffel. Weil vorher nichts erledigt war, wurde der Auftrag dann bearbeitet. Die Recherche ist entsprechend knapp. Alle Quellen am 18. November 2026 abgerufen.
+
+Neu:
+
+- **Sursee** (`data/gemeinden/lu/sursee.json`): Hundesteuer CHF 120 pro Hund und Kalenderjahr, Rechnung Mitte Jahr durch die Abteilung Öffentliche Sicherheit. Anmeldung bei der Stadtverwaltung (Erfassung in AMICUS, Sachbereich Sicherheit und Ordnung). Bitte der Stadt, Schul- und Sportwiesen nicht als Hundewiesen zu nutzen (Schulhaus Neufeld, Rasenfläche zwischen Neu und Alt St. Georg, Fussballfelder Allmend). Die Angaben stammen aus der Zusammenfassung des Abrufwerkzeugs, nicht aus dem vollen Wortlaut der Seite: bei der nächsten Gegenprüfung den Wortlaut vergleichen.
+
+Weggelassen:
+
+- Sursee: Friedhofreglement (sursee.ch/_docn/954685/308Friedhofreglement.pdf) liess sich nicht abrufen. Bussenbeträge nennt die Seite Hundekontrolle nicht. Rechtssammlung (sursee.ch/rechtssammlung) nicht durchsucht (Zeit).
+
+Zurückgestellt:
+
+- **Hochdorf**: nur zwei lokale Angaben belegt. Registrierung neuer Hundehalter bei der Einwohnerkontrolle oder über den Online-Schalter (hochdorf.ch/verwaltung/dienstleistungen.html/358/egov_service/376). Leinenpflicht für Hunde in der Gartenanlage Moosbünte, Nutzungsverordnung vom 16. September 2021, Art. 15 Abs. 4. Die Seite «Hundesteuer» (hochdorf.ch/verwaltung/dienstleistungen.html/358/egov_service/488) und der Online-Schalter (…/online-schalter.html/335/product/81) antworteten mit Serverfehler. Keine Datei angelegt.
+- **Willisau**: nur eine bis zwei lokale Angaben belegt. Sportzentrum Schlossfeld: Hunde an der Leine, in Turn- und Sporthallen und Spezialräumen nicht erlaubt (Sportanlagen-Benützungsverordnung Nr. 341 vom 27. März 2025, Art. 11 Abs. 5). Das Finanzamt stellt die Hundesteuer in Rechnung (willisau.ch/verwaltung-politik/verwaltung/finanzamt/), ein Betrag steht dort nicht. WillisauInfo April 2025 gibt nur kantonales Recht wieder. Keine Datei angelegt.
+
+Nicht gelungen: nichts weiter.
+
+## 2026-11-18, Parallel-Lauf `gemeinden-zh-3`, eingesammelt in der Hauptsitzung
+
+Der Lauf begann erst um 00:23 Uhr (Schluss 00:45 Uhr), weil die Zusatznachricht der Staffel nach dem Start eintraf. Je Gemeinde wurde deshalb nur die Hundeseite der Gemeinde abgerufen. `geprueft` steht auf 2026-11-17, weil `build.py` nach der Systemuhr (UTC) rechnet.
+
+Neu: drei Gemeinden im Kanton Zürich, Quellen am 18. November 2026 kurz nach Mitternacht abgerufen.
+
+- **Opfikon** (`data/gemeinden/zh/opfikon.json`): Abgabe CHF 180 inklusive Kantonsbeitrag, Rechnung Ende Februar, zahlbar bis Ende März, halbe Abgabe nach dem 30. Juni, halbe Rückerstattung bei Verlust vor dem 30. Juni, Anmeldung bei der Stadtverwaltung/Allgemeine Dienste innert 10 Tagen, Einschreibegebühr CHF 20, verspätete Meldung CHF 40, Amicus-Mutation nach Aufwand bis CHF 150, Verfügungen CHF 50 und CHF 100 (Art. 23 Gebührentarif Bevölkerungsdienste, so auf der Seite der Stadt wiedergegeben).
+- **Thalwil** (`thalwil.json`): Abgabe CHF 170 zuzüglich CHF 30 Kantonsbeitrag, Rechnung im Februar, halbe Abgabe und halbe Rückerstattung (Stichtag 30. Juni), reduzierte Abgabe für Diensthunde auf Gesuch an die Sicherheitskommission, Anmeldung bei der Einwohnerkontrolle innert zehn Tagen, Abmeldung über den Online-Schalter.
+- **Adliswil** (`adliswil.json`): Hundesteuer CHF 180 inklusive Kantonsbeitrag, einmalige Anmeldegebühr CHF 20, Anmeldung bei der Polizei Adliswil - Langnau am Albis innert zehn Tagen.
+
+Zurückgestellt:
+
+- **Kloten**: nur zwei lokale Angaben belegt (Jahresgebühr CHF 200 pro Hund, Anmeldung innert 10 Tagen bei der Abteilung Sicherheit; https://www.kloten.ch/dienstleistungen/23865). Der «Flyer für Hundebesitzer» (https://www.kloten.ch/_doc/1293491) liess sich nicht abrufen. Keine Datei angelegt.
+
+Weggelassen:
+
+- Alle Angaben beruhen auf der Wiedergabe des Abrufwerkzeugs mit wörtlichen Zitaten, nicht auf dem selbst gelesenen Volltext. Bei der Gegenprüfung am Volltext bestätigen.
+- Thalwil: Der Satz «Allgemeine Leinenpflicht auf öffentlichen Strassen, Plätzen und Schularealen» steht auf der Seite unter den Vorschriften «im Kanton Zürich», ohne Rechtsgrundlage. Unklar, ob das eine Thalwiler Regel ist. Nicht übernommen. Polizeiverordnung nicht gesucht (Schluss-Zeit).
+- Opfikon: Das Dokument «Ordnungsbussen Hundehalter» (https://www.opfikon.ch/_doc/5561251) und die Broschüre Hundehaltung 2025 (https://www.opfikon.ch/_doc/5875948) liessen sich nicht abrufen. Keine Bussen übernommen. Polizeiverordnung nicht gesucht.
+- Adliswil: Die Seite nennt weder Leinenpflicht noch Verbote, Bussen oder Kotaufnahme. Polizeiverordnung nicht gesucht.
+
+Nicht gelungen: Kloten, siehe oben.
+
+## 2026-11-18, Parallel-Lauf `gemeinden-zh-4`, eingesammelt in der Hauptsitzung
+
+Neu: drei Gemeinden im Kanton Zürich, alle Quellen am 18. November 2026 abgerufen. Der Lauf hatte bis zum Schluss der Staffel rund 20 Minuten, die Recherche ist entsprechend knapp.
+
+- **Regensdorf** (`data/gemeinden/zh/regensdorf.json`): Anmeldung online oder per E-Mail bei den Einwohnerdiensten innert 10 Tagen, Meldegebühr CHF 20, Unterlagen, Rechnung der Hundesteuer im Februar oder März.
+- **Volketswil** (`volketswil.json`): Hundeabgabe CHF 180 inklusive CHF 30 Kanton, halbe Abgabe nach dem 30. Juni, Polizeiverordnung 2024 Art. 5 (Tierhaltung) und Art. 25 (Busse ohne Betrag).
+- **Illnau-Effretikon** (`illnau-effretikon.json`): Hundeabgabe CHF 150 oder CHF 75 nach dem 30. Juni, Meldung gratis oder verspätet CHF 20, Vermittlung entlaufener Hunde CHF 20. Alles aus dem Gebührenreglement mit Stand 1. Januar 2019, der Stand steht in jeder Karte.
+
+Weggelassen:
+
+- Regensdorf: Den Betrag der Hundesteuer nennt keine der drei abgerufenen Seiten. Polizeiverordnung nicht gesucht (Zeit).
+- Volketswil: Anmeldestelle und Meldegebühr fehlen, die Seite «An- und Abmeldungen» liess sich nicht abrufen (robots). Der Beschluss zur Hundeabgabe von 2017 wurde nicht selbst gelesen, der Betrag stammt von der Seite der Sicherheitsabteilung. Die Polizeiverordnung nennt keine Leinenpflicht, keine Hundeverbote und keine Kotaufnahmepflicht.
+- Illnau-Effretikon: Kursermässigung CHF 50 und Registrierung bei AMICUS durch die Gemeinde (bis CHF 150) stehen im Reglement von 2019, wurden aber nicht übernommen, weil sie auf dem Hundegesetz vor der Revision vom 1. Juni 2025 beruhen. Das Anmeldeformular (ilef.ch/formular/hunde-anmeldung/) liess sich nicht abrufen. Polizeiverordnung nicht gesucht (Zeit).
+
+Zurückgestellt:
+
+- **Schlieren**: nur zwei lokale Angaben belegt (Hundeabgabe CHF 170 pro Hund und Jahr, Anmeldung für Ersthundehaltende bei den Einwohnerdiensten, beides https://www.schlieren.ch/dienstleistungen/123752). Die Ordnungsbussenverordnung SKR 6.12 (Stand 2013) verweist für Hunde nur auf das kantonale Recht. Keine Datei angelegt.
+
+Nicht gelungen: nichts.
+
 ## 2026-11-18, Parallel-Lauf `ar`, eingesammelt von Glied 8
 
 **Neu:** Kanton Appenzell Ausserrhoden (`data/kantone/ar.json`), 6 Quellen in `data/quellen/ar.json`. Alle Quellen in der Nacht auf den 18. November 2026 zwischen 00:00 und 00:15 Uhr abgerufen. `geprueft` steht auf 2026-11-17, weil `build.py` nach Weltzeit rechnet und den 18. als Zukunft ablehnt.

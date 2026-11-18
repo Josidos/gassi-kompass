@@ -13,7 +13,7 @@ import json
 import re
 import shutil
 import sys
-from datetime import date
+from datetime import date, datetime
 from pathlib import Path
 from urllib.parse import quote
 
@@ -111,6 +111,16 @@ def lies(pfad):
     return daten
 
 
+def heute():
+    """Heutiges Datum in der Schweiz. Die Läufe rechnen in UTC und lehnten sonst
+    zwischen Mitternacht und 01:00 Uhr das neue Datum als Zukunft ab."""
+    try:
+        from zoneinfo import ZoneInfo
+        return datetime.now(ZoneInfo("Europe/Zurich")).date()
+    except Exception:
+        return date.today()
+
+
 LADEFEHLER = []
 
 
@@ -164,7 +174,7 @@ def pruefe(quellen, kantone, gemeinden, bund, orte):
         except ValueError:
             fehler.append(f"{wo}: 'geprueft' ist kein Datum im Format JJJJ-MM-TT")
             return
-        if d > date.today():
+        if d > heute():
             fehler.append(f"{wo}: 'geprueft' liegt in der Zukunft")
 
     def karte(k, wo, marke_pflicht):

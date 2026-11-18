@@ -32,7 +32,7 @@ Ungefähr nach Bevölkerung. Schon erfasst: Zürich, Bern, Luzern, Aargau, St. G
 - [x] Appenzell Ausserrhoden (`ar`), 2026-11-18, ohne Gemeinde (Herisau zurückgestellt)
 - [x] Nidwalden (`nw`), 2026-11-18, ohne Gemeinde (Stans zurückgestellt)
 - [x] Glarus (`gl`), 2026-11-18, mit Gemeinde Glarus
-- [ ] Obwalden (`ow`)
+- [ ] Obwalden (`ow`): zurückgestellt am 2026-11-18. Entwurf unter `data/entwurf/ow.json`. Es fehlen Haftpflicht, `verbot` und `vergleich.haft`. Nötig: GDB 818.3 aus einer amtlichen Quelle (gdb.ow.ch oder LexFind), danach die Karten Kurs und Rassen gegenlesen.
 - [ ] Uri (`ur`)
 - [x] Appenzell Innerrhoden (`ai`), 2026-11-17, ohne Gemeinde (Bezirk Appenzell zurückgestellt)
 
@@ -41,13 +41,13 @@ Ungefähr nach Bevölkerung. Schon erfasst: Zürich, Bern, Luzern, Aargau, St. G
 Erst nach dem Sonderlauf Mehrsprachigkeit. Bei zweisprachigen Kantonen beide Fassungen im selben Lauf, weil die Quellen dieselben sind.
 
 - [ ] Waadt (`vd`), französisch. Daten seit 2026-11-18 unter `data/fr-ch/` (Kanton und Lausanne), Seiten folgen mit dem Sonderlauf Mehrsprachigkeit.
-- [ ] Genf (`ge`), französisch
+- [ ] Genf (`ge`), französisch. Daten seit 2026-11-18 unter `data/fr-ch/` (Kanton und Ville de Genève), Seiten folgen mit dem Sonderlauf Mehrsprachigkeit.
 - [ ] Wallis (`vs`), französisch und deutsch
 - [ ] Freiburg (`fr`), französisch und deutsch. Deutsche Kantonsseite seit 2026-11-18 gebaut. Französische Daten unter `data/fr-ch/` (Kanton und Ville de Fribourg), Seiten folgen mit dem Sonderlauf Mehrsprachigkeit.
-- [ ] Tessin (`ti`), italienisch
+- [ ] Tessin (`ti`), italienisch. Daten seit 2026-11-18 unter `data/it-ch/` (Kanton und Città di Lugano), Seiten folgen mit dem Sonderlauf Mehrsprachigkeit.
 - [ ] Neuenburg (`ne`), französisch. Daten seit 2026-11-18 unter `data/fr-ch/` (Kanton und Ville de Neuchâtel), Seiten folgen mit dem Sonderlauf Mehrsprachigkeit.
 - [ ] Jura (`ju`), französisch
-- [ ] Bern (`be`), französische Fassung des Kantons und von Biel/Bienne
+- [ ] Bern (`be`), französische Fassung des Kantons und von Biel/Bienne. Daten des Kantons seit 2026-11-18 unter `data/fr-ch/`, die Seite folgt mit dem Sonderlauf Mehrsprachigkeit. Biel/Bienne französisch zurückgestellt am 2026-11-18: keine amtliche Quelle gefunden, Schluss-Zeit erreicht.
 - [ ] Graubünden (`gr`), italienische Fassung
 
 ## 3. Gemeinden
@@ -98,9 +98,9 @@ Ungefähr nach Grösse. Neue Kantone tragen hier ihre grössten Gemeinden ein.
 - [ ] Thun (BE)
 - [ ] Köniz (BE)
 - [x] Uster (ZH), 2026-11-18
-- [ ] Emmen (LU)
+- [x] Emmen (LU), 2026-11-18
 - [x] Dübendorf (ZH), 2026-11-18
-- [ ] Kriens (LU)
+- [ ] Kriens (LU): zurückgestellt am 2026-11-18. Die Website der Stadt ist für das Abrufwerkzeug gesperrt (robots). Nächster Versuch: Rechtssammlung der Stadt als PDF oder amtliche Dokumente unter stadt-kriens.ch/public/upload/.
 - [x] Dietikon (ZH), 2026-11-18
 - [x] Wetzikon (ZH), 2026-11-18
 - [x] Wädenswil (ZH), 2026-11-18
@@ -108,27 +108,27 @@ Ungefähr nach Grösse. Neue Kantone tragen hier ihre grössten Gemeinden ein.
 - [ ] Langenthal (BE)
 - [ ] Horgen (ZH): zurückgestellt am 2026-11-18. Nur zwei lokale Angaben belegt (Gebührentarif ab 2022: Ersthunde CHF 130, verspätetes Anmelden CHF 40). Die Seiten «Hunde» und «Hundekontrolle: Anmeldung» gaben zweimal einen Serverfehler, von der Polizeiverordnung war nur das Inhaltsverzeichnis lesbar (Art. 11 Tierhaltung).
 - [x] Bülach (ZH), 2026-11-18
-- [ ] Kloten (ZH)
-- [ ] Horw (LU)
-- [ ] Ebikon (LU)
+- [ ] Kloten (ZH): zurückgestellt am 2026-11-18. Nur zwei belegte Angaben, der Flyer für Hundebesitzer war nicht abrufbar. Nächster Versuch: Flyer und Polizeiverordnung abrufen.
+- [x] Horw (LU), 2026-11-18
+- [x] Ebikon (LU), 2026-11-18
 - [ ] Steffisburg (BE)
 - [ ] Ostermundigen (BE)
-- [ ] Opfikon (ZH)
-- [ ] Thalwil (ZH)
-- [ ] Adliswil (ZH)
-- [ ] Sursee (LU)
+- [x] Opfikon (ZH), 2026-11-18
+- [x] Thalwil (ZH), 2026-11-18
+- [x] Adliswil (ZH), 2026-11-18
+- [x] Sursee (LU), 2026-11-18
 - [ ] Muri bei Bern (BE)
-- [ ] Regensdorf (ZH)
-- [ ] Illnau-Effretikon (ZH)
-- [ ] Schlieren (ZH)
-- [ ] Volketswil (ZH)
+- [x] Regensdorf (ZH), 2026-11-18
+- [x] Illnau-Effretikon (ZH), 2026-11-18
+- [ ] Schlieren (ZH): zurückgestellt am 2026-11-18. Nur zwei belegte lokale Angaben. Nächster Versuch: Polizeiverordnung in der Sammlung Kommunales Recht (schlieren.ch/gesetzeskapitel) und Gebührenverordnung SKR 9.10.
+- [x] Volketswil (ZH), 2026-11-18
 - [ ] Spiez (BE)
 - [ ] Lyss (BE)
 - [ ] Münsingen (BE)
 - [ ] Worb (BE)
 - [ ] Ittigen (BE)
-- [ ] Hochdorf (LU)
-- [ ] Willisau (LU)
+- [ ] Hochdorf (LU): zurückgestellt am 2026-11-18. Nur zwei belegte lokale Angaben. Nächster Versuch: Seite «Hundesteuer» der Gemeinde erneut abrufen (Betrag), dazu «Reglemente und Verordnungen».
+- [ ] Willisau (LU): zurückgestellt am 2026-11-18. Zu wenig belegte lokale Angaben. Nächster Versuch: Rechtssammlung (willisau.ch/verwaltung-politik/verwaltung/rechtssammlung/) nach Hundesteuer-Betrag, Friedhofreglement und Polizeireglement durchsuchen.
 - [ ] Herisau (AR): zurückgestellt am 2026-11-18. Zwei Suchen auf herisau.ch ergaben keine Seite mit lokalen Angaben. Hundesteuer und Anmeldung sind kantonal.
 - [ ] Teufen (AR). Hinweis für alle Ausserrhoder Gemeinden: Steuer und Anmeldung sind kantonal. Lokale Angaben gibt es nur, wenn die Gemeinde Leinenorte (Art. 8 Abs. 2 HuG) oder Zutrittsverbote (Art. 9 HuG) bezeichnet hat. Bei Urnäsch und Hundwil zählt die Wildruhezone.
 - [ ] Heiden (AR)
@@ -168,6 +168,24 @@ Ungefähr nach Grösse. Neue Kantone tragen hier ihre grössten Gemeinden ein.
 - [ ] Val-de-Ruz (NE), französisch
 - [ ] Val-de-Travers (NE), französisch
 - [ ] Milvignes (NE), französisch
+- [ ] Sarnen (OW): zurückgestellt am 2026-11-18, bis der Kanton steht. Drei lokale Angaben sind belegt (Protokoll des Parallel-Laufs `ow` in `CHANGELOG.md`). Die Hundeverordnung der Gemeinde (Leinenpflicht im Wald, Betretverbote, Bussen) fehlt noch.
+- [ ] Kerns (OW). Hinweis für alle Obwaldner Gemeinden: Die Leinenpflicht im Wald steht in den Hundeverordnungen der Gemeinden, Alpnach hat laut Kanton keine.
+- [ ] Alpnach (OW)
+- [ ] Sachseln (OW)
+- [ ] Engelberg (OW)
+- [ ] Saint-Imier (BE), französisch
+- [ ] Tramelan (BE), französisch
+- [ ] La Neuveville (BE), französisch
+- [ ] Valbirse (BE), französisch
+- [ ] Vernier (GE), französisch
+- [ ] Lancy (GE), französisch
+- [ ] Meyrin (GE), französisch
+- [ ] Carouge (GE), französisch
+- [ ] Onex (GE), französisch
+- [ ] Bellinzona (TI), italienisch
+- [ ] Locarno (TI), italienisch
+- [ ] Mendrisio (TI), italienisch
+- [ ] Chiasso (TI), italienisch
 
 ## 4. Lücken in bestehenden Seiten
 
@@ -236,6 +254,22 @@ Ungefähr nach Grösse. Neue Kantone tragen hier ihre grössten Gemeinden ein.
 - [ ] Wetzikon: Art. 22 und 23 der Polizeiverordnung am Volltext gegenprüfen (auch die Aussage «keine eigene Leinenpflicht»), Ordnungsbussen und Hundewiese nachtragen.
 - [ ] Wädenswil: Kantonsbeitrag klären, Polizeiverordnung (Leine, Verbote, Kot, Bussen) nachtragen.
 - [ ] Bülach: Gebührenreglement (verspätete Meldung, Gebühr ab 1. April) und Polizeiverordnung nachtragen, Kantonsbeitrag klären.
+- [ ] Kanton Obwalden: Zeitraum und Abstand der Leinenpflicht im Wald je Gemeinde. Nummern und Namen der Wildruhezonen 1 bis 7. Aktuelle Liste der Naturschutzzonen mit Leinenpflicht.
+- [ ] Kanton Bern, französische Fassung: Loi sur les chiens (RSB 916.31) französisch im Wortlaut lesen und `data/fr-ch/kantone/be.json` daran gegenprüfen, vor allem Befreiungen von der Taxe, Zutrittsverbote der Gemeinden und Bussen. Geltende Fassung der OCAO für die Bussenbeträge. Französische amtliche Quelle zur Leinenpflicht im Wald.
+- [ ] Kanton Genf: LChiens und RChiens im Volltext gegenprüfen, besonders RChiens Art. 13 Bst. l (Ufer, Oktober bis März) und Art. 14 Bst. d und e sowie die Änderungen vom 17. November 2026. Gemeindezuschläge zur Hundesteuer (ge.ch/node/110), auch für die Stadt Genf. Bussenbeträge. PDF «Liste des races de chiens considérées comme potentiellement dangereuses» mit RChiens Art. 17 abgleichen.
+- [ ] Kanton Tessin: geltende Fassung der LCani auf der Gesetzessammlung des Kantons (www3.ti.ch) im Wortlaut gegenprüfen, besonders Art. 4, 4a, 7 und 11a. Datum der Kurspflicht klären (1. Juni oder 1. September 2026). Tessiner Jagd- und Waldrecht auf Leinenpflicht prüfen. Lugano: italienische Seite der Hundezonen suchen und Barbengo bestätigen.
+- [ ] Kanton Thurgau: `data/kantone/tg.json` gegen das Hundegesetz (RB 641.2, geltende Fassung) prüfen, sobald der Wortlaut abrufbar ist. Dabei kann die Busse von CHF 50 für das Nichtanleinen in Anlagen und an verkehrsreichen Strassen bei `leine` ergänzt werden.
+- [ ] Emmen, Horw, Ebikon: Wortlaut der Quellen gegenprüfen. Bussen, weitere Orte mit Leinenpflicht oder Hundeverbot, Robidog.
+- [ ] Emmen: Ausgang des Postulats Hundefreilaufzonen (Einwohnerrat, 12. Mai 2026). Junghunde-Tarif.
+- [ ] Horw: geltende Rechtsgrundlage und aktueller Stand der Leinenpflicht im Naturschutzgebiet Widenbachdelta (Quelle von 2015).
+- [ ] Ebikon: Bedingungen der Tarife CHF 60 und CHF 0, Rechtsgrundlage der Leinenregel im Waldreservat im Riedholz.
+- [ ] Sursee: Bussen, Friedhofreglement, Robidog und Hundekot, Wortlaut der Seite Hundekontrolle gegenprüfen.
+- [ ] Opfikon: Ordnungsbussen Hundehalter und Polizeiverordnung (Leine, Verbote, Kot) nachtragen, Angaben am Volltext gegenprüfen.
+- [ ] Thalwil: Herkunft der Leinenpflicht auf Strassen, Plätzen und Schularealen klären (Polizeiverordnung), Bussen nachtragen.
+- [ ] Adliswil: Polizeiverordnung (Leine, Verbote, Kot, Bussen) nachtragen.
+- [ ] Regensdorf: Betrag der Hundesteuer und Polizeiverordnung (Leine, Verbote, Kot, Bussen) nachtragen.
+- [ ] Volketswil: Anmeldestelle, Meldegebühr und Ordnungsbussenliste des Gemeinderats nachtragen.
+- [ ] Illnau-Effretikon: geltende Fassung des Gebührenreglements suchen und die Beträge von 2019 bestätigen oder ersetzen (vordringlich). Anmeldestelle und Polizeiverordnung nachtragen.
 
 ## 5. Umbauten am Generator
 
