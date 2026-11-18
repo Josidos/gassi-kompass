@@ -26,9 +26,9 @@ Claude führt das Projekt wie einen Betrieb: Inhalt, Technik, Qualität und Stra
 | `data/fr-ch/kantone/`, `data/fr-ch/gemeinden/<kt>/` | Französische Fassungen, gleiche Felder, Texte aus den französischen amtlichen Quellen |
 | `data/it-ch/kantone/`, `data/it-ch/gemeinden/<kt>/` | Italienische Fassungen, ebenso |
 | `data/entwurf/<kt>.json` | Angefangener Kanton, dem noch Felder fehlen. Wird nicht gebaut. |
-| `data/schweiz.json` | Regeln des Bundes für die Seite `/schweiz/`. Kartenfelder wie beim Kanton. |
+| `data/schweiz.json`, `data/fr-ch/schweiz.json`, `data/it-ch/schweiz.json` | Regeln des Bundes für `/schweiz/`, `/fr-ch/schweiz/` und `/it-ch/schweiz/`. Drei Originalfassungen, jede aus den Seiten des Bundes in ihrer Sprache. Kartenfelder wie beim Kanton, die Titel der Karten sind frei. |
 | `data/orte.json` | Alle Gemeinden, Ortschaften und Postleitzahlen der Schweiz (swisstopo). Grundlage der Ortssuche. Nie von Hand ändern, entsteht mit `tools/orte.py`. |
-| `build.py` | Prüft die Daten und erzeugt alle Seiten in allen Sprachen. Alle festen Texte stehen in der Tabelle `TEXTE` je Sprache (`de`, `fr`, `it`). Die Themenseiten stehen in der Liste `THEMEN` und in der Funktion `seite_thema()`. |
+| `build.py` | Prüft die Daten und erzeugt alle Seiten in allen Sprachen. Alle festen Texte stehen in der Tabelle `TEXTE` je Sprache (`de`, `fr`, `it`). Die Themenseiten stehen in der Liste `THEMEN` und in der Funktion `seite_thema()`, ihre Texte je Sprache in `TEXTE` unter `themen` und `thema`. |
 | `assets/` | Stylesheet, Skripte (`heute.js` für den Wald-Status, `suche.js` für die Ortssuche), Schriften, Icon. Die Skripte kennen keine Sprache, ihre Texte kommen als data-Attribute aus `build.py`. |
 | `tests/seiten.js` | Browser-Test der gebauten Seiten |
 | `BACKLOG.md` | Was als Nächstes dran ist |
@@ -57,7 +57,7 @@ Muster: `data/kantone/zh.json`.
 - `leine` und `verbot`: `{"punkte": [...], "quellen": [...]}`, bei `verbot` wahlweise `einleitung`
 - `karten`: genau sechs Karten mit den Titeln Haftpflicht, Kurs, Anmeldung, Hundesteuer, Rassen, Unterwegs, in dieser Reihenfolge (französisch und italienisch: siehe «Französische und italienische Daten»). `build.py` erzwingt das je Sprache, weil die Themenseiten über die Position auf die Karten zugreifen. Jede Karte: `titel`, `marke`, `ton`, `wert`, `text`, `quellen`, wahlweise `mehr: {"titel", "punkte"}`.
 - `ton`: `must` für Pflicht oder Verbot, `none` für «keine Pflicht», `note` für eine neutrale Angabe. Die Themenseiten Haftpflicht, Kurs und Rassen zählen die Kantone mit `must`. Dort `must` nur setzen, wenn die Pflicht allgemein gilt (Haftpflicht und Kurs) oder es eine Liste mit Bewilligung oder Verbot gibt (Rassen).
-- `vergleich`: Kurzfassung für die Tabelle der Startseite mit den Schlüsseln `wald`, `haft`, `kurs`, `rassen`, `steuer`, `anm`
+- `vergleich`: Kurzfassung für die Tabellen der Themenseiten mit den Schlüsseln `wald`, `haft`, `kurs`, `rassen`, `steuer`, `anm`
 - wahlweise `umzug: {"text", "quellen"}`: was beim Zuzug in den Kanton gilt
 
 ### Datenfelder Gemeinde
@@ -98,7 +98,7 @@ Daneben kann eine Kette laufen, siehe «Kette» weiter unten.
 Obergrenzen pro Lauf: höchstens **4 Dateien nachprüfen**, dazu entweder **1 neuer Kanton samt einer Gemeinde** oder **4 neue Gemeinden**, dazu höchstens **12 Übersetzungen**. Ein Sonderlauf (siehe «Umbauten am Generator») macht nur den Umbau und sonst nichts.
 
 1. **Start.** Repository klonen oder aktualisieren. `python3 build.py --check` muss fehlerfrei sein. `BACKLOG.md` und die letzten zwei Einträge in `CHANGELOG.md` lesen. Danach einsammeln, was Parallel-Läufe geliefert haben (siehe «Parallel-Läufe»). Das gehört zu jedem Lauf, auch zum Sonderlauf.
-2. **Nachprüfen.** Die Dateien in `data/kantone/` und `data/gemeinden/`, ihre französischen und italienischen Fassungen unter `data/fr-ch/` und `data/it-ch/` sowie `data/schweiz.json` mit dem ältesten `geprueft` nehmen. Jede Fassung wird mit den Quellen in ihrer Sprache abgeglichen. Ist nichts älter als 60 Tage, diesen Schritt überspringen. Für jede Datei jede Quelle abrufen und jede Angabe vergleichen.
+2. **Nachprüfen.** Die Dateien in `data/kantone/` und `data/gemeinden/`, ihre französischen und italienischen Fassungen unter `data/fr-ch/` und `data/it-ch/` sowie die drei Fassungen von `schweiz.json` mit dem ältesten `geprueft` nehmen. Übersetzungen werden nicht nachgeprüft, siehe «Alle Sprachen überall». Jede Fassung wird mit den Quellen in ihrer Sprache abgeglichen. Ist nichts älter als 60 Tage, diesen Schritt überspringen. Für jede Datei jede Quelle abrufen und jede Angabe vergleichen.
    - Stimmt alles: `geprueft` auf das heutige Datum setzen.
    - Hat sich etwas geändert: Angabe und wenn nötig `vergleich` anpassen, im Protokoll mit alt und neu festhalten, `geprueft` setzen.
    - Quelle nicht erreichbar: nichts ändern, `geprueft` nicht anfassen, im Protokoll notieren. Ist dieselbe Quelle laut Protokoll zum dritten Mal nicht erreichbar, eine andere amtliche Quelle suchen.
@@ -290,7 +290,7 @@ Regeln für jeden Sonderlauf:
 
 ### Themenseiten (gebaut am 18. November 2026)
 
-Sechs Seiten unter `/thema/<name>/`, erzeugt aus den Kantonsdateien, ohne neue Angaben. Ein neuer Kanton erscheint dort von selbst:
+Sechs Seiten je Sprache unter `/thema/<name>/`, `/fr-ch/thema/<name>/` und `/it-ch/thema/<name>/`, erzeugt aus den Kantonsdateien dieser Sprache, ohne neue Angaben. Ein neuer Kanton oder eine neue Übersetzung erscheint dort von selbst:
 
 | Adresse | Thema | Daten |
 |---|---|---|
@@ -301,49 +301,44 @@ Sechs Seiten unter `/thema/<name>/`, erzeugt aus den Kantonsdateien, ohne neue A
 | `/thema/hundesteuer/` | Hundesteuer | Karte Hundesteuer, `vergleich.steuer` |
 | `/thema/anmeldung/` | Anmeldung | Karte Anmeldung, `vergleich.anm` |
 
-Jede Seite hat einen Titel in der Form «Leinenpflicht im Wald: alle Kantone im Vergleich», einen Absatz, der zählt (wie viele der 26 Kantone erfasst sind und in wie vielen davon laut `ton` eine Pflicht gilt), eine Tabelle aller erfassten Kantone mit Link zur Kantonsseite und darunter je Kanton den Text der Karte mit ihren Quellen. Die Seiten stehen in der Sitemap. Die Startseite und jede Kantonsseite verlinken darauf.
+Jede Seite hat einen Titel in der Form «Leinenpflicht im Wald: alle Kantone im Vergleich», einen Absatz, der zählt («In 14 der 26 Kantone …», laut `ton`), eine Tabelle aller Kantone dieser Sprache mit Link zur Kantonsseite und darunter je Kanton den Text der Karte mit ihren Quellen. Die Tabelle hat drei Spalten: Kanton, «Auf einen Blick» (die Marke der Karte) und die Kurzfassung aus `vergleich`. Auf dem Telefon steht jede Zeile als Block. Kantone, die es in der Sprache der Seite noch nicht gibt, stehen darunter in einer Zeile mit Link und Angabe der Sprache. Sind Kantone der Seite übersetzt, sagt das ein Hinweis unter dem Einstieg. Die Seiten stehen in der Sitemap. Die Startseite und jede Kantonsseite verlinken darauf.
 
-So ist es gebaut: Leinenpflicht im Wald zählt die Kantone mit `wald.saison` und nennt die Daten, wenn sie überall gleich sind. Haftpflicht, Kurs und Rassen zählen `ton: must`. Hundesteuer und Anmeldung zählen nicht, weil `ton` dort keine Pflicht ausdrückt (die Anmeldung ist überall Pflicht, die Kantonsdateien setzen `ton` uneinheitlich). Der Test prüft, dass jede Themenseite jeden erfassten Kanton mit Quelle aufführt.
+So ist es gebaut: `THEMEN` nennt je Thema `id`, den Schlüssel in `vergleich`, die Position der Karte und ob gezählt wird. Name, Spaltenkopf, Sätze und Beschreibung stehen je Sprache in `TEXTE` unter `themen`, die gemeinsamen Texte unter `thema`. Leinenpflicht im Wald zählt die Kantone mit `wald.saison` und nennt die Daten, wenn sie überall gleich sind. Haftpflicht, Kurs und Rassen zählen `ton: must`. Hundesteuer und Anmeldung zählen nicht, weil `ton` dort keine Pflicht ausdrückt. Der Test prüft, dass jede Themenseite jeden Kanton ihrer Sprache mit Quelle aufführt.
 
 ### Französisch und Italienisch (gebaut am 18. November 2026)
 
-So ist es gebaut: `build.py` lädt die Daten je Sprache und baut jede Seite mit den Texten aus `TEXTE[<sprache>]`. Neue feste Texte kommen immer in alle drei Sprachen der Tabelle. Monate, Wochentage und die Sätze des Wald-Status stehen ebenfalls dort und gehen als JSON im Attribut `data-texte` an `assets/heute.js`. Die Ordner `fr-ch/` und `it-ch/` werden bei jedem Bau ganz neu erzeugt. Die Seite `/schweiz/`, die Themenseiten und `404.html` gibt es nur auf Deutsch. Französische und italienische Seiten verlinken `/schweiz/` mit dem Zusatz «en allemand» oder «in tedesco». Kantonsraster, Gemeindelisten und Vergleich jeder Startseite führen auch die Kantone und Gemeinden auf, die es nur in einer anderen Sprache gibt, mit Angabe der Sprache. Die Namen der 26 Kantone auf Französisch und Italienisch stehen in `KANTONSNAMEN`. Der Sprachwechsel steht im Kopf der Seite neben dem Prüfdatum.
+So ist es gebaut: `build.py` lädt die Daten je Sprache und baut jede Seite mit den Texten aus `TEXTE[<sprache>]`. Neue feste Texte kommen immer in alle drei Sprachen der Tabelle. Monate, Wochentage und die Sätze des Wald-Status stehen ebenfalls dort und gehen als JSON im Attribut `data-texte` an `assets/heute.js`. Die Ordner `fr-ch/` und `it-ch/` werden bei jedem Bau ganz neu erzeugt. Jede Sprache hat ihre eigene Startseite, `schweiz/`, `thema/` und `ueber/`. `404.html` gibt es einmal: deutsch mit Suche, darunter je eine Zeile auf Französisch und Italienisch. Kantonsraster und Gemeindeverzeichnis jeder Startseite führen auch die Kantone und Gemeinden auf, die es in dieser Sprache noch nicht gibt, mit Angabe der Sprache. Die Namen der 26 Kantone auf Französisch und Italienisch stehen in `KANTONSNAMEN`. Der Sprachwechsel steht im Kopf der Seite neben dem Prüfdatum.
 
 Die Vorgaben, die dafür galten und weiter gelten:
 
 - **Adressen.** Deutsch bleibt unverändert an der Wurzel. Französisch liegt unter `/fr-ch/`, Italienisch unter `/it-ch/`, mit denselben Kürzeln und Namen: `/fr-ch/vd/`, `/fr-ch/ge/geneve/`, `/it-ch/ti/lugano/`. Nicht `/fr/`: das ist die deutsche Seite des Kantons Freiburg.
-- **Welche Sprache wo.** Jeder Kanton erscheint in seinen Amtssprachen: VD, GE, NE, JU französisch. TI italienisch. BE, FR, VS deutsch und französisch. GR deutsch, später italienisch. Alle übrigen nur deutsch.
-- **Daten.** Deutsche Dateien bleiben, wo sie sind. Französische liegen unter `data/fr-ch/kantone/` und `data/fr-ch/gemeinden/<kt>/`, italienische unter `data/it-ch/`. Gleiche Felder. Die Texte entstehen aus den amtlichen Quellen in dieser Sprache, nicht als Übersetzung der deutschen Datei. `data/quellen.json` bleibt eine Datei für alle Sprachen.
+- **Welche Sprache wo.** Amtssprachen und damit Originalfassungen: VD, GE, NE, JU französisch. TI italienisch. BE, FR, VS deutsch und französisch. GR deutsch und italienisch. Alle übrigen deutsch. In den anderen Sprachen gibt es jede Seite als Übersetzung, siehe «Alle Sprachen überall».
+- **Daten.** Deutsche Dateien bleiben, wo sie sind. Französische liegen unter `data/fr-ch/kantone/` und `data/fr-ch/gemeinden/<kt>/`, italienische unter `data/it-ch/`. Gleiche Felder. Eine Originalfassung entsteht aus den amtlichen Quellen in ihrer Sprache, nie als Übersetzung einer anderen Datei. `data/quellen.json` bleibt eine Datei für alle Sprachen.
 - **Generator.** Alle festen Texte aus `build.py` und `assets/heute.js` in eine Tabelle je Sprache. `lang` im HTML, `hreflang` zwischen den Sprachfassungen derselben Seite, ein Sprachwechsel nur dort, wo es die Seite in der anderen Sprache gibt. Je Sprache eine Startseite und eine Seite «Über diese Seite», aber erst, wenn es in dieser Sprache mindestens einen Kanton gibt. Die deutsche Startseite führt alle erfassten Kantone auf und nennt bei rein französischen oder italienischen Kantonen die Sprache der Seite.
 - **Sprache.** Französisch mit «vous», Beträge als «CHF 120», Daten als «1er avril». Italienisch mit «tu», Beträge als «CHF 120», Daten als «1° aprile». Kurze Sätze, keine Werbesprache.
-- **Themenseiten.** Sie bleiben vorerst deutsch und vergleichen die Kantone, die eine deutsche Fassung haben. Die übrigen erfassten Kantone stehen darunter in einer Zeile mit Link auf ihre Seite und der Angabe der Sprache. Texte werden nie übersetzt. Französische und italienische Themenseiten sind ein späterer Umbau (Backlog, Abschnitt 5).
+- **Themenseiten.** Es gibt sie in jeder Sprache. Jede vergleicht die Kantone, die es in ihrer Sprache gibt, siehe «Themenseiten».
 - **Ortssuche.** Ein Verzeichnis für alle Sprachen. Jede Startseite hat die Suche mit Texten in ihrer Sprache. Ein Treffer führt auf die Seite in der Sprache der Startseite, wenn es sie gibt, sonst auf die Fassung in der anderen Sprache. Dann nennt der Treffer die Sprache.
 - **Sitemap und Test.** Alle Sprachfassungen stehen in der einen `sitemap.xml`. `tests/seiten.js` prüft die Seiten aller Sprachen, das Attribut `lang` und dass `hreflang` in beide Richtungen stimmt.
 - **Prüfung.** Bei jeder späteren Änderung an den Texten oder am Aufbau: je eine Kantonsseite und eine Gemeindeseite pro Sprache und die Startseiten als Bild ansehen. Die deutschen Seiten müssen dabei unverändert aussehen.
 
-### Darstellung (fällig, Sonderlauf)
+### Darstellung (überarbeitet am 18. November 2026)
 
-Befund der Durchsicht vom 18. November 2026. Ziel: eine Seite, die man einem Amt zeigen kann. Die Statuswörter («erfasst», «saisi», «registrato») sind am selben Tag schon aus allen Texten entfernt worden.
+Anlass war die Durchsicht mit Joss: Die Seite soll man einem Amt zeigen können. So ist es gebaut:
 
-- Startseite, Vergleich: Die Tabelle mit 26 Zeilen und 7 Spalten entfällt. Sie ist auf dem Telefon nicht lesbar und am Bildschirm abgeschnitten. An ihre Stelle treten sechs Tafeln «Kantone vergleichen», eine pro Themenseite, mit einem Satz, was man dort findet.
-- Startseite, Gemeinden: ein kompaktes Verzeichnis. Pro Kanton eine Zeile mit dem Kantonsnamen und den Gemeinden als Links, alphabetisch, mit dem kurzen Ortsnamen (`ort`) statt «Stadt …», «Gemeinde …» oder «Bezirk …». Kein «Kanton XX» mehr bei jeder Gemeinde.
-- Kantonstafeln: Kürzel und Zahl der Gemeinden mit lokalen Regeln («ZH · 14 Gemeinden»). Ohne Zahl, wenn es keine gibt.
-- Startseite, Kopf: unter der Suche eine Zeile mit dem Umfang in Zahlen aus den Daten (26 Kantone, Zahl der Gemeinden, jede Angabe mit amtlicher Quelle).
-- Karten einer Reihe nicht mehr auf gleiche Höhe strecken, wenn dadurch grosse leere Flächen entstehen.
-- Themenseiten: Spaltenkopf «Kurz» ersetzen durch «Auf einen Blick». Auf dem Telefon werden die Zeilen der Tabelle gestapelt, nichts braucht seitliches Scrollen.
-- Jede Seitenart bei 390 und 1280 Pixeln als Bild ansehen: Startseite (oben, Gemeinden, Themen), Kanton, Gemeinde, Thema, Bund, «Über diese Seite». Was unruhig, abgeschnitten oder leer wirkt, in diesem Lauf beheben und im Protokoll nennen.
-- Alle neuen Texte in allen drei Sprachen in `TEXTE`. Bestehende Adressen bleiben. Farben, Schriften und Bausteine bleiben die aus `assets/site.css`.
+- Startseite: unter der Suche eine Zeile mit dem Umfang in Zahlen aus den Daten (Kantone, Gemeinden mit lokalen Regeln, verlinkte Quellen, `ZAHLEN` und `S["fakten"]`). Dann 26 Kantonstafeln mit Kürzel und Zahl der Gemeinden («ZH · 14 Gemeinden», `kantonsraster()`), das Gemeindeverzeichnis mit einer Zeile pro Kanton und den kurzen Ortsnamen aus `ort` (`gemeindeverzeichnis()`, am Bildschirm zweispaltig) und sechs Thementafeln mit je einem Satz (`themenkacheln()`). Die frühere Vergleichstabelle mit 26 Zeilen und 7 Spalten gibt es nicht mehr: Sie war am Bildschirm abgeschnitten und auf dem Telefon nicht lesbar.
+- Tafeln zu Gemeinden zeigen überall den kurzen Ortsnamen ohne «Stadt», «Gemeinde» oder «Bezirk» und ohne «Kanton XX» (`gemeinde_tafeln()`).
+- Karten stehen in zwei Spalten statt drei, damit die Zeilen länger und die Karten einer Reihe ähnlicher hoch sind.
+- Themenseiten: siehe «Themenseiten».
+- Nichts auf den Seiten spricht über den Stand des Projekts. Die Wörter «erfasst», «folgt», «kommen laufend dazu» und ihre Entsprechungen sind aus `TEXTE` entfernt.
+- Bei jeder späteren Änderung an `build.py` oder `assets/site.css`: Startseite, Kanton, Gemeinde, Thema, Bund und «Über diese Seite» bei 390 und 1280 Pixeln als Bild ansehen. Der Test meldet seitliches Überlaufen, er sieht aber nicht, ob etwas unruhig oder leer wirkt.
 
 ### Übersetzungen im Generator (gebaut am 18. November 2026)
 
 So ist es gebaut: `lade()` verbindet jede Datei mit `uebersetzt_aus` mit ihrer Originalfassung (`verbinde()`), übernimmt deren Prüfdatum und setzt bei Kantonen die Namensformen aus `kantonsformen()` ein. `pruefe_uebersetzung()` vergleicht Aufbau, Quellen und die Zahlen jedes Textes mit der Originalfassung und meldet Abweichungen als Fehler. `pruefsumme()` rechnet über den ganzen Inhalt der Originalfassung ohne `geprueft`. `python3 build.py --fehlend` listet fehlende und veraltete Übersetzungen, `--pruefsumme <Datei>` nennt die Prüfsumme einer Datei, `--check` zählt je Sprache Originalfassungen und Übersetzungen. `hinweis_uebersetzung()` setzt den Hinweis unter den Titel der Kantons- und Gemeindeseiten (Texte `ueb`, `ueb_link`, `ueb_alt` in `TEXTE`). Sprachwechsel, `hreflang`, Startseiten, Suche und Sitemap führen eine übersetzte Seite von selbst wie jede andere Fassung. Der Test prüft, dass genau die übersetzten Seiten den Hinweis tragen.
 
-### Bund, Themenseiten und Fehlerseite in drei Sprachen (fällig, Sonderlauf)
+### Bund, Themenseiten und Fehlerseite in drei Sprachen (gebaut am 18. November 2026)
 
-- Der Bund in drei Sprachen: `/schweiz/`, `/fr-ch/schweiz/` und `/it-ch/schweiz/`. Die französische und die italienische Originalfassung entstehen im selben Sonderlauf aus den Seiten des BLV und von ch.ch in dieser Sprache.
-- Themenseiten in drei Sprachen: `/fr-ch/thema/<id>/` und `/it-ch/thema/<id>/` mit denselben `id` wie auf Deutsch. Jede vergleicht die Kantone, die es in ihrer Sprache gibt, und nennt die übrigen darunter mit Link.
-- Sprachwechsel und `hreflang` auch auf diesen Seiten. `404.html` führt auf alle drei Startseiten.
-- Fuss, Kantonsseiten und Suche jeder Sprache verlinken den Bund und die Themen in ihrer Sprache. Die Seite «Über diese Seite» erklärt in jeder Sprache, was Originalfassung und was Übersetzung ist.
+So ist es gebaut: `lade()` liest je Sprache `schweiz.json`, wenn es die Datei gibt (`W[<sprache>]["b"]`). `seite_schweiz()` baut daraus `/schweiz/`, `/fr-ch/schweiz/` und `/it-ch/schweiz/` mit den Texten aus `TEXTE` unter `bund`. Die französische und die italienische Fassung sind Originalfassungen aus den Seiten des BLV und von ch.ch in dieser Sprache, keine Übersetzungen. `bund_ziel()` nennt die Seite des Bundes für die Sprache der Seite. Gäbe es sie nicht, führte der Link auf die deutsche Seite und nennte die Sprache. `seite_thema()` baut die Themenseiten jeder Sprache. Alle diese Seiten tragen Sprachwechsel und `hreflang`. `seite_404()` schreibt eine Fehlerseite für alle Sprachen. Die Suche bekommt die Adresse der Seite des Bundes als Attribut `data-schweiz`.
 
 ## Verbreitung und Kontakt nach aussen
 

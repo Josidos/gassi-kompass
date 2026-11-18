@@ -4,9 +4,11 @@
 //   node tests/seiten.js /lu/luzern/ bild.png 1280  dasselbe in 1280 px Breite
 // Geprüft wird: Seite lädt, keine Skriptfehler, kein seitliches Überlaufen, genau eine Hauptüberschrift,
 // alle internen Links und Dateien existieren, der Wald-Status wird gesetzt, die Ortssuche findet Orte
-// und führt auf die richtige Seite, jede Themenseite führt jeden Kanton mit deutscher Fassung mit Quelle auf.
+// und führt auf die richtige Seite, jede Themenseite führt jeden Kanton ihrer Sprache mit Quelle auf,
+// jede Startseite zeigt 26 Kantonstafeln, das Gemeindeverzeichnis und sechs Thementafeln.
 // Sprachen: Seiten unter /fr-ch/ tragen lang="fr-CH", unter /it-ch/ lang="it-CH", alle anderen lang="de-CH".
-// hreflang muss in beide Richtungen stimmen, und die Ortssuche der französischen Startseite wird mitgeprüft.
+// hreflang muss in beide Richtungen stimmen, und die Ortssuche jeder Startseite wird mitgeprüft.
+// Übersetzte Seiten (Feld uebersetzt_aus) tragen den Hinweis «Übersetzung», Originalfassungen nicht.
 // Der Test bricht auch ab, wenn eine Adresse aus dem letzten Commit in der Sitemap fehlt.
 // Soll eine Seite wirklich verschwinden: node tests/seiten.js --entfernen-erlaubt
 const http = require('http'), fs = require('fs'), path = require('path');
@@ -99,10 +101,15 @@ function datei(url) {
         if (info.alt.length && !info.alt.some(a => a[0] === info.lang && a[1] === s)) fehler.push(`${s}: hreflang nennt die eigene Seite nicht`);
         for (const a of info.alt) if (!seiten.includes(a[1])) fehler.push(`${s}: hreflang ${a[0]} zeigt auf ${a[1]}, die Seite gibt es nicht`);
       }
-      if (s.startsWith('/thema/')) {
-        const kantone = fs.readdirSync(path.join(ROOT, 'data', 'kantone')).filter(f => f.endsWith('.json')).length;
+      const sprache = SPRACHEN.find(x => s.startsWith(x[1] + '/thema/'));
+      if (s === (SPRACHEN.find(x => x[1] && s.startsWith(x[1] + '/')) || SPRACHEN[0])[1] + '/') {
+        const st = await page.evaluate(() => ({ kantone: document.querySelectorAll('.raster a').length, themen: document.querySelectorAll('.topics a').length, gemeinden: document.querySelectorAll('.index a').length, tabellen: document.querySelectorAll('table').length }));
+        if (st.kantone !== 26 || st.themen !== 6 || !st.gemeinden || st.tabellen) fehler.push(`${wo}: Startseite mit ${st.kantone} Kantonstafeln, ${st.themen} Thementafeln, ${st.gemeinden} Links im Gemeindeverzeichnis, ${st.tabellen} Tabellen (soll: 26, 6, mindestens 1, 0)`);
+      }
+      if (sprache) {
+        const kantone = ordner(...sprache[2], 'kantone').filter(f => f.endsWith('.json')).length;
         const t = await page.evaluate(() => ({ zeilen: document.querySelectorAll('tbody tr').length, karten: document.querySelectorAll('.card').length, quellen: document.querySelectorAll('.card .src a').length }));
-        if (t.zeilen !== kantone || t.karten !== kantone) fehler.push(`${wo}: ${t.zeilen} Zeilen und ${t.karten} Karten statt je ${kantone} (eine pro erfasstem Kanton)`);
+        if (t.zeilen !== kantone || t.karten !== kantone) fehler.push(`${wo}: ${t.zeilen} Zeilen und ${t.karten} Karten statt je ${kantone} (eine pro Kanton in dieser Sprache)`);
         if (t.quellen < kantone) fehler.push(`${wo}: Karte ohne Quelle`);
       }
       if (s === fotoSeite && fotoDatei && breite === Number(fotoBreite || 390)) await page.screenshot({ path: fotoDatei, fullPage: true });

@@ -628,5 +628,25 @@
     "kurz": "Ordinanza sulla caccia GR",
     "lang": "Cantone dei Grigioni: Ordinanza governativa sulla caccia (OGC, CSC 740.020) del 27 marzo 2007, stato 1° luglio 2026",
     "url": "https://www.lexfind.ch/tol/8040/it"
+  },
+  "ch_blv_chiens": {
+    "kurz": "OSAV : Chiens",
+    "lang": "Office fédéral de la sécurité alimentaire et des affaires vétérinaires OSAV : Chiens",
+    "url": "https://www.blv.admin.ch/fr/chiens"
+  },
+  "ch_chch_taxe": {
+    "kurz": "ch.ch : Taxe sur les chiens",
+    "lang": "ch.ch, portail des autorités de la Confédération, des cantons et des communes : Taxes sur les chiens",
+    "url": "https://www.ch.ch/fr/impots-et-finances/types-d-impots/imposition-des-chiens/"
+  },
+  "ch_blv_cani": {
+    "kurz": "USAV: Cani",
+    "lang": "Ufficio federale della sicurezza alimentare e di veterinaria USAV: Cani",
+    "url": "https://www.blv.admin.ch/it/cani"
+  },
+  "ch_chch_imposta": {
+    "kurz": "ch.ch: Imposta sui cani",
+    "lang": "ch.ch, portale delle autorità di Confederazione, Cantoni e Comuni: Imposta sui cani",
+    "url": "https://www.ch.ch/it/imposte-e-finanze/tipi-d-imposta/imposta-sui-cani/"
   }
 }

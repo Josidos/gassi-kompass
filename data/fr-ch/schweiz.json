@@ -1,0 +1,100 @@
+{
+  "geprueft": "2026-11-18",
+  "karten": [
+    {
+      "titel": "Puce et enregistrement",
+      "marke": "Obligatoire",
+      "ton": "must",
+      "wert": "Puce électronique et AMICUS",
+      "text": "Chaque chien doit être identifié par une puce électronique et enregistré dans la banque de données AMICUS. En Suisse, seuls les vétérinaires peuvent implanter la puce. Le vétérinaire enregistre aussi le chien.",
+      "mehr": {
+        "titel": "Ce que vous devez annoncer",
+        "punkte": [
+          "Changement de vos données personnelles : à communiquer à la commune",
+          "Cession, prise en charge ou mort du chien : à saisir directement dans AMICUS"
+        ]
+      },
+      "quellen": [
+        "ch_blv_chiens"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "marke": "Obligatoire",
+      "ton": "must",
+      "wert": "Auprès de votre commune",
+      "text": "Toute personne qui détient un chien l'annonce à sa commune. Certaines communes ne s'occupent pas de la taxe sur les chiens. C'est alors le canton qui s'en charge. Votre commune vous renseigne.",
+      "quellen": [
+        "ch_chch_taxe"
+      ]
+    },
+    {
+      "titel": "Taxe sur les chiens",
+      "marke": "Obligatoire",
+      "ton": "must",
+      "wert": "Entre CHF 100 et 200 par an",
+      "text": "Une taxe est due pour le chien. Le montant varie d'une commune à l'autre et peut dépendre de la taille ou du poids du chien. La commune ou le canton envoie une facture chaque année. Les chiens guides et les chiens de sauvetage sont souvent exonérés.",
+      "quellen": [
+        "ch_chch_taxe"
+      ]
+    },
+    {
+      "titel": "Cours",
+      "marke": "Pas d'obligation",
+      "ton": "none",
+      "wert": "Pas de cours obligatoire fédéral",
+      "text": "Jusqu'au 31 décembre 2016, les détenteurs de chiens devaient suivre une formation avec attestation de compétences. Cette obligation est levée depuis le 1er janvier 2017. Le Conseil fédéral recommande un cours facultatif aux personnes qui acquièrent un chien pour la première fois. Certaines lois cantonales maintiennent un cours obligatoire pour certains types de chiens.",
+      "quellen": [
+        "ch_blv_chiens"
+      ]
+    },
+    {
+      "titel": "Chien venant de l'étranger",
+      "marke": "Obligatoire",
+      "ton": "must",
+      "wert": "Chez le vétérinaire dans les 10 jours",
+      "text": "Après l'importation, vous devez vous présenter dans les 10 jours chez un vétérinaire. Il contrôle l'identification et fait enregistrer le chien dans AMICUS. L'importation de chiens aux oreilles ou à la queue coupées est interdite.",
+      "quellen": [
+        "ch_blv_chiens"
+      ]
+    },
+    {
+      "titel": "Détention",
+      "marke": "Obligatoire",
+      "ton": "must",
+      "wert": "Sorties et contacts chaque jour",
+      "text": "Les chiens doivent être sortis chaque jour et ont besoin chaque jour de contacts avec des humains et, si possible, avec d'autres chiens. De l'eau fraîche doit être disponible en permanence. Les chiots restent au moins 8 semaines avec leur mère et leur portée.",
+      "mehr": {
+        "titel": "Attaché ou en chenil",
+        "punkte": [
+          "Un chien attaché a besoin d'au moins 20 m² à la chaîne courante et d'au moins 5 heures par jour sans chaîne",
+          "Le séjour au chenil et la détention à la chaîne ne comptent pas comme sorties",
+          "Un chien détenu en plein air a besoin d'un abri et d'une aire de repos surélevée"
+        ]
+      },
+      "quellen": [
+        "ch_blv_chiens"
+      ]
+    },
+    {
+      "titel": "Moyens auxiliaires",
+      "marke": "Interdit",
+      "ton": "must",
+      "wert": "Ni collier à pointes ni décharges électriques",
+      "text": "Sont interdits les colliers à pointes, les colliers étrangleurs sans boucle d'arrêt et les appareils qui donnent des décharges électriques, émettent des signaux sonores désagréables ou agissent par des substances chimiques. L'autorité cantonale peut autoriser une exception à des fins thérapeutiques, uniquement pour des personnes qui justifient des capacités requises. Une muselière ne doit pas empêcher le chien de haleter. Couper les oreilles ou la queue est également interdit.",
+      "quellen": [
+        "ch_blv_chiens"
+      ]
+    },
+    {
+      "titel": "Voyages",
+      "marke": "Règle",
+      "ton": "note",
+      "wert": "Passeport, puce, vaccin antirabique",
+      "text": "Pour voyager à l'étranger, votre chien a besoin au minimum d'un passeport pour animal de compagnie, d'une puce électronique et d'une vaccination antirabique valable. S'y ajoutent les prescriptions du pays de destination et les conditions du retour en Suisse.",
+      "quellen": [
+        "ch_blv_chiens"
+      ]
+    }
+  ]
+}

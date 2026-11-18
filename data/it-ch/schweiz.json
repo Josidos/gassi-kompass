@@ -1,0 +1,100 @@
+{
+  "geprueft": "2026-11-18",
+  "karten": [
+    {
+      "titel": "Microchip e registrazione",
+      "marke": "Obbligo",
+      "ton": "must",
+      "wert": "Microchip e AMICUS",
+      "text": "Ogni cane deve avere un microchip ed essere registrato nella banca dati AMICUS. In Svizzera il microchip può essere impiantato solo da un veterinario. Il veterinario registra anche il cane.",
+      "mehr": {
+        "titel": "Cosa devi notificare",
+        "punkte": [
+          "Modifica dei tuoi dati personali: da comunicare al Comune",
+          "Consegna, presa a carico o morte del cane: da notificare direttamente ad AMICUS"
+        ]
+      },
+      "quellen": [
+        "ch_blv_cani"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "marke": "Obbligo",
+      "ton": "must",
+      "wert": "Presso il tuo Comune di domicilio",
+      "text": "Chi prende un cane lo registra presso il proprio Comune di domicilio. Non tutti i Comuni si occupano dell'imposta sui cani. Chiedi al tuo Comune chi è competente.",
+      "quellen": [
+        "ch_chch_imposta"
+      ]
+    },
+    {
+      "titel": "Imposta sui cani",
+      "marke": "Obbligo",
+      "ton": "must",
+      "wert": "Tra CHF 100 e 200 circa all'anno",
+      "text": "Per il cane è dovuta un'imposta. L'importo varia da Comune a Comune e può dipendere dalle dimensioni e dal peso del cane. Ogni anno ricevi una fattura dal Comune di domicilio o dal Cantone. I cani guida per ciechi e i cani da soccorso sono spesso esentati.",
+      "quellen": [
+        "ch_chch_imposta"
+      ]
+    },
+    {
+      "titel": "Corso",
+      "marke": "Nessun obbligo",
+      "ton": "none",
+      "wert": "Nessun corso obbligatorio federale",
+      "text": "L'attestato di competenza obbligatorio è stato in vigore dal 1° settembre 2008 al 31 dicembre 2016. Dal 1° gennaio 2017 è abolito. Il Consiglio federale consiglia a chi detiene un cane per la prima volta di frequentare volontariamente un corso. Per alcuni tipi di cane le leggi cantonali prevedono ancora un corso obbligatorio.",
+      "quellen": [
+        "ch_blv_cani"
+      ]
+    },
+    {
+      "titel": "Cane dall'estero",
+      "marke": "Obbligo",
+      "ton": "must",
+      "wert": "Dal veterinario entro 10 giorni",
+      "text": "Dopo l'importazione un veterinario deve verificare l'identificazione entro 10 giorni e registrare il cane in AMICUS. L'importazione di cani con orecchie o coda recise è vietata.",
+      "quellen": [
+        "ch_blv_cani"
+      ]
+    },
+    {
+      "titel": "Detenzione",
+      "marke": "Obbligo",
+      "ton": "must",
+      "wert": "Uscite e contatti ogni giorno",
+      "text": "I cani vanno portati fuori ogni giorno e hanno bisogno ogni giorno di contatti con persone e, se possibile, con altri cani. L'acqua fresca deve essere sempre disponibile. I cuccioli restano con la madre e la cucciolata per almeno 8 settimane.",
+      "mehr": {
+        "titel": "Legato o in canile",
+        "punkte": [
+          "Un cane legato ha bisogno di almeno 20 m² attorno alla catena mobile e di almeno 5 ore al giorno senza catena",
+          "Canile e catena non valgono come uscita",
+          "Un cane tenuto all'aperto ha bisogno di una cuccia o di uno spazio protetto e di una superficie di riposo sopraelevata"
+        ]
+      },
+      "quellen": [
+        "ch_blv_cani"
+      ]
+    },
+    {
+      "titel": "Mezzi ausiliari",
+      "marke": "Divieto",
+      "ton": "must",
+      "wert": "Niente collari con aculei, niente scariche elettriche",
+      "text": "Sono vietati i collari con aculei interni, i collari a strozzo senza arresto e i dispositivi che emettono scariche elettriche, producono suoni sgradevoli o agiscono con sostanze chimiche. Un'eccezione è possibile solo a scopo terapeutico, per specialisti qualificati e con un'autorizzazione cantonale. Una museruola non deve ostacolare la respirazione e la regolazione della temperatura. È vietato anche tagliare le orecchie o la coda.",
+      "quellen": [
+        "ch_blv_cani"
+      ]
+    },
+    {
+      "titel": "Viaggi",
+      "marke": "Regola",
+      "ton": "note",
+      "wert": "Passaporto, microchip, antirabbica",
+      "text": "Per viaggiare all'estero il tuo cane ha bisogno almeno di un passaporto per animali da compagnia, di un microchip e di una vaccinazione antirabbica valida. Si aggiungono le prescrizioni del Paese di destinazione e le condizioni per il rientro in Svizzera.",
+      "quellen": [
+        "ch_blv_cani"
+      ]
+    }
+  ]
+}

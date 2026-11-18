@@ -93,11 +93,11 @@
   function ziel(x) {
     var d = daten.d, k = d.k[x.k];
     var kt = waehle(k[1]);
-    if (x.g < 0) return kt ? { href: kt.href, art: "kanton", l: kt.l } : { href: "/schweiz/#kt=" + k[0], art: "bund" };
+    if (x.g < 0) return kt ? { href: kt.href, art: "kanton", l: kt.l } : { href: (T("schweiz") || "/schweiz/") + "#kt=" + k[0], art: "bund" };
     var g = d.g[x.g], ort = encodeURIComponent(x.n), lokal = waehle(g[2]);
     if (lokal) return { href: lokal.href, art: "lokal", l: lokal.l };
     if (kt) return { href: kt.href + "#ort=" + ort, art: "kanton", l: kt.l };
-    return { href: "/schweiz/#kt=" + k[0] + "&ort=" + ort, art: "bund" };
+    return { href: (T("schweiz") || "/schweiz/") + "#kt=" + k[0] + "&ort=" + ort, art: "bund" };
   }
 
   function suche() {

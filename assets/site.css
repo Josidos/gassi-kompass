@@ -137,7 +137,7 @@ h2{margin:0;font-size:1.45rem;line-height:1.2;font-weight:780;font-stretch:110%;
 .list-card.leash li::before{background:var(--must)}
 
 /* Karten */
-.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,340px),1fr));gap:12px}
 .card{padding:16px 18px;border-radius:var(--r);background:var(--surface);border:1px solid var(--line);display:grid;gap:8px;align-content:start;min-width:0}
 .card-top{display:flex;align-items:center;justify-content:space-between;gap:8px;min-height:22px}
 .card-k{font-size:.74rem;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:var(--ink-2)}
@@ -232,3 +232,43 @@ p.callout{display:block;max-width:66ch}
 .card-k a{text-underline-offset:2px}
 .card-k a:hover{color:var(--ink)}
 thead th a{text-underline-offset:2px}
+
+/* Startseite: Umfang in Zahlen, Gemeindeverzeichnis, Thementafeln */
+.facts{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:4px 22px;font-family:var(--mono);font-size:.78rem;color:var(--ink-2)}
+.facts strong{color:var(--ink);font-weight:500}
+.index{margin:0;border-top:1px solid var(--line)}
+.index>div{display:grid;grid-template-columns:minmax(0,13rem) minmax(0,1fr);gap:2px 16px;padding:10px 0;border-bottom:1px solid var(--line)}
+.index dt{font-weight:750}
+.index dt a{text-decoration:none}
+.index dt a:hover{text-decoration:underline;text-underline-offset:3px}
+.index dd{margin:0}
+.index ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:4px 18px}
+.index li a{text-underline-offset:3px}
+.index a:focus-visible{outline:2px solid var(--focus);outline-offset:2px;border-radius:2px}
+.index .lg{color:var(--ink-2);font-size:.82rem}
+@media (max-width:560px){.index>div{grid-template-columns:minmax(0,1fr)}}
+@media (min-width:860px){.index{columns:2;column-gap:36px}.index>div{break-inside:avoid;grid-template-columns:minmax(0,9.5rem) minmax(0,1fr)}}
+.topics{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,280px),1fr));gap:12px}
+.topic{display:grid;gap:6px;align-content:start;padding:16px 18px 16px 15px;border-radius:var(--r);background:var(--surface);border:1px solid var(--line);border-left:5px solid var(--plate);text-decoration:none;transition:background .15s ease}
+.topic:hover{background:var(--plate-hover)}
+.topic:focus-visible{outline:3px solid var(--focus);outline-offset:3px}
+.topic-name{font-weight:780;font-stretch:108%;font-size:1.08rem;line-height:1.2}
+.topic-text{color:var(--ink-2);font-size:.94rem}
+.topic:hover .topic-text{color:var(--ink)}
+
+/* Themenseiten auf dem Telefon: jede Zeile als Block, Kanton und Marke oben, Text darunter */
+@media (max-width:640px){
+  table.stack{display:block;min-width:0}
+  table.stack thead{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+  table.stack tbody{display:block}
+  table.stack tr{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 10px;padding:12px 14px;border-bottom:1px solid var(--line)}
+  table.stack tr:last-child{border-bottom:0}
+  table.stack th,table.stack td{display:block;padding:0;border:0;width:auto}
+  table.stack .t-text{grid-column:1/-1}
+}
+
+/* Monatskürzel unter dem Jahresbalken: auf dem Telefon enger, damit vier Buchstaben (janv, févr, sept) Platz haben */
+@media (max-width:480px){.months{font-size:.56rem;letter-spacing:-.02em}.months span{padding-left:1px}}
+/* Fehlerseite: je eine Zeile in den anderen Sprachen */
+.other-lang{display:grid;gap:6px}
+.other-lang p{margin:0}
