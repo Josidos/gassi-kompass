@@ -16,6 +16,7 @@
   <url><loc>https://gassi-kompass.ch/bs/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://gassi-kompass.ch/be/</loc><lastmod>2026-11-16</lastmod></url>
   <url><loc>https://gassi-kompass.ch/fr/</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://gassi-kompass.ch/ge/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://gassi-kompass.ch/gl/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://gassi-kompass.ch/gr/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://gassi-kompass.ch/lu/</loc><lastmod>2026-11-16</lastmod></url>
@@ -25,8 +26,10 @@
   <url><loc>https://gassi-kompass.ch/sz/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://gassi-kompass.ch/so/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://gassi-kompass.ch/sg/</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://gassi-kompass.ch/ti/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://gassi-kompass.ch/tg/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://gassi-kompass.ch/ur/</loc><lastmod>2026-11-18</lastmod></url>
+  <url><loc>https://gassi-kompass.ch/vd/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://gassi-kompass.ch/vs/</loc><lastmod>2026-11-18</lastmod></url>
   <url><loc>https://gassi-kompass.ch/zg/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://gassi-kompass.ch/zh/</loc><lastmod>2026-11-16</lastmod></url>
@@ -71,11 +74,15 @@
   <url><loc>https://gassi-kompass.ch/zh/zuerich/</loc><lastmod>2026-11-16</lastmod></url>
   <url><loc>https://gassi-kompass.ch/fr-ch/</loc><lastmod>2026-11-16</lastmod></url>
   <url><loc>https://gassi-kompass.ch/fr-ch/ueber/</loc></url>
+  <url><loc>https://gassi-kompass.ch/fr-ch/ag/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://gassi-kompass.ch/fr-ch/be/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://gassi-kompass.ch/fr-ch/fr/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://gassi-kompass.ch/fr-ch/ge/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://gassi-kompass.ch/fr-ch/ju/</loc><lastmod>2026-11-18</lastmod></url>
+  <url><loc>https://gassi-kompass.ch/fr-ch/lu/</loc><lastmod>2026-11-16</lastmod></url>
   <url><loc>https://gassi-kompass.ch/fr-ch/ne/</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://gassi-kompass.ch/fr-ch/sg/</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://gassi-kompass.ch/fr-ch/ti/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://gassi-kompass.ch/fr-ch/vs/</loc><lastmod>2026-11-18</lastmod></url>
   <url><loc>https://gassi-kompass.ch/fr-ch/vd/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://gassi-kompass.ch/fr-ch/zh/</loc><lastmod>2026-11-16</lastmod></url>
@@ -87,8 +94,15 @@
   <url><loc>https://gassi-kompass.ch/fr-ch/zh/zuerich/</loc><lastmod>2026-11-16</lastmod></url>
   <url><loc>https://gassi-kompass.ch/it-ch/</loc><lastmod>2026-11-16</lastmod></url>
   <url><loc>https://gassi-kompass.ch/it-ch/ueber/</loc></url>
+  <url><loc>https://gassi-kompass.ch/it-ch/ag/</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://gassi-kompass.ch/it-ch/be/</loc><lastmod>2026-11-16</lastmod></url>
+  <url><loc>https://gassi-kompass.ch/it-ch/ge/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://gassi-kompass.ch/it-ch/gr/</loc><lastmod>2026-11-18</lastmod></url>
+  <url><loc>https://gassi-kompass.ch/it-ch/lu/</loc><lastmod>2026-11-16</lastmod></url>
+  <url><loc>https://gassi-kompass.ch/it-ch/sg/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://gassi-kompass.ch/it-ch/ti/</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://gassi-kompass.ch/it-ch/vs/</loc><lastmod>2026-11-18</lastmod></url>
+  <url><loc>https://gassi-kompass.ch/it-ch/vd/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://gassi-kompass.ch/it-ch/zh/</loc><lastmod>2026-11-16</lastmod></url>
   <url><loc>https://gassi-kompass.ch/it-ch/ti/lugano/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://gassi-kompass.ch/it-ch/zh/zuerich/</loc><lastmod>2026-11-16</lastmod></url>
