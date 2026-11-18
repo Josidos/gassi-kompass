@@ -1,0 +1,114 @@
+{
+  "id": "ju",
+  "kurz": "JU",
+  "uebersetzt_aus": "fr",
+  "original": "538d7e377af2",
+  "wald": {
+    "saison": false,
+    "text": "Il diritto cantonale non fissa un periodo di guinzaglio obbligatorio nel bosco. Nel bosco devi poter tenere il tuo cane sotto controllo in permanenza. Altrimenti va tenuto al guinzaglio. Stato del testo consultato: 2012. Il Cantone lo ha ricordato il 30 aprile 2026: devi poter tenere il tuo cane sotto controllo in ogni momento e, se necessario, tenerlo al guinzaglio. I cani disturbano la fauna in modo particolare durante il periodo di riproduzione.",
+    "quellen": [
+      "ju_ochasse",
+      "ju_milieux_2026"
+    ]
+  },
+  "leine": {
+    "punkte": [
+      "nel bosco, se non puoi tenere il tuo cane sotto controllo in permanenza (stato del testo consultato: 2012)",
+      "se il veterinario cantonale lo ha ordinato per il tuo cane, anche fuori dall'abitato",
+      "secondo il regolamento del tuo Comune: i cani vaganti sulla pubblica via sono di competenza comunale"
+    ],
+    "quellen": [
+      "ju_ochasse",
+      "ju_opa",
+      "ju_scav_chiens"
+    ]
+  },
+  "verbot": {
+    "einleitung": "I testi cantonali consultati non indicano luoghi vietati ai cani. Le regole locali sono di competenza dei Comuni.",
+    "punkte": [
+      "è vietato lasciar vagare un cane, cioè fuori dal controllo del suo detentore (stato del testo consultato: 2012)",
+      "è vietato lasciare che un cane cerchi o insegua animali selvatici (stato del testo consultato: 2012)"
+    ],
+    "quellen": [
+      "ju_ochasse",
+      "ju_scav_chiens"
+    ]
+  },
+  "karten": [
+    {
+      "titel": "Responsabilità civile",
+      "marke": "Non menzionata",
+      "ton": "none",
+      "wert": "nessun obbligo nei testi consultati",
+      "text": "Né l'ordonnance cantonale sur la protection des animaux (ordinanza cantonale sulla protezione degli animali) né la pagina «Chiens» (cani) del Service de la consommation et des affaires vétérinaires (SCAV, servizio del consumo e degli affari veterinari) menzionano un'assicurazione di responsabilità civile obbligatoria.",
+      "quellen": [
+        "ju_opa",
+        "ju_scav_chiens"
+      ]
+    },
+    {
+      "titel": "Corso",
+      "marke": "Facoltativo",
+      "ton": "none",
+      "wert": "corso raccomandato, non obbligatorio",
+      "text": "Lo SCAV raccomanda a chi detiene un cane per la prima volta di seguire un corso facoltativo durante il primo anno dopo l'acquisto. Dopo un morso o un comportamento aggressivo fuori dalla norma, il veterinario cantonale può imporre corsi specifici.",
+      "quellen": [
+        "ju_scav_chiens",
+        "ju_opa"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "marke": "Obbligo",
+      "ton": "must",
+      "wert": "Comune entro 30 giorni, AMICUS",
+      "text": "Annunci il tuo cane al tuo Comune di domicilio entro 30 giorni dall'acquisto. Se non sei ancora mai stato registrato come detentore, ti annunci al Contrôle des habitants (controllo abitanti) del tuo Comune, che inserisce i tuoi dati in AMICUS. Il tuo veterinario identifica poi il cane e lo registra in AMICUS. Il microchip viene applicato al più tardi tre mesi dopo la nascita. Annunci ad AMICUS ogni cambiamento di detentore o di indirizzo entro 10 giorni.",
+      "quellen": [
+        "ju_scav_chiens",
+        "ju_scav_amicus"
+      ]
+    },
+    {
+      "titel": "Imposta sui cani",
+      "marke": "annuale",
+      "ton": "note",
+      "wert": "tassa comunale, importo secondo il Comune",
+      "text": "La tassa sui cani è una tassa comunale. È disciplinata dalla loi concernant la taxe des chiens (legge cantonale sulla tassa dei cani, RSJU 645.1) e dalla relativa ordinanza. L'importo dipende dal tuo Comune. Esempio: a Delémont la tassa di base è di CHF 130 secondo il preventivo 2026. Gli importi limite della legge non sono indicati qui. Informati presso il tuo Comune.",
+      "quellen": [
+        "ju_rsju_taxe",
+        "ju_delemont_budget"
+      ]
+    },
+    {
+      "titel": "Razze",
+      "marke": "Nessun elenco",
+      "ton": "none",
+      "wert": "misure caso per caso",
+      "text": "L'ordonnance cantonale sur la protection des animaux non contiene un elenco delle razze. Per un cane determinato il veterinario cantonale può ordinare misure: guinzaglio, museruola, sterilizzazione, esame e terapia comportamentale, corso di educazione cinofila o esame di idoneità, sequestro, divieto di detenere cani. Le spese sono a carico del detentore. I morsi a persone o animali e i cani con un'aggressività fuori dalla norma vengono segnalati allo SCAV, in particolare da veterinari, medici, polizia e Comuni.",
+      "quellen": [
+        "ju_opa",
+        "ju_scav_chiens"
+      ]
+    },
+    {
+      "titel": "A passeggio",
+      "marke": "Regola",
+      "ton": "note",
+      "wert": "cane sotto controllo in ogni momento",
+      "text": "Devi poter tenere il tuo cane sotto controllo in ogni momento e, se necessario, tenerlo al guinzaglio. È vietato lasciarlo vagare o inseguire animali selvatici (stato del testo consultato: 2012). Gli abbai molesti, i cani vaganti sulla pubblica via o in proprietà private e i problemi di vicinato sono di competenza del tuo Comune.",
+      "quellen": [
+        "ju_milieux_2026",
+        "ju_ochasse",
+        "ju_scav_chiens"
+      ]
+    }
+  ],
+  "vergleich": {
+    "wald": "nessun periodo, cane sempre sotto controllo nel bosco, altrimenti guinzaglio",
+    "haft": "nessun obbligo nei testi consultati",
+    "kurs": "facoltativo, raccomandato per il primo cane",
+    "rassen": "nessun elenco, misure caso per caso",
+    "steuer": "tassa comunale, importo secondo il Comune",
+    "anm": "Comune entro 30 giorni e AMICUS"
+  }
+}

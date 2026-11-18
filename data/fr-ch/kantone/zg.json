@@ -1,0 +1,113 @@
+{
+  "id": "zg",
+  "kurz": "ZG",
+  "uebersetzt_aus": "de",
+  "original": "ab3f4dd36b42",
+  "wald": {
+    "saison": true,
+    "von": "04-01",
+    "bis": "07-31",
+    "wo": "en forêt et en lisière",
+    "quellen": [
+      "zg_wald",
+      "zg_wald_mm"
+    ]
+  },
+  "leine": {
+    "punkte": [
+      "en forêt et en lisière, du 1er avril au 31 juillet",
+      "dans les réserves naturelles (les chiens y sont parfois totalement interdits)",
+      "partout où la commune ou un panneau l'exige",
+      "recommandé par le canton, mais sans obligation cantonale : dans les bâtiments publics, dans les gares et aux arrêts de bus, dans les restaurants et les magasins, dans les zones d'habitation, près des places de jeux et des terrains de sport, le long des routes à fort trafic, au crépuscule et de nuit"
+    ],
+    "quellen": [
+      "zg_vet",
+      "zg_wald_mm"
+    ]
+  },
+  "verbot": {
+    "einleitung": "Le canton indique des lieux où vous ne devriez pas emmener votre chien. Ce sont les règles et les panneaux de votre commune qui font foi.",
+    "punkte": [
+      "les écoles et les préaux",
+      "les places de jeux et les terrains de sport",
+      "les cimetières",
+      "les piscines publiques"
+    ],
+    "quellen": [
+      "zg_vet"
+    ]
+  },
+  "karten": [
+    {
+      "titel": "Responsabilité civile",
+      "marke": "Commune",
+      "ton": "note",
+      "wert": "règlement de la commune",
+      "text": "Selon le canton, la détention de chiens est régie par l'ordonnance sur la protection des animaux de la Confédération et par les lois et règlements des communes zougoises. La page du canton ne mentionne aucune obligation d'assurance. Le Hundereglement (règlement sur les chiens) de votre commune indique si elle exige une assurance responsabilité civile.",
+      "quellen": [
+        "zg_vet"
+      ]
+    },
+    {
+      "titel": "Cours",
+      "marke": "Commune",
+      "ton": "note",
+      "wert": "règlement de la commune",
+      "text": "Selon le canton, la détention de chiens est régie par l'ordonnance sur la protection des animaux de la Confédération et par les lois et règlements des communes zougoises. La page du canton ne mentionne aucun cours obligatoire. Le Hundereglement de votre commune indique si elle exige un cours.",
+      "quellen": [
+        "zg_vet"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "marke": "Obligatoire",
+      "ton": "note",
+      "wert": "commune et AMICUS",
+      "text": "Faites-vous inscrire comme détentrice ou détenteur auprès de votre commune de domicile. Elle saisit vos données personnelles dans la banque de données AMICUS. Le chien est enregistré par la ou le vétérinaire. Vous annoncez vous-même à AMICUS la cession, la prise en charge ou la mort du chien. Les chiens importés doivent être enregistrés dans les 10 jours suivant leur entrée en Suisse.",
+      "quellen": [
+        "zg_registrierung"
+      ]
+    },
+    {
+      "titel": "Impôt sur les chiens",
+      "marke": "Commune",
+      "ton": "note",
+      "wert": "selon la commune",
+      "text": "L'impôt sur les chiens figure dans le règlement de votre commune. Les données de la banque de données sur les chiens peuvent être utilisées pour percevoir l'impôt sur les chiens. Un exemple : Steinhausen demande CHF 70 par chien et par année civile pour les chiens dès trois mois (aide-mémoire 2025).",
+      "quellen": [
+        "zg_vv_tsg",
+        "zg_steinhausen_steuer"
+      ]
+    },
+    {
+      "titel": "Races",
+      "marke": "Commune",
+      "ton": "note",
+      "wert": "règlement de la commune",
+      "text": "Selon le canton, la détention de chiens est régie par l'ordonnance sur la protection des animaux de la Confédération et par les lois et règlements des communes zougoises. Les pages du canton ne mentionnent aucune liste de races. Si un chien blesse gravement des personnes ou des animaux ou présente un comportement d'agression supérieur à la norme, les vétérinaires, les médecins, les refuges, les pensions pour animaux, les éducateurs canins et la douane doivent l'annoncer au Veterinärdienst (service vétérinaire).",
+      "quellen": [
+        "zg_vet",
+        "zg_vorfaelle"
+      ]
+    },
+    {
+      "titel": "En promenade",
+      "marke": "Règle",
+      "ton": "note",
+      "wert": "à portée de vue et rappel",
+      "text": "Gardez votre chien sous contrôle en tout temps, de sorte qu'il ne mette en danger ni des personnes ni des animaux. En forêt et en lisière, il reste à portée de vue et peut être rappelé à tout moment, même en dehors de la période de laisse obligatoire. Les obligations locales de tenir le chien en laisse et les interdictions locales priment.",
+      "quellen": [
+        "zg_vet",
+        "zg_wald"
+      ]
+    }
+  ],
+  "vergleich": {
+    "wald": "du 1.4. au 31.7., en forêt et en lisière",
+    "haft": "règlement de la commune",
+    "kurs": "règlement de la commune",
+    "rassen": "aucune liste mentionnée par le canton, règlement de la commune",
+    "steuer": "selon la commune",
+    "anm": "commune de domicile et AMICUS"
+  }
+}

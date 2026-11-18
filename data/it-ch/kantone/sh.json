@@ -1,0 +1,147 @@
+{
+  "id": "sh",
+  "kurz": "SH",
+  "uebersetzt_aus": "de",
+  "original": "715cb2ecc3a5",
+  "wald": {
+    "saison": true,
+    "von": "04-15",
+    "bis": "06-30",
+    "wo": "nel bosco e in prossimità del bosco",
+    "quellen": [
+      "sh_merkblatt",
+      "sh_hundeg"
+    ]
+  },
+  "leine": {
+    "punkte": [
+      "nei parchi giochi pubblici per bambini",
+      "nei cimiteri",
+      "negli edifici accessibili al pubblico",
+      "lungo le strade molto trafficate",
+      "sui mezzi di trasporto pubblici, nelle stazioni e alle fermate",
+      "nel bosco e in prossimità del bosco durante il periodo di cova e di parto, dal 15 aprile al 30 giugno",
+      "nelle immediate vicinanze dei pascoli in cui si trovano animali",
+      "nei luoghi segnalati dal Gemeinderat (esecutivo comunale)",
+      "sempre nello spazio pubblico, se la cagna è in calore o se il cane è mordace o ha una malattia contagiosa"
+    ],
+    "quellen": [
+      "sh_hundeg",
+      "sh_merkblatt"
+    ]
+  },
+  "verbot": {
+    "einleitung": "Qui non puoi né portare con te il tuo cane né lasciarlo correre libero (stato del testo di legge: 2010):",
+    "punkte": [
+      "stabilimenti balneari",
+      "cortili delle scuole",
+      "luoghi segnalati dal Gemeinderat"
+    ],
+    "quellen": [
+      "sh_hundeg"
+    ]
+  },
+  "karten": [
+    {
+      "titel": "Responsabilità civile",
+      "marke": "Obbligo",
+      "ton": "must",
+      "wert": "almeno CHF 1 milione",
+      "text": "Chi detiene un cane deve avere un'assicurazione di responsabilità civile con una somma di copertura di almeno CHF 1 milione e deve poterla comprovare. Stato del testo di legge: 2010.",
+      "quellen": [
+        "sh_hundeg",
+        "sh_merkblatt"
+      ]
+    },
+    {
+      "titel": "Corso",
+      "marke": "nel singolo caso",
+      "ton": "note",
+      "wert": "nessun corso proprio nella Hundegesetz",
+      "text": "La Hundegesetz (legge sui cani) non prevede un corso cantonale proprio. Per l'attestato di formazione rinvia alla legislazione federale sulla protezione degli animali. L'autorità può ordinare nel singolo caso la frequenza di un corso di educazione cinofila. Per un cane soggetto ad autorizzazione devi comprovare conoscenze cinologiche. Stato del testo di legge: 2010.",
+      "quellen": [
+        "sh_hundeg",
+        "sh_merkblatt"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "marke": "10 giorni",
+      "ton": "must",
+      "wert": "Comune e AMICUS",
+      "text": "I cani di età superiore a tre mesi li annunci entro 10 giorni al tuo Comune di domicilio. Si aggiunge la registrazione nella banca dati AMICUS. Annunci entro 10 giorni anche i cambiamenti di nome o di indirizzo, una presa a carico e la morte del cane. Il cane porta inoltre una marca di controllo del Comune (stato dell'ordinanza: 2009).",
+      "quellen": [
+        "sh_hundeg",
+        "sh_hundev",
+        "sh_merkblatt"
+      ]
+    },
+    {
+      "titel": "Imposta sui cani",
+      "marke": "annuale",
+      "ton": "note",
+      "wert": "CHF 100 a 200, secondo il Comune",
+      "text": "La tassa sui cani è di CHF 100 a CHF 200 per cane e anno civile. L'importo è fissato dal Gemeinderat. Se inizi a detenere il cane solo dopo il 30 giugno o se compie tre mesi solo dopo tale data, per quell'anno paghi la metà. Sono esentati tra gli altri i cani di età inferiore a tre mesi, i cani di servizio, i cani da catastrofe e i cani guida per ciechi. Stato del testo di legge: 2010; la fascia da CHF 100 a 200 è confermata nel 2023 in un'interrogazione al Grosser Stadtrat (parlamento cittadino) di Sciaffusa.",
+      "quellen": [
+        "sh_hundeg",
+        "sh_stadt_ka"
+      ]
+    },
+    {
+      "titel": "Razze",
+      "marke": "Autorizzazione",
+      "ton": "must",
+      "wert": "cani con potenziale di pericolo elevato",
+      "text": "Per i cani di determinati tipi di razza e i loro incroci ti serve un'autorizzazione del Veterinäramt (ufficio veterinario). Deve essere richiesta e rilasciata prima di acquistare il cane, anche per una detenzione di prova o una breve custodia. Sono richiesti tra l'altro la prova di conoscenze cinologiche, un estratto del casellario giudiziale, un certificato di domicilio e la prova dell'assicurazione di responsabilità civile. Chi detiene un cane per la prima volta di regola non ottiene l'autorizzazione. Sono soggette ad autorizzazione anche le razze create più di recente a partire da questi tipi di razza, per esempio American Bully o Miniature Bullterrier. In caso di dubbio decide il Veterinäramt.",
+      "mehr": {
+        "titel": "Mostra i tipi di razza citati nel promemoria",
+        "punkte": [
+          "American Staffordshire Terrier",
+          "Bullterrier",
+          "Staffordshire Bullterrier",
+          "American Pitbull",
+          "Cane Corso",
+          "Dobermann",
+          "Dogo Argentino",
+          "Fila Brasileiro",
+          "Mastiff",
+          "Mastín Español",
+          "Mastino Napoletano",
+          "Presa Canario",
+          "Rottweiler",
+          "Tosa"
+        ]
+      },
+      "quellen": [
+        "sh_merkblatt",
+        "sh_hundeg"
+      ]
+    },
+    {
+      "titel": "A passeggio",
+      "marke": "Regola",
+      "ton": "note",
+      "wert": "escrementi, rumore e cane al piede nel bosco",
+      "text": "Raccogli gli escrementi del tuo cane sui fondi altrui e sul suolo pubblico. Nel bosco e nelle sue immediate vicinanze tieni il cane al piede. Devi impedire che abbai o ululi in modo persistente disturbando gli altri. Le infrazioni alla Hundegesetz possono essere punite con una multa fino a CHF 10 000, nei casi lievi con un ammonimento. Stato del testo di legge: 2010.",
+      "quellen": [
+        "sh_hundeg",
+        "sh_merkblatt"
+      ]
+    }
+  ],
+  "vergleich": {
+    "wald": "dal 15.4. al 30.6., nel bosco e in prossimità del bosco",
+    "haft": "obbligo, almeno CHF 1 milione",
+    "kurs": "nessun corso proprio, ordinato nel singolo caso",
+    "rassen": "obbligo di autorizzazione per tipi di razza",
+    "steuer": "CHF 100 a 200, secondo il Comune",
+    "anm": "entro 10 giorni, Comune e AMICUS"
+  },
+  "umzug": {
+    "text": "Se ti trasferisci nel Cantone di Sciaffusa con un cane soggetto ad autorizzazione, presenti la domanda di autorizzazione di detenzione entro 10 giorni.",
+    "quellen": [
+      "sh_merkblatt",
+      "sh_hundeg"
+    ]
+  }
+}

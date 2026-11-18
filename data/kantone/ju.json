@@ -1,0 +1,114 @@
+{
+  "id": "ju",
+  "kurz": "JU",
+  "uebersetzt_aus": "fr",
+  "original": "538d7e377af2",
+  "wald": {
+    "saison": false,
+    "text": "Das kantonale Recht legt keine Zeit mit Leinenpflicht im Wald fest. Im Wald musst du deinen Hund ständig unter Kontrolle halten können. Sonst muss er an der Leine geführt werden. Stand des abgerufenen Textes: 2012. Der Kanton hat am 30. April 2026 daran erinnert: Du musst deinen Hund jederzeit unter Kontrolle halten und ihn wenn nötig an die Leine nehmen können. Hunde stören die Wildtiere besonders während der Fortpflanzungszeit.",
+    "quellen": [
+      "ju_ochasse",
+      "ju_milieux_2026"
+    ]
+  },
+  "leine": {
+    "punkte": [
+      "im Wald, wenn du deinen Hund nicht ständig unter Kontrolle halten kannst (Stand des abgerufenen Textes: 2012)",
+      "wenn der Kantonstierarzt es für deinen Hund angeordnet hat, auch ausserhalb des Siedlungsgebiets",
+      "nach dem Reglement deiner Gemeinde: Für streunende Hunde auf öffentlichem Grund sind die Gemeinden zuständig"
+    ],
+    "quellen": [
+      "ju_ochasse",
+      "ju_opa",
+      "ju_scav_chiens"
+    ]
+  },
+  "verbot": {
+    "einleitung": "Die abgerufenen kantonalen Texte bezeichnen keine Orte mit Hundeverbot. Die lokalen Regeln sind Sache der Gemeinden.",
+    "punkte": [
+      "Es ist verboten, einen Hund streunen zu lassen, das heisst ausserhalb der Kontrolle seiner Halterin oder seines Halters (Stand des abgerufenen Textes: 2012)",
+      "Es ist verboten, einen Hund Wildtiere aufspüren oder verfolgen zu lassen (Stand des abgerufenen Textes: 2012)"
+    ],
+    "quellen": [
+      "ju_ochasse",
+      "ju_scav_chiens"
+    ]
+  },
+  "karten": [
+    {
+      "titel": "Haftpflicht",
+      "marke": "Nicht erwähnt",
+      "ton": "none",
+      "wert": "keine Pflicht in den abgerufenen Texten",
+      "text": "Weder die kantonale ordonnance sur la protection des animaux (Tierschutzverordnung) noch die Seite «Chiens» (Hunde) des Service de la consommation et des affaires vétérinaires (SCAV, Dienststelle für Konsum und Veterinärwesen) erwähnen eine obligatorische Haftpflichtversicherung.",
+      "quellen": [
+        "ju_opa",
+        "ju_scav_chiens"
+      ]
+    },
+    {
+      "titel": "Kurs",
+      "marke": "Freiwillig",
+      "ton": "none",
+      "wert": "Kurs empfohlen, keine Pflicht",
+      "text": "Der SCAV empfiehlt Personen, die zum ersten Mal einen Hund halten, im ersten Jahr nach dem Erwerb einen freiwilligen Kurs zu besuchen. Nach einem Biss oder einem übermässig aggressiven Verhalten kann der Kantonstierarzt besondere Kurse vorschreiben.",
+      "quellen": [
+        "ju_scav_chiens",
+        "ju_opa"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "marke": "Pflicht",
+      "ton": "must",
+      "wert": "Gemeinde innert 30 Tagen, AMICUS",
+      "text": "Du meldest deinen Hund innert 30 Tagen nach dem Erwerb bei deiner Wohngemeinde an. Warst du noch nie als Halterin oder Halter registriert, meldest du dich beim Contrôle des habitants (Einwohnerkontrolle) deiner Gemeinde. Dieser erfasst deine Daten in AMICUS. Danach kennzeichnet deine Tierärztin oder dein Tierarzt den Hund und registriert ihn in AMICUS. Der Mikrochip wird spätestens drei Monate nach der Geburt gesetzt. Jeden Wechsel der Halterin oder des Halters und jede Adressänderung meldest du innert 10 Tagen an AMICUS.",
+      "quellen": [
+        "ju_scav_chiens",
+        "ju_scav_amicus"
+      ]
+    },
+    {
+      "titel": "Hundesteuer",
+      "marke": "jährlich",
+      "ton": "note",
+      "wert": "Gemeindetaxe, Betrag je nach Gemeinde",
+      "text": "Die Hundetaxe ist eine Gemeindetaxe. Sie ist in der kantonalen loi concernant la taxe des chiens (Gesetz über die Hundetaxe, RSJU 645.1) und der dazugehörigen Verordnung geregelt. Der Betrag hängt von deiner Gemeinde ab. Beispiel: In Delémont beträgt die Grundtaxe CHF 130 laut Budget 2026. Die Grenzbeträge des Gesetzes sind hier nicht angegeben. Erkundige dich bei deiner Gemeinde.",
+      "quellen": [
+        "ju_rsju_taxe",
+        "ju_delemont_budget"
+      ]
+    },
+    {
+      "titel": "Rassen",
+      "marke": "keine Liste",
+      "ton": "none",
+      "wert": "Massnahmen im Einzelfall",
+      "text": "Die kantonale ordonnance sur la protection des animaux enthält keine Rasseliste. Für einen bestimmten Hund kann der Kantonstierarzt Massnahmen anordnen: Leine, Maulkorb, Sterilisation, Verhaltensabklärung und Verhaltenstherapie, Hundeerziehungskurs oder Eignungsprüfung, Beschlagnahme, Verbot, Hunde zu halten. Die Kosten trägt die Halterin oder der Halter. Bisse an Menschen oder Tieren und übermässig aggressive Hunde werden dem SCAV gemeldet, namentlich von Tierärztinnen und Tierärzten, der Ärzteschaft, der Polizei und den Gemeinden.",
+      "quellen": [
+        "ju_opa",
+        "ju_scav_chiens"
+      ]
+    },
+    {
+      "titel": "Unterwegs",
+      "marke": "Regel",
+      "ton": "note",
+      "wert": "Hund jederzeit unter Kontrolle",
+      "text": "Du musst deinen Hund jederzeit unter Kontrolle halten und ihn wenn nötig an die Leine nehmen können. Es ist verboten, ihn streunen oder Wildtiere verfolgen zu lassen (Stand des abgerufenen Textes: 2012). Für störendes Bellen, streunende Hunde auf öffentlichem Grund oder auf Privatgrundstücken und Nachbarschaftsprobleme ist deine Gemeinde zuständig.",
+      "quellen": [
+        "ju_milieux_2026",
+        "ju_ochasse",
+        "ju_scav_chiens"
+      ]
+    }
+  ],
+  "vergleich": {
+    "wald": "keine feste Zeit, Hund im Wald ständig unter Kontrolle, sonst Leine",
+    "haft": "keine Pflicht in den abgerufenen Texten",
+    "kurs": "freiwillig, für den ersten Hund empfohlen",
+    "rassen": "keine Liste, Massnahmen im Einzelfall",
+    "steuer": "Gemeindetaxe, Betrag je nach Gemeinde",
+    "anm": "Gemeinde innert 30 Tagen und AMICUS"
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "id": "zg",
+  "kurz": "ZG",
+  "uebersetzt_aus": "de",
+  "original": "ab3f4dd36b42",
+  "wald": {
+    "saison": true,
+    "von": "04-01",
+    "bis": "07-31",
+    "wo": "nel bosco e al margine del bosco",
+    "quellen": [
+      "zg_wald",
+      "zg_wald_mm"
+    ]
+  },
+  "leine": {
+    "punkte": [
+      "nel bosco e al margine del bosco, dal 1° aprile al 31 luglio",
+      "nelle riserve naturali (in alcune i cani non sono ammessi del tutto)",
+      "ovunque il Comune o un cartello lo richieda",
+      "raccomandato dal Cantone, ma senza obbligo cantonale: negli edifici pubblici, nelle stazioni e alle fermate dei bus, nei ristoranti e nei negozi, nelle zone residenziali, vicino ai parchi giochi e ai campi sportivi, lungo le strade molto trafficate, al crepuscolo e di notte"
+    ],
+    "quellen": [
+      "zg_vet",
+      "zg_wald_mm"
+    ]
+  },
+  "verbot": {
+    "einleitung": "Il Cantone indica i luoghi in cui non dovresti portare il tuo cane. Fanno stato le regole e i cartelli del tuo Comune.",
+    "punkte": [
+      "scuole e cortili delle scuole",
+      "parchi giochi e campi sportivi",
+      "cimiteri",
+      "piscine pubbliche"
+    ],
+    "quellen": [
+      "zg_vet"
+    ]
+  },
+  "karten": [
+    {
+      "titel": "Responsabilità civile",
+      "marke": "Comune",
+      "ton": "note",
+      "wert": "regolamento del Comune",
+      "text": "Secondo il Cantone, per la detenzione di cani fanno stato l'ordinanza sulla protezione degli animali della Confederazione e le leggi e i regolamenti dei Comuni del Cantone di Zugo. La pagina del Cantone non menziona alcun obbligo di assicurazione. Se il tuo Comune richiede un'assicurazione di responsabilità civile, lo trovi nel suo Hundereglement (regolamento sui cani).",
+      "quellen": [
+        "zg_vet"
+      ]
+    },
+    {
+      "titel": "Corso",
+      "marke": "Comune",
+      "ton": "note",
+      "wert": "regolamento del Comune",
+      "text": "Secondo il Cantone, per la detenzione di cani fanno stato l'ordinanza sulla protezione degli animali della Confederazione e le leggi e i regolamenti dei Comuni del Cantone di Zugo. La pagina del Cantone non menziona alcun corso obbligatorio. Se il tuo Comune richiede un corso, lo trovi nel suo Hundereglement.",
+      "quellen": [
+        "zg_vet"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "marke": "Obbligo",
+      "ton": "note",
+      "wert": "Comune e AMICUS",
+      "text": "Fatti iscrivere come detentrice o detentore presso il tuo Comune di domicilio. Il Comune registra i tuoi dati personali nella banca dati AMICUS. Il cane viene registrato dalla veterinaria o dal veterinario. La cessione, la presa a carico o la morte del cane le annunci tu ad AMICUS. I cani importati devono essere registrati entro 10 giorni dall'entrata in Svizzera.",
+      "quellen": [
+        "zg_registrierung"
+      ]
+    },
+    {
+      "titel": "Imposta sui cani",
+      "marke": "Comune",
+      "ton": "note",
+      "wert": "secondo il Comune",
+      "text": "L'imposta sui cani è stabilita nel regolamento del tuo Comune. I dati della banca dati dei cani possono essere utilizzati per riscuotere l'imposta sui cani. Un esempio: Steinhausen chiede CHF 70 per cane e anno civile per i cani a partire da tre mesi (promemoria 2025).",
+      "quellen": [
+        "zg_vv_tsg",
+        "zg_steinhausen_steuer"
+      ]
+    },
+    {
+      "titel": "Razze",
+      "marke": "Comune",
+      "ton": "note",
+      "wert": "regolamento del Comune",
+      "text": "Secondo il Cantone, per la detenzione di cani fanno stato l'ordinanza sulla protezione degli animali della Confederazione e le leggi e i regolamenti dei Comuni del Cantone di Zugo. Le pagine del Cantone non menzionano alcun elenco delle razze. Se un cane ferisce gravemente persone o animali o mostra un comportamento aggressivo superiore alla norma, veterinari, medici, rifugi per animali, pensioni per animali, addestratori di cani e dogana devono segnalarlo al Veterinärdienst (servizio veterinario).",
+      "quellen": [
+        "zg_vet",
+        "zg_vorfaelle"
+      ]
+    },
+    {
+      "titel": "A passeggio",
+      "marke": "Regola",
+      "ton": "note",
+      "wert": "a vista e richiamo",
+      "text": "Tieni il tuo cane sempre sotto controllo, in modo che non metta in pericolo né persone né animali. Nel bosco e al margine del bosco resta a vista e può essere richiamato in ogni momento, anche fuori dal periodo di guinzaglio obbligatorio. Gli obblighi di guinzaglio e i divieti per i cani validi sul posto hanno la precedenza.",
+      "quellen": [
+        "zg_vet",
+        "zg_wald"
+      ]
+    }
+  ],
+  "vergleich": {
+    "wald": "dal 1.4. al 31.7., nel bosco e al margine del bosco",
+    "haft": "regolamento del Comune",
+    "kurs": "regolamento del Comune",
+    "rassen": "nessun elenco menzionato dal Cantone, regolamento del Comune",
+    "steuer": "secondo il Comune",
+    "anm": "Comune di domicilio e AMICUS"
+  }
+}
