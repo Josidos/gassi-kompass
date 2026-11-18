@@ -23,22 +23,24 @@ Claude führt das Projekt wie einen Betrieb: Inhalt, Technik, Qualität und Stra
 | `data/protokoll/` | Protokolle der Parallel-Läufe, bis ein Lauf sie einsammelt, und `auftraege.md` mit den vergebenen Aufträgen |
 | `data/kantone/<kt>.json` | Regeln eines Kantons |
 | `data/gemeinden/<kt>/<gemeinde>.json` | Lokale Regeln einer Gemeinde |
+| `data/fr-ch/kantone/`, `data/fr-ch/gemeinden/<kt>/` | Französische Fassungen, gleiche Felder, Texte aus den französischen amtlichen Quellen |
+| `data/it-ch/kantone/`, `data/it-ch/gemeinden/<kt>/` | Italienische Fassungen, ebenso |
 | `data/entwurf/<kt>.json` | Angefangener Kanton, dem noch Felder fehlen. Wird nicht gebaut. |
 | `data/schweiz.json` | Regeln des Bundes für die Seite `/schweiz/`. Kartenfelder wie beim Kanton. |
 | `data/orte.json` | Alle Gemeinden, Ortschaften und Postleitzahlen der Schweiz (swisstopo). Grundlage der Ortssuche. Nie von Hand ändern, entsteht mit `tools/orte.py`. |
-| `build.py` | Prüft die Daten und erzeugt alle Seiten. Die Themenseiten stehen in der Liste `THEMEN` und in der Funktion `seite_thema()`. |
-| `assets/` | Stylesheet, Skripte (`heute.js` für den Wald-Status, `suche.js` für die Ortssuche), Schriften, Icon |
+| `build.py` | Prüft die Daten und erzeugt alle Seiten in allen Sprachen. Alle festen Texte stehen in der Tabelle `TEXTE` je Sprache (`de`, `fr`, `it`). Die Themenseiten stehen in der Liste `THEMEN` und in der Funktion `seite_thema()`. |
+| `assets/` | Stylesheet, Skripte (`heute.js` für den Wald-Status, `suche.js` für die Ortssuche), Schriften, Icon. Die Skripte kennen keine Sprache, ihre Texte kommen als data-Attribute aus `build.py`. |
 | `tests/seiten.js` | Browser-Test der gebauten Seiten |
 | `BACKLOG.md` | Was als Nächstes dran ist |
 | `CHANGELOG.md` | Protokoll jedes Laufs |
 | `CNAME`, `.nojekyll` | Domain und Schalter für GitHub Pages. Nie löschen oder ändern. |
 | `google49e2be530ce3822a.html` | Bestätigungsdatei für die Google Search Console. Nie löschen oder ändern, sonst verliert Joss den Zugriff auf die Suchdaten. `build.py --check` meldet einen Fehler, wenn sie fehlt. |
 
-Erzeugte Dateien nie von Hand ändern: `index.html`, `404.html`, `sitemap.xml`, `robots.txt`, `assets/orte.json`, `ueber/`, `schweiz/`, `thema/` und die Kantonsordner wie `zh/`. Stattdessen Daten oder `build.py` anpassen und neu bauen.
+Erzeugte Dateien nie von Hand ändern: `index.html`, `404.html`, `sitemap.xml`, `robots.txt`, `assets/orte.json`, `ueber/`, `schweiz/`, `thema/`, die Kantonsordner wie `zh/` und die Sprachordner `fr-ch/` und `it-ch/`. Stattdessen Daten oder `build.py` anpassen und neu bauen.
 
 ### Ortssuche
 
-Auf der Startseite gibt man eine Gemeinde, einen Ort, eine Postleitzahl oder einen Kanton ein. Die Suche kennt die ganze Schweiz aus `data/orte.json` und führt auf die genaueste Seite, die es gibt: die Gemeinde (über das Feld `bfs`), sonst den Kanton mit einem Hinweis zum Ort, sonst `/schweiz/` mit dem Hinweis, dass der Kanton noch folgt. Ein neuer Kanton oder eine neue Gemeinde erscheint in der Suche von selbst, sobald die Datei da ist. Alle Texte der Suche stehen in `build.py` in der Funktion `suche()`.
+Auf der Startseite gibt man eine Gemeinde, einen Ort, eine Postleitzahl oder einen Kanton ein. Die Suche kennt die ganze Schweiz aus `data/orte.json` und führt auf die genaueste Seite, die es gibt: die Gemeinde (über das Feld `bfs`), sonst den Kanton mit einem Hinweis zum Ort, sonst `/schweiz/` mit dem Hinweis, dass der Kanton noch folgt. Ein neuer Kanton oder eine neue Gemeinde erscheint in der Suche von selbst, sobald die Datei da ist. Alle Texte der Suche stehen in `build.py` in der Tabelle `TEXTE` unter `suche`. Es gibt ein Verzeichnis für alle Sprachen (`assets/orte.json`). Jede Startseite sucht in ihrer Sprache: Ein Treffer führt auf die Seite in dieser Sprache, wenn es sie gibt, sonst auf die Fassung in einer anderen Sprache. Dann nennt der Treffer die Sprache («auf Französisch»). Kantone findet man unter ihrem deutschen, französischen und italienischen Namen.
 
 Das Verzeichnis in `data/orte.json` ist eine Ausgabe von vor 2024, der Kantonswechsel von Moutier ist nachgeführt. Für die Suche zählt nur die Zuordnung von Ort und Postleitzahl zum Kanton. Gemeindenamen aus dem Verzeichnis erscheinen deshalb nirgends als Aussage über die heutige Gemeinde. Eine neuere Ausgabe kann der Lauf nicht abrufen, siehe `BACKLOG.md`.
 
@@ -49,11 +51,11 @@ GitHub Pages veröffentlicht den Zweig `main`. Jeder Push auf `main` ist nach et
 Muster: `data/kantone/zh.json`.
 
 - `id`: Dateiname und Adresse, zum Beispiel `zh`
-- `name` («Kanton Zürich»), `kurz` («ZH»), `im` («im Kanton Zürich»), `des` («des Kantons Zürich»)
+- `name` («Kanton Zürich»), `kurz` («ZH», immer das Kürzel in Grossbuchstaben), `im` («im Kanton Zürich»), `des` («des Kantons Zürich»)
 - `geprueft`: Datum JJJJ-MM-TT, an dem alle Angaben der Datei zuletzt mit den Quellen abgeglichen wurden
 - `wald`: mit Saison `{"saison": true, "von": "04-01", "bis": "07-31", "wo": "im Wald und bis 50 m ab Waldrand", "quellen": [...]}`, ohne Saison `{"saison": false, "text": "...", "quellen": [...]}`
 - `leine` und `verbot`: `{"punkte": [...], "quellen": [...]}`, bei `verbot` wahlweise `einleitung`
-- `karten`: genau sechs Karten mit den Titeln Haftpflicht, Kurs, Anmeldung, Hundesteuer, Rassen, Unterwegs, in dieser Reihenfolge. `build.py` erzwingt das, weil die Themenseiten über die Position auf die Karten zugreifen. Jede Karte: `titel`, `marke`, `ton`, `wert`, `text`, `quellen`, wahlweise `mehr: {"titel", "punkte"}`.
+- `karten`: genau sechs Karten mit den Titeln Haftpflicht, Kurs, Anmeldung, Hundesteuer, Rassen, Unterwegs, in dieser Reihenfolge (französisch und italienisch: siehe «Französische und italienische Daten»). `build.py` erzwingt das je Sprache, weil die Themenseiten über die Position auf die Karten zugreifen. Jede Karte: `titel`, `marke`, `ton`, `wert`, `text`, `quellen`, wahlweise `mehr: {"titel", "punkte"}`.
 - `ton`: `must` für Pflicht oder Verbot, `none` für «keine Pflicht», `note` für eine neutrale Angabe. Die Themenseiten Haftpflicht, Kurs und Rassen zählen die Kantone mit `must`. Dort `must` nur setzen, wenn die Pflicht allgemein gilt (Haftpflicht und Kurs) oder es eine Liste mit Bewilligung oder Verbot gibt (Rassen).
 - `vergleich`: Kurzfassung für die Tabelle der Startseite mit den Schlüsseln `wald`, `haft`, `kurs`, `rassen`, `steuer`, `anm`
 - wahlweise `umzug: {"text", "quellen"}`: was beim Zuzug in den Kanton gilt
@@ -89,7 +91,7 @@ Deutsch mit Schweizer Rechtschreibung (ss statt ß), Du-Form, kurze Sätze. Betr
 
 ## Der Wochenlauf
 
-Takt: Der Lauf startet jeden Tag um 08:23 Uhr. Solange in `BACKLOG.md` unter den Abschnitten 1 und 2 ein Kanton offen ist oder es unter `data/gemeinden/` weniger als 60 Gemeinde-Dateien gibt, arbeitet er täglich. Danach arbeitet er nur noch mittwochs und samstags und endet an den anderen Tagen sofort, ohne etwas zu ändern.
+Takt: Der Lauf startet jeden Tag um 08:23 Uhr. Solange in `BACKLOG.md` unter den Abschnitten 1 und 2 ein Kanton offen ist oder weniger als 60 Gemeinden erfasst sind, arbeitet er täglich. Gezählt wird über alle Sprachen, jede Gemeinde einmal: `python3 build.py --check` nennt die Zahl. Danach arbeitet er nur noch mittwochs und samstags und endet an den anderen Tagen sofort, ohne etwas zu ändern.
 
 Daneben kann eine Kette laufen: mehrere Läufe hintereinander, von denen jeder am Schluss den nächsten auslöst. Ob ein Lauf zu einer Kette gehört und wann sie endet, steht im Auftrag des Laufs. Für die Arbeit selbst gilt dasselbe Handbuch.
 
@@ -98,7 +100,7 @@ Die Zusatznachricht einer Kette («Glied N») trifft oft erst ein, wenn der Lauf
 Obergrenzen pro Lauf: höchstens **4 Dateien nachprüfen**, dazu entweder **1 neuer Kanton samt einer Gemeinde** oder **4 neue Gemeinden**. Ein Sonderlauf (siehe «Umbauten am Generator») macht nur den Umbau und sonst nichts.
 
 1. **Start.** Repository klonen oder aktualisieren. `python3 build.py --check` muss fehlerfrei sein. `BACKLOG.md` und die letzten zwei Einträge in `CHANGELOG.md` lesen. Danach einsammeln, was Parallel-Läufe geliefert haben (siehe «Parallel-Läufe»). Das gehört zu jedem Lauf, auch zum Sonderlauf.
-2. **Nachprüfen.** Die Dateien in `data/kantone/` und `data/gemeinden/` sowie `data/schweiz.json` mit dem ältesten `geprueft` nehmen. Ist nichts älter als 60 Tage, diesen Schritt überspringen. Für jede Datei jede Quelle abrufen und jede Angabe vergleichen.
+2. **Nachprüfen.** Die Dateien in `data/kantone/` und `data/gemeinden/`, ihre französischen und italienischen Fassungen unter `data/fr-ch/` und `data/it-ch/` sowie `data/schweiz.json` mit dem ältesten `geprueft` nehmen. Jede Fassung wird mit den Quellen in ihrer Sprache abgeglichen. Ist nichts älter als 60 Tage, diesen Schritt überspringen. Für jede Datei jede Quelle abrufen und jede Angabe vergleichen.
    - Stimmt alles: `geprueft` auf das heutige Datum setzen.
    - Hat sich etwas geändert: Angabe und wenn nötig `vergleich` anpassen, im Protokoll mit alt und neu festhalten, `geprueft` setzen.
    - Quelle nicht erreichbar: nichts ändern, `geprueft` nicht anfassen, im Protokoll notieren. Ist dieselbe Quelle laut Protokoll zum dritten Mal nicht erreichbar, eine andere amtliche Quelle suchen.
@@ -148,19 +150,18 @@ Parallel-Läufe startet nur Claude in einer Sitzung mit Joss und nur nach seinem
 - **Vergebene Aufträge.** `data/protokoll/auftraege.md` nennt, welche Kantone, Gemeinden und Dateien an Parallel-Läufe vergeben sind, mit Uhrzeit. Was dort steht, lässt du aus und änderst du nicht, solange der Auftrag jünger als drei Stunden ist. Ist er älter und hat nichts geliefert, ist der Parallel-Lauf gescheitert: Zeile löschen, der Eintrag im Backlog ist wieder offen.
 - **Einsammeln**, gleich nach dem Start: Für jedes Protokoll unter `data/protokoll/` (ausser `auftraege.md`) den Teil «Protokoll» als eigenen Eintrag in `CHANGELOG.md` übernehmen, den Teil «Backlog» in `BACKLOG.md` nachführen (Kanton oder Gemeinde abhaken, Zurückgestelltes vermerken, Neues eintragen), dann das Protokoll und die Zeile in `auftraege.md` löschen. Die Seiten entstehen beim Bauen am Schluss des Laufs.
 - Meldet `python3 build.py --check` einen Fehler in einer Datei aus einem Parallel-Lauf, den du in zwei Versuchen nicht beheben kannst: Kantonsdatei nach `data/entwurf/` verschieben, Gemeindedatei löschen, im Backlog «zurückgestellt» mit Grund.
-- Für die Reihenfolge im Backlog zählt ein Kanton als erfasst, sobald seine Datei unter `data/kantone/` liegt.
-- Daten unter `data/fr-ch/` und `data/it-ch/` baut der Generator erst nach dem Sonderlauf Mehrsprachigkeit. Liegen dort schon Dateien aus Parallel-Läufen, sind sie beim Umbau die Probe: Der Sonderlauf baut sie mit, statt eine Probeseite anzulegen und wieder zu entfernen. Die Einträge in Abschnitt 2 des Backlogs hakt ab, wer die Seiten baut.
+- Für die Reihenfolge im Backlog zählt ein Kanton als erfasst, sobald seine Datei unter `data/kantone/`, `data/fr-ch/kantone/` oder `data/it-ch/kantone/` liegt. Ein zweisprachiger Kanton ist erst mit beiden Fassungen erledigt.
 
-### Französische und italienische Daten vor dem Umbau
+### Französische und italienische Daten
 
-Parallel-Läufe dürfen französische und italienische Dateien schon anlegen, bevor der Generator sie bauen kann. Dafür gilt, zusätzlich zum Abschnitt «Französisch und Italienisch» weiter unten:
+Seit dem Umbau vom 18. November 2026 baut der Generator die Dateien unter `data/fr-ch/` und `data/it-ch/` wie die deutschen. Für sie gilt, zusätzlich zum Abschnitt «Französisch und Italienisch» weiter unten:
 
 - Ablage: `data/fr-ch/kantone/<kt>.json` und `data/fr-ch/gemeinden/<kt>/<gemeinde>.json`, italienisch unter `data/it-ch/`. Gleiche Felder und gleiche `id` wie in den deutschen Mustern.
 - Alle Texte stehen in der Sprache der Seite und stammen aus den amtlichen Quellen in dieser Sprache. Keine Übersetzung einer deutschen Datei. `name`, `im` und `des` in der Sprache der Seite («Canton de Vaud», «dans le canton de Vaud», «du canton de Vaud»; «Cantone Ticino», «nel Cantone Ticino», «del Cantone Ticino»), bei Gemeinden `in_ort` («à Lausanne», «a Lugano»).
 - Die Schlüssel der Felder (`wald`, `leine`, `verbot`, `karten`, `vergleich`, `ton` und so weiter) bleiben deutsch. Nur die Werte sind französisch oder italienisch.
 - Sechs Karten in der Reihenfolge des deutschen Musters. Titel französisch: Responsabilité civile, Cours, Annonce, Impôt sur les chiens, Races, En promenade. Titel italienisch: Responsabilità civile, Corso, Notifica, Imposta sui cani, Razze, A passeggio. Übliche Titel bei Gemeinden französisch: Impôt sur les chiens, Laisse, Accès interdit, Annonce, Amendes. Italienisch: Imposta sui cani, Guinzaglio, Accesso vietato, Notifica, Multe.
-- Prüfen, solange der Generator die Ordner nicht kennt: die Datei vorübergehend nach `data/kantone/<kt>.json` kopieren (eine deutsche Datei desselben Kantons vorher beiseitelegen und danach zurücklegen), die Gemeinde ebenso nach `data/gemeinden/<kt>/`, dann `python3 build.py` und `node tests/seiten.js`. Danach die Kopien wieder entfernen. Im Commit liegen die Dateien nur unter `data/fr-ch/` oder `data/it-ch/`, und `git status --short data/` zeigt keine Kopie mehr.
-- Bei einem zweisprachigen Kanton (BE, FR, VS) liegt die deutsche Fassung wie üblich unter `data/kantone/` und wird sofort gebaut. Eine Gemeinde bekommt nur die Fassungen in ihren eigenen Amtssprachen.
+- Prüfen wie bei deutschen Dateien: `python3 build.py`, dann `node tests/seiten.js`. `build.py` verlangt je Sprache die Kartentitel dieser Sprache. Eine Gemeinde braucht die Kantonsdatei in derselben Sprache.
+- Bei einem zweisprachigen Kanton (BE, FR, VS) liegt die deutsche Fassung wie üblich unter `data/kantone/`. Eine Gemeinde bekommt nur die Fassungen in ihren eigenen Amtssprachen. Dieselbe Gemeinde hat in jeder Sprache dieselbe `id` und dieselbe `bfs`: Darüber verbindet der Generator die Sprachfassungen.
 
 ## Was nur Joss tun kann
 
@@ -226,7 +227,11 @@ Jede Seite hat einen Titel in der Form «Leinenpflicht im Wald: alle Kantone im 
 
 So ist es gebaut: Leinenpflicht im Wald zählt die Kantone mit `wald.saison` und nennt die Daten, wenn sie überall gleich sind. Haftpflicht, Kurs und Rassen zählen `ton: must`. Hundesteuer und Anmeldung zählen nicht, weil `ton` dort keine Pflicht ausdrückt (die Anmeldung ist überall Pflicht, die Kantonsdateien setzen `ton` uneinheitlich). Der Test prüft, dass jede Themenseite jeden erfassten Kanton mit Quelle aufführt.
 
-### Französisch und Italienisch (fällig, sobald alle deutschsprachigen Kantone erfasst sind)
+### Französisch und Italienisch (gebaut am 18. November 2026)
+
+So ist es gebaut: `build.py` lädt die Daten je Sprache und baut jede Seite mit den Texten aus `TEXTE[<sprache>]`. Neue feste Texte kommen immer in alle drei Sprachen der Tabelle. Monate, Wochentage und die Sätze des Wald-Status stehen ebenfalls dort und gehen als JSON im Attribut `data-texte` an `assets/heute.js`. Die Ordner `fr-ch/` und `it-ch/` werden bei jedem Bau ganz neu erzeugt. Die Seite `/schweiz/`, die Themenseiten und `404.html` gibt es nur auf Deutsch. Französische und italienische Seiten verlinken `/schweiz/` mit dem Zusatz «en allemand» oder «in tedesco». Kantonsraster, Gemeindelisten und Vergleich jeder Startseite führen auch die Kantone und Gemeinden auf, die es nur in einer anderen Sprache gibt, mit Angabe der Sprache. Die Namen der 26 Kantone auf Französisch und Italienisch stehen in `KANTONSNAMEN`. Der Sprachwechsel steht im Kopf der Seite neben dem Prüfdatum.
+
+Die Vorgaben, die dafür galten und weiter gelten:
 
 - **Adressen.** Deutsch bleibt unverändert an der Wurzel. Französisch liegt unter `/fr-ch/`, Italienisch unter `/it-ch/`, mit denselben Kürzeln und Namen: `/fr-ch/vd/`, `/fr-ch/ge/geneve/`, `/it-ch/ti/lugano/`. Nicht `/fr/`: das ist die deutsche Seite des Kantons Freiburg.
 - **Welche Sprache wo.** Jeder Kanton erscheint in seinen Amtssprachen: VD, GE, NE, JU französisch. TI italienisch. BE, FR, VS deutsch und französisch. GR deutsch, später italienisch. Alle übrigen nur deutsch.
@@ -236,7 +241,7 @@ So ist es gebaut: Leinenpflicht im Wald zählt die Kantone mit `wald.saison` und
 - **Themenseiten.** Sie bleiben vorerst deutsch und vergleichen die Kantone, die eine deutsche Fassung haben. Die übrigen erfassten Kantone stehen darunter in einer Zeile mit Link auf ihre Seite und der Angabe der Sprache. Texte werden nie übersetzt. Französische und italienische Themenseiten sind ein späterer Umbau (Backlog, Abschnitt 5).
 - **Ortssuche.** Ein Verzeichnis für alle Sprachen. Jede Startseite hat die Suche mit Texten in ihrer Sprache. Ein Treffer führt auf die Seite in der Sprache der Startseite, wenn es sie gibt, sonst auf die Fassung in der anderen Sprache. Dann nennt der Treffer die Sprache.
 - **Sitemap und Test.** Alle Sprachfassungen stehen in der einen `sitemap.xml`. `tests/seiten.js` prüft die Seiten aller Sprachen, das Attribut `lang` und dass `hreflang` in beide Richtungen stimmt.
-- **Prüfung.** Der Umbau ist fertig, wenn die deutschen Seiten unverändert aussehen und die Seiten aus `data/fr-ch/` und `data/it-ch/` gebaut und als Bild angesehen sind: je eine Kantonsseite und eine Gemeindeseite pro Sprache und die französische Startseite. Liegen dort noch keine Dateien, genügt eine Probeseite, die wieder entfernt wird.
+- **Prüfung.** Bei jeder späteren Änderung an den Texten oder am Aufbau: je eine Kantonsseite und eine Gemeindeseite pro Sprache und die Startseiten als Bild ansehen. Die deutschen Seiten müssen dabei unverändert aussehen.
 
 ## Verbreitung und Kontakt nach aussen
 

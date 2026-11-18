@@ -2,6 +2,18 @@
 
 Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen.
 
+## 2026-11-18, Kette, Glied 1: Sonderlauf Mehrsprachigkeit
+
+- Start: `build.py --check` fehlerfrei, nichts einzusammeln. Das Werkzeug `add_repo` stand nicht zur Verfügung, das Repository war geklont und auf dem Stand von `main`. Angemeldet in `auftraege.md` um 10:06 Uhr, am Schluss wieder gelöscht.
+- Umbau: `build.py` baut jetzt Deutsch an der Wurzel, Französisch unter `/fr-ch/` und Italienisch unter `/it-ch/`. Alle festen Texte stehen in der Tabelle `TEXTE` je Sprache. `assets/heute.js` und `assets/suche.js` kennen keine Sprache mehr, ihre Texte kommen aus `build.py`. Jede Seite trägt `lang`, Seiten mit mehreren Sprachfassungen tragen `hreflang` und einen Sprachwechsel im Kopf.
+- Neu, aus den vorhandenen Daten unter `data/fr-ch/` und `data/it-ch/` (keine neue Recherche, keine Angabe geändert): Kantone Waadt, Genf, Neuenburg, Freiburg und Bern französisch (`/fr-ch/vd/`, `/fr-ch/ge/`, `/fr-ch/ne/`, `/fr-ch/fr/`, `/fr-ch/be/`), Kanton Tessin italienisch (`/it-ch/ti/`), Gemeinden Lausanne, Genève, Neuchâtel, Fribourg (französisch) und Lugano (italienisch), dazu je Sprache Startseite und «Über diese Seite» (`/fr-ch/`, `/fr-ch/ueber/`, `/it-ch/`, `/it-ch/ueber/`).
+- Deutsche Seiten: Aussehen unverändert. Neu sind nur der Sprachwechsel (Startseite, «Über diese Seite», Bern, Freiburg), die Links auf die neuen Seiten (Kantonsraster, Gemeindeliste, Zeile unter dem Vergleich und auf den Themenseiten) und die Zahl der erfassten Kantone (23 statt 19). Geprüft durch Vergleich aller deutschen Seiten vor und nach dem Umbau.
+- Entscheide: (1) Die Seite `/schweiz/`, die Themenseiten und `404.html` bleiben deutsch. Französische und italienische Seiten verlinken `/schweiz/` mit dem Zusatz der Sprache. (2) Die Startseiten jeder Sprache führen auch Kantone und Gemeinden auf, die es nur in einer anderen Sprache gibt, mit Angabe der Sprache. (3) Die Ortssuche findet Kantone unter dem deutschen, französischen und italienischen Namen. (4) `build.py` verlangt neu, dass `kurz` das Kürzel in Grossbuchstaben ist, und prüft die Kartentitel je Sprache. (5) Die Themenseiten zählen alle erfassten Kantone und sagen, dass sie die Kantone mit deutscher Fassung vergleichen.
+- Test: `tests/seiten.js` prüft neu `lang`, `hreflang` in beide Richtungen und die Suche der französischen und italienischen Startseite. Als Bild angesehen: `/fr-ch/vd/`, `/it-ch/ti/`, `/fr-ch/vd/lausanne/`, `/it-ch/ti/lugano/`, `/fr-ch/`, `/it-ch/`, `/`, `/be/` und die Trefferliste der Suche auf Deutsch und Französisch.
+- Backlog: Abschnitt 2 abgehakt für Waadt, Genf, Freiburg, Tessin, Neuenburg und Bern französisch. Offen bleiben dort Wallis, Jura und Graubünden italienisch. Abschnitt 5: Mehrsprachigkeit abgehakt. `CLAUDE.md` nachgeführt (Aufbau, Datenfelder, Abschnitt «Französische und italienische Daten», Zählweise der Gemeinden).
+- Nicht gemacht: kein Nachprüfen, keine neuen Daten (Sonderlauf). Französische und italienische Themenseiten bleiben ein späterer Umbau.
+- Stand: 23 von 26 Kantonen mit Seite (19 deutsch, 5 französisch, 1 italienisch), 42 Gemeinden, 80 Seiten in der Sitemap. Es fehlen Wallis, Jura und Obwalden.
+
 ## 2026-11-18, automatischer Lauf: Kanton Uri und Gemeinde Silenen
 
 - Start: `build.py --check` fehlerfrei. Unter `data/protokoll/` lag nichts zum Einsammeln, in `auftraege.md` ist nichts vergeben. Das Werkzeug `add_repo` stand dem Lauf nicht zur Verfügung, das Repository war schon geklont und auf dem Stand von `main`.

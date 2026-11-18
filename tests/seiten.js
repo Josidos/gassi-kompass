@@ -4,7 +4,9 @@
 //   node tests/seiten.js /lu/luzern/ bild.png 1280  dasselbe in 1280 px Breite
 // Geprüft wird: Seite lädt, keine Skriptfehler, kein seitliches Überlaufen, genau eine Hauptüberschrift,
 // alle internen Links und Dateien existieren, der Wald-Status wird gesetzt, die Ortssuche findet Orte
-// und führt auf die richtige Seite, jede Themenseite führt jeden erfassten Kanton mit Quelle auf.
+// und führt auf die richtige Seite, jede Themenseite führt jeden Kanton mit deutscher Fassung mit Quelle auf.
+// Sprachen: Seiten unter /fr-ch/ tragen lang="fr-CH", unter /it-ch/ lang="it-CH", alle anderen lang="de-CH".
+// hreflang muss in beide Richtungen stimmen, und die Ortssuche der französischen Startseite wird mitgeprüft.
 // Der Test bricht auch ab, wenn eine Adresse aus dem letzten Commit in der Sitemap fehlt.
 // Soll eine Seite wirklich verschwinden: node tests/seiten.js --entfernen-erlaubt
 const http = require('http'), fs = require('fs'), path = require('path');
@@ -13,6 +15,10 @@ const { chromium } = require('playwright');
 const ROOT = path.resolve(__dirname, '..');
 const TYP = { '.html': 'text/html; charset=utf-8', '.css': 'text/css', '.js': 'text/javascript', '.json': 'application/json; charset=utf-8', '.svg': 'image/svg+xml', '.woff2': 'font/woff2', '.xml': 'application/xml', '.txt': 'text/plain' };
 const lies = (...teile) => JSON.parse(fs.readFileSync(path.join(ROOT, ...teile), 'utf8'));
+// Sprachen in der Reihenfolge, in der die Suche ausweicht: [Sprache, Präfix der Adresse, Datenordner, lang im HTML]
+const SPRACHEN = [['de', '', ['data'], 'de-CH'], ['fr', '/fr-ch', ['data', 'fr-ch'], 'fr-CH'], ['it', '/it-ch', ['data', 'it-ch'], 'it-CH']];
+const sollLang = s => (SPRACHEN.find(x => x[1] && s.startsWith(x[1] + '/')) || SPRACHEN[0])[3];
+const ordner = (...teile) => { const p = path.join(ROOT, ...teile); return fs.existsSync(p) ? fs.readdirSync(p) : []; };
 
 function datei(url) {
   let p = decodeURIComponent(url.split('#')[0].split('?')[0]);
@@ -35,6 +41,7 @@ function datei(url) {
   const [fotoSeite, fotoDatei, fotoBreite] = process.argv.slice(2).filter(a => !a.startsWith('--'));
   const browser = await chromium.launch();
   const fehler = [];
+  const alternativen = {};
 
   // Keine veröffentlichte Adresse darf verschwinden (Vergleich mit der Sitemap im letzten Commit)
   if (!process.argv.includes('--entfernen-erlaubt')) {
@@ -62,8 +69,10 @@ function datei(url) {
         ueberlauf: document.documentElement.scrollWidth - window.innerWidth,
         h1: document.querySelectorAll('h1').length,
         titel: document.title,
+        lang: document.documentElement.lang,
+        alt: [...document.querySelectorAll('link[rel="alternate"][hreflang]')].map(x => [x.hreflang, new URL(x.href).pathname]),
         links: [...document.querySelectorAll('a[href^="/"], link[href^="/"], script[src^="/"]')].map(x => x.getAttribute('href') || x.getAttribute('src')),
-        wald: [...document.querySelectorAll('[data-wald]')].map(x => ({ saison: x.getAttribute('data-saison'), gross: x.querySelector('[data-heute-gross]').textContent, heute: !!x.querySelector('.now'), datum: x.querySelector('[data-heute-datum]').textContent }))
+        wald: [...document.querySelectorAll('[data-wald]')].map(x => ({ saison: x.getAttribute('data-saison'), gross: x.querySelector('[data-heute-gross]').className, heute: !!x.querySelector('.now'), datum: x.querySelector('[data-heute-datum]').textContent }))
       }));
       if (info.ueberlauf > 0) fehler.push(`${wo}: läuft seitlich über (${info.ueberlauf}px)`);
       if (info.h1 !== 1) fehler.push(`${wo}: ${info.h1} Hauptüberschriften statt 1`);
@@ -71,7 +80,13 @@ function datei(url) {
       for (const l of new Set(info.links)) if (!datei(l)) fehler.push(`${wo}: Link ohne Ziel: ${l}`);
       for (const w of info.wald) {
         if (!w.heute || !w.datum) fehler.push(`${wo}: Heute-Markierung oder Datum fehlt`);
-        if (w.saison === '1' && !/^Heute /.test(w.gross)) fehler.push(`${wo}: Wald-Status wurde nicht gesetzt`);
+        if (w.saison === '1' && !/ (must|free)$/.test(w.gross)) fehler.push(`${wo}: Wald-Status wurde nicht gesetzt`);
+      }
+      if (info.lang !== sollLang(s)) fehler.push(`${wo}: lang="${info.lang}" statt "${sollLang(s)}"`);
+      if (breite === 390) {
+        alternativen[s] = info.alt;
+        if (info.alt.length && !info.alt.some(a => a[0] === info.lang && a[1] === s)) fehler.push(`${s}: hreflang nennt die eigene Seite nicht`);
+        for (const a of info.alt) if (!seiten.includes(a[1])) fehler.push(`${s}: hreflang ${a[0]} zeigt auf ${a[1]}, die Seite gibt es nicht`);
       }
       if (s.startsWith('/thema/')) {
         const kantone = fs.readdirSync(path.join(ROOT, 'data', 'kantone')).filter(f => f.endsWith('.json')).length;
@@ -85,14 +100,26 @@ function datei(url) {
     await ctx.close();
   }
 
+  // hreflang in beide Richtungen: Nennt Seite A die Seite B, muss B auch A nennen, mit der richtigen Sprache.
+  for (const [s, alt] of Object.entries(alternativen)) {
+    for (const [l, ziel] of alt) {
+      if (l !== sollLang(ziel)) fehler.push(`${s}: hreflang ${l} zeigt auf ${ziel} (dort gilt ${sollLang(ziel)})`);
+      if (ziel !== s && !(alternativen[ziel] || []).some(a => a[1] === s)) fehler.push(`${s}: hreflang nennt ${ziel}, aber nicht umgekehrt`);
+    }
+  }
+
   // Ortssuche: Die Erwartungen kommen aus den Daten, damit der Test mit jedem neuen Kanton weiter stimmt.
   const ctx = await browser.newContext({ viewport: { width: 390, height: 844 }, deviceScaleFactor: 1 });
   const orte = lies('data', 'orte.json');
-  const erfasst = fs.readdirSync(path.join(ROOT, 'data', 'kantone')).filter(f => f.endsWith('.json')).map(f => f.slice(0, -5));
-  const eigene = [];
-  for (const kt of fs.readdirSync(path.join(ROOT, 'data', 'gemeinden'))) {
-    for (const f of fs.readdirSync(path.join(ROOT, 'data', 'gemeinden', kt))) if (f.endsWith('.json')) eigene.push(lies('data', 'gemeinden', kt, f));
+  // Kantone und Gemeinden aller Sprachen. Die deutsche Startseite führt auf die deutsche Fassung, sonst auf die nächste.
+  const kantonSeite = {}, eigene = [];
+  for (const [l, pre, dir] of SPRACHEN) {
+    for (const f of ordner(...dir, 'kantone')) if (f.endsWith('.json') && !kantonSeite[f.slice(0, -5)]) kantonSeite[f.slice(0, -5)] = `${pre}/${f.slice(0, -5)}/`;
+    for (const kt of ordner(...dir, 'gemeinden')) {
+      for (const f of ordner(...dir, 'gemeinden', kt)) if (f.endsWith('.json')) eigene.push({ ...lies(...dir, 'gemeinden', kt, f), l, pre });
+    }
   }
+  const erfasst = Object.keys(kantonSeite);
   const start = await ctx.newPage();
   start.on('pageerror', err => fehler.push('Suche: Skriptfehler: ' + err.message));
   await start.goto(basis + '/');
@@ -129,17 +156,17 @@ function datei(url) {
   const mitSeite = new Set(eigene.map(g => g.bfs));
   const o2 = orte.gemeinden.find(x => erfasst.includes(x[2]) && !mitSeite.has(x[0]));
   if (o2) {
-    const t = (await such(o2[1])).find(x => x.href.startsWith(`/${o2[2]}/#ort=`));
+    const t = (await such(o2[1])).find(x => x.href.startsWith(`${kantonSeite[o2[2]]}#ort=`));
     if (!t) fehler.push(`Suche: «${o2[1]}» führt nicht auf die Seite des Kantons ${o2[2].toUpperCase()}`);
     else {
       const h = await hinweis(t.href);
       if (!h.sichtbar || !h.text.includes(o2[1])) fehler.push(`${t.href}: Hinweis zum Ort fehlt`);
     }
     // Ein Ortsname aus der Adresse darf nie als HTML ausgeführt werden
-    const h = await hinweis(`/${o2[2]}/#ort=` + encodeURIComponent('<img src=x onerror=alert(1)>'));
-    if (h.dialog || h.kinder !== 'STRONG') fehler.push(`/${o2[2]}/: Der Hinweis zum Ort setzt HTML aus der Adresse ein`);
-    const ohne = await hinweis(`/${o2[2]}/`);
-    if (ohne.sichtbar) fehler.push(`/${o2[2]}/: Hinweis zum Ort erscheint ohne Ort`);
+    const h = await hinweis(`${kantonSeite[o2[2]]}#ort=` + encodeURIComponent('<img src=x onerror=alert(1)>'));
+    if (h.dialog || h.kinder !== 'STRONG') fehler.push(`${kantonSeite[o2[2]]}: Der Hinweis zum Ort setzt HTML aus der Adresse ein`);
+    const ohne = await hinweis(kantonSeite[o2[2]]);
+    if (ohne.sichtbar) fehler.push(`${kantonSeite[o2[2]]}: Hinweis zum Ort erscheint ohne Ort`);
   }
   // 3. Ort in einem Kanton, der noch nicht erfasst ist: Regeln des Bundes mit Hinweis
   const o3 = orte.gemeinden.find(x => !erfasst.includes(x[2]));
@@ -150,12 +177,41 @@ function datei(url) {
   }
   if (erfasst.length && (await hinweis(`/schweiz/#kt=${erfasst[0]}`)).sichtbar) fehler.push(`/schweiz/: meldet den erfassten Kanton ${erfasst[0].toUpperCase()} als nicht erfasst`);
   // 4. Kanton über das Kürzel, andere Schreibweise, kein Treffer
-  if (erfasst.length && !(await such(erfasst[0])).some(x => x.href === `/${erfasst[0]}/`)) fehler.push(`Suche: Kürzel «${erfasst[0]}» findet den Kanton nicht`);
+  if (erfasst.length && !(await such(erfasst[0])).some(x => x.href === kantonSeite[erfasst[0]])) fehler.push(`Suche: Kürzel «${erfasst[0]}» findet den Kanton nicht`);
   if (!(await such('Genf')).some(x => x.text.includes('Genève'))) fehler.push('Suche: «Genf» findet Genève nicht');
   if ((await such('qqqq')).length || !(await start.textContent('#such-status')).trim()) fehler.push('Suche: Bei «qqqq» fehlt die Meldung «Kein Ort gefunden»');
   const ueber = await start.evaluate(() => document.documentElement.scrollWidth - window.innerWidth);
   await such('Sankt');
   if (ueber > 0 || await start.evaluate(() => document.documentElement.scrollWidth - window.innerWidth) > 0) fehler.push('/: Die Trefferliste läuft seitlich über');
+
+  // 5. Sprachen: Die deutsche Startseite führt bei einer Gemeinde ohne deutsche Seite auf die Fassung in der
+  // anderen Sprache und nennt die Sprache. Jede Startseite einer anderen Sprache führt auf ihre eigenen Seiten,
+  // bei einem Kanton ohne Fassung in ihrer Sprache auf die deutsche Seite.
+  const name = g => orte.gemeinden.find(x => x[0] === g.bfs)[1];
+  const fremd = eigene.find(g => g.l !== 'de' && !eigene.some(x => x.l === 'de' && x.bfs === g.bfs));
+  if (fremd) {
+    const t = (await such(name(fremd))).find(x => x.href === `${fremd.pre}/${fremd.kanton}/${fremd.id}/`);
+    if (!t) fehler.push(`Suche: «${name(fremd)}» führt auf der deutschen Startseite nicht auf ${fremd.pre}/${fremd.kanton}/${fremd.id}/`);
+    else if (!/auf (Französisch|Italienisch)/.test(t.text)) fehler.push(`Suche: Treffer «${name(fremd)}» nennt die Sprache der Seite nicht`);
+  }
+  for (const [l, pre] of SPRACHEN.slice(1)) {
+    if (!seiten.includes(pre + '/')) continue;
+    const p = await ctx.newPage();
+    p.on('pageerror', err => fehler.push(`${pre}/: Skriptfehler in der Suche: ` + err.message));
+    await p.goto(basis + pre + '/');
+    const suchHier = async text => {
+      await p.fill('#ortssuche', String(text));
+      await p.waitForSelector('[data-suche][data-stand="bereit"]', { timeout: 8000 }).catch(() => {});
+      return p.$$eval('#treffer a', xs => xs.map(x => ({ text: x.textContent, href: x.getAttribute('href') })));
+    };
+    if (await p.isHidden('#ortssuche')) fehler.push(`${pre}/: Das Suchfeld ist nicht sichtbar`);
+    const g = eigene.find(x => x.l === l);
+    if (g && !(await suchHier(name(g))).some(x => x.href === `${pre}/${g.kanton}/${g.id}/`)) fehler.push(`${pre}/: Suche «${name(g)}» führt nicht auf ${pre}/${g.kanton}/${g.id}/`);
+    const nurDe = erfasst.find(kt => kantonSeite[kt] === `/${kt}/` && !fs.existsSync(path.join(ROOT, pre.slice(1), kt, 'index.html')));
+    if (nurDe && !(await suchHier(nurDe)).some(x => x.href === `/${nurDe}/`)) fehler.push(`${pre}/: Kürzel «${nurDe}» führt nicht auf die deutsche Seite /${nurDe}/`);
+    if (await p.evaluate(() => document.documentElement.scrollWidth - window.innerWidth) > 0) fehler.push(`${pre}/: Die Trefferliste läuft seitlich über`);
+    await p.close();
+  }
 
   await browser.close();
   server.close();

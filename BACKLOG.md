@@ -38,16 +38,16 @@ Ungefähr nach Bevölkerung. Schon erfasst: Zürich, Bern, Luzern, Aargau, St. G
 
 ## 2. Französisch und Italienisch
 
-Erst nach dem Sonderlauf Mehrsprachigkeit. Bei zweisprachigen Kantonen beide Fassungen im selben Lauf, weil die Quellen dieselben sind.
+Der Generator baut Französisch und Italienisch seit dem 2026-11-18. Bei zweisprachigen Kantonen beide Fassungen im selben Lauf, weil die Quellen dieselben sind.
 
-- [ ] Waadt (`vd`), französisch. Daten seit 2026-11-18 unter `data/fr-ch/` (Kanton und Lausanne), Seiten folgen mit dem Sonderlauf Mehrsprachigkeit.
-- [ ] Genf (`ge`), französisch. Daten seit 2026-11-18 unter `data/fr-ch/` (Kanton und Ville de Genève), Seiten folgen mit dem Sonderlauf Mehrsprachigkeit.
+- [x] Waadt (`vd`), französisch, 2026-11-18, mit Lausanne (`/fr-ch/vd/`)
+- [x] Genf (`ge`), französisch, 2026-11-18, mit Ville de Genève (`/fr-ch/ge/`)
 - [ ] Wallis (`vs`), französisch und deutsch
-- [ ] Freiburg (`fr`), französisch und deutsch. Deutsche Kantonsseite seit 2026-11-18 gebaut. Französische Daten unter `data/fr-ch/` (Kanton und Ville de Fribourg), Seiten folgen mit dem Sonderlauf Mehrsprachigkeit.
-- [ ] Tessin (`ti`), italienisch. Daten seit 2026-11-18 unter `data/it-ch/` (Kanton und Città di Lugano), Seiten folgen mit dem Sonderlauf Mehrsprachigkeit.
-- [ ] Neuenburg (`ne`), französisch. Daten seit 2026-11-18 unter `data/fr-ch/` (Kanton und Ville de Neuchâtel), Seiten folgen mit dem Sonderlauf Mehrsprachigkeit.
+- [x] Freiburg (`fr`), französisch und deutsch, 2026-11-18, mit Ville de Fribourg französisch (`/fr/`, `/fr-ch/fr/`)
+- [x] Tessin (`ti`), italienisch, 2026-11-18, mit Città di Lugano (`/it-ch/ti/`)
+- [x] Neuenburg (`ne`), französisch, 2026-11-18, mit Ville de Neuchâtel (`/fr-ch/ne/`)
 - [ ] Jura (`ju`), französisch
-- [ ] Bern (`be`), französische Fassung des Kantons und von Biel/Bienne. Daten des Kantons seit 2026-11-18 unter `data/fr-ch/`, die Seite folgt mit dem Sonderlauf Mehrsprachigkeit. Biel/Bienne französisch zurückgestellt am 2026-11-18: keine amtliche Quelle gefunden, Schluss-Zeit erreicht.
+- [x] Bern (`be`), französische Fassung des Kantons, 2026-11-18 (`/fr-ch/be/`). Biel/Bienne französisch steht in Abschnitt 3.
 - [ ] Graubünden (`gr`), italienische Fassung
 
 ## 3. Gemeinden
@@ -94,7 +94,7 @@ Ungefähr nach Grösse. Neue Kantone tragen hier ihre grössten Gemeinden ein.
 - [ ] Gossau (SG)
 - [ ] Uzwil (SG)
 - [x] Winterthur (ZH), 2026-11-18
-- [ ] Biel/Bienne (BE), Adresse `biel-bienne`
+- [ ] Biel/Bienne (BE), Adresse `biel-bienne`, deutsch und französisch. Französisch zurückgestellt am 2026-11-18: keine amtliche Quelle gefunden.
 - [ ] Thun (BE)
 - [ ] Köniz (BE)
 - [x] Uster (ZH), 2026-11-18
@@ -155,7 +155,7 @@ Ungefähr nach Grösse. Neue Kantone tragen hier ihre grössten Gemeinden ein.
 - [ ] Stein am Rhein (SH)
 - [ ] Düdingen (FR), deutsch
 - [ ] Murten/Morat (FR), deutsch und französisch
-- [ ] Bulle (FR), französisch. Hinweis: Viele Freiburger Gemeinden haben ein «Règlement sur la détention et l'imposition des chiens» nach kantonalem Muster, mit Steuerbetrag, Leinenzonen und Bussen. Französische Gemeinden erst nach dem Sonderlauf Mehrsprachigkeit oder als Datei unter `data/fr-ch/`.
+- [ ] Bulle (FR), französisch. Hinweis: Viele Freiburger Gemeinden haben ein «Règlement sur la détention et l'imposition des chiens» nach kantonalem Muster, mit Steuerbetrag, Leinenzonen und Bussen. Französische Gemeinden liegen unter `data/fr-ch/gemeinden/`.
 - [ ] Villars-sur-Glâne (FR), französisch
 - [ ] Estavayer (FR), französisch
 - [ ] Yverdon-les-Bains (VD), französisch
@@ -285,7 +285,7 @@ Ungefähr nach Grösse. Neue Kantone tragen hier ihre grössten Gemeinden ein.
 Vorgaben in `CLAUDE.md` unter «Umbauten am Generator».
 
 - [x] Themenseiten, 2026-11-17
-- [ ] Mehrsprachigkeit (Französisch und Italienisch)
+- [x] Mehrsprachigkeit (Französisch und Italienisch), 2026-11-18
 - [ ] Themenseiten auf Französisch und Italienisch. Erst angehen, wenn es in der Sprache mindestens drei Kantone gibt, und nur als eigener Sonderlauf.
 
 ## 6. Ideen für später

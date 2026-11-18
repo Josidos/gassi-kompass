@@ -1,6 +1,8 @@
 /* Gassi-Kompass: Ortssuche (Gemeinde, Ort, Postleitzahl, Kanton) und Hinweis zum gewählten Ort.
    Alle Texte stehen als data-Attribute im HTML, dieses Skript kennt keine Sprache.
-   Daten: /assets/orte.json, erzeugt von build.py aus data/orte.json. */
+   Daten: /assets/orte.json, erzeugt von build.py aus data/orte.json. Ein Verzeichnis für alle Sprachen:
+   Ein Treffer führt auf die Seite in der Sprache der Startseite (data-lang), wenn es sie gibt,
+   sonst auf die Fassung in einer anderen Sprache. Dann nennt der Treffer die Sprache. */
 (function () {
   function norm(s) {
     return String(s).toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "")
@@ -48,13 +50,28 @@
   var liste = document.getElementById("treffer"), status = document.getElementById("such-status");
   if (!box || !feld || !liste || !status || !window.fetch) return;
   var MAX = 8, daten = null, laedt = false;
+  var LANG = box.getAttribute("data-lang") || "de";
   function T(name) { return box.getAttribute("data-" + name) || ""; }
+  /* seiten: {Sprache: Adresse}. Liefert die Fassung in der Sprache der Seite, sonst die erste andere. */
+  function waehle(seiten) {
+    if (!seiten) return null;
+    if (seiten[LANG]) return { href: seiten[LANG], l: LANG };
+    for (var l in seiten) return { href: seiten[l], l: l };
+    return null;
+  }
   box.hidden = false;
 
   function bereite(d) {
     var e = [], hatOrt = {}, nachName = {};
     d.k.forEach(function (k, i) {
-      e.push({ n: T("kt") + " " + k[1], s: norm(k[1]), kz: k[0], k: i, g: -1, plz: "" });
+      /* Der Kanton ist unter seinem Namen in jeder Sprache zu finden, angezeigt wird die Sprache der Seite. */
+      var name = T("kt").replace("{name}", k[2][LANG] || k[2].de), schon = {};
+      for (var l in k[2]) {
+        var s = norm(k[2][l]);
+        if (schon[s]) continue;
+        schon[s] = 1;
+        e.push({ n: name, s: s, kz: k[0], k: i, g: -1, plz: "" });
+      }
     });
     d.o.forEach(function (o) {
       var g = d.g[o[2]], name = o[0] || g[0];
@@ -75,10 +92,11 @@
 
   function ziel(x) {
     var d = daten.d, k = d.k[x.k];
-    if (x.g < 0) return { href: k[2] ? "/" + k[0] + "/" : "/schweiz/#kt=" + k[0], art: k[2] ? "kanton" : "bund" };
-    var g = d.g[x.g], ort = encodeURIComponent(x.n);
-    if (g[2]) return { href: g[2], art: "lokal" };
-    if (k[2]) return { href: "/" + k[0] + "/#ort=" + ort, art: "kanton" };
+    var kt = waehle(k[1]);
+    if (x.g < 0) return kt ? { href: kt.href, art: "kanton", l: kt.l } : { href: "/schweiz/#kt=" + k[0], art: "bund" };
+    var g = d.g[x.g], ort = encodeURIComponent(x.n), lokal = waehle(g[2]);
+    if (lokal) return { href: lokal.href, art: "lokal", l: lokal.l };
+    if (kt) return { href: kt.href + "#ort=" + ort, art: "kanton", l: kt.l };
     return { href: "/schweiz/#kt=" + k[0] + "&ort=" + ort, art: "bund" };
   }
 
@@ -128,9 +146,11 @@
       unter.className = "dest-sub";
       var teile = [];
       if (!zahl && x.plz && !t.mehr) teile.push(x.plz);
-      if (t.z.art === "lokal" && daten.d.g[x.g][0] !== x.n) teile.push(T("gemeinde") + " " + daten.d.g[x.g][0]);
-      if (x.g >= 0) teile.push(T("kt") + " " + daten.d.k[x.k][1]);
+      var kn = daten.d.k[x.k][2];
+      if (t.z.art === "lokal" && daten.d.g[x.g][0] !== x.n) teile.push(T("gemeinde").replace("{name}", daten.d.g[x.g][0]));
+      if (x.g >= 0) teile.push(T("kt").replace("{name}", kn[LANG] || kn.de));
       teile.push(T(t.z.art));
+      if (t.z.l && t.z.l !== LANG) teile.push(T("in-" + t.z.l));
       unter.textContent = teile.join(" · ");
       a.appendChild(name);
       a.appendChild(unter);
