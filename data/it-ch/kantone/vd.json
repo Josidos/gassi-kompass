@@ -1,0 +1,129 @@
+{
+  "id": "vd",
+  "kurz": "VD",
+  "uebersetzt_aus": "fr",
+  "original": "61d85e3b4b6a",
+  "wald": {
+    "saison": true,
+    "von": "04-01",
+    "bis": "07-15",
+    "wo": "nel bosco, nelle sue vicinanze e nei prati adiacenti",
+    "quellen": [
+      "vd_laisse"
+    ]
+  },
+  "leine": {
+    "punkte": [
+      "nel bosco e nelle sue vicinanze, come pure nei prati adiacenti in zona agricola, dal 1° aprile al 15 luglio",
+      "tutto l'anno nei siti di protezione della fauna: riserva cantonale della fauna, bandita di caccia, riserva di uccelli acquatici",
+      "nei pascoli, quando è presente il bestiame",
+      "nelle riserve naturali, nei siti naturali protetti e nelle zone di tranquillità, secondo le disposizioni proprie del sito",
+      "al guinzaglio corto negli edifici aperti al pubblico, sui mezzi di trasporto pubblici e durante le manifestazioni pubbliche",
+      "nei luoghi pubblici in cui il tuo Comune impone il guinzaglio",
+      "ovunque tu non abbia un controllo sufficiente del tuo cane, se necessario con la museruola"
+    ],
+    "quellen": [
+      "vd_laisse",
+      "vd_lpolc"
+    ]
+  },
+  "verbot": {
+    "einleitung": "La legge cantonale non designa essa stessa luoghi vietati. Lascia questa scelta ai Comuni.",
+    "punkte": [
+      "i luoghi pubblici che il tuo Comune vieta ai cani",
+      "gli edifici aperti al pubblico e i mezzi di trasporto pubblici il cui accesso è vietato ai cani"
+    ],
+    "quellen": [
+      "vd_lpolc"
+    ]
+  },
+  "karten": [
+    {
+      "titel": "Responsabilità civile",
+      "marke": "Obbligo",
+      "ton": "must",
+      "wert": "per ogni cane",
+      "text": "Ogni proprietario di un cane deve avere un'assicurazione di responsabilità civile. La legge non fissa un importo minimo.",
+      "quellen": [
+        "vd_lpolc"
+      ]
+    },
+    {
+      "titel": "Corso",
+      "marke": "Secondo il cane",
+      "ton": "note",
+      "wert": "72 ore per i cani potenzialmente pericolosi",
+      "text": "La legge cantonale impone corsi di educazione cinofila solo per i cani potenzialmente pericolosi: 72 ore sull'arco di due anni al massimo. Per gli altri cani il servizio può ordinare corsi come misura in un caso particolare. Stato del regolamento: 2014.",
+      "quellen": [
+        "vd_lpolc",
+        "vd_rlpolc"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "marke": "2 settimane",
+      "ton": "note",
+      "wert": "Comune e banca dati",
+      "text": "Come proprietaria o proprietario annunci il tuo cane entro due settimane alla banca dati e all'amministrazione comunale.",
+      "quellen": [
+        "vd_lpolc"
+      ]
+    },
+    {
+      "titel": "Imposta sui cani",
+      "marke": "annuale",
+      "ton": "note",
+      "wert": "CHF 100 al Cantone, più il Comune",
+      "text": "L'imposta cantonale è di CHF 100 per cane, iscrizione compresa. Vi si aggiunge l'imposta comunale. Il suo importo è fissato dal decreto (arrêté) del tuo Comune. Sono esonerati in particolare i cani che alla fine del periodo fiscale hanno meno di tre mesi, come pure chi beneficia di prestazioni complementari AVS/AI o del reddito d'inserimento (revenu d'insertion).",
+      "quellen": [
+        "vd_impot"
+      ]
+    },
+    {
+      "titel": "Razze",
+      "marke": "Autorizzazione",
+      "ton": "must",
+      "wert": "3 razze e i loro incroci",
+      "text": "La detenzione di un cane potenzialmente pericoloso è soggetta ad autorizzazione. Sono interessati l'American Staffordshire Terrier (Amstaff), l'American Pit Bull Terrier e il Rottweiler, come pure i cani di cui uno dei genitori appartiene a una di queste razze. L'autorizzazione costa CHF 800. La riproduzione di questi cani e la loro importazione a scopo commerciale sono vietate. Durante le manifestazioni pubbliche portano una museruola o una protezione dentale (applique dentaire).",
+      "mehr": {
+        "titel": "Mostra l'elenco",
+        "punkte": [
+          "American Staffordshire Terrier (Amstaff)",
+          "American Pit Bull Terrier",
+          "Rottweiler",
+          "cani di cui uno dei genitori appartiene a una di queste razze"
+        ]
+      },
+      "quellen": [
+        "vd_rlpolc",
+        "vd_lpolc",
+        "vd_cpd"
+      ]
+    },
+    {
+      "titel": "A passeggio",
+      "marke": "Regola",
+      "ton": "note",
+      "wert": "Controllo e guinzaglio corto",
+      "text": "Devi avere il controllo del tuo cane. Altrimenti deve essere tenuto al guinzaglio e, se necessario, portare una museruola. Negli edifici aperti al pubblico, sui mezzi di trasporto pubblici e durante le manifestazioni pubbliche il guinzaglio corto è obbligatorio. Un'infrazione alla loi sur la police des chiens (legge sulla polizia dei cani) è punibile con una multa fino a CHF 20 000.",
+      "quellen": [
+        "vd_lpolc"
+      ]
+    }
+  ],
+  "vergleich": {
+    "wald": "dal 1.4. al 15.7., nel bosco, nelle sue vicinanze e nei prati adiacenti",
+    "haft": "obbligo, senza importo minimo nella legge",
+    "kurs": "solo per i cani potenzialmente pericolosi (72 ore)",
+    "rassen": "autorizzazione per Amstaff, American Pit Bull Terrier, Rottweiler e incroci",
+    "steuer": "CHF 100 al Cantone, più il Comune",
+    "anm": "entro due settimane, Comune e banca dati"
+  },
+  "umzug": {
+    "text": "Per detenere nel Cantone un Amstaff, un American Pit Bull Terrier, un Rottweiler o un incrocio di queste razze ti occorre un'autorizzazione. La domanda va inviata per posta alla DGAV, Affaires vétérinaires (affari veterinari).",
+    "quellen": [
+      "vd_cpd",
+      "vd_rlpolc"
+    ]
+  }
+}

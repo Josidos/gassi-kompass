@@ -1,0 +1,129 @@
+{
+  "id": "vd",
+  "kurz": "VD",
+  "uebersetzt_aus": "fr",
+  "original": "61d85e3b4b6a",
+  "wald": {
+    "saison": true,
+    "von": "04-01",
+    "bis": "07-15",
+    "wo": "im Wald, in seiner unmittelbaren Umgebung und auf den angrenzenden Wiesen",
+    "quellen": [
+      "vd_laisse"
+    ]
+  },
+  "leine": {
+    "punkte": [
+      "im Wald und in seiner unmittelbaren Umgebung sowie auf den angrenzenden Wiesen in der Landwirtschaftszone, 1. April bis 15. Juli",
+      "das ganze Jahr in den Wildschutzgebieten: kantonales Wildschutzgebiet, Jagdbanngebiet, Wasservogelreservat",
+      "auf Weiden, solange Vieh darauf ist",
+      "in Naturschutzgebieten, geschützten Naturgebieten und Wildruhezonen, nach den Bestimmungen des jeweiligen Gebiets",
+      "an kurzer Leine in öffentlich zugänglichen Gebäuden, in öffentlichen Verkehrsmitteln und an öffentlichen Veranstaltungen",
+      "an öffentlichen Orten, an denen deine Gemeinde die Leine vorschreibt",
+      "überall, wo du deinen Hund nicht genügend unter Kontrolle hast, wenn nötig mit Maulkorb"
+    ],
+    "quellen": [
+      "vd_laisse",
+      "vd_lpolc"
+    ]
+  },
+  "verbot": {
+    "einleitung": "Das kantonale Gesetz bezeichnet selbst keine Orte mit Hundeverbot. Es überlässt das den Gemeinden.",
+    "punkte": [
+      "öffentliche Orte, zu denen deine Gemeinde Hunden den Zutritt verbietet",
+      "öffentlich zugängliche Gebäude und öffentliche Verkehrsmittel, zu denen Hunde keinen Zutritt haben"
+    ],
+    "quellen": [
+      "vd_lpolc"
+    ]
+  },
+  "karten": [
+    {
+      "titel": "Haftpflicht",
+      "marke": "Pflicht",
+      "ton": "must",
+      "wert": "für jeden Hund",
+      "text": "Wer einen Hund besitzt, muss eine Haftpflichtversicherung haben. Einen Mindestbetrag legt das Gesetz nicht fest.",
+      "quellen": [
+        "vd_lpolc"
+      ]
+    },
+    {
+      "titel": "Kurs",
+      "marke": "Je nach Hund",
+      "ton": "note",
+      "wert": "72 Stunden für potenziell gefährliche Hunde",
+      "text": "Das kantonale Gesetz schreibt Hundeerziehungskurse nur für potenziell gefährliche Hunde vor: 72 Stunden innert höchstens zwei Jahren. Für die anderen Hunde kann die Dienststelle im Einzelfall Kurse als Massnahme anordnen. Stand des Reglements: 2014.",
+      "quellen": [
+        "vd_lpolc",
+        "vd_rlpolc"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "marke": "2 Wochen",
+      "ton": "note",
+      "wert": "Gemeinde und Datenbank",
+      "text": "Als Eigentümerin oder Eigentümer meldest du deinen Hund innert zwei Wochen bei der Datenbank und bei der Gemeindeverwaltung an.",
+      "quellen": [
+        "vd_lpolc"
+      ]
+    },
+    {
+      "titel": "Hundesteuer",
+      "marke": "jährlich",
+      "ton": "note",
+      "wert": "CHF 100 an den Kanton, dazu die Gemeinde",
+      "text": "Die kantonale Hundesteuer beträgt CHF 100 pro Hund, die Eintragung inbegriffen. Dazu kommt die Hundesteuer der Gemeinde. Ihre Höhe legt der Beschluss (arrêté) deiner Gemeinde fest. Befreit sind unter anderem Hunde, die am Ende der Steuerperiode jünger als drei Monate sind, sowie Personen, die Ergänzungsleistungen zur AHV/IV oder das Eingliederungseinkommen (revenu d'insertion) beziehen.",
+      "quellen": [
+        "vd_impot"
+      ]
+    },
+    {
+      "titel": "Rassen",
+      "marke": "Bewilligung",
+      "ton": "must",
+      "wert": "3 Rassen und ihre Kreuzungen",
+      "text": "Wer einen potenziell gefährlichen Hund halten will, braucht eine Bewilligung. Betroffen sind American Staffordshire Terrier (Amstaff), American Pit Bull Terrier und Rottweiler sowie Hunde, bei denen ein Elterntier einer dieser Rassen angehört. Die Bewilligung kostet CHF 800. Die Zucht dieser Hunde und ihre Einfuhr zu Handelszwecken sind verboten. An öffentlichen Veranstaltungen tragen sie einen Maulkorb oder einen Zahnschutz (applique dentaire).",
+      "mehr": {
+        "titel": "Liste anzeigen",
+        "punkte": [
+          "American Staffordshire Terrier (Amstaff)",
+          "American Pit Bull Terrier",
+          "Rottweiler",
+          "Hunde, bei denen ein Elterntier einer dieser Rassen angehört"
+        ]
+      },
+      "quellen": [
+        "vd_rlpolc",
+        "vd_lpolc",
+        "vd_cpd"
+      ]
+    },
+    {
+      "titel": "Unterwegs",
+      "marke": "Regel",
+      "ton": "note",
+      "wert": "Kontrolle und kurze Leine",
+      "text": "Du musst deinen Hund unter Kontrolle haben. Sonst muss er an der Leine geführt werden und wenn nötig einen Maulkorb tragen. In öffentlich zugänglichen Gebäuden, in öffentlichen Verkehrsmitteln und an öffentlichen Veranstaltungen ist die kurze Leine Pflicht. Ein Verstoss gegen die loi sur la police des chiens (Hundepolizeigesetz) kann mit einer Busse bis CHF 20'000 bestraft werden.",
+      "quellen": [
+        "vd_lpolc"
+      ]
+    }
+  ],
+  "vergleich": {
+    "wald": "1.4. bis 15.7., im Wald, in seiner unmittelbaren Umgebung und auf den angrenzenden Wiesen",
+    "haft": "Pflicht, kein Mindestbetrag im Gesetz",
+    "kurs": "nur für potenziell gefährliche Hunde (72 Stunden)",
+    "rassen": "Bewilligung für Amstaff, American Pit Bull Terrier, Rottweiler und Kreuzungen",
+    "steuer": "CHF 100 an den Kanton, dazu die Gemeinde",
+    "anm": "innert zwei Wochen, Gemeinde und Datenbank"
+  },
+  "umzug": {
+    "text": "Um im Kanton einen Amstaff, einen American Pit Bull Terrier, einen Rottweiler oder eine Kreuzung dieser Rassen zu halten, brauchst du eine Bewilligung. Das Gesuch geht per Briefpost an die DGAV, Affaires vétérinaires (Veterinärwesen).",
+    "quellen": [
+      "vd_cpd",
+      "vd_rlpolc"
+    ]
+  }
+}

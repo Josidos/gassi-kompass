@@ -1,0 +1,126 @@
+{
+  "id": "ag",
+  "kurz": "AG",
+  "uebersetzt_aus": "de",
+  "original": "fe0549eee7fd",
+  "wald": {
+    "saison": true,
+    "von": "04-01",
+    "bis": "07-31",
+    "wo": "en forêt et en lisière",
+    "quellen": [
+      "ag_wald",
+      "ag_jagdv"
+    ]
+  },
+  "leine": {
+    "punkte": [
+      "en forêt et en lisière, du 1er avril au 31 juillet",
+      "partout où votre commune a édicté une obligation locale de tenir les chiens en laisse",
+      "chiens figurant sur la liste, dans l'espace accessible au public : en laisse courte et conduits un par un, sauf si la personne titulaire de l'autorisation de détention conduit elle-même le chien"
+    ],
+    "quellen": [
+      "ag_jagdv",
+      "ag_hug"
+    ]
+  },
+  "verbot": {
+    "einleitung": "Le Hundegesetz (loi sur les chiens) du canton ne désigne aucun lieu interdit aux chiens. Il laisse ce choix aux communes.",
+    "punkte": [
+      "les zones interdites aux chiens que votre commune a désignées"
+    ],
+    "quellen": [
+      "ag_hug"
+    ]
+  },
+  "karten": [
+    {
+      "titel": "Responsabilité civile",
+      "marke": "Pas d'obligation",
+      "ton": "none",
+      "wert": "seulement pour les chiens de la liste",
+      "text": "Le Hundegesetz (loi sur les chiens) n'impose pas d'assurance responsabilité civile pour tous les chiens. Pour les chiens présentant un potentiel de danger accru, la preuve d'une assurance responsabilité civile suffisante fait partie des conditions de l'autorisation de détention.",
+      "quellen": [
+        "ag_hug"
+      ]
+    },
+    {
+      "titel": "Cours",
+      "marke": "Pas d'obligation",
+      "ton": "none",
+      "wert": "seulement pour les chiens de la liste",
+      "text": "Le Hundegesetz ne prévoit pas de cours obligatoire pour tous les chiens. Toute personne qui détient un chien de la liste doit suivre un cours d'éducation canine et réussir un examen.",
+      "quellen": [
+        "ag_hug",
+        "ag_listenhunde"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "marke": "10 jours",
+      "ton": "note",
+      "wert": "commune et AMICUS",
+      "text": "Au plus tard 10 jours après la prise en charge du chien ou son importation : vous annoncez le chien à la commune et demandez l'accès à la banque de données AMICUS. Un cabinet vétérinaire enregistre ensuite le chien dans AMICUS. Vous annoncez aussi la cession ou la mort du chien dans les 10 jours à la commune et à AMICUS.",
+      "quellen": [
+        "ag_vet"
+      ]
+    },
+    {
+      "titel": "Impôt sur les chiens",
+      "marke": "annuel",
+      "ton": "note",
+      "wert": "CHF 120 par chien",
+      "text": "L'impôt sur les chiens est de CHF 120 par chien et par an. CHF 20 reviennent au canton, la commune garde le reste. Sont exonérés notamment les chiens de rouge, de sauvetage, d'aveugle et d'assistance aptes à l'engagement, ainsi que les chiens de service. Les chiens d'école et de thérapie ne sont pas exonérés.",
+      "quellen": [
+        "ag_vet"
+      ]
+    },
+    {
+      "titel": "Races",
+      "marke": "Autorisation",
+      "ton": "must",
+      "wert": "5 types de races",
+      "text": "Pour un chien de la liste, il vous faut une autorisation de détention du canton. Vous devez la demander et l'obtenir avant d'acquérir le chien. Cela vaut aussi pour les croisements de ces races, par exemple l'American Bully et l'Exotic Bully. Les chiens de la liste en visite dans le canton doivent être tenus en laisse et conduits un par un.",
+      "mehr": {
+        "titel": "Afficher la liste complète",
+        "punkte": [
+          "American Staffordshire Terrier",
+          "Bullterrier",
+          "Pitbull Terrier",
+          "Rottweiler",
+          "Staffordshire Bullterrier"
+        ]
+      },
+      "quellen": [
+        "ag_listenhunde"
+      ]
+    },
+    {
+      "titel": "En promenade",
+      "marke": "Règle",
+      "ton": "note",
+      "wert": "crottes et surveillance",
+      "text": "Ramassez les crottes de votre chien et éliminez-les. Qui ne le fait pas paie une amende d'ordre de CHF 100 (état de l'ordonnance : 1er juillet 2021). Votre chien doit être surveillé et maîtrisé en tout temps. En dehors de la période de laisse obligatoire, il peut aller sans laisse sur les routes forestières, sous surveillance directe.",
+      "quellen": [
+        "ag_vet",
+        "ag_hug",
+        "ag_obvv",
+        "ag_jagdv"
+      ]
+    }
+  ],
+  "vergleich": {
+    "wald": "du 1.4. au 31.7., en forêt et en lisière",
+    "haft": "pas d'obligation générale, seulement les chiens de la liste",
+    "kurs": "seulement pour les chiens de la liste",
+    "rassen": "autorisation obligatoire pour 5 types de races",
+    "steuer": "CHF 120 par an",
+    "anm": "dans les 10 jours, commune et AMICUS"
+  },
+  "umzug": {
+    "text": "Le canton reconnaît les autorisations de détention, les cours et les examens pour chiens de la liste provenant d'autres cantons ou de l'étranger s'ils garantissent un niveau de protection équivalent.",
+    "quellen": [
+      "ag_hug"
+    ]
+  }
+}

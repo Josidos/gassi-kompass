@@ -1,0 +1,116 @@
+{
+  "id": "sg",
+  "kurz": "SG",
+  "uebersetzt_aus": "de",
+  "original": "d07ce1e22a2c",
+  "wald": {
+    "saison": false,
+    "text": "Le Hundegesetz (loi sur les chiens), le Jagdgesetz (loi sur la chasse) et la Jagdverordnung (ordonnance sur la chasse) du canton ne prévoient pas de laisse obligatoire en forêt à dates fixes. Vous devez toutefois tenir votre chien en laisse partout où vous ne pouvez pas le maîtriser efficacement d'une autre manière. Les communes peuvent désigner, par une signalisation, d'autres lieux où la laisse est obligatoire. Un chien qui braconne et met directement le gibier en danger peut être abattu.",
+    "quellen": [
+      "sg_hug",
+      "sg_jagdg",
+      "sg_jagdv"
+    ]
+  },
+  "leine": {
+    "punkte": [
+      "dans les enceintes scolaires",
+      "sur les places de jeux et de sport publiques",
+      "dans les bâtiments ouverts au public",
+      "dans les transports publics, dans les gares et aux arrêts",
+      "dans d'autres lieux que votre commune a désignés par un règlement ou une signalisation",
+      "partout où vous ne pouvez pas maîtriser efficacement votre chien d'une autre manière"
+    ],
+    "quellen": [
+      "sg_hug"
+    ]
+  },
+  "verbot": {
+    "einleitung": "Le Hundegesetz du canton ne désigne aucun lieu interdit aux chiens. Il laisse ce choix aux communes.",
+    "punkte": [
+      "les lieux que votre commune a désignés par un règlement ou par une décision signalée sur place"
+    ],
+    "quellen": [
+      "sg_hug"
+    ]
+  },
+  "karten": [
+    {
+      "titel": "Responsabilité civile",
+      "marke": "Obligatoire",
+      "ton": "must",
+      "wert": "pour tous les chiens",
+      "text": "Toute personne qui détient un chien doit avoir une assurance responsabilité civile. Elle doit aussi couvrir la personne qui surveille effectivement le chien. Le Hundegesetz (loi sur les chiens) ne fixe pas de somme minimale.",
+      "quellen": [
+        "sg_hug"
+      ]
+    },
+    {
+      "titel": "Cours",
+      "marke": "Pas d'obligation",
+      "ton": "none",
+      "wert": "seulement au cas par cas",
+      "text": "Le Hundegesetz ne prévoit pas de cours obligatoire pour tous les chiens. Le canton peut ordonner, dans un cas particulier, de suivre des cours de formation, par exemple après un incident.",
+      "quellen": [
+        "sg_hug"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "marke": "Obligatoire",
+      "ton": "note",
+      "wert": "commune et AMICUS",
+      "text": "Tous les chiens doivent porter une puce électronique et être enregistrés dans la banque de données AMICUS. L'identification et l'enregistrement sont régis par le droit fédéral. Votre commune de domicile vous enregistre comme détentrice ou détenteur dans la banque de données et saisit les changements de nom et d'adresse.",
+      "quellen": [
+        "sg_vet",
+        "sg_hug"
+      ]
+    },
+    {
+      "titel": "Impôt sur les chiens",
+      "marke": "annuel",
+      "ton": "note",
+      "wert": "CHF 60 à 200",
+      "text": "Pour chaque chien âgé de plus de trois mois, vous payez à votre commune de domicile un impôt de CHF 60 à CHF 200 par année civile. Le montant est fixé par le Gemeinderat (conseil communal). Sont exonérés notamment les chiens d'aveugle et les chiens pour personnes handicapées.",
+      "quellen": [
+        "sg_hug"
+      ]
+    },
+    {
+      "titel": "Races",
+      "marke": "pas de liste",
+      "ton": "none",
+      "wert": "pas de liste de races",
+      "text": "Le Hundegesetz ne contient pas de liste de races interdites ou soumises à autorisation. Le canton ordonne des restrictions au cas par cas, par exemple lorsqu'un chien a gravement blessé des personnes ou des animaux ou qu'il est excessivement agressif. Il n'y a pas d'obligation générale de porter une muselière.",
+      "quellen": [
+        "sg_hug",
+        "sg_vet"
+      ]
+    },
+    {
+      "titel": "En promenade",
+      "marke": "Règle",
+      "ton": "note",
+      "wert": "crottes et maîtrise",
+      "text": "Qui promène un chien ramasse ses crottes. Votre chien doit pouvoir être maîtrisé en tout temps et ne doit pas circuler sans surveillance dans l'espace public. Les infractions aux obligations concernant la laisse, l'accès, les crottes et l'assurance peuvent être punies d'une amende jusqu'à CHF 10 000.",
+      "quellen": [
+        "sg_hug"
+      ]
+    }
+  ],
+  "vergleich": {
+    "wald": "pas de période fixe dans les lois sur les chiens et sur la chasse, laisse à défaut de maîtrise efficace",
+    "haft": "obligatoire, pas de somme minimale dans la loi",
+    "kurs": "pas d'obligation, seulement au cas par cas",
+    "rassen": "pas de liste de races",
+    "steuer": "CHF 60 à 200, selon la commune",
+    "anm": "commune de domicile et AMICUS"
+  },
+  "umzug": {
+    "text": "Si un autre canton a ordonné des restrictions pour votre chien, vous devez les annoncer dans les 10 jours à l'Amt für Verbraucherschutz und Veterinärwesen (office de la protection des consommateurs et des affaires vétérinaires).",
+    "quellen": [
+      "sg_hug",
+      "sg_vet"
+    ]
+  }
+}

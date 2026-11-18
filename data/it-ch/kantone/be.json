@@ -1,0 +1,106 @@
+{
+  "id": "be",
+  "kurz": "BE",
+  "uebersetzt_aus": "de",
+  "original": "93de8c420fcc",
+  "wald": {
+    "saison": false,
+    "text": "Nel Cantone di Berna non c'è un obbligo generale di guinzaglio nel bosco. Il Gran Consiglio lo ha respinto nel 2023, con 70 voti contro 63, per il periodo di cova e dei parti della selvaggina. Il guinzaglio serve comunque sui pascoli con animali da reddito, nelle riserve naturali e nei luoghi designati dal tuo Comune.",
+    "quellen": [
+      "be_wald",
+      "be_avet"
+    ]
+  },
+  "leine": {
+    "punkte": [
+      "nelle aree scolastiche",
+      "nei parchi giochi e nei campi sportivi pubblici",
+      "sui mezzi di trasporto pubblici, nelle stazioni e alle fermate",
+      "sui pascoli con animali da reddito",
+      "nelle riserve naturali",
+      "nei luoghi designati dal tuo Comune"
+    ],
+    "quellen": [
+      "be_avet"
+    ]
+  },
+  "verbot": {
+    "einleitung": "Il Cantone stesso non elenca alcun luogo. I Comuni possono designare luoghi ai quali i cani non hanno accesso.",
+    "punkte": [
+      "luoghi designati dal tuo Comune"
+    ],
+    "quellen": [
+      "be_hug"
+    ]
+  },
+  "karten": [
+    {
+      "titel": "Responsabilità civile",
+      "marke": "Obbligo",
+      "ton": "must",
+      "wert": "almeno CHF 3 milioni",
+      "text": "Chi detiene un cane deve avere un'assicurazione di responsabilità civile che copra i rischi della detenzione di cani.",
+      "quellen": [
+        "be_avet"
+      ]
+    },
+    {
+      "titel": "Corso",
+      "marke": "Nessun obbligo",
+      "ton": "none",
+      "wert": "nessun corso obbligatorio",
+      "text": "Il Cantone di Berna non prevede corsi obbligatori. I corsi sono raccomandati soprattutto a chi detiene un cane per la prima volta.",
+      "quellen": [
+        "be_kurs"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "marke": "Obbligo",
+      "ton": "note",
+      "wert": "tramite il Comune",
+      "text": "Annunciati al tuo Comune di domicilio come detentrice o detentore di un cane. Il Comune ti registra in AMICUS.",
+      "quellen": [
+        "be_avet"
+      ]
+    },
+    {
+      "titel": "Imposta sui cani",
+      "marke": "Comune",
+      "ton": "note",
+      "wert": "secondo il Comune",
+      "text": "L'imposta sui cani è fissata dal Comune. Non è dovuta, tra l'altro, per i cani d'assistenza, per i cani ospitati in un rifugio per animali e se nello stesso anno è già stata pagata altrove.",
+      "quellen": [
+        "be_hug"
+      ]
+    },
+    {
+      "titel": "Razze",
+      "marke": "nessun elenco",
+      "ton": "none",
+      "wert": "nessuna restrizione",
+      "text": "La Hundegesetz (legge sui cani) bernese non prevede né un elenco delle razze né prescrizioni specifiche per singole razze.",
+      "quellen": [
+        "be_avet"
+      ]
+    },
+    {
+      "titel": "A passeggio",
+      "marke": "Regola",
+      "ton": "note",
+      "wert": "al massimo 3 cani",
+      "text": "Al massimo 3 cani di età superiore a 4 mesi per persona. Negli spazi pubblici il cane non resta mai incustodito ed è sempre sotto controllo in modo efficace. Raccogli gli escrementi, altrimenti rischi una multa disciplinare.",
+      "quellen": [
+        "be_avet"
+      ]
+    }
+  ],
+  "vergleich": {
+    "wald": "nessun obbligo generale",
+    "haft": "obbligo, almeno CHF 3 milioni",
+    "kurs": "nessun corso obbligatorio",
+    "rassen": "nessuna restrizione",
+    "steuer": "secondo il Comune",
+    "anm": "tramite il Comune"
+  }
+}

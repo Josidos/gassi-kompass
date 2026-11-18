@@ -1,0 +1,126 @@
+{
+  "id": "ag",
+  "kurz": "AG",
+  "uebersetzt_aus": "de",
+  "original": "fe0549eee7fd",
+  "wald": {
+    "saison": true,
+    "von": "04-01",
+    "bis": "07-31",
+    "wo": "nel bosco e al margine del bosco",
+    "quellen": [
+      "ag_wald",
+      "ag_jagdv"
+    ]
+  },
+  "leine": {
+    "punkte": [
+      "nel bosco e al margine del bosco, dal 1° aprile al 31 luglio",
+      "ovunque il tuo Comune abbia emanato un obbligo locale di guinzaglio",
+      "cani dell'elenco negli spazi accessibili al pubblico: al guinzaglio corto e condotti singolarmente, tranne quando è la persona titolare dell'autorizzazione di detenzione a condurre il cane"
+    ],
+    "quellen": [
+      "ag_jagdv",
+      "ag_hug"
+    ]
+  },
+  "verbot": {
+    "einleitung": "La Hundegesetz (legge sui cani) del Cantone non indica luoghi vietati ai cani. Lascia questa scelta ai Comuni.",
+    "punkte": [
+      "zone vietate ai cani designate dal tuo Comune"
+    ],
+    "quellen": [
+      "ag_hug"
+    ]
+  },
+  "karten": [
+    {
+      "titel": "Responsabilità civile",
+      "marke": "Nessun obbligo",
+      "ton": "none",
+      "wert": "solo per i cani dell'elenco",
+      "text": "La Hundegesetz (legge sui cani) non prescrive un'assicurazione di responsabilità civile per tutti i cani. Per i cani con un potenziale di pericolo elevato, la prova di un'assicurazione di responsabilità civile sufficiente è una delle condizioni dell'autorizzazione di detenzione.",
+      "quellen": [
+        "ag_hug"
+      ]
+    },
+    {
+      "titel": "Corso",
+      "marke": "Nessun obbligo",
+      "ton": "none",
+      "wert": "solo per i cani dell'elenco",
+      "text": "La Hundegesetz non prevede un corso obbligatorio per tutti i cani. Chi detiene un cane dell'elenco deve frequentare un corso di educazione cinofila e superare un esame.",
+      "quellen": [
+        "ag_hug",
+        "ag_listenhunde"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "marke": "10 giorni",
+      "ton": "note",
+      "wert": "Comune e AMICUS",
+      "text": "Al più tardi 10 giorni dopo la presa a carico o l'importazione: annunci il cane al Comune e chiedi l'accesso alla banca dati AMICUS. In seguito uno studio veterinario registra il cane in AMICUS. Anche la cessione o la morte del cane vanno annunciate entro 10 giorni al Comune e ad AMICUS.",
+      "quellen": [
+        "ag_vet"
+      ]
+    },
+    {
+      "titel": "Imposta sui cani",
+      "marke": "annuale",
+      "ton": "note",
+      "wert": "CHF 120 per cane",
+      "text": "L'imposta sui cani è di CHF 120 per cane all'anno. Di questi, CHF 20 vanno al Cantone, il resto rimane al Comune. Sono esonerati tra gli altri i cani da traccia, da salvataggio, guida per ciechi e d'assistenza idonei all'impiego, come pure i cani di servizio. I cani da scuola e da terapia non sono esonerati.",
+      "quellen": [
+        "ag_vet"
+      ]
+    },
+    {
+      "titel": "Razze",
+      "marke": "Autorizzazione",
+      "ton": "must",
+      "wert": "5 tipi di razza",
+      "text": "Per i cani dell'elenco ti serve un'autorizzazione di detenzione del Cantone. Devi chiederla e ottenerla prima di acquistare il cane. Questo vale anche per gli incroci di queste razze, per esempio American Bully ed Exotic Bully. I cani dell'elenco in visita nel Cantone devono essere tenuti al guinzaglio e condotti singolarmente.",
+      "mehr": {
+        "titel": "Mostra l'elenco completo",
+        "punkte": [
+          "American Staffordshire Terrier",
+          "Bullterrier",
+          "Pitbull Terrier",
+          "Rottweiler",
+          "Staffordshire Bullterrier"
+        ]
+      },
+      "quellen": [
+        "ag_listenhunde"
+      ]
+    },
+    {
+      "titel": "A passeggio",
+      "marke": "Regola",
+      "ton": "note",
+      "wert": "escrementi e sorveglianza",
+      "text": "Raccogli gli escrementi del cane e smaltiscili. Chi non lo fa paga una multa disciplinare di CHF 100 (stato dell'ordinanza: 1° luglio 2021). Il tuo cane deve essere sorvegliato e sotto controllo in ogni momento. Fuori dal periodo con obbligo di guinzaglio può camminare senza guinzaglio sulle strade forestali, sotto sorveglianza diretta.",
+      "quellen": [
+        "ag_vet",
+        "ag_hug",
+        "ag_obvv",
+        "ag_jagdv"
+      ]
+    }
+  ],
+  "vergleich": {
+    "wald": "dal 1.4. al 31.7., nel bosco e al margine del bosco",
+    "haft": "nessun obbligo generale, solo cani dell'elenco",
+    "kurs": "solo per i cani dell'elenco",
+    "rassen": "obbligo di autorizzazione per 5 tipi di razza",
+    "steuer": "CHF 120 all'anno",
+    "anm": "entro 10 giorni, Comune e AMICUS"
+  },
+  "umzug": {
+    "text": "Il Cantone riconosce le autorizzazioni di detenzione, i corsi e gli esami per cani dell'elenco di altri Cantoni o dell'estero, se garantiscono un livello di protezione equivalente.",
+    "quellen": [
+      "ag_hug"
+    ]
+  }
+}

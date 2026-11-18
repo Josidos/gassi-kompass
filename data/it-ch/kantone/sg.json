@@ -1,0 +1,116 @@
+{
+  "id": "sg",
+  "kurz": "SG",
+  "uebersetzt_aus": "de",
+  "original": "d07ce1e22a2c",
+  "wald": {
+    "saison": false,
+    "text": "La Hundegesetz (legge sui cani), la Jagdgesetz (legge sulla caccia) e la Jagdverordnung (ordinanza sulla caccia) del Cantone non prevedono un obbligo di guinzaglio nel bosco in date fisse. Devi però tenere il cane al guinzaglio ovunque tu non possa controllarlo efficacemente in altro modo. I Comuni possono stabilire con la segnaletica altri luoghi con obbligo di guinzaglio. Un cane che caccia e mette direttamente in pericolo la selvaggina può essere abbattuto.",
+    "quellen": [
+      "sg_hug",
+      "sg_jagdg",
+      "sg_jagdv"
+    ]
+  },
+  "leine": {
+    "punkte": [
+      "nelle aree scolastiche",
+      "nei parchi giochi e nei campi sportivi pubblici",
+      "negli edifici accessibili al pubblico",
+      "sui mezzi di trasporto pubblici, nelle stazioni e alle fermate",
+      "in altri luoghi che il tuo Comune ha stabilito con un regolamento o con la segnaletica",
+      "ovunque tu non possa controllare efficacemente il tuo cane in altro modo"
+    ],
+    "quellen": [
+      "sg_hug"
+    ]
+  },
+  "verbot": {
+    "einleitung": "La Hundegesetz del Cantone non indica luoghi vietati ai cani. Lascia questa scelta ai Comuni.",
+    "punkte": [
+      "luoghi che il tuo Comune ha stabilito con un regolamento o con una decisione segnalata sul posto"
+    ],
+    "quellen": [
+      "sg_hug"
+    ]
+  },
+  "karten": [
+    {
+      "titel": "Responsabilità civile",
+      "marke": "Obbligo",
+      "ton": "must",
+      "wert": "per tutti i cani",
+      "text": "Chi detiene un cane deve avere un'assicurazione di responsabilità civile. Deve coprire anche la persona che sorveglia effettivamente il cane. La Hundegesetz (legge sui cani) non indica una somma minima.",
+      "quellen": [
+        "sg_hug"
+      ]
+    },
+    {
+      "titel": "Corso",
+      "marke": "Nessun obbligo",
+      "ton": "none",
+      "wert": "solo nel singolo caso",
+      "text": "La Hundegesetz non prevede un corso obbligatorio per tutti i cani. Nel singolo caso il Cantone può ordinare la frequenza di corsi di formazione, per esempio dopo un incidente.",
+      "quellen": [
+        "sg_hug"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "marke": "Obbligo",
+      "ton": "note",
+      "wert": "Comune e AMICUS",
+      "text": "Tutti i cani devono avere un microchip ed essere registrati nella banca dati AMICUS. Contrassegno e registrazione sono retti dal diritto federale. Il tuo Comune di domicilio ti registra come detentrice o detentore nella banca dati dei cani e inserisce i cambiamenti di nome e di indirizzo.",
+      "quellen": [
+        "sg_vet",
+        "sg_hug"
+      ]
+    },
+    {
+      "titel": "Imposta sui cani",
+      "marke": "annuale",
+      "ton": "note",
+      "wert": "da CHF 60 a 200",
+      "text": "Per ogni cane di età superiore a tre mesi paghi al tuo Comune di domicilio un'imposta da CHF 60 a CHF 200 per anno civile. L'importo è fissato dal Gemeinderat (Municipio). Sono esonerati tra gli altri i cani guida per ciechi e i cani per persone con disabilità.",
+      "quellen": [
+        "sg_hug"
+      ]
+    },
+    {
+      "titel": "Razze",
+      "marke": "nessun elenco",
+      "ton": "none",
+      "wert": "nessun elenco delle razze",
+      "text": "La Hundegesetz non contiene un elenco di razze vietate o soggette ad autorizzazione. Il Cantone ordina restrizioni nel singolo caso, per esempio se un cane ha ferito gravemente persone o animali o è eccessivamente aggressivo. Non c'è un obbligo generale di museruola.",
+      "quellen": [
+        "sg_hug",
+        "sg_vet"
+      ]
+    },
+    {
+      "titel": "A passeggio",
+      "marke": "Regola",
+      "ton": "note",
+      "wert": "escrementi e controllo",
+      "text": "Chi porta a spasso un cane ne elimina gli escrementi. Il tuo cane deve essere controllabile in ogni momento e non può muoversi incustodito negli spazi pubblici. Le infrazioni agli obblighi relativi a guinzaglio, accesso, escrementi e assicurazione possono essere punite con una multa fino a CHF 10 000.",
+      "quellen": [
+        "sg_hug"
+      ]
+    }
+  ],
+  "vergleich": {
+    "wald": "nessun periodo fisso nelle leggi sui cani e sulla caccia, guinzaglio senza controllo efficace",
+    "haft": "obbligo, nessuna somma minima nella legge",
+    "kurs": "nessun obbligo, solo nel singolo caso",
+    "rassen": "nessun elenco delle razze",
+    "steuer": "da CHF 60 a 200, secondo il Comune",
+    "anm": "Comune di domicilio e AMICUS"
+  },
+  "umzug": {
+    "text": "Se un altro Cantone ha ordinato restrizioni per il tuo cane, devi annunciarle entro 10 giorni all'Amt für Verbraucherschutz und Veterinärwesen (ufficio della protezione dei consumatori e degli affari veterinari).",
+    "quellen": [
+      "sg_hug",
+      "sg_vet"
+    ]
+  }
+}
