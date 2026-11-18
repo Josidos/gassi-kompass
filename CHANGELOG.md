@@ -17,7 +17,7 @@ Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen
   - `data/fr-ch/gemeinden/vs/sion.json`, Karte «Annonce»: «le passeport de l'animal avec son numéro AMICUS» lässt offen, ob die Nummer im Pass stehen muss oder zusätzlich vorzulegen ist.
   - `data/gemeinden/bl/allschwil.json`: Karte Hundetaxe spricht von «Hundegebühr». Karte Bussen schreibt «CHF 5'000», die anderen Dateien «CHF 5000».
   - `data/gemeinden/tg/arbon.json`, Karte Anmeldung: Die Stadt nennt 10 und 14 Tage, die Karte sagt das offen. Bei der Nachprüfung klären.
-- Offen: 28 Übersetzungen für 15 Gemeinden (Schritt b): Kreuzlingen, Chur, Davos, Landquart, Basel, Neuchâtel, Arth, Einsiedeln, Küssnacht, Schwyz, Schaffhausen, Glarus, Sarnen, Silenen.
+- Offen: 28 Übersetzungen für 14 Gemeinden (Schritt b): Kreuzlingen, Chur, Davos, Landquart, Basel, Neuchâtel, Arth, Einsiedeln, Küssnacht, Schwyz, Schaffhausen, Glarus, Sarnen, Silenen.
 
 ## 2026-11-18, Kette Übersetzungen, Glied 5: Übersetzungen der Gemeinden, erste Portion
 

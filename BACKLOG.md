@@ -22,7 +22,7 @@ Name: Kette Übersetzungen. Höchstens 8 Glieder. Schluss: 18. November 2026, 20
 Programm:
 
 - [x] a) Übersetzungen der Kantone (erledigt mit Glied 4 am 18.11.2026). Pro Glied bis zu 8 Kantone in alle ihre fehlenden Sprachen (rund 16 Dateien), in der Reihenfolge von `python3 build.py --fehlend`. Offen, bis in der Liste kein Kanton mehr steht.
-- [ ] b) Übersetzungen der Gemeinden. Pro Glied bis zu 15 Gemeinden in alle ihre fehlenden Sprachen (rund 30 Dateien), in der Reihenfolge der Liste. Offen, bis die Liste leer ist. Stand nach Glied 6: 30 Gemeinden erledigt, 28 Dateien für 15 Gemeinden fehlen.
+- [ ] b) Übersetzungen der Gemeinden. Pro Glied bis zu 15 Gemeinden in alle ihre fehlenden Sprachen (rund 30 Dateien), in der Reihenfolge der Liste. Offen, bis die Liste leer ist. Stand nach Glied 6: 30 Gemeinden erledigt, 28 Dateien für 14 Gemeinden fehlen.
 
 Ein Glied übersetzt nur. Es ändert keine Originalfassung und recherchiert nichts. Fällt ihm in einer Originalfassung etwas auf, steht das im Eintrag in `CHANGELOG.md` unter «Aufgefallen». Während die Kette läuft, arbeitet Claude in der Sitzung mit Joss an `build.py`, `assets/` und `tests/` (Darstellung, Bund und Themenseiten in drei Sprachen).
 
