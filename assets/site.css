@@ -58,6 +58,10 @@ a{color:inherit}
 .lang{display:flex;gap:12px;font-size:.85rem;font-weight:650}
 .lang a{text-underline-offset:2px}
 .lang a:focus-visible{outline:2px solid var(--focus);outline-offset:2px;border-radius:2px}
+/* Hinweis auf einer übersetzten Seite */
+.transl{margin:0;padding:8px 12px;border-left:3px solid var(--plate);background:var(--surface);border-radius:0 6px 6px 0;font-size:.9rem;color:var(--ink-2);max-width:66ch}
+.transl a{color:var(--ink);font-weight:650;text-underline-offset:2px;white-space:nowrap}
+.transl strong{color:var(--ink);font-weight:650}
 .more-kt{margin:12px 0 0;color:var(--ink-2);font-size:.92rem;max-width:70ch}
 .more-kt a{color:var(--ink);text-underline-offset:2px}
 

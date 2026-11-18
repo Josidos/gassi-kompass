@@ -52,6 +52,15 @@ function datei(url) {
     }
   }
 
+  // Übersetzte Seiten (Feld uebersetzt_aus in der Datendatei) tragen den Hinweis «Übersetzung», alle anderen nicht.
+  const uebersetzt = new Set();
+  for (const [, pre, dir] of SPRACHEN) {
+    for (const f of ordner(...dir, 'kantone')) if (f.endsWith('.json') && lies(...dir, 'kantone', f).uebersetzt_aus) uebersetzt.add(`${pre}/${f.slice(0, -5)}/`);
+    for (const kt of ordner(...dir, 'gemeinden')) {
+      for (const f of ordner(...dir, 'gemeinden', kt)) if (f.endsWith('.json') && lies(...dir, 'gemeinden', kt, f).uebersetzt_aus) uebersetzt.add(`${pre}/${kt}/${f.slice(0, -5)}/`);
+    }
+  }
+
   // Jede Seite, schmal und breit
   for (const breite of [390, 1280]) {
     const ctx = await browser.newContext({ viewport: { width: breite, height: 844 }, deviceScaleFactor: 1 });
@@ -70,6 +79,7 @@ function datei(url) {
         h1: document.querySelectorAll('h1').length,
         titel: document.title,
         lang: document.documentElement.lang,
+        hinweis: !!document.querySelector('[data-uebersetzung]'),
         alt: [...document.querySelectorAll('link[rel="alternate"][hreflang]')].map(x => [x.hreflang, new URL(x.href).pathname]),
         links: [...document.querySelectorAll('a[href^="/"], link[href^="/"], script[src^="/"]')].map(x => x.getAttribute('href') || x.getAttribute('src')),
         wald: [...document.querySelectorAll('[data-wald]')].map(x => ({ saison: x.getAttribute('data-saison'), gross: x.querySelector('[data-heute-gross]').className, heute: !!x.querySelector('.now'), datum: x.querySelector('[data-heute-datum]').textContent }))
@@ -83,6 +93,7 @@ function datei(url) {
         if (w.saison === '1' && !/ (must|free)$/.test(w.gross)) fehler.push(`${wo}: Wald-Status wurde nicht gesetzt`);
       }
       if (info.lang !== sollLang(s)) fehler.push(`${wo}: lang="${info.lang}" statt "${sollLang(s)}"`);
+      if (info.hinweis !== uebersetzt.has(s)) fehler.push(`${wo}: ${info.hinweis ? 'trägt den Hinweis «Übersetzung», ist aber eine Originalfassung' : 'ist eine Übersetzung, der Hinweis fehlt'}`);
       if (breite === 390) {
         alternativen[s] = info.alt;
         if (info.alt.length && !info.alt.some(a => a[0] === info.lang && a[1] === s)) fehler.push(`${s}: hreflang nennt die eigene Seite nicht`);

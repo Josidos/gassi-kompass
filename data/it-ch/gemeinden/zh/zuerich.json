@@ -1,0 +1,38 @@
+{
+  "id": "zuerich",
+  "kanton": "zh",
+  "bfs": 261,
+  "uebersetzt_aus": "de",
+  "original": "1370ab5b4e6d",
+  "name": "Città di Zurigo",
+  "ort": "Zurigo",
+  "in_ort": "a Zurigo",
+  "hinweis_heute": "Nella città di Zurigo vale inoltre nella maggior parte dei luoghi l'obbligo di guinzaglio, almeno di giorno. Fa stato la segnaletica sul posto.",
+  "einleitung": "La Città stabilisce con una decisione dove i cani possono correre liberi, dove serve il guinzaglio e dove i cani sono vietati.",
+  "karten": [
+    {
+      "titel": "Guinzaglio",
+      "wert": "per lo più obbligatorio, almeno di giorno",
+      "text": "Nella maggior parte dei luoghi della città vale l'obbligo di guinzaglio almeno di giorno. Fai attenzione alla segnaletica sul posto.",
+      "quellen": [
+        "zh_stadt"
+      ]
+    },
+    {
+      "titel": "Zone",
+      "wert": "piano vincolante della Città",
+      "text": "Le aree di svago per cani, le zone con obbligo di guinzaglio e le zone vietate figurano nel set di dati comunale «Hundezonen», stato 14.07.2026.",
+      "quellen": [
+        "zh_zonen"
+      ]
+    },
+    {
+      "titel": "Notifica e imposta",
+      "wert": "Stadtpolizei Zürich (polizia comunale)",
+      "text": "La Stadtpolizei è competente per la notifica obbligatoria di arrivo e partenza del cane e per l'imposta sui cani.",
+      "quellen": [
+        "zh_stadt"
+      ]
+    }
+  ]
+}

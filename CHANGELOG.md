@@ -2,6 +2,17 @@
 
 Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen.
 
+## 2026-11-18, Sitzung mit Joss: Übersetzungen im Generator, Probe Zürich
+
+Entscheid von Joss: Jede Seite soll es auf Deutsch, Französisch und Italienisch geben, auch wo die Sprache am Ort nicht Amtssprache ist.
+
+- Geändert: Statuswörter («erfasst», «saisi», «registrato», «folgt») aus allen Texten der Seiten entfernt, in allen drei Sprachen. Kantonstafeln zeigen nur noch das Kürzel.
+- Neu im Generator: Übersetzungen mit den Feldern `uebersetzt_aus` und `original`. Der Bau vergleicht Aufbau, Quellen und die Zahlen jedes Textes mit der Originalfassung. Übersetzte Seiten tragen den Hinweis «Übersetzung» mit Link zur Originalfassung. `--fehlend` listet, was fehlt oder veraltet ist, `--pruefsumme` nennt die Prüfsumme.
+- Neu: Kanton Zürich und Stadt Zürich auf Französisch und Italienisch als Muster für alle weiteren Übersetzungen (`/fr-ch/zh/`, `/it-ch/zh/`, `/fr-ch/zh/zuerich/`, `/it-ch/zh/zuerich/`).
+- Sortierung: Kantone und Gemeinden jeder Sprache alphabetisch ohne Akzente (Wädenswil steht jetzt vor Wetzikon).
+- Handbuch: Regeln für Übersetzungen mit Wortliste, Ablauf einer Kette. Backlog: Programm der Kette für die Übersetzungen.
+- Offen: 134 Übersetzungen (46 Kantonsfassungen, 88 Gemeindefassungen). Darstellung, Bund und Themenseiten in drei Sprachen folgen in derselben Sitzung.
+
 ## 2026-11-18, Kette, Glied 5: Kanton Graubünden italienisch
 
 - Start: `build.py --check` fehlerfrei, nichts einzusammeln. Das Werkzeug `add_repo` stand nicht zur Verfügung, das Repository war geklont und auf dem Stand von `main`. Angemeldet in `auftraege.md` um 11:27 Uhr, am Schluss wieder gelöscht. Kein Nachprüfen (Kette: nur ein Schritt).

@@ -1,0 +1,135 @@
+{
+  "id": "zh",
+  "kurz": "ZH",
+  "uebersetzt_aus": "de",
+  "original": "789769ddfd60",
+  "wald": {
+    "saison": true,
+    "von": "04-01",
+    "bis": "07-31",
+    "wo": "en forêt et jusqu'à 50 m de la lisière",
+    "quellen": [
+      "zh_vet"
+    ]
+  },
+  "leine": {
+    "punkte": [
+      "dans les bâtiments ouverts au public",
+      "le long des routes à fort trafic",
+      "dans les transports publics, dans les gares et aux arrêts",
+      "partout où un panneau l'exige",
+      "en forêt et jusqu'à 50 m de la lisière, du 1er avril au 31 juillet"
+    ],
+    "quellen": [
+      "zh_stadt",
+      "zh_vet"
+    ]
+  },
+  "verbot": {
+    "punkte": [
+      "les cimetières",
+      "les établissements de bains",
+      "les préaux des écoles",
+      "d'autres lieux selon le Hundegesetz (loi sur les chiens)"
+    ],
+    "quellen": [
+      "zh_vet"
+    ]
+  },
+  "karten": [
+    {
+      "titel": "Responsabilité civile",
+      "marke": "Obligatoire",
+      "ton": "must",
+      "wert": "au moins CHF 1 million",
+      "text": "Vaut pour tous les chiens, quelles que soient leur taille et leur race.",
+      "quellen": [
+        "zh_vet"
+      ]
+    },
+    {
+      "titel": "Cours",
+      "marke": "Obligatoire",
+      "ton": "must",
+      "wert": "théorie et pratique",
+      "text": "Cours théorique avec examen (environ 2 heures) pour toute personne qui n'a jamais eu de chien ou n'en a plus eu depuis plus de 10 ans : au plus tôt 1 an avant, au plus tard 2 mois après le début de la détention. Cours pratique pour chaque chien : au moins 6 leçons, début au plus tôt à l'âge de 6 mois, fin au plus tard 12 mois après la prise en charge du chien. Vaut aussi en cas d'arrivée dans le canton.",
+      "quellen": [
+        "zh_vet"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "marke": "10 jours",
+      "ton": "note",
+      "wert": "commune et AMICUS",
+      "text": "Dans les 10 jours suivant la prise en charge, annoncez le chien à votre commune de domicile et enregistrez-le à votre nom dans la banque de données AMICUS.",
+      "quellen": [
+        "zh_vet"
+      ]
+    },
+    {
+      "titel": "Impôt sur les chiens",
+      "marke": "annuel",
+      "ton": "note",
+      "wert": "selon la commune",
+      "text": "Pour chaque chien, vous payez chaque année une taxe à votre commune de domicile.",
+      "quellen": [
+        "zh_vet"
+      ]
+    },
+    {
+      "titel": "Races",
+      "marke": "Interdictions",
+      "ton": "must",
+      "wert": "Rassetypenliste II (liste des types de races II)",
+      "text": "Sont interdits notamment l'American Staffordshire Terrier, le Pit Bull Terrier, le Bull Terrier et l'American Bully, de même que les croisements à partir d'une part de 10 %. Rottweiler : nouvelle acquisition interdite depuis le 1er janvier 2025. En visite au maximum 30 jours par an, à l'extérieur avec laisse et muselière.",
+      "mehr": {
+        "titel": "Afficher la liste complète",
+        "punkte": [
+          "American Bull Terrier",
+          "American Bully",
+          "American Bully XXL",
+          "American Pit Bull Terrier",
+          "American Pocket Bully",
+          "American Staffordshire Terrier",
+          "Bandog",
+          "Basicdog",
+          "Bull Terrier",
+          "Pit Bull Terrier",
+          "Rottweiler (depuis le 1.1.2025)",
+          "Staffordshire Bull Terrier",
+          "Swiss Blue Bully",
+          "Swiss Champagner Bully"
+        ]
+      },
+      "quellen": [
+        "zh_rassen"
+      ]
+    },
+    {
+      "titel": "En promenade",
+      "marke": "Règle",
+      "ton": "note",
+      "wert": "crottes et bruit",
+      "text": "Ramassez correctement les crottes et évitez les nuisances sonores. Évitez les lieux interdits aux chiens.",
+      "quellen": [
+        "zh_vet"
+      ]
+    }
+  ],
+  "vergleich": {
+    "wald": "du 1.4. au 31.7., jusqu'à 50 m de la lisière",
+    "haft": "obligatoire, au moins CHF 1 million",
+    "kurs": "théorie pour un premier chien, pratique pour chaque chien",
+    "rassen": "liste d'interdictions, Rottweiler depuis 2025",
+    "steuer": "selon la commune",
+    "anm": "dans les 10 jours, commune et AMICUS"
+  },
+  "umzug": {
+    "text": "L'obligation de suivre les cours vaut aussi en cas d'arrivée dans le canton. Les chiens de la Rassetypenliste II ne peuvent pas venir s'y établir.",
+    "quellen": [
+      "zh_vet",
+      "srf"
+    ]
+  }
+}

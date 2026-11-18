@@ -318,7 +318,8 @@ Vorgaben in `CLAUDE.md` unter «Umbauten am Generator».
 - [x] Themenseiten, 2026-11-17
 - [x] Mehrsprachigkeit (Französisch und Italienisch), 2026-11-18
 - [ ] Darstellung überarbeiten (fällig; seit 18. November 2026, 12 Uhr in der Sitzung mit Joss in Arbeit)
-- [ ] Alle Sprachen überall: Generator, Bund und Themenseiten in drei Sprachen, dazu als Probe Kanton und Stadt Zürich auf Französisch und Italienisch (fällig; folgt in derselben Sitzung)
+- [x] Übersetzungen im Generator: Kennzeichnung, Prüfsumme, Zahlenvergleich, `--fehlend`. Probe: Kanton und Stadt Zürich auf Französisch und Italienisch (18.11.2026)
+- [ ] Bund, Themenseiten und Fehlerseite in drei Sprachen (fällig; seit 18. November 2026 in der Sitzung mit Joss in Arbeit)
 
 ## 6. Ideen für später
 

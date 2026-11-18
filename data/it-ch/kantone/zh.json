@@ -1,0 +1,135 @@
+{
+  "id": "zh",
+  "kurz": "ZH",
+  "uebersetzt_aus": "de",
+  "original": "789769ddfd60",
+  "wald": {
+    "saison": true,
+    "von": "04-01",
+    "bis": "07-31",
+    "wo": "nel bosco e fino a 50 m dal margine del bosco",
+    "quellen": [
+      "zh_vet"
+    ]
+  },
+  "leine": {
+    "punkte": [
+      "negli edifici accessibili al pubblico",
+      "lungo le strade molto trafficate",
+      "sui mezzi di trasporto pubblici, nelle stazioni e alle fermate",
+      "ovunque un cartello lo richieda",
+      "nel bosco e fino a 50 m dal margine del bosco, dal 1° aprile al 31 luglio"
+    ],
+    "quellen": [
+      "zh_stadt",
+      "zh_vet"
+    ]
+  },
+  "verbot": {
+    "punkte": [
+      "cimiteri",
+      "stabilimenti balneari",
+      "cortili delle scuole",
+      "altri luoghi secondo la Hundegesetz (legge sui cani)"
+    ],
+    "quellen": [
+      "zh_vet"
+    ]
+  },
+  "karten": [
+    {
+      "titel": "Responsabilità civile",
+      "marke": "Obbligo",
+      "ton": "must",
+      "wert": "almeno CHF 1 milione",
+      "text": "Vale per tutti i cani, indipendentemente da taglia e razza.",
+      "quellen": [
+        "zh_vet"
+      ]
+    },
+    {
+      "titel": "Corso",
+      "marke": "Obbligo",
+      "ton": "must",
+      "wert": "teoria e pratica",
+      "text": "Corso teorico con esame (circa 2 ore) per chi non ha mai avuto un cane o non ne ha più avuto da oltre 10 anni: al più presto 1 anno prima, al più tardi 2 mesi dopo l'inizio della detenzione. Corso pratico per ogni cane: almeno 6 lezioni, inizio al più presto a 6 mesi di età, conclusione al più tardi 12 mesi dopo la presa a carico del cane. Vale anche per chi si trasferisce nel Cantone.",
+      "quellen": [
+        "zh_vet"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "marke": "10 giorni",
+      "ton": "note",
+      "wert": "Comune e AMICUS",
+      "text": "Entro 10 giorni dalla presa a carico annuncia il cane al tuo Comune di domicilio e registralo a tuo nome nella banca dati AMICUS.",
+      "quellen": [
+        "zh_vet"
+      ]
+    },
+    {
+      "titel": "Imposta sui cani",
+      "marke": "annuale",
+      "ton": "note",
+      "wert": "secondo il Comune",
+      "text": "Per ogni cane paghi ogni anno una tassa al tuo Comune di domicilio.",
+      "quellen": [
+        "zh_vet"
+      ]
+    },
+    {
+      "titel": "Razze",
+      "marke": "Divieti",
+      "ton": "must",
+      "wert": "Rassetypenliste II (elenco dei tipi di razza II)",
+      "text": "Sono vietati tra gli altri American Staffordshire Terrier, Pit Bull Terrier, Bull Terrier e American Bully, così come gli incroci a partire da una quota del 10 %. Rottweiler: nuovo acquisto vietato dal 1° gennaio 2025. In visita al massimo 30 giorni all'anno, all'aperto con guinzaglio e museruola.",
+      "mehr": {
+        "titel": "Mostra l'elenco completo",
+        "punkte": [
+          "American Bull Terrier",
+          "American Bully",
+          "American Bully XXL",
+          "American Pit Bull Terrier",
+          "American Pocket Bully",
+          "American Staffordshire Terrier",
+          "Bandog",
+          "Basicdog",
+          "Bull Terrier",
+          "Pit Bull Terrier",
+          "Rottweiler (dal 1.1.2025)",
+          "Staffordshire Bull Terrier",
+          "Swiss Blue Bully",
+          "Swiss Champagner Bully"
+        ]
+      },
+      "quellen": [
+        "zh_rassen"
+      ]
+    },
+    {
+      "titel": "A passeggio",
+      "marke": "Regola",
+      "ton": "note",
+      "wert": "escrementi e rumore",
+      "text": "Elimina correttamente gli escrementi ed evita i rumori molesti. Evita i luoghi con divieto di accesso.",
+      "quellen": [
+        "zh_vet"
+      ]
+    }
+  ],
+  "vergleich": {
+    "wald": "dal 1.4. al 31.7., fino a 50 m dal margine del bosco",
+    "haft": "obbligo, almeno CHF 1 milione",
+    "kurs": "teoria per il primo cane, pratica per ogni cane",
+    "rassen": "elenco di divieti, Rottweiler dal 2025",
+    "steuer": "secondo il Comune",
+    "anm": "entro 10 giorni, Comune e AMICUS"
+  },
+  "umzug": {
+    "text": "L'obbligo dei corsi vale anche per chi si trasferisce nel Cantone. I cani della Rassetypenliste II non possono trasferirsi nel Cantone.",
+    "quellen": [
+      "zh_vet",
+      "srf"
+    ]
+  }
+}

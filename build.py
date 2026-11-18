@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 """Baut gassi-kompass.ch aus den Dateien in data/ (nur Python-Standardbibliothek).
 
-    python3 build.py          prüft die Daten und schreibt alle Seiten
-    python3 build.py --check  prüft nur, schreibt nichts
+    python3 build.py                      prüft die Daten und schreibt alle Seiten
+    python3 build.py --check              prüft nur, schreibt nichts
+    python3 build.py --fehlend            listet fehlende und veraltete Übersetzungen auf
+    python3 build.py --pruefsumme DATEI   Prüfsumme einer Originalfassung für das Feld 'original'
 
 Erzeugt werden: index.html, 404.html, sitemap.xml, robots.txt, ueber/, schweiz/,
 assets/orte.json, thema/<name>/, <kanton>/ und <kanton>/<gemeinde>/, dazu die französischen Seiten
@@ -11,9 +13,15 @@ Daten in data/ oder dieses Skript anpassen und neu bauen.
 
 Sprachen: Deutsch liegt an der Wurzel (Daten in data/kantone/ und data/gemeinden/), Französisch
 unter /fr-ch/ (data/fr-ch/), Italienisch unter /it-ch/ (data/it-ch/). Alle festen Texte stehen
-in der Tabelle TEXTE je Sprache. Die Texte der Daten werden nie übersetzt.
+in der Tabelle TEXTE je Sprache.
+
+Originalfassung und Übersetzung: Eine Datei ohne das Feld 'uebersetzt_aus' ist eine Originalfassung,
+ihre Texte stammen aus den amtlichen Quellen in ihrer Sprache. Eine Datei mit 'uebersetzt_aus' ist
+die Übersetzung der Originalfassung in dieser Sprache. Sie hat denselben Aufbau, dieselben Quellen
+und dieselben Zahlen, das prüft pruefe_uebersetzung(). Der Generator ändert nie selbst einen Text.
 """
 import unicodedata
+import hashlib
 import html
 import json
 import re
@@ -118,6 +126,30 @@ KANTONSNAMEN = {
            "so": "Soletta", "sg": "San Gallo", "ti": "Ticino", "tg": "Turgovia", "ur": "Uri",
            "vd": "Vaud", "vs": "Vallese", "zg": "Zugo", "zh": "Zurigo"},
 }
+# Die drei Formen des Kantonsnamens, die die Seiten brauchen. In Originalfassungen stehen sie in der
+# Datei (name, im, des). Bei Übersetzungen setzt der Generator sie aus dieser Tabelle ein.
+_FR_VOR = {"ag": "d'", "ar": "d'", "ai": "d'", "gr": "des ", "ju": "du ", "ow": "d'", "ti": "du ",
+           "ur": "d'", "vs": "du "}
+_IT_VOR = {"gr": "dei ", "ju": "del ", "vs": "del ", "ti": ""}
+
+
+def kantonsformen(lang, kid):
+    n = KANTONSNAMEN[lang][kid]
+    if lang == "de":
+        return {"name": f"Kanton {n}", "im": f"im Kanton {n}", "des": f"des Kantons {n}"}
+    if lang == "fr":
+        v = _FR_VOR.get(kid, "de ")
+        return {"name": f"Canton {v}{n}", "im": f"dans le canton {v}{n}", "des": f"du canton {v}{n}"}
+    v = _IT_VOR.get(kid, "di ")
+    return {"name": f"Cantone {v}{n}", "im": f"nel Cantone {v}{n}", "des": f"del Cantone {v}{n}"}
+
+
+# Reihenfolge der Liste --fehlend: ungefähr nach Einwohnerzahl, damit grosse Kantone zuerst übersetzt werden.
+KANTONE_GROESSE = ["zh", "be", "vd", "ag", "sg", "ge", "lu", "ti", "vs", "fr", "bl", "so", "tg", "gr",
+                   "bs", "ne", "sz", "zg", "sh", "ju", "ar", "nw", "gl", "ow", "ur", "ai"]
+# Übersetzungen: Diese Felder sind in jeder Sprache gleich, alle anderen Texte werden übersetzt.
+GLEICH = {"id", "kanton", "kurz", "bfs", "ton", "saison", "von", "bis"}
+TAUSENDER = re.compile(r"(?<=\d)['’\u00a0\u202f ](?=\d{3}(?!\d))")
 # Andere Schreibweisen grosser Orte für die Suche: so getippt (klein, ohne Akzente) -> amtlicher Gemeindename
 ANDERE_NAMEN = {
     "genf": "Genève", "geneva": "Genève", "ginevra": "Genève", "neuenburg": "Neuchâtel",
@@ -142,6 +174,10 @@ TEXTE = {
     "de": {
         "name": "Deutsch",
         "sprache": {"de": "deutsch", "fr": "französisch", "it": "italienisch"},
+        "ueb": {"fr": "Übersetzung aus dem Französischen. Die amtlichen Quellen sind auf Französisch.",
+                "it": "Übersetzung aus dem Italienischen. Die amtlichen Quellen sind auf Italienisch."},
+        "ueb_link": {"fr": "Zur Originalfassung auf Französisch", "it": "Zur Originalfassung auf Italienisch"},
+        "ueb_alt": "Die Originalfassung wurde seither geändert und ist aktueller als diese Übersetzung.",
         "monate": MONATE, "mon3": MON3,
         "wochentage": ["Sonntag", "Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag"],
         "start": "Start", "pfad": "Pfad", "sprachwahl": "Sprache",
@@ -227,6 +263,7 @@ TEXTE = {
             "lede": "Gassi-Kompass sammelt die Regeln für Hunde in der Schweiz an einem Ort: pro Kanton und pro Gemeinde, mit der amtlichen Quelle zu jeder Angabe.",
             "teile": [
                 ("Woher die Angaben stammen", "Alle Angaben kommen aus amtlichen Quellen: Informationen des Bundes, Gesetze und Verordnungen der Kantone, Merkblätter der Veterinärdienste, Websites und offene Daten der Gemeinden. Wo ein politischer Entscheid nur in den Medien dokumentiert ist, steht das bei der Quelle."),
+                ("In welcher Sprache", "Jede Seite ist aus den amtlichen Quellen in einer Amtssprache des Ortes zusammengestellt. In den anderen Sprachen ist sie eine Übersetzung. Das steht oben auf der Seite, mit einem Link zur Originalfassung. Die Namen der Quellen bleiben in der Originalsprache. Auch die Übersetzungen entstehen automatisiert mit KI-Unterstützung, dabei wird jede Zahl mit der Originalfassung verglichen."),
                 ("Wie die Ortssuche funktioniert", "Die Suche kennt alle Gemeinden, Ortschaften und Postleitzahlen der Schweiz und ordnet sie dem Kanton zu. Sie zeigt dir die genaueste Seite, die es für deinen Ort schon gibt: die Gemeinde, sonst den Kanton, sonst die Regeln des Bundes. Grundlage ist das {swisstopo}Amtliche Ortschaftenverzeichnis</a>. Quelle: Bundesamt für Landestopografie swisstopo."),
                 ("Wie geprüft wird", "Die Angaben werden automatisiert mit KI-Unterstützung zusammengestellt und regelmässig mit den Quellen abgeglichen. Auf jeder Seite steht, wann sie zuletzt geprüft wurde. Eine Gemeinde bekommt erst dann eine eigene Seite, wenn mindestens drei lokale Angaben amtlich belegt sind."),
                 ("Fehler melden", "Stimmt eine Angabe nicht mehr oder fehlt etwas? Schreib an {mail}. Nenn bitte den Ort und, wenn du sie hast, die amtliche Quelle."),
@@ -240,6 +277,10 @@ TEXTE = {
     "fr": {
         "name": "Français",
         "sprache": {"de": "en allemand", "fr": "en français", "it": "en italien"},
+        "ueb": {"de": "Traduction de l'allemand. Les sources officielles sont en allemand.",
+                "it": "Traduction de l'italien. Les sources officielles sont en italien."},
+        "ueb_link": {"de": "Version originale en allemand", "it": "Version originale en italien"},
+        "ueb_alt": "La version originale a été modifiée depuis et est plus récente que cette traduction.",
         "monate": ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août",
                    "septembre", "octobre", "novembre", "décembre"],
         "mon3": ["janv", "févr", "mars", "avr", "mai", "juin", "juil", "août", "sept", "oct", "nov", "déc"],
@@ -327,7 +368,7 @@ TEXTE = {
             "lede": "Gassi-Kompass réunit les règles pour les chiens en Suisse en un seul endroit : par canton et par commune, avec la source officielle de chaque indication.",
             "teile": [
                 ("D'où viennent les indications", "Toutes les indications proviennent de sources officielles : informations de la Confédération, lois et ordonnances des cantons, aide-mémoire des services vétérinaires, sites et données ouvertes des communes. Lorsqu'une décision politique n'est documentée que dans les médias, la source le précise."),
-                ("Dans quelle langue", "Chaque canton paraît dans ses langues officielles. Les pages en français sont rédigées à partir des sources officielles en français, ce ne sont pas des traductions. Les cantons alémaniques et les règles fédérales n'existent ici qu'en allemand."),
+                ("Dans quelle langue", "Chaque page est rédigée à partir des sources officielles dans une langue officielle du lieu. Dans les autres langues, la page est une traduction. C'est indiqué en haut de la page, avec un lien vers la version originale. Les noms des sources restent dans la langue d'origine. Les traductions sont elles aussi réalisées de manière automatisée avec l'aide de l'IA, et chaque chiffre est comparé à la version originale."),
                 ("Comment fonctionne la recherche", "La recherche connaît toutes les communes, localités et codes postaux de Suisse et les rattache au canton. Elle vous montre la page la plus précise qui existe déjà pour votre lieu : la commune, sinon le canton, sinon les règles fédérales. Elle s'appuie sur le {swisstopo}Répertoire officiel des localités</a>. Source : Office fédéral de topographie swisstopo."),
                 ("Comment les indications sont vérifiées", "Les indications sont réunies de manière automatisée avec l'aide de l'IA et comparées régulièrement aux sources. Chaque page indique la date de la dernière vérification. Une commune n'obtient sa propre page que si au moins trois indications locales sont attestées par une source officielle."),
                 ("Signaler une erreur", "Une indication n'est plus exacte ou il manque quelque chose ? Écrivez à {mail}. Indiquez le lieu et, si vous l'avez, la source officielle."),
@@ -341,6 +382,10 @@ TEXTE = {
     "it": {
         "name": "Italiano",
         "sprache": {"de": "in tedesco", "fr": "in francese", "it": "in italiano"},
+        "ueb": {"de": "Traduzione dal tedesco. Le fonti ufficiali sono in tedesco.",
+                "fr": "Traduzione dal francese. Le fonti ufficiali sono in francese."},
+        "ueb_link": {"de": "Versione originale in tedesco", "fr": "Versione originale in francese"},
+        "ueb_alt": "La versione originale è stata modificata nel frattempo ed è più recente di questa traduzione.",
         "monate": ["gennaio", "febbraio", "marzo", "aprile", "maggio", "giugno", "luglio", "agosto",
                    "settembre", "ottobre", "novembre", "dicembre"],
         "mon3": ["gen", "feb", "mar", "apr", "mag", "giu", "lug", "ago", "set", "ott", "nov", "dic"],
@@ -428,7 +473,7 @@ TEXTE = {
             "lede": "Gassi-Kompass raccoglie in un unico posto le regole per i cani in Svizzera: per Cantone e per Comune, con la fonte ufficiale per ogni indicazione.",
             "teile": [
                 ("Da dove vengono le indicazioni", "Tutte le indicazioni provengono da fonti ufficiali: informazioni della Confederazione, leggi e ordinanze dei Cantoni, promemoria dei servizi veterinari, siti e dati aperti dei Comuni. Se una decisione politica è documentata solo dai media, la fonte lo indica."),
-                ("In quale lingua", "Ogni Cantone compare nelle sue lingue ufficiali. Le pagine in italiano sono redatte a partire dalle fonti ufficiali in italiano e non sono traduzioni. I Cantoni di lingua tedesca e le regole federali esistono qui solo in tedesco."),
+                ("In quale lingua", "Ogni pagina è redatta a partire dalle fonti ufficiali in una lingua ufficiale del luogo. Nelle altre lingue la pagina è una traduzione. È indicato in cima alla pagina, con un link alla versione originale. I nomi delle fonti restano nella lingua d'origine. Anche le traduzioni sono realizzate in modo automatizzato con il supporto dell'IA, e ogni cifra viene confrontata con la versione originale."),
                 ("Come funziona la ricerca", "La ricerca conosce tutti i Comuni, le località e i numeri postali di avviamento della Svizzera e li attribuisce al Cantone. Ti mostra la pagina più precisa che esiste già per il tuo luogo: il Comune, altrimenti il Cantone, altrimenti le regole federali. Si basa sull'{swisstopo}Elenco ufficiale delle località</a>. Fonte: Ufficio federale di topografia swisstopo."),
                 ("Come si verifica", "Le indicazioni sono raccolte in modo automatizzato con il supporto dell'IA e confrontate regolarmente con le fonti. Su ogni pagina trovi la data dell'ultima verifica. Un Comune riceve una pagina propria solo se almeno tre indicazioni locali sono attestate da una fonte ufficiale."),
                 ("Segnalare un errore", "Un'indicazione non è più corretta o manca qualcosa? Scrivi a {mail}. Indica il luogo e, se l'hai, la fonte ufficiale."),
@@ -476,6 +521,69 @@ def datenordner(lang):
     return DATA if lang == "de" else DATA / PRAEFIX[lang].strip("/")
 
 
+def pruefsumme(d):
+    """Prüfsumme über den Inhalt einer Datei, ohne das Prüfdatum. Eine Übersetzung trägt im Feld
+    'original' die Prüfsumme ihrer Originalfassung. Ändert sich die Originalfassung, gilt die
+    Übersetzung als veraltet."""
+    kern = {k: v for k, v in d.items() if not k.startswith("_") and k != "geprueft"}
+    text = json.dumps(kern, ensure_ascii=False, sort_keys=True, separators=(",", ":"))
+    return hashlib.sha256(text.encode("utf-8")).hexdigest()[:12]
+
+
+def schluessel(art, d):
+    """Woran man dieselbe Seite in einer anderen Sprache erkennt. art: 'k' Kanton, 'g' Gemeinde."""
+    return d.get("id") if art == "k" else (d.get("kanton"), d.get("id"))
+
+
+def verbinde(welt):
+    """Verbindet jede Übersetzung mit ihrer Originalfassung ('_original'). Die Übersetzung übernimmt
+    das Prüfdatum der Originalfassung und, bei Kantonen, die Namensformen aus kantonsformen().
+    '_veraltet' ist gesetzt, wenn sich die Originalfassung seit der Übersetzung geändert hat."""
+    for art in ("k", "g"):
+        originale = {l: {schluessel(art, d): d for d in welt[l][art] if "uebersetzt_aus" not in d}
+                     for l in SPRACHEN}
+        for lang in SPRACHEN:
+            for d in welt[lang][art]:
+                if "uebersetzt_aus" not in d:
+                    continue
+                if art == "k" and d.get("id") in KANTONSNAMEN[lang]:
+                    d.update(kantonsformen(lang, d["id"]))
+                aus = d["uebersetzt_aus"]
+                o = originale[aus].get(schluessel(art, d)) if isinstance(aus, str) and aus in originale else None
+                d["_original"] = o
+                if o:
+                    d["geprueft"] = o.get("geprueft")
+                    d["_veraltet"] = d.get("original") != pruefsumme(o)
+
+
+def fehlende(welt):
+    """Fehlende und veraltete Übersetzungen als Liste von
+    (Stand, Art, Zielsprache, Zieldatei, Sprache der Originalfassung, Originaldatei, Prüfsumme).
+    Veraltete zuerst, Kantone vor Gemeinden, grosse Kantone zuerst."""
+    rang = {kid: i for i, kid in enumerate(KANTONE_GROESSE)}
+    zeilen = []
+    for art in ("k", "g"):
+        da = {}
+        for l in SPRACHEN:
+            for d in welt[l][art]:
+                da.setdefault(schluessel(art, d), {})[l] = d
+        for key in sorted(da, key=lambda x: (rang.get(x if art == "k" else x[0], 99), str(x))):
+            fassungen = da[key]
+            orig = [l for l in SPRACHEN if l in fassungen and "uebersetzt_aus" not in fassungen[l]]
+            if not orig:
+                continue
+            o = fassungen[orig[0]]
+            rel = (ROOT / o["_datei"]).relative_to(datenordner(orig[0]))
+            for l in SPRACHEN:
+                ziel = str((datenordner(l) / rel).relative_to(ROOT))
+                if l not in fassungen:
+                    zeilen.append(("fehlt", art, l, ziel, orig[0], o["_datei"], pruefsumme(o)))
+                elif fassungen[l].get("_veraltet"):
+                    zeilen.append(("veraltet", art, l, ziel, orig[0], o["_datei"], pruefsumme(o)))
+    zeilen.sort(key=lambda z: (z[0] != "veraltet", z[1] != "k"))
+    return zeilen
+
+
 def lade():
     quellen = json.loads((DATA / "quellen.json").read_text("utf-8"))
     # Parallel-Läufe legen ihre Quellen in eigene Dateien, damit sich zwei Läufe nie dieselbe Datei teilen.
@@ -501,15 +609,87 @@ def lade():
         ordner = datenordner(lang)
         kantone = [lies(p) for p in sorted((ordner / "kantone").glob("*.json"))]
         gemeinden = [lies(p) for p in sorted((ordner / "gemeinden").glob("*/*.json"))]
-        kantone.sort(key=lambda k: k.get("name", ""))
-        gemeinden.sort(key=lambda g: g.get("ort", ""))
         welt[lang] = {"k": kantone, "g": gemeinden}
+    verbinde(welt)
+    for lang in SPRACHEN:  # alphabetisch nach dem Namen in der Sprache der Seite, ohne Akzente
+        welt[lang]["k"].sort(key=lambda k: ohne_akzent(KANTONSNAMEN[lang].get(k.get("id"), str(k.get("name", "")))))
+        welt[lang]["g"].sort(key=lambda g: ohne_akzent(str(g.get("ort", ""))))
     bund = lies(DATA / "schweiz.json")
     orte = json.loads((DATA / "orte.json").read_text("utf-8"))
     return quellen, welt, bund, orte
 
 
 # ------------------------------------------------------------------- Prüfung
+
+def ziffern(text):
+    """Alle Zahlen eines Textes, sortiert. 20'000, 20 000 und 20000 gelten als dieselbe Zahl."""
+    return sorted(int(z) for z in re.findall(r"\d+", TAUSENDER.sub("", text)))
+
+
+def pruefe_uebersetzung(d, art, lang, welt, fehler):
+    """Eine Übersetzung muss denselben Aufbau, dieselben Quellen und in jedem Text dieselben Zahlen
+    haben wie ihre Originalfassung. Eine veraltete Übersetzung (Prüfsumme stimmt nicht mehr) wird
+    nicht verglichen: Sie bekommt auf der Seite den Hinweis und steht in der Liste --fehlend."""
+    wo, aus = d["_datei"], d["uebersetzt_aus"]
+    andere = [l for l in SPRACHEN if l != lang]
+    if aus not in andere:
+        fehler.append(f"{wo}: 'uebersetzt_aus' nennt die Sprache der Originalfassung ({' oder '.join(andere)})")
+        return
+    key = schluessel(art, d)
+    originale = [l for l in SPRACHEN
+                 if any(schluessel(art, x) == key and "uebersetzt_aus" not in x for x in welt[l][art])]
+    o = d.get("_original")
+    if not o:
+        fehler.append(f"{wo}: keine Originalfassung in der Sprache '{aus}' gefunden")
+        return
+    if originale[0] != aus:
+        fehler.append(f"{wo}: übersetzt wird aus der Originalfassung '{originale[0]}', nicht aus '{aus}'")
+    if not isinstance(d.get("original"), str):
+        fehler.append(f"{wo}: Feld 'original' fehlt. Die Prüfsumme nennt: python3 build.py --pruefsumme {o['_datei']}")
+        return
+    if d.get("_veraltet"):
+        return
+    ohne = {"uebersetzt_aus", "original", "geprueft"} | ({"name", "im", "des"} if art == "k" else set())
+
+    def felder(x):
+        return {k for k in x if not k.startswith("_") and k not in ohne}
+
+    def gleich_wie(a, pfad):
+        fehler.append(f"{wo}, {pfad}: muss gleich sein wie in der Originalfassung: {json.dumps(a, ensure_ascii=False)}")
+
+    def vergleiche(a, b, pfad):
+        if isinstance(a, dict) and isinstance(b, dict):
+            fehlt, zuviel = felder(a) - felder(b), felder(b) - felder(a)
+            if fehlt:
+                fehler.append(f"{wo}, {pfad or 'Datei'}: Felder der Originalfassung fehlen: {', '.join(sorted(fehlt))}")
+            if zuviel:
+                fehler.append(f"{wo}, {pfad or 'Datei'}: Felder, die die Originalfassung nicht hat: {', '.join(sorted(zuviel))}")
+            for k in sorted(felder(a) & felder(b)):
+                unter = f"{pfad}.{k}" if pfad else k
+                if k in GLEICH or k.endswith("quellen"):
+                    if a[k] != b[k] or type(a[k]) is not type(b[k]):
+                        gleich_wie(a[k], unter)
+                else:
+                    vergleiche(a[k], b[k], unter)
+        elif isinstance(a, list) and isinstance(b, list):
+            if len(a) != len(b):
+                fehler.append(f"{wo}, {pfad}: {len(b)} Einträge, die Originalfassung hat {len(a)}")
+            else:
+                for i, (x, y) in enumerate(zip(a, b)):
+                    vergleiche(x, y, f"{pfad}[{i + 1}]")
+        elif isinstance(a, str) and isinstance(b, str):
+            if ziffern(a) != ziffern(b):
+                fehler.append(f"{wo}, {pfad}: Zahlen weichen ab. Originalfassung {ziffern(a)}: «{a[:90]}». "
+                              f"Übersetzung {ziffern(b)}: «{b[:90]}»")
+            elif a.strip() and not b.strip():
+                fehler.append(f"{wo}, {pfad}: Text fehlt")
+            elif a == b and pfad.rsplit(".", 1)[-1] == "text" and len(a) >= 40:
+                fehler.append(f"{wo}, {pfad}: Text ist nicht übersetzt")
+        elif a != b or type(a) is not type(b):
+            gleich_wie(a, pfad)
+
+    vergleiche(o, d, "")
+
 
 def pruefe(quellen, welt, bund, orte):
     fehler = list(LADEFEHLER)
@@ -639,6 +819,11 @@ def pruefe(quellen, welt, bund, orte):
             if len(zonen) + len(g["karten"]) < MIN_LOKAL:
                 fehler.append(f"{wo}: weniger als {MIN_LOKAL} belegte lokale Angaben. "
                               "Für diese Gemeinde keine eigene Seite anlegen.")
+    for lang in SPRACHEN:
+        for art in ("k", "g"):
+            for d in welt[lang][art]:
+                if "uebersetzt_aus" in d:
+                    pruefe_uebersetzung(d, art, lang, welt, fehler)
     wo = bund["_datei"]
     if "geprueft" not in bund or not bund.get("karten"):
         fehler.append(f"{wo}: 'geprueft' und 'karten' sind Pflicht")
@@ -828,6 +1013,17 @@ def lokal(g, Q, benutzt):
     return (f'<section class="sec"><div class="sec-head"><span class="eyebrow">{e(g["name"])}</span>'
             f'<h2>{e(S["lokal_h2"].format(in_ort=g["in_ort"]))}</h2>{intro}</div>{zonen}'
             f'<div class="cards">{karten}</div></section>')
+
+
+def hinweis_uebersetzung(d, art):
+    """Hinweis unter dem Titel einer übersetzten Seite, mit Link zur Originalfassung. art: 'k' oder 'g'."""
+    aus = d.get("uebersetzt_aus")
+    if not aus:
+        return ""
+    ziel = k_pfad(aus, d["id"]) if art == "k" else g_pfad(aus, d)
+    alt = f' <strong>{S["ueb_alt"]}</strong>' if d.get("_veraltet") else ""
+    return (f'<p class="transl" data-uebersetzung>{S["ueb"][aus]}{alt} '
+            f'<a href="{ziel}" hreflang="{HTMLLANG[aus]}">{S["ueb_link"][aus]}</a></p>')
 
 
 def tafel(href, name, unter, aktiv=False, klasse=""):
@@ -1126,6 +1322,7 @@ def seite_kanton(k, Q):
     inhalt = f"""<section class="hero"><!--KRUMEN-->
 <h1>{e(S["kt_h1"].format(**f))}</h1>
 <p class="lede">{e(S["kt_lede"].format(**f))}</p>
+{hinweis_uebersetzung(k, "k")}
 <p class="callout" data-ort-hinweis data-text="{e(S["kt_hinweis"].format(**f))}" hidden></p>
 </section>
 {wald(k, Q, benutzt)}
@@ -1153,6 +1350,7 @@ def seite_gemeinde(g, k, Q):
     inhalt = f"""<section class="hero"><!--KRUMEN-->
 <h1>{e(S["gm_h1"].format(**f))}</h1>
 <p class="lede">{e(S["gm_lede"].format(**f))}</p>
+{hinweis_uebersetzung(g, "g")}
 </section>
 {wald(k, Q, benutzt, g.get("hinweis_heute"))}
 {lokal(g, Q, benutzt)}
@@ -1329,6 +1527,13 @@ def baue(Q, bund, orte):
 
 
 def main():
+    if "--pruefsumme" in sys.argv:
+        dateien = [a for a in sys.argv[1:] if not a.startswith("--")]
+        for a in dateien:
+            print(pruefsumme(json.loads(Path(a).read_text("utf-8"))), a)
+        if not dateien:
+            print("Aufruf: python3 build.py --pruefsumme data/kantone/zh.json")
+        return 0 if dateien else 1
     quellen, welt, bund, orte = lade()
     fehler = pruefe(quellen, welt, bund, orte)
     if fehler:
@@ -1359,9 +1564,25 @@ def main():
     # Ein Kanton oder eine Gemeinde zählt einmal, auch mit Seiten in zwei Sprachen.
     kantone = len(erfasste())
     gemeinden = len({g["bfs"] for l in SPRACHEN for g in welt[l]["g"]})
-    je = ", ".join(f'{l}: {len(welt[l]["k"])} Kantone und {len(welt[l]["g"])} Gemeinden' for l in SPRACHEN)
+
+    def je_sprache(l):
+        k, g = welt[l]["k"], welt[l]["g"]
+        uk, ug = (sum(1 for d in x if "uebersetzt_aus" in d) for x in (k, g))
+        return (f"{l}: {len(k)} Kantone und {len(g)} Gemeinden"
+                + (f", davon {uk} und {ug} übersetzt" if uk or ug else ""))
+
+    je = "; ".join(je_sprache(l) for l in SPRACHEN)
+    offen = fehlende(welt)
+    veraltet = sum(1 for z in offen if z[0] == "veraltet")
+    if "--fehlend" in sys.argv:
+        for stand, _, l, ziel, aus, original, summe in offen:
+            print(f"{stand:<9}{l}  {ziel}  aus {aus}: {original}  Prüfsumme {summe}")
+        print(f"{len(offen) - veraltet} Übersetzungen fehlen, {veraltet} sind veraltet." if offen
+              else "Alle Übersetzungen sind da und aktuell.")
+        return 0
     if "--check" in sys.argv:
-        print(f"Daten in Ordnung: {kantone} Kantone, {gemeinden} Gemeinden, {len(quellen)} Quellen ({je}).")
+        print(f"Daten in Ordnung: {kantone} Kantone, {gemeinden} Gemeinden, {len(quellen)} Quellen ({je}). "
+              f"Übersetzungen: {len(offen) - veraltet} fehlen, {veraltet} veraltet.")
         return 0
     anzahl = baue(quellen, bund, orte)
     print(f"Gebaut: {anzahl} Seiten ({kantone} Kantone, {gemeinden} Gemeinden, {len(quellen)} Quellen; {je}). "
@@ -1370,4 +1591,9 @@ def main():
 
 
 if __name__ == "__main__":
+    try:  # «python3 build.py --fehlend | head» soll ohne Fehlermeldung enden
+        import signal
+        signal.signal(signal.SIGPIPE, signal.SIG_DFL)
+    except (ImportError, AttributeError, ValueError):
+        pass
     sys.exit(main())

@@ -1,0 +1,38 @@
+{
+  "id": "zuerich",
+  "kanton": "zh",
+  "bfs": 261,
+  "uebersetzt_aus": "de",
+  "original": "1370ab5b4e6d",
+  "name": "Ville de Zurich",
+  "ort": "Zurich",
+  "in_ort": "à Zurich",
+  "hinweis_heute": "En ville de Zurich, la laisse est en outre obligatoire dans la plupart des lieux, au moins pendant la journée. La signalisation sur place fait foi.",
+  "einleitung": "La Ville fixe par décision où les chiens peuvent courir en liberté, où la laisse est nécessaire et où les chiens sont interdits.",
+  "karten": [
+    {
+      "titel": "Laisse",
+      "wert": "le plus souvent obligatoire, au moins de jour",
+      "text": "Dans la plupart des lieux de la ville, la laisse est obligatoire au moins pendant la journée. Observez la signalisation sur place.",
+      "quellen": [
+        "zh_stadt"
+      ]
+    },
+    {
+      "titel": "Zones",
+      "wert": "plan contraignant de la Ville",
+      "text": "Les espaces de liberté, les zones où la laisse est obligatoire et les zones interdites figurent dans le jeu de données municipal «Hundezonen», état au 14.07.2026.",
+      "quellen": [
+        "zh_zonen"
+      ]
+    },
+    {
+      "titel": "Annonce et impôt",
+      "wert": "Stadtpolizei Zürich (police municipale)",
+      "text": "La Stadtpolizei est compétente pour l'annonce obligatoire de l'arrivée et du départ du chien ainsi que pour l'impôt sur les chiens.",
+      "quellen": [
+        "zh_stadt"
+      ]
+    }
+  ]
+}
