@@ -31,6 +31,7 @@ Claude führt das Projekt wie einen Betrieb: Inhalt, Technik, Qualität und Stra
 | `build.py` | Prüft die Daten und erzeugt alle Seiten in allen Sprachen. Alle festen Texte stehen in der Tabelle `TEXTE` je Sprache (`de`, `fr`, `it`). Die Themenseiten stehen in der Liste `THEMEN` und in der Funktion `seite_thema()`, ihre Texte je Sprache in `TEXTE` unter `themen` und `thema`. |
 | `assets/` | Stylesheet, Skripte (`heute.js` für den Wald-Status, `suche.js` für die Ortssuche), Schriften, Icon. Die Skripte kennen keine Sprache, ihre Texte kommen als data-Attribute aus `build.py`. |
 | `tests/seiten.js` | Browser-Test der gebauten Seiten |
+| `tools/links.py`, `.github/workflows/quellen.yml` | Link-Prüfung: fragt jede Adresse aus den Quellendateien mit einem echten Abruf ab. Siehe «Link-Prüfung». |
 | `BACKLOG.md` | Was als Nächstes dran ist |
 | `CHANGELOG.md` | Protokoll jedes Laufs |
 | `CNAME`, `.nojekyll` | Domain und Schalter für GitHub Pages. Nie löschen oder ändern. |
@@ -97,18 +98,19 @@ Daneben kann eine Kette laufen, siehe «Kette» weiter unten.
 
 Obergrenzen pro Lauf: höchstens **4 Dateien nachprüfen**, dazu entweder **1 neuer Kanton samt einer Gemeinde** oder **4 neue Gemeinden**, dazu höchstens **12 Übersetzungen**. Ein Sonderlauf (siehe «Umbauten am Generator») macht nur den Umbau und sonst nichts.
 
-1. **Start.** Repository klonen oder aktualisieren. `python3 build.py --check` muss fehlerfrei sein. `BACKLOG.md` und die letzten zwei Einträge in `CHANGELOG.md` lesen. Danach einsammeln, was Parallel-Läufe geliefert haben (siehe «Parallel-Läufe»). Das gehört zu jedem Lauf, auch zum Sonderlauf.
+1. **Start.** Repository klonen oder aktualisieren. `python3 build.py --check` muss fehlerfrei sein. `BACKLOG.md` und die letzten zwei Einträge in `CHANGELOG.md` lesen. Danach einsammeln, was Parallel-Läufe geliefert haben (siehe «Parallel-Läufe»). Das gehört zu jedem Lauf, auch zum Sonderlauf. Ausser im Sonderlauf gleich danach die Link-Prüfung auslösen (siehe «Link-Prüfung»).
 2. **Nachprüfen.** Die Dateien in `data/kantone/` und `data/gemeinden/`, ihre französischen und italienischen Fassungen unter `data/fr-ch/` und `data/it-ch/` sowie die drei Fassungen von `schweiz.json` mit dem ältesten `geprueft` nehmen. Übersetzungen werden nicht nachgeprüft, siehe «Alle Sprachen überall». Jede Fassung wird mit den Quellen in ihrer Sprache abgeglichen. Ist nichts älter als 60 Tage, diesen Schritt überspringen. Für jede Datei jede Quelle abrufen und jede Angabe vergleichen.
    - Stimmt alles: `geprueft` auf das heutige Datum setzen.
    - Hat sich etwas geändert: Angabe und wenn nötig `vergleich` anpassen, im Protokoll mit alt und neu festhalten, `geprueft` setzen.
    - Quelle nicht erreichbar: nichts ändern, `geprueft` nicht anfassen, im Protokoll notieren. Ist dieselbe Quelle laut Protokoll zum dritten Mal nicht erreichbar, eine andere amtliche Quelle suchen.
+   - **Tote Links zuerst.** Vor den ältesten Dateien kommen die Quellen dran, die die Link-Prüfung als «TOT» oder «VERDACHT» meldet oder die in `BACKLOG.md` unter «Tote Links» stehen. Höchstens vier pro Lauf, jede zählt als eine der vier Dateien. Das gilt auch, wenn keine Datei älter als 60 Tage ist. Vorgehen unter «Link-Prüfung».
 3. **Ausbauen.** Was in diesem Lauf dran ist, steht oben in `BACKLOG.md` unter «Reihenfolge».
    - Neue Gemeinde: auf der Website der Gemeinde und im kantonalen Recht nach Betrag der Hundetaxe, lokalen Orten mit Leinenpflicht oder Hundeverbot, Freilaufzonen, Anmeldestelle und Bussen suchen. Unter drei belegten Angaben keine Datei anlegen. Den Eintrag im Backlog mit Datum und Grund als «zurückgestellt» markieren.
    - Neuer Kanton: alle Felder der Kantonsdatei belegen (Gesetz, Verordnung, Veterinärdienst). Liegt unter `data/entwurf/` schon ein angefangener Stand, dort weitermachen. Fehlt nach zwei Suchversuchen noch ein Feld: den Stand als `data/entwurf/<kt>.json` sichern, im Backlog notieren, was fehlt, und den Kanton nicht veröffentlichen. Ist die Datei vollständig: nach `data/kantone/` legen, die grösste Gemeinde oder den Hauptort als Gemeinde anlegen und drei bis fünf weitere Gemeinden des Kantons in Abschnitt 3 des Backlogs eintragen.
    - Übersetzungen nachführen: siehe «Alle Sprachen überall», Teil «Im Lauf».
 4. **Bauen und testen.** `python3 build.py`, dann `node tests/seiten.js`. Beides muss fehlerfrei sein. Wenn nicht: Fehler beheben oder die Änderung dieses Laufs zurücknehmen. **Nie mit Fehlern pushen.** Der Test bricht ab, wenn eine veröffentlichte Adresse verschwindet. Fällt eine Gemeinde beim Nachprüfen unter drei belegte Angaben, darf ihre Seite verschwinden: dann `node tests/seiten.js --entfernen-erlaubt` und die Adresse im Bericht nennen.
 5. **Protokoll.** `BACKLOG.md` nachführen. Oben in `CHANGELOG.md` einen Eintrag mit Datum ergänzen: nachgeprüft, geändert, neu, nicht gelungen.
-6. **Veröffentlichen.** Ein Commit auf `main` mit klarer Betreffzeile, dann Push. Etwa eine Minute später muss `gh run list -R Josidos/gassi-kompass --limit 1` für den neuen Commit `completed success` zeigen. Steht dort ein Fehler, kommt er zuoberst in den Bericht. Lehnt GitHub den Push ab, weil sich `main` inzwischen geändert hat: `git pull --rebase origin main`. Konflikte in erzeugten Dateien nie von Hand lösen, sondern mit `python3 build.py` neu erzeugen, dann testen und pushen.
+6. **Veröffentlichen.** Ein Commit auf `main` mit klarer Betreffzeile, dann Push. Etwa eine Minute später muss `gh run list -R Josidos/gassi-kompass --workflow pages-build-deployment --limit 1` für den neuen Commit `completed success` zeigen. Steht dort ein Fehler, kommt er zuoberst in den Bericht. Lehnt GitHub den Push ab, weil sich `main` inzwischen geändert hat: `git pull --rebase origin main`. Konflikte in erzeugten Dateien nie von Hand lösen, sondern mit `python3 build.py` neu erzeugen, dann testen und pushen.
 7. **Bericht.** Kurz auf Deutsch: was nachgeprüft wurde, was sich geändert hat, welche Seiten neu sind, was nicht ging. Nur wenn etwas fällig ist: was Joss selbst tun muss.
 
 ### Kette
@@ -130,8 +132,20 @@ Ein Glied arbeitet so:
    ```
 
    Lehnt GitHub den Push ab: `git reset --hard HEAD~1` (nur den Commit mit den Seiten verwerfen), dann die letzten zwei Zeilen wiederholen, höchstens fünfmal. Meldet der Bau nach dem Pull einen Fehler in einer eigenen Datei: beheben, als weiteren Daten-Commit festhalten, wiederholen. Ein Konflikt in `BACKLOG.md` oder `CHANGELOG.md`: beide Fassungen behalten.
-5. **Weitergeben.** Das nächste Glied auslösen: genau ein Aufruf des Werkzeugs `fire_trigger` mit der Aufgabe aus dem Auftrag des Laufs und dem Text «Glied N+1». Nicht auslösen, wenn N die Höchstzahl erreicht hat, das Programm erledigt ist, die Schluss-Zeit vorbei ist, der Push nicht gelungen ist, Build oder Test am Schluss Fehler hatten, `gh run list -R Josidos/gassi-kompass --limit 3` beim neuesten abgeschlossenen Lauf «failure» zeigt, oder schon das Glied davor denselben Schritt versucht hat, ohne etwas zu veröffentlichen.
+5. **Weitergeben.** Das nächste Glied auslösen: genau ein Aufruf des Werkzeugs `fire_trigger` mit der Aufgabe aus dem Auftrag des Laufs und dem Text «Glied N+1». Nicht auslösen, wenn N die Höchstzahl erreicht hat, das Programm erledigt ist, die Schluss-Zeit vorbei ist, der Push nicht gelungen ist, Build oder Test am Schluss Fehler hatten, `gh run list -R Josidos/gassi-kompass --workflow pages-build-deployment --limit 3` beim neuesten abgeschlossenen Lauf «failure» zeigt, oder schon das Glied davor denselben Schritt versucht hat, ohne etwas zu veröffentlichen.
 6. **Ende.** Ist das Programm erledigt, trägt das letzte Glied in `BACKLOG.md` unter «Kette» wieder «keine Kette» ein und nennt im Bericht den Stand.
+
+### Link-Prüfung
+
+WebFetch beweist nicht, dass ein Link funktioniert: Am 18. November 2026 lieferte es das Merkblatt des Veterinäramts Thurgau noch aus, während die Adresse im Browser «Error 404» zeigte. Gemeldet hat es das Amt. Darum fragt eine GitHub Action jede Adresse aus den Quellendateien mit einem echten Abruf ab (`tools/links.py`, `.github/workflows/quellen.yml`). Sie startet nur auf Befehl und wird nie rot.
+
+- Auslösen, gleich nach dem Start des Laufs: `gh workflow run quellen.yml -R Josidos/gassi-kompass`. Sie braucht etwa drei Minuten. Lesen in Schritt 2: `gh run list -R Josidos/gassi-kompass --workflow quellen.yml --limit 1` nennt die Nummer und muss `completed` zeigen, dann `gh run view <Nummer> -R Josidos/gassi-kompass --log | grep -E "TOT|VERDACHT|UNKLAR|Geprüft:"`.
+- «TOT» (Antwort 404 oder 410) und «VERDACHT» (statt des PDF kommt eine Webseite, die Adresse führt auf die Startseite, oder die Seite nennt sich selbst Fehlerseite): Die Quelle gilt als nicht erreichbar und wird im selben Lauf ersetzt. Die heutige Adresse desselben Dokuments auf der Website des Amts suchen (WebSearch, dann den Treffer abrufen), jede Angabe vergleichen, die sich auf die Quelle stützt, dann `url` und `lang` in der Quellendatei anpassen. Hat sich der Inhalt geändert, gilt Schritt 2 wie bei jeder Nachprüfung. Gibt es das Dokument nicht mehr, eine andere amtliche Quelle suchen. Findet sich keine, die Angabe weglassen.
+- Offene Fälle stehen in `BACKLOG.md`, Abschnitt 4, unter «Tote Links». Neue trägt der Lauf dort ein, ersetzte hakt er ab. Höchstens vier pro Lauf, die übrigen bleiben für den nächsten Lauf stehen.
+- Findet die Suche nur die alte Adresse: nichts ändern, den Eintrag stehen lassen und im Protokoll festhalten. Nach dem dritten Lauf ohne Ersatz kommt die Quelle in den Bericht, damit Joss die Adresse im Browser anklickt.
+- «UNKLAR» (403, Zeitüberschreitung): nur ins Protokoll. Viele Ämter weisen Abrufe von Programmen oder aus dem Ausland ab, der Link kann für Leserinnen und Leser trotzdem funktionieren. Steht dieselbe Quelle in drei Läufen hintereinander als «UNKLAR» im Protokoll, kommt sie in den Bericht.
+- Lässt sich die Action nicht auslösen oder ist sie nach sechs Minuten nicht fertig: überspringen und im Protokoll festhalten. Ersetzte Adressen prüft der nächste Lauf.
+- Vor jedem Anschreiben an ein Amt läuft die Link-Prüfung. Die Seite des Kantons darf dann keine Quelle mit «TOT» oder «VERDACHT» haben.
 
 ### Hinweise zur Recherche
 
@@ -139,6 +153,8 @@ Ein Glied arbeitet so:
 - Gute Einstiege: Veterinärdienst des Kantons, kantonale Gesetzessammlung (oft `<kt>.lexwork.naz.ch` oder lexfind.ch), Website der Gemeinde unter «Hunde», «Hundetaxe», «Gebührentarif» oder «Polizeireglement», opendata.swiss für Hundezonen.
 - Neue Quelle: Eintrag in `data/quellen.json` mit sprechendem Schlüssel (`<kt>_<stichwort>`), Kurzname, Langname mit Stand, URL.
 - Die Seite gassi-kompass.ch selbst muss im Lauf nicht abgerufen werden. Der lokale Test genügt.
+- Ein gelungener Abruf mit WebFetch heisst nicht, dass die Adresse im Browser funktioniert. Das zeigt nur die Link-Prüfung.
+- Adressen mit einer Dateinummer oder einem Download-Pfad (`/public/upload/assets/<Nummer>/…`, `…/download`) sterben oft, wenn das Amt die Datei ersetzt. Gibt es eine Seite des Amts, die das Dokument verlinkt und dieselben Angaben trägt, ist sie die bessere Quelle.
 
 ## Parallel-Läufe
 
@@ -269,6 +285,7 @@ Diese Schritte verlangen sein Konto, sein Geld oder seine Entscheidung. Nie selb
 ### Schon erledigt
 
 - 2026-11-17: «Enforce HTTPS» in den GitHub-Pages-Einstellungen eingeschaltet
+- 2026-11-18: erste Runde Anschreiben verschickt, von Joss über kontakt@gassi-kompass.ch: Veterinärdienste SO, TG, BL, JU, TI. Antwort des Veterinäramts Thurgau am selben Tag, eingearbeitet. Die Entwürfe und der Stand stehen im Dokument «Anschreiben an die Veterinärdienste» von Joss, nicht im Repository.
 - 2026-11-17: Google Search Console eingerichtet. Property `https://gassi-kompass.ch/`, bestätigt über die Datei `google49e2be530ce3822a.html`. Sitemap eingereicht, Google hat 8 Seiten erkannt. Neue Seiten findet Google über die Sitemap von selbst.
 
 ## Strategie
@@ -365,6 +382,8 @@ Was der Lauf für die Verbreitung tut:
 - Im Bericht melden, wenn ein Meilenstein erreicht ist: 10 Kantone, alle deutschsprachigen Kantone, alle 26 Kantone.
 
 Anschreiben verschickt Claude nur in einer Sitzung mit Joss und nur nach seinem Ja zu Empfängern und Wortlaut. Sinnvolle Empfänger in dieser Reihenfolge: kantonale Veterinärdienste mit der Bitte, die Zusammenfassung ihres Kantons zu prüfen. Hundeschulen, Hundevereine und Tierheime im Kanton. Lokalmedien, mit dem Vergleich der Hundesteuern als Aufhänger. Keine Massenmails.
+
+Erfahrung aus der ersten Runde vom 18. November 2026: Vor dem Anschreiben klären, welche Stelle im Kanton zuständig ist. Im Thurgau haben die Politischen Gemeinden den Vollzug, das Veterinäramt erteilt nur die Bewilligungen für potenziell gefährliche Hunde und verwies an den Verband Thurgauer Gemeinden. Und vorher die Link-Prüfung laufen lassen: Das erste Amt, das antwortete, meldete einen toten Link.
 
 ## Abbruchkriterium
 

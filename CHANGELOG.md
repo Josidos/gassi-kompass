@@ -2,6 +2,14 @@
 
 Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen.
 
+## 2026-11-18, Sitzung mit Joss: Link-Prüfung aller Quellen
+
+- Neu: `tools/links.py` und die GitHub Action «Quellen-Links prüfen» (`.github/workflows/quellen.yml`). Sie fragt jede Adresse aus den Quellendateien mit einem echten Abruf ab und meldet «TOT» (404, 410), «VERDACHT» und «UNKLAR». Sie startet nur auf Befehl und wird nie rot. Anlass war der tote Link im Thurgau, den WebFetch noch auslieferte.
+- Erster Durchgang am 18. November 2026 um 19:44 Uhr: 264 Quellen, 253 in Ordnung, 6 tot, 1 Verdacht, 4 unklar. Die Liste steht in `BACKLOG.md`, Abschnitt 4, unter «Tote Links». Betroffen sind Appenzell Innerrhoden, Appenzell Ausserrhoden, Bern (französisch), Neuenburg, Zug und Winterthur.
+- Auf den Seiten der fünf angeschriebenen Kantone (SO, TG, BL, JU, TI) ist keine Quelle tot. Bei Basel-Landschaft antwortet `bl_wald` mit 403, das ist unklar.
+- Handbuch: neuer Abschnitt «Link-Prüfung». Der Lauf löst sie nach dem Start aus und ersetzt tote Links zuerst, höchstens vier pro Lauf. Die Kontrolle der Veröffentlichung fragt nur noch nach `pages-build-deployment`, weil `gh run list` sonst auch die Link-Prüfung zeigt.
+- Nicht in dieser Sitzung ersetzt: die 7 Quellen der Liste. Das macht der Lauf.
+
 ## 2026-11-18, Sitzung mit Joss: Rückmeldung des Veterinäramts Thurgau
 
 Joss hat am 18. November 2026 fünf Veterinärdienste gebeten, die Seite ihres Kantons anzusehen (SO, TG, BL, JU, TI). Das Veterinäramt Thurgau hat am selben Tag geantwortet: Den Vollzug der Hundegesetzgebung haben die Politischen Gemeinden, das Amt erteilt nur die Bewilligungen für potenziell gefährliche Hunde. Der Link auf das Merkblatt funktioniere nicht, das Amt nannte die neue Adresse. Zu den übrigen Angaben der Seite hat es sich nicht geäussert.

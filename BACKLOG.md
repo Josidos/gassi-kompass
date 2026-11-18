@@ -11,7 +11,7 @@ Ziel: jede Seite auf Deutsch, Französisch und Italienisch, dazu 60 Gemeinden. F
 3. **Neuer Kanton.** Der oberste offene Kanton aus Abschnitt 1. Dazu seine grösste Gemeinde oder sein Hauptort. Ist Abschnitt 1 erledigt und die Mehrsprachigkeit in Abschnitt 5 abgehakt: der oberste offene Eintrag aus Abschnitt 2.
 4. **Gemeinden.** Ist kein Kanton möglich, bis zu 4 Gemeinden aus Abschnitt 3.
 
-In jedem Lauf ausser den Sonderläufen zusätzlich höchstens eine Lücke aus Abschnitt 4.
+In jedem Lauf ausser den Sonderläufen zusätzlich höchstens eine Lücke aus Abschnitt 4. Die «Toten Links» dort zählen nicht als Lücke: Sie gehören zum Nachprüfen, höchstens vier pro Lauf.
 
 Bleibt ein Kanton nach einem Lauf unvollständig (Entwurf unter `data/entwurf/`), bekommt er in der Liste den Vermerk «zurückgestellt» mit Datum und dem, was fehlt. Der nächste Lauf nimmt den nächsten offenen Kanton. Zurückgestellte Kantone kommen wieder dran, sobald in ihrem Abschnitt kein anderer mehr offen ist. Scheitert ein Kanton dabei ein zweites Mal, bleibt er zurückgestellt, der Bericht meldet ihn zuoberst, und der Abschnitt gilt für die Reihenfolge als erledigt.
 
@@ -219,6 +219,22 @@ Ungefähr nach Grösse. Neue Kantone tragen hier ihre grössten Gemeinden ein.
 
 ## 4. Lücken in bestehenden Seiten
 
+### Tote Links (Link-Prüfung vom 18.11.2026)
+
+Zuerst erledigen, höchstens vier pro Lauf. Vorgehen in `CLAUDE.md` unter «Link-Prüfung». Antwort 404 beim echten Abruf:
+
+- [ ] `ai_vob` (Kanton Appenzell Innerrhoden): `ai.clex.ch/frontend/structured_documents/4200/download_pdf_file_and_annex?locale=de`
+- [ ] `ar_brosch` (Kanton Appenzell Ausserrhoden): Informationsbroschüre zur Hundehaltung, `ar.ch/fileadmin/…/Informationsbroschuere_zur_Hundehaltung_AR_190626.pdf`
+- [ ] `be_oce_fr` (Kanton Bern, französische Fassung): `belex.sites.be.ch/frontend/change_document_file_dictionaries/3016`
+- [ ] `ne_laisse` (Kanton Neuenburg): Flyer «chiens en laisse» 2024 auf ne.ch
+- [ ] `zg_steinhausen_steuer` (Kanton Zug): Merkblatt Hundesteuer 2025 der Gemeinde Steinhausen
+- [ ] `zh_winterthur_merkblatt` (Winterthur): Merkblatt Hundewesen
+- [ ] `ne_scav` (Kanton Neuenburg), Verdacht: Statt des PDF `ReglementCoursChiensRCC.pdf` kommt die Seite «S'occuper d'animaux».
+
+Unklar, nur beobachten (erster Durchgang): `bl_wald` (baselland.ch, Antwort 403), `zh_wetzikon_hundewesen`, `zh_wetzikon_pvo` und `zh_wetzikon_tarif` (wetzikon.ch, Zeitüberschreitung).
+
+### Lücken
+
 - [ ] Stadt Zürich: Betrag der Hundeabgabe belegen und als Karte «Hundeabgabe» ergänzen
 - [ ] Stadt Zürich: Freilaufzonen aus dem städtischen Datensatz «Hundezonen» namentlich aufführen
 - [ ] Stadt Bern: Betrag der Hundetaxe belegen
@@ -365,7 +381,7 @@ Vorgaben in `CLAUDE.md` unter «Umbauten am Generator».
 - [x] Darstellung überarbeiten: Startseite ohne Vergleichstabelle, Gemeindeverzeichnis, Thementafeln, Karten in zwei Spalten (18.11.2026)
 - [x] Übersetzungen im Generator: Kennzeichnung, Prüfsumme, Zahlenvergleich, `--fehlend`. Probe: Kanton und Stadt Zürich auf Französisch und Italienisch (18.11.2026)
 - [x] Bund, Themenseiten und Fehlerseite in drei Sprachen (18.11.2026)
-- [ ] Link-Prüfung: alle Adressen aus den Quellendateien mit einem echten Abruf prüfen (HTTP-Status), nicht mit WebFetch. Anlass: Am 18.11.2026 meldete das Veterinäramt Thurgau einen toten Link (Error 404), den WebFetch noch auslieferte. Der Lauf erkennt tote Links also nicht. Kein Sonderlauf: Claude baut das in einer Sitzung mit Joss.
+- [x] Link-Prüfung: `tools/links.py` und die Action «Quellen-Links prüfen» fragen jede Adresse aus den Quellendateien mit einem echten Abruf ab (18.11.2026). Anlass: Das Veterinäramt Thurgau meldete einen toten Link (Error 404), den WebFetch noch auslieferte. Erster Durchgang: 264 Quellen, 253 in Ordnung, 6 tot, 1 Verdacht, 4 unklar. Die Liste steht in Abschnitt 4.
 
 ## 6. Ideen für später
 
