@@ -1,0 +1,119 @@
+{
+  "id": "fr",
+  "kurz": "FR",
+  "uebersetzt_aus": "de",
+  "original": "fa3bbd700f4b",
+  "wald": {
+    "saison": true,
+    "von": "04-01",
+    "bis": "07-15",
+    "wo": "nel bosco",
+    "quellen": [
+      "fr_wald",
+      "fr_rdch"
+    ]
+  },
+  "leine": {
+    "punkte": [
+      "nel bosco, dal 1° aprile al 15 luglio",
+      "nei biotopi come le zone golenali e le paludi. Lì non lasciare che il tuo cane scorrazzi nelle acque.",
+      "nelle zone con obbligo di guinzaglio stabilite dal tuo Comune. Un Comune non può prescrivere l'obbligo di guinzaglio per tutto il territorio comunale.",
+      "con un cane di tipo pitbull durante un soggiorno temporaneo, in più con la museruola"
+    ],
+    "quellen": [
+      "fr_wald",
+      "fr_hhg"
+    ]
+  },
+  "verbot": {
+    "einleitung": "La legge cantonale non indica essa stessa luoghi vietati ai cani. Lascia questa scelta ai Comuni.",
+    "punkte": [
+      "zone vietate ai cani che il tuo Comune ha stabilito in un regolamento"
+    ],
+    "quellen": [
+      "fr_hhg"
+    ]
+  },
+  "karten": [
+    {
+      "titel": "Responsabilità civile",
+      "marke": "Obbligo",
+      "ton": "must",
+      "wert": "almeno CHF 1 milione",
+      "text": "Ti serve un'assicurazione di responsabilità civile per i danni a persone e cose. La copertura minima è fissata dal Consiglio di Stato: CHF 1 milione per evento.",
+      "quellen": [
+        "fr_hhg",
+        "fr_rdch"
+      ]
+    },
+    {
+      "titel": "Corso",
+      "marke": "Obbligo",
+      "ton": "must",
+      "wert": "teoria e test pratico",
+      "text": "Dal 1° gennaio 2024. Chi non ha mai detenuto un cane o non ne detiene uno da più di 10 anni frequenta, prima di iniziare la detenzione, un corso teorico di almeno 5 ore. Con ogni nuovo cane sostieni, entro 18 mesi dall'acquisizione, un test pratico che valuta se il cane si lascia condurre.",
+      "quellen": [
+        "fr_hhg",
+        "fr_neu"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "marke": "10 giorni",
+      "ton": "note",
+      "wert": "Comune e AMICUS",
+      "text": "Come nuova detentrice o nuovo detentore ti annunci al tuo Comune e ricevi un ID AMICUS. Un cane appena acquisito deve essere registrato nella banca dati AMICUS entro 10 giorni.",
+      "quellen": [
+        "fr_neu"
+      ]
+    },
+    {
+      "titel": "Imposta sui cani",
+      "marke": "annuale",
+      "ton": "note",
+      "wert": "CHF 100 al Cantone, più il Comune",
+      "text": "L'imposta cantonale sui cani è di CHF 100 per cane. Si aggiungono CHF 5 per le spese amministrative e il contributo all'assicurazione collettiva di responsabilità civile. La riscuotono gli Oberämter (prefetture). Il tuo Comune può chiedere in più una propria imposta sui cani, al massimo CHF 200 per animale e per anno.",
+      "quellen": [
+        "fr_steuer",
+        "fr_hhg"
+      ]
+    },
+    {
+      "titel": "Razze",
+      "marke": "Divieto",
+      "ton": "must",
+      "wert": "cani di tipo pitbull",
+      "text": "I cani di tipo pitbull e i loro incroci sono vietati: detenzione, allevamento, cessione, commercio e introduzione nel Cantone. È ammesso solo un soggiorno temporaneo di al massimo 90 giorni, al guinzaglio e con la museruola. Dal 1° gennaio 2024 non esistono più razze soggette ad autorizzazione.",
+      "quellen": [
+        "fr_hhg",
+        "fr_verboten"
+      ]
+    },
+    {
+      "titel": "A passeggio",
+      "marke": "Regola",
+      "ton": "note",
+      "wert": "escrementi e richiamo",
+      "text": "Raccogli gli escrementi del tuo cane. Nel bosco richiami il cane non appena ci sono altre persone nelle vicinanze, e il cane non deve disturbare gli animali selvatici.",
+      "quellen": [
+        "fr_hhg",
+        "fr_wald"
+      ]
+    }
+  ],
+  "vergleich": {
+    "wald": "dal 1.4. al 15.7., nel bosco",
+    "haft": "obbligo, almeno CHF 1 milione",
+    "kurs": "teoria per il primo cane, test pratico con ogni nuovo cane",
+    "rassen": "tipo pitbull e incroci vietati",
+    "steuer": "CHF 100 al Cantone, più il Comune",
+    "anm": "entro 10 giorni, Comune e AMICUS"
+  },
+  "umzug": {
+    "text": "Un cane di tipo pitbull o un suo incrocio non può trasferirsi nel Cantone. È ammesso solo un soggiorno di al massimo 90 giorni, al guinzaglio e con la museruola.",
+    "quellen": [
+      "fr_hhg",
+      "fr_verboten"
+    ]
+  }
+}

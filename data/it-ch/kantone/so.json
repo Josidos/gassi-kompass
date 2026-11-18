@@ -1,0 +1,136 @@
+{
+  "id": "so",
+  "kurz": "SO",
+  "uebersetzt_aus": "de",
+  "original": "145b0a212605",
+  "wald": {
+    "saison": true,
+    "von": "04-01",
+    "bis": "07-31",
+    "wo": "nel bosco",
+    "quellen": [
+      "so_hundev",
+      "so_vet_leine"
+    ]
+  },
+  "leine": {
+    "punkte": [
+      "dal 1° aprile al 31 luglio nel bosco, per tutti i cani. Sulla sua pagina «Mein Hund und ich» l'Amt für Landwirtschaft (ufficio dell'agricoltura) menziona anche i margini del bosco.",
+      "ovunque i servizi competenti lo abbiano indicato nello spazio pubblico",
+      "in ogni momento, se non riesci a controllare costantemente il tuo cane, soprattutto se potrebbe cacciare o cacciare di frodo",
+      "sempre al di fuori della tua sfera privata, se il tuo cane appartiene a una razza soggetta ad autorizzazione. In questo caso va condotto al guinzaglio da solo, senza altri cani.",
+      "se l'Oberamt (prefettura) o il Veterinärdienst (servizio veterinario) lo ha ordinato per il tuo cane"
+    ],
+    "quellen": [
+      "so_hundev",
+      "so_hundeg",
+      "so_vet_leine",
+      "so_hund_und_ich"
+    ]
+  },
+  "verbot": {
+    "einleitung": "La Hundegesetz (legge sui cani) e la Hundeverordnung (ordinanza sui cani) del Cantone non indicano luoghi vietati ai cani.",
+    "punkte": [
+      "luoghi in cui il tuo Comune ha emanato e segnalato un divieto"
+    ],
+    "quellen": [
+      "so_hundeg",
+      "so_hundev"
+    ]
+  },
+  "karten": [
+    {
+      "titel": "Responsabilità civile",
+      "marke": "Obbligo",
+      "ton": "must",
+      "wert": "per tutti i cani",
+      "text": "Chi detiene un cane ha bisogno di un'assicurazione di responsabilità civile che includa i rischi della detenzione di cani. Deve coprire anche la persona che sorveglia effettivamente il cane. La legge non indica una somma minima. Presenti la prova quando annunci il cane al Comune.",
+      "quellen": [
+        "so_hundeg"
+      ]
+    },
+    {
+      "titel": "Corso",
+      "marke": "Nessun obbligo",
+      "ton": "none",
+      "wert": "solo per le razze soggette ad autorizzazione",
+      "text": "Il Cantone non prescrive un corso per tutti i detentori di cani. Chi detiene un cane di una razza soggetta ad autorizzazione deve seguire una formazione con il cane. È considerata conclusa quando un diploma riconosciuto dalla Schweizerische Kynologische Gesellschaft (SKG, Società cinologica svizzera) conferma che detentore e cane sono idonei alla vita quotidiana. Nel singolo caso l'autorità può ordinare un corso per detentori di cani o un corso di educazione.",
+      "quellen": [
+        "so_hundeg",
+        "so_hundev"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "marke": "Obbligo",
+      "ton": "must",
+      "wert": "Comune, microchip e AMICUS",
+      "text": "Se detieni un cane di età superiore a tre mesi, lo annunci al tuo Comune (Einwohnergemeinde) e indichi il numero del microchip. In quell'occasione dimostri di avere l'assicurazione di responsabilità civile. Ogni cane deve essere contrassegnato e registrato secondo le prescrizioni della Confederazione, i costi sono a tuo carico. La Hundegesetz non indica un termine per la notifica.",
+      "quellen": [
+        "so_hundeg"
+      ]
+    },
+    {
+      "titel": "Imposta sui cani",
+      "marke": "annuale",
+      "ton": "note",
+      "wert": "CHF 85 a 235",
+      "text": "L'imposta sui cani è composta da due parti. Il Cantone riscuote CHF 35 per cane, il tuo Comune da CHF 50 a un massimo di CHF 200 per cane. Insieme fanno da CHF 85 a CHF 235 all'anno. Il Comune fattura entrambe le parti. L'imposta vale per un anno civile, il giorno di riferimento è il 1° aprile. Sono esentati tra gli altri i cani di età inferiore a tre mesi, i cani d'assistenza, i cani di servizio di esercito, polizia e Corpo delle guardie di confine nonché i cani per i quali nello stesso anno si è già pagato in un altro Comune o in un altro Cantone.",
+      "quellen": [
+        "so_hundeg"
+      ]
+    },
+    {
+      "titel": "Razze",
+      "marke": "Autorizzazione",
+      "ton": "must",
+      "wert": "9 razze e i loro incroci",
+      "text": "Per i cani di nove razze e i loro incroci ti serve un'autorizzazione del Veterinärdienst (servizio veterinario). Vale se detieni un cane di questo tipo, lo allevi o lo commerci, oppure se te ne occupi regolarmente per più di 90 giorni all'anno. Chiedi l'autorizzazione prima dell'acquisto, per i cuccioli allevati da te al più tardi 15 settimane dopo la nascita. Sono richiesti tra l'altro la maggiore età, conoscenze specifiche comprovate, una reputazione irreprensibile e un certificato di ascendenza o un esame caratteriale superato. Per l'autorizzazione si paga una tassa. In caso di cambio di detentore serve una nuova autorizzazione. I cani detenuti senza autorizzazione possono essere sequestrati a tue spese. In caso di dubbio la veterinaria cantonale o il veterinario cantonale decide se un cane rientra tra queste razze. Al di fuori della sfera privata questi cani vanno sempre tenuti al guinzaglio.",
+      "mehr": {
+        "titel": "Mostra l'elenco completo",
+        "punkte": [
+          "Bullterrier",
+          "Staffordshire Bull Terrier",
+          "American Staffordshire Terrier",
+          "American Pit Bull Terrier",
+          "Rottweiler",
+          "Dobermann",
+          "Dogo Argentino",
+          "Fila Brasileiro",
+          "American Bully"
+        ]
+      },
+      "quellen": [
+        "so_hundev",
+        "so_hundeg",
+        "so_vet_bewilligung"
+      ]
+    },
+    {
+      "titel": "A passeggio",
+      "marke": "Regola",
+      "ton": "note",
+      "wert": "escrementi e controllo",
+      "text": "Devi tenere il tuo cane sempre sotto controllo. Secondo l'Amt für Landwirtschaft (ufficio dell'agricoltura), nello spazio pubblico raccogli gli escrementi del tuo cane e li smaltisci correttamente. L'ufficio indica al riguardo alcune regole di comportamento: nel bosco il cane resta sui sentieri, per quanto possibile non entri nelle superfici agricole utili e, se incontri un cane al guinzaglio, metti il guinzaglio al tuo o lo conduci al piede. Chi viola la Hundegesetz o le sue disposizioni d'esecuzione è punito con la multa. La legge non indica un importo.",
+      "quellen": [
+        "so_hundeg",
+        "so_hund_und_ich"
+      ]
+    }
+  ],
+  "vergleich": {
+    "wald": "dal 1.4. al 31.7., nel bosco",
+    "haft": "obbligo, nessuna somma minima nella legge",
+    "kurs": "solo per le razze soggette ad autorizzazione",
+    "rassen": "obbligo di autorizzazione per 9 razze",
+    "steuer": "CHF 85 a 235, secondo il Comune",
+    "anm": "Comune (Einwohnergemeinde), microchip e AMICUS"
+  },
+  "umzug": {
+    "text": "Se ti trasferisci nel Canton Soletta con un cane di una razza soggetta ad autorizzazione, fai pervenire di tua iniziativa i documenti al Veterinärdienst (servizio veterinario) prima del trasferimento. Le autorizzazioni di altri Cantoni sono riconosciute se finora il cane non si è fatto notare.",
+    "quellen": [
+      "so_vet_bewilligung",
+      "so_hundeg"
+    ]
+  }
+}

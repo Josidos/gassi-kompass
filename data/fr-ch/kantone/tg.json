@@ -1,0 +1,143 @@
+{
+  "id": "tg",
+  "kurz": "TG",
+  "uebersetzt_aus": "de",
+  "original": "476e86ce8b20",
+  "wald": {
+    "saison": true,
+    "von": "04-01",
+    "bis": "07-31",
+    "wo": "en forêt et en lisière",
+    "quellen": [
+      "tg_hundeg",
+      "tg_hundev"
+    ]
+  },
+  "leine": {
+    "punkte": [
+      "dans les parcs, les installations scolaires, les places de jeux et les installations sportives",
+      "le long des routes à fort trafic",
+      "du 1er avril au 31 juillet en forêt et en lisière. L'amende d'ordre est de CHF 100.",
+      "dans d'autres lieux que votre commune a signalés par des panneaux"
+    ],
+    "quellen": [
+      "tg_hundeg",
+      "tg_hundev"
+    ]
+  },
+  "verbot": {
+    "einleitung": "Vous ne pouvez pas emmener votre chien dans ces lieux. L'amende d'ordre est de CHF 100.",
+    "punkte": [
+      "les églises",
+      "les cimetières",
+      "les sites hospitaliers",
+      "les installations de bains",
+      "d'autres lieux que votre commune a signalés par des panneaux"
+    ],
+    "quellen": [
+      "tg_hundeg",
+      "tg_hundev"
+    ]
+  },
+  "karten": [
+    {
+      "titel": "Responsabilité civile",
+      "marke": "Obligatoire",
+      "ton": "must",
+      "wert": "au moins CHF 3 millions",
+      "text": "Toute personne qui détient un chien a besoin d'une assurance responsabilité civile avec une somme de couverture d'au moins CHF 3 millions.",
+      "quellen": [
+        "tg_hundeg"
+      ]
+    },
+    {
+      "titel": "Cours",
+      "marke": "Obligatoire",
+      "ton": "must",
+      "wert": "dans un délai d'un an, au moins 10 leçons",
+      "text": "Dans un délai d'un an après l'acquisition de votre chien, vous devez suivre un cours reconnu d'éducation canine pratique. Le cours comprend au moins 10 leçons sur la marche en laisse, l'obéissance et le comportement dans l'environnement. S'y ajoute un cours pour chiots, si l'âge du chien le permet. Vous prouvez que vous avez suivi le cours lorsque la commune ou le Veterinäramt (office vétérinaire) le demande.",
+      "quellen": [
+        "tg_hundeg",
+        "tg_hundev"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "marke": "Obligatoire",
+      "ton": "must",
+      "wert": "puce électronique et AMICUS",
+      "text": "Votre chien doit être identifié et enregistré selon les prescriptions de la Confédération. Le service d'enregistrement est la banque de données AMICUS. Le Hundegesetz (loi sur les chiens) ne fixe pas de délai propre, il renvoie au droit fédéral. L'impôt sur les chiens est perçu par votre commune. Elle vous indique ce que vous devez lui annoncer.",
+      "quellen": [
+        "tg_hundeg",
+        "tg_hundev"
+      ]
+    },
+    {
+      "titel": "Impôt sur les chiens",
+      "marke": "annuel",
+      "ton": "note",
+      "wert": "CHF 80 à 120",
+      "text": "L'impôt sur les chiens est de CHF 80 par an pour un chien et de CHF 130 pour chaque chien supplémentaire dans le même ménage. Votre commune peut l'augmenter de 50 pour cent au maximum, soit jusqu'à CHF 120 et CHF 195 au maximum. Il doit être payé jusqu'à fin avril. Les impôts payés ne sont pas remboursés. Sont exonérés les chiens de moins de cinq mois et les chiens d'utilité, par exemple les chiens de service, les chiens guides d'aveugles, les chiens pour personnes handicapées, les chiens de sauvetage, de protection des troupeaux, de conduite des troupeaux et de chasse.",
+      "quellen": [
+        "tg_hundeg",
+        "tg_hundev"
+      ]
+    },
+    {
+      "titel": "Races",
+      "marke": "Autorisation",
+      "ton": "must",
+      "wert": "14 races et types",
+      "text": "Pour un chien potentiellement dangereux, il vous faut une autorisation du Veterinäramt (office vétérinaire), et cela avant d'acquérir le chien ou de le promener. Elle vaut pour la détention, la garde et la promenade. Sont aussi concernés les croisements et les chiens dont l'aspect laisse supposer qu'ils appartiennent à l'une de ces races. Un chien est exclu si un test génétique d'un laboratoire reconnu montre qu'il descend à moins de 50 pour cent d'une telle race. Sont exigés notamment la majorité, un domicile fixe, un extrait du casier judiciaire, des connaissances en matière de détention de chiens, la preuve de l'origine du chien et l'assurance responsabilité civile. Selon l'aide-mémoire du Veterinäramt, l'autorisation coûte CHF 500. Vous portez l'attestation d'autorisation sur vous lorsque vous promenez le chien.",
+      "mehr": {
+        "titel": "Afficher la liste complète",
+        "punkte": [
+          "American Staffordshire Terrier",
+          "Bullterrier",
+          "Cane Corso",
+          "Dobermann",
+          "Dogo Argentino",
+          "Fila Brasileiro",
+          "Mastiff",
+          "Mastín Español",
+          "Mastino Napoletano",
+          "Presa Canario (Dogo Canario)",
+          "Rottweiler",
+          "Staffordshire Bullterrier",
+          "Tosa",
+          "chiens de type pitbull"
+        ]
+      },
+      "quellen": [
+        "tg_hundeg",
+        "tg_hundev",
+        "tg_vet_rassen"
+      ]
+    },
+    {
+      "titel": "En promenade",
+      "marke": "Règle",
+      "ton": "note",
+      "wert": "crottes et surveillance",
+      "text": "Vous ramassez correctement les crottes de votre chien. Les trottoirs, les chemins piétons, les parcs, les installations scolaires, les places de jeux, les installations sportives, les jardins, les prairies fourragères et les champs de légumes ne doivent pas être souillés. L'amende d'ordre est de CHF 150. Votre chien ne doit pas rester sans surveillance en forêt, en lisière ni, la nuit, en plein air, sinon il en coûte CHF 200. Un chien qui s'est échappé doit être signalé publiquement sans délai. En procédure ordinaire, des amendes de CHF 50 à CHF 5'000 sont possibles.",
+      "quellen": [
+        "tg_hundeg",
+        "tg_hundev"
+      ]
+    }
+  ],
+  "vergleich": {
+    "wald": "du 1.4. au 31.7., en forêt et en lisière",
+    "haft": "obligatoire, au moins CHF 3 millions",
+    "kurs": "obligatoire, dans un délai d'un an, au moins 10 leçons",
+    "rassen": "autorisation obligatoire pour 14 races et types",
+    "steuer": "CHF 80 à 120, selon la commune",
+    "anm": "puce électronique et AMICUS"
+  },
+  "umzug": {
+    "text": "Si vous venez vous établir dans le canton de Thurgovie avec un chien potentiellement dangereux, vous devez déposer une demande d'autorisation auprès du Veterinäramt (office vétérinaire) dans les 10 jours. Une autorisation de détention délivrée par votre ancien canton peut être prise en compte.",
+    "quellen": [
+      "tg_hundev"
+    ]
+  }
+}

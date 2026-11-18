@@ -1,0 +1,131 @@
+{
+  "id": "bl",
+  "kurz": "BL",
+  "uebersetzt_aus": "de",
+  "original": "3f24be57e696",
+  "wald": {
+    "saison": true,
+    "von": "04-01",
+    "bis": "07-31",
+    "wo": "nel bosco e nelle sue vicinanze",
+    "quellen": [
+      "bl_wjg",
+      "bl_wald"
+    ]
+  },
+  "leine": {
+    "punkte": [
+      "ovunque, se non riesci a tenere il tuo cane sotto controllo",
+      "nel bosco anche al di fuori del periodo dal 1° aprile al 31 luglio, se il tuo cane non può essere tenuto sotto controllo e lascia i sentieri",
+      "tutto l'anno nelle zone di tranquillità per la selvaggina, anche sulle strade forestali che le delimitano e sui sentieri escursionistici segnalati",
+      "in altri luoghi o in altri momenti stabiliti dal tuo Comune, per esempio al buio o nei punti molto trafficati"
+    ],
+    "quellen": [
+      "bl_hug",
+      "bl_wjg",
+      "bl_wjv"
+    ]
+  },
+  "verbot": {
+    "einleitung": "La Hundegesetz (legge sui cani) del Cantone non indica luoghi vietati ai cani. Lascia ai Comuni il compito di regolare l'accesso agli edifici e alle aree pubbliche.",
+    "punkte": [
+      "luoghi che il tuo Comune ha stabilito nel suo regolamento o con la segnaletica"
+    ],
+    "quellen": [
+      "bl_hug"
+    ]
+  },
+  "karten": [
+    {
+      "titel": "Responsabilità civile",
+      "marke": "Obbligo",
+      "ton": "must",
+      "wert": "almeno CHF 3 milioni",
+      "text": "Chi detiene un cane deve stipulare per lui un'assicurazione di responsabilità civile. Deve coprire i danni a persone, animali e cose fino ad almeno CHF 3 milioni per sinistro. Deve essere assicurata anche la persona che sorveglia effettivamente il cane.",
+      "quellen": [
+        "bl_hug"
+      ]
+    },
+    {
+      "titel": "Corso",
+      "marke": "Nessun obbligo",
+      "ton": "none",
+      "wert": "solo per i cani soggetti ad autorizzazione",
+      "text": "La Hundegesetz non prevede un corso obbligatorio per tutti i cani. Per ottenere l'autorizzazione per un cane potenzialmente pericoloso devi frequentare corsi di gioco per cuccioli e corsi di educazione cinofila. Sono riconosciuti i corsi tenuti da cinologhe e cinologi esperti che si concludono con un attestato.",
+      "quellen": [
+        "bl_hug",
+        "bl_pgh"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "marke": "Obbligo",
+      "ton": "must",
+      "wert": "entro 14 giorni",
+      "text": "Annunci il tuo cane al tuo Comune entro 14 giorni. Lo stesso vale se lo cedi o se muore. Ogni cane deve essere contrassegnato con un microchip. Il Comune tiene un registro dei cani di età superiore a quattro mesi. Può inoltre richiedere un proprio contrassegno.",
+      "quellen": [
+        "bl_hug"
+      ]
+    },
+    {
+      "titel": "Imposta sui cani",
+      "marke": "Comune",
+      "ton": "note",
+      "wert": "secondo il Comune",
+      "text": "I Comuni possono riscuotere una tassa sui cani. La Hundegesetz non indica un importo massimo. Sono esentati tra gli altri i cani di servizio, i cani guida per ciechi, i cani da salvataggio e da catastrofe addestrati e il primo cane di una fattoria annessa (landwirtschaftlicher Nebenhof).",
+      "quellen": [
+        "bl_hug"
+      ]
+    },
+    {
+      "titel": "Razze",
+      "marke": "Autorizzazione",
+      "ton": "must",
+      "wert": "8 razze",
+      "text": "Per un cane potenzialmente pericoloso ti serve un'autorizzazione del Cantone, e questo prima dell'acquisto. Vale anche per gli incroci di queste razze, per i cani che vi assomigliano nell'aspetto e per i cani che si sono fatti notare per il loro comportamento. Sono richiesti tra l'altro un estratto del casellario giudiziale, conoscenze cinologiche, la frequenza di corsi e l'assicurazione di responsabilità civile. Nella stessa economia domestica non può vivere nessun altro cane di età superiore a 16 settimane. Sono possibili eccezioni. La domanda costa CHF 250.",
+      "mehr": {
+        "titel": "Mostra l'elenco completo",
+        "punkte": [
+          "American Pit Bull Terrier",
+          "American Staffordshire Terrier",
+          "Bullterrier",
+          "Dobermann",
+          "Dogo Argentino",
+          "Fila Brasileiro",
+          "Rottweiler",
+          "Staffordshire Bull Terrier"
+        ]
+      },
+      "quellen": [
+        "bl_pgh",
+        "bl_hug"
+      ]
+    },
+    {
+      "titel": "A passeggio",
+      "marke": "Regola",
+      "ton": "note",
+      "wert": "escrementi e selvaggina",
+      "text": "Raccogli gli escrementi del tuo cane sul suolo pubblico e sui terreni agricoli. Annunci entro 2 giorni un cane che è scappato o che si è rifugiato da te. Se un cane caccia di frodo o vaga nel bosco, la sorveglianza della caccia può abbatterlo dopo un ammonimento rimasto senza effetto. Rispondi dei danni alla selvaggina. Le infrazioni alla Hundegesetz sono punite con la multa.",
+      "quellen": [
+        "bl_hug",
+        "bl_wjv"
+      ]
+    }
+  ],
+  "vergleich": {
+    "wald": "dal 1.4. al 31.7., nel bosco e nelle sue vicinanze",
+    "haft": "obbligo, almeno CHF 3 milioni",
+    "kurs": "solo per i cani soggetti ad autorizzazione",
+    "rassen": "obbligo di autorizzazione per 8 razze",
+    "steuer": "secondo il Comune",
+    "anm": "entro 14 giorni, Comune"
+  },
+  "umzug": {
+    "text": "Dopo il trasferimento annunci il tuo cane al tuo nuovo Comune entro 14 giorni. Se ti trasferisci con un cane potenzialmente pericoloso, devi chiedere un'autorizzazione di detenzione entro 4 settimane.",
+    "quellen": [
+      "bl_hug",
+      "bl_pgh"
+    ]
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "id": "tg",
+  "kurz": "TG",
+  "uebersetzt_aus": "de",
+  "original": "476e86ce8b20",
+  "wald": {
+    "saison": true,
+    "von": "04-01",
+    "bis": "07-31",
+    "wo": "nel bosco e al margine del bosco",
+    "quellen": [
+      "tg_hundeg",
+      "tg_hundev"
+    ]
+  },
+  "leine": {
+    "punkte": [
+      "nei parchi, negli impianti scolastici, nei parchi giochi e negli impianti sportivi",
+      "lungo le strade molto trafficate",
+      "dal 1° aprile al 31 luglio nel bosco e al margine del bosco. La multa disciplinare è di CHF 100.",
+      "in altri luoghi che il tuo Comune ha indicato con cartelli"
+    ],
+    "quellen": [
+      "tg_hundeg",
+      "tg_hundev"
+    ]
+  },
+  "verbot": {
+    "einleitung": "In questi luoghi non puoi portare con te il tuo cane. La multa disciplinare è di CHF 100.",
+    "punkte": [
+      "chiese",
+      "cimiteri",
+      "aree ospedaliere",
+      "impianti balneari",
+      "altri luoghi che il tuo Comune ha indicato con cartelli"
+    ],
+    "quellen": [
+      "tg_hundeg",
+      "tg_hundev"
+    ]
+  },
+  "karten": [
+    {
+      "titel": "Responsabilità civile",
+      "marke": "Obbligo",
+      "ton": "must",
+      "wert": "almeno CHF 3 milioni",
+      "text": "Chi detiene un cane ha bisogno di un'assicurazione di responsabilità civile con una somma di copertura di almeno CHF 3 milioni.",
+      "quellen": [
+        "tg_hundeg"
+      ]
+    },
+    {
+      "titel": "Corso",
+      "marke": "Obbligo",
+      "ton": "must",
+      "wert": "entro un anno, almeno 10 lezioni",
+      "text": "Entro un anno dall'acquisto del tuo cane devi frequentare un corso riconosciuto di educazione cinofila pratica. Il corso comprende almeno 10 lezioni su condotta al guinzaglio, obbedienza e comportamento nell'ambiente. Si aggiunge un corso per cuccioli, se l'età del cane lo permette. Dimostri la frequenza quando il Comune o il Veterinäramt (ufficio veterinario) lo richiede.",
+      "quellen": [
+        "tg_hundeg",
+        "tg_hundev"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "marke": "Obbligo",
+      "ton": "must",
+      "wert": "microchip e AMICUS",
+      "text": "Il tuo cane deve essere contrassegnato e registrato secondo le prescrizioni della Confederazione. Il servizio di registrazione è la banca dati AMICUS. La Hundegesetz (legge sui cani) non indica un termine proprio, rinvia al diritto federale. L'imposta sui cani è riscossa dal tuo Comune. Il Comune ti dice che cosa devi annunciargli.",
+      "quellen": [
+        "tg_hundeg",
+        "tg_hundev"
+      ]
+    },
+    {
+      "titel": "Imposta sui cani",
+      "marke": "annuale",
+      "ton": "note",
+      "wert": "CHF 80 a 120",
+      "text": "L'imposta sui cani è di CHF 80 all'anno per un cane e di CHF 130 per ogni altro cane nella stessa economia domestica. Il tuo Comune può aumentarla al massimo del 50 per cento, quindi fino a un massimo di CHF 120 e CHF 195. Va pagata entro la fine di aprile. Le imposte pagate non vengono rimborsate. Sono esentati i cani di età inferiore a cinque mesi e i cani da utilità, per esempio cani di servizio, cani guida per ciechi, cani per persone con disabilità, cani da salvataggio, da protezione delle greggi, da conduzione del bestiame e da caccia.",
+      "quellen": [
+        "tg_hundeg",
+        "tg_hundev"
+      ]
+    },
+    {
+      "titel": "Razze",
+      "marke": "Autorizzazione",
+      "ton": "must",
+      "wert": "14 razze e tipi",
+      "text": "Per un cane potenzialmente pericoloso ti serve un'autorizzazione del Veterinäramt (ufficio veterinario), e questo prima di acquistare il cane o di portarlo a passeggio. Vale per la detenzione, l'accudimento e le uscite a passeggio. Sono compresi anche gli incroci e i cani il cui aspetto fa pensare a una di queste razze. È escluso un cane se un test genetico di un laboratorio riconosciuto mostra che discende per meno del 50 per cento da una di queste razze. Sono richiesti tra l'altro la maggiore età, un domicilio fisso, un estratto del casellario giudiziale, conoscenze sulla detenzione di cani, la prova della provenienza del cane e l'assicurazione di responsabilità civile. Secondo il promemoria del Veterinäramt l'autorizzazione costa CHF 500. Porti con te l'attestato di autorizzazione quando esci con il cane.",
+      "mehr": {
+        "titel": "Mostra l'elenco completo",
+        "punkte": [
+          "American Staffordshire Terrier",
+          "Bullterrier",
+          "Cane Corso",
+          "Dobermann",
+          "Dogo Argentino",
+          "Fila Brasileiro",
+          "Mastiff",
+          "Mastín Español",
+          "Mastino Napoletano",
+          "Presa Canario (Dogo Canario)",
+          "Rottweiler",
+          "Staffordshire Bullterrier",
+          "Tosa",
+          "cani di tipo pitbull"
+        ]
+      },
+      "quellen": [
+        "tg_hundeg",
+        "tg_hundev",
+        "tg_vet_rassen"
+      ]
+    },
+    {
+      "titel": "A passeggio",
+      "marke": "Regola",
+      "ton": "note",
+      "wert": "escrementi e sorveglianza",
+      "text": "Elimini correttamente gli escrementi del tuo cane. Marciapiedi, sentieri pedonali, parchi, impianti scolastici, parchi giochi, impianti sportivi, giardini, prati da foraggio e campi di ortaggi non devono essere sporcati. La multa disciplinare è di CHF 150. Il tuo cane non può restare senza sorveglianza nel bosco, al margine del bosco e di notte all'aperto, altrimenti costa CHF 200. Un cane scappato deve essere segnalato pubblicamente senza indugio. Nella procedura ordinaria sono possibili multe da CHF 50 a CHF 5'000.",
+      "quellen": [
+        "tg_hundeg",
+        "tg_hundev"
+      ]
+    }
+  ],
+  "vergleich": {
+    "wald": "dal 1.4. al 31.7., nel bosco e al margine del bosco",
+    "haft": "obbligo, almeno CHF 3 milioni",
+    "kurs": "obbligo, entro un anno, almeno 10 lezioni",
+    "rassen": "obbligo di autorizzazione per 14 razze e tipi",
+    "steuer": "CHF 80 a 120, secondo il Comune",
+    "anm": "microchip e AMICUS"
+  },
+  "umzug": {
+    "text": "Se ti trasferisci nel Canton Turgovia con un cane potenzialmente pericoloso, devi presentare entro 10 giorni una domanda di autorizzazione al Veterinäramt (ufficio veterinario). Un'autorizzazione di detenzione del tuo Cantone precedente può essere presa in considerazione.",
+    "quellen": [
+      "tg_hundev"
+    ]
+  }
+}

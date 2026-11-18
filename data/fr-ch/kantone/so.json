@@ -1,0 +1,136 @@
+{
+  "id": "so",
+  "kurz": "SO",
+  "uebersetzt_aus": "de",
+  "original": "145b0a212605",
+  "wald": {
+    "saison": true,
+    "von": "04-01",
+    "bis": "07-31",
+    "wo": "en forêt",
+    "quellen": [
+      "so_hundev",
+      "so_vet_leine"
+    ]
+  },
+  "leine": {
+    "punkte": [
+      "du 1er avril au 31 juillet en forêt, pour tous les chiens. L'Amt für Landwirtschaft (office de l'agriculture) mentionne aussi les lisières sur sa page « Mein Hund und ich ».",
+      "partout où les services compétents l'ont signalé dans l'espace public",
+      "en tout temps, si vous ne pouvez pas contrôler votre chien en permanence, surtout s'il risque de chasser ou de braconner",
+      "toujours en dehors de votre sphère privée, si votre chien appartient à une race soumise à autorisation. Il doit alors être tenu en laisse seul, sans autre chien.",
+      "si l'Oberamt (préfecture) ou le Veterinärdienst (service vétérinaire) l'a ordonné pour votre chien"
+    ],
+    "quellen": [
+      "so_hundev",
+      "so_hundeg",
+      "so_vet_leine",
+      "so_hund_und_ich"
+    ]
+  },
+  "verbot": {
+    "einleitung": "Le Hundegesetz (loi sur les chiens) et la Hundeverordnung (ordonnance sur les chiens) du canton ne désignent pas de lieux interdits aux chiens.",
+    "punkte": [
+      "les lieux où votre commune a édicté et signalé une interdiction"
+    ],
+    "quellen": [
+      "so_hundeg",
+      "so_hundev"
+    ]
+  },
+  "karten": [
+    {
+      "titel": "Responsabilité civile",
+      "marke": "Obligatoire",
+      "ton": "must",
+      "wert": "pour tous les chiens",
+      "text": "Toute personne qui détient un chien a besoin d'une assurance responsabilité civile qui inclut les risques liés à la détention d'un chien. Elle doit aussi couvrir la personne qui surveille effectivement le chien. La loi ne fixe pas de somme minimale. Vous présentez la preuve lorsque vous annoncez le chien à la commune.",
+      "quellen": [
+        "so_hundeg"
+      ]
+    },
+    {
+      "titel": "Cours",
+      "marke": "Pas d'obligation",
+      "ton": "none",
+      "wert": "seulement pour les races soumises à autorisation",
+      "text": "Le canton n'impose pas de cours à tous les détenteurs de chiens. Toute personne qui détient un chien d'une race soumise à autorisation doit suivre une formation avec le chien. Elle est considérée comme accomplie lorsqu'un diplôme reconnu par la Schweizerische Kynologische Gesellschaft (SKG, Société cynologique suisse) atteste que le détenteur et le chien sont aptes à la vie quotidienne. Dans un cas particulier, l'autorité peut ordonner un cours pour détenteurs de chiens ou un cours d'éducation.",
+      "quellen": [
+        "so_hundeg",
+        "so_hundev"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "marke": "Obligatoire",
+      "ton": "must",
+      "wert": "commune, puce électronique et AMICUS",
+      "text": "Si vous détenez un chien âgé de plus de trois mois, vous l'annoncez à votre commune (Einwohnergemeinde) et indiquez le numéro de la puce électronique. À cette occasion, vous prouvez que vous avez une assurance responsabilité civile. Chaque chien doit être identifié et enregistré selon les prescriptions de la Confédération, les frais sont à votre charge. Le Hundegesetz ne fixe pas de délai pour l'annonce.",
+      "quellen": [
+        "so_hundeg"
+      ]
+    },
+    {
+      "titel": "Impôt sur les chiens",
+      "marke": "annuel",
+      "ton": "note",
+      "wert": "CHF 85 à 235",
+      "text": "L'impôt sur les chiens se compose de deux parts. Le canton perçoit CHF 35 par chien, votre commune de CHF 50 à CHF 200 au maximum par chien. Ensemble, cela fait de CHF 85 à CHF 235 par an. La commune facture les deux parts. L'impôt vaut pour une année civile, le jour de référence est le 1er avril. Sont exonérés notamment les chiens de moins de trois mois, les chiens d'assistance, les chiens de service de l'armée, de la police et du Corps des gardes-frontière ainsi que les chiens pour lesquels l'impôt a déjà été payé la même année dans une autre commune ou un autre canton.",
+      "quellen": [
+        "so_hundeg"
+      ]
+    },
+    {
+      "titel": "Races",
+      "marke": "Autorisation",
+      "ton": "must",
+      "wert": "9 races et leurs croisements",
+      "text": "Pour les chiens de neuf races et leurs croisements, il vous faut une autorisation du Veterinärdienst (service vétérinaire). Cela vaut si vous détenez un tel chien, en faites l'élevage ou le commerce, ou si vous vous en occupez régulièrement plus de 90 jours par an. Vous demandez l'autorisation avant l'acquisition, pour les chiots de votre propre élevage au plus tard 15 semaines après la naissance. Sont exigés notamment la majorité, des connaissances attestées, une réputation irréprochable et un pedigree ou un test de caractère réussi. L'autorisation est soumise à un émolument. En cas de changement de détenteur, il faut une nouvelle autorisation. Les chiens détenus sans autorisation peuvent être séquestrés à vos frais. En cas de doute, la ou le vétérinaire cantonal décide si un chien fait partie de ces races. En dehors de la sphère privée, ces chiens doivent toujours être tenus en laisse.",
+      "mehr": {
+        "titel": "Afficher la liste complète",
+        "punkte": [
+          "Bullterrier",
+          "Staffordshire Bull Terrier",
+          "American Staffordshire Terrier",
+          "American Pit Bull Terrier",
+          "Rottweiler",
+          "Dobermann",
+          "Dogo Argentino",
+          "Fila Brasileiro",
+          "American Bully"
+        ]
+      },
+      "quellen": [
+        "so_hundev",
+        "so_hundeg",
+        "so_vet_bewilligung"
+      ]
+    },
+    {
+      "titel": "En promenade",
+      "marke": "Règle",
+      "ton": "note",
+      "wert": "crottes et contrôle",
+      "text": "Vous devez garder votre chien sous contrôle en permanence. Selon l'Amt für Landwirtschaft (office de l'agriculture), vous ramassez les crottes de votre chien dans l'espace public et les éliminez correctement. L'office indique à ce sujet des règles de comportement : en forêt, le chien reste sur les chemins, vous évitez autant que possible de pénétrer sur les surfaces agricoles utiles et, si vous croisez un chien tenu en laisse, vous attachez le vôtre ou le faites marcher au pied. Quiconque enfreint le Hundegesetz ou ses dispositions d'exécution est puni de l'amende. La loi n'indique pas de montant.",
+      "quellen": [
+        "so_hundeg",
+        "so_hund_und_ich"
+      ]
+    }
+  ],
+  "vergleich": {
+    "wald": "du 1.4. au 31.7., en forêt",
+    "haft": "obligatoire, pas de somme minimale dans la loi",
+    "kurs": "seulement pour les races soumises à autorisation",
+    "rassen": "autorisation obligatoire pour 9 races",
+    "steuer": "CHF 85 à 235, selon la commune",
+    "anm": "commune (Einwohnergemeinde), puce électronique et AMICUS"
+  },
+  "umzug": {
+    "text": "Si vous venez vous établir dans le canton de Soleure avec un chien d'une race soumise à autorisation, vous faites parvenir de vous-même les documents au Veterinärdienst (service vétérinaire) avant votre arrivée. Les autorisations d'autres cantons sont reconnues si le chien ne s'est pas fait remarquer jusqu'ici.",
+    "quellen": [
+      "so_vet_bewilligung",
+      "so_hundeg"
+    ]
+  }
+}

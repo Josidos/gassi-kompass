@@ -1,0 +1,131 @@
+{
+  "id": "bl",
+  "kurz": "BL",
+  "uebersetzt_aus": "de",
+  "original": "3f24be57e696",
+  "wald": {
+    "saison": true,
+    "von": "04-01",
+    "bis": "07-31",
+    "wo": "en forêt et à proximité de la forêt",
+    "quellen": [
+      "bl_wjg",
+      "bl_wald"
+    ]
+  },
+  "leine": {
+    "punkte": [
+      "partout, si vous ne pouvez pas garder votre chien sous contrôle",
+      "en forêt aussi en dehors de la période du 1er avril au 31 juillet, si votre chien ne peut pas être gardé sous contrôle et quitte les chemins",
+      "toute l'année dans les zones de tranquillité pour la faune, y compris sur les routes forestières qui les délimitent et sur les chemins de randonnée balisés",
+      "dans d'autres lieux ou à d'autres moments fixés par votre commune, par exemple dans l'obscurité ou aux endroits à fort trafic"
+    ],
+    "quellen": [
+      "bl_hug",
+      "bl_wjg",
+      "bl_wjv"
+    ]
+  },
+  "verbot": {
+    "einleitung": "Le Hundegesetz (loi sur les chiens) du canton ne désigne pas de lieux interdits aux chiens. Il laisse aux communes le soin de régler l'accès aux bâtiments et aux sites publics.",
+    "punkte": [
+      "les lieux que votre commune a désignés dans son règlement ou par une signalisation"
+    ],
+    "quellen": [
+      "bl_hug"
+    ]
+  },
+  "karten": [
+    {
+      "titel": "Responsabilité civile",
+      "marke": "Obligatoire",
+      "ton": "must",
+      "wert": "au moins CHF 3 millions",
+      "text": "Toute personne qui détient un chien doit conclure pour lui une assurance responsabilité civile. Elle doit couvrir les dommages aux personnes, aux animaux et aux choses jusqu'à CHF 3 millions au moins par sinistre. La personne qui surveille effectivement le chien doit elle aussi être assurée.",
+      "quellen": [
+        "bl_hug"
+      ]
+    },
+    {
+      "titel": "Cours",
+      "marke": "Pas d'obligation",
+      "ton": "none",
+      "wert": "seulement pour les chiens soumis à autorisation",
+      "text": "Le Hundegesetz ne prévoit pas de cours obligatoire pour tous les chiens. Pour obtenir l'autorisation de détenir un chien potentiellement dangereux, vous devez suivre des classes de jeux pour chiots et des cours d'éducation canine. Sont reconnus les cours donnés par des cynologues expérimentés et qui se terminent par une attestation.",
+      "quellen": [
+        "bl_hug",
+        "bl_pgh"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "marke": "Obligatoire",
+      "ton": "must",
+      "wert": "dans les 14 jours",
+      "text": "Vous annoncez votre chien à votre commune dans les 14 jours. Il en va de même si vous le cédez ou s'il meurt. Chaque chien doit être identifié par une puce électronique. La commune tient un registre des chiens âgés de plus de quatre mois. Elle peut en outre exiger sa propre marque d'identification.",
+      "quellen": [
+        "bl_hug"
+      ]
+    },
+    {
+      "titel": "Impôt sur les chiens",
+      "marke": "Commune",
+      "ton": "note",
+      "wert": "selon la commune",
+      "text": "Les communes peuvent percevoir une taxe sur les chiens. Le Hundegesetz ne fixe pas de montant maximal. Sont exonérés notamment les chiens de service, les chiens guides d'aveugles, les chiens de sauvetage et de catastrophe formés ainsi que le premier chien d'une ferme annexe (landwirtschaftlicher Nebenhof).",
+      "quellen": [
+        "bl_hug"
+      ]
+    },
+    {
+      "titel": "Races",
+      "marke": "Autorisation",
+      "ton": "must",
+      "wert": "8 races",
+      "text": "Pour un chien potentiellement dangereux, il vous faut une autorisation du canton, et cela avant l'acquisition. Cela vaut aussi pour les croisements de ces races, pour les chiens qui leur ressemblent par leur aspect et pour les chiens qui se sont fait remarquer par leur comportement. Sont exigés notamment un extrait du casier judiciaire, des connaissances cynologiques, la fréquentation de cours et l'assurance responsabilité civile. Aucun autre chien âgé de plus de 16 semaines ne peut vivre dans le même ménage. Des exceptions sont possibles. La demande coûte CHF 250.",
+      "mehr": {
+        "titel": "Afficher la liste complète",
+        "punkte": [
+          "American Pit Bull Terrier",
+          "American Staffordshire Terrier",
+          "Bullterrier",
+          "Dobermann",
+          "Dogo Argentino",
+          "Fila Brasileiro",
+          "Rottweiler",
+          "Staffordshire Bull Terrier"
+        ]
+      },
+      "quellen": [
+        "bl_pgh",
+        "bl_hug"
+      ]
+    },
+    {
+      "titel": "En promenade",
+      "marke": "Règle",
+      "ton": "note",
+      "wert": "crottes et gibier",
+      "text": "Vous ramassez les crottes de votre chien sur le domaine public et sur les terres agricoles. Vous annoncez dans les 2 jours un chien qui s'est échappé ou qui s'est réfugié chez vous. Si un chien braconne ou erre en forêt, la surveillance de la chasse peut l'abattre après un avertissement resté sans effet. Vous répondez des dommages causés au gibier. Les infractions au Hundegesetz sont punies de l'amende.",
+      "quellen": [
+        "bl_hug",
+        "bl_wjv"
+      ]
+    }
+  ],
+  "vergleich": {
+    "wald": "du 1.4. au 31.7., en forêt et à proximité de la forêt",
+    "haft": "obligatoire, au moins CHF 3 millions",
+    "kurs": "seulement pour les chiens soumis à autorisation",
+    "rassen": "autorisation obligatoire pour 8 races",
+    "steuer": "selon la commune",
+    "anm": "dans les 14 jours, commune"
+  },
+  "umzug": {
+    "text": "Après votre arrivée, vous annoncez votre chien à votre nouvelle commune dans les 14 jours. Si vous arrivez avec un chien potentiellement dangereux, vous devez demander une autorisation de détention dans les 4 semaines.",
+    "quellen": [
+      "bl_hug",
+      "bl_pgh"
+    ]
+  }
+}
