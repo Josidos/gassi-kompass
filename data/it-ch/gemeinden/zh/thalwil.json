@@ -1,0 +1,37 @@
+{
+  "id": "thalwil",
+  "kanton": "zh",
+  "bfs": 141,
+  "uebersetzt_aus": "de",
+  "original": "918d5fc0d6a7",
+  "name": "Thalwil",
+  "ort": "Thalwil",
+  "in_ort": "a Thalwil",
+  "einleitung": "A Thalwil annunci il tuo cane all'Einwohnerkontrolle (controllo abitanti). La fattura dell'imposta sui cani arriva a febbraio.",
+  "karten": [
+    {
+      "titel": "Imposta sui cani",
+      "wert": "CHF 200 all'anno",
+      "text": "L'imposta annuale ammonta a CHF 170, a cui si aggiunge il contributo cantonale di CHF 30. Il Comune invia la fattura a febbraio.",
+      "quellen": [
+        "zh_thalwil_hunde"
+      ]
+    },
+    {
+      "titel": "Riduzione",
+      "wert": "mezza imposta dopo il 30 giugno",
+      "text": "Se il tuo cane compie tre mesi solo dopo il 30 giugno, per l'anno in corso paghi la metà. Se il cane muore prima del 30 giugno e non ne prendi un altro al suo posto, ti viene rimborsata metà dell'imposta. Per i cani di polizia, i cani militari, i cani guida per ciechi e i cani da terapia puoi chiedere un'imposta ridotta alla Sicherheitskommission (commissione della sicurezza).",
+      "quellen": [
+        "zh_thalwil_hunde"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "wert": "Einwohnerkontrolle, entro 10 giorni",
+      "text": "Annunci il tuo cane entro dieci giorni all'Einwohnerkontrolle, anche online. Da portare: libretto delle vaccinazioni, passaporto per animali da compagnia o passaporto del cane, attestati dei corsi e attestato di assicurazione. La partenza non viene registrata automaticamente: la annunci tramite lo sportello online.",
+      "quellen": [
+        "zh_thalwil_hunde"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "buelach",
+  "kanton": "zh",
+  "bfs": 53,
+  "uebersetzt_aus": "de",
+  "original": "fd547628e116",
+  "name": "Bülach",
+  "ort": "Bülach",
+  "in_ort": "a Bülach",
+  "einleitung": "A Bülach la Stadtpolizei (polizia comunale) è competente per la notifica e per la tassa annuale.",
+  "karten": [
+    {
+      "titel": "Imposta sui cani",
+      "wert": "CHF 170 all'anno",
+      "text": "La tassa annuale per la detenzione di un cane ammonta a CHF 170. La Stadtpolizei la fattura ogni anno. La paghi entro il 31 marzo. Dopo questa data la tassa aumenta, tranne se il cane è nuovo.",
+      "quellen": [
+        "zh_buelach_gebuehr"
+      ]
+    },
+    {
+      "titel": "Riduzione",
+      "wert": "50 per cento con l'Hundehalter-Brevet",
+      "text": "Chi consegue l'Hundehalter-Brevet (brevetto nazionale per detentori di cani) ottiene, nell'anno del conseguimento, una riduzione unica del 50 per cento. La Città la vincola a condizioni, tra cui il domicilio a Bülach. Se il cane muore prima del 30 giugno, ti viene rimborsata una parte della tassa.",
+      "quellen": [
+        "zh_buelach_gebuehr"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "wert": "Stadtpolizei, entro 10 giorni",
+      "text": "Se il tuo cane ha più di 3 mesi, lo annunci entro 10 giorni, allo sportello della Stadtpolizei o con il modulo online. Secondo la Città, le notifiche tardive costano una tassa.",
+      "quellen": [
+        "zh_buelach_meldungen"
+      ]
+    }
+  ]
+}

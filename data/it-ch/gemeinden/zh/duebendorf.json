@@ -1,0 +1,45 @@
+{
+  "id": "duebendorf",
+  "kanton": "zh",
+  "bfs": 191,
+  "uebersetzt_aus": "de",
+  "original": "1a1c32e2d130",
+  "name": "Dübendorf",
+  "ort": "Dübendorf",
+  "in_ort": "a Dübendorf",
+  "einleitung": "La Città riscuote l'imposta sui cani. La sua Polizeiverordnung (ordinanza di polizia) esige che tu raccolga ovunque gli escrementi del tuo cane.",
+  "karten": [
+    {
+      "titel": "Imposta sui cani",
+      "wert": "CHF 150, ogni cane in più CHF 170",
+      "text": "L'imposta sui cani ammonta a CHF 150 per anno civile. Per ogni cane in più nella stessa economia domestica sono CHF 170. Se un cane compie tre mesi dopo il 30 giugno o viene tenuto per la prima volta nel Cantone dopo questa data, è dovuta la metà.",
+      "quellen": [
+        "zh_duebendorf_hunde"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "wert": "Einwohnerdienste, entro 10 giorni",
+      "text": "Se il tuo cane ha più di tre mesi, lo annunci entro 10 giorni agli Einwohnerdienste (servizi abitanti) e nella banca dati AMICUS. Chi tiene un cane per la prima volta si rivolge prima agli Einwohnerdienste.",
+      "quellen": [
+        "zh_duebendorf_hunde"
+      ]
+    },
+    {
+      "titel": "Escrementi",
+      "wert": "obbligo di raccolta su tutto il territorio comunale",
+      "text": "Devi raccogliere ovunque gli escrementi del tuo cane: su suolo pubblico e privato, sui terreni agricoli coltivati e nel bosco. Stato della Polizeiverordnung: 2014.",
+      "quellen": [
+        "zh_duebendorf_polv"
+      ]
+    },
+    {
+      "titel": "Multe",
+      "wert": "fino a CHF 500",
+      "text": "Chi viola la Polizeiverordnung è punito con una multa fino a CHF 500. Stato della Polizeiverordnung: 2014.",
+      "quellen": [
+        "zh_duebendorf_polv"
+      ]
+    }
+  ]
+}

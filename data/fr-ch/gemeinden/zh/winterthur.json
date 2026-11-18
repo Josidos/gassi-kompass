@@ -1,0 +1,38 @@
+{
+  "id": "winterthur",
+  "kanton": "zh",
+  "bfs": 230,
+  "uebersetzt_aus": "de",
+  "original": "0feed4cc5db0",
+  "name": "Winterthour",
+  "ort": "Winterthour",
+  "in_ort": "à Winterthour",
+  "einleitung": "La Ville perçoit l'impôt sur les chiens et tient le contrôle des chiens. Pour la laisse et la forêt, les règles du canton s'appliquent.",
+  "karten": [
+    {
+      "titel": "Impôt sur les chiens",
+      "wert": "CHF 160 plus CHF 30 par chien et par an",
+      "text": "L'impôt communal s'élève à CHF 160 par chien et par an. S'y ajoute la contribution cantonale de CHF 30 par chien et par an.",
+      "quellen": [
+        "zh_winterthur_merkblatt"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "wert": "Einwohnerkontrolle, dans les 10 jours",
+      "text": "Si votre chien a plus de 3 mois, vous l'annoncez dans les 10 jours auprès de l'Einwohnerkontrolle (contrôle des habitants), Pionierstrasse 7. Cela se fait aussi en ligne. Pour chaque nouvelle annonce et pour chaque changement de détenteur, la Ville facture un émolument d'annonce unique de CHF 20.",
+      "quellen": [
+        "zh_winterthur_hundewesen",
+        "zh_winterthur_merkblatt"
+      ]
+    },
+    {
+      "titel": "Laisse",
+      "wert": "Wildpark Bruderhaus: laisse courte",
+      "text": "Au Wildpark Bruderhaus (parc animalier), vous tenez votre chien en laisse courte.",
+      "quellen": [
+        "zh_winterthur_bruderhaus"
+      ]
+    }
+  ]
+}

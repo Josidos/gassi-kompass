@@ -1,0 +1,37 @@
+{
+  "id": "illnau-effretikon",
+  "kanton": "zh",
+  "bfs": 296,
+  "uebersetzt_aus": "de",
+  "original": "c65abe430a07",
+  "name": "Illnau-Effretikon",
+  "ort": "Illnau-Effretikon",
+  "in_ort": "a Illnau-Effretikon",
+  "einleitung": "Tutti gli importi provengono dal Gebührenreglement (regolamento sulle tasse) della Città, stato 1° gennaio 2019. Non è stato possibile trovare una versione più recente.",
+  "karten": [
+    {
+      "titel": "Imposta sui cani",
+      "wert": "CHF 150 per cane e per anno (stato 2019)",
+      "text": "L'imposta sui cani ammonta a CHF 150 per cane e per anno civile. Se l'imposta è dovuta solo dopo il 30 giugno, sono CHF 75. Stato del Gebührenreglement: 1° gennaio 2019.",
+      "quellen": [
+        "zh_ilef_gebrgl"
+      ]
+    },
+    {
+      "titel": "Tassa di notifica",
+      "wert": "gratuita, in ritardo CHF 20 (stato 2019)",
+      "text": "Una notifica ordinaria è gratuita. Per una notifica tardiva o un sollecito la Città fattura CHF 20. Stato del Gebührenreglement: 1° gennaio 2019.",
+      "quellen": [
+        "zh_ilef_gebrgl"
+      ]
+    },
+    {
+      "titel": "Cane smarrito",
+      "wert": "riconsegna CHF 20 (stato 2019)",
+      "text": "Per la riconsegna di un cane smarrito l'ufficio oggetti smarriti fattura CHF 20. Stato del Gebührenreglement: 1° gennaio 2019.",
+      "quellen": [
+        "zh_ilef_gebrgl"
+      ]
+    }
+  ]
+}

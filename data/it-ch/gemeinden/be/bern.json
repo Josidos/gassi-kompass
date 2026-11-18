@@ -1,0 +1,37 @@
+{
+  "id": "bern",
+  "kanton": "be",
+  "bfs": 351,
+  "uebersetzt_aus": "de",
+  "original": "470f0ca067db",
+  "name": "Città di Berna",
+  "ort": "Berna",
+  "in_ort": "a Berna",
+  "einleitung": "Oltre alle regole cantonali, la Città stabilisce propri luoghi con obbligo di guinzaglio.",
+  "karten": [
+    {
+      "titel": "Guinzaglio",
+      "wert": "luoghi indicati sulla pianta della città",
+      "text": "La pianta della città mostra, nel tema «Leinenpflicht für Hunde» (obbligo di guinzaglio per i cani), dove in città vale in più l'obbligo di guinzaglio.",
+      "quellen": [
+        "be_plan"
+      ]
+    },
+    {
+      "titel": "Accesso vietato",
+      "wert": "Tierpark e Kinderzoo",
+      "text": "Nella parte a pagamento del Tierpark (parco zoologico) e nel Kinderzoo (zoo per bambini) i cani non sono ammessi.",
+      "quellen": [
+        "be_zoo"
+      ]
+    },
+    {
+      "titel": "Imposta sui cani",
+      "wert": "giorno di riferimento: 1° agosto",
+      "text": "È soggetto all'imposta chi abita nella città di Berna il 1° agosto.",
+      "quellen": [
+        "be_taxe"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "duebendorf",
+  "kanton": "zh",
+  "bfs": 191,
+  "uebersetzt_aus": "de",
+  "original": "1a1c32e2d130",
+  "name": "Dübendorf",
+  "ort": "Dübendorf",
+  "in_ort": "à Dübendorf",
+  "einleitung": "La Ville perçoit l'impôt sur les chiens. Sa Polizeiverordnung (ordonnance de police) exige que vous ramassiez partout les crottes de votre chien.",
+  "karten": [
+    {
+      "titel": "Impôt sur les chiens",
+      "wert": "CHF 150, chaque chien supplémentaire CHF 170",
+      "text": "L'impôt sur les chiens s'élève à CHF 150 par année civile. Pour chaque chien supplémentaire dans le même ménage, il est de CHF 170. Si un chien atteint l'âge de trois mois après le 30 juin ou s'il est nouvellement détenu dans le canton après cette date, la moitié est due.",
+      "quellen": [
+        "zh_duebendorf_hunde"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "wert": "Einwohnerdienste, dans les 10 jours",
+      "text": "Si votre chien a plus de trois mois, vous l'annoncez dans les 10 jours auprès des Einwohnerdienste (services des habitants) et dans la banque de données AMICUS. Qui détient un chien pour la première fois s'adresse au préalable aux Einwohnerdienste.",
+      "quellen": [
+        "zh_duebendorf_hunde"
+      ]
+    },
+    {
+      "titel": "Crottes de chien",
+      "wert": "ramassage obligatoire sur tout le territoire communal",
+      "text": "Vous devez ramasser partout les crottes de votre chien: sur le domaine public et privé, sur les terres agricoles cultivées et en forêt. État de la Polizeiverordnung: 2014.",
+      "quellen": [
+        "zh_duebendorf_polv"
+      ]
+    },
+    {
+      "titel": "Amendes",
+      "wert": "jusqu'à CHF 500",
+      "text": "Qui enfreint la Polizeiverordnung est puni d'une amende pouvant aller jusqu'à CHF 500. État de la Polizeiverordnung: 2014.",
+      "quellen": [
+        "zh_duebendorf_polv"
+      ]
+    }
+  ]
+}

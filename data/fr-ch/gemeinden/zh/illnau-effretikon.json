@@ -1,0 +1,37 @@
+{
+  "id": "illnau-effretikon",
+  "kanton": "zh",
+  "bfs": 296,
+  "uebersetzt_aus": "de",
+  "original": "c65abe430a07",
+  "name": "Illnau-Effretikon",
+  "ort": "Illnau-Effretikon",
+  "in_ort": "à Illnau-Effretikon",
+  "einleitung": "Tous les montants proviennent du Gebührenreglement (règlement sur les émoluments) de la Ville, état au 1er janvier 2019. Aucune version plus récente n'a pu être trouvée.",
+  "karten": [
+    {
+      "titel": "Impôt sur les chiens",
+      "wert": "CHF 150 par chien et par an (état 2019)",
+      "text": "L'impôt sur les chiens s'élève à CHF 150 par chien et par année civile. Si l'impôt n'est dû qu'après le 30 juin, il est de CHF 75. État du Gebührenreglement: 1er janvier 2019.",
+      "quellen": [
+        "zh_ilef_gebrgl"
+      ]
+    },
+    {
+      "titel": "Émolument d'annonce",
+      "wert": "gratuit, en retard CHF 20 (état 2019)",
+      "text": "Une annonce ordinaire est gratuite. Pour une annonce tardive ou une sommation, la Ville facture CHF 20. État du Gebührenreglement: 1er janvier 2019.",
+      "quellen": [
+        "zh_ilef_gebrgl"
+      ]
+    },
+    {
+      "titel": "Chien égaré",
+      "wert": "restitution CHF 20 (état 2019)",
+      "text": "Pour la restitution d'un chien égaré, le bureau des objets trouvés facture CHF 20. État du Gebührenreglement: 1er janvier 2019.",
+      "quellen": [
+        "zh_ilef_gebrgl"
+      ]
+    }
+  ]
+}

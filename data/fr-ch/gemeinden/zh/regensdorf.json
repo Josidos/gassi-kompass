@@ -1,0 +1,46 @@
+{
+  "id": "regensdorf",
+  "kanton": "zh",
+  "bfs": 96,
+  "uebersetzt_aus": "de",
+  "original": "55c1f2a7b5d7",
+  "name": "Regensdorf",
+  "ort": "Regensdorf",
+  "in_ort": "à Regensdorf",
+  "einleitung": "La commune reçoit l'annonce en ligne. Elle n'indique pas le montant de l'impôt sur les chiens sur ses pages.",
+  "karten": [
+    {
+      "titel": "Annonce",
+      "wert": "Einwohnerdienste, en ligne, dans les 10 jours",
+      "text": "Vous annoncez votre chien dans les 10 jours suivant sa prise en charge auprès des Einwohnerdienste Regensdorf (services des habitants). Cela se fait au moyen du formulaire en ligne de la commune ou par e-mail, un passage au guichet n'est pas nécessaire. Vous annoncez aussi dans les 10 jours la cession ou la mort d'un chien.",
+      "quellen": [
+        "zh_regensdorf_hundewesen",
+        "zh_regensdorf_anmeldung"
+      ]
+    },
+    {
+      "titel": "Émolument d'annonce",
+      "wert": "CHF 20",
+      "text": "L'annonce d'un chien coûte CHF 20.",
+      "quellen": [
+        "zh_regensdorf_anmeldung"
+      ]
+    },
+    {
+      "titel": "Documents",
+      "wert": "pièce d'identité, passeport pour animaux, attestations de cours",
+      "text": "Pour l'annonce, il vous faut votre passeport, votre carte d'identité ou votre livret pour étrangers, le passeport pour animaux de compagnie du chien et les attestations des cours pour chiens déjà suivis.",
+      "quellen": [
+        "zh_regensdorf_anmeldung"
+      ]
+    },
+    {
+      "titel": "Impôt sur les chiens",
+      "wert": "facture en février ou en mars",
+      "text": "La facture de l'impôt sur les chiens arrive chaque année par la poste, en février ou en mars. La commune n'indique pas le montant sur ses pages.",
+      "quellen": [
+        "zh_regensdorf_schalter"
+      ]
+    }
+  ]
+}

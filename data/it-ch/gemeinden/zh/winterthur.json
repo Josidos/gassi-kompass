@@ -1,0 +1,38 @@
+{
+  "id": "winterthur",
+  "kanton": "zh",
+  "bfs": 230,
+  "uebersetzt_aus": "de",
+  "original": "0feed4cc5db0",
+  "name": "Winterthur",
+  "ort": "Winterthur",
+  "in_ort": "a Winterthur",
+  "einleitung": "La Città riscuote l'imposta sui cani e tiene il controllo dei cani. Per guinzaglio e bosco valgono le regole del Cantone.",
+  "karten": [
+    {
+      "titel": "Imposta sui cani",
+      "wert": "CHF 160 più CHF 30 per cane e per anno",
+      "text": "L'imposta comunale ammonta a CHF 160 per cane e per anno. A questa si aggiunge il contributo cantonale di CHF 30 per cane e per anno.",
+      "quellen": [
+        "zh_winterthur_merkblatt"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "wert": "Einwohnerkontrolle, entro 10 giorni",
+      "text": "Se il tuo cane ha più di 3 mesi, lo annunci entro 10 giorni all'Einwohnerkontrolle (controllo abitanti), Pionierstrasse 7. Puoi farlo anche online. Per ogni nuova notifica e per ogni cambio di detentore la Città fattura una tassa di notifica unica di CHF 20.",
+      "quellen": [
+        "zh_winterthur_hundewesen",
+        "zh_winterthur_merkblatt"
+      ]
+    },
+    {
+      "titel": "Guinzaglio",
+      "wert": "Wildpark Bruderhaus: guinzaglio corto",
+      "text": "Nel Wildpark Bruderhaus (parco faunistico) tieni il tuo cane al guinzaglio corto.",
+      "quellen": [
+        "zh_winterthur_bruderhaus"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "adliswil",
+  "kanton": "zh",
+  "bfs": 131,
+  "uebersetzt_aus": "de",
+  "original": "bcbee0535b6f",
+  "name": "Adliswil",
+  "ort": "Adliswil",
+  "in_ort": "ad Adliswil",
+  "einleitung": "Ad Adliswil la Polizei Adliswil - Langnau am Albis (polizia) è competente per la notifica dei cani.",
+  "karten": [
+    {
+      "titel": "Imposta sui cani",
+      "wert": "CHF 180 all'anno",
+      "text": "Ad Adliswil l'imposta sui cani ammonta a CHF 180 all'anno, contributo cantonale compreso.",
+      "quellen": [
+        "zh_adliswil_hundewesen"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "wert": "polizia, entro 10 giorni",
+      "text": "Se il tuo cane ha più di tre mesi, lo annunci entro dieci giorni, online o allo sportello della Polizei Adliswil - Langnau am Albis. Anche il cambio di detentore, il cambio di indirizzo o la morte del cane vanno annunciati entro dieci giorni alla polizia e ad Amicus.",
+      "quellen": [
+        "zh_adliswil_hundewesen"
+      ]
+    },
+    {
+      "titel": "Tasse",
+      "wert": "CHF 20 alla notifica",
+      "text": "Alla notifica la Città riscuote una tassa unica di CHF 20.",
+      "quellen": [
+        "zh_adliswil_hundewesen"
+      ]
+    }
+  ]
+}

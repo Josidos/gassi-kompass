@@ -1,0 +1,45 @@
+{
+  "id": "volketswil",
+  "kanton": "zh",
+  "bfs": 199,
+  "uebersetzt_aus": "de",
+  "original": "83857f708113",
+  "name": "Volketswil",
+  "ort": "Volketswil",
+  "in_ort": "a Volketswil",
+  "einleitung": "La Polizeiverordnung (ordinanza di polizia) del Comune non prevede un proprio obbligo di guinzaglio né divieti per i cani. Valgono le regole del Cantone.",
+  "karten": [
+    {
+      "titel": "Imposta sui cani",
+      "wert": "CHF 180 per cane e per anno",
+      "text": "L'imposta sui cani ammonta a CHF 180 per cane e per anno. Il contributo al Cantone di CHF 30 è compreso.",
+      "quellen": [
+        "zh_volketswil_hundeabgabe"
+      ]
+    },
+    {
+      "titel": "Mezza imposta",
+      "wert": "se la detenzione inizia dopo il 30 giugno",
+      "text": "Se la detenzione del cane inizia dopo il 30 giugno o se il cane compie tre mesi solo dopo questa data, è dovuta metà dell'imposta.",
+      "quellen": [
+        "zh_volketswil_hundeabgabe"
+      ]
+    },
+    {
+      "titel": "Detenzione di animali",
+      "wert": "non molestare né mettere in pericolo nessuno",
+      "text": "Secondo la Polizeiverordnung gli animali vanno tenuti e sorvegliati in modo che non molestino né mettano in pericolo persone o altri animali (art. 5). Se un animale pericoloso scappa, lo annunci subito alla polizia.",
+      "quellen": [
+        "zh_volketswil_polv"
+      ]
+    },
+    {
+      "titel": "Multe",
+      "wert": "multa, importo fissato dal Gemeinderat",
+      "text": "Chi viola la Polizeiverordnung è punito con una multa (art. 25). Gli importi delle multe disciplinari sono fissati dal Gemeinderat (esecutivo comunale), l'ordinanza stessa non ne indica.",
+      "quellen": [
+        "zh_volketswil_polv"
+      ]
+    }
+  ]
+}

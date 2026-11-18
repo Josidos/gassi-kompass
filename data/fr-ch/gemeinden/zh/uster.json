@@ -1,0 +1,46 @@
+{
+  "id": "uster",
+  "kanton": "zh",
+  "bfs": 198,
+  "uebersetzt_aus": "de",
+  "original": "3eb2db9ea35e",
+  "name": "Uster",
+  "ort": "Uster",
+  "in_ort": "à Uster",
+  "einleitung": "La Ville perçoit l'impôt sur les chiens et montre sur un plan où la laisse est obligatoire en forêt à Uster.",
+  "karten": [
+    {
+      "titel": "Impôt sur les chiens",
+      "wert": "CHF 200 par chien",
+      "text": "L'impôt sur les chiens s'élève à CHF 200 par chien. La contribution cantonale de CHF 30 y est comprise.",
+      "quellen": [
+        "zh_uster_hundewesen"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "wert": "Einwohnerdienste, dans les 10 jours, CHF 10",
+      "text": "Si votre chien a plus de 3 mois, vous l'annoncez dans les 10 jours auprès des Einwohnerdienste (services des habitants), en ligne ou au guichet. L'annonce coûte CHF 10.",
+      "quellen": [
+        "zh_uster_hundewesen"
+      ]
+    },
+    {
+      "titel": "Crottes de chien",
+      "wert": "ramassage obligatoire dans toute la ville",
+      "text": "Sur tout le territoire de la ville d'Uster, vous devez ramasser les crottes de votre chien.",
+      "quellen": [
+        "zh_uster_hundewesen"
+      ]
+    },
+    {
+      "titel": "Laisse",
+      "wert": "plan des forêts et des lisières",
+      "text": "La Ville montre sur un plan d'ensemble quels secteurs d'Uster sont considérés comme forêt et lisière. La laisse obligatoire du canton s'y applique du 1er avril au 31 juillet. État du plan: 1er avril 2023. Selon la Ville, il n'y a pas de laisse obligatoire expresse au bord du Greifensee, mais de larges parties de la rive sont protégées.",
+      "quellen": [
+        "zh_uster_waldplan",
+        "zh_uster_hundewesen"
+      ]
+    }
+  ]
+}

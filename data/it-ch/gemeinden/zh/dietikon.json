@@ -1,0 +1,48 @@
+{
+  "id": "dietikon",
+  "kanton": "zh",
+  "bfs": 243,
+  "uebersetzt_aus": "de",
+  "original": "efff43a6a1fc",
+  "name": "Dietikon",
+  "ort": "Dietikon",
+  "in_ort": "a Dietikon",
+  "einleitung": "La Città riscuote l'imposta sui cani e tasse per le notifiche.",
+  "karten": [
+    {
+      "titel": "Imposta sui cani",
+      "wert": "CHF 160 per cane e per anno",
+      "text": "L'imposta sui cani ammonta a CHF 160 per cane e per anno ed è riscossa in anticipo per l'anno civile. Se un cane diventa imponibile tra il 1° luglio e il 31 dicembre, è dovuta la metà.",
+      "quellen": [
+        "zh_dietikon_hundewesen",
+        "zh_dietikon_tarif"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "wert": "servizio cani della Città, entro 10 giorni",
+      "text": "Dal terzo mese di vita annunci il tuo cane entro 10 giorni: Sicherheits- und Gesundheitsabteilung (divisione sicurezza e salute), Hundewesen, Bremgartnerstrasse 22. Per ogni cane serve un modulo separato.",
+      "quellen": [
+        "zh_dietikon_anmeldung",
+        "zh_dietikon_hundewesen"
+      ]
+    },
+    {
+      "titel": "Tassa di notifica",
+      "wert": "CHF 20, in ritardo CHF 40",
+      "text": "Una notifica ordinaria costa CHF 20 per cane, una notifica tardiva CHF 40.",
+      "quellen": [
+        "zh_dietikon_hundewesen",
+        "zh_dietikon_tarif"
+      ]
+    },
+    {
+      "titel": "Cane smarrito",
+      "wert": "riconsegna CHF 50",
+      "text": "Per la riconsegna di un cane smarrito la Città fattura CHF 50.",
+      "quellen": [
+        "zh_dietikon_tarif"
+      ]
+    }
+  ]
+}

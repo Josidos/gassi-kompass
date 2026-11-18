@@ -1,0 +1,47 @@
+{
+  "id": "wetzikon",
+  "kanton": "zh",
+  "bfs": 121,
+  "uebersetzt_aus": "de",
+  "original": "e938e2418e9a",
+  "name": "Wetzikon",
+  "ort": "Wetzikon",
+  "in_ort": "a Wetzikon",
+  "einleitung": "La Città riscuote l'imposta sui cani tramite gli Einwohnerdienste (servizi abitanti). La Polizeiverordnung (ordinanza di polizia) disciplina gli escrementi dei cani.",
+  "karten": [
+    {
+      "titel": "Imposta sui cani",
+      "wert": "CHF 180 per cane",
+      "text": "L'imposta sui cani ammonta a CHF 180 per cane e per anno. Il contributo al Cantone di CHF 30 è compreso. Se prendi a carico il cane dopo il 30 giugno o se compie tre mesi solo allora, paghi CHF 90.",
+      "quellen": [
+        "zh_wetzikon_hundewesen",
+        "zh_wetzikon_tarif"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "wert": "Einwohnerdienste, entro 10 giorni",
+      "text": "Se il tuo cane ha più di tre mesi, lo annunci entro 10 giorni agli Einwohnerdienste. Se non lo annunci e la Città deve fare lei stessa la notifica alla banca dati Amicus, questo costa CHF 30.",
+      "quellen": [
+        "zh_wetzikon_hundewesen",
+        "zh_wetzikon_tarif"
+      ]
+    },
+    {
+      "titel": "Escrementi",
+      "wert": "raccogliere e smaltire",
+      "text": "Devi raccogliere gli escrementi del cane e smaltirli nei punti di raccolta designati a questo scopo. Lo prevede l'art. 22 della Polizeiverordnung, in vigore dal 1° agosto 2026.",
+      "quellen": [
+        "zh_wetzikon_pvo"
+      ]
+    },
+    {
+      "titel": "Guinzaglio",
+      "wert": "nessuna regola propria della Città",
+      "text": "La Polizeiverordnung della Città non contiene un proprio obbligo di guinzaglio né divieti per i cani in determinati luoghi. Valgono le regole del Cantone.",
+      "quellen": [
+        "zh_wetzikon_pvo"
+      ]
+    }
+  ]
+}

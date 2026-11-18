@@ -1,0 +1,39 @@
+{
+  "id": "lausanne",
+  "kanton": "vd",
+  "bfs": 5586,
+  "uebersetzt_aus": "fr",
+  "original": "a8c995ffc394",
+  "name": "Città di Losanna",
+  "ort": "Losanna",
+  "in_ort": "a Losanna",
+  "einleitung": "Dal 2004 Losanna allestisce aree di svago per cani nei parchi pubblici e sulle rive del lago. La Città riscuote una propria imposta sui cani, in aggiunta all'imposta cantonale.",
+  "karten": [
+    {
+      "titel": "Imposta sui cani",
+      "wert": "CHF 190 per cane e per anno",
+      "text": "L'importo comprende l'imposta comunale di CHF 90 e l'imposta cantonale di CHF 100. L'imposta è dovuta dalla persona proprietaria del cane al 1° gennaio. Un cane per persona è esentato, su presentazione di un giustificativo, per chi beneficia di prestazioni complementari AVS/AI o del revenu d'insertion (reddito d'inserimento). Un sussidio per l'assicurazione malattie, le PC Familles (prestazioni complementari per le famiglie) o la rente-pont (rendita ponte) non danno diritto all'esenzione.",
+      "quellen": [
+        "vd_lausanne_faq",
+        "vd_lausanne_impot"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "wert": "entro 15 giorni, al Bureau des impôts",
+      "text": "Un cane acquistato o ricevuto nel corso dell'anno, o che soggiorna più di tre mesi nel Comune, va annunciato entro 15 giorni al Bureau des impôts (ufficio delle imposte), place Chauderon 9, per telefono, allo sportello o con il modulo online. L'iscrizione di un nuovo cane costa CHF 20, oppure CHF 50 in caso di omissione. Anche la notifica di partenza è obbligatoria.",
+      "quellen": [
+        "vd_lausanne_impot",
+        "vd_lausanne_faq"
+      ]
+    },
+    {
+      "titel": "Guinzaglio",
+      "wert": "secondo la segnaletica, aree di svago nei parchi",
+      "text": "La maggior parte dei parchi e quasi tutti i quartieri dispongono di aree di svago per cani. La carta della Città distingue tre tipi di zone: al guinzaglio, al guinzaglio secondo la stagione, vietato ai cani. È indicativa, fa stato solo la segnaletica ufficiale. L'obbligo di guinzaglio dal 1° aprile al 15 luglio vale anche nei boschi in città, al margine del bosco e nei prati adiacenti.",
+      "quellen": [
+        "vd_lausanne_zones"
+      ]
+    }
+  ]
+}

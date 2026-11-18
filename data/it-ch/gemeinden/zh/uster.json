@@ -1,0 +1,46 @@
+{
+  "id": "uster",
+  "kanton": "zh",
+  "bfs": 198,
+  "uebersetzt_aus": "de",
+  "original": "3eb2db9ea35e",
+  "name": "Uster",
+  "ort": "Uster",
+  "in_ort": "a Uster",
+  "einleitung": "La Città riscuote l'imposta sui cani e mostra su un piano dove a Uster vale l'obbligo di guinzaglio nel bosco.",
+  "karten": [
+    {
+      "titel": "Imposta sui cani",
+      "wert": "CHF 200 per cane",
+      "text": "L'imposta sui cani ammonta a CHF 200 per cane. Il contributo cantonale di CHF 30 è compreso.",
+      "quellen": [
+        "zh_uster_hundewesen"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "wert": "Einwohnerdienste, entro 10 giorni, CHF 10",
+      "text": "Se il tuo cane ha più di 3 mesi, lo annunci entro 10 giorni agli Einwohnerdienste (servizi abitanti), online o allo sportello. La notifica costa CHF 10.",
+      "quellen": [
+        "zh_uster_hundewesen"
+      ]
+    },
+    {
+      "titel": "Escrementi",
+      "wert": "obbligo di raccolta in tutta la città",
+      "text": "Su tutto il territorio della città di Uster devi raccogliere gli escrementi del tuo cane.",
+      "quellen": [
+        "zh_uster_hundewesen"
+      ]
+    },
+    {
+      "titel": "Guinzaglio",
+      "wert": "piano di bosco e margine del bosco",
+      "text": "La Città mostra su un piano d'insieme quali zone di Uster sono considerate bosco e margine del bosco. Lì vale dal 1° aprile al 31 luglio l'obbligo di guinzaglio del Cantone. Stato del piano: 1° aprile 2023. Secondo la Città, sul Greifensee non vale un obbligo di guinzaglio esplicito, ma ampie parti della riva sono protette.",
+      "quellen": [
+        "zh_uster_waldplan",
+        "zh_uster_hundewesen"
+      ]
+    }
+  ]
+}

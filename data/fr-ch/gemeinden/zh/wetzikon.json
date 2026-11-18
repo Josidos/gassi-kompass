@@ -1,0 +1,47 @@
+{
+  "id": "wetzikon",
+  "kanton": "zh",
+  "bfs": 121,
+  "uebersetzt_aus": "de",
+  "original": "e938e2418e9a",
+  "name": "Wetzikon",
+  "ort": "Wetzikon",
+  "in_ort": "à Wetzikon",
+  "einleitung": "La Ville perçoit l'impôt sur les chiens par l'intermédiaire des Einwohnerdienste (services des habitants). La Polizeiverordnung (ordonnance de police) règle la question des crottes de chien.",
+  "karten": [
+    {
+      "titel": "Impôt sur les chiens",
+      "wert": "CHF 180 par chien",
+      "text": "L'impôt sur les chiens s'élève à CHF 180 par chien et par an. La contribution au canton de CHF 30 y est comprise. Si vous prenez le chien en charge après le 30 juin ou s'il n'atteint l'âge de trois mois qu'à ce moment-là, vous payez CHF 90.",
+      "quellen": [
+        "zh_wetzikon_hundewesen",
+        "zh_wetzikon_tarif"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "wert": "Einwohnerdienste, dans les 10 jours",
+      "text": "Si votre chien a plus de trois mois, vous l'annoncez dans les 10 jours auprès des Einwohnerdienste. Si vous ne l'annoncez pas et que la Ville doit faire elle-même l'annonce auprès de la banque de données Amicus, cela coûte CHF 30.",
+      "quellen": [
+        "zh_wetzikon_hundewesen",
+        "zh_wetzikon_tarif"
+      ]
+    },
+    {
+      "titel": "Crottes de chien",
+      "wert": "ramasser et éliminer",
+      "text": "Vous devez ramasser les crottes de chien et les éliminer dans les points de collecte désignés à cet effet. C'est ce que prévoit l'art. 22 de la Polizeiverordnung, en vigueur depuis le 1er août 2026.",
+      "quellen": [
+        "zh_wetzikon_pvo"
+      ]
+    },
+    {
+      "titel": "Laisse",
+      "wert": "pas de règle propre à la Ville",
+      "text": "La Polizeiverordnung de la Ville ne contient ni laisse obligatoire propre ni interdiction des chiens pour des lieux déterminés. Les règles du canton s'appliquent.",
+      "quellen": [
+        "zh_wetzikon_pvo"
+      ]
+    }
+  ]
+}

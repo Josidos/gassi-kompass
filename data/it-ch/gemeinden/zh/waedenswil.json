@@ -1,0 +1,37 @@
+{
+  "id": "waedenswil",
+  "kanton": "zh",
+  "bfs": 293,
+  "uebersetzt_aus": "de",
+  "original": "a49c75cb0bf5",
+  "name": "Wädenswil",
+  "ort": "Wädenswil",
+  "in_ort": "a Wädenswil",
+  "einleitung": "La Città riscuote l'imposta sui cani e una tassa per la notifica.",
+  "karten": [
+    {
+      "titel": "Imposta sui cani",
+      "wert": "CHF 150 all'anno",
+      "text": "L'imposta sui cani ammonta a CHF 150 all'anno. La Città la fattura ogni anno.",
+      "quellen": [
+        "zh_waedenswil_hundewesen"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "wert": "entro 10 giorni, CHF 20",
+      "text": "Annunci il tuo cane entro 10 giorni alla Città e nella banca dati Amicus. La Città offre a questo scopo un servizio online. La notifica costa CHF 20, una notifica tardiva CHF 40. Se è il tuo primo cane, ti rivolgi prima alla Stabstelle Gesellschaft (servizio di stato maggiore Società).",
+      "quellen": [
+        "zh_waedenswil_hundewesen"
+      ]
+    },
+    {
+      "titel": "Escrementi",
+      "wert": "sacchetti gratuiti agli Einwohnerdienste",
+      "text": "I sacchetti Robidog li ricevi gratuitamente allo sportello degli Einwohnerdienste (servizi abitanti).",
+      "quellen": [
+        "zh_waedenswil_hundewesen"
+      ]
+    }
+  ]
+}

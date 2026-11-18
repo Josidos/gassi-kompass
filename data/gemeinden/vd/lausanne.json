@@ -1,0 +1,39 @@
+{
+  "id": "lausanne",
+  "kanton": "vd",
+  "bfs": 5586,
+  "uebersetzt_aus": "fr",
+  "original": "a8c995ffc394",
+  "name": "Stadt Lausanne",
+  "ort": "Lausanne",
+  "in_ort": "in Lausanne",
+  "einleitung": "Seit 2004 richtet Lausanne in den öffentlichen Parks und am Seeufer Freilaufzonen für Hunde ein. Die Stadt erhebt eine eigene Hundesteuer, zusätzlich zur kantonalen Steuer.",
+  "karten": [
+    {
+      "titel": "Hundetaxe",
+      "wert": "CHF 190 pro Hund und Jahr",
+      "text": "Der Betrag umfasst die Gemeindesteuer von CHF 90 und die kantonale Steuer von CHF 100. Die Steuer schuldet, wem der Hund am 1. Januar gehört. Wer Ergänzungsleistungen zur AHV/IV oder das Revenu d'insertion (Eingliederungseinkommen) bezieht, ist gegen Nachweis für einen Hund pro Person befreit. Eine Prämienverbilligung der Krankenversicherung, die PC Familles (Ergänzungsleistungen für Familien) oder die Rente-pont (Überbrückungsrente) geben keinen Anspruch auf die Befreiung.",
+      "quellen": [
+        "vd_lausanne_faq",
+        "vd_lausanne_impot"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "wert": "innert 15 Tagen beim Bureau des impôts",
+      "text": "Einen Hund, den du im Lauf des Jahres erwirbst oder erhältst oder der länger als drei Monate in der Gemeinde bleibt, meldest du innert 15 Tagen beim Bureau des impôts (Steueramt) an, place Chauderon 9: telefonisch, am Schalter oder mit dem Onlineformular. Die Eintragung eines neuen Hundes kostet CHF 20, bei unterlassener Meldung CHF 50. Auch die Abmeldung ist Pflicht.",
+      "quellen": [
+        "vd_lausanne_impot",
+        "vd_lausanne_faq"
+      ]
+    },
+    {
+      "titel": "Leine",
+      "wert": "gemäss Schildern, Freilaufzonen in den Parks",
+      "text": "Die meisten Parks und fast alle Quartiere haben Freilaufzonen für Hunde. Die Karte der Stadt unterscheidet drei Arten von Zonen: an der Leine, je nach Jahreszeit an der Leine, für Hunde verboten. Sie dient nur zur Orientierung, massgebend sind allein die amtlichen Schilder. Die Leinenpflicht vom 1. April bis 15. Juli gilt auch in den Wäldern der Stadt, am Waldrand und auf den angrenzenden Wiesen.",
+      "quellen": [
+        "vd_lausanne_zones"
+      ]
+    }
+  ]
+}

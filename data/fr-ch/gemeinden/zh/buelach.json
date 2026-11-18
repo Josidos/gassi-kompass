@@ -1,0 +1,37 @@
+{
+  "id": "buelach",
+  "kanton": "zh",
+  "bfs": 53,
+  "uebersetzt_aus": "de",
+  "original": "fd547628e116",
+  "name": "Bülach",
+  "ort": "Bülach",
+  "in_ort": "à Bülach",
+  "einleitung": "À Bülach, la Stadtpolizei (police municipale) est compétente pour l'annonce et pour l'émolument annuel.",
+  "karten": [
+    {
+      "titel": "Impôt sur les chiens",
+      "wert": "CHF 170 par an",
+      "text": "L'émolument annuel pour la détention d'un chien s'élève à CHF 170. La Stadtpolizei le facture chaque année. Vous le payez jusqu'au 31 mars. Passé ce délai, l'émolument augmente, sauf si le chien est nouveau.",
+      "quellen": [
+        "zh_buelach_gebuehr"
+      ]
+    },
+    {
+      "titel": "Réduction",
+      "wert": "50 pour cent avec le Hundehalter-Brevet",
+      "text": "Qui obtient le Hundehalter-Brevet (brevet national de détenteur de chien) bénéficie, l'année de l'obtention, d'une réduction unique de 50 pour cent. La Ville la soumet à des conditions, notamment le domicile à Bülach. Si le chien meurt avant le 30 juin, une partie de l'émolument vous est remboursée.",
+      "quellen": [
+        "zh_buelach_gebuehr"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "wert": "Stadtpolizei, dans les 10 jours",
+      "text": "Si votre chien a plus de 3 mois, vous l'annoncez dans les 10 jours, au guichet de la Stadtpolizei ou au moyen du formulaire en ligne. Selon la Ville, les annonces tardives sont soumises à un émolument.",
+      "quellen": [
+        "zh_buelach_meldungen"
+      ]
+    }
+  ]
+}

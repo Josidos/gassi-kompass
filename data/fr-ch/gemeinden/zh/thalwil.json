@@ -1,0 +1,37 @@
+{
+  "id": "thalwil",
+  "kanton": "zh",
+  "bfs": 141,
+  "uebersetzt_aus": "de",
+  "original": "918d5fc0d6a7",
+  "name": "Thalwil",
+  "ort": "Thalwil",
+  "in_ort": "à Thalwil",
+  "einleitung": "À Thalwil, vous annoncez votre chien auprès de l'Einwohnerkontrolle (contrôle des habitants). La facture de l'impôt sur les chiens arrive en février.",
+  "karten": [
+    {
+      "titel": "Impôt sur les chiens",
+      "wert": "CHF 200 par an",
+      "text": "L'impôt annuel s'élève à CHF 170, auxquels s'ajoute la contribution cantonale de CHF 30. La commune envoie la facture en février.",
+      "quellen": [
+        "zh_thalwil_hunde"
+      ]
+    },
+    {
+      "titel": "Réduction",
+      "wert": "demi-impôt après le 30 juin",
+      "text": "Si votre chien n'atteint l'âge de trois mois qu'après le 30 juin, vous payez la moitié pour l'année en cours. Si le chien meurt avant le 30 juin et que vous ne le remplacez pas par un autre chien, la moitié de l'impôt vous est remboursée. Pour les chiens de police, les chiens militaires, les chiens d'aveugle et les chiens de thérapie, vous pouvez demander un impôt réduit à la Sicherheitskommission (commission de sécurité).",
+      "quellen": [
+        "zh_thalwil_hunde"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "wert": "Einwohnerkontrolle, dans les 10 jours",
+      "text": "Vous annoncez votre chien dans les dix jours auprès de l'Einwohnerkontrolle, également en ligne. À apporter: carnet de vaccination, passeport pour animaux de compagnie ou passeport du chien, attestations de cours et attestation d'assurance. Le départ n'est pas enregistré automatiquement: vous l'annoncez par le guichet en ligne.",
+      "quellen": [
+        "zh_thalwil_hunde"
+      ]
+    }
+  ]
+}

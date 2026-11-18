@@ -1,0 +1,37 @@
+{
+  "id": "bern",
+  "kanton": "be",
+  "bfs": 351,
+  "uebersetzt_aus": "de",
+  "original": "470f0ca067db",
+  "name": "Ville de Berne",
+  "ort": "Berne",
+  "in_ort": "à Berne",
+  "einleitung": "En plus des règles cantonales, la Ville fixe ses propres lieux où la laisse est obligatoire.",
+  "karten": [
+    {
+      "titel": "Laisse",
+      "wert": "lieux indiqués sur le plan de ville",
+      "text": "Le plan de ville montre, sous le thème «Leinenpflicht für Hunde» (laisse obligatoire pour les chiens), où la laisse est en outre obligatoire en ville.",
+      "quellen": [
+        "be_plan"
+      ]
+    },
+    {
+      "titel": "Accès interdit",
+      "wert": "Tierpark et Kinderzoo",
+      "text": "Les chiens ne sont pas admis dans la partie payante du Tierpark (parc zoologique) ni au Kinderzoo (zoo pour enfants).",
+      "quellen": [
+        "be_zoo"
+      ]
+    },
+    {
+      "titel": "Impôt sur les chiens",
+      "wert": "jour de référence: 1er août",
+      "text": "Est assujettie à l'impôt toute personne qui habite en ville de Berne le 1er août.",
+      "quellen": [
+        "be_taxe"
+      ]
+    }
+  ]
+}

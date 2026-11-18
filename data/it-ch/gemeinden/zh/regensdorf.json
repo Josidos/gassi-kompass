@@ -1,0 +1,46 @@
+{
+  "id": "regensdorf",
+  "kanton": "zh",
+  "bfs": 96,
+  "uebersetzt_aus": "de",
+  "original": "55c1f2a7b5d7",
+  "name": "Regensdorf",
+  "ort": "Regensdorf",
+  "in_ort": "a Regensdorf",
+  "einleitung": "Il Comune riceve la notifica online. Sulle sue pagine non indica l'importo dell'imposta sui cani.",
+  "karten": [
+    {
+      "titel": "Notifica",
+      "wert": "Einwohnerdienste, online, entro 10 giorni",
+      "text": "Annunci il tuo cane entro 10 giorni dalla presa a carico agli Einwohnerdienste Regensdorf (servizi abitanti). Puoi farlo con il modulo online del Comune o per e-mail, non serve passare allo sportello. Anche la cessione o la morte di un cane vanno annunciate entro 10 giorni.",
+      "quellen": [
+        "zh_regensdorf_hundewesen",
+        "zh_regensdorf_anmeldung"
+      ]
+    },
+    {
+      "titel": "Tassa di notifica",
+      "wert": "CHF 20",
+      "text": "La notifica di un cane costa CHF 20.",
+      "quellen": [
+        "zh_regensdorf_anmeldung"
+      ]
+    },
+    {
+      "titel": "Documenti",
+      "wert": "documento d'identità, passaporto per animali, attestati dei corsi",
+      "text": "Per la notifica ti servono il tuo passaporto, la tua carta d'identità o il tuo permesso per stranieri, il passaporto per animali da compagnia del cane e gli attestati dei corsi per cani già frequentati.",
+      "quellen": [
+        "zh_regensdorf_anmeldung"
+      ]
+    },
+    {
+      "titel": "Imposta sui cani",
+      "wert": "fattura a febbraio o a marzo",
+      "text": "La fattura dell'imposta sui cani arriva ogni anno per posta, a febbraio o a marzo. Il Comune non indica l'importo sulle sue pagine.",
+      "quellen": [
+        "zh_regensdorf_schalter"
+      ]
+    }
+  ]
+}

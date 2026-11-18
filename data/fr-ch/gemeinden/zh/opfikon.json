@@ -1,0 +1,37 @@
+{
+  "id": "opfikon",
+  "kanton": "zh",
+  "bfs": 66,
+  "uebersetzt_aus": "de",
+  "original": "a7a76e2e9105",
+  "name": "Opfikon",
+  "ort": "Opfikon",
+  "in_ort": "à Opfikon",
+  "einleitung": "À Opfikon, vous annoncez votre chien auprès de la Stadtverwaltung, Allgemeine Dienste (administration municipale, services généraux). Les émoluments figurent dans le Gebührentarif der Bevölkerungsdienste (tarif des émoluments des services à la population).",
+  "karten": [
+    {
+      "titel": "Impôt sur les chiens",
+      "wert": "CHF 180 par an",
+      "text": "L'impôt s'élève à CHF 180 par chien et par an, contribution cantonale comprise. La facture arrive fin février et est payable jusqu'à fin mars. Pour les chiens qui atteignent l'âge de trois mois après le 30 juin ou qui ne sont acquis qu'à ce moment-là, vous payez la moitié de l'impôt. Si vous perdez le chien avant le 30 juin, la moitié de l'impôt vous est remboursée.",
+      "quellen": [
+        "zh_opfikon_hundeabgabe"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "wert": "Stadtverwaltung, dans les 10 jours",
+      "text": "Vous annoncez l'arrivée ou le départ de votre chien dans les 10 jours auprès de la Stadtverwaltung, Allgemeine Dienste, également par le service en ligne. Pour l'annonce, il vous faut le carnet de vaccination ou le passeport du chien. L'annonce ordinaire coûte CHF 20 d'émolument d'inscription.",
+      "quellen": [
+        "zh_opfikon_hundeabgabe"
+      ]
+    },
+    {
+      "titel": "Émoluments",
+      "wert": "CHF 40 en cas d'annonce tardive",
+      "text": "Une annonce d'arrivée ou de départ tardive coûte CHF 40. Si la Ville doit modifier vos données dans la banque de données Amicus, elle facture le travail occasionné, au maximum CHF 150. La première décision coûte CHF 50 d'émolument de traitement, la deuxième CHF 100.",
+      "quellen": [
+        "zh_opfikon_hundeabgabe"
+      ]
+    }
+  ]
+}

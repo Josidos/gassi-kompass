@@ -1,0 +1,48 @@
+{
+  "id": "dietikon",
+  "kanton": "zh",
+  "bfs": 243,
+  "uebersetzt_aus": "de",
+  "original": "efff43a6a1fc",
+  "name": "Dietikon",
+  "ort": "Dietikon",
+  "in_ort": "à Dietikon",
+  "einleitung": "La Ville perçoit l'impôt sur les chiens et des émoluments pour les annonces.",
+  "karten": [
+    {
+      "titel": "Impôt sur les chiens",
+      "wert": "CHF 160 par chien et par an",
+      "text": "L'impôt sur les chiens s'élève à CHF 160 par chien et par an. Il est perçu d'avance pour l'année civile. Si un chien devient imposable entre le 1er juillet et le 31 décembre, la moitié est due.",
+      "quellen": [
+        "zh_dietikon_hundewesen",
+        "zh_dietikon_tarif"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "wert": "service des chiens de la Ville, dans les 10 jours",
+      "text": "Dès le troisième mois de vie, vous annoncez votre chien dans les 10 jours: Sicherheits- und Gesundheitsabteilung (division sécurité et santé), Hundewesen, Bremgartnerstrasse 22. Il faut un formulaire distinct pour chaque chien.",
+      "quellen": [
+        "zh_dietikon_anmeldung",
+        "zh_dietikon_hundewesen"
+      ]
+    },
+    {
+      "titel": "Émolument d'annonce",
+      "wert": "CHF 20, en retard CHF 40",
+      "text": "Une annonce ordinaire coûte CHF 20 par chien, une annonce tardive CHF 40.",
+      "quellen": [
+        "zh_dietikon_hundewesen",
+        "zh_dietikon_tarif"
+      ]
+    },
+    {
+      "titel": "Chien égaré",
+      "wert": "restitution CHF 50",
+      "text": "Pour la restitution d'un chien égaré, la Ville facture CHF 50.",
+      "quellen": [
+        "zh_dietikon_tarif"
+      ]
+    }
+  ]
+}

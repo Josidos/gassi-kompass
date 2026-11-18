@@ -1,0 +1,37 @@
+{
+  "id": "adliswil",
+  "kanton": "zh",
+  "bfs": 131,
+  "uebersetzt_aus": "de",
+  "original": "bcbee0535b6f",
+  "name": "Adliswil",
+  "ort": "Adliswil",
+  "in_ort": "à Adliswil",
+  "einleitung": "À Adliswil, la Polizei Adliswil - Langnau am Albis (police) est compétente pour l'annonce des chiens.",
+  "karten": [
+    {
+      "titel": "Impôt sur les chiens",
+      "wert": "CHF 180 par an",
+      "text": "À Adliswil, l'impôt sur les chiens s'élève à CHF 180 par an, contribution cantonale comprise.",
+      "quellen": [
+        "zh_adliswil_hundewesen"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "wert": "police, dans les 10 jours",
+      "text": "Si votre chien a plus de trois mois, vous l'annoncez dans les dix jours, en ligne ou au guichet de la Polizei Adliswil - Langnau am Albis. Un changement de détenteur, un changement d'adresse ou la mort du chien s'annoncent également dans les dix jours à la police et auprès d'Amicus.",
+      "quellen": [
+        "zh_adliswil_hundewesen"
+      ]
+    },
+    {
+      "titel": "Émoluments",
+      "wert": "CHF 20 lors de l'annonce",
+      "text": "Lors de l'annonce, la Ville perçoit un émolument unique de CHF 20.",
+      "quellen": [
+        "zh_adliswil_hundewesen"
+      ]
+    }
+  ]
+}

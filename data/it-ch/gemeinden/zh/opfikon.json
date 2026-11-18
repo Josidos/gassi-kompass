@@ -1,0 +1,37 @@
+{
+  "id": "opfikon",
+  "kanton": "zh",
+  "bfs": 66,
+  "uebersetzt_aus": "de",
+  "original": "a7a76e2e9105",
+  "name": "Opfikon",
+  "ort": "Opfikon",
+  "in_ort": "a Opfikon",
+  "einleitung": "A Opfikon annunci il tuo cane alla Stadtverwaltung, Allgemeine Dienste (amministrazione comunale, servizi generali). Le tasse figurano nel Gebührentarif der Bevölkerungsdienste (tariffario dei servizi alla popolazione).",
+  "karten": [
+    {
+      "titel": "Imposta sui cani",
+      "wert": "CHF 180 all'anno",
+      "text": "L'imposta ammonta a CHF 180 per cane e per anno, contributo cantonale compreso. La fattura arriva a fine febbraio ed è pagabile entro fine marzo. Per i cani che compiono tre mesi dopo il 30 giugno o che vengono acquistati solo allora paghi metà dell'imposta. Se perdi il cane prima del 30 giugno, ti viene rimborsata metà dell'imposta.",
+      "quellen": [
+        "zh_opfikon_hundeabgabe"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "wert": "Stadtverwaltung, entro 10 giorni",
+      "text": "Annunci l'arrivo o la partenza del tuo cane entro 10 giorni alla Stadtverwaltung, Allgemeine Dienste, anche con il servizio online. Per la notifica ti serve il libretto delle vaccinazioni o il passaporto del cane. La notifica ordinaria costa CHF 20 di tassa d'iscrizione.",
+      "quellen": [
+        "zh_opfikon_hundeabgabe"
+      ]
+    },
+    {
+      "titel": "Tasse",
+      "wert": "CHF 40 in caso di notifica tardiva",
+      "text": "Una notifica tardiva di arrivo o di partenza costa CHF 40. Se la Città deve modificare i tuoi dati nella banca dati Amicus, fattura il lavoro svolto, al massimo CHF 150. La prima decisione costa CHF 50 di tassa di trattamento, la seconda CHF 100.",
+      "quellen": [
+        "zh_opfikon_hundeabgabe"
+      ]
+    }
+  ]
+}

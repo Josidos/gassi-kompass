@@ -1,0 +1,45 @@
+{
+  "id": "volketswil",
+  "kanton": "zh",
+  "bfs": 199,
+  "uebersetzt_aus": "de",
+  "original": "83857f708113",
+  "name": "Volketswil",
+  "ort": "Volketswil",
+  "in_ort": "à Volketswil",
+  "einleitung": "La Polizeiverordnung (ordonnance de police) de la commune ne prévoit ni laisse obligatoire propre ni interdiction des chiens. Les règles du canton s'appliquent.",
+  "karten": [
+    {
+      "titel": "Impôt sur les chiens",
+      "wert": "CHF 180 par chien et par an",
+      "text": "L'impôt sur les chiens s'élève à CHF 180 par chien et par an. La contribution au canton de CHF 30 y est comprise.",
+      "quellen": [
+        "zh_volketswil_hundeabgabe"
+      ]
+    },
+    {
+      "titel": "Demi-impôt",
+      "wert": "si la détention débute après le 30 juin",
+      "text": "Si la détention du chien débute après le 30 juin ou si le chien n'atteint l'âge de trois mois qu'après cette date, la moitié de l'impôt est due.",
+      "quellen": [
+        "zh_volketswil_hundeabgabe"
+      ]
+    },
+    {
+      "titel": "Détention d'animaux",
+      "wert": "n'importuner ni mettre en danger personne",
+      "text": "Selon la Polizeiverordnung, les animaux doivent être détenus et surveillés de manière à n'importuner ni mettre en danger des personnes ou d'autres animaux (art. 5). Si un animal dangereux s'échappe, vous l'annoncez immédiatement à la police.",
+      "quellen": [
+        "zh_volketswil_polv"
+      ]
+    },
+    {
+      "titel": "Amendes",
+      "wert": "amende, montant fixé par le Gemeinderat",
+      "text": "Qui enfreint la Polizeiverordnung est puni d'une amende (art. 25). Les montants des amendes d'ordre sont fixés par le Gemeinderat (exécutif communal), l'ordonnance elle-même n'en indique aucun.",
+      "quellen": [
+        "zh_volketswil_polv"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "waedenswil",
+  "kanton": "zh",
+  "bfs": 293,
+  "uebersetzt_aus": "de",
+  "original": "a49c75cb0bf5",
+  "name": "Wädenswil",
+  "ort": "Wädenswil",
+  "in_ort": "à Wädenswil",
+  "einleitung": "La Ville perçoit l'impôt sur les chiens et un émolument pour l'annonce.",
+  "karten": [
+    {
+      "titel": "Impôt sur les chiens",
+      "wert": "CHF 150 par an",
+      "text": "L'impôt sur les chiens s'élève à CHF 150 par an. La Ville le facture chaque année.",
+      "quellen": [
+        "zh_waedenswil_hundewesen"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "wert": "dans les 10 jours, CHF 20",
+      "text": "Vous annoncez votre chien dans les 10 jours auprès de la Ville et dans la banque de données Amicus. La Ville propose pour cela un service en ligne. L'annonce coûte CHF 20, une annonce tardive CHF 40. S'il s'agit de votre premier chien, vous vous adressez au préalable à la Stabstelle Gesellschaft (service d'état-major Société).",
+      "quellen": [
+        "zh_waedenswil_hundewesen"
+      ]
+    },
+    {
+      "titel": "Crottes de chien",
+      "wert": "sachets gratuits aux Einwohnerdienste",
+      "text": "Vous obtenez gratuitement des sachets Robidog au guichet des Einwohnerdienste (services des habitants).",
+      "quellen": [
+        "zh_waedenswil_hundewesen"
+      ]
+    }
+  ]
+}
