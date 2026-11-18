@@ -1,0 +1,37 @@
+{
+  "id": "emmen",
+  "kanton": "lu",
+  "bfs": 1024,
+  "uebersetzt_aus": "de",
+  "original": "f0735f97a421",
+  "name": "Emmen",
+  "ort": "Emmen",
+  "in_ort": "a Emmen",
+  "einleitung": "A livello locale sono documentati l'imposta sui cani, la notifica presso l'Einwohnerkontrolle (controllo abitanti) e il divieto di animali al cimitero. Per l'obbligo di guinzaglio e gli altri divieti di accesso vale la Hundeverordnung (ordinanza sui cani) del Cantone.",
+  "karten": [
+    {
+      "titel": "Imposta sui cani",
+      "wert": "CHF 120 per cane all'anno",
+      "text": "Il Comune di Emmen riscuote l'imposta sui cani ogni anno per ogni cane di età superiore ai sei mesi. Ammonta a CHF 120, per i cani da fattoria delle aziende agricole a CHF 40.",
+      "quellen": [
+        "lu_emmen_steuer"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "wert": "presso l'Einwohnerkontrolle (controllo abitanti)",
+      "text": "Se non hai ancora mai detenuto un cane, ti rivolgi dapprima all'Einwohnerkontrolle Emmen. Ti registra nella banca dati AMICUS. Annunci al Comune la cessione, la presa a carico e la morte di un cane tramite il modulo online. Annunci un arrivo o un trasloco entro dieci giorni.",
+      "quellen": [
+        "lu_emmen_anmeldung"
+      ]
+    },
+    {
+      "titel": "Accesso vietato",
+      "wert": "cimitero: niente animali",
+      "text": "Al cimitero è vietato portare animali o lasciarli correre liberi. Lo stabilisce l'art. 15 cpv. 3 del Reglement über das Friedhof- und Bestattungswesen (regolamento sui cimiteri e le sepolture).",
+      "quellen": [
+        "lu_emmen_friedhof"
+      ]
+    }
+  ]
+}

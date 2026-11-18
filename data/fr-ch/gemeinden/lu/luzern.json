@@ -1,0 +1,49 @@
+{
+  "id": "luzern",
+  "kanton": "lu",
+  "bfs": 1061,
+  "uebersetzt_aus": "de",
+  "original": "4ccaca4f6fea",
+  "name": "Ville de Lucerne",
+  "ort": "Lucerne",
+  "in_ort": "à Lucerne",
+  "hinweis_heute": "En ville de Lucerne, la plupart des surfaces municipales sont interdites aux chiens ou soumises à la laisse obligatoire. Votre chien peut courir en liberté dans les trois espaces de liberté pour chiens.",
+  "einleitung": "Trois espaces de liberté pour chiens délimités et signalés. Sur les autres surfaces municipales s'appliquent, pour la plupart, des interdictions de chiens et la laisse obligatoire.",
+  "freilaufzonen": [
+    {
+      "name": "Allmend",
+      "marken": [
+        "le plus grand espace",
+        "réseau de chemins propre"
+      ],
+      "text": "Derrière l'Armee-Ausbildungszentrum Luzern (centre d'instruction de l'armée), entre le Schäferweg et la Zirkusplatz. Avec des places assises et des arbres qui donnent de l'ombre."
+    },
+    {
+      "name": "Churchillquai",
+      "marken": [
+        "accès à l'eau"
+      ],
+      "text": "Partie de la prairie entre la rive du lac et la Seeburgstrasse, délimitée par une haie et une clôture. Avec des bancs."
+    },
+    {
+      "name": "Tribschenhorn",
+      "marken": [
+        "accès au lac"
+      ],
+      "text": "Entre la Tribschen-Badi (bains de Tribschen) et la surface agricole, avec ses propres chemins de promenade et des places assises."
+    }
+  ],
+  "freilaufzonen_quellen": [
+    "lu_stadt"
+  ],
+  "karten": [
+    {
+      "titel": "Amendes",
+      "wert": "CHF 80 à 150 selon l'infraction",
+      "text": "Non-respect des interdictions ou de la laisse obligatoire: CHF 100 à 150 (réserves naturelles). Crottes de chien laissées sur place: CHF 80. État de la brochure: 2022.",
+      "quellen": [
+        "lu_stadt"
+      ]
+    }
+  ]
+}

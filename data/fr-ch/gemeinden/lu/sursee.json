@@ -1,0 +1,38 @@
+{
+  "id": "sursee",
+  "kanton": "lu",
+  "bfs": 1103,
+  "uebersetzt_aus": "de",
+  "original": "9e28257cffc8",
+  "name": "Ville de Sursee",
+  "ort": "Sursee",
+  "in_ort": "à Sursee",
+  "einleitung": "Pour la laisse obligatoire et les interdictions d'accès, la Ville de Sursee renvoie à la Hundeverordnung (ordonnance sur les chiens) du canton. Sont attestés au niveau local l'impôt sur les chiens, l'annonce et la demande concernant les pelouses scolaires et sportives.",
+  "karten": [
+    {
+      "titel": "Impôt sur les chiens",
+      "wert": "CHF 120 par chien et par an",
+      "text": "L'impôt sur les chiens s'élève à CHF 120 par chien et par année civile. L'Abteilung Öffentliche Sicherheit (service de la sécurité publique) envoie la facture au milieu de l'année.",
+      "quellen": [
+        "lu_sursee_hundekontrolle"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "wert": "auprès de l'administration municipale",
+      "text": "Si vous détenez un chien pour la première fois, vous vous adressez à l'administration de votre commune de domicile, à Sursee donc à l'administration municipale. Elle vous enregistre dans la banque de données AMICUS. Le service compétent est le Sachbereich Sicherheit und Ordnung (secteur sécurité et ordre), avec le contrôle des chiens.",
+      "quellen": [
+        "lu_sursee_hundekontrolle",
+        "lu_sursee_sicherheit"
+      ]
+    },
+    {
+      "titel": "Accès interdit",
+      "wert": "les pelouses scolaires et sportives ne sont pas des prés à chiens",
+      "text": "La Ville demande de ne pas utiliser les pelouses scolaires et sportives comme prés à chiens. Elle cite le Schulhaus Neufeld (école), la pelouse entre Neu et Alt St. Georg et les terrains de football de l'Allmend. Selon la Hundeverordnung du canton, les préaux ainsi que les terrains de jeu et de sport sont interdits aux chiens.",
+      "quellen": [
+        "lu_sursee_hundekontrolle"
+      ]
+    }
+  ]
+}

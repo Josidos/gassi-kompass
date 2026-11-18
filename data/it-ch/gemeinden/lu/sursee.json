@@ -1,0 +1,38 @@
+{
+  "id": "sursee",
+  "kanton": "lu",
+  "bfs": 1103,
+  "uebersetzt_aus": "de",
+  "original": "9e28257cffc8",
+  "name": "Città di Sursee",
+  "ort": "Sursee",
+  "in_ort": "a Sursee",
+  "einleitung": "Per l'obbligo di guinzaglio e i divieti di accesso la Città di Sursee rinvia alla Hundeverordnung (ordinanza sui cani) del Cantone. A livello locale sono documentati l'imposta sui cani, la notifica e la richiesta riguardo ai prati scolastici e sportivi.",
+  "karten": [
+    {
+      "titel": "Imposta sui cani",
+      "wert": "CHF 120 per cane all'anno",
+      "text": "L'imposta sui cani ammonta a CHF 120 per cane e per anno civile. L'Abteilung Öffentliche Sicherheit (servizio sicurezza pubblica) invia la fattura a metà anno.",
+      "quellen": [
+        "lu_sursee_hundekontrolle"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "wert": "presso l'amministrazione comunale",
+      "text": "Se detieni un cane per la prima volta, ti rivolgi all'amministrazione del tuo Comune di domicilio, a Sursee quindi all'amministrazione comunale. Ti registra nella banca dati AMICUS. È competente il Sachbereich Sicherheit und Ordnung (settore sicurezza e ordine) con il controllo dei cani.",
+      "quellen": [
+        "lu_sursee_hundekontrolle",
+        "lu_sursee_sicherheit"
+      ]
+    },
+    {
+      "titel": "Accesso vietato",
+      "wert": "i prati scolastici e sportivi non sono prati per cani",
+      "text": "La Città chiede di non usare i prati scolastici e sportivi come prati per cani. Cita lo Schulhaus Neufeld (scuola), il prato tra Neu e Alt St. Georg e i campi da calcio dell'Allmend. Secondo la Hundeverordnung del Cantone, i cortili scolastici e i campi da gioco e sportivi sono vietati ai cani.",
+      "quellen": [
+        "lu_sursee_hundekontrolle"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "horw",
+  "kanton": "lu",
+  "bfs": 1058,
+  "uebersetzt_aus": "de",
+  "original": "335c4451fcc9",
+  "name": "Horw",
+  "ort": "Horw",
+  "in_ort": "à Horw",
+  "hinweis_heute": "Dans la réserve naturelle au bord du lac entre Ennethorw et Hergiswil (Widenbachdelta), la laisse est obligatoire selon la commune.",
+  "einleitung": "Sont attestés au niveau local l'impôt sur les chiens, l'annonce auprès des Einwohnerdienste (services des habitants) et deux lieux où la laisse est obligatoire. Pour le reste, la Hundeverordnung (ordonnance sur les chiens) du canton s'applique.",
+  "karten": [
+    {
+      "titel": "Impôt sur les chiens",
+      "wert": "CHF 120 par chien et par an",
+      "text": "La commune facture l'impôt sur les chiens chaque année. Il s'élève à CHF 120 par chien, et à CHF 40 pour les chiens de ferme des exploitations agricoles. Le service compétent est le Bereich Finanzen (domaine des finances).",
+      "quellen": [
+        "lu_horw_hunde"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "wert": "avant l'achat, auprès des Einwohnerdienste",
+      "text": "Si vous détenez un chien pour la première fois, les Einwohnerdienste vous enregistrent dans la banque de données AMICUS avant l'acquisition. Le chien lui-même est enregistré par le cabinet vétérinaire. Vous annoncez dans AMICUS, dans les dix jours, la cession, la prise en charge, l'exportation ou la mort d'un chien.",
+      "quellen": [
+        "lu_horw_hunde"
+      ]
+    },
+    {
+      "titel": "Laisse",
+      "wert": "réserve naturelle du Widenbachdelta, parc Krämerstein",
+      "text": "Dans toute la réserve naturelle entre Ennethorw et Hergiswil, la laisse est obligatoire pour les chiens. État de la communication: 29 juin 2015. Lors de manifestations à la Villa Krämerstein, la laisse est obligatoire sur la terrasse et dans le parc, et les chiens ne sont pas admis à l'intérieur de la villa (Benutzungsverordnung, annexe 10).",
+      "quellen": [
+        "lu_horw_widenbach",
+        "lu_horw_benutzung"
+      ]
+    }
+  ]
+}

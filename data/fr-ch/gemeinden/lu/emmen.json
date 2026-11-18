@@ -1,0 +1,37 @@
+{
+  "id": "emmen",
+  "kanton": "lu",
+  "bfs": 1024,
+  "uebersetzt_aus": "de",
+  "original": "f0735f97a421",
+  "name": "Emmen",
+  "ort": "Emmen",
+  "in_ort": "à Emmen",
+  "einleitung": "Sont attestés au niveau local l'impôt sur les chiens, l'annonce auprès de l'Einwohnerkontrolle (contrôle des habitants) et l'interdiction des animaux au cimetière. Pour la laisse obligatoire et les autres interdictions d'accès, la Hundeverordnung (ordonnance sur les chiens) du canton s'applique.",
+  "karten": [
+    {
+      "titel": "Impôt sur les chiens",
+      "wert": "CHF 120 par chien et par an",
+      "text": "La commune d'Emmen perçoit l'impôt sur les chiens chaque année pour tout chien âgé de plus de six mois. Il s'élève à CHF 120, et à CHF 40 pour les chiens de ferme des exploitations agricoles.",
+      "quellen": [
+        "lu_emmen_steuer"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "wert": "auprès de l'Einwohnerkontrolle (contrôle des habitants)",
+      "text": "Si vous n'avez encore jamais détenu de chien, vous vous adressez d'abord à l'Einwohnerkontrolle Emmen. Elle vous enregistre dans la banque de données AMICUS. Vous annoncez à la commune la cession, la prise en charge et la mort d'un chien au moyen du formulaire en ligne. Vous annoncez une arrivée ou un déménagement dans les dix jours.",
+      "quellen": [
+        "lu_emmen_anmeldung"
+      ]
+    },
+    {
+      "titel": "Accès interdit",
+      "wert": "cimetière: pas d'animaux",
+      "text": "Au cimetière, il est interdit d'amener des animaux ou de les laisser courir. C'est ce que prévoit l'art. 15 al. 3 du Reglement über das Friedhof- und Bestattungswesen (règlement sur les cimetières et les inhumations).",
+      "quellen": [
+        "lu_emmen_friedhof"
+      ]
+    }
+  ]
+}

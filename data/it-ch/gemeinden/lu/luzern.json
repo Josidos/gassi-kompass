@@ -1,0 +1,49 @@
+{
+  "id": "luzern",
+  "kanton": "lu",
+  "bfs": 1061,
+  "uebersetzt_aus": "de",
+  "original": "4ccaca4f6fea",
+  "name": "Città di Lucerna",
+  "ort": "Lucerna",
+  "in_ort": "a Lucerna",
+  "hinweis_heute": "Nella città di Lucerna sulla maggior parte delle superfici comunali vigono divieti per i cani o l'obbligo di guinzaglio. Il tuo cane può correre libero nelle tre aree di svago per cani.",
+  "einleitung": "Tre aree di svago per cani delimitate e segnalate. Sulle altre superfici comunali vigono per lo più divieti per i cani e l'obbligo di guinzaglio.",
+  "freilaufzonen": [
+    {
+      "name": "Allmend",
+      "marken": [
+        "l'area più grande",
+        "rete di sentieri propria"
+      ],
+      "text": "Dietro l'Armee-Ausbildungszentrum Luzern (centro d'istruzione dell'esercito), tra lo Schäferweg e la Zirkusplatz. Con posti a sedere e alberi che fanno ombra."
+    },
+    {
+      "name": "Churchillquai",
+      "marken": [
+        "accesso all'acqua"
+      ],
+      "text": "Parte del prato tra la riva del lago e la Seeburgstrasse, delimitata da una siepe e da una recinzione. Con panchine."
+    },
+    {
+      "name": "Tribschenhorn",
+      "marken": [
+        "accesso al lago"
+      ],
+      "text": "Tra la Tribschen-Badi (lido di Tribschen) e la superficie agricola, con propri sentieri per passeggiare e posti a sedere."
+    }
+  ],
+  "freilaufzonen_quellen": [
+    "lu_stadt"
+  ],
+  "karten": [
+    {
+      "titel": "Multe",
+      "wert": "da CHF 80 a 150 secondo l'infrazione",
+      "text": "Mancato rispetto dei divieti o dell'obbligo di guinzaglio: da CHF 100 a 150 (riserve naturali). Escrementi lasciati sul posto: CHF 80. Stato dell'opuscolo: 2022.",
+      "quellen": [
+        "lu_stadt"
+      ]
+    }
+  ]
+}

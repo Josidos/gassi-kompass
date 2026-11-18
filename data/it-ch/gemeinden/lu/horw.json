@@ -1,0 +1,39 @@
+{
+  "id": "horw",
+  "kanton": "lu",
+  "bfs": 1058,
+  "uebersetzt_aus": "de",
+  "original": "335c4451fcc9",
+  "name": "Horw",
+  "ort": "Horw",
+  "in_ort": "a Horw",
+  "hinweis_heute": "Nella riserva naturale in riva al lago tra Ennethorw e Hergiswil (Widenbachdelta) vale, secondo il Comune, l'obbligo di guinzaglio.",
+  "einleitung": "A livello locale sono documentati l'imposta sui cani, la notifica presso gli Einwohnerdienste (servizi abitanti) e due luoghi con obbligo di guinzaglio. Per il resto vale la Hundeverordnung (ordinanza sui cani) del Cantone.",
+  "karten": [
+    {
+      "titel": "Imposta sui cani",
+      "wert": "CHF 120 per cane all'anno",
+      "text": "Il Comune fattura l'imposta sui cani ogni anno. Ammonta a CHF 120 per cane, per i cani da fattoria delle aziende agricole a CHF 40. È competente il Bereich Finanzen (settore finanze).",
+      "quellen": [
+        "lu_horw_hunde"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "wert": "prima dell'acquisto, presso gli Einwohnerdienste",
+      "text": "Se detieni un cane per la prima volta, gli Einwohnerdienste ti registrano nella banca dati AMICUS prima dell'acquisto. Il cane stesso viene registrato dallo studio veterinario. Annunci in AMICUS entro dieci giorni la cessione, la presa a carico, l'esportazione o la morte di un cane.",
+      "quellen": [
+        "lu_horw_hunde"
+      ]
+    },
+    {
+      "titel": "Guinzaglio",
+      "wert": "riserva naturale Widenbachdelta, parco Krämerstein",
+      "text": "In tutta la riserva naturale tra Ennethorw e Hergiswil vale l'obbligo di guinzaglio per i cani. Stato della comunicazione: 29 giugno 2015. Durante gli eventi alla Villa Krämerstein vale l'obbligo di guinzaglio sulla terrazza e nel parco, all'interno della villa i cani non sono ammessi (Benutzungsverordnung, allegato 10).",
+      "quellen": [
+        "lu_horw_widenbach",
+        "lu_horw_benutzung"
+      ]
+    }
+  ]
+}
