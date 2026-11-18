@@ -1,0 +1,126 @@
+{
+  "id": "ur",
+  "kurz": "UR",
+  "uebersetzt_aus": "de",
+  "original": "a3f18f7dadf8",
+  "wald": {
+    "saison": true,
+    "von": "04-01",
+    "bis": "07-31",
+    "wo": "en forêt et jusqu'à 50 m de la lisière",
+    "quellen": [
+      "ur_kjsv",
+      "ur_kjsv_bericht"
+    ]
+  },
+  "leine": {
+    "punkte": [
+      "en forêt et dans une bande de 50 m à partir de la lisière, du 1er avril au 31 juillet. Les chiens de travail font exception.",
+      "dans les zones et pendant les périodes pour lesquelles le canton ordonne la laisse obligatoire lors de situations extraordinaires pour le gibier",
+      "là où votre commune l'exige. Exemple de Silenen : dans les installations appartenant à la commune, comme les installations scolaires et les places de jeux et terrains de sport publics (ordonnance en vigueur depuis le 1er janvier 2026)",
+      "Exemple d'Andermatt : dans le village, en forêt et en lisière, le long des routes à fort trafic, lors de manifestations et dans les bâtiments publics (état de l'ordonnance : 2008)",
+      "si la vétérinaire cantonale ou le vétérinaire cantonal l'ordonne pour votre chien dans un cas particulier"
+    ],
+    "quellen": [
+      "ur_kjsv",
+      "ur_silenen_hhv",
+      "ur_andermatt_hv",
+      "ur_vetv"
+    ]
+  },
+  "verbot": {
+    "einleitung": "La Jagdverordnung (ordonnance sur la chasse) et la Veterinärverordnung (ordonnance vétérinaire) du canton ne désignent pas de lieux interdits aux chiens. Ce sont l'ordonnance et les panneaux de votre commune qui font foi. Un exemple : Andermatt n'admet pas les chiens dans ces lieux (état de l'ordonnance : 2008).",
+    "punkte": [
+      "les écoles, les églises et les cimetières",
+      "les hôpitaux, les locaux administratifs et les magasins d'alimentation",
+      "les pistes de ski, les terrains d'exercice de ski et les pistes de ski de fond"
+    ],
+    "quellen": [
+      "ur_kjsv",
+      "ur_vetv",
+      "ur_andermatt_hv"
+    ]
+  },
+  "karten": [
+    {
+      "titel": "Responsabilité civile",
+      "marke": "Commune",
+      "ton": "note",
+      "wert": "non mentionnée dans le droit cantonal",
+      "text": "La Veterinärverordnung du canton ne contient aucune disposition sur une assurance responsabilité civile. Les ordonnances consultées des communes de Silenen et d'Andermatt n'en exigent pas non plus. Andermatt précise que la responsabilité pour les dommages et les blessures est régie par le droit civil (état de l'ordonnance : 2008). Ce qui vaut dans votre commune figure dans sa Hundeverordnung (ordonnance sur les chiens).",
+      "quellen": [
+        "ur_vetv",
+        "ur_silenen_hhv",
+        "ur_andermatt_hv"
+      ]
+    },
+    {
+      "titel": "Cours",
+      "marke": "Cas particulier",
+      "ton": "note",
+      "wert": "seulement sur ordre",
+      "text": "La Veterinärverordnung ne prévoit pas d'obligation générale de suivre un cours. Si vous ne remplissez pas vos obligations de détentrice ou de détenteur, si une morsure est annoncée ou si votre chien se fait remarquer par son comportement, la vétérinaire cantonale ou le vétérinaire cantonal peut ordonner de suivre un cours d'éducation.",
+      "quellen": [
+        "ur_vetv"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "marke": "Obligatoire",
+      "ton": "must",
+      "wert": "commune et AMICUS",
+      "text": "Les chiens détenus dans le canton d'Uri doivent être enregistrés dans la banque de données AMICUS. Les communes et la police cantonale contrôlent l'identification et l'enregistrement et annoncent les chiens non enregistrés au vétérinaire cantonal. Vous présentez le Hundeausweis (carte d'identité du chien) sur demande. En plus, vous annoncez le chien à votre commune. Le délai figure dans son ordonnance. Exemples : à Silenen, vous annoncez dans les 30 jours les chiens de plus de trois mois, de même que la cession et la mort du chien. Altdorf exige l'annonce ou l'annonce de départ auprès de l'Einwohnerkontrolle (contrôle des habitants) au plus tard 30 jours après un changement de propriétaire ou la mort du chien.",
+      "quellen": [
+        "ur_vetv",
+        "ur_vetr",
+        "ur_silenen_hhv",
+        "ur_altdorf_steuer"
+      ]
+    },
+    {
+      "titel": "Impôt sur les chiens",
+      "marke": "Commune",
+      "ton": "note",
+      "wert": "selon la commune",
+      "text": "L'impôt sur les chiens figure dans l'ordonnance de votre commune. La Veterinärverordnung du canton ne le règle pas. Exemples : Altdorf demande CHF 80 par chien et par an. Silenen demande CHF 80 par chien et par année civile (ordonnance en vigueur depuis le 1er janvier 2026). Andermatt indique dans son ordonnance CHF 110 pour le premier chien et CHF 160 pour chaque chien supplémentaire du ménage (état de l'ordonnance : 2008).",
+      "quellen": [
+        "ur_vetv",
+        "ur_altdorf_steuer",
+        "ur_silenen_hhv",
+        "ur_andermatt_hv"
+      ]
+    },
+    {
+      "titel": "Races",
+      "marke": "Cas particulier",
+      "ton": "note",
+      "wert": "aucune liste mentionnée",
+      "text": "La Veterinärverordnung et le Veterinärreglement (règlement vétérinaire) du canton ne mentionnent aucune race de chiens. La vétérinaire cantonale ou le vétérinaire cantonal est le service d'annonce pour les incidents avec des chiens dangereux et ordonne des mesures au cas par cas : instructions sur l'éducation et la surveillance, laisse et muselière obligatoires, test de caractère, cours d'éducation et, dans les cas graves, une interdiction de détention ou le séquestre. Les mesures qu'un autre canton a ordonnées dans un cas particulier par une décision entrée en force valent aussi dans le canton d'Uri.",
+      "quellen": [
+        "ur_vetv",
+        "ur_vetr"
+      ]
+    },
+    {
+      "titel": "En promenade",
+      "marke": "Règle",
+      "ton": "note",
+      "wert": "chien sous contrôle en tout temps",
+      "text": "Vous devez avoir votre chien sous contrôle en tout temps. Les chiens dont il est prouvé qu'ils poursuivent le gibier et dont la détentrice ou le détenteur a déjà reçu un avertissement peuvent être mis hors d'état de nuire par les gardes-faune. Les morsures qui nécessitent des soins médicaux ou vétérinaires sont annoncées au Veterinärdienst der Urkantone (service vétérinaire des cantons primitifs) par les médecins, les vétérinaires, les éducateurs canins, la police et les communes. L'ordonnance de votre commune indique si et où vous devez ramasser les crottes. Silenen et Andermatt l'exigent sur le domaine public et sur le terrain d'autrui.",
+      "quellen": [
+        "ur_vdu_tierschutz",
+        "ur_kjsv",
+        "ur_silenen_hhv",
+        "ur_andermatt_hv"
+      ]
+    }
+  ],
+  "vergleich": {
+    "wald": "du 1.4. au 31.7., jusqu'à 50 m de la lisière",
+    "haft": "non mentionnée dans le droit cantonal",
+    "kurs": "seulement sur ordre",
+    "rassen": "aucune liste mentionnée",
+    "steuer": "selon la commune",
+    "anm": "commune et AMICUS"
+  }
+}

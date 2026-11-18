@@ -2,6 +2,23 @@
 
 Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen.
 
+## 2026-11-18, Kette Übersetzungen, Glied 3: Übersetzungen der Kantone, dritte Portion
+
+- Neu, 16 Übersetzungen für 8 Kantone, in der Reihenfolge von `--fehlend`:
+  - Deutsch (1): Jura (`data/kantone/ju.json`).
+  - Französisch (7): Zug, Schaffhausen, Appenzell Ausserrhoden, Nidwalden, Glarus, Obwalden, Uri (`data/fr-ch/kantone/zg.json`, `sh.json`, `ar.json`, `nw.json`, `gl.json`, `ow.json`, `ur.json`).
+  - Italienisch (8): Zug, Schaffhausen, Jura, Appenzell Ausserrhoden, Nidwalden, Glarus, Obwalden, Uri (`data/it-ch/kantone/zg.json`, `sh.json`, `ju.json`, `ar.json`, `nw.json`, `gl.json`, `ow.json`, `ur.json`).
+- Entscheide zur Wortwahl: «Hund mit erhöhtem Gefährdungspotenzial» heisst «chien à potentiel de danger accru» und «cane con potenziale di pericolo elevato», «wildernde Hunde» heisst «chiens qui braconnent» und «cani che cacciano di frodo», «Wildruhezone» und «Wildruhegebiet» heissen «zone de tranquillité pour la faune» und «zona di tranquillità per la selvaggina», «Jagdbanngebiet» heisst «district franc fédéral» und «bandita federale di caccia», «Ordnungsbusse» heisst «amende d'ordre» und «multa disciplinare», «Sachkundenachweis» heisst «attestation de compétences» und «attestato di competenza», «rechtskräftig verfügt» heisst «ordonné par une décision entrée en force» und «disposto con decisione passata in giudicato». Kantonale Erlasse und Ämter bleiben deutsch mit Übersetzung in Klammern beim ersten Vorkommen (Hundegesetz, Hundeverordnung, Veterinärverordnung, Jagdverordnung, Einwohneramt, Amt für Justiz, Hundeausweis). Die Tierschutzverordnung des Bundes steht mit ihrem amtlichen französischen und italienischen Namen. Auf der deutschen Jura-Seite bleiben «ordonnance sur la protection des animaux», «loi concernant la taxe des chiens», «Contrôle des habitants» und «Service de la consommation et des affaires vétérinaires» französisch, mit deutscher Übersetzung in Klammern. «Deutscher Schäferhund» und «Belgischer Schäferhund» (Glarus) bleiben wie im Original. «Läufig» (Schaffhausen) heisst «la chienne est en chaleur» und «la cagna è in calore».
+- Geprüft: `build.py --check` ohne Meldung, Bau und Test fehlerfrei. Als Bild angesehen und ganz gelesen: `/ju/`, `/fr-ch/gl/`, `/it-ch/ur/`. Der Test meldete zuerst auf `/fr-ch/sh/` und `/fr-ch/thema/rassen/` bei 390 Pixeln 3 Pixel seitliches Überlaufen. Ursache war der lange Titel der Rasseliste. Er heisst jetzt «Voir les types de races cités dans l'aide-mémoire».
+- Aufgefallen (nichts davon geändert):
+  - `data/kantone/gl.json`, Feld `wald`: `saison` ist `false`, obwohl die Leinenpflicht im Wald das ganze Jahr gilt. Die Seite titelt deshalb «Keine Saisonregel im Wald» («Pas de période fixe en forêt»), direkt über dem Satz, dass die Leine ganzjährig Pflicht ist. Das kann man als «keine Pflicht» missverstehen.
+  - `data/kantone/gl.json`, Karte Haftpflicht: im `wert` «innert 1 Monat» mit Ziffer, im Text «innert eines Monats» als Wort. Die Übersetzungen folgen dem Original.
+  - `data/kantone/zg.json`, Karten Haftpflicht, Kurs und Rassen: derselbe erste Satz steht dreimal auf der Seite.
+  - `data/kantone/ur.json`, Karte Unterwegs: «unschädlich machen» ist unklar (erlegen?). Übersetzt als «mis hors d'état de nuire» und «resi inoffensivi». Beim Nachprüfen mit der Jagdverordnung vergleichen.
+  - `data/kantone/nw.json`, Karte Anmeldung: «spätestens drei Monate nach der Geburt» gilt wörtlich nur für Welpen. Für später übernommene Hunde nennt die Karte keine Frist.
+  - `data/kantone/ow.json`: Das Feld `verbot` steht am Ende der Datei statt nach `leine`. Ohne Folgen für die Seite.
+- Offen: 90 Übersetzungen (2 Kantonsfassungen: Appenzell Innerrhoden französisch und italienisch, dazu 88 Gemeindefassungen). Schritt a) bleibt offen, bis Appenzell Innerrhoden übersetzt ist.
+
 ## 2026-11-18, Sitzung mit Joss: Darstellung, Bund und Themenseiten in drei Sprachen
 
 - Geändert, Startseite in allen drei Sprachen: unter der Suche der Umfang in Zahlen, Kantonstafeln mit der Zahl der Gemeinden, ein kompaktes Gemeindeverzeichnis mit kurzen Ortsnamen und sechs Thementafeln. Die Vergleichstabelle mit 26 Zeilen und 7 Spalten ist weg, sie war am Bildschirm abgeschnitten und auf dem Telefon nicht lesbar.

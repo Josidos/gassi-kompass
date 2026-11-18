@@ -313,6 +313,8 @@ Ungefähr nach Grösse. Neue Kantone tragen hier ihre grössten Gemeinden ein.
 - [ ] Luzern, Karte Rassen: Die einzige Quelle ist ein Medium (`srf`). Amtliche Quelle suchen, sonst die Angabe kürzen (aufgefallen in der Kette Übersetzungen, 18.11.2026)
 - [ ] Wallis deutsch, Karte Rassen: die Rassenamen «Neapolitanischer Mastiff» und «Spanischer Mastiff» mit der Quelle vergleichen (aufgefallen 18.11.2026)
 - [ ] Tessin, Karte Rassen, Liste: «Pastori belga» mit der Quelle vergleichen (aufgefallen 18.11.2026)
+- [ ] Glarus, Feld `wald`: `saison` ist `false`, die Leine gilt aber ganzjährig. Die Seite titelt «Keine Saisonregel im Wald». Titel oder Daten so anpassen, dass niemand «keine Pflicht» liest (aufgefallen in der Kette Übersetzungen, 18.11.2026)
+- [ ] Uri, Karte Unterwegs: «unschädlich machen» mit der Jagdverordnung vergleichen und klarer fassen (aufgefallen 18.11.2026)
 - [ ] Waadt und Genf französisch, `vergleich.wald`: Schreibweise «1.4 au 15.7» an «du 1.4. au 15.7.» angleichen. Danach sind die Übersetzungen veraltet und im selben Lauf nachzuführen (aufgefallen 18.11.2026)
 
 ## 5. Umbauten am Generator
