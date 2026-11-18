@@ -1,0 +1,53 @@
+{
+  "id": "brig-glis",
+  "kanton": "vs",
+  "bfs": 6002,
+  "name": "Stadtgemeinde Brig-Glis",
+  "ort": "Brig-Glis",
+  "in_ort": "in Brig-Glis",
+  "geprueft": "2026-11-18",
+  "einleitung": "Die Stadtgemeinde Brig-Glis erhebt die Hundesteuer, nimmt die Anmeldung im Stadtbüro entgegen und zeigt in einem Merkblatt, wo die Leinenpflicht gilt.",
+  "karten": [
+    {
+      "titel": "Hundetaxe",
+      "wert": "CHF 125 pro Jahr",
+      "text": "Die Hundesteuer wird zu Jahresbeginn in Rechnung gestellt und ist für das ganze Jahr zu bezahlen.",
+      "quellen": [
+        "vs_brig_hunde"
+      ]
+    },
+    {
+      "titel": "Leine",
+      "wert": "in Brig, Glis, Gamsen und Brigerbad",
+      "text": "Nach dem Polizeireglement wird gebüsst, wer seinen Hund ausserhalb der von der Gemeinde definierten Gebiete nicht an der Leine hält. Das Merkblatt «Freilauf-Zonen / Leinenpflicht» grenzt das Gebiet mit Leinenpflicht ab: Brig-Glis und Gamsen sowie das dicht bewohnte Gebiet von Brigerbad. Auch im Biotop in Brigerbad gilt Leinenpflicht. Die genauen Grenzen stehen im Merkblatt. Es trägt kein Datum.",
+      "quellen": [
+        "vs_brig_leine",
+        "vs_brig_polizei"
+      ]
+    },
+    {
+      "titel": "Kein Zutritt",
+      "wert": "Biotop im Glisergrund, Campingplatz Brigerbad",
+      "text": "Im Biotop im Glisergrund und auf dem Campingplatz in Brigerbad gilt laut Merkblatt ein absolutes Hundeverbot. Das Merkblatt trägt kein Datum.",
+      "quellen": [
+        "vs_brig_leine"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "wert": "Stadtbüro, Alte Simplonstrasse 28",
+      "text": "Du meldest deinen Hund im Stadtbüro an, mit einem gültigen Nachweis der Haftpflichtversicherung und der Kursbestätigung. Bei einem Zuzug bringst du zusätzlich die Zahlungsbestätigung der Hundesteuer deiner bisherigen Wohngemeinde mit. Den Nachweis der Haftpflicht hinterlegst du bis am 31. März. Ziehst du im Lauf des Jahres zu oder kaufst du einen Hund, hast du dafür 15 Tage Zeit.",
+      "quellen": [
+        "vs_brig_hunde"
+      ]
+    },
+    {
+      "titel": "Bussen",
+      "wert": "bis CHF 5000",
+      "text": "Verstösse gegen das Polizeireglement werden mit Busse bis CHF 5000 bestraft. Das gilt auch für die Leinenpflicht. Stand des Reglements: 2014.",
+      "quellen": [
+        "vs_brig_polizei"
+      ]
+    }
+  ]
+}

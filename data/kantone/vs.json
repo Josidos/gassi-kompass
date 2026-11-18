@@ -1,0 +1,137 @@
+{
+  "id": "vs",
+  "name": "Kanton Wallis",
+  "kurz": "VS",
+  "im": "im Kanton Wallis",
+  "des": "des Kantons Wallis",
+  "geprueft": "2026-11-18",
+  "wald": {
+    "saison": false,
+    "text": "Das Walliser Ausführungsgesetz zum Tierschutzgesetz nennt keine Leinenpflicht eigens für den Wald und keine Saison. Ausserhalb der Ortschaften muss dein Hund unter Kontrolle sein. In Schutz- und Naturzonen kann die Leine vorgeschrieben sein, ganzjährig oder zeitweise. Achte auf die Schilder vor Ort.",
+    "quellen": [
+      "vs_agtschg",
+      "vs_vet_sicherheit"
+    ]
+  },
+  "leine": {
+    "punkte": [
+      "innerorts, sofern deine Gemeinde nichts anderes beschliesst",
+      "in der Umgebung von Schulen und auf öffentlichen Spiel- und Sportanlagen",
+      "in öffentlichen Verkehrsmitteln, an Bahnhöfen und Haltestellen",
+      "an stark frequentierten Orten und unmittelbar neben stark befahrenen oder schlecht übersichtlichen Strassen",
+      "in der Nähe von Nutztieren",
+      "an Orten mit signalisierter Leinenpflicht und in Schutz- und Naturzonen, wo die Leine vorgeschrieben ist",
+      "überall sonst: Hund unter Kontrolle halten"
+    ],
+    "quellen": [
+      "vs_agtschg",
+      "vs_vet_sicherheit",
+      "vs_vet_hundewesen"
+    ]
+  },
+  "verbot": {
+    "einleitung": "Das kantonale Gesetz nennt selbst keine Orte, an denen Hunde verboten sind. Die Gemeinden können solche Orte bestimmen.",
+    "punkte": [
+      "Orte, die deine Gemeinde für Hunde gesperrt hat",
+      "Hunde unbeaufsichtigt laufen lassen ist im öffentlichen Raum und auf bewirtschafteten Landwirtschaftsflächen verboten"
+    ],
+    "quellen": [
+      "vs_agtschg",
+      "vs_vet_sicherheit"
+    ]
+  },
+  "karten": [
+    {
+      "titel": "Haftpflicht",
+      "marke": "Pflicht",
+      "ton": "must",
+      "wert": "für jeden Hund",
+      "text": "Du haftest für Schäden, die dein Hund verursacht, und musst für ihn eine Haftpflichtversicherung haben. Die Gemeinde kontrolliert das: Sie verlangt eine Bestätigung der Versicherung, wenn du den ersten Hund anmeldest und wenn du die Hundesteuer zahlst.",
+      "quellen": [
+        "vs_agtschg",
+        "vs_steuerregl",
+        "vs_vet_erwerb"
+      ]
+    },
+    {
+      "titel": "Kurs",
+      "marke": "Pflicht",
+      "ton": "must",
+      "wert": "für neue Hundehalter, mindestens 6 Stunden",
+      "text": "Seit dem 1. Januar 2020. Wer im Wallis wohnt, älter als 16 Jahre ist und nicht nachweisen kann, schon früher einen Hund gehalten zu haben, besucht einen praktischen Kurs bei einem anerkannten Hundeerzieher. Der Kurs dauert mindestens 6 Stunden (8 Einheiten zu 45 Minuten). Du absolvierst ihn spätestens 12 Monate nach der Übernahme des Hundes und frühestens, wenn der Hund 8 Monate alt ist. Die Kursbescheinigung legst du der Gemeinde vor. Ausgenommen ist unter anderem, wer das Brevet NHB hat.",
+      "quellen": [
+        "vs_agtschg",
+        "vs_kursv",
+        "vs_vet_erwerb"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "marke": "Pflicht",
+      "ton": "must",
+      "wert": "Gemeinde und AMICUS",
+      "text": "Beim ersten Hund meldest du dich bei deiner Wohngemeinde. Sie legt dein Profil in der Datenbank AMICUS an und verlangt die Bestätigung der Haftpflichtversicherung. Danach registriert eine Tierärztin oder ein Tierarzt den Hund. Der Chip muss spätestens drei Monate nach der Geburt gesetzt sein. Verkauf, Abgabe, Tod des Hundes und eine neue Adresse meldest du selbst in AMICUS.",
+      "quellen": [
+        "vs_vet_erwerb",
+        "vs_agtschg"
+      ]
+    },
+    {
+      "titel": "Hundesteuer",
+      "marke": "jährlich",
+      "ton": "note",
+      "wert": "CHF 100 bis 250, je nach Gemeinde",
+      "text": "Die Gemeinde an deinem Wohnsitz erhebt die Steuer. Der Gemeinderat legt den Betrag fest, das Steuergesetz gibt CHF 100 bis 250 pro Jahr vor. Zu zahlen bis am 31. März. Befreit sind unter anderem Blinden- und Assistenzhunde, anerkannte Rettungshunde, Hunde, die am 31. Dezember jünger als sechs Monate sind, Hunde, die weniger als drei Monate im Jahr im Kanton sind, und ein Hund von Personen mit Ergänzungsleistungen. Wer nicht rechtzeitig zahlt, riskiert eine Busse bis zum Dreifachen der Steuer.",
+      "quellen": [
+        "vs_steuerregl",
+        "vs_lf"
+      ]
+    },
+    {
+      "titel": "Rassen",
+      "marke": "Verbot",
+      "ton": "must",
+      "wert": "12 Rassen verboten",
+      "text": "Seit 2005 ist die Haltung dieser Rassen und ihrer Kreuzungen verboten: American Staffordshire Terrier, Bull Terrier, Staffordshire Bull Terrier, Pit Bull Terrier, Dobermann, Argentinische Dogge, Fila Brasileiro, Tosa, Rottweiler, Mastiff, Neapolitanischer Mastiff und Spanischer Mastiff. Der American Bully gilt als Kreuzung zweier verbotener Rassen und ist ebenfalls verboten.",
+      "mehr": {
+        "titel": "Ferien mit einem solchen Hund",
+        "punkte": [
+          "erlaubt ist ein Aufenthalt von höchstens 30 Tagen pro Jahr",
+          "ausserhalb des Privatbereichs an der Leine und mit Maulkorb oder einem Zahnschutz, der Bisse verhindert",
+          "Verstösse werden verfolgt, der Hund kann beschlagnahmt werden"
+        ]
+      },
+      "quellen": [
+        "vs_vet_sicherheit",
+        "vs_agtschg"
+      ]
+    },
+    {
+      "titel": "Unterwegs",
+      "marke": "Regel",
+      "ton": "note",
+      "wert": "Kot aufnehmen, Hund unter Kontrolle",
+      "text": "Du nimmst den Kot deines Hundes auf, hast das Material dafür dabei und entsorgst ihn in den dafür vorgesehenen Einrichtungen. Greift dein Hund eine Person an, meldest du das dem kantonalen Veterinäramt. Auf Alpen mit Herdenschutzhunden gelten Verhaltensregeln, der Kanton verweist dafür auf die Website des Herdenschutzes.",
+      "quellen": [
+        "vs_agtschg",
+        "vs_vet_hundewesen",
+        "vs_vet_bisse",
+        "vs_vet_sicherheit"
+      ]
+    }
+  ],
+  "vergleich": {
+    "wald": "keine Saison im Tierschutz-Ausführungsgesetz, ausserorts unter Kontrolle",
+    "haft": "Pflicht",
+    "kurs": "Pflicht für neue Hundehalter, mindestens 6 Stunden",
+    "rassen": "12 Rassen und ihre Kreuzungen verboten",
+    "steuer": "CHF 100 bis 250, je nach Gemeinde",
+    "anm": "Gemeinde und AMICUS"
+  },
+  "umzug": {
+    "text": "Hunde der zwölf verbotenen Rassen und ihre Kreuzungen dürfen im Wallis nicht neu gehalten werden. Erlaubt ist nur ein Aufenthalt von höchstens 30 Tagen pro Jahr, an der Leine und mit Maulkorb.",
+    "quellen": [
+      "vs_vet_sicherheit"
+    ]
+  }
+}

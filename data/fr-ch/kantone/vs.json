@@ -1,0 +1,131 @@
+{
+  "id": "vs",
+  "name": "Canton du Valais",
+  "kurz": "VS",
+  "im": "dans le canton du Valais",
+  "des": "du canton du Valais",
+  "geprueft": "2026-11-18",
+  "wald": {
+    "saison": false,
+    "text": "Les pages du Service cantonal de la consommation et affaires vétérinaires ne mentionnent ni obligation de laisse propre à la forêt ni période. Hors des localités, votre chien doit rester sous contrôle. Dans les sites protégés et les zones naturelles, la laisse peut être imposée, toute l'année ou par période. Suivez la signalisation sur place.",
+    "quellen": [
+      "vs_scav_securite",
+      "vs_scav_canines"
+    ]
+  },
+  "leine": {
+    "punkte": [
+      "dans les localités, sauf exception prévue par votre commune",
+      "aux abords des écoles et sur les aires de jeux publiques",
+      "dans les transports publics, les gares et aux arrêts",
+      "sur les lieux publics fréquentés et près des routes à fort trafic ou sans visibilité",
+      "à proximité des animaux de rente",
+      "sur les lieux signalés et dans les sites protégés ou zones naturelles où la laisse est imposée",
+      "partout ailleurs: chien sous contrôle"
+    ],
+    "quellen": [
+      "vs_scav_securite",
+      "vs_scav_canines"
+    ]
+  },
+  "verbot": {
+    "einleitung": "Les pages du Service cantonal ne désignent pas de lieux interdits aux chiens. Renseignez-vous auprès de votre commune.",
+    "punkte": [
+      "il est interdit de laisser errer un chien sans surveillance dans les espaces publics et sur les parcelles agricoles exploitées"
+    ],
+    "quellen": [
+      "vs_scav_securite"
+    ]
+  },
+  "karten": [
+    {
+      "titel": "Responsabilité civile",
+      "marke": "Obligatoire",
+      "ton": "must",
+      "wert": "pour chaque chien",
+      "text": "Vous devez avoir une assurance responsabilité civile couvrant les risques liés à la détention d'un chien. La commune le contrôle: elle demande une attestation d'assurance quand vous annoncez votre premier chien et lors du paiement de l'impôt.",
+      "quellen": [
+        "vs_scav_canines",
+        "vs_scav_acquisition",
+        "vs_reglement_impot"
+      ]
+    },
+    {
+      "titel": "Cours",
+      "marke": "Obligatoire",
+      "ton": "must",
+      "wert": "pour les nouveaux détenteurs, au moins 6 heures",
+      "text": "Depuis le 1er janvier 2020. Si vous êtes domicilié en Valais, avez plus de 16 ans et ne pouvez pas démontrer avoir déjà détenu un chien, vous suivez des cours auprès d'un éducateur canin reconnu. La formation dure au moins 6 heures (8 périodes de 45 minutes). Vous la suivez au plus tard 12 mois après la prise en charge du chien et pas avant que le chien ait 8 mois. Vous présentez l'attestation à votre commune. Les titulaires du brevet BPC/NHB, entre autres, en sont dispensés.",
+      "quellen": [
+        "vs_ordonnance_formation",
+        "vs_scav_acquisition",
+        "vs_scav_canines"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "marke": "Obligatoire",
+      "ton": "must",
+      "wert": "Commune et AMICUS",
+      "text": "Pour un premier chien, vous vous annoncez à votre commune de domicile. Elle crée votre profil dans la banque de données AMICUS et demande une copie de l'attestation d'assurance responsabilité civile. Un vétérinaire enregistre ensuite le chien. La puce doit être posée au plus tard trois mois après la naissance. Vous annoncez vous-même dans AMICUS la vente, la cession, la mort du chien et tout changement d'adresse.",
+      "quellen": [
+        "vs_scav_acquisition"
+      ]
+    },
+    {
+      "titel": "Impôt sur les chiens",
+      "marke": "annuel",
+      "ton": "note",
+      "wert": "CHF 100 à 250, selon la commune",
+      "text": "La commune de votre domicile perçoit l'impôt. Le conseil municipal en fixe le montant, entre CHF 100 et CHF 250 par an selon la loi fiscale. À payer au plus tard le 31 mars. Sont exonérés notamment les chiens d'aveugles et d'assistance, les chiens d'intervention reconnus, les chiens de moins de six mois au 31 décembre, les chiens qui séjournent trois mois au plus par année dans le canton et un chien par bénéficiaire de prestations complémentaires AVS/AI. En cas de retard, vous risquez une amende pouvant aller jusqu'au triple de l'impôt.",
+      "quellen": [
+        "vs_lf",
+        "vs_reglement_impot"
+      ]
+    },
+    {
+      "titel": "Races",
+      "marke": "Interdiction",
+      "ton": "must",
+      "wert": "12 races interdites",
+      "text": "Depuis 2005, la détention de ces races et de leurs croisements est interdite: American Staffordshire Terrier, Bull Terrier, Staffordshire Bull Terrier, Pit Bull Terrier, Doberman, Dogue argentin, Fila Brasileiro, Tosa, Rottweiler, Mastiff, Mâtin napolitain et Mâtin espagnol. L'American Bully, issu du croisement de deux races interdites, l'est également.",
+      "mehr": {
+        "titel": "En vacances avec un tel chien",
+        "punkte": [
+          "un séjour de 30 jours par année au maximum est toléré",
+          "hors de la sphère privée, le chien est tenu en laisse et porte une muselière ou une applique dentaire neutralisant les morsures",
+          "le contrevenant peut être poursuivi et le chien séquestré"
+        ]
+      },
+      "quellen": [
+        "vs_scav_securite"
+      ]
+    },
+    {
+      "titel": "En promenade",
+      "marke": "Règle",
+      "ton": "note",
+      "wert": "Déjections et contrôle",
+      "text": "Ramassez les crottes de votre chien et déposez-les dans les endroits prévus à cet effet. Si votre chien agresse une personne, vous l'annoncez à l'Office vétérinaire cantonal. Sur les alpages gardés par des chiens de protection des troupeaux, des règles de comportement s'appliquent: le canton renvoie au site de la protection des troupeaux.",
+      "quellen": [
+        "vs_scav_canines",
+        "vs_scav_morsures",
+        "vs_scav_securite"
+      ]
+    }
+  ],
+  "vergleich": {
+    "wald": "aucune période mentionnée par le Service cantonal, chien sous contrôle hors localité",
+    "haft": "obligatoire",
+    "kurs": "obligatoire pour les nouveaux détenteurs, au moins 6 heures",
+    "rassen": "12 races et leurs croisements interdits",
+    "steuer": "CHF 100 à 250, selon la commune",
+    "anm": "commune de domicile et AMICUS"
+  },
+  "umzug": {
+    "text": "Les chiens des douze races interdites et leurs croisements ne peuvent pas faire l'objet d'une nouvelle détention en Valais. Seul un séjour de 30 jours par année au maximum est toléré, en laisse et avec muselière.",
+    "quellen": [
+      "vs_scav_securite"
+    ]
+  }
+}

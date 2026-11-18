@@ -458,5 +458,100 @@
     "kurz": "Andermatt: Hundeverordnung",
     "lang": "Gemeinde Andermatt: Verordnung über das Halten von Hunden vom 25. Oktober 2007, in Kraft seit 1. Januar 2008",
     "url": "https://www.gemeinde-andermatt.ch/public/upload/assets/882/10_Verordnung%20Hunde.pdf?fp=1"
+  },
+  "vs_agtschg": {
+    "kurz": "AGTSchG VS",
+    "lang": "Kanton Wallis: Ausführungsgesetz zum eidgenössischen Tierschutzgesetz (AGTSchG, SGS 455.1) vom 19. Dezember 2014, Stand 1.1.2020, gelesen auf LexFind",
+    "url": "https://www.lexfind.ch/tol/18665/de"
+  },
+  "vs_kursv": {
+    "kurz": "Ausbildungsverordnung VS",
+    "lang": "Kanton Wallis: Verordnung über die Ausbildung von neuen Hundehaltern (SGS 455.100) vom 23. Oktober 2019, Stand 1.1.2020, gelesen auf LexFind",
+    "url": "https://www.lexfind.ch/tol/32210/de"
+  },
+  "vs_steuerregl": {
+    "kurz": "Hundesteuer-Reglement VS",
+    "lang": "Kanton Wallis: Reglement betreffend die Erhebung der Hundesteuer (SGS 652.100) vom 21. Dezember 2011, Stand 1.1.2020",
+    "url": "https://lex.vs.ch/api/de/versions/3188/pdf_file"
+  },
+  "vs_lf": {
+    "kurz": "Loi fiscale VS",
+    "lang": "Canton du Valais: Loi fiscale (LF, RS/VS 642.1) du 10 mars 1976, état au 1er janvier 2026, art. 182 et 232, texte français lu sur LexFind",
+    "url": "https://www.lexfind.ch/tolv/257554/fr"
+  },
+  "vs_vet_sicherheit": {
+    "kurz": "Veterinäramt VS: Sicherheit",
+    "lang": "Kanton Wallis, Dienststelle für Verbraucherschutz und Veterinärwesen: Öffentliche Sicherheit (Leinenpflicht, verbotene Rassen)",
+    "url": "https://www.vs.ch/de/web/scav/veterinaerwesen/oeffentliche-sicherheit"
+  },
+  "vs_vet_hundewesen": {
+    "kurz": "Veterinäramt VS: Hundewesen",
+    "lang": "Kanton Wallis, Dienststelle für Verbraucherschutz und Veterinärwesen: Hundewesen",
+    "url": "https://www.vs.ch/de/web/scav/veterinaerwesen/hundewesen"
+  },
+  "vs_vet_erwerb": {
+    "kurz": "Veterinäramt VS: Erwerb",
+    "lang": "Kanton Wallis, Dienststelle für Verbraucherschutz und Veterinärwesen: Verkauf, Erwerb von Hunden",
+    "url": "https://www.vs.ch/de/web/scav/veterinaerwesen/verkauf-erwerb-von-hunden"
+  },
+  "vs_vet_bisse": {
+    "kurz": "Veterinäramt VS: Bisse",
+    "lang": "Kanton Wallis, Dienststelle für Verbraucherschutz und Veterinärwesen: Hundebisse und Aggressionen",
+    "url": "https://www.vs.ch/de/web/scav/veterinaerwesen/hundebisse-und-aggressionen"
+  },
+  "vs_scav_securite": {
+    "kurz": "SCAV VS: sécurité publique",
+    "lang": "Canton du Valais, Service de la consommation et affaires vétérinaires: Sécurité publique (tenue en laisse, races interdites)",
+    "url": "https://www.vs.ch/fr/web/scav/veterinaire/securit%C3%A9-publique"
+  },
+  "vs_scav_canines": {
+    "kurz": "SCAV VS: affaires canines",
+    "lang": "Canton du Valais, Service de la consommation et affaires vétérinaires: Affaires canines",
+    "url": "https://www.vs.ch/fr/web/scav/veterinaire/affaires-canines"
+  },
+  "vs_scav_acquisition": {
+    "kurz": "SCAV VS: acquisition",
+    "lang": "Canton du Valais, Service de la consommation et affaires vétérinaires: Vente, acquisition de chiens",
+    "url": "https://www.vs.ch/fr/web/scav/veterinaire/vente-acquisition-chiens"
+  },
+  "vs_scav_morsures": {
+    "kurz": "SCAV VS: morsures",
+    "lang": "Canton du Valais, Service de la consommation et affaires vétérinaires: Morsures et agressions",
+    "url": "https://www.vs.ch/fr/web/scav/veterinaire/morsures-et-agressions"
+  },
+  "vs_ordonnance_formation": {
+    "kurz": "Ordonnance formation VS",
+    "lang": "Canton du Valais: Ordonnance concernant la formation des nouveaux détenteurs de chiens (RS/VS 455.100) du 23 octobre 2019, état au 1er janvier 2020, exemplaire publié par la Ville de Monthey",
+    "url": "https://www.monthey.ch/data/dataimages/Upload/_Officielle/Police/Ordonnance-concernant-la-formation-des-nouveaux-detenteurs-de-chiens-2020.pdf"
+  },
+  "vs_reglement_impot": {
+    "kurz": "Règlement impôt chiens VS",
+    "lang": "Canton du Valais: Règlement concernant la perception de l'impôt sur les chiens (RS/VS 652.100) du 21 décembre 2011, état au 1er janvier 2020, exemplaire publié par la commune de Savièse",
+    "url": "https://www.saviese.ch/data/documents/service-financier/Rglementperceptionimptchiensau01.01.2020.pdf"
+  },
+  "vs_sion_impot": {
+    "kurz": "Ville de Sion: impôt",
+    "lang": "Ville de Sion: Impôt sur les chiens",
+    "url": "https://www.sion.ch/themes/75175"
+  },
+  "vs_sion_police": {
+    "kurz": "Règlement de police Sion",
+    "lang": "Ville de Sion: Règlement communal de police du 27 juin 1996, homologué par le Conseil d'Etat le 5 novembre 1997",
+    "url": "https://www.sion.ch/_docn/1347597/reglement_5_SECURITE_PUBLIQUE_5_1_Reglement_communal_de_police.pdf"
+  },
+  "vs_brig_hunde": {
+    "kurz": "Brig-Glis: Hundehaltung",
+    "lang": "Stadtgemeinde Brig-Glis: Hundehaltung in Brig-Glis",
+    "url": "https://www.brig-glis.ch/leben-arbeiten/einwohnerdienste/hundehaltung-in-brig-glis/"
+  },
+  "vs_brig_leine": {
+    "kurz": "Brig-Glis: Merkblatt Leine",
+    "lang": "Stadtgemeinde Brig-Glis: Merkblatt Freilauf-Zonen / Leinenpflicht (ohne Datum, Datei von 2022)",
+    "url": "https://www.brig-glis.ch/wp-content/uploads/2022/11/merkblatt-leinenpflicht-zonen.pdf"
+  },
+  "vs_brig_polizei": {
+    "kurz": "Polizeireglement Brig-Glis",
+    "lang": "Stadtgemeinde Brig-Glis: Polizeireglement, von der Urversammlung angenommen am 26. Mai 2014, vom Staatsrat genehmigt am 1. Oktober 2014",
+    "url": "https://www.brig-glis.ch/wp-content/uploads/2023/01/Polizeireglement-BRIG-GLIS.pdf"
   }
 }

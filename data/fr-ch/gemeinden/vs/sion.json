@@ -1,0 +1,46 @@
+{
+  "id": "sion",
+  "kanton": "vs",
+  "bfs": 6266,
+  "name": "Ville de Sion",
+  "ort": "Sion",
+  "in_ort": "à Sion",
+  "geprueft": "2026-11-18",
+  "hinweis_heute": "À Sion, les chiens sont tenus en laisse en tout temps dans les localités et lors de manifestations publiques.",
+  "einleitung": "La Ville de Sion perçoit l'impôt sur les chiens et enregistre les nouveaux chiens au Guichet citoyen. Son règlement de police fixe la laisse dans les zones d'habitation.",
+  "karten": [
+    {
+      "titel": "Impôt sur les chiens",
+      "wert": "CHF 160 par chien et par an",
+      "text": "Dû pour les chiens de plus de six mois. Si vous êtes déjà annoncé, vous recevez une facture. Si vous achetez un chien en cours d'année, demandez au vendeur la preuve du paiement de l'impôt. S'il n'a pas été payé, vous avez 15 jours pour vous mettre en règle. Sans paiement: rappel d'impôt et amende pouvant aller jusqu'au triple de l'impôt.",
+      "quellen": [
+        "vs_sion_impot"
+      ]
+    },
+    {
+      "titel": "Laisse",
+      "wert": "dans les localités et lors de manifestations publiques",
+      "text": "Selon la Ville, les chiens sont tenus en laisse en tout temps dans les localités et lors de manifestations publiques. Le règlement communal de police l'exige dans les zones d'habitation, sur les chemins et promenades où la laisse est signalée et chaque fois que le chien pourrait effrayer des personnes ou des animaux ou causer des dégâts. L'accès aux lieux de manifestations publiques peut être interdit aux chiens. État du règlement: 1997.",
+      "quellen": [
+        "vs_sion_impot",
+        "vs_sion_police"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "wert": "Guichet citoyen, rue de Lausanne 23",
+      "text": "Pour un nouveau chien, vous obtenez d'abord un identifiant AMICUS auprès du Service population, sécurité et aéroport. L'inscription se fait au Guichet citoyen, rue de Lausanne 23, avec l'attestation d'assurance responsabilité civile, le carnet de vaccination ou le passeport de l'animal avec son numéro AMICUS et, s'il y a lieu, l'attestation de cours. Changement d'adresse, de détenteur ou mort du chien: à annoncer à AMICUS et à la commune.",
+      "quellen": [
+        "vs_sion_impot"
+      ]
+    },
+    {
+      "titel": "Amendes",
+      "wert": "CHF 100 à CHF 5000",
+      "text": "Les contraventions au règlement communal de police sont punies d'une amende de CHF 100 au moins et de CHF 5000 au plus. Un chien errant est mis en fourrière. État du règlement: 1997.",
+      "quellen": [
+        "vs_sion_police"
+      ]
+    }
+  ]
+}

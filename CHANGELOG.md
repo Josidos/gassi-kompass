@@ -2,6 +2,19 @@
 
 Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen.
 
+## 2026-11-18, Kette, Glied 2: Kanton Wallis deutsch und französisch, Sion und Brig-Glis
+
+- Start: `build.py --check` fehlerfrei, nichts einzusammeln. Das Werkzeug `add_repo` stand nicht zur Verfügung, das Repository war geklont und auf dem Stand von `main`. Angemeldet in `auftraege.md` um 10:22 Uhr, am Schluss wieder gelöscht. Kein Nachprüfen (Kette: nur ein Schritt).
+- Neu: Kanton Wallis deutsch (`/vs/`) und französisch (`/fr-ch/vs/`), Ville de Sion französisch (`/fr-ch/vs/sion/`), Stadtgemeinde Brig-Glis deutsch (`/vs/brig-glis/`). 19 neue Quellen `vs_…` in `data/quellen.json`.
+- Quellen deutsch: AGTSchG (SGS 455.1, Stand 1.1.2020, LexFind), Verordnung über die Ausbildung von neuen Hundehaltern (455.100), Reglement betreffend die Erhebung der Hundesteuer (652.100, lex.vs.ch), vier Seiten des Veterinäramts auf vs.ch. Quellen französisch: vier Seiten des Service de la consommation et affaires vétérinaires, Ordonnance 455.100 (Exemplar der Stadt Monthey), Règlement 652.100 (Exemplar der Gemeinde Savièse), Loi fiscale (642.1, Stand 1.1.2026, Art. 182 und 232).
+- Entscheid: Der Rahmen der Hundesteuer (CHF 100 bis 250) ist auch in der deutschen Datei mit dem französischen Text des Steuergesetzes belegt. Die deutsche Fassung war nur im Stand von 2007 abrufbar. Der Langname der Quelle nennt die Sprache.
+- Entscheid: `wald` ohne Saison. Weder das AGTSchG noch die Seiten des Kantons nennen eine Leinenpflicht eigens für den Wald. Die Texte sagen das so und behaupten nicht, dass es keine gibt. Das Jagdrecht ist nicht geprüft (Backlog, Abschnitt 4).
+- Weggelassen: Bussenbeträge des Kantons (LexFind nennt bis CHF 20'000 in Art. 53 und bis CHF 10'000 für Gemeinden in Art. 54, die Ausbildungsverordnung verweist für die Busse des Veterinäramts auf Art. 54: unklar). Deckungssumme der Haftpflicht (in keinem Text genannt). In der französischen Fassung die Verbotsorte der Gemeinden und das Material für den Kot, weil der französische Wortlaut der LALPA nicht abrufbar war (lex.vs.ch verlangt eine Freigabe, LexFind lieferte unter den gefundenen Adressen andere Erlasse). Ausnahmebewilligung für verbotene Rassen (nur im Steuerreglement erwähnt, die Seite des Kantons nennt keine).
+- Nicht abrufbar: Richtlinien für Gemeinden zu verbotenen Hunden (PDF auf vs.ch, robots), lex.vs.ch/data/…
+- Hinweis: Die Seiten der Gemeinden stützen sich teils auf alte Texte. Sion: Règlement communal de police von 1996, homologiert 1997 (auf der Seite als Stand genannt). Brig-Glis: Polizeireglement von 2014, Merkblatt Leinenpflicht ohne Datum.
+- Backlog: Abschnitt 2 Wallis abgehakt. Abschnitt 3: Sion und Brig-Glis abgehakt, Visp, Naters, Martigny, Monthey und Sierre eingetragen. Abschnitt 4: fünf neue Lücken zum Wallis.
+- Stand: 24 von 26 Kantonen mit Seite (20 deutsch, 6 französisch, 1 italienisch), 44 Gemeinden, 84 Seiten. Es fehlen Jura und Obwalden.
+
 ## 2026-11-18, Kette, Glied 1: Sonderlauf Mehrsprachigkeit
 
 - Start: `build.py --check` fehlerfrei, nichts einzusammeln. Das Werkzeug `add_repo` stand nicht zur Verfügung, das Repository war geklont und auf dem Stand von `main`. Angemeldet in `auftraege.md` um 10:06 Uhr, am Schluss wieder gelöscht.

@@ -42,7 +42,7 @@ Der Generator baut Französisch und Italienisch seit dem 2026-11-18. Bei zweispr
 
 - [x] Waadt (`vd`), französisch, 2026-11-18, mit Lausanne (`/fr-ch/vd/`)
 - [x] Genf (`ge`), französisch, 2026-11-18, mit Ville de Genève (`/fr-ch/ge/`)
-- [ ] Wallis (`vs`), französisch und deutsch
+- [x] Wallis (`vs`), französisch und deutsch, 2026-11-18, mit Ville de Sion französisch und Brig-Glis deutsch (`/vs/`, `/fr-ch/vs/`)
 - [x] Freiburg (`fr`), französisch und deutsch, 2026-11-18, mit Ville de Fribourg französisch (`/fr/`, `/fr-ch/fr/`)
 - [x] Tessin (`ti`), italienisch, 2026-11-18, mit Città di Lugano (`/it-ch/ti/`)
 - [x] Neuenburg (`ne`), französisch, 2026-11-18, mit Ville de Neuchâtel (`/fr-ch/ne/`)
@@ -189,6 +189,13 @@ Ungefähr nach Grösse. Neue Kantone tragen hier ihre grössten Gemeinden ein.
 - [ ] Meyrin (GE), französisch
 - [ ] Carouge (GE), französisch
 - [ ] Onex (GE), französisch
+- [x] Sion (VS), französisch, 2026-11-18
+- [x] Brig-Glis (VS), deutsch, 2026-11-18
+- [ ] Visp (VS), deutsch
+- [ ] Naters (VS), deutsch
+- [ ] Martigny (VS), französisch
+- [ ] Monthey (VS), französisch
+- [ ] Sierre (VS), französisch. Hinweis für alle Walliser Gemeinden: Die Gemeinde legt die Hundesteuer fest (CHF 100 bis 250) und kann Leinenzonen und Verbotsorte bestimmen. Viele veröffentlichen jedes Jahr einen Anschlag «Hundesteuer» oder «Avis aux propriétaires de chiens».
 - [ ] Bellinzona (TI), italienisch
 - [ ] Locarno (TI), italienisch
 - [ ] Mendrisio (TI), italienisch
@@ -279,6 +286,11 @@ Ungefähr nach Grösse. Neue Kantone tragen hier ihre grössten Gemeinden ein.
 - [ ] Illnau-Effretikon: geltende Fassung des Gebührenreglements suchen und die Beträge von 2019 bestätigen oder ersetzen (vordringlich). Anmeldestelle und Polizeiverordnung nachtragen.
 - [ ] Kanton Uri: Verfassung des Kantons (RB 1.1101, Art. 110 Abs. 1 Bst. a) als Grundlage der Gemeindeverordnungen direkt belegen. Merkblatt «Verhaltensregeln für Hundehalter» des Veterinärdienstes der Urkantone lesen (laburk.ch, am 2026-11-18 nicht abrufbar). Busse für die Leinenpflicht im Wald belegen (Art. 44 KJSV nennt keinen Betrag, Ordnungsbussenrecht prüfen). Prüfen, ob die Verordnung von Andermatt von 2007 unverändert gilt, sonst die Beispiele auf der Kantonsseite ersetzen.
 - [ ] Silenen: Wortlaut der Hundehalteverordnung am PDF gegenprüfen (gelesen als Zusammenfassung des Abrufwerkzeugs), «definierte Gebiete» mit Leinenpflicht und Anmeldestelle auf der Website der Gemeinde suchen.
+- [ ] Kanton Wallis: französischen Wortlaut der LALPA (RS/VS 455.1) lesen. lex.vs.ch war am 2026-11-18 nicht abrufbar, die französische Fassung stützt sich auf die Seiten des Service cantonal. Danach ergänzen, falls belegt: Verbotsorte der Gemeinden (Art. 33), Material für den Kot (Art. 32), Bussen. Deutsche Fassung: geltenden Stand des AGTSchG prüfen (gelesen: Stand 1.1.2020) und die Bussenbeträge klären (Art. 53 und 54, die Ausbildungsverordnung verweist für die Busse des Veterinäramts auf Art. 54).
+- [ ] Kanton Wallis: deutsche Fassung des Steuergesetzes (SGS 642.1, Art. 182) in der geltenden Fassung lesen. Der Rahmen CHF 100 bis 250 ist in der deutschen Datei mit dem französischen Gesetzestext belegt (Stand 1.1.2026).
+- [ ] Kanton Wallis: Jagd- und Naturschutzrecht auf eine Leinenpflicht im Wald oder in Wildruhezonen prüfen. Die Richtlinien für Gemeinden zu verbotenen Hunden (PDF auf vs.ch) liessen den Abruf nicht zu. Der Kanton hat 2026 ein neues kantonales Hundegesetz in die Vernehmlassung gegeben: beim Nachprüfen den Stand beachten.
+- [ ] Ville de Sion: geltende Fassung des Règlement communal de police prüfen (gelesen: Fassung von 1996, homologiert 1997). Freilaufzonen und Verbotsorte suchen.
+- [ ] Brig-Glis: Datum des Merkblatts «Freilauf-Zonen / Leinenpflicht» klären, Merkblatt Robidogs lesen.
 
 ## 5. Umbauten am Generator
 
