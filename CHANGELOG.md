@@ -2,6 +2,19 @@
 
 Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen.
 
+## 2026-11-18, Sitzung mit Joss: Rückmeldung des Veterinäramts Thurgau
+
+Joss hat am 18. November 2026 fünf Veterinärdienste gebeten, die Seite ihres Kantons anzusehen (SO, TG, BL, JU, TI). Das Veterinäramt Thurgau hat am selben Tag geantwortet: Den Vollzug der Hundegesetzgebung haben die Politischen Gemeinden, das Amt erteilt nur die Bewilligungen für potenziell gefährliche Hunde. Der Link auf das Merkblatt funktioniere nicht, das Amt nannte die neue Adresse. Zu den übrigen Angaben der Seite hat es sich nicht geäussert.
+
+- Geändert, Quelle `tg_vet_rassen`: neue Adresse des Merkblatts. Alt `…/assets/148638/…?fp=1`, im Browser «Error 404». Neu `…/assets/179676/…?fp=3`, Titel «Merkblatt zur Bewilligungspflicht in der Hundehaltung», abgerufen am 18. November 2026.
+- Geändert, `data/kantone/tg.json`, Karte Rassen: neu der Satz, dass die Bewilligung laut Merkblatt auch braucht, wer nicht im Kanton Thurgau wohnt und sich mit dem Hund im Thurgau in der Öffentlichkeit aufhalten will. In der Liste alt «Mastiff» und «Presa Canario (Dogo Canario)», neu mit den Zusätzen «laut Merkblatt des Veterinäramts auch Bullmastiff» und «auch Alano». Die Hundeverordnung (§ 7b Abs. 3, Stand 1. Mai 2025) nennt Bullmastiff und Alano nicht, das Merkblatt nennt sie. Die Liste folgt weiter der Verordnung, der Zusatz nennt das Merkblatt.
+- Geändert, Karte Anmeldung: neu die Zuständigkeit. Vollzug bei den Politischen Gemeinden, soweit nichts anderes bestimmt ist (§ 1 Abs. 1 HundeV), Bewilligungen beim Veterinäramt (§ 7b HundeV).
+- Nachgeführt: die französische und die italienische Übersetzung von Thurgau. Französisch dabei «notice» statt «aide-mémoire», wie in der Wortliste.
+- Mit den Quellen verglichen: Hundeverordnung § 1, § 7b, § 7d, § 7e und § 7g, dazu Liste, Geltung für Auswärtige und Gebühr von CHF 500 im neuen Merkblatt. Keine weitere Abweichung.
+- **Nicht abrufbar:** `tg_hundeg` (Hundegesetz, lexfind.ch/tol/17744/de). WebFetch gab die Adresse nicht frei, drei Suchen fanden keinen anderen amtlichen Wortlaut der geltenden Fassung. Zweiter Fehlversuch für diese Quelle. `geprueft` von `tg.json` bleibt deshalb auf 2026-11-17.
+- Aufgefallen: WebFetch lieferte die alte Adresse des Merkblatts am 18. November noch aus, im Browser zeigte sie «Error 404». Ein gelungener Abruf im Lauf beweist also nicht, dass ein Link für Leserinnen und Leser funktioniert. Siehe `BACKLOG.md`, Abschnitt 5.
+- Geprüft: `build.py --check` ohne Meldung, Bau und Test fehlerfrei (240 Seiten). Die Karten Rassen und Anmeldung als Bild angesehen (deutsch, französisch, italienisch).
+
 ## 2026-11-18, Sitzung mit Joss: Leinenpflicht im Wald das ganze Jahr, Abschluss der Kette
 
 - Geändert, Glarus (gemeldet von Glied 3 der Kette): Die Seite titelte «Keine Saisonregel im Wald», obwohl die Leine im Wald das ganze Jahr Pflicht ist. Neu gibt es im Feld `wald` den Zusatz `ganzjaehrig`: Die Seite titelt «Leinenpflicht im Wald das ganze Jahr» und markiert den ganzen Jahresbalken. Die Angabe selbst ist unverändert.

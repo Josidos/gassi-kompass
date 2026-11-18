@@ -2,7 +2,7 @@
   "id": "tg",
   "kurz": "TG",
   "uebersetzt_aus": "de",
-  "original": "476e86ce8b20",
+  "original": "abece35ff7db",
   "wald": {
     "saison": true,
     "von": "04-01",
@@ -66,7 +66,7 @@
       "marke": "Obbligo",
       "ton": "must",
       "wert": "microchip e AMICUS",
-      "text": "Il tuo cane deve essere contrassegnato e registrato secondo le prescrizioni della Confederazione. Il servizio di registrazione è la banca dati AMICUS. La Hundegesetz (legge sui cani) non indica un termine proprio, rinvia al diritto federale. L'imposta sui cani è riscossa dal tuo Comune. Il Comune ti dice che cosa devi annunciargli.",
+      "text": "Il tuo cane deve essere contrassegnato e registrato secondo le prescrizioni della Confederazione. Il servizio di registrazione è la banca dati AMICUS. La Hundegesetz (legge sui cani) non indica un termine proprio, rinvia al diritto federale. L'imposta sui cani è riscossa dal tuo Comune. Il Comune ti dice che cosa devi annunciargli. L'esecuzione della legislazione sui cani spetta ai Comuni politici, salvo disposizione contraria. Le autorizzazioni per i cani potenzialmente pericolosi sono rilasciate dal Veterinäramt.",
       "quellen": [
         "tg_hundeg",
         "tg_hundev"
@@ -88,7 +88,7 @@
       "marke": "Autorizzazione",
       "ton": "must",
       "wert": "14 razze e tipi",
-      "text": "Per un cane potenzialmente pericoloso ti serve un'autorizzazione del Veterinäramt (ufficio veterinario), e questo prima di acquistare il cane o di portarlo a passeggio. Vale per la detenzione, l'accudimento e le uscite a passeggio. Sono compresi anche gli incroci e i cani il cui aspetto fa pensare a una di queste razze. È escluso un cane se un test genetico di un laboratorio riconosciuto mostra che discende per meno del 50 per cento da una di queste razze. Sono richiesti tra l'altro la maggiore età, un domicilio fisso, un estratto del casellario giudiziale, conoscenze sulla detenzione di cani, la prova della provenienza del cane e l'assicurazione di responsabilità civile. Secondo il promemoria del Veterinäramt l'autorizzazione costa CHF 500. Porti con te l'attestato di autorizzazione quando esci con il cane.",
+      "text": "Per un cane potenzialmente pericoloso ti serve un'autorizzazione del Veterinäramt (ufficio veterinario), e questo prima di acquistare il cane o di portarlo a passeggio. Vale per la detenzione, l'accudimento e le uscite a passeggio. Secondo il promemoria del Veterinäramt ti serve anche se non abiti nel Cantone di Turgovia e vuoi trattenerti con il cane in luoghi pubblici in Turgovia. Sono compresi anche gli incroci e i cani il cui aspetto fa pensare a una di queste razze. È escluso un cane se un test genetico di un laboratorio riconosciuto mostra che discende per meno del 50 per cento da una di queste razze. Sono richiesti tra l'altro la maggiore età, un domicilio fisso, un estratto del casellario giudiziale, conoscenze sulla detenzione di cani, la prova della provenienza del cane e l'assicurazione di responsabilità civile. Secondo il promemoria del Veterinäramt l'autorizzazione costa CHF 500. Porti con te l'attestato di autorizzazione quando esci con il cane.",
       "mehr": {
         "titel": "Mostra l'elenco completo",
         "punkte": [
@@ -98,10 +98,10 @@
           "Dobermann",
           "Dogo Argentino",
           "Fila Brasileiro",
-          "Mastiff",
+          "Mastiff (secondo il promemoria del Veterinäramt anche Bullmastiff)",
           "Mastín Español",
           "Mastino Napoletano",
-          "Presa Canario (Dogo Canario)",
+          "Presa Canario (Dogo Canario, secondo il promemoria del Veterinäramt anche Alano)",
           "Rottweiler",
           "Staffordshire Bullterrier",
           "Tosa",

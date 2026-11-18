@@ -289,7 +289,7 @@ Ungefähr nach Grösse. Neue Kantone tragen hier ihre grössten Gemeinden ein.
 - [ ] Kanton Bern, französische Fassung: Loi sur les chiens (RSB 916.31) französisch im Wortlaut lesen und `data/fr-ch/kantone/be.json` daran gegenprüfen, vor allem Befreiungen von der Taxe, Zutrittsverbote der Gemeinden und Bussen. Geltende Fassung der OCAO für die Bussenbeträge. Französische amtliche Quelle zur Leinenpflicht im Wald.
 - [ ] Kanton Genf: LChiens und RChiens im Volltext gegenprüfen, besonders RChiens Art. 13 Bst. l (Ufer, Oktober bis März) und Art. 14 Bst. d und e sowie die Änderungen vom 17. November 2026. Gemeindezuschläge zur Hundesteuer (ge.ch/node/110), auch für die Stadt Genf. Bussenbeträge. PDF «Liste des races de chiens considérées comme potentiellement dangereuses» mit RChiens Art. 17 abgleichen.
 - [ ] Kanton Tessin: geltende Fassung der LCani auf der Gesetzessammlung des Kantons (www3.ti.ch) im Wortlaut gegenprüfen, besonders Art. 4, 4a, 7 und 11a. Datum der Kurspflicht klären (1. Juni oder 1. September 2026). Tessiner Jagd- und Waldrecht auf Leinenpflicht prüfen. Lugano: italienische Seite der Hundezonen suchen und Barbengo bestätigen.
-- [ ] Kanton Thurgau: `data/kantone/tg.json` gegen das Hundegesetz (RB 641.2, geltende Fassung) prüfen, sobald der Wortlaut abrufbar ist. Dabei kann die Busse von CHF 50 für das Nichtanleinen in Anlagen und an verkehrsreichen Strassen bei `leine` ergänzt werden.
+- [ ] Kanton Thurgau: `data/kantone/tg.json` gegen das Hundegesetz (RB 641.2, geltende Fassung) prüfen, sobald der Wortlaut abrufbar ist. Dabei kann die Busse von CHF 50 für das Nichtanleinen in Anlagen und an verkehrsreichen Strassen bei `leine` ergänzt werden. Am 18.11.2026 zum zweiten Mal nicht abrufbar. Beim nächsten Mal zuerst eine andere amtliche Quelle suchen und in der Karte Rassen den Gentest unter 50 Prozent (§ 3a Abs. 4 HundeG), «Betreuen» und die Geltung für Auswärtige (bisher nur im Merkblatt) mit dem Gesetz abgleichen. Zugleich schauen, ob die Hundeverordnung (§ 7b Abs. 3) Bullmastiff und Alano inzwischen nennt: Bisher stehen sie nur im Merkblatt des Veterinäramts.
 - [ ] Emmen, Horw, Ebikon: Wortlaut der Quellen gegenprüfen. Bussen, weitere Orte mit Leinenpflicht oder Hundeverbot, Robidog.
 - [ ] Emmen: Ausgang des Postulats Hundefreilaufzonen (Einwohnerrat, 12. Mai 2026). Junghunde-Tarif.
 - [ ] Horw: geltende Rechtsgrundlage und aktueller Stand der Leinenpflicht im Naturschutzgebiet Widenbachdelta (Quelle von 2015).
@@ -365,6 +365,7 @@ Vorgaben in `CLAUDE.md` unter «Umbauten am Generator».
 - [x] Darstellung überarbeiten: Startseite ohne Vergleichstabelle, Gemeindeverzeichnis, Thementafeln, Karten in zwei Spalten (18.11.2026)
 - [x] Übersetzungen im Generator: Kennzeichnung, Prüfsumme, Zahlenvergleich, `--fehlend`. Probe: Kanton und Stadt Zürich auf Französisch und Italienisch (18.11.2026)
 - [x] Bund, Themenseiten und Fehlerseite in drei Sprachen (18.11.2026)
+- [ ] Link-Prüfung: alle Adressen aus den Quellendateien mit einem echten Abruf prüfen (HTTP-Status), nicht mit WebFetch. Anlass: Am 18.11.2026 meldete das Veterinäramt Thurgau einen toten Link (Error 404), den WebFetch noch auslieferte. Der Lauf erkennt tote Links also nicht. Kein Sonderlauf: Claude baut das in einer Sitzung mit Joss.
 
 ## 6. Ideen für später
 
@@ -387,4 +388,4 @@ Aus dem Vergleich mit anderen Seiten. Erst angehen, wenn alle Kantone erfasst si
 - Englisch und weitere Sprachen
 - Anzeigen und Affiliate-Links
 - Impressum und Datenschutzerklärung
-- Anschreiben an Behörden, Vereine und Medien
+- Anschreiben an Behörden, Vereine und Medien. Erste Runde am 18.11.2026 von Joss verschickt: Veterinärdienste SO, TG, BL, JU, TI. Antwort TG am 18.11.2026, eingearbeitet (siehe `CHANGELOG.md`). Für die nächste Runde: zuerst je Kanton klären, wer zuständig ist (im Thurgau die Gemeinden, das Veterinäramt nur für die Bewilligungen), und die Links der Kantonsseite mit einem echten Abruf prüfen.

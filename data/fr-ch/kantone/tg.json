@@ -2,7 +2,7 @@
   "id": "tg",
   "kurz": "TG",
   "uebersetzt_aus": "de",
-  "original": "476e86ce8b20",
+  "original": "abece35ff7db",
   "wald": {
     "saison": true,
     "von": "04-01",
@@ -66,7 +66,7 @@
       "marke": "Obligatoire",
       "ton": "must",
       "wert": "puce électronique et AMICUS",
-      "text": "Votre chien doit être identifié et enregistré selon les prescriptions de la Confédération. Le service d'enregistrement est la banque de données AMICUS. Le Hundegesetz (loi sur les chiens) ne fixe pas de délai propre, il renvoie au droit fédéral. L'impôt sur les chiens est perçu par votre commune. Elle vous indique ce que vous devez lui annoncer.",
+      "text": "Votre chien doit être identifié et enregistré selon les prescriptions de la Confédération. Le service d'enregistrement est la banque de données AMICUS. Le Hundegesetz (loi sur les chiens) ne fixe pas de délai propre, il renvoie au droit fédéral. L'impôt sur les chiens est perçu par votre commune. Elle vous indique ce que vous devez lui annoncer. L'exécution de la législation sur les chiens incombe aux communes politiques, sauf disposition contraire. Les autorisations pour les chiens potentiellement dangereux sont délivrées par le Veterinäramt.",
       "quellen": [
         "tg_hundeg",
         "tg_hundev"
@@ -88,7 +88,7 @@
       "marke": "Autorisation",
       "ton": "must",
       "wert": "14 races et types",
-      "text": "Pour un chien potentiellement dangereux, il vous faut une autorisation du Veterinäramt (office vétérinaire), et cela avant d'acquérir le chien ou de le promener. Elle vaut pour la détention, la garde et la promenade. Sont aussi concernés les croisements et les chiens dont l'aspect laisse supposer qu'ils appartiennent à l'une de ces races. Un chien est exclu si un test génétique d'un laboratoire reconnu montre qu'il descend à moins de 50 pour cent d'une telle race. Sont exigés notamment la majorité, un domicile fixe, un extrait du casier judiciaire, des connaissances en matière de détention de chiens, la preuve de l'origine du chien et l'assurance responsabilité civile. Selon l'aide-mémoire du Veterinäramt, l'autorisation coûte CHF 500. Vous portez l'attestation d'autorisation sur vous lorsque vous promenez le chien.",
+      "text": "Pour un chien potentiellement dangereux, il vous faut une autorisation du Veterinäramt (office vétérinaire), et cela avant d'acquérir le chien ou de le promener. Elle vaut pour la détention, la garde et la promenade. Selon la notice du Veterinäramt, il vous la faut aussi si vous n'habitez pas dans le canton de Thurgovie et que vous voulez vous trouver avec le chien dans l'espace public en Thurgovie. Sont aussi concernés les croisements et les chiens dont l'aspect laisse supposer qu'ils appartiennent à l'une de ces races. Un chien est exclu si un test génétique d'un laboratoire reconnu montre qu'il descend à moins de 50 pour cent d'une telle race. Sont exigés notamment la majorité, un domicile fixe, un extrait du casier judiciaire, des connaissances en matière de détention de chiens, la preuve de l'origine du chien et l'assurance responsabilité civile. Selon la notice du Veterinäramt, l'autorisation coûte CHF 500. Vous portez l'attestation d'autorisation sur vous lorsque vous promenez le chien.",
       "mehr": {
         "titel": "Afficher la liste complète",
         "punkte": [
@@ -98,10 +98,10 @@
           "Dobermann",
           "Dogo Argentino",
           "Fila Brasileiro",
-          "Mastiff",
+          "Mastiff (selon la notice du Veterinäramt, aussi Bullmastiff)",
           "Mastín Español",
           "Mastino Napoletano",
-          "Presa Canario (Dogo Canario)",
+          "Presa Canario (Dogo Canario, selon la notice du Veterinäramt aussi Alano)",
           "Rottweiler",
           "Staffordshire Bullterrier",
           "Tosa",

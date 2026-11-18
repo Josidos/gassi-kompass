@@ -68,7 +68,7 @@
       "marke": "Pflicht",
       "ton": "must",
       "wert": "Mikrochip und AMICUS",
-      "text": "Dein Hund muss nach den Vorschriften des Bundes gekennzeichnet und registriert sein. Registrierungsstelle ist die Hundedatenbank AMICUS. Das Hundegesetz nennt keine eigene Frist, es verweist auf das Bundesrecht. Die Hundesteuer zieht deine Gemeinde ein. Sie sagt dir, was du bei ihr melden musst.",
+      "text": "Dein Hund muss nach den Vorschriften des Bundes gekennzeichnet und registriert sein. Registrierungsstelle ist die Hundedatenbank AMICUS. Das Hundegesetz nennt keine eigene Frist, es verweist auf das Bundesrecht. Die Hundesteuer zieht deine Gemeinde ein. Sie sagt dir, was du bei ihr melden musst. Zuständig für den Vollzug der Hundegesetzgebung sind die Politischen Gemeinden, soweit nichts anderes bestimmt ist. Die Bewilligungen für potenziell gefährliche Hunde erteilt das Veterinäramt.",
       "quellen": [
         "tg_hundeg",
         "tg_hundev"
@@ -90,7 +90,7 @@
       "marke": "Bewilligung",
       "ton": "must",
       "wert": "14 Rassen und Typen",
-      "text": "Für potenziell gefährliche Hunde brauchst du eine Bewilligung des Veterinäramts, und zwar bevor du den Hund anschaffst oder ausführst. Sie gilt für das Halten, Betreuen und Ausführen. Erfasst sind auch Kreuzungen und Hunde, deren Aussehen auf eine dieser Rassen schliessen lässt. Ausgenommen ist ein Hund, wenn ein Gentest eines anerkannten Labors zeigt, dass er zu weniger als 50 Prozent von einer solchen Rasse abstammt. Verlangt werden unter anderem Volljährigkeit, ein fester Wohnsitz, ein Auszug aus dem Strafregister, Kenntnisse in der Hundehaltung, der Herkunftsnachweis des Hundes und die Haftpflichtversicherung. Laut Merkblatt des Veterinäramts kostet die Bewilligung CHF 500. Den Bewilligungsausweis trägst du bei dir, wenn du den Hund ausführst.",
+      "text": "Für potenziell gefährliche Hunde brauchst du eine Bewilligung des Veterinäramts, und zwar bevor du den Hund anschaffst oder ausführst. Sie gilt für das Halten, Betreuen und Ausführen. Du brauchst sie laut Merkblatt des Veterinäramts auch, wenn du nicht im Kanton Thurgau wohnst und dich mit dem Hund im Thurgau in der Öffentlichkeit aufhalten willst. Erfasst sind auch Kreuzungen und Hunde, deren Aussehen auf eine dieser Rassen schliessen lässt. Ausgenommen ist ein Hund, wenn ein Gentest eines anerkannten Labors zeigt, dass er zu weniger als 50 Prozent von einer solchen Rasse abstammt. Verlangt werden unter anderem Volljährigkeit, ein fester Wohnsitz, ein Auszug aus dem Strafregister, Kenntnisse in der Hundehaltung, der Herkunftsnachweis des Hundes und die Haftpflichtversicherung. Laut Merkblatt des Veterinäramts kostet die Bewilligung CHF 500. Den Bewilligungsausweis trägst du bei dir, wenn du den Hund ausführst.",
       "mehr": {
         "titel": "Ganze Liste anzeigen",
         "punkte": [
@@ -100,10 +100,10 @@
           "Dobermann",
           "Dogo Argentino",
           "Fila Brasileiro",
-          "Mastiff",
+          "Mastiff (laut Merkblatt des Veterinäramts auch Bullmastiff)",
           "Mastín Español",
           "Mastino Napoletano",
-          "Presa Canario (Dogo Canario)",
+          "Presa Canario (Dogo Canario, laut Merkblatt des Veterinäramts auch Alano)",
           "Rottweiler",
           "Staffordshire Bullterrier",
           "Tosa",
