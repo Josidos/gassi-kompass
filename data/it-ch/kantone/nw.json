@@ -1,0 +1,115 @@
+{
+  "id": "nw",
+  "kurz": "NW",
+  "uebersetzt_aus": "de",
+  "original": "50610771a72f",
+  "wald": {
+    "saison": false,
+    "text": "Hundegesetz (legge sui cani) e Jagdverordnung (ordinanza sulla caccia) del Cantone non prevedono un obbligo di guinzaglio nel bosco in date fisse. Non puoi però lasciar correre libero il tuo cane senza sorveglianza da nessuna parte. Nelle zone di tranquillità per la selvaggina la Verordnung über die Wildruhegebiete (ordinanza sulle zone di tranquillità per la selvaggina) prevede l'obbligo di guinzaglio per i cani (stato dell'ordinanza: 2019). Lì fai attenzione ai cartelli. I cani che si aggirano senza sorveglianza nelle zone di rifugio della selvaggina o che inseguono, braccano o sbranano la selvaggina sono considerati cani che cacciano di frodo e possono essere abbattuti dai guardiacaccia.",
+    "quellen": [
+      "nw_hug",
+      "nw_jsv",
+      "nw_wrg"
+    ]
+  },
+  "leine": {
+    "punkte": [
+      "nei campi sportivi e negli impianti scolastici (Hundegesetz, versione del 2005)",
+      "nelle zone di tranquillità per la selvaggina, per quanto lo preveda la Verordnung über die Wildruhegebiete (stato 2019)",
+      "ovunque il Regierungsrat (governo cantonale) abbia ordinato l'obbligo di guinzaglio o di museruola",
+      "se il veterinario cantonale lo ordina per il tuo cane nel singolo caso"
+    ],
+    "quellen": [
+      "nw_hug",
+      "nw_wrg"
+    ]
+  },
+  "verbot": {
+    "einleitung": "La Hundegesetz vieta di portare i cani in questi luoghi o di lasciarli correre lì (versione del 2005). La multa disciplinare è di CHF 100.",
+    "punkte": [
+      "cimiteri",
+      "parchi giochi",
+      "lidi"
+    ],
+    "quellen": [
+      "nw_hug",
+      "nw_kobv"
+    ]
+  },
+  "karten": [
+    {
+      "titel": "Responsabilità civile",
+      "marke": "Hundegesetz",
+      "ton": "note",
+      "wert": "non menzionata nella Hundegesetz",
+      "text": "Nella versione consultata (in vigore dal 2005) la Hundegesetz del Cantone non contiene alcuna disposizione su un'assicurazione di responsabilità civile. Nemmeno la pagina del controllo dei cani menziona un obbligo di assicurazione.",
+      "quellen": [
+        "nw_hug",
+        "nw_hundekontrolle"
+      ]
+    },
+    {
+      "titel": "Corso",
+      "marke": "Singolo caso",
+      "ton": "note",
+      "wert": "solo su ordine",
+      "text": "La Hundegesetz non prevede un obbligo generale di corso (versione del 2005). Dopo un morso, una minaccia o in caso di comportamento anomalo il veterinario cantonale può ordinare la frequenza di un corso di educazione.",
+      "quellen": [
+        "nw_hug",
+        "nw_gefaehrlich"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "marke": "Obbligo",
+      "ton": "must",
+      "wert": "Amt für Justiz, entro 3 mesi dalla nascita",
+      "text": "Annunci il tuo cane all'Amt für Justiz (ufficio cantonale della giustizia), al più tardi tre mesi dopo la nascita. Lo fai con il modulo online «Anmeldung Hund» (notifica del cane). L'ufficio ti registra nella banca dati AMICUS. Il cane porta un microchip. I cambiamenti di nome o di indirizzo li annunci all'ufficio entro 10 giorni. Multa disciplinare per obbligo di annuncio non adempiuto o contrassegno mancante: CHF 100 ciascuna.",
+      "quellen": [
+        "nw_hundekontrolle",
+        "nw_huv",
+        "nw_kobv"
+      ]
+    },
+    {
+      "titel": "Imposta sui cani",
+      "marke": "Cantone",
+      "ton": "note",
+      "wert": "CHF 120 all'anno",
+      "text": "L'imposta sui cani è di CHF 120 per anno civile in tutto il Cantone. L'Amt für Justiz la tassa e la riscuote. Se ti trasferisci altrove o se il tuo cane muore, l'imposta può esserti rimborsata in proporzione, su richiesta.",
+      "quellen": [
+        "nw_hundekontrolle"
+      ]
+    },
+    {
+      "titel": "Razze",
+      "marke": "Singolo caso",
+      "ton": "note",
+      "wert": "nessun elenco menzionato",
+      "text": "Né la Hundegesetz (versione del 2005) né la pagina del Cantone sui cani pericolosi menzionano razze di cani. I morsi e le minacce da parte di cani vengono segnalati al veterinario cantonale. Può ordinare misure, per esempio l'obbligo di guinzaglio o di museruola o un divieto di detenzione. L'allevamento che mira all'aggressività è vietato.",
+      "quellen": [
+        "nw_hug",
+        "nw_gefaehrlich"
+      ]
+    },
+    {
+      "titel": "A passeggio",
+      "marke": "Regola",
+      "ton": "must",
+      "wert": "raccogliere gli escrementi, sorvegliare il cane",
+      "text": "Raccogli gli escrementi del tuo cane sul suolo pubblico e sui fondi privati altrui e li smaltisci. È vietato lasciar correre libero il tuo cane senza sorveglianza. Multe disciplinari: escrementi non rimossi CHF 100, cane non debitamente custodito o sorvegliato CHF 100, cane aizzato intenzionalmente CHF 300.",
+      "quellen": [
+        "nw_hug",
+        "nw_kobv"
+      ]
+    }
+  ],
+  "vergleich": {
+    "wald": "nessun periodo fisso di guinzaglio, guinzaglio nelle zone di tranquillità per la selvaggina",
+    "haft": "non menzionata nella Hundegesetz",
+    "kurs": "solo su ordine",
+    "rassen": "nessun elenco menzionato",
+    "steuer": "CHF 120 all'anno, cantonale",
+    "anm": "Amt für Justiz, entro 3 mesi dalla nascita"
+  }
+}

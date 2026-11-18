@@ -1,0 +1,126 @@
+{
+  "id": "ar",
+  "kurz": "AR",
+  "uebersetzt_aus": "de",
+  "original": "687d32963b58",
+  "wald": {
+    "saison": false,
+    "text": "Hundegesetz (legge sui cani), Hundeverordnung (ordinanza sui cani), Jagdgesetz (legge sulla caccia) e Jagdverordnung (ordinanza sulla caccia) del Cantone non prevedono un obbligo di guinzaglio nel bosco in date fisse. Devi però avere il tuo cane in ogni momento sotto sorveglianza e sotto controllo efficace. Se non è possibile altrimenti, va tenuto al guinzaglio. Nella zona di tranquillità per la selvaggina «südliches Appenzeller Hinterland», nella regione Schwägalp-Hochalp (Comuni di Hundwil e Urnäsch), i cani vanno tenuti al guinzaglio in ogni momento (Schutzverordnung del 2009, ordinanza di protezione, approvata nel 2011). I cani che cacciano di frodo possono essere abbattuti dagli organi di polizia della caccia.",
+    "quellen": [
+      "ar_hug",
+      "ar_huv",
+      "ar_jag",
+      "ar_jav",
+      "ar_wrz"
+    ]
+  },
+  "leine": {
+    "punkte": [
+      "se non puoi controllare efficacemente il tuo cane in altro modo",
+      "negli impianti scolastici, nei parchi giochi e nei campi sportivi accessibili al pubblico e nei parchi pubblici",
+      "negli edifici pubblici",
+      "sui mezzi di trasporto pubblici, nelle stazioni e alle fermate",
+      "quando entri in pascoli con animali da reddito",
+      "se il tuo cane porta la museruola. La museruola serve ai cani mordaci e ai cani per i quali l'autorità l'ha ordinata.",
+      "se l'autorità ha ordinato il guinzaglio per il tuo cane nel singolo caso",
+      "in altri luoghi designati dal tuo Comune",
+      "in ogni momento nella zona di tranquillità per la selvaggina «südliches Appenzeller Hinterland» (Schwägalp-Hochalp, Comuni di Hundwil e Urnäsch). Fanno eccezione i cani da conduzione del bestiame e i cani con funzioni speciali come polizia, ricerca della selvaggina ferita, ricerca in valanga e salvataggio."
+    ],
+    "quellen": [
+      "ar_hug",
+      "ar_wrz"
+    ]
+  },
+  "verbot": {
+    "einleitung": "La Hundegesetz non indica essa stessa luoghi vietati ai cani. Lascia questa scelta ai Comuni.",
+    "punkte": [
+      "luoghi ai quali il tuo Comune ha vietato l'accesso ai cani"
+    ],
+    "quellen": [
+      "ar_hug"
+    ]
+  },
+  "karten": [
+    {
+      "titel": "Responsabilità civile",
+      "marke": "Obbligo",
+      "ton": "must",
+      "wert": "almeno CHF 5 milioni",
+      "text": "Chi detiene un cane deve avere un'assicurazione di responsabilità civile che copra i rischi della detenzione di cani. La somma minima di copertura è di CHF 5 milioni. Presenti la polizza su richiesta.",
+      "quellen": [
+        "ar_hug",
+        "ar_huv"
+      ]
+    },
+    {
+      "titel": "Corso",
+      "marke": "Nessun obbligo",
+      "ton": "none",
+      "wert": "solo nel singolo caso",
+      "text": "Hundegesetz e Hundeverordnung non prevedono un corso obbligatorio per tutti i detentori di cani. L'autorità può ordinare, come misura nel singolo caso, la frequenza di corsi di formazione con o senza cane. Nel suo opuscolo il Cantone raccomanda di frequentare corsi per cani (stato dell'opuscolo: 2019).",
+      "quellen": [
+        "ar_hug",
+        "ar_huv",
+        "ar_brosch"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "marke": "Obbligo",
+      "ton": "must",
+      "wert": "entro 14 giorni al Cantone",
+      "text": "Se detieni un cane di età superiore a tre mesi, lo annunci entro 14 giorni al servizio cantonale competente. Lo stesso termine vale per il cambio di detentore, la morte del cane, un cambiamento del tuo nome o del tuo indirizzo e per le misure ordinate da un altro Cantone. Il servizio cantonale competente è il Veterinäramt (ufficio veterinario). Secondo l'opuscolo del Cantone ti annunci come detentrice o detentore di cani presso il Veterinäramt a Herisau (stato dell'opuscolo: 2019). Ogni cane deve essere contrassegnato e registrato secondo la legislazione federale sulle epizoozie.",
+      "quellen": [
+        "ar_hug",
+        "ar_huv",
+        "ar_brosch"
+      ]
+    },
+    {
+      "titel": "Imposta sui cani",
+      "marke": "annuale",
+      "ton": "note",
+      "wert": "CHF 120, il doppio per ogni cane in più",
+      "text": "L'imposta sui cani è uguale in tutto il Cantone. È di CHF 120 per anno civile ed è dovuta per ogni cane di età superiore a tre mesi. Per ogni cane in più l'imposta è doppia. Se non detieni il cane per tutto l'anno, paghi in proporzione. Chi omette l'annuncio paga un'imposta suppletiva di CHF 180 per cane e anno civile, il doppio per ogni cane in più. Sono esentati i cani di cui è comprovato l'impiego come cani da utilità, per esempio cani da ricerca e da salvataggio, cani d'assistenza, cani da traccia, cani di servizio dell'esercito, del Corpo delle guardie di confine e della polizia e cani da protezione delle greggi. Rinnovi la prova ogni anno, senza attendere una richiesta, al più tardi entro il 31 gennaio. Sono esentati anche i cani per i quali nello stesso anno l'imposta è già stata pagata in un altro Cantone.",
+      "quellen": [
+        "ar_huv",
+        "ar_hug"
+      ]
+    },
+    {
+      "titel": "Razze",
+      "marke": "Nessun elenco",
+      "ton": "none",
+      "wert": "nessun elenco delle razze",
+      "text": "Hundegesetz e Hundeverordnung non menzionano razze vietate o soggette ad autorizzazione. Le misure sono prese nel singolo caso, per esempio se un cane ha ferito gravemente persone o animali o è eccessivamente aggressivo. L'autorità può allora ordinare tra l'altro un accertamento comportamentale, l'obbligo di guinzaglio e di museruola, corsi di formazione o un divieto di detenzione, che può anche essere limitato a determinati tipi di razza o taglie. Gli incidenti con cani vanno segnalati al Veterinäramt.",
+      "quellen": [
+        "ar_hug",
+        "ar_huv"
+      ]
+    },
+    {
+      "titel": "A passeggio",
+      "marke": "Regola",
+      "ton": "note",
+      "wert": "raccogliere gli escrementi, cane sotto controllo",
+      "text": "Raccogli gli escrementi del tuo cane sui fondi altrui e sui fondi accessibili al pubblico e li smaltisci. Hai il tuo cane in ogni momento sotto sorveglianza e sotto controllo efficace e lo tieni in modo che non molesti, non metta in pericolo e non danneggi persone, animali e proprietà altrui. Chi viola questi obblighi, l'obbligo di guinzaglio o l'obbligo di annuncio è punito con la multa. La Hundegesetz non indica un importo.",
+      "quellen": [
+        "ar_hug"
+      ]
+    }
+  ],
+  "vergleich": {
+    "wald": "nessun periodo fisso di guinzaglio nel diritto sui cani e sulla caccia, guinzaglio tutto l'anno nella zona di tranquillità Schwägalp-Hochalp",
+    "haft": "obbligo, almeno CHF 5 milioni",
+    "kurs": "nessun obbligo, solo nel singolo caso",
+    "rassen": "nessun elenco delle razze",
+    "steuer": "CHF 120, il doppio per ogni cane in più",
+    "anm": "entro 14 giorni al Veterinäramt"
+  },
+  "umzug": {
+    "text": "Le misure che un altro Cantone ha disposto con decisione passata in giudicato, per esempio l'obbligo di guinzaglio o di museruola, valgono anche nel Cantone di Appenzello Esterno. Le annunci entro 14 giorni al servizio cantonale competente.",
+    "quellen": [
+      "ar_hug"
+    ]
+  }
+}

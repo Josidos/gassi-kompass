@@ -1,0 +1,137 @@
+{
+  "id": "gl",
+  "kurz": "GL",
+  "uebersetzt_aus": "de",
+  "original": "d882ae0fc9c9",
+  "wald": {
+    "saison": false,
+    "text": "Nel Cantone di Glarona l'obbligo di guinzaglio nel bosco vale tutto l'anno. Tutti i cani vanno tenuti al guinzaglio o legati nel bosco e lungo i margini del bosco. Fanno eccezione i cani da caccia durante il periodo di caccia, i cani da conduzione durante gli spostamenti del bestiame e i cani da utilità riconosciuti, per quanto la formazione o l'impiego lo rendano indispensabile.",
+    "quellen": [
+      "gl_jagdv"
+    ]
+  },
+  "leine": {
+    "punkte": [
+      "nel bosco e lungo i margini del bosco, tutto l'anno",
+      "negli edifici accessibili al pubblico",
+      "lungo le strade molto trafficate, in particolare le strade cantonali e principali",
+      "sui mezzi di trasporto pubblici, alle fermate e nelle stazioni",
+      "nei cortili delle scuole, nei parchi giochi e nei campi sportivi",
+      "nei luoghi che il Comune segnala di conseguenza",
+      "nelle bandite federali di caccia. Nelle bandite Kärpf, Schilt e Rauti-Tros l'obbligo di guinzaglio vale di principio ovunque, anche fuori dal bosco. Fanno eccezione i cani da utilità nell'agricoltura (stato della regolamentazione d'esecuzione: 2015).",
+      "sempre, insieme alla museruola, se non abiti nel Cantone e porti a spasso un cane con potenziale di pericolo elevato. Te ne dispensa solo un permesso del servizio del veterinario cantonale, che porti con te."
+    ],
+    "quellen": [
+      "gl_jagdv",
+      "gl_glarus_hunde",
+      "gl_jagdbann",
+      "gl_vetv"
+    ]
+  },
+  "verbot": {
+    "einleitung": "La Veterinärverordnung (ordinanza veterinaria) e la Jagdverordnung (ordinanza sulla caccia) del Cantone non indicano luoghi vietati ai cani. Non è permesso:",
+    "punkte": [
+      "detenere senza autorizzazione un cane con potenziale di pericolo elevato",
+      "lasciar correre libero il cane nel bosco o lungo i margini del bosco"
+    ],
+    "quellen": [
+      "gl_vetv",
+      "gl_jagdv"
+    ]
+  },
+  "karten": [
+    {
+      "titel": "Responsabilità civile",
+      "marke": "Obbligo",
+      "ton": "must",
+      "wert": "polizza all'Einwohneramt (ufficio abitanti) entro 1 mese",
+      "text": "Nel Cantone di Glarona vale un obbligo di assicurazione. Consegni all'Einwohneramt del tuo Comune di domicilio, senza attendere una richiesta, una copia della polizza di assicurazione entro un mese dall'acquisto del cane. La Veterinärverordnung non indica una somma di copertura. Per l'autorizzazione di un cane con potenziale di pericolo elevato richiede un'assicurazione di responsabilità civile privata valida che includa il cane.",
+      "quellen": [
+        "gl_vetv"
+      ]
+    },
+    {
+      "titel": "Corso",
+      "marke": "Primo cane",
+      "ton": "note",
+      "wert": "attestato all'Einwohneramt",
+      "text": "Se detieni un cane per la prima volta, consegni all'Einwohneramt del tuo Comune di domicilio una copia dell'attestato di competenza, entro un mese da quando l'hai ricevuto. Sono riconosciuti l'attestato di competenza federale o il corso di formazione cantonale. Secondo i servizi abitanti del Comune di Glarona, chi detiene un cane per la prima volta svolge la formazione KAL1 entro un anno. Per un cane con potenziale di pericolo elevato ti serve l'attestato con ogni cane ed entro un anno dall'acquisto, oltre a un esame riconosciuto di obbedienza e di conduzione.",
+      "quellen": [
+        "gl_vetv",
+        "gl_glarus_hunde"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "marke": "1 mese",
+      "ton": "must",
+      "wert": "Einwohneramt del Comune di domicilio",
+      "text": "È competente l'Einwohneramt del tuo Comune di domicilio. Lì invii la copia della polizza di assicurazione entro un mese dall'acquisto del cane. L'Einwohneramt riscuote anche la tassa sui cani. I dati di base dei cani sono tenuti da un servizio di notifica e di registrazione.",
+      "quellen": [
+        "gl_vetv"
+      ]
+    },
+    {
+      "titel": "Imposta sui cani",
+      "marke": "annuale",
+      "ton": "note",
+      "wert": "CHF 55 al Cantone, più il supplemento del Comune",
+      "text": "La tassa cantonale sui cani è di CHF 55 per cane e anno, a partire dal sesto mese di vita del cane. I Comuni decidono se riscuotere un supplemento comunale. Se il cane muore o lascia stabilmente il Cantone, puoi trasferire la tassa e il supplemento dell'anno in corso su un nuovo cane. Se non hai più il cane nel primo semestre e non viene sostituito, la metà può essere rimborsata. Sono esentati tra gli altri i cani guida per ciechi, i cani da terapia in servizio, i cani di servizio della polizia e dell'esercito, i cani da catastrofe e da valanga e i cani da protezione delle greggi.",
+      "quellen": [
+        "gl_vetv"
+      ]
+    },
+    {
+      "titel": "Razze",
+      "marke": "Autorizzazione",
+      "ton": "must",
+      "wert": "10 razze e i loro incroci",
+      "text": "Per i cani con potenziale di pericolo elevato ti serve un'autorizzazione. Presenti la domanda di principio prima della presa a carico del cane, al più tardi 14 giorni dopo. Sono richiesti tra l'altro l'attestato di competenza entro un anno dall'acquisto, un esame riconosciuto di obbedienza e di conduzione, che il cane deve aver superato al più tardi alla fine del suo secondo anno di vita, e un'assicurazione di responsabilità civile privata che includa il cane. Per le prime sei razze dell'elenco e i loro incroci devi avere almeno 18 anni e presenti inoltre estratti del casellario giudiziale e del registro delle esecuzioni e un certificato di capacità civile. Le domande vanno alla Fachstelle Hundewesen (servizio specializzato per i cani) dell'Amt für Lebensmittelsicherheit und Tiergesundheit Graubünden (ufficio per la sicurezza delle derrate alimentari e la salute degli animali dei Grigioni), competente anche per Glarona.",
+      "mehr": {
+        "titel": "Mostra le razze soggette ad autorizzazione",
+        "punkte": [
+          "American Staffordshire Terrier",
+          "American Pit Bull Terrier",
+          "Bull Terrier",
+          "Staffordshire Bull Terrier",
+          "Rottweiler",
+          "Dobermann",
+          "Dogo Argentino",
+          "Cane Corso",
+          "Deutscher Schäferhund",
+          "Belgischer Schäferhund"
+        ]
+      },
+      "quellen": [
+        "gl_vetv",
+        "gl_hundewesen"
+      ]
+    },
+    {
+      "titel": "A passeggio",
+      "marke": "Regola",
+      "ton": "note",
+      "wert": "bandite di caccia e cani che cacciano di frodo",
+      "text": "Nelle bandite federali di caccia l'obbligo di guinzaglio vale anche fuori dal bosco. Nel bosco e nelle zone marginali con obbligo di guinzaglio ridotto la multa è inflitta secondo il diritto cantonale, fuori dal bosco segue una denuncia secondo il diritto federale. Chi detiene un cane che caccia viene sempre denunciato (stato della regolamentazione d'esecuzione: 2015). L'autorità cantonale della caccia può far abbattere i cani che cacciano di frodo.",
+      "quellen": [
+        "gl_jagdbann",
+        "gl_jagdv"
+      ]
+    }
+  ],
+  "vergleich": {
+    "wald": "tutto l'anno, nel bosco e lungo i margini del bosco",
+    "haft": "obbligo, polizza all'Einwohneramt",
+    "kurs": "attestato per il primo cane",
+    "rassen": "obbligo di autorizzazione per 10 razze",
+    "steuer": "CHF 55 al Cantone più supplemento comunale",
+    "anm": "Einwohneramt, polizza entro 1 mese"
+  },
+  "umzug": {
+    "text": "Se ti trasferisci nel Cantone di Glarona con un cane con potenziale di pericolo elevato, presenti la domanda di autorizzazione entro un mese dall'elezione del domicilio. Se hai già un'autorizzazione di detenzione di un altro Cantone, l'esame di obbedienza e di conduzione non è richiesto.",
+    "quellen": [
+      "gl_vetv",
+      "gl_hundewesen"
+    ]
+  }
+}
