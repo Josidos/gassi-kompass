@@ -1,0 +1,121 @@
+{
+  "id": "ai",
+  "kurz": "AI",
+  "uebersetzt_aus": "de",
+  "original": "9f8cbed16088",
+  "wald": {
+    "saison": false,
+    "text": "Hundegesetz (legge sui cani), Verordnung zum Hundegesetz (ordinanza concernente la legge sui cani) e Verordnung zum Jagdgesetz (ordinanza concernente la legge sulla caccia) del Cantone non prevedono un obbligo di guinzaglio nel bosco in date fisse. Sugli alpeggi, però, il tuo cane va tenuto al guinzaglio per tutta la stagione alpestre. I cani che inseguono la selvaggina senza averne il diritto possono essere abbattuti dal guardacaccia o dai suoi incaricati.",
+    "quellen": [
+      "ai_hug",
+      "ai_huv",
+      "ai_jav",
+      "ai_alpv"
+    ]
+  },
+  "leine": {
+    "punkte": [
+      "durante la stagione alpestre sugli alpeggi ai quali si applica la Alpgesetz (legge sugli alpeggi). Fanno eccezione i cani dei gestori. L'ordinanza non indica date per la stagione alpestre.",
+      "nei cortili delle scuole e nei campi da gioco e sportivi. Lì non puoi lasciare libero il tuo cane.",
+      "nelle zone con obbligo di guinzaglio disposte dal tuo distretto",
+      "se il tuo cane è cattivo o morde. Va allora tenuto in un recinto sicuro, condotto al guinzaglio o munito di museruola.",
+      "se il distretto ha disposto l'obbligo di guinzaglio per il tuo cane"
+    ],
+    "quellen": [
+      "ai_alpv",
+      "ai_hug",
+      "ai_huv"
+    ]
+  },
+  "verbot": {
+    "punkte": [
+      "locali in cui si lavorano, preparano, depositano o consegnano derrate alimentari. Fanno eccezione i cani guida per ciechi e le sale per gli ospiti degli esercizi pubblici, se la persona responsabile ammette i cani.",
+      "giardini e prati privati in fase avanzata di crescita, se l'avente diritto non ha dato il consenso",
+      "zone senza cani disposte dal tuo distretto"
+    ],
+    "quellen": [
+      "ai_hug"
+    ]
+  },
+  "karten": [
+    {
+      "titel": "Responsabilità civile",
+      "marke": "Obbligo",
+      "ton": "must",
+      "wert": "per tutti i cani",
+      "text": "Chi detiene un cane deve stipulare per lui un'assicurazione di responsabilità civile. La Hundegesetz (legge sui cani) non indica una somma minima. La responsabilità per i danni causati da un cane è retta dal Codice delle obbligazioni.",
+      "quellen": [
+        "ai_hug"
+      ]
+    },
+    {
+      "titel": "Corso",
+      "marke": "Nessun obbligo",
+      "ton": "none",
+      "wert": "solo nel singolo caso",
+      "text": "Secondo il Cantone, dal 1° gennaio 2017 non esiste più una formazione obbligatoria per tutti i detentori di cani. Il Veterinäramt (ufficio veterinario) può ordinare nel singolo caso la frequenza di corsi per cani. La Hundegesetz menziona il corso per detentori di cani o il corso di educazione tra le misure che il distretto può ordinare se non adempi i tuoi obblighi o se il tuo cane ha un comportamento anomalo.",
+      "quellen": [
+        "ai_kurs",
+        "ai_hug"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "marke": "Obbligo",
+      "ton": "must",
+      "wert": "distretto e banca dati dei cani",
+      "text": "Se detieni un cane di età superiore a tre mesi, lo annunci al tuo distretto. Al distretto annunci anche un cambio di detentore, la morte del cane, un cambiamento del tuo nome o del tuo indirizzo e l'inizio di un addestramento alla difesa. Ogni cane deve essere contrassegnato e registrato, i costi sono a tuo carico. Il distretto verifica a campione le iscrizioni nella banca dati dei cani.",
+      "quellen": [
+        "ai_huv",
+        "ai_hug"
+      ]
+    },
+    {
+      "titel": "Imposta sui cani",
+      "marke": "annuale",
+      "ton": "note",
+      "wert": "CHF 80, cane da fattoria CHF 50",
+      "text": "L'imposta sui cani è uguale in tutto il Cantone. Ammonta a CHF 80 all'anno, per un cane da fattoria di un'azienda agricola a CHF 50. Per il secondo cane e per ogni altro cane nella stessa economia domestica sono CHF 160 all'anno. Gli allevamenti di cani e i rifugi per animali con autorizzazione pagano un importo forfettario di CHF 600 all'anno. L'anno di tassazione è l'anno civile. L'imposta è riscossa dal tuo distretto. Sono esentati tra gli altri i cani di età inferiore a tre mesi, i cani di servizio dell'esercito, della polizia e del Corpo delle guardie di confine, i cani d'assistenza per persone con disabilità e i cani guida per ciechi con prestazioni dell'assicurazione per l'invalidità, i cani che sostituiscono un cane morto nell'anno di tassazione, i cani per i quali nell'anno in corso l'imposta è già stata pagata in un altro distretto e gli Appenzeller Sennenhunde con certificato di ascendenza riconosciuto della Società Cinologica Svizzera.",
+      "quellen": [
+        "ai_huv",
+        "ai_hug"
+      ]
+    },
+    {
+      "titel": "Razze",
+      "marke": "Nessun elenco",
+      "ton": "none",
+      "wert": "nessun elenco delle razze",
+      "text": "Hundegesetz e Verordnung zum Hundegesetz (ordinanza concernente la legge sui cani) non menzionano razze vietate o soggette ad autorizzazione. Le misure sono prese nel singolo caso: il distretto può ordinare tra l'altro l'obbligo di guinzaglio o di museruola, un test caratteriale o un corso, nei casi gravi un divieto di detenzione o la soppressione del cane. I costi sono a tuo carico. Gli episodi in cui un cane ferisce in modo grave persone o animali o è eccessivamente aggressivo vanno segnalati al distretto.",
+      "quellen": [
+        "ai_hug",
+        "ai_huv"
+      ]
+    },
+    {
+      "titel": "A passeggio",
+      "marke": "Regola",
+      "ton": "note",
+      "wert": "raccogliere gli escrementi, multa CHF 100",
+      "text": "Devi eliminare correttamente gli escrementi del tuo cane sui fondi pubblici e sui fondi privati altrui. Chi non lo fa paga una multa disciplinare di CHF 100. Una violazione dell'obbligo di guinzaglio o del divieto di accesso costa CHF 50. Tieni il tuo cane in modo che non metta in pericolo né molesti persone e animali e non danneggi la proprietà altrui. È vietato aizzare i cani contro persone o animali.",
+      "quellen": [
+        "ai_hug",
+        "ai_vob"
+      ]
+    }
+  ],
+  "vergleich": {
+    "wald": "nessun periodo fisso di guinzaglio nel diritto sui cani e sulla caccia, guinzaglio sugli alpeggi durante la stagione alpestre",
+    "haft": "obbligo, nessuna somma minima nella legge",
+    "kurs": "nessun obbligo, solo nel singolo caso",
+    "rassen": "nessun elenco delle razze",
+    "steuer": "CHF 80, cane da fattoria CHF 50, ogni altro cane CHF 160",
+    "anm": "distretto e banca dati dei cani"
+  },
+  "umzug": {
+    "text": "Le decisioni passate in giudicato di autorità esterne al Cantone, per esempio un obbligo di guinzaglio o di museruola, valgono anche nel Cantone di Appenzello Interno. Se ti trasferisci nel Cantone con un cane di questo tipo, annunci la decisione al distretto.",
+    "quellen": [
+      "ai_hug"
+    ]
+  }
+}

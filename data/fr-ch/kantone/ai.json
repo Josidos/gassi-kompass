@@ -1,0 +1,121 @@
+{
+  "id": "ai",
+  "kurz": "AI",
+  "uebersetzt_aus": "de",
+  "original": "9f8cbed16088",
+  "wald": {
+    "saison": false,
+    "text": "Le Hundegesetz (loi sur les chiens), la Verordnung zum Hundegesetz (ordonnance relative à la loi sur les chiens) et la Verordnung zum Jagdgesetz (ordonnance relative à la loi sur la chasse) du canton ne prévoient pas de laisse obligatoire en forêt à des dates fixes. Sur les alpages, votre chien doit toutefois être tenu en laisse pendant toute la saison d'alpage. Les chiens qui poursuivent le gibier sans droit peuvent être abattus par le garde-faune ou par les personnes qu'il a mandatées.",
+    "quellen": [
+      "ai_hug",
+      "ai_huv",
+      "ai_jav",
+      "ai_alpv"
+    ]
+  },
+  "leine": {
+    "punkte": [
+      "pendant la saison d'alpage sur les alpages auxquels s'applique l'Alpgesetz (loi sur les alpages). Font exception les chiens des exploitants. L'ordonnance ne donne pas de dates pour la saison d'alpage.",
+      "dans les préaux des écoles et sur les places de jeux et de sport. Vous ne pouvez pas y laisser votre chien en liberté.",
+      "dans les zones de laisse obligatoire ordonnées par votre district",
+      "si votre chien est méchant ou mordeur. Il doit alors être détenu dans un enclos sûr, tenu en laisse ou muni d'une muselière.",
+      "si le district a ordonné la laisse obligatoire pour votre chien"
+    ],
+    "quellen": [
+      "ai_alpv",
+      "ai_hug",
+      "ai_huv"
+    ]
+  },
+  "verbot": {
+    "punkte": [
+      "les locaux où des denrées alimentaires sont transformées, préparées, entreposées ou remises. Font exception les chiens guides d'aveugles et les salles destinées à la clientèle des établissements de restauration, si la personne responsable autorise les chiens.",
+      "les jardins et les prés privés à un stade de croissance avancé, si l'ayant droit n'a pas donné son accord",
+      "les zones sans chiens ordonnées par votre district"
+    ],
+    "quellen": [
+      "ai_hug"
+    ]
+  },
+  "karten": [
+    {
+      "titel": "Responsabilité civile",
+      "marke": "Obligatoire",
+      "ton": "must",
+      "wert": "pour tous les chiens",
+      "text": "Toute personne qui détient un chien doit conclure pour lui une assurance responsabilité civile. Le Hundegesetz (loi sur les chiens) ne fixe pas de somme minimale. La responsabilité pour les dommages causés par un chien est régie par le Code des obligations.",
+      "quellen": [
+        "ai_hug"
+      ]
+    },
+    {
+      "titel": "Cours",
+      "marke": "Pas d'obligation",
+      "ton": "none",
+      "wert": "seulement au cas par cas",
+      "text": "Selon le canton, il n'existe plus de formation obligatoire pour tous les détenteurs de chiens depuis le 1er janvier 2017. Le Veterinäramt (office vétérinaire) peut ordonner au cas par cas de suivre des cours pour chiens. Le Hundegesetz cite le cours pour détenteurs de chiens ou le cours d'éducation parmi les mesures que le district peut ordonner si vous ne remplissez pas vos obligations ou si votre chien présente un comportement anormal.",
+      "quellen": [
+        "ai_kurs",
+        "ai_hug"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "marke": "Obligatoire",
+      "ton": "must",
+      "wert": "district et banque de données des chiens",
+      "text": "Si vous détenez un chien âgé de plus de trois mois, vous l'annoncez à votre district. Vous annoncez aussi au district un changement de détenteur, la mort du chien, un changement de votre nom ou de votre adresse et le début d'une formation au travail de défense. Chaque chien doit être identifié et enregistré, les frais sont à votre charge. Le district vérifie par sondage les inscriptions dans la banque de données des chiens.",
+      "quellen": [
+        "ai_huv",
+        "ai_hug"
+      ]
+    },
+    {
+      "titel": "Impôt sur les chiens",
+      "marke": "annuel",
+      "ton": "note",
+      "wert": "CHF 80, chien de ferme CHF 50",
+      "text": "L'impôt sur les chiens est le même dans tout le canton. Il se monte à CHF 80 par an, et à CHF 50 pour un chien de ferme d'une exploitation agricole. Pour le deuxième chien et chaque chien supplémentaire du même ménage, il est de CHF 160 par an. Les élevages de chiens et les refuges pour animaux au bénéfice d'une autorisation paient un forfait de CHF 600 par an. L'année de taxation est l'année civile. Votre district perçoit l'impôt. Sont exonérés notamment les chiens de moins de trois mois, les chiens de service de l'armée, de la police et du Corps des gardes-frontière, les chiens d'assistance pour personnes handicapées et les chiens guides d'aveugles donnant droit à des prestations de l'assurance-invalidité, les chiens qui remplacent un chien mort pendant l'année de taxation, les chiens pour lesquels l'impôt a déjà été payé dans un autre district pendant l'année en cours et les Appenzeller Sennenhunde avec un certificat d'ascendance reconnu de la Société Cynologique Suisse.",
+      "quellen": [
+        "ai_huv",
+        "ai_hug"
+      ]
+    },
+    {
+      "titel": "Races",
+      "marke": "Aucune liste",
+      "ton": "none",
+      "wert": "pas de liste de races",
+      "text": "Le Hundegesetz et la Verordnung zum Hundegesetz (ordonnance relative à la loi sur les chiens) ne citent aucune race interdite ou soumise à autorisation. Des mesures sont prises au cas par cas: le district peut notamment ordonner la laisse ou la muselière obligatoire, un test de comportement ou un cours, et dans les cas graves une interdiction de détention ou l'élimination du chien. Les frais sont à votre charge. Les incidents lors desquels un chien blesse gravement des personnes ou des animaux ou se montre excessivement agressif doivent être annoncés au district.",
+      "quellen": [
+        "ai_hug",
+        "ai_huv"
+      ]
+    },
+    {
+      "titel": "En promenade",
+      "marke": "Règle",
+      "ton": "note",
+      "wert": "ramasser les crottes, amende CHF 100",
+      "text": "Vous devez éliminer correctement les crottes de votre chien sur les terrains publics et sur les terrains privés d'autrui. Si vous ne le faites pas, vous payez une amende d'ordre de CHF 100. Une infraction à la laisse obligatoire ou à l'interdiction d'accès coûte CHF 50. Vous détenez votre chien de manière à ce qu'il ne mette pas en danger et n'importune pas les personnes et les animaux et qu'il n'endommage pas la propriété d'autrui. Il est interdit d'exciter des chiens contre des personnes ou des animaux.",
+      "quellen": [
+        "ai_hug",
+        "ai_vob"
+      ]
+    }
+  ],
+  "vergleich": {
+    "wald": "pas de période fixe de laisse dans le droit sur les chiens et sur la chasse, laisse sur les alpages pendant la saison d'alpage",
+    "haft": "obligatoire, pas de somme minimale dans la loi",
+    "kurs": "pas d'obligation, seulement au cas par cas",
+    "rassen": "pas de liste de races",
+    "steuer": "CHF 80, chien de ferme CHF 50, chien supplémentaire CHF 160",
+    "anm": "district et banque de données des chiens"
+  },
+  "umzug": {
+    "text": "Les décisions entrées en force rendues par des autorités extérieures au canton, par exemple une obligation de laisse ou de muselière, valent aussi dans le canton d'Appenzell Rhodes-Intérieures. Si vous arrivez dans le canton avec un tel chien, vous annoncez la décision au district.",
+    "quellen": [
+      "ai_hug"
+    ]
+  }
+}

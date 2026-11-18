@@ -2,6 +2,17 @@
 
 Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen.
 
+## 2026-11-18, Kette Übersetzungen, Glied 4: Übersetzungen der Kantone, letzte Portion
+
+- Neu, 2 Übersetzungen für 1 Kanton: Appenzell Innerrhoden französisch und italienisch (`data/fr-ch/kantone/ai.json`, `data/it-ch/kantone/ai.json`). Damit gibt es alle 26 Kantone in allen drei Sprachen. Schritt a) des Programms ist abgehakt.
+- Entscheid zum Umfang: Das Handbuch verlangt pro Glied einen Schritt. Schritt a) hatte nur noch diese 2 Dateien. Das Glied hat darum nicht mit den Gemeinden begonnen. Für Schritt b) bleiben 88 Dateien und höchstens 4 Glieder.
+- Entscheide zur Wortwahl: «Bezirk» heisst «district» und «distretto», «Alpzeit» heisst «saison d'alpage» und «stagione alpestre», «Hofhund» heisst «chien de ferme» und «cane da fattoria», «Wesenstest» heisst «test de comportement» und «test caratteriale», «Schutzdienstausbildung» heisst «formation au travail de défense» und «addestramento alla difesa», «Wildhüter» heisst «garde-faune» und «guardacaccia». Hundegesetz, Verordnung zum Hundegesetz, Verordnung zum Jagdgesetz, Alpgesetz und Veterinäramt bleiben deutsch mit Übersetzung in Klammern. Obligationenrecht, Invalidenversicherung, Grenzwachtkorps und Schweizerische Kynologische Gesellschaft stehen mit ihren amtlichen französischen und italienischen Namen. «Appenzeller Sennenhund» bleibt wie im Original.
+- Geprüft: `build.py --check` ohne Meldung, Bau und Test fehlerfrei (153 Seiten). Als Bild angesehen und ganz gelesen: `/fr-ch/ai/`, `/it-ch/ai/`.
+- Aufgefallen (nichts davon geändert):
+  - `data/kantone/ai.json`, Karte Anmeldung: Die Karte nennt keine Frist für die Meldung an den Bezirk und nennt die Hundedatenbank nicht beim Namen (andere Kantone: AMICUS).
+  - `data/kantone/ai.json`, Feld `leine`, erster Punkt, und `wald`: «Alpzeit» ohne Daten. Wer die Seite liest, erfährt nicht, wann die Leinenpflicht auf den Alpen gilt. Der Satz dazu steht nur im Feld `leine`.
+- Offen: 88 Übersetzungen, alles Gemeindefassungen (Schritt b).
+
 ## 2026-11-18, Kette Übersetzungen, Glied 3: Übersetzungen der Kantone, dritte Portion
 
 - Neu, 16 Übersetzungen für 8 Kantone, in der Reihenfolge von `--fehlend`:
