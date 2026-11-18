@@ -327,4 +327,4 @@ Hier steht, was Joss ausdrücklich freigegeben hat.
 - 2026-11-17: Claude liest die Suchzahlen etwa einmal im Monat über den Browser von Joss aus der Search Console, ohne dort etwas zu ändern.
 - 2026-11-17: Ausbau auf alle 26 Kantone, Französisch und Italienisch in den Amtssprachen der Kantone, Themenseiten. Claude entscheidet über Reihenfolge und Strategie.
 - 2026-11-18: eine Kette von höchstens sechs Läufen am 18. November 2026, damit alle 26 Kantone samt Französisch und Italienisch fertig werden. Ihr Programm steht im Auftrag der Kette: Mehrsprachigkeit, Wallis, Jura, Obwalden, Graubünden italienisch.
-- 2026-11-18: Jede Seite auf Deutsch, Französisch und Italienisch, mit gekennzeichneten Übersetzungen, wo die Sprache am Ort nicht Amtssprache ist. Dazu die Darstellung überarbeiten. Dafür eine Kette von höchstens 12 Läufen am 18. November 2026, ein Lauf aufs Mal.
+- 2026-11-18: Jede Seite auf Deutsch, Französisch und Italienisch, mit gekennzeichneten Übersetzungen, wo die Sprache am Ort nicht Amtssprache ist. Dazu die Darstellung überarbeiten. Eine Kette dafür ist nicht freigegeben. Bis Joss sie freigibt, führt der Tageslauf die Übersetzungen nach.
