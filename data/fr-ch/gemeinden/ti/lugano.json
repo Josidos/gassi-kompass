@@ -1,0 +1,83 @@
+{
+  "id": "lugano",
+  "kanton": "ti",
+  "bfs": 5192,
+  "uebersetzt_aus": "it",
+  "original": "a9750e165622",
+  "name": "Ville de Lugano",
+  "ort": "Lugano",
+  "in_ort": "à Lugano",
+  "einleitung": "À Lugano, les chiens doivent toujours être tenus en laisse. Ils peuvent être sans laisse dans les espaces pour chiens clôturés, réservés aux résidents de Lugano dont les chiens sont annoncés.",
+  "freilaufzonen": [
+    {
+      "name": "Parco Tassino",
+      "marken": [
+        "clôturé",
+        "eau pour les chiens"
+      ],
+      "text": "Ouvert tous les jours de 6:30 à 23:30 de mars à octobre et de 6:30 à 21:00 de novembre à février."
+    },
+    {
+      "name": "Rugì, Pregassona",
+      "marken": [
+        "clôturé",
+        "le long du Cassarate"
+      ],
+      "text": "Ouvert tous les jours de 7:00 à 22:00."
+    },
+    {
+      "name": "Barbengo, Via delle Scuole",
+      "marken": [
+        "horaires fixes"
+      ],
+      "text": "Ouvert tous les jours de 7:00 à 22:00."
+    }
+  ],
+  "freilaufzonen_quellen": [
+    "ti_lugano_parchi",
+    "ti_lugano_ord"
+  ],
+  "karten": [
+    {
+      "titel": "Impôt sur les chiens",
+      "wert": "CHF 115 par chien et par an",
+      "text": "La taxe annuelle est due pour chaque chien âgé de plus de trois mois. Sur ce montant, CHF 40 vont au canton et CHF 25 au Fondo soccorso animali (fonds de secours pour les animaux).",
+      "quellen": [
+        "ti_lugano_ord"
+      ]
+    },
+    {
+      "titel": "Laisse",
+      "wert": "toujours, sauf dans les espaces pour chiens",
+      "text": "Les chiens doivent être tenus en laisse en permanence. Il est interdit de les laisser errer sans surveillance sur les voies publiques, les places, les aires scolaires, les terrains de sport ainsi que dans les parcs et jardins publics. Dans les espaces pour chiens, ils peuvent être sans laisse sous surveillance constante. L'entrée et la sortie se font en laisse. Les chiens des races soumises à autorisation y portent la muselière et les femelles en chaleur n'y sont pas admises. Dans la zone de détente de Pian Casoro, les chiens doivent toujours être tenus en laisse.",
+      "quellen": [
+        "ti_lugano_ord",
+        "ti_lugano_parchi"
+      ]
+    },
+    {
+      "titel": "Accès interdit",
+      "wert": "selon la signalisation",
+      "text": "Le Municipio (exécutif communal) peut interdire par la signalisation l'accès des chiens à certaines zones, même en laisse. Les chiens atteints de maladies transmissibles ne peuvent pas fréquenter les lieux publics ou ouverts au public.",
+      "quellen": [
+        "ti_lugano_ord"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "wert": "tout de suite à la commune",
+      "text": "Les chiens provenant d'autres cantons ou pays doivent être annoncés tout de suite à la commune. La mort du chien doit être communiquée à AMICUS dans les 10 jours.",
+      "quellen": [
+        "ti_lugano_ord"
+      ]
+    },
+    {
+      "titel": "Amendes",
+      "wert": "au moins CHF 300 pour des crottes non ramassées",
+      "text": "Les crottes doivent être ramassées tout de suite et jetées dans les récipients prévus à cet effet ou dans les poubelles. L'amende minimale pour des crottes non ramassées est de CHF 300. Les infractions à l'ordonnance sont punies d'une amende pouvant aller jusqu'à CHF 10 000.",
+      "quellen": [
+        "ti_lugano_ord"
+      ]
+    }
+  ]
+}

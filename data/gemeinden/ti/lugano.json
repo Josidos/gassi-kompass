@@ -1,0 +1,83 @@
+{
+  "id": "lugano",
+  "kanton": "ti",
+  "bfs": 5192,
+  "uebersetzt_aus": "it",
+  "original": "a9750e165622",
+  "name": "Stadt Lugano",
+  "ort": "Lugano",
+  "in_ort": "in Lugano",
+  "einleitung": "In Lugano sind Hunde immer an der Leine zu führen. Ohne Leine dürfen sie in den eingezäunten Hundezonen sein, die Einwohnerinnen und Einwohnern von Lugano mit angemeldeten Hunden vorbehalten sind.",
+  "freilaufzonen": [
+    {
+      "name": "Parco Tassino",
+      "marken": [
+        "eingezäunt",
+        "Wasser für die Hunde"
+      ],
+      "text": "Täglich geöffnet von 6:30 bis 23:30 Uhr von März bis Oktober und von 6:30 bis 21:00 Uhr von November bis Februar."
+    },
+    {
+      "name": "Rugì, Pregassona",
+      "marken": [
+        "eingezäunt",
+        "am Cassarate"
+      ],
+      "text": "Täglich geöffnet von 7:00 bis 22:00 Uhr."
+    },
+    {
+      "name": "Barbengo, Via delle Scuole",
+      "marken": [
+        "feste Öffnungszeiten"
+      ],
+      "text": "Täglich geöffnet von 7:00 bis 22:00 Uhr."
+    }
+  ],
+  "freilaufzonen_quellen": [
+    "ti_lugano_parchi",
+    "ti_lugano_ord"
+  ],
+  "karten": [
+    {
+      "titel": "Hundetaxe",
+      "wert": "CHF 115 pro Hund und Jahr",
+      "text": "Die jährliche Taxe ist für jeden Hund geschuldet, der älter als drei Monate ist. Von diesem Betrag gehen CHF 40 an den Kanton und CHF 25 an den Fondo soccorso animali (Tierhilfefonds).",
+      "quellen": [
+        "ti_lugano_ord"
+      ]
+    },
+    {
+      "titel": "Leine",
+      "wert": "immer, ausser in den Hundezonen",
+      "text": "Hunde sind ständig an der Leine zu führen. Es ist verboten, sie unbeaufsichtigt auf öffentlichen Strassen, Plätzen, Schularealen, Sportplätzen sowie in öffentlichen Parks und Gärten herumlaufen zu lassen. In den Hundezonen dürfen sie unter ständiger Aufsicht ohne Leine sein, hinein und hinaus geht es an der Leine. Dort tragen Hunde der bewilligungspflichtigen Rassen einen Maulkorb, und läufige Hündinnen sind nicht zugelassen. Im Erholungsgebiet Pian Casoro sind Hunde immer an der Leine zu führen.",
+      "quellen": [
+        "ti_lugano_ord",
+        "ti_lugano_parchi"
+      ]
+    },
+    {
+      "titel": "Kein Zutritt",
+      "wert": "gemäss den Schildern vor Ort",
+      "text": "Das Municipio (Stadtregierung) kann Hunden mit Schildern den Zutritt zu bestimmten Zonen verbieten, auch an der Leine. Hunde mit übertragbaren Krankheiten dürfen sich nicht an öffentlichen oder öffentlich zugänglichen Orten aufhalten.",
+      "quellen": [
+        "ti_lugano_ord"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "wert": "sofort bei der Gemeinde",
+      "text": "Hunde aus anderen Kantonen oder Ländern sind sofort bei der Gemeinde anzumelden. Der Tod des Hundes ist AMICUS innert 10 Tagen zu melden.",
+      "quellen": [
+        "ti_lugano_ord"
+      ]
+    },
+    {
+      "titel": "Bussen",
+      "wert": "mindestens CHF 300 für nicht aufgenommenen Kot",
+      "text": "Der Kot ist sofort aufzunehmen und in den dafür vorgesehenen Behältern oder in Abfallbehältern zu entsorgen. Die Mindestbusse für nicht aufgenommenen Kot beträgt CHF 300. Verstösse gegen die Verordnung werden mit Busse bis CHF 10 000 bestraft.",
+      "quellen": [
+        "ti_lugano_ord"
+      ]
+    }
+  ]
+}

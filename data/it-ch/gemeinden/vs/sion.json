@@ -1,0 +1,47 @@
+{
+  "id": "sion",
+  "kanton": "vs",
+  "bfs": 6266,
+  "uebersetzt_aus": "fr",
+  "original": "07831480ad3c",
+  "name": "Città di Sion",
+  "ort": "Sion",
+  "in_ort": "a Sion",
+  "hinweis_heute": "A Sion i cani sono tenuti al guinzaglio in ogni momento nelle località e durante le manifestazioni pubbliche.",
+  "einleitung": "La Città di Sion riscuote l'imposta sui cani e registra i nuovi cani al Guichet citoyen (sportello per i cittadini). Il suo regolamento di polizia stabilisce il guinzaglio nelle zone abitate.",
+  "karten": [
+    {
+      "titel": "Imposta sui cani",
+      "wert": "CHF 160 per cane all'anno",
+      "text": "Dovuta per i cani di età superiore ai sei mesi. Se sei già annunciato, ricevi una fattura. Se acquisti un cane nel corso dell'anno, chiedi al venditore la prova del pagamento dell'imposta. Se non è stata pagata, hai 15 giorni per metterti in regola. Senza pagamento: ricupero d'imposta e multa che può arrivare fino al triplo dell'imposta.",
+      "quellen": [
+        "vs_sion_impot"
+      ]
+    },
+    {
+      "titel": "Guinzaglio",
+      "wert": "nelle località e durante le manifestazioni pubbliche",
+      "text": "Secondo la Città, i cani sono tenuti al guinzaglio in ogni momento nelle località e durante le manifestazioni pubbliche. Il règlement communal de police (regolamento comunale di polizia) lo esige nelle zone abitate, sui sentieri e sulle passeggiate dove il guinzaglio è segnalato e ogni volta che il cane potrebbe spaventare persone o animali o causare danni. L'accesso ai luoghi di manifestazioni pubbliche può essere vietato ai cani. Stato del regolamento: 1997.",
+      "quellen": [
+        "vs_sion_impot",
+        "vs_sion_police"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "wert": "Guichet citoyen, rue de Lausanne 23",
+      "text": "Per un nuovo cane ottieni dapprima un ID AMICUS presso il Service population, sécurité et aéroport (servizio popolazione, sicurezza e aeroporto). L'iscrizione avviene al Guichet citoyen, rue de Lausanne 23, con l'attestato dell'assicurazione di responsabilità civile, il libretto delle vaccinazioni o il passaporto dell'animale con il suo numero AMICUS e, se del caso, l'attestato del corso. Cambiamento di indirizzo, di detentore o morte del cane: da annunciare ad AMICUS e al Comune.",
+      "quellen": [
+        "vs_sion_impot"
+      ]
+    },
+    {
+      "titel": "Multe",
+      "wert": "da CHF 100 a CHF 5000",
+      "text": "Le contravvenzioni al règlement communal de police sono punite con una multa di almeno CHF 100 e al massimo CHF 5000. Un cane vagante viene messo in custodia (fourrière). Stato del regolamento: 1997.",
+      "quellen": [
+        "vs_sion_police"
+      ]
+    }
+  ]
+}

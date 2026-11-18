@@ -1,0 +1,54 @@
+{
+  "id": "brig-glis",
+  "kanton": "vs",
+  "bfs": 6002,
+  "uebersetzt_aus": "de",
+  "original": "d647a79205ef",
+  "name": "Comune di Brig-Glis",
+  "ort": "Brig-Glis",
+  "in_ort": "a Brig-Glis",
+  "einleitung": "Il Comune di Brig-Glis riscuote l'imposta sui cani, riceve le notifiche allo Stadtbüro (sportello della città) e mostra in un promemoria dove vale l'obbligo di guinzaglio.",
+  "karten": [
+    {
+      "titel": "Imposta sui cani",
+      "wert": "CHF 125 all'anno",
+      "text": "L'imposta sui cani viene fatturata all'inizio dell'anno e va pagata per l'anno intero.",
+      "quellen": [
+        "vs_brig_hunde"
+      ]
+    },
+    {
+      "titel": "Guinzaglio",
+      "wert": "a Brig, Glis, Gamsen e Brigerbad",
+      "text": "Secondo il Polizeireglement (regolamento di polizia) è multato chi non tiene il proprio cane al guinzaglio fuori dalle aree definite dal Comune. Il promemoria «Freilauf-Zonen / Leinenpflicht» (aree di svago per cani / obbligo di guinzaglio) delimita l'area con obbligo di guinzaglio: Brig-Glis e Gamsen nonché la zona densamente abitata di Brigerbad. L'obbligo di guinzaglio vale anche nel biotopo di Brigerbad. I confini esatti figurano nel promemoria. Non riporta alcuna data.",
+      "quellen": [
+        "vs_brig_leine",
+        "vs_brig_polizei"
+      ]
+    },
+    {
+      "titel": "Accesso vietato",
+      "wert": "biotopo nel Glisergrund, campeggio di Brigerbad",
+      "text": "Nel biotopo nel Glisergrund e nel campeggio di Brigerbad vale, secondo il promemoria, un divieto assoluto per i cani. Il promemoria non riporta alcuna data.",
+      "quellen": [
+        "vs_brig_leine"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "wert": "Stadtbüro, Alte Simplonstrasse 28",
+      "text": "Annunci il tuo cane allo Stadtbüro, con un attestato valido dell'assicurazione di responsabilità civile e l'attestato del corso. Se arrivi da un altro Comune, porti inoltre la conferma del pagamento dell'imposta sui cani del tuo precedente Comune di domicilio. Depositi l'attestato della responsabilità civile entro il 31 marzo. Se arrivi nel corso dell'anno o acquisti un cane, hai 15 giorni di tempo per farlo.",
+      "quellen": [
+        "vs_brig_hunde"
+      ]
+    },
+    {
+      "titel": "Multe",
+      "wert": "fino a CHF 5000",
+      "text": "Le infrazioni al Polizeireglement sono punite con una multa fino a CHF 5000. Ciò vale anche per l'obbligo di guinzaglio. Stato del regolamento: 2014.",
+      "quellen": [
+        "vs_brig_polizei"
+      ]
+    }
+  ]
+}

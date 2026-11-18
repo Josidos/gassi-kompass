@@ -1,0 +1,41 @@
+{
+  "id": "fribourg",
+  "kanton": "fr",
+  "bfs": 2196,
+  "uebersetzt_aus": "fr",
+  "original": "e768043700cb",
+  "name": "Città di Friburgo",
+  "ort": "Friburgo",
+  "in_ort": "a Friburgo",
+  "hinweis_heute": "Nella città di Friburgo il guinzaglio è obbligatorio tutto l'anno in molti luoghi pubblici, in particolare in centro città, nei giardini pubblici e nei parchi giochi.",
+  "einleitung": "Il règlement général de police (regolamento generale di polizia) della Città, in vigore dal 1° gennaio 2025, stabilisce i luoghi in cui il guinzaglio è obbligatorio. La Città preleva una propria imposta sui cani, in aggiunta all'imposta cantonale.",
+  "karten": [
+    {
+      "titel": "Imposta sui cani",
+      "wert": "CHF 120 all'anno per animale",
+      "text": "Imposta comunale, in aggiunta all'imposta cantonale. Esenti: cani per ciechi, di polizia, dell'esercito e da valanga, nonché un cane per beneficiario di prestazioni complementari AVS o AI. Sottrazione d'imposta: multa da CHF 30 a CHF 100. Stato del regolamento: 1993.",
+      "quellen": [
+        "fr_ville_impot"
+      ]
+    },
+    {
+      "titel": "Guinzaglio",
+      "wert": "nei luoghi e nelle manifestazioni pubblici",
+      "text": "In particolare in centro città, nelle zone pedonali e nelle strade frequentate, nei parchi giochi e nelle loro vicinanze, nei giardini pubblici e ornamentali, nei campi sportivi, negli edifici e nel perimetro delle scuole, negli edifici comunali e nei cimiteri. Altrove tieni il tuo cane al guinzaglio quando si avvicinano dei passanti. Anche il regolamento del cimitero comunale esige il guinzaglio per gli animali da compagnia.",
+      "quellen": [
+        "fr_ville_rgp",
+        "fr_ville_rgp_d",
+        "fr_ville_cimetiere"
+      ]
+    },
+    {
+      "titel": "Multe",
+      "wert": "da CHF 20 a CHF 1000",
+      "text": "Le infrazioni al règlement général de police sono punite con una multa da CHF 20 a CHF 1000. Gli escrementi vanno rimossi subito dalla persona che ha in custodia l'animale. È vietato lasciar vagare il proprio animale sul territorio comunale.",
+      "quellen": [
+        "fr_ville_rgp",
+        "fr_ville_rgp_d"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "sion",
+  "kanton": "vs",
+  "bfs": 6266,
+  "uebersetzt_aus": "fr",
+  "original": "07831480ad3c",
+  "name": "Stadt Sitten",
+  "ort": "Sitten",
+  "in_ort": "in Sitten",
+  "hinweis_heute": "In Sitten sind Hunde in den Ortschaften und an öffentlichen Veranstaltungen jederzeit an der Leine zu führen.",
+  "einleitung": "Die Stadt Sitten erhebt die Hundesteuer und registriert neue Hunde am Guichet citoyen (Bürgerschalter). Ihr Polizeireglement schreibt die Leine in den Wohnzonen vor.",
+  "karten": [
+    {
+      "titel": "Hundetaxe",
+      "wert": "CHF 160 pro Hund und Jahr",
+      "text": "Geschuldet für Hunde, die älter als sechs Monate sind. Bist du bereits angemeldet, erhältst du eine Rechnung. Kaufst du im Lauf des Jahres einen Hund, verlange vom Verkäufer den Nachweis, dass die Steuer bezahlt ist. Ist sie nicht bezahlt, hast du 15 Tage Zeit, um das in Ordnung zu bringen. Ohne Zahlung: Nachsteuer und Busse bis zum Dreifachen der Steuer.",
+      "quellen": [
+        "vs_sion_impot"
+      ]
+    },
+    {
+      "titel": "Leine",
+      "wert": "in den Ortschaften und an öffentlichen Veranstaltungen",
+      "text": "Laut der Stadt sind Hunde in den Ortschaften und an öffentlichen Veranstaltungen jederzeit an der Leine zu führen. Das règlement communal de police (Polizeireglement der Gemeinde) verlangt die Leine in den Wohnzonen, auf Wegen und Promenaden, auf denen sie signalisiert ist, und immer dann, wenn der Hund Menschen oder Tiere erschrecken oder Schaden anrichten könnte. Der Zutritt zu Orten mit öffentlichen Veranstaltungen kann Hunden verboten werden. Stand des Reglements: 1997.",
+      "quellen": [
+        "vs_sion_impot",
+        "vs_sion_police"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "wert": "Guichet citoyen, rue de Lausanne 23",
+      "text": "Für einen neuen Hund erhältst du zuerst eine AMICUS-ID beim Service population, sécurité et aéroport (Dienststelle Bevölkerung, Sicherheit und Flughafen). Die Anmeldung erfolgt am Guichet citoyen, rue de Lausanne 23, mit dem Nachweis der Haftpflichtversicherung, dem Impfausweis oder dem Heimtierpass mit der AMICUS-Nummer des Tieres und, falls nötig, der Kursbestätigung. Adressänderung, Halterwechsel oder Tod des Hundes: AMICUS und der Gemeinde zu melden.",
+      "quellen": [
+        "vs_sion_impot"
+      ]
+    },
+    {
+      "titel": "Bussen",
+      "wert": "CHF 100 bis CHF 5000",
+      "text": "Übertretungen des règlement communal de police werden mit einer Busse von mindestens CHF 100 und höchstens CHF 5000 bestraft. Ein streunender Hund wird in Verwahrung genommen (fourrière). Stand des Reglements: 1997.",
+      "quellen": [
+        "vs_sion_police"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "brig-glis",
+  "kanton": "vs",
+  "bfs": 6002,
+  "uebersetzt_aus": "de",
+  "original": "d647a79205ef",
+  "name": "Commune de Brig-Glis",
+  "ort": "Brig-Glis",
+  "in_ort": "à Brig-Glis",
+  "einleitung": "La commune de Brig-Glis perçoit l'impôt sur les chiens, reçoit les annonces au Stadtbüro (guichet de la ville) et montre dans une notice où la laisse est obligatoire.",
+  "karten": [
+    {
+      "titel": "Impôt sur les chiens",
+      "wert": "CHF 125 par an",
+      "text": "L'impôt sur les chiens est facturé en début d'année et doit être payé pour l'année entière.",
+      "quellen": [
+        "vs_brig_hunde"
+      ]
+    },
+    {
+      "titel": "Laisse",
+      "wert": "à Brig, Glis, Gamsen et Brigerbad",
+      "text": "Selon le Polizeireglement (règlement de police), est amendé quiconque ne tient pas son chien en laisse en dehors des secteurs définis par la commune. La notice «Freilauf-Zonen / Leinenpflicht» (espaces de liberté / laisse obligatoire) délimite le secteur où la laisse est obligatoire: Brig-Glis et Gamsen ainsi que la zone densément habitée de Brigerbad. La laisse est aussi obligatoire dans le biotope de Brigerbad. Les limites exactes figurent dans la notice. Elle ne porte pas de date.",
+      "quellen": [
+        "vs_brig_leine",
+        "vs_brig_polizei"
+      ]
+    },
+    {
+      "titel": "Accès interdit",
+      "wert": "biotope du Glisergrund, camping de Brigerbad",
+      "text": "Dans le biotope du Glisergrund et sur le camping de Brigerbad, une interdiction absolue des chiens s'applique selon la notice. La notice ne porte pas de date.",
+      "quellen": [
+        "vs_brig_leine"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "wert": "Stadtbüro, Alte Simplonstrasse 28",
+      "text": "Vous annoncez votre chien au Stadtbüro, avec une attestation valable d'assurance responsabilité civile et l'attestation de cours. Si vous arrivez d'une autre commune, vous apportez en plus la preuve du paiement de l'impôt sur les chiens de votre ancienne commune de domicile. Vous déposez l'attestation de responsabilité civile jusqu'au 31 mars. Si vous arrivez en cours d'année ou si vous achetez un chien, vous avez 15 jours pour le faire.",
+      "quellen": [
+        "vs_brig_hunde"
+      ]
+    },
+    {
+      "titel": "Amendes",
+      "wert": "jusqu'à CHF 5000",
+      "text": "Les infractions au Polizeireglement sont punies d'une amende pouvant aller jusqu'à CHF 5000. Cela vaut aussi pour la laisse obligatoire. État du règlement: 2014.",
+      "quellen": [
+        "vs_brig_polizei"
+      ]
+    }
+  ]
+}

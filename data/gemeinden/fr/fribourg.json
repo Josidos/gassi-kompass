@@ -1,0 +1,41 @@
+{
+  "id": "fribourg",
+  "kanton": "fr",
+  "bfs": 2196,
+  "uebersetzt_aus": "fr",
+  "original": "e768043700cb",
+  "name": "Stadt Freiburg",
+  "ort": "Freiburg",
+  "in_ort": "in der Stadt Freiburg",
+  "hinweis_heute": "In der Stadt Freiburg gilt an vielen öffentlichen Orten das ganze Jahr Leinenpflicht, namentlich im Stadtzentrum, in den öffentlichen Gärten und auf Spielplätzen.",
+  "einleitung": "Das allgemeine Polizeireglement der Stadt, in Kraft seit dem 1. Januar 2025, legt die Orte mit Leinenpflicht fest. Die Stadt erhebt eine eigene Hundesteuer, zusätzlich zur kantonalen Steuer.",
+  "karten": [
+    {
+      "titel": "Hundetaxe",
+      "wert": "CHF 120 pro Jahr und Tier",
+      "text": "Gemeindesteuer, zusätzlich zur kantonalen Steuer. Befreit: Blinden-, Polizei-, Armee- und Lawinenhunde sowie ein Hund pro Person, die Ergänzungsleistungen zur AHV oder IV bezieht. Steuerhinterziehung: Busse von CHF 30 bis CHF 100. Stand des Reglements: 1993.",
+      "quellen": [
+        "fr_ville_impot"
+      ]
+    },
+    {
+      "titel": "Leine",
+      "wert": "an öffentlichen Orten und Veranstaltungen",
+      "text": "Insbesondere im Stadtzentrum, in Fussgängerzonen und belebten Strassen, auf Spielplätzen und in ihrer Umgebung, in öffentlichen Gärten und Ziergärten, auf Sportplätzen, in den Gebäuden und auf dem Areal der Schulen, in den Gebäuden der Gemeinde und auf Friedhöfen. Anderswo nimmst du deinen Hund an die Leine, sobald Passanten in die Nähe kommen. Auch das Reglement des Gemeindefriedhofs verlangt für Heimtiere die Leine.",
+      "quellen": [
+        "fr_ville_rgp",
+        "fr_ville_rgp_d",
+        "fr_ville_cimetiere"
+      ]
+    },
+    {
+      "titel": "Bussen",
+      "wert": "CHF 20 bis CHF 1000",
+      "text": "Verstösse gegen das allgemeine Polizeireglement werden mit einer Busse von CHF 20 bis CHF 1000 bestraft. Der Kot ist sofort von der Person zu entfernen, die das Tier in ihrer Obhut hat. Es ist verboten, sein Tier auf dem Gemeindegebiet streunen zu lassen.",
+      "quellen": [
+        "fr_ville_rgp",
+        "fr_ville_rgp_d"
+      ]
+    }
+  ]
+}
