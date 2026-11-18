@@ -19,9 +19,9 @@ Bleibt ein Kanton nach einem Lauf unvollständig (Entwurf unter `data/entwurf/`)
 
 keine Kette
 
-Vorschlag, wartet auf das Ja von Joss (Stand 18. November 2026, 12 Uhr): eine Kette von höchstens 8 Gliedern nur für die Übersetzungen, ein Lauf aufs Mal. Ohne sein Ja übersetzt der Tageslauf, siehe «Reihenfolge». Wie ein Glied arbeitet, steht in `CLAUDE.md` unter «Kette».
+Von Joss am 18. November 2026 um 11:55 Uhr freigegeben, aber noch nicht gestartet: eine Kette von höchstens 8 Gliedern nur für die Übersetzungen, ein Lauf aufs Mal. Claude startet sie in der Sitzung mit Joss, sobald der Generator Übersetzungen kennzeichnet und die Probe Zürich steht, und trägt dann hier Name, Höchstzahl und Schluss-Zeit ein. Bis dahin gilt «keine Kette». Wie ein Glied arbeitet, steht in `CLAUDE.md` unter «Kette».
 
-Programm, falls Joss die Kette freigibt:
+Programm der Kette:
 
 - [ ] a) Übersetzungen der Kantone. Pro Glied bis zu 6 Kantone in ihre fehlenden Sprachen, in der Reihenfolge von `python3 build.py --fehlend`. Offen, bis kein Kanton mehr fehlt.
 - [ ] b) Übersetzungen der Gemeinden. Pro Glied bis zu 12 Gemeinden in ihre fehlenden Sprachen. Offen, bis keine Gemeinde mehr fehlt.
