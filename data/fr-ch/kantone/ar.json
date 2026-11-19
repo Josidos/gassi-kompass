@@ -2,7 +2,7 @@
   "id": "ar",
   "kurz": "AR",
   "uebersetzt_aus": "de",
-  "original": "687d32963b58",
+  "original": "c446be3c5d41",
   "wald": {
     "saison": false,
     "text": "Le Hundegesetz (loi sur les chiens), la Hundeverordnung (ordonnance sur les chiens), le Jagdgesetz (loi sur la chasse) et la Jagdverordnung (ordonnance sur la chasse) du canton ne prévoient pas de laisse obligatoire en forêt à des dates fixes. Vous devez toutefois avoir votre chien en tout temps sous surveillance et sous contrôle effectif. Si ce n'est pas possible autrement, il doit être tenu en laisse. Dans la zone de tranquillité pour la faune «südliches Appenzeller Hinterland», dans la région Schwägalp-Hochalp (communes de Hundwil et d'Urnäsch), les chiens doivent être tenus en laisse en tout temps (Schutzverordnung de 2009, ordonnance de protection, approuvée en 2011). Les chiens qui braconnent peuvent être abattus par les organes de la police de la chasse.",
@@ -57,7 +57,7 @@
       "marke": "Pas d'obligation",
       "ton": "none",
       "wert": "seulement au cas par cas",
-      "text": "Le Hundegesetz et la Hundeverordnung ne prévoient pas de cours obligatoire pour tous les détenteurs de chiens. L'autorité peut ordonner, comme mesure dans un cas particulier, de suivre des cours de formation avec ou sans chien. Dans sa brochure, le canton recommande de suivre des cours pour chiens (état de la brochure : 2019).",
+      "text": "Le Hundegesetz et la Hundeverordnung ne prévoient pas de cours obligatoire pour tous les détenteurs de chiens. L'autorité peut ordonner, comme mesure dans un cas particulier, de suivre des cours de formation avec ou sans chien. Dans sa brochure, le canton recommande de suivre des cours pour chiens (état de la brochure : 2025).",
       "quellen": [
         "ar_hug",
         "ar_huv",
@@ -69,7 +69,7 @@
       "marke": "Obligatoire",
       "ton": "must",
       "wert": "dans les 14 jours auprès du canton",
-      "text": "Si vous détenez un chien de plus de trois mois, vous l'annoncez dans les 14 jours au service cantonal compétent. Le même délai vaut pour un changement de détenteur, la mort du chien, un changement de votre nom ou de votre adresse et pour les mesures ordonnées par un autre canton. Le service cantonal compétent est le Veterinäramt (office vétérinaire). Selon la brochure du canton, vous vous annoncez comme détentrice ou détenteur de chien auprès du Veterinäramt à Herisau (état de la brochure : 2019). Chaque chien doit être identifié et enregistré conformément à la législation fédérale sur les épizooties.",
+      "text": "Si vous détenez un chien de plus de trois mois, vous l'annoncez dans les 14 jours au service cantonal compétent. Le même délai vaut pour un changement de détenteur, la mort du chien, un changement de votre nom ou de votre adresse et pour les mesures ordonnées par un autre canton. Le service cantonal compétent est le Veterinäramt (office vétérinaire). Selon la brochure du canton, vous vous annoncez comme détentrice ou détenteur de chien auprès du Veterinäramt à Herisau (état de la brochure : 2025). Chaque chien doit être identifié et enregistré conformément à la législation fédérale sur les épizooties.",
       "quellen": [
         "ar_hug",
         "ar_huv",

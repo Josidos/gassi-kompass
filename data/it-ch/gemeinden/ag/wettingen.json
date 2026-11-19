@@ -1,0 +1,45 @@
+{
+  "id": "wettingen",
+  "kanton": "ag",
+  "bfs": 4045,
+  "uebersetzt_aus": "de",
+  "original": "96623c102ff7",
+  "name": "Wettingen",
+  "ort": "Wettingen",
+  "in_ort": "a Wettingen",
+  "einleitung": "Wettingen disciplina la detenzione di cani nel Polizeireglement (regolamento di polizia) della Regionalpolizei Wettingen-Limmattal (polizia regionale). Indica i luoghi con obbligo di guinzaglio e le multe disciplinari.",
+  "karten": [
+    {
+      "titel": "Guinzaglio",
+      "wert": "centro, Klosterareal, scuole, cimitero",
+      "text": "A Wettingen tieni il cane al guinzaglio: nel Klosterareal (area del convento), al Bächliweg e al Gottesgraben e in centro. Il centro è la zona tra la Zentralstrasse e la Schartenstrasse, delimitata dal confine comunale con Baden, dalla Märzengasse, dalla Bifangstrasse e dalla Halbartenstrasse. L'obbligo di guinzaglio vale inoltre, come in tutti i Comuni della Regionalpolizei Wettingen-Limmattal, negli impianti scolastici e sportivi, scuole dell'infanzia comprese, nei parchi giochi e nelle aree verdi pubbliche, nei locali pubblici e nei cimiteri.",
+      "quellen": [
+        "ag_wettingen_polizeireglement"
+      ]
+    },
+    {
+      "titel": "Accesso vietato",
+      "wert": "negozi di alimentari",
+      "text": "Non puoi portare il cane nei negozi di alimentari. Fanno eccezione i cani guida per ciechi. Chi lo fa comunque paga una multa disciplinare di CHF 100.",
+      "quellen": [
+        "ag_wettingen_polizeireglement"
+      ]
+    },
+    {
+      "titel": "Escrementi",
+      "wert": "raccogliere ed eliminare",
+      "text": "Devi raccogliere gli escrementi del tuo cane ed eliminarli in modo appropriato. Chi non lo fa paga CHF 100 secondo l'elenco delle multe del Polizeireglement.",
+      "quellen": [
+        "ag_wettingen_polizeireglement"
+      ]
+    },
+    {
+      "titel": "Multe",
+      "wert": "CHF 100",
+      "text": "L'elenco delle multe del Polizeireglement prevede CHF 100 in ciascuno di questi casi: lasciare il cane libero senza sorveglianza, violare l'obbligo di guinzaglio, violare l'obbligo di notifica al Comune e non pagare l'imposta sui cani.",
+      "quellen": [
+        "ag_wettingen_polizeireglement"
+      ]
+    }
+  ]
+}

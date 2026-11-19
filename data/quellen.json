@@ -648,5 +648,25 @@
     "kurz": "ch.ch: Imposta sui cani",
     "lang": "ch.ch, portale delle autorità di Confederazione, Cantoni e Comuni: Imposta sui cani",
     "url": "https://www.ch.ch/it/imposte-e-finanze/tipi-d-imposta/imposta-sui-cani/"
+  },
+  "ag_wettingen_polizeireglement": {
+    "kurz": "Polizeireglement Wettingen-Limmattal",
+    "lang": "Gemeinden Bergdietikon, Killwangen, Neuenhof, Spreitenbach, Wettingen und Würenlos: Polizeireglement der Vertragsgemeinden der Regionalpolizei Wettingen-Limmattal mit Anhang 1 (Ordnungsbussen) und Anhang 2 (Leinenpflicht je Gemeinde), in Kraft seit 1. Januar 2026, veröffentlicht auf der Website der Gemeinde Neuenhof",
+    "url": "https://www.neuenhof.ch/fileadmin/user_upload/Polizeireglement_Wettingen-Limmattal_ab_1._Januar_2026.pdf"
+  },
+  "ag_baden_polizeireglement": {
+    "kurz": "Polizeireglement Baden",
+    "lang": "Stadt Baden: Polizeireglement der Gemeinden Baden, Birmenstorf, Ehrendingen, Ennetbaden, Freienwil, Gebenstorf, Obersiggenthal, Untersiggenthal und Würenlingen (200.100) mit Ordnungsbussenkatalog, Stand 1. Juli 2026",
+    "url": "https://www.baden.ch/public/upload/assets/50111/200.100%20Polizeireglement.pdf?fp=5"
+  },
+  "bl_muttenz_hund": {
+    "kurz": "Muttenz: Hund anmelden",
+    "lang": "Gemeinde Muttenz: Online-Schalter «Hund: Anmeldung oder Abmeldung & Hundegebühren», abgerufen am 19. November 2026",
+    "url": "https://www.muttenz.ch/online-schalter/4702/detail"
+  },
+  "bl_muttenz_polizeireglement": {
+    "kurz": "Polizeireglement Muttenz",
+    "lang": "Einwohnergemeinde Muttenz: Polizeireglement (Nr. 11.100) vom 18. Juni 2015 mit Anhang I (Bussen), Fassung vom 17. Oktober 2024, in Kraft seit 1. Januar 2025",
+    "url": "https://www.muttenz.ch/_docn/5451034/11.100_Polizeireglement.pdf"
   }
 }

@@ -1,0 +1,44 @@
+{
+  "id": "baden",
+  "kanton": "ag",
+  "bfs": 4021,
+  "name": "Stadt Baden",
+  "ort": "Baden",
+  "in_ort": "in der Stadt Baden",
+  "geprueft": "2026-11-19",
+  "einleitung": "Baden regelt die Hundehaltung im Polizeireglement, das die Stadt mit acht Nachbargemeinden teilt. Auf Friedhöfen sind Hunde verboten.",
+  "karten": [
+    {
+      "titel": "Leine",
+      "wert": "Schulen, Sportanlagen, Spielflächen, verkehrsreiche Strassen",
+      "text": "Du musst deinen Hund an die Leine nehmen: im Bereich von Schul- und Sportanlagen, an verkehrsreichen Strassen, auf öffentlichen Spiel- und Grünflächen und in Wirtschaftslokalen.",
+      "quellen": [
+        "ag_baden_polizeireglement"
+      ]
+    },
+    {
+      "titel": "Kein Zutritt",
+      "wert": "Friedhöfe",
+      "text": "Auf Friedhöfe darfst du deinen Hund nicht mitnehmen. Ausgenommen sind Blindenhunde und speziell ausgebildete Betreuungshunde. Wer das Hundeverbot missachtet, zahlt eine Ordnungsbusse von CHF 50.",
+      "quellen": [
+        "ag_baden_polizeireglement"
+      ]
+    },
+    {
+      "titel": "Hundekot",
+      "wert": "einsammeln, Busse CHF 100",
+      "text": "Du musst den Kot deines Hundes einsammeln und in den dafür bestimmten Behältern entsorgen. Wer das nicht tut, zahlt eine Ordnungsbusse von CHF 100.",
+      "quellen": [
+        "ag_baden_polizeireglement"
+      ]
+    },
+    {
+      "titel": "Bussen",
+      "wert": "CHF 50 bis CHF 100",
+      "text": "Der Ordnungsbussenkatalog des Polizeireglements nennt CHF 100 für das unbeaufsichtigte Laufenlassen eines Hundes und CHF 100 für nicht sachgerechte Tierhaltung. Das Missachten des Hundeverbots kostet CHF 50.",
+      "quellen": [
+        "ag_baden_polizeireglement"
+      ]
+    }
+  ]
+}

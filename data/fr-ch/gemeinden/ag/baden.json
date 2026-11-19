@@ -1,0 +1,45 @@
+{
+  "id": "baden",
+  "kanton": "ag",
+  "bfs": 4021,
+  "uebersetzt_aus": "de",
+  "original": "8c3d28566a55",
+  "name": "Ville de Baden",
+  "ort": "Baden",
+  "in_ort": "à Baden",
+  "einleitung": "Baden règle la détention de chiens dans le Polizeireglement (règlement de police), que la ville partage avec huit communes voisines. Les chiens sont interdits dans les cimetières.",
+  "karten": [
+    {
+      "titel": "Laisse",
+      "wert": "écoles, installations sportives, places de jeux, routes à fort trafic",
+      "text": "Vous devez tenir votre chien en laisse: aux abords des installations scolaires et sportives, le long des routes à fort trafic, sur les places de jeux et les espaces verts publics et dans les cafés et restaurants.",
+      "quellen": [
+        "ag_baden_polizeireglement"
+      ]
+    },
+    {
+      "titel": "Accès interdit",
+      "wert": "cimetières",
+      "text": "Vous ne pouvez pas emmener votre chien dans les cimetières. Les chiens guides d'aveugles et les chiens d'accompagnement spécialement formés font exception. Qui ne respecte pas l'interdiction des chiens paie une amende d'ordre de CHF 50.",
+      "quellen": [
+        "ag_baden_polizeireglement"
+      ]
+    },
+    {
+      "titel": "Crottes",
+      "wert": "ramasser, amende CHF 100",
+      "text": "Vous devez ramasser les crottes de votre chien et les jeter dans les récipients prévus à cet effet. Qui ne le fait pas paie une amende d'ordre de CHF 100.",
+      "quellen": [
+        "ag_baden_polizeireglement"
+      ]
+    },
+    {
+      "titel": "Amendes",
+      "wert": "CHF 50 à CHF 100",
+      "text": "Le catalogue des amendes d'ordre du Polizeireglement prévoit CHF 100 pour le fait de laisser courir un chien sans surveillance et CHF 100 pour une détention d'animaux inappropriée. Le non-respect de l'interdiction des chiens coûte CHF 50.",
+      "quellen": [
+        "ag_baden_polizeireglement"
+      ]
+    }
+  ]
+}

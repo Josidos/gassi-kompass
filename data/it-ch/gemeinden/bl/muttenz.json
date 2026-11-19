@@ -1,0 +1,37 @@
+{
+  "id": "muttenz",
+  "kanton": "bl",
+  "bfs": 2770,
+  "uebersetzt_aus": "de",
+  "original": "84b6bfd9b876",
+  "name": "Muttenz",
+  "ort": "Muttenz",
+  "in_ort": "a Muttenz",
+  "einleitung": "A Muttenz annunci il tuo cane alla Gemeindepolizei (polizia comunale). Le multe figurano nel Polizeireglement (regolamento di polizia) del Comune.",
+  "karten": [
+    {
+      "titel": "Notifica",
+      "wert": "Gemeindepolizei, con modulo",
+      "text": "Chi detiene un cane è soggetto all'obbligo di notifica. Annunci l'arrivo e la partenza del tuo cane al Ressort Gemeindepolizei con il modulo del Comune. Come prova dell'assicurazione di responsabilità civile alleghi una copia della polizza assicurativa. L'importo dell'imposta sui cani è fissato dal Gemeinderat (municipio) nella Hundegebührenverordnung.",
+      "quellen": [
+        "bl_muttenz_hund"
+      ]
+    },
+    {
+      "titel": "Multe",
+      "wert": "da CHF 100 a CHF 200",
+      "text": "Il Polizeireglement prevede queste multe: violazione dell'obbligo di guinzaglio CHF 100, mancato rispetto del divieto di accesso per i cani CHF 100, mancato rispetto di un divieto per i cani segnalato CHF 200, escrementi non rimossi CHF 100, cane lasciato libero senza sorveglianza CHF 100, pericolo e disturbo dovuti a una detenzione di animali inadeguata CHF 200. I luoghi con obbligo di guinzaglio e con divieto di accesso sono disciplinati dal Reglement über das Halten von Hunden del Comune.",
+      "quellen": [
+        "bl_muttenz_polizeireglement"
+      ]
+    },
+    {
+      "titel": "Cane fuggito",
+      "wert": "costi a carico di chi li causa",
+      "text": "Se la Gemeindepolizei riporta un cane fuggito, può addebitarne i costi alla persona che li ha causati.",
+      "quellen": [
+        "bl_muttenz_polizeireglement"
+      ]
+    }
+  ]
+}

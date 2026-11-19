@@ -39,6 +39,7 @@
   <url><loc>https://gassi-kompass.ch/bl/allschwil/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://gassi-kompass.ch/tg/arbon/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://gassi-kompass.ch/sz/arth/</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://gassi-kompass.ch/ag/baden/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://gassi-kompass.ch/bs/basel/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://gassi-kompass.ch/be/bern/</loc><lastmod>2026-11-16</lastmod></url>
   <url><loc>https://gassi-kompass.ch/vs/brig-glis/</loc><lastmod>2026-11-18</lastmod></url>
@@ -62,6 +63,7 @@
   <url><loc>https://gassi-kompass.ch/vd/lausanne/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://gassi-kompass.ch/ti/lugano/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://gassi-kompass.ch/lu/luzern/</loc><lastmod>2026-11-16</lastmod></url>
+  <url><loc>https://gassi-kompass.ch/bl/muttenz/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://gassi-kompass.ch/ne/neuchatel/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://gassi-kompass.ch/so/olten/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://gassi-kompass.ch/zh/opfikon/</loc><lastmod>2026-11-16</lastmod></url>
@@ -77,6 +79,7 @@
   <url><loc>https://gassi-kompass.ch/zh/uster/</loc><lastmod>2026-11-16</lastmod></url>
   <url><loc>https://gassi-kompass.ch/zh/volketswil/</loc><lastmod>2026-11-16</lastmod></url>
   <url><loc>https://gassi-kompass.ch/zh/waedenswil/</loc><lastmod>2026-11-16</lastmod></url>
+  <url><loc>https://gassi-kompass.ch/ag/wettingen/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://gassi-kompass.ch/zh/wetzikon/</loc><lastmod>2026-11-16</lastmod></url>
   <url><loc>https://gassi-kompass.ch/zh/winterthur/</loc><lastmod>2026-11-16</lastmod></url>
   <url><loc>https://gassi-kompass.ch/zh/zuerich/</loc><lastmod>2026-11-16</lastmod></url>
@@ -119,6 +122,7 @@
   <url><loc>https://gassi-kompass.ch/fr-ch/bl/allschwil/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://gassi-kompass.ch/fr-ch/tg/arbon/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://gassi-kompass.ch/fr-ch/sz/arth/</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://gassi-kompass.ch/fr-ch/ag/baden/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://gassi-kompass.ch/fr-ch/bs/basel/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://gassi-kompass.ch/fr-ch/be/bern/</loc><lastmod>2026-11-16</lastmod></url>
   <url><loc>https://gassi-kompass.ch/fr-ch/vs/brig-glis/</loc><lastmod>2026-11-18</lastmod></url>
@@ -142,6 +146,7 @@
   <url><loc>https://gassi-kompass.ch/fr-ch/vd/lausanne/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://gassi-kompass.ch/fr-ch/lu/luzern/</loc><lastmod>2026-11-16</lastmod></url>
   <url><loc>https://gassi-kompass.ch/fr-ch/ti/lugano/</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://gassi-kompass.ch/fr-ch/bl/muttenz/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://gassi-kompass.ch/fr-ch/ne/neuchatel/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://gassi-kompass.ch/fr-ch/so/olten/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://gassi-kompass.ch/fr-ch/zh/opfikon/</loc><lastmod>2026-11-16</lastmod></url>
@@ -157,6 +162,7 @@
   <url><loc>https://gassi-kompass.ch/fr-ch/zh/uster/</loc><lastmod>2026-11-16</lastmod></url>
   <url><loc>https://gassi-kompass.ch/fr-ch/zh/volketswil/</loc><lastmod>2026-11-16</lastmod></url>
   <url><loc>https://gassi-kompass.ch/fr-ch/zh/waedenswil/</loc><lastmod>2026-11-16</lastmod></url>
+  <url><loc>https://gassi-kompass.ch/fr-ch/ag/wettingen/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://gassi-kompass.ch/fr-ch/zh/wetzikon/</loc><lastmod>2026-11-16</lastmod></url>
   <url><loc>https://gassi-kompass.ch/fr-ch/zh/winterthur/</loc><lastmod>2026-11-16</lastmod></url>
   <url><loc>https://gassi-kompass.ch/fr-ch/zh/zuerich/</loc><lastmod>2026-11-16</lastmod></url>
@@ -199,6 +205,7 @@
   <url><loc>https://gassi-kompass.ch/it-ch/bl/allschwil/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://gassi-kompass.ch/it-ch/tg/arbon/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://gassi-kompass.ch/it-ch/sz/arth/</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://gassi-kompass.ch/it-ch/ag/baden/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://gassi-kompass.ch/it-ch/bs/basel/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://gassi-kompass.ch/it-ch/be/bern/</loc><lastmod>2026-11-16</lastmod></url>
   <url><loc>https://gassi-kompass.ch/it-ch/vs/brig-glis/</loc><lastmod>2026-11-18</lastmod></url>
@@ -222,6 +229,7 @@
   <url><loc>https://gassi-kompass.ch/it-ch/vd/lausanne/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://gassi-kompass.ch/it-ch/lu/luzern/</loc><lastmod>2026-11-16</lastmod></url>
   <url><loc>https://gassi-kompass.ch/it-ch/ti/lugano/</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://gassi-kompass.ch/it-ch/bl/muttenz/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://gassi-kompass.ch/it-ch/ne/neuchatel/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://gassi-kompass.ch/it-ch/so/olten/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://gassi-kompass.ch/it-ch/zh/opfikon/</loc><lastmod>2026-11-16</lastmod></url>
@@ -237,6 +245,7 @@
   <url><loc>https://gassi-kompass.ch/it-ch/zh/uster/</loc><lastmod>2026-11-16</lastmod></url>
   <url><loc>https://gassi-kompass.ch/it-ch/zh/volketswil/</loc><lastmod>2026-11-16</lastmod></url>
   <url><loc>https://gassi-kompass.ch/it-ch/zh/waedenswil/</loc><lastmod>2026-11-16</lastmod></url>
+  <url><loc>https://gassi-kompass.ch/it-ch/ag/wettingen/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://gassi-kompass.ch/it-ch/zh/wetzikon/</loc><lastmod>2026-11-16</lastmod></url>
   <url><loc>https://gassi-kompass.ch/it-ch/zh/winterthur/</loc><lastmod>2026-11-16</lastmod></url>
   <url><loc>https://gassi-kompass.ch/it-ch/zh/zuerich/</loc><lastmod>2026-11-16</lastmod></url>

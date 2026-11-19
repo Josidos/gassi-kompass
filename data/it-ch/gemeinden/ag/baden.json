@@ -1,0 +1,45 @@
+{
+  "id": "baden",
+  "kanton": "ag",
+  "bfs": 4021,
+  "uebersetzt_aus": "de",
+  "original": "8c3d28566a55",
+  "name": "Città di Baden",
+  "ort": "Baden",
+  "in_ort": "a Baden",
+  "einleitung": "Baden disciplina la detenzione di cani nel Polizeireglement (regolamento di polizia), che la città condivide con otto Comuni vicini. Nei cimiteri i cani sono vietati.",
+  "karten": [
+    {
+      "titel": "Guinzaglio",
+      "wert": "scuole, impianti sportivi, parchi giochi, strade trafficate",
+      "text": "Devi tenere il cane al guinzaglio: nella zona degli impianti scolastici e sportivi, lungo le strade molto trafficate, nei parchi giochi e nelle aree verdi pubbliche e nei locali pubblici.",
+      "quellen": [
+        "ag_baden_polizeireglement"
+      ]
+    },
+    {
+      "titel": "Accesso vietato",
+      "wert": "cimiteri",
+      "text": "Non puoi portare il cane nei cimiteri. Fanno eccezione i cani guida per ciechi e i cani d'accompagnamento appositamente addestrati. Chi non rispetta il divieto per i cani paga una multa disciplinare di CHF 50.",
+      "quellen": [
+        "ag_baden_polizeireglement"
+      ]
+    },
+    {
+      "titel": "Escrementi",
+      "wert": "raccogliere, multa CHF 100",
+      "text": "Devi raccogliere gli escrementi del tuo cane e gettarli negli appositi contenitori. Chi non lo fa paga una multa disciplinare di CHF 100.",
+      "quellen": [
+        "ag_baden_polizeireglement"
+      ]
+    },
+    {
+      "titel": "Multe",
+      "wert": "da CHF 50 a CHF 100",
+      "text": "Il catalogo delle multe disciplinari del Polizeireglement prevede CHF 100 per chi lascia il cane libero senza sorveglianza e CHF 100 per una detenzione di animali non appropriata. Non rispettare il divieto per i cani costa CHF 50.",
+      "quellen": [
+        "ag_baden_polizeireglement"
+      ]
+    }
+  ]
+}

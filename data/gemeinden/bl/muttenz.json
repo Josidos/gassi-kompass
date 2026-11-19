@@ -1,0 +1,36 @@
+{
+  "id": "muttenz",
+  "kanton": "bl",
+  "bfs": 2770,
+  "name": "Muttenz",
+  "ort": "Muttenz",
+  "in_ort": "in Muttenz",
+  "geprueft": "2026-11-19",
+  "einleitung": "In Muttenz meldest du deinen Hund bei der Gemeindepolizei. Die Bussen stehen im Polizeireglement der Gemeinde.",
+  "karten": [
+    {
+      "titel": "Anmeldung",
+      "wert": "Gemeindepolizei, mit Formular",
+      "text": "Hundehaltende sind meldepflichtig. Du meldest deinen Hund mit dem Formular der Gemeinde beim Ressort Gemeindepolizei an und ab. Als Nachweis der Haftpflichtversicherung legst du eine Kopie der Versicherungspolice bei. Die Höhe der Hundegebühr legt der Gemeinderat in der Hundegebührenverordnung fest.",
+      "quellen": [
+        "bl_muttenz_hund"
+      ]
+    },
+    {
+      "titel": "Bussen",
+      "wert": "CHF 100 bis CHF 200",
+      "text": "Das Polizeireglement nennt diese Bussen: Verstoss gegen die Leinenpflicht CHF 100, Missachten des Zutrittsverbots für Hunde CHF 100, Missachten eines signalisierten Hundeverbots CHF 200, Hundekot nicht beseitigen CHF 100, Hund unbeaufsichtigt laufen lassen CHF 100, Gefährdung und Belästigung durch unsachgemässe Tierhaltung CHF 200. Wo Leinenpflicht und Zutrittsverbote gelten, regelt das Reglement über das Halten von Hunden der Gemeinde.",
+      "quellen": [
+        "bl_muttenz_polizeireglement"
+      ]
+    },
+    {
+      "titel": "Entlaufener Hund",
+      "wert": "Kosten trägt, wer sie verursacht",
+      "text": "Bringt die Gemeindepolizei einen entlaufenen Hund zurück, kann sie die Kosten dafür der Person verrechnen, die sie verursacht hat.",
+      "quellen": [
+        "bl_muttenz_polizeireglement"
+      ]
+    }
+  ]
+}

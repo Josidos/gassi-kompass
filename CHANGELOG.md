@@ -2,6 +2,22 @@
 
 Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen.
 
+## 2026-11-19, Tageslauf: tote Links, Wettingen, Baden, Muttenz
+
+- Link-Prüfung um 08:24 Uhr: 264 Quellen, 255 in Ordnung, 6 tot, 1 Verdacht, 2 unklar. Tot und Verdacht wie am 18. November. Unklar: `bl_wald` (403, zum zweiten Mal), `tg_vet_rassen` (Zeitüberschreitung, zum ersten Mal). Ausgelöst über die GitHub-Werkzeuge des Laufs, weil `gh workflow run` in dieser Umgebung nicht geht (GraphQL gesperrt).
+- Ersetzt, Quelle `ar_brosch`: alt Informationsbroschüre zur Hundehaltung, Version 07/2019 (`…_AR_190626.pdf`, 404). Neu Version 02/2025 (`…_AR_250224_.pdf`). Verglichen: Empfehlung von Hundekursen und Anmeldung beim Veterinäramt in Herisau stehen weiter drin. Geändert in `data/kantone/ar.json`, Karten Kurs und Anmeldung: alt «Stand der Broschüre: 2019», neu «Stand der Broschüre: 2025». Französische und italienische Übersetzung nachgeführt. `geprueft` bleibt, weil nur diese eine Quelle abgeglichen wurde.
+- Aufgefallen bei Appenzell Ausserrhoden: Die Broschüre 02/2025 nennt für Änderungen eine Meldefrist von 10 Tagen, die Seite nach dem Hundegesetz 14 Tage. Nichts geändert, steht im Backlog.
+- Ersetzt, Quelle `ne_laisse`: alt Flyer «Chiens en laisse» 2024 (404, nicht mehr auffindbar). Neu die Mitteilung des DDTE vom 12. April 2024 auf ne.ch, nachgeführt am 9. März 2026. Sie belegt die Leinenpflicht im Wald vom 15. April bis 30. Juni nach der Loi sur la faune sauvage. Die übrigen Punkte unter `leine` stützen sich auf `ne_lfs` und `ne_lchiens`. Keine Angabe geändert.
+- Geändert, `data/fr-ch/kantone/ne.json`, `vergleich.wald`: alt «15.4 au 30.6, en forêt», neu «du 15.4. au 30.6., en forêt» (Lücke aus Abschnitt 4). Prüfsumme in der deutschen und italienischen Übersetzung nachgeführt, deren Text stimmte schon.
+- **Nicht ersetzt:** `ai_vob` und `be_oce_fr`. Die Suche fand nur die alten Adressen, die Adressen der Gesetzessammlungen gab das Abrufwerkzeug nicht frei. Erster Lauf ohne Ersatz, Einzelheiten im Backlog. Offen bleiben auch `zg_steinhausen_steuer`, `zh_winterthur_merkblatt` und `ne_scav` (Obergrenze vier pro Lauf).
+- Neu: Wettingen (`/ag/wettingen/`) mit Leinenorten, Hundeverbot in Lebensmittelgeschäften, Hundekot und Bussen aus dem Polizeireglement der Regionalpolizei Wettingen-Limmattal, in Kraft seit 1. Januar 2026. Die Quelle liegt auf der Website der Gemeinde Neuenhof, auf wettingen.ch stand noch die Fassung von 2013.
+- Neu: Stadt Baden (`/ag/baden/`) mit Leinenorten, Hundeverbot auf Friedhöfen, Hundekot und Bussen aus dem Polizeireglement, Stand 1. Juli 2026.
+- Neu: Muttenz (`/bl/muttenz/`) mit Anmeldung bei der Gemeindepolizei, Bussen und Kostenersatz für entlaufene Hunde aus dem Polizeireglement (Fassung vom 17. Oktober 2024). Orte mit Leinenpflicht und der Betrag der Hundegebühr fehlen, weil Hundereglement und Gebührenverordnung nicht abrufbar waren.
+- Neu: die französischen und italienischen Übersetzungen der drei Gemeinden. Insgesamt 10 Übersetzungen angelegt oder nachgeführt.
+- Weggelassen: die Hundetaxe von CHF 120 bei Wettingen und Baden (kantonal, steht auf der Kantonsseite) und die Deckungssumme der Haftpflicht bei Muttenz (kantonal).
+- Zurückgestellt: Wohlen (AG), Rheinfelden (AG) und Reinach (BL), je unter drei sicher belegten lokalen Angaben. Gründe im Backlog.
+- Stand: 26 Kantone, 48 Gemeinden.
+
 ## 2026-11-18, Sitzung mit Joss: Link-Prüfung aller Quellen
 
 - Neu: `tools/links.py` und die GitHub Action «Quellen-Links prüfen» (`.github/workflows/quellen.yml`). Sie fragt jede Adresse aus den Quellendateien mit einem echten Abruf ab und meldet «TOT» (404, 410), «VERDACHT» und «UNKLAR». Sie startet nur auf Befehl und wird nie rot. Anlass war der tote Link im Thurgau, den WebFetch noch auslieferte.

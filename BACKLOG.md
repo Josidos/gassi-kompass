@@ -66,12 +66,12 @@ Der Generator baut Französisch und Italienisch seit dem 2026-11-18. Bei zweispr
 Ungefähr nach Grösse. Neue Kantone tragen hier ihre grössten Gemeinden ein.
 
 - [ ] Aarau (AG): zurückgestellt am 2026-11-17. Nur zwei lokale Angaben belegt (Hundetaxe CHF 120, Anmeldung beim Stadtbüro). Für die dritte fehlt die geltende Polizeiverordnung (SRS 5.1-1, aarau.tlex.ch): Der Lauf konnte nur die Fassung von 2010 lesen. Dort stand eine Leinenpflicht auf Strassen und Plätzen im überbauten Gebiet. Neu ansetzen mit der geltenden Fassung oder dem Bestattungs- und Friedhofreglement von 2023.
-- [ ] Wettingen (AG)
-- [ ] Baden (AG)
-- [ ] Wohlen (AG)
-- [ ] Rheinfelden (AG)
-- [ ] Reinach (BL)
-- [ ] Muttenz (BL)
+- [x] Wettingen (AG), 2026-11-19
+- [x] Baden (AG), 2026-11-19
+- [ ] Wohlen (AG): zurückgestellt am 2026-11-19. Nur zwei lokale Angaben sicher belegt (Anmeldung bei der Regionalpolizei Wohlen ab 3 Monaten, Hundetaxe im Mai fällig). Die Leinenpflicht auf den Wegen beidseitig entlang der Bünz ist laut Mitteilung der Gemeinde vom 18. Juni 2025 rechtskräftig beschlossen, die Mitteilung nennt aber weder Abschnitt noch Beginn. Nächster Versuch: PDF der Mitteilung (wohlen.ch/aktuellesinformationen/2489401) und Polizeireglement von 2016 (wohlen.ch/_doc/1231864, am 19.11.2026 nicht abrufbar).
+- [ ] Rheinfelden (AG): zurückgestellt am 2026-11-19. Nur zwei lokale Angaben belegt (Anmeldung beim Stadtbüro innert 10 Tagen mit Kopie des Heimtierausweises, Rechnung der Hundetaxe im Mai durch die Finanzverwaltung). Ein Polizeireglement mit Leinenorten oder Verboten war in zwei Suchen nicht zu finden. Nächster Versuch: Rechtssammlung rheinfelden.tlex.ch (braucht einen Browser) und Regionalpolizei Unteres Fricktal.
+- [ ] Reinach (BL): zurückgestellt am 2026-11-19. Lesbar war nur eine Fassung des Polizeireglements vom 23. November 2015 ohne Datum der Genehmigung und des Inkrafttretens (§ 39 bis 46 zu Hunden, Bussenliste). Ob sie heute gilt, ist offen. Die Seite «Hund anmelden oder abmelden» lieferte keinen Inhalt. Nächster Versuch: geltende Fassung auf reinach-bl.tlex.ch (braucht einen Browser), Hundegebühr in der Polizeiverordnung.
+- [x] Muttenz (BL), 2026-11-19
 - [ ] Pratteln (BL)
 - [ ] Binningen (BL)
 - [ ] Liestal (BL)
@@ -223,15 +223,15 @@ Ungefähr nach Grösse. Neue Kantone tragen hier ihre grössten Gemeinden ein.
 
 Zuerst erledigen, höchstens vier pro Lauf. Vorgehen in `CLAUDE.md` unter «Link-Prüfung». Antwort 404 beim echten Abruf:
 
-- [ ] `ai_vob` (Kanton Appenzell Innerrhoden): `ai.clex.ch/frontend/structured_documents/4200/download_pdf_file_and_annex?locale=de`
-- [ ] `ar_brosch` (Kanton Appenzell Ausserrhoden): Informationsbroschüre zur Hundehaltung, `ar.ch/fileadmin/…/Informationsbroschuere_zur_Hundehaltung_AR_190626.pdf`
-- [ ] `be_oce_fr` (Kanton Bern, französische Fassung): `belex.sites.be.ch/frontend/change_document_file_dictionaries/3016`
-- [ ] `ne_laisse` (Kanton Neuenburg): Flyer «chiens en laisse» 2024 auf ne.ch
+- [ ] `ai_vob` (Kanton Appenzell Innerrhoden): `ai.clex.ch/frontend/structured_documents/4200/download_pdf_file_and_annex?locale=de` Lauf vom 19.11.2026: erster Lauf ohne Ersatz. Die Suche fand nur die alte Adresse, auf LexFind (tolv/200028) steht die frühere Verordnung von 2009 im Stand 1. November 2020 mit denselben Beträgen (CHF 50 und CHF 100). Die geltende Fassung unter ai.clex.ch/app/de/texts_of_law/311.010 gab das Abrufwerkzeug nicht frei.
+- [x] `ar_brosch` (Kanton Appenzell Ausserrhoden), 2026-11-19: ersetzt durch die Broschüre Version 02/2025 (`…/Informationsbroschuere_zur_Hundehaltung_AR_250224_.pdf`)
+- [ ] `be_oce_fr` (Kanton Bern, französische Fassung): `belex.sites.be.ch/frontend/change_document_file_dictionaries/3016` Lauf vom 19.11.2026: erster Lauf ohne Ersatz. Die Suche fand nur die alte Adresse. Die Broschüre «Loi sur les chiens» des Veterinäramts (weu.be.ch, Juli 2022) belegt AMICUS, importierte Hunde und die Registrierung der Haltenden durch die Gemeinde, aber nicht die Hundetaxe der Gemeinden. Nächster Versuch: RSB 916.51 auf belex.sites.be.ch (texts_of_law/916.51) oder die Loi sur les chiens (RSB 916.31) für die Taxe.
+- [x] `ne_laisse` (Kanton Neuenburg), 2026-11-19: Der Flyer war nicht mehr zu finden. Ersetzt durch die Mitteilung des DDTE vom 12. April 2024 (`ne.ch/medias/Pages/Chiens-en-laisse-.aspx`, nachgeführt am 9. März 2026)
 - [ ] `zg_steinhausen_steuer` (Kanton Zug): Merkblatt Hundesteuer 2025 der Gemeinde Steinhausen
 - [ ] `zh_winterthur_merkblatt` (Winterthur): Merkblatt Hundewesen
 - [ ] `ne_scav` (Kanton Neuenburg), Verdacht: Statt des PDF `ReglementCoursChiensRCC.pdf` kommt die Seite «S'occuper d'animaux».
 
-Unklar, nur beobachten (erster Durchgang): `bl_wald` (baselland.ch, Antwort 403), `zh_wetzikon_hundewesen`, `zh_wetzikon_pvo` und `zh_wetzikon_tarif` (wetzikon.ch, Zeitüberschreitung).
+Unklar, nur beobachten. Durchgang vom 18.11.2026: `bl_wald` (baselland.ch, Antwort 403), `zh_wetzikon_hundewesen`, `zh_wetzikon_pvo` und `zh_wetzikon_tarif` (wetzikon.ch, Zeitüberschreitung). Durchgang vom 19.11.2026: `bl_wald` (403, zum zweiten Mal), `tg_vet_rassen` (Zeitüberschreitung, zum ersten Mal). Die drei Quellen von Wetzikon waren in Ordnung.
 
 ### Lücken
 
@@ -279,7 +279,10 @@ Unklar, nur beobachten (erster Durchgang): `bl_wald` (baselland.ch, Antwort 403)
 - [ ] Gemeinde Davos: Betrag der Ordnungsbussen (Gemeindegesetz über öffentliche Ruhe und Ordnung), Gebührentarif (DRB 22.1) und Friedhofsgesetz (DRB 17) lesen und ergänzen.
 - [ ] Gemeinde Landquart: Polizeigesetz, Steuergesetz, Friedhofordnung und Benützungsreglement für Flur- und Waldwege im Wortlaut lesen (landquart.ch/gesetze/gesetzesgrundlagen, am 2026-11-18 nicht abrufbar). Bisher ist Art. 50 Polizeigesetz nur über die Mitteilung des Gemeindepolizeiamts belegt. Meldefrist, Leinenpflicht, Verbote und Bussen ergänzen.
 
-- [ ] Kanton Appenzell Ausserrhoden: Seite des Veterinäramts (ar.ch/hunde) abrufen: heutige Meldestelle und Meldeweg, Abgleich mit `leine`.
+- [ ] Kanton Appenzell Ausserrhoden: Seite des Veterinäramts (ar.ch/hunde) abrufen: heutige Meldestelle und Meldeweg, Abgleich mit `leine`. Dazu aus der Broschüre 02/2025 (gelesen am 19.11.2026): Sie nennt für Änderungen eine Meldefrist von 10 Tagen, die Seite nennt nach dem Hundegesetz 14 Tage. Am Wortlaut von Gesetz und Broschüre klären. Die Broschüre empfiehlt zudem, sich vor dem ersten Hund «idealerweise 1 Woche im Voraus» beim Veterinäramt zu melden (telefonisch, schriftlich oder online).
+- [ ] Wettingen: Anmeldestelle der Gemeinde für Hunde belegen. Das Polizeireglement 2026 liegt als Quelle auf der Website von Neuenhof: Adresse auf wettingen.ch suchen und ersetzen (dort stand am 19.11.2026 noch die Fassung von 2013).
+- [ ] Stadt Baden: Anmeldestelle und Rechnung der Hundetaxe belegen, Freilaufflächen suchen.
+- [ ] Muttenz: Reglement über das Halten von Hunden (Nr. 11.600 vom 29. Oktober 1996, muttenz.ch/_doc/5627326) und Hundegebührenverordnung (muttenz.ch/reglemente/5795) lesen, am 19.11.2026 nicht abrufbar. Danach Orte mit Leinenpflicht und Zutrittsverbot, Betrag der Hundegebühr und Meldefrist ergänzen.
 - [ ] Kanton Appenzell Ausserrhoden: geltenden Stand und Perimeter der Wildruhezone «südliches Appenzeller Hinterland» belegen, weitere Wildruhezonen oder Naturschutzgebiete mit Regeln für Hunde suchen.
 - [ ] Kanton Appenzell Ausserrhoden: Sömmerungsvorschriften und Alpen auf Regeln für Hunde prüfen. Bussenbeträge (Ordnungsbussen) für Leine und Kot belegen.
 - [ ] Kanton Zug: «Infoblatt Hundereglemente der Gemeinden im Kanton Zug» des Veterinärdienstes auswerten (cdn.zg.ch war nicht abrufbar). Damit die Karten Haftpflicht, Kurs, Rassen und Hundesteuer schärfen (heute nur Verweis auf die Gemeinde). Paragraf und Busse der Leinenpflicht im Einführungsgesetz zum Waldgesetz nachtragen, Meterangabe zum Waldrand, falls das Gesetz eine nennt.
@@ -331,13 +334,13 @@ Unklar, nur beobachten (erster Durchgang): `bl_wald` (baselland.ch, Antwort 403)
 - [ ] Tessin, Karte Rassen, Liste: «Pastori belga» mit der Quelle vergleichen (aufgefallen 18.11.2026)
 - [ ] Glarus, Feld `wald`: `saison` ist `false`, die Leine gilt aber ganzjährig. Die Seite titelt «Keine Saisonregel im Wald». Titel oder Daten so anpassen, dass niemand «keine Pflicht» liest (aufgefallen in der Kette Übersetzungen, 18.11.2026)
 - [ ] Uri, Karte Unterwegs: «unschädlich machen» mit der Jagdverordnung vergleichen und klarer fassen (aufgefallen 18.11.2026)
-- [ ] Waadt, Genf und Neuenburg französisch, `vergleich.wald`: Schreibweise «1.4 au 15.7» an «du 1.4. au 15.7.» angleichen. Danach sind die Übersetzungen veraltet und im selben Lauf nachzuführen (aufgefallen 18.11.2026)
+- [ ] Waadt und Genf (Neuenburg erledigt am 2026-11-19: «du 15.4. au 30.6.»), ursprünglich Waadt, Genf und Neuenburg französisch, `vergleich.wald`: Schreibweise «1.4 au 15.7» an «du 1.4. au 15.7.» angleichen. Danach sind die Übersetzungen veraltet und im selben Lauf nachzuführen (aufgefallen 18.11.2026)
 
 ### Aufgefallen beim Übersetzen (Kette Übersetzungen, 18.11.2026)
 
 Die Glieder der Kette haben jede Originalfassung Satz für Satz gelesen und notiert, was unklar oder uneinheitlich ist. Nichts davon ist ein belegter Fehler. Beim Nachprüfen der jeweiligen Datei mit der Quelle klären. Ändert sich dabei die Originalfassung, sind ihre Übersetzungen veraltet und im selben Lauf nachzuführen.
 
-- [ ] `data/fr-ch/kantone/ne.json`, Feld `vergleich.wald`: «15.4 au 30.6» ohne Punkt nach dem Monat, wie schon bei VD und GE gemeldet. Die Übersetzungen schreiben «15.4. bis 30.6.» und «dal 15.4. al 30.6.».
+- [x] `data/fr-ch/kantone/ne.json`, Feld `vergleich.wald`: «15.4 au 30.6» ohne Punkt nach dem Monat, wie schon bei VD und GE gemeldet. Die Übersetzungen schreiben «15.4. bis 30.6.» und «dal 15.4. al 30.6.». Erledigt am 2026-11-19.
 - [ ] `data/fr-ch/kantone/ne.json`, Karte Annonce: «vous annoncez votre arrivée à votre commune de domicile» ist unklar (wessen Ankunft?). Übersetzt als «meldest du dich bei deiner Wohngemeinde». Beim Nachprüfen mit der Quelle vergleichen.
 - [ ] `data/kantone/bl.json`, Karte Hundesteuer: «landwirtschaftlicher Nebenhof» ist ein Begriff aus dem Gesetz ohne Erklärung. In den Übersetzungen steht er deutsch in Klammern hinter «ferme annexe» und «fattoria annessa».
 - [ ] `data/kantone/sz.json`, Karte Anmeldung: Marke «Pflicht» mit `ton: note`, bei BL, SO und TG steht dieselbe Marke mit `ton: must`.

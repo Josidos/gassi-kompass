@@ -2,7 +2,7 @@
   "id": "ar",
   "kurz": "AR",
   "uebersetzt_aus": "de",
-  "original": "687d32963b58",
+  "original": "c446be3c5d41",
   "wald": {
     "saison": false,
     "text": "Hundegesetz (legge sui cani), Hundeverordnung (ordinanza sui cani), Jagdgesetz (legge sulla caccia) e Jagdverordnung (ordinanza sulla caccia) del Cantone non prevedono un obbligo di guinzaglio nel bosco in date fisse. Devi però avere il tuo cane in ogni momento sotto sorveglianza e sotto controllo efficace. Se non è possibile altrimenti, va tenuto al guinzaglio. Nella zona di tranquillità per la selvaggina «südliches Appenzeller Hinterland», nella regione Schwägalp-Hochalp (Comuni di Hundwil e Urnäsch), i cani vanno tenuti al guinzaglio in ogni momento (Schutzverordnung del 2009, ordinanza di protezione, approvata nel 2011). I cani che cacciano di frodo possono essere abbattuti dagli organi di polizia della caccia.",
@@ -57,7 +57,7 @@
       "marke": "Nessun obbligo",
       "ton": "none",
       "wert": "solo nel singolo caso",
-      "text": "Hundegesetz e Hundeverordnung non prevedono un corso obbligatorio per tutti i detentori di cani. L'autorità può ordinare, come misura nel singolo caso, la frequenza di corsi di formazione con o senza cane. Nel suo opuscolo il Cantone raccomanda di frequentare corsi per cani (stato dell'opuscolo: 2019).",
+      "text": "Hundegesetz e Hundeverordnung non prevedono un corso obbligatorio per tutti i detentori di cani. L'autorità può ordinare, come misura nel singolo caso, la frequenza di corsi di formazione con o senza cane. Nel suo opuscolo il Cantone raccomanda di frequentare corsi per cani (stato dell'opuscolo: 2025).",
       "quellen": [
         "ar_hug",
         "ar_huv",
@@ -69,7 +69,7 @@
       "marke": "Obbligo",
       "ton": "must",
       "wert": "entro 14 giorni al Cantone",
-      "text": "Se detieni un cane di età superiore a tre mesi, lo annunci entro 14 giorni al servizio cantonale competente. Lo stesso termine vale per il cambio di detentore, la morte del cane, un cambiamento del tuo nome o del tuo indirizzo e per le misure ordinate da un altro Cantone. Il servizio cantonale competente è il Veterinäramt (ufficio veterinario). Secondo l'opuscolo del Cantone ti annunci come detentrice o detentore di cani presso il Veterinäramt a Herisau (stato dell'opuscolo: 2019). Ogni cane deve essere contrassegnato e registrato secondo la legislazione federale sulle epizoozie.",
+      "text": "Se detieni un cane di età superiore a tre mesi, lo annunci entro 14 giorni al servizio cantonale competente. Lo stesso termine vale per il cambio di detentore, la morte del cane, un cambiamento del tuo nome o del tuo indirizzo e per le misure ordinate da un altro Cantone. Il servizio cantonale competente è il Veterinäramt (ufficio veterinario). Secondo l'opuscolo del Cantone ti annunci come detentrice o detentore di cani presso il Veterinäramt a Herisau (stato dell'opuscolo: 2025). Ogni cane deve essere contrassegnato e registrato secondo la legislazione federale sulle epizoozie.",
       "quellen": [
         "ar_hug",
         "ar_huv",

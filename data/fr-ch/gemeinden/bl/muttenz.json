@@ -1,0 +1,37 @@
+{
+  "id": "muttenz",
+  "kanton": "bl",
+  "bfs": 2770,
+  "uebersetzt_aus": "de",
+  "original": "84b6bfd9b876",
+  "name": "Muttenz",
+  "ort": "Muttenz",
+  "in_ort": "à Muttenz",
+  "einleitung": "À Muttenz, vous annoncez votre chien à la Gemeindepolizei (police communale). Les amendes figurent dans le Polizeireglement (règlement de police) de la commune.",
+  "karten": [
+    {
+      "titel": "Annonce",
+      "wert": "Gemeindepolizei, avec formulaire",
+      "text": "Les détenteurs de chiens sont soumis à l'obligation d'annonce. Vous annoncez l'arrivée et le départ de votre chien au Ressort Gemeindepolizei au moyen du formulaire de la commune. Comme preuve de l'assurance responsabilité civile, vous joignez une copie de la police d'assurance. Le montant de l'impôt sur les chiens est fixé par le Gemeinderat (conseil communal) dans la Hundegebührenverordnung.",
+      "quellen": [
+        "bl_muttenz_hund"
+      ]
+    },
+    {
+      "titel": "Amendes",
+      "wert": "CHF 100 à CHF 200",
+      "text": "Le Polizeireglement prévoit ces amendes: infraction à la laisse obligatoire CHF 100, non-respect de l'accès interdit aux chiens CHF 100, non-respect d'une interdiction des chiens signalée CHF 200, crottes non ramassées CHF 100, chien laissé sans surveillance CHF 100, mise en danger et dérangement par une détention d'animaux inadéquate CHF 200. Les lieux où la laisse est obligatoire et où l'accès est interdit sont réglés par le Reglement über das Halten von Hunden de la commune.",
+      "quellen": [
+        "bl_muttenz_polizeireglement"
+      ]
+    },
+    {
+      "titel": "Chien échappé",
+      "wert": "frais à la charge de qui les cause",
+      "text": "Si la Gemeindepolizei ramène un chien échappé, elle peut en facturer les frais à la personne qui les a causés.",
+      "quellen": [
+        "bl_muttenz_polizeireglement"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "wettingen",
+  "kanton": "ag",
+  "bfs": 4045,
+  "name": "Wettingen",
+  "ort": "Wettingen",
+  "in_ort": "in Wettingen",
+  "geprueft": "2026-11-19",
+  "einleitung": "Wettingen regelt die Hundehaltung im Polizeireglement der Regionalpolizei Wettingen-Limmattal. Es nennt die Orte mit Leinenpflicht und die Ordnungsbussen.",
+  "karten": [
+    {
+      "titel": "Leine",
+      "wert": "Zentrum, Klosterareal, Schulen, Friedhof",
+      "text": "In Wettingen führst du deinen Hund an der Leine: im Klosterareal, am Bächliweg und im Gottesgraben sowie im Zentrum. Das Zentrum ist der Bereich zwischen Zentralstrasse und Schartenstrasse, begrenzt durch die Gemeindegrenze zu Baden, die Märzengasse, die Bifangstrasse und die Halbartenstrasse. Dazu gilt die Leinenpflicht wie in allen Gemeinden der Regionalpolizei Wettingen-Limmattal in Schul- und Sportanlagen samt Kindergärten, auf öffentlichen Spiel- und Grünflächen, in Wirtschaftslokalen und auf Friedhofarealen.",
+      "quellen": [
+        "ag_wettingen_polizeireglement"
+      ]
+    },
+    {
+      "titel": "Kein Zutritt",
+      "wert": "Lebensmittelgeschäfte",
+      "text": "In Lebensmittelgeschäfte darfst du deinen Hund nicht mitnehmen. Ausgenommen sind Blindenhunde. Wer es trotzdem tut, zahlt eine Ordnungsbusse von CHF 100.",
+      "quellen": [
+        "ag_wettingen_polizeireglement"
+      ]
+    },
+    {
+      "titel": "Hundekot",
+      "wert": "einsammeln und beseitigen",
+      "text": "Du musst den Kot deines Hundes einsammeln und zweckmässig beseitigen. Wer das nicht tut, zahlt laut Bussenliste des Polizeireglements CHF 100.",
+      "quellen": [
+        "ag_wettingen_polizeireglement"
+      ]
+    },
+    {
+      "titel": "Bussen",
+      "wert": "CHF 100",
+      "text": "Die Bussenliste des Polizeireglements nennt je CHF 100 für: Hund unbeaufsichtigt laufen lassen, Leinenpflicht verletzen, Meldepflicht gegenüber der Gemeinde verletzen und Hundetaxe nicht bezahlen.",
+      "quellen": [
+        "ag_wettingen_polizeireglement"
+      ]
+    }
+  ]
+}

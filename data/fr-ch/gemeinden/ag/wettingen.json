@@ -1,0 +1,45 @@
+{
+  "id": "wettingen",
+  "kanton": "ag",
+  "bfs": 4045,
+  "uebersetzt_aus": "de",
+  "original": "96623c102ff7",
+  "name": "Wettingen",
+  "ort": "Wettingen",
+  "in_ort": "à Wettingen",
+  "einleitung": "Wettingen règle la détention de chiens dans le Polizeireglement (règlement de police) de la Regionalpolizei Wettingen-Limmattal (police régionale). Il désigne les lieux où la laisse est obligatoire et fixe les amendes d'ordre.",
+  "karten": [
+    {
+      "titel": "Laisse",
+      "wert": "centre, Klosterareal, écoles, cimetière",
+      "text": "À Wettingen, vous tenez votre chien en laisse: dans le Klosterareal (enceinte du couvent), au Bächliweg et au Gottesgraben ainsi qu'au centre. Le centre est le secteur situé entre la Zentralstrasse et la Schartenstrasse, délimité par la limite communale avec Baden, la Märzengasse, la Bifangstrasse et la Halbartenstrasse. La laisse est en outre obligatoire, comme dans toutes les communes de la Regionalpolizei Wettingen-Limmattal, dans les installations scolaires et sportives, jardins d'enfants compris, sur les places de jeux et les espaces verts publics, dans les cafés et restaurants et dans les cimetières.",
+      "quellen": [
+        "ag_wettingen_polizeireglement"
+      ]
+    },
+    {
+      "titel": "Accès interdit",
+      "wert": "magasins d'alimentation",
+      "text": "Vous ne pouvez pas emmener votre chien dans les magasins d'alimentation. Les chiens guides d'aveugles font exception. Qui le fait malgré tout paie une amende d'ordre de CHF 100.",
+      "quellen": [
+        "ag_wettingen_polizeireglement"
+      ]
+    },
+    {
+      "titel": "Crottes",
+      "wert": "ramasser et éliminer",
+      "text": "Vous devez ramasser les crottes de votre chien et les éliminer de manière appropriée. Qui ne le fait pas paie CHF 100 selon la liste des amendes du Polizeireglement.",
+      "quellen": [
+        "ag_wettingen_polizeireglement"
+      ]
+    },
+    {
+      "titel": "Amendes",
+      "wert": "CHF 100",
+      "text": "La liste des amendes du Polizeireglement prévoit CHF 100 dans chacun de ces cas: laisser courir un chien sans surveillance, ne pas respecter la laisse obligatoire, ne pas respecter l'obligation d'annonce à la commune et ne pas payer l'impôt sur les chiens.",
+      "quellen": [
+        "ag_wettingen_polizeireglement"
+      ]
+    }
+  ]
+}
