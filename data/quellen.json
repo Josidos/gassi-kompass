@@ -668,5 +668,25 @@
     "kurz": "Polizeireglement Muttenz",
     "lang": "Einwohnergemeinde Muttenz: Polizeireglement (Nr. 11.100) vom 18. Juni 2015 mit Anhang I (Bussen), Fassung vom 17. Oktober 2024, in Kraft seit 1. Januar 2025",
     "url": "https://www.muttenz.ch/_docn/5451034/11.100_Polizeireglement.pdf"
+  },
+  "bl_liestal_polizeireglement": {
+    "kurz": "Polizeireglement Liestal",
+    "lang": "Stadt Liestal: Polizeireglement (ESL 700.1) vom 17. März 2021, in Kraft seit 1. Oktober 2021, § 36 bis 46 und § 52",
+    "url": "https://www.liestal.ch/_docn/3392362/700_Polizeireglement.pdf"
+  },
+  "bl_liestal_gebuehren": {
+    "kurz": "Gebührenverordnung Liestal",
+    "lang": "Stadt Liestal: Gebührenverordnung zum Polizeireglement (ESL 700.11) vom 11. Januar 2022, in Kraft seit 1. Januar 2022",
+    "url": "https://www.liestal.ch/_docn/3546641/700.11_Gebuhrenverordnung_zum_Polizeireglement_neu.pdf"
+  },
+  "bl_liestal_hundekontrolle": {
+    "kurz": "Stadt Liestal: Hundekontrolle",
+    "lang": "Stadt Liestal: Dienstleistung Hundekontrolle (abgerufen am 20. November 2026)",
+    "url": "https://www.liestal.ch/de/verwaltung/dienstleistungen/welcome.php?dienst_id=2753"
+  },
+  "bl_liestal_anmeldung": {
+    "kurz": "Stadt Liestal: Hunde Anmeldung",
+    "lang": "Stadt Liestal: Online-Schalter, Hunde Anmeldung mit Formular (abgerufen am 20. November 2026)",
+    "url": "https://www.liestal.ch/de/onlinedienste/online-schalter/?action=showdetail&dienst_id=25943"
   }
 }

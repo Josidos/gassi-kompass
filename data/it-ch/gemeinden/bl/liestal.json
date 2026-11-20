@@ -1,0 +1,65 @@
+{
+  "id": "liestal",
+  "kanton": "bl",
+  "bfs": 2829,
+  "uebersetzt_aus": "de",
+  "original": "7b596176d4d0",
+  "name": "Città di Liestal",
+  "ort": "Liestal",
+  "in_ort": "a Liestal",
+  "einleitung": "Liestal disciplina la detenzione di cani nel Polizeireglement (regolamento di polizia) della città del 17 marzo 2021, in vigore dal 1° ottobre 2021. Le tasse sono stabilite nella relativa Gebührenverordnung (ordinanza sulle tasse).",
+  "karten": [
+    {
+      "titel": "Imposta sui cani",
+      "wert": "CHF 100 all'anno",
+      "text": "Chi abita a Liestal e detiene un cane paga una tassa annua di CHF 100 per la detenzione di cani (Gebührenverordnung, in vigore dal 1° gennaio 2022). La città la riscuote di regola all'inizio dell'anno. Se annunci un nuovo cane dopo il 30 giugno, per quell'anno paghi metà della tassa. In caso di partenza, la tassa pagata non ti viene rimborsata. Si aggiunge una tassa d'iscrizione unica di CHF 50. Per i cani sociali e da terapia e per i cani d'assistenza e d'accompagnamento la città non riscuote alcuna tassa, se presenti l'attestato di formazione.",
+      "quellen": [
+        "bl_liestal_gebuehren",
+        "bl_liestal_polizeireglement"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "wert": "entro 14 giorni presso la città",
+      "text": "Annunci il tuo cane entro 14 giorni presso la città di Liestal. Invii il modulo per posta o per e-mail al Bereich Sicherheit (settore sicurezza), Rathausstrasse 36. Ti servono una copia del passaporto del cane e la prova di un'assicurazione di responsabilità civile e, per i cani potenzialmente pericolosi, anche l'autorizzazione di detenzione cantonale. Entro 14 giorni annunci anche la morte del cane, un cambio di detentore e la partenza. Per una registrazione tardiva la città chiede una tassa di trattamento di CHF 50.",
+      "quellen": [
+        "bl_liestal_hundekontrolle",
+        "bl_liestal_anmeldung",
+        "bl_liestal_polizeireglement",
+        "bl_liestal_gebuehren"
+      ]
+    },
+    {
+      "titel": "Guinzaglio",
+      "wert": "impianti, strade trafficate, stazioni, fermate",
+      "text": "Devi tenere il cane al guinzaglio: negli edifici e negli impianti pubblici, lungo le strade molto trafficate, sui mezzi pubblici, nelle stazioni e alle fermate. Nel bosco e al margine del bosco l'obbligo di guinzaglio vale dal 1° aprile al 31 luglio, nelle zone di tranquillità per la selvaggina tutto l'anno. Si aggiungono i luoghi con conflitti d'uso, se lo Stadtrat (esecutivo della città) vi ha segnalato l'obbligo di guinzaglio.",
+      "quellen": [
+        "bl_liestal_polizeireglement"
+      ]
+    },
+    {
+      "titel": "Accesso vietato",
+      "wert": "dove è segnalato",
+      "text": "Lo Stadtrat può designare piazze e luoghi ai quali i cani non hanno accesso. Dove è segnalato un divieto di accesso, non puoi portare il cane. Con un cane potenzialmente pericoloso non puoi andare nei parchi giochi pubblici, negli impianti sportivi e per il tempo libero, nelle aree delle scuole e delle scuole dell'infanzia e negli edifici pubblici.",
+      "quellen": [
+        "bl_liestal_polizeireglement"
+      ]
+    },
+    {
+      "titel": "Escrementi",
+      "wert": "raccogliere e gettare nel Robidog",
+      "text": "Se il tuo cane fa i bisogni su un'area pubblica o su un'area privata altrui, devi raccogliere gli escrementi. Li getti nel Robidog, in un altro contenitore pubblico per i rifiuti o con i rifiuti domestici.",
+      "quellen": [
+        "bl_liestal_polizeireglement"
+      ]
+    },
+    {
+      "titel": "Multe",
+      "wert": "fino a CHF 5000",
+      "text": "Chi non rispetta l'obbligo di guinzaglio o un divieto di accesso per i cani, non raccoglie gli escrementi o non paga la tassa per i cani può essere punito, secondo il Polizeireglement, con una multa fino a CHF 5000.",
+      "quellen": [
+        "bl_liestal_polizeireglement"
+      ]
+    }
+  ]
+}

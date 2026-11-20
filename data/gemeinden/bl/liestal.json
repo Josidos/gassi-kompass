@@ -1,0 +1,64 @@
+{
+  "id": "liestal",
+  "kanton": "bl",
+  "bfs": 2829,
+  "name": "Stadt Liestal",
+  "ort": "Liestal",
+  "in_ort": "in der Stadt Liestal",
+  "geprueft": "2026-11-20",
+  "einleitung": "Liestal regelt die Hundehaltung im Polizeireglement der Stadt vom 17. März 2021, in Kraft seit 1. Oktober 2021. Die Gebühren stehen in der Gebührenverordnung dazu.",
+  "karten": [
+    {
+      "titel": "Hundetaxe",
+      "wert": "CHF 100 pro Jahr",
+      "text": "Wer in Liestal wohnt und einen Hund hält, zahlt eine jährliche Gebühr für die Hundehaltung von CHF 100 (Gebührenverordnung, in Kraft seit 1. Januar 2022). Die Stadt fordert sie in der Regel anfangs Jahr ein. Meldest du den Hund nach dem 30. Juni neu an, zahlst du für dieses Jahr die halbe Gebühr. Bei einem Wegzug bekommst du die bezahlte Gebühr nicht zurück. Dazu kommt einmalig eine Einschreibegebühr von CHF 50. Für Sozial- und Therapiehunde sowie Assistenz- und Begleithunde erhebt die Stadt keine Gebühr, wenn du den Ausbildungsnachweis vorlegst.",
+      "quellen": [
+        "bl_liestal_gebuehren",
+        "bl_liestal_polizeireglement"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "wert": "innert 14 Tagen bei der Stadt",
+      "text": "Du meldest deinen Hund innert 14 Tagen bei der Stadt Liestal an. Das Formular schickst du per Post oder E-Mail an den Bereich Sicherheit, Rathausstrasse 36. Du brauchst eine Kopie des Hundeausweises und den Nachweis einer Haftpflichtversicherung, für potenziell gefährliche Hunde zusätzlich die kantonale Haltebewilligung. Auch den Tod des Hundes, einen Halterwechsel und den Wegzug meldest du innert 14 Tagen. Für eine verspätete Registrierung verlangt die Stadt eine Bearbeitungsgebühr von CHF 50.",
+      "quellen": [
+        "bl_liestal_hundekontrolle",
+        "bl_liestal_anmeldung",
+        "bl_liestal_polizeireglement",
+        "bl_liestal_gebuehren"
+      ]
+    },
+    {
+      "titel": "Leine",
+      "wert": "Anlagen, verkehrsreiche Strassen, Bahnhöfe, Haltestellen",
+      "text": "Du musst deinen Hund an die Leine nehmen: in öffentlichen Gebäuden und Anlagen, an verkehrsreichen Strassen, in öffentlichen Verkehrsmitteln, an Bahnhöfen und an Haltestellen. Im Wald und an Waldsäumen gilt die Leinenpflicht vom 1. April bis 31. Juli, in Wildruhegebieten das ganze Jahr. Dazu kommen Orte mit Nutzungskonflikten, wenn der Stadtrat die Leinenpflicht dort signalisiert hat.",
+      "quellen": [
+        "bl_liestal_polizeireglement"
+      ]
+    },
+    {
+      "titel": "Kein Zutritt",
+      "wert": "wo es signalisiert ist",
+      "text": "Der Stadtrat kann Plätze und Orte bezeichnen, zu denen Hunde keinen Zutritt haben. Wo ein Zutrittsverbot signalisiert ist, darfst du deinen Hund nicht mitnehmen. Mit einem potenziell gefährlichen Hund darfst du nicht auf öffentliche Spielplätze, Sport- und Freizeitanlagen, auf Schul- und Kindergartenareale und in öffentliche Gebäude.",
+      "quellen": [
+        "bl_liestal_polizeireglement"
+      ]
+    },
+    {
+      "titel": "Hundekot",
+      "wert": "beseitigen und im Robidog entsorgen",
+      "text": "Versäubert sich dein Hund auf öffentlichem oder fremdem privatem Areal, musst du den Kot beseitigen. Du entsorgst ihn im Robidog, in einem anderen öffentlichen Abfallbehälter oder mit dem Hauskehricht.",
+      "quellen": [
+        "bl_liestal_polizeireglement"
+      ]
+    },
+    {
+      "titel": "Bussen",
+      "wert": "bis CHF 5000",
+      "text": "Wer die Leinenpflicht oder ein Zutrittsverbot für Hunde missachtet, den Hundekot nicht beseitigt oder die Hundegebühr nicht bezahlt, kann nach dem Polizeireglement mit einer Busse bis CHF 5000 bestraft werden.",
+      "quellen": [
+        "bl_liestal_polizeireglement"
+      ]
+    }
+  ]
+}

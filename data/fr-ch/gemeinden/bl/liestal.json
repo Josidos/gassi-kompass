@@ -1,0 +1,65 @@
+{
+  "id": "liestal",
+  "kanton": "bl",
+  "bfs": 2829,
+  "uebersetzt_aus": "de",
+  "original": "7b596176d4d0",
+  "name": "Ville de Liestal",
+  "ort": "Liestal",
+  "in_ort": "à Liestal",
+  "einleitung": "Liestal règle la détention de chiens dans le Polizeireglement (règlement de police) de la ville du 17 mars 2021, en vigueur depuis le 1er octobre 2021. Les émoluments figurent dans la Gebührenverordnung (ordonnance sur les émoluments) qui s'y rapporte.",
+  "karten": [
+    {
+      "titel": "Impôt sur les chiens",
+      "wert": "CHF 100 par an",
+      "text": "Qui habite à Liestal et détient un chien paie un émolument annuel de CHF 100 pour la détention de chiens (Gebührenverordnung, en vigueur depuis le 1er janvier 2022). La ville le réclame en règle générale en début d'année. Si vous annoncez un nouveau chien après le 30 juin, vous payez la moitié de l'émolument pour cette année. En cas de départ, l'émolument payé ne vous est pas remboursé. S'y ajoute un émolument d'inscription unique de CHF 50. Pour les chiens sociaux et de thérapie ainsi que pour les chiens d'assistance et d'accompagnement, la ville ne perçoit pas d'émolument si vous présentez l'attestation de formation.",
+      "quellen": [
+        "bl_liestal_gebuehren",
+        "bl_liestal_polizeireglement"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "wert": "dans les 14 jours auprès de la ville",
+      "text": "Vous annoncez votre chien dans les 14 jours auprès de la ville de Liestal. Vous envoyez le formulaire par la poste ou par e-mail au Bereich Sicherheit (domaine sécurité), Rathausstrasse 36. Il vous faut une copie du passeport du chien et la preuve d'une assurance responsabilité civile, et en plus, pour les chiens potentiellement dangereux, l'autorisation de détention cantonale. Vous annoncez aussi dans les 14 jours la mort du chien, un changement de détenteur et le départ. Pour un enregistrement tardif, la ville demande un émolument de traitement de CHF 50.",
+      "quellen": [
+        "bl_liestal_hundekontrolle",
+        "bl_liestal_anmeldung",
+        "bl_liestal_polizeireglement",
+        "bl_liestal_gebuehren"
+      ]
+    },
+    {
+      "titel": "Laisse",
+      "wert": "installations, rues à fort trafic, gares, arrêts",
+      "text": "Vous devez tenir votre chien en laisse: dans les bâtiments et installations publics, le long des rues à fort trafic, dans les transports publics, dans les gares et aux arrêts. En forêt et en lisière, la laisse est obligatoire du 1er avril au 31 juillet, et toute l'année dans les zones de tranquillité pour la faune. S'y ajoutent les lieux où les usages entrent en conflit, si le Stadtrat (exécutif de la ville) y a signalé la laisse obligatoire.",
+      "quellen": [
+        "bl_liestal_polizeireglement"
+      ]
+    },
+    {
+      "titel": "Accès interdit",
+      "wert": "là où c'est signalé",
+      "text": "Le Stadtrat peut désigner des places et des lieux auxquels les chiens n'ont pas accès. Là où un accès interdit est signalé, vous ne pouvez pas emmener votre chien. Avec un chien potentiellement dangereux, vous ne pouvez pas aller sur les places de jeux publiques, dans les installations de sport et de loisirs, sur les sites des écoles et des jardins d'enfants ni dans les bâtiments publics.",
+      "quellen": [
+        "bl_liestal_polizeireglement"
+      ]
+    },
+    {
+      "titel": "Crottes",
+      "wert": "ramasser et jeter dans un Robidog",
+      "text": "Si votre chien fait ses besoins sur un terrain public ou sur un terrain privé appartenant à autrui, vous devez ramasser les crottes. Vous les jetez dans un Robidog, dans une autre poubelle publique ou avec les ordures ménagères.",
+      "quellen": [
+        "bl_liestal_polizeireglement"
+      ]
+    },
+    {
+      "titel": "Amendes",
+      "wert": "jusqu'à CHF 5000",
+      "text": "Qui ne respecte pas la laisse obligatoire ou un accès interdit aux chiens, ne ramasse pas les crottes ou ne paie pas l'émolument pour chiens peut être puni, selon le Polizeireglement, d'une amende allant jusqu'à CHF 5000.",
+      "quellen": [
+        "bl_liestal_polizeireglement"
+      ]
+    }
+  ]
+}

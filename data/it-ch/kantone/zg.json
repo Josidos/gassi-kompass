@@ -2,7 +2,7 @@
   "id": "zg",
   "kurz": "ZG",
   "uebersetzt_aus": "de",
-  "original": "ab3f4dd36b42",
+  "original": "6316172ca122",
   "wald": {
     "saison": true,
     "von": "04-01",
@@ -73,7 +73,7 @@
       "marke": "Comune",
       "ton": "note",
       "wert": "secondo il Comune",
-      "text": "L'imposta sui cani è stabilita nel regolamento del tuo Comune. I dati della banca dati dei cani possono essere utilizzati per riscuotere l'imposta sui cani. Un esempio: Steinhausen chiede CHF 70 per cane e anno civile per i cani a partire da tre mesi (promemoria 2025).",
+      "text": "L'imposta sui cani è stabilita nel regolamento del tuo Comune. I dati della banca dati dei cani possono essere utilizzati per riscuotere l'imposta sui cani. Un esempio: Steinhausen chiede CHF 70 per cane e anno civile per i cani di oltre tre mesi (Reglement über das Halten von Hunden, § 11. Stato: promemoria del Comune di aprile 2025).",
       "quellen": [
         "zg_vv_tsg",
         "zg_steinhausen_steuer"

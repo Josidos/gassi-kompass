@@ -2,7 +2,7 @@
   "id": "zg",
   "kurz": "ZG",
   "uebersetzt_aus": "de",
-  "original": "ab3f4dd36b42",
+  "original": "6316172ca122",
   "wald": {
     "saison": true,
     "von": "04-01",
@@ -73,7 +73,7 @@
       "marke": "Commune",
       "ton": "note",
       "wert": "selon la commune",
-      "text": "L'impôt sur les chiens figure dans le règlement de votre commune. Les données de la banque de données sur les chiens peuvent être utilisées pour percevoir l'impôt sur les chiens. Un exemple : Steinhausen demande CHF 70 par chien et par année civile pour les chiens dès trois mois (aide-mémoire 2025).",
+      "text": "L'impôt sur les chiens figure dans le règlement de votre commune. Les données de la banque de données sur les chiens peuvent être utilisées pour percevoir l'impôt sur les chiens. Un exemple : Steinhausen demande CHF 70 par chien et par année civile pour les chiens de plus de trois mois (Reglement über das Halten von Hunden, § 11. État: notice de la commune d'avril 2025).",
       "quellen": [
         "zg_vv_tsg",
         "zg_steinhausen_steuer"

@@ -72,15 +72,15 @@ Ungefähr nach Grösse. Neue Kantone tragen hier ihre grössten Gemeinden ein.
 - [ ] Rheinfelden (AG): zurückgestellt am 2026-11-19. Nur zwei lokale Angaben belegt (Anmeldung beim Stadtbüro innert 10 Tagen mit Kopie des Heimtierausweises, Rechnung der Hundetaxe im Mai durch die Finanzverwaltung). Ein Polizeireglement mit Leinenorten oder Verboten war in zwei Suchen nicht zu finden. Nächster Versuch: Rechtssammlung rheinfelden.tlex.ch (braucht einen Browser) und Regionalpolizei Unteres Fricktal.
 - [ ] Reinach (BL): zurückgestellt am 2026-11-19. Lesbar war nur eine Fassung des Polizeireglements vom 23. November 2015 ohne Datum der Genehmigung und des Inkrafttretens (§ 39 bis 46 zu Hunden, Bussenliste). Ob sie heute gilt, ist offen. Die Seite «Hund anmelden oder abmelden» lieferte keinen Inhalt. Nächster Versuch: geltende Fassung auf reinach-bl.tlex.ch (braucht einen Browser), Hundegebühr in der Polizeiverordnung.
 - [x] Muttenz (BL), 2026-11-19
-- [ ] Pratteln (BL)
-- [ ] Binningen (BL)
-- [ ] Liestal (BL)
+- [ ] Pratteln (BL): zurückgestellt am 2026-11-20. Belegt sind nur Anmeldung (Schalter der Einwohnerdienste, innert 14 Tagen, Hunde ab 4 Monaten, Unterlagen laut Merkblatt) und eine Gebühr von CHF 120 aus dem Merkblatt der Gemeindepolizei vom 17. September 2022. Die Gebührenverordnung (2.4.1) wurde seither mehrmals neu gefasst, die nächste Fassung gilt ab 1. Januar 2027: Der Betrag ist deshalb nicht sicher. Das Reglement über die Hundehaltung (4.1.3, in Kraft seit 1. April 2006, pratteln.ch/_rte/information/2071360) mit Leinenorten und Zutrittsverboten und das PDF der Gebührenverordnung (pratteln.ch/_doc/7164151) gab das Abrufwerkzeug nicht frei. Das Polizeireglement 4.1.1 gilt seit 1. Juli 2026 (pratteln.ch/_rte/information/2893861, nicht gelesen), die Fassung unter _docn/1330941 ist nur der Entwurf.
+- [ ] Binningen (BL): zurückgestellt am 2026-11-20. Keine lokale Angabe sicher belegt. Lesbar waren das Polizeireglement vom 29. Juni 2015 (Fassung 1. August 2022, nur § 9 mit Verweis auf das Hundereglement vom 26. Mai 1997) und ein interner Bussenkatalog von 2016. Die Seite «Hunde» ist für das Abrufwerkzeug gesperrt (robots), das Hundehaltungsreglement (binningen.ch/public/upload/assets/5962/Hundehaltungsreglement.pdf) und die Ordnungsbussenliste (assets/9443) gab es nicht frei.
+- [x] Liestal (BL), 2026-11-20
 - [x] Kreuzlingen (TG), 2026-11-17
 - [x] Arbon (TG), 2026-11-17
 - [ ] Amriswil (TG): zurückgestellt am 2026-11-17. Nur die Meldestelle belegt (Hundekontrollstelle der Einwohnerdienste). Die Seite der Stadt nennt weder Steuerbetrag noch Orte, die Mitteilung zu den Hundesteuer-Rechnungen war nicht abrufbar.
 - [ ] Weinfelden (TG): zurückgestellt am 2026-11-17. weinfelden.ch lässt den Abruf nicht zu (robots), keine andere amtliche Quelle gefunden.
 - [ ] Romanshorn (TG): zurückgestellt am 2026-11-17. Das Merkblatt Hundehaltung der Stadt trägt kein Datum und ist beim Kurs veraltet (Stand vor April 2024). Es nennt Steuer CHF 100 und CHF 162.50, Leinenpflicht im Seepark, auf Schlosswiese und Surfwiese, Hundezone im Seepark, Verbot in der Holzensteiner Badi. Die aktuellen Seiten (Hundekontrolle, Hundewiese) lassen den Abruf nicht zu. Neu ansetzen, sobald eine datierte Quelle lesbar ist.
-- [ ] Solothurn (SO)
+- [ ] Solothurn (SO): zurückgestellt am 2026-11-20. Belegt ist nur die Anmeldung bei der Stadtpolizei (Formular, Kopie des Impfausweises, per E-Mail). Der Online-Schalter nennt «CHF 135.00», ohne zu sagen, wofür. Die Polizeiordnung vom 30. Juni 1992 (Fassung 1. September 2024) enthält nichts zu Hunden. Die Rechtssammlung (stadt-solothurn.ch/gzpolizei/kapitel/15) war nicht abrufbar. Nächster Versuch: Gebührentarif und Friedhofreglement.
 - [ ] Grenchen (SO)
 - [ ] Zuchwil (SO)
 - [ ] Biberist (SO)
@@ -219,19 +219,20 @@ Ungefähr nach Grösse. Neue Kantone tragen hier ihre grössten Gemeinden ein.
 
 ## 4. Lücken in bestehenden Seiten
 
-### Tote Links (Link-Prüfung vom 18.11.2026)
+### Tote Links (Link-Prüfung vom 18.11.2026, zuletzt 20.11.2026)
 
 Zuerst erledigen, höchstens vier pro Lauf. Vorgehen in `CLAUDE.md` unter «Link-Prüfung». Antwort 404 beim echten Abruf:
 
-- [ ] `ai_vob` (Kanton Appenzell Innerrhoden): `ai.clex.ch/frontend/structured_documents/4200/download_pdf_file_and_annex?locale=de` Lauf vom 19.11.2026: erster Lauf ohne Ersatz. Die Suche fand nur die alte Adresse, auf LexFind (tolv/200028) steht die frühere Verordnung von 2009 im Stand 1. November 2020 mit denselben Beträgen (CHF 50 und CHF 100). Die geltende Fassung unter ai.clex.ch/app/de/texts_of_law/311.010 gab das Abrufwerkzeug nicht frei.
+- [x] `ai_vob` (Kanton Appenzell Innerrhoden), 2026-11-20: ersetzt durch den Anhang 1 der VOB im Stand 31. März 2025 (`ai.clex.ch/api/annex_document_dictionaries/2903`). Beträge unverändert (CHF 50 und CHF 100). Die Adresse ist wieder ein Dateipfad der Gesetzessammlung: Die nächste Link-Prüfung zeigt, ob sie hält.
 - [x] `ar_brosch` (Kanton Appenzell Ausserrhoden), 2026-11-19: ersetzt durch die Broschüre Version 02/2025 (`…/Informationsbroschuere_zur_Hundehaltung_AR_250224_.pdf`)
-- [ ] `be_oce_fr` (Kanton Bern, französische Fassung): `belex.sites.be.ch/frontend/change_document_file_dictionaries/3016` Lauf vom 19.11.2026: erster Lauf ohne Ersatz. Die Suche fand nur die alte Adresse. Die Broschüre «Loi sur les chiens» des Veterinäramts (weu.be.ch, Juli 2022) belegt AMICUS, importierte Hunde und die Registrierung der Haltenden durch die Gemeinde, aber nicht die Hundetaxe der Gemeinden. Nächster Versuch: RSB 916.51 auf belex.sites.be.ch (texts_of_law/916.51) oder die Loi sur les chiens (RSB 916.31) für die Taxe.
+- [ ] `be_oce_fr` (Kanton Bern, französische Fassung): `belex.sites.be.ch/frontend/change_document_file_dictionaries/3016` Lauf vom 19.11.2026: erster Lauf ohne Ersatz (am 20.11.2026 nicht bearbeitet, Obergrenze vier pro Lauf, weiterhin 404). Die Suche fand nur die alte Adresse. Die Broschüre «Loi sur les chiens» des Veterinäramts (weu.be.ch, Juli 2022) belegt AMICUS, importierte Hunde und die Registrierung der Haltenden durch die Gemeinde, aber nicht die Hundetaxe der Gemeinden. Nächster Versuch: RSB 916.51 auf belex.sites.be.ch (texts_of_law/916.51) oder die Loi sur les chiens (RSB 916.31) für die Taxe.
 - [x] `ne_laisse` (Kanton Neuenburg), 2026-11-19: Der Flyer war nicht mehr zu finden. Ersetzt durch die Mitteilung des DDTE vom 12. April 2024 (`ne.ch/medias/Pages/Chiens-en-laisse-.aspx`, nachgeführt am 9. März 2026)
-- [ ] `zg_steinhausen_steuer` (Kanton Zug): Merkblatt Hundesteuer 2025 der Gemeinde Steinhausen
-- [ ] `zh_winterthur_merkblatt` (Winterthur): Merkblatt Hundewesen
-- [ ] `ne_scav` (Kanton Neuenburg), Verdacht: Statt des PDF `ReglementCoursChiensRCC.pdf` kommt die Seite «S'occuper d'animaux».
+- [x] `zg_steinhausen_steuer` (Kanton Zug), 2026-11-20: Merkblatt Hundesteuer 2025 ersetzt durch das Reglement über das Halten von Hunden der Gemeinde Steinhausen (Nr. 52.1, § 11, `…/copy_of_dokumente/regl-halten-von-hunden.pdf/download`). Die Adresse liegt im selben Ordner wie die tote: Die nächste Link-Prüfung zeigt, ob sie hält.
+- [ ] `zh_winterthur_merkblatt` (Winterthur): Merkblatt Hundewesen. Lauf vom 20.11.2026: erster Lauf ohne Ersatz. Die Suche fand nur die alte Adresse, das Abrufwerkzeug liefert das Merkblatt dort noch aus (CHF 160, CHF 30, Meldegebühr CHF 20, 10 Tage: unverändert). Die Seite «Hundewesen» der Stadt gab das Abrufwerkzeug nicht frei, der Stadtratsbeschluss vom 23. Juni 2021 hat eine zu lange Adresse. Nächster Versuch: heutigen Link des Merkblatts auf der Seite «Hundewesen» suchen, sonst die Verordnung über die Kanzlei- und Verwaltungsgebühren (winterthur.tlex.ch, SRS 6.3-1).
+- [x] `ne_scav` (Kanton Neuenburg), 2026-11-20: Adresse ersetzt durch die Seite «S'occuper d'animaux» des SCAV, auf die die alte Adresse führte (`ne.ch/themes/vie-quotidienne-et-famille/animaux/soccuper-danimaux`).
+- [ ] `ur_silenen_hhv` (Silenen), Verdacht seit 20.11.2026: Statt des PDF der Hundehalteverordnung kommt eine Webseite.
 
-Unklar, nur beobachten. Durchgang vom 18.11.2026: `bl_wald` (baselland.ch, Antwort 403), `zh_wetzikon_hundewesen`, `zh_wetzikon_pvo` und `zh_wetzikon_tarif` (wetzikon.ch, Zeitüberschreitung). Durchgang vom 19.11.2026: `bl_wald` (403, zum zweiten Mal), `tg_vet_rassen` (Zeitüberschreitung, zum ersten Mal). Die drei Quellen von Wetzikon waren in Ordnung.
+Unklar, nur beobachten. Durchgang vom 18.11.2026: `bl_wald` (baselland.ch, Antwort 403), `zh_wetzikon_hundewesen`, `zh_wetzikon_pvo` und `zh_wetzikon_tarif` (wetzikon.ch, Zeitüberschreitung). Durchgang vom 19.11.2026: `bl_wald` (403, zum zweiten Mal), `tg_vet_rassen` (Zeitüberschreitung, zum ersten Mal). Die drei Quellen von Wetzikon waren in Ordnung. Durchgang vom 20.11.2026: `bl_wald` (403, zum dritten Mal hintereinander, steht im Bericht vom 20.11.2026). `tg_vet_rassen` war in Ordnung.
 
 ### Lücken
 
@@ -295,6 +296,9 @@ Unklar, nur beobachten. Durchgang vom 18.11.2026: `bl_wald` (baselland.ch, Antwo
 - [ ] Ville de Fribourg: heutigen Betrag der Gemeindesteuer bestätigen (Reglement von 1993: CHF 120). Anmeldestelle der Stadt und allfällige Freilaufzonen suchen.
 - [ ] Kanton Waadt: geltende Fassung von LPolC (BLV 133.75) und RLPolC auf der Gesetzessammlung des Kantons gegenprüfen (gelesen: Stand 2014). Wortlaut von Art. 2a RLFaune abrufen. Regeln für Besuch und Zuzug mit bewilligungspflichtigen Hunden suchen.
 - [ ] Ville de Lausanne: Règlement général de police (Leine, Verbotsorte, Kot, Bussen) und Namen der Freilaufzonen suchen.
+- [ ] Kanton Neuenburg, Karte Annonce: Der Satz «Les frais d'identification et d'enregistrement sont à votre charge» steht nicht auf der Seite «S'occuper d'animaux» des SCAV (gelesen am 20.11.2026 als Zusammenfassung des Abrufwerkzeugs). Mit der LChiens belegen, sonst weglassen. Die LChiens gab das Abrufwerkzeug am 20.11.2026 nicht frei. Die Seite nennt zudem die Kosten des Kurses (vom Anbieter frei festgelegt, Schätzung CHF 300 bis 400): nach wörtlicher Lektüre ergänzen.
+- [ ] Kanton Appenzell Innerrhoden: Der Anhang 1 der VOB (Stand 31. März 2025) nennt neu CHF 150 für einen Verstoss gegen die Leinenpflicht für Hunde nach Art. 5 Abs. 1 der Wildruheverordnung (WRV, GS 922.012). Die WRV lesen und die Leinenpflicht in Wildruhegebieten samt Busse bei `wald` oder `leine` ergänzen.
+- [ ] Liestal: Ordnungsbussen aus dem Anhang des Polizeireglements wörtlich lesen (laut Zusammenfassung des Abrufwerkzeugs CHF 100 für Leine, Zutrittsverbot und Kot, nicht übernommen). Das Formular nennt ein «Reglement über die Hundeanmeldung (ESL 324.1)» und «Hofhund (gebührenfrei)»: klären. Vom Stadtrat signalisierte Leinenorte und Zutrittsverbote sowie Hundewiesen suchen.
 - [ ] Kanton Neuenburg: Wortlaut der LChiens (Art. 4, 5, 7, 8, 14, 17) und der LFS am PDF gegenprüfen. Kursreglement des Staatsrats und eigene Seite des SCAV zu Hunden suchen.
 - [ ] Ville de Neuchâtel: Betrag der Hundetaxe, Namen der Freilaufzonen, geltende Fassung des Polizeireglements und Liste der Strände im Faltblatt gegenprüfen.
 - [ ] Winterthur: Allgemeine Polizeiverordnung und Nutzungsordnungen der Parks (Leine, Verbote, Bussen) nachtragen. Datum des Merkblatts Hundewesen klären.

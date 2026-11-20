@@ -21,8 +21,8 @@
   },
   "ai_vob": {
     "kurz": "Ordnungsbussen AI",
-    "lang": "Kanton Appenzell Innerrhoden: Verordnung über die Ordnungsbussen (VOB, GS 311.010) vom 20. Juni 2022 mit Anhang 1, Stand 1. August 2023",
-    "url": "https://ai.clex.ch/frontend/structured_documents/4200/download_pdf_file_and_annex?locale=de"
+    "lang": "Kanton Appenzell Innerrhoden: Verordnung über die Ordnungsbussen (VOB, GS 311.010) vom 20. Juni 2022, Anhang 1: Ordnungsbussen, Stand 31. März 2025",
+    "url": "https://ai.clex.ch/api/annex_document_dictionaries/2903"
   },
   "ai_kurs": {
     "kurz": "Kanton AI: Hundehalterausbildung",

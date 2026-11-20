@@ -2,6 +2,21 @@
 
 Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen.
 
+## 2026-11-20, Tageslauf: tote Links, Liestal
+
+- Link-Prüfung um 08:24 Uhr: 268 Quellen, 261 in Ordnung, 4 tot, 2 Verdacht, 1 unklar. Tot: `ai_vob`, `be_oce_fr`, `zg_steinhausen_steuer`, `zh_winterthur_merkblatt`. Verdacht: `ne_scav` und neu `ur_silenen_hhv` (statt des PDF kommt eine Webseite). Unklar: `bl_wald` (403, zum dritten Mal hintereinander, steht im Bericht). Ausgelöst über `gh api` (REST), weil `gh workflow run` in dieser Umgebung nicht geht.
+- Ersetzt, Quelle `zg_steinhausen_steuer`: alt Merkblatt Hundesteuer 2025 (404 im echten Abruf). Neu das Reglement über das Halten von Hunden und die Erhebung der Hundesteuer der Gemeinde Steinhausen (Nr. 52.1), § 11. Geändert in `data/kantone/zg.json`, Karte Hundesteuer: alt «für Hunde ab drei Monaten (Merkblatt 2025)», neu «für Hunde über drei Monate (Reglement über das Halten von Hunden, § 11. Stand: Merkblatt der Gemeinde vom April 2025)». Der Betrag von CHF 70 ist unverändert. Das Abrufwerkzeug lieferte das Merkblatt vom 4. April 2025 noch aus, es nennt denselben Paragrafen und Betrag. Französische und italienische Übersetzung nachgeführt. `geprueft` bleibt, weil nur diese Quelle abgeglichen wurde.
+- Ersetzt, Quelle `ai_vob`: alt VOB mit Anhang im Stand 1. August 2023 (404). Neu Anhang 1 «Ordnungsbussen» im Stand 31. März 2025. Verglichen: Verstoss gegen Leinenzwang oder Betretungsverbot CHF 50, Verstoss gegen die Pflicht zur Beseitigung von Verunreinigungen CHF 100. Keine Angabe geändert.
+- Aufgefallen bei Appenzell Innerrhoden: Der Anhang nennt neu CHF 150 für einen Verstoss gegen die Leinenpflicht für Hunde nach der Wildruheverordnung (WRV, GS 922.012). Nicht übernommen, weil die WRV nicht gelesen ist. Steht im Backlog.
+- Ersetzt, Quelle `ne_scav`: alt PDF `ReglementCoursChiensRCC.pdf` (führt auf eine Webseite). Neu diese Webseite selbst, «S'occuper d'animaux» des SCAV. Verglichen: Kurspflicht für neue Halterinnen und Halter ab 18 Jahren mit Wohnsitz im Kanton seit 1. Januar 2021, 2 Stunden Theorie und 8 Lektionen zu 45 Minuten, Beginn innert 6 Monaten und Abschluss in den 6 Monaten danach, Meldung an Gemeinde und AMICUS. Gelesen als Zusammenfassung des Abrufwerkzeugs, nicht Wort für Wort. Keine Angabe geändert.
+- Aufgefallen bei Neuenburg: Der Satz zu den Kosten von Kennzeichnung und Registrierung (Karte Annonce) steht nicht auf der Seite des SCAV. Er kann aus der LChiens stammen, die das Abrufwerkzeug heute nicht freigab. Nichts geändert, steht im Backlog.
+- **Nicht ersetzt:** `zh_winterthur_merkblatt`. Die Suche fand nur die alte Adresse. Das Abrufwerkzeug liefert das Merkblatt dort noch aus, die Angaben der Seite stimmen damit überein. Erster Lauf ohne Ersatz. Nicht bearbeitet: `be_oce_fr` und `ur_silenen_hhv` (Obergrenze vier pro Lauf).
+- Neu: Stadt Liestal (`/bl/liestal/`) mit Hundegebühr CHF 100, Einschreibegebühr CHF 50, Anmeldung innert 14 Tagen, Leinenorten, Zutrittsverboten, Hundekot und Bussenrahmen aus dem Polizeireglement vom 17. März 2021 und der Gebührenverordnung von 2022. Dazu die französische und die italienische Übersetzung. Insgesamt 4 Übersetzungen angelegt oder nachgeführt.
+- Weggelassen bei Liestal: die Ordnungsbussen aus dem Anhang des Polizeireglements (nur als Zusammenfassung gelesen).
+- Zurückgestellt: Pratteln (BL), Binningen (BL) und Stadt Solothurn, je unter drei sicher belegten lokalen Angaben. Gründe im Backlog.
+- Nicht gelungen: Das Abrufwerkzeug gab im Lauf nach den ersten Abrufen keine weiteren Adressen mehr frei (Freigabe-Anfrage, die niemand beantwortet). Darum blieb es bei einer neuen Gemeinde, und keine Lücke aus Abschnitt 4 wurde bearbeitet.
+- Stand: 26 Kantone, 49 Gemeinden.
+
 ## 2026-11-19, Tageslauf: tote Links, Wettingen, Baden, Muttenz
 
 - Link-Prüfung um 08:24 Uhr: 264 Quellen, 255 in Ordnung, 6 tot, 1 Verdacht, 2 unklar. Tot und Verdacht wie am 18. November. Unklar: `bl_wald` (403, zum zweiten Mal), `tg_vet_rassen` (Zeitüberschreitung, zum ersten Mal). Ausgelöst über die GitHub-Werkzeuge des Laufs, weil `gh workflow run` in dieser Umgebung nicht geht (GraphQL gesperrt).
