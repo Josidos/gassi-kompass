@@ -2,6 +2,13 @@
 
 Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen.
 
+## 2026-11-20, Sitzung mit Joss: Stand, Handbuch nachgeführt
+
+- Stand auf Anfrage von Joss: 26 Kantone, 49 Gemeinden, 272 Quellen, alle Seiten in drei Sprachen. Die Tagesläufe vom 19. und 20. November sind gelaufen und veröffentlicht.
+- Handbuch, «Link-Prüfung»: Der Lauf löst die Action jetzt über `gh api` (REST) aus. `gh workflow run` ging in beiden Tagesläufen nicht.
+- Handbuch, «Hinweise zur Recherche»: WebFetch ruft ohne Rückfrage nur Adressen ab, die im Lauf schon als Suchtreffer oder Link erschienen sind. Anlass: Der Lauf vom 20. November blieb an Freigabe-Anfragen hängen und schaffte eine statt vier Gemeinden.
+- Link-Prüfung um 11:30 Uhr von Hand: 272 Quellen, 269 in Ordnung, 2 tot, 0 Verdacht, 1 unklar. Tot bleiben `be_oce_fr` und `zh_winterthur_merkblatt`, unklar `bl_wald` (403, zum vierten Mal). Der Verdacht bei `ur_silenen_hhv` vom Morgen hat sich nicht wiederholt. Joss ist gebeten, `bl_wald` und das Merkblatt Winterthur im Browser anzuklicken.
+
 ## 2026-11-20, Tageslauf: tote Links, Liestal
 
 - Link-Prüfung um 08:24 Uhr: 268 Quellen, 261 in Ordnung, 4 tot, 2 Verdacht, 1 unklar. Tot: `ai_vob`, `be_oce_fr`, `zg_steinhausen_steuer`, `zh_winterthur_merkblatt`. Verdacht: `ne_scav` und neu `ur_silenen_hhv` (statt des PDF kommt eine Webseite). Unklar: `bl_wald` (403, zum dritten Mal hintereinander, steht im Bericht). Ausgelöst über `gh api` (REST), weil `gh workflow run` in dieser Umgebung nicht geht.

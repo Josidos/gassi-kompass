@@ -1,5 +1,5 @@
 # Prüft alle Quellen-Links mit einem echten Abruf. Start von Hand:
-#   gh workflow run quellen.yml -R Josidos/gassi-kompass
+#   gh api -X POST repos/Josidos/gassi-kompass/actions/workflows/quellen.yml/dispatches -f ref=main
 # Ergebnis: gh run view <Nummer> -R Josidos/gassi-kompass --log
 # Die Action wird nie rot. Was «tot» und «unklar» heisst, steht in tools/links.py.
 name: Quellen-Links prüfen
