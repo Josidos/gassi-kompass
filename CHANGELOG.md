@@ -19,7 +19,7 @@ Auftrag von Joss in der Sitzung: die fehlenden neun Gemeinden anlegen, in allen 
   - Gossau (`/sg/gossau/`): Hundetaxe CHF 100, Hundekontrollstelle, Leinenpflicht beim Andreaspark, Robidog.
 - Zurückgestellt, je unter drei sicher belegten lokalen Angaben oder ohne geltende Fassung: Langenthal, Rapperswil-Jona, Wil, Uzwil, Baar, Cham, Glarus Nord, St. Moritz, Kloten. Gründe im Backlog.
 - **Meilenstein: 26 Kantone und 60 Gemeinden.** Der Lauf arbeitet ab jetzt nur noch mittwochs und samstags.
-- Die neuen Adressen sind noch nicht mit einem echten Abruf geprüft, das macht die Link-Prüfung des nächsten Laufs.
+- Link-Prüfung nach der Veröffentlichung (13:40 Uhr): 304 Quellen, 302 in Ordnung, 1 tot (`be_oce_fr`), 0 Verdacht, 1 unklar (`bl_wald`, im Browser in Ordnung). Alle neuen Adressen von heute antworten, auch die neue Quelle von Winterthur.
 
 ## 2026-11-21, Sitzung mit Joss: Rückmeldungen der Veterinärdienste Tessin und Solothurn
 
