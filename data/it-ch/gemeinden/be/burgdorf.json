@@ -1,0 +1,37 @@
+{
+  "id": "burgdorf",
+  "kanton": "be",
+  "bfs": 404,
+  "uebersetzt_aus": "de",
+  "original": "1fb068f63cbc",
+  "name": "Burgdorf",
+  "ort": "Burgdorf",
+  "in_ort": "a Burgdorf",
+  "karten": [
+    {
+      "titel": "Imposta sui cani",
+      "wert": "CHF 100 per cane e per anno",
+      "text": "L'imposta sui cani ammonta a CHF 100 ed è dovuta per tutti i cani dal sesto mese. La città invia la fattura ogni anno in agosto. Per l'anno 2025 ha fissato l'imposta a CHF 100 per cane.",
+      "quellen": [
+        "be_burgdorf_anmeldung",
+        "be_burgdorf_taxe_2025"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "wert": "all'Einwohnerdirektion",
+      "text": "Annunci l'arrivo e la partenza di ogni cane all'Einwohnerdirektion (direzione abitanti) della città. Il modulo si trova allo sportello online. Annunci al Comune anche un nuovo acquisto, un cambio di proprietario e la morte. Per il primo cane chiedi tramite il Comune un identificativo personale per AMICUS, la registrazione del cane è fatta dalla veterinaria o dal veterinario.",
+      "quellen": [
+        "be_burgdorf_anmeldung"
+      ]
+    },
+    {
+      "titel": "Accesso vietato",
+      "wert": "cimitero",
+      "text": "I cani non possono essere portati al cimitero. Fanno eccezione i cani guida per ciechi (Verordnung über das Bestattungswesen, art. 1 cpv. 6).",
+      "quellen": [
+        "be_burgdorf_bestv"
+      ]
+    }
+  ]
+}

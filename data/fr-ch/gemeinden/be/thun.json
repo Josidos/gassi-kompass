@@ -1,0 +1,47 @@
+{
+  "id": "thun",
+  "kanton": "be",
+  "bfs": 942,
+  "uebersetzt_aus": "de",
+  "original": "f28340bf6ae8",
+  "name": "Thun",
+  "ort": "Thun",
+  "in_ort": "à Thun",
+  "karten": [
+    {
+      "titel": "Impôt sur les chiens",
+      "wert": "CHF 100 par chien et par an",
+      "text": "Pour les chiens de plus de six mois, la ville perçoit un impôt sur les chiens de CHF 100 par an. Doit le payer qui habite à Thun le 1er août. Aucun impôt n'est perçu notamment pour les chiens de thérapie, de police, militaires, d'avalanche et de catastrophe, si la tâche spéciale est prouvée et si le chien est en service.",
+      "quellen": [
+        "be_thun_opr",
+        "be_thun_hundehaltung"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "wert": "sans délai auprès de la ville",
+      "text": "Vous annoncez sans délai à la ville de Thun l'arrivée ou le départ de votre chien.",
+      "quellen": [
+        "be_thun_hundehaltung"
+      ]
+    },
+    {
+      "titel": "Laisse",
+      "wert": "rive du lac de la Schadau à Bonstetten, cimetières",
+      "text": "Sur de larges parties de la rive du lac, du Schadaupark au Bonstettenpark, la laisse est obligatoire. Depuis le 1er avril 2026, elle l'est aussi sur le chemin de rive entre le Lachenareal et le Seewinkel. Font exception la kleine Seeallmend et la partie arrière du Bonstettenpark. Ni les personnes ni les animaux ne peuvent entrer dans la roselière. Dans les cimetières, vous tenez votre chien en laisse courte.",
+      "quellen": [
+        "be_thun_hundehaltung",
+        "be_thun_seeufer",
+        "be_thun_friedhof"
+      ]
+    },
+    {
+      "titel": "Accès interdit",
+      "wert": "Strandbad Thun: toute l'année",
+      "text": "Au Strandbad Thun (plage), les chiens sont interdits toute l'année.",
+      "quellen": [
+        "be_thun_hundehaltung"
+      ]
+    }
+  ]
+}

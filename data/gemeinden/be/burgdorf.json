@@ -1,0 +1,36 @@
+{
+  "id": "burgdorf",
+  "kanton": "be",
+  "bfs": 404,
+  "name": "Burgdorf",
+  "ort": "Burgdorf",
+  "in_ort": "in Burgdorf",
+  "geprueft": "2026-11-21",
+  "karten": [
+    {
+      "titel": "Hundetaxe",
+      "wert": "CHF 100 pro Hund und Jahr",
+      "text": "Die Hundetaxe beträgt CHF 100 und ist für alle Hunde ab dem sechsten Monat geschuldet. Die Stadt verschickt die Rechnung jedes Jahr im August. Für das Jahr 2025 hat sie die Taxe auf CHF 100 pro Hund festgesetzt.",
+      "quellen": [
+        "be_burgdorf_anmeldung",
+        "be_burgdorf_taxe_2025"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "wert": "bei der Einwohnerdirektion",
+      "text": "Jeden Hund meldest du bei der Einwohnerdirektion der Stadt an und ab. Das Formular findest du im Onlineschalter. Auch Neuanschaffung, Besitzerwechsel und Tod meldest du der Gemeinde. Beim ersten Hund verlangst du über die Gemeinde eine Personen-ID für AMICUS, die Registrierung des Hundes macht die Tierärztin oder der Tierarzt.",
+      "quellen": [
+        "be_burgdorf_anmeldung"
+      ]
+    },
+    {
+      "titel": "Kein Zutritt",
+      "wert": "Friedhof",
+      "text": "Hunde dürfen nicht auf den Friedhof mitgenommen werden. Ausgenommen sind Blindenführhunde (Verordnung über das Bestattungswesen, Art. 1 Abs. 6).",
+      "quellen": [
+        "be_burgdorf_bestv"
+      ]
+    }
+  ]
+}

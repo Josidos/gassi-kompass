@@ -1,0 +1,53 @@
+{
+  "id": "steffisburg",
+  "kanton": "be",
+  "bfs": 939,
+  "uebersetzt_aus": "de",
+  "original": "87125a9e9c80",
+  "name": "Steffisburg",
+  "ort": "Steffisburg",
+  "in_ort": "à Steffisburg",
+  "karten": [
+    {
+      "titel": "Impôt sur les chiens",
+      "wert": "CHF 100 par an",
+      "text": "L'impôt sur les chiens s'élève à CHF 100 par an. Il vaut pour les chiens de plus de six mois. Doit le payer qui habite à Steffisburg le 1er août. La commune le perçoit en août pour l'année en cours. Pour les chiens exonérés, par exemple les chiens de service, de sauvetage et de thérapie reconnus, elle demande un émolument de contrôle de CHF 20 par an.",
+      "quellen": [
+        "be_steffisburg_hundetaxe",
+        "be_steffisburg_polizeireglement"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "wert": "dès 6 mois auprès de l'Abteilung Sicherheit",
+      "text": "Vous annoncez un nouveau chien dès l'âge de 6 mois auprès de l'Abteilung Sicherheit (service de la sécurité). Vous annoncez les changements de nom et d'adresse, le changement de détenteur et la mort du chien à l'Abteilung Sicherheit et à la banque de données AMICUS.",
+      "quellen": [
+        "be_steffisburg_anmeldung"
+      ]
+    },
+    {
+      "titel": "Laisse",
+      "wert": "cimetières et lieux signalés",
+      "text": "Dans les cimetières, la laisse est obligatoire. Là où un accès interdit ou une laisse obligatoire pour les chiens est signalé, vous tenez votre chien à l'écart ou vous le mettez en laisse. Dans l'espace public, vous devez le maîtriser efficacement à tout moment.",
+      "quellen": [
+        "be_steffisburg_polizeireglement"
+      ]
+    },
+    {
+      "titel": "Crottes de chien",
+      "wert": "toujours ramasser",
+      "text": "Qui promène un chien ramasse ses crottes dans tous les cas.",
+      "quellen": [
+        "be_steffisburg_polizeireglement"
+      ]
+    },
+    {
+      "titel": "Amendes",
+      "wert": "jusqu'à CHF 5000",
+      "text": "Les infractions au Polizeireglement (règlement de police) peuvent être punies d'une amende jusqu'à CHF 5000. Dans les cas légers, un avertissement est possible.",
+      "quellen": [
+        "be_steffisburg_polizeireglement"
+      ]
+    }
+  ]
+}

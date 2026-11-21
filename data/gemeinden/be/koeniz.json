@@ -1,0 +1,44 @@
+{
+  "id": "koeniz",
+  "kanton": "be",
+  "bfs": 355,
+  "name": "Köniz",
+  "ort": "Köniz",
+  "in_ort": "in Köniz",
+  "geprueft": "2026-11-21",
+  "karten": [
+    {
+      "titel": "Leine",
+      "wert": "Lokale, Parkanlagen, verkehrsreiche Orte",
+      "text": "In öffentlich zugänglichen Lokalen wie Gastwirtschaften und Verkaufsläden, in Parkanlagen und an verkehrsreichen Orten führst du deinen Hund an der Leine. Läufige, bissige und kranke Hunde sind im Freien immer anzuleinen. Frei laufen darf dein Hund nur, wenn du ihn jederzeit unter Kontrolle hast. Auf der Liegewiese Eichholz in Wabern darfst du Hunde nicht frei laufen lassen. Stand des Ortspolizeireglements: 25. Juni 2012.",
+      "quellen": [
+        "be_koeniz_opr",
+        "be_koeniz_eichholz"
+      ]
+    },
+    {
+      "titel": "Hundekot",
+      "wert": "nicht auf Trottoirs, Wegen, Plätzen und in Anlagen",
+      "text": "Du sorgst dafür, dass dein Hund seine Notdurft nicht auf Trottoirs, Wegen und Plätzen, in öffentlichen Anlagen wie Schul- und Parkanlagen oder Kinderspielplätzen und auf Kulturland verrichtet.",
+      "quellen": [
+        "be_koeniz_opr"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "wert": "bei der Gemeinde und in AMICUS",
+      "text": "Anschaffung, Besitzerwechsel und Tod eines Hundes meldest du der Gemeinde und der Hundedatenbank AMICUS. Hundemarken gibt die Gemeinde Köniz nicht mehr ab.",
+      "quellen": [
+        "be_koeniz_haustiere"
+      ]
+    },
+    {
+      "titel": "Bussen",
+      "wert": "bis CHF 300",
+      "text": "Verstösse gegen das Ortspolizeireglement bestraft das Polizeiinspektorat mit Busse bis CHF 300. In leichten Fällen kann es eine schriftliche Verwarnung geben.",
+      "quellen": [
+        "be_koeniz_opr"
+      ]
+    }
+  ]
+}

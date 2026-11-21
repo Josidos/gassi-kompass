@@ -1,0 +1,43 @@
+{
+  "id": "gossau",
+  "kanton": "sg",
+  "bfs": 3443,
+  "name": "Gossau",
+  "ort": "Gossau",
+  "in_ort": "in Gossau",
+  "geprueft": "2026-11-21",
+  "karten": [
+    {
+      "titel": "Hundetaxe",
+      "wert": "CHF 100 pro Hund und Jahr",
+      "text": "Die jährliche Hundetaxe beträgt in Gossau CHF 100 pro Hund.",
+      "quellen": [
+        "sg_gossau_hundekontrolle"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "wert": "Hundekontrollstelle der Stadt",
+      "text": "Wer zum ersten Mal einen Hund hält, meldet sich für die Registrierung bei der Hundekontrollstelle der Wohngemeinde.",
+      "quellen": [
+        "sg_gossau_hundekontrolle"
+      ]
+    },
+    {
+      "titel": "Leine",
+      "wert": "Andreaspark",
+      "text": "Beim Andreaspark gilt in Gossau eine zusätzliche Leinenpflicht.",
+      "quellen": [
+        "sg_gossau_hundekontrolle"
+      ]
+    },
+    {
+      "titel": "Hundekot",
+      "wert": "rund 100 Robidog-Kästen",
+      "text": "In Gossau und Arnegg stehen rund 100 Robidog-Kästen. Die Stadt bittet alle Hundehaltenden, sie zu benützen.",
+      "quellen": [
+        "sg_gossau_robidog"
+      ]
+    }
+  ]
+}

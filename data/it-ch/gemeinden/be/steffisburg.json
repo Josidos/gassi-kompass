@@ -1,0 +1,53 @@
+{
+  "id": "steffisburg",
+  "kanton": "be",
+  "bfs": 939,
+  "uebersetzt_aus": "de",
+  "original": "87125a9e9c80",
+  "name": "Steffisburg",
+  "ort": "Steffisburg",
+  "in_ort": "a Steffisburg",
+  "karten": [
+    {
+      "titel": "Imposta sui cani",
+      "wert": "CHF 100 all'anno",
+      "text": "L'imposta sui cani ammonta a CHF 100 all'anno. Vale per i cani di età superiore a sei mesi. Deve pagarla chi abita a Steffisburg il 1° agosto. Il Comune la riscuote in agosto per l'anno in corso. Per i cani esentati, per esempio i cani di servizio, da salvataggio e da terapia riconosciuti, chiede una tassa di controllo di CHF 20 all'anno.",
+      "quellen": [
+        "be_steffisburg_hundetaxe",
+        "be_steffisburg_polizeireglement"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "wert": "da 6 mesi all'Abteilung Sicherheit",
+      "text": "Annunci un nuovo cane dall'età di 6 mesi all'Abteilung Sicherheit (servizio sicurezza). Annunci i cambi di nome e di indirizzo, il cambio di detentore e la morte del cane all'Abteilung Sicherheit e alla banca dati AMICUS.",
+      "quellen": [
+        "be_steffisburg_anmeldung"
+      ]
+    },
+    {
+      "titel": "Guinzaglio",
+      "wert": "cimiteri e luoghi segnalati",
+      "text": "Nei cimiteri vale l'obbligo di guinzaglio. Dove è segnalato un divieto di accesso o un obbligo di guinzaglio per i cani, tieni lontano il tuo cane o lo metti al guinzaglio. Nello spazio pubblico devi averlo sotto controllo in modo efficace in ogni momento.",
+      "quellen": [
+        "be_steffisburg_polizeireglement"
+      ]
+    },
+    {
+      "titel": "Escrementi",
+      "wert": "raccogliere sempre",
+      "text": "Chi porta a spasso un cane ne raccoglie gli escrementi in ogni caso.",
+      "quellen": [
+        "be_steffisburg_polizeireglement"
+      ]
+    },
+    {
+      "titel": "Multe",
+      "wert": "fino a CHF 5000",
+      "text": "Le infrazioni al Polizeireglement (regolamento di polizia) possono essere punite con una multa fino a CHF 5000. Nei casi lievi è possibile un ammonimento.",
+      "quellen": [
+        "be_steffisburg_polizeireglement"
+      ]
+    }
+  ]
+}

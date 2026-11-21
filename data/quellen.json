@@ -718,5 +718,140 @@
     "kurz": "Friedhofreglement Zuchwil",
     "lang": "Einwohnergemeinde Zuchwil: Reglement über das Friedhof- und Bestattungswesen, Beschluss der Gemeindeversammlung vom 27. Juni 2022, § 23",
     "url": "https://www.zuchwil.ch/de/verwaltung/dokumente/dokumente/Reglement-ueber-das-Friedhof-und-Bestattungswesen.pdf"
+  },
+  "be_thun_opr": {
+    "kurz": "Ortspolizeireglement Thun",
+    "lang": "Stadt Thun: Ortspolizeireglement (OPR, SSG 552.01) vom 15. Dezember 2022, in Kraft seit 1. Mai 2023, Art. 42",
+    "url": "https://www.thun.ch/_docn/5019637/552.01_Ortspolizeireglement.pdf"
+  },
+  "be_thun_hundehaltung": {
+    "kurz": "Stadt Thun: Hundehaltung",
+    "lang": "Stadt Thun: Themenseite Hundehaltung (abgerufen am 21. November 2026)",
+    "url": "https://www.thun.ch/hundehaltung"
+  },
+  "be_thun_seeufer": {
+    "kurz": "Stadt Thun: Mitteilung Seeufer",
+    "lang": "Stadt Thun: Medienmitteilung «Die neue Verordnung für die Seeufernutzung tritt in Kraft» vom 30. März 2026",
+    "url": "https://www.thun.ch/medienmitteilungen/2818087"
+  },
+  "be_thun_friedhof": {
+    "kurz": "Friedhofverordnung Thun",
+    "lang": "Stadt Thun: Bestattungs- und Friedhofverordnung (BFV, SSG 556.01.1) vom 10. März 2011, Art. 4 Abs. 4",
+    "url": "https://www.thun.ch/_docn/4355635/556.01.1_Bestattungs-_u.Friedhofverordnung_i.K.1.10.2021.pdf"
+  },
+  "be_koeniz_opr": {
+    "kurz": "Ortspolizeireglement Köniz",
+    "lang": "Gemeinde Köniz: Ortspolizeireglement (Nr. 553.1) vom 31. Januar 1977, mit Änderungen bis 25. Juni 2012, Art. 59 bis 64",
+    "url": "https://www.koeniz.ch/public/upload/assets/12117/553.1_ortspolizeireglement.pdf?fp=2"
+  },
+  "be_koeniz_haustiere": {
+    "kurz": "Gemeinde Köniz: Haustiere",
+    "lang": "Gemeinde Köniz: Seite Haustiere, Druckfassung (abgerufen am 21. November 2026)",
+    "url": "https://www.koeniz.ch/wohnen/persoenliches/haustiere.page/261/print/pdf"
+  },
+  "be_koeniz_eichholz": {
+    "kurz": "Verordnung Liegewiese Eichholz",
+    "lang": "Gemeinde Köniz: Verordnung über die Benützung der Liegewiese Eichholz, Wabern (Nr. 731.802) vom 22. März 2012, Art. 10 und 11",
+    "url": "https://www.koeniz.ch/public/upload/assets/12189/731.802_verordnung_benutzung_liegewiese_eichholz.pdf?fp=2"
+  },
+  "be_steffisburg_polizeireglement": {
+    "kurz": "Polizeireglement Steffisburg",
+    "lang": "Einwohnergemeinde Steffisburg: Polizeireglement (551.01) vom 29. November 2013, in Kraft seit 1. Januar 2014, Art. 34 bis 37 und 41",
+    "url": "https://www.steffisburg.ch/de/verwaltung/dokumente/dokumente/Polizeireglement.pdf"
+  },
+  "be_steffisburg_hundetaxe": {
+    "kurz": "Gemeinde Steffisburg: Hundetaxe",
+    "lang": "Einwohnergemeinde Steffisburg: Dienstleistung Hundetaxe (abgerufen am 21. November 2026)",
+    "url": "https://www.steffisburg.ch/de/verwaltung/dienstleistungen/detail/detail.php?i=54"
+  },
+  "be_steffisburg_anmeldung": {
+    "kurz": "Gemeinde Steffisburg: Hund anmelden",
+    "lang": "Einwohnergemeinde Steffisburg: Dienstleistung Hund anmelden / abmelden (abgerufen am 21. November 2026)",
+    "url": "https://www.steffisburg.ch/de/verwaltung/dienstleistungen/149_hund-anmelden---abmelden"
+  },
+  "be_ostermundigen_opr": {
+    "kurz": "Ortspolizeireglement Ostermundigen",
+    "lang": "Gemeinde Ostermundigen: Ortspolizeireglement (Nr. 207) vom 22. März 1984, Art. 48, 49 und 52",
+    "url": "https://www.ostermundigen.ch/wAssets/docs/politik-verwaltung/verwaltung/reglemente-und-verordnungen/reglemente/Ortspolizeireglement_207.pdf"
+  },
+  "be_ostermundigen_gebuehren": {
+    "kurz": "Gebührenverordnung Ostermundigen",
+    "lang": "Gemeinde Ostermundigen: Verordnung über die Gebühren (Nr. 224a), Stand 1. Januar 2026, Anhang XI Ziffer 11.8.1",
+    "url": "https://www.ostermundigen.ch/wAssets/docs/politik-verwaltung/verwaltung/reglemente-und-verordnungen/verordnungen/Gebuehrenverordnung_224A.pdf"
+  },
+  "be_ostermundigen_hundehaltung": {
+    "kurz": "Gemeinde Ostermundigen: Hundehaltung",
+    "lang": "Gemeinde Ostermundigen: Dienstleistung Hundehaltung (abgerufen am 21. November 2026)",
+    "url": "https://www.ostermundigen.ch/de/verwaltung/dienstleistungen/96_hundehaltung"
+  },
+  "be_burgdorf_anmeldung": {
+    "kurz": "Stadt Burgdorf: An- und Abmelden von Hunden",
+    "lang": "Stadt Burgdorf: Dienstleistung An- und Abmelden von Hunden (abgerufen am 21. November 2026)",
+    "url": "https://www.burgdorf.ch/de/verwaltung/dienstleistungen/detail/detail.php?i=350"
+  },
+  "be_burgdorf_taxe_2025": {
+    "kurz": "Stadt Burgdorf: Hundetaxe 2025",
+    "lang": "Stadt Burgdorf: Meldung «Hundetaxe 2025» vom 9. Juli 2025",
+    "url": "https://www.burgdorf.ch/de/aktuelles/meldungen/Hundetaxe25.php"
+  },
+  "be_burgdorf_bestv": {
+    "kurz": "Bestattungsverordnung Burgdorf",
+    "lang": "Stadt Burgdorf: Verordnung über das Bestattungswesen (BestV) vom 2. Juni 2009, Ausgabe Januar 2026, Art. 1 Abs. 6",
+    "url": "https://www.burgdorf.ch/de/verwaltung/dokumente/dokumente/Bestattungsverordnung.pdf"
+  },
+  "zh_schlieren_hunde": {
+    "kurz": "Stadt Schlieren: Hunde",
+    "lang": "Stadt Schlieren: Dienstleistung Hunde (abgerufen am 21. November 2026)",
+    "url": "https://www.schlieren.ch/dienstleistungen/123752"
+  },
+  "zh_schlieren_gebv": {
+    "kurz": "Gebührenverordnung Schlieren",
+    "lang": "Stadt Schlieren: Verordnung über die Gemeindegebühren (SKR 9.10) vom 13. November 2017, in Kraft seit 1. Januar 2018, § 39",
+    "url": "https://www.schlieren.ch/_docn/1535584/SKR_9.10_Gebuhrenverordnung.pdf"
+  },
+  "zh_schlieren_friedhof": {
+    "kurz": "Friedhofverordnung Schlieren",
+    "lang": "Stadt Schlieren: Verordnung über das Friedhof- und Bestattungswesen (SKR 12.10) vom 23. Mai 2016, in Kraft seit 1. September 2016, § 29",
+    "url": "https://www.schlieren.ch/_docn/1230737/SKR_12_10_Verordnung_uber_das_Friedhof-_und_Bestattungswesen.pdf"
+  },
+  "sh_neuhausen_einwohnerkontrolle": {
+    "kurz": "Gemeinde Neuhausen: Hundewesen",
+    "lang": "Gemeinde Neuhausen am Rheinfall: Einwohnerkontrolle, Abschnitt Hundewesen (abgerufen am 21. November 2026)",
+    "url": "https://neuhausen.ch/einwohnerkontrolle"
+  },
+  "sh_neuhausen_pv": {
+    "kurz": "Polizeiverordnung Neuhausen",
+    "lang": "Gemeinde Neuhausen am Rheinfall: Polizeiverordnung (311.100) vom 22. Juni 1993, letzte Änderung in Kraft seit 1. April 2006, Art. 19",
+    "url": "https://rechtsbuch.neuhausen.ch/fileupload/311.100.pdf"
+  },
+  "sh_neuhausen_friedhof": {
+    "kurz": "Friedhofverordnung Neuhausen",
+    "lang": "Gemeinde Neuhausen am Rheinfall: Bestattungs- und Friedhofverordnung (810.200) vom 13. Dezember 2007, Art. 13",
+    "url": "https://neuhausen.ch/fileupload/810.200.pdf"
+  },
+  "sh_neuhausen_bussen": {
+    "kurz": "Bussenkatalog Neuhausen",
+    "lang": "Gemeinde Neuhausen am Rheinfall: Bussen- und Entschädigungs-Katalog (311.101) vom 7. Juni 2006, in Kraft seit 1. Juli 2006, Nr. 7",
+    "url": "https://rechtsbuch.neuhausen.ch/fileupload/311.101.pdf"
+  },
+  "gr_domat_ems_steuergesetz": {
+    "kurz": "Steuergesetz Domat/Ems",
+    "lang": "Gemeinde Domat/Ems: Kommunales Steuergesetz (2.1) vom 17. September 2007, mit Änderungen bis 1. Januar 2021, Art. 11 bis 14",
+    "url": "https://domat-ems.tlex.ch/api/de/versions/19/pdf_file"
+  },
+  "gr_domat_ems_melden": {
+    "kurz": "Gemeinde Domat/Ems: Hunde melden",
+    "lang": "Gemeinde Domat/Ems: Online-Schalter «Hunde melden» (abgerufen am 21. November 2026)",
+    "url": "https://www.domat-ems.ch/online-schalter/76078/detail"
+  },
+  "sg_gossau_hundekontrolle": {
+    "kurz": "Stadt Gossau: Hundekontrolle",
+    "lang": "Stadt Gossau: Dienstleistung Hundekontrolle (abgerufen am 21. November 2026)",
+    "url": "https://www.stadtgossau.ch/dienstleistungen/2149"
+  },
+  "sg_gossau_robidog": {
+    "kurz": "Stadt Gossau: Robidog",
+    "lang": "Stadt Gossau: Dienstleistung Robidog (abgerufen am 21. November 2026)",
+    "url": "https://www.stadtgossau.ch/dienstleistungen/16378"
   }
 }

@@ -1,0 +1,47 @@
+{
+  "id": "thun",
+  "kanton": "be",
+  "bfs": 942,
+  "uebersetzt_aus": "de",
+  "original": "f28340bf6ae8",
+  "name": "Thun",
+  "ort": "Thun",
+  "in_ort": "a Thun",
+  "karten": [
+    {
+      "titel": "Imposta sui cani",
+      "wert": "CHF 100 per cane e per anno",
+      "text": "Per i cani di età superiore a sei mesi la città riscuote un'imposta sui cani di CHF 100 all'anno. Deve pagarla chi abita a Thun il 1° agosto. Non è riscossa tra l'altro per i cani da terapia, di polizia, militari, da valanga e da catastrofe, se il compito speciale è dimostrato e il cane è in servizio.",
+      "quellen": [
+        "be_thun_opr",
+        "be_thun_hundehaltung"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "wert": "subito alla città",
+      "text": "Annunci subito alla città di Thun l'arrivo o la partenza del tuo cane.",
+      "quellen": [
+        "be_thun_hundehaltung"
+      ]
+    },
+    {
+      "titel": "Guinzaglio",
+      "wert": "riva del lago dalla Schadau a Bonstetten, cimiteri",
+      "text": "Su ampie parti della riva del lago, dallo Schadaupark al Bonstettenpark, vale l'obbligo di guinzaglio. Dal 1° aprile 2026 vale anche sul sentiero di riva tra il Lachenareal e il Seewinkel. Fanno eccezione la kleine Seeallmend e la parte posteriore del Bonstettenpark. Né le persone né gli animali possono entrare nel canneto. Nei cimiteri tieni il tuo cane al guinzaglio corto.",
+      "quellen": [
+        "be_thun_hundehaltung",
+        "be_thun_seeufer",
+        "be_thun_friedhof"
+      ]
+    },
+    {
+      "titel": "Accesso vietato",
+      "wert": "Strandbad Thun: tutto l'anno",
+      "text": "Allo Strandbad Thun (lido) i cani sono vietati tutto l'anno.",
+      "quellen": [
+        "be_thun_hundehaltung"
+      ]
+    }
+  ]
+}

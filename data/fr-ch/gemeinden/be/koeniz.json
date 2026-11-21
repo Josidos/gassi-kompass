@@ -1,0 +1,45 @@
+{
+  "id": "koeniz",
+  "kanton": "be",
+  "bfs": 355,
+  "uebersetzt_aus": "de",
+  "original": "fb0121ab878b",
+  "name": "Köniz",
+  "ort": "Köniz",
+  "in_ort": "à Köniz",
+  "karten": [
+    {
+      "titel": "Laisse",
+      "wert": "locaux publics, parcs, lieux très fréquentés",
+      "text": "Dans les locaux ouverts au public comme les restaurants et les magasins, dans les parcs et dans les lieux à forte circulation, vous tenez votre chien en laisse. Les chiennes en chaleur, les chiens mordeurs et les chiens malades doivent toujours être tenus en laisse à l'extérieur. Votre chien ne peut courir librement que si vous le maîtrisez à tout moment. Sur la Liegewiese Eichholz (pelouse) à Wabern, vous ne pouvez pas laisser courir les chiens librement. État de l'Ortspolizeireglement (règlement de police locale): 25 juin 2012.",
+      "quellen": [
+        "be_koeniz_opr",
+        "be_koeniz_eichholz"
+      ]
+    },
+    {
+      "titel": "Crottes de chien",
+      "wert": "pas sur les trottoirs, chemins, places et installations",
+      "text": "Vous veillez à ce que votre chien ne fasse pas ses besoins sur les trottoirs, les chemins et les places, dans les installations publiques comme les écoles, les parcs ou les places de jeux, ni sur les terres cultivées.",
+      "quellen": [
+        "be_koeniz_opr"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "wert": "à la commune et dans AMICUS",
+      "text": "Vous annoncez l'acquisition, le changement de propriétaire et la mort d'un chien à la commune et à la banque de données AMICUS. La commune de Köniz ne remet plus de médailles pour chiens.",
+      "quellen": [
+        "be_koeniz_haustiere"
+      ]
+    },
+    {
+      "titel": "Amendes",
+      "wert": "jusqu'à CHF 300",
+      "text": "Le Polizeiinspektorat (inspection de police) punit les infractions à l'Ortspolizeireglement d'une amende jusqu'à CHF 300. Dans les cas légers, un avertissement écrit est possible.",
+      "quellen": [
+        "be_koeniz_opr"
+      ]
+    }
+  ]
+}

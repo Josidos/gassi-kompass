@@ -1,0 +1,37 @@
+{
+  "id": "schlieren",
+  "kanton": "zh",
+  "bfs": 247,
+  "uebersetzt_aus": "de",
+  "original": "05cd3a9311d4",
+  "name": "Schlieren",
+  "ort": "Schlieren",
+  "in_ort": "à Schlieren",
+  "karten": [
+    {
+      "titel": "Impôt sur les chiens",
+      "wert": "CHF 170 par chien et par an",
+      "text": "La ville facture l'impôt sur les chiens chaque année. L'émolument annuel s'élève à CHF 170 par chien. La Gebührenverordnung (ordonnance sur les émoluments) de la ville prévoit un cadre de CHF 70 à CHF 200.",
+      "quellen": [
+        "zh_schlieren_hunde",
+        "zh_schlieren_gebv"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "wert": "d'abord auprès des Einwohnerdienste",
+      "text": "Les personnes qui détiennent un chien pour la première fois s'annoncent au préalable auprès des Einwohnerdienste (services des habitants). Ceux-ci saisissent vos données personnelles dans la banque de données AMICUS. Ensuite, la ou le vétérinaire enregistre le chien. Vous annoncez les changements de nom et d'adresse directement aux Einwohnerdienste.",
+      "quellen": [
+        "zh_schlieren_hunde"
+      ]
+    },
+    {
+      "titel": "Accès interdit",
+      "wert": "cimetière",
+      "text": "Au cimetière, il est interdit d'emmener des chiens (Verordnung über das Friedhof- und Bestattungswesen de 2016, § 29).",
+      "quellen": [
+        "zh_schlieren_friedhof"
+      ]
+    }
+  ]
+}

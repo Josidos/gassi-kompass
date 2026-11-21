@@ -1,0 +1,37 @@
+{
+  "id": "domat-ems",
+  "kanton": "gr",
+  "bfs": 3722,
+  "name": "Domat/Ems",
+  "ort": "Domat/Ems",
+  "in_ort": "in Domat/Ems",
+  "geprueft": "2026-11-21",
+  "karten": [
+    {
+      "titel": "Hundetaxe",
+      "wert": "CHF 90, jeder weitere Hund CHF 210",
+      "text": "Für jeden über drei Monate alten Hund, den du auf Gemeindegebiet hältst, ist eine Steuer zu entrichten. Sie beträgt CHF 90 pro Jahr für den ersten Hund und CHF 210 für jeden weiteren Hund im selben Haushalt. Hältst du den Hund nicht das ganze Jahr in der Gemeinde, schuldest du die Steuer anteilig. Für Hirtenhunde und Hunde in ganzjährig bewohnten abgelegenen Siedlungen gilt die halbe Steuer.",
+      "quellen": [
+        "gr_domat_ems_steuergesetz",
+        "gr_domat_ems_melden"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "wert": "innert 30 Tagen bei der Gemeinde",
+      "text": "Du meldest deinen Hund der Gemeinde innert 30 Tagen (Steuergesetz, Art. 12). Dafür gibt es im Online-Schalter der Gemeinde das Formular «Hunde melden».",
+      "quellen": [
+        "gr_domat_ems_steuergesetz",
+        "gr_domat_ems_melden"
+      ]
+    },
+    {
+      "titel": "Befreiung",
+      "wert": "Polizei-, Rettungs-, Assistenz- und Herdenschutzhunde",
+      "text": "Von der Hundesteuer befreit sind Polizeihunde, Rettungshunde, Blindenführ-, Gehörlosen- und andere Assistenzhunde sowie Herdenschutzhunde.",
+      "quellen": [
+        "gr_domat_ems_steuergesetz"
+      ]
+    }
+  ]
+}

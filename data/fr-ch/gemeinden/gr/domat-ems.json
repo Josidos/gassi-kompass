@@ -1,0 +1,38 @@
+{
+  "id": "domat-ems",
+  "kanton": "gr",
+  "bfs": 3722,
+  "uebersetzt_aus": "de",
+  "original": "359070fae4cc",
+  "name": "Domat/Ems",
+  "ort": "Domat/Ems",
+  "in_ort": "à Domat/Ems",
+  "karten": [
+    {
+      "titel": "Impôt sur les chiens",
+      "wert": "CHF 90, chaque chien supplémentaire CHF 210",
+      "text": "Pour chaque chien de plus de trois mois que vous détenez sur le territoire communal, un impôt est dû. Il s'élève à CHF 90 par an pour le premier chien et à CHF 210 pour chaque chien supplémentaire du même ménage. Si vous ne détenez pas le chien toute l'année dans la commune, vous devez l'impôt au prorata. Pour les chiens de berger et les chiens dans des hameaux isolés habités toute l'année, la moitié de l'impôt s'applique.",
+      "quellen": [
+        "gr_domat_ems_steuergesetz",
+        "gr_domat_ems_melden"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "wert": "dans les 30 jours à la commune",
+      "text": "Vous annoncez votre chien à la commune dans les 30 jours (Steuergesetz, art. 12). Le guichet en ligne de la commune propose pour cela le formulaire «Hunde melden» (annoncer des chiens).",
+      "quellen": [
+        "gr_domat_ems_steuergesetz",
+        "gr_domat_ems_melden"
+      ]
+    },
+    {
+      "titel": "Exonération",
+      "wert": "chiens de police, de sauvetage, d'assistance et de protection des troupeaux",
+      "text": "Sont exonérés de l'impôt sur les chiens les chiens de police, les chiens de sauvetage, les chiens d'aveugle, pour personnes sourdes et les autres chiens d'assistance ainsi que les chiens de protection des troupeaux.",
+      "quellen": [
+        "gr_domat_ems_steuergesetz"
+      ]
+    }
+  ]
+}

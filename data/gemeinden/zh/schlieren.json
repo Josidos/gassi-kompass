@@ -1,0 +1,36 @@
+{
+  "id": "schlieren",
+  "kanton": "zh",
+  "bfs": 247,
+  "name": "Schlieren",
+  "ort": "Schlieren",
+  "in_ort": "in Schlieren",
+  "geprueft": "2026-11-21",
+  "karten": [
+    {
+      "titel": "Hundetaxe",
+      "wert": "CHF 170 pro Hund und Jahr",
+      "text": "Die Stadt stellt die Hundeabgabe jedes Jahr in Rechnung. Die Jahresgebühr beträgt CHF 170 pro Hund. Die Gebührenverordnung der Stadt gibt einen Rahmen von CHF 70 bis CHF 200 vor.",
+      "quellen": [
+        "zh_schlieren_hunde",
+        "zh_schlieren_gebv"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "wert": "zuerst bei den Einwohnerdiensten",
+      "text": "Wer zum ersten Mal einen Hund hält, meldet sich vorgängig bei den Einwohnerdiensten. Diese erfassen deine Personalien in der Hundedatenbank AMICUS. Danach registriert die Tierärztin oder der Tierarzt den Hund. Namens- und Adressänderungen meldest du direkt den Einwohnerdiensten.",
+      "quellen": [
+        "zh_schlieren_hunde"
+      ]
+    },
+    {
+      "titel": "Kein Zutritt",
+      "wert": "Friedhof",
+      "text": "Auf dem Friedhof ist das Mitführen von Hunden verboten (Verordnung über das Friedhof- und Bestattungswesen von 2016, § 29).",
+      "quellen": [
+        "zh_schlieren_friedhof"
+      ]
+    }
+  ]
+}

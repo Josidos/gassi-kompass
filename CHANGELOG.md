@@ -2,6 +2,25 @@
 
 Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen.
 
+## 2026-11-21, Sitzung mit Joss: neun Gemeinden, Ziel von 60 erreicht
+
+Auftrag von Joss in der Sitzung: die fehlenden neun Gemeinden anlegen, in allen Sprachen. Die Obergrenze von vier Gemeinden pro Lauf galt dafür nicht.
+
+- Recherchiert wurden 18 Gemeinden in neun gleichzeitigen Aufträgen, jede Angabe mit Zitat, Adresse und Stand des Dokuments. Die Zitate stammen aus dem Abrufwerkzeug, nicht aus dem Rohtext.
+- Neu, je mit französischer und italienischer Übersetzung (27 Dateien, 27 neue Quellen):
+  - Thun (`/be/thun/`): Hundetaxe CHF 100, Stichtag 1. August, Anmeldung bei der Stadt, Leinenpflicht am Seeufer von der Schadau bis Bonstetten (erweitert seit 1. April 2026), kurze Leine auf den Friedhöfen, Hundeverbot im Strandbad.
+  - Köniz (`/be/koeniz/`): Leinenorte, Hundenotdurft, Meldung bei Gemeinde und AMICUS, Busse bis CHF 300, Liegewiese Eichholz. Ohne Betrag der Hundetaxe (nicht belegt). Weggelassen: Hundemarke nach Art. 59 des Reglements, weil die Gemeinde keine Marken mehr abgibt.
+  - Steffisburg (`/be/steffisburg/`): Hundetaxe CHF 100, Kontrollgebühr CHF 20, Anmeldung ab 6 Monaten bei der Abteilung Sicherheit, Leine auf den Friedhöfen, Kot, Busse bis CHF 5000.
+  - Ostermundigen (`/be/ostermundigen/`): Hundetaxe CHF 100, Anmeldung beim Polizeiinspektorat, Leinenorte, Zutrittsverbote nach dem Ortspolizeireglement von 1984, Kot, Busse bis CHF 1000. Bei den Kinderspielplätzen widersprechen sich Reglement (Verbot) und Seite der Gemeinde (Leine): Die Seite zeigt das Verbot und nennt Spielplätze nicht bei der Leine.
+  - Burgdorf (`/be/burgdorf/`): Hundetaxe CHF 100 ab dem sechsten Monat, Rechnung im August, Anmeldung bei der Einwohnerdirektion, Hundeverbot auf dem Friedhof.
+  - Schlieren (`/zh/schlieren/`): Hundeabgabe CHF 170, Anmeldung über die Einwohnerdienste, Hundeverbot auf dem Friedhof. Weggelassen: Fr. 50 für Hundekot (Verweis auf kantonales Recht, Stand 2013).
+  - Neuhausen am Rheinfall (`/sh/neuhausen-am-rheinfall/`): Hundeabgabe CHF 160 und CHF 200 («ab 1. Januar 2015»), Friedhof nur mit Bewilligung, Kot, Busse CHF 50.
+  - Domat/Ems (`/gr/domat-ems/`): Hundesteuer CHF 90 und CHF 210, Meldung innert 30 Tagen, Befreiungen.
+  - Gossau (`/sg/gossau/`): Hundetaxe CHF 100, Hundekontrollstelle, Leinenpflicht beim Andreaspark, Robidog.
+- Zurückgestellt, je unter drei sicher belegten lokalen Angaben oder ohne geltende Fassung: Langenthal, Rapperswil-Jona, Wil, Uzwil, Baar, Cham, Glarus Nord, St. Moritz, Kloten. Gründe im Backlog.
+- **Meilenstein: 26 Kantone und 60 Gemeinden.** Der Lauf arbeitet ab jetzt nur noch mittwochs und samstags.
+- Die neuen Adressen sind noch nicht mit einem echten Abruf geprüft, das macht die Link-Prüfung des nächsten Laufs.
+
 ## 2026-11-21, Sitzung mit Joss: Rückmeldungen der Veterinärdienste Tessin und Solothurn
 
 - Ufficio del veterinario cantonale Tessin: bestätigt, dass die Angaben korrekt sind. Keine Änderung.

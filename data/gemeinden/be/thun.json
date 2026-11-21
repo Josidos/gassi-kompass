@@ -1,0 +1,46 @@
+{
+  "id": "thun",
+  "kanton": "be",
+  "bfs": 942,
+  "name": "Thun",
+  "ort": "Thun",
+  "in_ort": "in Thun",
+  "geprueft": "2026-11-21",
+  "karten": [
+    {
+      "titel": "Hundetaxe",
+      "wert": "CHF 100 pro Hund und Jahr",
+      "text": "Für Hunde, die älter als sechs Monate sind, erhebt die Stadt eine Hundetaxe von CHF 100 pro Jahr. Taxpflichtig ist, wer am 1. August in Thun wohnt. Keine Taxe gibt es unter anderem für Therapie-, Polizei-, Militär-, Lawinen- und Katastrophenhunde, wenn die Spezialaufgabe nachgewiesen ist und der Hund im Einsatz steht.",
+      "quellen": [
+        "be_thun_opr",
+        "be_thun_hundehaltung"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "wert": "umgehend bei der Stadt",
+      "text": "Du meldest deinen Hund umgehend bei der Stadt Thun an oder ab.",
+      "quellen": [
+        "be_thun_hundehaltung"
+      ]
+    },
+    {
+      "titel": "Leine",
+      "wert": "Seeufer von der Schadau bis Bonstetten, Friedhöfe",
+      "text": "Für weite Teile des Seeuferbereichs vom Schadaupark bis zum Bonstettenpark gilt eine Leinenpflicht. Seit 1. April 2026 gilt sie auch auf dem Uferweg zwischen Lachenareal und Seewinkel. Ausgenommen sind die kleine Seeallmend und der rückwärtige Teil des Bonstettenparks. Den Schilfbereich dürfen Mensch und Tier nicht betreten. Auf den Friedhöfen führst du deinen Hund an der kurzen Leine.",
+      "quellen": [
+        "be_thun_hundehaltung",
+        "be_thun_seeufer",
+        "be_thun_friedhof"
+      ]
+    },
+    {
+      "titel": "Kein Zutritt",
+      "wert": "Strandbad Thun: das ganze Jahr",
+      "text": "Im Strandbad Thun gilt das ganze Jahr ein Hundeverbot.",
+      "quellen": [
+        "be_thun_hundehaltung"
+      ]
+    }
+  ]
+}

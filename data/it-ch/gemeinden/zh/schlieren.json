@@ -1,0 +1,37 @@
+{
+  "id": "schlieren",
+  "kanton": "zh",
+  "bfs": 247,
+  "uebersetzt_aus": "de",
+  "original": "05cd3a9311d4",
+  "name": "Schlieren",
+  "ort": "Schlieren",
+  "in_ort": "a Schlieren",
+  "karten": [
+    {
+      "titel": "Imposta sui cani",
+      "wert": "CHF 170 per cane e per anno",
+      "text": "La città fattura l'imposta sui cani ogni anno. La tassa annuale ammonta a CHF 170 per cane. La Gebührenverordnung (ordinanza sulle tasse) della città prevede un quadro da CHF 70 a CHF 200.",
+      "quellen": [
+        "zh_schlieren_hunde",
+        "zh_schlieren_gebv"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "wert": "prima agli Einwohnerdienste",
+      "text": "Chi detiene un cane per la prima volta si annuncia prima agli Einwohnerdienste (servizi abitanti). Questi registrano i tuoi dati personali nella banca dati AMICUS. Poi la veterinaria o il veterinario registra il cane. Annunci i cambi di nome e di indirizzo direttamente agli Einwohnerdienste.",
+      "quellen": [
+        "zh_schlieren_hunde"
+      ]
+    },
+    {
+      "titel": "Accesso vietato",
+      "wert": "cimitero",
+      "text": "Al cimitero è vietato portare cani (Verordnung über das Friedhof- und Bestattungswesen del 2016, § 29).",
+      "quellen": [
+        "zh_schlieren_friedhof"
+      ]
+    }
+  ]
+}

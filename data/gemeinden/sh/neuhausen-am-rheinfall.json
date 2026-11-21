@@ -1,0 +1,43 @@
+{
+  "id": "neuhausen-am-rheinfall",
+  "kanton": "sh",
+  "bfs": 2937,
+  "name": "Neuhausen am Rheinfall",
+  "ort": "Neuhausen am Rheinfall",
+  "in_ort": "in Neuhausen am Rheinfall",
+  "geprueft": "2026-11-21",
+  "karten": [
+    {
+      "titel": "Hundetaxe",
+      "wert": "CHF 160, jeder weitere Hund CHF 200",
+      "text": "Die Hundeabgabe beträgt CHF 160 pro Jahr für den ersten Hund und CHF 200 pro Jahr für jeden weiteren Hund. Die Gemeinde nennt diese Beträge als «Kosten ab 1. Januar 2015». Die ordentliche Versteuerung findet jeweils im Januar statt.",
+      "quellen": [
+        "sh_neuhausen_einwohnerkontrolle"
+      ]
+    },
+    {
+      "titel": "Kein Zutritt",
+      "wert": "Friedhof: nur mit Bewilligung",
+      "text": "Ohne Bewilligung der Friedhofverwaltung darfst du keinen Hund auf den Friedhof mitnehmen (Bestattungs- und Friedhofverordnung von 2007, Art. 13).",
+      "quellen": [
+        "sh_neuhausen_friedhof"
+      ]
+    },
+    {
+      "titel": "Hundekot",
+      "wert": "auf fremdem Grund beseitigen",
+      "text": "Du musst den Kot deines Hundes auf fremdem Grund beseitigen. Dein Hund darf weder öffentliche noch private Wege, Anlagen und Plätze verunreinigen, und du darfst ihn nicht unbeaufsichtigt laufen lassen (Polizeiverordnung, Art. 19).",
+      "quellen": [
+        "sh_neuhausen_pv"
+      ]
+    },
+    {
+      "titel": "Bussen",
+      "wert": "CHF 50 für Verunreinigung",
+      "text": "Für die Verunreinigung von Wegen, Anlagen, Plätzen, Wiesen und landwirtschaftlichen Kulturen durch Hunde sieht der Bussenkatalog der Gemeinde CHF 50 vor. Stand des Katalogs: 1. Juli 2006.",
+      "quellen": [
+        "sh_neuhausen_bussen"
+      ]
+    }
+  ]
+}

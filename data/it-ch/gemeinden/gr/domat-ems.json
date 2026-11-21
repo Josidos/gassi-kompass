@@ -1,0 +1,38 @@
+{
+  "id": "domat-ems",
+  "kanton": "gr",
+  "bfs": 3722,
+  "uebersetzt_aus": "de",
+  "original": "359070fae4cc",
+  "name": "Domat/Ems",
+  "ort": "Domat/Ems",
+  "in_ort": "a Domat/Ems",
+  "karten": [
+    {
+      "titel": "Imposta sui cani",
+      "wert": "CHF 90, ogni cane in più CHF 210",
+      "text": "Per ogni cane di età superiore a tre mesi che detieni sul territorio comunale è dovuta un'imposta. Ammonta a CHF 90 all'anno per il primo cane e a CHF 210 per ogni cane in più nella stessa economia domestica. Se non detieni il cane tutto l'anno nel Comune, devi l'imposta pro rata. Per i cani da pastore e i cani in insediamenti isolati abitati tutto l'anno vale la metà dell'imposta.",
+      "quellen": [
+        "gr_domat_ems_steuergesetz",
+        "gr_domat_ems_melden"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "wert": "entro 30 giorni al Comune",
+      "text": "Annunci il tuo cane al Comune entro 30 giorni (Steuergesetz, art. 12). Lo sportello online del Comune offre a questo scopo il modulo «Hunde melden» (annunciare cani).",
+      "quellen": [
+        "gr_domat_ems_steuergesetz",
+        "gr_domat_ems_melden"
+      ]
+    },
+    {
+      "titel": "Esenzione",
+      "wert": "cani di polizia, da salvataggio, d'assistenza e da protezione delle greggi",
+      "text": "Sono esentati dall'imposta sui cani i cani di polizia, i cani da salvataggio, i cani guida per ciechi, per persone sorde e gli altri cani d'assistenza nonché i cani da protezione delle greggi.",
+      "quellen": [
+        "gr_domat_ems_steuergesetz"
+      ]
+    }
+  ]
+}

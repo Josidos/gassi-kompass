@@ -1,0 +1,44 @@
+{
+  "id": "gossau",
+  "kanton": "sg",
+  "bfs": 3443,
+  "uebersetzt_aus": "de",
+  "original": "0b52df8c9548",
+  "name": "Gossau",
+  "ort": "Gossau",
+  "in_ort": "a Gossau",
+  "karten": [
+    {
+      "titel": "Imposta sui cani",
+      "wert": "CHF 100 per cane e per anno",
+      "text": "L'imposta annuale sui cani ammonta a Gossau a CHF 100 per cane.",
+      "quellen": [
+        "sg_gossau_hundekontrolle"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "wert": "Hundekontrollstelle della città",
+      "text": "Chi detiene un cane per la prima volta si annuncia per la registrazione alla Hundekontrollstelle (controllo dei cani) del Comune di domicilio.",
+      "quellen": [
+        "sg_gossau_hundekontrolle"
+      ]
+    },
+    {
+      "titel": "Guinzaglio",
+      "wert": "Andreaspark",
+      "text": "All'Andreaspark vale a Gossau un obbligo di guinzaglio supplementare.",
+      "quellen": [
+        "sg_gossau_hundekontrolle"
+      ]
+    },
+    {
+      "titel": "Escrementi",
+      "wert": "circa 100 cassette Robidog",
+      "text": "A Gossau e ad Arnegg ci sono circa 100 cassette Robidog. La città prega tutti i detentori di cani di usarle.",
+      "quellen": [
+        "sg_gossau_robidog"
+      ]
+    }
+  ]
+}

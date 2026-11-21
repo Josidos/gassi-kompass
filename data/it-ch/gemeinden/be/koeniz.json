@@ -1,0 +1,45 @@
+{
+  "id": "koeniz",
+  "kanton": "be",
+  "bfs": 355,
+  "uebersetzt_aus": "de",
+  "original": "fb0121ab878b",
+  "name": "Köniz",
+  "ort": "Köniz",
+  "in_ort": "a Köniz",
+  "karten": [
+    {
+      "titel": "Guinzaglio",
+      "wert": "locali pubblici, parchi, luoghi molto frequentati",
+      "text": "Nei locali aperti al pubblico come ristoranti e negozi, nei parchi e nei luoghi molto trafficati tieni il tuo cane al guinzaglio. Le cagne in calore, i cani mordaci e i cani malati vanno sempre tenuti al guinzaglio all'aperto. Il tuo cane può correre libero solo se lo hai sotto controllo in ogni momento. Sulla Liegewiese Eichholz (prato) a Wabern non puoi lasciare i cani liberi. Stato dell'Ortspolizeireglement (regolamento di polizia locale): 25 giugno 2012.",
+      "quellen": [
+        "be_koeniz_opr",
+        "be_koeniz_eichholz"
+      ]
+    },
+    {
+      "titel": "Escrementi",
+      "wert": "non su marciapiedi, sentieri, piazze e impianti",
+      "text": "Fai in modo che il tuo cane non faccia i suoi bisogni su marciapiedi, sentieri e piazze, negli impianti pubblici come scuole, parchi o parchi giochi, né sui terreni coltivati.",
+      "quellen": [
+        "be_koeniz_opr"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "wert": "al Comune e in AMICUS",
+      "text": "Annunci l'acquisto, il cambio di proprietario e la morte di un cane al Comune e alla banca dati AMICUS. Il Comune di Köniz non consegna più medagliette per cani.",
+      "quellen": [
+        "be_koeniz_haustiere"
+      ]
+    },
+    {
+      "titel": "Multe",
+      "wert": "fino a CHF 300",
+      "text": "Il Polizeiinspektorat (ispettorato di polizia) punisce le infrazioni all'Ortspolizeireglement con una multa fino a CHF 300. Nei casi lievi è possibile un ammonimento scritto.",
+      "quellen": [
+        "be_koeniz_opr"
+      ]
+    }
+  ]
+}

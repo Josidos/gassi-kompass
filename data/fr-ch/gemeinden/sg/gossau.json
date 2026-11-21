@@ -1,0 +1,44 @@
+{
+  "id": "gossau",
+  "kanton": "sg",
+  "bfs": 3443,
+  "uebersetzt_aus": "de",
+  "original": "0b52df8c9548",
+  "name": "Gossau",
+  "ort": "Gossau",
+  "in_ort": "à Gossau",
+  "karten": [
+    {
+      "titel": "Impôt sur les chiens",
+      "wert": "CHF 100 par chien et par an",
+      "text": "L'impôt annuel sur les chiens s'élève à Gossau à CHF 100 par chien.",
+      "quellen": [
+        "sg_gossau_hundekontrolle"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "wert": "Hundekontrollstelle de la ville",
+      "text": "Les personnes qui détiennent un chien pour la première fois s'annoncent pour l'enregistrement auprès de la Hundekontrollstelle (contrôle des chiens) de la commune de domicile.",
+      "quellen": [
+        "sg_gossau_hundekontrolle"
+      ]
+    },
+    {
+      "titel": "Laisse",
+      "wert": "Andreaspark",
+      "text": "À l'Andreaspark, une laisse obligatoire supplémentaire s'applique à Gossau.",
+      "quellen": [
+        "sg_gossau_hundekontrolle"
+      ]
+    },
+    {
+      "titel": "Crottes de chien",
+      "wert": "environ 100 boîtes Robidog",
+      "text": "À Gossau et à Arnegg, il y a environ 100 boîtes Robidog. La ville prie tous les détenteurs de chiens de les utiliser.",
+      "quellen": [
+        "sg_gossau_robidog"
+      ]
+    }
+  ]
+}

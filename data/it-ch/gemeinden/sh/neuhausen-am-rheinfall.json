@@ -1,0 +1,44 @@
+{
+  "id": "neuhausen-am-rheinfall",
+  "kanton": "sh",
+  "bfs": 2937,
+  "uebersetzt_aus": "de",
+  "original": "c8435a2b1e9a",
+  "name": "Neuhausen am Rheinfall",
+  "ort": "Neuhausen am Rheinfall",
+  "in_ort": "a Neuhausen am Rheinfall",
+  "karten": [
+    {
+      "titel": "Imposta sui cani",
+      "wert": "CHF 160, ogni cane in più CHF 200",
+      "text": "L'imposta sui cani ammonta a CHF 160 all'anno per il primo cane e a CHF 200 all'anno per ogni cane in più. Il Comune indica questi importi come «costi dal 1° gennaio 2015». L'imposizione ordinaria avviene ogni anno in gennaio.",
+      "quellen": [
+        "sh_neuhausen_einwohnerkontrolle"
+      ]
+    },
+    {
+      "titel": "Accesso vietato",
+      "wert": "cimitero: solo con autorizzazione",
+      "text": "Senza autorizzazione dell'amministrazione del cimitero non puoi portare cani al cimitero (Bestattungs- und Friedhofverordnung del 2007, art. 13).",
+      "quellen": [
+        "sh_neuhausen_friedhof"
+      ]
+    },
+    {
+      "titel": "Escrementi",
+      "wert": "raccogliere sul fondo altrui",
+      "text": "Devi raccogliere gli escrementi del tuo cane sul fondo altrui. Il tuo cane non deve sporcare sentieri, impianti e piazze né pubblici né privati, e non puoi lasciarlo libero senza sorveglianza (Polizeiverordnung, art. 19).",
+      "quellen": [
+        "sh_neuhausen_pv"
+      ]
+    },
+    {
+      "titel": "Multe",
+      "wert": "CHF 50 per insudiciamento",
+      "text": "Per l'insudiciamento di sentieri, impianti, piazze, prati e colture agricole da parte di cani il catalogo delle multe del Comune prevede CHF 50. Stato del catalogo: 1° luglio 2006.",
+      "quellen": [
+        "sh_neuhausen_bussen"
+      ]
+    }
+  ]
+}

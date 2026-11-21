@@ -1,0 +1,52 @@
+{
+  "id": "steffisburg",
+  "kanton": "be",
+  "bfs": 939,
+  "name": "Steffisburg",
+  "ort": "Steffisburg",
+  "in_ort": "in Steffisburg",
+  "geprueft": "2026-11-21",
+  "karten": [
+    {
+      "titel": "Hundetaxe",
+      "wert": "CHF 100 pro Jahr",
+      "text": "Die Hundetaxe beträgt CHF 100 pro Jahr. Sie gilt für Hunde, die älter als sechs Monate sind. Taxpflichtig ist, wer am 1. August in Steffisburg wohnt. Die Gemeinde erhebt die Taxe im August für das laufende Jahr. Für taxbefreite Hunde, zum Beispiel anerkannte Dienst-, Rettungs- und Therapiehunde, verlangt sie eine Kontrollgebühr von CHF 20 pro Jahr.",
+      "quellen": [
+        "be_steffisburg_hundetaxe",
+        "be_steffisburg_polizeireglement"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "wert": "ab 6 Monaten bei der Abteilung Sicherheit",
+      "text": "Einen neuen Hund meldest du ab dem Alter von 6 Monaten bei der Abteilung Sicherheit an. Namens- und Adressänderungen, Halterwechsel und den Tod des Hundes meldest du der Abteilung Sicherheit und der Hundedatenbank AMICUS.",
+      "quellen": [
+        "be_steffisburg_anmeldung"
+      ]
+    },
+    {
+      "titel": "Leine",
+      "wert": "Friedhöfe und signalisierte Orte",
+      "text": "Auf den Friedhöfen gilt Leinenpflicht. Wo ein Zutrittsverbot oder eine Leinenpflicht für Hunde signalisiert ist, hältst du deinen Hund fern oder nimmst ihn an die Leine. Im öffentlichen Raum musst du ihn jederzeit wirksam unter Kontrolle haben.",
+      "quellen": [
+        "be_steffisburg_polizeireglement"
+      ]
+    },
+    {
+      "titel": "Hundekot",
+      "wert": "immer wegräumen",
+      "text": "Wer einen Hund ausführt, räumt dessen Kot in jedem Fall weg.",
+      "quellen": [
+        "be_steffisburg_polizeireglement"
+      ]
+    },
+    {
+      "titel": "Bussen",
+      "wert": "bis CHF 5000",
+      "text": "Verstösse gegen das Polizeireglement können mit Busse bis CHF 5000 bestraft werden. In leichten Fällen kann es eine Verwarnung geben.",
+      "quellen": [
+        "be_steffisburg_polizeireglement"
+      ]
+    }
+  ]
+}

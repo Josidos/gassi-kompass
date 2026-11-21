@@ -1,0 +1,44 @@
+{
+  "id": "neuhausen-am-rheinfall",
+  "kanton": "sh",
+  "bfs": 2937,
+  "uebersetzt_aus": "de",
+  "original": "c8435a2b1e9a",
+  "name": "Neuhausen am Rheinfall",
+  "ort": "Neuhausen am Rheinfall",
+  "in_ort": "à Neuhausen am Rheinfall",
+  "karten": [
+    {
+      "titel": "Impôt sur les chiens",
+      "wert": "CHF 160, chaque chien supplémentaire CHF 200",
+      "text": "L'impôt sur les chiens s'élève à CHF 160 par an pour le premier chien et à CHF 200 par an pour chaque chien supplémentaire. La commune indique ces montants comme «coûts dès le 1er janvier 2015». L'imposition ordinaire a lieu chaque année en janvier.",
+      "quellen": [
+        "sh_neuhausen_einwohnerkontrolle"
+      ]
+    },
+    {
+      "titel": "Accès interdit",
+      "wert": "cimetière: seulement avec autorisation",
+      "text": "Sans autorisation de l'administration du cimetière, vous ne pouvez pas emmener de chien au cimetière (Bestattungs- und Friedhofverordnung de 2007, art. 13).",
+      "quellen": [
+        "sh_neuhausen_friedhof"
+      ]
+    },
+    {
+      "titel": "Crottes de chien",
+      "wert": "ramasser sur le terrain d'autrui",
+      "text": "Vous devez ramasser les crottes de votre chien sur le terrain d'autrui. Votre chien ne doit salir ni les chemins, installations et places publics ni les privés, et vous ne pouvez pas le laisser courir sans surveillance (Polizeiverordnung, art. 19).",
+      "quellen": [
+        "sh_neuhausen_pv"
+      ]
+    },
+    {
+      "titel": "Amendes",
+      "wert": "CHF 50 pour salissure",
+      "text": "Pour la salissure de chemins, installations, places, prés et cultures agricoles par des chiens, le catalogue des amendes de la commune prévoit CHF 50. État du catalogue: 1er juillet 2006.",
+      "quellen": [
+        "sh_neuhausen_bussen"
+      ]
+    }
+  ]
+}
