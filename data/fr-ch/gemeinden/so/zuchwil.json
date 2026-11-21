@@ -1,0 +1,37 @@
+{
+  "id": "zuchwil",
+  "kanton": "so",
+  "bfs": 2534,
+  "uebersetzt_aus": "de",
+  "original": "c40dc9a4db09",
+  "name": "Zuchwil",
+  "ort": "Zuchwil",
+  "in_ort": "à Zuchwil",
+  "karten": [
+    {
+      "titel": "Impôt sur les chiens",
+      "wert": "CHF 65 par chien et par an",
+      "text": "L'impôt sur les chiens s'élève à Zuchwil à CHF 65 par chien. Si votre chien est enregistré, la commune facture l'impôt sur les chiens chaque année en avril. Si vous payez la facture en retard, elle facture des frais de rappel de CHF 50.",
+      "quellen": [
+        "so_zuchwil_hundesteuer"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "wert": "annoncer l'arrivée et le départ à la commune",
+      "text": "Vous annoncez votre chien à la commune dès qu'il a atteint l'âge requis ou lorsque vous vous installez à Zuchwil. Si vous quittez la commune ou si le chien meurt, vous annoncez son départ. Le contrôle des chiens et l'impôt sur les chiens font partie des tâches des services Einwohnerdienste (services des habitants) et Finanzen (finances).",
+      "quellen": [
+        "so_zuchwil_hundesteuer",
+        "so_zuchwil_abteilung"
+      ]
+    },
+    {
+      "titel": "Laisse",
+      "wert": "cimetière: uniquement en laisse",
+      "text": "Au cimetière, vous tenez les animaux de compagnie en laisse. Qui ne le fait pas commet une contravention au Friedhofreglement (règlement du cimetière, § 23, décision de l'assemblée communale du 27 juin 2022). Le Friedensrichter (juge de paix) en juge.",
+      "quellen": [
+        "so_zuchwil_friedhof"
+      ]
+    }
+  ]
+}

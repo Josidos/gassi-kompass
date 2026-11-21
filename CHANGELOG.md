@@ -2,6 +2,21 @@
 
 Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen.
 
+## 2026-11-21, Tageslauf: Riehen und Zuchwil neu, Winterthur nachgeführt
+
+- Link-Prüfung um 08:24 Uhr: 272 Quellen, 266 in Ordnung, 2 tot, 0 Verdacht, 4 unklar. Tot: `be_oce_fr`, `zh_winterthur_merkblatt`. Unklar: `bl_wald` (403, zum fünften Mal), neu mit Zeitüberschreitung `lu_stadt`, `ow_leine_2022`, `zh_opfikon_hundeabgabe` (je zum ersten Mal).
+- Ersetzt, Quelle `zh_winterthur_merkblatt`: alt Merkblatt Hundewesen (404 im echten Abruf). Neu `zh_winterthur_anmeldung`, die Seite «Hund an- oder abmelden» der Einwohnerkontrolle (zuletzt aktualisiert am 16. September 2026). Geändert in `data/gemeinden/zh/winterthur.json`, Karte Hundetaxe: alt «CHF 160 plus CHF 30 pro Hund und Jahr» (Gemeindeabgabe und Kantonsbeitrag getrennt), neu «CHF 190 pro Hund und Jahr», weil die Seite nur die Summe nennt. Karte Anmeldung: alt «Bei jeder Neuanmeldung und bei jedem Halterwechsel verrechnet die Stadt einmalig eine Meldegebühr von CHF 20», neu «Die erstmalige Meldegebühr beträgt CHF 20 pro Hund». Die Frist von 10 Tagen läuft laut Seite ab Übernahme oder sobald der Hund 3 Monate alt ist. `geprueft` bleibt, weil die Karte Leine (Bruderhaus) nicht abgeglichen wurde. Beide Übersetzungen nachgeführt. Das neue Merkblatt «Hundewesen Gebühren» der Stadt war nicht abrufbar (Serverfehler).
+- **Nicht ersetzt:** `be_oce_fr`, zweiter Lauf ohne Ersatz. Die Gesetzessammlung des Kantons Bern liefert dem Abrufwerkzeug keinen Text, die französische Seite des Veterinäramts nennt die Taxe nicht. Nächste Adressen stehen im Backlog.
+- `ur_silenen_hhv`: Verdacht vom 20.11.2026 nicht wiederholt, im Backlog abgehakt.
+- Nachprüfen: keine Datei ist älter als 60 Tage.
+- Neu: Riehen (`/bs/riehen/`) mit Leinenpflicht im Wald und in den Langen Erlen vom 1. April bis 31. Juli, den Ausnahmen im Landschaftspark Wiese und dem Wegegebot in den Stellimatten (Gemeinderat, 27. Februar 2024) sowie in den Naturschutzgebieten Entenweiher und Eisweiher. Quellen: Medienmitteilung der Gemeinde vom 21. März 2024 (Satz für Satz gelesen) und die Seite «Schutzmassnahmen für Flora und Fauna».
+- Weggelassen bei Riehen: Autal und Weilmatten (nur sinngemäss gelesen), Hundesteuer und Anmeldung (kantonal, die Gemeinde verweist auf das Veterinäramt).
+- Neu: Zuchwil (`/so/zuchwil/`) mit Hundesteuer CHF 65, Rechnung im April, Mahngebühr CHF 50, An- und Abmeldung bei der Gemeinde und Leinenpflicht für Haustiere auf dem Friedhof (Friedhofreglement, § 23, Fassung vom 27. Juni 2022). Die Seite ist knapp: Meldealter, Frist und Rechtsgrundlage der Steuer nennt die Gemeinde nicht, das steht im Backlog.
+- Übersetzungen: 6 Dateien (Riehen, Zuchwil je französisch und italienisch neu, Winterthur zweimal nachgeführt).
+- Zurückgestellt: Grenchen (nur die Anmeldung belegt, drei Seiten der Stadt nicht freigegeben) und Biberist (Steuerbetrag in drei amtlichen Quellen verschieden, Friedhofreglement nur als Vorlage für die Gemeindeversammlung gefunden). Gründe im Backlog.
+- Keine Lücke aus Abschnitt 4 bearbeitet.
+- Stand: 26 Kantone, 51 Gemeinden.
+
 ## 2026-11-20, Sitzung mit Joss: Stand, Handbuch nachgeführt
 
 - Stand auf Anfrage von Joss: 26 Kantone, 49 Gemeinden, 272 Quellen, alle Seiten in drei Sprachen. Die Tagesläufe vom 19. und 20. November sind gelaufen und veröffentlicht.

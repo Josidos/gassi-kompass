@@ -3,7 +3,7 @@
   "kanton": "zh",
   "bfs": 230,
   "uebersetzt_aus": "de",
-  "original": "0feed4cc5db0",
+  "original": "6561cc956ced",
   "name": "Winterthur",
   "ort": "Winterthur",
   "in_ort": "a Winterthur",
@@ -11,19 +11,19 @@
   "karten": [
     {
       "titel": "Imposta sui cani",
-      "wert": "CHF 160 più CHF 30 per cane e per anno",
-      "text": "L'imposta comunale ammonta a CHF 160 per cane e per anno. A questa si aggiunge il contributo cantonale di CHF 30 per cane e per anno.",
+      "wert": "CHF 190 per cane e per anno",
+      "text": "Se hai annunciato un cane, paghi ogni anno CHF 190 di imposta sui cani. La Città ti invia una fattura.",
       "quellen": [
-        "zh_winterthur_merkblatt"
+        "zh_winterthur_anmeldung"
       ]
     },
     {
       "titel": "Notifica",
       "wert": "Einwohnerkontrolle, entro 10 giorni",
-      "text": "Se il tuo cane ha più di 3 mesi, lo annunci entro 10 giorni all'Einwohnerkontrolle (controllo abitanti), Pionierstrasse 7. Puoi farlo anche online. Per ogni nuova notifica e per ogni cambio di detentore la Città fattura una tassa di notifica unica di CHF 20.",
+      "text": "Annunci il tuo cane entro 10 giorni all'Einwohnerkontrolle (controllo abitanti), Pionierstrasse 7. Il termine decorre dalla presa a carico del cane o da quando ha 3 mesi. Puoi farlo anche online. La prima tassa di notifica ammonta a CHF 20 per cane.",
       "quellen": [
         "zh_winterthur_hundewesen",
-        "zh_winterthur_merkblatt"
+        "zh_winterthur_anmeldung"
       ]
     },
     {

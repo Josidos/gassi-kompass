@@ -1,0 +1,40 @@
+{
+  "id": "riehen",
+  "kanton": "bs",
+  "bfs": 2703,
+  "uebersetzt_aus": "de",
+  "original": "b5d48b26e4f7",
+  "name": "Riehen",
+  "ort": "Riehen",
+  "in_ort": "a Riehen",
+  "einleitung": "Riehen si trova accanto al bosco e al Landschaftspark Wiese (parco paesaggistico della Wiese). All'obbligo di guinzaglio del Cantone si aggiungono qui eccezioni nel parco paesaggistico e un obbligo di restare sui sentieri deciso dal Comune agli Stellimatten.",
+  "karten": [
+    {
+      "titel": "Guinzaglio",
+      "wert": "Bosco e Lange Erlen: dal 1° aprile al 31 luglio",
+      "text": "Dal 1° aprile al 31 luglio tieni il tuo cane al guinzaglio nel bosco, al margine del bosco e sui prati adiacenti. Vale in tutto il Cantone e anche ai Lange Erlen. Le zone interessate sono segnalate con cartelli. Stato del comunicato del Comune: 21 marzo 2024.",
+      "quellen": [
+        "bs_riehen_mm_2024",
+        "bs_riehen_schutz"
+      ]
+    },
+    {
+      "titel": "Landschaftspark Wiese",
+      "wert": "di giorno cani liberi sulla riva destra della Wiese",
+      "text": "L'obbligo di guinzaglio da aprile a luglio vale in linea di principio anche nel Landschaftspark Wiese. Fanno eccezione, di giorno, tutta la riva destra della Wiese (nel senso della corrente) e, sull'altra riva, la sponda tra il fiume e il Wiesendammweg. Il Comune non indica orari. Un piano per i cani riassume le regole del parco paesaggistico, è disponibile anche al Gemeindehaus (casa comunale).",
+      "quellen": [
+        "bs_riehen_mm_2024",
+        "bs_riehen_schutz"
+      ]
+    },
+    {
+      "titel": "Obbligo di restare sui sentieri",
+      "wert": "Stellimatten: restare sui sentieri tutto l'anno",
+      "text": "Agli Stellimatten persone e cani non possono lasciare i sentieri, tutto l'anno. Il Gemeinderat (municipio) di Riehen ha deciso questo obbligo il 27 febbraio 2024 (Reglement Wildtierschutz Riehen), vale dal 1° aprile 2024. Anche nelle riserve naturali Entenweiher ed Eisweiher vale tutto l'anno l'obbligo di restare sui sentieri. Vi sono posati dei cartelli.",
+      "quellen": [
+        "bs_riehen_mm_2024",
+        "bs_riehen_schutz"
+      ]
+    }
+  ]
+}

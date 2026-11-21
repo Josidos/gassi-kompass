@@ -1,0 +1,37 @@
+{
+  "id": "zuchwil",
+  "kanton": "so",
+  "bfs": 2534,
+  "uebersetzt_aus": "de",
+  "original": "c40dc9a4db09",
+  "name": "Zuchwil",
+  "ort": "Zuchwil",
+  "in_ort": "a Zuchwil",
+  "karten": [
+    {
+      "titel": "Imposta sui cani",
+      "wert": "CHF 65 per cane e per anno",
+      "text": "L'imposta sui cani ammonta a Zuchwil a CHF 65 per cane. Se il tuo cane è registrato, il Comune fattura l'imposta sui cani ogni anno in aprile. Se paghi la fattura in ritardo, il Comune fattura una tassa di sollecito di CHF 50.",
+      "quellen": [
+        "so_zuchwil_hundesteuer"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "wert": "annunciare arrivo e partenza al Comune",
+      "text": "Annunci il tuo cane al Comune non appena ha raggiunto l'età richiesta o quando ti trasferisci a Zuchwil. Se lasci il Comune o se il cane muore, ne annunci la partenza. Il controllo dei cani e l'imposta sui cani rientrano nei compiti dei servizi Einwohnerdienste (servizi abitanti) e Finanzen (finanze).",
+      "quellen": [
+        "so_zuchwil_hundesteuer",
+        "so_zuchwil_abteilung"
+      ]
+    },
+    {
+      "titel": "Guinzaglio",
+      "wert": "cimitero: solo al guinzaglio",
+      "text": "Al cimitero tieni gli animali domestici al guinzaglio. Chi non lo fa commette una contravvenzione al Friedhofreglement (regolamento del cimitero, § 23, decisione dell'assemblea comunale del 27 giugno 2022). Ne giudica il Friedensrichter (giudice di pace).",
+      "quellen": [
+        "so_zuchwil_friedhof"
+      ]
+    }
+  ]
+}

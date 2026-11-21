@@ -1,0 +1,39 @@
+{
+  "id": "riehen",
+  "kanton": "bs",
+  "bfs": 2703,
+  "name": "Riehen",
+  "ort": "Riehen",
+  "in_ort": "in Riehen",
+  "geprueft": "2026-11-21",
+  "einleitung": "Riehen liegt am Wald und am Landschaftspark Wiese. Zur Leinenpflicht des Kantons kommen hier Ausnahmen im Landschaftspark und ein Wegegebot der Gemeinde in den Stellimatten.",
+  "karten": [
+    {
+      "titel": "Leine",
+      "wert": "Wald und Lange Erlen: 1. April bis 31. Juli",
+      "text": "Vom 1. April bis 31. Juli führst du deinen Hund im Wald, an den Waldrändern und auf den angrenzenden Wiesen an der Leine. Das gilt im ganzen Kanton und auch in den Langen Erlen. Die betroffenen Gebiete sind mit Hinweistafeln gekennzeichnet. Stand der Mitteilung der Gemeinde: 21. März 2024.",
+      "quellen": [
+        "bs_riehen_mm_2024",
+        "bs_riehen_schutz"
+      ]
+    },
+    {
+      "titel": "Landschaftspark Wiese",
+      "wert": "tagsüber Freilauf auf der rechten Wiesenseite",
+      "text": "Die Leinenpflicht von April bis Juli gilt grundsätzlich auch im Landschaftspark Wiese. Ausgenommen sind tagsüber die ganze rechte Wiesenseite (flussabwärts) und auf der anderen Flussseite der Uferbereich zwischen Fluss und Wiesendammweg. Uhrzeiten nennt die Gemeinde nicht. Ein Hundeplan für den Landschaftspark fasst die Regeln zusammen, er liegt auch im Gemeindehaus auf.",
+      "quellen": [
+        "bs_riehen_mm_2024",
+        "bs_riehen_schutz"
+      ]
+    },
+    {
+      "titel": "Wegegebot",
+      "wert": "Stellimatten: das ganze Jahr auf den Wegen bleiben",
+      "text": "In den Stellimatten dürfen Mensch und Hund die Wege das ganze Jahr nicht verlassen. Der Gemeinderat Riehen hat dieses Wegegebot am 27. Februar 2024 beschlossen (Reglement Wildtierschutz Riehen), es gilt seit 1. April 2024. Auch in den Naturschutzgebieten Entenweiher und Eisweiher gilt das ganze Jahr ein Wegegebot. Dort stehen Hinweisschilder.",
+      "quellen": [
+        "bs_riehen_mm_2024",
+        "bs_riehen_schutz"
+      ]
+    }
+  ]
+}

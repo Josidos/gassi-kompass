@@ -688,5 +688,35 @@
     "kurz": "Stadt Liestal: Hunde Anmeldung",
     "lang": "Stadt Liestal: Online-Schalter, Hunde Anmeldung mit Formular (abgerufen am 20. November 2026)",
     "url": "https://www.liestal.ch/de/onlinedienste/online-schalter/?action=showdetail&dienst_id=25943"
+  },
+  "zh_winterthur_anmeldung": {
+    "kurz": "Stadt Winterthur: Hund an- oder abmelden",
+    "lang": "Stadt Winterthur, Einwohnerkontrolle: Hund an- oder abmelden (zuletzt aktualisiert am 16. September 2026, abgerufen am 21. November 2026)",
+    "url": "https://stadt.winterthur.ch/gemeinde/verwaltung/sicherheit-und-umwelt/melde-und-zivilstandswesen/einwohnerkontrolle/an-abmeldung-hund"
+  },
+  "bs_riehen_mm_2024": {
+    "kurz": "Gemeinde Riehen: Mitteilung Leinenpflicht",
+    "lang": "Gemeinde Riehen: Medienmitteilung «Leinenpflicht für Hunde während der Brut- und Setzzeit in Riehener Wäldern» vom 21. März 2024",
+    "url": "https://www.riehen.ch/wAssets/docs/aktuelles/medienmitteilungen/MM-Leinenpflicht-Hunde-Brut-und-Setzzeit.pdf"
+  },
+  "bs_riehen_schutz": {
+    "kurz": "Gemeinde Riehen: Schutzmassnahmen",
+    "lang": "Gemeinde Riehen: Dienstleistung «Schutzmassnahmen für Flora und Fauna» (abgerufen am 21. November 2026)",
+    "url": "https://www.riehen.ch/verwaltung/dienstleistungen/306_schutzmassnahmen-f%C3%BCr-flora-und-fauna"
+  },
+  "so_zuchwil_hundesteuer": {
+    "kurz": "Gemeinde Zuchwil: Hundesteuer",
+    "lang": "Einwohnergemeinde Zuchwil: Dienstleistung Hundesteuer (abgerufen am 21. November 2026)",
+    "url": "https://www.zuchwil.ch/de/verwaltung/dienstleistungen/detail/detail.php?i=57"
+  },
+  "so_zuchwil_abteilung": {
+    "kurz": "Gemeinde Zuchwil: Einwohnerdienste und Finanzen",
+    "lang": "Einwohnergemeinde Zuchwil: Abteilungen Einwohnerdienste und Finanzen, Aufgaben (abgerufen am 21. November 2026)",
+    "url": "https://www.zuchwil.ch/de/verwaltung/abteilungen/9_einwohnerdienste-und-finanzen"
+  },
+  "so_zuchwil_friedhof": {
+    "kurz": "Friedhofreglement Zuchwil",
+    "lang": "Einwohnergemeinde Zuchwil: Reglement über das Friedhof- und Bestattungswesen, Beschluss der Gemeindeversammlung vom 27. Juni 2022, § 23",
+    "url": "https://www.zuchwil.ch/de/verwaltung/dokumente/dokumente/Reglement-ueber-das-Friedhof-und-Bestattungswesen.pdf"
   }
 }

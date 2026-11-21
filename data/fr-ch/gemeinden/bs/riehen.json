@@ -1,0 +1,40 @@
+{
+  "id": "riehen",
+  "kanton": "bs",
+  "bfs": 2703,
+  "uebersetzt_aus": "de",
+  "original": "b5d48b26e4f7",
+  "name": "Riehen",
+  "ort": "Riehen",
+  "in_ort": "à Riehen",
+  "einleitung": "Riehen se trouve au bord de la forêt et du Landschaftspark Wiese (parc paysager de la Wiese). À la laisse obligatoire du canton s'ajoutent ici des exceptions dans le parc paysager et une obligation de rester sur les chemins décidée par la commune aux Stellimatten.",
+  "karten": [
+    {
+      "titel": "Laisse",
+      "wert": "Forêt et Lange Erlen: du 1er avril au 31 juillet",
+      "text": "Du 1er avril au 31 juillet, vous tenez votre chien en laisse en forêt, en lisière et sur les prés attenants. Cela vaut dans tout le canton et aussi aux Lange Erlen. Les zones concernées sont signalées par des panneaux. État du communiqué de la commune: 21 mars 2024.",
+      "quellen": [
+        "bs_riehen_mm_2024",
+        "bs_riehen_schutz"
+      ]
+    },
+    {
+      "titel": "Landschaftspark Wiese",
+      "wert": "en liberté de jour sur la rive droite de la Wiese",
+      "text": "La laisse obligatoire d'avril à juillet s'applique en principe aussi dans le Landschaftspark Wiese. Font exception, de jour, toute la rive droite de la Wiese (dans le sens du courant) et, sur l'autre rive, la berge entre la rivière et le Wiesendammweg. La commune n'indique pas d'heures. Un plan pour les chiens résume les règles du parc paysager, il est aussi à disposition au Gemeindehaus (maison communale).",
+      "quellen": [
+        "bs_riehen_mm_2024",
+        "bs_riehen_schutz"
+      ]
+    },
+    {
+      "titel": "Obligation de rester sur les chemins",
+      "wert": "Stellimatten: rester sur les chemins toute l'année",
+      "text": "Aux Stellimatten, les personnes et les chiens ne doivent pas quitter les chemins, toute l'année. Le Gemeinderat (conseil communal) de Riehen a décidé cette obligation le 27 février 2024 (Reglement Wildtierschutz Riehen), elle s'applique depuis le 1er avril 2024. Dans les réserves naturelles Entenweiher et Eisweiher, il est aussi obligatoire de rester sur les chemins toute l'année. Des panneaux y sont posés.",
+      "quellen": [
+        "bs_riehen_mm_2024",
+        "bs_riehen_schutz"
+      ]
+    }
+  ]
+}

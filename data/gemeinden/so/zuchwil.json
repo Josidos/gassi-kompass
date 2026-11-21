@@ -1,0 +1,36 @@
+{
+  "id": "zuchwil",
+  "kanton": "so",
+  "bfs": 2534,
+  "name": "Zuchwil",
+  "ort": "Zuchwil",
+  "in_ort": "in Zuchwil",
+  "geprueft": "2026-11-21",
+  "karten": [
+    {
+      "titel": "Hundetaxe",
+      "wert": "CHF 65 pro Hund und Jahr",
+      "text": "Die Hundesteuer beträgt in Zuchwil CHF 65 pro Hund. Ist dein Hund registriert, stellt die Gemeinde die Hundesteuer jedes Jahr im April in Rechnung. Zahlst du die Rechnung verspätet, verrechnet sie eine Mahngebühr von CHF 50.",
+      "quellen": [
+        "so_zuchwil_hundesteuer"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "wert": "bei der Gemeinde an- und abmelden",
+      "text": "Du meldest deinen Hund bei der Gemeinde an, sobald er das Alter dafür erreicht hat oder wenn du nach Zuchwil ziehst. Ziehst du weg oder stirbt der Hund, meldest du ihn wieder ab. Hundekontrolle und Hundesteuer gehören zu den Aufgaben der Abteilungen Einwohnerdienste und Finanzen.",
+      "quellen": [
+        "so_zuchwil_hundesteuer",
+        "so_zuchwil_abteilung"
+      ]
+    },
+    {
+      "titel": "Leine",
+      "wert": "Friedhof: nur an der Leine",
+      "text": "Auf dem Friedhof führst du Haustiere an der Leine. Wer das nicht tut, begeht eine Übertretung des Friedhofreglements (§ 23, Beschluss der Gemeindeversammlung vom 27. Juni 2022). Darüber urteilt der Friedensrichter.",
+      "quellen": [
+        "so_zuchwil_friedhof"
+      ]
+    }
+  ]
+}
