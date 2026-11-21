@@ -2,7 +2,7 @@
   "id": "so",
   "kurz": "SO",
   "uebersetzt_aus": "de",
-  "original": "145b0a212605",
+  "original": "e4838adc6b9c",
   "wald": {
     "saison": true,
     "von": "04-01",
@@ -75,7 +75,7 @@
       "marke": "annuel",
       "ton": "note",
       "wert": "CHF 85 à 235",
-      "text": "L'impôt sur les chiens se compose de deux parts. Le canton perçoit CHF 35 par chien, votre commune de CHF 50 à CHF 200 au maximum par chien. Ensemble, cela fait de CHF 85 à CHF 235 par an. La commune facture les deux parts. L'impôt vaut pour une année civile, le jour de référence est le 1er avril. Sont exonérés notamment les chiens de moins de trois mois, les chiens d'assistance, les chiens de service de l'armée, de la police et du Corps des gardes-frontière ainsi que les chiens pour lesquels l'impôt a déjà été payé la même année dans une autre commune ou un autre canton.",
+      "text": "L'impôt sur les chiens se compose de deux parts. Le canton perçoit CHF 35 par chien, votre commune de CHF 50 à CHF 200 au maximum par chien. Ensemble, cela fait de CHF 85 à CHF 235 par an. La commune facture les deux parts. Le jour de référence pour l'impôt est le 1er avril. Sont exonérés notamment les chiens de moins de trois mois, les chiens d'assistance, les chiens de service de l'armée, de la police et du Corps des gardes-frontière ainsi que les chiens pour lesquels l'impôt a déjà été payé la même année dans une autre commune ou un autre canton.",
       "quellen": [
         "so_hundeg"
       ]
@@ -85,7 +85,7 @@
       "marke": "Autorisation",
       "ton": "must",
       "wert": "9 races et leurs croisements",
-      "text": "Pour les chiens de neuf races et leurs croisements, il vous faut une autorisation du Veterinärdienst (service vétérinaire). Cela vaut si vous détenez un tel chien, en faites l'élevage ou le commerce, ou si vous vous en occupez régulièrement plus de 90 jours par an. Vous demandez l'autorisation avant l'acquisition, pour les chiots de votre propre élevage au plus tard 15 semaines après la naissance. Sont exigés notamment la majorité, des connaissances attestées, une réputation irréprochable et un pedigree ou un test de caractère réussi. L'autorisation est soumise à un émolument. En cas de changement de détenteur, il faut une nouvelle autorisation. Les chiens détenus sans autorisation peuvent être séquestrés à vos frais. En cas de doute, la ou le vétérinaire cantonal décide si un chien fait partie de ces races. En dehors de la sphère privée, ces chiens doivent toujours être tenus en laisse.",
+      "text": "Pour les chiens de neuf races et leurs croisements, il vous faut une autorisation du Veterinärdienst (service vétérinaire). Cela vaut si vous détenez un tel chien, en faites l'élevage ou le commerce, ou si vous vous en occupez régulièrement plus de 90 jours par an. Vous demandez l'autorisation avant l'acquisition, pour les chiots de votre propre élevage au plus tard 15 semaines après la naissance. Sont exigés notamment la majorité, des connaissances attestées, une réputation irréprochable et un pedigree ou un test de caractère réussi. L'autorisation est soumise à un émolument. En cas de changement de détenteur, il faut une nouvelle autorisation. Les chiens détenus sans autorisation peuvent être séquestrés à vos frais. En cas de doute, la ou le vétérinaire cantonal décide si un chien fait partie de ces races. En dehors de la sphère privée, vous tenez toujours ces chiens en laisse et seuls, sans autre chien.",
       "mehr": {
         "titel": "Afficher la liste complète",
         "punkte": [

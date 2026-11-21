@@ -77,7 +77,7 @@
       "marke": "jährlich",
       "ton": "note",
       "wert": "CHF 85 bis 235",
-      "text": "Die Hundesteuer besteht aus zwei Teilen. Der Kanton erhebt CHF 35 pro Hund, deine Gemeinde CHF 50 bis höchstens CHF 200 pro Hund. Zusammen sind das CHF 85 bis CHF 235 pro Jahr. Die Gemeinde stellt beide Teile in Rechnung. Die Steuer gilt für ein Kalenderjahr, Stichtag ist der 1. April. Befreit sind unter anderem Hunde unter drei Monaten, Assistenzhunde, Diensthunde von Armee, Polizei und Grenzwachtkorps sowie Hunde, für die im selben Jahr schon in einer anderen Gemeinde oder einem anderen Kanton bezahlt wurde.",
+      "text": "Die Hundesteuer besteht aus zwei Teilen. Der Kanton erhebt CHF 35 pro Hund, deine Gemeinde CHF 50 bis höchstens CHF 200 pro Hund. Zusammen sind das CHF 85 bis CHF 235 pro Jahr. Die Gemeinde stellt beide Teile in Rechnung. Stichtag für die Steuer ist der 1. April. Befreit sind unter anderem Hunde unter drei Monaten, Assistenzhunde, Diensthunde von Armee, Polizei und Grenzwachtkorps sowie Hunde, für die im selben Jahr schon in einer anderen Gemeinde oder einem anderen Kanton bezahlt wurde.",
       "quellen": [
         "so_hundeg"
       ]
@@ -87,7 +87,7 @@
       "marke": "Bewilligung",
       "ton": "must",
       "wert": "9 Rassen und ihre Kreuzungen",
-      "text": "Für Hunde von neun Rassen und ihre Kreuzungen brauchst du eine Bewilligung des Veterinärdienstes. Das gilt, wenn du einen solchen Hund hältst, züchtest oder handelst oder ihn an mehr als 90 Tagen pro Jahr regelmässig betreust. Die Bewilligung holst du vor dem Erwerb ein, bei selbst gezüchteten Welpen spätestens 15 Wochen nach der Geburt. Verlangt werden unter anderem Mündigkeit, nachgewiesene Sachkenntnis, ein einwandfreier Leumund und ein Abstammungsausweis oder eine bestandene Wesensprüfung. Die Bewilligung kostet eine Gebühr. Bei einem Halterwechsel braucht es eine neue Bewilligung. Ohne Bewilligung gehaltene Hunde können auf deine Kosten eingezogen werden. Im Zweifel entscheidet die Kantonstierärztin oder der Kantonstierarzt, ob ein Hund dazugehört. Ausserhalb der Privatsphäre gehören diese Hunde immer an die Leine.",
+      "text": "Für Hunde von neun Rassen und ihre Kreuzungen brauchst du eine Bewilligung des Veterinärdienstes. Das gilt, wenn du einen solchen Hund hältst, züchtest oder handelst oder ihn an mehr als 90 Tagen pro Jahr regelmässig betreust. Die Bewilligung holst du vor dem Erwerb ein, bei selbst gezüchteten Welpen spätestens 15 Wochen nach der Geburt. Verlangt werden unter anderem Mündigkeit, nachgewiesene Sachkenntnis, ein einwandfreier Leumund und ein Abstammungsausweis oder eine bestandene Wesensprüfung. Die Bewilligung kostet eine Gebühr. Bei einem Halterwechsel braucht es eine neue Bewilligung. Ohne Bewilligung gehaltene Hunde können auf deine Kosten eingezogen werden. Im Zweifel entscheidet die Kantonstierärztin oder der Kantonstierarzt, ob ein Hund dazugehört. Ausserhalb der Privatsphäre führst du diese Hunde immer an der Leine und als Einzelhund.",
       "mehr": {
         "titel": "Ganze Liste anzeigen",
         "punkte": [

@@ -2,7 +2,7 @@
   "id": "so",
   "kurz": "SO",
   "uebersetzt_aus": "de",
-  "original": "145b0a212605",
+  "original": "e4838adc6b9c",
   "wald": {
     "saison": true,
     "von": "04-01",
@@ -75,7 +75,7 @@
       "marke": "annuale",
       "ton": "note",
       "wert": "CHF 85 a 235",
-      "text": "L'imposta sui cani è composta da due parti. Il Cantone riscuote CHF 35 per cane, il tuo Comune da CHF 50 a un massimo di CHF 200 per cane. Insieme fanno da CHF 85 a CHF 235 all'anno. Il Comune fattura entrambe le parti. L'imposta vale per un anno civile, il giorno di riferimento è il 1° aprile. Sono esentati tra gli altri i cani di età inferiore a tre mesi, i cani d'assistenza, i cani di servizio di esercito, polizia e Corpo delle guardie di confine nonché i cani per i quali nello stesso anno si è già pagato in un altro Comune o in un altro Cantone.",
+      "text": "L'imposta sui cani è composta da due parti. Il Cantone riscuote CHF 35 per cane, il tuo Comune da CHF 50 a un massimo di CHF 200 per cane. Insieme fanno da CHF 85 a CHF 235 all'anno. Il Comune fattura entrambe le parti. Il giorno di riferimento per l'imposta è il 1° aprile. Sono esentati tra gli altri i cani di età inferiore a tre mesi, i cani d'assistenza, i cani di servizio di esercito, polizia e Corpo delle guardie di confine nonché i cani per i quali nello stesso anno si è già pagato in un altro Comune o in un altro Cantone.",
       "quellen": [
         "so_hundeg"
       ]
@@ -85,7 +85,7 @@
       "marke": "Autorizzazione",
       "ton": "must",
       "wert": "9 razze e i loro incroci",
-      "text": "Per i cani di nove razze e i loro incroci ti serve un'autorizzazione del Veterinärdienst (servizio veterinario). Vale se detieni un cane di questo tipo, lo allevi o lo commerci, oppure se te ne occupi regolarmente per più di 90 giorni all'anno. Chiedi l'autorizzazione prima dell'acquisto, per i cuccioli allevati da te al più tardi 15 settimane dopo la nascita. Sono richiesti tra l'altro la maggiore età, conoscenze specifiche comprovate, una reputazione irreprensibile e un certificato di ascendenza o un esame caratteriale superato. Per l'autorizzazione si paga una tassa. In caso di cambio di detentore serve una nuova autorizzazione. I cani detenuti senza autorizzazione possono essere sequestrati a tue spese. In caso di dubbio la veterinaria cantonale o il veterinario cantonale decide se un cane rientra tra queste razze. Al di fuori della sfera privata questi cani vanno sempre tenuti al guinzaglio.",
+      "text": "Per i cani di nove razze e i loro incroci ti serve un'autorizzazione del Veterinärdienst (servizio veterinario). Vale se detieni un cane di questo tipo, lo allevi o lo commerci, oppure se te ne occupi regolarmente per più di 90 giorni all'anno. Chiedi l'autorizzazione prima dell'acquisto, per i cuccioli allevati da te al più tardi 15 settimane dopo la nascita. Sono richiesti tra l'altro la maggiore età, conoscenze specifiche comprovate, una reputazione irreprensibile e un certificato di ascendenza o un esame caratteriale superato. Per l'autorizzazione si paga una tassa. In caso di cambio di detentore serve una nuova autorizzazione. I cani detenuti senza autorizzazione possono essere sequestrati a tue spese. In caso di dubbio la veterinaria cantonale o il veterinario cantonale decide se un cane rientra tra queste razze. Al di fuori della sfera privata conduci sempre questi cani al guinzaglio e da soli, senza altri cani.",
       "mehr": {
         "titel": "Mostra l'elenco completo",
         "punkte": [

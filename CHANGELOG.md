@@ -2,6 +2,16 @@
 
 Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen.
 
+## 2026-11-21, Sitzung mit Joss: Rückmeldungen der Veterinärdienste Tessin und Solothurn
+
+- Ufficio del veterinario cantonale Tessin: bestätigt, dass die Angaben korrekt sind. Keine Änderung.
+- Veterinärdienst Solothurn: bestätigt die Angaben und schlägt zwei Verbesserungen vor. Beide in `data/kantone/so.json` eingearbeitet, französische und italienische Übersetzung nachgeführt.
+  - Karte Rassen: alt «Ausserhalb der Privatsphäre gehören diese Hunde immer an die Leine.», neu «Ausserhalb der Privatsphäre führst du diese Hunde immer an der Leine und als Einzelhund.» Die Einzelführpflicht stand bisher nur unter Leine.
+  - Karte Hundesteuer: alt «Die Steuer gilt für ein Kalenderjahr, Stichtag ist der 1. April.», neu «Stichtag für die Steuer ist der 1. April.» Das Wort Kalenderjahr war laut Amt verwirrlich.
+  - `geprueft` bleibt, weil die Quellen nicht neu abgeglichen wurden.
+- `bl_wald`: Joss hat die Adresse im Browser geöffnet, sie funktioniert. Das 403 betrifft nur Abrufe von Programmen.
+- Eine Werbeanfrage für ein Werkzeug zur automatisierten Kontaktaufnahme (BizBot) ist nicht beantwortet und nicht weiterverfolgt: keine Massenmails, keine fremden Werkzeuge.
+
 ## 2026-11-21, Tageslauf: Riehen und Zuchwil neu, Winterthur nachgeführt
 
 - Link-Prüfung um 08:24 Uhr: 272 Quellen, 266 in Ordnung, 2 tot, 0 Verdacht, 4 unklar. Tot: `be_oce_fr`, `zh_winterthur_merkblatt`. Unklar: `bl_wald` (403, zum fünften Mal), neu mit Zeitüberschreitung `lu_stadt`, `ow_leine_2022`, `zh_opfikon_hundeabgabe` (je zum ersten Mal).
