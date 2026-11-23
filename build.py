@@ -1305,11 +1305,13 @@ def hinweis_uebersetzung(d, art):
             f'<a href="{ziel}" hreflang="{HTMLLANG[aus]}">{S["ueb_link"][aus]}</a></p>')
 
 
-def tafel(href, name, unter="", aktiv=False, klasse=""):
+def tafel(href, name, unter="", aktiv=False, klasse="", code=""):
+    """code: Kürzel des Kantons, steht im Register als Kennung vor dem Namen."""
     cur = ' aria-current="page"' if aktiv else ""
     art = f"dest {klasse}".strip()
     sub = f'<span class="dest-sub">{e(unter)}</span>' if unter else ""
-    return f'<a class="{art}" href="{href}"{cur}><span class="dest-name">{e(name)}</span>{sub}</a>'
+    kenn = f'<span class="dest-code" aria-hidden="true">{e(code)}</span>' if code else ""
+    return f'<a class="{art}" href="{href}"{cur}>{kenn}<span class="dest-name">{e(name)}</span>{sub}</a>'
 
 
 def gemeinde_tafeln(kid, ohne=None):
@@ -1342,14 +1344,14 @@ def kantonsraster():
     for kid, _ in sorted(KANTONE_ALLE, key=lambda x: ohne_akzent(namen[x[0]])):
         ziel = k_ziel(kid)
         if not ziel:  # Kanton ohne Seite: Regeln des Bundes
-            teile.append(tafel(f"{bund_ziel()[1]}#kt={kid}", namen[kid], kid.upper(), klasse="wait"))
+            teile.append(tafel(f"{bund_ziel()[1]}#kt={kid}", namen[kid], "", klasse="wait", code=kid.upper()))
             continue
-        unter, n = kid.upper(), len(gemeinden_von(kid))
+        unter, n = "", len(gemeinden_von(kid))
         if ziel[0] != LANG:
-            unter += f' · {S["sprache"][ziel[0]]}'
+            unter = S["sprache"][ziel[0]]
         elif n:
-            unter += " · " + S["n_gemeinden"][n > 1].format(n=n)
-        teile.append(tafel(ziel[1], namen[kid], unter, klasse="ok"))
+            unter = S["n_gemeinden"][n > 1].format(n=n)
+        teile.append(tafel(ziel[1], namen[kid], unter, klasse="ok", code=kid.upper()))
     return f'<div class="plates small raster">{"".join(teile)}</div>'
 
 
@@ -1402,7 +1404,7 @@ def ortsindex(orte):
 
 def themenleiste(ohne=None):
     """Tafeln zu den Themenseiten in der Sprache der Seite. ohne: id der Seite, auf der die Leiste steht."""
-    return ('<div class="plates small">'
+    return ('<div class="plates small liste">'
             + "".join(tafel(thema_pfad(t["id"]), S["themen"][t["id"]]["name"], S["thema"]["alle"])
                       for t in THEMEN if t["id"] != ohne)
             + '</div>')
@@ -1501,13 +1503,15 @@ def seite(pfad, titel, beschr, inhalt, krumen, stand, benutzt, Q, index=True, al
 <meta property="og:locale" content="{HTMLLANG[LANG].replace("-", "_")}">
 <link rel="icon" href="/assets/icon.svg" type="image/svg+xml">
 <link rel="preload" href="/assets/fonts/archivo.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/sourceserif4.woff2" as="font" type="font/woff2" crossorigin>
+<meta name="theme-color" content="#1E3B2C">
 <link rel="stylesheet" href="/assets/site.css">
 {ld}
 </head>
 <body>
 <div class="wrap">
-<header class="top"><a class="brand" href="{start}">Gassi-Kompass</a>{stempel}</header>
-{inhalt.replace("<!--KRUMEN-->", crumbs)}
+<header class="top{" mit-pfad" if crumbs else ""}"><a class="brand" href="{start}">Gassi-Kompass</a>{stempel}{crumbs}</header>
+{inhalt.replace("<!--KRUMEN-->", "")}
 <footer class="foot">
 <p>{S["fuss_recht"]}</p>
 <p>{S["fuss_fehler"].format(mail=mail)}</p>
@@ -1592,7 +1596,7 @@ def seite_kanton(k, Q):
     pfad = k_pfad(LANG, k["id"])
     bl, bpfad = bund_ziel()
     tafeln = gemeinde_tafeln(k["id"])
-    orte = (f'<div class="plates">{tafeln}</div>' if tafeln else "")
+    orte = (f'<div class="plates liste">{tafeln}</div>' if tafeln else "")
     f = {"im": k["im"], "des": k["des"], "name": k["name"]}
     inhalt = f"""<section class="hero"><!--KRUMEN-->
 <h1>{e(S["kt_h1"].format(**f))}</h1>
@@ -1623,7 +1627,7 @@ def seite_gemeinde(g, k, Q):
     start = PRAEFIX[LANG] + "/"
     bl, bpfad = bund_ziel()
     andere = gemeinde_tafeln(k["id"], ohne=g["bfs"])
-    orte = f'<div class="plates">{andere}</div>' if andere else ""
+    orte = f'<div class="plates liste">{andere}</div>' if andere else ""
     stand = min(g["geprueft"], k["geprueft"])
     f = {"in_ort": g["in_ort"], "im": k["im"], "des": k["des"]}
     weiter = S["gm_weitere"].format(**f) if andere else S["gm_weiter_h2"]

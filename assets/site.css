@@ -1,286 +1,322 @@
-/* Gassi-Kompass. Layout: eine Lesespalte wie ein Wegweiser-Pfosten. Gelbe Richtungstafeln
-   führen zum Ort, darunter stehen Wald-Status, lokale Regeln, Kantonsregeln und Quellen.
-   Farben und Schriften nur über die Variablen in :root ändern. */
+/* Gassi-Kompass. Welt: ein Feldführer für Hunderegeln. Der Einband (Moosgrün) trägt Kopf, Register-Reiter
+   und Fuss über die ganze Breite. Die Seite ist kühles Papier mit Einträgen ohne Kästen, getrennt durch Linien,
+   mit punktierter Führungslinie zwischen Merkmal und Marke. Lesetext in Source Serif 4, alles Bedienbare und
+   alle Überschriften in Archivo schmal. Farben und Schriften nur über die Variablen in :root ändern. */
 @font-face{font-family:"Archivo";src:url("/assets/fonts/archivo.woff2") format("woff2");font-weight:100 900;font-stretch:62% 125%;font-style:normal;font-display:swap}
-@font-face{font-family:"IBM Plex Mono";src:url("/assets/fonts/plexmono-400.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap}
-@font-face{font-family:"IBM Plex Mono";src:url("/assets/fonts/plexmono-500.woff2") format("woff2");font-weight:500;font-style:normal;font-display:swap}
+@font-face{font-family:"Source Serif 4";src:url("/assets/fonts/sourceserif4.woff2") format("woff2");font-weight:200 900;font-style:normal;font-display:swap;unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
 [hidden]{display:none!important}
 :root{
-  --bg:#F3F5F0;--surface:#FFFFFF;--sunk:#E6EBE2;--line:#D2D9CE;
-  --ink:#141C16;--ink-2:#4B5750;
-  --plate:#F5C518;--plate-ink:#15150A;--plate-off:#E0E5DA;--plate-hover:#EBDC98;
-  --must:#B42318;--must-bg:#FCEAE8;
-  --free:#1F6E3D;--free-bg:#E3F2E8;
-  --note:#2355A0;--note-bg:#E7EEF9;
-  --none:#56625A;--none-bg:#EAEEE7;
-  --focus:#2355A0;
-  --font:"Archivo","Helvetica Neue",Arial,sans-serif;
-  --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
-  --r:10px;
+  --paper:#F5F7F4;--sheet:#FFFFFF;--sunk:#E9EDE8;--rule:#C9D2CA;--rule-soft:#DEE4DE;
+  --ink:#16201A;--ink-2:#47544B;
+  --binding:#1E3B2C;--binding-2:#2C5140;--binding-3:#3B6450;--on-binding:#F1F5EF;--on-binding-2:#BFD0C3;
+  --must:#A3381C;--must-bg:#F6E4DD;
+  --free:#2B6537;--free-bg:#E1EDE1;
+  --note:#2D5476;--note-bg:#E2E9F1;
+  --none:#56625A;--none-bg:#E6EAE5;
+  --code:#B8451F;--on-code:#FFF8F4;
+  --focus:#2D5476;
+  --sans:"Archivo","Helvetica Neue",Arial,sans-serif;
+  --serif:"Source Serif 4",Charter,"Bitstream Charter","Sitka Text",Cambria,Georgia,serif;
+  --r:3px;
 }
 @media (prefers-color-scheme:dark){
   :root:not([data-theme="light"]){
-    --bg:#0E1310;--surface:#161D18;--sunk:#1E2721;--line:#2C372F;
-    --ink:#E5EBE3;--ink-2:#A0AEA4;
-    --plate:#F5C518;--plate-ink:#15150A;--plate-off:#252F28;--plate-hover:#3B3A21;
-    --must:#FF8A7D;--must-bg:#3A1A17;
-    --free:#7CD39A;--free-bg:#142E1D;
-    --note:#94B8F4;--note-bg:#16253E;
-    --none:#A6B2A9;--none-bg:#212A24;
-    --focus:#94B8F4;
+    --paper:#111814;--sheet:#17201A;--sunk:#1D2820;--rule:#304036;--rule-soft:#243129;
+    --ink:#E3EAE2;--ink-2:#A6B4A9;
+    --binding:#0B1A12;--binding-2:#1A3326;--binding-3:#264535;--on-binding:#E3EAE2;--on-binding-2:#9FB3A5;
+    --must:#F2937A;--must-bg:#3A1C14;
+    --free:#8BD19A;--free-bg:#142D1B;
+    --note:#9DBFE6;--note-bg:#172638;
+    --none:#A9B5AC;--none-bg:#212B24;
+    --code:#A8401C;--on-code:#FFF8F4;
+    --focus:#9DBFE6;
     color-scheme:dark;
   }
 }
 :root[data-theme="dark"]{
-  --bg:#0E1310;--surface:#161D18;--sunk:#1E2721;--line:#2C372F;
-  --ink:#E5EBE3;--ink-2:#A0AEA4;
-  --plate:#F5C518;--plate-ink:#15150A;--plate-off:#252F28;--plate-hover:#3B3A21;
-  --must:#FF8A7D;--must-bg:#3A1A17;
-  --free:#7CD39A;--free-bg:#142E1D;
-  --note:#94B8F4;--note-bg:#16253E;
-  --none:#A6B2A9;--none-bg:#212A24;
-  --focus:#94B8F4;
+  --paper:#111814;--sheet:#17201A;--sunk:#1D2820;--rule:#304036;--rule-soft:#243129;
+  --ink:#E3EAE2;--ink-2:#A6B4A9;
+  --binding:#0B1A12;--binding-2:#1A3326;--binding-3:#264535;--on-binding:#E3EAE2;--on-binding-2:#9FB3A5;
+  --must:#F2937A;--must-bg:#3A1C14;
+  --free:#8BD19A;--free-bg:#142D1B;
+  --note:#9DBFE6;--note-bg:#172638;
+  --none:#A9B5AC;--none-bg:#212B24;
+  --code:#A8401C;--on-code:#FFF8F4;
+  --focus:#9DBFE6;
   color-scheme:dark;
 }
+
+/* Grundlagen */
 *{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font);font-size:16px;line-height:1.5;-webkit-font-smoothing:antialiased}
-a{color:inherit}
-.wrap{max-width:980px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:20px 56px;display:grid;gap:44px}
+html{overflow-x:clip;accent-color:var(--note);caret-color:var(--ink);-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{margin:0;overflow-x:clip;background:var(--paper);color:var(--ink);font-family:var(--serif);font-size:17px;line-height:1.55;font-optical-sizing:auto;-webkit-font-smoothing:antialiased}
+::selection{background:var(--binding);color:var(--on-binding)}
+a{color:inherit;text-underline-offset:3px;text-decoration-thickness:1px;text-decoration-color:color-mix(in srgb,currentColor 55%,transparent)}
+a:hover{text-decoration-thickness:2px;text-decoration-color:currentColor}
+a:focus-visible{outline:2px solid var(--focus);outline-offset:2px;border-radius:2px}
+.wrap{max-width:1000px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:48px}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 
-/* Kopf */
-.top{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px 16px}
-.brand{position:relative;isolation:isolate;display:inline-flex;align-items:center;padding:7px 30px 7px 12px;color:var(--plate-ink);font-weight:800;font-stretch:118%;font-size:1rem;letter-spacing:.01em}
-.brand::before{content:"";position:absolute;inset:0;z-index:-1;background:var(--plate);border-radius:3px;clip-path:polygon(0 0,calc(100% - 16px) 0,100% 50%,calc(100% - 16px) 100%,0 100%)}
-.stamp{font-family:var(--mono);font-size:.76rem;color:var(--ink-2)}
-/* Sprachwechsel, nur auf Seiten mit einer Fassung in einer anderen Sprache */
-.top-r{display:flex;flex-wrap:wrap;align-items:center;gap:6px 16px}
-.lang{display:flex;gap:12px;font-size:.85rem;font-weight:650}
-.lang a{text-underline-offset:2px}
-.lang a:focus-visible{outline:2px solid var(--focus);outline-offset:2px;border-radius:2px}
-/* Hinweis auf einer übersetzten Seite */
-.transl{margin:0;padding:8px 12px;border:1px solid var(--plate);background:var(--surface);border-radius:6px;font-size:.9rem;color:var(--ink-2);max-width:66ch}
-.transl a{color:var(--ink);font-weight:650;text-underline-offset:2px;white-space:nowrap}
-.transl strong{color:var(--ink);font-weight:650}
-.more-kt{margin:12px 0 0;color:var(--ink-2);font-size:.92rem;max-width:70ch}
-.more-kt a{color:var(--ink);text-underline-offset:2px}
+/* Alles Bedienbare, alle Überschriften und Kennungen: Archivo */
+h1,h2,h3,.top,.crumbs,.chip,.card-k,.card-v,.src,.stamp,.dest,.search label,.search-status,.facts,.months,.band,.now,.bar-cap,
+th,.index dt,.index li,.topic-name,.foot nav,.lang,.sub,.group h3,.more summary,.today-head,.big,.zone-name,.plates-label,
+.text-link,.list-card h3,.callout strong,.transl,.empty,.filter label{font-family:var(--sans)}
+.stamp,.today-date,.facts,.months,.now span,.card-v,td,.chip,.dest-code,.dest-sub{font-variant-numeric:tabular-nums}
 
-/* Einstieg und Ortswahl */
+/* Einband: Kopf über die ganze Breite, ohne seitliches Überlaufen */
+.top,.foot{position:relative;isolation:isolate}
+.top::before,.foot::before{content:"";position:absolute;z-index:-1;inset:0 calc(50% - 50vw);background:var(--binding)}
+.top{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px 20px;padding:16px 0;color:var(--on-binding)}
+.top.mit-pfad{padding-bottom:0}
+.brand{display:inline-flex;align-items:baseline;gap:10px;color:var(--on-binding);text-decoration:none;font-weight:800;font-stretch:78%;font-size:1.32rem;letter-spacing:.005em;line-height:1}
+.brand::before{content:"";align-self:center;width:16px;height:15px;border-radius:1px;background:linear-gradient(90deg,var(--on-binding) 0 4px,transparent 4px 5px,var(--code) 5px)}
+.brand:focus-visible{outline:2px solid var(--on-binding);outline-offset:4px;border-radius:2px}
+.top-r{display:flex;flex-wrap:wrap;align-items:center;gap:6px 18px}
+.stamp{font-size:.8rem;color:var(--on-binding-2)}
+.lang{display:flex;gap:4px;font-size:.85rem;font-weight:650}
+.lang a{padding:4px 9px;border-radius:2px;border:1px solid var(--binding-3);text-decoration:none;color:var(--on-binding)}
+.lang a:hover{background:var(--binding-2)}
+.lang a:focus-visible{outline:2px solid var(--on-binding);outline-offset:2px}
+
+/* Register-Reiter: der Pfad hängt am Einband, der aktuelle Reiter gehört zur Seite */
+.crumbs{flex:1 0 100%;display:flex;flex-wrap:wrap;align-items:flex-end;gap:4px;margin-top:10px;font-size:.88rem;font-weight:650}
+.crumbs>a,.crumbs>[aria-current]{display:inline-flex;align-items:center;min-height:38px;padding:6px 14px;border-radius:4px 4px 0 0;max-width:100%}
+.crumbs>a{background:var(--binding-2);color:var(--on-binding);text-decoration:none;font-stretch:88%}
+.crumbs>a:hover{background:var(--binding-3)}
+.crumbs>a:focus-visible{outline:2px solid var(--on-binding);outline-offset:-4px}
+.crumbs>[aria-current]{background:var(--paper);color:var(--ink);font-weight:750;font-stretch:88%}
+.crumbs>span[aria-hidden]{display:none}
+
+/* Einstieg */
 .hero{display:grid;gap:18px}
-h1{margin:0;font-size:clamp(2.1rem,1.2rem + 4vw,3.4rem);line-height:1.04;font-weight:800;font-stretch:116%;letter-spacing:-.012em;max-width:15ch;text-wrap:balance}
-.lede{margin:0;color:var(--ink-2);font-size:1.06rem;max-width:58ch}
-.picker{display:grid;gap:12px}
-.plates{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
-.plates-label{font-size:.85rem;color:var(--ink-2);margin-right:2px}
-.dest{appearance:none;border:0;background:none;font:inherit;cursor:pointer;position:relative;isolation:isolate;display:flex;flex-direction:column;align-items:flex-start;gap:1px;padding:10px 36px 10px 14px;color:var(--ink);text-align:left;border-radius:4px}
-.dest::before{content:"";position:absolute;inset:0;z-index:-1;background:var(--plate-off);border-radius:4px;clip-path:polygon(0 0,calc(100% - 18px) 0,100% 50%,calc(100% - 18px) 100%,0 100%);transition:background .15s ease}
-.dest:hover::before{background:var(--plate-hover)}
-.dest[aria-pressed="true"]{color:var(--plate-ink)}
-.dest[aria-pressed="true"]::before{background:var(--plate)}
-.dest:focus-visible{outline:3px solid var(--focus);outline-offset:3px}
-.dest-name{font-weight:780;font-stretch:112%;font-size:1.05rem;line-height:1.2}
-.dest-sub{font-family:var(--mono);font-size:.7rem;opacity:.78}
-.plates.small .dest{padding:7px 30px 7px 12px}
-.plates.small .dest-name{font-size:.92rem}
+h1{margin:0;font-size:clamp(2.35rem,1.35rem + 4.2vw,3.75rem);line-height:1;font-weight:800;font-stretch:76%;letter-spacing:-.005em;max-width:20ch;text-wrap:balance}
+.lede{margin:0;color:var(--ink-2);font-size:1.12rem;line-height:1.5;max-width:60ch}
+.transl{margin:0;padding:10px 14px;border:1px solid var(--rule);border-radius:var(--r);background:var(--sheet);font-size:.9rem;color:var(--ink-2);max-width:68ch}
+.transl a{color:var(--ink);font-weight:650;white-space:nowrap}
+.transl strong{color:var(--must);font-weight:700}
+.more-kt{margin:12px 0 0;color:var(--ink-2);font-size:.95rem;max-width:70ch}
+.more-kt a{color:var(--ink)}
 
-/* Bausteine */
-.eyebrow{font-size:.74rem;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:var(--ink-2)}
-.sec{display:grid;gap:16px}
-.sec-head{display:grid;gap:4px}
-h2{margin:0;font-size:1.45rem;line-height:1.2;font-weight:780;font-stretch:110%;text-wrap:balance}
-.sec-head p{margin:0;color:var(--ink-2);max-width:62ch}
-.chip{display:inline-flex;align-items:center;padding:2px 9px;border-radius:999px;font-size:.73rem;font-weight:700;letter-spacing:.02em;white-space:nowrap}
+/* Abschnitte */
+.sec{display:grid;gap:18px}
+.sec-head{display:grid;gap:6px}
+h2{margin:0;font-size:clamp(1.5rem,1.2rem + 1.1vw,1.9rem);line-height:1.1;font-weight:780;font-stretch:80%;text-wrap:balance}
+.sec-head p{margin:0;color:var(--ink-2);max-width:64ch}
+.sec>p{margin:0}
+.sub{margin:6px 0 0;font-size:1.1rem;font-weight:750;font-stretch:85%}
+.eyebrow{font-family:var(--sans);font-weight:700;color:var(--ink-2)}
+.text-link{font-weight:650;font-size:.95rem}
+
+/* Marken: kleine Stempel */
+.chip{display:inline-flex;align-items:center;padding:2px 8px;border-radius:2px;font-size:.74rem;font-weight:700;letter-spacing:.02em;white-space:nowrap;line-height:1.5}
 .chip.must{background:var(--must-bg);color:var(--must)}
 .chip.free{background:var(--free-bg);color:var(--free)}
 .chip.note{background:var(--note-bg);color:var(--note)}
 .chip.none{background:var(--none-bg);color:var(--none)}
-.src{font-family:var(--mono);font-size:.72rem;color:var(--ink-2);display:flex;flex-wrap:wrap;gap:2px 10px}
-.src a{text-underline-offset:2px}
+.src{font-size:.78rem;color:var(--ink-2);display:flex;flex-wrap:wrap;gap:2px 12px;line-height:1.5}
 .src a:hover{color:var(--ink)}
-.src a:focus-visible,.foot a:focus-visible{outline:2px solid var(--focus);outline-offset:2px;border-radius:2px}
 
-/* Tagesstatus */
-.today{display:grid;gap:20px;padding:20px;border-radius:var(--r);background:var(--surface);border:1px solid var(--line)}
-.today-head{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:4px 16px}
-.today-date{font-family:var(--mono);font-size:.78rem;color:var(--ink-2)}
+/* Tafel «Leine im Wald»: Status gross, Monatsleiste wie die Blühzeit im Pflanzenbuch */
+.today{display:grid;gap:18px;padding:20px 22px 22px;border-radius:var(--r);background:var(--sheet);border:1px solid var(--rule);box-shadow:0 1px 0 var(--rule-soft),0 10px 24px -18px rgb(22 32 26 / .35)}
+.today-head{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px;padding-bottom:12px;border-bottom:1px solid var(--rule-soft)}
+.today-head .eyebrow{text-transform:none;letter-spacing:0;font-size:.98rem;font-weight:700;font-stretch:90%;color:var(--ink)}
+.today-head::after{content:"";order:1;flex:1;min-width:16px;border-bottom:2px dotted var(--rule);transform:translateY(-4px)}
+.today-date{order:2}
+.today-date{font-family:var(--sans);font-size:.8rem;color:var(--ink-2)}
 .today-body{display:grid;gap:22px}
-@media (min-width:780px){.today-body{grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);align-items:end}}
+@media (min-width:780px){.today-body{grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);align-items:start;gap:36px}}
 .today-status{display:grid;gap:10px;min-width:0}
-.big{margin:0;font-size:clamp(1.55rem,1.05rem + 2.3vw,2.25rem);line-height:1.1;font-weight:800;font-stretch:112%;text-wrap:balance}
+.big{margin:0;font-size:clamp(1.75rem,1.15rem + 2.5vw,2.55rem);line-height:1.02;font-weight:800;font-stretch:76%;text-wrap:balance}
 .big.must{color:var(--must)}
 .big.free{color:var(--free)}
 .today-status p{margin:0;max-width:60ch}
-.today-note{padding:10px 12px;border-radius:8px;background:var(--sunk);font-size:.94rem}
+.today-note{padding:10px 12px;border-radius:2px;background:var(--must-bg);font-size:.95rem}
 .bar{display:grid;gap:6px;padding-top:26px;min-width:0}
-.track{position:relative;display:grid;height:36px;border-radius:6px;background:var(--sunk)}
-.track .m{border-left:1px solid var(--line)}
+.track{position:relative;display:grid;height:30px;background:var(--paper);border:1px solid var(--rule);border-radius:2px}
+.track .m{border-left:1px solid var(--rule-soft)}
 .track .m:first-child{border-left:0}
-.band{position:absolute;top:0;bottom:0;background:var(--must-bg);border:2px solid var(--must);border-radius:5px;display:flex;align-items:center;justify-content:center;overflow:hidden}
-.band span{font-size:.7rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--must);white-space:nowrap}
-.now{position:absolute;top:-24px;bottom:-5px;width:0;border-left:2px solid var(--ink)}
-.now span{position:absolute;top:0;left:0;transform:translateX(-50%);font-family:var(--mono);font-size:.7rem;font-weight:500;white-space:nowrap;background:var(--surface);padding:0 4px;line-height:1.4}
+.band{position:absolute;top:-1px;bottom:-1px;background:var(--must);border-radius:1px;display:flex;align-items:center;justify-content:center;overflow:hidden}
+.band span{font-size:.7rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--sheet);white-space:nowrap}
+.now{position:absolute;top:-24px;bottom:-6px;width:0;border-left:2px solid var(--ink)}
+.now span{position:absolute;top:0;left:0;transform:translateX(-50%);font-size:.72rem;font-weight:700;white-space:nowrap;background:var(--sheet);padding:0 4px;line-height:1.4}
 .now.r span{transform:translateX(-100%)}
 .now.l span{transform:none}
-.months{display:grid;font-family:var(--mono);font-size:.66rem;color:var(--ink-2)}
+.months{display:grid;font-size:.68rem;font-weight:600;color:var(--ink-2)}
 .months span{padding-left:3px;overflow:hidden}
 .bar-cap{margin:0;font-size:.8rem;color:var(--ink-2)}
 
-/* Leine und Zutritt */
-.split{display:grid;gap:12px}
-@media (min-width:720px){.split{grid-template-columns:1fr 1fr}}
-.list-card{padding:16px 18px;border-radius:var(--r);background:var(--surface);border:1px solid var(--line);display:grid;gap:12px;align-content:start;min-width:0}
-.list-card h3{margin:0;display:flex;align-items:center;flex-wrap:wrap;gap:8px;font-size:1.02rem;font-weight:750}
-.list-card p{margin:0;color:var(--ink-2);font-size:.94rem}
-.list-card ul{margin:0;padding:0;list-style:none;display:grid;gap:7px}
-.list-card li{position:relative;padding-left:20px}
-.list-card li::before{content:"";position:absolute;left:0;top:.55em;width:9px;height:9px;border-radius:2px;background:var(--ink-2)}
+/* Leine und Zutritt: zwei Spalten mit Linie oben, keine Kästen */
+.split{display:grid;gap:28px}
+@media (min-width:720px){.split{grid-template-columns:1fr 1fr;gap:36px}}
+.list-card{padding-top:14px;border-top:3px solid var(--ink);display:grid;gap:12px;align-content:start;min-width:0}
+.list-card.leash{border-top-color:var(--must)}
+.list-card h3{margin:0;display:flex;align-items:center;flex-wrap:wrap;gap:8px;font-size:1.08rem;font-weight:760;font-stretch:88%}
+.list-card p{margin:0;color:var(--ink-2);font-size:.97rem}
+.list-card ul{margin:0;padding:0;list-style:none;display:grid;gap:0}
+.list-card li{position:relative;padding:7px 0 7px 22px;border-bottom:1px solid var(--rule-soft)}
+.list-card li:last-child{border-bottom:0}
+.list-card li::before{content:"";position:absolute;left:2px;top:calc(7px + .6em);width:8px;height:8px;background:var(--ink-2)}
 .list-card.leash li::before{background:var(--must)}
 
-/* Karten */
-.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,340px),1fr));gap:12px}
-.card{padding:16px 18px;border-radius:var(--r);background:var(--surface);border:1px solid var(--line);display:grid;gap:8px;align-content:start;min-width:0}
-.card-top{display:flex;align-items:center;justify-content:space-between;gap:8px;min-height:22px}
-.card-k{font-size:.74rem;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:var(--ink-2)}
-.card-v{margin:0;font-size:1.22rem;line-height:1.2;font-weight:780;font-stretch:108%}
-.card p{margin:0;font-size:.95rem}
-.more summary{cursor:pointer;font-size:.88rem;font-weight:650;color:var(--note);width:max-content}
+/* Merkmale: Einträge mit Linie oben und punktierter Führungslinie zur Marke */
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,360px),1fr));gap:0 40px}
+.card{padding:14px 0 20px;border-top:1px solid var(--rule);display:grid;gap:6px;align-content:start;min-width:0}
+.card-top{display:flex;align-items:baseline;gap:8px;min-height:24px}
+.card-top::after{content:"";order:1;flex:1;min-width:16px;border-bottom:2px dotted var(--rule);transform:translateY(-4px)}
+.card-top .chip{order:2}
+.card-k{font-size:.98rem;font-weight:700;font-stretch:90%;color:var(--ink-2)}
+.card-k a{color:var(--ink)}
+.card .card-v{margin:0;font-size:1.3rem;line-height:1.15;font-weight:780;font-stretch:82%}
+.card p{margin:0;font-size:.98rem}
+.card .src{margin-top:4px}
+.more summary{cursor:pointer;font-size:.9rem;font-weight:650;color:var(--note);width:max-content;max-width:100%}
 .more summary:focus-visible{outline:2px solid var(--focus);outline-offset:2px;border-radius:2px}
-.more ul{margin:8px 0 0;padding-left:1.1em;columns:2 9rem;column-gap:16px;font-size:.88rem}
+.more ul{margin:8px 0 0;padding-left:1.1em;columns:2 10rem;column-gap:18px;font-size:.92rem}
 
-/* Stadt */
-.zones{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:12px}
-.zone{padding:16px 18px;border-radius:var(--r);background:var(--free-bg);display:grid;gap:8px;align-content:start;min-width:0}
-.zone-name{font-size:1.15rem;font-weight:780;font-stretch:110%}
-.zone .chip{background:var(--surface)}
+/* Gemeinde: Freilaufzonen */
+.zones{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,240px),1fr));gap:12px}
+.zone{padding:14px 16px;border-radius:var(--r);background:var(--free-bg);display:grid;gap:8px;align-content:start;min-width:0}
+.zone-name{font-size:1.12rem;font-weight:780;font-stretch:85%}
+.zone .chip{background:var(--sheet)}
 .tags{display:flex;flex-wrap:wrap;gap:6px}
-.zone p{margin:0;font-size:.94rem}
-.plain-note{margin:0;padding:16px 18px;border-radius:var(--r);background:var(--sunk);max-width:none}
+.zone p{margin:0;font-size:.95rem}
+.plain-note{margin:0;padding:14px 16px;border-radius:var(--r);background:var(--sunk)}
 
-/* Vergleich */
-.table-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:var(--r);background:var(--surface)}
-table{border-collapse:collapse;width:100%;min-width:640px;font-size:.92rem}
-th,td{padding:11px 14px;text-align:left;vertical-align:top;border-bottom:1px solid var(--line)}
+/* Tabellen wie im Bestimmungsbuch: Linien statt Kästen */
+.table-wrap{overflow-x:auto;border-top:2px solid var(--ink);border-bottom:1px solid var(--rule)}
+table{border-collapse:collapse;width:100%;min-width:640px;font-size:.95rem}
+th,td{padding:11px 14px 11px 0;text-align:left;vertical-align:top;border-bottom:1px solid var(--rule-soft)}
 tbody tr:last-child th,tbody tr:last-child td{border-bottom:0}
-thead th{font-size:.74rem;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-2);font-weight:700}
-thead th.sel{color:var(--plate-ink);background:var(--plate)}
+thead th{font-size:.78rem;letter-spacing:.04em;color:var(--ink-2);font-weight:700;border-bottom:1px solid var(--rule)}
+thead th.sel{color:var(--ink)}
 td.sel{background:var(--sunk);font-weight:600}
-tbody th{font-weight:700;width:20%}
-.callout{margin:0;display:grid;gap:6px;padding:14px 16px;border-radius:var(--r);background:var(--note-bg)}
-.callout p{margin:0}
-
-/* Fuss */
-.foot{display:grid;gap:14px;padding-top:22px;border-top:1px solid var(--line);color:var(--ink-2);font-size:.92rem}
-.foot p{margin:0;max-width:70ch}
-.foot strong{color:var(--ink)}
-.foot ol{margin:0;padding-left:1.3em;display:grid;gap:5px;font-size:.84rem}
-.foot ol a{color:var(--ink);text-underline-offset:2px}
-@media (prefers-reduced-motion:reduce){*{transition:none!important}}
-
-/* Mehrseitige Website: Links, Pfad, Ortsliste, Filter, Vergleich */
-.brand,.dest{text-decoration:none}
-.brand:focus-visible{outline:3px solid var(--focus);outline-offset:3px;border-radius:3px}
-.dest[aria-current="page"]{color:var(--plate-ink)}
-.dest[aria-current="page"]::before{background:var(--plate)}
-h1{max-width:20ch}
-.crumbs{display:flex;flex-wrap:wrap;align-items:center;gap:4px 8px;font-size:.85rem;color:var(--ink-2)}
-.crumbs a{text-underline-offset:2px}
-.crumbs [aria-current]{color:var(--ink);font-weight:650}
-.text-link{text-underline-offset:3px;font-weight:650}
-.sec>p{margin:0}
-.sub{margin:0;font-size:1.05rem;font-weight:750}
-.group{display:grid;gap:10px}
-.group h3{margin:0;font-size:.74rem;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:var(--ink-2)}
-.group h3 a{text-decoration:none}
-.group h3 a:hover{color:var(--ink)}
-.filter{display:grid;gap:6px;max-width:420px}
-.filter label{font-size:.85rem;color:var(--ink-2)}
-.filter input{font:inherit;padding:10px 12px;border-radius:8px;border:1px solid var(--line);background:var(--surface);color:var(--ink);width:100%}
-.filter input:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
-.empty{margin:0;color:var(--ink-2)}
+tbody th{font-weight:700;width:22%;font-stretch:90%}
+tbody tr:hover{background:color-mix(in srgb,var(--sunk) 60%,transparent)}
 table.wide{min-width:940px}
 table.wide tbody th{width:15%}
-table.wide tbody th a{text-underline-offset:2px}
+.callout{margin:0;display:grid;gap:6px;padding:14px 16px;border-radius:var(--r);background:var(--note-bg)}
+.callout p{margin:0}
+.callout strong{font-weight:760}
+p.callout{display:block;max-width:68ch}
+
+/* Fuss: Rückseite des Einbands */
+.foot{display:grid;gap:14px;margin-top:12px;padding:34px 0 48px;color:var(--on-binding-2);font-size:.95rem}
+.foot p{margin:0;max-width:72ch}
+.foot strong{color:var(--on-binding)}
+.foot a{color:var(--on-binding)}
+.foot a:focus-visible{outline-color:var(--on-binding)}
+.foot ol{margin:0;padding-left:1.4em;display:grid;gap:5px;font-size:.88rem}
+.foot nav{display:flex;flex-wrap:wrap;gap:8px 22px;padding-top:14px;border-top:1px solid var(--binding-3);font-size:.92rem;font-weight:650}
+.foot nav a{text-decoration:none}
+.foot nav a:hover{text-decoration:underline}
+
+/* Pfad, Filter, Gruppen */
+.group{display:grid;gap:10px}
+.group h3{margin:0;font-size:1rem;font-weight:750;font-stretch:88%}
+.group h3 a{text-decoration:none}
+.filter{display:grid;gap:6px;max-width:420px}
+.filter label{font-size:.88rem;color:var(--ink-2)}
+.filter input{font:inherit;font-family:var(--sans);padding:10px 12px;border-radius:var(--r);border:1px solid var(--rule);background:var(--sheet);color:var(--ink);width:100%}
+.filter input:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+.empty{margin:0;color:var(--ink-2)}
 .prose{display:grid;gap:14px;max-width:66ch}
 .prose p{margin:0}
-.prose h2{margin-top:12px}
-.foot nav{display:flex;flex-wrap:wrap;gap:6px 18px}
-.foot nav a{color:var(--ink);text-underline-offset:2px}
+.prose h2{margin-top:16px}
 
-/* Ortssuche, Kantonsraster, Hinweis zum gewählten Ort */
-.search{display:grid;gap:8px;max-width:600px}
-.search label{font-size:.92rem;font-weight:700}
-.search input{font:inherit;font-size:1.15rem;padding:14px 16px;border-radius:10px;border:2px solid var(--ink);background:var(--surface);color:var(--ink);width:100%}
-.search input::placeholder{color:var(--ink-2);opacity:.8}
+/* Ortssuche */
+.search{display:grid;gap:8px;max-width:620px}
+.search label{font-size:.95rem;font-weight:700}
+.search input{font:inherit;font-family:var(--sans);font-size:1.18rem;padding:14px 16px;border-radius:var(--r);border:2px solid var(--ink);background:var(--sheet);color:var(--ink);width:100%}
+.search input::placeholder{color:var(--ink-2);opacity:.85}
 .search input:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
-.search-status{margin:0;font-size:.85rem;color:var(--ink-2);min-height:1.35em}
-.dest.ok::before{background:var(--free-bg)}
-.dest.ok:hover::before{background:var(--plate-hover)}
-.dest.ok .dest-sub{color:var(--free);opacity:1}
-.dest.wait .dest-name{font-weight:620}
-.dest.wait::before{background:repeating-linear-gradient(135deg,var(--plate-off) 0 7px,var(--sunk) 7px 11px)}
-.dest.wait:hover::before{background:var(--plate-hover)}
-p.callout{display:block;max-width:66ch}
-.plates.raster{display:grid;grid-template-columns:repeat(auto-fill,minmax(158px,1fr));gap:8px 6px;align-items:stretch}
-.plates.raster .dest{justify-content:center;min-width:0}
-.plates.raster .dest-name{overflow-wrap:anywhere}
-.callout strong{font-weight:780}
-.sec-head p a,.prose a{text-underline-offset:2px}
-.foot p a{color:inherit;text-underline-offset:2px}
+.search-status{margin:0;font-size:.88rem;color:var(--ink-2);min-height:1.35em}
+.picker{display:grid;gap:12px}
 
-/* Themenseiten: lange Wörter in der Hauptüberschrift trennen, Kantonsname der Karte als Link */
+/* Tafeln: Treffer der Suche, Gemeinden eines Kantons */
+.plates{display:flex;flex-wrap:wrap;gap:8px;align-items:stretch}
+.plates-label{font-size:.88rem;color:var(--ink-2);margin-right:2px}
+.dest{appearance:none;font:inherit;font-family:var(--sans);cursor:pointer;display:flex;flex-direction:column;align-items:flex-start;justify-content:center;gap:1px;min-height:44px;padding:8px 14px;color:var(--ink);text-align:left;text-decoration:none;background:var(--sheet);border:1px solid var(--rule);border-radius:var(--r);transition:background .15s ease,border-color .15s ease,color .15s ease}
+.dest:hover{border-color:var(--binding);background:var(--sunk)}
+.dest:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+.dest[aria-pressed="true"],.dest[aria-current="page"]{background:var(--binding);border-color:var(--binding);color:var(--on-binding)}
+.dest-name{font-weight:720;font-stretch:88%;font-size:1.02rem;line-height:1.2}
+.dest-sub{font-size:.76rem;color:var(--ink-2)}
+.dest.ok .dest-sub{color:var(--free)}
+.dest.wait{border-style:dashed;background:transparent}
+.dest.wait .dest-name{font-weight:600}
+.plates.small .dest{min-height:40px;padding:6px 12px}
+.plates.small .dest-name{font-size:.96rem}
+
+/* Kantonsregister der Startseite: Kennung im Rost-Quadrat, Name, Zahl der Gemeinden */
+.plates.raster{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,210px),1fr));gap:0 28px;border-top:2px solid var(--ink)}
+.plates.raster .dest{display:grid;grid-template-columns:auto minmax(0,1fr);grid-template-rows:auto auto;column-gap:12px;align-items:center;min-height:56px;padding:9px 0;border:0;border-bottom:1px solid var(--rule-soft);border-radius:0;background:transparent}
+.plates.raster .dest:hover{background:transparent}
+.plates.raster .dest:hover .dest-name{text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:3px}
+.plates.raster .dest-code{grid-row:1/3;display:grid;place-items:center;width:40px;height:34px;border-radius:2px;background:var(--code);color:var(--on-code);font-weight:800;font-stretch:80%;font-size:.95rem;letter-spacing:.02em}
+.plates.raster .dest.wait .dest-code{background:transparent;color:var(--ink-2);border:1px dashed var(--rule)}
+.plates.raster .dest-name{overflow-wrap:anywhere}
+.plates.raster .dest:not(:has(.dest-sub)) .dest-name{grid-row:1/3}
+
+/* Themenseiten */
 .thema h1{overflow-wrap:break-word;hyphens:auto}
-.card-k a{text-underline-offset:2px}
-.card-k a:hover{color:var(--ink)}
 thead th a{text-underline-offset:2px}
 
-/* Startseite: Umfang in Zahlen, Gemeindeverzeichnis, Thementafeln */
-.facts{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:4px 22px;font-family:var(--mono);font-size:.78rem;color:var(--ink-2)}
-.facts strong{color:var(--ink);font-weight:500}
-.index{margin:0;border-top:1px solid var(--line)}
-.index>div{display:grid;grid-template-columns:minmax(0,13rem) minmax(0,1fr);gap:2px 16px;padding:10px 0;border-bottom:1px solid var(--line)}
-.index dt{font-weight:750}
+/* Startseite: Umfang in Zahlen, Gemeindeverzeichnis, Themen */
+.facts{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:4px 24px;font-size:.88rem;color:var(--ink-2)}
+.facts strong{color:var(--ink);font-weight:800;font-size:1.05rem}
+.index{margin:0;border-top:2px solid var(--ink)}
+.index>div{display:grid;grid-template-columns:minmax(0,13rem) minmax(0,1fr);gap:2px 16px;padding:10px 0;border-bottom:1px solid var(--rule-soft)}
+.index dt{font-weight:760;font-stretch:88%}
 .index dt a{text-decoration:none}
-.index dt a:hover{text-decoration:underline;text-underline-offset:3px}
+.index dt a:hover{text-decoration:underline}
 .index dd{margin:0}
-.index ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:4px 18px}
-.index li a{text-underline-offset:3px}
-.index a:focus-visible{outline:2px solid var(--focus);outline-offset:2px;border-radius:2px}
-.index .lg{color:var(--ink-2);font-size:.82rem}
+.index ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:4px 16px}
+.index li{font-size:.97rem}
+.index .lg{color:var(--ink-2);font-size:.8rem}
 @media (max-width:560px){.index>div{grid-template-columns:minmax(0,1fr)}}
-@media (min-width:860px){.index{columns:2;column-gap:36px}.index>div{break-inside:avoid;grid-template-columns:minmax(0,9.5rem) minmax(0,1fr)}}
-.topics{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,280px),1fr));gap:12px}
-.topic{display:grid;gap:6px;align-content:start;padding:16px 18px;border-radius:var(--r);background:var(--surface);border:1px solid var(--line);text-decoration:none;transition:background .15s ease,border-color .15s ease}
-.topic:hover{background:var(--plate-hover);border-color:var(--plate)}
-.topic:focus-visible{outline:3px solid var(--focus);outline-offset:3px}
-.topic-name{display:flex;align-items:baseline;gap:10px;font-weight:780;font-stretch:108%;font-size:1.08rem;line-height:1.2}
-/* kleine gelbe Richtungstafel vor dem Thema, wie das Logo */
-.topic-name::before{content:"";flex:none;width:16px;height:11px;background:var(--plate);border-radius:1px;clip-path:polygon(0 0,calc(100% - 5px) 0,100% 50%,calc(100% - 5px) 100%,0 100%)}
-.topic-text{color:var(--ink-2);font-size:.94rem;padding-left:26px}
-.topic:hover .topic-text{color:var(--ink)}
+@media (min-width:860px){.index{columns:2;column-gap:40px}.index>div{break-inside:avoid;grid-template-columns:minmax(0,9.5rem) minmax(0,1fr)}}
+.topics{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,290px),1fr));gap:0 40px;border-top:2px solid var(--ink)}
+.topic{display:grid;gap:4px;align-content:start;padding:14px 0 16px;border-bottom:1px solid var(--rule-soft);text-decoration:none}
+.topic:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+.topic-name{font-weight:760;font-stretch:84%;font-size:1.15rem;line-height:1.2;text-decoration:underline;text-decoration-color:var(--rule);text-decoration-thickness:1px;text-underline-offset:4px}
+.topic:hover .topic-name{text-decoration-color:var(--ink);text-decoration-thickness:2px}
+.topic-text{color:var(--ink-2);font-size:.97rem}
 
-/* Themenseiten auf dem Telefon: jede Zeile als Block, Kanton und Marke oben, Text darunter */
+/* Themenseiten auf dem Telefon: jede Zeile als Block */
 @media (max-width:640px){
   table.stack{display:block;min-width:0}
   table.stack thead{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
   table.stack tbody{display:block}
-  table.stack tr{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 10px;padding:12px 14px;border-bottom:1px solid var(--line)}
+  table.stack tr{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 10px;padding:12px 0;border-bottom:1px solid var(--rule-soft)}
   table.stack tr:last-child{border-bottom:0}
   table.stack th,table.stack td{display:block;padding:0;border:0;width:auto}
   table.stack .t-text{grid-column:1/-1}
 }
 
-/* Monatskürzel unter dem Jahresbalken: auf dem Telefon enger, damit vier Buchstaben (janv, févr, sept) Platz haben */
-@media (max-width:480px){.months{font-size:.56rem;letter-spacing:-.02em}.months span{padding-left:1px}}
-/* Fehlerseite: je eine Zeile in den anderen Sprachen */
+/* Telefon: Monatskürzel enger, Einband kompakter */
+@media (max-width:480px){
+  .months{font-size:.58rem;letter-spacing:-.02em}.months span{padding-left:1px}
+  .top{padding:12px 0}
+  .top.mit-pfad{padding-bottom:0}
+  .crumbs{margin-top:6px;font-size:.84rem}
+  .crumbs>a,.crumbs>[aria-current]{padding:6px 11px}
+  .wrap{gap:40px}
+  .today{padding:16px 16px 18px}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+
+/* Fehlerseite */
 .other-lang{display:grid;gap:6px}
 .other-lang p{margin:0}
 
-/* Browser-Oberflächen in den Farben der Seite: Markierung, Einfügemarke, Fokus, Ziffern */
-::selection{background:var(--plate);color:var(--plate-ink)}
-html{accent-color:var(--note);caret-color:var(--ink);-webkit-text-size-adjust:100%;text-size-adjust:100%}
-a{text-underline-offset:2px;text-decoration-thickness:from-font}
-a:focus-visible{outline:2px solid var(--focus);outline-offset:2px;border-radius:2px}
-a:hover{text-decoration-thickness:2px}
-.stamp,.today-date,.facts,.months,.now span,.card-v,td,.chip{font-variant-numeric:tabular-nums}
-/* Abschnittsüberschriften ohne Kicker: etwas mehr Luft darüber als darunter */
-.sec-head h2{padding-top:4px}
+/* Weitere Orte und Themen auf Kantons- und Gemeindeseiten: Einträge mit Linien, keine Kästen */
+.plates.liste{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,200px),1fr));gap:0 28px;border-top:2px solid var(--ink)}
+.plates.liste .dest{min-height:44px;padding:9px 0;border:0;border-bottom:1px solid var(--rule-soft);border-radius:0;background:transparent;color:var(--ink)}
+.plates.liste .dest:hover{background:transparent}
+.plates.liste .dest:hover .dest-name{text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:3px}
+.plates.liste .dest-name{font-size:1rem}
+.plates.liste .dest-sub{color:var(--ink-2)}
+@media (max-width:480px){
+  .plates.liste{grid-template-columns:repeat(2,minmax(0,1fr));gap:0 18px}
+  .today-head::after{display:none}
+}

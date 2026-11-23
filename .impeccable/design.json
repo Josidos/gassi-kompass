@@ -1,0 +1,597 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-23T12:33:18+00:00",
+  "title": "Design System: Gassi-Kompass",
+  "extensions": {
+    "colorMeta": {
+      "paper": {
+        "role": "neutral",
+        "displayName": "Papier",
+        "canonical": "#F5F7F4",
+        "dark": "#111814",
+        "tonalRamp": [
+          "oklch(15% 0.002 135)",
+          "oklch(26% 0.003 135)",
+          "oklch(38% 0.004 135)",
+          "oklch(49% 0.004 135)",
+          "oklch(61% 0.004 135)",
+          "oklch(72% 0.004 135)",
+          "oklch(84% 0.003 135)",
+          "oklch(95% 0.002 135)"
+        ]
+      },
+      "sheet": {
+        "role": "neutral",
+        "displayName": "Blatt",
+        "canonical": "#FFFFFF",
+        "dark": "#17201A",
+        "tonalRamp": [
+          "oklch(15% 0.000 90)",
+          "oklch(26% 0.000 90)",
+          "oklch(38% 0.000 90)",
+          "oklch(49% 0.000 90)",
+          "oklch(61% 0.000 90)",
+          "oklch(72% 0.000 90)",
+          "oklch(84% 0.000 90)",
+          "oklch(95% 0.000 90)"
+        ]
+      },
+      "sunk": {
+        "role": "neutral",
+        "displayName": "Vertieft",
+        "canonical": "#E9EDE8",
+        "dark": "#1D2820",
+        "tonalRamp": [
+          "oklch(15% 0.004 139)",
+          "oklch(26% 0.005 139)",
+          "oklch(38% 0.006 139)",
+          "oklch(49% 0.007 139)",
+          "oklch(61% 0.007 139)",
+          "oklch(72% 0.006 139)",
+          "oklch(84% 0.005 139)",
+          "oklch(95% 0.004 139)"
+        ]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Linie",
+        "canonical": "#C9D2CA",
+        "dark": "#304036",
+        "tonalRamp": [
+          "oklch(15% 0.007 149)",
+          "oklch(26% 0.009 149)",
+          "oklch(38% 0.011 149)",
+          "oklch(49% 0.014 149)",
+          "oklch(61% 0.014 149)",
+          "oklch(72% 0.011 149)",
+          "oklch(84% 0.009 149)",
+          "oklch(95% 0.007 149)"
+        ]
+      },
+      "rule-soft": {
+        "role": "neutral",
+        "displayName": "Linie weich",
+        "canonical": "#DEE4DE",
+        "dark": "#243129",
+        "tonalRamp": [
+          "oklch(15% 0.005 145)",
+          "oklch(26% 0.007 145)",
+          "oklch(38% 0.008 145)",
+          "oklch(49% 0.010 145)",
+          "oklch(61% 0.010 145)",
+          "oklch(72% 0.008 145)",
+          "oklch(84% 0.007 145)",
+          "oklch(95% 0.005 145)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Tinte",
+        "canonical": "#16201A",
+        "dark": "#E3EAE2",
+        "tonalRamp": [
+          "oklch(15% 0.009 158)",
+          "oklch(26% 0.012 158)",
+          "oklch(38% 0.014 158)",
+          "oklch(49% 0.017 158)",
+          "oklch(61% 0.017 158)",
+          "oklch(72% 0.014 158)",
+          "oklch(84% 0.012 158)",
+          "oklch(95% 0.009 158)"
+        ]
+      },
+      "ink-2": {
+        "role": "neutral",
+        "displayName": "Tinte zweite Stufe",
+        "canonical": "#47544B",
+        "dark": "#A6B4A9",
+        "tonalRamp": [
+          "oklch(15% 0.011 155)",
+          "oklch(26% 0.014 155)",
+          "oklch(38% 0.017 155)",
+          "oklch(49% 0.020 155)",
+          "oklch(61% 0.020 155)",
+          "oklch(72% 0.017 155)",
+          "oklch(84% 0.014 155)",
+          "oklch(95% 0.011 155)"
+        ]
+      },
+      "binding": {
+        "role": "primary",
+        "displayName": "Einband-Moosgrün",
+        "canonical": "#1E3B2C",
+        "dark": "#0B1A12",
+        "tonalRamp": [
+          "oklch(15% 0.022 160)",
+          "oklch(26% 0.028 160)",
+          "oklch(38% 0.035 160)",
+          "oklch(49% 0.041 160)",
+          "oklch(61% 0.041 160)",
+          "oklch(72% 0.035 160)",
+          "oklch(84% 0.028 160)",
+          "oklch(95% 0.022 160)"
+        ]
+      },
+      "binding-2": {
+        "role": "primary",
+        "displayName": "Einband Reiter",
+        "canonical": "#2C5140",
+        "dark": "#1A3326",
+        "tonalRamp": [
+          "oklch(15% 0.025 163)",
+          "oklch(26% 0.033 163)",
+          "oklch(38% 0.041 163)",
+          "oklch(49% 0.048 163)",
+          "oklch(61% 0.048 163)",
+          "oklch(72% 0.041 163)",
+          "oklch(84% 0.033 163)",
+          "oklch(95% 0.025 163)"
+        ]
+      },
+      "binding-3": {
+        "role": "primary",
+        "displayName": "Einband Rahmen",
+        "canonical": "#3B6450",
+        "dark": "#264535",
+        "tonalRamp": [
+          "oklch(15% 0.028 162)",
+          "oklch(26% 0.036 162)",
+          "oklch(38% 0.045 162)",
+          "oklch(49% 0.053 162)",
+          "oklch(61% 0.053 162)",
+          "oklch(72% 0.045 162)",
+          "oklch(84% 0.036 162)",
+          "oklch(95% 0.028 162)"
+        ]
+      },
+      "on-binding": {
+        "role": "primary",
+        "displayName": "Hell auf Einband",
+        "canonical": "#F1F5EF",
+        "dark": "#E3EAE2",
+        "tonalRamp": [
+          "oklch(15% 0.004 135)",
+          "oklch(26% 0.006 135)",
+          "oklch(38% 0.007 135)",
+          "oklch(49% 0.008 135)",
+          "oklch(61% 0.008 135)",
+          "oklch(72% 0.007 135)",
+          "oklch(84% 0.006 135)",
+          "oklch(95% 0.004 135)"
+        ]
+      },
+      "on-binding-2": {
+        "role": "primary",
+        "displayName": "Hell auf Einband, leise",
+        "canonical": "#BFD0C3",
+        "dark": "#9FB3A5",
+        "tonalRamp": [
+          "oklch(15% 0.013 153)",
+          "oklch(26% 0.016 153)",
+          "oklch(38% 0.020 153)",
+          "oklch(49% 0.024 153)",
+          "oklch(61% 0.024 153)",
+          "oklch(72% 0.020 153)",
+          "oklch(84% 0.016 153)",
+          "oklch(95% 0.013 153)"
+        ]
+      },
+      "must": {
+        "role": "secondary",
+        "displayName": "Rost (Pflicht)",
+        "canonical": "#A3381C",
+        "dark": "#F2937A",
+        "tonalRamp": [
+          "oklch(15% 0.072 35)",
+          "oklch(26% 0.094 35)",
+          "oklch(38% 0.115 35)",
+          "oklch(49% 0.136 35)",
+          "oklch(61% 0.136 35)",
+          "oklch(72% 0.115 35)",
+          "oklch(84% 0.094 35)",
+          "oklch(95% 0.072 35)"
+        ]
+      },
+      "must-bg": {
+        "role": "secondary",
+        "displayName": "Rost hell",
+        "canonical": "#F6E4DD",
+        "dark": "#3A1C14",
+        "tonalRamp": [
+          "oklch(15% 0.011 43)",
+          "oklch(26% 0.014 43)",
+          "oklch(38% 0.017 43)",
+          "oklch(49% 0.020 43)",
+          "oklch(61% 0.020 43)",
+          "oklch(72% 0.017 43)",
+          "oklch(84% 0.014 43)",
+          "oklch(95% 0.011 43)"
+        ]
+      },
+      "code": {
+        "role": "secondary",
+        "displayName": "Kennungs-Rost",
+        "canonical": "#B8451F",
+        "dark": "#A8401C",
+        "tonalRamp": [
+          "oklch(15% 0.077 38)",
+          "oklch(26% 0.100 38)",
+          "oklch(38% 0.123 38)",
+          "oklch(49% 0.146 38)",
+          "oklch(61% 0.146 38)",
+          "oklch(72% 0.123 38)",
+          "oklch(84% 0.100 38)",
+          "oklch(95% 0.077 38)"
+        ]
+      },
+      "on-code": {
+        "role": "secondary",
+        "displayName": "Schrift auf Kennung",
+        "canonical": "#FFF8F4",
+        "dark": "#FFF8F4",
+        "tonalRamp": [
+          "oklch(15% 0.005 52)",
+          "oklch(26% 0.006 52)",
+          "oklch(38% 0.007 52)",
+          "oklch(49% 0.009 52)",
+          "oklch(61% 0.009 52)",
+          "oklch(72% 0.007 52)",
+          "oklch(84% 0.006 52)",
+          "oklch(95% 0.005 52)"
+        ]
+      },
+      "free": {
+        "role": "tertiary",
+        "displayName": "Blattgrün (frei)",
+        "canonical": "#2B6537",
+        "dark": "#8BD19A",
+        "tonalRamp": [
+          "oklch(15% 0.047 148)",
+          "oklch(26% 0.061 148)",
+          "oklch(38% 0.075 148)",
+          "oklch(49% 0.089 148)",
+          "oklch(61% 0.089 148)",
+          "oklch(72% 0.075 148)",
+          "oklch(84% 0.061 148)",
+          "oklch(95% 0.047 148)"
+        ]
+      },
+      "free-bg": {
+        "role": "tertiary",
+        "displayName": "Blattgrün hell",
+        "canonical": "#E1EDE1",
+        "dark": "#142D1B",
+        "tonalRamp": [
+          "oklch(15% 0.010 145)",
+          "oklch(26% 0.013 145)",
+          "oklch(38% 0.016 145)",
+          "oklch(49% 0.019 145)",
+          "oklch(61% 0.019 145)",
+          "oklch(72% 0.016 145)",
+          "oklch(84% 0.013 145)",
+          "oklch(95% 0.010 145)"
+        ]
+      },
+      "note": {
+        "role": "tertiary",
+        "displayName": "Schieferblau (Hinweis)",
+        "canonical": "#2D5476",
+        "dark": "#9DBFE6",
+        "tonalRamp": [
+          "oklch(15% 0.035 247)",
+          "oklch(26% 0.046 247)",
+          "oklch(38% 0.056 247)",
+          "oklch(49% 0.067 247)",
+          "oklch(61% 0.067 247)",
+          "oklch(72% 0.056 247)",
+          "oklch(84% 0.046 247)",
+          "oklch(95% 0.035 247)"
+        ]
+      },
+      "note-bg": {
+        "role": "tertiary",
+        "displayName": "Schieferblau hell",
+        "canonical": "#E2E9F1",
+        "dark": "#172638",
+        "tonalRamp": [
+          "oklch(15% 0.006 252)",
+          "oklch(26% 0.008 252)",
+          "oklch(38% 0.010 252)",
+          "oklch(49% 0.012 252)",
+          "oklch(61% 0.012 252)",
+          "oklch(72% 0.010 252)",
+          "oklch(84% 0.008 252)",
+          "oklch(95% 0.006 252)"
+        ]
+      },
+      "none": {
+        "role": "neutral",
+        "displayName": "Stein (keine Pflicht)",
+        "canonical": "#56625A",
+        "dark": "#A9B5AC",
+        "tonalRamp": [
+          "oklch(15% 0.010 156)",
+          "oklch(26% 0.012 156)",
+          "oklch(38% 0.015 156)",
+          "oklch(49% 0.018 156)",
+          "oklch(61% 0.018 156)",
+          "oklch(72% 0.015 156)",
+          "oklch(84% 0.012 156)",
+          "oklch(95% 0.010 156)"
+        ]
+      },
+      "none-bg": {
+        "role": "neutral",
+        "displayName": "Stein hell",
+        "canonical": "#E6EAE5",
+        "dark": "#212B24",
+        "tonalRamp": [
+          "oklch(15% 0.004 139)",
+          "oklch(26% 0.005 139)",
+          "oklch(38% 0.006 139)",
+          "oklch(49% 0.007 139)",
+          "oklch(61% 0.007 139)",
+          "oklch(72% 0.006 139)",
+          "oklch(84% 0.005 139)",
+          "oklch(95% 0.004 139)"
+        ]
+      },
+      "focus": {
+        "role": "tertiary",
+        "displayName": "Fokus",
+        "canonical": "#2D5476",
+        "dark": "#9DBFE6",
+        "tonalRamp": [
+          "oklch(15% 0.035 247)",
+          "oklch(26% 0.046 247)",
+          "oklch(38% 0.056 247)",
+          "oklch(49% 0.067 247)",
+          "oklch(61% 0.067 247)",
+          "oklch(72% 0.056 247)",
+          "oklch(84% 0.046 247)",
+          "oklch(95% 0.035 247)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Seitentitel (h1)."
+      },
+      "status": {
+        "displayName": "Status",
+        "purpose": "Status in der Tafel «Leine im Wald», Rost oder Blattgrün."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Abschnittsüberschriften (h2) mit Geltungsbereich."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Wert eines Merkmals."
+      },
+      "title-sm": {
+        "displayName": "Title klein",
+        "purpose": "Listenköpfe, Merkmalsnamen, Kantonsnamen."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Lesetext in Source Serif 4."
+      },
+      "lede": {
+        "displayName": "Lede",
+        "purpose": "Einleitung unter dem Titel."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Marken."
+      },
+      "meta": {
+        "displayName": "Meta",
+        "purpose": "Quellen, Prüfdatum, Monatsnamen."
+      }
+    },
+    "shadows": [
+      {
+        "name": "tafel",
+        "value": "0 1px 0 var(--rule-soft), 0 10px 24px -18px rgb(22 32 26 / .35)",
+        "purpose": "Nur die Tafel «Leine im Wald»."
+      }
+    ],
+    "motion": [
+      {
+        "name": "farbwechsel",
+        "value": "background .15s ease, border-color .15s ease, color .15s ease",
+        "purpose": "Einzige Bewegung: Farbwechsel bei Hover und Fokus auf Tafeln. Bei prefers-reduced-motion aus."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "telefon-klein",
+        "value": "480px",
+        "note": "max-width"
+      },
+      {
+        "name": "telefon",
+        "value": "560px",
+        "note": "max-width, Gemeindeverzeichnis einspaltig"
+      },
+      {
+        "name": "tabelle-block",
+        "value": "640px",
+        "note": "max-width, Tabellen als Blöcke"
+      },
+      {
+        "name": "split",
+        "value": "720px",
+        "note": "min-width, Leine und Zutritt nebeneinander"
+      },
+      {
+        "name": "tafel",
+        "value": "780px",
+        "note": "min-width, Tafel zweispaltig"
+      },
+      {
+        "name": "verzeichnis",
+        "value": "860px",
+        "note": "min-width, Gemeindeverzeichnis zweispaltig"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Archivo",
+        "src": "assets/fonts/archivo.woff2",
+        "axes": "wght 100-900, wdth 62-125",
+        "selfHosted": true
+      },
+      {
+        "family": "Source Serif 4",
+        "src": "assets/fonts/sourceserif4.woff2",
+        "axes": "wght 200-900, opsz",
+        "selfHosted": true
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Register-Reiter",
+      "kind": "nav",
+      "refersTo": "register-tab",
+      "description": "Pfad als Reiter am Einband; der aktuelle Reiter geht in das Papier über.",
+      "html": "<nav class=\"ds-top\"><div class=\"ds-crumbs\"><a href=\"#\">Start</a><a href=\"#\">Kanton Zürich</a><span aria-current=\"page\">Stadt Zürich</span></div></nav>",
+      "css": ".ds-top{background:var(--binding);padding:16px 16px 0}.ds-crumbs{display:flex;flex-wrap:wrap;gap:4px;align-items:flex-end;font-family:var(--sans);font-size:.88rem;font-weight:650;font-stretch:88%}.ds-crumbs>*{display:inline-flex;align-items:center;min-height:38px;padding:6px 14px;border-radius:4px 4px 0 0}.ds-crumbs a{background:var(--binding-2);color:var(--on-binding);text-decoration:none;transition:background .15s ease}.ds-crumbs a:hover{background:var(--binding-3)}.ds-crumbs a:focus-visible{outline:2px solid var(--on-binding);outline-offset:-4px}.ds-crumbs [aria-current]{background:var(--paper);color:var(--ink);font-weight:750}"
+    },
+    {
+      "name": "Marken",
+      "kind": "chip",
+      "refersTo": "chip-must",
+      "description": "Kleine Stempel: Pflicht, frei, Hinweis, keine Pflicht.",
+      "html": "<span class=\"ds-chip ds-must\">Pflicht</span> <span class=\"ds-chip ds-free\">Frei</span> <span class=\"ds-chip ds-note\">Hinweis</span> <span class=\"ds-chip ds-none\">Keine Pflicht</span>",
+      "css": ".ds-chip{display:inline-flex;align-items:center;padding:2px 8px;border-radius:2px;font-family:var(--sans);font-size:.74rem;font-weight:700;letter-spacing:.02em;line-height:1.5;white-space:nowrap;font-variant-numeric:tabular-nums}.ds-must{background:var(--must-bg);color:var(--must)}.ds-free{background:var(--free-bg);color:var(--free)}.ds-note{background:var(--note-bg);color:var(--note)}.ds-none{background:var(--none-bg);color:var(--none)}"
+    },
+    {
+      "name": "Merkmal",
+      "kind": "card",
+      "refersTo": "chip-must",
+      "description": "Eintrag ohne Kasten: Linie oben, Führungslinie zur Marke, Wert, Text, Quelle.",
+      "html": "<article class=\"ds-card\"><div class=\"ds-card-top\"><span class=\"ds-k\">Haftpflicht</span><span class=\"ds-chip\">Pflicht</span></div><p class=\"ds-v\">Versicherung nötig</p><p class=\"ds-t\">Wer einen Hund hält, braucht eine Haftpflichtversicherung.</p><div class=\"ds-src\">Quelle: <a href=\"#\">Hundegesetz ZH</a></div></article>",
+      "css": ".ds-card{padding:14px 0 20px;border-top:1px solid var(--rule);display:grid;gap:6px;max-width:420px;font-family:var(--serif);color:var(--ink)}.ds-card-top{display:flex;align-items:baseline;gap:8px}.ds-card-top::after{content:\"\";order:1;flex:1;min-width:16px;border-bottom:2px dotted var(--rule);transform:translateY(-4px)}.ds-card-top .ds-chip{order:2;padding:2px 8px;border-radius:2px;background:var(--must-bg);color:var(--must);font-family:var(--sans);font-size:.74rem;font-weight:700}.ds-k{font-family:var(--sans);font-size:.98rem;font-weight:700;font-stretch:90%;color:var(--ink-2)}.ds-v{margin:0;font-family:var(--sans);font-size:1.3rem;line-height:1.15;font-weight:780;font-stretch:82%}.ds-t{margin:0;font-size:.98rem}.ds-src{font-family:var(--sans);font-size:.78rem;color:var(--ink-2)}.ds-src a{color:inherit;text-underline-offset:3px}.ds-src a:hover{color:var(--ink)}.ds-src a:focus-visible{outline:2px solid var(--focus);outline-offset:2px}"
+    },
+    {
+      "name": "Tafel «Leine im Wald»",
+      "kind": "custom",
+      "refersTo": "forest-panel",
+      "description": "Signatur: Status gross, Monatsleiste wie die Blühzeit im Pflanzenbuch.",
+      "html": "<section class=\"ds-today\"><div class=\"ds-head\"><b>Leine im Wald · Kanton Zürich</b><span>23. November 2026</span></div><p class=\"ds-big\">Heute keine Leinenpflicht im Wald</p><div class=\"ds-track\"><i style=\"left:25%;width:33.3%\">LEINE</i><s style=\"left:88%\"></s></div><div class=\"ds-months\"><span>Jan</span><span>Feb</span><span>Mär</span><span>Apr</span><span>Mai</span><span>Jun</span><span>Jul</span><span>Aug</span><span>Sep</span><span>Okt</span><span>Nov</span><span>Dez</span></div></section>",
+      "css": ".ds-today{display:grid;gap:14px;padding:20px 22px 22px;border-radius:3px;background:var(--sheet);border:1px solid var(--rule);box-shadow:0 1px 0 var(--rule-soft),0 10px 24px -18px rgb(22 32 26 / .35);max-width:520px;font-family:var(--sans);color:var(--ink)}.ds-head{display:flex;align-items:baseline;gap:10px;padding-bottom:12px;border-bottom:1px solid var(--rule-soft);font-size:.98rem;font-stretch:90%}.ds-head::after{content:\"\";order:1;flex:1;border-bottom:2px dotted var(--rule);transform:translateY(-4px)}.ds-head span{order:2;font-size:.8rem;color:var(--ink-2)}.ds-big{margin:0;font-size:2.2rem;line-height:1.02;font-weight:800;font-stretch:76%;color:var(--free)}.ds-track{position:relative;height:30px;background:var(--paper);border:1px solid var(--rule);border-radius:2px;margin-top:20px}.ds-track i{position:absolute;top:-1px;bottom:-1px;background:var(--must);color:var(--sheet);font-style:normal;font-size:.7rem;font-weight:800;letter-spacing:.08em;display:flex;align-items:center;justify-content:center}.ds-track s{position:absolute;top:-20px;bottom:-6px;border-left:2px solid var(--ink)}.ds-months{display:grid;grid-template-columns:repeat(12,1fr);font-size:.68rem;font-weight:600;color:var(--ink-2)}"
+    },
+    {
+      "name": "Kantonsregister",
+      "kind": "custom",
+      "refersTo": "code-square",
+      "description": "Kennung im Rost-Quadrat, Name, Zahl der Gemeinden; Linien statt Rahmen.",
+      "html": "<div class=\"ds-raster\"><a class=\"ds-dest\" href=\"#\"><span class=\"ds-code\">AG</span><span class=\"ds-name\">Aargau</span><span class=\"ds-sub\">2 Gemeinden</span></a><a class=\"ds-dest\" href=\"#\"><span class=\"ds-code\">ZH</span><span class=\"ds-name\">Zürich</span><span class=\"ds-sub\">14 Gemeinden</span></a></div>",
+      "css": ".ds-raster{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:0 28px;border-top:2px solid var(--ink);font-family:var(--sans);}.ds-dest{display:grid;grid-template-columns:auto 1fr;column-gap:12px;align-items:center;min-height:56px;padding:9px 0;border-bottom:1px solid var(--rule-soft);color:var(--ink);text-decoration:none}.ds-code{grid-row:1/3;display:grid;place-items:center;width:40px;height:34px;border-radius:2px;background:var(--code);color:var(--on-code);font-weight:800;font-stretch:80%;font-size:.95rem;letter-spacing:.02em}.ds-name{font-weight:720;font-stretch:88%;font-size:1.02rem}.ds-sub{font-size:.76rem;color:var(--free);font-variant-numeric:tabular-nums}.ds-dest:hover .ds-name{text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:3px}.ds-dest:focus-visible{outline:3px solid var(--focus);outline-offset:2px}"
+    },
+    {
+      "name": "Tafel",
+      "kind": "button",
+      "refersTo": "plate",
+      "description": "Suchtreffer und Gemeinden: Blatt mit Rahmen; gewählt in Moosgrün; fehlende Sprache gestrichelt.",
+      "html": "<div class=\"ds-plates\"><button class=\"ds-plate\">Winterthur<small>Gemeinde</small></button><button class=\"ds-plate\" aria-pressed=\"true\">Zürich<small>Stadt</small></button><button class=\"ds-plate ds-wait\">Lausanne<small>auf Französisch</small></button></div>",
+      "css": ".ds-plates{display:flex;flex-wrap:wrap;gap:8px}.ds-plate{appearance:none;font-family:var(--sans);display:flex;flex-direction:column;align-items:flex-start;gap:1px;min-height:44px;padding:8px 14px;color:var(--ink);background:var(--sheet);border:1px solid var(--rule);border-radius:3px;font-size:1.02rem;font-weight:720;font-stretch:88%;cursor:pointer;transition:background .15s ease,border-color .15s ease,color .15s ease}.ds-plate small{font-size:.76rem;font-weight:400;color:var(--ink-2)}.ds-plate:hover{border-color:var(--binding);background:var(--sunk)}.ds-plate:focus-visible{outline:3px solid var(--focus);outline-offset:2px}.ds-plate[aria-pressed=\"true\"]{background:var(--binding);border-color:var(--binding);color:var(--on-binding)}.ds-plate[aria-pressed=\"true\"] small{color:var(--on-binding-2)}.ds-wait{border-style:dashed;background:transparent;font-weight:600}"
+    },
+    {
+      "name": "Ortssuche",
+      "kind": "input",
+      "refersTo": "search-input",
+      "description": "Grosses Suchfeld mit Rahmen in Tinte und Statuszeile.",
+      "html": "<label class=\"ds-search\"><span>Gemeinde, Ort oder Postleitzahl</span><input placeholder=\"z. B. Wettingen oder 5430\"></label>",
+      "css": ".ds-search{display:grid;gap:8px;max-width:620px;font-family:var(--sans);}.ds-search span{font-size:.95rem;font-weight:700;color:var(--ink)}.ds-search input{font:inherit;font-family:var(--sans);font-size:1.18rem;padding:14px 16px;border-radius:3px;border:2px solid var(--ink);background:var(--sheet);color:var(--ink)}.ds-search input::placeholder{color:var(--ink-2);opacity:.85}.ds-search input:focus-visible{outline:3px solid var(--focus);outline-offset:2px}"
+    },
+    {
+      "name": "Sprachwahl",
+      "kind": "button",
+      "refersTo": "lang-button",
+      "description": "Kleine Knöpfe auf dem Einband.",
+      "html": "<div class=\"ds-band\"><a class=\"ds-lang\" href=\"#\">Français</a><a class=\"ds-lang\" href=\"#\">Italiano</a></div>",
+      "css": ".ds-band{display:flex;gap:4px;background:var(--binding);padding:14px}.ds-lang{padding:4px 9px;border-radius:2px;border:1px solid var(--binding-3);font-family:var(--sans);font-size:.85rem;font-weight:650;color:var(--on-binding);text-decoration:none;transition:background .15s ease}.ds-lang:hover{background:var(--binding-2)}.ds-lang:focus-visible{outline:2px solid var(--on-binding);outline-offset:2px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Der Feldführer",
+    "overview": "Gassi-Kompass sieht aus wie ein Bestimmungsbuch für Hunderegeln. Jeder Ort ist ein Eintrag mit Kennung, Merkmalen und Beleg. Ein moosgrüner Einband trägt Kopf und Fuss über die ganze Breite, dazwischen liegt kühles Papier. Einträge stehen ohne Kästen auf dem Papier, getrennt durch feine Linien. Zwischen Merkmal und Marke läuft eine punktierte Führungslinie wie im Bestimmungsschlüssel.\n\nDie Seite ist zum Nachlesen gemacht: ruhig, dicht, belegt. Die Antwort steht zuerst (die Tafel «Leine im Wald» mit grossem Status und Monatsleiste), die Quelle immer daneben. Farbe trägt Bedeutung, nicht Stimmung: Rost heisst Pflicht, Blattgrün heisst frei, Schieferblau heisst Hinweis. Bewegung gibt es nur als Farbwechsel bei Hover und Fokus.\n\nDie Seite ist privat und darf nie wie ein Amt wirken. Darum kein Wappen und keine amtlich wirkenden Zeichen. Nicht verspielt: keine Pfoten, keine Knochen, kein Werbe-Look.",
+    "keyCharacteristics": [
+      "Einband in Moosgrün oben und unten, vollbreit; Papier dazwischen.",
+      "Einträge mit Linien statt Karten mit Rahmen.",
+      "Punktierte Führungslinie zwischen Merkmal und Marke.",
+      "Register-Reiter als Pfad am Einband; der aktuelle Reiter hat die Farbe des Papiers.",
+      "Kennungen (ZH, AG) in schmaler, fetter Archivo auf Rost-Quadraten.",
+      "Lesetext in Source Serif 4, alles Bedienbare und alle Überschriften in schmaler Archivo.",
+      "Hell und dunkel, beide aus denselben Variablen."
+    ],
+    "rules": [
+      {
+        "name": "The Drei-Signale Rule",
+        "body": "Rost, Blattgrün und Schieferblau bedeuten Pflicht, frei und Hinweis, nichts anderes. Keine Signalfarbe als Schmuck.",
+        "section": "colors"
+      },
+      {
+        "name": "The Einband Rule",
+        "body": "Moosgrün gehört dem Einband und dem gewählten Zustand. Es wird keine Hintergrundfarbe für Abschnitte im Inhalt.",
+        "section": "colors"
+      },
+      {
+        "name": "The Zwei-Stimmen Rule",
+        "body": "Archivo für alles, was man bedient oder überfliegt (Überschriften, Marken, Tafeln, Tabellen, Kopf und Fuss); Source Serif 4 nur für Fliesstext.",
+        "section": "typography"
+      },
+      {
+        "name": "The Ziffern Rule",
+        "body": "Beträge, Daten, Zahlen und Kennungen stehen in tabellarischen Ziffern.",
+        "section": "typography"
+      },
+      {
+        "name": "The Eine-Tafel Rule",
+        "body": "Nur die Antwort auf die häufigste Frage liegt erhöht. Alles andere liegt flach auf dem Papier.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** Farben und Schriften nur über die Variablen in `:root` ändern, hell und dunkel gemeinsam.",
+      "**Do** Einträge mit Linien trennen (1px rule-soft zwischen Einträgen, 2px ink über einer Liste oder Tabelle).",
+      "**Do** Rost nur für Pflicht und Verbot, Blattgrün nur für frei, Schieferblau nur für Hinweis und Fokus verwenden.",
+      "**Do** Überschriften, Marken und Bedienelemente in Archivo mit schmaler Breite (76 bis 90 %) setzen, Lesetext in Source Serif 4.",
+      "**Do** den Geltungsbereich in die Überschrift schreiben («im Kanton Zürich»), nicht in eine Zeile darüber.",
+      "**Do** jede Quelle direkt beim Merkmal in Meta-Grösse zeigen."
+    ],
+    "donts": [
+      "**Don't** Merkmale in gerahmte Karten mit gleich grossen Kästen setzen; das Ratgeber-Raster ist die Gegenwelt.",
+      "**Don't** Kicker oder Grossbuchstaben-Zeilen über Überschriften setzen.",
+      "**Don't** weitere Schatten einführen; nur die Tafel «Leine im Wald» liegt erhöht.",
+      "**Don't** Wappen oder amtlich wirkende Zeichen verwenden; die Seite ist privat.",
+      "**Don't** Pfoten, Knochen, Comic oder Werbe-Look.",
+      "**Don't** Bewegung ausser Farbwechsel bei Hover und Fokus; keine externen Schriften oder Skripte."
+    ]
+  }
+}
