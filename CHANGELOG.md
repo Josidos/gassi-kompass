@@ -2,6 +2,16 @@
 
 Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen.
 
+## 2026-11-23, Sitzung mit Joss: Darstellung mit Impeccable verfeinert
+
+Auftrag von Joss in der Sitzung: den Design-Skill Impeccable von GitHub holen und anwenden. Weg: verfeinern, nicht neu gestalten (Look, Farben, Schriften und Adressen bleiben). Der Tageslauf vom selben Morgen endete ohne Änderung (Mittwoch/Samstag-Takt).
+
+- Neu: `.claude/skills/impeccable/` (Commit siehe `SOURCE_COMMIT`, Apache 2.0, mit LICENSE und NOTICE).
+- Befund des Detektors vorher auf sechs Seiten: 16 Kicker über Überschriften, 7 farbige Seitenbalken an Kästen, 4 Fehlalarme.
+- Geändert in `build.py`: Kicker über allen Abschnittsüberschriften entfernt (Start, Kanton, Gemeinde, Bund, Themen, alle drei Sprachen), dazu die nicht mehr benutzten Texte `*_eb` und `eb` in `TEXTE`. «Leine und Zutritt» und «Pflichten für Hundehaltende» nennen jetzt den Kanton in der Überschrift.
+- Geändert in `assets/site.css`: Thementafeln mit vollem Rahmen und kleiner gelber Richtungstafel statt Seitenbalken, Übersetzungshinweis mit vollem Rahmen, Markierung in Gelb, Fokusrahmen für alle Links, Unterstreichung dicker beim Darüberfahren, tabellarische Ziffern bei Datum, Zahlen und Tabellen.
+- Nachher: Detektor meldet nur noch die bekannten Fehlalarme. Build und Test fehlerfrei, Seiten bei 390 und 1280 Pixeln angesehen (Start, Kanton, Gemeinde, Thema, Bund, Über, französisch und italienisch).
+
 ## 2026-11-21, Sitzung mit Joss: neun Gemeinden, Ziel von 60 erreicht
 
 Auftrag von Joss in der Sitzung: die fehlenden neun Gemeinden anlegen, in allen Sprachen. Die Obergrenze von vier Gemeinden pro Lauf galt dafür nicht.

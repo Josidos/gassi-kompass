@@ -59,7 +59,7 @@ a{color:inherit}
 .lang a{text-underline-offset:2px}
 .lang a:focus-visible{outline:2px solid var(--focus);outline-offset:2px;border-radius:2px}
 /* Hinweis auf einer übersetzten Seite */
-.transl{margin:0;padding:8px 12px;border-left:3px solid var(--plate);background:var(--surface);border-radius:0 6px 6px 0;font-size:.9rem;color:var(--ink-2);max-width:66ch}
+.transl{margin:0;padding:8px 12px;border:1px solid var(--plate);background:var(--surface);border-radius:6px;font-size:.9rem;color:var(--ink-2);max-width:66ch}
 .transl a{color:var(--ink);font-weight:650;text-underline-offset:2px;white-space:nowrap}
 .transl strong{color:var(--ink);font-weight:650}
 .more-kt{margin:12px 0 0;color:var(--ink-2);font-size:.92rem;max-width:70ch}
@@ -249,11 +249,13 @@ thead th a{text-underline-offset:2px}
 @media (max-width:560px){.index>div{grid-template-columns:minmax(0,1fr)}}
 @media (min-width:860px){.index{columns:2;column-gap:36px}.index>div{break-inside:avoid;grid-template-columns:minmax(0,9.5rem) minmax(0,1fr)}}
 .topics{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,280px),1fr));gap:12px}
-.topic{display:grid;gap:6px;align-content:start;padding:16px 18px 16px 15px;border-radius:var(--r);background:var(--surface);border:1px solid var(--line);border-left:5px solid var(--plate);text-decoration:none;transition:background .15s ease}
-.topic:hover{background:var(--plate-hover)}
+.topic{display:grid;gap:6px;align-content:start;padding:16px 18px;border-radius:var(--r);background:var(--surface);border:1px solid var(--line);text-decoration:none;transition:background .15s ease,border-color .15s ease}
+.topic:hover{background:var(--plate-hover);border-color:var(--plate)}
 .topic:focus-visible{outline:3px solid var(--focus);outline-offset:3px}
-.topic-name{font-weight:780;font-stretch:108%;font-size:1.08rem;line-height:1.2}
-.topic-text{color:var(--ink-2);font-size:.94rem}
+.topic-name{display:flex;align-items:baseline;gap:10px;font-weight:780;font-stretch:108%;font-size:1.08rem;line-height:1.2}
+/* kleine gelbe Richtungstafel vor dem Thema, wie das Logo */
+.topic-name::before{content:"";flex:none;width:16px;height:11px;background:var(--plate);border-radius:1px;clip-path:polygon(0 0,calc(100% - 5px) 0,100% 50%,calc(100% - 5px) 100%,0 100%)}
+.topic-text{color:var(--ink-2);font-size:.94rem;padding-left:26px}
 .topic:hover .topic-text{color:var(--ink)}
 
 /* Themenseiten auf dem Telefon: jede Zeile als Block, Kanton und Marke oben, Text darunter */
@@ -272,3 +274,13 @@ thead th a{text-underline-offset:2px}
 /* Fehlerseite: je eine Zeile in den anderen Sprachen */
 .other-lang{display:grid;gap:6px}
 .other-lang p{margin:0}
+
+/* Browser-Oberflächen in den Farben der Seite: Markierung, Einfügemarke, Fokus, Ziffern */
+::selection{background:var(--plate);color:var(--plate-ink)}
+html{accent-color:var(--note);caret-color:var(--ink);-webkit-text-size-adjust:100%;text-size-adjust:100%}
+a{text-underline-offset:2px;text-decoration-thickness:from-font}
+a:focus-visible{outline:2px solid var(--focus);outline-offset:2px;border-radius:2px}
+a:hover{text-decoration-thickness:2px}
+.stamp,.today-date,.facts,.months,.now span,.card-v,td,.chip{font-variant-numeric:tabular-nums}
+/* Abschnittsüberschriften ohne Kicker: etwas mehr Luft darüber als darunter */
+.sec-head h2{padding-top:4px}
