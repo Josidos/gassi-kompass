@@ -23,7 +23,7 @@
   :root:not([data-theme="light"]){
     --paper:#111814;--sheet:#17201A;--sunk:#1D2820;--rule:#304036;--rule-soft:#243129;
     --ink:#E3EAE2;--ink-2:#A6B4A9;
-    --binding:#0B1A12;--binding-2:#1A3326;--binding-3:#264535;--on-binding:#E3EAE2;--on-binding-2:#9FB3A5;
+    --binding:#1D3A2B;--binding-2:#2B5040;--binding-3:#3A6551;--on-binding:#E3EAE2;--on-binding-2:#9FB3A5;
     --must:#F2937A;--must-bg:#3A1C14;
     --free:#8BD19A;--free-bg:#142D1B;
     --note:#9DBFE6;--note-bg:#172638;
@@ -36,7 +36,7 @@
 :root[data-theme="dark"]{
   --paper:#111814;--sheet:#17201A;--sunk:#1D2820;--rule:#304036;--rule-soft:#243129;
   --ink:#E3EAE2;--ink-2:#A6B4A9;
-  --binding:#0B1A12;--binding-2:#1A3326;--binding-3:#264535;--on-binding:#E3EAE2;--on-binding-2:#9FB3A5;
+  --binding:#1D3A2B;--binding-2:#2B5040;--binding-3:#3A6551;--on-binding:#E3EAE2;--on-binding-2:#9FB3A5;
   --must:#F2937A;--must-bg:#3A1C14;
   --free:#8BD19A;--free-bg:#142D1B;
   --note:#9DBFE6;--note-bg:#172638;

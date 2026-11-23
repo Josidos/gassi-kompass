@@ -120,7 +120,7 @@
         "role": "primary",
         "displayName": "Einband-Moosgrün",
         "canonical": "#1E3B2C",
-        "dark": "#0B1A12",
+        "dark": "#1D3A2B",
         "tonalRamp": [
           "oklch(15% 0.022 160)",
           "oklch(26% 0.028 160)",
@@ -136,7 +136,7 @@
         "role": "primary",
         "displayName": "Einband Reiter",
         "canonical": "#2C5140",
-        "dark": "#1A3326",
+        "dark": "#2B5040",
         "tonalRamp": [
           "oklch(15% 0.025 163)",
           "oklch(26% 0.033 163)",
@@ -152,7 +152,7 @@
         "role": "primary",
         "displayName": "Einband Rahmen",
         "canonical": "#3B6450",
-        "dark": "#264535",
+        "dark": "#3A6551",
         "tonalRamp": [
           "oklch(15% 0.028 162)",
           "oklch(26% 0.036 162)",

@@ -11,6 +11,7 @@ Entscheid von Joss: «Neu gestalten». Weg nach Impeccable: Produktfakten erfrag
 - `build.py`: Pfad als Register-Reiter im Kopf statt im Einstieg, Kürzel der Kantone als eigene Kennung im Kantonsregister, Linienlisten für Gemeinden und Themen, Schrift Source Serif 4 vorgeladen, `theme-color`.
 - Schriften: Source Serif 4 neu (selbst gehostet, OFL, 51 KB), IBM Plex Mono entfernt. Neues Symbol `assets/icon.svg`.
 - Geprüft: Build und Browser-Test fehlerfrei, alle Seitentypen bei 390 und 1280 Pixeln, Suche, Tastaturfokus, Dunkelmodus. Detektor nur mit bekannten Fehlalarmen. Abschlussprüfung von Impeccable: zuerst «fix» (Reiter, Kicker in der Tafel, Kästen in Listen, Leerraum in der Tafel), nach der Korrektur «ship».
+- Nachtrag nach Bildschirmfoto von Joss (iPhone, Safari, Dunkelmodus): Der Einband war im Dunkelmodus fast so dunkel wie die Seite und kaum zu sehen. Neu `--binding` #1D3A2B (vorher #0B1A12), `--binding-2` #2B5040, `--binding-3` #3A6551, auch in `.impeccable/design.json`.
 - Adressen, Titel, Texte und Daten unverändert.
 
 ## 2026-11-23, Sitzung mit Joss: Darstellung mit Impeccable verfeinert
