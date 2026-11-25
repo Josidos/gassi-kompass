@@ -2,6 +2,19 @@
 
 Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen.
 
+## 2026-11-25, Tageslauf (Mittwoch): Risch, Steinhausen und La Chaux-de-Fonds neu
+
+- Link-Prüfung (08:24 Uhr): 304 Quellen, 301 in Ordnung, 1 tot (`be_oce_fr`), 0 Verdacht, 2 unklar (`bl_wald` 403, gilt als in Ordnung. `sz_einsiedeln_formular` 503, zum ersten Mal).
+- Nachgeprüft: keine Datei, nichts ist älter als 60 Tage.
+- Nicht gelungen: `be_oce_fr` zum dritten Mal ohne Ersatz. Die geltende Loi sur les chiens (belex.sites.be.ch/data/916.31/fr) gab das Abrufwerkzeug nicht frei, die übrigen Treffer waren eine leere Rahmenseite und der Vernehmlassungsentwurf von 2011. Nichts geändert, steht im Bericht.
+- Neu, je mit zwei Übersetzungen (9 Dateien, 7 neue Quellen in `data/quellen/lauf-2026-11-25.json`):
+  - Risch (`/zg/risch/`): Hundesteuer CHF 70, Stichtag 31. März, Wachhunde auf Landwirtschaftsbetrieben CHF 35 (Hundereglement Nr. 101, Fassung in Kraft seit 1. Januar 2026). Leinenorte und Hundeverbote aus der Verordnung Hundewesen Nr. 101.1, Anmeldung bei den Einwohnerdiensten. Weggelassen: Bussen von Fr. 100 und die Frist «innert zehn Tagen» aus dem Merkblatt, weil es kein Datum trägt und die Seite der Gemeinde «vorgängig» sagt. Der Spielplatz Langmatt steht nur im Anhang, nicht in Art. 2 oder 3: nicht aufgeführt.
+  - Steinhausen (`/zg/steinhausen/`): Hundesteuer CHF 70 bis Ende März, Zutrittsverbote (§ 7), Leinenorte (§ 8), Registrierung über die Gemeinde. Reglement von 1976 mit Stand genannt. Weggelassen: § 9 (Leine im Wald, am Waldrand und nachts), Bussen ohne Betrag, Ermässigungen. Langname von `zg_steinhausen_steuer` nennt neu § 7, 8 und 11.
+  - La Chaux-de-Fonds (`/fr-ch/ne/la-chaux-de-fonds/`, Originalfassung französisch): Taxe CHF 120 samt CHF 30 an den Kanton (Règlement 41.101, Stand 29. Januar 2025), Zonen Rot, Orange und Grün, Leine in Parks und auf dem Markt, Kot, Busse bis CHF 10 000 (Règlement de police, Stand 1. Juni 2015). Ohne Anmeldestelle.
+- Zurückgestellt: Bellinzona (nur zwei belegte Angaben, Grund im Backlog).
+- Die Angaben stammen aus dem Abrufwerkzeug, das Zitate auf kurze Stücke begrenzt. § 7 und § 8 von Steinhausen und Art. 22 von La Chaux-de-Fonds sind aus Stücken und Umschreibung zusammengesetzt.
+- Stand: 26 Kantone, 63 Gemeinden, 311 Quellen, 294 Seiten. Keine Übersetzung fehlt.
+
 ## 2026-11-23, Sitzung mit Joss: Neugestaltung «Feldführer»
 
 Entscheid von Joss: «Neu gestalten». Weg nach Impeccable: Produktfakten erfragt (Leser: unterwegs am Telefon, Umzug oder neuer Hund, Ämter; verbindlich nur der Name; nicht verspielt, Antwort zur Leine sofort sichtbar), Richtung ausgelost und von Joss gewählt: Feldführer. Der Abruf der Vergleichskataloge von Impeccable ging aus der Sitzung nicht (ohne Netz), darum ohne Katalog-Vorschläge.

@@ -1,0 +1,46 @@
+{
+  "id": "risch",
+  "kanton": "zg",
+  "bfs": 1707,
+  "name": "Gemeinde Risch",
+  "ort": "Risch",
+  "in_ort": "in der Gemeinde Risch",
+  "geprueft": "2026-11-25",
+  "einleitung": "Die Gemeinde Risch mit Rotkreuz, Buonas und Holzhäusern nennt die Orte mit Leinenpflicht und Hundeverbot einzeln in ihrer Verordnung Hundewesen.",
+  "karten": [
+    {
+      "titel": "Hundesteuer",
+      "wert": "CHF 70 pro Hund und Kalenderjahr",
+      "text": "Für jeden Hund, der älter als 3 Monate ist, verlangt die Gemeinde Risch CHF 70 pro Kalenderjahr. Stichtag ist der 31. März. Für Wachhunde auf Landwirtschaftsbetrieben sind es CHF 35. Hast du die Steuer für das Jahr schon in deiner früheren Gemeinde bezahlt und kannst das belegen, zahlst du nicht noch einmal. Diensthunde der Polizei, Militärhunde, ausgebildete Rettungs- und Blindenführhunde und Assistenzhunde sind befreit.",
+      "quellen": [
+        "zg_risch_hundereglement",
+        "zg_risch_hundewesen"
+      ]
+    },
+    {
+      "titel": "Leine",
+      "wert": "Dorfmattplatz, Friedhöfe, Schulareale, Erlenpark und weitere Orte",
+      "text": "Leinenpflicht gilt auf dem Dorfmattplatz beim Rathaus, auf den Friedhöfen Rotkreuz und Risch, auf den Schularealen Waldegg, Binzmühle, Risch und Holzhäusern, beim Hof Binzmühle und im Erlenpark. Im Sportpark gilt sie auf den Wegen und Strassen samt den Grünflächen daneben. An der Seepromenade Buonas gilt sie vom 15. Mai bis 15. September, im Seebad Zweiern vom 16. September bis 14. Mai. Die genauen Grenzen zeigen die Pläne im Anhang der Verordnung. Vom 1. März bis 31. Oktober dürfen Hunde zudem nicht frei in landwirtschaftlichen Kulturen laufen, ausser die Bewirtschafter sind einverstanden.",
+      "quellen": [
+        "zg_risch_verordnung",
+        "zg_risch_hundereglement"
+      ]
+    },
+    {
+      "titel": "Kein Zutritt",
+      "wert": "Schwimmbad Rotkreuz, Ökihof, Spielfelder Sportpark, Seebad Zweiern im Sommer",
+      "text": "Ein Hundeverbot gilt im Schwimmbad Rotkreuz, auf dem Areal des Ökihofs und auf den Spielfeldern im Sportpark. Im Seebad Zweiern gilt es vom 15. Mai bis 15. September.",
+      "quellen": [
+        "zg_risch_verordnung"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "wert": "bei den Einwohnerdiensten",
+      "text": "Wer zum ersten Mal einen Hund hält, meldet sich vorher bei den Einwohnerdiensten der Gemeinde. Die Gemeinde bietet dafür ein Online-Formular an.",
+      "quellen": [
+        "zg_risch_hundewesen"
+      ]
+    }
+  ]
+}

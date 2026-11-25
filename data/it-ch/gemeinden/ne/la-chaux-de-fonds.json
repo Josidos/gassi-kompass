@@ -1,0 +1,52 @@
+{
+  "id": "la-chaux-de-fonds",
+  "kanton": "ne",
+  "bfs": 6421,
+  "uebersetzt_aus": "fr",
+  "original": "65a4dc399825",
+  "name": "Città di La Chaux-de-Fonds",
+  "ort": "La Chaux-de-Fonds",
+  "in_ort": "a La Chaux-de-Fonds",
+  "karten": [
+    {
+      "titel": "Imposta sui cani",
+      "wert": "CHF 120 per cane",
+      "text": "La tassa sui cani è fissata a CHF 120. L'importo comprende le spese di registrazione, la medaglietta di controllo e la quota annua di CHF 30 versata al Cantone. Sono esenti tra l'altro i cani di meno di 3 mesi, i cani presenti sul territorio comunale da meno di 3 mesi e i cani utilizzati da persone con disabilità. In caso di perdita della medaglietta, il duplicato costa CHF 50.",
+      "quellen": [
+        "ne_cdf_taxes"
+      ]
+    },
+    {
+      "titel": "Guinzaglio",
+      "wert": "in città, salvo segnaletica diversa",
+      "text": "Nella zona edificabile fa stato la segnaletica degli spazi pubblici: in zona arancione i cani devono essere tenuti al guinzaglio, in zona verde possono correre liberamente. Senza segnaletica vanno tenuti al guinzaglio. Nelle passeggiate e nei parchi comunali è vietato lasciare liberi i cani. Al mercato i cani devono essere tenuti al guinzaglio. Stato del regolamento di polizia (règlement de police): 2015.",
+      "quellen": [
+        "ne_cdf_police"
+      ]
+    },
+    {
+      "titel": "Accesso vietato",
+      "wert": "zone rosse segnalate",
+      "text": "Negli spazi pubblici segnalati come zona rossa i cani sono vietati. Gli organi d'esecuzione possono vietare l'accesso dei cani in altri luoghi pubblici. Stato del regolamento di polizia: 2015.",
+      "quellen": [
+        "ne_cdf_police"
+      ]
+    },
+    {
+      "titel": "Escrementi",
+      "wert": "da raccogliere",
+      "text": "Chi detiene un cane raccoglie gli escrementi del proprio animale. Stato del regolamento di polizia: 2015.",
+      "quellen": [
+        "ne_cdf_police"
+      ]
+    },
+    {
+      "titel": "Multe",
+      "wert": "fino a CHF 10 000",
+      "text": "Ogni contravvenzione al regolamento di polizia è punibile con una multa di CHF 10 000 al massimo. Stato del regolamento di polizia: 2015.",
+      "quellen": [
+        "ne_cdf_police"
+      ]
+    }
+  ]
+}

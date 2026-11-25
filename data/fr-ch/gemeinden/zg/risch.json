@@ -1,0 +1,47 @@
+{
+  "id": "risch",
+  "kanton": "zg",
+  "bfs": 1707,
+  "uebersetzt_aus": "de",
+  "original": "e4725ccba432",
+  "name": "Commune de Risch",
+  "ort": "Risch",
+  "in_ort": "à Risch",
+  "einleitung": "La commune de Risch, avec Rotkreuz, Buonas et Holzhäusern, énumère un à un les lieux avec laisse obligatoire et accès interdit dans sa Verordnung Hundewesen (ordonnance sur les chiens).",
+  "karten": [
+    {
+      "titel": "Impôt sur les chiens",
+      "wert": "CHF 70 par chien et par année civile",
+      "text": "Pour chaque chien de plus de 3 mois, la commune de Risch perçoit CHF 70 par année civile. Le jour de référence est le 31 mars. Pour les chiens de garde des exploitations agricoles, le montant est de CHF 35. Si vous avez déjà payé l'impôt de l'année dans votre ancienne commune et pouvez le prouver, vous ne payez pas une seconde fois. Les chiens de service de la police, les chiens militaires, les chiens de sauvetage et les chiens guides d'aveugles formés ainsi que les chiens d'assistance sont exonérés.",
+      "quellen": [
+        "zg_risch_hundereglement",
+        "zg_risch_hundewesen"
+      ]
+    },
+    {
+      "titel": "Laisse",
+      "wert": "Dorfmattplatz, cimetières, sites scolaires, Erlenpark et d'autres lieux",
+      "text": "La laisse est obligatoire sur le Dorfmattplatz près de la maison communale (Rathaus), dans les cimetières de Rotkreuz et de Risch, sur les sites scolaires Waldegg, Binzmühle, Risch et Holzhäusern, près du Hof Binzmühle et dans l'Erlenpark. Dans le Sportpark, elle s'applique sur les chemins et les routes ainsi que sur les espaces verts voisins. Sur la promenade du lac (Seepromenade) de Buonas, elle s'applique du 15 mai au 15 septembre, au Seebad Zweiern du 16 septembre au 14 mai. Les limites exactes figurent sur les plans annexés à la Verordnung Hundewesen (ordonnance sur les chiens). Du 1er mars au 31 octobre, les chiens ne doivent en outre pas courir librement dans les cultures agricoles, sauf accord des exploitants.",
+      "quellen": [
+        "zg_risch_verordnung",
+        "zg_risch_hundereglement"
+      ]
+    },
+    {
+      "titel": "Accès interdit",
+      "wert": "piscine de Rotkreuz, Ökihof, terrains de jeu du Sportpark, Seebad Zweiern en été",
+      "text": "Les chiens sont interdits à la piscine (Schwimmbad) de Rotkreuz, sur le site de l'Ökihof (déchetterie) et sur les terrains de jeu du Sportpark. Au Seebad Zweiern, l'interdiction s'applique du 15 mai au 15 septembre.",
+      "quellen": [
+        "zg_risch_verordnung"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "wert": "auprès des Einwohnerdienste",
+      "text": "Les personnes qui détiennent un chien pour la première fois s'annoncent au préalable auprès des Einwohnerdienste (contrôle des habitants) de la commune. La commune propose pour cela un formulaire en ligne.",
+      "quellen": [
+        "zg_risch_hundewesen"
+      ]
+    }
+  ]
+}

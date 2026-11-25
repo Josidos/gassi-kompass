@@ -1,0 +1,47 @@
+{
+  "id": "risch",
+  "kanton": "zg",
+  "bfs": 1707,
+  "uebersetzt_aus": "de",
+  "original": "e4725ccba432",
+  "name": "Comune di Risch",
+  "ort": "Risch",
+  "in_ort": "a Risch",
+  "einleitung": "Il Comune di Risch, con Rotkreuz, Buonas e Holzhäusern, elenca uno per uno i luoghi con obbligo di guinzaglio e divieto di accesso nella sua Verordnung Hundewesen (ordinanza sui cani).",
+  "karten": [
+    {
+      "titel": "Imposta sui cani",
+      "wert": "CHF 70 per cane e anno civile",
+      "text": "Per ogni cane di più di 3 mesi il Comune di Risch riscuote CHF 70 per anno civile. Il giorno di riferimento è il 31 marzo. Per i cani da guardia delle aziende agricole l'importo è di CHF 35. Se hai già pagato l'imposta dell'anno nel tuo Comune precedente e puoi dimostrarlo, non paghi una seconda volta. Sono esenti i cani di servizio della polizia, i cani militari, i cani da salvataggio e i cani guida per ciechi addestrati e i cani d'assistenza.",
+      "quellen": [
+        "zg_risch_hundereglement",
+        "zg_risch_hundewesen"
+      ]
+    },
+    {
+      "titel": "Guinzaglio",
+      "wert": "Dorfmattplatz, cimiteri, aree scolastiche, Erlenpark e altri luoghi",
+      "text": "L'obbligo di guinzaglio vale sul Dorfmattplatz presso il municipio (Rathaus), nei cimiteri di Rotkreuz e di Risch, nelle aree scolastiche Waldegg, Binzmühle, Risch e Holzhäusern, presso lo Hof Binzmühle e nell'Erlenpark. Nello Sportpark vale sui sentieri e sulle strade e sulle aree verdi vicine. Sul lungolago (Seepromenade) di Buonas vale dal 15 maggio al 15 settembre, al Seebad Zweiern dal 16 settembre al 14 maggio. I confini esatti sono indicati nei piani allegati alla Verordnung Hundewesen (ordinanza sui cani). Dal 1° marzo al 31 ottobre i cani non possono inoltre correre liberi nelle colture agricole, salvo consenso dei gestori.",
+      "quellen": [
+        "zg_risch_verordnung",
+        "zg_risch_hundereglement"
+      ]
+    },
+    {
+      "titel": "Accesso vietato",
+      "wert": "piscina di Rotkreuz, Ökihof, campi da gioco dello Sportpark, Seebad Zweiern in estate",
+      "text": "I cani sono vietati nella piscina (Schwimmbad) di Rotkreuz, nell'area dell'Ökihof (centro di raccolta) e sui campi da gioco dello Sportpark. Al Seebad Zweiern il divieto vale dal 15 maggio al 15 settembre.",
+      "quellen": [
+        "zg_risch_verordnung"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "wert": "presso gli Einwohnerdienste",
+      "text": "Chi detiene un cane per la prima volta si annuncia prima presso gli Einwohnerdienste (controllo abitanti) del Comune. Il Comune mette a disposizione un modulo online.",
+      "quellen": [
+        "zg_risch_hundewesen"
+      ]
+    }
+  ]
+}

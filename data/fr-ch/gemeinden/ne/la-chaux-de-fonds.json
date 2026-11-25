@@ -1,0 +1,51 @@
+{
+  "id": "la-chaux-de-fonds",
+  "kanton": "ne",
+  "bfs": 6421,
+  "name": "Ville de La Chaux-de-Fonds",
+  "ort": "La Chaux-de-Fonds",
+  "in_ort": "à La Chaux-de-Fonds",
+  "geprueft": "2026-11-25",
+  "karten": [
+    {
+      "titel": "Impôt sur les chiens",
+      "wert": "CHF 120 par chien",
+      "text": "La taxe des chiens est fixée à CHF 120. Ce montant comprend les frais d'enregistrement, la médaille de contrôle et la part annuelle de CHF 30 versée à l'État. Sont notamment exonérés les chiens de moins de 3 mois, les chiens présents sur le territoire communal depuis moins de 3 mois et les chiens utilisés par des personnes en situation de handicap. En cas de perte de la médaille, le duplicata coûte CHF 50.",
+      "quellen": [
+        "ne_cdf_taxes"
+      ]
+    },
+    {
+      "titel": "Laisse",
+      "wert": "en ville, sauf signalisation contraire",
+      "text": "En zone d'urbanisation, la signalisation des espaces publics fait foi: en zone orange, les chiens doivent être tenus en laisse, en zone verte, ils peuvent s'ébattre librement. Sans signalisation, ils sont tenus en laisse. Dans les promenades et parcs communaux, il est défendu de laisser des chiens en liberté. Sur le marché, les chiens doivent être tenus en laisse. État du règlement de police: 2015.",
+      "quellen": [
+        "ne_cdf_police"
+      ]
+    },
+    {
+      "titel": "Accès interdit",
+      "wert": "zones rouges signalées",
+      "text": "Dans les espaces publics signalés en zone rouge, les chiens sont interdits. Les organes d'exécution peuvent interdire l'accès des chiens dans d'autres lieux publics. État du règlement de police: 2015.",
+      "quellen": [
+        "ne_cdf_police"
+      ]
+    },
+    {
+      "titel": "Crottes de chien",
+      "wert": "à ramasser",
+      "text": "Les détenteurs de chiens ramassent les déjections de leur animal. État du règlement de police: 2015.",
+      "quellen": [
+        "ne_cdf_police"
+      ]
+    },
+    {
+      "titel": "Amendes",
+      "wert": "jusqu'à CHF 10 000",
+      "text": "Toute contravention au règlement de police est punissable d'une amende de CHF 10 000 au plus. État du règlement de police: 2015.",
+      "quellen": [
+        "ne_cdf_police"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "steinhausen",
+  "kanton": "zg",
+  "bfs": 1708,
+  "name": "Gemeinde Steinhausen",
+  "ort": "Steinhausen",
+  "in_ort": "in der Gemeinde Steinhausen",
+  "geprueft": "2026-11-25",
+  "einleitung": "Die lokalen Regeln stehen im Reglement über das Halten von Hunden und die Erhebung der Hundesteuer. Es gilt seit dem 1. Januar 1976.",
+  "karten": [
+    {
+      "titel": "Hundesteuer",
+      "wert": "CHF 70 pro Hund und Kalenderjahr",
+      "text": "Für jeden Hund, der älter als 3 Monate ist, verlangt die Gemeinde Steinhausen CHF 70 pro Kalenderjahr. Die Abgabe ist im Voraus bis spätestens Ende März zu bezahlen. Die Rechnung stützt sich auf die Hundedatenbank AMICUS. Stand des Merkblatts der Gemeinde: April 2025.",
+      "quellen": [
+        "zg_steinhausen_steuer",
+        "zg_steinhausen_merkblatt"
+      ]
+    },
+    {
+      "titel": "Kein Zutritt",
+      "wert": "Friedhöfe, Pausenplätze, Spiel- und Sportfelder",
+      "text": "Auf Friedhöfen, auf Pausenplätzen von Schulanlagen und auf Spiel- und Sportfeldern darfst du Hunde weder mitführen noch laufen lassen. Stand des Reglements: 1976.",
+      "quellen": [
+        "zg_steinhausen_steuer"
+      ]
+    },
+    {
+      "titel": "Leine",
+      "wert": "Parkanlagen, verkehrsreiche Strassen, Lokale",
+      "text": "In Parkanlagen, auf verkehrsreichen Strassen und in öffentlich zugänglichen Lokalen wie Wirtschaften und Verkaufsläden gehören Hunde an die Leine. Läufige, bissige und kranke Hunde sind immer anzuleinen. Stand des Reglements: 1976.",
+      "quellen": [
+        "zg_steinhausen_steuer"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "wert": "bei der Gemeinde",
+      "text": "Hast du neu einen Hund, lässt du dich bei der Gemeinde als Hundehalterin oder Hundehalter in der Datenbank AMICUS registrieren. Änderungen von Adresse und Personalien meldest du ebenfalls der Gemeinde.",
+      "quellen": [
+        "zg_steinhausen_hundesteuer",
+        "zg_steinhausen_merkblatt"
+      ]
+    }
+  ]
+}

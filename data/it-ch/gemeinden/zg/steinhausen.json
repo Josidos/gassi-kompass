@@ -1,0 +1,47 @@
+{
+  "id": "steinhausen",
+  "kanton": "zg",
+  "bfs": 1708,
+  "uebersetzt_aus": "de",
+  "original": "e4db3d905fe9",
+  "name": "Comune di Steinhausen",
+  "ort": "Steinhausen",
+  "in_ort": "a Steinhausen",
+  "einleitung": "Le regole locali si trovano nel Reglement über das Halten von Hunden und die Erhebung der Hundesteuer (regolamento sulla detenzione di cani e sulla riscossione dell'imposta sui cani). È in vigore dal 1° gennaio 1976.",
+  "karten": [
+    {
+      "titel": "Imposta sui cani",
+      "wert": "CHF 70 per cane e anno civile",
+      "text": "Per ogni cane di più di 3 mesi il Comune di Steinhausen riscuote CHF 70 per anno civile. La tassa va pagata in anticipo, al più tardi entro la fine di marzo. La fattura si basa sulla banca dati AMICUS. Stato del promemoria del Comune: aprile 2025.",
+      "quellen": [
+        "zg_steinhausen_steuer",
+        "zg_steinhausen_merkblatt"
+      ]
+    },
+    {
+      "titel": "Accesso vietato",
+      "wert": "cimiteri, cortili scolastici, campi da gioco e sportivi",
+      "text": "Nei cimiteri, nei cortili di ricreazione delle scuole e sui campi da gioco e sportivi non puoi né portare cani né lasciarli correre. Stato del regolamento: 1976.",
+      "quellen": [
+        "zg_steinhausen_steuer"
+      ]
+    },
+    {
+      "titel": "Guinzaglio",
+      "wert": "parchi, strade molto trafficate, locali",
+      "text": "Nei parchi, sulle strade molto trafficate e nei locali accessibili al pubblico, come ristoranti e negozi, i cani vanno tenuti al guinzaglio. Le cagne in calore, i cani mordaci e i cani malati vanno sempre legati. Stato del regolamento: 1976.",
+      "quellen": [
+        "zg_steinhausen_steuer"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "wert": "presso il Comune",
+      "text": "Se hai un nuovo cane, ti fai registrare dal Comune come detentrice o detentore nella banca dati AMICUS. Annunci al Comune anche i cambiamenti di indirizzo e di dati personali.",
+      "quellen": [
+        "zg_steinhausen_hundesteuer",
+        "zg_steinhausen_merkblatt"
+      ]
+    }
+  ]
+}

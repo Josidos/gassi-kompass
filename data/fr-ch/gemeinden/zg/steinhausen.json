@@ -1,0 +1,47 @@
+{
+  "id": "steinhausen",
+  "kanton": "zg",
+  "bfs": 1708,
+  "uebersetzt_aus": "de",
+  "original": "e4db3d905fe9",
+  "name": "Commune de Steinhausen",
+  "ort": "Steinhausen",
+  "in_ort": "à Steinhausen",
+  "einleitung": "Les règles locales figurent dans le Reglement über das Halten von Hunden und die Erhebung der Hundesteuer (règlement sur la détention de chiens et la perception de l'impôt sur les chiens). Il est en vigueur depuis le 1er janvier 1976.",
+  "karten": [
+    {
+      "titel": "Impôt sur les chiens",
+      "wert": "CHF 70 par chien et par année civile",
+      "text": "Pour chaque chien de plus de 3 mois, la commune de Steinhausen perçoit CHF 70 par année civile. La taxe doit être payée d'avance, au plus tard à la fin mars. La facture se fonde sur la banque de données AMICUS. État de la notice de la commune: avril 2025.",
+      "quellen": [
+        "zg_steinhausen_steuer",
+        "zg_steinhausen_merkblatt"
+      ]
+    },
+    {
+      "titel": "Accès interdit",
+      "wert": "cimetières, cours d'école, terrains de jeu et de sport",
+      "text": "Dans les cimetières, dans les cours de récréation des écoles et sur les terrains de jeu et de sport, vous ne pouvez ni emmener des chiens ni les laisser courir. État du règlement: 1976.",
+      "quellen": [
+        "zg_steinhausen_steuer"
+      ]
+    },
+    {
+      "titel": "Laisse",
+      "wert": "parcs, rues très fréquentées, locaux",
+      "text": "Dans les parcs, dans les rues à fort trafic et dans les locaux accessibles au public, comme les restaurants et les magasins, les chiens doivent être tenus en laisse. Les chiennes en chaleur, les chiens mordeurs et les chiens malades doivent toujours être attachés. État du règlement: 1976.",
+      "quellen": [
+        "zg_steinhausen_steuer"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "wert": "auprès de la commune",
+      "text": "Si vous avez un nouveau chien, vous vous faites enregistrer par la commune comme détentrice ou détenteur dans la banque de données AMICUS. Vous annoncez aussi à la commune les changements d'adresse et de données personnelles.",
+      "quellen": [
+        "zg_steinhausen_hundesteuer",
+        "zg_steinhausen_merkblatt"
+      ]
+    }
+  ]
+}
