@@ -2,6 +2,17 @@
 
 Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen.
 
+## 2026-11-27, Sitzung mit Joss: sieben Hundeschulen angeschrieben, Partner-Einträge freigegeben
+
+- Entscheide von Joss in der Nacht (00:32 bis 00:52 Uhr): «Kern» und «Partner» gelten, eine Web-App gibt es nicht. Hundeschulen dürfen auf den Seiten genannt werden, ohne feste Obergrenze. Den Preis hat Claude in seinem Auftrag ausgearbeitet, Joss hat mit «Senden» bestätigt: Eintrag bis 31. Juli 2027 kostenlos, danach CHF 60 pro Jahr, nur mit ausdrücklichem Ja der Hundeschule. Sein Wunsch «so viele wie möglich» ist nicht als Massenversand umgesetzt: einzeln geschriebene Mails, zuerst die Kantone mit Kurspflicht.
+- Link-Prüfung vor dem Versand (00:44 Uhr): 314 Quellen, 308 in Ordnung, 1 tot (`be_oce_fr`, bekannt), 5 unklar (`bl_wald` 403, `sz_einsiedeln_formular` 503, dazu Zeitüberschreitungen bei `lu_stadt`, `sg_stadt` und `sg_vet`). Kein «TOT» und kein «VERDACHT» auf den sieben Kantonsseiten.
+- Verschickt über das Postfach kontakt@gassi-kompass.ch im Browser von Joss, jede Mail einzeln: Zürich 00:48 Uhr, Luzern 00:50, Thurgau 00:50, Basel-Stadt 00:51, Freiburg 00:52, Neuenburg 00:52, Wallis 00:53. Deutsch für ZH, LU, TG und BS, Französisch für FR, NE und VS. Nachgezählt im Ordner der gesendeten Nachrichten: 36 statt 29.
+- Auswahl der Empfänger: der erste Eintrag der amtlichen Liste in einer Gemeinde mit eigener Seite (ZH: Liste der bewilligten Hundeausbildenden, Stand 30. Oktober 2026. FR: Liste der anerkannten Hundeausbildnerinnen und Hundeausbildner, Stand 9. November 2026. NE: Liste vom 12. März 2026). In LU, TG, BS und VS liess sich keine amtliche Liste lesen: Dort ging die Mail an eine Hundeschule oder einen Verein, der den Kurs auf seiner Website anbietet. Namen und Adressen stehen auf der Seite «Hundeschulen Runde 1» von Joss, nicht im Repository.
+- Tessin nicht angeschrieben: Das kantonale Amt verweist für Kursliste und Anmeldung auf die Plattform der Associazione Ticinese Istruttori Cinofili. Dort braucht es keinen Partner-Eintrag, sondern den Link auf der Seite (Backlog, Abschnitt 4).
+- Antwort um 00:53 Uhr: automatische Eingangsbestätigung aus dem Wallis. Sonst nichts Neues im Posteingang.
+- Neue Ideen von Joss, ins Backlog übernommen: Thema «Hund vermisst oder gefunden» mit der Meldestelle je Kanton, Übersicht aller Hundeschulen je Kanton mit der nächsten zuerst (später als Karte), Tierheime als Verbreiter, später ein Verzeichnis von Tierärzten, Versicherern und Tierheimen.
+- An den Seiten ändert sich noch nichts. Der Baustein für Partner-Einträge wird gebaut, sobald die erste Hundeschule zusagt.
+
 ## 2026-11-26, Sitzung mit Joss: Geschäftskonzept erstellt (nicht im Repository)
 
 - Auf Wunsch von Joss (19:21 und 19:31 Uhr) ein Konzept erstellt: Marktforschung, Anspruchsgruppen nach Business Model Canvas und St. Galler Management-Modell, Requirements Engineering, Bewertung der Ausbau-Optionen, Betriebswirtschaft, Marketing, Vertragsrecht, Projektmanagement. Es steht auf der Seite «Geschäftskonzept Gassi-Kompass» von Joss, nicht im Repository.
