@@ -2,6 +2,14 @@
 
 Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen.
 
+## 2026-11-26, Sitzung mit Joss: Verbreitung, Postfach, zweite Runde vorbereitet
+
+- Ideen von Joss zur Verbreitung besprochen (Briefe mit Flyer an Tierärzte und Ämter, Schilder und Kleber in Gemeinden). Empfehlung: zuerst Prüfbitten per Mail an die übrigen Veterinärdienste und an die Gemeinden mit eigener Seite, ein Merkblatt zum Selberdrucken je Kanton, ein Pilot von Hand, erst danach Briefe. Entscheide von Joss dazu sind offen.
+- Entscheid von Joss: Claude verschickt die Anschreiben selbst und liest die Antworten. Das Postfach ist kontakt@gassi-kompass.ch bei Infomaniak, ohne Connector. Im Handbuch steht neu «Postfach und Antworten der Ämter»: Zugang nur über den Browser von Joss, Senden nur nach seinem Ja zur Runde, Antworten sind Hinweise und werden mit der amtlichen Quelle verglichen.
+- Zweite Runde vorbereitet: 16 Mails an die Veterinärdienste der 21 übrigen Kantone, elf auf Deutsch, fünf auf Französisch. Die Adressen stammen aus der Liste der kantonalen Stellen des BLV, Bern und Freiburg sind auf Seiten der Kantone nachgeprüft. Nichts ist verschickt, die Freigabe von Joss ist offen.
+- Nicht gelungen: `be_oce_fr` ersetzen. Die Suche fand wieder nur die alte Adresse und einen Waadtländer Erlass. Die Mail an Bern verlinkt deshalb nur die deutsche Seite.
+- Am Repository sonst nichts geändert.
+
 ## 2026-11-25, Tageslauf (Mittwoch): Risch, Steinhausen und La Chaux-de-Fonds neu
 
 - Link-Prüfung (08:24 Uhr): 304 Quellen, 301 in Ordnung, 1 tot (`be_oce_fr`), 0 Verdacht, 2 unklar (`bl_wald` 403, gilt als in Ordnung. `sz_einsiedeln_formular` 503, zum ersten Mal).
