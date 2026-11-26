@@ -7,10 +7,11 @@
   "geprueft": "2026-11-18",
   "wald": {
     "saison": false,
-    "text": "Les pages du Service cantonal de la consommation et affaires vétérinaires ne mentionnent ni obligation de laisse propre à la forêt ni période. Hors des localités, votre chien doit rester sous contrôle. Dans les sites protégés et les zones naturelles, la laisse peut être imposée, toute l'année ou par période. Suivez la signalisation sur place.",
+    "text": "Les pages du Service cantonal de la consommation et affaires vétérinaires ne mentionnent ni obligation de laisse propre à la forêt ni période. Hors des localités, votre chien doit rester sous contrôle. Dans les sites protégés et les zones naturelles, la laisse peut être imposée, toute l'année ou par période. Dans les districts francs fédéraux, les chiens doivent être tenus en laisse (état de la page de l'Office fédéral de l'environnement: 5 septembre 2024). Suivez la signalisation sur place.",
     "quellen": [
       "vs_scav_securite",
-      "vs_scav_canines"
+      "vs_scav_canines",
+      "ch_bafu_districts"
     ]
   },
   "leine": {
@@ -21,11 +22,13 @@
       "sur les lieux publics fréquentés et près des routes à fort trafic ou sans visibilité",
       "à proximité des animaux de rente",
       "sur les lieux signalés et dans les sites protégés ou zones naturelles où la laisse est imposée",
+      "dans les districts francs fédéraux",
       "partout ailleurs: chien sous contrôle"
     ],
     "quellen": [
       "vs_scav_securite",
-      "vs_scav_canines"
+      "vs_scav_canines",
+      "ch_bafu_districts"
     ]
   },
   "verbot": {

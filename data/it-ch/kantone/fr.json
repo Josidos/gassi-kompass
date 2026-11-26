@@ -2,7 +2,7 @@
   "id": "fr",
   "kurz": "FR",
   "uebersetzt_aus": "de",
-  "original": "fa3bbd700f4b",
+  "original": "ef80142d2238",
   "wald": {
     "saison": true,
     "von": "04-01",
@@ -51,7 +51,7 @@
       "marke": "Obbligo",
       "ton": "must",
       "wert": "teoria e test pratico",
-      "text": "Dal 1° gennaio 2024. Chi non ha mai detenuto un cane o non ne detiene uno da più di 10 anni frequenta, prima di iniziare la detenzione, un corso teorico di almeno 5 ore. Con ogni nuovo cane sostieni, entro 18 mesi dall'acquisizione, un test pratico che valuta se il cane si lascia condurre.",
+      "text": "Dal 1° gennaio 2024. Chi non ha mai detenuto un cane o non ne detiene uno da più di 10 anni frequenta, prima di iniziare la detenzione, un corso teorico di almeno 5 ore. Con un nuovo cane sostieni, entro 18 mesi dall'acquisizione, un test pratico che valuta se il cane si lascia condurre. Il test vale solo per i cani nati dopo l'entrata in vigore della regola, il 1° gennaio 2024.",
       "quellen": [
         "fr_hhg",
         "fr_neu"
@@ -71,8 +71,8 @@
       "titel": "Imposta sui cani",
       "marke": "annuale",
       "ton": "note",
-      "wert": "CHF 100 al Cantone, più il Comune",
-      "text": "L'imposta cantonale sui cani è di CHF 100 per cane. Si aggiungono CHF 5 per le spese amministrative e il contributo all'assicurazione collettiva di responsabilità civile. La riscuotono gli Oberämter (prefetture). Il tuo Comune può chiedere in più una propria imposta sui cani, al massimo CHF 200 per animale e per anno.",
+      "wert": "CHF 100 al Cantone, in più secondo il Comune",
+      "text": "L'imposta cantonale sui cani è di CHF 100 per cane. Si aggiungono CHF 5 per le spese amministrative e il contributo all'assicurazione collettiva di responsabilità civile. La riscuotono gli Oberämter (prefetture). Il tuo Comune può chiedere in più una propria imposta sui cani, al massimo CHF 200 per animale e per anno. Può anche rinunciarvi.",
       "quellen": [
         "fr_steuer",
         "fr_hhg"
@@ -83,7 +83,7 @@
       "marke": "Divieto",
       "ton": "must",
       "wert": "cani di tipo pitbull",
-      "text": "I cani di tipo pitbull e i loro incroci sono vietati: detenzione, allevamento, cessione, commercio e introduzione nel Cantone. È ammesso solo un soggiorno temporaneo di al massimo 90 giorni, al guinzaglio e con la museruola. Dal 1° gennaio 2024 non esistono più razze soggette ad autorizzazione.",
+      "text": "I cani di tipo pitbull e i loro incroci sono vietati: detenzione, allevamento, cessione, commercio e introduzione nel Cantone. La legge ammette un soggiorno temporaneo di al massimo 90 giorni, al guinzaglio e con la museruola. Dal 1° gennaio 2024 non esistono più razze soggette ad autorizzazione.",
       "quellen": [
         "fr_hhg",
         "fr_verboten"
@@ -104,13 +104,13 @@
   "vergleich": {
     "wald": "dal 1.4. al 15.7., nel bosco",
     "haft": "obbligo, almeno CHF 1 milione",
-    "kurs": "teoria per il primo cane, test pratico con ogni nuovo cane",
+    "kurs": "teoria per il primo cane, test pratico con i nuovi cani nati dopo il 1.1.2024",
     "rassen": "tipo pitbull e incroci vietati",
-    "steuer": "CHF 100 al Cantone, più il Comune",
+    "steuer": "CHF 100 al Cantone, in più secondo il Comune",
     "anm": "entro 10 giorni, Comune e AMICUS"
   },
   "umzug": {
-    "text": "Un cane di tipo pitbull o un suo incrocio non può trasferirsi nel Cantone. È ammesso solo un soggiorno di al massimo 90 giorni, al guinzaglio e con la museruola.",
+    "text": "La legge vieta di introdurre nel Cantone un cane di tipo pitbull o un suo incrocio. Ammette un soggiorno temporaneo di al massimo 90 giorni, al guinzaglio e con la museruola. Se ti trasferisci nel Cantone con un cane di questo tipo, rivolgiti prima all'Amt für Lebensmittelsicherheit und Veterinärwesen (LSVW, ufficio della sicurezza alimentare e degli affari veterinari).",
     "quellen": [
       "fr_hhg",
       "fr_verboten"

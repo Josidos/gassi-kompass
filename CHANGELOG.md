@@ -2,6 +2,31 @@
 
 Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen.
 
+## 2026-11-26, Sitzung mit Joss: Antworten von Basel-Stadt, Freiburg und Wallis eingearbeitet
+
+Postfach um 18:15 Uhr gelesen (im Browser von Joss): drei neue Antworten auf die zweite Runde, alle mit Hinweisen. Jeder Hinweis ist mit der amtlichen Quelle verglichen. Im Spam nichts Neues.
+
+- Basel-Stadt (Kantonales Veterinäramt, Hundekontrolle), zwei Hinweise:
+  - Baden in Brunnen. Abgeglichen mit der Hundeverordnung (SG 365.110, Stand 1. April 2025), § 4 Abs. 2: verboten ist, Hunde in öffentlichen Brunnen zu baden, zu säubern oder darin baden zu lassen. Alt: «Hunde dürfen nicht in öffentlichen Brunnen gebadet werden.» Neu: «In öffentlichen Brunnen darfst du deinen Hund weder baden oder säubern noch baden lassen.»
+  - «Nur zwei Gemeinden genannt, es sind drei.» Gemeint ist die Liste «Lokale Regeln» mit Basel und Riehen. Bettingen steht bei der Hundesteuer (CHF 120). Für eine eigene Seite in zwei Versuchen gesucht: Belegt sind zwei lokale Angaben, die Steuer und die Leinenpflicht am Mattenwegli samt Vorplatz des Schwimmbadeingangs (Reglement betreffend das Halten von Hunden, SG 365.150, Stand 21. März 2024, § 5 Abs. 1 lit. c). Die Liste der Hundeverbote für Bettingen (§ 4 lit. c) ist seit 21. März 2024 aufgehoben, auf der Website der Gemeinde war nichts zu Hunden zu finden. Keine eigene Seite, im Backlog zurückgestellt. Neu auf der Kantonsseite: Die Liste zur Leine nennt das Reglement und den Ort in Bettingen. Neue Quelle `bs_regl`.
+  - Beide Übersetzungen nachgeführt.
+- Freiburg (Amt für Lebensmittelsicherheit und Veterinärwesen): Die Angaben seien insgesamt gesetzeskonform, vier Präzisierungen:
+  - Praktische Beurteilung der Führbarkeit: laut Amt nur für Hunde, die nach dem 1. Januar 2024 geboren sind. Bestätigt durch Art. 56a Abs. 1 des Gesetzes (Fassung vom 1. Januar 2024, französisch und deutsch gelesen): Sie gilt für neu gehaltene Hunde, die nach dem Inkrafttreten der Änderung geboren werden. Alt: «Mit jedem neuen Hund …» und «Chaque chien nouvellement détenu …». Neu: mit dem Zusatz, dass der Test nur für Hunde gilt, die nach dem Inkrafttreten der Regel am 1. Januar 2024 geboren sind. `vergleich.kurs` in beiden Originalfassungen angepasst.
+  - Hunde des Typs Pitbull: Laut Amt kann die Haltung bewilligt werden, wenn die Halterin oder der Halter nachweist, dass der Hund Umzugsgut ist. Das steht weder im Gesetz (Art. 20) noch im Reglement noch auf der Seite «Verbotene Hunde» des Amts (Stand 26. September 2025). Nicht als Angabe übernommen. Gestrichen ist aber unsere eigene Folgerung. Alt (Zuzug): «Ein Hund des Typs Pitbull oder eine Kreuzung damit darf nicht in den Kanton ziehen. Erlaubt ist nur ein Aufenthalt von höchstens 90 Tagen …» Neu: was das Gesetz verbietet und erlaubt, dazu der Verweis an das Amt vor einem Zuzug. In der Karte «Rassen» heisst es statt «Erlaubt ist nur» neu «Das Gesetz erlaubt». Eine Rückfrage an das Amt nach einer veröffentlichten Grundlage geht erst nach dem Ja von Joss raus.
+  - Hundesteuer: Die Gemeinden können auch ganz auf eine Steuer verzichten. Bestätigt durch Art. 50 Abs. 1 («sind berechtigt»). Ergänzt: «Sie kann auch darauf verzichten.» Kurzfassung alt: «CHF 100 an den Kanton, dazu die Gemeinde». Neu: «CHF 100 an den Kanton, dazu je nach Gemeinde».
+  - Anmeldung: Die Registrierung in AMICUS stützt sich auf Bundesrecht, das Übrige regelt das Reglement, wie auf der Seite. Keine Änderung.
+  - Französische und deutsche Originalfassung angepasst, italienische Übersetzung nachgeführt.
+- Wallis (Kantonales Veterinäramt): vier Punkte «ok», zwei Ergänzungen:
+  - Kurs: 6 Stunden oder 8 Lektionen zu 45 Minuten. Steht schon so in der Karte «Kurs». Keine Änderung.
+  - Wald: Für Jagdbanngebiete und Naturpärke gelten eigene Regeln, zuständig ist die Dienststelle für Jagd, Fischerei und Wildtiere. Ergänzt aus den Seiten des Bundesamts für Umwelt (deutsch und französisch gelesen, veröffentlicht am 5. September 2024): In den eidgenössischen Jagdbanngebieten sind Hunde an der Leine zu führen. Steht neu im Kasten zum Wald und in der Liste zur Leine, mit Stand. Neue Quellen `ch_bafu_jagdbann` und `ch_bafu_districts`. Kantonale Regeln: Das Ausführungsreglement zum Jagdgesetz (SGS 922.100, Stand 1. Juli 2025) enthält nichts zu Hunden von Spaziergängern, mehr war in zwei Versuchen nicht lesbar. Als Lücke notiert.
+  - Adressänderung: Das Amt schreibt, sie laufe über die Gemeinde. Die Seite des Amts sagt, die Halterin oder der Halter ändere die Personenangaben selbst. Die Seite bleibt bei der amtlichen Quelle.
+  - Französische und deutsche Originalfassung angepasst, italienische Übersetzung nachgeführt.
+- Nicht gelungen: die Verordnung über die eidgenössischen Jagdbanngebiete in der geltenden Fassung lesen (fedlex nicht abrufbar, LexFind zeigt den Stand von 2004). Quelle sind darum die Seiten des Bundesamts.
+- Nicht verschickt: Dank und Rückfragen an die drei Ämter. Die Entwürfe liegen bei Joss.
+- `geprueft` der sechs geänderten Originalfassungen bleibt stehen, weil nicht alle Angaben der Dateien neu abgeglichen sind.
+- Die drei neuen Adressen prüft die Link-Prüfung nach dem Push mit einem echten Abruf.
+- Stand: 26 Kantone, 63 Gemeinden, 315 Quellen, 294 Seiten. Keine Übersetzung fehlt. Build und Browser-Test fehlerfrei, die geänderten Stellen bei 390 und 1280 Pixeln angesehen.
+
 ## 2026-11-26, Sitzung mit Joss: Suchmaschinen, Vorschaubild, erste Suchdaten
 
 Anlass: Joss fragt nach den Werbemails im Postfach (Kundenstimmen, «Register in Search Engines», SEO-Dienste) und will, dass Claude das selbst macht.

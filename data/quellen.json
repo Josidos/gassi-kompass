@@ -858,5 +858,20 @@
     "kurz": "ROAC GE",
     "lang": "République et canton de Genève: règlement sur l'organisation de l'administration cantonale (ROAC, B 4 05.10), art. 7 al. 1 let. b, teneur en vigueur depuis le 7 octobre 2026 (SILGeneve), consulté le 26 novembre 2026",
     "url": "https://silgeneve.ch/legis/data/rsg_b4_05p10.htm"
+  },
+  "bs_regl": {
+    "kurz": "Reglement Hundehaltung BS",
+    "lang": "Kanton Basel-Stadt, Veterinäramt: Reglement betreffend das Halten von Hunden (SG 365.150) vom 21. April 2011, Stand 21. März 2024",
+    "url": "https://bs.lexwork.naz.ch/de/dta/365.150.pdf"
+  },
+  "ch_bafu_jagdbann": {
+    "kurz": "BAFU: Jagdbanngebiete",
+    "lang": "Bundesamt für Umwelt BAFU: Eidgenössische Jagdbanngebiete, Seite veröffentlicht am 5. September 2024",
+    "url": "https://www.bafu.admin.ch/de/jagdbanngebiete"
+  },
+  "ch_bafu_districts": {
+    "kurz": "OFEV: districts francs",
+    "lang": "Office fédéral de l'environnement OFEV: Districts francs fédéraux, page publiée le 5 septembre 2024",
+    "url": "https://www.bafu.admin.ch/fr/districts-francs"
   }
 }

@@ -23,13 +23,14 @@
       "auf stark frequentierten Strassen und Plätzen",
       "auf Märkten",
       "für Hündinnen während der Läufigkeit",
-      "überall, wo ein Schild die Leinenpflicht anzeigt",
+      "überall, wo ein Schild die Leinenpflicht anzeigt. Ein Reglement des Veterinäramts nennt diese Orte für Basel, Riehen und Bettingen. In Bettingen ist es das Mattenwegli samt Vorplatz des Schwimmbadeingangs (Stand des Reglements: 21. März 2024).",
       "in Wildruhe- und Wildschutzgebieten"
     ],
     "quellen": [
       "bs_huv",
       "bs_vet",
-      "bs_wjg"
+      "bs_wjg",
+      "bs_regl"
     ]
   },
   "verbot": {
@@ -125,7 +126,7 @@
       "marke": "Regel",
       "ton": "note",
       "wert": "Kot und Busse",
-      "text": "Du nimmst den Kot deines Hundes mit einem Kotbeutel auf und entsorgst ihn in einem Abfallbehälter. Das gilt auf öffentlichem Grund und auf landwirtschaftlich genutzten Flächen. Hunde dürfen nicht in öffentlichen Brunnen gebadet werden. Bei Verstössen gegen Leinenpflicht, Hundeverbot oder Kotaufnahmepflicht spricht die Kantonspolizei eine Busse von CHF 100 aus.",
+      "text": "Du nimmst den Kot deines Hundes mit einem Kotbeutel auf und entsorgst ihn in einem Abfallbehälter. Das gilt auf öffentlichem Grund und auf landwirtschaftlich genutzten Flächen. In öffentlichen Brunnen darfst du deinen Hund weder baden oder säubern noch baden lassen. Bei Verstössen gegen Leinenpflicht, Hundeverbot oder Kotaufnahmepflicht spricht die Kantonspolizei eine Busse von CHF 100 aus.",
       "quellen": [
         "bs_huv",
         "bs_vet"

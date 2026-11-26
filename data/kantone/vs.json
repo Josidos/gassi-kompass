@@ -7,10 +7,11 @@
   "geprueft": "2026-11-18",
   "wald": {
     "saison": false,
-    "text": "Das Walliser Ausführungsgesetz zum Tierschutzgesetz nennt keine Leinenpflicht eigens für den Wald und keine Saison. Ausserhalb der Ortschaften muss dein Hund unter Kontrolle sein. In Schutz- und Naturzonen kann die Leine vorgeschrieben sein, ganzjährig oder zeitweise. Achte auf die Schilder vor Ort.",
+    "text": "Das Walliser Ausführungsgesetz zum Tierschutzgesetz nennt keine Leinenpflicht eigens für den Wald und keine Saison. Ausserhalb der Ortschaften muss dein Hund unter Kontrolle sein. In Schutz- und Naturzonen kann die Leine vorgeschrieben sein, ganzjährig oder zeitweise. In den eidgenössischen Jagdbanngebieten sind Hunde an der Leine zu führen (Stand der Seite des Bundesamts für Umwelt: 5. September 2024). Achte auf die Schilder vor Ort.",
     "quellen": [
       "vs_agtschg",
-      "vs_vet_sicherheit"
+      "vs_vet_sicherheit",
+      "ch_bafu_jagdbann"
     ]
   },
   "leine": {
@@ -21,12 +22,14 @@
       "an stark frequentierten Orten und unmittelbar neben stark befahrenen oder schlecht übersichtlichen Strassen",
       "in der Nähe von Nutztieren",
       "an Orten mit signalisierter Leinenpflicht und in Schutz- und Naturzonen, wo die Leine vorgeschrieben ist",
+      "in den eidgenössischen Jagdbanngebieten",
       "überall sonst: Hund unter Kontrolle halten"
     ],
     "quellen": [
       "vs_agtschg",
       "vs_vet_sicherheit",
-      "vs_vet_hundewesen"
+      "vs_vet_hundewesen",
+      "ch_bafu_jagdbann"
     ]
   },
   "verbot": {

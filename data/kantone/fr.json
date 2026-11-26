@@ -53,7 +53,7 @@
       "marke": "Pflicht",
       "ton": "must",
       "wert": "Theorie und Praxistest",
-      "text": "Seit 1. Januar 2024. Wer noch nie oder seit mehr als 10 Jahren keinen Hund gehalten hat, besucht vor Beginn der Hundehaltung einen Theoriekurs von mindestens 5 Stunden. Mit jedem neuen Hund machst du innerhalb von 18 Monaten nach dem Erwerb einen praktischen Test zur Beurteilung der Führbarkeit.",
+      "text": "Seit 1. Januar 2024. Wer noch nie oder seit mehr als 10 Jahren keinen Hund gehalten hat, besucht vor Beginn der Hundehaltung einen Theoriekurs von mindestens 5 Stunden. Mit einem neuen Hund machst du innerhalb von 18 Monaten nach dem Erwerb einen praktischen Test zur Beurteilung der Führbarkeit. Der Test gilt nur für Hunde, die nach dem Inkrafttreten der Regel am 1. Januar 2024 geboren sind.",
       "quellen": [
         "fr_hhg",
         "fr_neu"
@@ -73,8 +73,8 @@
       "titel": "Hundesteuer",
       "marke": "jährlich",
       "ton": "note",
-      "wert": "CHF 100 an den Kanton, dazu die Gemeinde",
-      "text": "Die kantonale Hundesteuer beträgt CHF 100 pro Hund. Dazu kommen CHF 5 für Verwaltungskosten und den Beitrag an die Kollektivhaftpflichtversicherung. Die Oberämter erheben sie. Deine Gemeinde kann zusätzlich eine eigene Hundesteuer verlangen, höchstens CHF 200 pro Tier und Jahr.",
+      "wert": "CHF 100 an den Kanton, dazu je nach Gemeinde",
+      "text": "Die kantonale Hundesteuer beträgt CHF 100 pro Hund. Dazu kommen CHF 5 für Verwaltungskosten und den Beitrag an die Kollektivhaftpflichtversicherung. Die Oberämter erheben sie. Deine Gemeinde kann zusätzlich eine eigene Hundesteuer verlangen, höchstens CHF 200 pro Tier und Jahr. Sie kann auch darauf verzichten.",
       "quellen": [
         "fr_steuer",
         "fr_hhg"
@@ -85,7 +85,7 @@
       "marke": "Verbot",
       "ton": "must",
       "wert": "Hunde des Typs Pitbull",
-      "text": "Hunde des Typs Pitbull und ihre Kreuzungen sind verboten: Haltung, Zucht, Abgabe, Handel und Verbringen in den Kanton. Erlaubt ist nur ein vorübergehender Aufenthalt von höchstens 90 Tagen, an der Leine und mit Maulkorb. Bewilligungspflichtige Rassen gibt es seit 1. Januar 2024 nicht mehr.",
+      "text": "Hunde des Typs Pitbull und ihre Kreuzungen sind verboten: Haltung, Zucht, Abgabe, Handel und Verbringen in den Kanton. Das Gesetz erlaubt einen vorübergehenden Aufenthalt von höchstens 90 Tagen, an der Leine und mit Maulkorb. Bewilligungspflichtige Rassen gibt es seit 1. Januar 2024 nicht mehr.",
       "quellen": [
         "fr_hhg",
         "fr_verboten"
@@ -106,13 +106,13 @@
   "vergleich": {
     "wald": "1.4. bis 15.7., im Wald",
     "haft": "Pflicht, mind. CHF 1 Mio.",
-    "kurs": "Theorie für Ersthaltende, Praxistest mit jedem neuen Hund",
+    "kurs": "Theorie für Ersthaltende, Praxistest mit neuen Hunden, die nach dem 1.1.2024 geboren sind",
     "rassen": "Typ Pitbull und Kreuzungen verboten",
-    "steuer": "CHF 100 an den Kanton, dazu die Gemeinde",
+    "steuer": "CHF 100 an den Kanton, dazu je nach Gemeinde",
     "anm": "innert 10 Tagen, Gemeinde und AMICUS"
   },
   "umzug": {
-    "text": "Ein Hund des Typs Pitbull oder eine Kreuzung damit darf nicht in den Kanton ziehen. Erlaubt ist nur ein Aufenthalt von höchstens 90 Tagen, an der Leine und mit Maulkorb.",
+    "text": "Das Gesetz verbietet, einen Hund des Typs Pitbull oder eine Kreuzung damit in den Kanton zu bringen. Es erlaubt einen vorübergehenden Aufenthalt von höchstens 90 Tagen, an der Leine und mit Maulkorb. Ziehst du mit einem solchen Hund in den Kanton, wende dich vorher an das Amt für Lebensmittelsicherheit und Veterinärwesen (LSVW).",
     "quellen": [
       "fr_hhg",
       "fr_verboten"

@@ -2,13 +2,14 @@
   "id": "vs",
   "kurz": "VS",
   "uebersetzt_aus": "de",
-  "original": "76736c2608ff",
+  "original": "25852c55275b",
   "wald": {
     "saison": false,
-    "text": "L'Ausführungsgesetz zum Tierschutzgesetz (legge d'applicazione della legge sulla protezione degli animali) del Vallese non indica un obbligo di guinzaglio specifico per il bosco né una stagione. Fuori dalle località il tuo cane deve essere sotto controllo. Nelle zone protette e nelle zone naturali il guinzaglio può essere prescritto, tutto l'anno o per determinati periodi. Fai attenzione alla segnaletica sul posto.",
+    "text": "L'Ausführungsgesetz zum Tierschutzgesetz (legge d'applicazione della legge sulla protezione degli animali) del Vallese non indica un obbligo di guinzaglio specifico per il bosco né una stagione. Fuori dalle località il tuo cane deve essere sotto controllo. Nelle zone protette e nelle zone naturali il guinzaglio può essere prescritto, tutto l'anno o per determinati periodi. Nelle bandite federali di caccia i cani vanno tenuti al guinzaglio (stato della pagina dell'Ufficio federale dell'ambiente: 5 settembre 2024). Fai attenzione alla segnaletica sul posto.",
     "quellen": [
       "vs_agtschg",
-      "vs_vet_sicherheit"
+      "vs_vet_sicherheit",
+      "ch_bafu_jagdbann"
     ]
   },
   "leine": {
@@ -19,12 +20,14 @@
       "nei luoghi molto frequentati e nelle immediate vicinanze di strade molto trafficate o con scarsa visibilità",
       "in prossimità di animali da reddito",
       "nei luoghi con obbligo di guinzaglio segnalato e nelle zone protette e naturali in cui il guinzaglio è prescritto",
+      "nelle bandite federali di caccia",
       "in tutti gli altri luoghi: tenere il cane sotto controllo"
     ],
     "quellen": [
       "vs_agtschg",
       "vs_vet_sicherheit",
-      "vs_vet_hundewesen"
+      "vs_vet_hundewesen",
+      "ch_bafu_jagdbann"
     ]
   },
   "verbot": {

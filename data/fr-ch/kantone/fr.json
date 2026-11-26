@@ -55,7 +55,7 @@
       "marke": "Obligatoire",
       "ton": "must",
       "wert": "Théorie et évaluation pratique",
-      "text": "Depuis le 1er janvier 2024. Si vous n'avez jamais eu de chien ou plus depuis dix ans, vous suivez un cours théorique d'au moins cinq heures avant de détenir le chien. Chaque chien nouvellement détenu passe avec vous une évaluation pratique de conductibilité auprès d'un éducateur ou d'une éducatrice, dans les 18 mois suivant son inscription dans AMICUS. Les chiens d'aide et de police en sont dispensés.",
+      "text": "Depuis le 1er janvier 2024. Si vous n'avez jamais eu de chien ou plus depuis dix ans, vous suivez un cours théorique d'au moins cinq heures avant de détenir le chien. Un chien nouvellement détenu passe avec vous une évaluation pratique de conductibilité auprès d'un éducateur ou d'une éducatrice, dans les 18 mois suivant son inscription dans AMICUS. Cette évaluation ne s'applique qu'aux chiens nés après l'entrée en vigueur de la règle, le 1er janvier 2024. Les chiens d'aide et de police en sont dispensés.",
       "quellen": [
         "fr_ldch",
         "fr_rdch",
@@ -77,8 +77,8 @@
       "titel": "Impôt sur les chiens",
       "marke": "annuel",
       "ton": "note",
-      "wert": "CHF 100 au canton, plus la commune",
-      "text": "L'impôt cantonal est de CHF 100 par chien et par année. S'y ajoutent CHF 5 pour l'émolument administratif et la contribution à l'assurance collective. Il est perçu par les préfectures. Votre commune peut prélever en plus son propre impôt, au maximum CHF 200 par an et par animal.",
+      "wert": "CHF 100 au canton, en plus selon la commune",
+      "text": "L'impôt cantonal est de CHF 100 par chien et par année. S'y ajoutent CHF 5 pour l'émolument administratif et la contribution à l'assurance collective. Il est perçu par les préfectures. Votre commune peut prélever en plus son propre impôt, au maximum CHF 200 par an et par animal. Elle peut aussi y renoncer.",
       "quellen": [
         "fr_rdch",
         "fr_impot",
@@ -90,7 +90,7 @@
       "marke": "Interdiction",
       "ton": "must",
       "wert": "Chiens de type pitbull",
-      "text": "Les chiens de type pitbull et leurs croisements sont interdits: détention, élevage, cession, commerce et introduction dans le canton. Seul un séjour temporaire de 90 jours au maximum est admis, en laisse et avec muselière. L'ancienne autorisation de détention pour certaines races est abrogée depuis le 1er janvier 2024.",
+      "text": "Les chiens de type pitbull et leurs croisements sont interdits: détention, élevage, cession, commerce et introduction dans le canton. La loi admet un séjour temporaire de 90 jours au maximum, en laisse et avec muselière. L'ancienne autorisation de détention pour certaines races est abrogée depuis le 1er janvier 2024.",
       "quellen": [
         "fr_ldch",
         "fr_interdits"
@@ -112,13 +112,13 @@
   "vergleich": {
     "wald": "1.4 au 15.7, en forêt",
     "haft": "obligatoire, min. CHF 1 million",
-    "kurs": "théorie pour les nouveaux détenteurs, évaluation pratique pour chaque chien",
+    "kurs": "théorie pour les nouveaux détenteurs, évaluation pratique pour les chiens nés après le 1.1.2024",
     "rassen": "type pitbull et croisements interdits",
-    "steuer": "CHF 100 au canton, plus la commune",
+    "steuer": "CHF 100 au canton, en plus selon la commune",
     "anm": "dans les 10 jours, commune et AMICUS"
   },
   "umzug": {
-    "text": "Un chien de type pitbull ou issu d'un croisement avec un tel chien ne peut pas s'installer dans le canton. Seul un séjour de 90 jours au maximum est admis, en laisse et avec muselière.",
+    "text": "La loi interdit d'introduire dans le canton un chien de type pitbull ou issu d'un croisement avec un tel chien. Elle admet un séjour temporaire de 90 jours au maximum, en laisse et avec muselière. Si vous déménagez dans le canton avec un tel chien, adressez-vous d'abord au Service de la sécurité alimentaire et des affaires vétérinaires (SAAV).",
     "quellen": [
       "fr_ldch",
       "fr_interdits"

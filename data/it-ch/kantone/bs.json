@@ -2,7 +2,7 @@
   "id": "bs",
   "kurz": "BS",
   "uebersetzt_aus": "de",
-  "original": "6cf3a886b7a4",
+  "original": "6ec9956ed5a9",
   "wald": {
     "saison": true,
     "von": "04-01",
@@ -21,13 +21,14 @@
       "nelle strade e nelle piazze molto frequentate",
       "ai mercati",
       "per le femmine durante il calore",
-      "ovunque un cartello indichi l'obbligo di guinzaglio",
+      "ovunque un cartello indichi l'obbligo di guinzaglio. Un regolamento del Veterinäramt (ufficio veterinario) indica questi luoghi per Basilea, Riehen e Bettingen. A Bettingen si tratta del Mattenwegli, compreso il piazzale davanti all'entrata della piscina (stato del regolamento: 21 marzo 2024).",
       "nelle zone di tranquillità e di protezione della selvaggina"
     ],
     "quellen": [
       "bs_huv",
       "bs_vet",
-      "bs_wjg"
+      "bs_wjg",
+      "bs_regl"
     ]
   },
   "verbot": {
@@ -123,7 +124,7 @@
       "marke": "Regola",
       "ton": "note",
       "wert": "escrementi e multa",
-      "text": "Raccogli gli escrementi del tuo cane con un sacchetto e li getti in un contenitore per i rifiuti. Vale sul suolo pubblico e sulle superfici agricole. È vietato fare il bagno ai cani nelle fontane pubbliche. In caso di infrazione all'obbligo di guinzaglio, al divieto per i cani o all'obbligo di raccogliere gli escrementi, la polizia cantonale infligge una multa di CHF 100.",
+      "text": "Raccogli gli escrementi del tuo cane con un sacchetto e li getti in un contenitore per i rifiuti. Vale sul suolo pubblico e sulle superfici agricole. Nelle fontane pubbliche è vietato fare il bagno al tuo cane, pulirlo o lasciarlo fare il bagno. In caso di infrazione all'obbligo di guinzaglio, al divieto per i cani o all'obbligo di raccogliere gli escrementi, la polizia cantonale infligge una multa di CHF 100.",
       "quellen": [
         "bs_huv",
         "bs_vet"

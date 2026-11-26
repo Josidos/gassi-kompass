@@ -2,7 +2,7 @@
   "id": "bs",
   "kurz": "BS",
   "uebersetzt_aus": "de",
-  "original": "6cf3a886b7a4",
+  "original": "6ec9956ed5a9",
   "wald": {
     "saison": true,
     "von": "04-01",
@@ -21,13 +21,14 @@
       "sur les rues et les places très fréquentées",
       "sur les marchés",
       "pour les chiennes pendant les chaleurs",
-      "partout où un panneau indique la laisse obligatoire",
+      "partout où un panneau indique la laisse obligatoire. Un règlement du Veterinäramt (office vétérinaire) désigne ces lieux pour Bâle, Riehen et Bettingen. À Bettingen, il s'agit du Mattenwegli, y compris l'esplanade devant l'entrée de la piscine (état du règlement : 21 mars 2024).",
       "dans les zones de tranquillité et de protection de la faune"
     ],
     "quellen": [
       "bs_huv",
       "bs_vet",
-      "bs_wjg"
+      "bs_wjg",
+      "bs_regl"
     ]
   },
   "verbot": {
@@ -123,7 +124,7 @@
       "marke": "Règle",
       "ton": "note",
       "wert": "crottes et amende",
-      "text": "Vous ramassez les crottes de votre chien avec un sachet et les jetez dans une poubelle. Cela vaut sur le domaine public et sur les surfaces agricoles. Il est interdit de baigner les chiens dans les fontaines publiques. En cas d'infraction à la laisse obligatoire, à l'interdiction des chiens ou à l'obligation de ramasser les crottes, la police cantonale inflige une amende de CHF 100.",
+      "text": "Vous ramassez les crottes de votre chien avec un sachet et les jetez dans une poubelle. Cela vaut sur le domaine public et sur les surfaces agricoles. Dans les fontaines publiques, il est interdit de baigner ou de nettoyer votre chien, ou de l'y laisser se baigner. En cas d'infraction à la laisse obligatoire, à l'interdiction des chiens ou à l'obligation de ramasser les crottes, la police cantonale inflige une amende de CHF 100.",
       "quellen": [
         "bs_huv",
         "bs_vet"
