@@ -2,6 +2,15 @@
 
 Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen.
 
+## 2026-11-26, Sitzung mit Joss: tote neue Quelle am selben Abend ersetzt (Basel-Stadt)
+
+- Link-Prüfung gleich nach dem Push (18:37 Uhr): 315 Quellen, 311 in Ordnung, 2 tot, 0 Verdacht, 2 unklar (`bl_wald` 403, `sz_einsiedeln_formular` 503, beide wie am Morgen). Tot sind `be_oce_fr` (bekannt) und die eben erst aufgenommene Quelle `bs_regl`: Die Adresse des Reglements SG 365.150 unter bs.lexwork.naz.ch antwortet mit 404. Im Browser bestätigt («Not Found»). WebFetch hatte das Dokument kurz zuvor noch geliefert.
+- Ersetzt: Die Liste «Hundeverbots- und Leinenpflichtzonen» des Gesundheitsdepartements (`bs_zonen`, verlinkt von der Seite des Veterinäramts, Stand der Seite 28. Oktober 2026, Link in Ordnung) trägt denselben Eintrag. Neu abgerufen: Unter Leinenpflicht steht für Bettingen «Mattenwegli inkl. Vorplatz Schwimmbadeingang», unter Hundeverbot steht für Bettingen nichts. Die Einträge für Riehen stimmen mit dem überein, was der Abruf des Reglements gezeigt hatte.
+- Geändert auf der Kantonsseite Basel-Stadt, Liste zur Leine. Alt: «Ein Reglement des Veterinäramts nennt diese Orte für Basel, Riehen und Bettingen. … (Stand des Reglements: 21. März 2024).» Neu: «Eine Liste des Kantons nennt diese Orte für Basel, Riehen und Bettingen. In Bettingen ist es das Mattenwegli samt Vorplatz des Schwimmbadeingangs.» Quelle `bs_zonen` statt `bs_regl`. Beide Übersetzungen nachgeführt. Die Quelle `bs_regl` ist wieder entfernt. Die Seite war etwa eine halbe Stunde mit dem toten Link online.
+- Ob das Reglement SG 365.150 noch gilt, liess sich nicht klären: Die Erlass-Sammlung des Kantons ist für den Abruf nicht lesbar, LexFind zeigt nur den Stand von 2015 mit anderen Orten für Bettingen. Die Seite stützt sich darum nur auf die Liste.
+- Handbuch, «Link-Prüfung»: Kommt eine neue Quelle dazu, läuft die Link-Prüfung nach dem Push nochmals.
+- Stand: 26 Kantone, 63 Gemeinden, 314 Quellen, 294 Seiten. Keine Übersetzung fehlt. Build und Browser-Test fehlerfrei.
+
 ## 2026-11-26, Sitzung mit Joss: Antworten von Basel-Stadt, Freiburg und Wallis eingearbeitet
 
 Postfach um 18:15 Uhr gelesen (im Browser von Joss): drei neue Antworten auf die zweite Runde, alle mit Hinweisen. Jeder Hinweis ist mit der amtlichen Quelle verglichen. Im Spam nichts Neues.

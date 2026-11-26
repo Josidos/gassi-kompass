@@ -2,7 +2,7 @@
   "id": "bs",
   "kurz": "BS",
   "uebersetzt_aus": "de",
-  "original": "6ec9956ed5a9",
+  "original": "5d45b17e260d",
   "wald": {
     "saison": true,
     "von": "04-01",
@@ -21,14 +21,14 @@
       "nelle strade e nelle piazze molto frequentate",
       "ai mercati",
       "per le femmine durante il calore",
-      "ovunque un cartello indichi l'obbligo di guinzaglio. Un regolamento del Veterinäramt (ufficio veterinario) indica questi luoghi per Basilea, Riehen e Bettingen. A Bettingen si tratta del Mattenwegli, compreso il piazzale davanti all'entrata della piscina (stato del regolamento: 21 marzo 2024).",
+      "ovunque un cartello indichi l'obbligo di guinzaglio. Un elenco del Cantone indica questi luoghi per Basilea, Riehen e Bettingen. A Bettingen si tratta del Mattenwegli, compreso il piazzale davanti all'entrata della piscina.",
       "nelle zone di tranquillità e di protezione della selvaggina"
     ],
     "quellen": [
       "bs_huv",
       "bs_vet",
       "bs_wjg",
-      "bs_regl"
+      "bs_zonen"
     ]
   },
   "verbot": {

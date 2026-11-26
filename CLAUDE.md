@@ -149,6 +149,7 @@ WebFetch beweist nicht, dass ein Link funktioniert: Am 18. November 2026 liefert
 - Findet die Suche nur die alte Adresse: nichts ändern, den Eintrag stehen lassen und im Protokoll festhalten. Nach dem dritten Lauf ohne Ersatz kommt die Quelle in den Bericht, damit Joss die Adresse im Browser anklickt.
 - «UNKLAR» (403, Zeitüberschreitung): nur ins Protokoll. Viele Ämter weisen Abrufe von Programmen oder aus dem Ausland ab, der Link kann für Leserinnen und Leser trotzdem funktionieren. Steht dieselbe Quelle in drei Läufen hintereinander als «UNKLAR» im Protokoll, kommt sie in den Bericht.
 - Lässt sich die Action nicht auslösen oder ist sie nach sechs Minuten nicht fertig: überspringen und im Protokoll festhalten. Ersetzte Adressen prüft der nächste Lauf.
+- Kommt in einem Lauf oder in einer Sitzung eine neue Quelle dazu, die Link-Prüfung nach dem Push nochmals auslösen und die neuen Schlüssel nachsehen. Steht einer als «TOT» oder «VERDACHT» da, im selben Lauf ersetzen. Am 26. November 2026 lieferte WebFetch ein Reglement des Kantons Basel-Stadt aus, dessen Adresse im Browser «Not Found» zeigte. Die Prüfung nach dem Push fand es innert Minuten.
 - Vor jedem Anschreiben an ein Amt läuft die Link-Prüfung. Die Seite des Kantons darf dann keine Quelle mit «TOT» oder «VERDACHT» haben.
 
 ### Hinweise zur Recherche
