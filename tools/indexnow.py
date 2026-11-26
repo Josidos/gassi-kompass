@@ -21,7 +21,9 @@ import urllib.request
 
 WURZEL = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = "https://gassi-kompass.ch"
-ZIEL = "https://api.indexnow.org/indexnow"
+# Jede Stelle gibt die Meldung an die anderen weiter. Die zweite ist nur der Ersatz, falls die erste ablehnt.
+ZIELE = ["https://api.indexnow.org/indexnow", "https://www.bing.com/indexnow"]
+AGENT = "Mozilla/5.0 (compatible; gassi-kompass-indexnow/1.0; +https://gassi-kompass.ch/ueber/)"
 
 
 def schluessel():
@@ -74,17 +76,31 @@ def main():
     if not adressen:
         print("IndexNow: keine geänderten Seiten, nichts gemeldet.")
         return
+    # Erst prüfen, ob die Schlüsseldatei schon veröffentlicht ist. Sonst lehnt IndexNow mit 403 ab.
+    try:
+        with urllib.request.urlopen(urllib.request.Request(f"{SITE}/{key}.txt", headers={"User-Agent": AGENT}), timeout=30) as r:
+            inhalt = r.read(200).decode("utf-8", "ignore").strip()
+            print(f"Schlüsseldatei: Antwort {r.status}, Inhalt {'stimmt' if inhalt == key else 'stimmt nicht'}.")
+            if inhalt != key:
+                return
+    except Exception as e:
+        print(f"Schlüsseldatei nicht abrufbar ({getattr(e, 'code', type(e).__name__)}). Nichts gemeldet, der nächste Push meldet neu.")
+        return
     daten = json.dumps({"host": "gassi-kompass.ch", "key": key, "keyLocation": f"{SITE}/{key}.txt",
                         "urlList": adressen}).encode("utf-8")
-    req = urllib.request.Request(ZIEL, data=daten, method="POST",
-                                 headers={"Content-Type": "application/json; charset=utf-8"})
-    try:
-        with urllib.request.urlopen(req, timeout=30) as r:
-            print(f"IndexNow: {len(adressen)} Adressen gemeldet, Antwort {r.status}.")
-    except urllib.error.HTTPError as e:
-        print(f"IndexNow: {len(adressen)} Adressen gesendet, Antwort {e.code} ({e.reason}). Nichts weiter nötig, der nächste Push meldet neu.")
-    except Exception as e:  # Netz, Zeitüberschreitung
-        print(f"IndexNow: nicht erreichbar ({type(e).__name__}). Der nächste Push meldet neu.")
+    for ziel in ZIELE:
+        req = urllib.request.Request(ziel, data=daten, method="POST",
+                                     headers={"Content-Type": "application/json; charset=utf-8", "User-Agent": AGENT})
+        try:
+            with urllib.request.urlopen(req, timeout=30) as r:
+                print(f"IndexNow ({ziel}): {len(adressen)} Adressen gemeldet, Antwort {r.status}.")
+                return
+        except urllib.error.HTTPError as e:
+            text = e.read(300).decode("utf-8", "ignore").replace("\n", " ")
+            print(f"IndexNow ({ziel}): {len(adressen)} Adressen gesendet, Antwort {e.code} ({e.reason}). {text}")
+        except Exception as e:  # Netz, Zeitüberschreitung
+            print(f"IndexNow ({ziel}): nicht erreichbar ({type(e).__name__}).")
+    print("IndexNow: keine Stelle hat angenommen. Nichts weiter nötig, der nächste Push meldet neu.")
 
 
 if __name__ == "__main__":
