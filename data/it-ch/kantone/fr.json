@@ -2,7 +2,7 @@
   "id": "fr",
   "kurz": "FR",
   "uebersetzt_aus": "de",
-  "original": "ef80142d2238",
+  "original": "259b59d0e6d5",
   "wald": {
     "saison": true,
     "von": "04-01",
@@ -110,7 +110,7 @@
     "anm": "entro 10 giorni, Comune e AMICUS"
   },
   "umzug": {
-    "text": "La legge vieta di introdurre nel Cantone un cane di tipo pitbull o un suo incrocio. Ammette un soggiorno temporaneo di al massimo 90 giorni, al guinzaglio e con la museruola. Se ti trasferisci nel Cantone con un cane di questo tipo, rivolgiti prima all'Amt für Lebensmittelsicherheit und Veterinärwesen (LSVW, ufficio della sicurezza alimentare e degli affari veterinari).",
+    "text": "La legge vieta di introdurre nel Cantone un cane di tipo pitbull o un suo incrocio. Ammette un soggiorno temporaneo di al massimo 90 giorni, al guinzaglio e con la museruola. Se ti trasferisci nel Cantone con un cane di questo tipo, rivolgiti prima all'Amt für Lebensmittelsicherheit und Veterinärwesen (LSVW, ufficio della sicurezza alimentare e degli affari veterinari). Secondo un'informazione dell'ufficio del 26 novembre 2026, la detenzione può eventualmente essere autorizzata se dimostri all'ufficio che il cane fa parte delle tue masserizie di trasloco. Questa possibilità non figura nella legge: solo l'ufficio può dirti che cosa vale nel tuo caso.",
     "quellen": [
       "fr_hhg",
       "fr_verboten"

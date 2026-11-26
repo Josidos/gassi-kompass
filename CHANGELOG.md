@@ -2,6 +2,15 @@
 
 Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen.
 
+## 2026-11-26, Sitzung mit Joss: Auskünfte der Ämter auf den Seiten vermerkt (Entscheid von Joss)
+
+- Entscheid von Joss (18:52 Uhr): Was die zuständige Stelle per Mail bestätigt hat und in keinem veröffentlichten Text steht, soll auf der Seite stehen, zurückhaltend formuliert und mit dem Verweis, sich an das Amt zu wenden. Bisher galt ohne Ausnahme: nur Angaben mit veröffentlichter amtlicher Quelle. Die Ausnahme und ihre Grenzen stehen im Handbuch unter «Postfach und Antworten der Ämter» und unter «Freigaben».
+- Freiburg, Zuzug in den Kanton (französische und deutsche Originalfassung, italienische Übersetzung). Der Verweis an das Amt bleibt. Neu dazu: «Laut einer Auskunft des Amts vom 26. November 2026 kann die Haltung unter Umständen bewilligt werden, wenn du dem Amt belegst, dass der Hund zu deinem Umzugsgut gehört. Im Gesetz steht diese Möglichkeit nicht: Nur das Amt kann dir sagen, was in deinem Fall gilt.» Die Karte «Rassen» bleibt beim Wortlaut des Gesetzes.
+- Wallis, Liste zur Leine (beide Originalfassungen, italienische Übersetzung). Neu beim Punkt zu den eidgenössischen Jagdbanngebieten: Laut einer Auskunft des kantonalen Veterinäramts vom 26. November 2026 haben Jagdbanngebiete und Naturpärke eigene Regeln, für die es nicht zuständig ist, mit dem Verweis an die Dienststelle für Jagd, Fischerei und Wildtiere oder den Park. Der Name der Dienststelle ist auf vs.ch nachgesehen.
+- Neuenburg hat um 18:48 Uhr geantwortet: Die Angaben zum Hundegesetz sind laut Amt korrekt. Zum Teil, der sich auf die loi sur la faune sauvage stützt (Leinenpflicht im Wald), äussert es sich nicht und verweist an den Service de la faune, des forêts et de la nature. Die Seite stützt sich dort auf dieses Gesetz und auf die Mitteilung des Departements. Keine Änderung.
+- Idee von Joss für später: das Ganze als App für App Store und Play Store. Im Backlog, Abschnitt 8.
+- `geprueft` bleibt stehen. Keine neue Quelle. Build und Browser-Test fehlerfrei.
+
 ## 2026-11-26, Sitzung mit Joss: tote neue Quelle am selben Abend ersetzt (Basel-Stadt)
 
 - Link-Prüfung gleich nach dem Push (18:37 Uhr): 315 Quellen, 311 in Ordnung, 2 tot, 0 Verdacht, 2 unklar (`bl_wald` 403, `sz_einsiedeln_formular` 503, beide wie am Morgen). Tot sind `be_oce_fr` (bekannt) und die eben erst aufgenommene Quelle `bs_regl`: Die Adresse des Reglements SG 365.150 unter bs.lexwork.naz.ch antwortet mit 404. Im Browser bestätigt («Not Found»). WebFetch hatte das Dokument kurz zuvor noch geliefert.
