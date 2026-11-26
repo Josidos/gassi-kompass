@@ -2,6 +2,17 @@
 
 Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen.
 
+## 2026-11-26, Sitzung mit Joss: Dank an die Ämter und Antwort an eine private Website verschickt
+
+- Nach dem Ja von Joss (18:52 Uhr: «kannst du die Mails direkt absenden», dazu der Wunsch, alle Mails zu beantworten) über das Postfach kontakt@gassi-kompass.ch in seinem Browser verschickt, jede als Antwort im selben Mailverlauf: Bern 18:58 Uhr, Zug 18:59, Luzern 18:59, Appenzell Ausserrhoden mit Innerrhoden 19:00, Basel-Stadt 19:01, Wallis 19:01, Neuenburg 19:02, private Website zur Zürcher Theorieprüfung 19:03, Freiburg 19:08. Neun Mails. Nachgezählt im Ordner der gesendeten Nachrichten: 26 statt 17.
+- Wortlaut wie auf der Seite «Prüfbitten Runde 2», mit zwei Abweichungen. Der Dank an Neuenburg ist neu (zwei Zeilen, keine Aussage zur Sache), weil die Antwort erst um 18:48 Uhr kam. Im Dank an Freiburg sagt der Punkt zum Typ Pitbull zusätzlich, dass die Seite die Auskunft des Amts vermerkt, und der Schlusssatz lautet neu «Pour toutes les autres indications, le site cite une source officielle publiée.» Beides folgt aus dem Entscheid von Joss zu den Auskünften der Ämter. Die Mail an Freiburg ging erst raus, als die geänderte Seite online war.
+- Mit Rückfrage: Freiburg (veröffentlichte Grundlage für die Bewilligung bei Umzugsgut) und Wallis (Seite mit den Regeln für Jagdbanngebiete und Naturpärke).
+- Nicht verschickt: die Frage an Bern, Appenzell und Luzern, ob die Seite ihre Durchsicht erwähnen darf. Joss hat sie nicht ausdrücklich gewählt.
+- Die private Website bekam die Antwort «Link»: Sie darf den Vergleich der Kurspflicht verlinken, Gassi-Kompass nimmt keinen Link auf.
+- Keine Antwort bekommen: St. Gallen (prüft nicht), die automatischen Eingangsbestätigungen, die Werbemails und eine private Nachricht. Freiburg hat auf den Dank um 19:08 Uhr wieder eine automatische Bestätigung geschickt.
+- Erste Runde: Im Ordner der gesendeten Nachrichten liegt nichts aus der ersten Runde. Ob Solothurn, Tessin und Thurgau schon einen Dank bekommen haben, weiss nur Joss.
+- Stand der zweiten Runde: 5 bestätigt (BE, AR mit AI, LU, ZG, NE), 3 mit Hinweisen (BS, FR, VS), 1 prüft nicht (SG), 5 nur Eingangsbestätigung (AG, GR mit GL, UR mit SZ, OW und NW, ZH, GE), 2 noch nichts (SH, VD).
+
 ## 2026-11-26, Sitzung mit Joss: Auskünfte der Ämter auf den Seiten vermerkt (Entscheid von Joss)
 
 - Entscheid von Joss (18:52 Uhr): Was die zuständige Stelle per Mail bestätigt hat und in keinem veröffentlichten Text steht, soll auf der Seite stehen, zurückhaltend formuliert und mit dem Verweis, sich an das Amt zu wenden. Bisher galt ohne Ausnahme: nur Angaben mit veröffentlichter amtlicher Quelle. Die Ausnahme und ihre Grenzen stehen im Handbuch unter «Postfach und Antworten der Ämter» und unter «Freigaben».
