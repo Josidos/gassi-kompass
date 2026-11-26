@@ -72,8 +72,10 @@ THEMEN = [
     {"id": "anmeldung", "key": "anm", "karte": 2},
 ]
 MIN_LOKAL = 3  # so viele belegte lokale Angaben braucht eine Gemeinde für eine eigene Seite
-# Feste Dateien, die nie fehlen dürfen: Domain, Pages-Schalter, Bestätigung für die Google Search Console
-FEST = ["CNAME", ".nojekyll", "google49e2be530ce3822a.html"]
+# Feste Dateien, die nie fehlen dürfen: Domain, Pages-Schalter, Bestätigung für die Google Search Console,
+# Schlüssel für IndexNow (tools/indexnow.py) und die Vorschaubilder für geteilte Links (tools/teilbild.js)
+FEST = ["CNAME", ".nojekyll", "google49e2be530ce3822a.html", "153c0b46fbcd82162492ea0b2d9f2b72.txt",
+        "assets/teilen-de.png", "assets/teilen-fr.png", "assets/teilen-it.png"]
 # Kontaktadresse des Projekts, von Joss freigegeben (siehe CLAUDE.md, «Freigaben»). Keine andere Adresse einsetzen.
 KONTAKT = "kontakt@gassi-kompass.ch"
 # Alle 26 Kantone. Für Kantone ohne Datei in data/kantone/ führt die Seite zu den Regeln des Bundes.
@@ -155,6 +157,7 @@ TEXTE = {
         "monate": MONATE, "mon3": MON3,
         "wochentage": ["Sonntag", "Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag"],
         "start": "Start", "pfad": "Pfad", "sprachwahl": "Sprache",
+        "teilbild": "Gassi-Kompass: Hunderegeln der Schweiz nach Kanton und Gemeinde",
         "stempel": "Angaben geprüft am {d}",
         "quelle": "Quelle:", "quellen": "Quellen:",
         "fuss_recht": "<strong>Keine Rechtsberatung.</strong> Massgebend sind Gesetz, Verordnung und die Schilder vor Ort. Gassi-Kompass ist ein privates Projekt und kein Angebot eines Kantons oder einer Gemeinde.",
@@ -347,6 +350,7 @@ TEXTE = {
         "mon3": ["janv", "févr", "mars", "avr", "mai", "juin", "juil", "août", "sept", "oct", "nov", "déc"],
         "wochentage": ["dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"],
         "start": "Accueil", "pfad": "Fil d'Ariane", "sprachwahl": "Langue",
+        "teilbild": "Gassi-Kompass : les règles pour les chiens en Suisse, par canton et par commune",
         "stempel": "Vérifié le {d}",
         "quelle": "Source :", "quellen": "Sources :",
         "fuss_recht": "<strong>Pas un conseil juridique.</strong> Font foi la loi, l'ordonnance et la signalisation sur place. Gassi-Kompass est un projet privé et non une offre d'un canton ou d'une commune.",
@@ -539,6 +543,7 @@ TEXTE = {
         "mon3": ["gen", "feb", "mar", "apr", "mag", "giu", "lug", "ago", "set", "ott", "nov", "dic"],
         "wochentage": ["domenica", "lunedì", "martedì", "mercoledì", "giovedì", "venerdì", "sabato"],
         "start": "Inizio", "pfad": "Percorso", "sprachwahl": "Lingua",
+        "teilbild": "Gassi-Kompass: le regole per i cani in Svizzera, per Cantone e Comune",
         "stempel": "Verificato il {d}",
         "quelle": "Fonte:", "quellen": "Fonti:",
         "fuss_recht": "<strong>Nessuna consulenza legale.</strong> Fanno stato la legge, l'ordinanza e la segnaletica sul posto. Gassi-Kompass è un progetto privato e non un'offerta di un Cantone o di un Comune.",
@@ -1471,6 +1476,11 @@ def seite(pfad, titel, beschr, inhalt, krumen, stand, benutzt, Q, index=True, al
               + json.dumps({"@context": "https://schema.org", "@type": "BreadcrumbList",
                             "itemListElement": liste}, ensure_ascii=False)
               + '</script>')
+    if pfad == "/":
+        ld = ('<script type="application/ld+json">'
+              + json.dumps({"@context": "https://schema.org", "@type": "WebSite", "name": "Gassi-Kompass",
+                            "url": SITE + "/"}, ensure_ascii=False)
+              + '</script>')
     stempel = f'<span class="stamp">{S["stempel"].format(d=de_datum(stand))}</span>' if stand else ""
     # Sprachfassungen derselben Seite: hreflang im Kopf und ein Sprachwechsel, nur wo es die Seite gibt
     hreflang = ""
@@ -1501,6 +1511,12 @@ def seite(pfad, titel, beschr, inhalt, krumen, stand, benutzt, Q, index=True, al
 <meta property="og:type" content="website">
 <meta property="og:url" content="{SITE}{pfad}">
 <meta property="og:locale" content="{HTMLLANG[LANG].replace("-", "_")}">
+<meta property="og:site_name" content="Gassi-Kompass">
+<meta property="og:image" content="{SITE}/assets/teilen-{LANG}.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="{e(S["teilbild"])}">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="/assets/icon.svg" type="image/svg+xml">
 <link rel="preload" href="/assets/fonts/archivo.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/sourceserif4.woff2" as="font" type="font/woff2" crossorigin>

@@ -2,6 +2,20 @@
 
 Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen.
 
+## 2026-11-26, Sitzung mit Joss: Suchmaschinen, Vorschaubild, erste Suchdaten
+
+Anlass: Joss fragt nach den Werbemails im Postfach (Kundenstimmen, «Register in Search Engines», SEO-Dienste) und will, dass Claude das selbst macht.
+
+- Die sechs Mails gelesen: eine im Posteingang, fünf im Spam. Es sind Serienmails ohne Befund zur Seite. Eine «Analyse» trägt das Datum 2. September 2026, da gab es die Domain noch nicht. Keine beantwortet, nichts daraus übernommen.
+- Suchdaten zum ersten Mal ausgelesen (Search Console, nur gelesen): Google hat die Sitemap am 26. November gelesen und 294 Seiten erkannt. Die Seite wird in der Suche eingeblendet und hat erste Klicks. Das Abbruchkriterium vom 17. Februar 2027 ist damit schon heute nicht erfüllt. Der Bericht «Seitenindexierung» steht noch auf dem 16. November. Die Zahlen stehen nicht im Repository.
+- Gesucht wird wie erwartet nach Ort und Thema («Leinenpflicht Kanton …», «Hundesteuer …», «obligatorischer Hundekurs …»). Auf Französisch landen Fragen zu Pass und Impfungen auf der Seite des Bundes. Folgen für die Reihenfolge stehen im Backlog (Abschnitt 4 und 6).
+- Neu: IndexNow. `tools/indexnow.py` und die Action «IndexNow» melden nach jedem Push die geänderten Seiten an Bing und weitere Suchmaschinen. Schlüsseldatei an der Wurzel, `build.py --check` verlangt sie. Google nimmt IndexNow nicht an, dort läuft es über die Sitemap.
+- Neu: Vorschaubild für geteilte Links, eines je Sprache (`assets/teilen-de.png`, `-fr.png`, `-it.png`, erzeugt mit `tools/teilbild.js`). Im Kopf jeder Seite `og:image` samt Grösse und Beschreibung, `og:site_name` und `twitter:card`. Bisher zeigte ein geteilter Link nur Text.
+- Neu: Auf der Startseite steht der Name der Website als strukturierte Angabe (`WebSite`), damit Google ihn in den Treffern zeigt.
+- Nicht gemacht: Kundenstimmen. Die Seite hat keine Kunden, und erfundene Stimmen gibt es nie. Der echte Ersatz wäre ein Hinweis, dass ein Amt die Seite durchgesehen hat. Das geht nur mit dem Einverständnis des Amts und nach dem Ja von Joss (Backlog, Abschnitt 8).
+- Nicht gemacht: `x-default` bei `hreflang`. Der Test verlangt für jede Sprachangabe eine Seite in dieser Sprache, der Nutzen wäre klein.
+- Geprüft: Build und Browser-Test fehlerfrei, die drei Bilder angesehen. Adressen, Texte und Daten der Seiten unverändert.
+
 ## 2026-11-26, Sitzung mit Joss: zweite Runde verschickt, erste Antworten eingearbeitet
 
 - Link-Prüfung vor dem Versand (05:18 Uhr) und vor dem zweiten Teil (13:20 Uhr), beide gleich: 311 Quellen, 308 in Ordnung, 1 tot (`be_oce_fr`, steht nur auf der französischen Berner Seite, die Mail verlinkt sie nicht), 0 Verdacht, 2 unklar (`bl_wald` 403, `sz_einsiedeln_formular` 503).

@@ -243,7 +243,7 @@ Unklar, nur beobachten. Durchgang vom 18.11.2026: `bl_wald` (baselland.ch, Antwo
 - [ ] Stadt Luzern: Bussen mit einer Quelle nach 2022 belegen
 - [ ] Kanton Bern: «kein Kursobligatorium» mit einer Quelle des Kantons statt der Gemeinde Büren belegen
 - [ ] Kanton Bern: Entscheid des Grossen Rats von 2023 zur Wald-Leinenpflicht mit einer amtlichen Quelle (Ratsprotokoll) belegen
-- [ ] Kanton Zürich: Einzelheiten der Theorieprüfung (Zahl der Fragen, Dauer, Grenze zum Bestehen, Wiederholung) aus dem Prüfungsreglement und den Seiten des Veterinäramts belegen und in der Karte «Kurs» ergänzen. Anstoss: eine Zuschrift vom 26.11.2026. Sie ist keine Quelle.
+- [ ] Kanton Zürich, vordringlich: Einzelheiten der Theorieprüfung (Zahl der Fragen, Dauer, Grenze zum Bestehen, Wiederholung) aus dem Prüfungsreglement und den Seiten des Veterinäramts belegen und in der Karte «Kurs» ergänzen. Anstoss: eine Zuschrift vom 26.11.2026 (keine Quelle). Laut Suchdaten vom 26.11.2026 wird nach dem obligatorischen Hundekurs in Zürich gesucht, und die Themenseite Kurs wird schon angeklickt.
 - [ ] Kanton Genf: Die Seiten von ge.ch nennen die Stelle noch «SCAV». Beim Nachprüfen Namen (laut ROAC seit Oktober 2026 Direction de la sécurité sanitaire et de la santé environnementale) und Adresse für das Ausnahmegesuch abgleichen und den Zusatz «anciennement SCAV» streichen, sobald ge.ch umgestellt ist.
 
 - [ ] Kanton Aargau: Hundeverordnung (HuV, SAR 393.411) in der geltenden Fassung lesen. Der Lauf vom 2026-11-17 erreichte nur die Fassungen von 2014 und 2016. Danach ergänzen, falls unverändert: Deckungssumme der Haftpflicht für Listenhunde, Fristen für Kurs und Prüfung, halbe Taxe.
@@ -413,12 +413,14 @@ Aus dem Vergleich mit anderen Seiten. Erst angehen, wenn alle Kantone erfasst si
 - Kantone direkt vergleichen: zwei Kantone wählen und nur die Unterschiede sehen (für den Umzug).
 - Checkliste «Neu mit Hund» pro Kanton zum Abhaken und Drucken, erzeugt aus den Karten.
 - «Standort verwenden» in der Ortssuche. Die Koordinaten stehen im Ortschaftenverzeichnis.
-- Fragen als Überschriften («Braucht es im Kanton Zürich einen Hundekurs?»), sobald die Suchdaten zeigen, wie gefragt wird.
+- Fragen als Überschriften («Braucht es im Kanton Zürich einen Hundekurs?»), sobald die Suchdaten zeigen, wie gefragt wird. Stand 26.11.2026: Gesucht wird in Stichworten (Thema und Ort), nicht in ganzen Fragen. Vorerst nicht nötig.
+- Themenseite «Reisen und Einreise mit Hund» (Heimtierpass, Mikrochip, Tollwutimpfung) in drei Sprachen, aus den Seiten des BLV. Anlass: Laut Suchdaten vom 26.11.2026 landen französische Suchanfragen zu Pass und Impfungen auf der Seite des Bundes, die das nur in einer Karte behandelt.
 
 ## 7. Braucht Zugriff, den der Lauf nicht hat
 
 - Ortsverzeichnis `data/orte.json` auf den aktuellen Stand bringen. Es braucht die aktuelle CSV-Datei «Amtliches Ortschaftenverzeichnis» von swisstopo, dann `python3 tools/orte.py DATEI "Stand"`. Der Lauf kann die Datei nicht abrufen. Offen, bis Joss sie liefert oder Claude sie in einer Sitzung mit Browser holt.
-- Suchdaten aus der Google Search Console auswerten: macht Claude in einer Sitzung über den Browser von Joss.
+- Suchdaten aus der Google Search Console auswerten: macht Claude in einer Sitzung über den Browser von Joss. Erste Auslesung am 26.11.2026, nächste am 15.12.2026.
+- Bing Webmaster Tools: Die Seite dort eintragen (Import aus der Search Console), damit auch die Suchdaten von Bing sichtbar werden. Braucht ein Microsoft-Konto von Joss. Nicht dringend: IndexNow meldet die Seiten schon an Bing.
 - Postfach kontakt@gassi-kompass.ch lesen und beantworten: macht Joss, oder Claude in einer Sitzung über den Browser von Joss. Der Lauf hat keinen Zugriff darauf.
 
 ## 8. Später, nur nach Freigabe von Joss
@@ -426,4 +428,5 @@ Aus dem Vergleich mit anderen Seiten. Erst angehen, wenn alle Kantone erfasst si
 - Englisch und weitere Sprachen
 - Anzeigen und Affiliate-Links
 - Impressum und Datenschutzerklärung
+- Hinweis «vom Veterinärdienst durchgesehen» auf Kantonsseiten, deren Amt die Angaben bestätigt hat. Nur mit dem Einverständnis des Amts und so formuliert, dass die Seite nicht amtlich wirkt. Die Frage danach kann mit dem Dank an die Ämter rausgehen, wenn Joss zustimmt.
 - Anschreiben an Behörden, Vereine und Medien. Erste Runde am 18.11.2026 von Joss verschickt: Veterinärdienste SO, TG, BL, JU, TI. Antwort TG am 18.11.2026, eingearbeitet (siehe `CHANGELOG.md`). Antworten TI (Angaben korrekt, keine Änderung) und SO (Angaben korrekt, zwei Vorschläge eingearbeitet) am 21.11.2026. Offen: BL und JU. Für die nächste Runde: zuerst je Kanton klären, wer zuständig ist (im Thurgau die Gemeinden, das Veterinäramt nur für die Bewilligungen), und die Links der Kantonsseite mit einem echten Abruf prüfen. Zweite Runde am 26.11.2026 verschickt: 16 Mails an die Veterinärdienste der 21 übrigen Kantone, von Claude über das Postfach im Browser von Joss. Antworten am selben Tag: BE, AR mit AI, LU und ZG bestätigen (LU mit einem Hinweis, eingearbeitet), SG prüft keine privaten Seiten. Offen: AG, BS, GR mit GL, UR mit SZ, OW und NW, SH, ZH, FR, GE, NE, VD, VS. Aus der ersten Runde offen: BL und JU. Dank an die Ämter erst nach dem Ja von Joss. Zug: Für die Leinenpflicht im Wald ist das Amt für Wald und Wild zuständig, eine Prüfbitte dorthin braucht eine eigene Freigabe. Danach die 63 Gemeinden mit eigener Seite. Die französische Berner Seite erst verlinken, wenn `be_oce_fr` ersetzt ist.

@@ -32,6 +32,8 @@ Claude führt das Projekt wie einen Betrieb: Inhalt, Technik, Qualität und Stra
 | `assets/` | Stylesheet, Skripte (`heute.js` für den Wald-Status, `suche.js` für die Ortssuche), Schriften, Icon. Die Skripte kennen keine Sprache, ihre Texte kommen als data-Attribute aus `build.py`. |
 | `tests/seiten.js` | Browser-Test der gebauten Seiten |
 | `tools/links.py`, `.github/workflows/quellen.yml` | Link-Prüfung: fragt jede Adresse aus den Quellendateien mit einem echten Abruf ab. Siehe «Link-Prüfung». |
+| `tools/indexnow.py`, `.github/workflows/indexnow.yml`, `153c0b46fbcd82162492ea0b2d9f2b72.txt` | IndexNow: Nach jedem Push auf `main` meldet eine Action die geänderten Seiten an Bing und weitere Suchmaschinen. Die Schlüsseldatei an der Wurzel nie löschen oder umbenennen, `build.py --check` meldet einen Fehler, wenn sie fehlt. Die Action wird nie rot. Google nimmt IndexNow nicht an, dort läuft es über die Sitemap. |
+| `assets/teilen-de.png`, `assets/teilen-fr.png`, `assets/teilen-it.png`, `tools/teilbild.js` | Vorschaubild für geteilte Links (`og:image`), eines je Sprache, 1200 × 630 Pixel. Entsteht mit `node tools/teilbild.js`. Neu erzeugen nur, wenn sich Texte, Farben oder Schriften ändern, und danach ansehen. `build.py --check` meldet, wenn eines fehlt. |
 | `BACKLOG.md` | Was als Nächstes dran ist |
 | `CHANGELOG.md` | Protokoll jedes Laufs |
 | `CNAME`, `.nojekyll` | Domain und Schalter für GitHub Pages. Nie löschen oder ändern. |
@@ -310,7 +312,9 @@ Regeln für jede Seite:
 - Keine Seite ohne eigenen Inhalt. Jede Seite gibt es auf Deutsch, Französisch und Italienisch, siehe «Alle Sprachen überall».
 - Nichts auf der Seite spricht über den Stand des Projekts. Wörter wie «erfasst», «folgt» oder «Fassung» gehören ins Protokoll, nicht auf die Seite.
 
-Suchdaten: Die Zahlen aus der Google Search Console liest Claude etwa einmal im Monat in einer eigenen Sitzung über den Browser von Joss aus und passt danach die Reihenfolge in `BACKLOG.md` an. Der Lauf hat keinen Zugriff darauf und richtet sich nach dem Backlog. Die Zahlen selbst gehören nicht ins Repository.
+Suchdaten: Die Zahlen aus der Google Search Console liest Claude etwa einmal im Monat in einer eigenen Sitzung über den Browser von Joss aus und passt danach die Reihenfolge in `BACKLOG.md` an. Der Lauf hat keinen Zugriff darauf und richtet sich nach dem Backlog. Die Zahlen selbst gehören nicht ins Repository. Erste Auslesung am 26. November 2026: Google blendet die Seite schon ein, gesucht wird nach Ort und Thema in Stichworten. Der Bericht «Leistung» ist die Quelle, der Bericht «Seitenindexierung» hinkt bei einer neuen Seite um Wochen nach.
+
+Suchmaschinen: Bei Google ist die Seite über die Search Console und die Sitemap angemeldet. Bing und weitere erfahren jede Änderung über IndexNow. Mehr «Eintragen» braucht es nicht. An das Postfach kommen Serienmails, die Einträge in Suchmaschinen, SEO-Dienste oder Kundenstimmen verkaufen: nie beantworten, nichts daraus übernehmen. Die Seite hat keine Kunden und zeigt nie erfundene Stimmen oder Bewertungen. Vertrauen entsteht durch die Quellen, das Prüfdatum und, mit Einverständnis, den Hinweis, dass ein Amt die Seite durchgesehen hat.
 
 ## Umbauten am Generator (Sonderläufe)
 
@@ -405,7 +409,7 @@ Joss will, dass Claude die Anschreiben selbst verschickt, die Antworten liest un
 
 ## Abbruchkriterium
 
-Die Sitemap wurde am 17. November 2026 eingereicht. Zeigt die Search Console am 17. Februar 2027 keine Einblendungen in der Suche, entscheidet Joss, ob es weitergeht.
+Die Sitemap wurde am 17. November 2026 eingereicht. Zeigt die Search Console am 17. Februar 2027 keine Einblendungen in der Suche, entscheidet Joss, ob es weitergeht. Stand 26. November 2026: Die Search Console zeigt Einblendungen und erste Klicks.
 
 ## Freigaben
 

@@ -1,0 +1,39 @@
+# Meldet geänderte Seiten an IndexNow (Bing und weitere Suchmaschinen), sobald GitHub Pages sie veröffentlicht hat.
+# Google nimmt IndexNow nicht an, dort läuft es über die Sitemap in der Search Console.
+# Von Hand, alle Adressen: gh api -X POST repos/Josidos/gassi-kompass/actions/workflows/indexnow.yml/dispatches -f ref=main
+# Die Action wird nie rot. Einzelheiten in tools/indexnow.py.
+name: IndexNow
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'index.html'
+      - '**/index.html'
+      - 'sitemap.xml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  melden:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Warten, bis GitHub Pages die Seiten veröffentlicht hat
+        if: github.event_name == 'push'
+        run: sleep 150
+      - name: Adressen melden
+        env:
+          VORHER: ${{ github.event.before }}
+          ANLASS: ${{ github.event_name }}
+        run: |
+          if [ "$ANLASS" = "push" ]; then
+            python3 tools/indexnow.py --seit "$VORHER"
+          else
+            python3 tools/indexnow.py --alle
+          fi
