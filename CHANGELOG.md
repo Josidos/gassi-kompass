@@ -2,6 +2,14 @@
 
 Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen.
 
+## 2026-11-26, Sitzung mit Joss: Nachfrage an Bern, Appenzell und Luzern verschickt
+
+- Auf Anweisung von Joss (19:16 Uhr) die Frage nachgereicht, die beim Dank zurückgehalten war: ob die Seite erwähnen darf, dass das Amt die Zusammenfassung am 26. November 2026 durchgesehen hat. Drei kurze Mails über das Postfach kontakt@gassi-kompass.ch in seinem Browser, jede als Antwort im selben Mailverlauf: Appenzell Ausserrhoden mit Innerrhoden 19:18 Uhr, Luzern 19:19, Bern 19:19. Wortlaut: «Ein Nachtrag zu meinem Dank von vorhin: Darf ich auf der Seite erwähnen, dass Ihr Amt die Zusammenfassung am 26. November 2026 durchgesehen hat? Ohne Ihr Einverständnis schreibe ich nichts dazu.» An Appenzell für beide Seiten. Nachgezählt im Ordner der gesendeten Nachrichten: 29 statt 26, kein Entwurf offen.
+- Zug und Neuenburg wurden nicht gefragt: Beide haben nur den Teil bestätigt, für den sie zuständig sind, und verweisen für den Wald an ein anderes Amt.
+- Auf den Seiten ändert sich nichts, bis ein Amt zustimmt. Der Hinweis wird dann so gebaut, dass die Seite nicht amtlich wirkt (Backlog, Abschnitt 8).
+- Die private Website zur Zürcher Theorieprüfung hat um 19:14 Uhr geantwortet: Sie versteht, dass Gassi-Kompass nur amtliche Seiten verlinkt, und will den Vergleich der Kantone als Hinweis für Hundehaltende ausserhalb von Zürich aufnehmen. Keine Antwort nötig. Der Anhang der Mail wurde nicht geöffnet.
+- Posteingang um 19:26 Uhr: seither nichts Neues von einem Amt.
+
 ## 2026-11-26, Sitzung mit Joss: Dank an die Ämter und Antwort an eine private Website verschickt
 
 - Nach dem Ja von Joss (18:52 Uhr: «kannst du die Mails direkt absenden», dazu der Wunsch, alle Mails zu beantworten) über das Postfach kontakt@gassi-kompass.ch in seinem Browser verschickt, jede als Antwort im selben Mailverlauf: Bern 18:58 Uhr, Zug 18:59, Luzern 18:59, Appenzell Ausserrhoden mit Innerrhoden 19:00, Basel-Stadt 19:01, Wallis 19:01, Neuenburg 19:02, private Website zur Zürcher Theorieprüfung 19:03, Freiburg 19:08. Neun Mails. Nachgezählt im Ordner der gesendeten Nachrichten: 26 statt 17.
