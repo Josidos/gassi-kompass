@@ -2,6 +2,13 @@
 
 Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen.
 
+## 2026-11-26, Sitzung mit Joss: Geschäftskonzept erstellt (nicht im Repository)
+
+- Auf Wunsch von Joss (19:21 und 19:31 Uhr) ein Konzept erstellt: Marktforschung, Anspruchsgruppen nach Business Model Canvas und St. Galler Management-Modell, Requirements Engineering, Bewertung der Ausbau-Optionen, Betriebswirtschaft, Marketing, Vertragsrecht, Projektmanagement. Es steht auf der Seite «Geschäftskonzept Gassi-Kompass» von Joss, nicht im Repository.
+- Joss hat zehn weitere Gruppen genannt: Dogwalker, Reisende mit Hund, lokales Gewerbe, Gemeinden und Forstämter, SchweizMobil und Tourismus, Tierschutz und Hundeverbände, Anbieter von Geodaten, Landwirtschaft und Jagd, Nicht-Hundehalter, Versicherungen. Empfehlung im Konzept: als Lesende, Quellen und Verbreiter aufnehmen, nicht als neues Produkt. Zurückgestellt bis zu seinem Entscheid: Routen bewerten, Betriebe verzeichnen, Giftköder-Meldungen, Vermittlung von Betreuung.
+- An den Seiten ändert sich nichts. Offene Entscheide von Joss: «Kern», «Web-App», «Partner», «Dokument».
+- Dabei gefunden, als Einstieg für eine künftige Themenseite: Fachinformation 12.4 des BLV «Anforderungen für die Betreuung fremder Heimtiere» (September 2025). Wer gewerbsmässig mehr als fünf Tiere innert 24 Stunden betreut, braucht eine Bewilligung des Kantons. Für die Seite gilt wie immer Regel 2: im Lauf selbst abrufen.
+
 ## 2026-11-26, Sitzung mit Joss: Nachfrage an Bern, Appenzell und Luzern verschickt
 
 - Auf Anweisung von Joss (19:16 Uhr) die Frage nachgereicht, die beim Dank zurückgehalten war: ob die Seite erwähnen darf, dass das Amt die Zusammenfassung am 26. November 2026 durchgesehen hat. Drei kurze Mails über das Postfach kontakt@gassi-kompass.ch in seinem Browser, jede als Antwort im selben Mailverlauf: Appenzell Ausserrhoden mit Innerrhoden 19:18 Uhr, Luzern 19:19, Bern 19:19. Wortlaut: «Ein Nachtrag zu meinem Dank von vorhin: Darf ich auf der Seite erwähnen, dass Ihr Amt die Zusammenfassung am 26. November 2026 durchgesehen hat? Ohne Ihr Einverständnis schreibe ich nichts dazu.» An Appenzell für beide Seiten. Nachgezählt im Ordner der gesendeten Nachrichten: 29 statt 26, kein Entwurf offen.
