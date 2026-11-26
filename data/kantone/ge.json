@@ -2,7 +2,7 @@
   "id": "ge",
   "kurz": "GE",
   "uebersetzt_aus": "fr",
-  "original": "400c765d11cd",
+  "original": "3063b46f04ba",
   "wald": {
     "saison": true,
     "von": "04-01",
@@ -150,10 +150,11 @@
     "anm": "innert 10 Tagen in AMICUS, jährliche Kontrollmarke"
   },
   "umzug": {
-    "text": "Die Rassen der Liste sind im Kanton verboten. Wenn du im Ausland wohnst und mit einem solchen Hund nach Genf ziehen möchtest, ist unter bestimmten Bedingungen eine Ausnahme möglich. Das Gesuch geht schriftlich an den SCAV, quai Ernest-Ansermet 22, 1205 Genève, bevor der Hund eingeführt wird.",
+    "text": "Die Rassen der Liste sind im Kanton verboten. Wenn du im Ausland wohnst und mit einem solchen Hund nach Genf ziehen möchtest, ist unter bestimmten Bedingungen eine Ausnahme möglich. Das Gesuch geht schriftlich an die Direction de la sécurité sanitaire et de la santé environnementale (DSSSE, früher SCAV), quai Ernest-Ansermet 22, 1205 Genève, bevor der Hund eingeführt wird.",
     "quellen": [
       "ge_races",
-      "ge_lchiens"
+      "ge_lchiens",
+      "ge_roac"
     ]
   }
 }

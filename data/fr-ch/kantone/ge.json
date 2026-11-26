@@ -152,10 +152,11 @@
     "anm": "dans les 10 jours dans AMICUS, marque de contrôle annuelle"
   },
   "umzug": {
-    "text": "Les races listées sont interdites dans le canton. Si vous êtes domicilié à l'étranger et souhaitez vous établir à Genève avec un tel chien, une dérogation est possible à certaines conditions. La demande s'adresse par écrit au SCAV, quai Ernest-Ansermet 22, 1205 Genève, avant l'importation du chien.",
+    "text": "Les races listées sont interdites dans le canton. Si vous êtes domicilié à l'étranger et souhaitez vous établir à Genève avec un tel chien, une dérogation est possible à certaines conditions. La demande s'adresse par écrit, avant l'importation du chien, à la direction de la sécurité sanitaire et de la santé environnementale (DSSSE, anciennement SCAV), quai Ernest-Ansermet 22, 1205 Genève.",
     "quellen": [
       "ge_races",
-      "ge_lchiens"
+      "ge_lchiens",
+      "ge_roac"
     ]
   }
 }

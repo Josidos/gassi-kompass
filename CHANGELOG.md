@@ -2,6 +2,24 @@
 
 Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen.
 
+## 2026-11-26, Sitzung mit Joss: zweite Runde verschickt, erste Antworten eingearbeitet
+
+- Link-Prüfung vor dem Versand (05:18 Uhr) und vor dem zweiten Teil (13:20 Uhr), beide gleich: 311 Quellen, 308 in Ordnung, 1 tot (`be_oce_fr`, steht nur auf der französischen Berner Seite, die Mail verlinkt sie nicht), 0 Verdacht, 2 unklar (`bl_wald` 403, `sz_einsiedeln_formular` 503).
+- Verschickt nach dem Ja von Joss, über das Postfach kontakt@gassi-kompass.ch in seinem Browser: 16 Mails an die Veterinärdienste von 21 Kantonen, Empfänger und Wortlaut wie auf der Seite «Prüfbitten Runde 2». Zwölf zwischen 05:40 und 05:56 Uhr (AG, AR mit AI, BE, BS, GR mit GL, LU, UR mit SZ, OW und NW, SG, SH, ZG, ZH, FR), vier zwischen 13:21 und 13:24 Uhr (GE, NE, VD, VS): Dazwischen war die Sitzung an der Nutzungsgrenze unterbrochen. Vorher eine Probe an das eigene Postfach. Alle 16 stehen im Ordner der gesendeten Nachrichten. Die Mail an Freiburg, die letzte vor dem Unterbruch, ging mit zwei Vorschaukarten statt einfachen Links raus. Text und Links stimmen.
+- Antworten bis 13:30 Uhr:
+  - Bern: Die Angaben sind laut Amt für Veterinärwesen «allesamt korrekt». Keine Änderung.
+  - Appenzell Ausserrhoden und Appenzell Innerrhoden: laut Veterinäramt beider Appenzell «aktuell und vollständig». Keine Änderung.
+  - Luzern: Angaben laut Veterinärdienst korrekt. Hinweis: Die Hundeverordnung nenne weitere Orte mit Leinenpflicht und Betretverbot. Abgeglichen mit SRL 849 (Stand 1. Januar 2025): Alle Orte aus § 2 und § 3 stehen schon auf der Seite, die Mail hatte nur den Wald genannt. Ergänzt aus § 3 Abs. 2: Läufige, bissige und ansteckend kranke Hunde gehören auch in Räumen an die Leine, die Dritten zugänglich sind. Alt: «immer im Freien». Neu: «immer im Freien und in Räumen, die Dritten zugänglich sind». Beide Übersetzungen nachgeführt.
+  - Zug: Der Veterinärdienst bestätigt, dass der Kanton Haftpflicht, Kurs, Rassen und Hundesteuer nicht regelt, und beschreibt die Anmeldung so, wie sie auf der Seite steht (die Gemeinde erfasst die Halterin oder den Halter, die Tierarztpraxis den Hund). Zur Leinenpflicht im Wald verweist er an das Amt für Wald und Wild. Dessen Seite und die Medienmitteilung des Kantons sind dort unsere Quellen. Keine Änderung.
+  - St. Gallen: prüft nicht. Das Amt vollziehe das Hundegesetz, nicht das Jagdrecht, und die Prüfung einer privaten Seite gehöre nicht zu seinen Aufgaben. Es meldet keinen Fehler. Keine Änderung. Nicht erneut anschreiben.
+  - Genf: bisher nur die Eingangsbestätigung. Sie nennt den neuen Namen der Stelle: Direction de la sécurité sanitaire et de la santé environnementale (DSSSE) statt SCAV. Abgeglichen: Das ROAC (B 4 05.10, Art. 7 Abs. 1 Bst. b, in Kraft seit 7. Oktober 2026) führt die Direktion, den SCAV nicht mehr. Die Seiten von ge.ch nennen noch den SCAV. Der Abschnitt zum Zuzug nennt neu die Direktion mit dem Zusatz «anciennement SCAV», die Adresse bleibt. Neue Quelle `ge_roac`. Beide Übersetzungen nachgeführt.
+  - Nur Eingangsbestätigungen: AG, GR mit GL, UR mit SZ, OW und NW, ZH, FR, NE, VS. Noch nichts: BS, SH, VD.
+- Nicht befolgt und Joss gemeldet: die Bitte einer privaten Website, ihre Seite zur Zürcher Theorieprüfung zu verlinken. Als Lücke notiert: die Einzelheiten der Prüfung aus amtlichen Quellen.
+- Nicht verschickt: Dank an die Ämter, die geantwortet haben. Die Entwürfe liegen bei Joss.
+- `geprueft` von `lu.json` und `fr-ch/kantone/ge.json` bleibt stehen, weil nicht alle Angaben der Dateien neu abgeglichen sind.
+- Handbuch: «Schon erledigt» und Erfahrungen aus der zweiten Runde unter «Postfach und Antworten der Ämter».
+- Stand: 26 Kantone, 63 Gemeinden, 312 Quellen, 294 Seiten. Keine Übersetzung fehlt.
+
 ## 2026-11-26, Sitzung mit Joss: Verbreitung, Postfach, zweite Runde vorbereitet
 
 - Ideen von Joss zur Verbreitung besprochen (Briefe mit Flyer an Tierärzte und Ämter, Schilder und Kleber in Gemeinden). Empfehlung: zuerst Prüfbitten per Mail an die übrigen Veterinärdienste und an die Gemeinden mit eigener Seite, ein Merkblatt zum Selberdrucken je Kanton, ein Pilot von Hand, erst danach Briefe. Entscheide von Joss dazu sind offen.

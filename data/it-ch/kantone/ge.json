@@ -2,7 +2,7 @@
   "id": "ge",
   "kurz": "GE",
   "uebersetzt_aus": "fr",
-  "original": "400c765d11cd",
+  "original": "3063b46f04ba",
   "wald": {
     "saison": true,
     "von": "04-01",
@@ -150,10 +150,11 @@
     "anm": "entro 10 giorni in AMICUS, contrassegno di controllo annuale"
   },
   "umzug": {
-    "text": "Le razze dell'elenco sono vietate nel Cantone. Se sei domiciliato all'estero e desideri stabilirti a Ginevra con un cane di queste razze, a determinate condizioni è possibile una deroga. La domanda va indirizzata per iscritto al SCAV, quai Ernest-Ansermet 22, 1205 Genève, prima dell'importazione del cane.",
+    "text": "Le razze dell'elenco sono vietate nel Cantone. Se sei domiciliato all'estero e desideri stabilirti a Ginevra con un cane di queste razze, a determinate condizioni è possibile una deroga. La domanda va indirizzata per iscritto, prima dell'importazione del cane, alla Direction de la sécurité sanitaire et de la santé environnementale (DSSSE, in precedenza SCAV), quai Ernest-Ansermet 22, 1205 Genève.",
     "quellen": [
       "ge_races",
-      "ge_lchiens"
+      "ge_lchiens",
+      "ge_roac"
     ]
   }
 }
