@@ -51,8 +51,8 @@
   },
   "be_hug": {
     "kurz": "Hundegesetz BE",
-    "lang": "Kanton Bern: Hundegesetz, BSG 916.31",
-    "url": "https://be.lexwork.naz.ch/de/dta/916.31.pdf"
+    "lang": "Kanton Bern: Hundegesetz (BSG 916.31), Stand 1. April 2021",
+    "url": "https://www.belex.sites.be.ch/app/de/texts_of_law/916.31"
   },
   "be_kurs": {
     "kurz": "Gemeinde Büren a.A.",
@@ -746,12 +746,12 @@
   },
   "be_koeniz_haustiere": {
     "kurz": "Gemeinde Köniz: Haustiere",
-    "lang": "Gemeinde Köniz: Seite Haustiere, Druckfassung (abgerufen am 21. November 2026)",
-    "url": "https://www.koeniz.ch/wohnen/persoenliches/haustiere.page/261/print/pdf"
+    "lang": "Gemeinde Köniz: Seite «Haustiere» mit Online-Schalter (abgerufen am 27. November 2026)",
+    "url": "https://www.koeniz.ch/wohnen/persoenliches/haustiere.page/261"
   },
   "be_koeniz_eichholz": {
     "kurz": "Verordnung Liegewiese Eichholz",
-    "lang": "Gemeinde Köniz: Verordnung über die Benützung der Liegewiese Eichholz, Wabern (Nr. 731.802) vom 22. März 2012, Art. 10 und 11",
+    "lang": "Gemeinde Köniz: Verordnung über die Benützung der Liegewiese Eichholz, Wabern (Nr. 731.802) vom 22. März 2012, mit Änderungen bis 27. März 2013, Art. 10 und 11",
     "url": "https://www.koeniz.ch/public/upload/assets/12189/731.802_verordnung_benutzung_liegewiese_eichholz.pdf?fp=2"
   },
   "be_steffisburg_polizeireglement": {
@@ -973,5 +973,35 @@
     "kurz": "Regensdorf: Polizeiverordnung",
     "lang": "Gemeinde Regensdorf: Polizeiverordnung (PolVO, 510.1), in Kraft seit 1. Januar 2024",
     "url": "https://www.regensdorf.ch/gesetzessammlung/sammlung/1529611"
+  },
+  "be_koeniz_hundetaxe": {
+    "kurz": "Köniz: Reglement über die Hundetaxe",
+    "lang": "Gemeinde Köniz: Reglement über die Hundetaxe (Nr. 916.31) vom 29. April 2013, in Kraft seit 1. Juli 2013",
+    "url": "https://www.koeniz.ch/public/upload/assets/12177/916.31_reglement_hundetaxe.pdf?fp=2"
+  },
+  "be_koeniz_hundetaxe_vo": {
+    "kurz": "Köniz: Verordnung über die Hundetaxe",
+    "lang": "Gemeinde Köniz: Verordnung über die Hundetaxe (Nr. 916.311) vom 22. Mai 2013, mit Änderungen bis 19. Dezember 2018",
+    "url": "https://www.koeniz.ch/public/upload/assets/12113/916.311_verordnung_hundetaxe.pdf?fp=3"
+  },
+  "be_koeniz_liebefeld": {
+    "kurz": "Köniz: Verordnung Liebefeld Park",
+    "lang": "Gemeinde Köniz: Verordnung über den Liebefeld Park (Nr. 731.801) vom 24. Juni 2009, mit Änderungen bis 2. Juli 2026, Art. 10 und 12",
+    "url": "https://www.koeniz.ch/public/upload/assets/13298/731.801_Verordnung_Liebefeld_Park.pdf?fp=3"
+  },
+  "be_koeniz_schlosspark": {
+    "kurz": "Köniz: Verordnung Schlosspark",
+    "lang": "Gemeinde Köniz: Verordnung über den Schlosspark (Nr. 731.803) vom 11. Januar 2017, Art. 2, 9 und 10",
+    "url": "https://www.koeniz.ch/public/upload/assets/13232/731.803_verordnung_schlosspark.pdf?fp=2"
+  },
+  "be_koeniz_weiermatt": {
+    "kurz": "Köniz: Verordnung Schwimmbad Weiermatt",
+    "lang": "Gemeinde Köniz: Verordnung über die Benützung des Schwimmbads Köniz Weiermatt (Nr. 731.601) vom 16. März 2011, mit Änderungen bis 29. März 2023",
+    "url": "https://www.koeniz.ch/public/upload/assets/17271/731601_verordnung_benutzung_schwimmbad_weiermatt.pdf?fp=3"
+  },
+  "be_koeniz_friedhof": {
+    "kurz": "Köniz: Bestattungs- und Friedhofsverordnung",
+    "lang": "Gemeinde Köniz: Bestattungs- und Friedhofsverordnung (Nr. 556.11) vom 28. November 2012, mit Änderungen bis 26. November 2020, Art. 3",
+    "url": "https://www.koeniz.ch/public/upload/assets/16877/556.11_bestattungs_friedhofsverordnung.pdf?fp=3"
   }
 }

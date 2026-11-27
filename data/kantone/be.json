@@ -15,6 +15,7 @@
   },
   "leine": {
     "punkte": [
+      "jederzeit und überall, wenn du deinen Hund nicht anders wirksam kontrollieren kannst",
       "auf Schulanlagen",
       "auf öffentlichen Spiel- und Sportplätzen",
       "in öffentlichen Verkehrsmitteln, an Bahnhöfen und Haltestellen",
@@ -23,7 +24,8 @@
       "an Orten, die deine Gemeinde bezeichnet"
     ],
     "quellen": [
-      "be_avet"
+      "be_avet",
+      "be_hug"
     ]
   },
   "verbot": {
@@ -71,7 +73,7 @@
       "marke": "Gemeinde",
       "ton": "note",
       "wert": "je nach Gemeinde",
-      "text": "Die Gemeinde legt die Hundetaxe fest. Keine Taxe gibt es unter anderem für Assistenzhunde, für Hunde im Tierheim und wenn sie im gleichen Jahr schon anderswo bezahlt wurde.",
+      "text": "Die Gemeinden können eine Hundetaxe erheben. Ob und in welcher Höhe, regeln sie selbst. Erhebt deine Wohngemeinde eine Taxe, bist du taxpflichtig, sobald dein Hund älter als sechs Monate ist. Keine Taxe gibt es für Hilfs- und Begleithunde von Menschen mit einer Behinderung, für Hunde, die zur Neuplatzierung vorübergehend im Tierheim sind, und wenn im gleichen Jahr schon in einer anderen Gemeinde oder in einem anderen Kanton bezahlt wurde.",
       "quellen": [
         "be_hug"
       ]

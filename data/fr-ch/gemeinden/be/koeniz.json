@@ -3,18 +3,39 @@
   "kanton": "be",
   "bfs": 355,
   "uebersetzt_aus": "de",
-  "original": "fb0121ab878b",
+  "original": "48cb56fe55ea",
   "name": "Köniz",
   "ort": "Köniz",
   "in_ort": "à Köniz",
   "karten": [
     {
+      "titel": "Impôt sur les chiens",
+      "wert": "CHF 100 par chien et par an",
+      "text": "La Hundetaxe (taxe des chiens) s'élève à CHF 100 par chien et par an. Le Gemeinderat (conseil communal) la fixe dans une ordonnance, le règlement prévoit pour cela CHF 100 à 200. Vous êtes assujetti pour l'année civile si vous habitez Köniz le 1er août. La taxe est due pour chaque chien qui remplit ce jour-là les conditions légales: selon la loi cantonale sur les chiens, il doit avoir plus de six mois. État de l'ordonnance: 19 décembre 2018.",
+      "quellen": [
+        "be_koeniz_hundetaxe_vo",
+        "be_koeniz_hundetaxe",
+        "be_hug"
+      ]
+    },
+    {
       "titel": "Laisse",
-      "wert": "locaux publics, parcs, lieux très fréquentés",
-      "text": "Dans les locaux ouverts au public comme les restaurants et les magasins, dans les parcs et dans les lieux à forte circulation, vous tenez votre chien en laisse. Les chiennes en chaleur, les chiens mordeurs et les chiens malades doivent toujours être tenus en laisse à l'extérieur. Votre chien ne peut courir librement que si vous le maîtrisez à tout moment. Sur la Liegewiese Eichholz (pelouse) à Wabern, vous ne pouvez pas laisser courir les chiens librement. État de l'Ortspolizeireglement (règlement de police locale): 25 juin 2012.",
+      "wert": "locaux publics, parcs, cimetières, lieux très fréquentés",
+      "text": "Dans les locaux ouverts au public comme les restaurants et les magasins, dans les parcs et dans les lieux à forte circulation, vous tenez votre chien en laisse. La laisse est aussi obligatoire dans les cimetières. Au Liebefeld Park, au Schlosspark et sur la Liegewiese Eichholz (pelouse) à Wabern, vous ne pouvez pas laisser courir les chiens librement. Les chiennes en chaleur, les chiens mordeurs et les chiens malades doivent toujours être tenus en laisse à l'extérieur, et les chiens mordeurs portent en plus une muselière. Sinon, votre chien ne peut courir librement que si vous le maîtrisez à tout moment. État de l'Ortspolizeireglement (règlement de police locale): 25 juin 2012.",
       "quellen": [
         "be_koeniz_opr",
+        "be_koeniz_friedhof",
+        "be_koeniz_liebefeld",
+        "be_koeniz_schlosspark",
         "be_koeniz_eichholz"
+      ]
+    },
+    {
+      "titel": "Accès interdit",
+      "wert": "piscine Weiermatt",
+      "text": "Vous ne pouvez pas emmener d'animaux au Schwimmbad Köniz Weiermatt (piscine). État de l'ordonnance: 29 mars 2023.",
+      "quellen": [
+        "be_koeniz_weiermatt"
       ]
     },
     {
@@ -28,7 +49,15 @@
     {
       "titel": "Annonce",
       "wert": "à la commune et dans AMICUS",
-      "text": "Vous annoncez l'acquisition, le changement de propriétaire et la mort d'un chien à la commune et à la banque de données AMICUS. La commune de Köniz ne remet plus de médailles pour chiens.",
+      "text": "Vous annoncez l'acquisition, le changement de propriétaire et la mort d'un chien à la commune et à la banque de données AMICUS. Le guichet en ligne de la commune propose un formulaire pour l'inscription et un autre pour la désinscription. La commune de Köniz ne remet plus de médailles pour chiens.",
+      "quellen": [
+        "be_koeniz_haustiere"
+      ]
+    },
+    {
+      "titel": "Chien perdu",
+      "wert": "avis de disparition au guichet en ligne",
+      "text": "Pour les animaux de compagnie disparus, le guichet en ligne de la commune propose le formulaire «Vermisstmeldung für Haustiere» (avis de disparition). Les animaux de compagnie morts trouvés par les services communaux sont saisis par la commune sur le site de la Schweizerische Tiermeldezentrale (centrale suisse d'annonce des animaux).",
       "quellen": [
         "be_koeniz_haustiere"
       ]
@@ -36,9 +65,12 @@
     {
       "titel": "Amendes",
       "wert": "jusqu'à CHF 300",
-      "text": "Le Polizeiinspektorat (inspection de police) punit les infractions à l'Ortspolizeireglement d'une amende jusqu'à CHF 300. Dans les cas légers, un avertissement écrit est possible.",
+      "text": "Le Polizeiinspektorat (inspection de police) punit les infractions à l'Ortspolizeireglement d'une amende jusqu'à CHF 300. Dans les cas légers, un avertissement écrit est possible. Qui enfreint les règles d'utilisation au Liebefeld Park, au Schlosspark ou sur la Liegewiese Eichholz risque une amende et une interdiction d'accès au site.",
       "quellen": [
-        "be_koeniz_opr"
+        "be_koeniz_opr",
+        "be_koeniz_liebefeld",
+        "be_koeniz_schlosspark",
+        "be_koeniz_eichholz"
       ]
     }
   ]

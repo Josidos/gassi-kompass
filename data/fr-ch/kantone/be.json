@@ -14,6 +14,7 @@
   },
   "leine": {
     "punkte": [
+      "en tout temps et partout, si vous ne pouvez pas contrôler efficacement votre chien d'une autre manière",
       "dans les écoles",
       "sur les aires de jeux et de sport publiques",
       "dans les transports publics, les gares et aux arrêts",
@@ -22,7 +23,8 @@
       "dans les lieux désignés par votre commune"
     ],
     "quellen": [
-      "be_avet_fr"
+      "be_avet_fr",
+      "be_lchiens_fr"
     ]
   },
   "verbot": {

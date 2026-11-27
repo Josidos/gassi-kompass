@@ -5,15 +5,36 @@
   "name": "Köniz",
   "ort": "Köniz",
   "in_ort": "in Köniz",
-  "geprueft": "2026-11-21",
+  "geprueft": "2026-11-27",
   "karten": [
     {
+      "titel": "Hundetaxe",
+      "wert": "CHF 100 pro Hund und Jahr",
+      "text": "Die Hundetaxe beträgt CHF 100 pro Hund und Jahr. Der Gemeinderat legt sie in einer Verordnung fest, das Reglement gibt dafür CHF 100 bis 200 vor. Taxpflichtig für das Kalenderjahr bist du, wenn du am 1. August in Köniz wohnst. Geschuldet ist die Taxe für jeden Hund, der an diesem Tag die gesetzlichen Voraussetzungen erfüllt: Nach dem kantonalen Hundegesetz muss er älter als sechs Monate sein. Stand der Verordnung: 19. Dezember 2018.",
+      "quellen": [
+        "be_koeniz_hundetaxe_vo",
+        "be_koeniz_hundetaxe",
+        "be_hug"
+      ]
+    },
+    {
       "titel": "Leine",
-      "wert": "Lokale, Parkanlagen, verkehrsreiche Orte",
-      "text": "In öffentlich zugänglichen Lokalen wie Gastwirtschaften und Verkaufsläden, in Parkanlagen und an verkehrsreichen Orten führst du deinen Hund an der Leine. Läufige, bissige und kranke Hunde sind im Freien immer anzuleinen. Frei laufen darf dein Hund nur, wenn du ihn jederzeit unter Kontrolle hast. Auf der Liegewiese Eichholz in Wabern darfst du Hunde nicht frei laufen lassen. Stand des Ortspolizeireglements: 25. Juni 2012.",
+      "wert": "Lokale, Parkanlagen, Friedhöfe, verkehrsreiche Orte",
+      "text": "In öffentlich zugänglichen Lokalen wie Gastwirtschaften und Verkaufsläden, in Parkanlagen und an verkehrsreichen Orten führst du deinen Hund an der Leine. Leinenpflicht gilt auch auf den Friedhöfen. Im Liebefeld Park, im Schlosspark und auf der Liegewiese Eichholz in Wabern darfst du Hunde nicht frei laufen lassen. Läufige, bissige und kranke Hunde sind im Freien immer anzuleinen, bissige Hunde tragen zudem einen Maulkorb. Sonst darf dein Hund nur frei laufen, wenn du ihn jederzeit unter Kontrolle hast. Stand des Ortspolizeireglements: 25. Juni 2012.",
       "quellen": [
         "be_koeniz_opr",
+        "be_koeniz_friedhof",
+        "be_koeniz_liebefeld",
+        "be_koeniz_schlosspark",
         "be_koeniz_eichholz"
+      ]
+    },
+    {
+      "titel": "Kein Zutritt",
+      "wert": "Schwimmbad Weiermatt",
+      "text": "Ins Schwimmbad Köniz Weiermatt darfst du keine Tiere mitnehmen. Stand der Verordnung: 29. März 2023.",
+      "quellen": [
+        "be_koeniz_weiermatt"
       ]
     },
     {
@@ -27,7 +48,15 @@
     {
       "titel": "Anmeldung",
       "wert": "bei der Gemeinde und in AMICUS",
-      "text": "Anschaffung, Besitzerwechsel und Tod eines Hundes meldest du der Gemeinde und der Hundedatenbank AMICUS. Hundemarken gibt die Gemeinde Köniz nicht mehr ab.",
+      "text": "Anschaffung, Besitzerwechsel und Tod eines Hundes meldest du der Gemeinde und der Hundedatenbank AMICUS. Für die Anmeldung und für die Abmeldung gibt es je ein Formular im Online-Schalter der Gemeinde. Hundemarken gibt die Gemeinde Köniz nicht mehr ab.",
+      "quellen": [
+        "be_koeniz_haustiere"
+      ]
+    },
+    {
+      "titel": "Hund vermisst",
+      "wert": "Vermisstmeldung im Online-Schalter",
+      "text": "Für vermisste Haustiere gibt es im Online-Schalter der Gemeinde das Formular «Vermisstmeldung für Haustiere». Tote Haustiere, die die Gemeindebetriebe finden, erfasst die Gemeinde auf der Website der Schweizerischen Tiermeldezentrale.",
       "quellen": [
         "be_koeniz_haustiere"
       ]
@@ -35,9 +64,12 @@
     {
       "titel": "Bussen",
       "wert": "bis CHF 300",
-      "text": "Verstösse gegen das Ortspolizeireglement bestraft das Polizeiinspektorat mit Busse bis CHF 300. In leichten Fällen kann es eine schriftliche Verwarnung geben.",
+      "text": "Verstösse gegen das Ortspolizeireglement bestraft das Polizeiinspektorat mit Busse bis CHF 300. In leichten Fällen kann es eine schriftliche Verwarnung geben. Wer im Liebefeld Park, im Schlosspark oder auf der Liegewiese Eichholz gegen die Benützungsregeln verstösst, riskiert eine Busse und ein Arealverbot.",
       "quellen": [
-        "be_koeniz_opr"
+        "be_koeniz_opr",
+        "be_koeniz_liebefeld",
+        "be_koeniz_schlosspark",
+        "be_koeniz_eichholz"
       ]
     }
   ]
