@@ -1,0 +1,45 @@
+{
+  "id": "meyrin",
+  "kanton": "ge",
+  "bfs": 6630,
+  "uebersetzt_aus": "fr",
+  "original": "7d2e1900b965",
+  "name": "Stadt Meyrin",
+  "ort": "Meyrin",
+  "in_ort": "in Meyrin",
+  "einleitung": "In den Parks, Promenaden und öffentlichen Gärten von Meyrin darf dein Hund auf die Wege, wenn er an der Leine ist. Ohne Leine darf er nur in den eingezäunten Freilaufzonen laufen.",
+  "karten": [
+    {
+      "titel": "Leine",
+      "wert": "in Parks, ausser in eingezäunten Freilaufzonen",
+      "text": "Das Règlement des espaces publics (Reglement über die öffentlichen Räume) der Stadt gilt namentlich für Parks, Promenaden, öffentliche Gärten, Picknickplätze, Haltestellen des öffentlichen Verkehrs und das Gelände des lac des Vernes. Dein Hund darf dort auf die Wege, wenn er an der Leine ist. Unter deiner Kontrolle darf er in den eingezäunten Freilaufzonen ohne Leine laufen. Du nimmst seinen Kot auf. Stand des Reglements: 2017.",
+      "quellen": [
+        "ge_meyrin_rep"
+      ]
+    },
+    {
+      "titel": "Kein Zutritt",
+      "wert": "Spielplätze, parc Riantbosson, promenade de la Planta",
+      "text": "Auch an der Leine sind Hunde verboten auf Spielplätzen, auf Pausenplätzen von Schulen, auf Sportplätzen, im Jardin botanique alpin und auf eingerichteten Picknickplätzen sowie in Planschbecken, Wasserspielen, Brunnen, Becken und Weihern. Verboten sind sie auch an eigens bezeichneten Orten wie dem parc Riantbosson und der promenade de la Planta.",
+      "quellen": [
+        "ge_meyrin_rep"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "wert": "Marke am Guichet Multiservice",
+      "text": "Du holst die Marke das ganze Jahr am Guichet Multiservice (Schalter), rue des Boudines 2. Du legst die Bestätigung der Registrierung in AMICUS vor, die Bestätigung der Haftpflichtversicherung für Hundehaltende des laufenden Jahres und den Impfausweis mit gültiger Tollwutimpfung. Dein Hund trägt am Halsband ein Schild mit Name, Adresse und Telefonnummer der Halterin oder des Halters. Der Ersatz einer verlorenen Marke kostet CHF 20.",
+      "quellen": [
+        "ge_meyrin_medailles"
+      ]
+    },
+    {
+      "titel": "Bussen",
+      "wert": "CHF 200 bis CHF 60'000",
+      "text": "Wer gegen das Règlement des espaces publics verstösst, riskiert eine Verwaltungsbusse von CHF 200 bis CHF 60'000.",
+      "quellen": [
+        "ge_meyrin_rep"
+      ]
+    }
+  ]
+}

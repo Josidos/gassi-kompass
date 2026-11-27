@@ -8,5 +8,15 @@
     "kurz": "Ville de Lancy: propriétaires de chiens",
     "lang": "Ville de Lancy: «Propriétaires de chiens» (médaille, émoluments, règles), mise à jour du 3 juillet 2026, consulté le 28 novembre 2026",
     "url": "https://www.lancy.ch/prestations/proprietaires-de-chiens"
+  },
+  "ge_meyrin_rep": {
+    "kurz": "Meyrin: règlement des espaces publics",
+    "lang": "Règlement des espaces publics de la ville de Meyrin (LC 30 331) du 14 mai 2013, modifié le 7 mars 2017, consulté le 28 novembre 2026",
+    "url": "https://meyrin.ch/sites/default/files/shared/documents/Secre%CC%81tariat%20ge%CC%81ne%CC%81ral/R%C3%A8glement%20des%20espaces%20publics%20de%20la%20ville%20de%20Meyrin.pdf"
+  },
+  "ge_meyrin_medailles": {
+    "kurz": "Ville de Meyrin: médailles pour chiens",
+    "lang": "Ville de Meyrin: «Médailles pour chiens» (Guichet Multiservice), sans date, consulté le 28 novembre 2026",
+    "url": "https://www.meyrin.ch/fr/votre-mairie-administration-securite-municipale/medailles-pour-chiens"
   }
 }

@@ -1,0 +1,45 @@
+{
+  "id": "meyrin",
+  "kanton": "ge",
+  "bfs": 6630,
+  "uebersetzt_aus": "fr",
+  "original": "7d2e1900b965",
+  "name": "Città di Meyrin",
+  "ort": "Meyrin",
+  "in_ort": "a Meyrin",
+  "einleitung": "Nei parchi, sulle passeggiate e nei giardini pubblici di Meyrin il tuo cane ha accesso ai viali e ai sentieri a condizione di essere tenuto al guinzaglio. Può essere lasciato senza guinzaglio solo nelle aree di svago per cani recintate.",
+  "karten": [
+    {
+      "titel": "Guinzaglio",
+      "wert": "nei parchi, salvo aree di svago recintate",
+      "text": "Il règlement des espaces publics (regolamento degli spazi pubblici) della Città si applica in particolare a parchi, passeggiate, giardini pubblici, aree picnic, fermate dei trasporti pubblici e al sito del lac des Vernes. Il tuo cane vi ha accesso ai viali e ai sentieri se è tenuto al guinzaglio. Sotto il tuo controllo può essere lasciato senza guinzaglio nelle aree di svago per cani recintate. Raccogli i suoi escrementi. Stato del regolamento: 2017.",
+      "quellen": [
+        "ge_meyrin_rep"
+      ]
+    },
+    {
+      "titel": "Accesso vietato",
+      "wert": "parchi giochi, parc Riantbosson, promenade de la Planta",
+      "text": "Anche al guinzaglio, i cani sono vietati nei parchi giochi, nei cortili delle scuole, sui campi sportivi, nel Jardin botanique alpin e nelle aree picnic attrezzate, come pure nelle piscine per bambini, nei giochi d'acqua, nelle fontane, nelle vasche e negli stagni. Lo sono anche nei luoghi indicati in modo specifico, come il parc Riantbosson e la promenade de la Planta.",
+      "quellen": [
+        "ge_meyrin_rep"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "wert": "contrassegno al Guichet Multiservice",
+      "text": "Ritiri il contrassegno (médaille) tutto l'anno al Guichet Multiservice (sportello), rue des Boudines 2. Presenti la conferma di registrazione in AMICUS, l'attestato dell'assicurazione di responsabilità civile per detentori di cani dell'anno in corso e il libretto delle vaccinazioni con una vaccinazione contro la rabbia valida. Il tuo cane porta al collare una targhetta con nome, indirizzo e telefono di chi lo detiene. La sostituzione di un contrassegno perso costa CHF 20.",
+      "quellen": [
+        "ge_meyrin_medailles"
+      ]
+    },
+    {
+      "titel": "Multe",
+      "wert": "da CHF 200 a CHF 60'000",
+      "text": "Chi viola il règlement des espaces publics è passibile di una multa amministrativa da CHF 200 a CHF 60'000.",
+      "quellen": [
+        "ge_meyrin_rep"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "meyrin",
+  "kanton": "ge",
+  "bfs": 6630,
+  "name": "Ville de Meyrin",
+  "ort": "Meyrin",
+  "in_ort": "à Meyrin",
+  "geprueft": "2026-11-28",
+  "einleitung": "Dans les parcs, promenades et jardins publics de Meyrin, votre chien a accès aux allées et cheminements à condition d'être tenu en laisse. Il ne peut être laissé sans laisse que dans les espaces de liberté clôturés.",
+  "karten": [
+    {
+      "titel": "Laisse",
+      "wert": "dans les parcs, sauf espaces de liberté clôturés",
+      "text": "Le règlement des espaces publics de la Ville s'applique notamment aux parcs, promenades, jardins publics, aires de pique-nique, arrêts des transports publics et au site du lac des Vernes. Votre chien y a accès aux allées et cheminements s'il est tenu en laisse. Sous votre maîtrise, il peut être laissé sans laisse dans les espaces de liberté clôturés. Vous ramassez ses déjections. État du règlement: 2017.",
+      "quellen": [
+        "ge_meyrin_rep"
+      ]
+    },
+    {
+      "titel": "Accès interdit",
+      "wert": "places de jeux, parc Riantbosson, promenade de la Planta",
+      "text": "Même tenus en laisse, les chiens sont interdits sur les places de jeux, dans les préaux des écoles, sur les terrains de sports, dans le Jardin botanique alpin et les aires de pique-nique aménagées, ainsi que dans les pataugeoires, jeux ludico-aquatiques, fontaines, bassins et étangs. Ils le sont aussi dans les lieux spécifiquement indiqués, comme le parc Riantbosson et la promenade de la Planta.",
+      "quellen": [
+        "ge_meyrin_rep"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "wert": "médaille au Guichet Multiservice",
+      "text": "Vous retirez la médaille toute l'année au Guichet Multiservice, rue des Boudines 2. Vous présentez la confirmation d'enregistrement dans AMICUS, l'attestation d'assurance RC pour détenteur de chien de l'année en cours et le carnet de vaccination avec une vaccination contre la rage valide. Votre chien porte une plaquette au collier avec le nom, l'adresse et le téléphone du détenteur. Une médaille perdue coûte CHF 20 à remplacer.",
+      "quellen": [
+        "ge_meyrin_medailles"
+      ]
+    },
+    {
+      "titel": "Amendes",
+      "wert": "de CHF 200 à CHF 60'000",
+      "text": "Si vous enfreignez le règlement des espaces publics, vous êtes passible d'une amende administrative de CHF 200 à CHF 60'000.",
+      "quellen": [
+        "ge_meyrin_rep"
+      ]
+    }
+  ]
+}
