@@ -3,12 +3,12 @@
   "kanton": "lu",
   "bfs": 1061,
   "uebersetzt_aus": "de",
-  "original": "4ccaca4f6fea",
+  "original": "1c41d72ec7a4",
   "name": "Ville de Lucerne",
   "ort": "Lucerne",
   "in_ort": "à Lucerne",
   "hinweis_heute": "En ville de Lucerne, la plupart des surfaces municipales sont interdites aux chiens ou soumises à la laisse obligatoire. Votre chien peut courir en liberté dans les trois espaces de liberté pour chiens.",
-  "einleitung": "Trois espaces de liberté pour chiens délimités et signalés. Sur les autres surfaces municipales s'appliquent, pour la plupart, des interdictions de chiens et la laisse obligatoire.",
+  "einleitung": "Trois espaces de liberté pour chiens délimités et signalés. Sur les autres surfaces municipales s'appliquent, pour la plupart, des interdictions de chiens et la laisse obligatoire. État de la brochure de la ville: 2022.",
   "freilaufzonen": [
     {
       "name": "Allmend",
@@ -38,10 +38,37 @@
   ],
   "karten": [
     {
+      "titel": "Impôt sur les chiens",
+      "wert": "CHF 120 par an",
+      "text": "L'impôt sur les chiens est de CHF 120 par année civile, pour chaque chien âgé de plus de 6 mois. Les Einwohnerdienste (contrôle des habitants) envoient la facture à fin mai. Elle est à payer au plus tard à fin juin, exclusivement avec le bulletin de versement (code QR). Si votre chien n'atteint l'âge de 6 mois qu'après le 30 juin, l'impôt est de CHF 60: envoyez pour cela une copie du carnet de vaccination aux Einwohnerdienste. Sur demande écrite, il est de CHF 60 pour un chien qui protège un bâtiment isolé et de CHF 40 pour les chiens de ferme des exploitations agricoles. Dans les cas de rigueur, l'impôt peut être remis entièrement ou en partie sur demande motivée, notamment si vous vivez uniquement de rentes AVS ou AI, de prestations complémentaires ou d'aides de la ville, ou si vous recevez l'aide sociale économique. Vous présentez la demande chaque année par écrit, avec justificatif. Si votre chien meurt avant le 30 juin et que vous n'acquérez pas de chien de remplacement, vous devez vous adresser vous-même aux Einwohnerdienste pour le remboursement de la moitié de l'impôt.",
+      "quellen": [
+        "lu_luzern_merkblatt"
+      ]
+    },
+    {
+      "titel": "Laisse",
+      "wert": "toute l'Allmend",
+      "text": "La laisse est obligatoire sur toute l'Allmend. Fait exception l'espace de liberté pour chiens situé au sud de l'Armee-Ausbildungszentrum (centre d'instruction de l'armée). Dans les zones protégées de l'Allmend, vous ne devez pas quitter les chemins. Pour le reste, les règles du canton s'appliquent en ville, par exemple la laisse obligatoire dans les parcs. La ville autorise des exceptions là où elles sont signalées.",
+      "quellen": [
+        "lu_luzern_allmend",
+        "lu_luzern_hunde"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "wert": "Einwohnerdienste",
+      "text": "Si vous n'avez encore jamais détenu de chien, vous vous adressez d'abord aux Einwohnerdienste (contrôle des habitants) de la ville de Lucerne (Obergrundstrasse 1, téléphone 041 208 83 56) et vous vous faites enregistrer dans la banque de données AMICUS. Ce n'est qu'ensuite qu'un chien peut être enregistré à votre nom. AMICUS vous envoie vos données d'accès par la poste. Si vous détenez déjà un chien correctement enregistré ou en avez détenu un auparavant, vous n'avez pas à vous présenter. Vous annoncez un changement d'adresse dans les 10 jours à la commune du nouveau domicile. Vous saisissez vous-même dans AMICUS la remise, la prise en charge et la mort d'un chien, tout changement de détenteur dans les 10 jours.",
+      "quellen": [
+        "lu_luzern_merkblatt",
+        "lu_luzern_hunde"
+      ]
+    },
+    {
       "titel": "Amendes",
       "wert": "CHF 80 à 150 selon l'infraction",
-      "text": "Non-respect des interdictions ou de la laisse obligatoire: CHF 100 à 150 (réserves naturelles). Crottes de chien laissées sur place: CHF 80. État de la brochure: 2022.",
+      "text": "Les amendes d'ordre du canton s'appliquent. CHF 100: chien emmené dans un lieu où l'accès est interdit, ou laisse obligatoire non respectée dans des locaux, des parcs, les transports publics ou sur des routes à fort trafic. CHF 150: laisse obligatoire non respectée dans une réserve naturelle. CHF 80: crottes de chien laissées sur place. CHF 100: laisse obligatoire non respectée en forêt et jusqu'à 50 m de la lisière, du 1er avril au 31 juillet.",
       "quellen": [
+        "lu_kobv",
         "lu_stadt"
       ]
     }

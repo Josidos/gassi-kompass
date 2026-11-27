@@ -40,9 +40,9 @@
     "url": "https://veterinaerdienst.lu.ch/hunde/ausbildung_hund_und_halter"
   },
   "lu_stadt": {
-    "kurz": "Stadt Luzern",
-    "lang": "Stadt Luzern: Broschüre «Hund und Mensch in der Stadt» (2022)",
-    "url": "https://stadtluzern.ch/_rte/publikation/104147"
+    "kurz": "Stadt Luzern: Broschüre",
+    "lang": "Stadt Luzern, Stadtgrün: Broschüre «Hund und Mensch in der Stadt» (PDF, ohne Datum im Dokument, 2022)",
+    "url": "https://www.stadtluzern.ch/_rte/publikation/104147"
   },
   "be_avet": {
     "kurz": "Veterinärwesen BE",
@@ -1253,5 +1253,20 @@
     "kurz": "Veterinärdienst LU: Vorfälle",
     "lang": "Kanton Luzern, Veterinärdienst: «Vorfälle mit Hunden» (letzte Änderung der Seite laut ihren Metadaten: 1. Mai 2024)",
     "url": "https://veterinaerdienst.lu.ch/hunde/vorfaelle_mit_hunden"
+  },
+  "lu_luzern_merkblatt": {
+    "kurz": "Stadt Luzern: Merkblatt",
+    "lang": "Stadt Luzern, Einwohnerdienste: Merkblatt für Hundehalterinnen und Hundehalter (PDF, Stand Mai 2025), auf der Seite «Merkblatt Hundehalterinnen und Hundehalter»",
+    "url": "https://www.stadtluzern.ch/dokumentebilder/publikationen/25056"
+  },
+  "lu_luzern_hunde": {
+    "kurz": "Stadt Luzern: Informationen für Hundehalter",
+    "lang": "Stadt Luzern: «Informationen für Hundehalter» (Dienstleistung der Einwohnerdienste; abgerufen am 27. November 2026, ohne Datum)",
+    "url": "https://www.stadtluzern.ch/dienstleistungeninformation/4703"
+  },
+  "lu_luzern_allmend": {
+    "kurz": "Stadt Luzern: Naturerlebnisgebiet Allmend",
+    "lang": "Stadt Luzern: «Naturerlebnisgebiet Allmend» (Verhaltensregeln, Abschnitt Hunde; abgerufen am 27. November 2026, ohne Datum)",
+    "url": "https://www.stadtluzern.ch/dienstleistungeninformation/15827"
   }
 }

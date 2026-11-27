@@ -3,12 +3,12 @@
   "kanton": "lu",
   "bfs": 1061,
   "uebersetzt_aus": "de",
-  "original": "4ccaca4f6fea",
+  "original": "1c41d72ec7a4",
   "name": "Città di Lucerna",
   "ort": "Lucerna",
   "in_ort": "a Lucerna",
   "hinweis_heute": "Nella città di Lucerna sulla maggior parte delle superfici comunali vigono divieti per i cani o l'obbligo di guinzaglio. Il tuo cane può correre libero nelle tre aree di svago per cani.",
-  "einleitung": "Tre aree di svago per cani delimitate e segnalate. Sulle altre superfici comunali vigono per lo più divieti per i cani e l'obbligo di guinzaglio.",
+  "einleitung": "Tre aree di svago per cani delimitate e segnalate. Sulle altre superfici comunali vigono per lo più divieti per i cani e l'obbligo di guinzaglio. Stato dell'opuscolo della città: 2022.",
   "freilaufzonen": [
     {
       "name": "Allmend",
@@ -38,10 +38,37 @@
   ],
   "karten": [
     {
+      "titel": "Imposta sui cani",
+      "wert": "CHF 120 all'anno",
+      "text": "L'imposta sui cani è di CHF 120 per anno civile, per ogni cane di età superiore a 6 mesi. Gli Einwohnerdienste (controllo abitanti) inviano la fattura a fine maggio. Va pagata al più tardi entro fine giugno, esclusivamente con la polizza di versamento (codice QR). Se il tuo cane compie 6 mesi solo dopo il 30 giugno, l'imposta è di CHF 60: invia per questo una copia del libretto di vaccinazione agli Einwohnerdienste. Su domanda scritta è di CHF 60 per un cane che protegge un edificio isolato e di CHF 40 per i cani da fattoria delle aziende agricole. Nei casi di rigore l'imposta può essere condonata del tutto o in parte su domanda motivata, in particolare se vivi soltanto di rendite AVS o AI, di prestazioni complementari o di aiuti della città, oppure se ricevi l'aiuto sociale economico. Presenti la domanda ogni anno per iscritto, con un giustificativo. Se il tuo cane muore prima del 30 giugno e non acquisti un cane sostitutivo, devi rivolgerti tu stesso agli Einwohnerdienste per il rimborso di metà dell'imposta.",
+      "quellen": [
+        "lu_luzern_merkblatt"
+      ]
+    },
+    {
+      "titel": "Guinzaglio",
+      "wert": "tutta l'Allmend",
+      "text": "Su tutta l'Allmend vige l'obbligo di guinzaglio. Fa eccezione l'area di svago per cani a sud dell'Armee-Ausbildungszentrum (centro d'istruzione dell'esercito). Nelle zone protette dell'Allmend non puoi lasciare i sentieri. Per il resto in città valgono le regole del Cantone, per esempio l'obbligo di guinzaglio nei parchi. La città autorizza eccezioni dove sono segnalate.",
+      "quellen": [
+        "lu_luzern_allmend",
+        "lu_luzern_hunde"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "wert": "Einwohnerdienste",
+      "text": "Se non hai mai detenuto un cane, ti rivolgi prima agli Einwohnerdienste (controllo abitanti) della città di Lucerna (Obergrundstrasse 1, telefono 041 208 83 56) e ti fai registrare nella banca dati AMICUS. Solo dopo un cane può essere registrato a tuo nome. AMICUS ti invia i dati di accesso per posta. Se detieni già un cane registrato correttamente o ne hai detenuto uno in passato, non devi presentarti. Annunci un cambiamento di indirizzo entro 10 giorni al Comune del nuovo domicilio. Registri tu stesso in AMICUS la cessione, la presa a carico e la morte di un cane, ogni cambio di detentore entro 10 giorni.",
+      "quellen": [
+        "lu_luzern_merkblatt",
+        "lu_luzern_hunde"
+      ]
+    },
+    {
       "titel": "Multe",
       "wert": "da CHF 80 a 150 secondo l'infrazione",
-      "text": "Mancato rispetto dei divieti o dell'obbligo di guinzaglio: da CHF 100 a 150 (riserve naturali). Escrementi lasciati sul posto: CHF 80. Stato dell'opuscolo: 2022.",
+      "text": "Valgono le multe disciplinari del Cantone. CHF 100: cane portato in un luogo con divieto di accesso, oppure obbligo di guinzaglio non rispettato in locali, parchi, mezzi di trasporto pubblici o su strade molto trafficate. CHF 150: obbligo di guinzaglio non rispettato in una riserva naturale. CHF 80: escrementi del cane lasciati sul posto. CHF 100: obbligo di guinzaglio non rispettato nel bosco e fino a 50 m dal margine del bosco, dal 1° aprile al 31 luglio.",
       "quellen": [
+        "lu_kobv",
         "lu_stadt"
       ]
     }

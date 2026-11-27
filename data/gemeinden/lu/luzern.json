@@ -5,9 +5,9 @@
   "name": "Stadt Luzern",
   "ort": "Luzern",
   "in_ort": "in der Stadt Luzern",
-  "geprueft": "2026-11-16",
+  "geprueft": "2026-11-27",
   "hinweis_heute": "In der Stadt Luzern gelten auf den meisten städtischen Flächen Hundeverbote oder Leinenzwang. Frei laufen darf dein Hund in den drei Freilaufzonen.",
-  "einleitung": "Drei abgegrenzte und signalisierte Freilaufzonen. Auf den anderen städtischen Flächen gelten mehrheitlich Hundeverbote und Leinenzwang.",
+  "einleitung": "Drei abgegrenzte und signalisierte Freilaufzonen. Auf den anderen städtischen Flächen gelten mehrheitlich Hundeverbote und Leinenzwang. Stand der Broschüre der Stadt: 2022.",
   "freilaufzonen": [
     {
       "name": "Allmend",
@@ -37,10 +37,37 @@
   ],
   "karten": [
     {
+      "titel": "Hundetaxe",
+      "wert": "CHF 120 pro Jahr",
+      "text": "Die Hundesteuer beträgt CHF 120 pro Kalenderjahr, für jeden Hund, der älter als 6 Monate ist. Die Einwohnerdienste verschicken die Rechnung Ende Mai. Zu bezahlen ist sie bis spätestens Ende Juni, ausschliesslich mit dem Einzahlungsschein (QR-Code). Wird dein Hund erst nach dem 30. Juni 6 Monate alt, beträgt die Steuer CHF 60: Schick dafür eine Kopie des Impfbüchleins an die Einwohnerdienste. Auf schriftliches Gesuch sind es CHF 60 für einen Hund, der ein einsam gelegenes Gebäude schützt, und CHF 40 für Hofhunde auf Landwirtschaftsbetrieben. In Härtefällen kann die Steuer auf begründetes Gesuch ganz oder teilweise erlassen werden, namentlich wenn du nur von AHV- oder IV-Renten, Ergänzungsleistungen oder städtischen Beihilfen lebst oder wirtschaftliche Sozialhilfe erhältst. Das Gesuch stellst du jedes Jahr schriftlich und mit Nachweis. Stirbt dein Hund vor dem 30. Juni und schaffst du keinen Ersatzhund an, musst du dich für die Rückerstattung der halben Steuer selbst bei den Einwohnerdiensten melden.",
+      "quellen": [
+        "lu_luzern_merkblatt"
+      ]
+    },
+    {
+      "titel": "Leine",
+      "wert": "ganze Allmend",
+      "text": "Auf der ganzen Allmend gilt Leinenpflicht. Ausgenommen ist die Hundefreilaufzone südlich des Armee-Ausbildungszentrums. In den Schutzgebieten der Allmend darfst du die Wege nicht verlassen. Sonst gelten in der Stadt die Regeln des Kantons, zum Beispiel der Leinenzwang in Parkanlagen. Ausnahmen gestattet die Stadt dort, wo sie ausgeschildert sind.",
+      "quellen": [
+        "lu_luzern_allmend",
+        "lu_luzern_hunde"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "wert": "Einwohnerdienste",
+      "text": "Hast du noch nie einen Hund gehalten, meldest du dich zuerst bei den Einwohnerdiensten der Stadt Luzern (Obergrundstrasse 1, Telefon 041 208 83 56) und lässt dich in der Datenbank AMICUS erfassen. Erst dann kann ein Hund auf dich registriert werden. Deine Zugangsdaten schickt dir AMICUS per Post. Hältst du schon einen korrekt registrierten Hund oder hast du früher einen gehalten, musst du nicht vorsprechen. Eine Adressänderung meldest du innert 10 Tagen der Gemeinde des neuen Wohnorts. Abgabe, Übernahme und Tod eines Hundes erfasst du selbst in AMICUS, jede Handänderung innert 10 Tagen.",
+      "quellen": [
+        "lu_luzern_merkblatt",
+        "lu_luzern_hunde"
+      ]
+    },
+    {
       "titel": "Bussen",
       "wert": "CHF 80 bis 150 je nach Verstoss",
-      "text": "Missachtung von Verboten oder Leinenzwang: CHF 100 bis 150 (Naturschutzgebiete). Hundekot liegen lassen: CHF 80. Stand der Broschüre: 2022.",
+      "text": "Es gelten die Ordnungsbussen des Kantons. CHF 100: Hund an einen Ort mit Betretverbot mitgenommen oder Leinenzwang in Lokalen, Parkanlagen, öffentlichen Verkehrsmitteln oder auf verkehrsreichen Strassen missachtet. CHF 150: Leinenzwang in einem Naturschutzgebiet missachtet. CHF 80: Hundekot liegen gelassen. CHF 100: Leinenpflicht im Wald und bis 50 m ab Waldrand vom 1. April bis 31. Juli missachtet.",
       "quellen": [
+        "lu_kobv",
         "lu_stadt"
       ]
     }
