@@ -320,3 +320,49 @@ thead th a{text-underline-offset:2px}
   .plates.liste{grid-template-columns:repeat(2,minmax(0,1fr));gap:0 18px}
   .today-head::after{display:none}
 }
+
+/* Karte der Hundezonen. Die Kartenbilder bleiben in beiden Farbmodi hell, darum haben die Flächen feste Farben:
+   Blattgrün für Freilauf, Rost für Leinenpflicht, Tinte für Hundeverbot (wie «Leine» und «Kein Zutritt»). */
+:root{--k-frei:#2B6537;--k-leine:#A3381C;--k-verbot:#16201A;--k-ort:#2D5476}
+.karte-wahl{margin:0;padding:0;border:0;min-width:0;display:flex;flex-wrap:wrap;gap:8px}
+.karte-wahl label{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:6px 14px 6px 10px;border:1px solid var(--rule);border-radius:var(--r);background:var(--sheet);font-family:var(--sans);font-size:.95rem;font-weight:650;font-stretch:90%;font-variant-numeric:tabular-nums;cursor:pointer}
+.karte-wahl label:hover{background:var(--sunk);border-color:var(--binding)}
+.karte-wahl input{width:18px;height:18px;margin:0;flex:none}
+.karte-wahl input:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+.muster{flex:none;width:16px;height:16px;border-radius:2px;border:2px solid var(--k-leine);background:color-mix(in srgb,var(--k-leine) 35%,#fff)}
+.muster.frei{border-color:var(--k-frei);background:color-mix(in srgb,var(--k-frei) 50%,#fff)}
+.muster.zeit{border-style:dashed;background:color-mix(in srgb,var(--k-leine) 22%,#fff)}
+.muster.verbot{border-color:var(--k-verbot);background:color-mix(in srgb,var(--k-verbot) 50%,#fff)}
+.karte-feld{position:relative;isolation:isolate;border:1px solid var(--rule);border-radius:var(--r);background:var(--sunk);overflow:hidden}
+.karte[data-stand="bereit"] .karte-feld{height:clamp(380px,68vh,640px)}
+.karte-blatt{position:absolute;inset:0}
+.karte-start{display:grid;justify-items:start;gap:14px;padding:22px;max-width:60ch}
+.karte-start p{margin:0}
+.karte-start .dest{min-height:48px;padding:10px 20px;background:var(--ink);border-color:var(--ink);color:var(--paper)}
+.karte-start .dest:hover{background:var(--ink-2);border-color:var(--ink-2)}
+.karte-start .dest:disabled{opacity:.6;cursor:progress}
+.karte-start .dest-name{font-size:1.08rem}
+.karte-info{position:absolute;z-index:1100;left:0;right:0;bottom:0;display:grid;gap:4px;justify-items:start;padding:12px 14px 12px;background:var(--sheet);border-top:1px solid var(--rule);font-size:.95rem;max-height:60%;overflow:auto}
+.karte-info h3{margin:0;font-family:var(--sans);font-size:1.08rem;line-height:1.2;font-weight:760;font-stretch:88%}
+.karte-info p{margin:0}
+.karte-info .karte-bem{color:var(--ink-2);font-size:.9rem}
+.karte-zu{appearance:none;margin-top:4px;padding:6px 0;border:0;background:none;color:var(--note);font:inherit;font-family:var(--sans);font-size:.9rem;font-weight:650;text-decoration:underline;text-underline-offset:3px;cursor:pointer}
+.karte-zu:focus-visible{outline:2px solid var(--focus);outline-offset:2px;border-radius:2px}
+.karte-status{margin:0;min-height:1.4em;font-family:var(--sans);font-size:.88rem;color:var(--ink-2)}
+.karte-ort{display:flex;flex-wrap:wrap;align-items:center;gap:8px 16px}
+.karte-ort .dest{font-weight:720;font-stretch:88%}
+.karte-ort p{margin:0;font-family:var(--sans);font-size:.88rem;color:var(--ink-2);max-width:52ch}
+.karte .src{margin-top:2px}
+.list-card.legende li{padding-left:28px}
+.list-card.legende li::before{content:none}
+.list-card.legende .muster{position:absolute;left:0;top:calc(7px + .28em)}
+.plates.liste button.dest{width:100%}
+/* Das Kartenprogramm bringt eigene Bedienelemente mit: Sie bekommen die Formen der Seite, ohne Schatten. */
+.karte .karte-feld .leaflet-container{font-family:var(--sans);font-size:.85rem;background:#E9EDE8;outline-offset:-3px}
+.karte .karte-feld .leaflet-container:focus-visible{outline:3px solid var(--focus)}
+.karte .karte-feld .leaflet-bar{border:1px solid var(--rule);border-radius:var(--r);box-shadow:none}
+.karte .karte-feld .leaflet-bar a{width:40px;height:40px;line-height:38px;font-size:1.35rem;font-weight:500;background:var(--sheet);color:var(--ink);border-bottom:1px solid var(--rule)}
+.karte .karte-feld .leaflet-bar a:last-child{border-bottom:0}
+.karte .karte-feld .leaflet-bar a:hover{background:var(--sunk)}
+.karte .karte-feld .leaflet-bar a:focus-visible{outline:3px solid var(--focus);outline-offset:-3px}
+.karte .karte-feld .leaflet-bar a.leaflet-disabled{background:var(--sunk);color:var(--ink-2)}

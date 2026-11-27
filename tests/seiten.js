@@ -11,13 +11,16 @@
 // Sprachen: Seiten unter /fr-ch/ tragen lang="fr-CH", unter /it-ch/ lang="it-CH", alle anderen lang="de-CH".
 // hreflang muss in beide Richtungen stimmen, und die Ortssuche jeder Startseite wird mitgeprüft.
 // Übersetzte Seiten (Feld uebersetzt_aus) tragen den Hinweis «Übersetzung», Originalfassungen nicht.
+// Karte der Hundezonen (Adressen auf /karte/): Vor dem Klick auf «Karte laden» ruft die Seite nichts Fremdes ab.
+// Nach dem Klick stehen alle Flächen aus zonen.json auf der Karte, fremd sind nur die Kartenbilder von swisstopo
+// (im Test durch ein leeres Bild ersetzt), und ein Name aus der Liste der Freilaufzonen zeigt die Zone an.
 // Der Test bricht auch ab, wenn eine Adresse aus dem letzten Commit in der Sitemap fehlt.
 // Soll eine Seite wirklich verschwinden: node tests/seiten.js --entfernen-erlaubt
 const http = require('http'), fs = require('fs'), path = require('path');
 const { execFileSync } = require('child_process');
 const { chromium } = require('playwright');
 const ROOT = path.resolve(__dirname, '..');
-const TYP = { '.html': 'text/html; charset=utf-8', '.css': 'text/css', '.js': 'text/javascript', '.json': 'application/json; charset=utf-8', '.svg': 'image/svg+xml', '.woff2': 'font/woff2', '.xml': 'application/xml', '.txt': 'text/plain' };
+const TYP = { '.html': 'text/html; charset=utf-8', '.css': 'text/css', '.js': 'text/javascript', '.json': 'application/json; charset=utf-8', '.svg': 'image/svg+xml', '.png': 'image/png', '.woff2': 'font/woff2', '.xml': 'application/xml', '.txt': 'text/plain' };
 const lies = (...teile) => JSON.parse(fs.readFileSync(path.join(ROOT, ...teile), 'utf8'));
 // Sprachen in der Reihenfolge, in der die Suche ausweicht: [Sprache, Präfix der Adresse, Datenordner, lang im HTML]
 const SPRACHEN = [['de', '', ['data'], 'de-CH'], ['fr', '/fr-ch', ['data', 'fr-ch'], 'fr-CH'], ['it', '/it-ch', ['data', 'it-ch'], 'it-CH']];
@@ -144,6 +147,52 @@ function datei(url) {
 
   // Ortssuche: Die Erwartungen kommen aus den Daten, damit der Test mit jedem neuen Kanton weiter stimmt.
   const ctx = await browser.newContext({ viewport: { width: 390, height: 844 }, deviceScaleFactor: 1 });
+
+  // Karte der Hundezonen
+  const LEER = Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP48OHDfwAJMQPcbdP1VQAAAABJRU5ErkJggg==', 'base64');
+  const KACHELN = 'https://wmts.geo.admin.ch/';
+  for (const s of seiten.filter(x => x.endsWith('/karte/'))) {
+    const p = await ctx.newPage();
+    const fremd = [];
+    p.on('pageerror', err => fehler.push(`${s}: Skriptfehler in der Karte: ` + err.message));
+    p.on('request', r => { if (!r.url().startsWith(basis) && !r.url().startsWith('data:')) fremd.push(r.url()); });
+    await p.route(KACHELN + '**', r => r.fulfill({ status: 200, contentType: 'image/png', body: LEER }));
+    await p.goto(basis + s, { waitUntil: 'load' });
+    if (fremd.length) fehler.push(`${s}: ruft vor dem Klick auf «Karte laden» fremde Adressen ab: ${fremd[0]}`);
+    const quelle = await p.getAttribute('[data-karte]', 'data-daten');
+    const soll = datei(quelle) ? JSON.parse(fs.readFileSync(datei(quelle), 'utf8')).zonen.length : -1;
+    if (soll < 1) fehler.push(`${s}: Die Flächen fehlen (${quelle})`);
+    if (await p.isHidden('[data-karte-laden]')) fehler.push(`${s}: Der Knopf «Karte laden» ist nicht sichtbar`);
+    else {
+      await p.click('[data-karte-laden]');
+      await p.waitForSelector('[data-karte][data-stand="bereit"]', { timeout: 15000 }).catch(() => {});
+      const k = await p.evaluate(() => ({
+        stand: document.querySelector('[data-karte]').getAttribute('data-stand'),
+        flaechen: Number(document.querySelector('[data-karte]').getAttribute('data-flaechen')),
+        blatt: !!document.querySelector('.karte-blatt.leaflet-container canvas'),
+        startWeg: document.querySelector('[data-karte-start]').hidden,
+        ort: !document.querySelector('[data-karte-ort]').parentNode.hidden,
+        status: document.querySelector('[data-karte-status]').textContent.trim(),
+        ueberlauf: document.documentElement.scrollWidth - window.innerWidth
+      }));
+      if (k.stand !== 'bereit' || !k.blatt || !k.startWeg || !k.ort || !k.status) fehler.push(`${s}: Die Karte wird nach dem Klick nicht fertig (Stand ${k.stand})`);
+      if (k.flaechen !== soll) fehler.push(`${s}: ${k.flaechen} Flächen auf der Karte, zonen.json hat ${soll}`);
+      if (k.ueberlauf > 0) fehler.push(`${s}: läuft mit geladener Karte seitlich über (${k.ueberlauf}px)`);
+      const andere = fremd.filter(u => !u.startsWith(KACHELN));
+      if (andere.length) fehler.push(`${s}: Die Karte ruft ausser den Kartenbildern von swisstopo noch ab: ${andere[0]}`);
+      if (!fremd.some(u => u.startsWith(KACHELN))) fehler.push(`${s}: Die Karte hat keine Kartenbilder angefordert`);
+      const erste = await p.$('[data-karte-zeige]');
+      if (!erste) fehler.push(`${s}: Die Liste der Freilaufzonen fehlt`);
+      else {
+        const name = (await erste.textContent()).trim();
+        await erste.click();
+        await p.waitForSelector('[data-karte-info]:not([hidden])', { timeout: 5000 }).catch(() => {});
+        const info = await p.$eval('[data-karte-info]', x => x.hidden ? '' : x.textContent);
+        if (!name || !info.includes(name)) fehler.push(`${s}: Ein Tipp auf «${name}» zeigt die Zone nicht an`);
+      }
+    }
+    await p.close();
+  }
   const orte = lies('data', 'orte.json');
   // Kantone und Gemeinden aller Sprachen. Die deutsche Startseite führt auf die deutsche Fassung, sonst auf die nächste.
   const kantonSeite = {}, eigene = [];

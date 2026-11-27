@@ -769,6 +769,149 @@ TEXTE = {
     },
 }
 
+# Karte der Hundezonen (seit 27. November 2026): Flächen aus einem amtlichen Geodatensatz, eine Datei je Gemeinde
+# unter data/geo/<kt>-<gemeinde>.json. Sie entsteht mit tools/hundezonen.py. ZONEN_ART sagt, was die Zonennummern
+# des Datensatzes bedeuten (Stadt Zürich: 1 Hundeverbot, 3 Leinenpflicht, 7 Freilaufzone, 8 Leinenpflicht 10 bis 22 Uhr,
+# 9 Leinenpflicht 1. April bis 30. September, 12 beides zusammen). Die Texte der Seite gehören zur Tabelle TEXTE.
+ZONEN_ART = {7: "frei", 3: "leine", 8: "leine", 9: "leine", 12: "leine", 1: "verbot"}
+GEO = {}  # {"zh-zuerich": Daten der Datei}, gesetzt in main()
+
+TEXTE["de"]["karte"] = {
+    "pfad": "Karte",
+    "h1": "Karte der Hundezonen {in_ort}",
+    "titel": "Karte der Hundezonen {in_ort}: Freilaufzonen, Leinenpflicht, Hundeverbot | Gassi-Kompass",
+    "beschr": "Wo Hunde {in_ort} frei laufen dürfen, wo Leinenpflicht gilt und wo sie keinen Zutritt haben: {n} Flächen aus dem amtlichen Datensatz auf der Karte, auf Wunsch mit deinem Standort.",
+    "lede": "Wo dein Hund frei laufen darf, wo er an die Leine muss und wo er keinen Zutritt hat. Die Karte zeigt die {n} Flächen aus dem Datensatz der Stadt, Stand {stand}.",
+    "h2": "Hundezonen auf der Karte",
+    "wahl": "Auf der Karte zeigen",
+    "anzahl": {"frei": "{n} Freilaufzonen", "leine": "{n} Flächen mit Leinenpflicht", "verbot": "{n} Flächen mit Hundeverbot"},
+    "einwilligung": "Die Karte lädt Kartenbilder vom Bundesamt für Landestopografie swisstopo. Dessen Server erfährt dabei deine IP-Adresse. Bis du die Karte lädst, ruft diese Seite nichts von fremden Servern ab.",
+    "laden": "Karte laden",
+    "ohne_js": "Die Karte braucht JavaScript. Die Freilaufzonen und die Orte mit Leinenpflicht stehen als Liste auf der Seite «{seite}».",
+    "standort_hinweis": "Dein Standort bleibt in deinem Browser. Die Seite speichert und sendet ihn nicht.",
+    "nachweis": "Kartenbild: © swisstopo. Hundezonen: Datensatz der Stadt, Stand {stand}.",
+    "h2_frei": "Freilaufzonen {in_ort}",
+    "frei_p": "Tippe auf einen Namen, und die Karte zeigt die Zone.",
+    "h2_lesen": "So liest du die Karte",
+    "h3_farben": "Farben und Linien",
+    "farben": [("frei", "Grün: Freilaufzone. Hunde dürfen hier frei laufen."),
+               ("leine", "Rost mit durchgezogener Linie: Leinenpflicht das ganze Jahr."),
+               ("zeit", "Rost mit gestrichelter Linie: Leinenpflicht zu bestimmten Zeiten. Welche, steht beim Antippen."),
+               ("verbot", "Dunkel: Hundeverbot. Hunde haben hier keinen Zutritt.")],
+    "h3_grenzen": "Was die Karte nicht zeigt",
+    "grenzen": ["Die Leinenpflicht im Wald und die übrigen Regeln des Kantons. Sie gelten zusätzlich.",
+                "Verfügungen, die neuer sind als der Datensatz (Stand {stand}).",
+                "Den genauen Verlauf: Die Umrisse sind auf rund 1 Meter vereinfacht. Vor Ort gelten die Tafeln an den Zugängen."],
+    "zurueck": "Alle Hunderegeln {in_ort}",
+    "link": "Karte der Hundezonen {in_ort}",
+    "js": {
+        "laedt": "Die Karte wird geladen.",
+        "fehler": "Die Karte liess sich nicht laden. Versuch es später noch einmal.",
+        "bereit": "Tippe auf eine Fläche, um Name und Regel zu sehen.",
+        "standort": "Meinen Standort zeigen", "standort_aus": "Standort ausblenden",
+        "standort_da": "Dein Standort ist eingezeichnet.",
+        "standort_aussen": "Dein Standort liegt ausserhalb der Karte.",
+        "standort_fehlt": "Der Standort ist nicht freigegeben oder nicht verfügbar.",
+        "schliessen": "Schliessen", "bemerkung": "Bemerkung der Stadt",
+        "zone": {"7": "Freilaufzone: Hunde dürfen hier frei laufen.",
+                 "3": "Leinenpflicht das ganze Jahr.",
+                 "8": "Leinenpflicht das ganze Jahr von 10 bis 22 Uhr.",
+                 "9": "Leinenpflicht vom 1. April bis 30. September.",
+                 "12": "Leinenpflicht vom 1. April bis 30. September von 10 bis 22 Uhr.",
+                 "1": "Hundeverbot: Hunde haben hier keinen Zutritt."},
+    },
+}
+TEXTE["fr"]["karte"] = {
+    "pfad": "Carte",
+    "h1": "Carte des zones pour chiens {in_ort}",
+    "titel": "Carte des zones pour chiens {in_ort} : espaces de liberté, laisse obligatoire, chiens interdits | Gassi-Kompass",
+    "beschr": "Où les chiens peuvent courir librement {in_ort}, où la laisse est obligatoire et où ils n'ont pas accès : {n} surfaces du jeu de données officiel sur la carte, avec votre position si vous le souhaitez.",
+    "lede": "Où votre chien peut courir librement, où il doit être tenu en laisse et où il n'a pas accès. La carte montre les {n} surfaces du jeu de données de la Ville, état au {stand}.",
+    "h2": "Les zones pour chiens sur la carte",
+    "wahl": "Afficher sur la carte",
+    "anzahl": {"frei": "{n} espaces de liberté", "leine": "{n} surfaces avec laisse obligatoire", "verbot": "{n} surfaces interdites aux chiens"},
+    "einwilligung": "La carte charge des images de carte de l'Office fédéral de topographie swisstopo. Son serveur apprend alors votre adresse IP. Tant que vous ne chargez pas la carte, cette page ne demande rien à des serveurs tiers.",
+    "laden": "Charger la carte",
+    "ohne_js": "La carte a besoin de JavaScript. Les espaces de liberté et les lieux avec laisse obligatoire figurent en liste sur la page «{seite}».",
+    "standort_hinweis": "Votre position reste dans votre navigateur. Le site ne l'enregistre pas et ne l'envoie pas.",
+    "nachweis": "Image de carte : © swisstopo. Zones pour chiens : jeu de données de la Ville, état au {stand}.",
+    "h2_frei": "Espaces de liberté pour chiens {in_ort}",
+    "frei_p": "Touchez un nom, et la carte montre la zone.",
+    "h2_lesen": "Comment lire la carte",
+    "h3_farben": "Couleurs et lignes",
+    "farben": [("frei", "Vert : espace de liberté. Les chiens peuvent y courir librement."),
+               ("leine", "Rouille avec ligne continue : laisse obligatoire toute l'année."),
+               ("zeit", "Rouille avec ligne en traitillé : laisse obligatoire à certaines périodes. Lesquelles, vous le voyez en touchant la surface."),
+               ("verbot", "Foncé : chiens interdits. Les chiens n'y ont pas accès.")],
+    "h3_grenzen": "Ce que la carte ne montre pas",
+    "grenzen": ["La laisse obligatoire en forêt et les autres règles du canton. Elles s'appliquent en plus.",
+                "Les décisions plus récentes que le jeu de données (état au {stand}).",
+                "Le tracé exact : les contours sont simplifiés à environ 1 mètre. Sur place, les panneaux aux accès font foi."],
+    "zurueck": "Toutes les règles pour les chiens {in_ort}",
+    "link": "Carte des zones pour chiens {in_ort}",
+    "js": {
+        "laedt": "La carte se charge.",
+        "fehler": "La carte n'a pas pu être chargée. Réessayez plus tard.",
+        "bereit": "Touchez une surface pour voir son nom et la règle.",
+        "standort": "Afficher ma position", "standort_aus": "Masquer ma position",
+        "standort_da": "Votre position est indiquée.",
+        "standort_aussen": "Votre position se trouve en dehors de la carte.",
+        "standort_fehlt": "La position n'est pas autorisée ou pas disponible.",
+        "schliessen": "Fermer", "bemerkung": "Remarque de la Ville (en allemand)",
+        "zone": {"7": "Espace de liberté : les chiens peuvent y courir librement.",
+                 "3": "Laisse obligatoire toute l'année.",
+                 "8": "Laisse obligatoire toute l'année de 10 h à 22 h.",
+                 "9": "Laisse obligatoire du 1er avril au 30 septembre.",
+                 "12": "Laisse obligatoire du 1er avril au 30 septembre de 10 h à 22 h.",
+                 "1": "Chiens interdits : les chiens n'y ont pas accès."},
+    },
+}
+TEXTE["it"]["karte"] = {
+    "pfad": "Mappa",
+    "h1": "Mappa delle zone per cani {in_ort}",
+    "titel": "Mappa delle zone per cani {in_ort}: aree di svago, obbligo di guinzaglio, divieto per i cani | Gassi-Kompass",
+    "beschr": "Dove i cani possono correre liberi {in_ort}, dove vale l'obbligo di guinzaglio e dove non hanno accesso: {n} superfici del set di dati ufficiale sulla mappa, se vuoi con la tua posizione.",
+    "lede": "Dove il tuo cane può correre libero, dove va tenuto al guinzaglio e dove non ha accesso. La mappa mostra le {n} superfici del set di dati della Città, stato al {stand}.",
+    "h2": "Le zone per cani sulla mappa",
+    "wahl": "Mostra sulla mappa",
+    "anzahl": {"frei": "{n} aree di svago", "leine": "{n} superfici con obbligo di guinzaglio", "verbot": "{n} superfici vietate ai cani"},
+    "einwilligung": "La mappa carica immagini cartografiche dell'Ufficio federale di topografia swisstopo. Il suo server viene così a conoscere il tuo indirizzo IP. Finché non carichi la mappa, questa pagina non richiede nulla a server di terzi.",
+    "laden": "Carica la mappa",
+    "ohne_js": "La mappa ha bisogno di JavaScript. Le aree di svago e i luoghi con obbligo di guinzaglio figurano in elenco nella pagina «{seite}».",
+    "standort_hinweis": "La tua posizione resta nel tuo browser. Il sito non la salva e non la invia.",
+    "nachweis": "Immagine cartografica: © swisstopo. Zone per cani: set di dati della Città, stato al {stand}.",
+    "h2_frei": "Aree di svago per cani {in_ort}",
+    "frei_p": "Tocca un nome e la mappa mostra la zona.",
+    "h2_lesen": "Come leggere la mappa",
+    "h3_farben": "Colori e linee",
+    "farben": [("frei", "Verde: area di svago. Qui i cani possono correre liberi."),
+               ("leine", "Ruggine con linea continua: obbligo di guinzaglio tutto l'anno."),
+               ("zeit", "Ruggine con linea tratteggiata: obbligo di guinzaglio in determinati periodi. Quali, lo vedi toccando la superficie."),
+               ("verbot", "Scuro: divieto per i cani. Qui i cani non hanno accesso.")],
+    "h3_grenzen": "Cosa la mappa non mostra",
+    "grenzen": ["L'obbligo di guinzaglio nel bosco e le altre regole del Cantone. Valgono in aggiunta.",
+                "Le decisioni più recenti del set di dati (stato al {stand}).",
+                "Il tracciato esatto: i contorni sono semplificati a circa 1 metro. Sul posto fanno stato i cartelli agli accessi."],
+    "zurueck": "Tutte le regole per i cani {in_ort}",
+    "link": "Mappa delle zone per cani {in_ort}",
+    "js": {
+        "laedt": "La mappa si sta caricando.",
+        "fehler": "Non è stato possibile caricare la mappa. Riprova più tardi.",
+        "bereit": "Tocca una superficie per vedere il nome e la regola.",
+        "standort": "Mostra la mia posizione", "standort_aus": "Nascondi la mia posizione",
+        "standort_da": "La tua posizione è indicata.",
+        "standort_aussen": "La tua posizione è fuori dalla mappa.",
+        "standort_fehlt": "La posizione non è autorizzata o non è disponibile.",
+        "schliessen": "Chiudi", "bemerkung": "Osservazione della Città (in tedesco)",
+        "zone": {"7": "Area di svago: qui i cani possono correre liberi.",
+                 "3": "Obbligo di guinzaglio tutto l'anno.",
+                 "8": "Obbligo di guinzaglio tutto l'anno dalle 10 alle 22.",
+                 "9": "Obbligo di guinzaglio dal 1° aprile al 30 settembre.",
+                 "12": "Obbligo di guinzaglio dal 1° aprile al 30 settembre dalle 10 alle 22.",
+                 "1": "Divieto per i cani: qui i cani non hanno accesso."},
+    },
+}
+
 ZAHLEN = {}       # Umfang der Seite für die Startseite, gesetzt in main(): {"quellen": Zahl der verlinkten Quellen}
 LANG = "de"       # Sprache der Seite, die gerade entsteht. Wird mit sprache() gesetzt.
 S = TEXTE["de"]   # Texte dieser Sprache
@@ -903,6 +1046,38 @@ def lade():
         welt[lang]["b"] = lies(pfad) if pfad.is_file() else None
     orte = json.loads((DATA / "orte.json").read_text("utf-8"))
     return quellen, welt, welt["de"]["b"], orte
+
+
+def lade_geo(quellen, welt, fehler):
+    """Geodaten für die Karten der Hundezonen: data/geo/<kt>-<gemeinde>.json, erzeugt von tools/hundezonen.py.
+    Hängt Fehler an die Liste und gibt {Name: Daten} zurück."""
+    geo, ordner = {}, DATA / "geo"
+    for pfad in (sorted(ordner.glob("*.json")) if ordner.is_dir() else []):
+        wo = f"data/geo/{pfad.name}"
+        try:
+            d = json.loads(pfad.read_text("utf-8"))
+        except ValueError as fehl:
+            fehler.append(f"{wo}: kein gültiges JSON ({fehl})")
+            continue
+        if not any(f'{g["kanton"]}-{g["id"]}' == pfad.stem for l in SPRACHEN for g in welt[l]["g"]):
+            fehler.append(f"{wo}: Es gibt keine Gemeinde dazu. Der Dateiname ist <kt>-<gemeinde>.json.")
+        if d.get("quelle") not in quellen:
+            fehler.append(f"{wo}: Quelle {d.get('quelle')!r} fehlt in den Quellendateien")
+        if not d.get("stand"):
+            fehler.append(f"{wo}: Stand der Daten fehlt")
+        try:
+            date.fromisoformat(str(d.get("abgerufen")))
+        except ValueError:
+            fehler.append(f"{wo}: abgerufen ist kein Datum JJJJ-MM-TT")
+        zonen = d.get("zonen") or []
+        if not zonen:
+            fehler.append(f"{wo}: keine Flächen")
+        for z in zonen:
+            if z.get("z") not in ZONEN_ART or not z.get("n") or not z.get("g"):
+                fehler.append(f"{wo}: Fläche ohne Namen, ohne Umriss oder mit unbekannter Zone: {str(z)[:80]}")
+                break
+        geo[pfad.stem] = d
+    return geo
 
 
 # ------------------------------------------------------------------- Prüfung
@@ -1170,6 +1345,15 @@ def g_sprachen(bfs):
     return {l: g_pfad(l, g) for l in SPRACHEN for g in W[l]["g"] if g["bfs"] == bfs}
 
 
+def karten_geo(g):
+    """Geodaten zur Karte der Hundezonen dieser Gemeinde oder None."""
+    return GEO.get(f'{g["kanton"]}-{g["id"]}')
+
+
+def karte_pfad(lang, g):
+    return g_pfad(lang, g) + "karte/"
+
+
 def k_ziel(kid):
     """Beste Fassung des Kantons für die Sprache der Seite: (Sprache, Adresse) oder None."""
     da = k_sprachen(kid)
@@ -1348,9 +1532,13 @@ def lokal(g, Q, benutzt):
                          f'<p>{e(z["text"])}</p></article>')
         zonen = (f'<h3 class="sub">{S["freilauf"]}</h3><div class="zones">{"".join(teile)}</div>'
                  f'{qlinks(g["freilaufzonen_quellen"], Q, benutzt)}')
+    zur_karte = ""
+    if karten_geo(g):
+        zur_karte = (f'<p><a class="text-link" href="{karte_pfad(LANG, g)}">'
+                     f'{e(S["karte"]["link"].format(in_ort=g["in_ort"]))}</a></p>')
     karten = "".join(karte(c, Q, benutzt) for c in g["karten"])
     return (f'<section class="sec"><div class="sec-head">'
-            f'<h2>{e(S["lokal_h2"].format(in_ort=g["in_ort"]))}</h2>{intro}</div>{zonen}'
+            f'<h2>{e(S["lokal_h2"].format(in_ort=g["in_ort"]))}</h2>{intro}</div>{zonen}{zur_karte}'
             f'<div class="cards">{karten}</div></section>')
 
 
@@ -1530,9 +1718,10 @@ def gemeindeverzeichnis():
     return f'<dl class="index">{"".join(zeilen)}</dl>'
 
 
-def seite(pfad, titel, beschr, inhalt, krumen, stand, benutzt, Q, index=True, alt=None):
+def seite(pfad, titel, beschr, inhalt, krumen, stand, benutzt, Q, index=True, alt=None, skripte=""):
     """pfad: Adresse ab Wurzel, z. B. '/zh/zuerich/'. krumen: Liste (Name, Pfad).
-    alt: {Sprache: Adresse} aller Sprachfassungen dieser Seite, die eigene eingeschlossen."""
+    alt: {Sprache: Adresse} aller Sprachfassungen dieser Seite, die eigene eingeschlossen.
+    skripte: weitere Skripte nur für diese Seite (Karte der Hundezonen)."""
     crumbs, ld = "", ""
     start = PRAEFIX[LANG] + "/"
     if krumen:
@@ -1610,7 +1799,7 @@ def seite(pfad, titel, beschr, inhalt, krumen, stand, benutzt, Q, index=True, al
 </div>
 <script src="/assets/heute.js" defer></script>
 <script src="/assets/suche.js" defer></script>
-</body>
+{skripte}</body>
 </html>
 """
 
@@ -1741,6 +1930,71 @@ def seite_gemeinde(g, k, Q):
     return seite(pfad, S["gm_titel"].format(**f), S["gm_beschr"].format(**f),
                  inhalt, [(S["start"], start), (k["name"], k_pfad(LANG, k["id"])), (g["name"], pfad)],
                  stand, benutzt, Q, alt=g_sprachen(g["bfs"]))
+
+
+def seite_karte(g, k, geo, Q):
+    """Karte der Hundezonen einer Gemeinde. Bis zum Klick auf «Karte laden» ruft die Seite nichts Fremdes ab:
+    Das Kartenprogramm liegt unter /assets/karte/, die Kartenbilder kommen danach von swisstopo."""
+    K = S["karte"]
+    benutzt = []
+    start = PRAEFIX[LANG] + "/"
+    zonen = geo["zonen"]
+    je = {art: sum(1 for z in zonen if ZONEN_ART[z["z"]] == art) for art in ("frei", "leine", "verbot")}
+    f = {"in_ort": g["in_ort"], "n": len(zonen), "stand": geo["stand"], "im": k["im"], "des": k["des"]}
+    wahl = "".join(
+        f'<label><input type="checkbox" data-karte-art="{art}" checked>'
+        f'<span class="muster {art}" aria-hidden="true"></span>{e(K["anzahl"][art].format(n=je[art]))}</label>'
+        for art in ("frei", "leine", "verbot"))
+    frei = "".join(
+        f'<button type="button" class="dest" data-karte-zeige="{i}"><span class="dest-name">{e(z["n"])}</span></button>'
+        for i, z in enumerate(zonen) if ZONEN_ART[z["z"]] == "frei")
+    farben = "".join(f'<li><span class="muster {art}" aria-hidden="true"></span>{e(text)}</li>'
+                     for art, text in K["farben"])
+    grenzen = "".join(f"<li>{e(text.format(**f))}</li>" for text in K["grenzen"])
+    seite_g = g_pfad(LANG, g)
+    daten = f'/{g["kanton"]}/{g["id"]}/karte/zonen.json'
+    inhalt = f"""<section class="hero"><!--KRUMEN-->
+<h1>{e(K["h1"].format(**f))}</h1>
+<p class="lede">{e(K["lede"].format(**f))}</p>
+</section>
+<section class="sec karte" data-karte data-stand="start" data-daten="{daten}" data-texte="{e(json.dumps(K["js"], ensure_ascii=False))}">
+<div class="sec-head"><h2>{e(K["h2"])}</h2></div>
+<fieldset class="karte-wahl"><legend class="sr">{e(K["wahl"])}</legend>{wahl}</fieldset>
+<div class="karte-feld" data-karte-feld>
+<div class="karte-start" data-karte-start>
+<p>{e(K["einwilligung"])}</p>
+<button type="button" class="dest" data-karte-laden hidden><span class="dest-name">{e(K["laden"])}</span></button>
+<noscript><p>{e(K["ohne_js"].format(seite=S["gm_h1"].format(**f)))}</p></noscript>
+</div>
+<div class="karte-info" data-karte-info aria-live="polite" hidden></div>
+</div>
+<p class="karte-status" data-karte-status role="status"></p>
+<div class="karte-ort" hidden><button type="button" class="dest" data-karte-ort aria-pressed="false">{e(K["js"]["standort"])}</button><p>{e(K["standort_hinweis"])}</p></div>
+<p class="src">{e(K["nachweis"].format(**f))}</p>
+{qlinks([geo["quelle"]], Q, benutzt)}
+</section>
+<section class="sec">
+<div class="sec-head"><h2>{e(K["h2_frei"].format(**f))}</h2><p>{e(K["frei_p"])}</p></div>
+<div class="plates liste">{frei}</div>
+</section>
+<section class="sec">
+<div class="sec-head"><h2>{e(K["h2_lesen"])}</h2></div>
+<div class="split">
+<div class="list-card legende"><h3>{e(K["h3_farben"])}</h3><ul>{farben}</ul></div>
+<div class="list-card"><h3>{e(K["h3_grenzen"])}</h3><ul>{grenzen}</ul></div>
+</div>
+</section>
+<section class="sec">
+<div class="sec-head"><h2>{e(S["gm_weiter_h2"])}</h2></div>
+<p><a class="text-link" href="{seite_g}">{e(K["zurueck"].format(**f))}</a></p>
+<p><a class="text-link" href="{k_pfad(LANG, k["id"])}">{e(S["gm_kanton"].format(**f))}</a></p>
+<p><a class="text-link" href="{start}">{S["link_suche"]}</a></p>
+</section>"""
+    pfad = karte_pfad(LANG, g)
+    return seite(pfad, K["titel"].format(**f), K["beschr"].format(**f), inhalt,
+                 [(S["start"], start), (k["name"], k_pfad(LANG, k["id"])), (g["name"], seite_g), (K["pfad"], pfad)],
+                 geo["abgerufen"], benutzt, Q, alt={l: p + "karte/" for l, p in g_sprachen(g["bfs"]).items()},
+                 skripte='<script src="/assets/karte.js" defer></script>\n')
 
 
 def seite_thema(t, Q):
@@ -1942,7 +2196,15 @@ def baue(Q, orte):
             k = nach_id[g["kanton"]]
             schreibe(f"{g_pfad(lang, g)}index.html", seite_gemeinde(g, k, Q))
             urls.append((g_pfad(lang, g), min(g["geprueft"], k["geprueft"])))
+            geo = karten_geo(g)
+            if geo:
+                schreibe(f"{karte_pfad(lang, g)}index.html", seite_karte(g, k, geo, Q))
+                urls.append((karte_pfad(lang, g), geo["abgerufen"]))
     sprache("de")
+    for name, geo in GEO.items():  # die Flächen einmal für alle Sprachen, unter der deutschen Adresse
+        kt, _, gid = name.partition("-")
+        schreibe(f"{kt}/{gid}/karte/zonen.json",
+                 json.dumps({"stand": geo["stand"], "zonen": geo["zonen"]}, ensure_ascii=False, separators=(",", ":")))
     schreibe("assets/orte.json", ortsindex(orte))
     eintraege = "".join(
         f"  <url><loc>{SITE}{pfad}</loc>" + (f"<lastmod>{stand}</lastmod>" if stand else "") + "</url>\n"
@@ -1965,6 +2227,7 @@ def main():
         return 0 if dateien else 1
     quellen, welt, bund, orte = lade()
     fehler = pruefe(quellen, welt, bund, orte)
+    GEO.update(lade_geo(quellen, welt, fehler))
     if fehler:
         print(f"FEHLER ({len(fehler)}). Nichts wurde geschrieben:")
         for f in fehler:
@@ -1987,6 +2250,7 @@ def main():
     sammle({l: {art: [{k: v for k, v in d.items() if not k.startswith("_")} for d in welt[l][art]]
                     for art in ("k", "g")} | {"b": welt[l]["b"]} for l in SPRACHEN})
     benutzt.add("ch_swisstopo_orte")  # steht auf der Seite «Über diese Seite»
+    benutzt.update(geo["quelle"] for geo in GEO.values())
     ZAHLEN["quellen"] = len(benutzt & set(quellen))
     unbenutzt = sorted(set(quellen) - benutzt)
     if unbenutzt:
@@ -2012,7 +2276,7 @@ def main():
         return 0
     if "--check" in sys.argv:
         print(f"Daten in Ordnung: {kantone} Kantone, {gemeinden} Gemeinden, {len(quellen)} Quellen ({je}). "
-              f"Übersetzungen: {len(offen) - veraltet} fehlen, {veraltet} veraltet.")
+              f"Übersetzungen: {len(offen) - veraltet} fehlen, {veraltet} veraltet. Karten der Hundezonen: {len(GEO)}.")
         return 0
     anzahl = baue(quellen, orte)
     print(f"Gebaut: {anzahl} Seiten ({kantone} Kantone, {gemeinden} Gemeinden, {len(quellen)} Quellen; {je}). "

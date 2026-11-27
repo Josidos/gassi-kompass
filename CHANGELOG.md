@@ -2,6 +2,20 @@
 
 Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen.
 
+## 2026-11-27, Sitzung mit Joss: Karte der Hundezonen für die Stadt Zürich
+
+- Entscheid von Joss um 11:07 Uhr: «Mache zuerst Karte Zürich und dann Takt täglich.» Die Karte ist eine Probe, weitere Städte nur nach einem neuen Entscheid.
+- Neue Seitenart in drei Sprachen: `/zh/zuerich/karte/`, `/fr-ch/zh/zuerich/karte/`, `/it-ch/zh/zuerich/karte/`. Sie zeigt die 728 Flächen aus dem Datensatz «Hundezonen» der Stadt (Stand der Daten 14.07.2026, Lizenz CC0): 7 Freilaufzonen, 69 Flächen mit Leinenpflicht (24 ganzjährig, 25 von 10 bis 22 Uhr, 1 vom 1. April bis 30. September, 19 vom 1. April bis 30. September von 10 bis 22 Uhr) und 652 Flächen mit Hundeverbot. Die Seite der Stadt Zürich verlinkt die Karte.
+- Vor dem Klick auf «Karte laden» ruft die Seite nichts von fremden Servern ab. Danach kommen das Kartenprogramm (Leaflet 1.9.4, liegt unter `assets/karte/`), die Flächen und die Kartenbilder von swisstopo. Der Standort erscheint erst nach einem eigenen Klick und bleibt im Browser.
+- Daten: `tools/hundezonen.py` und die Action `hundezonen.yml`. Der Arbeitsplatz erreicht die Server der Stadt nicht, und Artefakte einer Action lassen sich nicht laden (der Speicher dafür ist gesperrt). Darum legt die Action die Daten auf den Zweig `geodaten`. Aufbereitung: 70 387 Punkte auf 18 654 vereinfacht (höchstens 1 Meter, bei schmalen Streifen weniger), alle 728 Flächen bleiben, 4 Teilflächen unter 1 Meter fallen weg. Die Datei hat 165 KB, komprimiert rund 56 KB.
+- Generator: `lade_geo()`, `seite_karte()`, Link in `lokal()`, `seite()` mit zusätzlichen Skripten, `--check` nennt die Zahl der Karten. Texte in `TEXTE` unter `karte` in drei Sprachen. Gestaltung nach `DESIGN.md`: feste Farben für die Flächen, kein Schatten, Auskunft zur Fläche am unteren Rand der Karte.
+- Test erweitert: kein fremder Abruf vor dem Klick, danach alle Flächen auf der Karte, fremd nur die Kartenbilder, ein Name aus der Liste zeigt die Zone an. 301 Seiten in 2 Breiten in Ordnung.
+- Angesehen: die Seite vor und nach dem Klick bei 390 und 1280 Pixeln, französisch im dunklen Modus. Am Arbeitsplatz ohne echte Kartenbilder (swisstopo ist von dort nicht erreichbar), die veröffentlichte Seite danach im Browser von Joss.
+- Geprüft im Browser von Joss: Die Adresse der Kartenbilder liefert die Graukarte von Zürich. Die Nutzungsbedingungen von swisstopo erlauben die freie Nutzung mit der Quellenangabe «© swisstopo».
+- Design-Prüfung (`impeccable detect`): auf der Kartenseite nur die bekannten Hinweise zu den Farben des dunklen Modus.
+- Handbuch nachgeführt: Aufbau, Regel 8, neuer Abschnitt «Karte der Hundezonen», Freigabe. `DESIGN.md` und `PRODUCT.md` nachgeführt.
+- Nebenbei: Die Domains koeniz.ch und regensdorf.ch liessen sich um 11:20 Uhr im Browser von Joss wieder öffnen. Regensdorf ist gelesen (Gebührenreglement, Polizeiverordnung) und wird nach der Karte eingetragen.
+
 ## 2026-11-27, Sitzung mit Joss: Muttenz mit Gebühr, Leinenpflicht und Hundekot, Stadt Schaffhausen mit Anmeldung
 
 - Im Browser von Joss im Volltext gelesen. Muttenz: Reglement über das Halten von Hunden (Nr. 11.600, Fassung 17. Oktober 2024, in Kraft seit 1. Januar 2025), Gebührenordnung dazu (Nr. 11.609, Fassung 8. Mai 2024), Polizeireglement mit Bussenliste (Fassung 17. Oktober 2024) und Online-Schalter der Gemeinde. Stadt Schaffhausen: Online-Schalter «Hundekontrolle» der Einwohnerkontrolle.

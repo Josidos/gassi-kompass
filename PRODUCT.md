@@ -24,14 +24,14 @@ Alle 26 Kantone und die grösseren Gemeinden an einem Ort, in Deutsch, Französi
 
 ## Operating Context
 
-- Statische Website auf GitHub Pages, erzeugt von `build.py` aus JSON-Daten. Ein automatischer Lauf pflegt die Daten. Seitentypen: Startseite mit Ortssuche, Kanton, Gemeinde, Thema (Vergleich aller Kantone), Bund, Über diese Seite, Fehlerseite, je in drei Sprachen.
+- Statische Website auf GitHub Pages, erzeugt von `build.py` aus JSON-Daten. Ein automatischer Lauf pflegt die Daten. Seitentypen: Startseite mit Ortssuche, Kanton, Gemeinde, Thema (Vergleich aller Kantone), Bund, Über diese Seite, Fehlerseite, je in drei Sprachen. Seit dem 27. November 2026 dazu die Karte der Hundezonen, bisher nur für die Stadt Zürich.
 - Häufig gelesen auf dem Telefon, im Freien, mit schlechtem Netz.
 
 ## Capabilities and Constraints
 
 - Adressen, Seitentitel, Inhalte und Funktionen bleiben. Die Seitentitel nennen Ort und Thema (Suchmaschine).
 - Zuoberst steht die Antwort auf die häufigste Frage: Muss mein Hund hier an die Leine? Auf dem Telefon sofort sichtbar.
-- Keine externen Skripte oder Schriften, kein Tracking, keine Cookies. Schriften liegen selbst gehostet unter `assets/fonts/`.
+- Keine externen Skripte oder Schriften, kein Tracking, keine Cookies. Schriften liegen selbst gehostet unter `assets/fonts/`. Einzige Ausnahme: Die Karte der Hundezonen lädt nach einem Klick Kartenbilder von swisstopo, das Kartenprogramm selbst liegt im Repository.
 - Die Seite ist privat und darf nie wie die Seite eines Kantons, einer Gemeinde oder des Bundes wirken (Handbuch, Regel 9).
 - Leicht und schnell: keine grossen Bilder, wenig Bewegung.
 - Später kommen Anzeigen dazu (noch nicht freigegeben).
