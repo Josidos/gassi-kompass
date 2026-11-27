@@ -1,0 +1,6 @@
+claude-automation-recommender, Skill für Claude Code
+Quelle: https://github.com/anthropics/claude-plugins-official, Ordner plugins/claude-code-setup (Plugin «claude-code-setup» von Anthropic, Version 1.0.0)
+Stand: Commit 0fbfda5a91f4adc311daca25acc99132f40f0b6e vom 25. November 2026, abgelegt am 27. November 2026
+Lizenz: Apache-2.0 (siehe LICENSE)
+Unverändert übernommen: SKILL.md und references/. Nicht übernommen: das Beispielbild und die Beschreibung des Plugins.
+Der Skill liest nur und empfiehlt. Wie das Projekt ihn benutzt, steht in CLAUDE.md unter «Skills».
