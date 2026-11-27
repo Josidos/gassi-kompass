@@ -3,12 +3,54 @@
   "kanton": "ne",
   "bfs": 6458,
   "uebersetzt_aus": "fr",
-  "original": "0d7a7d5c58fe",
+  "original": "aa255ba14da7",
   "name": "Città di Neuchâtel",
   "ort": "Neuchâtel",
   "in_ort": "a Neuchâtel",
   "hinweis_heute": "Nella città di Neuchâtel il guinzaglio è obbligatorio tutto l'anno in tutte le zone pedonali, nei parchi e nei giardini pubblici.",
-  "einleitung": "Le regole locali si trovano nel règlement de police (regolamento di polizia) dell'11 maggio 2026, in vigore dalla sua approvazione da parte del Conseil d'État (Consiglio di Stato) il 21 ottobre 2026. Il pieghevole «Mon chien en ville» della Città è più vecchio (stato: 2022).",
+  "einleitung": "Le regole locali si trovano nel règlement de police (regolamento di polizia) dell'11 maggio 2026, in vigore dalla sua approvazione da parte del Conseil d'État (Consiglio di Stato) il 21 ottobre 2026. Questo regolamento dichiara applicabile su tutto il territorio comunale l'arrêté (decisione) del Conseil communal (Municipio) del 15 giugno 2020 sull'accesso dei cani agli spazi pubblici, che definisce le aree di svago e le zone di balneazione. Il pieghevole «Mon chien en ville» della Città è più vecchio del regolamento (stato: 2022).",
+  "freilaufzonen": [
+    {
+      "name": "Port de Serrières (nord)",
+      "text": "Superficie a prato a nord del porto di Serrières, in rue Martenet. Superficie secondo il piano: 1655 m²."
+    },
+    {
+      "name": "Monruz",
+      "text": "Superficie a prato di Monruz, a Les Favarges. Superficie secondo il piano: 3215 m²."
+    },
+    {
+      "name": "Parc du Château (jardin du Prince)",
+      "text": "Area di svago al jardin du Prince. Superficie secondo il piano: 4548 m²."
+    },
+    {
+      "name": "Nid-du-Crô (est della spiaggia)",
+      "marken": [
+        "con zona di balneazione"
+      ],
+      "text": "Parte est della spiaggia del Nid-du-Crô, compresa la zona di balneazione per cani. Superficie secondo il piano: 20 580 m²."
+    },
+    {
+      "name": "Pierre-à-Bot",
+      "marken": [
+        "l'area più grande"
+      ],
+      "text": "Superficie a prato a Pierre-à-Bot. Superficie secondo il piano: 63 480 m²."
+    },
+    {
+      "name": "Le Chanet",
+      "text": "Superficie a prato al Chanet. Superficie secondo il piano: 4320 m²."
+    },
+    {
+      "name": "Zone di balneazione per cani",
+      "marken": [
+        "balneazione"
+      ],
+      "text": "Serrières e baie de l'Evole. Si aggiunge la zona di balneazione nella parte est della spiaggia del Nid-du-Crô. I piani allegati all'arrêté mostrano la posizione esatta."
+    }
+  ],
+  "freilaufzonen_quellen": [
+    "ne_ville_arrete"
+  ],
   "karten": [
     {
       "titel": "Imposta sui cani",
@@ -21,20 +63,22 @@
     {
       "titel": "Guinzaglio",
       "wert": "zone pedonali, parchi, giardini pubblici",
-      "text": "Il guinzaglio è obbligatorio in tutte le zone pedonali, nei parchi e nei giardini pubblici. Altrove devi poter controllare il tuo cane in ogni momento con la voce o con il gesto. Altrimenti va tenuto al guinzaglio. Nel bosco il guinzaglio è obbligatorio dal 15 aprile al 30 giugno. Il Conseil communal (Municipio) definisce aree di svago e di balneazione in cui i cani sono ammessi. Il pieghevole della Città le elenca. Stato del pieghevole: 2022.",
+      "text": "Il guinzaglio è obbligatorio in tutte le zone pedonali, nei parchi e nei giardini pubblici. L'arrêté del Conseil communal del 15 giugno 2020 cita anche i viali delle Jeunes-Rives. Fanno eccezione le aree di svago per cani definite da questo arrêté: lì il tuo cane può stare libero, ma devi mantenerne il controllo permanente. Lo rimetti al guinzaglio se un'altra persona vuole evitare ogni contatto. Altrove devi poter controllare il tuo cane in ogni momento con la voce o con il gesto. Altrimenti va tenuto al guinzaglio. Nel bosco il guinzaglio è obbligatorio dal 15 aprile al 30 giugno. Stato del pieghevole: 2022.",
       "quellen": [
-        "ne_ville_chien",
         "ne_ville_police",
+        "ne_ville_arrete",
+        "ne_ville_chien",
         "ne_ville_avoir"
       ]
     },
     {
       "titel": "Accesso vietato",
       "wert": "campi sportivi e parchi giochi, cortili delle scuole, spiagge di giorno",
-      "text": "I cani non hanno accesso ai campi sportivi, ai parchi giochi, ai cortili delle scuole e alle aiuole fiorite. Da aprile a settembre l'accesso è vietato dalle 9 alle 22 su sei spiagge: Favarge, Nid-du-Crô, Jeunes-Rives, quai Ostervald, quai Max-Petitpierre (Champ-Bougin) e Serrières. Fanno eccezione le zone di balneazione per cani definite dal Conseil communal. Il pieghevole della Città, più vecchio, cita inoltre le superfici a prato e un periodo più lungo per le spiagge: lì il divieto è sospeso solo dal 15 ottobre al 15 marzo. Segui la segnaletica sul posto. Stato del pieghevole: 2022.",
+      "text": "I cani non hanno accesso ai campi sportivi, ai parchi giochi, ai cortili delle scuole e alle aiuole fiorite. L'arrêté del Conseil communal del 15 giugno 2020 aggiunge le superfici a prato, tranne nelle aree di svago. Da aprile a settembre l'accesso è vietato dalle 9 alle 22 su sei spiagge: Favarge, Nid-du-Crô, Jeunes-Rives, quai Ostervald, quai Max-Petitpierre (Champ-Bougin) e Serrières. Fanno eccezione le zone di balneazione per cani. L'arrêté del 2020 e il pieghevole della Città sono più vecchi del règlement de police e citano un periodo più lungo per le spiagge: lì il divieto è sospeso solo dal 15 ottobre al 15 marzo. La Città può vietare l'accesso o imporre il guinzaglio in altri spazi pubblici se la sicurezza o l'igiene lo richiedono. Segui la segnaletica sul posto. Stato del pieghevole: 2022.",
       "quellen": [
-        "ne_ville_chien",
-        "ne_ville_police"
+        "ne_ville_police",
+        "ne_ville_arrete",
+        "ne_ville_chien"
       ]
     },
     {

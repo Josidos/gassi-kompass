@@ -6,7 +6,12 @@
   },
   "be_oce_fr": {
     "kurz": "OCE BE",
-    "lang": "Canton de Berne: ordonnance cantonale sur les épizooties (OCE, RSB 916.51), modification du 17 mai 2017, art. 13 et 13a",
-    "url": "https://www.belex.sites.be.ch/frontend/change_document_file_dictionaries/3016"
+    "lang": "Canton de Berne: ordonnance cantonale sur les épizooties (OCE, RSB 916.51), état au 1er août 2026, art. 13 et 13a",
+    "url": "https://www.belex.sites.be.ch/app/fr/texts_of_law/916.51"
+  },
+  "be_lchiens_fr": {
+    "kurz": "Loi sur les chiens BE",
+    "lang": "Canton de Berne: loi sur les chiens (RSB 916.31), état au 1er avril 2021",
+    "url": "https://www.belex.sites.be.ch/app/fr/texts_of_law/916.31"
   }
 }

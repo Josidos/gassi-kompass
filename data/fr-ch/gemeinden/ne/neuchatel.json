@@ -7,7 +7,49 @@
   "in_ort": "à Neuchâtel",
   "geprueft": "2026-11-27",
   "hinweis_heute": "En ville de Neuchâtel, la laisse est obligatoire toute l'année dans toutes les zones piétonnes, dans les parcs et dans les jardins publics.",
-  "einleitung": "Les règles locales figurent dans le règlement de police du 11 mai 2026, en vigueur depuis sa sanction par le Conseil d'État le 21 octobre 2026. Le dépliant «Mon chien en ville» de la Ville est plus ancien (état: 2022).",
+  "einleitung": "Les règles locales figurent dans le règlement de police du 11 mai 2026, en vigueur depuis sa sanction par le Conseil d'État le 21 octobre 2026. Ce règlement déclare applicable sur tout le territoire communal l'arrêté du Conseil communal du 15 juin 2020 sur l'accès des chiens aux espaces publics, qui définit les zones de liberté et de baignade. Le dépliant «Mon chien en ville» de la Ville est plus ancien que le règlement (état: 2022).",
+  "freilaufzonen": [
+    {
+      "name": "Port de Serrières (nord)",
+      "text": "Zone engazonnée au nord du port de Serrières, à la rue Martenet. Surface selon le plan: 1655 m²."
+    },
+    {
+      "name": "Monruz",
+      "text": "Zone engazonnée de Monruz, aux Favarges. Surface selon le plan: 3215 m²."
+    },
+    {
+      "name": "Parc du Château (jardin du Prince)",
+      "text": "Zone de liberté au jardin du Prince. Surface selon le plan: 4548 m²."
+    },
+    {
+      "name": "Nid-du-Crô (est de la plage)",
+      "marken": [
+        "avec zone de baignade"
+      ],
+      "text": "Est de la plage du Nid-du-Crô, zone de baignade pour chiens comprise. Surface selon le plan: 20 580 m²."
+    },
+    {
+      "name": "Pierre-à-Bot",
+      "marken": [
+        "la plus grande zone"
+      ],
+      "text": "Zone engazonnée à Pierre-à-Bot. Surface selon le plan: 63 480 m²."
+    },
+    {
+      "name": "Le Chanet",
+      "text": "Zone engazonnée au Chanet. Surface selon le plan: 4320 m²."
+    },
+    {
+      "name": "Zones de baignade pour chiens",
+      "marken": [
+        "baignade"
+      ],
+      "text": "Serrières et baie de l'Evole. S'y ajoute la zone de baignade à l'est de la plage du Nid-du-Crô. Les plans annexés à l'arrêté montrent l'emplacement exact."
+    }
+  ],
+  "freilaufzonen_quellen": [
+    "ne_ville_arrete"
+  ],
   "karten": [
     {
       "titel": "Impôt sur les chiens",
@@ -20,20 +62,22 @@
     {
       "titel": "Laisse",
       "wert": "zones piétonnes, parcs, jardins publics",
-      "text": "La laisse est obligatoire dans toutes les zones piétonnes, dans les parcs et dans les jardins publics. Ailleurs, vous devez pouvoir maîtriser votre chien à tout moment par la voix ou le geste. Sinon, il doit être tenu en laisse. En forêt, la laisse est obligatoire du 15 avril au 30 juin. Le Conseil communal définit des zones de liberté et de baignade où les chiens sont admis. Le dépliant de la Ville en donne la liste. État du dépliant: 2022.",
+      "text": "La laisse est obligatoire dans toutes les zones piétonnes, dans les parcs et dans les jardins publics. L'arrêté du Conseil communal du 15 juin 2020 cite aussi les allées des Jeunes-Rives. Font exception les zones de liberté pour chiens que cet arrêté définit: votre chien peut y être laissé en liberté, mais vous en gardez la maîtrise permanente. Vous le reprenez en laisse si une autre personne veut éviter tout contact. Ailleurs, vous devez pouvoir maîtriser votre chien à tout moment par la voix ou le geste. Sinon, il doit être tenu en laisse. En forêt, la laisse est obligatoire du 15 avril au 30 juin. État du dépliant: 2022.",
       "quellen": [
-        "ne_ville_chien",
         "ne_ville_police",
+        "ne_ville_arrete",
+        "ne_ville_chien",
         "ne_ville_avoir"
       ]
     },
     {
       "titel": "Accès interdit",
       "wert": "places de sport et de jeux, cours de collèges, plages en journée",
-      "text": "Les chiens n'ont pas accès aux places de sport, aux places de jeux, aux cours de collèges et aux massifs floraux. D'avril à septembre, l'accès est interdit de 9 h à 22 h sur six plages: Favarge, Nid-du-Crô, Jeunes-Rives, quai Ostervald, quai Max-Petitpierre (Champ-Bougin) et Serrières. Font exception les zones de baignade pour chiens définies par le Conseil communal. Le dépliant de la Ville, plus ancien, cite en plus les zones engazonnées et une période plus longue pour les plages: l'interdiction n'y est levée que du 15 octobre au 15 mars. Suivez la signalisation sur place. État du dépliant: 2022.",
+      "text": "Les chiens n'ont pas accès aux places de sport, aux places de jeux, aux cours de collèges et aux massifs floraux. L'arrêté du Conseil communal du 15 juin 2020 y ajoute les zones engazonnées, sauf dans les zones de liberté. D'avril à septembre, l'accès est interdit de 9 h à 22 h sur six plages: Favarge, Nid-du-Crô, Jeunes-Rives, quai Ostervald, quai Max-Petitpierre (Champ-Bougin) et Serrières. Font exception les zones de baignade pour chiens. L'arrêté de 2020 et le dépliant de la Ville sont plus anciens que le règlement de police et citent une période plus longue pour les plages: l'interdiction n'y est levée que du 15 octobre au 15 mars. La Ville peut interdire l'accès ou imposer la laisse dans d'autres espaces publics si la sécurité ou l'hygiène l'exigent. Suivez la signalisation sur place. État du dépliant: 2022.",
       "quellen": [
-        "ne_ville_chien",
-        "ne_ville_police"
+        "ne_ville_police",
+        "ne_ville_arrete",
+        "ne_ville_chien"
       ]
     },
     {

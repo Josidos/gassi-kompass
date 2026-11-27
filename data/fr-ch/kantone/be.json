@@ -26,12 +26,14 @@
     ]
   },
   "verbot": {
-    "einleitung": "La brochure cantonale ne contient pas de liste de lieux interdits aux chiens. Elle fixe ces interdictions de comportement:",
+    "einleitung": "Le canton ne désigne pas lui-même de lieux interdits aux chiens. Les communes peuvent désigner des lieux auxquels les chiens n'ont pas accès. La loi fixe en outre deux interdictions de comportement:",
     "punkte": [
+      "les lieux désignés par votre commune",
       "laisser un chien sans surveillance dans l'espace public",
       "promener en même temps plus de trois chiens âgés de plus de quatre mois"
     ],
     "quellen": [
+      "be_lchiens_fr",
       "be_avet_fr"
     ]
   },
@@ -71,9 +73,10 @@
       "titel": "Impôt sur les chiens",
       "marke": "Commune",
       "ton": "note",
-      "wert": "perçu par la commune",
-      "text": "La taxe sur les chiens est prélevée par les communes. Elles peuvent consulter pour cela les données enregistrées. Le montant n'est pas fixé par le canton dans les sources consultées: renseignez-vous auprès de votre commune.",
+      "wert": "selon la commune",
+      "text": "Les communes peuvent percevoir une taxe des chiens. Elles décident dans leur propre réglementation si elles la prélèvent et en fixent le montant. Y sont soumis les détentrices et détenteurs domiciliés dans la commune dont le chien a plus de six mois. Aucune taxe n'est perçue pour les chiens d'assistance ou d'accompagnement de personnes handicapées, pour les chiens placés temporairement en refuge et pour ceux dont la taxe a déjà été payée la même année dans une autre commune ou un autre canton. Pour la taxe, les communes peuvent consulter les données enregistrées dans la banque de données des chiens.",
       "quellen": [
+        "be_lchiens_fr",
         "be_oce_fr"
       ]
     },
@@ -103,7 +106,7 @@
     "haft": "obligatoire, CHF 3 millions",
     "kurs": "pas d'obligation",
     "rassen": "aucune restriction",
-    "steuer": "perçu par la commune",
+    "steuer": "selon la commune",
     "anm": "auprès de la commune"
   }
 }

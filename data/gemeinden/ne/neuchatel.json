@@ -3,12 +3,54 @@
   "kanton": "ne",
   "bfs": 6458,
   "uebersetzt_aus": "fr",
-  "original": "0d7a7d5c58fe",
+  "original": "aa255ba14da7",
   "name": "Stadt Neuenburg",
   "ort": "Neuenburg",
   "in_ort": "in der Stadt Neuenburg",
   "hinweis_heute": "In der Stadt Neuenburg gilt das ganze Jahr Leinenpflicht in allen Fussgängerzonen, in den Parks und in den öffentlichen Gärten.",
-  "einleitung": "Die lokalen Regeln stehen im règlement de police (Polizeireglement) vom 11. Mai 2026, in Kraft seit der Genehmigung durch den Conseil d'État (Staatsrat) am 21. Oktober 2026. Das Faltblatt «Mon chien en ville» der Stadt ist älter (Stand: 2022).",
+  "einleitung": "Die lokalen Regeln stehen im règlement de police (Polizeireglement) vom 11. Mai 2026, in Kraft seit der Genehmigung durch den Conseil d'État (Staatsrat) am 21. Oktober 2026. Dieses Reglement erklärt den arrêté (Beschluss) des Conseil communal (Gemeinderat) vom 15. Juni 2020 über den Zugang von Hunden zum öffentlichen Raum für das ganze Gemeindegebiet anwendbar. Er legt die Freilaufzonen und die Badezonen fest. Das Faltblatt «Mon chien en ville» der Stadt ist älter als das Reglement (Stand: 2022).",
+  "freilaufzonen": [
+    {
+      "name": "Port de Serrières (Nord)",
+      "text": "Rasenfläche nördlich des Hafens von Serrières, an der Rue Martenet. Fläche laut Plan: 1655 m²."
+    },
+    {
+      "name": "Monruz",
+      "text": "Rasenfläche in Monruz, bei Les Favarges. Fläche laut Plan: 3215 m²."
+    },
+    {
+      "name": "Parc du Château (Jardin du Prince)",
+      "text": "Freilaufzone im Jardin du Prince. Fläche laut Plan: 4548 m²."
+    },
+    {
+      "name": "Nid-du-Crô (Ostteil des Strands)",
+      "marken": [
+        "mit Badezone"
+      ],
+      "text": "Ostteil des Strands Nid-du-Crô, samt der Badezone für Hunde. Fläche laut Plan: 20 580 m²."
+    },
+    {
+      "name": "Pierre-à-Bot",
+      "marken": [
+        "grösste Zone"
+      ],
+      "text": "Rasenfläche in Pierre-à-Bot. Fläche laut Plan: 63 480 m²."
+    },
+    {
+      "name": "Le Chanet",
+      "text": "Rasenfläche im Chanet. Fläche laut Plan: 4320 m²."
+    },
+    {
+      "name": "Badezonen für Hunde",
+      "marken": [
+        "Baden"
+      ],
+      "text": "Serrières und Baie de l'Evole. Dazu kommt die Badezone im Ostteil des Strands Nid-du-Crô. Die Pläne im Anhang des Beschlusses zeigen die genaue Lage."
+    }
+  ],
+  "freilaufzonen_quellen": [
+    "ne_ville_arrete"
+  ],
   "karten": [
     {
       "titel": "Hundetaxe",
@@ -21,20 +63,22 @@
     {
       "titel": "Leine",
       "wert": "Fussgängerzonen, Parks, öffentliche Gärten",
-      "text": "Leinenpflicht gilt in allen Fussgängerzonen, in den Parks und in den öffentlichen Gärten. Sonst musst du deinen Hund jederzeit mit der Stimme oder mit Zeichen kontrollieren können. Wenn nicht, gehört er an die Leine. Im Wald gilt die Leinenpflicht vom 15. April bis 30. Juni. Der Conseil communal (Gemeinderat) legt Freilaufzonen und Badezonen fest, in denen Hunde zugelassen sind. Das Faltblatt der Stadt führt sie auf. Stand des Faltblatts: 2022.",
+      "text": "Leinenpflicht gilt in allen Fussgängerzonen, in den Parks und in den öffentlichen Gärten. Der Beschluss des Conseil communal vom 15. Juni 2020 nennt auch die Wege der Jeunes-Rives. Ausgenommen sind die Freilaufzonen, die dieser Beschluss festlegt: Dort darf dein Hund frei laufen, du musst ihn aber dauernd unter Kontrolle haben. Du nimmst ihn an die Leine, wenn eine andere Person jeden Kontakt vermeiden will. Sonst musst du deinen Hund jederzeit mit der Stimme oder mit Zeichen kontrollieren können. Wenn nicht, gehört er an die Leine. Im Wald gilt die Leinenpflicht vom 15. April bis 30. Juni. Stand des Faltblatts: 2022.",
       "quellen": [
-        "ne_ville_chien",
         "ne_ville_police",
+        "ne_ville_arrete",
+        "ne_ville_chien",
         "ne_ville_avoir"
       ]
     },
     {
       "titel": "Kein Zutritt",
       "wert": "Sport- und Spielplätze, Schulhöfe, Strände tagsüber",
-      "text": "Keinen Zutritt haben Hunde zu Sportplätzen, Spielplätzen, Schulhöfen und Blumenbeeten. Von April bis September ist der Zutritt von 9 bis 22 Uhr an sechs Stränden verboten: Favarge, Nid-du-Crô, Jeunes-Rives, Quai Ostervald, Quai Max-Petitpierre (Champ-Bougin) und Serrières. Ausgenommen sind die Badezonen für Hunde, die der Conseil communal festlegt. Das ältere Faltblatt der Stadt nennt zusätzlich die Rasenflächen und für die Strände eine längere Zeit: Dort ist das Verbot nur vom 15. Oktober bis 15. März aufgehoben. Halte dich an die Schilder vor Ort. Stand des Faltblatts: 2022.",
+      "text": "Keinen Zutritt haben Hunde zu Sportplätzen, Spielplätzen, Schulhöfen und Blumenbeeten. Der Beschluss des Conseil communal vom 15. Juni 2020 nennt zusätzlich die Rasenflächen, ausser in den Freilaufzonen. Von April bis September ist der Zutritt von 9 bis 22 Uhr an sechs Stränden verboten: Favarge, Nid-du-Crô, Jeunes-Rives, Quai Ostervald, Quai Max-Petitpierre (Champ-Bougin) und Serrières. Ausgenommen sind die Badezonen für Hunde. Der Beschluss von 2020 und das Faltblatt der Stadt sind älter als das Polizeireglement und nennen für die Strände eine längere Zeit: Dort ist das Verbot nur vom 15. Oktober bis 15. März aufgehoben. Die Stadt kann den Zutritt an weiteren öffentlichen Orten verbieten oder dort die Leine vorschreiben, wenn Sicherheit oder Hygiene es verlangen. Halte dich an die Schilder vor Ort. Stand des Faltblatts: 2022.",
       "quellen": [
-        "ne_ville_chien",
-        "ne_ville_police"
+        "ne_ville_police",
+        "ne_ville_arrete",
+        "ne_ville_chien"
       ]
     },
     {
