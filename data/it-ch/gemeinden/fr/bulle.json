@@ -1,0 +1,54 @@
+{
+  "id": "bulle",
+  "kanton": "fr",
+  "bfs": 2125,
+  "uebersetzt_aus": "fr",
+  "original": "c169575b3fc5",
+  "name": "Città di Bulle",
+  "ort": "Bulle",
+  "in_ort": "a Bulle",
+  "hinweis_heute": "A Bulle il guinzaglio è obbligatorio tutto l'anno in centro città e nei quartieri abitati, nei parchi giochi, nei giardini pubblici e sui campi sportivi.",
+  "einleitung": "Il Règlement communal sur la détention et l'imposition des chiens (regolamento comunale sulla detenzione e l'imposizione dei cani) stabilisce l'imposta comunale, i luoghi in cui il guinzaglio è obbligatorio e quelli in cui i cani sono vietati.",
+  "karten": [
+    {
+      "titel": "Imposta sui cani",
+      "wert": "CHF 100 per cane e per anno",
+      "text": "Imposta comunale, in aggiunta all'imposta cantonale. Per un cane nato o acquistato nel corso dell'anno è dovuta l'intera imposta annuale. Esenti: cani d'assistenza, dell'esercito, di polizia, dei guardiacaccia, cani da valanga e da ricerca di animali feriti o morti, cani da protezione delle greggi e cani da salvataggio attivi. Sottrazione d'imposta: multa da CHF 20 a CHF 1000, in aggiunta all'imposta dovuta.",
+      "quellen": [
+        "fr_bulle_chiens"
+      ]
+    },
+    {
+      "titel": "Guinzaglio",
+      "wert": "centro città, quartieri abitati, parchi giochi e campi sportivi",
+      "text": "Il guinzaglio è obbligatorio nei parchi giochi, nei giardini pubblici e ornamentali, in centro città e nei quartieri abitati e sui campi sportivi. Nel bosco il guinzaglio è obbligatorio dal 1° aprile al 15 luglio. Sono riservate le prescrizioni relative alle riserve naturali. I cani d'assistenza non sono interessati.",
+      "quellen": [
+        "fr_bulle_chiens"
+      ]
+    },
+    {
+      "titel": "Accesso vietato",
+      "wert": "scuole, edifici comunali, cimiteri",
+      "text": "I cani sono vietati negli edifici e nei sedimi delle scuole, negli edifici comunali e nei cimiteri. I cani d'assistenza non sono interessati.",
+      "quellen": [
+        "fr_bulle_chiens"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "wert": "senza indugio, al controllo abitanti",
+      "text": "Annunci senza indugio al controllo abitanti del Comune che detieni un cane. Vi annunci anche ogni modifica relativa alla registrazione del tuo cane nella banca dati.",
+      "quellen": [
+        "fr_bulle_chiens"
+      ]
+    },
+    {
+      "titel": "Multe",
+      "wert": "da CHF 20 a CHF 1000",
+      "text": "Le infrazioni alle regole sul guinzaglio, sui luoghi vietati e sull'insudiciamento sono punite con una multa da CHF 20 a CHF 1000, pronunciata dal Consiglio comunale. Puoi fare opposizione per scritto entro dieci giorni. Raccogli gli escrementi del tuo cane e li getti negli impianti comunali previsti a tale scopo.",
+      "quellen": [
+        "fr_bulle_chiens"
+      ]
+    }
+  ]
+}

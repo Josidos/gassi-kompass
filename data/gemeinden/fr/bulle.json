@@ -1,0 +1,54 @@
+{
+  "id": "bulle",
+  "kanton": "fr",
+  "bfs": 2125,
+  "uebersetzt_aus": "fr",
+  "original": "c169575b3fc5",
+  "name": "Stadt Bulle",
+  "ort": "Bulle",
+  "in_ort": "in Bulle",
+  "hinweis_heute": "In Bulle gilt das ganze Jahr Leinenpflicht im Stadtzentrum und in den Wohnquartieren, auf Spielplätzen, in öffentlichen Gärten und auf Sportplätzen.",
+  "einleitung": "Das Règlement communal sur la détention et l'imposition des chiens (Gemeindereglement über die Hundehaltung und die Hundesteuer) legt die Gemeindesteuer fest, die Orte mit Leinenpflicht und die Orte, an denen Hunde verboten sind.",
+  "karten": [
+    {
+      "titel": "Hundetaxe",
+      "wert": "CHF 100 pro Hund und Jahr",
+      "text": "Gemeindesteuer, zusätzlich zur kantonalen Steuer. Für einen Hund, der im Lauf des Jahres geboren oder erworben wird, ist die ganze Jahressteuer geschuldet. Befreit: Assistenzhunde, Armee-, Polizei- und Wildhüterhunde, Lawinenhunde und Hunde für die Suche nach verletzten oder toten Tieren, Herdenschutzhunde und aktive Rettungshunde. Steuerhinterziehung: Busse von CHF 20 bis CHF 1000, zusätzlich zur geschuldeten Steuer.",
+      "quellen": [
+        "fr_bulle_chiens"
+      ]
+    },
+    {
+      "titel": "Leine",
+      "wert": "Stadtzentrum, Wohnquartiere, Spiel- und Sportplätze",
+      "text": "Leinenpflicht gilt auf Spielplätzen, in öffentlichen Gärten und Ziergärten, im Stadtzentrum und in den Wohnquartieren sowie auf Sportplätzen. Im Wald gilt Leinenpflicht vom 1. April bis 15. Juli. Die Vorschriften für Naturschutzgebiete bleiben vorbehalten. Für Assistenzhunde gilt das nicht.",
+      "quellen": [
+        "fr_bulle_chiens"
+      ]
+    },
+    {
+      "titel": "Kein Zutritt",
+      "wert": "Schulen, Gemeindegebäude, Friedhöfe",
+      "text": "Hunde sind verboten in den Gebäuden und auf dem Areal der Schulen, in den Gebäuden der Gemeinde und auf Friedhöfen. Für Assistenzhunde gilt das nicht.",
+      "quellen": [
+        "fr_bulle_chiens"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "wert": "sofort, bei der Einwohnerkontrolle",
+      "text": "Du meldest der Einwohnerkontrolle der Gemeinde sofort, dass du einen Hund hältst. Dort meldest du auch jede Änderung beim Eintrag deines Hundes in der Datenbank.",
+      "quellen": [
+        "fr_bulle_chiens"
+      ]
+    },
+    {
+      "titel": "Bussen",
+      "wert": "CHF 20 bis CHF 1000",
+      "text": "Verstösse gegen die Regeln zur Leine, zu den verbotenen Orten und zur Verschmutzung werden mit einer Busse von CHF 20 bis CHF 1000 bestraft, die der Gemeinderat ausspricht. Du kannst innert zehn Tagen schriftlich Einsprache erheben. Du nimmst den Kot deines Hundes auf und entsorgst ihn in den dafür vorgesehenen Einrichtungen der Gemeinde.",
+      "quellen": [
+        "fr_bulle_chiens"
+      ]
+    }
+  ]
+}

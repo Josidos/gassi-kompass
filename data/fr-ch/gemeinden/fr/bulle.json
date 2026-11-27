@@ -1,0 +1,53 @@
+{
+  "id": "bulle",
+  "kanton": "fr",
+  "bfs": 2125,
+  "name": "Ville de Bulle",
+  "ort": "Bulle",
+  "in_ort": "à Bulle",
+  "geprueft": "2026-11-28",
+  "hinweis_heute": "À Bulle, la laisse est obligatoire toute l'année au centre-ville et dans les quartiers habités, sur les places de jeux, dans les jardins publics et sur les places de sport.",
+  "einleitung": "Le règlement communal sur la détention et l'imposition des chiens fixe l'impôt communal, les lieux où la laisse est obligatoire et ceux où les chiens sont interdits.",
+  "karten": [
+    {
+      "titel": "Impôt sur les chiens",
+      "wert": "CHF 100 par chien et par année",
+      "text": "Impôt communal, en plus de l'impôt cantonal. Un chien né ou acquis en cours d'année doit l'impôt annuel entier. Exonérés: chiens d'aide, de l'armée, de la police, des gardes-faune, chiens d'avalanche et de recherche d'animaux blessés ou morts, chiens de protection des troupeaux et chiens de sauvetage actifs. Soustraction à l'impôt: amende de CHF 20 à CHF 1000, en plus de l'impôt dû.",
+      "quellen": [
+        "fr_bulle_chiens"
+      ]
+    },
+    {
+      "titel": "Laisse",
+      "wert": "centre-ville, quartiers habités, places de jeux et de sport",
+      "text": "La laisse est obligatoire sur les places de jeux, dans les jardins publics et d'agrément, au centre-ville et dans les quartiers habités et sur les places de sport. En forêt, la laisse est obligatoire du 1er avril au 15 juillet. Les prescriptions relatives aux réserves naturelles sont réservées. Les chiens d'aide ne sont pas concernés.",
+      "quellen": [
+        "fr_bulle_chiens"
+      ]
+    },
+    {
+      "titel": "Accès interdit",
+      "wert": "écoles, bâtiments communaux, cimetières",
+      "text": "Les chiens sont interdits dans les bâtiments et enceintes des écoles, dans les bâtiments communaux et dans les cimetières. Les chiens d'aide ne sont pas concernés.",
+      "quellen": [
+        "fr_bulle_chiens"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "wert": "sans attendre, au contrôle des habitants",
+      "text": "Vous annoncez sans attendre au contrôle des habitants de la commune que vous détenez un chien. Vous y annoncez aussi toute modification concernant l'inscription de votre chien dans la banque de données.",
+      "quellen": [
+        "fr_bulle_chiens"
+      ]
+    },
+    {
+      "titel": "Amendes",
+      "wert": "CHF 20 à CHF 1000",
+      "text": "Les infractions aux règles sur la laisse, les lieux interdits et les souillures sont punies d'une amende de CHF 20 à CHF 1000, prononcée par le conseil communal. Vous pouvez faire opposition par écrit dans les dix jours. Vous ramassez les déjections de votre chien et les jetez dans les installations communales prévues à cet effet.",
+      "quellen": [
+        "fr_bulle_chiens"
+      ]
+    }
+  ]
+}
