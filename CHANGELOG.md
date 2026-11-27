@@ -2,6 +2,21 @@
 
 Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen.
 
+## 2026-11-27, Lauf (Start von Hand um etwa 23:55 Uhr): Themenfeld «Hund vermisst oder gefunden» für TI, VS, FR, SO
+
+- Gewählt nach `BACKLOG.md`, Reihenfolge 4: In Abschnitt 5 ist nichts mehr fällig, keine Übersetzung fehlt, kein Kanton offen. Takt: täglich, weil Abschnitt 9.1 offene Kantone hat.
+- Nachgeprüft: nichts. Tote Links: keine offen. Änderungswächter (`python3 tools/wandel.py --faellig`, Stand 27.11.2026): meldet nichts. Keine Datei älter als 120 Tage, der Kalender verlangt im November nichts. Link-Prüfung: kein neuer Durchgang seit 27.11.2026, 12:39 Uhr. Parallel-Läufe: nichts einzusammeln.
+- Abgerufen wurde mit dem Unteragenten `web-fetch`, weil WebFetch in diesem Lauf nicht direkt verfügbar war. Er gab die Seiten nur in kurzen Zitaten und Zusammenfassungen wieder, nicht im ganzen Wortlaut.
+- Neu, Feld `vermisst`:
+  - Tessin (italienische Originalfassung): Das UVC nimmt im Auftrag des Staatsrats die Meldungen gefundener Tiere entgegen. Dazu Mikrochip prüfen, Frist von zwei Monaten (Art. 722 ZGB), Tierheim, Adresse und Telefon. Quelle neu: `ti_uvc_smarriti`.
+  - Wallis deutsch: Seite des Veterinäramts (Gemeinde zuständig, Meldung an Gemeinde, Stadtpolizei oder STMZ) und AGTSchG Art. 24 und 35 (Übernahme durch die Gemeinde, offizielles Tierheim, Kosten), Stand 1.1.2020, gelesen auf LexFind. Wallis französisch: nur die Seite des SCAV, weil lex.vs.ch die LALPA wieder nur als leere Hülle lieferte. Quellen neu: `vs_vet_fundtiere`, `vs_scav_animaux_perdus`. Bei der französischen Quelle steht die Adresse, die die Seite selbst als ihre kanonische Adresse nennt. Abgerufen wurde die Seite über den Sprachwechsel, bis zur Link-Prüfung vom 4. Dezember 2026 ist die Adresse also nicht als erreichbar bewiesen.
+  - Freiburg deutsch und französisch: Seite des LSVW und Seite des SAAV, beide geändert am 13.08.2026 (STMZ, Telefonnummern, Kosten der Nummer 0900, Referenz-Tierheim). Quellen neu: `fr_lsvw_fundtiere`, `fr_saav_animaux_perdus`.
+  - Solothurn: Die STMZ ist laut Veterinärdienst die Meldestelle des Kantons. Dazu die Telefonnummern. Quelle neu: `so_vet_fundtiere`. Den Tarif der Nummer 0848 gibt die Zusammenfassung nicht wörtlich wieder, er steht darum nicht auf der Seite.
+- Nicht gefunden: in Solothurn und im Wallis eine Frist oder Kosten in einer amtlichen Fundtierquelle ausser den genannten. Im Tessin keine Kosten und kein bestimmtes Tierheim.
+- Übersetzungen: sechs Dateien vom Unteragenten `uebersetzer` (Sonnet) nachgeführt (de und fr von TI, it von VS, FR und SO, fr von SO). Abnahme: alle neuen Sätze gelesen, nichts geändert. `build.py --check` fehlerfrei.
+- `geprueft` der Dateien bleibt, weil nur das neue Feld belegt und nicht die ganze Datei nachgeprüft wurde.
+- Build und Test fehlerfrei.
+
 ## 2026-11-27, Sonderlauf: Änderungswächter für Quellen
 
 - Gewählt nach `BACKLOG.md`, Reihenfolge 1: Abschnitt 5 hatte den Punkt «Änderungswächter» mit dem Vermerk «fällig». Der Lauf startete wegen der Sitzung am Abend erst um 23:37 Uhr. Kein Nachprüfen, kein Ausbau (Sonderlauf). Parallel-Läufe: nichts einzusammeln. Link-Prüfung: kein neuer Durchgang seit dem 27.11.2026, 12:39 Uhr.
@@ -93,15 +108,4 @@ Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen
 - Quellen neu: `lu_luzern_merkblatt`, `lu_luzern_hunde`, `lu_luzern_allmend`. `lu_stadt` mit genauerem Namen und der Adresse mit www.
 - Nicht ins Repository übernommen: Name, Direktwahl und Mailadresse der Kontaktperson aus dem Merkblatt.
 - Übersetzungen auf Französisch und Italienisch im selben Zug nachgeführt.
-
-## 2026-11-27, Sitzung mit Joss: claude-automation-recommender eingebaut und angewendet, zwei Sammlungen geprüft
-
-- Frage von Joss um 17:16 Uhr: `npx skills add vercel-labs/agent-skills` als Ersatz für Find Skills? Geprüft, nichts installiert: Der Befehl sucht nicht, er installiert eine feste Sammlung von neun Skills (Stand 20. November 2026). Sieben sind für React, Next.js, React Native und das Hosting bei Vercel. `web-design-guidelines` ist eine Prüfliste mit rund 100 Regeln, im Skill enthalten, ohne Skripte und ohne Netz. `writing-guidelines` lädt seine Regeln bei jedem Gebrauch aus dem Netz. Nicht eingebaut.
-- Die prüfbaren Punkte der Prüfliste an den gebauten Seiten nachgesehen: sichtbarer Fokus überall, kein `outline: none`, kein `transition: all`, Zoomen nicht gesperrt, reduzierte Bewegung beachtet, keine Bilder ohne Masse, `theme-color` und `color-scheme` gesetzt. Es fehlt ein Sprunglink zum Inhalt: Backlog, Abschnitt 5.
-- Neu bekannt: `npx skills add <Besitzer>/<Repository> --list` listet die Skills eines Repositorys auf, ohne etwas zu installieren. GitHub ist aus dem Arbeitsplatz erreichbar, nur das Suchverzeichnis skills.sh nicht. Handbuch, Abschnitt «Skills», ergänzt.
-- Wunsch von Joss um 17:10 Uhr: `everything-claude-code` nach Graphify verwenden. Nicht eingebaut: Der genannte Link (`WorldFlowAI/everything-claude-code`) ist eine Kopie mit 27 Commits, deren Beschreibung auf das Original `affaan-m/ECC` verweist (MIT, Version 2.2.3). Das Original warnt, dass Kopien nicht geprüft sind und Schadprogramme enthalten können, und bringt 72 Agenten, 328 Skills und 99 Befehle mit. Das käme dem Ablauf des Handbuchs in die Quere und kostete in jedem Lauf Guthaben. Joss ist informiert, einzelne Teile kommen nur aus dem Original und auf sein Wort dazu.
-- Wunsch von Joss um 17:33 Uhr: claude-automation-recommender benutzen. Das ist ein Skill von Anthropic aus dem Plugin «claude-code-setup» (github.com/anthropics/claude-plugins-official, Apache 2.0, Stand 25. November 2026). Ganz gelesen (SKILL.md und fünf Listen): Er liest nur und empfiehlt, keine Skripte, keine Hooks, kein Netz. Unverändert abgelegt unter `.claude/skills/claude-automation-recommender/`. Im Plugin-Verzeichnis von Joss ist das Plugin vorhanden und nicht eingeschaltet.
-- Erster Durchgang über das Repository. Profil: Python nur mit der Standardbibliothek, ein Generator (`build.py`, 2297 Zeilen), ein Browser-Test mit Playwright, drei GitHub Actions, keine Abhängigkeiten, kein Linter, keine Datenbank, keine Schnittstellen. Bisherige Einrichtung für Claude: zwei Skills, keine Hooks, keine Unteragenten, keine MCP-Server.
-- Empfehlungen und Einschätzung. Skills: selten gebrauchte Teile des Handbuchs als eigene Skills ablegen und den Backlog entlasten. Gemessen: `CLAUDE.md` 97 KB, `BACKLOG.md` 114 KB, beides liest jeder Lauf ganz. Grösster Hebel, Entscheid bei Joss (Stichwort «Schlank»). Unteragent: ein unabhängiger Gegenprüfer für geänderte Originalfassungen. Passt zu «Richtigkeit vor Menge», kostet Guthaben, Entscheid bei Joss (Stichwort «Gegenprüfer»). Hooks: keine. Die Muster des Skills (formatieren, Typen prüfen, Tests nach jeder Änderung) setzen Werkzeuge voraus, die das Projekt nicht hat. Ein Schutz-Hook für erzeugte Dateien brächte wenig, weil Bau und Test das schon abfangen, und könnte einen unbeaufsichtigten Lauf blockieren. MCP-Server: keine. GitHub läuft über `gh`, der Browser-Test über Playwright. Für die Search Console führt das Verzeichnis der Connectoren nur Dienste Dritter, die die Suchdaten über ihre Server leiten. Plugins: «claude-md-management» von Anthropic könnte beim Verschlanken helfen, einschalten kann es nur Joss. Nötig ist es nicht.
-- Backlog: Abschnitt 5 (Sprunglink), Abschnitt 6 (Verschlanken mit Zahlen), Abschnitt 8 (Gegenprüfer).
 

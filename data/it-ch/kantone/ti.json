@@ -151,5 +151,18 @@
     "quellen": [
       "ti_rcani"
     ]
+  },
+  "vermisst": {
+    "text": "Nel Cantone Ticino il Consiglio di Stato ha incaricato l'Ufficio del veterinario cantonale (UVC) di ricevere gli annunci degli animali trovati. Chi trova un animale smarrito deve informarne il proprietario o, se non è noto, annunciare il ritrovamento (art. 720a del Codice civile).",
+    "punkte": [
+      "Prima di annunciare un cane trovato, verifica se ha un microchip. Puoi rivolgerti alla polizia comunale, a una società protezione animali o a un veterinario.",
+      "Sul sito dell'UVC trovi gli annunci attivi e il modulo di segnalazione.",
+      "Se il proprietario non viene trovato entro due mesi dalla pubblicazione dell'annuncio, chi ha trovato l'animale ne diventa proprietario, a condizione di aver adempiuto agli obblighi di annuncio (art. 722 del Codice civile).",
+      "Se consegni l'animale a un rifugio e rinunci al possesso, dopo due mesi il rifugio può disporne liberamente.",
+      "UVC: Via Dogana 16, 6501 Bellinzona, telefono 091 814 41 00."
+    ],
+    "quellen": [
+      "ti_uvc_smarriti"
+    ]
   }
 }

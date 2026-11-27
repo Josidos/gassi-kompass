@@ -136,5 +136,18 @@
     "quellen": [
       "vs_vet_sicherheit"
     ]
+  },
+  "vermisst": {
+    "text": "Im Kanton Wallis ist die Gemeinde, in der ein Tier gefunden wurde, für seine Betreuung verantwortlich. Einen gefundenen Hund meldest du der Gemeindeverwaltung oder der Stadtpolizei, oder du erfasst ihn bei der Schweizerischen Tiermeldezentrale (STMZ) auf stmz.ch. Wer ein Tier findet, muss die Halterin oder den Halter informieren oder, wenn das nicht geht, die zuständige Behörde (Art. 720a ZGB).",
+    "punkte": [
+      "Hund verloren: Schau in der Datenbank der gefundenen Tiere der STMZ nach, oder melde dich beim nächsten Tierheim.",
+      "Die Gemeinde übernimmt einen gefundenen streunenden oder entlaufenen Hund und gibt ihn der Halterin oder dem Halter zurück. Findet sie die Halterin oder den Halter nicht innert vernünftiger Frist, kommt der Hund in ein offizielles Tierheim (Ausführungsgesetz zum Tierschutzgesetz, Stand 1. Januar 2020).",
+      "Die Betreuungskosten bis zur Unterbringung im Tierheim trägt die Gemeinde. Wird die Halterin oder der Halter gefunden, zahlt sie oder er alle Kosten.",
+      "Nach Ablauf der Fristen des Zivilgesetzbuchs geht ein entlaufenes Tier in die alleinige Verantwortung des Tierheims über."
+    ],
+    "quellen": [
+      "vs_vet_fundtiere",
+      "vs_agtschg"
+    ]
   }
 }

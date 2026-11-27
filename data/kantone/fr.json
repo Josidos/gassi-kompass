@@ -118,5 +118,17 @@
       "fr_hhg",
       "fr_verboten"
     ]
+  },
+  "vermisst": {
+    "text": "Im Kanton Freiburg meldest du ein gefundenes oder ein verlorenes Tier der Schweizerischen Tiermeldezentrale (STMZ). Darauf verweist das Amt für Lebensmittelsicherheit und Veterinärwesen (LSVW). Wer ein Tier findet, muss den Fund melden (Art. 720a ZGB).",
+    "punkte": [
+      "Hund gefunden: online mit dem Formular «Fundmeldung erfassen» auf stmz.ch oder per Telefon 0848 357 358 (Ortstarif).",
+      "Hund verloren: Schau zuerst in der Liste der gefundenen Tiere auf stmz.ch nach, oder ruf 026 305 80 60 an, um zu erfahren, ob er schon gefunden wurde.",
+      "Ist er nicht gefunden: Erfasse online auf stmz.ch eine Vermissmeldung oder ruf 0900 357 358 an (CHF 1.95 pro Minute, rund um die Uhr, 7 Tage die Woche).",
+      "Referenz-Tierheim ist das Tierheim des Freiburger Tierschutzvereins in Font bei Estavayer-le-Lac, Telefon 026 663 33 75."
+    ],
+    "quellen": [
+      "fr_lsvw_fundtiere"
+    ]
   }
 }

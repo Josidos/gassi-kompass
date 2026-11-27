@@ -2,7 +2,7 @@
   "id": "so",
   "kurz": "SO",
   "uebersetzt_aus": "de",
-  "original": "e4838adc6b9c",
+  "original": "9d5e30cff503",
   "wald": {
     "saison": true,
     "von": "04-01",
@@ -131,6 +131,18 @@
     "quellen": [
       "so_vet_bewilligung",
       "so_hundeg"
+    ]
+  },
+  "vermisst": {
+    "text": "Nel Cantone di Soletta la Schweizerische Tiermeldezentrale (STMZ, centrale svizzera di notifica degli animali) è il servizio di notifica del Cantone. Chi trova un animale smarrito deve informare la detentrice o il detentore oppure, se non sono noti, annunciare il ritrovamento al servizio di notifica.",
+    "punkte": [
+      "Cane trovato: annuncia il ritrovamento alla STMZ per telefono allo 0848 357 358 o online su stmz.ch.",
+      "Cane smarrito: rivolgiti direttamente alla STMZ e registra lì un annuncio di smarrimento.",
+      "In caso di emergenza: polizia, telefono 117.",
+      "Informazioni: Amt für Landwirtschaft (ufficio dell'agricoltura), Veterinärdienst (servizio veterinario), telefono 032 627 25 02."
+    ],
+    "quellen": [
+      "so_vet_fundtiere"
     ]
   }
 }

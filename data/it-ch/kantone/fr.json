@@ -2,7 +2,7 @@
   "id": "fr",
   "kurz": "FR",
   "uebersetzt_aus": "de",
-  "original": "75b9870733b1",
+  "original": "724cd6a21816",
   "wald": {
     "saison": true,
     "von": "04-01",
@@ -115,6 +115,18 @@
     "quellen": [
       "fr_hhg",
       "fr_verboten"
+    ]
+  },
+  "vermisst": {
+    "text": "Nel Cantone di Friburgo annunci un animale trovato o smarrito alla Schweizerische Tiermeldezentrale (STMZ, centrale svizzera di notifica degli animali). Lo indica l'Amt für Lebensmittelsicherheit und Veterinärwesen (LSVW, ufficio della sicurezza alimentare e degli affari veterinari). Chi trova un animale deve annunciare il ritrovamento (art. 720a del Codice civile).",
+    "punkte": [
+      "Cane trovato: online con il modulo «Fundmeldung erfassen» su stmz.ch o per telefono allo 0848 357 358 (a tariffa locale).",
+      "Cane smarrito: controlla prima l'elenco degli animali trovati su stmz.ch, oppure chiama lo 026 305 80 60 per sapere se è già stato trovato.",
+      "Se non è stato trovato: registra online su stmz.ch un annuncio di smarrimento o chiama lo 0900 357 358 (CHF 1.95 al minuto, giorno e notte, 7 giorni alla settimana).",
+      "Il rifugio di riferimento è quello della Società friburghese per la protezione degli animali a Font, vicino a Estavayer-le-Lac, telefono 026 663 33 75."
+    ],
+    "quellen": [
+      "fr_lsvw_fundtiere"
     ]
   }
 }

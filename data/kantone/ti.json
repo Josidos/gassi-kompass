@@ -2,7 +2,7 @@
   "id": "ti",
   "kurz": "TI",
   "uebersetzt_aus": "it",
-  "original": "14adad819304",
+  "original": "2723c1afe8d2",
   "wald": {
     "saison": false,
     "text": "Die Legge sui cani (Hundegesetz) sieht keine Zeit mit Leinenpflicht im Wald vor. Das ganze Jahr gilt die allgemeine Regel: Leine an Orten, an denen sich Publikum oder andere Tiere aufhalten.",
@@ -148,6 +148,19 @@
     "text": "Wenn du mit einem Hund einer Rasse mit Einschränkungen ins Tessin ziehst, reichst du das Bewilligungsgesuch innert 30 Tagen ein und besuchst den Kurs innert 6 Monaten.",
     "quellen": [
       "ti_rcani"
+    ]
+  },
+  "vermisst": {
+    "text": "Im Kanton Tessin hat der Staatsrat das Ufficio del veterinario cantonale (UVC, Kantonstierarztamt) beauftragt, die Meldungen gefundener Tiere entgegenzunehmen. Wer ein verlorenes Tier findet, muss die Eigentümerin oder den Eigentümer informieren oder, wenn sie unbekannt sind, den Fund melden (Art. 720a ZGB).",
+    "punkte": [
+      "Bevor du einen gefundenen Hund meldest, prüfe, ob er einen Mikrochip hat. Du kannst dich an die Gemeindepolizei, an einen Tierschutzverein oder an eine Tierärztin oder einen Tierarzt wenden.",
+      "Auf der Website des UVC findest du die aktiven Meldungen und das Meldeformular.",
+      "Wird die Eigentümerin oder der Eigentümer nicht innert zwei Monaten nach der Veröffentlichung der Meldung gefunden, wird die Finderin oder der Finder Eigentümerin oder Eigentümer des Tieres, sofern sie oder er die Meldepflichten erfüllt hat (Art. 722 ZGB).",
+      "Gibst du das Tier einem Tierheim ab und verzichtest auf den Besitz, kann das Tierheim nach zwei Monaten frei darüber verfügen.",
+      "UVC: Via Dogana 16, 6501 Bellinzona, Telefon 091 814 41 00."
+    ],
+    "quellen": [
+      "ti_uvc_smarriti"
     ]
   }
 }

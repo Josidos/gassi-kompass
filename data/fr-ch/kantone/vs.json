@@ -130,5 +130,14 @@
     "quellen": [
       "vs_scav_securite"
     ]
+  },
+  "vermisst": {
+    "text": "Dans le canton du Valais, les communes où un animal a été trouvé sont responsables de sa prise en charge. Si vous trouvez un chien, vous contactez l'administration communale concernée ou la police municipale, ou vous l'annoncez dans la banque de données de la Schweizerische Tiermeldezentrale (STMZ, centrale suisse d'annonce des animaux). Celui qui trouve un animal perdu est tenu d'en informer le propriétaire ou, à défaut, l'autorité compétente (art. 720a CC).",
+    "punkte": [
+      "Chien perdu: consultez la banque de données des animaux trouvés ou contactez le refuge pour animaux le plus proche."
+    ],
+    "quellen": [
+      "vs_scav_animaux_perdus"
+    ]
   }
 }

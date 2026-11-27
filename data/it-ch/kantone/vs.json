@@ -2,7 +2,7 @@
   "id": "vs",
   "kurz": "VS",
   "uebersetzt_aus": "de",
-  "original": "40a319ff3107",
+  "original": "9f9f3fef3477",
   "wald": {
     "saison": false,
     "text": "L'Ausführungsgesetz zum Tierschutzgesetz (legge d'applicazione della legge sulla protezione degli animali) del Vallese non indica un obbligo di guinzaglio specifico per il bosco né una stagione. Fuori dalle località il tuo cane deve essere sotto controllo. Nelle zone protette e nelle zone naturali il guinzaglio può essere prescritto, tutto l'anno o per determinati periodi. Nelle bandite federali di caccia i cani vanno tenuti al guinzaglio (stato della pagina dell'Ufficio federale dell'ambiente: 5 settembre 2024). Fai attenzione alla segnaletica sul posto.",
@@ -133,6 +133,19 @@
     "text": "Nel Vallese non è permesso iniziare a detenere cani delle dodici razze vietate o loro incroci. È permesso solo un soggiorno di al massimo 30 giorni all'anno, al guinzaglio e con museruola.",
     "quellen": [
       "vs_vet_sicherheit"
+    ]
+  },
+  "vermisst": {
+    "text": "Nel Cantone Vallese è responsabile della custodia di un animale trovato il Comune in cui è stato trovato. Se trovi un cane, lo annunci all'amministrazione comunale o alla polizia comunale, oppure lo registri presso la Schweizerische Tiermeldezentrale (STMZ, centrale svizzera di notifica degli animali) su stmz.ch. Chi trova un animale deve informare la detentrice o il detentore o, se non è possibile, l'autorità competente (art. 720a del Codice civile).",
+    "punkte": [
+      "Cane smarrito: consulta la banca dati degli animali trovati della STMZ oppure rivolgiti al rifugio per animali più vicino.",
+      "Il Comune prende a carico un cane randagio o fuggito che è stato trovato e lo riconsegna alla detentrice o al detentore. Se non la o lo trova entro un termine ragionevole, il cane viene portato in un rifugio ufficiale (Ausführungsgesetz zum Tierschutzgesetz, legge di esecuzione della legge sulla protezione degli animali, stato al 1° gennaio 2020).",
+      "I costi di custodia fino al collocamento nel rifugio sono a carico del Comune. Se la detentrice o il detentore viene trovato, paga tutti i costi.",
+      "Scaduti i termini del Codice civile, un animale fuggito passa sotto la responsabilità esclusiva del rifugio."
+    ],
+    "quellen": [
+      "vs_vet_fundtiere",
+      "vs_agtschg"
     ]
   }
 }

@@ -1311,5 +1311,35 @@
     "kurz": "Verordnung Fundwesen BL",
     "lang": "Kanton Basel-Landschaft: Verordnung über das Fundwesen und das Verwertungswesen (Vo FuV), SGS 211.91, vom 17. Juli 2007 (Stand 1. Oktober 2023)",
     "url": "https://bl.clex.ch/app/de/texts_of_law/211.91"
+  },
+  "ti_uvc_smarriti": {
+    "kurz": "UVC: animali smarriti e ritrovati",
+    "lang": "Repubblica e Cantone Ticino, Ufficio del veterinario cantonale (UVC): Animali smarriti - ritrovati, introduzione (consultato il 27 novembre 2026)",
+    "url": "https://www4.ti.ch/dss/dsp/uvc/temi/tenuta-di-animali/animali-smarriti-ritrovati/introduzione"
+  },
+  "so_vet_fundtiere": {
+    "kurz": "Veterinärdienst SO: gefundene und vermisste Tiere",
+    "lang": "Kanton Solothurn, Amt für Landwirtschaft, Veterinärdienst: Gefundene und vermisste Tiere (abgerufen am 27. November 2026)",
+    "url": "https://so.ch/verwaltung/volkswirtschaftsdepartement/amt-fuer-landwirtschaft/tiere-und-lebensmittel/tierschutz/gefundene-und-vermisste-tiere/"
+  },
+  "fr_lsvw_fundtiere": {
+    "kurz": "LSVW FR: gefundene/verlorene Tiere",
+    "lang": "Kanton Freiburg, Amt für Lebensmittelsicherheit und Veterinärwesen (LSVW): Gefundene/verlorene Tiere, Stand der Seite 13.08.2026",
+    "url": "https://fr.ch/de/lsvw/energie-landwirtschaft-und-umwelt/landwirtschaft-und-nutztiere/gefundeneverlorene-tiere"
+  },
+  "fr_saav_animaux_perdus": {
+    "kurz": "SAAV FR: animaux perdus/trouvés",
+    "lang": "Canton de Fribourg, Service de la sécurité alimentaire et des affaires vétérinaires (SAAV): Animaux perdus/trouvés, page modifiée le 13.08.2026",
+    "url": "https://www.fr.ch/vie-quotidienne/animaux-de-compagnie/animaux-perdustrouves"
+  },
+  "vs_vet_fundtiere": {
+    "kurz": "Veterinäramt VS: verlorene oder gefundene Tiere",
+    "lang": "Kanton Wallis, Dienststelle für Verbraucherschutz und Veterinärwesen: Verlorene oder gefundene Tiere (abgerufen am 27. November 2026)",
+    "url": "https://www.vs.ch/de/web/scav/veterinaerwesen/verlorene-gefundene-tiere"
+  },
+  "vs_scav_animaux_perdus": {
+    "kurz": "SCAV VS: animaux perdus ou retrouvés",
+    "lang": "Canton du Valais, Service de la consommation et affaires vétérinaires: Animaux perdus ou retrouvés (consulté le 27 novembre 2026)",
+    "url": "https://www.vs.ch/web/scav/veterinaire/animaux-perdus-retrouv%C3%A9s"
   }
 }

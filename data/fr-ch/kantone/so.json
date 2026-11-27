@@ -2,7 +2,7 @@
   "id": "so",
   "kurz": "SO",
   "uebersetzt_aus": "de",
-  "original": "e4838adc6b9c",
+  "original": "9d5e30cff503",
   "wald": {
     "saison": true,
     "von": "04-01",
@@ -131,6 +131,18 @@
     "quellen": [
       "so_vet_bewilligung",
       "so_hundeg"
+    ]
+  },
+  "vermisst": {
+    "text": "Dans le canton de Soleure, la Schweizerische Tiermeldezentrale (STMZ, centrale suisse d'annonce des animaux) est le service d'annonce du canton. Celui qui trouve un animal perdu est tenu d'en informer la détentrice ou le détenteur ou, s'ils sont inconnus, d'annoncer la découverte au service d'annonce.",
+    "punkte": [
+      "Chien trouvé: annoncez la découverte à la STMZ par téléphone au 0848 357 358 ou en ligne sur stmz.ch.",
+      "Chien disparu: adressez-vous directement à la STMZ et saisissez-y un avis de disparition.",
+      "En cas d'urgence: police, téléphone 117.",
+      "Renseignements: Amt für Landwirtschaft (office de l'agriculture), Veterinärdienst (service vétérinaire cantonal), téléphone 032 627 25 02."
+    ],
+    "quellen": [
+      "so_vet_fundtiere"
     ]
   }
 }

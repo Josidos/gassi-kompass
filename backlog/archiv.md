@@ -207,3 +207,12 @@ Was die Glieder in Originalfassungen bemerkt haben, steht in `CHANGELOG.md` unte
   5. Handbuch, Schritt 2 «Nachprüfen»: Nach den toten Links kommen die Dateien, die der Wächter nennt, dann die ältesten. Die Obergrenze von 4 Dateien bleibt. Die Schwelle für das blinde Nachprüfen steigt von 60 auf 120 Tage, das schafft der Lauf auch mit zwei Tagen pro Woche. Dazu ein Kalender: im März alle Felder `wald`, im Januar alle Karten zu Hundesteuer und Hundetaxe, unabhängig vom Alter der Datei.
   6. Erster Durchgang: Action auslösen und im Protokoll festhalten, wie viele Quellen erreichbar waren. Dieses Handbuch im selben Commit nachführen (Aufbau, neuer Abschnitt «Änderungswächter» nach «Link-Prüfung»).
   7. Grenze, aufgefallen am 27.11.2026 in Neuenburg: Die Stadt hat seit dem 21. Oktober 2026 ein neues Polizeireglement. Das alte PDF blieb unverändert online, die Link-Prüfung zeigte «in Ordnung», und ein Wächter auf dieser Adresse hätte nichts gemerkt. Gefunden wurde es erst über die Übersicht der Reglemente. Darum beobachtet der Wächter bei Quellen, die ein einzelnes Dokument sind (PDF oder Adresse mit der Nummer der Fassung), zusätzlich die Übersichtsseite, die das Dokument verlinkt, wenn der Quelleneintrag eine nennt (neues wahlweises Feld `uebersicht`, `build.py` muss es zulassen). Ändert sich dort die Liste der verlinkten Dokumente, meldet er die Quelle. Erste Einträge: `ne_ville_police` und `ne_ville_taxes` (neuchatelville.ch/votre-commune/reglementation), `zh_hundeg` (die Seite des Erlasses trägt die Nummer des Nachtrags), `sh_stadt_hundesteuer`, `bl_muttenz_hundereglement`. Weitere kommen beim Nachprüfen dazu. Umgesetzt am 27.11.2026 für die ersten vier. `bl_muttenz_hundereglement` ohne Übersicht: Die Suche fand keine Übersichtsseite der Reglemente, und die Quelle ist selbst eine Webseite, deren Text der Wächter ohnehin vergleicht.
+
+## Archiviert am 2026-11-28
+
+### BACKLOG.md, 9.1 Hund vermisst oder gefunden
+
+- [x] Tessin 2026-11-27
+- [x] Wallis (deutsch und französisch) 2026-11-27
+- [x] Freiburg (deutsch und französisch) 2026-11-27
+- [x] Solothurn 2026-11-27

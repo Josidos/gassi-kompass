@@ -124,5 +124,17 @@
       "fr_ldch",
       "fr_interdits"
     ]
+  },
+  "vermisst": {
+    "text": "Dans le canton de Fribourg, vous annoncez un animal trouvé ou perdu à la Schweizerische Tiermeldezentrale (STMZ, centrale suisse d'annonce des animaux). C'est ce qu'indique le Service de la sécurité alimentaire et des affaires vétérinaires (SAAV). Celui qui trouve un animal est tenu de l'annoncer (art. 720a CC).",
+    "punkte": [
+      "Chien trouvé: formulaire en ligne sur stmz.ch ou téléphone 0848 357 358 (tarif local).",
+      "Chien perdu: consultez d'abord la liste des animaux trouvés sur stmz.ch, ou appelez le 026 305 80 60 pour savoir s'il a déjà été trouvé.",
+      "S'il n'a pas été trouvé: rédigez un avis de disparition en ligne sur stmz.ch ou appelez le 0900 357 358 (CHF 1.95 la minute, 24 heures sur 24, 7 jours sur 7).",
+      "Le refuge de référence est celui de la Société fribourgeoise de protection des animaux, à Font près d'Estavayer-le-Lac, téléphone 026 663 33 75."
+    ],
+    "quellen": [
+      "fr_saav_animaux_perdus"
+    ]
   }
 }

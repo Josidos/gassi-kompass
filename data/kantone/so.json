@@ -134,5 +134,17 @@
       "so_vet_bewilligung",
       "so_hundeg"
     ]
+  },
+  "vermisst": {
+    "text": "Im Kanton Solothurn ist die Schweizerische Tiermeldezentrale (STMZ) die Meldestelle des Kantons. Wer ein verlorenes Tier findet, muss die Halterin oder den Halter benachrichtigen oder, wenn sie unbekannt sind, den Fund der Meldestelle melden.",
+    "punkte": [
+      "Hund gefunden: Melde den Fund der STMZ per Telefon 0848 357 358 oder online auf stmz.ch.",
+      "Hund vermisst: Wende dich direkt an die STMZ und erfasse dort eine Vermisstmeldung.",
+      "Im Notfall: Polizei, Telefon 117.",
+      "Auskunft: Amt für Landwirtschaft, Veterinärdienst, Telefon 032 627 25 02."
+    ],
+    "quellen": [
+      "so_vet_fundtiere"
+    ]
   }
 }

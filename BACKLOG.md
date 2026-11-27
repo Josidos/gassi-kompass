@@ -80,10 +80,6 @@ Feld `vermisst`, gebaut mit dem Sonderlauf in Abschnitt 5. Je Kanton zu belegen,
 
 Einstiege: Seite des Veterinärdiensts, Seite der Kantonspolizei, kantonale Gesetzessammlung (Einführungsgesetz zum ZGB, Verordnung über die Meldestelle für Findeltiere). Nennt der Kanton eine private Meldestelle als seine amtliche, ist die Seite oder der Erlass des Kantons die Quelle, nicht die Website der Meldestelle. Findet sich nach zwei Suchversuchen keine amtliche Quelle: Feld weglassen und den Kanton hier als «zurückgestellt» mit Datum und Grund vermerken. Bei zweisprachigen Kantonen kommt das Feld in beide Originalfassungen.
 
-- [ ] Tessin
-- [ ] Wallis (deutsch und französisch)
-- [ ] Freiburg (deutsch und französisch)
-- [ ] Solothurn
 - [ ] Graubünden (deutsch und italienisch)
 - [ ] Neuenburg
 - [ ] Basel-Stadt
