@@ -241,18 +241,33 @@
   },
   "tg_hundeg": {
     "kurz": "Hundegesetz TG",
-    "lang": "Kanton Thurgau: Hundegesetz (HundeG, RB 641.2) vom 5. Dezember 1983, Stand 1. Mai 2025, Wortlaut auf LexFind",
-    "url": "https://www.lexfind.ch/tol/17744/de"
+    "lang": "Kanton Thurgau: Hundegesetz (HundeG), RB 641.2, vom 5. Dezember 1983 (Stand 1. Mai 2025)",
+    "url": "https://www.rechtsbuch.tg.ch/app/de/texts_of_law/641.2"
   },
   "tg_hundev": {
     "kurz": "Hundeverordnung TG",
-    "lang": "Kanton Thurgau: Hundeverordnung (HundeV, RB 641.21) vom 16. Oktober 1984, Stand 1. Mai 2025, Wortlaut auf LexFind",
-    "url": "https://www.lexfind.ch/tolv/251901/de"
+    "lang": "Kanton Thurgau: Hundeverordnung (HundeV), RB 641.21, vom 16. Oktober 1984 (Stand 1. Mai 2025)",
+    "url": "https://www.rechtsbuch.tg.ch/app/de/texts_of_law/641.21"
   },
   "tg_vet_rassen": {
     "kurz": "Merkblatt zur Bewilligungspflicht TG",
-    "lang": "Kanton Thurgau, Veterinäramt: Merkblatt zur Bewilligungspflicht in der Hundehaltung (ohne Datum, abgerufen am 18. November 2026)",
+    "lang": "Kanton Thurgau, Veterinäramt: Merkblatt zur Bewilligungspflicht in der Hundehaltung (ohne Datum, abgerufen am 27. November 2026)",
     "url": "https://veterinaeramt.tg.ch/public/upload/assets/179676/Merkblatt%20f%C3%BCr%20Bewilligungspflichtige%20Hunderassen%20und%20einzureichende%20Unterlagen.pdf?fp=3"
+  },
+  "tg_vetv": {
+    "kurz": "Veterinärverordnung TG",
+    "lang": "Kanton Thurgau: Verordnung über das Veterinärwesen (VetV), RB 819.11, vom 22. März 2022 (Stand 1. Mai 2025)",
+    "url": "https://www.rechtsbuch.tg.ch/app/de/texts_of_law/819.11"
+  },
+  "tg_vet_pgh": {
+    "kurz": "Veterinäramt TG: Potentiell gefährliche Hunde",
+    "lang": "Kanton Thurgau, Veterinäramt: Potentiell gefährliche Hunde (ohne Datum, abgerufen am 27. November 2026)",
+    "url": "https://veterinaeramt.tg.ch/tierschutz/haustiere/hundewesen/potentiell-gefaehrliche-hunde.html/17811"
+  },
+  "tg_vet_findeltiere": {
+    "kurz": "Veterinäramt TG: Tiere vermisst, Tiere gefunden",
+    "lang": "Kanton Thurgau, Veterinäramt: Findeltiere, Tiere vermisst und Tiere gefunden (ohne Datum, abgerufen am 27. November 2026)",
+    "url": "https://veterinaeramt.tg.ch/faq/findeltiere-tiere-vermisst-tiere-gefunden.html/16090"
   },
   "tg_frauenfeld_info": {
     "kurz": "Stadt Frauenfeld: Informationen für Hundehaltende",

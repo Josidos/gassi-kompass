@@ -2,6 +2,33 @@
 
 Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen.
 
+## 2026-11-27, Sitzung mit Joss: Kanton Thurgau am geltenden Recht geprüft, ein Fehler berichtigt
+
+- Gewählt wegen des Hinweises aus dem Thurgau im Postfach und weil zwei Quellen des Kantons auf LexFind zeigten.
+- Im Browser von Joss gelesen, auf rechtsbuch.tg.ch: Hundegesetz RB 641.2 und Hundeverordnung RB 641.21 (beide Stand 1. Mai 2025, ganzer Text), Verordnung über das Veterinärwesen RB 819.11 (Stand 1. Mai 2025, Abschnitt 8 über das Halten von Hunden), Gesetz über das Veterinärwesen RB 819.1 (§ 1 und § 44).
+- Mit WebFetch gelesen, weil Chrome die Domain veterinaeramt.tg.ch nicht zuliess: die Seiten «Potentiell gefährliche Hunde» und «Findeltiere» des Veterinäramts und das Merkblatt zur Bewilligungspflicht. Diese drei Adressen sind bis zur Link-Prüfung vom 4. Dezember 2026 nicht als erreichbar bewiesen.
+- Berichtigt, Karte Rassen. Alt: «Du brauchst sie laut Merkblatt des Veterinäramts auch, wenn du nicht im Kanton Thurgau wohnst und dich mit dem Hund im Thurgau in der Öffentlichkeit aufhalten willst.» Neu: Wer nicht im Thurgau wohnt und dessen Hund nicht im Kanton gehalten wird, braucht für einen Aufenthalt keine Bewilligung, darf den Hund im öffentlichen Raum aber nur an einer festen Leine von höchstens 2,5 m und mit passendem Maulkorb ausführen. So steht es in § 69 Abs. 3 der Verordnung über das Veterinärwesen, geändert auf den 1. Mai 2025, und auf der Seite des Veterinäramts. Das Merkblatt (ohne Datum) sagt noch das Alte. Zwei amtliche Quellen widersprechen sich, es gilt der neuere Rechtstext. Die Karte nennt den Widerspruch und schickt im Zweifel ans Veterinäramt.
+- Karte Rassen, neu: Bewilligung auch für Betreuungspersonen, Wesenstest ab 20 Monaten mit befristeter Bewilligung bis 24 Monate, mindestens 4 Wochen Bearbeitung, Kostenvorschuss, Gebühr laut Gesetz höchstens CHF 2'000 neben den CHF 500 des Merkblatts, Beschlagnahmung bei verspätetem oder abgewiesenem Gesuch.
+- Karte Hundesteuer. Wert alt «CHF 80 bis 120», neu «CHF 80 bis 120, weitere Hunde CHF 130 bis 195», `vergleich.steuer` ebenso. Neu im Text: zahlbar am Wohnsitz bis 30. April oder einen Monat nach der Anmeldung, Bemessung nach Quartalen, Entscheid der Gemeinde über die Befreiung, einmal befreit bleibt befreit. Neu zum Aufklappen: sechs Fälle ohne Steuer (§ 13 Hundegesetz, § 9 und § 10 Hundeverordnung).
+- Karte Anmeldung, neu: Für die Registrierung in AMICUS dürfen höchstens CHF 25 zuzüglich Mehrwertsteuer verlangt werden (§ 3 Hundeverordnung).
+- Leine, neu: Ausnahmen von der Leinenpflicht im Wald für Jagd-, Herdenschutz- und Diensthunde (§ 3 Abs. 2bis Hundegesetz).
+- Karte Unterwegs, neu zum Aufklappen: alle sieben Ordnungsbussen (§ 13 Hundeverordnung), darunter neu CHF 50 für das Nichtanleinen in Anlagen und an verkehrsreichen Strassen und CHF 50 für den Bewilligungsausweis. Neu im Text: übermässiges Gebell. Der Satz zum entlaufenen Hund steht jetzt unter «Hund vermisst oder gefunden».
+- Umzug, neu: Leine und Maulkorb bis zum Entscheid über das Gesuch (§ 69 Abs. 2 der Verordnung über das Veterinärwesen), keine zweite Hundesteuer im selben Jahr nach einem Wohnsitzwechsel (§ 10 Hundeverordnung).
+- Neu: Feld `vermisst`. Die Schweizerische Tiermeldezentrale ist laut Veterinäramt die kantonal zuständige Stelle nach Art. 720a ZGB. Dazu die Pflicht, einen entlaufenen Hund unverzüglich öffentlich auszuschreiben, Gewahrsam durch die Gemeinde und Kosten (§ 6 Hundegesetz, § 7 Hundeverordnung).
+- Quellen, alt und neu: `tg_hundeg` und `tg_hundev` zeigten auf LexFind, jetzt auf rechtsbuch.tg.ch. Neu: `tg_vetv`, `tg_vet_pgh`, `tg_vet_findeltiere`.
+- Nicht gefunden: eine Meldefrist bei der Gemeinde, eine Übergangsregel beim Kurs. Bullmastiff und Alano stehen weiterhin nicht in der Hundeverordnung.
+- Übersetzungen auf Französisch und Italienisch: vom Unteragenten `uebersetzer` (Sonnet) nachgeführt, `build.py --check` fehlerfrei. In der Abnahme geändert: «Code civil» und «Codice civile» statt des deutschen Namens für ein Bundesgesetz, «placé ailleurs» und «collocato altrove» wie in den anderen Dateien, eine Wortdoppelung im Italienischen.
+
+## 2026-11-27, Sitzung mit Joss: Arbeitsteilung zwischen Modellen
+
+- Wunsch von Joss von 21:21 Uhr: Das teuerste Modell nur dort, wo es nötig ist. Einfache, aufwendige Arbeit an günstigere Modelle oder an Werkzeuge ohne KI.
+- Probelauf A, eine kleine Änderung am Generator (Feld `durchsicht`) auf Sonnet: 17 Schritte, rund 17'000 Token Ausgabe, rund 2 Millionen Token aus dem Zwischenspeicher gelesen, weil das Handbuch bei jedem Schritt mitreiste. Build und Test liefen, die Lösung brauchte Nacharbeit. Befund: Für wenige Zeilen Code lohnt es sich nicht.
+- Probelauf B, zwei Übersetzungen des Kantons Thurgau auf Sonnet: 6 Werkzeugaufrufe, 77 Sekunden, rund 138'000 Token, `--check` fehlerfrei, fünf Stellen in der Abnahme geändert. Befund: lohnt sich.
+- Eingerichtet: `.claude/agents/uebersetzer.md` und `.claude/agents/quellenleser.md`, beide auf Sonnet und ohne Handbuch (`omitClaudeMd`). Der `quellenleser` ist noch nicht erprobt. Neue Agenten stehen erst ab der nächsten Sitzung als Typ zur Verfügung. Neuer Abschnitt «Arbeitsteilung zwischen Modellen» im Handbuch.
+- Der automatische Lauf arbeitet weiter auf dem Modell, das in seinem Auftrag steht. Eine Änderung braucht das ausdrückliche Wort von Joss.
+- Geprüft und nicht eingebaut: Ponytail, OmniRoute, RTK, `addyosmani/agent-skills`. Ausprobiert: NVIDIA SkillSpector (als Urteil unbrauchbar, als Leseliste brauchbar) und MarkItDown (für Dateien, die schon im Arbeitsplatz liegen). Begründungen im Handbuch unter «Skills».
+- Nicht erreichbar aus dem Arbeitsplatz: fremde Modellanbieter (geprüft mit drei Adressen). Ein kostenloses fremdes Modell lässt sich von hier aus nicht einspannen.
+
 ## 2026-11-27, Sitzung mit Joss: Postfach am Abend, Hinweis «vom Amt durchgesehen»
 
 - Postfach kontakt@gassi-kompass.ch um 21:30 Uhr im Browser von Joss gelesen. Nur gelesen: nichts gesendet, keine Anhänge geöffnet, nichts verändert.

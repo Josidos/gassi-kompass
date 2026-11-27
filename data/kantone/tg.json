@@ -4,7 +4,7 @@
   "kurz": "TG",
   "im": "im Kanton Thurgau",
   "des": "des Kantons Thurgau",
-  "geprueft": "2026-11-17",
+  "geprueft": "2026-11-27",
   "wald": {
     "saison": true,
     "von": "04-01",
@@ -19,7 +19,7 @@
     "punkte": [
       "in Park-, Schul-, Spiel- und Sportanlagen",
       "an verkehrsreichen Strassen",
-      "vom 1. April bis 31. Juli im Wald und am Waldrand. Die Ordnungsbusse beträgt CHF 100.",
+      "vom 1. April bis 31. Juli im Wald und am Waldrand. Die Ordnungsbusse beträgt CHF 100. Ausgenommen sind Jagd- und Herdenschutzhunde sowie Diensthunde der Polizei und des Rettungswesens im Einsatz und bei der Ausbildung.",
       "an weiteren Orten, die deine Gemeinde mit Tafeln bezeichnet hat"
     ],
     "quellen": [
@@ -68,7 +68,7 @@
       "marke": "Pflicht",
       "ton": "must",
       "wert": "Mikrochip und AMICUS",
-      "text": "Dein Hund muss nach den Vorschriften des Bundes gekennzeichnet und registriert sein. Registrierungsstelle ist die Hundedatenbank AMICUS. Das Hundegesetz nennt keine eigene Frist, es verweist auf das Bundesrecht. Die Hundesteuer zieht deine Gemeinde ein. Sie sagt dir, was du bei ihr melden musst. Zuständig für den Vollzug der Hundegesetzgebung sind die Politischen Gemeinden, soweit nichts anderes bestimmt ist. Die Bewilligungen für potenziell gefährliche Hunde erteilt das Veterinäramt.",
+      "text": "Dein Hund muss nach den Vorschriften des Bundes gekennzeichnet und registriert sein. Registrierungsstelle ist die Hundedatenbank AMICUS. Für die Registrierung dürfen höchstens CHF 25 zuzüglich Mehrwertsteuer verlangt werden. Die Tierärztin oder der Tierarzt stellt dir diese Gebühr zusammen mit den Kosten der Kennzeichnung in Rechnung. Das Hundegesetz nennt keine eigene Frist, es verweist auf das Bundesrecht. Die Hundesteuer zieht deine Gemeinde ein. Sie sagt dir, was du bei ihr melden musst. Zuständig für den Vollzug der Hundegesetzgebung sind die Politischen Gemeinden, soweit nichts anderes bestimmt ist. Die Bewilligungen für potenziell gefährliche Hunde erteilt das Veterinäramt.",
       "quellen": [
         "tg_hundeg",
         "tg_hundev"
@@ -78,8 +78,19 @@
       "titel": "Hundesteuer",
       "marke": "jährlich",
       "ton": "note",
-      "wert": "CHF 80 bis 120",
-      "text": "Die Hundesteuer beträgt CHF 80 pro Jahr für einen Hund und CHF 130 für jeden weiteren Hund im selben Haushalt. Deine Gemeinde kann sie um höchstens 50 Prozent erhöhen, also auf höchstens CHF 120 und CHF 195. Zu bezahlen ist sie bis Ende April. Bezahlte Steuern werden nicht zurückerstattet. Befreit sind Hunde unter fünf Monaten und Nutzhunde, zum Beispiel Dienst-, Blindenführ-, Behinderten-, Rettungs-, Herdenschutz-, Treib- und Jagdhunde.",
+      "wert": "CHF 80 bis 120, weitere Hunde CHF 130 bis 195",
+      "text": "Die Hundesteuer beträgt CHF 80 pro Jahr für einen Hund und CHF 130 für jeden weiteren Hund im selben Haushalt. Deine Gemeinde kann sie um höchstens 50 Prozent erhöhen, also auf höchstens CHF 120 und CHF 195. Du zahlst sie an deinem Wohnsitz, bis zum 30. April oder bis einen Monat nach der Anmeldung des Hundes. Schaffst du den Hund im Lauf des Jahres an oder wird er im Lauf des Jahres 5 Monate alt, wird die Steuer nach Quartalen berechnet. Ein angebrochenes Quartal zählt als ganzes. Bezahlte Steuern werden nicht zurückerstattet. Über eine Befreiung entscheidet die Gemeinde, den Nachweis erbringst du. Ein Hund, der einmal befreit ist, bleibt es bis zu seinem Tod.",
+      "mehr": {
+        "titel": "Keine Steuer: alle Fälle anzeigen",
+        "punkte": [
+          "Hunde unter 5 Monaten",
+          "Nutzhunde: Dienst-, Blindenführ-, Behinderten-, Rettungs-, Herdenschutz-, Treib- und Jagdhunde",
+          "Hunde, die sich weniger als 3 Monate im Kanton aufhalten",
+          "Hunde, die einen bereits versteuerten Hund ersetzen",
+          "nach einem Wohnsitzwechsel, wenn du die Steuer des laufenden Jahres schon in einer anderen Gemeinde des Kantons oder in einem anderen Kanton bezahlt hast",
+          "nach einem Halterwechsel, wenn der Hund für das laufende Jahr schon in einer anderen Gemeinde besteuert wurde"
+        ]
+      },
       "quellen": [
         "tg_hundeg",
         "tg_hundev"
@@ -90,7 +101,7 @@
       "marke": "Bewilligung",
       "ton": "must",
       "wert": "14 Rassen und Typen",
-      "text": "Für potenziell gefährliche Hunde brauchst du eine Bewilligung des Veterinäramts, und zwar bevor du den Hund anschaffst oder ausführst. Sie gilt für das Halten, Betreuen und Ausführen. Du brauchst sie laut Merkblatt des Veterinäramts auch, wenn du nicht im Kanton Thurgau wohnst und dich mit dem Hund im Thurgau in der Öffentlichkeit aufhalten willst. Erfasst sind auch Kreuzungen und Hunde, deren Aussehen auf eine dieser Rassen schliessen lässt. Ausgenommen ist ein Hund, wenn ein Gentest eines anerkannten Labors zeigt, dass er zu weniger als 50 Prozent von einer solchen Rasse abstammt. Verlangt werden unter anderem Volljährigkeit, ein fester Wohnsitz, ein Auszug aus dem Strafregister, Kenntnisse in der Hundehaltung, der Herkunftsnachweis des Hundes und die Haftpflichtversicherung. Laut Merkblatt des Veterinäramts kostet die Bewilligung CHF 500. Den Bewilligungsausweis trägst du bei dir, wenn du den Hund ausführst.",
+      "text": "Für potenziell gefährliche Hunde brauchst du eine Bewilligung des Veterinäramts, und zwar bevor du den Hund anschaffst oder ausführst. Sie gilt für das Halten, Betreuen und Ausführen, laut Veterinäramt auch für Hundesitter, Familienangehörige und andere Betreuungspersonen. Erfasst sind auch Kreuzungen und Hunde, deren Aussehen auf eine dieser Rassen schliessen lässt. Ausgenommen ist ein Hund, wenn ein Gentest eines anerkannten Labors zeigt, dass er zu weniger als 50 Prozent von einer solchen Rasse abstammt. Verlangt werden unter anderem Volljährigkeit, ein fester Wohnsitz, ein Auszug aus dem Strafregister, Kenntnisse in der Hundehaltung, der Herkunftsnachweis des Hundes und die Haftpflichtversicherung. Dein Hund muss zudem einen Wesenstest machen. Das geht laut Veterinäramt erst ab einem Alter von 20 Monaten, vorher wird eine befristete Bewilligung bis zum Alter von 24 Monaten ausgestellt. Für die Bearbeitung rechnet das Veterinäramt mit mindestens 4 Wochen, vorab verlangt es einen Kostenvorschuss. Laut seinem Merkblatt kostet die Bewilligung CHF 500, das Hundegesetz erlaubt höchstens CHF 2'000. Den Bewilligungsausweis trägst du bei dir, wenn du den Hund ausführst. Reichst du das Gesuch nicht fristgerecht ein oder wird es abgewiesen, beschlagnahmt das Veterinäramt den Hund. Wohnst du nicht im Thurgau und wird dein Hund nicht im Kanton gehalten, brauchst du für einen Aufenthalt keine Bewilligung. Du darfst ihn im öffentlichen Raum aber nur an einer festen Leine von höchstens 2,5 m und mit einem passenden Maulkorb ausführen. So steht es seit dem 1. Mai 2025 in der Verordnung über das Veterinärwesen. Das Merkblatt des Veterinäramts (ohne Datum) verlangt auch von Auswärtigen noch eine Bewilligung. Im Zweifel fragst du beim Veterinäramt nach.",
       "mehr": {
         "titel": "Ganze Liste anzeigen",
         "punkte": [
@@ -113,6 +124,8 @@
       "quellen": [
         "tg_hundeg",
         "tg_hundev",
+        "tg_vetv",
+        "tg_vet_pgh",
         "tg_vet_rassen"
       ]
     },
@@ -121,7 +134,19 @@
       "marke": "Regel",
       "ton": "note",
       "wert": "Kot und Aufsicht",
-      "text": "Du entfernst den Kot deines Hundes korrekt. Trottoirs, Fusswege, Park-, Schul-, Spiel- und Sportanlagen, Gärten, Futterwiesen und Gemüsefelder dürfen nicht verunreinigt werden. Die Ordnungsbusse beträgt CHF 150. Dein Hund darf im Wald, am Waldrand und nachts im Freien nicht unbeaufsichtigt sein, sonst kostet es CHF 200. Ein entlaufener Hund muss unverzüglich öffentlich ausgeschrieben werden. Im ordentlichen Verfahren sind Bussen von CHF 50 bis CHF 5'000 möglich.",
+      "text": "Du entfernst den Kot deines Hundes korrekt. Trottoirs, Fusswege, Park-, Schul-, Spiel- und Sportanlagen, Gärten, Futterwiesen und Gemüsefelder dürfen nicht verunreinigt werden. Dein Hund darf im Wald, am Waldrand und nachts im Freien nicht unbeaufsichtigt sein. Er darf die Umgebung nicht durch übermässiges Gebell oder Geheul belästigen. Für die häufigsten Verstösse gibt es feste Ordnungsbussen von CHF 50 bis CHF 200. Im ordentlichen Verfahren sind Bussen von CHF 50 bis CHF 5'000 möglich.",
+      "mehr": {
+        "titel": "Ordnungsbussen anzeigen",
+        "punkte": [
+          "Hund unbeaufsichtigt im Wald, am Waldrand oder nachts im Freien: CHF 200",
+          "Hundekot auf Trottoirs, Fusswegen, in Park-, Schul-, Spiel- oder Sportanlagen, Gärten, Futterwiesen oder Gemüsefeldern nicht korrekt beseitigt: CHF 150",
+          "Leinenpflicht im Wald und am Waldrand vom 1. April bis 31. Juli missachtet: CHF 100",
+          "Hund in Kirchen, Friedhöfen, Spital- oder Badeanlagen mitgeführt: CHF 100",
+          "Anleingebot oder Betretverbot der Gemeinde missachtet: CHF 100",
+          "Hund in Park-, Schul-, Spiel- oder Sportanlagen oder an verkehrsreichen Strassen nicht an der Leine: CHF 50",
+          "Bewilligungsausweis für einen potenziell gefährlichen Hund nicht dabei oder nicht vorgewiesen: CHF 50"
+        ]
+      },
       "quellen": [
         "tg_hundeg",
         "tg_hundev"
@@ -133,13 +158,29 @@
     "haft": "Pflicht, mind. CHF 3 Mio.",
     "kurs": "Pflicht, innert eines Jahres, mind. 10 Lektionen",
     "rassen": "Bewilligungspflicht für 14 Rassen und Typen",
-    "steuer": "CHF 80 bis 120, je nach Gemeinde",
+    "steuer": "CHF 80 bis 120, weitere Hunde CHF 130 bis 195, je nach Gemeinde",
     "anm": "Mikrochip und AMICUS"
   },
   "umzug": {
-    "text": "Ziehst du mit einem potenziell gefährlichen Hund in den Kanton Thurgau, musst du innert 10 Tagen beim Veterinäramt ein Gesuch um eine Bewilligung einreichen. Eine Haltebewilligung deines bisherigen Kantons kann berücksichtigt werden.",
+    "text": "Ziehst du mit einem potenziell gefährlichen Hund in den Kanton Thurgau, musst du innert 10 Tagen nach dem Zuzug beim Veterinäramt ein Gesuch um eine Bewilligung einreichen. Bis zum Entscheid darfst du den Hund im öffentlichen Raum nur an einer festen Leine von höchstens 2,5 m und mit einem passenden Maulkorb ausführen. Eine Haltebewilligung deines bisherigen Kantons kann berücksichtigt werden. Hast du die Hundesteuer für das laufende Jahr schon an deinem früheren Wohnort in der Schweiz bezahlt, schuldest du sie im Thurgau für dieses Jahr nicht noch einmal. Sonst wird sie nach Quartalen berechnet.",
     "quellen": [
-      "tg_hundev"
+      "tg_hundev",
+      "tg_vetv",
+      "tg_hundeg"
+    ]
+  },
+  "vermisst": {
+    "text": "Im Kanton Thurgau meldest du ein vermisstes oder ein gefundenes Tier der Schweizerischen Tiermeldezentrale (STMZ). Sie ist laut Veterinäramt die kantonal zuständige Stelle für Findeltiere nach Art. 720a des Zivilgesetzbuchs. Einen entlaufenen Hund musst du als Halterin oder Halter zudem unverzüglich öffentlich ausschreiben.",
+    "punkte": [
+      "Tier vermisst: Das Veterinäramt verweist auf die Website der Schweizerischen Tiermeldezentrale. Dort erfasst du die Meldung.",
+      "Die Gemeinde nimmt entlaufene Hunde in Gewahrsam und führt sie der Halterin oder dem Halter zu. Geht das nicht sofort, bringt sie den Hund vorübergehend unter.",
+      "Die Kosten für Fütterung, Unterbringung und Nachforschungen trägt die Halterin oder der Halter.",
+      "Lässt sich die Halterin oder der Halter nicht innert angemessener Frist ermitteln, wird der Hund auf Anordnung der Gemeinde neu platziert."
+    ],
+    "quellen": [
+      "tg_vet_findeltiere",
+      "tg_hundev",
+      "tg_hundeg"
     ]
   }
 }

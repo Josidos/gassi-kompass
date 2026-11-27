@@ -2,7 +2,7 @@
   "id": "tg",
   "kurz": "TG",
   "uebersetzt_aus": "de",
-  "original": "abece35ff7db",
+  "original": "553e4adc8aca",
   "wald": {
     "saison": true,
     "von": "04-01",
@@ -17,7 +17,7 @@
     "punkte": [
       "nei parchi, negli impianti scolastici, nei parchi giochi e negli impianti sportivi",
       "lungo le strade molto trafficate",
-      "dal 1° aprile al 31 luglio nel bosco e al margine del bosco. La multa disciplinare è di CHF 100.",
+      "dal 1° aprile al 31 luglio nel bosco e al margine del bosco. La multa disciplinare è di CHF 100. Sono esclusi i cani da caccia e da protezione delle greggi nonché i cani di servizio della polizia e del soccorso in intervento e durante l'addestramento.",
       "in altri luoghi che il tuo Comune ha indicato con cartelli"
     ],
     "quellen": [
@@ -66,7 +66,7 @@
       "marke": "Obbligo",
       "ton": "must",
       "wert": "microchip e AMICUS",
-      "text": "Il tuo cane deve essere contrassegnato e registrato secondo le prescrizioni della Confederazione. Il servizio di registrazione è la banca dati AMICUS. La Hundegesetz (legge sui cani) non indica un termine proprio, rinvia al diritto federale. L'imposta sui cani è riscossa dal tuo Comune. Il Comune ti dice che cosa devi annunciargli. L'esecuzione della legislazione sui cani spetta ai Comuni politici, salvo disposizione contraria. Le autorizzazioni per i cani potenzialmente pericolosi sono rilasciate dal Veterinäramt.",
+      "text": "Il tuo cane deve essere contrassegnato e registrato secondo le prescrizioni della Confederazione. Il servizio di registrazione è la banca dati AMICUS. Per la registrazione si possono chiedere al massimo CHF 25, IVA esclusa. La veterinaria o il veterinario ti fattura questa tassa insieme ai costi del contrassegno. La Hundegesetz (legge sui cani) non indica un termine proprio, rinvia al diritto federale. L'imposta sui cani è riscossa dal tuo Comune. Il Comune ti dice che cosa devi annunciargli. L'esecuzione della legislazione sui cani spetta ai Comuni politici, salvo disposizione contraria. Le autorizzazioni per i cani potenzialmente pericolosi sono rilasciate dal Veterinäramt.",
       "quellen": [
         "tg_hundeg",
         "tg_hundev"
@@ -76,8 +76,19 @@
       "titel": "Imposta sui cani",
       "marke": "annuale",
       "ton": "note",
-      "wert": "CHF 80 a 120",
-      "text": "L'imposta sui cani è di CHF 80 all'anno per un cane e di CHF 130 per ogni altro cane nella stessa economia domestica. Il tuo Comune può aumentarla al massimo del 50 per cento, quindi fino a un massimo di CHF 120 e CHF 195. Va pagata entro la fine di aprile. Le imposte pagate non vengono rimborsate. Sono esentati i cani di età inferiore a cinque mesi e i cani da utilità, per esempio cani di servizio, cani guida per ciechi, cani per persone con disabilità, cani da salvataggio, da protezione delle greggi, da conduzione del bestiame e da caccia.",
+      "wert": "CHF 80 a 120, altri cani CHF 130 a 195",
+      "text": "L'imposta sui cani è di CHF 80 all'anno per un cane e di CHF 130 per ogni altro cane nella stessa economia domestica. Il tuo Comune può aumentarla al massimo del 50 per cento, quindi fino a un massimo di CHF 120 e CHF 195. La paghi al tuo domicilio, entro il 30 aprile o entro un mese dalla notifica del cane. Se acquisti il cane nel corso dell'anno o se il cane compie 5 mesi nel corso dell'anno, l'imposta è calcolata per trimestre. Un trimestre iniziato conta come intero. Le imposte pagate non vengono rimborsate. Sull'esenzione decide il Comune, la prova la fornisci tu. Un cane che è stato esentato una volta lo resta fino alla sua morte.",
+      "mehr": {
+        "titel": "Nessuna imposta: mostra tutti i casi",
+        "punkte": [
+          "cani di età inferiore a 5 mesi",
+          "cani da utilità: cani di servizio, cani guida per ciechi, cani per persone con disabilità, cani da salvataggio, da protezione delle greggi, da conduzione del bestiame e da caccia",
+          "cani che si trattengono nel Cantone per meno di 3 mesi",
+          "cani che sostituiscono un cane già tassato",
+          "dopo un cambio di domicilio, se hai già pagato l'imposta dell'anno in corso in un altro Comune del Cantone o in un altro Cantone",
+          "dopo un cambio di detentore, se il cane è già stato tassato per l'anno in corso in un altro Comune"
+        ]
+      },
       "quellen": [
         "tg_hundeg",
         "tg_hundev"
@@ -88,7 +99,7 @@
       "marke": "Autorizzazione",
       "ton": "must",
       "wert": "14 razze e tipi",
-      "text": "Per un cane potenzialmente pericoloso ti serve un'autorizzazione del Veterinäramt (ufficio veterinario), e questo prima di acquistare il cane o di portarlo a passeggio. Vale per la detenzione, l'accudimento e le uscite a passeggio. Secondo il promemoria del Veterinäramt ti serve anche se non abiti nel Cantone di Turgovia e vuoi trattenerti con il cane in luoghi pubblici in Turgovia. Sono compresi anche gli incroci e i cani il cui aspetto fa pensare a una di queste razze. È escluso un cane se un test genetico di un laboratorio riconosciuto mostra che discende per meno del 50 per cento da una di queste razze. Sono richiesti tra l'altro la maggiore età, un domicilio fisso, un estratto del casellario giudiziale, conoscenze sulla detenzione di cani, la prova della provenienza del cane e l'assicurazione di responsabilità civile. Secondo il promemoria del Veterinäramt l'autorizzazione costa CHF 500. Porti con te l'attestato di autorizzazione quando esci con il cane.",
+      "text": "Per un cane potenzialmente pericoloso ti serve un'autorizzazione del Veterinäramt (ufficio veterinario), e questo prima di acquistare il cane o di portarlo a passeggio. Vale per la detenzione, l'accudimento e le uscite a passeggio, secondo il Veterinäramt anche per i dog sitter, i familiari e altre persone che accudiscono il cane. Sono compresi anche gli incroci e i cani il cui aspetto fa pensare a una di queste razze. È escluso un cane se un test genetico di un laboratorio riconosciuto mostra che discende per meno del 50 per cento da una di queste razze. Sono richiesti tra l'altro la maggiore età, un domicilio fisso, un estratto del casellario giudiziale, conoscenze sulla detenzione di cani, la prova della provenienza del cane e l'assicurazione di responsabilità civile. Il tuo cane deve inoltre sostenere un test caratteriale. Secondo il Veterinäramt questo è possibile solo a partire dall'età di 20 mesi. Prima viene rilasciata un'autorizzazione a tempo determinato fino all'età di 24 mesi. Per l'elaborazione il Veterinäramt calcola almeno 4 settimane e chiede prima un anticipo sulle spese. Secondo il suo promemoria l'autorizzazione costa CHF 500. La Hundegesetz permette al massimo CHF 2'000. Porti con te l'attestato di autorizzazione quando esci con il cane. Se non presenti la domanda entro il termine o se viene respinta, il Veterinäramt sequestra il cane. Se non abiti in Turgovia e il tuo cane non è detenuto nel Cantone, per un soggiorno non ti serve un'autorizzazione. Puoi però portarlo a passeggio nello spazio pubblico solo con un guinzaglio fisso di al massimo 2,5 m e con una museruola adatta. Così prevede dal 1° maggio 2025 la Verordnung über das Veterinärwesen (ordinanza sugli affari veterinari). Il promemoria del Veterinäramt (senza data) richiede l'autorizzazione ancora anche a chi viene da fuori. In caso di dubbio chiedi al Veterinäramt.",
       "mehr": {
         "titel": "Mostra l'elenco completo",
         "punkte": [
@@ -111,6 +122,8 @@
       "quellen": [
         "tg_hundeg",
         "tg_hundev",
+        "tg_vetv",
+        "tg_vet_pgh",
         "tg_vet_rassen"
       ]
     },
@@ -119,7 +132,19 @@
       "marke": "Regola",
       "ton": "note",
       "wert": "escrementi e sorveglianza",
-      "text": "Elimini correttamente gli escrementi del tuo cane. Marciapiedi, sentieri pedonali, parchi, impianti scolastici, parchi giochi, impianti sportivi, giardini, prati da foraggio e campi di ortaggi non devono essere sporcati. La multa disciplinare è di CHF 150. Il tuo cane non può restare senza sorveglianza nel bosco, al margine del bosco e di notte all'aperto, altrimenti costa CHF 200. Un cane scappato deve essere segnalato pubblicamente senza indugio. Nella procedura ordinaria sono possibili multe da CHF 50 a CHF 5'000.",
+      "text": "Elimini correttamente gli escrementi del tuo cane. Marciapiedi, sentieri pedonali, parchi, impianti scolastici, parchi giochi, impianti sportivi, giardini, prati da foraggio e campi di ortaggi non devono essere sporcati. Il tuo cane non può restare senza sorveglianza nel bosco, al margine del bosco e di notte all'aperto. Non deve disturbare i dintorni con abbai o ululati eccessivi. Per le infrazioni più frequenti ci sono multe disciplinari fisse da CHF 50 a CHF 200. Nella procedura ordinaria sono possibili multe da CHF 50 a CHF 5'000.",
+      "mehr": {
+        "titel": "Mostra le multe disciplinari",
+        "punkte": [
+          "cane senza sorveglianza nel bosco, al margine del bosco o di notte all'aperto: CHF 200",
+          "escrementi del cane non eliminati correttamente su marciapiedi, sentieri pedonali, in parchi, impianti scolastici, parchi giochi o impianti sportivi, giardini, prati da foraggio o campi di ortaggi: CHF 150",
+          "obbligo di guinzaglio non rispettato nel bosco e al margine del bosco dal 1° aprile al 31 luglio: CHF 100",
+          "cane portato in chiese, cimiteri, ospedali o impianti balneari: CHF 100",
+          "obbligo di guinzaglio o divieto di accesso del Comune non rispettato: CHF 100",
+          "cane senza guinzaglio in parchi, impianti scolastici, parchi giochi o impianti sportivi o su strade molto trafficate: CHF 50",
+          "attestato di autorizzazione per un cane potenzialmente pericoloso non portato con sé o non esibito: CHF 50"
+        ]
+      },
       "quellen": [
         "tg_hundeg",
         "tg_hundev"
@@ -131,13 +156,29 @@
     "haft": "obbligo, almeno CHF 3 milioni",
     "kurs": "obbligo, entro un anno, almeno 10 lezioni",
     "rassen": "obbligo di autorizzazione per 14 razze e tipi",
-    "steuer": "CHF 80 a 120, secondo il Comune",
+    "steuer": "CHF 80 a 120, altri cani CHF 130 a 195, secondo il Comune",
     "anm": "microchip e AMICUS"
   },
   "umzug": {
-    "text": "Se ti trasferisci nel Cantone di Turgovia con un cane potenzialmente pericoloso, devi presentare entro 10 giorni una domanda di autorizzazione al Veterinäramt (ufficio veterinario). Un'autorizzazione di detenzione del tuo Cantone precedente può essere presa in considerazione.",
+    "text": "Se ti trasferisci nel Cantone di Turgovia con un cane potenzialmente pericoloso, devi presentare entro 10 giorni dal trasferimento una domanda di autorizzazione al Veterinäramt (ufficio veterinario). Fino alla decisione puoi portare il cane a passeggio nello spazio pubblico solo con un guinzaglio fisso di al massimo 2,5 m e con una museruola adatta. Un'autorizzazione di detenzione del tuo Cantone precedente può essere presa in considerazione. Se hai già pagato l'imposta sui cani dell'anno in corso al tuo precedente domicilio in Svizzera, in Turgovia non la devi una seconda volta per quest'anno. Altrimenti viene calcolata per trimestre.",
     "quellen": [
-      "tg_hundev"
+      "tg_hundev",
+      "tg_vetv",
+      "tg_hundeg"
+    ]
+  },
+  "vermisst": {
+    "text": "Nel Cantone di Turgovia annunci un animale smarrito o un animale trovato alla Schweizerische Tiermeldezentrale (STMZ, centrale svizzera di notifica degli animali). Secondo il Veterinäramt (ufficio veterinario) è il servizio cantonale competente per gli animali trovati secondo l'art. 720a del Codice civile. Come detentrice o detentore devi inoltre segnalare pubblicamente senza indugio un cane scappato.",
+    "punkte": [
+      "Animale smarrito: il Veterinäramt rinvia al sito della Schweizerische Tiermeldezentrale. Lì registri l'annuncio.",
+      "Il Comune prende in custodia i cani scappati e li riconsegna alla detentrice o al detentore. Se non è possibile subito, li ospita provvisoriamente.",
+      "I costi per vitto, alloggio e ricerche sono a carico della detentrice o del detentore.",
+      "Se la detentrice o il detentore non può essere individuato entro un termine adeguato, il cane viene collocato altrove per ordine del Comune."
+    ],
+    "quellen": [
+      "tg_vet_findeltiere",
+      "tg_hundev",
+      "tg_hundeg"
     ]
   }
 }
