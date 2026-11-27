@@ -11,6 +11,7 @@ Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen
 - Biel/Bienne, französisch: Die Pläne im Anhang sind nur deutsch beschriftet. Die Seite nennt die Zonen mit den französischen Ortsnamen Prés-de-la-Rive und Champs-de-Boujean und dem deutschen Namen in Klammern.
 - Zehn neue Quellen (fünf deutsch, fünf französisch). 304 Seiten im Test in Ordnung. Angesehen: die deutsche Seite bei 1280 und die französische bei 390 Pixeln.
 - Entscheide von Joss von 12:33 Uhr, im Handbuch und im Backlog nachgeführt: Er verschickt ab jetzt jede Mail selbst, Claude schreibt sie nur («Postfach und Antworten der Ämter», «Verbreitung», «Partner-Einträge», «Was nur Joss tun kann», «Freigaben»). «Posteingang GitHub» und «Impressum» sind für später zugesagt. «Aufstocken» und «Kein Nachfassen» bleiben offen, bis Claude erklärt hat, was gemeint ist.
+- Link-Prüfung nach dem Push von 12:39 Uhr: 353 Quellen, 348 in Ordnung, keine tot, kein Verdacht, 5 unklar: `bl_wald` (403), `sz_einsiedeln_formular` (503), `gr_chur_regeln`, `ow_leine_2022` und `ur_kjsv_bericht` (Zeitüberschreitung). Die zehn Quellen zu Biel/Bienne, die sechs zu Köniz und die neue Adresse von `be_hug` sind in Ordnung, `ur_silenen_hhv` auch wieder.
 
 ## 2026-11-27, Sitzung mit Joss: Köniz mit Hundetaxe, Parks, Friedhöfen und Schwimmbad, Kanton Bern aus dem Gesetzestext
 
