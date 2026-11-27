@@ -1,0 +1,45 @@
+{
+  "id": "naters",
+  "kanton": "vs",
+  "bfs": 6007,
+  "uebersetzt_aus": "de",
+  "original": "6392b47f2f5e",
+  "name": "Commune de Naters",
+  "ort": "Naters",
+  "in_ort": "à Naters",
+  "einleitung": "La commune de Naters perçoit l'impôt sur les chiens et demande les attestations de responsabilité civile et de cours à la Gemeindekanzlei (chancellerie communale). Les chiens sont interdits sur ses places de jeux.",
+  "karten": [
+    {
+      "titel": "Impôt sur les chiens",
+      "wert": "CHF 125 par an",
+      "text": "L'impôt concerne les chiens de plus de six mois qui sont domiciliés à Naters ou qui y séjournent plus de trois mois. Le conseil communal l'a fixé à CHF 125. Il est perçu pour l'année entière et n'est pas réparti selon la durée de détention.",
+      "quellen": [
+        "vs_naters_hunde"
+      ]
+    },
+    {
+      "titel": "Accès interdit",
+      "wert": "places de jeux de la commune",
+      "text": "Sur les places de jeux de la commune, il est interdit de mener ou de laisser courir des chiens et d'autres animaux domestiques. La commune cite les places de jeux Sandstrasse, Bine, Rotten-Dammweg et Bammatta à Naters, les places de jeux des écoles de Mund et de Birgisch, le parc de loisirs Hexenkessel à Blatten et la place de jeux d'aventure en forêt Tschuggen. Quiconque ne respecte pas cette règle est dénoncé selon le Polizeireglement (règlement de police).",
+      "quellen": [
+        "vs_naters_spielplaetze"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "wert": "Gemeindekanzlei Naters",
+      "text": "Vous déposez chaque année l'attestation d'assurance responsabilité civile à la Gemeindekanzlei. Si vous détenez un chien pour la première fois, vous y remettez aussi l'attestation de cours. Vous annoncez sans délai dans la banque de données AMICUS les changements d'adresse, les changements de détenteur et la mort du chien. Un chien venant de l'étranger doit être annoncé à la douane, enregistré dans AMICUS par un vétérinaire, puis annoncé à la commune.",
+      "quellen": [
+        "vs_naters_hunde"
+      ]
+    },
+    {
+      "titel": "Amendes",
+      "wert": "jusqu'au triple de l'impôt",
+      "text": "Quiconque ne paie pas l'impôt sur les chiens peut en plus se voir infliger une amende allant jusqu'au triple de l'impôt.",
+      "quellen": [
+        "vs_naters_hunde"
+      ]
+    }
+  ]
+}

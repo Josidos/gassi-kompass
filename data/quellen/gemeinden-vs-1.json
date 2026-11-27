@@ -8,5 +8,15 @@
     "kurz": "Gemeinde Visp: Anzeige an die Hundebesitzer",
     "lang": "visper allgemeine zeitung Nr. 1 vom 5. Januar 2024, amtliche Anzeige an die Hundebesitzer: Änderung Ablauf Erhebung Hundesteuer 2024",
     "url": "https://www.visp.ch/?action=get_file&id=86&resource_link_id=3a89"
+  },
+  "vs_naters_hunde": {
+    "kurz": "Gemeinde Naters: Online-Schalter A-Z, Hundehaltung",
+    "lang": "Gemeinde Naters: Online-Schalter A-Z, Abschnitt Hundehaltung und Hundesteuer (abgerufen am 28.11.2026, ohne Datum)",
+    "url": "https://www.naters.ch/administratives-amtliches/online-schalter-a-z/"
+  },
+  "vs_naters_spielplaetze": {
+    "kurz": "Gemeinde Naters: Kinderspielplätze",
+    "lang": "Gemeinde Naters: Kinderspielplätze, Benutzungsordnung (abgerufen am 28.11.2026, ohne Datum)",
+    "url": "https://www.naters.ch/entdecken-erleben/kinderspielplaetze/"
   }
 }

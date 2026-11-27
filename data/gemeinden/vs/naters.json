@@ -1,0 +1,44 @@
+{
+  "id": "naters",
+  "kanton": "vs",
+  "bfs": 6007,
+  "name": "Gemeinde Naters",
+  "ort": "Naters",
+  "in_ort": "in Naters",
+  "geprueft": "2026-11-28",
+  "einleitung": "Die Gemeinde Naters erhebt die Hundesteuer und verlangt die Nachweise zu Haftpflicht und Kurs auf der Gemeindekanzlei. Auf ihren Spielplätzen sind Hunde verboten.",
+  "karten": [
+    {
+      "titel": "Hundetaxe",
+      "wert": "CHF 125 pro Jahr",
+      "text": "Die Steuer gilt für Hunde, die älter als sechs Monate sind und in Naters wohnen oder sich länger als drei Monate dort aufhalten. Der Gemeinderat hat sie auf CHF 125 festgesetzt. Sie wird für das ganze Jahr erhoben und nicht nach der Haltedauer aufgeteilt.",
+      "quellen": [
+        "vs_naters_hunde"
+      ]
+    },
+    {
+      "titel": "Kein Zutritt",
+      "wert": "Spielplätze der Gemeinde",
+      "text": "Auf den Spielplätzen der Gemeinde ist es verboten, Hunde und andere Haustiere zu führen oder laufen zu lassen. Die Gemeinde nennt die Spielplätze Sandstrasse, Bine, Rotten-Dammweg und Bammatta in Naters, die Spielplätze bei den Schulhäusern in Mund und Birgisch, den Freizeitpark Hexenkessel in Blatten und den Wald-Abenteuerspielplatz Tschuggen. Wer sich nicht daran hält, wird nach dem Polizeireglement angezeigt.",
+      "quellen": [
+        "vs_naters_spielplaetze"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "wert": "Gemeindekanzlei Naters",
+      "text": "Den Nachweis der Haftpflichtversicherung hinterlegst du jedes Jahr auf der Gemeindekanzlei. Hältst du zum ersten Mal einen Hund, gibst du dort auch die Kursbestätigung ab. Adressänderungen, Halterwechsel und den Tod des Hundes meldest du unverzüglich in der Datenbank AMICUS. Einen Hund aus dem Ausland meldest du beim Zoll, lässt ihn von einer Tierärztin oder einem Tierarzt in AMICUS eintragen und meldest ihn danach bei der Gemeinde.",
+      "quellen": [
+        "vs_naters_hunde"
+      ]
+    },
+    {
+      "titel": "Bussen",
+      "wert": "bis zum Dreifachen der Steuer",
+      "text": "Wer die Hundesteuer nicht bezahlt, kann zusätzlich mit einer Busse bis zum Dreifachen der Steuer belegt werden.",
+      "quellen": [
+        "vs_naters_hunde"
+      ]
+    }
+  ]
+}

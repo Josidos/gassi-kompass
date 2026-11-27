@@ -1,0 +1,45 @@
+{
+  "id": "naters",
+  "kanton": "vs",
+  "bfs": 6007,
+  "uebersetzt_aus": "de",
+  "original": "6392b47f2f5e",
+  "name": "Comune di Naters",
+  "ort": "Naters",
+  "in_ort": "a Naters",
+  "einleitung": "Il Comune di Naters riscuote l'imposta sui cani e chiede gli attestati di responsabilità civile e del corso alla Gemeindekanzlei (cancelleria comunale). Sui suoi parchi giochi i cani sono vietati.",
+  "karten": [
+    {
+      "titel": "Imposta sui cani",
+      "wert": "CHF 125 all'anno",
+      "text": "L'imposta vale per i cani di età superiore a sei mesi che hanno domicilio a Naters o vi soggiornano per più di tre mesi. Il Municipio l'ha fissata a CHF 125. È riscossa per l'anno intero e non è ripartita secondo la durata della detenzione.",
+      "quellen": [
+        "vs_naters_hunde"
+      ]
+    },
+    {
+      "titel": "Accesso vietato",
+      "wert": "parchi giochi del Comune",
+      "text": "Sui parchi giochi del Comune è vietato condurre o lasciar correre cani e altri animali domestici. Il Comune cita i parchi giochi Sandstrasse, Bine, Rotten-Dammweg e Bammatta a Naters, i parchi giochi delle scuole di Mund e Birgisch, il parco ricreativo Hexenkessel a Blatten e il parco avventura nel bosco Tschuggen. Chi non rispetta la regola è denunciato secondo il Polizeireglement (regolamento di polizia).",
+      "quellen": [
+        "vs_naters_spielplaetze"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "wert": "Gemeindekanzlei Naters",
+      "text": "Ogni anno depositi l'attestato dell'assicurazione di responsabilità civile alla Gemeindekanzlei. Se detieni un cane per la prima volta, vi consegni anche l'attestato del corso. I cambiamenti d'indirizzo, i cambiamenti di detentore e la morte del cane li annunci senza indugio nella banca dati AMICUS. Un cane proveniente dall'estero va annunciato alla dogana, registrato in AMICUS da un veterinario e poi annunciato al Comune.",
+      "quellen": [
+        "vs_naters_hunde"
+      ]
+    },
+    {
+      "titel": "Multe",
+      "wert": "fino al triplo dell'imposta",
+      "text": "Chi non paga l'imposta sui cani può inoltre essere punito con una multa fino al triplo dell'imposta.",
+      "quellen": [
+        "vs_naters_hunde"
+      ]
+    }
+  ]
+}
