@@ -1,10 +1,13 @@
-# Prüft alle Quellen-Links mit einem echten Abruf. Start von Hand:
+# Prüft alle Quellen-Links mit einem echten Abruf. Läuft einmal pro Woche von selbst, am Freitag um 04:17 UTC
+# (Entscheid von Joss vom 27. November 2026). Start von Hand nur in einer Sitzung und auf sein Wort:
 #   gh api -X POST repos/Josidos/gassi-kompass/actions/workflows/quellen.yml/dispatches -f ref=main
 # Ergebnis: gh run view <Nummer> -R Josidos/gassi-kompass --log
 # Die Action wird nie rot. Was «tot» und «unklar» heisst, steht in tools/links.py.
 name: Quellen-Links prüfen
 
 on:
+  schedule:
+    - cron: '17 4 * * 5'
   workflow_dispatch:
 
 permissions:

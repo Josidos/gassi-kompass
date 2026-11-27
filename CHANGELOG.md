@@ -2,6 +2,13 @@
 
 Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen.
 
+## 2026-11-27, Sitzung mit Joss: Link-Prüfung nur noch einmal pro Woche
+
+- Entscheid von Joss von 12:51 Uhr: «Die Linkprüfung machst du einmal in der Woche. Das bedeutet, nächste Prüfung ist in einer Woche.» Die Action `quellen.yml` hat jetzt einen Zeitplan (freitags um 04:17 UTC) und läuft von selbst. Lauf und Sitzung lösen sie nicht mehr aus, auch nicht nach einem Push mit neuen Quellen. Nächster Durchgang: 4. Dezember 2026.
+- Link-Prüfung vom 27. November 2026, 12:39 Uhr (letzter Durchgang vor dem neuen Takt, ausgewertet): 353 Quellen, 348 in Ordnung, keine tot, kein Verdacht, 5 unklar.
+- Bekannte Lücke, Joss gemeldet: Quellen, die in der Woche neu dazukommen, sind bis zu sieben Tage nicht mit einem echten Abruf geprüft. Sein Wort «Neue Quellen prüfen» stellt die Prüfung nach jedem Push mit neuen Quellen wieder her.
+- Weitere Entscheide von 12:51 Uhr: «Aufstocken» später, wenn die Seite steht. «Nachfassen» ja: Postfach am Abend lesen, Antworten bei Bedarf für die Seite nutzen. Handbuch («Link-Prüfung», «Der Wochenlauf», «Freigaben») und Backlog nachgeführt.
+
 ## 2026-11-27, Sitzung mit Joss: Biel/Bienne neu, Mails verschickt ab jetzt Joss
 
 - Neu: Biel/Bienne (`/be/biel-bienne/`, `/fr-ch/be/biel-bienne/`, `/it-ch/be/biel-bienne/`), die 64. Gemeinde. Deutsch und Französisch sind Originalfassungen, jede aus den Texten ihrer Sprache, Italienisch ist aus dem Deutschen übersetzt. Der Eintrag war seit dem 18. November offen, weil das Abrufwerkzeug die Erlass-Sammlung der Stadt nicht lesen kann.
