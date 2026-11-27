@@ -3,12 +3,52 @@
   "kanton": "zh",
   "bfs": 261,
   "uebersetzt_aus": "de",
-  "original": "825d7a6e3d28",
+  "original": "5613af43734c",
   "name": "Città di Zurigo",
   "ort": "Zurigo",
   "in_ort": "a Zurigo",
   "hinweis_heute": "Nella città di Zurigo vale inoltre nella maggior parte dei luoghi l'obbligo di guinzaglio, almeno di giorno. Fa stato la segnaletica sul posto.",
   "einleitung": "La Città stabilisce con una decisione dove i cani possono correre liberi, dove serve il guinzaglio e dove i cani sono vietati.",
+  "freilaufzonen": [
+    {
+      "name": "Aubrugg",
+      "marken": [],
+      "text": "Secondo il set di dati, finora un'area recintata per i bisogni dei cani."
+    },
+    {
+      "name": "Bachwiesen",
+      "marken": [],
+      "text": "Superficie di ritenzione accanto al Gemeinschaftszentrum (centro comunitario)."
+    },
+    {
+      "name": "Casino Zürichhorn",
+      "marken": [],
+      "text": "Area di svago per cani presso il Casino Zürichhorn."
+    },
+    {
+      "name": "Merkuranlage",
+      "marken": [],
+      "text": "Secondo il set di dati, già da anni libero per i cani."
+    },
+    {
+      "name": "Neufrankengasse",
+      "marken": [],
+      "text": "Secondo il set di dati, finora un'area recintata per i bisogni dei cani."
+    },
+    {
+      "name": "St. Moritzanlage",
+      "marken": [],
+      "text": "Secondo il set di dati, da anni libero per i cani."
+    },
+    {
+      "name": "Winkelwiese",
+      "marken": [],
+      "text": "Secondo il set di dati, già da anni un prato per i bisogni dei cani."
+    }
+  ],
+  "freilaufzonen_quellen": [
+    "zh_zonen"
+  ],
   "karten": [
     {
       "titel": "Guinzaglio",
@@ -20,11 +60,20 @@
     },
     {
       "titel": "Zone",
-      "wert": "piano vincolante della Città",
-      "text": "Le aree di svago per cani, le zone con obbligo di guinzaglio e le zone vietate figurano nel set di dati comunale «Hundezonen», stato 14.07.2026.",
+      "wert": "7 aree di svago, 69 superfici con obbligo di guinzaglio",
+      "text": "Le aree di svago per cani, le zone con obbligo di guinzaglio e le zone vietate figurano nel set di dati comunale «Hundezonen», stato 14.07.2026. Elenca 7 aree di svago per cani, 69 superfici con obbligo di guinzaglio e 652 superfici vietate ai cani, tra cui cimiteri, parchi giochi, asili, scuole, bagni e impianti sportivi. In alcuni parchi, parti come i parchi giochi sono vietate ai cani. Agli accessi principali ci sono cartelli.",
       "quellen": [
         "zh_zonen"
-      ]
+      ],
+      "mehr": {
+        "titel": "Dove la Città esige il guinzaglio",
+        "punkte": [
+          "Tutto l'anno: Artergut, Hardeggsteg, Koch-Park, Stadelhoferanlage, Ueberlandpark, Jugendtreff Oerlikon nella Dörflistrasse, Quartierzentrum Langmauerstrasse, Quartiertreff Enge, Quartiertreff Hirslanden e presso i Gemeinschaftszentren (centri comunitari) Affoltern, Bachwiesen, Buchegg, Grünau, Heuried, Hirzenbach, Leimbach, Riesbach, Schindlergut, Seebach, Wipkingen e Wollishofen.",
+          "Tutto l'anno dalle 10 alle 22: Bäckeranlage, Belvoirpark, Birchwald, Bullingerhof, Felsenrainanlage, Heiligfeld, Husi Wipkingen con Quartierwiese e Kreisgebäude, Josefwiese, Kasernenareal, Klingenanlage, Kloster-Fahr-Weg, Kollerwiese Wiedinghügel, Landenberganlage, Lindenhof, Muraltengut, Oerliker Park, Pfingstweidpark, Platzspitz, Rietberg e Rieterpark, Schneeligut, Stolzewieseanlage, Urania-Parkanlage, Zeughaushof.",
+          "Dal 1° aprile al 30 settembre: Werdinsel.",
+          "Dal 1° aprile al 30 settembre, dalle 10 alle 22: Arboretum, Bürkliterrasse, General-Guisan-Quai, Mythenquai con Hafen Enge, Landiwiese, Saffa-Insel, Rote Fabrik, Bootshafen Wollishofen, imbarcadero presso la stazione di Wollishofen, Savera-Areal, Dachgarten della Schiffsgesellschaft, Seeuferweg Kibag, Utoquai, Seefeldquai, Seefeldpark, Höschgasse presso il Museum Bellerive, Zürichhorn e Seeanlage Tiefenbrunnen."
+        ]
+      }
     },
     {
       "titel": "Notifica e imposta",
@@ -38,7 +87,7 @@
     {
       "titel": "Imposta sui cani",
       "wert": "CHF 130 per cane, più il contributo cantonale",
-      "text": "Per ogni cane e anno civile paghi alla Città una tassa di CHF 130. Si aggiunge il contributo cantonale: le Vollzugsvorschriften (prescrizioni d'esecuzione) della Città indicano CHF 30. La tassa d'iscrizione è di CHF 20, in caso di iscrizione tardiva di CHF 40. Stato delle Vollzugsvorschriften: in vigore dal 1° settembre 2017.",
+      "text": "Per ogni cane e anno civile paghi alla Città una tassa di CHF 130. Si aggiunge il contributo cantonale: le Vollzugsvorschriften (prescrizioni d'esecuzione) della Città indicano CHF 30. La tassa d'iscrizione è di CHF 20, in caso di iscrizione tardiva di CHF 40. Dopo un corso facoltativo comprovato, seguito presso una persona specializzata riconosciuta che figura nell'elenco del Veterinäramt cantonale, la tassa dovuta alla Città si riduce una sola volta della metà. Chi riceve Zusatzleistungen zur AHV/IV (prestazioni complementari all'AVS/AI) o l'aiuto sociale per le spese di sostentamento ottiene, su richiesta, il condono della tassa dovuta alla Città per al massimo un cane per economia domestica. Stato delle Vollzugsvorschriften: in vigore dal 1° settembre 2017.",
       "quellen": [
         "zh_stadt_vollzug"
       ]

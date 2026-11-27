@@ -2,6 +2,17 @@
 
 Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen.
 
+## 2026-11-27, Sitzung mit Joss: Stadt Zürich mit Freilaufzonen, Orten mit Leinenpflicht und Ermässigungen
+
+- Der Browser von Joss war ab 08:13 Uhr verbunden. Damit liessen sich Quellen lesen, die das Abrufwerkzeug nicht liefert: der Datensatz «Hundezonen» der Stadt Zürich über den Dienst der Stadt und die PDF der Erlasse im Volltext.
+- Stadt Zürich, neu: die 7 Freilaufzonen mit Namen (Aubrugg, Bachwiesen, Casino Zürichhorn, Merkuranlage, Neufrankengasse, St. Moritzanlage, Winkelwiese), jede mit der Bemerkung aus dem Datensatz.
+- Stadt Zürich, Karte «Zonen», alt: nur der Hinweis auf den Datensatz. Neu: 7 Freilaufzonen, 69 Flächen mit Leinenpflicht und 652 Flächen mit Hundeverbot, dazu aufklappbar die Orte mit Leinenpflicht nach Zeit: das ganze Jahr, das ganze Jahr von 10 bis 22 Uhr, vom 1. April bis 30. September, vom 1. April bis 30. September von 10 bis 22 Uhr. Der Datensatz zählt 728 Flächen, Stand der Daten 14.07.2026. Namen leicht geglättet, zusammengehörende Flächen zusammengefasst.
+- Stadt Zürich, Karte «Hundeabgabe», ergänzt aus dem Volltext der Vollzugsvorschriften: einmalig die halbe Abgabe nach einem nachgewiesenen freiwilligen Kurs (Art. 3), Erlass auf Gesuch für höchstens einen Hund pro Haushalt für Beziehende von Zusatzleistungen zur AHV/IV oder Sozialhilfe (Art. 4 Abs. 2).
+- Nachgelesen: Die Seite der Stadt sagt weiter wörtlich, dass an den meisten Orten zumindest tagsüber Leinenpflicht gilt. Das kantonale Hundegesetz im Volltext (LS 554.5, Nachtrag 129, Stand 1. Juli 2025): § 24 erlaubt die Ermässigung weiter, § 23 nennt für den Kantonsbeitrag höchstens CHF 50. Was daraus in die Kantonsseite gehört, steht als Lücke im Backlog und wartet, bis der Sonderlauf an `zh.json` fertig ist.
+- Übersetzungen nachgeführt: 2 Dateien. Gebaut und getestet, die Seite bei 390 und 1280 Pixeln als Bild angesehen. `geprueft` bleibt stehen.
+- Postfach um 08:15 Uhr gelesen: keine neue Antwort seit 00:53 Uhr, 36 gesendete Mails wie nach Runde 1, im Spam 5 alte Werbemails.
+- Wunsch von Joss um 08:23 Uhr: eine Gassi-Karte mit Standort, Zonen und Hundeschulen. Im Backlog in Abschnitt 8, mit den Grenzen (amtliche Geodaten nur in einzelnen Städten, Kartenkacheln von einem fremden Server ändern Regel 8) und einem Vorschlag in Stufen, zuerst die Stadt Zürich.
+
 ## 2026-11-27, Sitzung mit Joss: Hundeabgabe der Stadt Zürich und Hundetaxe der Stadt Bern mit Betrag
 
 - Zwei Lücken aus Abschnitt 4 des Backlogs geschlossen, beide auf den Seiten der grössten Städte ihrer Kantone.

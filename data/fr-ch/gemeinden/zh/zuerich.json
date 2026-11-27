@@ -3,12 +3,52 @@
   "kanton": "zh",
   "bfs": 261,
   "uebersetzt_aus": "de",
-  "original": "825d7a6e3d28",
+  "original": "5613af43734c",
   "name": "Ville de Zurich",
   "ort": "Zurich",
   "in_ort": "à Zurich",
   "hinweis_heute": "En ville de Zurich, la laisse est en outre obligatoire dans la plupart des lieux, au moins pendant la journée. La signalisation sur place fait foi.",
   "einleitung": "La Ville fixe par décision où les chiens peuvent courir en liberté, où la laisse est nécessaire et où les chiens sont interdits.",
+  "freilaufzonen": [
+    {
+      "name": "Aubrugg",
+      "marken": [],
+      "text": "Selon le jeu de données, jusqu'ici une aire de propreté canine clôturée."
+    },
+    {
+      "name": "Bachwiesen",
+      "marken": [],
+      "text": "Surface de rétention à côté du Gemeinschaftszentrum (centre communautaire)."
+    },
+    {
+      "name": "Casino Zürichhorn",
+      "marken": [],
+      "text": "Espace de liberté pour chiens près du Casino Zürichhorn."
+    },
+    {
+      "name": "Merkuranlage",
+      "marken": [],
+      "text": "Selon le jeu de données, ouvert aux chiens depuis des années déjà."
+    },
+    {
+      "name": "Neufrankengasse",
+      "marken": [],
+      "text": "Selon le jeu de données, jusqu'ici une aire de propreté canine clôturée."
+    },
+    {
+      "name": "St. Moritzanlage",
+      "marken": [],
+      "text": "Selon le jeu de données, ouvert aux chiens depuis des années."
+    },
+    {
+      "name": "Winkelwiese",
+      "marken": [],
+      "text": "Selon le jeu de données, depuis des années déjà un pré de propreté canine."
+    }
+  ],
+  "freilaufzonen_quellen": [
+    "zh_zonen"
+  ],
   "karten": [
     {
       "titel": "Laisse",
@@ -20,11 +60,20 @@
     },
     {
       "titel": "Zones",
-      "wert": "plan contraignant de la Ville",
-      "text": "Les espaces de liberté, les zones où la laisse est obligatoire et les zones interdites figurent dans le jeu de données municipal «Hundezonen», état au 14.07.2026.",
+      "wert": "7 espaces de liberté, 69 surfaces avec laisse obligatoire",
+      "text": "Les espaces de liberté, les zones où la laisse est obligatoire et les zones interdites figurent dans le jeu de données municipal «Hundezonen», état au 14.07.2026. Il recense 7 espaces de liberté, 69 surfaces où la laisse est obligatoire et 652 surfaces interdites aux chiens, dont des cimetières, des places de jeux, des jardins d'enfants, des écoles, des bains et des installations sportives. Dans certains parcs, des parties comme les places de jeux sont interdites aux chiens. Des panneaux se trouvent aux accès principaux.",
       "quellen": [
         "zh_zonen"
-      ]
+      ],
+      "mehr": {
+        "titel": "Où la Ville exige la laisse",
+        "punkte": [
+          "Toute l'année : Artergut, Hardeggsteg, Koch-Park, Stadelhoferanlage, Ueberlandpark, Jugendtreff Oerlikon à la Dörflistrasse, Quartierzentrum Langmauerstrasse, Quartiertreff Enge, Quartiertreff Hirslanden et près des Gemeinschaftszentren (centres communautaires) Affoltern, Bachwiesen, Buchegg, Grünau, Heuried, Hirzenbach, Leimbach, Riesbach, Schindlergut, Seebach, Wipkingen et Wollishofen.",
+          "Toute l'année de 10 à 22 heures : Bäckeranlage, Belvoirpark, Birchwald, Bullingerhof, Felsenrainanlage, Heiligfeld, Husi Wipkingen avec Quartierwiese et Kreisgebäude, Josefwiese, Kasernenareal, Klingenanlage, Kloster-Fahr-Weg, Kollerwiese Wiedinghügel, Landenberganlage, Lindenhof, Muraltengut, Oerliker Park, Pfingstweidpark, Platzspitz, Rietberg et Rieterpark, Schneeligut, Stolzewieseanlage, Urania-Parkanlage, Zeughaushof.",
+          "Du 1er avril au 30 septembre : Werdinsel.",
+          "Du 1er avril au 30 septembre, de 10 à 22 heures : Arboretum, Bürkliterrasse, General-Guisan-Quai, Mythenquai avec Hafen Enge, Landiwiese, Saffa-Insel, Rote Fabrik, Bootshafen Wollishofen, débarcadère près de la gare de Wollishofen, Savera-Areal, Dachgarten de la Schiffsgesellschaft, Seeuferweg Kibag, Utoquai, Seefeldquai, Seefeldpark, Höschgasse près du Museum Bellerive, Zürichhorn et Seeanlage Tiefenbrunnen."
+        ]
+      }
     },
     {
       "titel": "Annonce et impôt",
@@ -38,7 +87,7 @@
     {
       "titel": "Impôt sur les chiens",
       "wert": "CHF 130 par chien, plus la contribution cantonale",
-      "text": "Par chien et par année civile, vous payez à la Ville une taxe de CHF 130. S'y ajoute la contribution cantonale : les Vollzugsvorschriften (prescriptions d'exécution) de la Ville indiquent CHF 30. L'émolument d'inscription est de CHF 20, et de CHF 40 en cas d'inscription tardive. État des Vollzugsvorschriften : en vigueur depuis le 1er septembre 2017.",
+      "text": "Par chien et par année civile, vous payez à la Ville une taxe de CHF 130. S'y ajoute la contribution cantonale : les Vollzugsvorschriften (prescriptions d'exécution) de la Ville indiquent CHF 30. L'émolument d'inscription est de CHF 20, et de CHF 40 en cas d'inscription tardive. Après un cours facultatif attesté, suivi auprès d'une personne spécialisée reconnue figurant sur la liste du Veterinäramt cantonal, la taxe due à la Ville est réduite une seule fois de moitié. Les personnes qui touchent des Zusatzleistungen zur AHV/IV (prestations complémentaires à l'AVS/AI) ou l'aide sociale pour leurs frais d'entretien obtiennent, sur demande, la remise de la taxe due à la Ville pour un chien au plus par ménage. État des Vollzugsvorschriften : en vigueur depuis le 1er septembre 2017.",
       "quellen": [
         "zh_stadt_vollzug"
       ]

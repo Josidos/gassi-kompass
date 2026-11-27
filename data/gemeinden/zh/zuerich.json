@@ -8,6 +8,46 @@
   "geprueft": "2026-11-16",
   "hinweis_heute": "In der Stadt Zürich gilt zudem an den meisten Orten zumindest tagsüber Leinenpflicht. Massgebend sind die Schilder vor Ort.",
   "einleitung": "Die Stadt legt per Verfügung fest, wo Freilauf erlaubt ist, wo die Leine nötig ist und wo Hunde verboten sind.",
+  "freilaufzonen": [
+    {
+      "name": "Aubrugg",
+      "marken": [],
+      "text": "Laut Datensatz bisher eine eingezäunte Hundeversäuberungsanlage."
+    },
+    {
+      "name": "Bachwiesen",
+      "marken": [],
+      "text": "Retentionsfläche neben dem Gemeinschaftszentrum."
+    },
+    {
+      "name": "Casino Zürichhorn",
+      "marken": [],
+      "text": "Freilaufzone beim Casino Zürichhorn."
+    },
+    {
+      "name": "Merkuranlage",
+      "marken": [],
+      "text": "Laut Datensatz schon seit Jahren frei für Hunde."
+    },
+    {
+      "name": "Neufrankengasse",
+      "marken": [],
+      "text": "Laut Datensatz bisher eine eingezäunte Hundeversäuberungsanlage."
+    },
+    {
+      "name": "St. Moritzanlage",
+      "marken": [],
+      "text": "Laut Datensatz seit Jahren frei für Hunde."
+    },
+    {
+      "name": "Winkelwiese",
+      "marken": [],
+      "text": "Laut Datensatz schon seit Jahren eine Hundeversäuberungswiese."
+    }
+  ],
+  "freilaufzonen_quellen": [
+    "zh_zonen"
+  ],
   "karten": [
     {
       "titel": "Leine",
@@ -19,11 +59,20 @@
     },
     {
       "titel": "Zonen",
-      "wert": "verbindlicher Plan der Stadt",
-      "text": "Freilaufzonen, Leinenpflicht- und Verbotszonen stehen im städtischen Datensatz «Hundezonen», Stand 14.07.2026.",
+      "wert": "7 Freilaufzonen, 69 Flächen mit Leinenpflicht",
+      "text": "Freilaufzonen, Leinenpflicht- und Verbotszonen stehen im städtischen Datensatz «Hundezonen», Stand 14.07.2026. Er nennt 7 Freilaufzonen, 69 Flächen mit Leinenpflicht und 652 Flächen mit Hundeverbot, darunter Friedhöfe, Spielplätze, Kindergärten, Schulanlagen, Bäder und Sportanlagen. In manchen Anlagen gilt für Teilflächen wie Spielplätze ein Hundeverbot. An den wichtigen Zugängen stehen Tafeln.",
       "quellen": [
         "zh_zonen"
-      ]
+      ],
+      "mehr": {
+        "titel": "Wo die Stadt die Leine verlangt",
+        "punkte": [
+          "Das ganze Jahr: Artergut, Hardeggsteg, Koch-Park, Stadelhoferanlage, Ueberlandpark, Jugendtreff Oerlikon an der Dörflistrasse, Quartierzentrum Langmauerstrasse, Quartiertreff Enge, Quartiertreff Hirslanden und bei den Gemeinschaftszentren Affoltern, Bachwiesen, Buchegg, Grünau, Heuried, Hirzenbach, Leimbach, Riesbach, Schindlergut, Seebach, Wipkingen und Wollishofen.",
+          "Das ganze Jahr von 10 bis 22 Uhr: Bäckeranlage, Belvoirpark, Birchwald, Bullingerhof, Felsenrainanlage, Heiligfeld, Husi Wipkingen mit Quartierwiese und Kreisgebäude, Josefwiese, Kasernenareal, Klingenanlage, Kloster-Fahr-Weg, Kollerwiese Wiedinghügel, Landenberganlage, Lindenhof, Muraltengut, Oerliker Park, Pfingstweidpark, Platzspitz, Rietberg und Rieterpark, Schneeligut, Stolzewieseanlage, Urania-Parkanlage, Zeughaushof.",
+          "Vom 1. April bis 30. September: Werdinsel.",
+          "Vom 1. April bis 30. September von 10 bis 22 Uhr: Arboretum, Bürkliterrasse, General-Guisan-Quai, Mythenquai mit Hafen Enge, Landiwiese, Saffa-Insel, Rote Fabrik, Bootshafen Wollishofen, Landungsstelle beim Bahnhof Wollishofen, Savera-Areal, Dachgarten der Schiffsgesellschaft, Seeuferweg Kibag, Utoquai, Seefeldquai, Seefeldpark, Höschgasse beim Museum Bellerive, Zürichhorn und Seeanlage Tiefenbrunnen."
+        ]
+      }
     },
     {
       "titel": "Anmeldung und Steuer",
@@ -37,7 +86,7 @@
     {
       "titel": "Hundeabgabe",
       "wert": "CHF 130 pro Hund, dazu der Kantonsbeitrag",
-      "text": "Pro Hund und Kalenderjahr zahlst du der Stadt eine Abgabe von CHF 130. Dazu kommt der Kantonsbeitrag: Die Vollzugsvorschriften der Stadt nennen dafür CHF 30. Die Einschreibegebühr beträgt CHF 20, bei verspäteter Neueintragung CHF 40. Stand der Vollzugsvorschriften: in Kraft seit 1. September 2017.",
+      "text": "Pro Hund und Kalenderjahr zahlst du der Stadt eine Abgabe von CHF 130. Dazu kommt der Kantonsbeitrag: Die Vollzugsvorschriften der Stadt nennen dafür CHF 30. Die Einschreibegebühr beträgt CHF 20, bei verspäteter Neueintragung CHF 40. Nach einem nachgewiesenen freiwilligen Kurs bei einer anerkannten Fachperson von der Liste des kantonalen Veterinäramts ermässigt sich die Abgabe an die Stadt einmalig um die Hälfte. Wer Zusatzleistungen zur AHV/IV oder Sozialhilfe für die Lebenshaltungskosten bezieht, bekommt die Abgabe an die Stadt auf Gesuch für höchstens einen Hund pro Haushalt erlassen. Stand der Vollzugsvorschriften: in Kraft seit 1. September 2017.",
       "quellen": [
         "zh_stadt_vollzug"
       ]
