@@ -271,7 +271,8 @@ Unklar, nur beobachten. Durchgang vom 18.11.2026: `bl_wald` (baselland.ch, Antwo
 - [ ] Kanton Basel-Stadt: Busse CHF 100 mit der Ordnungsbussenverordnung belegen (bisher Seite des Veterinäramts)
 - [ ] Kanton Basel-Stadt: Das Hundegesetz wird revidiert (Entwurf in Vernehmlassung). Beim Nachprüfen den Stand von SG 365.100 beachten.
 - [ ] Stadt Basel: Hundefreilaufzonen aus der Karte geo.bs.ch/hundesignalisation namentlich aufführen
-- [ ] Kanton Basel-Landschaft: Die Seiten des Veterinärdienstes und des Amts für Wald auf baselland.ch waren am 2026-11-17 nicht abrufbar. Beim Nachprüfen die Angaben aus den Gesetzen damit vergleichen und AMICUS, «Waldesnähe» und die Busse bei der Leinenpflicht ergänzen, falls dort belegt.
+- [x] 2026-11-27: Kanton Basel-Landschaft, Seiten des Veterinärwesens und des Amts für Wald und Wild auf baselland.ch im Browser gelesen und mit den Gesetzen verglichen. AMICUS ist ergänzt. «Waldesnähe» erklärt das Amt mit «an Waldrändern und auf angrenzenden Wiesen».
+- [ ] Kanton Basel-Landschaft: Einen Bussenbetrag für die Leinenpflicht im Wald nennen weder das Wildtier- und Jagdgesetz noch die Seiten des Kantons. Die Einwohnergemeinden kontrollieren die Leinenpflicht (§ 12 WJG): bei den Gemeinden nachsehen. Nicht gelesen: das «Musterreglement über das Halten von Hunden» (PDF auf der Seite des Veterinärwesens).
 - [ ] Allschwil: Freilaufwege aus dem Plan in Anhang I des Polizeireglements namentlich aufführen
 - [ ] Kanton Thurgau: Hundegesetz und Hundeverordnung im Rechtsbuch des Kantons (rechtsbuch.tg.ch) statt auf LexFind lesen und die Seite «Hunde» des Veterinäramts abgleichen. Danach ergänzen, falls belegt: Meldefrist bei der Gemeinde, Übergangsregel beim Kurs für kleine Hunde, Datum des Merkblatts mit der Gebühr von CHF 500.
 - [ ] Kreuzlingen: Orte mit Leinenpflicht, Hundeverbot oder Freilauf belegen (Seeufer, Seeburgpark). Broschüre und Website nennen keine. Die Seite steht bisher auf Steuer, Anmeldung und Kotsäcken.
@@ -525,7 +526,7 @@ Einstiege: Seite des Veterinärdiensts, Seite der Kantonspolizei, kantonale Gese
 - [ ] Tessin
 - [ ] Wallis (deutsch und französisch)
 - [ ] Freiburg (deutsch und französisch)
-- [ ] Basel-Landschaft
+- [x] Basel-Landschaft, 2026-11-27 (in der Sitzung, deutsch, französisch und italienisch)
 - [ ] Thurgau
 - [ ] Solothurn
 - [ ] Graubünden (deutsch und italienisch)

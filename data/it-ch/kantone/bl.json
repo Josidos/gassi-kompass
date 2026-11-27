@@ -2,14 +2,15 @@
   "id": "bl",
   "kurz": "BL",
   "uebersetzt_aus": "de",
-  "original": "3f24be57e696",
+  "original": "28d88930226b",
   "wald": {
     "saison": true,
     "von": "04-01",
     "bis": "07-31",
-    "wo": "nel bosco e nelle sue vicinanze",
+    "wo": "nel bosco, ai margini del bosco e sui prati adiacenti",
     "quellen": [
       "bl_wjg",
+      "bl_leinenpflicht",
       "bl_wald"
     ]
   },
@@ -51,20 +52,23 @@
       "marke": "Nessun obbligo",
       "ton": "none",
       "wert": "solo per i cani soggetti ad autorizzazione",
-      "text": "La Hundegesetz non prevede un corso obbligatorio per tutti i cani. Per ottenere l'autorizzazione per un cane potenzialmente pericoloso devi frequentare corsi di gioco per cuccioli e corsi di educazione cinofila. Sono riconosciuti i corsi tenuti da cinologhe e cinologi esperti che si concludono con un attestato.",
+      "text": "La Hundegesetz non prevede un corso obbligatorio per tutti i cani. Per ottenere l'autorizzazione per un cane potenzialmente pericoloso devi frequentare corsi di gioco per cuccioli e corsi di educazione cinofila. Sono riconosciuti i corsi tenuti da cinologhe e cinologi esperti che si concludono con un attestato. Secondo il Veterinärdienst (servizio veterinario cantonale), chi detiene un cane per la prima volta allega alla domanda una copia dell'attestato di competenza (corso teorico).",
       "quellen": [
         "bl_hug",
-        "bl_pgh"
+        "bl_pgh",
+        "bl_vet_hunde"
       ]
     },
     {
       "titel": "Notifica",
       "marke": "Obbligo",
       "ton": "must",
-      "wert": "entro 14 giorni",
-      "text": "Annunci il tuo cane al tuo Comune entro 14 giorni. Lo stesso vale se lo cedi o se muore. Ogni cane deve essere contrassegnato con un microchip. Il Comune tiene un registro dei cani di età superiore a quattro mesi. Può inoltre richiedere un proprio contrassegno.",
+      "wert": "Comune e AMICUS",
+      "text": "Annunci il tuo cane al tuo Comune entro 14 giorni. Lo stesso vale se lo cedi o se muore. Ogni cane deve essere contrassegnato con un microchip e registrato nella banca dati AMICUS. La registrazione è effettuata dalla veterinaria o dal veterinario. Se acquisti o vendi un cane, oppure lo cedi o lo prendi a carico per più di tre mesi, lo fai registrare in AMICUS entro dieci giorni. Annunci al Comune le modifiche dei tuoi dati personali. Il Comune tiene un registro dei cani di età superiore a quattro mesi. Può inoltre richiedere un proprio contrassegno. Un cane addestrato come cane da protezione deve essere annunciato al Veterinärdienst (servizio veterinario cantonale).",
       "quellen": [
-        "bl_hug"
+        "bl_hug",
+        "bl_vet_registrierung",
+        "bl_vet_hunde"
       ]
     },
     {
@@ -72,17 +76,28 @@
       "marke": "Comune",
       "ton": "note",
       "wert": "secondo il Comune",
-      "text": "I Comuni possono riscuotere una tassa sui cani. La Hundegesetz non indica un importo massimo. Sono esentati tra gli altri i cani di servizio, i cani guida per ciechi, i cani da salvataggio e da catastrofe addestrati e il primo cane di una fattoria annessa (landwirtschaftlicher Nebenhof).",
+      "text": "I Comuni possono riscuotere una tassa per i cani detenuti sul loro territorio. La Hundegesetz non indica un importo massimo. I Comuni possono prevedere altri motivi di esenzione o di riduzione.",
       "quellen": [
         "bl_hug"
-      ]
+      ],
+      "mehr": {
+        "titel": "Mostra i cani esentati",
+        "punkte": [
+          "cani di servizio dell'esercito, della polizia e del Corpo delle guardie di confine",
+          "cani guida per ciechi",
+          "il primo cane di una fattoria annessa a uso agricolo (landwirtschaftlicher Nebenhof)",
+          "cani da salvataggio e da catastrofe addestrati",
+          "cani allevati o detenuti per la sperimentazione animale",
+          "cani da traccia esaminati, quando sono impiegati per la ricerca della selvaggina ferita"
+        ]
+      }
     },
     {
       "titel": "Razze",
       "marke": "Autorizzazione",
       "ton": "must",
       "wert": "8 razze",
-      "text": "Per un cane potenzialmente pericoloso ti serve un'autorizzazione del Cantone, e questo prima dell'acquisto. Vale anche per gli incroci di queste razze, per i cani che vi assomigliano nell'aspetto e per i cani che si sono fatti notare per il loro comportamento. Sono richiesti tra l'altro un estratto del casellario giudiziale, conoscenze cinologiche, la frequenza di corsi e l'assicurazione di responsabilità civile. Nella stessa economia domestica non può vivere nessun altro cane di età superiore a 16 settimane. Sono possibili eccezioni. La domanda costa CHF 250.",
+      "text": "Per un cane potenzialmente pericoloso ti serve un'autorizzazione del Cantone, e questo prima dell'acquisto. Vale anche per gli incroci di queste razze, per i cani che vi assomigliano nell'aspetto e per i cani che si sono fatti notare per il loro comportamento. Sono richiesti tra l'altro un estratto del casellario giudiziale, conoscenze cinologiche, la frequenza di corsi e l'assicurazione di responsabilità civile. Secondo il Veterinärdienst (servizio veterinario cantonale) devi avere almeno 18 anni e presentare una conferma scritta della locatrice o del locatore. Nella stessa economia domestica non può vivere nessun altro cane di età superiore a 16 settimane. Sono possibili eccezioni. La domanda costa CHF 250, da pagare in anticipo. Calcola almeno 4 settimane di trattamento dal ricevimento della domanda completa. Se acquisti un cane del genere senza autorizzazione, il Veterinärdienst può sequestrarlo a tue spese.",
       "mehr": {
         "titel": "Mostra l'elenco completo",
         "punkte": [
@@ -98,7 +113,8 @@
       },
       "quellen": [
         "bl_pgh",
-        "bl_hug"
+        "bl_hug",
+        "bl_vet_hunde"
       ]
     },
     {
@@ -106,10 +122,11 @@
       "marke": "Regola",
       "ton": "note",
       "wert": "escrementi e selvaggina",
-      "text": "Raccogli gli escrementi del tuo cane sul suolo pubblico e sui terreni agricoli. Annunci entro 2 giorni un cane che è scappato o che si è rifugiato da te. Se un cane caccia di frodo o vaga nel bosco, la sorveglianza della caccia può abbatterlo dopo un ammonimento rimasto senza effetto. Rispondi dei danni alla selvaggina. Le infrazioni alla Hundegesetz sono punite con la multa.",
+      "text": "Raccogli gli escrementi del tuo cane sul suolo pubblico e sui terreni agricoli. Annunci al Comune entro 2 giorni un cane che è scappato o che si è rifugiato da te. Nei corridoi faunistici i cani liberi non devono disturbare gli animali selvatici. Se un cane caccia di frodo o vaga nel bosco, la sorveglianza della caccia può abbatterlo dopo un ammonimento rimasto senza effetto, oppure se non si riesce a chiarire a chi appartiene. Rispondi dei danni alla selvaggina. Se un cane ha ferito gravemente una persona o un animale o è eccessivamente aggressivo, puoi segnalarlo al servizio di segnalazione del Cantone, presso il Veterinärdienst (servizio veterinario cantonale). Le infrazioni alla Hundegesetz sono punite con la multa.",
       "quellen": [
         "bl_hug",
-        "bl_wjv"
+        "bl_wjv",
+        "bl_vet_hunde"
       ]
     }
   ],
@@ -119,13 +136,29 @@
     "kurs": "solo per i cani soggetti ad autorizzazione",
     "rassen": "obbligo di autorizzazione per 8 razze",
     "steuer": "secondo il Comune",
-    "anm": "entro 14 giorni, Comune"
+    "anm": "Comune entro 14 giorni, e AMICUS"
   },
   "umzug": {
-    "text": "Dopo il trasferimento annunci il tuo cane al tuo nuovo Comune entro 14 giorni. Se ti trasferisci con un cane potenzialmente pericoloso, devi chiedere un'autorizzazione di detenzione entro 4 settimane.",
+    "text": "Dopo il trasferimento annunci il tuo cane al tuo nuovo Comune entro 14 giorni. Se ti trasferisci con un cane potenzialmente pericoloso, devi chiedere un'autorizzazione di detenzione entro 4 settimane. Se anche il tuo Cantone di provenienza prevede un obbligo di autorizzazione, il Cantone può basarsi sull'autorizzazione di quel Cantone. Il Veterinärdienst (servizio veterinario cantonale) prega chi si trasferisce con un cane dell'elenco di rivolgersi a lui.",
     "quellen": [
       "bl_hug",
-      "bl_pgh"
+      "bl_pgh",
+      "bl_vet_hunde"
+    ]
+  },
+  "vermisst": {
+    "text": "Nel Cantone di Basilea Campagna, chi trova o cerca un animale si rivolge, secondo il Cantone, al Tierfundbüro (ufficio animali trovati) del Tierschutz beider Basel (protezione degli animali dei due Basilea). Devi inoltre annunciare al Comune entro 2 giorni un cane che è scappato o che si è rifugiato da te.",
+    "punkte": [
+      "Tierfundbüro del Tierschutz beider Basel: Tramstrasse 66, 4142 Münchenstein, telefono 061 378 78 10.",
+      "Annuncio al Comune entro 2 giorni: vi sono tenuti le detentrici e i detentori il cui cane è scappato e le persone presso cui un cane si è rifugiato.",
+      "Il Comune sul cui territorio si trova il cane provvede affinché sia catturato e alloggiato in modo adeguato. Per quanto possibile lo riconsegna alla detentrice o al detentore.",
+      "Se non è possibile, il cane viene collocato altrove. Se neppure questo è possibile, può essere soppresso d'intesa con la Kantonstierärztin o il Kantonstierarzt (veterinario cantonale).",
+      "Secondo il diritto cantonale il servizio di notifica per gli animali smarriti è designato dalla Volkswirtschafts- und Gesundheitsdirektion (direzione dell'economia e della sanità)."
+    ],
+    "quellen": [
+      "bl_fundwesen",
+      "bl_hug",
+      "bl_fuv"
     ]
   }
 }

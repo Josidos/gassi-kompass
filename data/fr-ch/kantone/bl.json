@@ -2,14 +2,15 @@
   "id": "bl",
   "kurz": "BL",
   "uebersetzt_aus": "de",
-  "original": "3f24be57e696",
+  "original": "28d88930226b",
   "wald": {
     "saison": true,
     "von": "04-01",
     "bis": "07-31",
-    "wo": "en forêt et à proximité de la forêt",
+    "wo": "en forêt, en lisière et sur les prairies attenantes",
     "quellen": [
       "bl_wjg",
+      "bl_leinenpflicht",
       "bl_wald"
     ]
   },
@@ -51,20 +52,23 @@
       "marke": "Pas d'obligation",
       "ton": "none",
       "wert": "seulement pour les chiens soumis à autorisation",
-      "text": "Le Hundegesetz ne prévoit pas de cours obligatoire pour tous les chiens. Pour obtenir l'autorisation de détenir un chien potentiellement dangereux, vous devez suivre des classes de jeux pour chiots et des cours d'éducation canine. Sont reconnus les cours donnés par des cynologues expérimentés et qui se terminent par une attestation.",
+      "text": "Le Hundegesetz ne prévoit pas de cours obligatoire pour tous les chiens. Pour obtenir l'autorisation de détenir un chien potentiellement dangereux, vous devez suivre des classes de jeux pour chiots et des cours d'éducation canine. Sont reconnus les cours donnés par des cynologues expérimentés et qui se terminent par une attestation. Selon le Veterinärdienst (service vétérinaire cantonal), les personnes qui détiennent un chien pour la première fois joignent à la demande une copie de l'attestation de compétences (cours théorique).",
       "quellen": [
         "bl_hug",
-        "bl_pgh"
+        "bl_pgh",
+        "bl_vet_hunde"
       ]
     },
     {
       "titel": "Annonce",
       "marke": "Obligatoire",
       "ton": "must",
-      "wert": "dans les 14 jours",
-      "text": "Vous annoncez votre chien à votre commune dans les 14 jours. Il en va de même si vous le cédez ou s'il meurt. Chaque chien doit être identifié par une puce électronique. La commune tient un registre des chiens âgés de plus de quatre mois. Elle peut en outre exiger sa propre marque d'identification.",
+      "wert": "commune et AMICUS",
+      "text": "Vous annoncez votre chien à votre commune dans les 14 jours. Il en va de même si vous le cédez ou s'il meurt. Chaque chien doit être identifié par une puce électronique et enregistré dans la banque de données AMICUS. L'enregistrement est effectué par la ou le vétérinaire. Si vous achetez ou vendez un chien, ou si vous le remettez ou le prenez en charge pour plus de trois mois, vous le faites saisir dans AMICUS dans les dix jours. Vous annoncez à la commune les changements de vos données personnelles. La commune tient un registre des chiens âgés de plus de quatre mois. Elle peut en outre exiger sa propre marque d'identification. Un chien formé comme chien de protection doit être annoncé au Veterinärdienst (service vétérinaire cantonal).",
       "quellen": [
-        "bl_hug"
+        "bl_hug",
+        "bl_vet_registrierung",
+        "bl_vet_hunde"
       ]
     },
     {
@@ -72,17 +76,28 @@
       "marke": "Commune",
       "ton": "note",
       "wert": "selon la commune",
-      "text": "Les communes peuvent percevoir une taxe sur les chiens. Le Hundegesetz ne fixe pas de montant maximal. Sont exonérés notamment les chiens de service, les chiens guides d'aveugles, les chiens de sauvetage et de catastrophe formés ainsi que le premier chien d'une ferme annexe (landwirtschaftlicher Nebenhof).",
+      "text": "Les communes peuvent percevoir une taxe pour les chiens détenus sur leur territoire. Le Hundegesetz ne fixe pas de montant maximal. Les communes peuvent prévoir d'autres motifs d'exonération ou de réduction.",
       "quellen": [
         "bl_hug"
-      ]
+      ],
+      "mehr": {
+        "titel": "Afficher les chiens exonérés",
+        "punkte": [
+          "chiens de service de l'armée, de la police et du Corps des gardes-frontière",
+          "chiens guides d'aveugles",
+          "le premier chien d'une ferme annexe exploitée à des fins agricoles (landwirtschaftlicher Nebenhof)",
+          "chiens de sauvetage et de catastrophe formés",
+          "chiens élevés ou détenus pour l'expérimentation animale",
+          "chiens de rouge examinés, lorsqu'ils sont engagés pour la recherche du gibier blessé"
+        ]
+      }
     },
     {
       "titel": "Races",
       "marke": "Autorisation",
       "ton": "must",
       "wert": "8 races",
-      "text": "Pour un chien potentiellement dangereux, il vous faut une autorisation du canton, et cela avant l'acquisition. Cela vaut aussi pour les croisements de ces races, pour les chiens qui leur ressemblent par leur aspect et pour les chiens qui se sont fait remarquer par leur comportement. Sont exigés notamment un extrait du casier judiciaire, des connaissances cynologiques, la fréquentation de cours et l'assurance responsabilité civile. Aucun autre chien âgé de plus de 16 semaines ne peut vivre dans le même ménage. Des exceptions sont possibles. La demande coûte CHF 250.",
+      "text": "Pour un chien potentiellement dangereux, il vous faut une autorisation du canton, et cela avant l'acquisition. Cela vaut aussi pour les croisements de ces races, pour les chiens qui leur ressemblent par leur aspect et pour les chiens qui se sont fait remarquer par leur comportement. Sont exigés notamment un extrait du casier judiciaire, des connaissances cynologiques, la fréquentation de cours et l'assurance responsabilité civile. Selon le Veterinärdienst (service vétérinaire cantonal), vous devez avoir au moins 18 ans et remettre une confirmation écrite de la bailleresse ou du bailleur. Aucun autre chien âgé de plus de 16 semaines ne peut vivre dans le même ménage. Des exceptions sont possibles. La demande coûte CHF 250, à payer d'avance. Comptez au moins 4 semaines de traitement une fois la demande complète reçue. Si vous acquérez un tel chien sans autorisation, le Veterinärdienst peut le séquestrer à vos frais.",
       "mehr": {
         "titel": "Afficher la liste complète",
         "punkte": [
@@ -98,7 +113,8 @@
       },
       "quellen": [
         "bl_pgh",
-        "bl_hug"
+        "bl_hug",
+        "bl_vet_hunde"
       ]
     },
     {
@@ -106,10 +122,11 @@
       "marke": "Règle",
       "ton": "note",
       "wert": "crottes et gibier",
-      "text": "Vous ramassez les crottes de votre chien sur le domaine public et sur les terres agricoles. Vous annoncez dans les 2 jours un chien qui s'est échappé ou qui s'est réfugié chez vous. Si un chien braconne ou erre en forêt, la surveillance de la chasse peut l'abattre après un avertissement resté sans effet. Vous répondez des dommages causés au gibier. Les infractions au Hundegesetz sont punies de l'amende.",
+      "text": "Vous ramassez les crottes de votre chien sur le domaine public et sur les terres agricoles. Vous annoncez à la commune dans les 2 jours un chien qui s'est échappé ou qui s'est réfugié chez vous. Dans les corridors à faune, les chiens en liberté ne doivent pas déranger les animaux sauvages. Si un chien braconne ou erre en forêt, la surveillance de la chasse peut l'abattre après un avertissement resté sans effet, ou s'il n'est pas possible d'établir à qui il appartient. Vous répondez des dommages causés au gibier. Si un chien a gravement blessé une personne ou un animal ou s'il est excessivement agressif, vous pouvez le signaler au service de signalement du canton, auprès du Veterinärdienst (service vétérinaire cantonal). Les infractions au Hundegesetz sont punies de l'amende.",
       "quellen": [
         "bl_hug",
-        "bl_wjv"
+        "bl_wjv",
+        "bl_vet_hunde"
       ]
     }
   ],
@@ -119,13 +136,29 @@
     "kurs": "seulement pour les chiens soumis à autorisation",
     "rassen": "autorisation obligatoire pour 8 races",
     "steuer": "selon la commune",
-    "anm": "dans les 14 jours, commune"
+    "anm": "commune dans les 14 jours, et AMICUS"
   },
   "umzug": {
-    "text": "Après votre arrivée, vous annoncez votre chien à votre nouvelle commune dans les 14 jours. Si vous arrivez avec un chien potentiellement dangereux, vous devez demander une autorisation de détention dans les 4 semaines.",
+    "text": "Après votre arrivée, vous annoncez votre chien à votre nouvelle commune dans les 14 jours. Si vous arrivez avec un chien potentiellement dangereux, vous devez demander une autorisation de détention dans les 4 semaines. Si votre ancien canton connaît lui aussi une autorisation obligatoire, le canton peut se fonder sur l'autorisation de ce canton. Le Veterinärdienst (service vétérinaire cantonal) prie toutes les personnes qui arrivent avec un chien de la liste de s'adresser à lui.",
     "quellen": [
       "bl_hug",
-      "bl_pgh"
+      "bl_pgh",
+      "bl_vet_hunde"
+    ]
+  },
+  "vermisst": {
+    "text": "Dans le canton de Bâle-Campagne, qui trouve ou cherche un animal s'adresse, selon le canton, au Tierfundbüro (bureau des animaux trouvés) du Tierschutz beider Basel (protection des animaux des deux Bâle). Vous devez en outre annoncer à la commune, dans les 2 jours, un chien qui s'est échappé ou qui s'est réfugié chez vous.",
+    "punkte": [
+      "Tierfundbüro du Tierschutz beider Basel: Tramstrasse 66, 4142 Münchenstein, téléphone 061 378 78 10.",
+      "Annonce à la commune dans les 2 jours: y sont tenus les détentrices et détenteurs dont le chien s'est échappé et les personnes chez qui un chien s'est réfugié.",
+      "La commune sur le territoire de laquelle se trouve le chien veille à ce qu'il soit capturé et hébergé convenablement. Dans la mesure du possible, elle le rend à sa détentrice ou à son détenteur.",
+      "Si ce n'est pas possible, le chien est placé ailleurs. Si cela non plus n'est pas possible, il peut être euthanasié d'entente avec la Kantonstierärztin ou le Kantonstierarzt (vétérinaire cantonal).",
+      "Selon le droit cantonal, le service d'annonce des animaux perdus est désigné par la Volkswirtschafts- und Gesundheitsdirektion (direction de l'économie et de la santé)."
+    ],
+    "quellen": [
+      "bl_fundwesen",
+      "bl_hug",
+      "bl_fuv"
     ]
   }
 }

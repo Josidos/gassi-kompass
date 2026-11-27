@@ -2,6 +2,20 @@
 
 Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen.
 
+## 2026-11-27, Sitzung mit Joss: Kanton Basel-Landschaft am geltenden Recht geprüft
+
+- Gewählt mit dem Wissensgraphen: vier der fünf Quellen des Kantons zeigten auf LexFind.
+- Im Browser von Joss gelesen. Auf bl.clex.ch: Hundegesetz SGS 342 (Stand 1. Januar 2008, ganzer Text), Verordnung über das Halten potenziell gefährlicher Hunde SGS 342.12 (Stand 1. Februar 2013, ganzer Text), Wildtier- und Jagdgesetz SGS 520 (Stand 1. Januar 2022) und Wildtier- und Jagdverordnung SGS 520.11 (Stand 1. November 2026), Verordnung über das Fundwesen SGS 211.91 (Stand 1. Oktober 2023). Waldgesetz, Waldverordnung und kantonale Tierschutzverordnung enthalten keine weitere Regel für die Seite. Auf baselland.ch: Veterinärwesen «Hunde» und «Registrierung von Tieren», Fundbüro «Fundwesen», Amt für Wald und Wild «Leinenpflicht» mit fünf Unterseiten, Medienmitteilungen vom 27. März 2024 und vom 31. März 2025.
+- Befund: Die bisherigen Angaben stimmen mit dem geltenden Recht überein, die Fassungen auf LexFind waren die geltenden. Liste der acht Rassen, Gebühr von CHF 250, 14 Tage, 2 Tage, 4 Wochen und CHF 3 Millionen sind bestätigt.
+- Quellen, alt und neu: `bl_hug`, `bl_pgh`, `bl_wjg` und `bl_wjv` zeigten auf LexFind, jetzt auf den geltenden Text bei bl.clex.ch. Neu: `bl_leinenpflicht`, `bl_vet_hunde`, `bl_vet_registrierung`, `bl_fundwesen`, `bl_fuv`.
+- Wald-Kasten, alt «im Wald und in Waldesnähe». Neu «im Wald, an Waldrändern und auf angrenzenden Wiesen», so beschreibt es das Amt für Wald und Wild. `vergleich.wald` behält den Wortlaut des Gesetzes.
+- Karte Anmeldung, neu: AMICUS, Registrierung durch die Tierärztin oder den Tierarzt, zehn Tage für Kauf, Verkauf, Abgabe und Übernahme, Personendaten an die Gemeinde, Meldung von Schutzhunden. Wert alt «innert 14 Tagen», neu «Gemeinde und AMICUS».
+- Karte Hundesteuer, neu: alle sechs Befreiungen des Gesetzes zum Aufklappen. Karte Rassen, neu: Mindestalter 18 Jahre, Bestätigung der Vermieterschaft, Gebühr im Voraus, mindestens 4 Wochen Bearbeitungszeit, Beschlagnahmung bei Anschaffung ohne Bewilligung. Karte Kurs, neu: Sachkundenachweis für Ersthaltende beim Gesuch. Karte Unterwegs, neu: Wildtierkorridore, Abschuss auch bei ungeklärten Besitzverhältnissen, Meldestelle für Vorfälle.
+- Umzug, neu: Der Kanton kann auf die Bewilligung des Herkunftskantons abstellen, der Veterinärdienst bittet um Meldung.
+- Neu: Feld `vermisst`: Tierfundbüro des Tierschutzes beider Basel laut der Seite «Fundwesen» des Kantons, Meldung an die Gemeinde innert 2 Tagen und Pflichten der Gemeinde nach § 7 Hundegesetz.
+- Nicht gefunden: ein Bussenbetrag für die Leinenpflicht im Wald. Nicht gelesen: das Musterreglement über das Halten von Hunden (PDF).
+- Übersetzungen auf Französisch und Italienisch im selben Zug nachgeführt.
+
 ## 2026-11-27, Sitzung mit Joss: Stadt Luzern nachgeprüft und ausgebaut
 
 - Im Browser von Joss gelesen, auf stadtluzern.ch: «Informationen für Hundehalter», «Naturerlebnisgebiet Allmend», die Seite zum Merkblatt, das Merkblatt für Hundehalterinnen und Hundehalter (PDF, Stand Mai 2025) und die Broschüre «Hund und Mensch in der Stadt» (PDF) im Wortlaut, dazu die Mitteilungen vom 25. November 2022 (Freilaufzone Tribschenhorn definitiv) und vom 13. September 2021 (Leinenpflicht auf der Allmend). Die Verordnung über die Nutzung des öffentlichen Grundes (Ausgabe 1. September 2024) über WebFetch: Sie regelt Hunde nur für Marktstände (Art. 36 Abs. 2) und ist nicht verwendet.

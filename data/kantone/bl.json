@@ -4,14 +4,15 @@
   "kurz": "BL",
   "im": "im Kanton Basel-Landschaft",
   "des": "des Kantons Basel-Landschaft",
-  "geprueft": "2026-11-17",
+  "geprueft": "2026-11-27",
   "wald": {
     "saison": true,
     "von": "04-01",
     "bis": "07-31",
-    "wo": "im Wald und in Waldesnähe",
+    "wo": "im Wald, an Waldrändern und auf angrenzenden Wiesen",
     "quellen": [
       "bl_wjg",
+      "bl_leinenpflicht",
       "bl_wald"
     ]
   },
@@ -53,20 +54,23 @@
       "marke": "keine Pflicht",
       "ton": "none",
       "wert": "nur für bewilligungspflichtige Hunde",
-      "text": "Das Hundegesetz kennt keinen Pflichtkurs für alle Hunde. Für die Bewilligung eines potenziell gefährlichen Hundes musst du Welpenspiel- und Hundeerziehungskurse besuchen. Anerkannt sind Kurse, die erfahrene Kynologinnen und Kynologen leiten und die mit einem Attest enden.",
+      "text": "Das Hundegesetz kennt keinen Pflichtkurs für alle Hunde. Für die Bewilligung eines potenziell gefährlichen Hundes musst du Welpenspiel- und Hundeerziehungskurse besuchen. Anerkannt sind Kurse, die erfahrene Kynologinnen und Kynologen leiten und die mit einem Attest enden. Wer zum ersten Mal einen Hund hält, legt dem Gesuch laut dem Veterinärdienst eine Kopie des Sachkundenachweises (Theoriekurs) bei.",
       "quellen": [
         "bl_hug",
-        "bl_pgh"
+        "bl_pgh",
+        "bl_vet_hunde"
       ]
     },
     {
       "titel": "Anmeldung",
       "marke": "Pflicht",
       "ton": "must",
-      "wert": "innert 14 Tagen",
-      "text": "Du meldest deinen Hund innert 14 Tagen bei deiner Gemeinde. Dasselbe gilt, wenn du ihn weitergibst oder wenn er stirbt. Jeder Hund muss mit einem Mikrochip gekennzeichnet sein. Die Gemeinde führt ein Register der Hunde, die älter als vier Monate sind. Sie kann zusätzlich ein eigenes Kennzeichen verlangen.",
+      "wert": "Gemeinde und AMICUS",
+      "text": "Du meldest deinen Hund innert 14 Tagen bei deiner Gemeinde. Dasselbe gilt, wenn du ihn weitergibst oder wenn er stirbt. Jeder Hund muss mit einem Mikrochip gekennzeichnet und in der Hundedatenbank AMICUS registriert sein. Die Registrierung nimmt die Tierärztin oder der Tierarzt vor. Kaufst oder verkaufst du einen Hund oder gibst oder übernimmst du ihn für mehr als drei Monate, lässt du das innert zehn Tagen in AMICUS erfassen. Änderungen deiner Personendaten meldest du der Gemeinde. Die Gemeinde führt ein Register der Hunde, die älter als vier Monate sind. Sie kann zusätzlich ein eigenes Kennzeichen verlangen. Wird ein Hund zum Schutzhund ausgebildet, muss er dem Veterinärdienst gemeldet werden.",
       "quellen": [
-        "bl_hug"
+        "bl_hug",
+        "bl_vet_registrierung",
+        "bl_vet_hunde"
       ]
     },
     {
@@ -74,17 +78,28 @@
       "marke": "Gemeinde",
       "ton": "note",
       "wert": "je nach Gemeinde",
-      "text": "Die Gemeinden können eine Hundegebühr erheben. Das Hundegesetz nennt keinen Höchstbetrag. Befreit sind unter anderem Diensthunde, Blindenführhunde, ausgebildete Rettungs- und Katastrophenhunde und der erste Hund auf einem landwirtschaftlichen Nebenhof.",
+      "text": "Die Gemeinden können für die Hunde auf ihrem Gebiet eine Gebühr erheben. Das Hundegesetz nennt keinen Höchstbetrag. Die Gemeinden können weitere Gründe für eine Befreiung oder eine Ermässigung vorsehen.",
       "quellen": [
         "bl_hug"
-      ]
+      ],
+      "mehr": {
+        "titel": "Befreite Hunde anzeigen",
+        "punkte": [
+          "Diensthunde der Armee, der Polizei und des Grenzwachtkorps",
+          "Blindenführhunde",
+          "der erste Hund auf einem landwirtschaftlich genutzten Nebenhof",
+          "ausgebildete Rettungs- und Katastrophenhunde",
+          "Hunde, die für Tierversuche gezüchtet oder gehalten werden",
+          "geprüfte Schweisshunde, wenn sie zur Nachsuche eingesetzt werden"
+        ]
+      }
     },
     {
       "titel": "Rassen",
       "marke": "Bewilligung",
       "ton": "must",
       "wert": "8 Rassen",
-      "text": "Für potenziell gefährliche Hunde brauchst du eine Bewilligung des Kantons, und zwar vor der Anschaffung. Das gilt auch für Kreuzungen dieser Rassen, für Hunde, die ihnen äusserlich ähnlich sind, und für Hunde, die durch ihr Verhalten aufgefallen sind. Verlangt werden unter anderem ein Strafregisterauszug, kynologische Fachkenntnisse, der Besuch von Kursen und die Haftpflichtversicherung. Im selben Haushalt darf kein weiterer Hund leben, der älter als 16 Wochen ist. Ausnahmen sind möglich. Das Gesuch kostet CHF 250.",
+      "text": "Für potenziell gefährliche Hunde brauchst du eine Bewilligung des Kantons, und zwar vor der Anschaffung. Das gilt auch für Kreuzungen dieser Rassen, für Hunde, die ihnen äusserlich ähnlich sind, und für Hunde, die durch ihr Verhalten aufgefallen sind. Verlangt werden unter anderem ein Strafregisterauszug, kynologische Fachkenntnisse, der Besuch von Kursen und die Haftpflichtversicherung. Laut dem Veterinärdienst musst du mindestens 18 Jahre alt sein und eine schriftliche Bestätigung der Vermieterin oder des Vermieters einreichen. Im selben Haushalt darf kein weiterer Hund leben, der älter als 16 Wochen ist. Ausnahmen sind möglich. Das Gesuch kostet CHF 250, zahlbar im Voraus. Rechne nach Eingang des vollständigen Gesuchs mit mindestens 4 Wochen Bearbeitungszeit. Schaffst du einen solchen Hund ohne Bewilligung an, kann ihn der Veterinärdienst auf deine Kosten beschlagnahmen.",
       "mehr": {
         "titel": "Ganze Liste anzeigen",
         "punkte": [
@@ -100,7 +115,8 @@
       },
       "quellen": [
         "bl_pgh",
-        "bl_hug"
+        "bl_hug",
+        "bl_vet_hunde"
       ]
     },
     {
@@ -108,10 +124,11 @@
       "marke": "Regel",
       "ton": "note",
       "wert": "Kot und Wild",
-      "text": "Du nimmst den Kot deines Hundes auf öffentlichem Grund und auf landwirtschaftlich genutztem Land auf. Einen entlaufenen oder zugelaufenen Hund meldest du innert 2 Tagen. Wildert oder streunt ein Hund im Wald, kann ihn die Jagdaufsicht nach erfolgloser Mahnung abschiessen. Für Schäden am Wildbestand haftest du. Verstösse gegen das Hundegesetz werden mit Busse bestraft.",
+      "text": "Du nimmst den Kot deines Hundes auf öffentlichem Grund und auf landwirtschaftlich genutztem Land auf. Einen entlaufenen oder zugelaufenen Hund meldest du innert 2 Tagen der Gemeinde. In Wildtierkorridoren dürfen freilaufende Hunde die Wildtiere nicht stören. Wildert oder streunt ein Hund im Wald, kann ihn die Jagdaufsicht nach erfolgloser Mahnung abschiessen, oder wenn nicht geklärt werden kann, wem er gehört. Für Schäden am Wildbestand haftest du. Hat ein Hund einen Menschen oder ein Tier erheblich verletzt oder ist er übermässig aggressiv, kannst du das der Meldestelle des Kantons beim Veterinärdienst melden. Verstösse gegen das Hundegesetz werden mit Busse bestraft.",
       "quellen": [
         "bl_hug",
-        "bl_wjv"
+        "bl_wjv",
+        "bl_vet_hunde"
       ]
     }
   ],
@@ -121,13 +138,29 @@
     "kurs": "nur für bewilligungspflichtige Hunde",
     "rassen": "Bewilligungspflicht für 8 Rassen",
     "steuer": "je nach Gemeinde",
-    "anm": "innert 14 Tagen, Gemeinde"
+    "anm": "Gemeinde innert 14 Tagen, dazu AMICUS"
   },
   "umzug": {
-    "text": "Nach dem Zuzug meldest du deinen Hund innert 14 Tagen bei deiner neuen Gemeinde. Ziehst du mit einem potenziell gefährlichen Hund zu, musst du innert 4 Wochen eine Haltebewilligung beantragen.",
+    "text": "Nach dem Zuzug meldest du deinen Hund innert 14 Tagen bei deiner neuen Gemeinde. Ziehst du mit einem potenziell gefährlichen Hund zu, musst du innert 4 Wochen eine Haltebewilligung beantragen. Kennt dein bisheriger Kanton ebenfalls eine Bewilligungspflicht, kann der Kanton auf dessen Bewilligung abstellen. Der Veterinärdienst bittet alle, die mit einem Listenhund zuziehen, sich bei ihm zu melden.",
     "quellen": [
       "bl_hug",
-      "bl_pgh"
+      "bl_pgh",
+      "bl_vet_hunde"
+    ]
+  },
+  "vermisst": {
+    "text": "Wer im Kanton Basel-Landschaft ein Tier findet oder vermisst, wendet sich laut dem Kanton an das Tierfundbüro des Tierschutzes beider Basel. Einen entlaufenen oder zugelaufenen Hund musst du zudem innert 2 Tagen der Gemeinde melden.",
+    "punkte": [
+      "Tierfundbüro des Tierschutzes beider Basel: Tramstrasse 66, 4142 Münchenstein, Telefon 061 378 78 10.",
+      "Meldung an die Gemeinde innert 2 Tagen: Dazu verpflichtet sind Halterinnen und Halter, deren Hund entlaufen ist, und Personen, denen ein Hund zugelaufen ist.",
+      "Die Gemeinde, auf deren Gebiet sich der Hund aufhält, sorgt dafür, dass er eingefangen und sachgemäss untergebracht wird. Soweit möglich gibt sie ihn der Halterin oder dem Halter zurück.",
+      "Ist das nicht möglich, wird der Hund anderweitig platziert. Geht auch das nicht, kann er im Einvernehmen mit der Kantonstierärztin oder dem Kantonstierarzt eingeschläfert werden.",
+      "Die Meldestelle für verlorene Tiere bezeichnet nach kantonalem Recht die Volkswirtschafts- und Gesundheitsdirektion."
+    ],
+    "quellen": [
+      "bl_fundwesen",
+      "bl_hug",
+      "bl_fuv"
     ]
   }
 }
