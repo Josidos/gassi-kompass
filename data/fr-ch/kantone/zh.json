@@ -2,7 +2,7 @@
   "id": "zh",
   "kurz": "ZH",
   "uebersetzt_aus": "de",
-  "original": "d7df43696fc5",
+  "original": "fa624f8155b4",
   "wald": {
     "saison": true,
     "von": "04-01",
@@ -62,19 +62,33 @@
       "marke": "10 jours",
       "ton": "note",
       "wert": "commune et AMICUS",
-      "text": "Dans les 10 jours suivant la prise en charge, annoncez le chien à votre commune de domicile et enregistrez-le à votre nom dans la banque de données AMICUS.",
+      "text": "Dans les 10 jours suivant la prise en charge, annoncez le chien à votre commune de domicile et enregistrez-le à votre nom dans la banque de données AMICUS. Vous annoncez à la commune les chiens âgés de plus de 3 mois. Dans le même délai, vous lui annoncez un changement de nom ou d'adresse, la prise en charge du chien par une autre détentrice ou un autre détenteur et la mort du chien.",
       "quellen": [
-        "zh_vet"
+        "zh_vet",
+        "zh_hundeg"
       ]
     },
     {
       "titel": "Impôt sur les chiens",
       "marke": "annuel",
       "ton": "note",
-      "wert": "selon la commune",
-      "text": "Pour chaque chien, vous payez chaque année une taxe à votre commune de domicile.",
+      "wert": "CHF 70 à 200, selon la commune",
+      "text": "Pour chaque chien, vous payez chaque année une taxe à votre commune de domicile. Elle s'élève à CHF 70 à CHF 200 par année civile, la commune en fixe le montant. Si votre chien n'atteint l'âge de 3 mois qu'après le 30 juin ou si vous ne le détenez dans le canton qu'à partir de cette date, vous payez la moitié. La commune peut accorder une réduction unique si vous avez suivi volontairement une éducation canine reconnue, et elle peut, dans les cas de rigueur et sur demande motivée, remettre la taxe en tout ou en partie. Si votre chien meurt, vous ne payez pas de taxe pour un chien de remplacement jusqu'à la fin de l'année de taxation, un émolument d'inscription reste possible. Sans chien de remplacement, la moitié de la taxe vous est remboursée si le chien est mort avant le 30 juin.",
+      "mehr": {
+        "titel": "Qui ne paie pas de taxe",
+        "punkte": [
+          "chiens de service de la police et du personnel pénitentiaire",
+          "chiens militaires et chiens de service du Corps des gardes-frontière",
+          "chiens de recherche au sang, chiens sanitaires, chiens d'avalanche et chiens de catastrophe formés, pour autant que leur détention réponde à un intérêt public",
+          "chiens d'accompagnement et d'assistance pour personnes handicapées moteur et chiens de thérapie, si une formation appropriée et un engagement régulier sont prouvés",
+          "chiens guides d'aveugles provenant d'une école reconnue par l'assurance-invalidité",
+          "chiens pour lesquels la taxe a déjà été payée dans une autre commune du canton ou dans un autre canton",
+          "chiens qui séjournent moins de 3 mois dans le canton"
+        ]
+      },
       "quellen": [
-        "zh_vet"
+        "zh_vet",
+        "zh_hundeg"
       ]
     },
     {
@@ -122,7 +136,7 @@
     "haft": "obligatoire, au moins CHF 1 million",
     "kurs": "théorie pour un premier chien, pratique pour chaque chien",
     "rassen": "liste d'interdictions, Rottweiler depuis 2025",
-    "steuer": "selon la commune",
+    "steuer": "CHF 70 à 200, selon la commune",
     "anm": "dans les 10 jours, commune et AMICUS"
   },
   "umzug": {

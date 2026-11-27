@@ -64,19 +64,33 @@
       "marke": "10 Tage",
       "ton": "note",
       "wert": "Gemeinde und AMICUS",
-      "text": "Innert 10 Tagen nach Übernahme bei der Wohngemeinde melden und in der Hundedatenbank AMICUS auf dich registrieren.",
+      "text": "Innert 10 Tagen nach Übernahme bei der Wohngemeinde melden und in der Hundedatenbank AMICUS auf dich registrieren. Bei der Gemeinde meldest du Hunde an, die älter als 3 Monate sind. Innert derselben Frist meldest du ihr eine Namens- oder Adressänderung, die Übernahme des Hundes durch eine andere Halterin oder einen anderen Halter und den Tod des Hundes.",
       "quellen": [
-        "zh_vet"
+        "zh_vet",
+        "zh_hundeg"
       ]
     },
     {
       "titel": "Hundesteuer",
       "marke": "jährlich",
       "ton": "note",
-      "wert": "je nach Gemeinde",
-      "text": "Für jeden Hund zahlst du jährlich eine Abgabe an deine Wohngemeinde.",
+      "wert": "CHF 70 bis 200, je nach Gemeinde",
+      "text": "Für jeden Hund zahlst du jährlich eine Abgabe an deine Wohngemeinde. Sie beträgt CHF 70 bis CHF 200 pro Kalenderjahr, die Höhe legt die Gemeinde fest. Wird dein Hund erst nach dem 30. Juni 3 Monate alt oder hältst du ihn erst danach neu im Kanton, zahlst du die Hälfte. Die Gemeinde kann die Abgabe einmalig ermässigen, wenn du freiwillig eine anerkannte Hundeerziehung besucht hast, und sie in Härtefällen auf begründetes Gesuch ganz oder teilweise erlassen. Stirbt dein Hund, zahlst du für einen Ersatzhund bis zum Ende des Abgabejahres keine Abgabe, eine Einschreibegebühr bleibt möglich. Ohne Ersatzhund bekommst du die halbe Abgabe zurück, wenn der Hund vor dem 30. Juni gestorben ist.",
+      "mehr": {
+        "titel": "Wer keine Abgabe zahlt",
+        "punkte": [
+          "Diensthunde von Polizei und Gefängnispersonal",
+          "Militärhunde und Diensthunde des Grenzwachtkorps",
+          "ausgebildete Schweiss-, Sanitäts-, Lawinen- und Katastrophenhunde, soweit an ihrer Haltung ein öffentliches Interesse besteht",
+          "Begleit- und Hilfshunde für motorisch Behinderte und Therapiehunde, wenn eine angemessene Ausbildung und der regelmässige Einsatz nachgewiesen sind",
+          "Blindenführhunde aus einer von der Invalidenversicherung anerkannten Blindenführhundeschule",
+          "Hunde, für die die Abgabe schon in einer anderen Gemeinde des Kantons oder in einem anderen Kanton bezahlt wurde",
+          "Hunde, die sich weniger als 3 Monate im Kanton aufhalten"
+        ]
+      },
       "quellen": [
-        "zh_vet"
+        "zh_vet",
+        "zh_hundeg"
       ]
     },
     {
@@ -124,7 +138,7 @@
     "haft": "Pflicht, mind. CHF 1 Mio.",
     "kurs": "Theorie für Ersthaltende, Praxis für jeden Hund",
     "rassen": "Verbotsliste, Rottweiler seit 2025",
-    "steuer": "je nach Gemeinde",
+    "steuer": "CHF 70 bis 200, je nach Gemeinde",
     "anm": "innert 10 Tagen, Gemeinde und AMICUS"
   },
   "umzug": {

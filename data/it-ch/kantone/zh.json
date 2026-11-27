@@ -2,7 +2,7 @@
   "id": "zh",
   "kurz": "ZH",
   "uebersetzt_aus": "de",
-  "original": "d7df43696fc5",
+  "original": "fa624f8155b4",
   "wald": {
     "saison": true,
     "von": "04-01",
@@ -62,19 +62,33 @@
       "marke": "10 giorni",
       "ton": "note",
       "wert": "Comune e AMICUS",
-      "text": "Entro 10 giorni dalla presa a carico annuncia il cane al tuo Comune di domicilio e registralo a tuo nome nella banca dati AMICUS.",
+      "text": "Entro 10 giorni dalla presa a carico annuncia il cane al tuo Comune di domicilio e registralo a tuo nome nella banca dati AMICUS. Al Comune annunci i cani di età superiore a 3 mesi. Entro lo stesso termine gli annunci un cambiamento di nome o di indirizzo, la presa a carico del cane da parte di un'altra detentrice o di un altro detentore e la morte del cane.",
       "quellen": [
-        "zh_vet"
+        "zh_vet",
+        "zh_hundeg"
       ]
     },
     {
       "titel": "Imposta sui cani",
       "marke": "annuale",
       "ton": "note",
-      "wert": "secondo il Comune",
-      "text": "Per ogni cane paghi ogni anno una tassa al tuo Comune di domicilio.",
+      "wert": "CHF 70 a 200, secondo il Comune",
+      "text": "Per ogni cane paghi ogni anno una tassa al tuo Comune di domicilio. Va da CHF 70 a CHF 200 per anno civile, l'importo lo fissa il Comune. Se il tuo cane compie 3 mesi solo dopo il 30 giugno o se lo tieni nel Cantone solo da allora, paghi la metà. Il Comune può concedere una riduzione unica se hai frequentato volontariamente un'educazione cinofila riconosciuta e, nei casi di rigore e su domanda motivata, può condonare la tassa in tutto o in parte. Se il tuo cane muore, per un cane sostitutivo non paghi alcuna tassa fino alla fine dell'anno di tassazione, resta possibile una tassa d'iscrizione. Senza cane sostitutivo ti viene rimborsata metà della tassa se il cane è morto prima del 30 giugno.",
+      "mehr": {
+        "titel": "Chi non paga la tassa",
+        "punkte": [
+          "cani di servizio della polizia e del personale carcerario",
+          "cani militari e cani di servizio del Corpo delle guardie di confine",
+          "cani da traccia, cani sanitari, cani da valanga e cani da catastrofe addestrati, purché la loro detenzione risponda a un interesse pubblico",
+          "cani d'accompagnamento e d'assistenza per persone con disabilità motoria e cani da terapia, se sono dimostrati una formazione adeguata e un impiego regolare",
+          "cani guida per ciechi provenienti da una scuola riconosciuta dall'assicurazione invalidità",
+          "cani per i quali la tassa è già stata pagata in un altro Comune del Cantone o in un altro Cantone",
+          "cani che soggiornano meno di 3 mesi nel Cantone"
+        ]
+      },
       "quellen": [
-        "zh_vet"
+        "zh_vet",
+        "zh_hundeg"
       ]
     },
     {
@@ -122,7 +136,7 @@
     "haft": "obbligo, almeno CHF 1 milione",
     "kurs": "teoria per il primo cane, pratica per ogni cane",
     "rassen": "elenco di divieti, Rottweiler dal 2025",
-    "steuer": "secondo il Comune",
+    "steuer": "CHF 70 a 200, secondo il Comune",
     "anm": "entro 10 giorni, Comune e AMICUS"
   },
   "umzug": {

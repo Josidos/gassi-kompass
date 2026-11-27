@@ -2,6 +2,17 @@
 
 Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen.
 
+## 2026-11-27, Sitzung mit Joss: Kanton Zürich mit Rahmen der Hundeabgabe, Befreiungen und Meldepflichten
+
+- Im Browser von Joss gelesen: Hundegesetz des Kantons Zürich im Volltext, LS 554.5, Fassung mit Nachtrag 129 (Fusszeile «1. 7. 25 - 129»), §§ 15, 21 und 23 bis 26. Die Seite des Erlasses in der Gesetzessammlung nennt diese Fassung «129 (aktuell)».
+- Kanton Zürich, Karte «Hundesteuer», alt: «je nach Gemeinde», ein Satz. Neu: CHF 70 bis 200 pro Kalenderjahr, die Gemeinde legt die Höhe fest (§ 23 Abs. 1). Die Hälfte, wenn der Hund nach dem 30. Juni 3 Monate alt wird oder neu in den Kanton kommt (§ 23 Abs. 3). Einmalige Ermässigung nach freiwilliger anerkannter Hundeerziehung und Erlass in Härtefällen, beides kann die Gemeinde gewähren (§ 24). Ersatzhund ohne neue Abgabe bis Ende des Abgabejahres, sonst halbe Rückerstattung, wenn der Hund vor dem 30. Juni gestorben ist (§ 26). Aufklappbar: wer keine Abgabe zahlt (§ 25). `vergleich.steuer` entsprechend, die Themenseite Hundesteuer zeigt den Rahmen von selbst.
+- Kanton Zürich, Karte «Anmeldung», ergänzt: Die Meldung bei der Gemeinde gilt für Hunde über 3 Monate. Innert derselben 10 Tage sind Namens- oder Adressänderung, Halterwechsel und Tod des Hundes zu melden (§ 21). Der bisherige Satz aus der Seite des Veterinäramts steht unverändert davor.
+- Neue Quelle `zh_hundeg`. `geprueft` von Zürich bleibt stehen, weil nur diese zwei Karten gelesen wurden.
+- Nicht eingetragen: der Beitrag der Gemeinden an den Kanton (§ 23 Abs. 2: höchstens CHF 50, die Höhe legt der Regierungsrat fest). Die heutige Höhe steht in der Hundeverordnung, die noch zu lesen ist (Lücke im Backlog).
+- Übersetzungen nachgeführt: 2 Dateien. Gebaut und getestet.
+- Link-Prüfung nach dem Push von 09:05 Uhr: 329 Quellen, 308 in Ordnung, 1 tot (`be_oce_fr`, im Backlog), 1 Verdacht, 19 unklar. Die vier Quellen zu Schaffhausen und Neuenburg von heute sind in Ordnung. Auffällig: 17 Zeitüberschreitungen in einem Durchgang (sonst 3 bis 7), fast alle bei Gemeinde-Websites. Das spricht für eine Störung beim Abruf, nicht für tote Links.
+- Verdacht `ur_silenen_hhv` (statt des PDF kam eine Webseite): im Browser von Joss nachgesehen. Die Rechtssammlung von Silenen verlinkt genau diese Adresse, und sie liefert dort das PDF (245 KB). Nichts geändert, der nächste Durchgang zeigt, ob der Verdacht bleibt.
+
 ## 2026-11-27, Sitzung mit Joss: Ville de Neuchâtel nach dem neuen Polizeireglement, Hundesteuer der Stadt Schaffhausen
 
 - Im Browser von Joss im Volltext gelesen. Stadt Schaffhausen: Stadtratsbeschluss über die Hundesteuer vom 8. Mai 2018 (RSS 353.2). Ville de Neuchâtel: Seite «Avoir un chien à Neuchâtel», Faltblatt «Mon chien en ville», Règlement de police vom 11. Mai 2026 (Nr. 200) und Règlement d'exécution über Taxen und Gebühren vom 3. Juni 2026 (Nr. 410.1).
