@@ -508,3 +508,22 @@ Zuerst klären, was es amtlich gibt. Die folgenden Punkte sind Vermutungen von C
 - Versicherung: nur Pflichten, die in einem Erlass stehen. Keine Empfehlung einzelner Versicherer.
 
 Erster Schritt ohne neue Recherche: zusammenstellen, was in den Kantons- und Gemeindedateien schon zu Assistenz-, Dienst- und Nutzhunden steht (Befreiung von der Hundesteuer, Ausnahmen von der Leinenpflicht). Die Vorgabe für den Sonderlauf schreibt Claude in einer Sitzung, wenn das Thema an der Reihe ist.
+
+### 9.3 Themenlandkarte: alles rund um den Hund, wofür es amtliche Regeln gibt
+
+Wunsch von Joss vom 27.11.2026, 01:42 Uhr: «allgemein alles», auch was er nicht erwähnt hat, zum Beispiel blinde Hunde. Damit daraus kein Sammelsurium wird, gilt eine Grenze: Auf die Seite kommt ein Thema nur, wenn eine amtliche Quelle es regelt. Gibt es keine Regel, sagt die Seite höchstens das, mit Quelle für das allgemeine Recht, oder nichts.
+
+Die Liste ist eine Sammlung von Claude vom 27.11.2026 aus dem Gedächtnis, nichts davon ist nachgeschlagen. Sie sagt, wo zu suchen ist, nicht, was gilt. Der Lauf arbeitet nicht direkt daraus: Ein Punkt wird erst zum Thema, wenn er oben in der Reihenfolge von Abschnitt 9 steht und eine Vorgabe in Abschnitt 5 hat. Die Reihenfolge richtet sich nach der Suchnachfrage, Claude prüft sie bei jeder Auslesung der Suchdaten. Schon auf der Seite: Leine, Wald, Zutritt, Haftpflicht, Kurs, Anmeldung, Hundesteuer, Rassen, Zuzug.
+
+- Anschaffung und Herkunft: Kauf und Inserate, Mindestalter von Welpen, Einfuhr von Welpen, kupierte Hunde, Zucht und ihre Bewilligung, Zuchtverbote bei erblichen Schäden, Übernahme aus dem Tierheim.
+- Haltung: Vorgaben der Tierschutzverordnung (Kontakt, Auslauf, Zwinger, Anbinden, Hilfsmittel), Zahl der Hunde pro Haushalt, Lärm und Bellen in Polizeireglementen, Hund in der Mietwohnung.
+- Unterwegs: öffentlicher Verkehr, Hund im Auto, Restaurants und Läden, Badeplätze, Bergbahnen, Schutzgebiete und Jagdbanngebiete, Velo und Pferd.
+- Sicherheit: Beissvorfälle und ihre Meldung, Massnahmen der Behörde, Maulkorb, Wesensprüfung, Haftung des Halters, Ordnungsbussen.
+- Gesundheit und Lebensende: Tollwut und Reisen, meldepflichtige Tierseuchen, Giftköder melden, Hund im heissen Auto, Tod des Hundes melden, Entsorgung und Bestattung.
+- Geld: Befreiung und Ermässigung bei der Hundesteuer, Gebühren der Behörden.
+- Hunde mit besonderer Aufgabe und Hundesport: siehe 9.2.
+- Hunde mit Behinderung oder Krankheit, zum Beispiel blinde und taube Hunde: Ein eigener Erlass ist nicht bekannt. Zu prüfen sind die allgemeinen Pflichten des Tierschutzrechts und die Zuchtvorschriften.
+- Lebenslagen: Verlust und Fund (Thema 1), Trennung und Scheidung, Tod der Halterin oder des Halters und Erbe, Pfändung, Hund am Arbeitsplatz, Sozialhilfe und Ergänzungsleistungen.
+- Beruf und Gewerbe: Betreuung, Ausbildung, Zucht, Handel, Hundesalon, Dogwalking und die Höchstzahl geführter Hunde (Thema 2).
+- Reisen: Einreise in die Schweiz, Ausreise, Rückkehr aus Ländern mit Tollwut, Flug und Zug (Thema 3).
+- Natur und Landwirtschaft: Wild, Setz- und Brutzeit, Weiden, Herdenschutzhunde, Jagd (Thema 4).
