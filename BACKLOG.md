@@ -300,7 +300,7 @@ Unklar, nur beobachten. Durchgang vom 18.11.2026: `bl_wald` (baselland.ch, Antwo
 - [ ] Kanton Appenzell Ausserrhoden: Sömmerungsvorschriften und Alpen auf Regeln für Hunde prüfen. Bussenbeträge (Ordnungsbussen) für Leine und Kot belegen.
 - [ ] Kanton Zug: «Infoblatt Hundereglemente der Gemeinden im Kanton Zug» des Veterinärdienstes auswerten (cdn.zg.ch war nicht abrufbar). Damit die Karten Haftpflicht, Kurs, Rassen und Hundesteuer schärfen (heute nur Verweis auf die Gemeinde). Paragraf und Busse der Leinenpflicht im Einführungsgesetz zum Waldgesetz nachtragen, Meterangabe zum Waldrand, falls das Gesetz eine nennt.
 - [ ] Kanton Nidwalden: geltende Fassung des Hundegesetzes (NG 826.3) und der Hundeverordnung aus gesetze.nw.ch gegenprüfen (braucht einen Browser) und die Hinweise «Fassung von 2005» entfernen oder die Angaben korrigieren. Verordnung über die Wildruhegebiete (NG 841.15) im Volltext: Gebiete und Daten der Leinenpflicht nachtragen. Kantonales Waldgesetz auf Leinenpflicht prüfen.
-- [ ] Kanton Schaffhausen: geltende Fassung von SHR 455.200 und 455.201 abrufen (rechtsbuch.sh.ch braucht einen Browser) und alle Angaben mit «Stand des Gesetzestexts: 2010» abgleichen, danach die Stand-Hinweise entfernen. Karte Kurs klären, sobald die Seite des Veterinäramts lesbar ist.
+- [x] 2026-11-27: Kanton Schaffhausen, geltende Fassung von SHR 455.200 (Stand 1. Januar 2010) und SHR 455.201 (Stand 1. Januar 2017) im Browser von Joss auf rechtsbuch.sh.ch gelesen, alle Angaben verglichen, Stand-Hinweise entfernt. Karte Kurs geklärt mit der Seite des Veterinäramts: keine generelle Ausbildungspflicht. Die Kontrollmarke steht nicht mehr in der Verordnung und ist gestrichen.
 - [x] 2026-11-27: Stadt Schaffhausen, Betrag der Hundesteuer (Stadtratsbeschluss vom 8. Mai 2018) und Anmeldung bei der Einwohnerkontrolle (Seite «Hundekontrolle») belegt, beides im Browser von Joss gelesen.
 - [ ] Kanton Glarus: Einführungsgesetz GS IV G/3/2 abrufen (gesetze.gl.ch braucht einen Browser) und daraus Leinenpflicht im öffentlichen Raum (Art. 31), Deckungssumme, Kotaufnahme und Bussen ergänzen. Die Leinenorte stehen bisher nur über die Seite der Gemeinde Glarus auf der Kantonsseite. Danach Karte Kurs und `ton` prüfen. Merkblatt bewilligungspflichtige Hundehaltung erneut abrufen.
 - [ ] Gemeinde Glarus: lokale Leinen- oder Verbotsorte und Bussen belegen (Polizeireglement nicht gefunden).
@@ -508,7 +508,7 @@ Einstiege: Seite des Veterinärdiensts, Seite der Kantonspolizei, kantonale Gese
 - [ ] Basel-Stadt
 - [ ] Schwyz
 - [ ] Zug
-- [ ] Schaffhausen
+- [x] Schaffhausen, 2026-11-27 (in der Sitzung, deutsch, französisch und italienisch)
 - [ ] Jura
 - [ ] Appenzell Ausserrhoden
 - [ ] Nidwalden

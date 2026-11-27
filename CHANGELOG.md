@@ -2,6 +2,18 @@
 
 Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen.
 
+## 2026-11-27, Sitzung mit Joss: Kanton Schaffhausen am geltenden Recht geprüft
+
+- Im Browser von Joss gelesen: Hundegesetz SHR 455.200 und Hundeverordnung SHR 455.201 im Rechtsbuch des Kantons (rechtsbuch.sh.ch), die Seite «Haltung und Betreuung von Hunden» des Veterinäramts (5. Dezember 2018), die Merkblätter «Hundehaltung im Kanton Schaffhausen» (2019) und «Bewilligungspflicht» (2022) und die Online-Dienstleistung «Vermisste / gefundene Tiere». Alle Angaben der Kantonsdatei verglichen, `geprueft` auf 2026-11-27.
+- Befund: Das Hundegesetz gilt unverändert in der Fassung mit Stand 1. Januar 2010. Die Hinweise «Stand des Gesetzestexts: 2010» sind entfernt, die Angaben stimmen.
+- Fehler behoben, Karte «Anmeldung», alt: «Der Hund trägt zusätzlich eine Kontrollmarke der Gemeinde (Stand der Verordnung: 2009).» Neu: gestrichen. § 7 der Verordnung ist seit dem 1. Januar 2017 neu gefasst und nennt keine Kontrollmarke mehr. Dafür neu die Unterlagen für die Anmeldung aus dem Merkblatt.
+- Karte «Kurs», alt: Marke «im Einzelfall», «kein eigener Kurs im Hundegesetz». Neu: Marke «keine Pflicht», Ton `none`: Laut Veterinäramt besteht keine generelle Ausbildungspflicht, Welpenspielgruppe und Erziehungskurs sind dringend empfohlen. Die Anordnung im Einzelfall und die Fachkenntnisse für bewilligungspflichtige Hunde bleiben stehen.
+- Karte «Hundesteuer»: Abstufung nach Zahl der Hunde und die vollständige Liste der Befreiungen (Art. 23 und 24). Der Satz zur Anfrage im Grossen Stadtrat von 2023 ist gestrichen, die Quelle `sh_stadt_ka` entfällt.
+- Karte «Rassen»: Presa Canario (Dogo Canario) wie in § 3 der Verordnung, dazu Beschlagnahme und Strafanzeige ohne Bewilligung und die Regel für Feriengäste (Merkblatt 2022).
+- Wald: «im Wald und in dessen unmittelbarer Nähe» wie im Gesetz statt «in Waldesnähe». Die Daten 15. April bis 30. Juni stehen nicht im Hundegesetz, sondern im Merkblatt «Hundehaltung», das dafür die Naturschutzverordnung nennt.
+- Neu: Feld `vermisst`. Das Veterinäramt nimmt Fund- und Vermisstmeldungen mit einem Formular entgegen, die Schaffhauser Polizei fängt streunende Hunde ein (Art. 16 des Hundegesetzes).
+- Quellen: `sh_hundeg` und `sh_hundev` zeigen jetzt auf das Rechtsbuch des Kantons statt auf lexfind.ch. Neu `sh_mb_haltung`, `sh_vet_hunde`, `sh_vet_fund`. 2 Übersetzungen nachgeführt. Keine Link-Prüfung ausgelöst (neuer Takt), alle neuen Adressen sind im Browser gesehen.
+
 ## 2026-11-27, Sitzung mit Joss: Link-Prüfung nur noch einmal pro Woche
 
 - Entscheid von Joss von 12:51 Uhr: «Die Linkprüfung machst du einmal in der Woche. Das bedeutet, nächste Prüfung ist in einer Woche.» Die Action `quellen.yml` hat jetzt einen Zeitplan (freitags um 04:17 UTC) und läuft von selbst. Lauf und Sitzung lösen sie nicht mehr aus, auch nicht nach einem Push mit neuen Quellen. Nächster Durchgang: 4. Dezember 2026.

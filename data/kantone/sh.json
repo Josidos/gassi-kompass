@@ -4,14 +4,14 @@
   "kurz": "SH",
   "im": "im Kanton Schaffhausen",
   "des": "des Kantons Schaffhausen",
-  "geprueft": "2026-11-17",
+  "geprueft": "2026-11-27",
   "wald": {
     "saison": true,
     "von": "04-15",
     "bis": "06-30",
-    "wo": "im Wald und in Waldesnähe",
+    "wo": "im Wald und in dessen unmittelbarer Nähe",
     "quellen": [
-      "sh_merkblatt",
+      "sh_mb_haltung",
       "sh_hundeg"
     ]
   },
@@ -22,18 +22,18 @@
       "in öffentlich zugänglichen Gebäuden",
       "an verkehrsreichen Strassen",
       "in öffentlichen Verkehrsmitteln, an Bahnhöfen und Haltestellen",
-      "im Wald und in Waldesnähe während der Brut- und Setzzeit, 15. April bis 30. Juni",
+      "im Wald und in dessen unmittelbarer Nähe während der Brut- und Setzzeit, 15. April bis 30. Juni",
       "in unmittelbarer Nähe von Weiden, auf denen Tiere sind",
       "an Orten, die der Gemeinderat signalisiert hat",
       "immer im öffentlichen Raum, wenn der Hund läufig oder bissig ist oder eine ansteckende Krankheit hat"
     ],
     "quellen": [
       "sh_hundeg",
-      "sh_merkblatt"
+      "sh_mb_haltung"
     ]
   },
   "verbot": {
-    "einleitung": "Hier darfst du deinen Hund weder mitführen noch frei laufen lassen (Stand des Gesetzestexts: 2010):",
+    "einleitung": "Hier darfst du deinen Hund weder mitführen noch frei laufen lassen:",
     "punkte": [
       "Badeanstalten",
       "Pausenplätze von Schulhausanlagen",
@@ -49,19 +49,20 @@
       "marke": "Pflicht",
       "ton": "must",
       "wert": "mind. CHF 1 Mio.",
-      "text": "Wer einen Hund hält, braucht eine Haftpflichtversicherung mit einer Deckungssumme von mindestens CHF 1 Mio. und muss sie nachweisen können. Stand des Gesetzestexts: 2010.",
+      "text": "Wer einen Hund hält, braucht eine Haftpflichtversicherung mit einer Deckungssumme von mindestens CHF 1 Mio. und muss sie nachweisen können. Die Gemeinde verlangt den Nachweis bei der Anmeldung. Laut dem Merkblatt des Veterinäramts ist die Deckung normalerweise in einer Privathaftpflicht enthalten (Stand des Merkblatts: 2019).",
       "quellen": [
         "sh_hundeg",
-        "sh_merkblatt"
+        "sh_mb_haltung"
       ]
     },
     {
       "titel": "Kurs",
-      "marke": "im Einzelfall",
-      "ton": "note",
-      "wert": "kein eigener Kurs im Hundegesetz",
-      "text": "Das Hundegesetz nennt keinen eigenen kantonalen Kurs. Es verweist für den Ausbildungsnachweis auf die Tierschutzgesetzgebung des Bundes. Die Behörde kann im Einzelfall den Besuch eines Hundeerziehungskurses anordnen. Für einen bewilligungspflichtigen Hund musst du kynologische Fachkenntnisse nachweisen. Stand des Gesetzestexts: 2010.",
+      "marke": "keine Pflicht",
+      "ton": "none",
+      "wert": "keine allgemeine Ausbildungspflicht",
+      "text": "Eine generelle Ausbildungspflicht für Hundehalterinnen und Hundehalter gibt es im Kanton Schaffhausen nicht. Das Veterinäramt empfiehlt dringend, mit jedem Hund mindestens eine Welpenspielgruppe und einen Erziehungskurs zu besuchen. Die Behörde kann im Einzelfall den Besuch eines Hundeerziehungskurses anordnen. Für einen bewilligungspflichtigen Hund musst du kynologische Fachkenntnisse nachweisen. Stand der Seite des Veterinäramts: 5. Dezember 2018.",
       "quellen": [
+        "sh_vet_hunde",
         "sh_hundeg",
         "sh_merkblatt"
       ]
@@ -71,11 +72,10 @@
       "marke": "10 Tage",
       "ton": "must",
       "wert": "Gemeinde und AMICUS",
-      "text": "Hunde, die älter als drei Monate sind, meldest du innert 10 Tagen bei deiner Wohnsitzgemeinde an. Dazu kommt die Registrierung in der Hundedatenbank AMICUS. Änderungen von Name oder Adresse, eine Übernahme und den Tod des Hundes meldest du ebenfalls innert 10 Tagen. Der Hund trägt zusätzlich eine Kontrollmarke der Gemeinde (Stand der Verordnung: 2009).",
+      "text": "Hunde, die älter als drei Monate sind, meldest du innert 10 Tagen bei deiner Wohnsitzgemeinde an. Dazu kommt die Registrierung in der Hundedatenbank AMICUS. In der Regel brauchst du den Heimtierausweis oder Impfpass des Hundes, den Nachweis der Haftpflichtversicherung und deine Identitätskarte oder deinen Pass. Änderungen von Name oder Adresse, eine Übernahme und den Tod des Hundes meldest du ebenfalls innert 10 Tagen. Stand des Merkblatts: 2019.",
       "quellen": [
         "sh_hundeg",
-        "sh_hundev",
-        "sh_merkblatt"
+        "sh_mb_haltung"
       ]
     },
     {
@@ -83,10 +83,9 @@
       "marke": "jährlich",
       "ton": "note",
       "wert": "CHF 100 bis 200, je nach Gemeinde",
-      "text": "Die Hundeabgabe beträgt CHF 100 bis CHF 200 pro Hund und Kalenderjahr. Die Höhe legt der Gemeinderat fest. Hältst du den Hund erst nach dem 30. Juni neu oder wird er erst dann drei Monate alt, zahlst du für dieses Jahr die Hälfte. Befreit sind unter anderem Hunde unter drei Monaten, Diensthunde, Katastrophenhunde und Blindenhunde. Stand des Gesetzestexts: 2010, der Rahmen von CHF 100 bis 200 wird 2023 in einer Anfrage im Grossen Stadtrat Schaffhausen bestätigt.",
+      "text": "Die Hundeabgabe beträgt CHF 100 bis CHF 200 pro Hund und Kalenderjahr. Die Höhe legt der Gemeinderat fest, abgestuft nach der Zahl der Hunde. Hältst du den Hund erst nach dem 30. Juni neu oder wird er erst dann drei Monate alt, zahlst du für dieses Jahr die Hälfte. Befreit sind Hunde unter drei Monaten, Diensthunde von Armee, Zoll und Polizei, Katastrophen- und Blindenhunde, in einem Jagdrevier des Kantons eingetragene Nachsuchehunde und Hunde, für die im selben Jahr schon in einer anderen Gemeinde des Kantons bezahlt wurde.",
       "quellen": [
-        "sh_hundeg",
-        "sh_stadt_ka"
+        "sh_hundeg"
       ]
     },
     {
@@ -94,9 +93,9 @@
       "marke": "Bewilligung",
       "ton": "must",
       "wert": "Hunde mit erhöhtem Gefährdungspotenzial",
-      "text": "Für Hunde bestimmter Rassentypen und ihre Mischlinge brauchst du eine Bewilligung des Veterinäramts. Sie muss beantragt und erteilt sein, bevor du den Hund anschaffst, auch für eine Probehaltung oder kurzes Hüten. Verlangt werden unter anderem der Nachweis kynologischer Fachkenntnisse, ein Strafregisterauszug, eine Wohnsitzbescheinigung und der Nachweis der Haftpflichtversicherung. Wer zum ersten Mal einen Hund hält, erhält in der Regel keine Bewilligung. Auch neuere Züchtungen aus solchen Rassentypen sind bewilligungspflichtig, zum Beispiel American Bully oder Miniature Bullterrier. Im Zweifel entscheidet das Veterinäramt.",
+      "text": "Für Hunde bestimmter Rassentypen und ihre Mischlinge brauchst du eine Bewilligung des Veterinäramts. Sie muss beantragt und erteilt sein, bevor du den Hund anschaffst, auch für eine Probehaltung oder kurzes Hüten. Verlangt werden unter anderem der Nachweis kynologischer Fachkenntnisse, ein Strafregisterauszug, eine Wohnsitzbescheinigung und der Nachweis der Haftpflichtversicherung. Wer zum ersten Mal einen Hund hält, erhält in der Regel keine Bewilligung. Auch neuere Züchtungen aus solchen Rassentypen sind bewilligungspflichtig, zum Beispiel American Bully oder Miniature Bullterrier. Im Zweifel entscheidet das Veterinäramt. Ohne Bewilligung wird der Hund beschlagnahmt, dazu kommt eine Strafanzeige. Feriengäste dürfen sich mit einem bewilligungspflichtigen Hund im Kanton aufhalten. Stand des Merkblatts: 2022.",
       "mehr": {
-        "titel": "Im Merkblatt genannte Rassentypen anzeigen",
+        "titel": "Rassentypen der Hundeverordnung anzeigen",
         "punkte": [
           "American Staffordshire Terrier",
           "Bullterrier",
@@ -109,14 +108,15 @@
           "Mastiff",
           "Mastín Español",
           "Mastino Napoletano",
-          "Presa Canario",
+          "Presa Canario (Dogo Canario)",
           "Rottweiler",
           "Tosa"
         ]
       },
       "quellen": [
         "sh_merkblatt",
-        "sh_hundeg"
+        "sh_hundeg",
+        "sh_hundev"
       ]
     },
     {
@@ -124,17 +124,16 @@
       "marke": "Regel",
       "ton": "note",
       "wert": "Kot, Lärm und bei Fuss im Wald",
-      "text": "Den Kot deines Hundes nimmst du auf fremdem und öffentlichem Grund auf. Im Wald und in dessen unmittelbarer Nähe hältst du den Hund bei Fuss. Andauerndes Bellen oder Heulen, das andere belästigt, musst du verhindern. Verstösse gegen das Hundegesetz können mit Busse bis CHF 10 000 bestraft werden, in leichten Fällen mit einem Verweis. Stand des Gesetzestexts: 2010.",
+      "text": "Den Kot deines Hundes nimmst du auf fremdem und öffentlichem Grund auf. Im Wald und in dessen unmittelbarer Nähe hältst du den Hund bei Fuss. Andauerndes Bellen oder Heulen, das andere belästigt, musst du verhindern. Verstösse gegen das Hundegesetz können mit Busse bis CHF 10 000 bestraft werden, in leichten Fällen mit einem Verweis.",
       "quellen": [
-        "sh_hundeg",
-        "sh_merkblatt"
+        "sh_hundeg"
       ]
     }
   ],
   "vergleich": {
-    "wald": "15.4. bis 30.6., im Wald und in Waldesnähe",
+    "wald": "15.4. bis 30.6., im Wald und in dessen unmittelbarer Nähe",
     "haft": "Pflicht, mind. CHF 1 Mio.",
-    "kurs": "kein eigener Kurs, Anordnung im Einzelfall",
+    "kurs": "keine allgemeine Pflicht, Anordnung im Einzelfall",
     "rassen": "Bewilligungspflicht für Rassentypen",
     "steuer": "CHF 100 bis 200, je nach Gemeinde",
     "anm": "innert 10 Tagen, Gemeinde und AMICUS"
@@ -143,6 +142,17 @@
     "text": "Ziehst du mit einem bewilligungspflichtigen Hund in den Kanton Schaffhausen, reichst du das Gesuch um eine Haltungsbewilligung innert 10 Tagen ein.",
     "quellen": [
       "sh_merkblatt",
+      "sh_hundeg"
+    ]
+  },
+  "vermisst": {
+    "text": "Im Kanton Schaffhausen nimmt das Veterinäramt Fund- und Vermisstmeldungen für Haustiere entgegen. Das Meldeformular lädst du auf seiner Website herunter und schickst es ausgefüllt zurück, auf Papier oder per E-Mail. Streunende Hunde fängt die Schaffhauser Polizei ein und meldet sie der Meldestelle für gefundene Tiere.",
+    "punkte": [
+      "Meldeformular «Vermisste / gefundene Tiere» auf der Website des Veterinäramts",
+      "Veterinäramt, Mühlentalstrasse 188, 8200 Schaffhausen, Telefon +41 52 632 71 01, veterinaeramt@sh.ch"
+    ],
+    "quellen": [
+      "sh_vet_fund",
       "sh_hundeg"
     ]
   }

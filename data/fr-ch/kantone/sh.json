@@ -2,14 +2,14 @@
   "id": "sh",
   "kurz": "SH",
   "uebersetzt_aus": "de",
-  "original": "715cb2ecc3a5",
+  "original": "ac755d64fbac",
   "wald": {
     "saison": true,
     "von": "04-15",
     "bis": "06-30",
-    "wo": "en forêt et à proximité de la forêt",
+    "wo": "en forêt et à proximité immédiate de celle-ci",
     "quellen": [
-      "sh_merkblatt",
+      "sh_mb_haltung",
       "sh_hundeg"
     ]
   },
@@ -20,18 +20,18 @@
       "dans les bâtiments ouverts au public",
       "le long des routes à fort trafic",
       "dans les transports publics, dans les gares et aux arrêts",
-      "en forêt et à proximité de la forêt pendant la période de couvaison et de mise bas, du 15 avril au 30 juin",
+      "en forêt et à proximité immédiate de celle-ci pendant la période de couvaison et de mise bas, du 15 avril au 30 juin",
       "à proximité immédiate des pâturages où se trouvent des animaux",
       "dans les lieux signalés par le Gemeinderat (conseil communal)",
       "toujours dans l'espace public, si la chienne est en chaleur, si le chien mord ou s'il a une maladie contagieuse"
     ],
     "quellen": [
       "sh_hundeg",
-      "sh_merkblatt"
+      "sh_mb_haltung"
     ]
   },
   "verbot": {
-    "einleitung": "Ici, vous ne pouvez ni emmener votre chien ni le laisser courir librement (état du texte de loi : 2010) :",
+    "einleitung": "Ici, vous ne pouvez ni emmener votre chien ni le laisser courir librement :",
     "punkte": [
       "les établissements de bains",
       "les préaux des écoles",
@@ -47,19 +47,20 @@
       "marke": "Obligatoire",
       "ton": "must",
       "wert": "au moins CHF 1 million",
-      "text": "Toute personne qui détient un chien doit avoir une assurance responsabilité civile avec une somme de couverture d'au moins CHF 1 million et doit pouvoir le prouver. État du texte de loi : 2010.",
+      "text": "Toute personne qui détient un chien doit avoir une assurance responsabilité civile avec une somme de couverture d'au moins CHF 1 million et doit pouvoir le prouver. La commune demande la preuve lors de l'annonce. Selon la notice du Veterinäramt (office vétérinaire), cette couverture est normalement comprise dans une assurance responsabilité civile privée (état de la notice : 2019).",
       "quellen": [
         "sh_hundeg",
-        "sh_merkblatt"
+        "sh_mb_haltung"
       ]
     },
     {
       "titel": "Cours",
-      "marke": "au cas par cas",
-      "ton": "note",
-      "wert": "pas de cours propre dans le Hundegesetz",
-      "text": "Le Hundegesetz (loi sur les chiens) ne prévoit pas de cours cantonal propre. Pour l'attestation de formation, il renvoie à la législation fédérale sur la protection des animaux. L'autorité peut ordonner au cas par cas de suivre un cours d'éducation canine. Pour un chien soumis à autorisation, vous devez prouver des connaissances cynologiques. État du texte de loi : 2010.",
+      "marke": "Pas d'obligation",
+      "ton": "none",
+      "wert": "pas d'obligation générale de formation",
+      "text": "Il n'existe pas d'obligation générale de formation pour les détentrices et détenteurs de chiens dans le canton de Schaffhouse. Le Veterinäramt recommande vivement de suivre avec chaque chien au moins un groupe de jeu pour chiots et un cours d'éducation. L'autorité peut ordonner au cas par cas de suivre un cours d'éducation canine. Pour un chien soumis à autorisation, vous devez prouver des connaissances cynologiques. État de la page du Veterinäramt : 5 décembre 2018.",
       "quellen": [
+        "sh_vet_hunde",
         "sh_hundeg",
         "sh_merkblatt"
       ]
@@ -69,11 +70,10 @@
       "marke": "10 jours",
       "ton": "must",
       "wert": "commune et AMICUS",
-      "text": "Vous annoncez les chiens de plus de trois mois à votre commune de domicile dans les 10 jours. S'y ajoute l'enregistrement dans la banque de données AMICUS. Vous annoncez aussi dans les 10 jours tout changement de nom ou d'adresse, une prise en charge et la mort du chien. Le chien porte en plus une marque de contrôle de la commune (état de l'ordonnance : 2009).",
+      "text": "Vous annoncez les chiens de plus de trois mois à votre commune de domicile dans les 10 jours. S'y ajoute l'enregistrement dans la banque de données AMICUS. En règle générale, il vous faut le passeport pour animaux de compagnie ou le carnet de vaccination du chien, la preuve de l'assurance responsabilité civile et votre carte d'identité ou votre passeport. Vous annoncez aussi dans les 10 jours tout changement de nom ou d'adresse, une prise en charge et la mort du chien. État de la notice : 2019.",
       "quellen": [
         "sh_hundeg",
-        "sh_hundev",
-        "sh_merkblatt"
+        "sh_mb_haltung"
       ]
     },
     {
@@ -81,10 +81,9 @@
       "marke": "annuel",
       "ton": "note",
       "wert": "CHF 100 à 200, selon la commune",
-      "text": "La taxe sur les chiens est de CHF 100 à CHF 200 par chien et par année civile. Le montant est fixé par le Gemeinderat. Si vous ne commencez à détenir le chien qu'après le 30 juin ou s'il n'atteint l'âge de trois mois qu'après cette date, vous payez la moitié pour cette année. Sont exonérés notamment les chiens de moins de trois mois, les chiens de service, les chiens de catastrophe et les chiens d'aveugle. État du texte de loi : 2010 ; la fourchette de CHF 100 à 200 est confirmée en 2023 dans une question déposée au Grosser Stadtrat (parlement de la ville) de Schaffhouse.",
+      "text": "La taxe sur les chiens est de CHF 100 à CHF 200 par chien et par année civile. Le montant est fixé par le Gemeinderat, échelonné selon le nombre de chiens. Si vous ne commencez à détenir le chien qu'après le 30 juin ou s'il n'atteint l'âge de trois mois qu'après cette date, vous payez la moitié pour cette année. Sont exonérés les chiens de moins de trois mois, les chiens de service de l'armée, de la douane et de la police, les chiens de catastrophe et les chiens d'aveugle, les chiens de recherche au sang inscrits dans un territoire de chasse du canton et les chiens pour lesquels la taxe a déjà été payée la même année dans une autre commune du canton.",
       "quellen": [
-        "sh_hundeg",
-        "sh_stadt_ka"
+        "sh_hundeg"
       ]
     },
     {
@@ -92,9 +91,9 @@
       "marke": "Autorisation",
       "ton": "must",
       "wert": "chiens à potentiel de danger accru",
-      "text": "Pour les chiens de certains types de races et leurs croisements, il vous faut une autorisation du Veterinäramt (office vétérinaire). Elle doit être demandée et délivrée avant l'acquisition du chien, y compris pour une détention à l'essai ou une courte garde. Sont exigés notamment la preuve de connaissances cynologiques, un extrait du casier judiciaire, une attestation de domicile et la preuve de l'assurance responsabilité civile. Une personne qui détient un chien pour la première fois n'obtient en règle générale pas d'autorisation. Les races créées plus récemment à partir de ces types de races sont aussi soumises à autorisation, par exemple l'American Bully ou le Miniature Bullterrier. En cas de doute, le Veterinäramt décide.",
+      "text": "Pour les chiens de certains types de races et leurs croisements, il vous faut une autorisation du Veterinäramt. Elle doit être demandée et délivrée avant l'acquisition du chien, y compris pour une détention à l'essai ou une courte garde. Sont exigés notamment la preuve de connaissances cynologiques, un extrait du casier judiciaire, une attestation de domicile et la preuve de l'assurance responsabilité civile. Une personne qui détient un chien pour la première fois n'obtient en règle générale pas d'autorisation. Les races créées plus récemment à partir de ces types de races sont aussi soumises à autorisation, par exemple l'American Bully ou le Miniature Bullterrier. En cas de doute, le Veterinäramt décide. Sans autorisation, le chien est séquestré et une dénonciation pénale suit. Les touristes peuvent séjourner dans le canton avec un chien soumis à autorisation pendant leurs vacances. État de la notice : 2022.",
       "mehr": {
-        "titel": "Voir les types de races cités dans l'aide-mémoire",
+        "titel": "Voir les types de races de la Hundeverordnung (ordonnance sur les chiens)",
         "punkte": [
           "American Staffordshire Terrier",
           "Bullterrier",
@@ -107,14 +106,15 @@
           "Mastiff",
           "Mastín Español",
           "Mastino Napoletano",
-          "Presa Canario",
+          "Presa Canario (Dogo Canario)",
           "Rottweiler",
           "Tosa"
         ]
       },
       "quellen": [
         "sh_merkblatt",
-        "sh_hundeg"
+        "sh_hundeg",
+        "sh_hundev"
       ]
     },
     {
@@ -122,17 +122,16 @@
       "marke": "Règle",
       "ton": "note",
       "wert": "crottes, bruit et chien au pied en forêt",
-      "text": "Vous ramassez les crottes de votre chien sur le terrain d'autrui et sur le domaine public. En forêt et à proximité immédiate de celle-ci, vous tenez le chien au pied. Vous devez empêcher les aboiements ou hurlements persistants qui dérangent autrui. Les infractions au Hundegesetz peuvent être punies d'une amende jusqu'à CHF 10 000, dans les cas légers d'une réprimande. État du texte de loi : 2010.",
+      "text": "Vous ramassez les crottes de votre chien sur le terrain d'autrui et sur le domaine public. En forêt et à proximité immédiate de celle-ci, vous tenez le chien au pied. Vous devez empêcher les aboiements ou hurlements persistants qui dérangent autrui. Les infractions au Hundegesetz peuvent être punies d'une amende jusqu'à CHF 10 000, dans les cas légers d'une réprimande.",
       "quellen": [
-        "sh_hundeg",
-        "sh_merkblatt"
+        "sh_hundeg"
       ]
     }
   ],
   "vergleich": {
-    "wald": "du 15.4. au 30.6., en forêt et à proximité de la forêt",
+    "wald": "du 15.4. au 30.6., en forêt et à proximité immédiate de celle-ci",
     "haft": "obligatoire, au moins CHF 1 million",
-    "kurs": "pas de cours propre, ordonné au cas par cas",
+    "kurs": "pas d'obligation générale, ordonné au cas par cas",
     "rassen": "autorisation obligatoire pour des types de races",
     "steuer": "CHF 100 à 200, selon la commune",
     "anm": "dans les 10 jours, commune et AMICUS"
@@ -141,6 +140,17 @@
     "text": "Si vous vous installez dans le canton de Schaffhouse avec un chien soumis à autorisation, vous déposez la demande d'autorisation de détention dans les 10 jours.",
     "quellen": [
       "sh_merkblatt",
+      "sh_hundeg"
+    ]
+  },
+  "vermisst": {
+    "text": "Dans le canton de Schaffhouse, le Veterinäramt reçoit les annonces d'animaux de compagnie perdus ou trouvés. Vous téléchargez le formulaire d'annonce sur son site et le renvoyez rempli, sur papier ou par courriel. Les chiens errants sont capturés par la Schaffhauser Polizei (police schaffhousoise), qui les annonce au service d'annonce des animaux trouvés.",
+    "punkte": [
+      "Formulaire d'annonce «Vermisste / gefundene Tiere» (animaux perdus ou trouvés) sur le site du Veterinäramt",
+      "Veterinäramt, Mühlentalstrasse 188, 8200 Schaffhouse, téléphone +41 52 632 71 01, veterinaeramt@sh.ch"
+    ],
+    "quellen": [
+      "sh_vet_fund",
       "sh_hundeg"
     ]
   }
