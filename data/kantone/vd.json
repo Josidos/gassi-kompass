@@ -2,36 +2,39 @@
   "id": "vd",
   "kurz": "VD",
   "uebersetzt_aus": "fr",
-  "original": "61d85e3b4b6a",
+  "original": "b6d45f6c70d4",
   "wald": {
     "saison": true,
     "von": "04-01",
     "bis": "07-15",
-    "wo": "im Wald, in seiner unmittelbaren Umgebung und auf den angrenzenden Wiesen",
+    "wo": "im Wald, am Waldrand und auf den angrenzenden Wiesen in der Landwirtschaftszone",
     "quellen": [
+      "vd_rlfaune",
       "vd_laisse"
     ]
   },
   "leine": {
     "punkte": [
-      "im Wald und in seiner unmittelbaren Umgebung sowie auf den angrenzenden Wiesen in der Landwirtschaftszone, 1. April bis 15. Juli",
-      "das ganze Jahr in den Wildschutzgebieten: kantonales Wildschutzgebiet, Jagdbanngebiet, Wasservogelreservat",
-      "auf Weiden, solange Vieh darauf ist",
-      "in Naturschutzgebieten, geschützten Naturgebieten und Wildruhezonen, nach den Bestimmungen des jeweiligen Gebiets",
-      "an kurzer Leine in öffentlich zugänglichen Gebäuden, in öffentlichen Verkehrsmitteln und an öffentlichen Veranstaltungen",
+      "im Wald, am Waldrand und auf den angrenzenden Wiesen in der Landwirtschaftszone, 1. April bis 15. Juli",
+      "jederzeit auf Weiden, auf denen Vieh ist",
+      "in den kantonalen Wildschutzgebieten und den kantonalen Vogelschutzgebieten, in den eidgenössischen Jagdbanngebieten und in den Wasser- und Zugvogelreservaten",
+      "in den Wildruhezonen während der Zeiten mit Zutrittsbeschränkung sowie in Naturschutzgebieten und geschützten Naturgebieten nach den Bestimmungen des jeweiligen Gebiets",
+      "an kurzer Leine in öffentlich zugänglichen Gebäuden, in öffentlichen Verkehrsmitteln, auf Schulhöfen und auf Kinderspielplätzen, wenn Hunde dort nicht verboten sind",
+      "an kurzer Leine an öffentlichen Veranstaltungen",
       "an öffentlichen Orten, an denen deine Gemeinde die Leine vorschreibt",
-      "überall, wo du deinen Hund nicht genügend unter Kontrolle hast, wenn nötig mit Maulkorb"
+      "überall, wo du deinen Hund nicht mit der Stimme oder einem Zeichen unter Kontrolle halten kannst, wenn nötig mit Maulkorb"
     ],
     "quellen": [
-      "vd_laisse",
-      "vd_lpolc"
+      "vd_rlfaune",
+      "vd_lpolc",
+      "vd_laisse"
     ]
   },
   "verbot": {
     "einleitung": "Das kantonale Gesetz bezeichnet selbst keine Orte mit Hundeverbot. Es überlässt das den Gemeinden.",
     "punkte": [
       "öffentliche Orte, zu denen deine Gemeinde Hunden den Zutritt verbietet",
-      "öffentlich zugängliche Gebäude und öffentliche Verkehrsmittel, zu denen Hunde keinen Zutritt haben"
+      "öffentlich zugängliche Gebäude, öffentliche Verkehrsmittel, Schulhöfe und Kinderspielplätze, zu denen Hunde keinen Zutritt haben"
     ],
     "quellen": [
       "vd_lpolc"
@@ -43,9 +46,10 @@
       "marke": "Pflicht",
       "ton": "must",
       "wert": "für jeden Hund",
-      "text": "Wer einen Hund besitzt, muss eine Haftpflichtversicherung haben. Einen Mindestbetrag legt das Gesetz nicht fest.",
+      "text": "Wer einen Hund besitzt, muss eine Haftpflichtversicherung haben. Einen Mindestbetrag legt das Gesetz nicht fest. Für einen potenziell gefährlichen Hund muss die Versicherung auf den Namen der Halterin oder des Halters lauten.",
       "quellen": [
-        "vd_lpolc"
+        "vd_lpolc",
+        "vd_rlpolc"
       ]
     },
     {
@@ -53,10 +57,11 @@
       "marke": "Je nach Hund",
       "ton": "note",
       "wert": "72 Stunden für potenziell gefährliche Hunde",
-      "text": "Das kantonale Gesetz schreibt Hundeerziehungskurse nur für potenziell gefährliche Hunde vor: 72 Stunden innert höchstens zwei Jahren. Für die anderen Hunde kann die Dienststelle im Einzelfall Kurse als Massnahme anordnen. Stand des Reglements: 2014.",
+      "text": "Die Pflichtkurse für alle Hundehaltenden sind seit 1. Januar 2017 abgeschafft. Für potenziell gefährliche Hunde bleiben Kurse Pflicht: Nach dem Test zu Führbarkeit, Gehorsam und Kontrolle (TCOM) besuchst du mit deinem Hund 72 Stunden Hundeerziehungskurs innert höchstens zwei Jahren. Der Kurs muss innert 45 Tagen nach dem Test beginnen. Fällt der Test gut aus, kann die Dienststelle dich vom Kurs befreien oder ihn verkürzen. Für die anderen Hunde können Kurse im Einzelfall als Massnahme angeordnet werden.",
       "quellen": [
-        "vd_lpolc",
-        "vd_rlpolc"
+        "vd_police_chiens",
+        "vd_rlpolc",
+        "vd_lpolc"
       ]
     },
     {
@@ -64,9 +69,10 @@
       "marke": "2 Wochen",
       "ton": "note",
       "wert": "Gemeinde und Datenbank",
-      "text": "Als Eigentümerin oder Eigentümer meldest du deinen Hund innert zwei Wochen bei der Datenbank und bei der Gemeindeverwaltung an.",
+      "text": "Als Eigentümerin oder Eigentümer meldest du innert zwei Wochen der Datenbank und der Gemeindeverwaltung, wenn du einen Hund erwirbst oder abgibst, wenn sich deine Adresse ändert und wenn der Hund stirbt. Jeder Hund muss ein Halsband oder eine Marke mit Namen und Kontaktangaben der Halterin oder des Halters tragen. Hältst du einen potenziell gefährlichen Hund, meldest du ihn unverzüglich dem Veterinärdienst.",
       "quellen": [
-        "vd_lpolc"
+        "vd_lpolc",
+        "vd_rlpolc"
       ]
     },
     {
@@ -74,9 +80,10 @@
       "marke": "jährlich",
       "ton": "note",
       "wert": "CHF 100 an den Kanton, dazu die Gemeinde",
-      "text": "Die kantonale Hundesteuer beträgt CHF 100 pro Hund, die Eintragung inbegriffen. Dazu kommt die Hundesteuer der Gemeinde. Ihre Höhe legt der Beschluss (arrêté) deiner Gemeinde fest. Befreit sind unter anderem Hunde, die am Ende der Steuerperiode jünger als drei Monate sind, sowie Personen, die Ergänzungsleistungen zur AHV/IV oder das Eingliederungseinkommen (revenu d'insertion) beziehen.",
+      "text": "Die kantonale Hundesteuer beträgt CHF 100 pro Hund, die Eintragung inbegriffen. Dazu kommt die Hundesteuer der Gemeinde. Ihre Höhe legt der Beschluss (arrêté) deiner Gemeinde fest. Die Steuer schuldet, wem der Hund am 1. Januar gehört. Sie halbiert sich unter anderem für Hunde, die nach dem 30. Juni geboren sind, und für Hunde, die keine Jagdhunde sind und ab dem 1. Juli erworben werden. Befreit sind unter anderem Hunde, die am Ende des Jahres jünger als drei Monate sind, sowie Personen, die Ergänzungsleistungen zur AHV/IV oder das Eingliederungseinkommen (revenu d'insertion) beziehen. Auf Entscheid des Finanzdepartements sind auch Blindenführ- und Assistenzhunde, Hunde von Armee und Polizei und Lawinenhunde im Dienst einer Behörde befreit.",
       "quellen": [
-        "vd_impot"
+        "vd_impot",
+        "vd_ricc"
       ]
     },
     {
@@ -84,7 +91,7 @@
       "marke": "Bewilligung",
       "ton": "must",
       "wert": "3 Rassen und ihre Kreuzungen",
-      "text": "Wer einen potenziell gefährlichen Hund halten will, braucht eine Bewilligung. Betroffen sind American Staffordshire Terrier (Amstaff), American Pit Bull Terrier und Rottweiler sowie Hunde, bei denen ein Elterntier einer dieser Rassen angehört. Die Bewilligung kostet CHF 800. Die Zucht dieser Hunde und ihre Einfuhr zu Handelszwecken sind verboten. An öffentlichen Veranstaltungen tragen sie einen Maulkorb oder einen Zahnschutz (applique dentaire).",
+      "text": "Wer einen potenziell gefährlichen Hund halten will, braucht eine Bewilligung. Betroffen sind American Staffordshire Terrier (Amstaff), American Pit Bull Terrier und Rottweiler sowie Hunde, bei denen ein Elterntier einer dieser Rassen angehört. Als Beispiel nennt der Kanton den American Bully. Die Bewilligung kostet CHF 800. Du musst volljährig sein, einen Strafregisterauszug vorlegen und mit deinem Hund, sobald er zwölf Monate alt ist, den Test zu Führbarkeit, Gehorsam und Kontrolle (TCOM) bestehen. Die Zucht dieser Hunde und ihre Einfuhr zu Handelszwecken sind verboten. An öffentlichen Veranstaltungen tragen sie einen Maulkorb oder einen Zahnschutz (applique dentaire). Für einen weiteren Hund im selben Haushalt brauchst du ebenfalls eine Bewilligung (CHF 100).",
       "mehr": {
         "titel": "Liste anzeigen",
         "punkte": [
@@ -97,7 +104,8 @@
       "quellen": [
         "vd_rlpolc",
         "vd_lpolc",
-        "vd_cpd"
+        "vd_cpd",
+        "vd_police_chiens"
       ]
     },
     {
@@ -105,14 +113,15 @@
       "marke": "Regel",
       "ton": "note",
       "wert": "Kontrolle und kurze Leine",
-      "text": "Du musst deinen Hund unter Kontrolle haben. Sonst muss er an der Leine geführt werden und wenn nötig einen Maulkorb tragen. In öffentlich zugänglichen Gebäuden, in öffentlichen Verkehrsmitteln und an öffentlichen Veranstaltungen ist die kurze Leine Pflicht. Ein Verstoss gegen die loi sur la police des chiens (Hundepolizeigesetz) kann mit einer Busse bis CHF 20'000 bestraft werden.",
+      "text": "Du musst deinen Hund jederzeit mit der Stimme oder einem Zeichen unter Kontrolle halten können. Sonst muss er an der Leine geführt werden und wenn nötig einen Maulkorb tragen. Ein Hund gilt als streunend, wenn er im offenen Gelände mehr als 200 m von dir entfernt ist, mehr als 200 m von deiner Wohnung entfernt ist oder im Wald ausser Sichtweite gerät. Wer fremde Hunde ausführt, darf höchstens zwei gleichzeitig dabeihaben. Beisst dein Hund einen Menschen oder ein Tier, meldest du das dem Veterinärdienst oder dem nächsten Polizeiposten. Ein Verstoss gegen die loi sur la police des chiens (Hundepolizeigesetz) kann mit einer Busse bis CHF 20'000 bestraft werden.",
       "quellen": [
-        "vd_lpolc"
+        "vd_lpolc",
+        "vd_rlfaune"
       ]
     }
   ],
   "vergleich": {
-    "wald": "1.4. bis 15.7., im Wald, in seiner unmittelbaren Umgebung und auf den angrenzenden Wiesen",
+    "wald": "1.4. bis 15.7., im Wald, am Waldrand und auf den angrenzenden Wiesen",
     "haft": "Pflicht, kein Mindestbetrag im Gesetz",
     "kurs": "nur für potenziell gefährliche Hunde (72 Stunden)",
     "rassen": "Bewilligung für Amstaff, American Pit Bull Terrier, Rottweiler und Kreuzungen",
@@ -120,10 +129,26 @@
     "anm": "innert zwei Wochen, Gemeinde und Datenbank"
   },
   "umzug": {
-    "text": "Um im Kanton einen Amstaff, einen American Pit Bull Terrier, einen Rottweiler oder eine Kreuzung dieser Rassen zu halten, brauchst du eine Bewilligung. Das Gesuch geht per Briefpost an die DGAV, Affaires vétérinaires (Veterinärwesen).",
+    "text": "Ziehst du mit einem Hund in den Kanton, meldest du die neue Adresse innert zwei Wochen der Datenbank und der Gemeindeverwaltung. Um im Kanton einen Amstaff, einen American Pit Bull Terrier, einen Rottweiler oder eine Kreuzung dieser Rassen zu halten, brauchst du eine Bewilligung. Du meldest den Hund unverzüglich dem Veterinärdienst. Das Gesuch geht per Briefpost an die DGAV, Ch. du Marquisat 1, 1025 St-Sulpice.",
     "quellen": [
+      "vd_lpolc",
       "vd_cpd",
       "vd_rlpolc"
+    ]
+  },
+  "vermisst": {
+    "text": "Im Kanton Waadt führt die Société vaudoise pour la protection des animaux (SVPA, Waadtländer Tierschutzverein) im Auftrag des Kantons das Register der gefundenen Tiere. Hast du deinen Hund verloren, musst du das unverzüglich der Polizei oder der fourrière cantonale (kantonale Tierauffangstation) melden. Ein streunender Hund ist der Polizei zu melden.",
+    "punkte": [
+      "Hund gefunden: Du kannst ihn während der Öffnungszeiten in eines der drei Tierheime bringen. Sonst meldest du ihn der Polizei oder den Tierheimen.",
+      "SVPA: Telefon 021 784 8000, Tag und Nacht, die ganze Woche, oder Formulare «animal perdu/trouvé» (Tier verloren oder gefunden) auf ihrer Website. Die Tierschutzvereine von La Côte und Haut-Léman geben ihre Listen gefundener Tiere an die SVPA weiter.",
+      "Hund vermisst: unverzüglich der Polizei oder der kantonalen Tierauffangstation melden. Die Tierheime bieten auch Meldeformulare an.",
+      "Ein streunender Hund wird eingefangen und in die Tierauffangstation gebracht. Die Kosten für die Identifikation, den Einsatz und die Unterbringung trägt die Halterin oder der Halter.",
+      "Tiere, die innert 2 Monaten nach der Aufnahme in der Tierauffangstation nicht abgeholt werden, kommen zu einer neuen Halterin oder einem neuen Halter."
+    ],
+    "quellen": [
+      "vd_perdus",
+      "vd_lpolc",
+      "vd_rsfa"
     ]
   }
 }

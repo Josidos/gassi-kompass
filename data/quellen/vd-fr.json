@@ -1,27 +1,27 @@
 {
   "vd_lpolc": {
     "kurz": "LPolC VD",
-    "lang": "Canton de Vaud: loi sur la police des chiens (LPolC, BLV 133.75) du 31 octobre 2006, version en vigueur depuis le 1er mai 2014 (LexFind)",
-    "url": "https://lexfind.ch/tolv/134802/fr"
+    "lang": "Canton de Vaud: loi sur la police des chiens (LPolC, BLV 133.75) du 31 octobre 2006, version actuelle, en vigueur depuis le 1er mai 2014",
+    "url": "https://prestations.vd.ch/pub/blv-publication/actes/consolide/133.75?id=855b570a-1487-458c-bc6a-84702e56b1ef"
   },
   "vd_rlpolc": {
     "kurz": "RLPolC VD",
-    "lang": "Canton de Vaud: règlement d'application de la loi sur la police des chiens (RLPolC) du 9 avril 2014, en vigueur depuis le 1er mai 2014",
-    "url": "https://www.vd.ch/fileadmin/user_upload/rag/2014/dte/R%C3%A8glement_police_des_chiens_1123625.pdf"
+    "lang": "Canton de Vaud: règlement d'application de la loi sur la police des chiens (RLPolC, BLV 133.75.1) du 9 avril 2014, version actuelle, en vigueur depuis le 1er mai 2014",
+    "url": "https://prestations.vd.ch/pub/blv-publication/actes/consolide/133.75.1?id=ed901760-5827-4488-bb26-75d09fddf076"
   },
   "vd_laisse": {
     "kurz": "DGE VD: chiens en laisse",
-    "lang": "Canton de Vaud, Direction générale de l'environnement: dépliant «Chiens en laisse: où, quand et pourquoi» (art. 2a RLFaune, sans date)",
+    "lang": "Canton de Vaud, Direction générale de l'environnement: dépliant «Chiens en laisse: où, quand et pourquoi» (sans date, cite encore l'art. 2a RLFaune, aujourd'hui art. 7b)",
     "url": "https://vd.ch/fileadmin/user_upload/themes/environnement/faune_nature/fichiers_pdf/Bonnes_pratiques/01_Chiens_en_laisse_ou_quand_et_pourquoi/Flyer_chien_en_laisse_DEF.PDF"
   },
   "vd_impot": {
     "kurz": "État de Vaud: impôt sur les chiens",
-    "lang": "État de Vaud: autres impôts, impôt sur les chiens (consulté le 17 novembre 2026)",
+    "lang": "État de Vaud: autres impôts, impôt sur les chiens (consulté le 27 novembre 2026)",
     "url": "https://www.vd.ch/etat-droit-finances/impots/impots-pour-les-individus/les-impots-les-differents-types-dimpots/autres-impots"
   },
   "vd_cpd": {
     "kurz": "DGAV VD: autorisation",
-    "lang": "État de Vaud, DGAV, Affaires vétérinaires: demander une autorisation de détenir un chien potentiellement dangereux (consulté le 17 novembre 2026)",
+    "lang": "État de Vaud, DGAV, Affaires vétérinaires: demander une autorisation de détenir un chien potentiellement dangereux (consulté le 27 novembre 2026)",
     "url": "https://www.vd.ch/prestation/demander-une-autorisation-de-detenir-un-chien-potentiellement-dangereux"
   },
   "vd_lausanne_faq": {
@@ -38,5 +38,30 @@
     "kurz": "Ville de Lausanne: zones accessibles aux chiens",
     "lang": "Ville de Lausanne, Bureau d'intégration canine et de la police des chiens (BICAN): zones accessibles aux chiens (consulté le 17 novembre 2026)",
     "url": "https://www.lausanne.ch/officiel/administration/logement-environnement-et-architecture/parcs-et-domaines/vie-pratique-nature/bican/zones-accessibles-chiens.html"
+  },
+  "vd_rlfaune": {
+    "kurz": "RLFaune VD",
+    "lang": "Canton de Vaud: règlement d'exécution de la loi sur la faune (RLFaune, BLV 922.03.1) du 7 juillet 2004, version en vigueur depuis le 1er janvier 2026, art. 2b, 2c et 7b",
+    "url": "https://prestations.vd.ch/pub/blv-publication/actes/consolide/922.03.1?id=21dd947f-7594-4427-8826-31b464078f96"
+  },
+  "vd_ricc": {
+    "kurz": "Règlement impôt sur les chiens VD",
+    "lang": "Canton de Vaud: règlement concernant la perception de l'impôt cantonal sur les chiens (RICC, BLV 652.31.1) du 6 juillet 2005, version en vigueur depuis le 1er janvier 2021",
+    "url": "https://prestations.vd.ch/pub/blv-publication/actes/consolide/652.31.1?id=41862ec7-de89-44d6-b024-e7147e39fa43"
+  },
+  "vd_rsfa": {
+    "kurz": "RSFA VD",
+    "lang": "Canton de Vaud: règlement sur le séquestre et la mise en fourrière d'animaux (RSFA, BLV 922.05.1.1) du 14 mai 1997, version en vigueur depuis le 1er août 2004, art. 2, 3, 3a et 12 à 14",
+    "url": "https://prestations.vd.ch/pub/blv-publication/actes/consolide/922.05.1.1?id=d056c595-a1e9-422d-993a-6fb56e0cfe6b"
+  },
+  "vd_perdus": {
+    "kurz": "État de Vaud: animaux perdus/trouvés",
+    "lang": "État de Vaud, Affaires vétérinaires: animaux perdus/trouvés (consulté le 27 novembre 2026)",
+    "url": "https://www.vd.ch/population/veterinaires-et-animaux/police-des-chiens/animaux-perdus/trouves"
+  },
+  "vd_police_chiens": {
+    "kurz": "État de Vaud: police des chiens",
+    "lang": "État de Vaud, Affaires vétérinaires: police des chiens (consulté le 27 novembre 2026)",
+    "url": "https://www.vd.ch/population/veterinaires-et-animaux/police-des-chiens"
   }
 }

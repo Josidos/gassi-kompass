@@ -4,36 +4,39 @@
   "kurz": "VD",
   "im": "dans le canton de Vaud",
   "des": "du canton de Vaud",
-  "geprueft": "2026-11-17",
+  "geprueft": "2026-11-27",
   "wald": {
     "saison": true,
     "von": "04-01",
     "bis": "07-15",
-    "wo": "en forêt, à ses abords et dans les prairies attenantes",
+    "wo": "en forêt, en lisière de forêt et sur les prairies attenantes en zone agricole",
     "quellen": [
+      "vd_rlfaune",
       "vd_laisse"
     ]
   },
   "leine": {
     "punkte": [
-      "en forêt et à ses abords ainsi que dans les prairies attenantes en zone agricole, du 1er avril au 15 juillet",
-      "toute l'année dans les sites de protection de la faune: réserve de faune cantonale, district franc, réserve d'oiseaux d'eau",
-      "dans les pâturages, pendant la présence du bétail",
-      "dans les réserves naturelles, les sites naturels protégés et les zones de tranquillité, selon les dispositions propres au site",
-      "en laisse courte dans les bâtiments ouverts au public, dans les transports publics et lors de manifestations publiques",
+      "en forêt, en lisière de forêt et sur les prairies attenantes en zone agricole, du 1er avril au 15 juillet",
+      "en tout temps dans les pâturages occupés par du bétail",
+      "dans les réserves cantonales de faune et les réserves cantonales d'oiseaux, dans les districts francs fédéraux et dans les réserves d'oiseaux d'eau et de migrateurs",
+      "dans les zones de tranquillité de la faune pendant les périodes de restriction d'accès, ainsi que dans les réserves naturelles et les sites naturels protégés selon les dispositions propres au site",
+      "en laisse courte dans les bâtiments ouverts au public, dans les transports publics, dans les cours d'école et sur les aires de jeux pour enfants, si les chiens n'y sont pas interdits",
+      "en laisse courte lors de manifestations publiques",
       "dans les lieux publics où votre commune impose la laisse",
-      "partout où vous ne maîtrisez pas suffisamment votre chien, si nécessaire avec une muselière"
+      "partout où vous ne pouvez pas maîtriser votre chien par la voix ou le geste, si nécessaire avec une muselière"
     ],
     "quellen": [
-      "vd_laisse",
-      "vd_lpolc"
+      "vd_rlfaune",
+      "vd_lpolc",
+      "vd_laisse"
     ]
   },
   "verbot": {
     "einleitung": "La loi cantonale ne désigne pas elle-même de lieux interdits. Elle laisse ce choix aux communes.",
     "punkte": [
       "les lieux publics que votre commune interdit aux chiens",
-      "les bâtiments ouverts au public et les transports publics dont l'accès est interdit aux chiens"
+      "les bâtiments ouverts au public, les transports publics, les cours d'école et les aires de jeux pour enfants dont l'accès est interdit aux chiens"
     ],
     "quellen": [
       "vd_lpolc"
@@ -45,9 +48,10 @@
       "marke": "Obligatoire",
       "ton": "must",
       "wert": "pour chaque chien",
-      "text": "Tout propriétaire de chien doit être au bénéfice d'une assurance responsabilité civile. La loi ne fixe pas de montant minimal.",
+      "text": "Tout propriétaire de chien doit être au bénéfice d'une assurance responsabilité civile. La loi ne fixe pas de montant minimal. Pour un chien potentiellement dangereux, l'assurance doit être établie au nom du détenteur.",
       "quellen": [
-        "vd_lpolc"
+        "vd_lpolc",
+        "vd_rlpolc"
       ]
     },
     {
@@ -55,10 +59,11 @@
       "marke": "Selon le chien",
       "ton": "note",
       "wert": "72 heures pour les chiens potentiellement dangereux",
-      "text": "La loi cantonale n'impose des cours d'éducation canine que pour les chiens potentiellement dangereux: 72 heures sur deux ans au maximum. Pour les autres chiens, le service peut ordonner des cours comme mesure dans un cas particulier. État du règlement: 2014.",
+      "text": "Les cours obligatoires pour tous les détenteurs de chiens ont été supprimés le 1er janvier 2017. Des cours restent obligatoires pour les chiens potentiellement dangereux: après le test de conductibilité, d'obéissance et de maîtrise (TCOM), vous suivez avec votre chien 72 heures de cours d'éducation canine sur deux ans au maximum. Le cours doit commencer dans les 45 jours après le test. Si le test est favorable, le service peut vous en dispenser ou en raccourcir la durée. Pour les autres chiens, des cours peuvent être imposés comme mesure dans un cas particulier.",
       "quellen": [
-        "vd_lpolc",
-        "vd_rlpolc"
+        "vd_police_chiens",
+        "vd_rlpolc",
+        "vd_lpolc"
       ]
     },
     {
@@ -66,9 +71,10 @@
       "marke": "2 semaines",
       "ton": "note",
       "wert": "Commune et banque de données",
-      "text": "Comme propriétaire, vous annoncez votre chien dans les deux semaines à la banque de données et à l'administration communale.",
+      "text": "Comme propriétaire, vous annoncez dans les deux semaines à la banque de données et à l'administration communale l'acquisition d'un chien, sa cession, un changement d'adresse et sa mort. Chaque chien doit porter un collier ou une médaille indiquant le nom et les coordonnées de son détenteur. Si vous détenez un chien potentiellement dangereux, vous l'annoncez sans délai au service vétérinaire.",
       "quellen": [
-        "vd_lpolc"
+        "vd_lpolc",
+        "vd_rlpolc"
       ]
     },
     {
@@ -76,9 +82,10 @@
       "marke": "annuel",
       "ton": "note",
       "wert": "CHF 100 au canton, plus la commune",
-      "text": "L'impôt cantonal est de CHF 100 par chien, inscription comprise. L'impôt communal s'y ajoute. Son montant est fixé par l'arrêté de votre commune. Exonérés notamment: les chiens de moins de trois mois à la fin de la période fiscale, ainsi que les bénéficiaires de prestations complémentaires AVS/AI ou du revenu d'insertion.",
+      "text": "L'impôt cantonal est de CHF 100 par chien, inscription comprise. L'impôt communal s'y ajoute. Son montant est fixé par l'arrêté de votre commune. L'impôt est dû par la personne à qui le chien appartient le 1er janvier. Il est réduit de moitié notamment pour les chiens nés après le 30 juin et pour les chiens, autres que de chasse, acquis dès le 1er juillet. Sont exonérés notamment les chiens de moins de trois mois à la fin de l'année ainsi que les bénéficiaires de prestations complémentaires AVS/AI ou du revenu d'insertion. Sur décision du Département des finances, les chiens d'aveugle et d'assistance, les chiens de l'armée et de la police et les chiens d'avalanche au service d'une autorité sont aussi exonérés.",
       "quellen": [
-        "vd_impot"
+        "vd_impot",
+        "vd_ricc"
       ]
     },
     {
@@ -86,7 +93,7 @@
       "marke": "Autorisation",
       "ton": "must",
       "wert": "3 races et leurs croisements",
-      "text": "La détention d'un chien potentiellement dangereux est soumise à autorisation. Sont concernés l'American Staffordshire Terrier (Amstaff), l'American Pit Bull Terrier et le Rottweiler, ainsi que les chiens dont l'un des géniteurs appartient à l'une de ces races. L'autorisation coûte CHF 800. La reproduction de ces chiens et leur importation à des fins de commerce sont interdites. Lors de manifestations publiques, ils portent une muselière ou une applique dentaire.",
+      "text": "La détention d'un chien potentiellement dangereux est soumise à autorisation. Sont concernés l'American Staffordshire Terrier (Amstaff), l'American Pit Bull Terrier et le Rottweiler, ainsi que les chiens dont l'un des géniteurs appartient à l'une de ces races. Le canton cite l'American Bully comme exemple. L'autorisation coûte CHF 800. Vous devez être majeur, produire un extrait du casier judiciaire et réussir avec votre chien, dès qu'il a douze mois, le test de conductibilité, d'obéissance et de maîtrise (TCOM). La reproduction de ces chiens et leur importation à des fins de commerce sont interdites. Lors de manifestations publiques, ils portent une muselière ou une applique dentaire. Pour détenir un autre chien dans le même ménage, il faut aussi une autorisation (CHF 100).",
       "mehr": {
         "titel": "Afficher la liste",
         "punkte": [
@@ -99,7 +106,8 @@
       "quellen": [
         "vd_rlpolc",
         "vd_lpolc",
-        "vd_cpd"
+        "vd_cpd",
+        "vd_police_chiens"
       ]
     },
     {
@@ -107,14 +115,15 @@
       "marke": "Règle",
       "ton": "note",
       "wert": "Maîtrise et laisse courte",
-      "text": "Vous devez maîtriser votre chien. Sinon, il doit être tenu en laisse et, si nécessaire, porter une muselière. Dans les bâtiments ouverts au public, les transports publics et lors de manifestations publiques, la laisse courte est obligatoire. Une infraction à la loi sur la police des chiens est passible d'une amende jusqu'à CHF 20 000.",
+      "text": "Vous devez pouvoir maîtriser votre chien à tout moment par la voix ou le geste. Sinon, il doit être tenu en laisse et, si nécessaire, porter une muselière. Un chien est considéré comme errant s'il se trouve à plus de 200 m de vous en terrain découvert, à plus de 200 m de votre habitation ou, en forêt, hors de votre contrôle visuel. Qui promène les chiens d'autrui ne peut en avoir que deux à la fois. Si votre chien mord une personne ou un animal, vous l'annoncez au service vétérinaire ou au poste de police le plus proche. Une infraction à la loi sur la police des chiens est passible d'une amende jusqu'à CHF 20 000.",
       "quellen": [
-        "vd_lpolc"
+        "vd_lpolc",
+        "vd_rlfaune"
       ]
     }
   ],
   "vergleich": {
-    "wald": "1.4 au 15.7, en forêt, à ses abords et dans les prairies attenantes",
+    "wald": "1.4 au 15.7, en forêt, en lisière et sur les prairies attenantes",
     "haft": "obligatoire, sans montant minimal dans la loi",
     "kurs": "seulement pour les chiens potentiellement dangereux (72 heures)",
     "rassen": "autorisation pour Amstaff, American Pit Bull Terrier, Rottweiler et croisements",
@@ -122,10 +131,26 @@
     "anm": "dans les deux semaines, commune et banque de données"
   },
   "umzug": {
-    "text": "Pour détenir un Amstaff, un American Pit Bull Terrier, un Rottweiler ou un croisement de ces races dans le canton, il vous faut une autorisation. La demande s'envoie par courrier postal à la DGAV, Affaires vétérinaires.",
+    "text": "Si vous arrivez dans le canton avec un chien, vous annoncez votre nouvelle adresse dans les deux semaines à la banque de données et à l'administration communale. Pour détenir un Amstaff, un American Pit Bull Terrier, un Rottweiler ou un croisement de ces races dans le canton, il vous faut une autorisation. Vous annoncez le chien sans délai au service vétérinaire. La demande s'envoie par courrier postal à la DGAV, Ch. du Marquisat 1, 1025 St-Sulpice.",
     "quellen": [
+      "vd_lpolc",
       "vd_cpd",
       "vd_rlpolc"
+    ]
+  },
+  "vermisst": {
+    "text": "Dans le canton de Vaud, le Canton a confié la tenue du registre des animaux trouvés à la Société vaudoise pour la protection des animaux (SVPA). Si vous avez égaré votre chien, vous devez l'annoncer sans délai à la police ou à la fourrière cantonale. Un chien errant doit être annoncé à la police.",
+    "punkte": [
+      "Chien trouvé: vous pouvez l'amener dans l'un des trois refuges pendant leurs heures d'ouverture. Sinon, vous le signalez à la police ou aux refuges.",
+      "SVPA: téléphone 021 784 8000, jour et nuit, toute la semaine, ou formulaires «animal perdu/trouvé» sur son site. Les SPA de La Côte et du Haut-Léman transmettent leurs listes d'animaux trouvés à la SVPA.",
+      "Chien perdu: annonce sans délai à la police ou à la fourrière cantonale. Les refuges proposent aussi des formulaires de signalement.",
+      "Un chien errant est saisi et mis en fourrière. Les frais d'identification, d'intervention et de pension sont à la charge du détenteur.",
+      "Les animaux qui ne sont pas réclamés dans un délai de 2 mois dès leur admission à la fourrière sont placés auprès d'un nouveau détenteur."
+    ],
+    "quellen": [
+      "vd_perdus",
+      "vd_lpolc",
+      "vd_rsfa"
     ]
   }
 }

@@ -2,6 +2,20 @@
 
 Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen.
 
+## 2026-11-27, Sitzung mit Joss: Kanton Waadt am geltenden Recht geprüft
+
+- Im Browser von Joss in der Base législative vaudoise (prestations.vd.ch) gelesen: Loi sur la police des chiens BLV 133.75 und Règlement d'application BLV 133.75.1 (beide in der geltenden Fassung vom 1. Mai 2014), Règlement d'exécution de la loi sur la faune BLV 922.03.1 (Fassung vom 1. Januar 2026, Art. 2b, 2c und 7b), Règlement sur le séquestre et la mise en fourrière d'animaux BLV 922.05.1.1 (Fassung vom 1. August 2004), Règlement concernant la perception de l'impôt cantonal sur les chiens BLV 652.31.1 (Fassung vom 1. Januar 2021), Loi d'application de la législation fédérale sur la protection des animaux BLV 922.05. Mit WebFetch auf vd.ch: «Police des chiens», «Animaux perdus/trouvés», «Autres impôts», die Prestation zur Bewilligung für potenziell gefährliche Hunde und das Faltblatt «Chiens en laisse».
+- Befund: Gesetz und Reglement gelten unverändert seit 1. Mai 2014. Die Angaben der Seite stimmen. Der Zusatz «État du règlement: 2014» fällt weg, weil das die geltende Fassung ist.
+- Wald, alt: «en forêt, à ses abords et dans les prairies attenantes» (Faltblatt, Art. 2a RLFaune). Neu im Wortlaut von Art. 7b RLFaune, in Kraft seit 1. Juni 2024: «en forêt, en lisière de forêt et sur les prairies attenantes en zone agricole», 1. April bis 15. Juli. Daten unverändert.
+- Leine, neu: kurze Leine auch auf Schulhöfen und Kinderspielplätzen (Art. 17 Abs. 2 LPolC), kantonale Wild- und Vogelschutzgebiete (Art. 2b und 2c RLFaune), Wildruhezonen während der Zeiten mit Zutrittsbeschränkung. Die Liste hat jetzt acht Punkte.
+- Kurs, neu: Die Pflichtkurse für alle sind seit 1. Januar 2017 abgeschafft (Seite des Kantons). Für potenziell gefährliche Hunde 72 Stunden nach dem Test TCOM, Beginn innert 45 Tagen, Befreiung möglich (Art. 11 RLPolC).
+- Neu: Halsband oder Marke mit Namen und Kontaktangaben für jeden Hund (Art. 3 RLPolC), Meldung von Erwerb, Abgabe, Adresswechsel und Tod innert zwei Wochen, halbe Steuer und Befreiungen nach dem Reglement, Voraussetzungen der Bewilligung, CHF 100 für einen weiteren Hund im Haushalt, American Bully als Beispiel des Kantons, Begriff des streunenden Hundes (200 m), höchstens zwei fremde Hunde beim Ausführen, Meldung von Bissen.
+- Feld `umzug` ergänzt: neue Adresse innert zwei Wochen, Adresse der DGAV für das Gesuch.
+- Feld `vermisst` neu: Register der gefundenen Tiere bei der SVPA im Auftrag des Kantons (Seite des Kantons, Art. 3 RSFA), verlorener Hund sofort an Polizei oder fourrière cantonale (Art. 20 LPolC), streunender Hund an die Polizei (Art. 21 LPolC), Kosten zulasten der Halterin oder des Halters, neue Platzierung nach 2 Monaten (Art. 13 RSFA).
+- Quellen: `vd_lpolc` und `vd_rlpolc` zeigen jetzt auf die Base législative vaudoise (alt: LexFind und ein PDF von 2014). Neu: `vd_rlfaune`, `vd_ricc`, `vd_rsfa`, `vd_perdus`, `vd_police_chiens`. Zusammen 402 Quellen.
+- Deutsche und italienische Übersetzung im selben Zug nachgeführt. Die Themenseite «Hund vermisst oder gefunden» führt die Waadt jetzt in allen drei Sprachen.
+- Build und Test fehlerfrei: 306 Seiten gebaut, 307 Seiten in 2 Breiten geprüft. Französische Kantonsseite bei 1280 Pixeln als Bild angesehen.
+
 ## 2026-11-27, Sitzung mit Joss: Stadt Aarau neu, 65 Gemeinden
 
 - Neu: Stadt Aarau unter `/ag/aarau/`, dazu französisch und italienisch. Aarau war am 17. November zurückgestellt, weil der Lauf die geltende Polizeiverordnung nicht lesen konnte.

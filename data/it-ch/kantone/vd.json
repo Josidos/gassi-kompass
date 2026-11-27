@@ -2,36 +2,39 @@
   "id": "vd",
   "kurz": "VD",
   "uebersetzt_aus": "fr",
-  "original": "61d85e3b4b6a",
+  "original": "b6d45f6c70d4",
   "wald": {
     "saison": true,
     "von": "04-01",
     "bis": "07-15",
-    "wo": "nel bosco, nelle sue vicinanze e nei prati adiacenti",
+    "wo": "nel bosco, al margine del bosco e nei prati adiacenti in zona agricola",
     "quellen": [
+      "vd_rlfaune",
       "vd_laisse"
     ]
   },
   "leine": {
     "punkte": [
-      "nel bosco e nelle sue vicinanze, come pure nei prati adiacenti in zona agricola, dal 1° aprile al 15 luglio",
-      "tutto l'anno nei siti di protezione della fauna: riserva cantonale della fauna, bandita di caccia, riserva di uccelli acquatici",
-      "nei pascoli, quando è presente il bestiame",
-      "nelle riserve naturali, nei siti naturali protetti e nelle zone di tranquillità, secondo le disposizioni proprie del sito",
-      "al guinzaglio corto negli edifici aperti al pubblico, sui mezzi di trasporto pubblici e durante le manifestazioni pubbliche",
+      "nel bosco, al margine del bosco e nei prati adiacenti in zona agricola, dal 1° aprile al 15 luglio",
+      "in ogni momento nei pascoli occupati dal bestiame",
+      "nelle riserve cantonali della fauna e nelle riserve cantonali di uccelli, nelle bandite federali di caccia e nelle riserve di uccelli acquatici e migratori",
+      "nelle zone di tranquillità per la selvaggina durante i periodi con accesso limitato, come pure nelle riserve naturali e nei siti naturali protetti secondo le disposizioni proprie del sito",
+      "al guinzaglio corto negli edifici aperti al pubblico, sui mezzi di trasporto pubblici, nei cortili delle scuole e nei parchi giochi per bambini, se i cani non vi sono vietati",
+      "al guinzaglio corto durante le manifestazioni pubbliche",
       "nei luoghi pubblici in cui il tuo Comune impone il guinzaglio",
-      "ovunque tu non abbia un controllo sufficiente del tuo cane, se necessario con la museruola"
+      "ovunque tu non riesca a controllare il tuo cane con la voce o con un gesto, se necessario con la museruola"
     ],
     "quellen": [
-      "vd_laisse",
-      "vd_lpolc"
+      "vd_rlfaune",
+      "vd_lpolc",
+      "vd_laisse"
     ]
   },
   "verbot": {
     "einleitung": "La legge cantonale non designa essa stessa luoghi vietati. Lascia questa scelta ai Comuni.",
     "punkte": [
       "i luoghi pubblici che il tuo Comune vieta ai cani",
-      "gli edifici aperti al pubblico e i mezzi di trasporto pubblici il cui accesso è vietato ai cani"
+      "gli edifici aperti al pubblico, i mezzi di trasporto pubblici, i cortili delle scuole e i parchi giochi per bambini il cui accesso è vietato ai cani"
     ],
     "quellen": [
       "vd_lpolc"
@@ -43,9 +46,10 @@
       "marke": "Obbligo",
       "ton": "must",
       "wert": "per ogni cane",
-      "text": "Ogni proprietario di un cane deve avere un'assicurazione di responsabilità civile. La legge non fissa un importo minimo.",
+      "text": "Ogni proprietario di un cane deve avere un'assicurazione di responsabilità civile. La legge non fissa un importo minimo. Per un cane potenzialmente pericoloso l'assicurazione deve essere intestata al detentore.",
       "quellen": [
-        "vd_lpolc"
+        "vd_lpolc",
+        "vd_rlpolc"
       ]
     },
     {
@@ -53,10 +57,11 @@
       "marke": "Secondo il cane",
       "ton": "note",
       "wert": "72 ore per i cani potenzialmente pericolosi",
-      "text": "La legge cantonale impone corsi di educazione cinofila solo per i cani potenzialmente pericolosi: 72 ore sull'arco di due anni al massimo. Per gli altri cani il servizio può ordinare corsi come misura in un caso particolare. Stato del regolamento: 2014.",
+      "text": "I corsi obbligatori per tutti i detentori di cani sono stati soppressi il 1° gennaio 2017. Restano obbligatori i corsi per i cani potenzialmente pericolosi: dopo il test di conducibilità, obbedienza e controllo (TCOM) segui con il tuo cane 72 ore di corso di educazione cinofila sull'arco di due anni al massimo. Il corso deve iniziare entro 45 giorni dal test. Se il test è favorevole, il servizio può esonerarti dal corso o abbreviarne la durata. Per gli altri cani i corsi possono essere imposti come misura in un caso particolare.",
       "quellen": [
-        "vd_lpolc",
-        "vd_rlpolc"
+        "vd_police_chiens",
+        "vd_rlpolc",
+        "vd_lpolc"
       ]
     },
     {
@@ -64,9 +69,10 @@
       "marke": "2 settimane",
       "ton": "note",
       "wert": "Comune e banca dati",
-      "text": "Come proprietaria o proprietario annunci il tuo cane entro due settimane alla banca dati e all'amministrazione comunale.",
+      "text": "Come proprietaria o proprietario annunci entro due settimane alla banca dati e all'amministrazione comunale l'acquisto di un cane, la sua cessione, un cambio di indirizzo e la sua morte. Ogni cane deve portare un collare o una medaglietta con il nome e i recapiti del detentore. Se detieni un cane potenzialmente pericoloso, lo annunci senza indugio al servizio veterinario.",
       "quellen": [
-        "vd_lpolc"
+        "vd_lpolc",
+        "vd_rlpolc"
       ]
     },
     {
@@ -74,9 +80,10 @@
       "marke": "annuale",
       "ton": "note",
       "wert": "CHF 100 al Cantone, più il Comune",
-      "text": "L'imposta cantonale è di CHF 100 per cane, iscrizione compresa. Vi si aggiunge l'imposta comunale. Il suo importo è fissato dal decreto (arrêté) del tuo Comune. Sono esonerati in particolare i cani che alla fine del periodo fiscale hanno meno di tre mesi, come pure chi beneficia di prestazioni complementari AVS/AI o del reddito d'inserimento (revenu d'insertion).",
+      "text": "L'imposta cantonale è di CHF 100 per cane, iscrizione compresa. Vi si aggiunge l'imposta comunale. Il suo importo è fissato dal decreto (arrêté) del tuo Comune. L'imposta è dovuta dalla persona a cui il cane appartiene il 1° gennaio. È ridotta della metà in particolare per i cani nati dopo il 30 giugno e per i cani, non da caccia, acquistati dal 1° luglio. Sono esonerati in particolare i cani che alla fine dell'anno hanno meno di tre mesi, come pure chi beneficia di prestazioni complementari AVS/AI o del reddito d'inserimento (revenu d'insertion). Su decisione del Dipartimento delle finanze sono esonerati anche i cani guida per ciechi e d'assistenza, i cani dell'esercito e della polizia e i cani da valanga al servizio di un'autorità.",
       "quellen": [
-        "vd_impot"
+        "vd_impot",
+        "vd_ricc"
       ]
     },
     {
@@ -84,7 +91,7 @@
       "marke": "Autorizzazione",
       "ton": "must",
       "wert": "3 razze e i loro incroci",
-      "text": "La detenzione di un cane potenzialmente pericoloso è soggetta ad autorizzazione. Sono interessati l'American Staffordshire Terrier (Amstaff), l'American Pit Bull Terrier e il Rottweiler, come pure i cani di cui uno dei genitori appartiene a una di queste razze. L'autorizzazione costa CHF 800. La riproduzione di questi cani e la loro importazione a scopo commerciale sono vietate. Durante le manifestazioni pubbliche portano una museruola o una protezione dentale (applique dentaire).",
+      "text": "La detenzione di un cane potenzialmente pericoloso è soggetta ad autorizzazione. Sono interessati l'American Staffordshire Terrier (Amstaff), l'American Pit Bull Terrier e il Rottweiler, come pure i cani di cui uno dei genitori appartiene a una di queste razze. Come esempio il Cantone cita l'American Bully. L'autorizzazione costa CHF 800. Devi essere maggiorenne, presentare un estratto del casellario giudiziale e superare con il tuo cane, appena ha dodici mesi, il test di conducibilità, obbedienza e controllo (TCOM). La riproduzione di questi cani e la loro importazione a scopo commerciale sono vietate. Durante le manifestazioni pubbliche portano una museruola o una protezione dentale (applique dentaire). Per detenere un altro cane nella stessa economia domestica serve anche un'autorizzazione (CHF 100).",
       "mehr": {
         "titel": "Mostra l'elenco",
         "punkte": [
@@ -97,7 +104,8 @@
       "quellen": [
         "vd_rlpolc",
         "vd_lpolc",
-        "vd_cpd"
+        "vd_cpd",
+        "vd_police_chiens"
       ]
     },
     {
@@ -105,14 +113,15 @@
       "marke": "Regola",
       "ton": "note",
       "wert": "Controllo e guinzaglio corto",
-      "text": "Devi avere il controllo del tuo cane. Altrimenti deve essere tenuto al guinzaglio e, se necessario, portare una museruola. Negli edifici aperti al pubblico, sui mezzi di trasporto pubblici e durante le manifestazioni pubbliche il guinzaglio corto è obbligatorio. Un'infrazione alla loi sur la police des chiens (legge sulla polizia dei cani) è punibile con una multa fino a CHF 20 000.",
+      "text": "Devi poter controllare il tuo cane in ogni momento con la voce o con un gesto. Altrimenti deve essere tenuto al guinzaglio e, se necessario, portare una museruola. Un cane è considerato vagante se si trova a più di 200 m da te in terreno aperto, a più di 200 m dalla tua abitazione o, nel bosco, fuori dal tuo controllo visivo. Chi porta a spasso cani altrui può averne al massimo due alla volta. Se il tuo cane morde una persona o un animale, lo annunci al servizio veterinario o al posto di polizia più vicino. Un'infrazione alla loi sur la police des chiens (legge sulla polizia dei cani) è punibile con una multa fino a CHF 20 000.",
       "quellen": [
-        "vd_lpolc"
+        "vd_lpolc",
+        "vd_rlfaune"
       ]
     }
   ],
   "vergleich": {
-    "wald": "dal 1.4. al 15.7., nel bosco, nelle sue vicinanze e nei prati adiacenti",
+    "wald": "dal 1.4. al 15.7., nel bosco, al margine del bosco e nei prati adiacenti",
     "haft": "obbligo, senza importo minimo nella legge",
     "kurs": "solo per i cani potenzialmente pericolosi (72 ore)",
     "rassen": "autorizzazione per Amstaff, American Pit Bull Terrier, Rottweiler e incroci",
@@ -120,10 +129,26 @@
     "anm": "entro due settimane, Comune e banca dati"
   },
   "umzug": {
-    "text": "Per detenere nel Cantone un Amstaff, un American Pit Bull Terrier, un Rottweiler o un incrocio di queste razze ti occorre un'autorizzazione. La domanda va inviata per posta alla DGAV, Affaires vétérinaires (affari veterinari).",
+    "text": "Se arrivi nel Cantone con un cane, annunci il nuovo indirizzo entro due settimane alla banca dati e all'amministrazione comunale. Per detenere nel Cantone un Amstaff, un American Pit Bull Terrier, un Rottweiler o un incrocio di queste razze ti occorre un'autorizzazione. Annunci il cane senza indugio al servizio veterinario. La domanda va inviata per posta alla DGAV, Ch. du Marquisat 1, 1025 St-Sulpice.",
     "quellen": [
+      "vd_lpolc",
       "vd_cpd",
       "vd_rlpolc"
+    ]
+  },
+  "vermisst": {
+    "text": "Nel Cantone di Vaud il Cantone ha affidato la tenuta del registro degli animali trovati alla Société vaudoise pour la protection des animaux (SVPA, società vodese per la protezione degli animali). Se hai smarrito il tuo cane, devi annunciarlo senza indugio alla polizia o alla fourrière cantonale (canile cantonale). Un cane vagante deve essere annunciato alla polizia.",
+    "punkte": [
+      "Cane trovato: puoi portarlo in uno dei tre rifugi durante gli orari di apertura. Altrimenti lo segnali alla polizia o ai rifugi.",
+      "SVPA: telefono 021 784 8000, giorno e notte, tutta la settimana, oppure moduli «animal perdu/trouvé» (animale smarrito o trovato) sul suo sito. Le società di protezione degli animali di La Côte e dell'Haut-Léman trasmettono i loro elenchi di animali trovati alla SVPA.",
+      "Cane smarrito: annuncio senza indugio alla polizia o al canile cantonale. I rifugi offrono anche moduli di segnalazione.",
+      "Un cane vagante viene catturato e portato al canile. Le spese di identificazione, di intervento e di pensione sono a carico del detentore.",
+      "Gli animali che non sono reclamati entro 2 mesi dall'ammissione al canile sono affidati a un nuovo detentore."
+    ],
+    "quellen": [
+      "vd_perdus",
+      "vd_lpolc",
+      "vd_rsfa"
     ]
   }
 }

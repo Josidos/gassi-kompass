@@ -313,7 +313,8 @@ Unklar, nur beobachten. Durchgang vom 18.11.2026: `bl_wald` (baselland.ch, Antwo
 - [ ] Gemeinde Glarus: lokale Leinen- oder Verbotsorte und Bussen belegen (Polizeireglement nicht gefunden). Seit 1. Januar 2026 kann die Gemeinde Verstösse gegen die Leinen- und Maulkorbpflicht mit einer Ordnungsbusse nach Art. 81 des Gemeindegesetzes bestrafen (Art. 31 Abs. 3 des kantonalen Tierschutz- und Tierseuchengesetzes): Bussenliste der Gemeinde suchen.
 - [ ] Kanton Freiburg: geltende deutsche Fassung des HHR (SGF 725.31, 2024) abrufen und die deutsche Datei damit belegen (Haftpflicht, Fristen). Bewilligung für mehr als vier Hunde und Ordnungsbusse für die Leine im Wald (OCAO, FR 107) belegen.
 - [ ] Ville de Fribourg: heutigen Betrag der Gemeindesteuer bestätigen (Reglement von 1993: CHF 120). Anmeldestelle der Stadt und allfällige Freilaufzonen suchen.
-- [ ] Kanton Waadt: geltende Fassung von LPolC (BLV 133.75) und RLPolC auf der Gesetzessammlung des Kantons gegenprüfen (gelesen: Stand 2014). Wortlaut von Art. 2a RLFaune abrufen. Regeln für Besuch und Zuzug mit bewilligungspflichtigen Hunden suchen.
+- [x] 2026-11-27: Kanton Waadt, LPolC (BLV 133.75) und RLPolC (BLV 133.75.1) in der Base législative vaudoise gegengeprüft: Beide gelten unverändert in der Fassung vom 1. Mai 2014, der Stand von LexFind war der geltende. Die Leinenpflicht im Wald steht seit 1. Juni 2024 in Art. 7b RLFaune (BLV 922.03.1, gelesen in der Fassung vom 1. Januar 2026), nicht mehr in Art. 2a. Das Faltblatt der DGE nennt noch Art. 2a.
+- [ ] Kanton Waadt: Regeln für Besuch und Durchreise mit bewilligungspflichtigen Hunden suchen. Die Seite der Prestation und das Reglement nennen sie nicht. Die Seite «Police des chiens» nennt die Stelle «Affaires vétérinaires (DAVI)», die Seite der Prestation «DGAV»: beim Nachprüfen den heutigen Namen klären. Die Seiten auf www.vd.ch sind mit WebFetch gelesen, die Erlasse im Browser. Namen der kantonalen Wild- und Vogelschutzgebiete (réserves de faune, réserves d'oiseaux) nachtragen, wenn eine amtliche Liste vorliegt.
 - [ ] Ville de Lausanne: Règlement général de police (Leine, Verbotsorte, Kot, Bussen) und Namen der Freilaufzonen suchen.
 - [ ] Kanton Neuenburg, Karte Annonce: Der Satz «Les frais d'identification et d'enregistrement sont à votre charge» steht nicht auf der Seite «S'occuper d'animaux» des SCAV (gelesen am 20.11.2026 als Zusammenfassung des Abrufwerkzeugs). Mit der LChiens belegen, sonst weglassen. Die LChiens gab das Abrufwerkzeug am 20.11.2026 nicht frei. Die Seite nennt zudem die Kosten des Kurses (vom Anbieter frei festgelegt, Schätzung CHF 300 bis 400): nach wörtlicher Lektüre ergänzen.
 - [ ] Kanton Appenzell Innerrhoden: Der Anhang 1 der VOB (Stand 31. März 2025) nennt neu CHF 150 für einen Verstoss gegen die Leinenpflicht für Hunde nach Art. 5 Abs. 1 der Wildruheverordnung (WRV, GS 922.012). Die WRV lesen und die Leinenpflicht in Wildruhegebieten samt Busse bei `wald` oder `leine` ergänzen.
@@ -505,7 +506,7 @@ Einstiege: Seite des Veterinärdiensts, Seite der Kantonspolizei, kantonale Gese
 
 - [x] Zürich, 2026-11-27 (Probe im Sonderlauf, deutsch, französisch und italienisch)
 - [x] Bern (deutsch und französisch), 2026-11-27 (in der Sitzung, dazu italienisch)
-- [ ] Waadt
+- [x] Waadt, 2026-11-27 (in der Sitzung, französisch, deutsch und italienisch)
 - [x] Aargau, 2026-11-27 (in der Sitzung, deutsch, französisch und italienisch)
 - [ ] St. Gallen
 - [ ] Genf
