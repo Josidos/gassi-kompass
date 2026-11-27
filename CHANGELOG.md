@@ -2,6 +2,20 @@
 
 Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen.
 
+## 2026-11-27, Sitzung mit Joss: Muttenz mit Gebühr, Leinenpflicht und Hundekot, Stadt Schaffhausen mit Anmeldung
+
+- Im Browser von Joss im Volltext gelesen. Muttenz: Reglement über das Halten von Hunden (Nr. 11.600, Fassung 17. Oktober 2024, in Kraft seit 1. Januar 2025), Gebührenordnung dazu (Nr. 11.609, Fassung 8. Mai 2024), Polizeireglement mit Bussenliste (Fassung 17. Oktober 2024) und Online-Schalter der Gemeinde. Stadt Schaffhausen: Online-Schalter «Hundekontrolle» der Einwohnerkontrolle.
+- Muttenz, neu: Karte «Hundetaxe» mit CHF 100 für den ersten und CHF 100 für jeden weiteren Hund im Haushalt, CHF 40 für die Einschreibung, Rechnung zu Beginn des Jahres, keine Rückerstattung, Ersatzhund, Zuzug, Erlasse, Mahnung CHF 50.
+- Muttenz, neu: Karte «Leine» mit den Orten aus § 4 des Reglements (verkehrsreiche Strassen und Velowege, Sportanlagen und Schulareale, Naturschutzgebiete, südlicher Hardwald, Rebberg) und Hinweis im Wald-Kasten zum Hardwald. Karte «Hundekot» (§ 3 und § 5).
+- Muttenz, Karte «Bussen», alt: Verweis, dass das Reglement über das Halten von Hunden die Orte regelt. Neu: Strafen bis CHF 5000 nach diesem Reglement, auch bei Fahrlässigkeit (§ 12). Die Bussenliste des Polizeireglements stimmt unverändert.
+- Muttenz, Karte «Entlaufener Hund», alt: Die Gemeindepolizei «kann» die Kosten verrechnen. Neu: Sie verlangt Kostenersatz (Polizeireglement: «wird verlangt»), dazu die effektiven Kosten für Einfangen, Unterbringen und Rückführung (§ 9 des Reglements).
+- Muttenz, Karte «Anmeldung», alt: Satz, dass der Gemeinderat die Höhe der Gebühr festlegt. Neu: Zu melden sind auch der Tod des Hundes und der Wegzug. `geprueft` auf 2026-11-27, alle Angaben der Datei sind heute verglichen. Neue Quellen `bl_muttenz_gebuehren` und `bl_muttenz_hundereglement`, beide als Seite der Gemeinde, die das PDF verlinkt.
+- Stadt Schaffhausen, neu: Karte «Anmeldung» (Einwohnerkontrolle, innert 10 Tagen, Online-Formular, Unterlagen, AMICUS, Meldung von Änderungen). Karte «Hundesteuer» ergänzt: Der Kantonsbeitrag von CHF 30 je Hund ist enthalten, für die Rückerstattung gibt es ein Antragsformular. Die Seite der Stadt nennt dieselben Beträge wie der Stadtratsbeschluss von 2018. Neue Quelle `sh_stadt_hundekontrolle`.
+- Nicht gelungen: Regensdorf (Betrag der Hundesteuer, Polizeiverordnung). Die Domain ist im Browser von Joss nicht freigegeben, wie bei Köniz.
+- Beobachtung: Mehrere Gemeinde-Websites desselben Anbieters (Adressen mit `/public/upload/assets/` oder `/_doc/`) antworteten heute Vormittag zeitweise mit «Diese Website ist momentan nicht verfügbar» oder gar nicht. Das erklärt die vielen Zeitüberschreitungen der Link-Prüfung.
+- Link-Prüfung nach dem Push von 09:30 Uhr: 330 Quellen, 310 in Ordnung, 1 tot (`be_oce_fr`), kein Verdacht mehr (`ur_silenen_hhv` ist wieder in Ordnung), 19 unklar, davon 17 Zeitüberschreitungen. `zh_hundeg` ist in Ordnung.
+- Übersetzungen nachgeführt: 4 Dateien. Gebaut und getestet.
+
 ## 2026-11-27, Sitzung mit Joss: Kanton Zürich mit Rahmen der Hundeabgabe, Befreiungen und Meldepflichten
 
 - Im Browser von Joss gelesen: Hundegesetz des Kantons Zürich im Volltext, LS 554.5, Fassung mit Nachtrag 129 (Fusszeile «1. 7. 25 - 129»), §§ 15, 21 und 23 bis 26. Die Seite des Erlasses in der Gesetzessammlung nennt diese Fassung «129 (aktuell)».

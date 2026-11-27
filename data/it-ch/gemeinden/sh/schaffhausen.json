@@ -3,7 +3,7 @@
   "kanton": "sh",
   "bfs": 2939,
   "uebersetzt_aus": "de",
-  "original": "1f673ad4aee5",
+  "original": "b082709fa72b",
   "name": "Città di Sciaffusa",
   "ort": "Sciaffusa",
   "in_ort": "a Sciaffusa",
@@ -13,9 +13,18 @@
     {
       "titel": "Imposta sui cani",
       "wert": "CHF 160 per il primo cane",
-      "text": "La Città riscuote ogni anno CHF 160 per il primo cane e CHF 200 per ogni altro cane. La tassa dovuta al Cantone è compresa. Le allevatrici e gli allevatori pagano un importo forfettario di CHF 790. Se il tuo cane muore o lo cedi, puoi chiedere per iscritto un condono: in gennaio e febbraio la Città condona tutta l'imposta, da marzo a giugno ne rimborsa la metà, da luglio più nulla. Lo stesso vale se lasci il Cantone. Se ti trasferisci in un altro Comune sciaffusano non c'è rimborso, ma l'imposta non è dovuta una seconda volta nel nuovo domicilio. Stato dello Stadtratsbeschluss (decisione del Municipio): 8 maggio 2018, valido dal 1° gennaio 2018.",
+      "text": "La Città riscuote ogni anno CHF 160 per il primo cane e CHF 200 per ogni altro cane. Il contributo al Cantone di CHF 30 per cane è compreso. Le allevatrici e gli allevatori pagano un importo forfettario di CHF 790. Se il tuo cane muore o lo cedi, puoi chiedere per iscritto un condono: in gennaio e febbraio la Città condona tutta l'imposta, da marzo a giugno ne rimborsa la metà, da luglio più nulla. Lo stesso vale se lasci il Cantone. Se ti trasferisci in un altro Comune sciaffusano non c'è rimborso, ma l'imposta non è dovuta una seconda volta nel nuovo domicilio. Per il rimborso c'è un modulo di richiesta della Città. Stato dello Stadtratsbeschluss (decisione del Municipio): 8 maggio 2018, valido dal 1° gennaio 2018.",
       "quellen": [
-        "sh_stadt_hundesteuer"
+        "sh_stadt_hundesteuer",
+        "sh_stadt_hundekontrolle"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "wert": "all'Einwohnerkontrolle, entro 10 giorni",
+      "text": "Annunci il tuo cane all'Einwohnerkontrolle (controllo abitanti) entro 10 giorni dal tuo arrivo o dall'acquisto. Tiene il registro dei cani della Città e riscuote l'imposta sui cani. La notifica si fa con il modulo online della Città. Ti servono il modulo di notifica, il passaporto per animali da compagnia (con il timbro doganale se arrivi dall'estero) e la prova della tua assicurazione di responsabilità civile. Se non sei ancora registrato in AMICUS, ti registra l'Einwohnerkontrolle. Le annunci entro 10 giorni un cambiamento di indirizzo, un cambio di detentore o la morte del cane. Devi annunciare anche una partenza.",
+      "quellen": [
+        "sh_stadt_hundekontrolle"
       ]
     },
     {

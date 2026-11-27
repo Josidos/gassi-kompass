@@ -661,7 +661,7 @@
   },
   "bl_muttenz_hund": {
     "kurz": "Muttenz: Hund anmelden",
-    "lang": "Gemeinde Muttenz: Online-Schalter «Hund: Anmeldung oder Abmeldung & Hundegebühren», abgerufen am 19. November 2026",
+    "lang": "Gemeinde Muttenz: Online-Schalter «Hund: Anmeldung oder Abmeldung & Hundegebühren», abgerufen am 27. November 2026",
     "url": "https://www.muttenz.ch/online-schalter/4702/detail"
   },
   "bl_muttenz_polizeireglement": {
@@ -948,5 +948,20 @@
     "kurz": "Hundegesetz ZH",
     "lang": "Kanton Zürich: Hundegesetz (HuG) vom 14. April 2008, LS 554.5, Fassung mit Nachtrag 129 (Stand 1. Juli 2025)",
     "url": "https://www.zh.ch/de/politik-staat/gesetze-beschluesse/gesetzessammlung/zhlex-ls/erlass-554_5-2008_04_14-2010_01_01-129.html"
+  },
+  "bl_muttenz_gebuehren": {
+    "kurz": "Muttenz: Gebührenordnung Hunde",
+    "lang": "Gemeinde Muttenz, Gemeinderat: Gebührenordnung zum Reglement über das Halten von Hunden (Nr. 11.609) vom 1. Dezember 2004, Fassung vom 8. Mai 2024",
+    "url": "https://www.muttenz.ch/reglemente/5795"
+  },
+  "bl_muttenz_hundereglement": {
+    "kurz": "Muttenz: Reglement über das Halten von Hunden",
+    "lang": "Einwohnergemeinde Muttenz: Reglement über das Halten von Hunden (Nr. 11.600) vom 29. Oktober 1996, Fassung vom 17. Oktober 2024, in Kraft seit 1. Januar 2025",
+    "url": "https://www.muttenz.ch/reglemente/5796"
+  },
+  "sh_stadt_hundekontrolle": {
+    "kurz": "Stadt Schaffhausen: Hundekontrolle",
+    "lang": "Stadt Schaffhausen, Einwohnerkontrolle: Online-Schalter «Hundekontrolle» (abgerufen am 27. November 2026)",
+    "url": "https://www.stadt-schaffhausen.ch/online-schalter/151336/detail"
   }
 }

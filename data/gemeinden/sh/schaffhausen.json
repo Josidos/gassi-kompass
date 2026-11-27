@@ -12,9 +12,18 @@
     {
       "titel": "Hundesteuer",
       "wert": "CHF 160 für den ersten Hund",
-      "text": "Die Stadt erhebt pro Jahr CHF 160 für den ersten Hund und CHF 200 für jeden weiteren Hund. Die Abgabe an den Kanton ist darin enthalten. Züchterinnen und Züchter zahlen pauschal CHF 790. Stirbt dein Hund oder gibst du ihn weg, kannst du schriftlich einen Erlass verlangen: Im Januar und Februar erlässt die Stadt die ganze Steuer, von März bis Juni erstattet sie die Hälfte, ab Juli nichts mehr. Dasselbe gilt, wenn du aus dem Kanton wegziehst. Ziehst du in eine andere Schaffhauser Gemeinde, gibt es keine Rückerstattung, die Steuer ist am neuen Wohnort aber nicht noch einmal geschuldet. Stand des Stadtratsbeschlusses: 8. Mai 2018, gültig seit 1. Januar 2018.",
+      "text": "Die Stadt erhebt pro Jahr CHF 160 für den ersten Hund und CHF 200 für jeden weiteren Hund. Der Kantonsbeitrag von CHF 30 je Hund ist darin enthalten. Züchterinnen und Züchter zahlen pauschal CHF 790. Stirbt dein Hund oder gibst du ihn weg, kannst du schriftlich einen Erlass verlangen: Im Januar und Februar erlässt die Stadt die ganze Steuer, von März bis Juni erstattet sie die Hälfte, ab Juli nichts mehr. Dasselbe gilt, wenn du aus dem Kanton wegziehst. Ziehst du in eine andere Schaffhauser Gemeinde, gibt es keine Rückerstattung, die Steuer ist am neuen Wohnort aber nicht noch einmal geschuldet. Für die Rückerstattung gibt es ein Antragsformular der Stadt. Stand des Stadtratsbeschlusses: 8. Mai 2018, gültig seit 1. Januar 2018.",
       "quellen": [
-        "sh_stadt_hundesteuer"
+        "sh_stadt_hundesteuer",
+        "sh_stadt_hundekontrolle"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "wert": "Einwohnerkontrolle, innert 10 Tagen",
+      "text": "Du meldest deinen Hund innert 10 Tagen nach dem Zuzug oder der Anschaffung bei der Einwohnerkontrolle an. Sie führt das Hunderegister der Stadt und erhebt die Hundesteuer. Die Anmeldung geht mit dem Online-Formular der Stadt. Du brauchst das Anmeldeformular, den Heimtierausweis (bei einem Zuzug aus dem Ausland mit Zollstempel) und den Nachweis deiner Haftpflichtversicherung. Bist du noch nicht in AMICUS erfasst, registriert dich die Einwohnerkontrolle. Adressänderung, Halterwechsel oder Tod des Hundes meldest du ihr innert 10 Tagen. Auch einen Wegzug musst du melden.",
+      "quellen": [
+        "sh_stadt_hundekontrolle"
       ]
     },
     {

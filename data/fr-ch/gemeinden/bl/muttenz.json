@@ -3,34 +3,62 @@
   "kanton": "bl",
   "bfs": 2770,
   "uebersetzt_aus": "de",
-  "original": "84b6bfd9b876",
+  "original": "1bc02ba0ef12",
   "name": "Muttenz",
   "ort": "Muttenz",
   "in_ort": "à Muttenz",
-  "einleitung": "À Muttenz, vous annoncez votre chien à la Gemeindepolizei (police communale). Les amendes figurent dans le Polizeireglement (règlement de police) de la commune.",
+  "hinweis_heute": "À Muttenz, la laisse est obligatoire toute l'année dans le sud du Hardwald, entre la Rheinfelderstrasse et la route nationale A2/3.",
+  "einleitung": "À Muttenz, vous annoncez votre chien à la Gemeindepolizei (police communale). La laisse obligatoire, les émoluments et les peines figurent dans le Reglement über das Halten von Hunden (règlement sur la détention de chiens), les amendes dans le Polizeireglement (règlement de police) de la commune.",
   "karten": [
+    {
+      "titel": "Impôt sur les chiens",
+      "wert": "CHF 100 par chien et par an",
+      "text": "La Hundegebühr (émolument pour chiens) s'élève par an à CHF 100 pour le premier chien et à CHF 100 pour chaque chien supplémentaire du ménage. S'y ajoutent une fois CHF 40 pour l'inscription. L'émolument vaut par année civile, au prorata la première année. La facture arrive en début d'année, tout de suite en cas de nouvelle annonce. En cas de changement de détenteur, de départ ou de mort du chien, rien n'est remboursé. Si vous remplacez un chien mort la même année, vous ne payez pour le nouveau que l'année suivante. Si un paiement a déjà été fait dans un autre canton ou une autre commune pour un chien qui arrive, Muttenz ne perçoit l'émolument qu'à la fin de cette période. Pour les chiens de thérapie, de catastrophe et d'aveugle formés et pour les chiens de recherche au sang de la société de chasse, la commune remet les émoluments, sauf l'émolument d'inscription. Dans les cas de rigueur, pour les chiens de travail SKG et pour les chiens accompagnant des personnes handicapées, le Gemeinderat (conseil communal) peut les remettre en tout ou en partie. Un rappel coûte CHF 50.",
+      "quellen": [
+        "bl_muttenz_gebuehren",
+        "bl_muttenz_hundereglement"
+      ]
+    },
     {
       "titel": "Annonce",
       "wert": "Gemeindepolizei, avec formulaire",
-      "text": "Les détenteurs de chiens sont soumis à l'obligation d'annonce. Vous annoncez l'arrivée et le départ de votre chien au Ressort Gemeindepolizei au moyen du formulaire de la commune. Comme preuve de l'assurance responsabilité civile, vous joignez une copie de la police d'assurance. Le montant de l'impôt sur les chiens est fixé par le Gemeinderat (conseil communal) dans la Hundegebührenverordnung.",
+      "text": "Les détenteurs de chiens sont soumis à l'obligation d'annonce. Vous annoncez l'arrivée et le départ de votre chien au Ressort Gemeindepolizei au moyen du formulaire de la commune. Comme preuve de l'assurance responsabilité civile, vous joignez une copie de la police d'assurance. Vous devez aussi annoncer la mort de votre chien ou votre départ avec lui.",
       "quellen": [
         "bl_muttenz_hund"
       ]
     },
     {
+      "titel": "Laisse",
+      "wert": "installations sportives, écoles, réserves naturelles, Hardwald, Rebberg",
+      "text": "Vous tenez votre chien en laisse le long des routes à fort trafic et sur les pistes cyclables, sur les installations sportives et les aires scolaires et dans les réserves naturelles. La laisse est aussi obligatoire dans le sud du Hardwald, entre la Rheinfelderstrasse et la route nationale A2/3, et dans le Rebberg (vignoble), entre la Burghaldenstrasse, l'Offenburgstrasse, la Schauenburgstrasse et la Badstubenstrasse. Un chien que vous ne pouvez pas garder sous contrôle doit être tenu en laisse partout. Le Gemeinderat peut désigner d'autres lieux où les chiens doivent être tenus en laisse ou n'ont pas accès, aussi pour une durée limitée. La laisse obligatoire pendant la période de couvaison et de mise bas est régie par le Wildtier- und Jagdgesetz (loi cantonale sur la faune sauvage et la chasse).",
+      "quellen": [
+        "bl_muttenz_hundereglement"
+      ]
+    },
+    {
+      "titel": "Crottes de chien",
+      "wert": "à ramasser et à éliminer",
+      "text": "Vous devez ramasser les crottes de votre chien dans l'espace accessible au public et sur les terres agricoles, et les éliminer correctement. Il en va de même sur un terrain privé d'autrui. Font exception les toilettes pour chiens.",
+      "quellen": [
+        "bl_muttenz_hundereglement"
+      ]
+    },
+    {
       "titel": "Amendes",
       "wert": "CHF 100 à CHF 200",
-      "text": "Le Polizeireglement prévoit ces amendes: infraction à la laisse obligatoire CHF 100, non-respect de l'accès interdit aux chiens CHF 100, non-respect d'une interdiction des chiens signalée CHF 200, crottes non ramassées CHF 100, chien laissé sans surveillance CHF 100, mise en danger et dérangement par une détention d'animaux inadéquate CHF 200. Les lieux où la laisse est obligatoire et où l'accès est interdit sont réglés par le Reglement über das Halten von Hunden de la commune.",
+      "text": "Le Polizeireglement prévoit ces amendes: infraction à la laisse obligatoire CHF 100, non-respect de l'accès interdit aux chiens CHF 100, non-respect d'une interdiction des chiens signalée CHF 200, crottes non ramassées CHF 100, chien laissé sans surveillance CHF 100, mise en danger et dérangement par une détention d'animaux inadéquate CHF 200. Selon le Reglement über das Halten von Hunden, des peines jusqu'à CHF 5000 sont possibles. La négligence est aussi punissable.",
       "quellen": [
-        "bl_muttenz_polizeireglement"
+        "bl_muttenz_polizeireglement",
+        "bl_muttenz_hundereglement"
       ]
     },
     {
       "titel": "Chien échappé",
       "wert": "frais à la charge de qui les cause",
-      "text": "Si la Gemeindepolizei ramène un chien échappé, elle peut en facturer les frais à la personne qui les a causés.",
+      "text": "Si la Gemeindepolizei ramène un chien échappé, elle demande le remboursement des frais à la personne qui a causé l'intervention. Pour la capture et l'hébergement de chiens échappés et pour leur retour, la commune facture les frais effectifs.",
       "quellen": [
-        "bl_muttenz_polizeireglement"
+        "bl_muttenz_polizeireglement",
+        "bl_muttenz_hundereglement"
       ]
     }
   ]

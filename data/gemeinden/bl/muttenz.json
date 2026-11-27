@@ -5,31 +5,59 @@
   "name": "Muttenz",
   "ort": "Muttenz",
   "in_ort": "in Muttenz",
-  "geprueft": "2026-11-19",
-  "einleitung": "In Muttenz meldest du deinen Hund bei der Gemeindepolizei. Die Bussen stehen im Polizeireglement der Gemeinde.",
+  "geprueft": "2026-11-27",
+  "hinweis_heute": "In Muttenz gilt im südlichen Hardwald zwischen Rheinfelderstrasse und Nationalstrasse A2/3 das ganze Jahr Leinenpflicht.",
+  "einleitung": "In Muttenz meldest du deinen Hund bei der Gemeindepolizei. Leinenpflicht, Gebühren und Strafen stehen im Reglement über das Halten von Hunden, die Bussen im Polizeireglement der Gemeinde.",
   "karten": [
+    {
+      "titel": "Hundetaxe",
+      "wert": "CHF 100 pro Hund und Jahr",
+      "text": "Die Hundegebühr beträgt pro Jahr CHF 100 für den ersten Hund und CHF 100 für jeden weiteren Hund im Haushalt. Für die Einschreibung kommen einmalig CHF 40 dazu. Die Gebühr gilt pro Kalenderjahr, im ersten Jahr anteilmässig. Die Rechnung kommt zu Beginn des Jahres, bei einer Neuanmeldung sofort. Bei Halterwechsel, Wegzug oder Tod des Hundes gibt es keine Rückerstattung. Ersetzt du einen verstorbenen Hund im selben Jahr, zahlst du für den neuen erst im Folgejahr. Wurde für einen zuziehenden Hund schon in einem anderen Kanton oder einer anderen Gemeinde bezahlt, erhebt Muttenz die Gebühr erst nach Ablauf dieser Zeit. Für ausgebildete Therapie-, Katastrophen- und Blindenhunde und für Schweisshunde der Jagdgesellschaft erlässt die Gemeinde die Gebühren, ausser der Einschreibegebühr. In Härtefällen, für Arbeitshunde SKG und für Hunde der Behindertenbegleitung kann der Gemeinderat sie ganz oder teilweise erlassen. Eine Mahnung kostet CHF 50.",
+      "quellen": [
+        "bl_muttenz_gebuehren",
+        "bl_muttenz_hundereglement"
+      ]
+    },
     {
       "titel": "Anmeldung",
       "wert": "Gemeindepolizei, mit Formular",
-      "text": "Hundehaltende sind meldepflichtig. Du meldest deinen Hund mit dem Formular der Gemeinde beim Ressort Gemeindepolizei an und ab. Als Nachweis der Haftpflichtversicherung legst du eine Kopie der Versicherungspolice bei. Die Höhe der Hundegebühr legt der Gemeinderat in der Hundegebührenverordnung fest.",
+      "text": "Hundehaltende sind meldepflichtig. Du meldest deinen Hund mit dem Formular der Gemeinde beim Ressort Gemeindepolizei an und ab. Als Nachweis der Haftpflichtversicherung legst du eine Kopie der Versicherungspolice bei. Melden musst du auch, wenn dein Hund stirbt oder du mit ihm wegziehst.",
       "quellen": [
         "bl_muttenz_hund"
       ]
     },
     {
+      "titel": "Leine",
+      "wert": "Sportanlagen, Schulareale, Naturschutzgebiete, Hardwald, Rebberg",
+      "text": "An der Leine führst du deinen Hund an verkehrsreichen Strassen und auf Velowegen, auf Sportanlagen und Schularealen und in Naturschutzgebieten. Leinenpflicht gilt auch im südlichen Hardwald zwischen Rheinfelderstrasse und Nationalstrasse A2/3 und im Rebberg zwischen Burghaldenstrasse, Offenburgstrasse, Schauenburgstrasse und Badstubenstrasse. Ein Hund, den du nicht unter Kontrolle halten kannst, gehört überall an die Leine. Der Gemeinderat kann weitere Orte bezeichnen, an denen Hunde an die Leine müssen oder keinen Zutritt haben, auch zeitlich befristet. Die Leinenpflicht in der Brut- und Setzzeit richtet sich nach dem kantonalen Wildtier- und Jagdgesetz.",
+      "quellen": [
+        "bl_muttenz_hundereglement"
+      ]
+    },
+    {
+      "titel": "Hundekot",
+      "wert": "aufnehmen und entsorgen",
+      "text": "Den Kot deines Hundes musst du auf öffentlich zugänglichem Raum und auf landwirtschaftlich genutztem Land aufnehmen und fachgerecht entsorgen. Dasselbe gilt auf fremdem privatem Areal. Ausgenommen sind Hundetoiletten.",
+      "quellen": [
+        "bl_muttenz_hundereglement"
+      ]
+    },
+    {
       "titel": "Bussen",
       "wert": "CHF 100 bis CHF 200",
-      "text": "Das Polizeireglement nennt diese Bussen: Verstoss gegen die Leinenpflicht CHF 100, Missachten des Zutrittsverbots für Hunde CHF 100, Missachten eines signalisierten Hundeverbots CHF 200, Hundekot nicht beseitigen CHF 100, Hund unbeaufsichtigt laufen lassen CHF 100, Gefährdung und Belästigung durch unsachgemässe Tierhaltung CHF 200. Wo Leinenpflicht und Zutrittsverbote gelten, regelt das Reglement über das Halten von Hunden der Gemeinde.",
+      "text": "Das Polizeireglement nennt diese Bussen: Verstoss gegen die Leinenpflicht CHF 100, Missachten des Zutrittsverbots für Hunde CHF 100, Missachten eines signalisierten Hundeverbots CHF 200, Hundekot nicht beseitigen CHF 100, Hund unbeaufsichtigt laufen lassen CHF 100, Gefährdung und Belästigung durch unsachgemässe Tierhaltung CHF 200. Nach dem Reglement über das Halten von Hunden sind Strafen bis CHF 5000 möglich. Strafbar ist auch Fahrlässigkeit.",
       "quellen": [
-        "bl_muttenz_polizeireglement"
+        "bl_muttenz_polizeireglement",
+        "bl_muttenz_hundereglement"
       ]
     },
     {
       "titel": "Entlaufener Hund",
       "wert": "Kosten trägt, wer sie verursacht",
-      "text": "Bringt die Gemeindepolizei einen entlaufenen Hund zurück, kann sie die Kosten dafür der Person verrechnen, die sie verursacht hat.",
+      "text": "Bringt die Gemeindepolizei einen entlaufenen Hund zurück, verlangt sie Kostenersatz von der Person, die den Einsatz verursacht hat. Für das Einfangen und Unterbringen entlaufener Hunde und für die Rückführung verrechnet die Gemeinde die effektiven Kosten.",
       "quellen": [
-        "bl_muttenz_polizeireglement"
+        "bl_muttenz_polizeireglement",
+        "bl_muttenz_hundereglement"
       ]
     }
   ]

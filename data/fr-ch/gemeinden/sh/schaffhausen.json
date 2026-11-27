@@ -3,7 +3,7 @@
   "kanton": "sh",
   "bfs": 2939,
   "uebersetzt_aus": "de",
-  "original": "1f673ad4aee5",
+  "original": "b082709fa72b",
   "name": "Ville de Schaffhouse",
   "ort": "Schaffhouse",
   "in_ort": "à Schaffhouse",
@@ -13,9 +13,18 @@
     {
       "titel": "Impôt sur les chiens",
       "wert": "CHF 160 pour le premier chien",
-      "text": "La Ville perçoit par an CHF 160 pour le premier chien et CHF 200 pour chaque chien supplémentaire. La taxe due au canton y est comprise. Les éleveuses et éleveurs paient un forfait de CHF 790. Si votre chien meurt ou si vous le cédez, vous pouvez demander par écrit une remise: en janvier et en février, la Ville remet la totalité de l'impôt, de mars à juin elle en rembourse la moitié, dès juillet plus rien. Il en va de même si vous quittez le canton. Si vous déménagez dans une autre commune schaffhousoise, il n'y a pas de remboursement, mais l'impôt n'est pas dû une seconde fois au nouveau domicile. État du Stadtratsbeschluss (décision du Conseil de ville): 8 mai 2018, valable depuis le 1er janvier 2018.",
+      "text": "La Ville perçoit par an CHF 160 pour le premier chien et CHF 200 pour chaque chien supplémentaire. La contribution au canton de CHF 30 par chien y est comprise. Les éleveuses et éleveurs paient un forfait de CHF 790. Si votre chien meurt ou si vous le cédez, vous pouvez demander par écrit une remise: en janvier et en février, la Ville remet la totalité de l'impôt, de mars à juin elle en rembourse la moitié, dès juillet plus rien. Il en va de même si vous quittez le canton. Si vous déménagez dans une autre commune schaffhousoise, il n'y a pas de remboursement, mais l'impôt n'est pas dû une seconde fois au nouveau domicile. Pour le remboursement, la Ville met à disposition un formulaire de demande. État du Stadtratsbeschluss (décision du Conseil de ville): 8 mai 2018, valable depuis le 1er janvier 2018.",
       "quellen": [
-        "sh_stadt_hundesteuer"
+        "sh_stadt_hundesteuer",
+        "sh_stadt_hundekontrolle"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "wert": "à l'Einwohnerkontrolle, dans les 10 jours",
+      "text": "Vous annoncez votre chien à l'Einwohnerkontrolle (contrôle des habitants) dans les 10 jours suivant votre arrivée ou l'acquisition. Elle tient le registre des chiens de la Ville et perçoit l'impôt sur les chiens. L'annonce se fait avec le formulaire en ligne de la Ville. Il vous faut le formulaire d'annonce, le passeport pour animaux de compagnie (avec le timbre de la douane en cas d'arrivée de l'étranger) et la preuve de votre assurance responsabilité civile. Si vous n'êtes pas encore enregistré dans AMICUS, l'Einwohnerkontrolle vous y enregistre. Vous lui annoncez dans les 10 jours un changement d'adresse, un changement de détenteur ou la mort du chien. Vous devez aussi annoncer un départ.",
+      "quellen": [
+        "sh_stadt_hundekontrolle"
       ]
     },
     {

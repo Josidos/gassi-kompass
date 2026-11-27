@@ -3,34 +3,62 @@
   "kanton": "bl",
   "bfs": 2770,
   "uebersetzt_aus": "de",
-  "original": "84b6bfd9b876",
+  "original": "1bc02ba0ef12",
   "name": "Muttenz",
   "ort": "Muttenz",
   "in_ort": "a Muttenz",
-  "einleitung": "A Muttenz annunci il tuo cane alla Gemeindepolizei (polizia comunale). Le multe figurano nel Polizeireglement (regolamento di polizia) del Comune.",
+  "hinweis_heute": "A Muttenz il guinzaglio è obbligatorio tutto l'anno nella parte sud dell'Hardwald, tra la Rheinfelderstrasse e la strada nazionale A2/3.",
+  "einleitung": "A Muttenz annunci il tuo cane alla Gemeindepolizei (polizia comunale). L'obbligo di guinzaglio, le tasse e le pene figurano nel Reglement über das Halten von Hunden (regolamento sulla detenzione di cani), le multe nel Polizeireglement (regolamento di polizia) del Comune.",
   "karten": [
+    {
+      "titel": "Imposta sui cani",
+      "wert": "CHF 100 per cane e per anno",
+      "text": "La Hundegebühr (tassa sui cani) ammonta ogni anno a CHF 100 per il primo cane e a CHF 100 per ogni altro cane dell'economia domestica. Per l'iscrizione si aggiungono una volta CHF 40. La tassa vale per anno civile, il primo anno in proporzione. La fattura arriva a inizio anno, subito in caso di nuova notifica. In caso di cambio di detentore, partenza o morte del cane non c'è rimborso. Se sostituisci un cane morto nello stesso anno, per il nuovo paghi solo l'anno seguente. Se per un cane in arrivo è già stato pagato in un altro Cantone o in un altro Comune, Muttenz riscuote la tassa solo alla fine di quel periodo. Per i cani da terapia, da catastrofe e per ciechi addestrati e per i cani da traccia della società di caccia il Comune condona le tasse, tranne la tassa d'iscrizione. Nei casi di rigore, per i cani da lavoro SKG e per i cani che accompagnano persone con disabilità, il Gemeinderat (municipio) può condonarle in tutto o in parte. Un sollecito costa CHF 50.",
+      "quellen": [
+        "bl_muttenz_gebuehren",
+        "bl_muttenz_hundereglement"
+      ]
+    },
     {
       "titel": "Notifica",
       "wert": "Gemeindepolizei, con modulo",
-      "text": "Chi detiene un cane è soggetto all'obbligo di notifica. Annunci l'arrivo e la partenza del tuo cane al Ressort Gemeindepolizei con il modulo del Comune. Come prova dell'assicurazione di responsabilità civile alleghi una copia della polizza assicurativa. L'importo dell'imposta sui cani è fissato dal Gemeinderat (municipio) nella Hundegebührenverordnung.",
+      "text": "Chi detiene un cane è soggetto all'obbligo di notifica. Annunci l'arrivo e la partenza del tuo cane al Ressort Gemeindepolizei con il modulo del Comune. Come prova dell'assicurazione di responsabilità civile alleghi una copia della polizza assicurativa. Devi annunciare anche la morte del tuo cane o la tua partenza con lui.",
       "quellen": [
         "bl_muttenz_hund"
       ]
     },
     {
+      "titel": "Guinzaglio",
+      "wert": "impianti sportivi, scuole, riserve naturali, Hardwald, Rebberg",
+      "text": "Tieni il tuo cane al guinzaglio lungo le strade molto trafficate e sulle piste ciclabili, sugli impianti sportivi e nelle aree scolastiche e nelle riserve naturali. Il guinzaglio è obbligatorio anche nella parte sud dell'Hardwald, tra la Rheinfelderstrasse e la strada nazionale A2/3, e nel Rebberg (vigneto), tra la Burghaldenstrasse, l'Offenburgstrasse, la Schauenburgstrasse e la Badstubenstrasse. Un cane che non riesci a tenere sotto controllo va tenuto al guinzaglio ovunque. Il Gemeinderat può designare altri luoghi in cui i cani vanno tenuti al guinzaglio o non hanno accesso, anche per un periodo limitato. L'obbligo di guinzaglio nel periodo di cova e di parto è retto dal Wildtier- und Jagdgesetz (legge cantonale sulla fauna selvatica e la caccia).",
+      "quellen": [
+        "bl_muttenz_hundereglement"
+      ]
+    },
+    {
+      "titel": "Escrementi",
+      "wert": "da raccogliere e smaltire",
+      "text": "Devi raccogliere gli escrementi del tuo cane negli spazi accessibili al pubblico e sui terreni agricoli e smaltirli correttamente. Lo stesso vale su un terreno privato altrui. Fanno eccezione le toilette per cani.",
+      "quellen": [
+        "bl_muttenz_hundereglement"
+      ]
+    },
+    {
       "titel": "Multe",
       "wert": "da CHF 100 a CHF 200",
-      "text": "Il Polizeireglement prevede queste multe: violazione dell'obbligo di guinzaglio CHF 100, mancato rispetto del divieto di accesso per i cani CHF 100, mancato rispetto di un divieto per i cani segnalato CHF 200, escrementi non rimossi CHF 100, cane lasciato libero senza sorveglianza CHF 100, pericolo e disturbo dovuti a una detenzione di animali inadeguata CHF 200. I luoghi con obbligo di guinzaglio e con divieto di accesso sono disciplinati dal Reglement über das Halten von Hunden del Comune.",
+      "text": "Il Polizeireglement prevede queste multe: violazione dell'obbligo di guinzaglio CHF 100, mancato rispetto del divieto di accesso per i cani CHF 100, mancato rispetto di un divieto per i cani segnalato CHF 200, escrementi non rimossi CHF 100, cane lasciato libero senza sorveglianza CHF 100, pericolo e disturbo dovuti a una detenzione di animali inadeguata CHF 200. Secondo il Reglement über das Halten von Hunden sono possibili pene fino a CHF 5000. È punibile anche la negligenza.",
       "quellen": [
-        "bl_muttenz_polizeireglement"
+        "bl_muttenz_polizeireglement",
+        "bl_muttenz_hundereglement"
       ]
     },
     {
       "titel": "Cane fuggito",
       "wert": "costi a carico di chi li causa",
-      "text": "Se la Gemeindepolizei riporta un cane fuggito, può addebitarne i costi alla persona che li ha causati.",
+      "text": "Se la Gemeindepolizei riporta un cane fuggito, chiede il rimborso dei costi alla persona che ha causato l'intervento. Per la cattura e la custodia di cani fuggiti e per la loro riconsegna il Comune fattura i costi effettivi.",
       "quellen": [
-        "bl_muttenz_polizeireglement"
+        "bl_muttenz_polizeireglement",
+        "bl_muttenz_hundereglement"
       ]
     }
   ]
