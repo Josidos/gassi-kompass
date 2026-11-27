@@ -1,0 +1,3737 @@
+{
+ "quellen": {
+  "ag_aarau_anmeldung": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "43867c6f92b7623004a6",
+   "url": "https://www.aarau.ch/services/anmeldung-hundehaltung-und-hund.html/2014",
+   "zeichen": 394
+  },
+  "ag_aarau_badev": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "13e62d25873900e99696",
+   "url": "https://aarau.tlex.ch/app/de/texts_of_law/8.2-2",
+   "zeichen": 7
+  },
+  "ag_aarau_bno": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "13e62d25873900e99696",
+   "url": "https://aarau.tlex.ch/app/de/texts_of_law/7.1-1",
+   "zeichen": 7
+  },
+  "ag_aarau_merkblatt": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "b34d97602a6947ee5f86",
+   "url": "https://www.aarau.ch/politik-verwaltung/online-schalter/produktdetails.html/206/product/201",
+   "zeichen": 407
+  },
+  "ag_aarau_polvo": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "13e62d25873900e99696",
+   "url": "https://aarau.tlex.ch/app/de/texts_of_law/5.1-1",
+   "zeichen": 7
+  },
+  "ag_baden_polizeireglement": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 245992,
+   "erster_abruf": "2026-11-27",
+   "summe": "42e16f3ef0ce1eb30b90",
+   "url": "https://www.baden.ch/public/upload/assets/50111/200.100%20Polizeireglement.pdf?fp=5"
+  },
+  "ag_hug": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "13e62d25873900e99696",
+   "url": "https://gesetzessammlungen.ag.ch/app/de/texts_of_law/393.400",
+   "zeichen": 7
+  },
+  "ag_huv": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "13e62d25873900e99696",
+   "url": "https://gesetzessammlungen.ag.ch/app/de/texts_of_law/393.411",
+   "zeichen": 7
+  },
+  "ag_jagdv": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "13e62d25873900e99696",
+   "url": "https://gesetzessammlungen.ag.ch/app/de/texts_of_law/933.211",
+   "zeichen": 7
+  },
+  "ag_kapo_tiere": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "32ba6ced2da6071cfd14",
+   "url": "https://www.ag.ch/de/themen/sicherheit/kantonspolizei/verkehr-und-umwelt/umwelt-und-tierdelikte",
+   "zeichen": 8942
+  },
+  "ag_listenhunde": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "98a26bcede79f37c39df",
+   "url": "https://www.ag.ch/de/themen/landwirtschaft-tiere/heim-und-nutztiere/hunde/listenhunde",
+   "zeichen": 1275
+  },
+  "ag_obvv": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "13e62d25873900e99696",
+   "url": "https://gesetzessammlungen.ag.ch/app/de/texts_of_law/251.213",
+   "zeichen": 7
+  },
+  "ag_rtd": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "13e62d25873900e99696",
+   "url": "https://gesetzessammlungen.ag.ch/app/de/texts_of_law/787.330",
+   "zeichen": 7
+  },
+  "ag_rud": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "13e62d25873900e99696",
+   "url": "https://gesetzessammlungen.ag.ch/app/de/texts_of_law/761.520",
+   "zeichen": 7
+  },
+  "ag_tschv": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "13e62d25873900e99696",
+   "url": "https://gesetzessammlungen.ag.ch/app/de/texts_of_law/393.111",
+   "zeichen": 7
+  },
+  "ag_vet": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "d81e9d03d33a75680f84",
+   "url": "https://www.ag.ch/de/themen/landwirtschaft-tiere/heim-und-nutztiere/hunde",
+   "zeichen": 4390
+  },
+  "ag_wald": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "389560dc9ccc7f166376",
+   "url": "https://www.ag.ch/de/verwaltung/bvu/wald/erholungsraum-wald/leinenpflicht",
+   "zeichen": 1276
+  },
+  "ag_wettingen_polizeireglement": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 235592,
+   "erster_abruf": "2026-11-27",
+   "summe": "ef3a7a14b5b3ed4793b9",
+   "url": "https://www.neuenhof.ch/fileadmin/user_upload/Polizeireglement_Wettingen-Limmattal_ab_1._Januar_2026.pdf"
+  },
+  "ai_alpv": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 158898,
+   "erster_abruf": "2026-11-27",
+   "summe": "a645c2c2aa15f3dfa11f",
+   "url": "https://www.lexfind.ch/tol/1037/de"
+  },
+  "ai_hug": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 136665,
+   "erster_abruf": "2026-11-27",
+   "summe": "51a3b71d0b0e3c73e1a9",
+   "url": "https://www.lexfind.ch/tol/1268/de"
+  },
+  "ai_huv": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 620440,
+   "erster_abruf": "2026-11-27",
+   "summe": "4e13304dd18f1b3a6cd7",
+   "url": "https://www.lexfind.ch/tolv/250167/de"
+  },
+  "ai_jav": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 1409546,
+   "erster_abruf": "2026-11-27",
+   "summe": "2154a184505f8007f2e6",
+   "url": "https://www.lexfind.ch/tolv/250166/de"
+  },
+  "ai_kurs": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "4a2f900c2ef5668467bf",
+   "url": "https://www.ai.ch/themen/landwirtschaft-tierhaltung/tierhaltung/hundehalterausbildung",
+   "zeichen": 1368
+  },
+  "ai_vob": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 113116,
+   "erster_abruf": "2026-11-27",
+   "summe": "30c921d8ac722ef91968",
+   "url": "https://ai.clex.ch/api/annex_document_dictionaries/2903"
+  },
+  "ar_brosch": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 2444127,
+   "erster_abruf": "2026-11-27",
+   "summe": "4888c6273d4cd362c7ae",
+   "url": "https://ar.ch/fileadmin/user_upload/Departement_Gesundheit_Soziales/Veterinaeramt/Hunde/Informationsbroschuere_zur_Hundehaltung_AR_250224_.pdf"
+  },
+  "ar_hug": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 141877,
+   "erster_abruf": "2026-11-27",
+   "summe": "2a3a751ab1be17745595",
+   "url": "https://ar.lexwork.naz.ch/de/dta/525.1.pdf"
+  },
+  "ar_huv": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 246633,
+   "erster_abruf": "2026-11-27",
+   "summe": "37ce29a1742ce120234f",
+   "url": "https://ar.lexwork.naz.ch/de/dta/525.11.pdf"
+  },
+  "ar_jag": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 210764,
+   "erster_abruf": "2026-11-27",
+   "summe": "458b74fd0cba834bea15",
+   "url": "https://ar.lexwork.naz.ch/de/dta/526.2.pdf"
+  },
+  "ar_jav": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 610974,
+   "erster_abruf": "2026-11-27",
+   "summe": "177d53f5455c1547eccc",
+   "url": "https://ar.lexwork.naz.ch/de/dta/526.21.pdf"
+  },
+  "ar_wrz": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 28645,
+   "erster_abruf": "2026-11-27",
+   "summe": "a0c145fc8af02583c4a8",
+   "url": "https://www.AR.ch/fileadmin/user_upload/Departement_Bau_Volkswirtschaft/Amt_fuer_Raum_Wald/Natur_und_Wildtiere/Wildruhezone/Schutzverordnung_Text.pdf"
+  },
+  "be_avet": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 4135979,
+   "erster_abruf": "2026-11-27",
+   "summe": "489c8d86dafd1d7c5b67",
+   "url": "https://www.weu.be.ch/content/dam/weu/dokumente/avet/de/hunde/Broschuere-Hundegesetz-Kanton-Bern-DE.pdf"
+  },
+  "be_avet_fr": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 650204,
+   "erster_abruf": "2026-11-27",
+   "summe": "55b7507806e281f43a97",
+   "url": "https://www.weu.be.ch/content/dam/weu/dokumente/avet/fr/hunde/Broschuere-Hundegesetz-Kanton-Bern-FR.pdf"
+  },
+  "be_biel_hundetaxe": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "a625730b8faaa97bc859",
+   "url": "https://www.biel-bienne.ch/de/hundetaxe.html/724",
+   "zeichen": 5939
+  },
+  "be_biel_opolr": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "13e62d25873900e99696",
+   "url": "https://biel-bienne.tlex.ch/app/de/texts_of_law/5.5-1",
+   "zeichen": 7
+  },
+  "be_biel_opolv": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "13e62d25873900e99696",
+   "url": "https://biel-bienne.tlex.ch/app/de/texts_of_law/5.5-1.1",
+   "zeichen": 7
+  },
+  "be_biel_steuer_regl": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "13e62d25873900e99696",
+   "url": "https://biel-bienne.tlex.ch/app/de/texts_of_law/6.6-1",
+   "zeichen": 7
+  },
+  "be_biel_steuer_vo": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "13e62d25873900e99696",
+   "url": "https://biel-bienne.tlex.ch/app/de/texts_of_law/6.6-1.1",
+   "zeichen": 7
+  },
+  "be_bienne_impots_ord": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "13e62d25873900e99696",
+   "url": "https://biel-bienne.tlex.ch/app/fr/texts_of_law/6.6-1.1",
+   "zeichen": 7
+  },
+  "be_bienne_impots_regl": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "13e62d25873900e99696",
+   "url": "https://biel-bienne.tlex.ch/app/fr/texts_of_law/6.6-1",
+   "zeichen": 7
+  },
+  "be_bienne_opoll": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "13e62d25873900e99696",
+   "url": "https://biel-bienne.tlex.ch/app/fr/texts_of_law/5.5-1.1",
+   "zeichen": 7
+  },
+  "be_bienne_rpoll": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "13e62d25873900e99696",
+   "url": "https://biel-bienne.tlex.ch/app/fr/texts_of_law/5.5-1",
+   "zeichen": 7
+  },
+  "be_bienne_taxe": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "93a90e856dcbb7f43a4a",
+   "url": "https://www.biel-bienne.ch/fr/taxe-chiens.html/724",
+   "zeichen": 7339
+  },
+  "be_burgdorf_anmeldung": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "dc1ec2db0fe96fc008d2",
+   "url": "https://www.burgdorf.ch/de/verwaltung/dienstleistungen/detail/detail.php?i=350",
+   "zeichen": 1797
+  },
+  "be_burgdorf_bestv": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 675726,
+   "erster_abruf": "2026-11-27",
+   "summe": "1385050dca0d58124f50",
+   "url": "https://www.burgdorf.ch/de/verwaltung/dokumente/dokumente/Bestattungsverordnung.pdf"
+  },
+  "be_burgdorf_gebv": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 974416,
+   "erster_abruf": "2026-11-27",
+   "summe": "01ebc272340c84f90633",
+   "url": "https://www.burgdorf.ch/de/verwaltung/dokumente/dokumente/Gebuehrenverordnung.pdf"
+  },
+  "be_burgdorf_hundr": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 384886,
+   "erster_abruf": "2026-11-27",
+   "summe": "b27b80f02bf953d37e74",
+   "url": "https://www.burgdorf.ch/de/verwaltung/dokumente/dokumente/Hundereglement_01.pdf"
+  },
+  "be_burgdorf_taxe_2025": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "5ae2da47f28be1541f3e",
+   "url": "https://www.burgdorf.ch/de/aktuelles/meldungen/Hundetaxe25.php",
+   "zeichen": 1716
+  },
+  "be_chien_fr": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "6570c8bb62b8150a48e8",
+   "url": "https://www.weu.be.ch/fr/start/themen/veterinaerwesen/hunde-im-kanton-bern/einen-hund-kaufen-halten.html",
+   "zeichen": 2240
+  },
+  "be_hug": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "13e62d25873900e99696",
+   "url": "https://www.belex.sites.be.ch/app/de/texts_of_law/916.31",
+   "zeichen": 7
+  },
+  "be_hund_halten": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "a95e13c177d7fea3fe39",
+   "url": "https://www.weu.be.ch/de/start/themen/veterinaerwesen/hunde-im-kanton-bern/einen-hund-kaufen-halten.html",
+   "zeichen": 1990
+  },
+  "be_kapo_fund": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "86fe87496468b281aeb0",
+   "url": "https://www.police.be.ch/de/start/dienstleistungen/online-wache/gefunden-verloren-vermisst.html",
+   "zeichen": 2412
+  },
+  "be_kobv": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "13e62d25873900e99696",
+   "url": "https://www.belex.sites.be.ch/app/de/texts_of_law/324.111",
+   "zeichen": 7
+  },
+  "be_koeniz_eichholz": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 164042,
+   "erster_abruf": "2026-11-27",
+   "summe": "bc0e5ed009c90ca7c741",
+   "url": "https://www.koeniz.ch/public/upload/assets/12189/731.802_verordnung_benutzung_liegewiese_eichholz.pdf?fp=2"
+  },
+  "be_koeniz_friedhof": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 931170,
+   "erster_abruf": "2026-11-27",
+   "summe": "dfc39ce9cd749531af6d",
+   "url": "https://www.koeniz.ch/public/upload/assets/16877/556.11_bestattungs_friedhofsverordnung.pdf?fp=3"
+  },
+  "be_koeniz_haustiere": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "d64721178055ad7fa104",
+   "url": "https://www.koeniz.ch/wohnen/persoenliches/haustiere.page/261",
+   "zeichen": 1316
+  },
+  "be_koeniz_hundetaxe": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 40334,
+   "erster_abruf": "2026-11-27",
+   "summe": "29150dbb6b165743573f",
+   "url": "https://www.koeniz.ch/public/upload/assets/12177/916.31_reglement_hundetaxe.pdf?fp=2"
+  },
+  "be_koeniz_hundetaxe_vo": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 44927,
+   "erster_abruf": "2026-11-27",
+   "summe": "db4d306e8a32f2d0f08f",
+   "url": "https://www.koeniz.ch/public/upload/assets/12113/916.311_verordnung_hundetaxe.pdf?fp=3"
+  },
+  "be_koeniz_liebefeld": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 722158,
+   "erster_abruf": "2026-11-27",
+   "summe": "335677ddce6ed8a9a27a",
+   "url": "https://www.koeniz.ch/public/upload/assets/13298/731.801_Verordnung_Liebefeld_Park.pdf?fp=3"
+  },
+  "be_koeniz_opr": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 113263,
+   "erster_abruf": "2026-11-27",
+   "summe": "dbc47437cf227527034b",
+   "url": "https://www.koeniz.ch/public/upload/assets/12117/553.1_ortspolizeireglement.pdf?fp=2"
+  },
+  "be_koeniz_schlosspark": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 155178,
+   "erster_abruf": "2026-11-27",
+   "summe": "0ca54762be417fc034f1",
+   "url": "https://www.koeniz.ch/public/upload/assets/13232/731.803_verordnung_schlosspark.pdf?fp=2"
+  },
+  "be_koeniz_weiermatt": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 127001,
+   "erster_abruf": "2026-11-27",
+   "summe": "742f2857f445b8213e57",
+   "url": "https://www.koeniz.ch/public/upload/assets/17271/731601_verordnung_benutzung_schwimmbad_weiermatt.pdf?fp=3"
+  },
+  "be_ktsv": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "13e62d25873900e99696",
+   "url": "https://www.belex.sites.be.ch/app/de/texts_of_law/916.51",
+   "zeichen": 7
+  },
+  "be_lchiens_fr": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "13e62d25873900e99696",
+   "url": "https://www.belex.sites.be.ch/app/fr/texts_of_law/916.31",
+   "zeichen": 7
+  },
+  "be_ocao_fr": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "13e62d25873900e99696",
+   "url": "https://www.belex.sites.be.ch/app/fr/texts_of_law/324.111",
+   "zeichen": 7
+  },
+  "be_oce_fr": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "13e62d25873900e99696",
+   "url": "https://www.belex.sites.be.ch/app/fr/texts_of_law/916.51",
+   "zeichen": 7
+  },
+  "be_opac_fr": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "13e62d25873900e99696",
+   "url": "https://www.belex.sites.be.ch/app/fr/texts_of_law/916.812",
+   "zeichen": 7
+  },
+  "be_opfs_fr": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "13e62d25873900e99696",
+   "url": "https://www.belex.sites.be.ch/app/fr/texts_of_law/922.63",
+   "zeichen": 7
+  },
+  "be_ostermundigen_gebuehren": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 447849,
+   "erster_abruf": "2026-11-27",
+   "summe": "4583311f9ad913275e63",
+   "url": "https://www.ostermundigen.ch/wAssets/docs/politik-verwaltung/verwaltung/reglemente-und-verordnungen/verordnungen/Gebuehrenverordnung_224A.pdf"
+  },
+  "be_ostermundigen_hundehaltung": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "f6f9fe940b8ee362d3eb",
+   "url": "https://www.ostermundigen.ch/de/verwaltung/dienstleistungen/96_hundehaltung",
+   "zeichen": 3212
+  },
+  "be_ostermundigen_merkblatt": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 242021,
+   "erster_abruf": "2026-11-27",
+   "summe": "73137b9b5a5783b00464",
+   "url": "https://www.ostermundigen.ch/wAssets/docs/politik-verwaltung/verwaltung/dienstleistungen/hundehaltung/MERKBLATT_FUER_HUNDEHALTER_INNEN_2020.pdf"
+  },
+  "be_ostermundigen_opr": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 491337,
+   "erster_abruf": "2026-11-27",
+   "summe": "36814d0b5888bccda9bc",
+   "url": "https://www.ostermundigen.ch/wAssets/docs/politik-verwaltung/verwaltung/reglemente-und-verordnungen/reglemente/Ortspolizeireglement_207.pdf"
+  },
+  "be_ostermundigen_park": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 388252,
+   "erster_abruf": "2026-11-27",
+   "summe": "3cc5fb562fd812083be0",
+   "url": "https://www.ostermundigen.ch/wAssets/docs/politik-verwaltung/verwaltung/reglemente-und-verordnungen/reglemente/Reglement_Benuetzung_Park_Gruenanlagen_230.pdf"
+  },
+  "be_ostermundigen_schulanlagen": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 141112,
+   "erster_abruf": "2026-11-27",
+   "summe": "6544d9eefe543b949a3e",
+   "url": "https://www.ostermundigen.ch/wAssets/docs/politik-verwaltung/verwaltung/reglemente-und-verordnungen/verordnungen/BenuetzungsordnungAussenplaetze_Schul-Sportanlagen__414A.pdf"
+  },
+  "be_plan": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "ab2c4bf096f08b34ee58",
+   "url": "https://map.bern.ch/geoportal/#/produkt/Hundeverordnung_Leinenpflicht",
+   "zeichen": 18003
+  },
+  "be_police_fr": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "bd5d2d930227a7210458",
+   "url": "https://www.police.be.ch/fr/start/dienstleistungen/online-wache/gefunden-verloren-vermisst.html",
+   "zeichen": 2792
+  },
+  "be_stadt_hunde": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "5aed73e0d5ee56abe401",
+   "url": "https://www.bern.ch/themen/umwelt-natur-und-energie/tiere/hunde",
+   "zeichen": 6565
+  },
+  "be_steffisburg_anmeldung": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "dde1a148978bfcec8a77",
+   "url": "https://www.steffisburg.ch/de/verwaltung/dienstleistungen/149_hund-anmelden---abmelden",
+   "zeichen": 1675
+  },
+  "be_steffisburg_friedhof": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 80501,
+   "erster_abruf": "2026-11-27",
+   "summe": "66c84debc0af2734366f",
+   "url": "https://www.steffisburg.ch/de/verwaltung/dokumente/dokumente/friedhof_bestattung/Friedhof-_und_Bestattungsreglement.pdf"
+  },
+  "be_steffisburg_hundetaxe": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "9da3f2a03d76ea65fbb4",
+   "url": "https://www.steffisburg.ch/de/verwaltung/dienstleistungen/detail/detail.php?i=54",
+   "zeichen": 987
+  },
+  "be_steffisburg_polizeireglement": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 109568,
+   "erster_abruf": "2026-11-27",
+   "summe": "3f6052daac168e3d4758",
+   "url": "https://www.steffisburg.ch/de/verwaltung/dokumente/dokumente/Polizeireglement.pdf"
+  },
+  "be_taxe": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 4970779,
+   "erster_abruf": "2026-11-27",
+   "summe": "c4ec55e6c3d85146e6a0",
+   "url": "https://ris.bern.ch/de/dokumente/e1b88c4ccbbe4b1696cb3afa05969a01-332"
+  },
+  "be_thun_friedhof": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 164852,
+   "erster_abruf": "2026-11-27",
+   "summe": "973c06e2e80adfeb8348",
+   "url": "https://www.thun.ch/_docn/4355635/556.01.1_Bestattungs-_u.Friedhofverordnung_i.K.1.10.2021.pdf"
+  },
+  "be_thun_hundehaltung": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "49a0991a91c4f9d9c0a3",
+   "url": "https://www.thun.ch/hundehaltung",
+   "zeichen": 7723
+  },
+  "be_thun_opr": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 364475,
+   "erster_abruf": "2026-11-27",
+   "summe": "b26f084d5c9d1303245f",
+   "url": "https://www.thun.ch/_docn/5019637/552.01_Ortspolizeireglement.pdf"
+  },
+  "be_thun_plan": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 3183310,
+   "erster_abruf": "2026-11-27",
+   "summe": "171284373ab64717f1c4",
+   "url": "https://www.thun.ch/_docn/6902509/Situationsplan_Parkreglement.pdf"
+  },
+  "be_thun_seeufer": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "9b423fe93051ddb4188c",
+   "url": "https://www.thun.ch/medienmitteilungen/2818087",
+   "zeichen": 5823
+  },
+  "be_thun_vbs": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 1033657,
+   "erster_abruf": "2026-11-27",
+   "summe": "f0824016d9eafdc1e8f9",
+   "url": "https://www.thun.ch/_docn/6899464/733.10_Verordnung_Ben%C3%BCtzung_Seeuferbereich...,_i.K.1.4.2026.pdf"
+  },
+  "be_thv": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "13e62d25873900e99696",
+   "url": "https://www.belex.sites.be.ch/app/de/texts_of_law/916.812",
+   "zeichen": 7
+  },
+  "be_wald": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "a31c8ac789f7fd2735de",
+   "url": "https://www.plattformj.ch/artikel/213577/",
+   "zeichen": 3546
+  },
+  "be_wtschv": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "13e62d25873900e99696",
+   "url": "https://www.belex.sites.be.ch/app/de/texts_of_law/922.63",
+   "zeichen": 7
+  },
+  "be_zoo": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 88841,
+   "erster_abruf": "2026-11-27",
+   "summe": "286e6e0ec113a9bfef5b",
+   "url": "https://stadtrat.bern.ch/de/dokumente/6826da361b6a48d890b7e840a497011e-332"
+  },
+  "bl_allschwil_gebuehren": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "d65c44dc71b753cff3e6",
+   "url": "https://www.allschwil.ch/de/verwaltung/dienstleistungen/detail/detail.php?i=341",
+   "zeichen": 4831
+  },
+  "bl_allschwil_hunde": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "b12e3fd80df4b02c36a5",
+   "url": "https://www.allschwil.ch/de/verwaltung/dienstleistungen/detail/detail.php?i=107",
+   "zeichen": 5878
+  },
+  "bl_allschwil_pr": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 921382,
+   "erster_abruf": "2026-11-27",
+   "summe": "d25463adc6fcb2de1c0d",
+   "url": "https://www.allschwil.ch/de/verwaltung/dokumente/dokumente/Polizeireglementvom22.Februar2017.pdf"
+  },
+  "bl_allschwil_prv": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 124298,
+   "erster_abruf": "2026-11-27",
+   "summe": "892021eebf595fc38299",
+   "url": "https://allschwil.ch/de/verwaltung/dokumente/dokumente/VerordnungzumPolizeireglementvom14.Juni2017.pdf"
+  },
+  "bl_fundwesen": {
+   "fehler": "403",
+   "fehler_am": "2026-11-27",
+   "url": "https://www.baselland.ch/politik-und-behorden/direktionen/sicherheitsdirektion/generalsekretariat/fundburo-verwertungsdienst/fundwesen"
+  },
+  "bl_fuv": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "13e62d25873900e99696",
+   "url": "https://bl.clex.ch/app/de/texts_of_law/211.91",
+   "zeichen": 7
+  },
+  "bl_hug": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "13e62d25873900e99696",
+   "url": "https://bl.clex.ch/app/de/texts_of_law/342",
+   "zeichen": 7
+  },
+  "bl_leinenpflicht": {
+   "fehler": "403",
+   "fehler_am": "2026-11-27",
+   "url": "https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fuer-wald-beider-basel/wildtiere-jagd-und-fischerei/leinenpflicht"
+  },
+  "bl_liestal_anmeldung": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "973e902d7ac12876b46c",
+   "url": "https://www.liestal.ch/de/onlinedienste/online-schalter/?action=showdetail&dienst_id=25943",
+   "zeichen": 2363
+  },
+  "bl_liestal_gebuehren": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 14930,
+   "erster_abruf": "2026-11-27",
+   "summe": "686f743cfa502f10b545",
+   "url": "https://www.liestal.ch/_docn/3546641/700.11_Gebuhrenverordnung_zum_Polizeireglement_neu.pdf"
+  },
+  "bl_liestal_hundekontrolle": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "e6660c2b3d69e6df23cc",
+   "url": "https://www.liestal.ch/de/verwaltung/dienstleistungen/welcome.php?dienst_id=2753",
+   "zeichen": 2818
+  },
+  "bl_liestal_polizeireglement": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 212546,
+   "erster_abruf": "2026-11-27",
+   "summe": "bd439bdddd02049e98eb",
+   "url": "https://www.liestal.ch/_docn/3392362/700_Polizeireglement.pdf"
+  },
+  "bl_muttenz_gebuehren": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "e22eefc788b1db7800d4",
+   "url": "https://www.muttenz.ch/reglemente/5795",
+   "zeichen": 2435
+  },
+  "bl_muttenz_hund": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "7f86cc869eb91aff367c",
+   "url": "https://www.muttenz.ch/online-schalter/4702/detail",
+   "zeichen": 2963
+  },
+  "bl_muttenz_hundereglement": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "c88417062736e2699ddc",
+   "url": "https://www.muttenz.ch/reglemente/5796",
+   "zeichen": 2434
+  },
+  "bl_muttenz_polizeireglement": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 221083,
+   "erster_abruf": "2026-11-27",
+   "summe": "7c075c491ace3c0172c8",
+   "url": "https://www.muttenz.ch/_docn/5451034/11.100_Polizeireglement.pdf"
+  },
+  "bl_pgh": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "13e62d25873900e99696",
+   "url": "https://bl.clex.ch/app/de/texts_of_law/342.12",
+   "zeichen": 7
+  },
+  "bl_vet_hunde": {
+   "fehler": "403",
+   "fehler_am": "2026-11-27",
+   "url": "https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/lebensmittelsicherheit-und-veterinarwesen/veterinaerwesen/hunde"
+  },
+  "bl_vet_registrierung": {
+   "fehler": "403",
+   "fehler_am": "2026-11-27",
+   "url": "https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/lebensmittelsicherheit-und-veterinarwesen/veterinaerwesen/registrierung-von-tieren"
+  },
+  "bl_wald": {
+   "fehler": "403",
+   "fehler_am": "2026-11-27",
+   "url": "https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/medienmitteilungen/leinenpflicht-zum-schutz-von-wildtieren-in-beiden-basel"
+  },
+  "bl_wjg": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "13e62d25873900e99696",
+   "url": "https://bl.clex.ch/app/de/texts_of_law/520",
+   "zeichen": 7
+  },
+  "bl_wjv": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "13e62d25873900e99696",
+   "url": "https://bl.clex.ch/app/de/texts_of_law/520.11",
+   "zeichen": 7
+  },
+  "bs_anmelden": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "37a8a193d0edbcfc8589",
+   "url": "https://www.bs.ch/themen/umwelt-und-bauen/tiere-und-pflanzen/hunde/hund-anmelden",
+   "zeichen": 4409
+  },
+  "bs_hug": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 180096,
+   "erster_abruf": "2026-11-27",
+   "summe": "080458a4196adeb266ac",
+   "url": "https://bs.lexwork.naz.ch/de/dta/365.100.pdf"
+  },
+  "bs_huv": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 297146,
+   "erster_abruf": "2026-11-27",
+   "summe": "17fc0404ad1ec9d424d4",
+   "url": "https://bs.lexwork.naz.ch/de/dta/365.110.pdf"
+  },
+  "bs_kurse": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "fbeb863910846be79226",
+   "url": "https://www.bs.ch/gd/veterinaeramt/hundehaltende/hundekurse",
+   "zeichen": 7935
+  },
+  "bs_rassen": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "c3ea7dea61b47920b3f3",
+   "url": "https://www.bs.ch/themen/umwelt-und-bauen/tiere-und-pflanzen/hunde/bewilligungspflichtige-hunderassen",
+   "zeichen": 5313
+  },
+  "bs_riehen_mm_2024": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 166470,
+   "erster_abruf": "2026-11-27",
+   "summe": "7be1ac3458ed0d0f1f5d",
+   "url": "https://www.riehen.ch/wAssets/docs/aktuelles/medienmitteilungen/MM-Leinenpflicht-Hunde-Brut-und-Setzzeit.pdf"
+  },
+  "bs_riehen_schutz": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "1eebfabd7afbc995d3b1",
+   "url": "https://www.riehen.ch/verwaltung/dienstleistungen/306_schutzmassnahmen-f%C3%BCr-flora-und-fauna",
+   "zeichen": 2601
+  },
+  "bs_steuer": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 75348,
+   "erster_abruf": "2026-11-27",
+   "summe": "d0ba788e00b68b3bb4ef",
+   "url": "https://media.bs.ch/original_file/2f725d1ea97f551a364bf2f58c526a40f0860cd8/merkblatt-hundesteuer-2026-27.pdf"
+  },
+  "bs_vet": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "1116a66bb9b16efa30b7",
+   "url": "https://www.bs.ch/gd/veterinaeramt/hundehaltende",
+   "zeichen": 7462
+  },
+  "bs_wjg": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 228777,
+   "erster_abruf": "2026-11-27",
+   "summe": "cda461c95841b986edc9",
+   "url": "https://bs.lexwork.naz.ch/de/dta/912.200.pdf"
+  },
+  "bs_zonen": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 39427,
+   "erster_abruf": "2026-11-27",
+   "summe": "7b09686f4c76a123b737",
+   "url": "https://media.bs.ch/original_file/7e5ff50aef5ff36b2b9416185a998da1000236aa/hundeverbots-und-leinenpflichtzonen.pdf"
+  },
+  "ch_bafu_districts": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "63591b2850f7b5a6b695",
+   "url": "https://www.bafu.admin.ch/fr/districts-francs",
+   "zeichen": 6964
+  },
+  "ch_bafu_jagdbann": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "ae2d31e96e07c7bea230",
+   "url": "https://www.bafu.admin.ch/de/jagdbanngebiete",
+   "zeichen": 6491
+  },
+  "ch_blv_cani": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "b0892dbe8262c1b2ea4a",
+   "url": "https://www.blv.admin.ch/it/cani",
+   "zeichen": 19945
+  },
+  "ch_blv_chiens": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "8410989aab3f57cdc0a2",
+   "url": "https://www.blv.admin.ch/fr/chiens",
+   "zeichen": 20802
+  },
+  "ch_blv_hunde": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "d0f634e41c4e4969ebbd",
+   "url": "https://www.blv.admin.ch/de/hunde",
+   "zeichen": 17994
+  },
+  "ch_chch_fund": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "b7597e15a540247bfb02",
+   "url": "https://www.ch.ch/de/sicherheit-und-recht/polizei/fundgegenstande/",
+   "zeichen": 3799
+  },
+  "ch_chch_imposta": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "771aa4ea7d37c7a67a20",
+   "url": "https://www.ch.ch/it/imposte-e-finanze/tipi-d-imposta/imposta-sui-cani/",
+   "zeichen": 1992
+  },
+  "ch_chch_objets": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "7cd9198801aff555775d",
+   "url": "https://www.ch.ch/fr/securite-et-droit/police/objets-trouves/",
+   "zeichen": 4847
+  },
+  "ch_chch_oggetti": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "05c81b14a26197d88636",
+   "url": "https://www.ch.ch/it/sicurezza-e-diritto/polizia/oggetti-trovati/",
+   "zeichen": 4554
+  },
+  "ch_chch_steuer": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "9e26da091bdd18c43d3d",
+   "url": "https://www.ch.ch/de/steuern-und-finanzen/steuerarten/hundesteuer/",
+   "zeichen": 1896
+  },
+  "ch_chch_taxe": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "f686e19ed3354406ce66",
+   "url": "https://www.ch.ch/fr/impots-et-finances/types-d-impots/imposition-des-chiens/",
+   "zeichen": 1956
+  },
+  "ch_swisstopo_orte": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "ae287e2a7c56dd069492",
+   "url": "https://opendata.swiss/de/dataset/amtliches-ortschaftenverzeichnis-mit-postleitzahl-und-perimeter",
+   "zeichen": 2588
+  },
+  "fr_ausbildner": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "d3cfe0db438803ab714c",
+   "url": "https://www.fr.ch/de/alltag/heimtiere/hunde/hundeausbildnerinnen-und-hundeausbildner",
+   "zeichen": 3617
+  },
+  "fr_educateurs": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "3896a12987ae89e5fbb1",
+   "url": "https://www.fr.ch/vie-quotidienne/animaux-de-compagnie/chiens/educatrices-et-educateurs-canins",
+   "zeichen": 3722
+  },
+  "fr_foret": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "3ac1424df0c2c51f951a",
+   "url": "https://www.fr.ch/energie-agriculture-et-environnement/forets/comportements-respectueux-en-foret",
+   "zeichen": 9857
+  },
+  "fr_hhg": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 497996,
+   "erster_abruf": "2026-11-27",
+   "summe": "edafc1bca53b555e68ed",
+   "url": "https://www.lexfind.ch/tol/6275/de"
+  },
+  "fr_impot": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "19402c572509cbd070d3",
+   "url": "https://www.fr.ch/vie-quotidienne/animaux-de-compagnie/chiens/impot-sur-les-chiens",
+   "zeichen": 1443
+  },
+  "fr_interdits": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "daa647ff6c1fc9ee7658",
+   "url": "https://www.fr.ch/vie-quotidienne/animaux-de-compagnie/chiens/chiens-interdits",
+   "zeichen": 1588
+  },
+  "fr_ldch": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 487745,
+   "erster_abruf": "2026-11-27",
+   "summe": "4db9a6770a842d629b22",
+   "url": "https://fr.lexwork.naz.ch/fr/dta/725.3.pdf"
+  },
+  "fr_neu": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "42ca4c569278ef0317e7",
+   "url": "https://www.fr.ch/de/alltag/heimtiere/neue-hundehalterin-oder-neuer-hundehalter",
+   "zeichen": 2285
+  },
+  "fr_nouveau": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "ab28aab0faf5c583f405",
+   "url": "https://www.fr.ch/vie-quotidienne/animaux-de-compagnie/chiens/nouveau-detenteur-ou-nouvelle-detentrice-de-chiens",
+   "zeichen": 2448
+  },
+  "fr_ocao": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 506815,
+   "erster_abruf": "2026-11-27",
+   "summe": "ea64cdbf29ce613bcd53",
+   "url": "https://www.lexfind.ch/tolv/240022/fr"
+  },
+  "fr_rdch": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 270686,
+   "erster_abruf": "2026-11-27",
+   "summe": "fd2c18a69f9d27f3e403",
+   "url": "https://fr.lexwork.naz.ch/fr/dta/725.31.pdf"
+  },
+  "fr_steuer": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "6e99238a58cb2d22bd1c",
+   "url": "https://www.fr.ch/de/alltag/heimtiere/hunde/hundegebuehr",
+   "zeichen": 1220
+  },
+  "fr_verboten": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "f2ae33ddf3ee992721bf",
+   "url": "https://www.fr.ch/de/alltag/heimtiere/verbotene-hunde",
+   "zeichen": 1532
+  },
+  "fr_ville_cimetiere": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 309132,
+   "erster_abruf": "2026-11-27",
+   "summe": "4087e32bbcf4a247c00f",
+   "url": "https://www.ville-fribourg.ch/sites/default/files/2025-12/610.1_reglement_du_cimetiere_communal_2024.pdf"
+  },
+  "fr_ville_impot": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 263373,
+   "erster_abruf": "2026-11-27",
+   "summe": "c1f27dfdd0a82dd1945e",
+   "url": "https://www.ville-fribourg.ch/sites/default/files/2020-10/410.2_reglement_impot_sur_les_chiens_1993.pdf"
+  },
+  "fr_ville_rgp": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 690971,
+   "erster_abruf": "2026-11-27",
+   "summe": "21a1477b91fda758ea86",
+   "url": "https://ville-fribourg.ch/sites/default/files/inline-files/CG230704_Règlement général de police.pdf"
+  },
+  "fr_ville_rgp_d": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 926760,
+   "erster_abruf": "2026-11-27",
+   "summe": "7a122ca4e284f1e9a428",
+   "url": "https://ville-fribourg.ch/sites/default/files/2024-12/300.1_reglement_de_police_2022_mv_d.pdf"
+  },
+  "fr_wald": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "2f0de1c631e279725bf6",
+   "url": "https://www.fr.ch/de/energie-landwirtschaft-und-umwelt/waelder/respektvolles-verhalten-im-wald",
+   "zeichen": 9396
+  },
+  "ge_declarer": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "66cf62e670d6c731947c",
+   "url": "https://www.ge.ch/detenir-chien/declarer-mon-chien",
+   "zeichen": 1465
+  },
+  "ge_detenir": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "26f6cd80e52eeda853d0",
+   "url": "https://www.ge.ch/detenir-chien",
+   "zeichen": 1966
+  },
+  "ge_espaces": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "b6ed4b325f30c178eb54",
+   "url": "https://www.ge.ch/detenir-chien/espaces-liberte-parcs-publics-interdits-aux-chiens",
+   "zeichen": 357
+  },
+  "ge_fourriere": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "b97cd12f35be5980391b",
+   "url": "https://www.ge.ch/animaux-perdus-trouves/chien-perdu-trouve-fourriere-cantonale",
+   "zeichen": 897
+  },
+  "ge_impot_calcul": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "5d877d5e310348c3096b",
+   "url": "https://www.ge.ch/impot-chiens/calculer-payer-impot-chiens",
+   "zeichen": 1740
+  },
+  "ge_impot_centimes": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "b05eb317f5b70d1d5552",
+   "url": "https://www.ge.ch/document/impots-chiens-centimes-additionnels",
+   "zeichen": 1272
+  },
+  "ge_impot_qui": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "24e38d4a5b9a90def40a",
+   "url": "https://www.ge.ch/impot-chiens/qui-est-soumis-impot-chiens",
+   "zeichen": 1403
+  },
+  "ge_lchiens": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "606d5f74bc69cee1a0cf",
+   "url": "https://silgeneve.ch/legis/data/rsg_m3_45.htm",
+   "zeichen": 32354
+  },
+  "ge_marque": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "6c6843b88b90295c2794",
+   "url": "https://www.ge.ch/detenir-chien/obtenir-marque-controle",
+   "zeichen": 1200
+  },
+  "ge_perdus": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "dbace1a2a028cbe65473",
+   "url": "https://www.ge.ch/animaux-perdus-trouves",
+   "zeichen": 1037
+  },
+  "ge_promenade": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "aaadd62f898a4374f935",
+   "url": "https://www.ge.ch/detenir-chien/regles-promener-son-chien",
+   "zeichen": 1974
+  },
+  "ge_races": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "98bb076f0d73b98e9c7d",
+   "url": "https://www.ge.ch/detenir-chien/races-canines-interdites-geneve",
+   "zeichen": 3960
+  },
+  "ge_rchiens": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "be8c9eee1c43a81dfaaa",
+   "url": "https://silgeneve.ch/legis/data/rsg_m3_45p01.htm",
+   "zeichen": 18957
+  },
+  "ge_restitution": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "d67f8f933de153b41704",
+   "url": "https://www.ge.ch/animaux-perdus-trouves/conditions-restitution-votre-chien",
+   "zeichen": 885
+  },
+  "ge_rfour": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "5a9d8735a7118f82bfd1",
+   "url": "https://silgeneve.ch/legis/data/rsg_m3_50p07.htm",
+   "zeichen": 5956
+  },
+  "ge_roac": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "1738cc930ba5296e6fc8",
+   "url": "https://silgeneve.ch/legis/data/rsg_b4_05p10.htm",
+   "zeichen": 22664
+  },
+  "ge_scav": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "cc1129f7b88e61a3be94",
+   "url": "https://www.ge.ch/organisation/ocs-service-consommation-affaires-veterinaires",
+   "zeichen": 2078
+  },
+  "ge_tmc": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "3bac1a1360ecf71ef024",
+   "url": "https://www.ge.ch/detenir-chien/cours-education-canine-tmc",
+   "zeichen": 2269
+  },
+  "ge_ville_lieux": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "ca64fdfe91dce2ddb858",
+   "url": "https://www.geneve.ch/public/proprietaires-chiens/lieux-permis-interdits-chiens",
+   "zeichen": 3707
+  },
+  "ge_ville_obligations": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "1d325a6b911b02c30e60",
+   "url": "https://www.geneve.ch/public/proprietaires-chiens/obligations-proprietaires",
+   "zeichen": 4299
+  },
+  "gl_egtsch": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "13e62d25873900e99696",
+   "url": "https://gesetze.gl.ch/app/de/texts_of_law/IV-G.3.2",
+   "zeichen": 7
+  },
+  "gl_egzgb": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "13e62d25873900e99696",
+   "url": "https://gesetze.gl.ch/app/de/texts_of_law/III-B.1.1",
+   "zeichen": 7
+  },
+  "gl_glarus_hunde": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "1a2bcd9dad4b9d2445c2",
+   "url": "https://www.glarus.ch/onlineschalter/dienstleistungen-von-abisz.html/6136/egov_service/377",
+   "zeichen": 3881
+  },
+  "gl_huettenboeschen": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "6590e6eabc4d9ae15585",
+   "url": "https://www.gl.ch/verwaltung/bau-und-umwelt/umwelt-wald-und-energie/umweltschutz-und-energie/natur-landschaftsschutz/schutzgebiet-huettenboeschen-seeflechsen.html/759",
+   "zeichen": 2743
+  },
+  "gl_hundewesen": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "d18c7c65a5c0d232d073",
+   "url": "https://www.gr.ch/DE/institutionen/verwaltung/dvs/alt/tiere/hundewesen/Seiten/default.aspx",
+   "zeichen": 23
+  },
+  "gl_jagdbann": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 101141,
+   "erster_abruf": "2026-11-27",
+   "summe": "3390eb2370dfda3c8d49",
+   "url": "https://www.gl.ch/public/upload/assets/3476/VollzugLeinenpflichtEJBG.pdf?fp=1"
+  },
+  "gl_jagdv": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "13e62d25873900e99696",
+   "url": "https://gesetze.gl.ch/app/de/texts_of_law/VI-E.211.2",
+   "zeichen": 7
+  },
+  "gl_kal": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 102023,
+   "erster_abruf": "2026-11-27",
+   "summe": "c1371e4f22648d3f64cb",
+   "url": "https://www.gr.ch/DE/institutionen/verwaltung/dvs/alt/tiere/hundewesen/Documents/Erkl%c3%a4rung%20KAL%20f%c3%bcr%20Homepage.pdf"
+  },
+  "gl_merkblatt": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 160485,
+   "erster_abruf": "2026-11-27",
+   "summe": "7a11bc389a4810dec4e9",
+   "url": "https://www.gr.ch/DE/institutionen/verwaltung/dvs/alt/tiere/hundewesen/Documents/1960%20GL_Merkblatt%20bewilligungspflichtige%20Hundehaltung%20im%20Kanton%20Glarus.pdf"
+  },
+  "gl_obv": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "13e62d25873900e99696",
+   "url": "https://gesetze.gl.ch/app/de/texts_of_law/III-F.1.1",
+   "zeichen": 7
+  },
+  "gl_vetv": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "13e62d25873900e99696",
+   "url": "https://gesetze.gl.ch/app/de/texts_of_law/IX-D.633.2",
+   "zeichen": 7
+  },
+  "gl_wrzv": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "13e62d25873900e99696",
+   "url": "https://gesetze.gl.ch/app/de/texts_of_law/VI-E.22.7",
+   "zeichen": 7
+  },
+  "gr_cani_it": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "27f5bf41940608efa824",
+   "url": "https://www.gr.ch/IT/istituzioni/amministrazione/dvs/alt/tiere/cani/Seiten/default.aspx",
+   "zeichen": 25
+  },
+  "gr_chur_hunde": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "f8c5342d2cdf4e2c80c6",
+   "url": "https://www.chur.ch/stadtpolizei/327",
+   "zeichen": 7576
+  },
+  "gr_chur_regeln": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 1759148,
+   "erster_abruf": "2026-11-27",
+   "summe": "f4a223db4ddbba6aa6c5",
+   "url": "https://www.chur.ch/merkblaetter/94168"
+  },
+  "gr_davos_hunde": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "70fb74e8343376f613ea",
+   "url": "https://www.gemeindedavos.ch/dienstleistungen/27960",
+   "zeichen": 3410
+  },
+  "gr_davos_hundegesetz": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 26237,
+   "erster_abruf": "2026-11-27",
+   "summe": "c041bb7a7b1bc0c52304",
+   "url": "https://www.gemeindedavos.ch/_docn/5009299/DRB_32.pdf"
+  },
+  "gr_davos_hundeverordnung": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 13126,
+   "erster_abruf": "2026-11-27",
+   "summe": "faf1ed2c1c4d1e3395e9",
+   "url": "https://www.gemeindedavos.ch/_docn/3541403/Verordnung_zum_Gemeindegesetz_uber_das_Halten_von_Hunden32.1.pdf"
+  },
+  "gr_domat_ems_flur": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "77906d09e89b0d99f645",
+   "url": "https://www.domat-ems.ch/_rte/information/2808640",
+   "zeichen": 1976
+  },
+  "gr_domat_ems_friedhof": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "13e62d25873900e99696",
+   "url": "https://domat-ems.tlex.ch/app/de/texts_of_law/8.2-1.1",
+   "zeichen": 7
+  },
+  "gr_domat_ems_landwirtschaft": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "13e62d25873900e99696",
+   "url": "https://domat-ems.tlex.ch/app/de/texts_of_law/9.2-1",
+   "zeichen": 7
+  },
+  "gr_domat_ems_melden": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "7e0fbf8465d88e9d81ff",
+   "url": "https://www.domat-ems.ch/online-schalter/76078/detail",
+   "zeichen": 2383
+  },
+  "gr_domat_ems_meldepflicht": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "b53be0a60af3f23fc47d",
+   "url": "https://www.domat-ems.ch/archiv/1867531",
+   "zeichen": 1730
+  },
+  "gr_domat_ems_ordnungsbussen": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "13e62d25873900e99696",
+   "url": "https://domat-ems.tlex.ch/app/de/texts_of_law/5.1-2",
+   "zeichen": 7
+  },
+  "gr_domat_ems_polizeigesetz": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "13e62d25873900e99696",
+   "url": "https://domat-ems.tlex.ch/app/de/texts_of_law/5.1-1",
+   "zeichen": 7
+  },
+  "gr_domat_ems_steuergesetz": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "13e62d25873900e99696",
+   "url": "https://domat-ems.tlex.ch/app/de/texts_of_law/6.3-1",
+   "zeichen": 7
+  },
+  "gr_hundewesen": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "d18c7c65a5c0d232d073",
+   "url": "https://www.gr.ch/DE/institutionen/verwaltung/dvs/alt/tiere/hundewesen/Seiten/default.aspx",
+   "zeichen": 23
+  },
+  "gr_jagdg": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 1268758,
+   "erster_abruf": "2026-11-27",
+   "summe": "ae040122289f8df9780e",
+   "url": "https://www.lexfind.ch/tol/8043/de"
+  },
+  "gr_jagdv": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 796543,
+   "erster_abruf": "2026-11-27",
+   "summe": "5587f74cab01666407f8",
+   "url": "https://www.lexfind.ch/tol/8040/de"
+  },
+  "gr_landquart_hundekontrolle": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "af442f12d505fa8b4f29",
+   "url": "https://www.landquart.ch/landquart-online/online-schalter/hundekontrolle-an-und-abmeldung/",
+   "zeichen": 2230
+  },
+  "gr_landquart_hundekot": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "7b35de173d87ea29431d",
+   "url": "https://www.landquart.ch/hundekot-auf-wiesen-feldern-strassen-und-wegen-2/",
+   "zeichen": 1878
+  },
+  "gr_landquart_rheinauen": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "32893ad7ffa1b1c0acee",
+   "url": "https://www.landquart.ch/kultur-freizeit/natur/mastrilser-rheinauen/",
+   "zeichen": 3160
+  },
+  "gr_landquart_steuern": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "467f5f5be336af2c930a",
+   "url": "https://www.landquart.ch/abteilungen/steuern/",
+   "zeichen": 14926
+  },
+  "gr_lcc_it": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 1272316,
+   "erster_abruf": "2026-11-27",
+   "summe": "a67e0aa14132c8de0539",
+   "url": "https://www.lexfind.ch/tol/8043/it"
+  },
+  "gr_lvet_it": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 469539,
+   "erster_abruf": "2026-11-27",
+   "summe": "2a153bc32ceb5ad68ba0",
+   "url": "https://www.lexfind.ch/tolv/40421/it"
+  },
+  "gr_ogc_it": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 796806,
+   "erster_abruf": "2026-11-27",
+   "summe": "bf6e18f759e73bf6be44",
+   "url": "https://www.lexfind.ch/tol/8040/it"
+  },
+  "gr_vetg": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 760277,
+   "erster_abruf": "2026-11-27",
+   "summe": "94af8527f230db36c50c",
+   "url": "https://gr.lexwork.naz.ch/de/dta/914.000.pdf"
+  },
+  "ju_delemont_budget": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 1665613,
+   "erster_abruf": "2026-11-27",
+   "summe": "a3bc2b8debcff74c744a",
+   "url": "https://www.delemont.ch/Htdocs/Files/v/3667224c220a3f70ef5e4e3f23240ced5ba7d5c524dd01482e367de65f42bdc5.pdf/Documents-du-Conseil-de-Ville/Budget-communal-2026_message-final.pdf"
+  },
+  "ju_milieux_2026": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "322d42341ab59a497295",
+   "url": "https://www.jura.ch/fr/Autorites/Administration/CHA/SIC/Centre-medias/Communiques-2026/Les-milieux-naturels-du-canton-accueillent-le-public-dans-le-respect-de-la-faune-et-de-la-flore-sauvages.html",
+   "zeichen": 5475
+  },
+  "ju_ochasse": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 210656,
+   "erster_abruf": "2026-11-27",
+   "summe": "241204de73c1fd5e1250",
+   "url": "https://rsju.jura.ch/fr/viewdocument.html?idn=20201&id=34015&v=1&Download=1"
+  },
+  "ju_opa": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 126748,
+   "erster_abruf": "2026-11-27",
+   "summe": "d9e677ccdbe1be54414c",
+   "url": "https://rsju.jura.ch/fr/viewdocument.html?idn=20087&id=34499&download=1"
+  },
+  "ju_rsju_taxe": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "ee3a53d25bc2ee49a1ca",
+   "url": "https://rsju.jura.ch/fr/viewdocument.html?idn=20117&id=26739",
+   "zeichen": 1466
+  },
+  "ju_scav_amicus": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "0d478ee645c34d33353a",
+   "url": "https://www.jura.ch/fr/Autorites/Administration/DES/SCAV/Section-affaires-veterinaires/Chiens/AMICUS-Banque-de-donnees-des-chiens/Banque-de-donnees-nationale-des-chiens.html",
+   "zeichen": 3570
+  },
+  "ju_scav_chiens": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "9f6c629b4bb4c4ed504f",
+   "url": "https://www.jura.ch/fr/Autorites/Administration/DES/SCAV/Section-affaires-veterinaires/Chiens/Chiens.html",
+   "zeichen": 7465
+  },
+  "lu_ebikon_hundesteuer": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "b159eaf517daa7bbf032",
+   "url": "https://www.ebikon.ch/topics/finanzen-steuern/steuern-inkasso/hundesteuer",
+   "zeichen": 12286
+  },
+  "lu_ebikon_waldreservat": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "1e574bdb7c896a8c4ec4",
+   "url": "https://www.ebikon.ch/news/waldreservat-zunehmend-unter-druck",
+   "zeichen": 13453
+  },
+  "lu_emmen_anmeldung": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "2f55a2062c505219f1cf",
+   "url": "https://www.emmen.ch/online-schalter/88487/detail",
+   "zeichen": 4511
+  },
+  "lu_emmen_friedhof": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 266994,
+   "erster_abruf": "2026-11-27",
+   "summe": "0c4fed9329716b6c963c",
+   "url": "https://www.emmen.ch/_docn/5048941/Reglement.pdf"
+  },
+  "lu_emmen_steuer": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "ee5a3eba6af5a8e46759",
+   "url": "https://www.emmen.ch/steuern/71968",
+   "zeichen": 5520
+  },
+  "lu_horw_benutzung": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 293899,
+   "erster_abruf": "2026-11-27",
+   "summe": "bed70c8f85392dd8b310",
+   "url": "https://www.horw.ch/_docn/2909927/550_Benutzungsverordnung_Raume_und_Anlagen_2020-12-10.pdf"
+  },
+  "lu_horw_hunde": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "ad5464d06af612c8e0c3",
+   "url": "https://www.horw.ch/dienstleistungen/7168",
+   "zeichen": 4879
+  },
+  "lu_horw_widenbach": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "95186f65c53655696795",
+   "url": "https://www.horw.ch/newsarchiv/286017",
+   "zeichen": 3326
+  },
+  "lu_hug": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "13e62d25873900e99696",
+   "url": "https://srl.lu.ch/app/de/texts_of_law/848",
+   "zeichen": 7
+  },
+  "lu_huv": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "13e62d25873900e99696",
+   "url": "https://srl.lu.ch/app/de/texts_of_law/849",
+   "zeichen": 7
+  },
+  "lu_kjsv": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "13e62d25873900e99696",
+   "url": "https://srl.lu.ch/app/de/texts_of_law/725a",
+   "zeichen": 7
+  },
+  "lu_kobv": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "13e62d25873900e99696",
+   "url": "https://srl.lu.ch/app/de/texts_of_law/314",
+   "zeichen": 7
+  },
+  "lu_luzern_allmend": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "c5b590975e7db1a045b3",
+   "url": "https://www.stadtluzern.ch/dienstleistungeninformation/15827",
+   "zeichen": 9909
+  },
+  "lu_luzern_hunde": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "ba7c3fa6ea34d7d24edb",
+   "url": "https://www.stadtluzern.ch/dienstleistungeninformation/4703",
+   "zeichen": 4546
+  },
+  "lu_luzern_merkblatt": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "a57b749be64d507eb786",
+   "url": "https://www.stadtluzern.ch/dokumentebilder/publikationen/25056",
+   "zeichen": 2757
+  },
+  "lu_nhb": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "5c6d136bcf69ade0b955",
+   "url": "https://veterinaerdienst.lu.ch/hunde/ausbildung_hund_und_halter",
+   "zeichen": 42
+  },
+  "lu_polizei_tiere": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "094636f2ada82c10b234",
+   "url": "https://polizei.lu.ch/organisation/verwaltungspolizei/fundbuero/Tiere",
+   "zeichen": 21
+  },
+  "lu_stadt": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 911811,
+   "erster_abruf": "2026-11-27",
+   "summe": "7b7f4bb4d9f00c6ac537",
+   "url": "https://www.stadtluzern.ch/_rte/publikation/104147"
+  },
+  "lu_sursee_hundekontrolle": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "eaaef4aaba0efbb54eb1",
+   "url": "https://www.sursee.ch/dienstleistungen/108502",
+   "zeichen": 8792
+  },
+  "lu_sursee_sicherheit": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "1ed9a7eb85e4616bd505",
+   "url": "https://www.sursee.ch/aemter/39541",
+   "zeichen": 3320
+  },
+  "lu_tierfund": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "13e62d25873900e99696",
+   "url": "https://srl.lu.ch/app/de/texts_of_law/219b",
+   "zeichen": 7
+  },
+  "lu_vet_hunde": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "93a1420b320f63a0a57f",
+   "url": "https://veterinaerdienst.lu.ch/hunde",
+   "zeichen": 21
+  },
+  "lu_vet_registrierung": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "f7f92907139b4e85a62f",
+   "url": "https://veterinaerdienst.lu.ch/hunde/kennzeichnung_und_registrierung",
+   "zeichen": 58
+  },
+  "lu_vet_vorfaelle": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "fab737c1d696ebc8ed1d",
+   "url": "https://veterinaerdienst.lu.ch/hunde/vorfaelle_mit_hunden",
+   "zeichen": 35
+  },
+  "lu_wald": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "07426925641e7127ae07",
+   "url": "https://lawa.lu.ch/jagd/Lebensraum_und_Wildtierschutz/Leinenpflicht",
+   "zeichen": 39
+  },
+  "ne_cdf_police": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 363944,
+   "erster_abruf": "2026-11-27",
+   "summe": "68b7feb8e511f563d837",
+   "url": "https://www.chaux-de-fonds.ch/rapports-et-reglements/reglementation/documents/50_10.pdf"
+  },
+  "ne_cdf_taxes": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 870587,
+   "erster_abruf": "2026-11-27",
+   "summe": "c049f28f6231c8ec86bf",
+   "url": "https://www.chaux-de-fonds.ch/rapports-et-reglements/reglementation/Documents/41_101.pdf"
+  },
+  "ne_cours": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "9376b563bfff61417231",
+   "url": "https://www.ne.ch/autorites/DDTE/SCAV/animaux/Pages/Cours-chiens.aspx",
+   "zeichen": 23944
+  },
+  "ne_laisse": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "0ce3f1d3b5c3178a3cab",
+   "url": "https://www.ne.ch/medias/Pages/Chiens-en-laisse-.aspx",
+   "zeichen": 2133
+  },
+  "ne_lchiens": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 170625,
+   "erster_abruf": "2026-11-27",
+   "summe": "8dace6b3fd4b1b41ac53",
+   "url": "https://rsn.ne.ch/DATA/program/books/rsne/pdf/636.20.pdf"
+  },
+  "ne_lfs": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 258281,
+   "erster_abruf": "2026-11-27",
+   "summe": "93a58c9551bdee9a8f15",
+   "url": "https://rsn.ne.ch/DATA/program/books/rsne/pdf/92210.pdf"
+  },
+  "ne_relchiens": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 277316,
+   "erster_abruf": "2026-11-27",
+   "summe": "efd4693ee9a68f0da283",
+   "url": "https://rsn.ne.ch/DATA/program/books/rsne/pdf/636.201.pdf"
+  },
+  "ne_scav": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "9376b563bfff61417231",
+   "url": "https://www.ne.ch/themes/vie-quotidienne-et-famille/animaux/soccuper-danimaux",
+   "zeichen": 23944
+  },
+  "ne_ville_arrete": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 3667071,
+   "erster_abruf": "2026-11-27",
+   "summe": "46c34aaa12ccf8beef64",
+   "url": "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/12_21_A_interChiens.pdf"
+  },
+  "ne_ville_avoir": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "b46ae38f6a8b51a07421",
+   "url": "https://www.neuchatelville.ch/vivre-a-neuchatel/foyer-et-famille/animaux-de-compagnie/avoir-un-chien-a-neuchatel",
+   "zeichen": 1550
+  },
+  "ne_ville_chien": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 3775553,
+   "erster_abruf": "2026-11-27",
+   "summe": "5d06022e8da3078dffbb",
+   "url": "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/Vivre_a_Neuchatel/Foyer_et_famille/Animaux_de_compagnie/Mon_chien_en_ville_-_2022.pdf"
+  },
+  "ne_ville_police": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 224173,
+   "erster_abruf": "2026-11-27",
+   "summe": "c331c12b446e94fbf2e0",
+   "uebersicht": {
+    "abgerufen": "2026-11-27",
+    "erster_abruf": "2026-11-27",
+    "links": [
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/Fusion_documents/Convention_de_fusion.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/501_CG_mise_en_valeur_creations_artistiques_batiments_et_constructions_100521.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/100.2_CC_Reglement_politique_communication_et_information_II_161224.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/100.3_CC_Indemnisation_Commissions_consultatives_211122.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/100.4_CC_Arrete_indemnisation_membres_Commission_urbanisme_22.02.21.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/100.5_CC_Arrete_indemnisation_representants_syndicats.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/100.7_CC_Reglement_archivage_17.08.25.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/100_6_CC_Reglement_protocolaire_du_Conseil_communal_130923_II.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/100_CG_Reglement_general_de_la_Ville_de_Neuchatel_Etat_au_16.02.26.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/101.1_CC_Arrete_indemnisation_membres_commission_nature_et_paysage_18.09.24.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/101__Arrete_concernant_l_indemnisation_du_travail_politique_des_membres_du_Conseil_general_et_des_commissions_Etat_au_19.01.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/102_CG_Reglement_concernant_les_assemblees_citoyennes_080925.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/103_CG_Arrete_fusion_communes_Neuchatel_La_Coudre_100521.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/110.11_CC_Reglement_interne_SPS_I_Etat_au_170925.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/110.1_RA_Statut_personnel_communal_Etat_au_130825.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/110.2_CC_Arrete_temporaire_Reforme_LAVS_21.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/110.6_CC_Arrete_indemnites_chancelier_vice-chanceliere_181223.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/110.7_CC_Arrete_Formateurs-trices_280623.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/110.8_CC_Arrete_Fixant_indemnites_personnel_SPS_et_Voirie_II_Etat_au_170424.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/110_CG_Statut_du_personnel_communal_version_officielle__II_251021.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/112.2_Reglement_Regional_Def.Incendie_20241029_signe.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/112_Regl_General-Syndicat-SSCL_Etat_au_29.10.25.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/113.2_CC_Arrete_Apprenants_221225_RS.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/113.3_CC_Arrete_Stagiaires_221225_RS.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/121.1_Reglement_OCRg_22.10.2020.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/200.1_CC_Reglement_terrasse_Annexe_160226.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/200.1_CC_Reglement_terrasses_160226.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/200.3_CC_R_Patrouilleurs_adultes_300821.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/200.4_CC_Arrete_survol_territoire_communal_par_helicopteres_030626.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/200.5_CC_Arrete_zone_interdiction_engins_pyrotechniques_Plans_11.06.26.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/200_CG_Reglement_de_police_110526.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/201221_Arrete_concernant_la_fiscalite_RS_Etat_110621.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/201221_Arrete_fixant_la_remuneration_du_personnel_communal_RS_Etat_au_110621.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/201221_Reglement_concernant_le_traitement_et_la_prevoyance_professionnelle_des_membres_du_Conseil_communal.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/201_CG_Arrete_prevention_harcelement_de_rue_100521.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/203.1_CC_Reglement_Videosurveillance_24.06.26.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/203_CG_Reglement_videosurveillance_16.02.26.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/210_CG_Reglement_cimetieres__inhumations_et_cremations_260623.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/310_CG_Arrete_creation_chambre_consultative_jeunesse_Neuchatel_100521.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/311_CG_Arrete_creation_Conseil_des_jeunes_de_Neuchatel_100521.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/312.1_CC_Arrete_concernant_le_subventionnement_des_bilans_et_traitements_orthophoniques_10.05.21.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/312.2_CC_Arrete_prise_en_charge_frais_de_transport_eleves_Serroue_270622.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/312_CC_Arrete_subventionnement_medecin_dentaire_scolaire_100521.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/321_CG_Arrete_participation_Ville_abonnements_reseau_TransN_personnes_ages_invalides_condition_modeste_180324.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/401.1_RARCF_Etat_au_180324.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/401.2_CC_Reglement_budget_innovation_collaborative_190224.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/401_CG_Reglement_communal_sur_les_finances__RCF__Etat_au_081225.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/410.1_CC_Reglement_Taxes_et_emoluments_Etat_au_260826.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/410.3_CC_Arrete_Taxes_et_emoluments_cimetieres_151121.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/410_CG_Reglement_perception_divers_taxes_et_emoluments_communaux_17.11.25.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/502.1_CC_Reglement_CAVN_23.01.23.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/503.1_CC_Reglement_Prix_de_la_citoyennete_2021-2024_160821.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/511_Reglement_Syndicat_intercommunal_Anneau_athletisme_SIAALN_Etat_au_210323.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/600_Reglement_d_amenagement.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/604_CG_Arrete_protection_plantation_arbres_commission_nature_et_paysage_150124.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/701_CG_Reglement_concernant_l_evacuation_et_l_epuration_des_eaux_23.10.23.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/704.2_CC_Arrete_Fixation_taxe_epuration_Etat_au_030921.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/705.10_CC_Reglement_exploitation_dechetterie_Plaines-Roches_Etat_au_040923.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/705.1_CC_Reglement_execution_gestion_dechets_191222.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/705.2_CC_Arrete_fixant_taxe_dechets_191222.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/705_CG_Reglement_gestion_dechets_141122_1.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/707_CG_Arrete_dechets_radioactifs_100521.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/708_CG_Reglement_communal_sur_le_fonds_pour_l_epuration_des_eaux_24.10.2022.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/710.1_CC_Arrete_concernant_l_utilisation_du_fonds_communal_pour_l_energie_Etat_au_300621.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/710_R_Loi_approvisionnement_electricite_171125.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/720.1_CC_Eau_Reglement_d_execution_241125.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/720_CG_Reglement_fourniture_et_la_distribution_de_l_eau_potable_II_23.10.23.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/721.1_CC_Arrete_Fixation_taxe_eau_241125.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/722_CG_Reglement_communal_sur_le_fonds_d_adduction_d_eau_241022.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/800.1_CC_Reglement_taxis_041126.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/800.2_CC_Reglement_execution_Reglement_service_taxis_041126.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/801.1_CC_Reglement_execution_ports_Etat_au_260826.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/801_CG_Reglement_utilisation_et_exploitation_des_ports_271025.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/802_CG_Reglement_communal_sur_le_fonds_pour_les_ports_241022.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/810.1_CC_Arrete_stationnement_redevances__vignettes_ou_macarons__191222.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/810.5_CC_Acces_vehicules_automobiles_dans_zone_pietonne_130522.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/810.6_CC_Arrete_taxes_acces_zone_pietonne_130522.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/810_CG_Arrete_concernant_le_stationnement_sur_le_domaine_public_-_Redevances_de_stationnement__vignettes_ou_macarons__121222.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/811_Reglement_relatif_a_la_politique_d_incitation_a_l_utilisation_des_transports_publics_Etat_au_15.06.26.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/VdN_Table_chronologique_Novembre_2026.pdf",
+     "https://www.neuchatelville.ch/fr/vivre-a-neuchatel/securite/circulation-stationnement/arretes/",
+     "https://www.neuchatelville.ch/votre-commune/reglementation/anciennes-communes"
+    ],
+    "summe": "90ce60c35968df8fa9c1",
+    "url": "https://www.neuchatelville.ch/votre-commune/reglementation"
+   },
+   "url": "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/200_CG_Reglement_de_police_110526.pdf"
+  },
+  "ne_ville_taxes": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 255945,
+   "erster_abruf": "2026-11-27",
+   "summe": "5a9a2a207678fb880e7a",
+   "uebersicht": {
+    "abgerufen": "2026-11-27",
+    "erster_abruf": "2026-11-27",
+    "links": [
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/Fusion_documents/Convention_de_fusion.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/501_CG_mise_en_valeur_creations_artistiques_batiments_et_constructions_100521.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/100.2_CC_Reglement_politique_communication_et_information_II_161224.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/100.3_CC_Indemnisation_Commissions_consultatives_211122.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/100.4_CC_Arrete_indemnisation_membres_Commission_urbanisme_22.02.21.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/100.5_CC_Arrete_indemnisation_representants_syndicats.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/100.7_CC_Reglement_archivage_17.08.25.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/100_6_CC_Reglement_protocolaire_du_Conseil_communal_130923_II.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/100_CG_Reglement_general_de_la_Ville_de_Neuchatel_Etat_au_16.02.26.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/101.1_CC_Arrete_indemnisation_membres_commission_nature_et_paysage_18.09.24.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/101__Arrete_concernant_l_indemnisation_du_travail_politique_des_membres_du_Conseil_general_et_des_commissions_Etat_au_19.01.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/102_CG_Reglement_concernant_les_assemblees_citoyennes_080925.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/103_CG_Arrete_fusion_communes_Neuchatel_La_Coudre_100521.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/110.11_CC_Reglement_interne_SPS_I_Etat_au_170925.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/110.1_RA_Statut_personnel_communal_Etat_au_130825.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/110.2_CC_Arrete_temporaire_Reforme_LAVS_21.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/110.6_CC_Arrete_indemnites_chancelier_vice-chanceliere_181223.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/110.7_CC_Arrete_Formateurs-trices_280623.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/110.8_CC_Arrete_Fixant_indemnites_personnel_SPS_et_Voirie_II_Etat_au_170424.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/110_CG_Statut_du_personnel_communal_version_officielle__II_251021.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/112.2_Reglement_Regional_Def.Incendie_20241029_signe.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/112_Regl_General-Syndicat-SSCL_Etat_au_29.10.25.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/113.2_CC_Arrete_Apprenants_221225_RS.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/113.3_CC_Arrete_Stagiaires_221225_RS.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/121.1_Reglement_OCRg_22.10.2020.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/200.1_CC_Reglement_terrasse_Annexe_160226.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/200.1_CC_Reglement_terrasses_160226.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/200.3_CC_R_Patrouilleurs_adultes_300821.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/200.4_CC_Arrete_survol_territoire_communal_par_helicopteres_030626.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/200.5_CC_Arrete_zone_interdiction_engins_pyrotechniques_Plans_11.06.26.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/200_CG_Reglement_de_police_110526.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/201221_Arrete_concernant_la_fiscalite_RS_Etat_110621.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/201221_Arrete_fixant_la_remuneration_du_personnel_communal_RS_Etat_au_110621.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/201221_Reglement_concernant_le_traitement_et_la_prevoyance_professionnelle_des_membres_du_Conseil_communal.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/201_CG_Arrete_prevention_harcelement_de_rue_100521.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/203.1_CC_Reglement_Videosurveillance_24.06.26.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/203_CG_Reglement_videosurveillance_16.02.26.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/210_CG_Reglement_cimetieres__inhumations_et_cremations_260623.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/310_CG_Arrete_creation_chambre_consultative_jeunesse_Neuchatel_100521.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/311_CG_Arrete_creation_Conseil_des_jeunes_de_Neuchatel_100521.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/312.1_CC_Arrete_concernant_le_subventionnement_des_bilans_et_traitements_orthophoniques_10.05.21.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/312.2_CC_Arrete_prise_en_charge_frais_de_transport_eleves_Serroue_270622.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/312_CC_Arrete_subventionnement_medecin_dentaire_scolaire_100521.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/321_CG_Arrete_participation_Ville_abonnements_reseau_TransN_personnes_ages_invalides_condition_modeste_180324.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/401.1_RARCF_Etat_au_180324.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/401.2_CC_Reglement_budget_innovation_collaborative_190224.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/401_CG_Reglement_communal_sur_les_finances__RCF__Etat_au_081225.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/410.1_CC_Reglement_Taxes_et_emoluments_Etat_au_260826.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/410.3_CC_Arrete_Taxes_et_emoluments_cimetieres_151121.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/410_CG_Reglement_perception_divers_taxes_et_emoluments_communaux_17.11.25.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/502.1_CC_Reglement_CAVN_23.01.23.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/503.1_CC_Reglement_Prix_de_la_citoyennete_2021-2024_160821.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/511_Reglement_Syndicat_intercommunal_Anneau_athletisme_SIAALN_Etat_au_210323.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/600_Reglement_d_amenagement.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/604_CG_Arrete_protection_plantation_arbres_commission_nature_et_paysage_150124.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/701_CG_Reglement_concernant_l_evacuation_et_l_epuration_des_eaux_23.10.23.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/704.2_CC_Arrete_Fixation_taxe_epuration_Etat_au_030921.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/705.10_CC_Reglement_exploitation_dechetterie_Plaines-Roches_Etat_au_040923.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/705.1_CC_Reglement_execution_gestion_dechets_191222.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/705.2_CC_Arrete_fixant_taxe_dechets_191222.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/705_CG_Reglement_gestion_dechets_141122_1.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/707_CG_Arrete_dechets_radioactifs_100521.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/708_CG_Reglement_communal_sur_le_fonds_pour_l_epuration_des_eaux_24.10.2022.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/710.1_CC_Arrete_concernant_l_utilisation_du_fonds_communal_pour_l_energie_Etat_au_300621.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/710_R_Loi_approvisionnement_electricite_171125.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/720.1_CC_Eau_Reglement_d_execution_241125.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/720_CG_Reglement_fourniture_et_la_distribution_de_l_eau_potable_II_23.10.23.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/721.1_CC_Arrete_Fixation_taxe_eau_241125.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/722_CG_Reglement_communal_sur_le_fonds_d_adduction_d_eau_241022.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/800.1_CC_Reglement_taxis_041126.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/800.2_CC_Reglement_execution_Reglement_service_taxis_041126.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/801.1_CC_Reglement_execution_ports_Etat_au_260826.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/801_CG_Reglement_utilisation_et_exploitation_des_ports_271025.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/802_CG_Reglement_communal_sur_le_fonds_pour_les_ports_241022.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/810.1_CC_Arrete_stationnement_redevances__vignettes_ou_macarons__191222.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/810.5_CC_Acces_vehicules_automobiles_dans_zone_pietonne_130522.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/810.6_CC_Arrete_taxes_acces_zone_pietonne_130522.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/810_CG_Arrete_concernant_le_stationnement_sur_le_domaine_public_-_Redevances_de_stationnement__vignettes_ou_macarons__121222.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/811_Reglement_relatif_a_la_politique_d_incitation_a_l_utilisation_des_transports_publics_Etat_au_15.06.26.pdf",
+     "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/VdN_Table_chronologique_Novembre_2026.pdf",
+     "https://www.neuchatelville.ch/fr/vivre-a-neuchatel/securite/circulation-stationnement/arretes/",
+     "https://www.neuchatelville.ch/votre-commune/reglementation/anciennes-communes"
+    ],
+    "summe": "90ce60c35968df8fa9c1",
+    "url": "https://www.neuchatelville.ch/votre-commune/reglementation"
+   },
+   "url": "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/410.1_CC_Reglement_Taxes_et_emoluments_Etat_au_260826.pdf"
+  },
+  "nw_gefaehrlich": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "24c2f49dcf5f8f8b7160",
+   "url": "https://www.nw.ch/dienstleistungen/2275",
+   "zeichen": 8423
+  },
+  "nw_hug": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "13e62d25873900e99696",
+   "url": "https://gesetze.nw.ch/app/de/texts_of_law/826.3",
+   "zeichen": 7
+  },
+  "nw_hundekontrolle": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "e1f29e03221a6eda0a4b",
+   "url": "https://www.nw.ch/amtjustizdienste/581",
+   "zeichen": 10035
+  },
+  "nw_huv": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "13e62d25873900e99696",
+   "url": "https://gesetze.nw.ch/app/de/texts_of_law/826.31",
+   "zeichen": 7
+  },
+  "nw_jsv": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "13e62d25873900e99696",
+   "url": "https://gesetze.nw.ch/app/de/texts_of_law/841.11",
+   "zeichen": 7
+  },
+  "nw_kobv": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "13e62d25873900e99696",
+   "url": "https://gesetze.nw.ch/app/de/texts_of_law/261.31",
+   "zeichen": 7
+  },
+  "nw_kwag": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "13e62d25873900e99696",
+   "url": "https://gesetze.nw.ch/app/de/texts_of_law/831.1",
+   "zeichen": 7
+  },
+  "nw_wrg": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "13e62d25873900e99696",
+   "url": "https://gesetze.nw.ch/app/de/texts_of_law/841.15",
+   "zeichen": 7
+  },
+  "ow_abvetg": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 147274,
+   "erster_abruf": "2026-11-27",
+   "summe": "35ae1882c3ea57f15090",
+   "url": "https://ow.lexwork.naz.ch/de/dta/818.111.pdf"
+  },
+  "ow_hug": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 126723,
+   "erster_abruf": "2026-11-27",
+   "summe": "c0a2741e3df948595244",
+   "url": "https://ow.lexwork.naz.ch/de/dta/818.3.pdf"
+  },
+  "ow_leine_2022": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 296638,
+   "erster_abruf": "2026-11-27",
+   "summe": "4c81a11c1789a9ed5b58",
+   "url": "https://ow.ch/_doc/315484"
+  },
+  "ow_sarnen_hv": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 89679,
+   "erster_abruf": "2026-11-27",
+   "summe": "04cbf67157774d7976a1",
+   "url": "https://www.sarnen.ch/_doc/98587"
+  },
+  "ow_sarnen_registrierung": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "5970c53e22ac6338f8e5",
+   "url": "https://www.sarnen.ch/dienstleistungen/10692",
+   "zeichen": 5194
+  },
+  "ow_sarnen_steuer": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "bb2944905941ff99bbb3",
+   "url": "https://www.sarnen.ch/dienstleistungen/8378",
+   "zeichen": 3787
+  },
+  "ow_vet": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "be2ed2dfb1020b5a341b",
+   "url": "https://laburk.ch/kantonstierarzt/tierschutz/",
+   "zeichen": 16400
+  },
+  "ow_vetg": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 361403,
+   "erster_abruf": "2026-11-27",
+   "summe": "2079c707da5513035c72",
+   "url": "https://ow.lexwork.naz.ch/de/dta/818.1.pdf"
+  },
+  "ow_wildruhe": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 846737,
+   "erster_abruf": "2026-11-27",
+   "summe": "c24ac5245186250937fa",
+   "url": "https://ow.lexwork.naz.ch/de/dta/651.150.pdf"
+  },
+  "sg_gossau_hundekontrolle": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "b75f934022fbcbdad49d",
+   "url": "https://www.stadtgossau.ch/dienstleistungen/2149",
+   "zeichen": 4996
+  },
+  "sg_gossau_polizeireglement": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "785051711c98b908125c",
+   "url": "https://www.stadtgossau.ch/reglemente/21198",
+   "zeichen": 1599
+  },
+  "sg_gossau_robidog": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "5d098b9720abf8058ce2",
+   "url": "https://www.stadtgossau.ch/dienstleistungen/16378",
+   "zeichen": 1669
+  },
+  "sg_hug": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "13e62d25873900e99696",
+   "url": "https://www.gesetzessammlung.sg.ch/app/de/texts_of_law/456.1",
+   "zeichen": 7
+  },
+  "sg_huv": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "13e62d25873900e99696",
+   "url": "https://www.gesetzessammlung.sg.ch/app/de/texts_of_law/456.11",
+   "zeichen": 7
+  },
+  "sg_jagdg": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "13e62d25873900e99696",
+   "url": "https://www.gesetzessammlung.sg.ch/app/de/texts_of_law/853.1",
+   "zeichen": 7
+  },
+  "sg_jagdv": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "13e62d25873900e99696",
+   "url": "https://www.gesetzessammlung.sg.ch/app/de/texts_of_law/853.11",
+   "zeichen": 7
+  },
+  "sg_jagdvorschriften": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "13e62d25873900e99696",
+   "url": "https://www.gesetzessammlung.sg.ch/app/de/texts_of_law/853.111",
+   "zeichen": 7
+  },
+  "sg_kapo_hilfe": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "c0d1ded1d9cf4f688561",
+   "url": "https://www.sg.ch/sicherheit/kantonspolizei/anzeige-erstatten--gesucht-und-vermisst.html",
+   "zeichen": 4754
+  },
+  "sg_registrierung": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "e4dd0f2fc6de9b67a3ba",
+   "url": "https://www.sg.ch/umwelt-natur/veterinaerwesen/registrierung-von-tieren-und-tierhaltung.html",
+   "zeichen": 4934
+  },
+  "sg_stadt": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "7af4045930d221e92f7a",
+   "url": "https://www.stadt.sg.ch/home/gesellschaft-sicherheit/sicherheit-polizei/sicherheit/tiere--tierschutz.html",
+   "zeichen": 4782
+  },
+  "sg_tierschutz": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "5f1add49e1e0593e7dbf",
+   "url": "https://www.sg.ch/umwelt-natur/veterinaerwesen/tierschutz.html",
+   "zeichen": 3933
+  },
+  "sg_vet": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "cc83b0382ee9bd873908",
+   "url": "https://www.sg.ch/umwelt-natur/veterinaerwesen/tiere-halten/hunde.html",
+   "zeichen": 5070
+  },
+  "sh_hundeg": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "13e62d25873900e99696",
+   "url": "https://rechtsbuch.sh.ch/app/de/texts_of_law/455.200",
+   "zeichen": 7
+  },
+  "sh_hundev": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "13e62d25873900e99696",
+   "url": "https://rechtsbuch.sh.ch/app/de/texts_of_law/455.201",
+   "zeichen": 7
+  },
+  "sh_mb_haltung": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 565330,
+   "erster_abruf": "2026-11-27",
+   "summe": "20b2cb25a7f308866c29",
+   "url": "https://sh.ch/CMS/get/file/aed0e58e-e601-49ce-a04a-3a6052129df9"
+  },
+  "sh_merkblatt": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 256963,
+   "erster_abruf": "2026-11-27",
+   "summe": "002c58374399278e2cde",
+   "url": "https://sh.ch/CMS/get/file/9fd13fad-f39e-49c5-b47a-1a0582c9b0fc"
+  },
+  "sh_neuhausen_badeordnung": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 25483,
+   "erster_abruf": "2026-11-27",
+   "summe": "c86b7a6c814554b20a0d",
+   "url": "https://rechtsbuch.neuhausen.ch/fileupload/415.121_Badeordnung_der_Rhyfallbadi_Otterstall.pdf"
+  },
+  "sh_neuhausen_bussen": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 15555,
+   "erster_abruf": "2026-11-27",
+   "summe": "d2f4dd466f0e87ee73af",
+   "url": "https://rechtsbuch.neuhausen.ch/fileupload/311.101.pdf"
+  },
+  "sh_neuhausen_einwohnerkontrolle": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "a6e9eafa74950242c569",
+   "url": "https://neuhausen.ch/einwohnerkontrolle",
+   "zeichen": 9551
+  },
+  "sh_neuhausen_friedhof": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 112663,
+   "erster_abruf": "2026-11-27",
+   "summe": "6060d526a5cce853c091",
+   "url": "https://neuhausen.ch/fileupload/810.200.pdf"
+  },
+  "sh_neuhausen_hundeabgabe": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 8941,
+   "erster_abruf": "2026-11-27",
+   "summe": "f941a43c98e082a66d06",
+   "url": "https://rechtsbuch.neuhausen.ch/fileupload/644.101_Abgabe_Halten_von_Hunden.pdf"
+  },
+  "sh_neuhausen_pv": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 116867,
+   "erster_abruf": "2026-11-27",
+   "summe": "59647fc0be7beafbfcb6",
+   "url": "https://rechtsbuch.neuhausen.ch/fileupload/311.100.pdf"
+  },
+  "sh_stadt_friedhof": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 121744,
+   "erster_abruf": "2026-11-27",
+   "summe": "9822f116a77ae8ae4fe5",
+   "url": "https://www.stadt-schaffhausen.ch/_docn/4688449/570.1.pdf"
+  },
+  "sh_stadt_hundekontrolle": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "514ddbb546d66763094f",
+   "url": "https://www.stadt-schaffhausen.ch/online-schalter/151336/detail",
+   "zeichen": 5086
+  },
+  "sh_stadt_hundesteuer": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "bd6eddc08bff52b891fd",
+   "uebersicht": {
+    "abgerufen": "2026-11-27",
+    "erster_abruf": "2026-11-27",
+    "links": [
+     "https://app-eu.readspeaker.com/cgi-bin/rsent?customerid=6577&lang=de_de&readclass=icms-i-speaker&url=https%3A%2F%2Fwww.stadt-schaffhausen.ch%2Fgk-finanzen%2Fkapitel%2F3148",
+     "https://goo.gl/maps/tQApJTSHzgBsSj2eA",
+     "https://www.facebook.com/StadtkanzleiSchaffhausen",
+     "https://www.instagram.com/stadt_schaffhausen/",
+     "https://www.linkedin.com/company/stadt-schaffhausen-stadtkanzlei/?originalSubdomain=ch",
+     "https://www.stadt-schaffhausen.ch/_rte/information/1547507",
+     "https://www.stadt-schaffhausen.ch/_rte/information/1547510",
+     "https://www.stadt-schaffhausen.ch/_rte/information/1547513",
+     "https://www.stadt-schaffhausen.ch/_rte/information/1547516",
+     "https://www.stadt-schaffhausen.ch/_rte/information/1547519",
+     "https://www.stadt-schaffhausen.ch/_rte/information/1547522",
+     "https://www.stadt-schaffhausen.ch/_rte/information/1547528",
+     "https://www.stadt-schaffhausen.ch/_rte/information/1547531",
+     "https://www.stadt-schaffhausen.ch/_rte/information/1547537",
+     "https://www.stadt-schaffhausen.ch/_rte/information/1547549",
+     "https://www.stadt-schaffhausen.ch/_rte/information/1547552",
+     "https://www.stadt-schaffhausen.ch/_rte/information/1547555",
+     "https://www.stadt-schaffhausen.ch/_rte/information/1547567",
+     "https://www.stadt-schaffhausen.ch/_rte/information/1547576",
+     "https://www.stadt-schaffhausen.ch/_rte/information/1547582",
+     "https://www.stadt-schaffhausen.ch/_rte/information/1547588",
+     "https://www.stadt-schaffhausen.ch/_rte/information/1547594",
+     "https://www.stadt-schaffhausen.ch/_rte/information/1547597",
+     "https://www.stadt-schaffhausen.ch/_rte/information/1547600",
+     "https://www.stadt-schaffhausen.ch/_rte/information/1547606",
+     "https://www.stadt-schaffhausen.ch/_rte/information/1547609",
+     "https://www.stadt-schaffhausen.ch/_rtr/abstimmungen",
+     "https://www.stadt-schaffhausen.ch/_rtr/datenschutz",
+     "https://www.stadt-schaffhausen.ch/_rtr/dienste",
+     "https://www.stadt-schaffhausen.ch/_rtr/home",
+     "https://www.stadt-schaffhausen.ch/_rtr/index",
+     "https://www.stadt-schaffhausen.ch/_rtr/medienmitteilungen",
+     "https://www.stadt-schaffhausen.ch/_rtr/profile_create_profile",
+     "https://www.stadt-schaffhausen.ch/_rtr/rechtssammlung",
+     "https://www.stadt-schaffhausen.ch/_rtr/suchformular",
+     "https://www.stadt-schaffhausen.ch/gk-finanzen/kapitel/3148?_display-mode=a11y",
+     "https://www.whatsapp.com/channel/0029Vb8NDBxB4hdRW2VWRR16?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQPOTM2NjE5NzQzMzkyNDU5AAGnluBKJJj9-DveSO76qLcPgOsRG_HY-py_EYK2h8N1TK9v-4C9Ts27891OOio_aem_LTlcHZcYUaehM7uwSo_x4g"
+    ],
+    "summe": "9f4a633d9fe9aa150520",
+    "url": "https://www.stadt-schaffhausen.ch/gk-finanzen/kapitel/3148"
+   },
+   "url": "https://www.stadt-schaffhausen.ch/gk-finanzen/info/1547606",
+   "zeichen": 2383
+  },
+  "sh_stadt_polv": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 146886,
+   "erster_abruf": "2026-11-27",
+   "summe": "ffa83416ecf996a0d5f8",
+   "url": "https://www.stadt-schaffhausen.ch/_docn/3720809/400.1_.pdf"
+  },
+  "sh_vet_fund": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "9238ada46e9fbdebacf6",
+   "url": "https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Veterin-ramt-148330-DE.html",
+   "zeichen": 27
+  },
+  "sh_vet_hunde": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "ba1ecb0c5c1bb09a6eef",
+   "url": "https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Veterin-ramt-1575596-DE.html",
+   "zeichen": 32
+  },
+  "so_hund_und_ich": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "e8f71faa270773560b3b",
+   "url": "https://so.ch/verwaltung/volkswirtschaftsdepartement/amt-fuer-landwirtschaft/spezialseiten/mein-hund-und-ich",
+   "zeichen": 1850
+  },
+  "so_hundeg": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 300251,
+   "erster_abruf": "2026-11-27",
+   "summe": "db1662d3be8a22a0b1c1",
+   "url": "https://bgs.so.ch/api/de/versions/5574/pdf_file"
+  },
+  "so_hundev": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 272056,
+   "erster_abruf": "2026-11-27",
+   "summe": "74ae256aef44451e9f03",
+   "url": "https://www.lexfind.ch/tol/16193/de"
+  },
+  "so_olten_amicus": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 63657,
+   "erster_abruf": "2026-11-27",
+   "summe": "a5a3b01b8d9cded16d8f",
+   "url": "https://www.olten.ch/_doc/1215839"
+  },
+  "so_olten_polizei": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 41160,
+   "erster_abruf": "2026-11-27",
+   "summe": "597153dff110808ef23f",
+   "url": "https://www.olten.ch/_docn/1575280/212_Reglement_gemeindepol._Aufgaben-TR_29.9.16.pdf"
+  },
+  "so_olten_steuer": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "fa222b8e558191358417",
+   "url": "https://www.olten.ch/dienstleistungen/2028",
+   "zeichen": 3497
+  },
+  "so_vet_bewilligung": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "7d6394d3385de5e0430e",
+   "url": "https://so.ch/verwaltung/volkswirtschaftsdepartement/amt-fuer-landwirtschaft/tiere-und-lebensmittel/tierschutz/hunde/bewilligungspflichtige-hunde/",
+   "zeichen": 1587
+  },
+  "so_vet_leine": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "92e4f89e285aa44db521",
+   "url": "https://so.ch/verwaltung/volkswirtschaftsdepartement/amt-fuer-landwirtschaft/tiere-und-lebensmittel/tierschutz/hunde/leinenpflicht/",
+   "zeichen": 938
+  },
+  "so_zuchwil_abteilung": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "9a85adce1d4bd29d7f0b",
+   "url": "https://www.zuchwil.ch/de/verwaltung/abteilungen/9_einwohnerdienste-und-finanzen",
+   "zeichen": 2985
+  },
+  "so_zuchwil_friedhof": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 190884,
+   "erster_abruf": "2026-11-27",
+   "summe": "89ba9ef832cab7c3e767",
+   "url": "https://www.zuchwil.ch/de/verwaltung/dokumente/dokumente/Reglement-ueber-das-Friedhof-und-Bestattungswesen.pdf"
+  },
+  "so_zuchwil_hundesteuer": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "adc4f07bee1cdd9c79a1",
+   "url": "https://www.zuchwil.ch/de/verwaltung/dienstleistungen/detail/detail.php?i=57",
+   "zeichen": 1602
+  },
+  "srf": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "1a2639498e4f83198da0",
+   "url": "https://www.srf.ch/news/schweiz/rottweiler-pitbull-co-diese-hunderassen-sind-in-ihrem-kanton-verboten-die-uebersicht",
+   "zeichen": 8590
+  },
+  "sz_arth_abstimmung": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "bbc595bad330a54bc18e",
+   "url": "https://www.arth.ch/_rte/abstimmung/159767",
+   "zeichen": 3666
+  },
+  "sz_arth_friedhof": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 58215,
+   "erster_abruf": "2026-11-27",
+   "summe": "882b7d4a28aa1e27b34b",
+   "url": "https://www.arth.ch/_docn/1331262/Reglement_uber_das_Bestattungs-_und_Friedhofwesen.pdf"
+  },
+  "sz_arth_hundesteuer": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "c8a2595938bf81f3dda6",
+   "url": "https://www.arth.ch/dienstleistungen/10780",
+   "zeichen": 4002
+  },
+  "sz_einsiedeln_broschuere": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 287953,
+   "erster_abruf": "2026-11-27",
+   "summe": "c5dbc04797e52a2942a5",
+   "url": "https://www.einsiedeln.ch/libraries.files/Broschuere_Hundesteuer.pdf"
+  },
+  "sz_einsiedeln_formular": {
+   "fehler": "503",
+   "fehler_am": "2026-11-27",
+   "url": "https://www.einsiedeln.ch/bezirk/dienstleistungen-online-schalter?form=20"
+  },
+  "sz_hug": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 34624,
+   "erster_abruf": "2026-11-27",
+   "summe": "974950c69ca122abf019",
+   "url": "https://sz.ch/public/upload/assets/3802/546_100.pdf?fp=3"
+  },
+  "sz_kuessnacht_broschuere": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 256479,
+   "erster_abruf": "2026-11-27",
+   "summe": "9952d563ef70e0315816",
+   "url": "https://www.kuessnacht.ch/public/upload/assets/3796/Brosch%C3%BCre%20Hunde%20Bezirk%20Oktober%202021.pdf?fp=1"
+  },
+  "sz_mm_kommission": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "9fb16dc0a955b7c77ce3",
+   "url": "https://www.sz.ch/kanton/medien-und-datenschutz/medienmitteilungen/detailseite.html/8756-8757-8803-10391-10392/news/25801/newsarchive/1",
+   "zeichen": 4362
+  },
+  "sz_rrb_leine": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 49307,
+   "erster_abruf": "2026-11-27",
+   "summe": "3d1e34f707b6317fd30a",
+   "url": "https://www.sz.ch/public/upload/assets/72054/M_Leinenpflicht.pdf?fp=1"
+  },
+  "sz_rrb_revision": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 326778,
+   "erster_abruf": "2026-11-27",
+   "summe": "ed72fbd9a8adb0edb52a",
+   "url": "https://www.sz.ch/public/upload/assets/92984/B_Gesetz%20%C3%BCber%20das%20Halten%20von%20Hunden.pdf?fp=1"
+  },
+  "sz_schwyz_hundekontrolle": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "6c153f036cf35704eda3",
+   "url": "https://www.gemeindeschwyz.ch/dienstleistungen/62884",
+   "zeichen": 5283
+  },
+  "tg_arbon_broschuere": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 485572,
+   "erster_abruf": "2026-11-27",
+   "summe": "fb4fbb1c7125f4e7e317",
+   "url": "https://www.arbon.ch/public/upload/assets/3310/09.17%20Informationsbrosch%C3%BCre%20f%C3%BCr%20Hundehalterinnen%20und%20Hundehalter.pdf?fp=2"
+  },
+  "tg_arbon_hunde": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 33578,
+   "erster_abruf": "2026-11-27",
+   "summe": "9698b7d29a6723e536cf",
+   "url": "https://www.arbon.ch/stadt/service-und-aktuelles/dienstleistungen-a-z.html/226/print/pdf/service/452"
+  },
+  "tg_frauenfeld_info": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 878945,
+   "erster_abruf": "2026-11-27",
+   "summe": "600c8f4fa2de5570c717",
+   "url": "https://www.frauenfeld.ch/public/upload/assets/45538/Informationen%20f%C3%BCr%20Hundehaltende.pdf?fp=2"
+  },
+  "tg_frauenfeld_leine": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 77123,
+   "erster_abruf": "2026-11-27",
+   "summe": "b2875d48c1ed065b0ea6",
+   "url": "https://frauenfeld.ch/public/upload/assets/44181/Merkblatt%20Leinenpflicht%202024.pdf?fp=1"
+  },
+  "tg_hundeg": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "13e62d25873900e99696",
+   "url": "https://www.rechtsbuch.tg.ch/app/de/texts_of_law/641.2",
+   "zeichen": 7
+  },
+  "tg_hundev": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "13e62d25873900e99696",
+   "url": "https://www.rechtsbuch.tg.ch/app/de/texts_of_law/641.21",
+   "zeichen": 7
+  },
+  "tg_kreuzlingen_broschuere": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 871631,
+   "erster_abruf": "2026-11-27",
+   "summe": "02295b011be80b8251c7",
+   "url": "https://www.kreuzlingen.ch/datei-download/3159"
+  },
+  "tg_kreuzlingen_hunde": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "ee3a87662e71603aa53e",
+   "url": "https://www.kreuzlingen.ch/inhalt/hundehaltung-informationen",
+   "zeichen": 2433
+  },
+  "tg_vet_findeltiere": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "a3bac2dec270aa3fb2ad",
+   "url": "https://veterinaeramt.tg.ch/faq/findeltiere-tiere-vermisst-tiere-gefunden.html/16090",
+   "zeichen": 812
+  },
+  "tg_vet_pgh": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "effaa90708b09ec64223",
+   "url": "https://veterinaeramt.tg.ch/tierschutz/haustiere/hundewesen/potentiell-gefaehrliche-hunde.html/17811",
+   "zeichen": 10050
+  },
+  "tg_vet_rassen": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 199069,
+   "erster_abruf": "2026-11-27",
+   "summe": "2aa6c9345f43788d93b9",
+   "url": "https://veterinaeramt.tg.ch/public/upload/assets/179676/Merkblatt%20f%C3%BCr%20Bewilligungspflichtige%20Hunderassen%20und%20einzureichende%20Unterlagen.pdf?fp=3"
+  },
+  "tg_vetv": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "13e62d25873900e99696",
+   "url": "https://www.rechtsbuch.tg.ch/app/de/texts_of_law/819.11",
+   "zeichen": 7
+  },
+  "ti_lcani": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 77111,
+   "erster_abruf": "2026-11-27",
+   "summe": "bd8c3e4b46e51a09d6cc",
+   "url": "https://www.lexfind.ch/tol/22912/de"
+  },
+  "ti_lugano_ord": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 81786,
+   "erster_abruf": "2026-11-27",
+   "summe": "7c5d70929725e6b9d476",
+   "url": "https://www.lugano.ch/law/16176713/2-6-1-Ordinanza-sulla-custodia-dei-cani-e-sulle-aree-di-svago-del-13-gennaio-2010"
+  },
+  "ti_lugano_parchi": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "4691151b882e47087493",
+   "url": "https://www.lugano.ch/de/vivere-lugano/cultura-e-tempo-libero/parchi-aree-gioco/dog-park/",
+   "zeichen": 2246
+  },
+  "ti_rcani": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 84514,
+   "erster_abruf": "2026-11-27",
+   "summe": "4646d38dbde081b930a5",
+   "url": "https://m3.ti.ch/CAN/RLeggi/public/index.php/raccolta-leggi/pdfatto/atto/12647"
+  },
+  "ti_uvc_anagrafe": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "a8aceb5055c39781908f",
+   "url": "https://www4.ti.ch/dss/dsp/uvc/temi/tenuta-di-animali/cani/identificazione-e-anagrafe-canina",
+   "zeichen": 6798
+  },
+  "ti_uvc_corso": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "3aa7287eaae2f971a43a",
+   "url": "https://www4.ti.ch/dss/dsp/uvc/temi/tenuta-di-animali/cani/corso-teorico-obbligatorio",
+   "zeichen": 10863
+  },
+  "ti_uvc_razze": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "f5f39bb27f48b65fad14",
+   "url": "https://www4.ti.ch/dss/dsp/uvc/temi/tenuta-di-animali/cani/razze-soggette-a-restrizioni",
+   "zeichen": 10196
+  },
+  "ur_altdorf_steuer": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "8e39be7f3866e65a49d6",
+   "url": "https://altdorf.ch/themen/finanzen-steuern/steuern/hundesteuer",
+   "zeichen": 2116
+  },
+  "ur_andermatt_hv": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 96459,
+   "erster_abruf": "2026-11-27",
+   "summe": "50023e88d660dea671e4",
+   "url": "https://www.gemeinde-andermatt.ch/public/upload/assets/882/10_Verordnung%20Hunde.pdf?fp=1"
+  },
+  "ur_kjsv": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 696730,
+   "erster_abruf": "2026-11-27",
+   "summe": "0784143bb34d16eb60a4",
+   "url": "https://www.lexfind.ch/tol/17783/de"
+  },
+  "ur_kjsv_bericht": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 715140,
+   "erster_abruf": "2026-11-27",
+   "summe": "da5332d2b300d27d9ea5",
+   "url": "https://ur.ch/_doc/335273"
+  },
+  "ur_silenen_hhv": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 245184,
+   "erster_abruf": "2026-11-27",
+   "summe": "f568f1f181ae8a0f0400",
+   "url": "https://silenen.ch/uploads/politik/30.31-Verordnung-%C3%BCber-das-Halten-von-Hunden_def.-Version_verabschiedet-durch-Gemeindeversammlung-v.-21.05.2025_2025-10-30-142633_clpk.pdf"
+  },
+  "ur_vdu_tierschutz": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "be2ed2dfb1020b5a341b",
+   "url": "https://laburk.ch/kantonstierarzt/tierschutz/",
+   "zeichen": 16400
+  },
+  "ur_vetr": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 98780,
+   "erster_abruf": "2026-11-27",
+   "summe": "21a070f14c3e28274fff",
+   "url": "https://www.lexfind.ch/tol/18157/de"
+  },
+  "ur_vetv": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 246186,
+   "erster_abruf": "2026-11-27",
+   "summe": "f1c3233344a6a262d7fc",
+   "url": "https://www.lexfind.ch/tol/17808/de"
+  },
+  "vd_cpd": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "9021f04a20a49d3fdd29",
+   "url": "https://www.vd.ch/prestation/demander-une-autorisation-de-detenir-un-chien-potentiellement-dangereux",
+   "zeichen": 2678
+  },
+  "vd_impot": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "b5a2866d92a2499f4d0f",
+   "url": "https://www.vd.ch/etat-droit-finances/impots/impots-pour-les-individus/les-impots-les-differents-types-dimpots/autres-impots",
+   "zeichen": 7683
+  },
+  "vd_laisse": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 1517957,
+   "erster_abruf": "2026-11-27",
+   "summe": "7c57e8545e1100f2eca7",
+   "url": "https://vd.ch/fileadmin/user_upload/themes/environnement/faune_nature/fichiers_pdf/Bonnes_pratiques/01_Chiens_en_laisse_ou_quand_et_pourquoi/Flyer_chien_en_laisse_DEF.PDF"
+  },
+  "vd_lausanne_faq": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "761bc6300fab613fafda",
+   "url": "https://www.lausanne.ch/prestations/finances/enregistrement-des-chiens/faq-impot-chiens.html",
+   "zeichen": 9558
+  },
+  "vd_lausanne_impot": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "e3fc798ee22be9edae55",
+   "url": "https://www.lausanne.ch/officiel/administration/finances-et-mobilite/finances/impots/impots-chiens.html",
+   "zeichen": 5128
+  },
+  "vd_lausanne_zones": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "f5da823e09936429fe09",
+   "url": "https://www.lausanne.ch/officiel/administration/logement-environnement-et-architecture/parcs-et-domaines/vie-pratique-nature/bican/zones-accessibles-chiens.html",
+   "zeichen": 3382
+  },
+  "vd_lpolc": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "a8403d400ce68a09d515",
+   "url": "https://prestations.vd.ch/pub/blv-publication/actes/consolide/133.75?id=855b570a-1487-458c-bc6a-84702e56b1ef",
+   "zeichen": 25
+  },
+  "vd_perdus": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "53490ee397f698c06e72",
+   "url": "https://www.vd.ch/population/veterinaires-et-animaux/police-des-chiens/animaux-perdus/trouves",
+   "zeichen": 1861
+  },
+  "vd_police_chiens": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "9c5f74be744ac7ba6ecc",
+   "url": "https://www.vd.ch/population/veterinaires-et-animaux/police-des-chiens",
+   "zeichen": 3296
+  },
+  "vd_ricc": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "a8403d400ce68a09d515",
+   "url": "https://prestations.vd.ch/pub/blv-publication/actes/consolide/652.31.1?id=41862ec7-de89-44d6-b024-e7147e39fa43",
+   "zeichen": 25
+  },
+  "vd_rlfaune": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "a8403d400ce68a09d515",
+   "url": "https://prestations.vd.ch/pub/blv-publication/actes/consolide/922.03.1?id=21dd947f-7594-4427-8826-31b464078f96",
+   "zeichen": 25
+  },
+  "vd_rlpolc": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "a8403d400ce68a09d515",
+   "url": "https://prestations.vd.ch/pub/blv-publication/actes/consolide/133.75.1?id=ed901760-5827-4488-bb26-75d09fddf076",
+   "zeichen": 25
+  },
+  "vd_rsfa": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "a8403d400ce68a09d515",
+   "url": "https://prestations.vd.ch/pub/blv-publication/actes/consolide/922.05.1.1?id=d056c595-a1e9-422d-993a-6fb56e0cfe6b",
+   "zeichen": 25
+  },
+  "vs_agtschg": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 477372,
+   "erster_abruf": "2026-11-27",
+   "summe": "4dbc70df53b7d014517a",
+   "url": "https://www.lexfind.ch/tol/18665/de"
+  },
+  "vs_brig_hunde": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "a70903746b2a18ab7eee",
+   "url": "https://www.brig-glis.ch/leben-arbeiten/einwohnerdienste/hundehaltung-in-brig-glis/",
+   "zeichen": 5925
+  },
+  "vs_brig_leine": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 1591914,
+   "erster_abruf": "2026-11-27",
+   "summe": "a31bcd9d6713beb827fe",
+   "url": "https://www.brig-glis.ch/wp-content/uploads/2022/11/merkblatt-leinenpflicht-zonen.pdf"
+  },
+  "vs_brig_polizei": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 212175,
+   "erster_abruf": "2026-11-27",
+   "summe": "0b85a8f22fcc05fcc8e9",
+   "url": "https://www.brig-glis.ch/wp-content/uploads/2023/01/Polizeireglement-BRIG-GLIS.pdf"
+  },
+  "vs_kursv": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 168439,
+   "erster_abruf": "2026-11-27",
+   "summe": "9f80da30cd9aeee6171d",
+   "url": "https://www.lexfind.ch/tol/32210/de"
+  },
+  "vs_lf": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 1101749,
+   "erster_abruf": "2026-11-27",
+   "summe": "859fd0e4c75c0180d4e5",
+   "url": "https://www.lexfind.ch/tolv/257554/fr"
+  },
+  "vs_ordonnance_formation": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 185768,
+   "erster_abruf": "2026-11-27",
+   "summe": "879c439fb288b7582e15",
+   "url": "https://www.monthey.ch/data/dataimages/Upload/_Officielle/Police/Ordonnance-concernant-la-formation-des-nouveaux-detenteurs-de-chiens-2020.pdf"
+  },
+  "vs_reglement_impot": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 234262,
+   "erster_abruf": "2026-11-27",
+   "summe": "86a0c1baaca22bb05588",
+   "url": "https://www.saviese.ch/data/documents/service-financier/Rglementperceptionimptchiensau01.01.2020.pdf"
+  },
+  "vs_scav_acquisition": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "39b234a94f41682293d3",
+   "url": "https://www.vs.ch/fr/web/scav/veterinaire/vente-acquisition-chiens",
+   "zeichen": 3111
+  },
+  "vs_scav_canines": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "b4e2249bb049179120fb",
+   "url": "https://www.vs.ch/fr/web/scav/veterinaire/affaires-canines",
+   "zeichen": 2040
+  },
+  "vs_scav_morsures": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "50e72aead24180d73983",
+   "url": "https://www.vs.ch/fr/web/scav/veterinaire/morsures-et-agressions",
+   "zeichen": 1758
+  },
+  "vs_scav_securite": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "35708aebd4c634a50689",
+   "url": "https://www.vs.ch/fr/web/scav/veterinaire/securit%C3%A9-publique",
+   "zeichen": 4152
+  },
+  "vs_sion_impot": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "b8cece17110d6a7b4f01",
+   "url": "https://www.sion.ch/themes/75175",
+   "zeichen": 7849
+  },
+  "vs_sion_police": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 69992,
+   "erster_abruf": "2026-11-27",
+   "summe": "31f4f72bd148bbb3e621",
+   "url": "https://www.sion.ch/_docn/1347597/reglement_5_SECURITE_PUBLIQUE_5_1_Reglement_communal_de_police.pdf"
+  },
+  "vs_steuerregl": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 211848,
+   "erster_abruf": "2026-11-27",
+   "summe": "a7555a23ce1a9815b41f",
+   "url": "https://lex.vs.ch/api/de/versions/3188/pdf_file"
+  },
+  "vs_vet_bisse": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "aa2fa60aa0f3ba29ecbd",
+   "url": "https://www.vs.ch/de/web/scav/veterinaerwesen/hundebisse-und-aggressionen",
+   "zeichen": 1596
+  },
+  "vs_vet_erwerb": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "f9b4e7afface572f7963",
+   "url": "https://www.vs.ch/de/web/scav/veterinaerwesen/verkauf-erwerb-von-hunden",
+   "zeichen": 2829
+  },
+  "vs_vet_hundewesen": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "2f14344385a8ebe5a3f7",
+   "url": "https://www.vs.ch/de/web/scav/veterinaerwesen/hundewesen",
+   "zeichen": 1786
+  },
+  "vs_vet_sicherheit": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "8a066b2ed6e4182bcf2e",
+   "url": "https://www.vs.ch/de/web/scav/veterinaerwesen/oeffentliche-sicherheit",
+   "zeichen": 3837
+  },
+  "zg_registrierung": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "e4e218022275d43218d5",
+   "url": "https://zg.ch/de/natur-umwelt-tiere/veterinaerwesen/tiergesundheit/registrierung-kennzeichnung",
+   "zeichen": 1804
+  },
+  "zg_risch_hundereglement": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 264266,
+   "erster_abruf": "2026-11-27",
+   "summe": "e882b1f26ff24f25f6a3",
+   "url": "https://www.zg.ch/behoerden/gemeinden/risch-rotkreuz/politik/rechtssammlung/1-stabstellen-praesidiales/101-hundereglement/download"
+  },
+  "zg_risch_hundewesen": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "505c05915ae98841c308",
+   "url": "https://www.zg.ch/behoerden/gemeinden/risch-rotkreuz/verwaltung/praesidiales/einwohnerdienste/hundewesen",
+   "zeichen": 3798
+  },
+  "zg_risch_verordnung": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 3611584,
+   "erster_abruf": "2026-11-27",
+   "summe": "0dd8fe9915498250d096",
+   "url": "https://www.zg.ch/behoerden/gemeinden/risch-rotkreuz/politik/rechtssammlung/1-stabstellen-praesidiales/101-1-verordnung-hundewesen/download"
+  },
+  "zg_steinhausen_hundesteuer": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "ae5ff1822c108fbc00ee",
+   "url": "https://www.zg.ch/behoerden/gemeinden/steinhausen/verwaltung/praesidiales/hundesteuer",
+   "zeichen": 1796
+  },
+  "zg_steinhausen_merkblatt": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 56695,
+   "erster_abruf": "2026-11-27",
+   "summe": "f5e93d2cea395b420afc",
+   "url": "https://www.zg.ch/behoerden/gemeinden/steinhausen/verwaltung/praesidiales/hundesteuer/copy_of_dokumente/merkblatt-hundesteuer/download"
+  },
+  "zg_steinhausen_steuer": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 50025,
+   "erster_abruf": "2026-11-27",
+   "summe": "8af9e3a203812ebecc8d",
+   "url": "https://www.zg.ch/behoerden/gemeinden/steinhausen/verwaltung/praesidiales/hundesteuer/copy_of_dokumente/regl-halten-von-hunden.pdf/download"
+  },
+  "zg_vet": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "aad5233ca14f6ed8a705",
+   "url": "https://zg.ch/de/natur-umwelt-tiere/veterinaerwesen/hunde",
+   "zeichen": 2026
+  },
+  "zg_vorfaelle": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "b5ae0ad9b01f03166f50",
+   "url": "https://zg.ch/de/natur-umwelt-tiere/veterinaerwesen/hunde/vorfaelle-mit-hunden",
+   "zeichen": 2227
+  },
+  "zg_vv_tsg": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 614396,
+   "erster_abruf": "2026-11-27",
+   "summe": "5e64ffe6c775456f45d1",
+   "url": "https://www.lexfind.ch/tol/19997/de"
+  },
+  "zg_wald": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "c4979a4b3b723ca11611",
+   "url": "https://zg.ch/de/natur-umwelt-tiere/wald/freizeit-und-erholung",
+   "zeichen": 9384
+  },
+  "zg_wald_mm": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "a6fb06cea7de90bb9117",
+   "url": "https://zg.ch/de/news/2025/March/hundeleinenpflicht-im-wald-und-am-waldrand-von-april-bis-juli",
+   "zeichen": 1203
+  },
+  "zh_adliswil_hundewesen": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "4c5c002bac550ae67d05",
+   "url": "https://www.adliswil.ch/hundewesen/13285",
+   "zeichen": 7596
+  },
+  "zh_buelach_gebuehr": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "d160dd1b670482f64796",
+   "url": "https://www.buelach.ch/finanzen-steuern/69364",
+   "zeichen": 9660
+  },
+  "zh_buelach_meldungen": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "25df131713ff0dc224b0",
+   "url": "https://www.buelach.ch/dienstleistungen/98194",
+   "zeichen": 2515
+  },
+  "zh_dietikon_anmeldung": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 761985,
+   "erster_abruf": "2026-11-27",
+   "summe": "12d8ea5525f79c202f0f",
+   "url": "https://www.dietikon.ch/_docn/5687671/Anmeldung_Hund_V05.25.pdf"
+  },
+  "zh_dietikon_hundewesen": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "f3c965d9ad67a15ef466",
+   "url": "https://www.dietikon.ch/dienstleistungen/19074",
+   "zeichen": 6691
+  },
+  "zh_dietikon_tarif": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 494542,
+   "erster_abruf": "2026-11-27",
+   "summe": "a50522998483251b7714",
+   "url": "https://www.dietikon.ch/_docn/5406259/600.2_Tarif-_und_Vollzugsverordnung.pdf"
+  },
+  "zh_duebendorf_hunde": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "9cfeb35a694ba0a30379",
+   "url": "https://www.duebendorf.ch/de/verwaltung/dienstleistungen/?dienst_id=24805",
+   "zeichen": 6674
+  },
+  "zh_duebendorf_polv": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 292389,
+   "erster_abruf": "2026-11-27",
+   "summe": "01b9b46abe49f9760e8a",
+   "url": "https://www.duebendorf.ch/_docn/2541880/Polizeiverordnung_der_Stadt_Dubendorf_vom_24._April_2015.pdf"
+  },
+  "zh_findel": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "f135bd4632491241c48e",
+   "url": "https://www.zh.ch/de/umwelt-tiere/tiere/haustiere-heimtiere/meldestelle-fuer-findeltiere.html",
+   "zeichen": 6792
+  },
+  "zh_fund": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "7cad2a45b766c6b63022",
+   "url": "https://www.zh.ch/de/umwelt-tiere/tiere/haustiere-heimtiere/gefundenes-tier-melden.html",
+   "zeichen": 2281
+  },
+  "zh_hundeg": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "d907c0369f240d7c78d7",
+   "uebersicht": {
+    "abgerufen": "2026-11-27",
+    "erster_abruf": "2026-11-27",
+    "links": [
+     "https://www.google.com/maps/dir/?api=1&destination=47.378183333352304,8.542956745903888",
+     "https://www.notes.zh.ch/appl/zhlex_r.nsf/OpenAttachment?Open&docid=01E354A6283DF023C1258C93003DD225&file=554.5_14.4.08_129.pdf",
+     "https://www.zh.ch/de/politik-staat/gesetze-beschluesse/beschluesse-des-regierungsrates.html",
+     "https://www.zh.ch/de/politik-staat/gesetze-beschluesse/gesetzessammlung/zhlex-ls/erlass-554_5-1971_03_14-1972_01_01-000.html",
+     "https://www.zh.ch/de/politik-staat/gesetze-beschluesse/gesetzessammlung/zhlex-ls/erlass-554_5-1971_03_14-1972_01_01-055a.html",
+     "https://www.zh.ch/de/politik-staat/gesetze-beschluesse/gesetzessammlung/zhlex-ls/erlass-554_5-1971_03_14-1972_01_01-055b.html",
+     "https://www.zh.ch/de/politik-staat/gesetze-beschluesse/gesetzessammlung/zhlex-ls/erlass-554_5-2008_04_14-2010_01_01-067.html",
+     "https://www.zh.ch/de/politik-staat/gesetze-beschluesse/gesetzessammlung/zhlex-ls/erlass-554_5-2008_04_14-2010_01_01-119.html",
+     "https://www.zh.ch/de/politik-staat/gesetze-beschluesse/gesetzessammlung/zhlex-ls/erlass-554_5-2008_04_14-2010_01_01-129.html",
+     "https://www.zh.ch/de/politik-staat/gesetze-beschluesse/rekursentscheide.html",
+     "https://www.zh.ch/de/politik-staat/gesetze-beschluesse/vernehmlassungen.html",
+     "https://www.zh.ch/de/regierungsrat.html",
+     "https://www.zh.ch/de/staatskanzlei.html",
+     "https://www.zh.ch/de/staatskanzlei/rechtsdienst.html"
+    ],
+    "summe": "7dc818ec32926366be50",
+    "url": "https://zhlex.zh.ch/Erlass.html/?Open=&Ordnr=554.5"
+   },
+   "url": "https://www.zh.ch/de/politik-staat/gesetze-beschluesse/gesetzessammlung/zhlex-ls/erlass-554_5-2008_04_14-2010_01_01-129.html",
+   "zeichen": 1323
+  },
+  "zh_ilef_gebrgl": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 595055,
+   "erster_abruf": "2026-11-27",
+   "summe": "495facd59cec2b223a17",
+   "url": "https://www.ilef.ch/_docn/3061592/200.02.01_Gebuehrenreglement_GebRgl_per_01.01.2019.pdf"
+  },
+  "zh_opfikon_hundeabgabe": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "2ae0e7064e9faf067d2e",
+   "url": "https://www.opfikon.ch/dienstleistungen/53102",
+   "zeichen": 4916
+  },
+  "zh_rassen": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "12248a78d92c6271ba5f",
+   "url": "https://www.zh.ch/de/umwelt-tiere/tiere/haustiere-heimtiere/hunde/verbotene-hunderassen.html",
+   "zeichen": 6850
+  },
+  "zh_regensdorf_anmeldung": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "ae1e0911cd9f06b948d0",
+   "url": "https://www.regensdorf.ch/dienstleistungen/108583",
+   "zeichen": 2409
+  },
+  "zh_regensdorf_gebuehren": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "527dcf33fdace4cbd2f7",
+   "url": "https://www.regensdorf.ch/gk-finanzensteuern/info/1529653",
+   "zeichen": 1836
+  },
+  "zh_regensdorf_hundewesen": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "c4a0526e8bbfbc41a41c",
+   "url": "https://www.regensdorf.ch/dienstleistungen/11373",
+   "zeichen": 5794
+  },
+  "zh_regensdorf_polvo": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "93c7a8cb96a7222b79ed",
+   "url": "https://www.regensdorf.ch/gesetzessammlung/sammlung/1529611",
+   "zeichen": 2360
+  },
+  "zh_regensdorf_schalter": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "3461f465eea2875ab1c4",
+   "url": "https://www.regensdorf.ch/online-schalter/35025/detail",
+   "zeichen": 2522
+  },
+  "zh_schlieren_friedhof": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 274772,
+   "erster_abruf": "2026-11-27",
+   "summe": "e63f63a866f96d44e3cb",
+   "url": "https://www.schlieren.ch/_docn/1230737/SKR_12_10_Verordnung_uber_das_Friedhof-_und_Bestattungswesen.pdf"
+  },
+  "zh_schlieren_gebv": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 398547,
+   "erster_abruf": "2026-11-27",
+   "summe": "10fd2dd097e1838e21ba",
+   "url": "https://www.schlieren.ch/_docn/1535584/SKR_9.10_Gebuhrenverordnung.pdf"
+  },
+  "zh_schlieren_hunde": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "bea103bd38cca0d33866",
+   "url": "https://www.schlieren.ch/dienstleistungen/123752",
+   "zeichen": 4193
+  },
+  "zh_schlieren_tarif": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 417274,
+   "erster_abruf": "2026-11-27",
+   "summe": "8d25d21a5a6a9a28f189",
+   "url": "https://www.schlieren.ch/_doc/7138921"
+  },
+  "zh_stadt": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "075d26d258431f7a4101",
+   "url": "https://www.stadt-zuerich.ch/hunde",
+   "zeichen": 2541
+  },
+  "zh_stadt_kontrolle": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "3a1d1c4eee689d9ab437",
+   "url": "https://www.stadt-zuerich.ch/de/stadtleben/veranstaltungen-und-bewilligungen/hundekontrolle.html",
+   "zeichen": 6105
+  },
+  "zh_stadt_vollzug": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 217327,
+   "erster_abruf": "2026-11-27",
+   "summe": "cc492568d3e3be3ebc98",
+   "url": "https://www.stadt-zuerich.ch/dam/web/de/politik-verwaltung/politik-recht/amtliche-sammlung/554/510/554.510%20Vollzugsvorschriften%20zum%20Hundegesetz_17_V4.pdf"
+  },
+  "zh_thalwil_hunde": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "fffc6cc0ef2b655d6f00",
+   "url": "https://www.thalwil.ch/zuzugumzugwegzug/2989",
+   "zeichen": 13285
+  },
+  "zh_uster_hundewesen": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "96ca64bfb664b9791bcb",
+   "url": "https://www.uster.ch/dienstleistungen/16018",
+   "zeichen": 5264
+  },
+  "zh_uster_waldplan": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "c414a43bcc2e6a247059",
+   "url": "https://www.uster.ch/publikationen/435532",
+   "zeichen": 2577
+  },
+  "zh_vermisst": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "2b54ab1d9156a6e178c8",
+   "url": "https://www.zh.ch/de/umwelt-tiere/tiere/haustiere-heimtiere/vermisstes-tier-melden.html",
+   "zeichen": 1121
+  },
+  "zh_vet": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "9e758a09578c97c1806c",
+   "url": "https://www.zh.ch/de/umwelt-tiere/tiere/haustiere-heimtiere/hunde.html",
+   "zeichen": 21514
+  },
+  "zh_volketswil_hundeabgabe": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "83872410f8bbad8f8cfb",
+   "url": "https://www.volketswil.ch/verwaltung/abteilungen/sicherheit/dl-sicherheitsabteilung/hundeverabgabung.html/98",
+   "zeichen": 517
+  },
+  "zh_volketswil_polv": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 2835449,
+   "erster_abruf": "2026-11-27",
+   "summe": "f0a1bfe805488c646f5e",
+   "url": "https://www.volketswil.ch/public/upload/assets/14101/50.01%20Polizeiverordnung%20der%20Politischen%20Gemeinde%20Volketswil.pdf?fp=2"
+  },
+  "zh_waedenswil_hundewesen": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "d49f5d9b10e6aafcfdc8",
+   "url": "https://www.waedenswil.ch/dienstleistungen/20941",
+   "zeichen": 5070
+  },
+  "zh_wetzikon_hundewesen": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "1c4fa61b4f91a89980ef",
+   "url": "https://www.wetzikon.ch/de/verwaltung/dienstleistungen/36_hundewesen",
+   "zeichen": 12018
+  },
+  "zh_wetzikon_pvo": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 466861,
+   "erster_abruf": "2026-11-27",
+   "summe": "8cb8d4717b47c834c6b7",
+   "url": "https://www.wetzikon.ch/wAssets/docs/Rechtssammlung/5/502/502.1-Polizeiverordnung-vom-09-03-2026.pdf"
+  },
+  "zh_wetzikon_tarif": {
+   "abgerufen": "2026-11-27",
+   "art": "datei",
+   "bytes": 1062451,
+   "erster_abruf": "2026-11-27",
+   "summe": "4d7b47312c03c9622e61",
+   "url": "https://www.wetzikon.ch/wAssets/docs/Rechtssammlung/7/751/751.2-E-Gebuehrentarif-vom-1.-Januar-2018-Stand-08072026.pdf"
+  },
+  "zh_winterthur_anmeldung": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "ba5d3f4101af6af79e7f",
+   "url": "https://stadt.winterthur.ch/gemeinde/verwaltung/sicherheit-und-umwelt/melde-und-zivilstandswesen/einwohnerkontrolle/an-abmeldung-hund",
+   "zeichen": 4357
+  },
+  "zh_winterthur_bruderhaus": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "44b15aa7e216c85e751c",
+   "url": "https://stadt.winterthur.ch/themen/leben-in-winterthur/freizeit-und-sport/ausflugsziele-freiraeume/wildpark-bruderhaus/parkregeln",
+   "zeichen": 10810
+  },
+  "zh_winterthur_hundewesen": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "eca4138d72293c3c8b8e",
+   "url": "https://stadt.winterthur.ch/themen/leben-in-winterthur/wohnen-und-umzug/hundewesen",
+   "zeichen": 5188
+  },
+  "zh_zonen": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "28f86036e0e4b9240a9a",
+   "url": "https://data.stadt-zuerich.ch/dataset/geo_hundezonen",
+   "zeichen": 3833
+  }
+ },
+ "stand": "2026-11-27",
+ "zahlen": {
+  "erreichbar": 431,
+  "erstmals": 431,
+  "geaendert": 0,
+  "nicht": 6,
+  "quellen": 437
+ }
+}
