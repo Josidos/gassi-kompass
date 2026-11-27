@@ -4,11 +4,14 @@
   "kurz": "BE",
   "im": "dans le canton de Berne",
   "des": "du canton de Berne",
-  "geprueft": "2026-11-17",
+  "geprueft": "2026-11-27",
   "wald": {
     "saison": false,
-    "text": "La brochure cantonale sur la loi sur les chiens ne cite pas la forêt parmi les lieux où la laisse est obligatoire. La laisse reste obligatoire sur les pâturages où paît du bétail, dans les réserves naturelles et dans les lieux désignés par votre commune. État de la brochure: juillet 2022.",
+    "text": "La loi bernoise sur les chiens ne cite pas la forêt parmi les lieux où la laisse est obligatoire. À l'écart des maisons, dans les champs ou la forêt, votre chien ne peut toutefois être laissé en liberté que si vous pouvez le maîtriser à tout moment. Il est interdit de laisser errer un chien sans surveillance ; l'amende d'ordre est de CHF 100. La laisse est obligatoire sur les pâturages où séjourne du bétail, dans les réserves naturelles, dans les zones cantonales de protection de la faune sauvage où elle est prescrite et dans les lieux désignés par votre commune. Les gardes-faune sont autorisés à tirer des chiens trouvés en train de chasser, ou trouvés à l'écart des maisons et non accompagnés bien que leur propriétaire ait été averti ou dénoncé à plusieurs reprises.",
     "quellen": [
+      "be_lchiens_fr",
+      "be_opfs_fr",
+      "be_ocao_fr",
       "be_avet_fr"
     ]
   },
@@ -17,14 +20,17 @@
       "en tout temps et partout, si vous ne pouvez pas contrôler efficacement votre chien d'une autre manière",
       "dans les écoles",
       "sur les aires de jeux et de sport publiques",
-      "dans les transports publics, les gares et aux arrêts",
-      "sur les pâturages où paît du bétail",
+      "dans les transports publics, dans les gares et aux arrêts",
+      "lorsque vous franchissez des pâturages où séjourne du bétail",
       "dans les réserves naturelles",
-      "dans les lieux désignés par votre commune"
+      "dans les zones cantonales de protection de la faune sauvage pour lesquelles l'ordonnance sur la protection de la faune sauvage prescrit la laisse",
+      "dans les lieux désignés par votre commune",
+      "si l'ordre en a été donné pour votre chien dans un cas particulier"
     ],
     "quellen": [
+      "be_lchiens_fr",
       "be_avet_fr",
-      "be_lchiens_fr"
+      "be_opfs_fr"
     ]
   },
   "verbot": {
@@ -35,8 +41,7 @@
       "promener en même temps plus de trois chiens âgés de plus de quatre mois"
     ],
     "quellen": [
-      "be_lchiens_fr",
-      "be_avet_fr"
+      "be_lchiens_fr"
     ]
   },
   "karten": [
@@ -45,9 +50,10 @@
       "marke": "Obligatoire",
       "ton": "must",
       "wert": "CHF 3 millions",
-      "text": "Si vous détenez un chien, vous devez avoir une assurance responsabilité civile couvrant CHF 3 millions. État de la brochure: juillet 2022.",
+      "text": "Si vous détenez un chien, vous devez être au bénéfice d'une assurance responsabilité civile qui couvre les risques liés à la détention des chiens. La couverture minimale s'élève à trois millions de francs. Vous présentez la police d'assurance sur demande aux autorités du canton et de la commune. La commune peut contrôler que vous êtes assuré.",
       "quellen": [
-        "be_avet_fr"
+        "be_lchiens_fr",
+        "be_opac_fr"
       ]
     },
     {
@@ -55,9 +61,11 @@
       "marke": "Pas d'obligation",
       "ton": "none",
       "wert": "cours recommandé",
-      "text": "La brochure cantonale ne prévoit pas de cours obligatoire. Son code d'honneur encourage à suivre un cours pour détenteurs de chiens.",
+      "text": "La loi sur les chiens ne prévoit pas de cours obligatoire. Le canton recommande d'assister à un cours destiné aux détenteurs et détentrices de chien. Dans un cas particulier, l'Office des affaires vétérinaires peut obliger à suivre des cours de formation, par exemple lorsqu'un chien a blessé un être humain ou un animal.",
       "quellen": [
-        "be_avet_fr"
+        "be_lchiens_fr",
+        "be_opac_fr",
+        "be_chien_fr"
       ]
     },
     {
@@ -65,7 +73,7 @@
       "marke": "Obligatoire",
       "ton": "note",
       "wert": "auprès de la commune",
-      "text": "Chaque chien doit être identifié et enregistré dans la banque de données AMICUS, y compris les chiens importés. La commune de domicile enregistre les détentrices et détenteurs.",
+      "text": "Contactez votre commune de domicile pour lui indiquer que vous détenez un chien. Elle vous enregistre dans la banque de données AMICUS et vous recevez ensuite votre identifiant. Vous faites identifier et enregistrer le chien par votre vétérinaire, y compris s'il vient de l'étranger. Pour modifier vos informations personnelles ou votre adresse, vous reprenez contact avec votre commune de domicile.",
       "quellen": [
         "be_avet_fr",
         "be_oce_fr"
@@ -76,9 +84,10 @@
       "marke": "Commune",
       "ton": "note",
       "wert": "selon la commune",
-      "text": "Les communes peuvent percevoir une taxe des chiens. Elles décident dans leur propre réglementation si elles la prélèvent et en fixent le montant. Y sont soumis les détentrices et détenteurs domiciliés dans la commune dont le chien a plus de six mois. Aucune taxe n'est perçue pour les chiens d'assistance ou d'accompagnement de personnes handicapées, pour les chiens placés temporairement en refuge et pour ceux dont la taxe a déjà été payée la même année dans une autre commune ou un autre canton. Pour la taxe, les communes peuvent consulter les données enregistrées dans la banque de données des chiens.",
+      "text": "Les communes peuvent percevoir une taxe des chiens. Elles décident dans leur propre réglementation si elles la prélèvent et en fixent le montant. Y sont soumis les détentrices et détenteurs domiciliés dans la commune dont le chien a plus de six mois. Aucune taxe n'est perçue pour les chiens d'assistance ou d'accompagnement de personnes handicapées, pour les chiens placés temporairement en refuge et pour ceux dont la taxe a déjà été payée la même année dans une autre commune ou un autre canton. Sont considérés comme chiens d'assistance ou d'accompagnement ceux entraînés à guider les personnes aveugles ou sourdes et ceux formés par l'organisation «Le Copain». Les communes peuvent exonérer d'autres chiens de tout ou partie de la taxe. La soustraction de la taxe est punie d'une amende de CHF 5000 au plus. Pour la taxe, les communes peuvent consulter les données enregistrées dans la banque de données des chiens.",
       "quellen": [
         "be_lchiens_fr",
+        "be_opac_fr",
         "be_oce_fr"
       ]
     },
@@ -87,9 +96,11 @@
       "marke": "Pas de liste",
       "ton": "none",
       "wert": "aucune restriction",
-      "text": "La loi bernoise sur les chiens ne contient ni liste de races ni dispositions propres à certaines races.",
+      "text": "La loi bernoise sur les chiens ne contient ni liste de races ni dispositions propres à certaines races. Des restrictions n'existent que dans des cas particuliers : si un chien a blessé un être humain ou un animal ou présente un comportement agressif excessif, l'Office des affaires vétérinaires ordonne des mesures, de l'examen du comportement à l'obligation de laisse et de muselière et jusqu'à l'interdiction de détenir des chiens. Les coûts sont à la charge de la détentrice ou du détenteur.",
       "quellen": [
-        "be_avet_fr"
+        "be_avet_fr",
+        "be_lchiens_fr",
+        "be_opac_fr"
       ]
     },
     {
@@ -97,18 +108,28 @@
       "marke": "Règle",
       "ton": "note",
       "wert": "3 chiens au plus",
-      "text": "Une personne ne peut pas promener en même temps plus de trois chiens âgés de plus de quatre mois. Ne laissez jamais votre chien sans surveillance dans l'espace public. Ramassez les déjections, sinon vous risquez une amende d'ordre.",
+      "text": "Une personne ne peut pas promener en même temps plus de trois chiens âgés de plus de quatre mois. Davantage de chiens sont permis avec une formation reconnue ou une autorisation de l'Office des affaires vétérinaires. Ne laissez jamais votre chien sans surveillance dans l'espace public et gardez-le maîtrisé à tout moment. Les chiens qui ont tendance à mordre portent une muselière. Vous ramassez les déjections. Des amendes d'ordre de CHF 100 sont prévues pour le non-respect de la laisse obligatoire, pour un chien laissé sans surveillance ou non maîtrisé, pour la promenade de plus de trois chiens sans y être autorisé et pour les déjections non ramassées.",
       "quellen": [
-        "be_avet_fr"
+        "be_lchiens_fr",
+        "be_opac_fr",
+        "be_ocao_fr"
       ]
     }
   ],
   "vergleich": {
-    "wald": "pas d'obligation générale",
+    "wald": "pas d'obligation générale, chien maîtrisé à tout moment en forêt",
     "haft": "obligatoire, CHF 3 millions",
     "kurs": "pas d'obligation",
     "rassen": "aucune restriction",
     "steuer": "selon la commune",
     "anm": "auprès de la commune"
+  },
+  "vermisst": {
+    "text": "Dans le canton de Berne, vous annoncez un animal trouvé ou disparu à la centrale cantonale des animaux disparus. La page en allemand de la Police cantonale bernoise donne pour cela l'adresse de la Schweizerische Tiermeldezentrale (STMZ, centrale suisse d'annonce des animaux), stmz.ch. Les refuges, les organisations de protection des animaux et les vétérinaires habilités par l'Office des affaires vétérinaires peuvent consulter, au moyen du numéro de puce électronique d'un chien trouvé, les coordonnées de sa détentrice ou de son détenteur.",
+    "quellen": [
+      "be_police_fr",
+      "be_kapo_fund",
+      "be_oce_fr"
+    ]
   }
 }

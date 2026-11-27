@@ -2,12 +2,14 @@
   "id": "be",
   "kurz": "BE",
   "uebersetzt_aus": "de",
-  "original": "870330b98edd",
+  "original": "1efc6a446cc6",
   "wald": {
     "saison": false,
-    "text": "Nel Cantone di Berna non c'è un obbligo generale di guinzaglio nel bosco. Il Gran Consiglio lo ha respinto nel 2023, con 70 voti contro 63, per il periodo di cova e dei parti della selvaggina. Il guinzaglio serve comunque sui pascoli con animali da reddito, nelle riserve naturali e nei luoghi designati dal tuo Comune.",
+    "text": "Nel Cantone di Berna non c'è un obbligo generale di guinzaglio nel bosco. Nel settembre 2023 il Gran Consiglio ha respinto, con 70 voti contro 63, un obbligo di guinzaglio durante il periodo di cova e dei parti della selvaggina. Nel bosco, nei campi e lontano dalle case il tuo cane può però correre libero solo se riesci a tenerlo sempre sotto controllo in modo efficace. Lasciarlo correre senza sorveglianza è vietato, la multa disciplinare è di CHF 100. Il guinzaglio serve sui pascoli con animali da reddito, nelle riserve naturali, nelle zone cantonali di protezione della selvaggina con obbligo di guinzaglio e nei luoghi designati dal tuo Comune. I guardiacaccia possono abbattere i cani trovati a cacciare o che, nonostante un ammonimento o una denuncia, vengono trovati ripetutamente lontano dalle case senza accompagnatore.",
     "quellen": [
       "be_wald",
+      "be_wtschv",
+      "be_kobv",
       "be_avet"
     ]
   },
@@ -17,13 +19,16 @@
       "nelle aree scolastiche",
       "nei parchi giochi e nei campi sportivi pubblici",
       "sui mezzi di trasporto pubblici, nelle stazioni e alle fermate",
-      "sui pascoli con animali da reddito",
+      "quando attraversi pascoli sui quali si trovano animali da reddito",
       "nelle riserve naturali",
-      "nei luoghi designati dal tuo Comune"
+      "nelle zone cantonali di protezione della selvaggina per le quali la Verordnung über den Wildtierschutz (ordinanza sulla protezione della fauna selvatica) prevede l'obbligo di guinzaglio",
+      "nei luoghi designati dal tuo Comune",
+      "se è stato ordinato per il tuo cane nel singolo caso"
     ],
     "quellen": [
+      "be_hug",
       "be_avet",
-      "be_hug"
+      "be_wtschv"
     ]
   },
   "verbot": {
@@ -41,9 +46,10 @@
       "marke": "Obbligo",
       "ton": "must",
       "wert": "almeno CHF 3 milioni",
-      "text": "Chi detiene un cane deve avere un'assicurazione di responsabilità civile che copra i rischi della detenzione di cani.",
+      "text": "Chi detiene un cane deve avere un'assicurazione di responsabilità civile che copra i rischi della detenzione di cani. La somma minima di copertura è di tre milioni di franchi. Su richiesta mostri la polizza alle autorità del Cantone e del Comune. Il Comune può controllare se sei assicurato.",
       "quellen": [
-        "be_avet"
+        "be_hug",
+        "be_thv"
       ]
     },
     {
@@ -51,9 +57,11 @@
       "marke": "Nessun obbligo",
       "ton": "none",
       "wert": "nessun corso obbligatorio",
-      "text": "Il Cantone di Berna non prevede corsi obbligatori. I corsi sono raccomandati soprattutto a chi detiene un cane per la prima volta.",
+      "text": "La Hundegesetz (legge sui cani) non prevede corsi obbligatori. Il Cantone raccomanda di frequentare un corso per detentrici e detentori di cani. Nel singolo caso l'Amt für Veterinärwesen (ufficio veterinario) può ordinare la frequenza di corsi di formazione, per esempio se un cane ha ferito persone o animali.",
       "quellen": [
-        "be_kurs"
+        "be_hug",
+        "be_thv",
+        "be_hund_halten"
       ]
     },
     {
@@ -61,9 +69,10 @@
       "marke": "Obbligo",
       "ton": "note",
       "wert": "tramite il Comune",
-      "text": "Annunciati al tuo Comune di domicilio come detentrice o detentore di un cane. Il Comune ti registra in AMICUS.",
+      "text": "Annunciati al tuo Comune di domicilio come detentrice o detentore di un cane. Il Comune ti registra nella banca dati AMICUS, poi ricevi il tuo login. Fai contrassegnare e registrare il cane dalla veterinaria o dal veterinario, anche se arriva dall'estero. I cambiamenti dei dati personali o dell'indirizzo li annunci di nuovo al tuo Comune di domicilio.",
       "quellen": [
-        "be_avet"
+        "be_avet",
+        "be_ktsv"
       ]
     },
     {
@@ -71,9 +80,10 @@
       "marke": "Comune",
       "ton": "note",
       "wert": "secondo il Comune",
-      "text": "I Comuni possono riscuotere un'imposta sui cani. Decidono loro stessi se riscuoterla e a quanto ammonta. Se il tuo Comune di domicilio la riscuote, sei assoggettato non appena il tuo cane ha più di sei mesi. L'imposta non è dovuta per i cani d'assistenza e d'accompagnamento di persone con disabilità, per i cani che si trovano temporaneamente in un rifugio per animali in attesa di una nuova sistemazione e se nello stesso anno è già stata pagata in un altro Comune o in un altro Cantone.",
+      "text": "I Comuni possono riscuotere un'imposta sui cani. Decidono loro stessi se riscuoterla e a quanto ammonta. Se il tuo Comune di domicilio la riscuote, sei assoggettato non appena il tuo cane ha più di sei mesi. L'imposta non è dovuta per i cani d'assistenza e d'accompagnamento di persone con disabilità, per i cani che si trovano temporaneamente in un rifugio per animali in attesa di una nuova sistemazione e se nello stesso anno è già stata pagata in un altro Comune o in un altro Cantone. Sono considerati cani d'assistenza e d'accompagnamento i cani guida per ciechi o per sordi e i cani d'assistenza formati dall'organizzazione «Le Copain». I Comuni possono esentare del tutto o in parte altri cani. Chi sottrae l'imposta rischia una multa fino a CHF 5000.",
       "quellen": [
-        "be_hug"
+        "be_hug",
+        "be_thv"
       ]
     },
     {
@@ -81,9 +91,11 @@
       "marke": "nessun elenco",
       "ton": "none",
       "wert": "nessuna restrizione",
-      "text": "La Hundegesetz (legge sui cani) bernese non prevede né un elenco delle razze né prescrizioni specifiche per singole razze.",
+      "text": "La Hundegesetz bernese non prevede né un elenco delle razze né prescrizioni specifiche per singole razze. Le restrizioni esistono solo nel singolo caso: se un cane ha ferito persone o animali o mostra un comportamento eccessivamente aggressivo, l'Amt für Veterinärwesen ordina misure, dall'esame del comportamento all'obbligo di guinzaglio e di museruola fino al divieto di detenere cani. I costi sono a carico della detentrice o del detentore.",
       "quellen": [
-        "be_avet"
+        "be_avet",
+        "be_hug",
+        "be_thv"
       ]
     },
     {
@@ -91,18 +103,27 @@
       "marke": "Regola",
       "ton": "note",
       "wert": "al massimo 3 cani",
-      "text": "Al massimo 3 cani di età superiore a 4 mesi per persona. Negli spazi pubblici il cane non resta mai incustodito ed è sempre sotto controllo in modo efficace. Raccogli gli escrementi, altrimenti rischi una multa disciplinare.",
+      "text": "Al massimo 3 cani di età superiore a 4 mesi per persona. Di più possono portarne a spasso solo le persone con una formazione riconosciuta o con un'autorizzazione dell'Amt für Veterinärwesen. Negli spazi pubblici non lasci mai il cane incustodito e lo tieni sempre sotto controllo in modo efficace. I cani mordaci portano la museruola. Raccogli gli escrementi. Sono previste multe disciplinari di CHF 100 ciascuna per l'obbligo di guinzaglio non rispettato, per un cane incustodito o non controllato in modo efficace, per più di 3 cani senza esservi autorizzati e per gli escrementi non raccolti.",
       "quellen": [
-        "be_avet"
+        "be_hug",
+        "be_thv",
+        "be_kobv"
       ]
     }
   ],
   "vergleich": {
-    "wald": "nessun obbligo generale",
+    "wald": "nessun obbligo generale, nel bosco sempre sotto controllo efficace",
     "haft": "obbligo, almeno CHF 3 milioni",
     "kurs": "nessun corso obbligatorio",
     "rassen": "nessuna restrizione",
     "steuer": "secondo il Comune",
     "anm": "tramite il Comune"
+  },
+  "vermisst": {
+    "text": "Nel Cantone di Berna segnali un animale trovato o smarrito al servizio cantonale di segnalazione degli animali trovati. La Kantonspolizei (polizia cantonale) rimanda per questo alla Schweizerische Tiermeldezentrale (STMZ, centrale svizzera di segnalazione degli animali), stmz.ch. I rifugi per animali, le organizzazioni di protezione degli animali e le veterinarie e i veterinari autorizzati dall'Amt für Veterinärwesen possono risalire alla detentrice o al detentore di un cane trovato tramite il numero del microchip.",
+    "quellen": [
+      "be_kapo_fund",
+      "be_ktsv"
+    ]
   }
 }

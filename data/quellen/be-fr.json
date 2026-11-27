@@ -6,7 +6,7 @@
   },
   "be_oce_fr": {
     "kurz": "OCE BE",
-    "lang": "Canton de Berne: ordonnance cantonale sur les épizooties (OCE, RSB 916.51), état au 1er août 2026, art. 13 et 13a",
+    "lang": "Canton de Berne: ordonnance cantonale sur les épizooties (OCE, RSB 916.51), état au 1er août 2026, art. 13 à 13b",
     "url": "https://www.belex.sites.be.ch/app/fr/texts_of_law/916.51"
   },
   "be_lchiens_fr": {
@@ -38,5 +38,30 @@
     "kurz": "Ville de Bienne: questions sur la taxe des chiens",
     "lang": "Ville de Bienne: page «Foire aux questions concernant la taxe des chiens» (consultée le 27 novembre 2026)",
     "url": "https://www.biel-bienne.ch/fr/taxe-chiens.html/724"
+  },
+  "be_opac_fr": {
+    "kurz": "OPAC BE",
+    "lang": "Canton de Berne: ordonnance sur la protection des animaux et les chiens (OPAC, RSB 916.812), état au 1er mars 2022, chapitre 7 «Chiens»",
+    "url": "https://www.belex.sites.be.ch/app/fr/texts_of_law/916.812"
+  },
+  "be_opfs_fr": {
+    "kurz": "OPFS BE",
+    "lang": "Canton de Berne: ordonnance sur la protection de la faune sauvage (OPFS, RSB 922.63), état au 1er décembre 2024, art. 3 et 7 à 9",
+    "url": "https://www.belex.sites.be.ch/app/fr/texts_of_law/922.63"
+  },
+  "be_ocao_fr": {
+    "kurz": "OCAO BE",
+    "lang": "Canton de Berne: ordonnance cantonale sur les amendes d'ordre (OCAO, RSB 324.111), état au 1er mars 2023, annexe 1, chiffres 6 à 11a et 28 à 30",
+    "url": "https://www.belex.sites.be.ch/app/fr/texts_of_law/324.111"
+  },
+  "be_chien_fr": {
+    "kurz": "Affaires vétérinaires BE: acheter et détenir un chien",
+    "lang": "Canton de Berne, Office des affaires vétérinaires: Acheter et détenir un chien (consulté le 27 novembre 2026)",
+    "url": "https://www.weu.be.ch/fr/start/themen/veterinaerwesen/hunde-im-kanton-bern/einen-hund-kaufen-halten.html"
+  },
+  "be_police_fr": {
+    "kurz": "Police cantonale BE: trouvé, perdu, disparu",
+    "lang": "Police cantonale bernoise: Trouvé, perdu, disparu, section «Animaux trouvés ou perdus» (consulté le 27 novembre 2026)",
+    "url": "https://www.police.be.ch/fr/start/dienstleistungen/online-wache/gefunden-verloren-vermisst.html"
   }
 }

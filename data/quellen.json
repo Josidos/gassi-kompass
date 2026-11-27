@@ -54,14 +54,9 @@
     "lang": "Kanton Bern: Hundegesetz (BSG 916.31), Stand 1. April 2021",
     "url": "https://www.belex.sites.be.ch/app/de/texts_of_law/916.31"
   },
-  "be_kurs": {
-    "kurz": "Gemeinde Büren a.A.",
-    "lang": "Gemeinde Büren an der Aare: Informationsblatt für Hundebesitzerinnen und Hundebesitzer",
-    "url": "https://www.bueren.ch/de/verwaltung/dokumente/dokumente/Hundehaltung-Informationsblatt-fuer-HundebesitzerInnen.pdf"
-  },
   "be_wald": {
     "kurz": "Grosser Rat BE 2023",
-    "lang": "plattformj.ch: Grosser Rat lehnt Leinenpflicht in der Brut- und Setzzeit ab (13.9.2023)",
+    "lang": "plattformj.ch (Medienbericht): Der Grosse Rat lehnt eine Leinenpflicht für Hunde während der Brutzeit der Wildtiere mit 70 zu 63 Stimmen ab (13. September 2023)",
     "url": "https://www.plattformj.ch/artikel/213577/"
   },
   "be_plan": {
@@ -1028,5 +1023,35 @@
     "kurz": "Stadt Biel: Fragen und Antworten zur Hundetaxe",
     "lang": "Stadt Biel: Seite «Fragen und Antworten zur Hundetaxe» (abgerufen am 27. November 2026)",
     "url": "https://www.biel-bienne.ch/de/hundetaxe.html/724"
+  },
+  "be_thv": {
+    "kurz": "Tierschutz- und Hundeverordnung BE",
+    "lang": "Kanton Bern: Verordnung über den Tierschutz und die Hunde (THV, BSG 916.812), Stand 1. März 2022, Kapitel 7 «Hunde»",
+    "url": "https://www.belex.sites.be.ch/app/de/texts_of_law/916.812"
+  },
+  "be_wtschv": {
+    "kurz": "Wildtierschutzverordnung BE",
+    "lang": "Kanton Bern: Verordnung über den Wildtierschutz (WTSchV, BSG 922.63), Stand 1. Dezember 2024, Art. 3 und 7 bis 9",
+    "url": "https://www.belex.sites.be.ch/app/de/texts_of_law/922.63"
+  },
+  "be_kobv": {
+    "kurz": "Ordnungsbussenverordnung BE",
+    "lang": "Kanton Bern: Kantonale Ordnungsbussenverordnung (KOBV, BSG 324.111), Stand 1. März 2023, Anhang 1, Ziffern 6 bis 11a und 28 bis 30",
+    "url": "https://www.belex.sites.be.ch/app/de/texts_of_law/324.111"
+  },
+  "be_ktsv": {
+    "kurz": "Tierseuchenverordnung BE",
+    "lang": "Kanton Bern: Kantonale Tierseuchenverordnung (KTSV, BSG 916.51), Stand 1. August 2026, Art. 13 bis 13b",
+    "url": "https://www.belex.sites.be.ch/app/de/texts_of_law/916.51"
+  },
+  "be_hund_halten": {
+    "kurz": "Veterinärwesen BE: Hund kaufen und halten",
+    "lang": "Kanton Bern, Amt für Veterinärwesen: Einen Hund kaufen und halten (abgerufen am 27. November 2026)",
+    "url": "https://www.weu.be.ch/de/start/themen/veterinaerwesen/hunde-im-kanton-bern/einen-hund-kaufen-halten.html"
+  },
+  "be_kapo_fund": {
+    "kurz": "Kantonspolizei BE: Gefunden, verloren, vermisst",
+    "lang": "Kantonspolizei Bern: Gefunden, verloren, vermisst, Abschnitt «Gefundene und verlorene Tiere» (abgerufen am 27. November 2026)",
+    "url": "https://www.police.be.ch/de/start/dienstleistungen/online-wache/gefunden-verloren-vermisst.html"
   }
 }

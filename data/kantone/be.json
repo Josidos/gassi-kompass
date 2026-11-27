@@ -4,12 +4,14 @@
   "kurz": "BE",
   "im": "im Kanton Bern",
   "des": "des Kantons Bern",
-  "geprueft": "2026-11-16",
+  "geprueft": "2026-11-27",
   "wald": {
     "saison": false,
-    "text": "Im Kanton Bern gibt es keine allgemeine Leinenpflicht im Wald. Der Grosse Rat hat sie für die Brut- und Setzzeit 2023 mit 70 zu 63 Stimmen abgelehnt. Die Leine braucht es trotzdem auf Weiden mit Nutztieren, in Naturschutzgebieten und an Orten, die deine Gemeinde bezeichnet.",
+    "text": "Im Kanton Bern gibt es keine allgemeine Leinenpflicht im Wald. Eine Leinenpflicht während der Brut- und Setzzeit hat der Grosse Rat im September 2023 mit 70 zu 63 Stimmen abgelehnt. Frei laufen darf dein Hund im Wald, im Feld und abseits von Häusern aber nur, wenn du ihn jederzeit wirksam unter Kontrolle halten kannst. Ihn unbeaufsichtigt laufen zu lassen, ist verboten, die Ordnungsbusse beträgt CHF 100. Die Leine braucht es auf Weiden mit Nutztieren, in Naturschutzgebieten, in kantonalen Wildschutzgebieten mit Leinenpflicht und an Orten, die deine Gemeinde bezeichnet. Wildhüterinnen und Wildhüter dürfen Hunde erlegen, die beim Jagen angetroffen werden oder trotz Verwarnung oder Anzeige wiederholt ohne Begleitperson abseits von Häusern unterwegs sind.",
     "quellen": [
       "be_wald",
+      "be_wtschv",
+      "be_kobv",
       "be_avet"
     ]
   },
@@ -19,13 +21,16 @@
       "auf Schulanlagen",
       "auf öffentlichen Spiel- und Sportplätzen",
       "in öffentlichen Verkehrsmitteln, an Bahnhöfen und Haltestellen",
-      "auf Weiden mit Nutztieren",
+      "beim Betreten von Weiden, auf denen sich Nutztiere aufhalten",
       "in Naturschutzgebieten",
-      "an Orten, die deine Gemeinde bezeichnet"
+      "in kantonalen Wildschutzgebieten, für die die Verordnung über den Wildtierschutz die Leinenpflicht vorsieht",
+      "an Orten, die deine Gemeinde bezeichnet",
+      "wenn es für deinen Hund im Einzelfall angeordnet ist"
     ],
     "quellen": [
+      "be_hug",
       "be_avet",
-      "be_hug"
+      "be_wtschv"
     ]
   },
   "verbot": {
@@ -43,9 +48,10 @@
       "marke": "Pflicht",
       "ton": "must",
       "wert": "mind. CHF 3 Mio.",
-      "text": "Wer einen Hund hält, braucht eine Haftpflichtversicherung, die die Risiken der Hundehaltung deckt.",
+      "text": "Wer einen Hund hält, braucht eine Haftpflichtversicherung, die die Risiken der Hundehaltung deckt. Die Mindestdeckungssumme beträgt drei Millionen Franken. Die Police zeigst du auf Verlangen den Behörden von Kanton und Gemeinde. Die Gemeinde kann kontrollieren, ob du versichert bist.",
       "quellen": [
-        "be_avet"
+        "be_hug",
+        "be_thv"
       ]
     },
     {
@@ -53,9 +59,11 @@
       "marke": "keine Pflicht",
       "ton": "none",
       "wert": "kein Obligatorium",
-      "text": "Der Kanton Bern kennt kein Kursobligatorium. Empfohlen werden Kurse vor allem für Ersthaltende.",
+      "text": "Das Hundegesetz kennt keine Kurspflicht. Der Kanton empfiehlt, einen Kurs für Hundehalterinnen und Hundehalter zu besuchen. Im Einzelfall kann das Amt für Veterinärwesen den Besuch von Ausbildungskursen anordnen, zum Beispiel wenn ein Hund Menschen oder Tiere verletzt hat.",
       "quellen": [
-        "be_kurs"
+        "be_hug",
+        "be_thv",
+        "be_hund_halten"
       ]
     },
     {
@@ -63,9 +71,10 @@
       "marke": "Pflicht",
       "ton": "note",
       "wert": "über die Gemeinde",
-      "text": "Melde dich bei deiner Wohngemeinde als Hundehalterin oder Hundehalter. Die Gemeinde registriert dich in AMICUS.",
+      "text": "Melde dich bei deiner Wohngemeinde als Hundehalterin oder Hundehalter. Die Gemeinde registriert dich in der Datenbank AMICUS, danach erhältst du dein Login. Den Hund lässt du bei der Tierärztin oder beim Tierarzt kennzeichnen und registrieren, auch wenn er aus dem Ausland kommt. Änderungen von Personendaten oder Adresse meldest du wieder deiner Wohngemeinde.",
       "quellen": [
-        "be_avet"
+        "be_avet",
+        "be_ktsv"
       ]
     },
     {
@@ -73,9 +82,10 @@
       "marke": "Gemeinde",
       "ton": "note",
       "wert": "je nach Gemeinde",
-      "text": "Die Gemeinden können eine Hundetaxe erheben. Ob und in welcher Höhe, regeln sie selbst. Erhebt deine Wohngemeinde eine Taxe, bist du taxpflichtig, sobald dein Hund älter als sechs Monate ist. Keine Taxe gibt es für Hilfs- und Begleithunde von Menschen mit einer Behinderung, für Hunde, die zur Neuplatzierung vorübergehend im Tierheim sind, und wenn im gleichen Jahr schon in einer anderen Gemeinde oder in einem anderen Kanton bezahlt wurde.",
+      "text": "Die Gemeinden können eine Hundetaxe erheben. Ob und in welcher Höhe, regeln sie selbst. Erhebt deine Wohngemeinde eine Taxe, bist du taxpflichtig, sobald dein Hund älter als sechs Monate ist. Keine Taxe gibt es für Hilfs- und Begleithunde von Menschen mit einer Behinderung, für Hunde, die zur Neuplatzierung vorübergehend im Tierheim sind, und wenn im gleichen Jahr schon in einer anderen Gemeinde oder in einem anderen Kanton bezahlt wurde. Als Hilfs- und Begleithunde gelten Blinden- und Gehörlosenführhunde und die von der Organisation «Le Copain» ausgebildeten Hilfshunde. Die Gemeinden können weitere Hunde ganz oder teilweise befreien. Wer die Taxe hinterzieht, riskiert eine Busse bis CHF 5000.",
       "quellen": [
-        "be_hug"
+        "be_hug",
+        "be_thv"
       ]
     },
     {
@@ -83,9 +93,11 @@
       "marke": "keine Liste",
       "ton": "none",
       "wert": "keine Einschränkungen",
-      "text": "Das Berner Hundegesetz kennt keine Rassenliste und keine rassenspezifischen Vorschriften.",
+      "text": "Das Berner Hundegesetz kennt keine Rassenliste und keine rassenspezifischen Vorschriften. Einschränkungen gibt es nur im Einzelfall: Hat ein Hund Menschen oder Tiere verletzt oder zeigt er übermässiges Aggressionsverhalten, ordnet das Amt für Veterinärwesen Massnahmen an, von der Verhaltensüberprüfung über Leinen- und Maulkorbpflicht bis zum Verbot, Hunde zu halten. Die Kosten trägt die Halterin oder der Halter.",
       "quellen": [
-        "be_avet"
+        "be_avet",
+        "be_hug",
+        "be_thv"
       ]
     },
     {
@@ -93,18 +105,27 @@
       "marke": "Regel",
       "ton": "note",
       "wert": "höchstens 3 Hunde",
-      "text": "Pro Person höchstens 3 Hunde, die älter als 4 Monate sind. Im öffentlichen Raum nie unbeaufsichtigt und jederzeit wirksam unter Kontrolle. Kot aufnehmen, sonst droht eine Ordnungsbusse.",
+      "text": "Pro Person höchstens 3 Hunde, die älter als 4 Monate sind. Mehr dürfen nur Personen ausführen, die dafür ausgebildet sind oder eine Bewilligung des Amts für Veterinärwesen haben. Im öffentlichen Raum lässt du deinen Hund nie unbeaufsichtigt und hältst ihn jederzeit wirksam unter Kontrolle. Bissige Hunde tragen einen Maulkorb. Den Kot nimmst du auf. Ordnungsbussen von je CHF 100 gibt es für die missachtete Leinenpflicht, für einen unbeaufsichtigten oder nicht wirksam kontrollierten Hund, für mehr als 3 Hunde ohne Berechtigung und für liegen gelassenen Kot.",
       "quellen": [
-        "be_avet"
+        "be_hug",
+        "be_thv",
+        "be_kobv"
       ]
     }
   ],
   "vergleich": {
-    "wald": "keine allgemeine Pflicht",
+    "wald": "keine allgemeine Pflicht, im Wald jederzeit wirksame Kontrolle",
     "haft": "Pflicht, mind. CHF 3 Mio.",
     "kurs": "kein Obligatorium",
     "rassen": "keine Einschränkungen",
     "steuer": "je nach Gemeinde",
     "anm": "über die Gemeinde"
+  },
+  "vermisst": {
+    "text": "Im Kanton Bern meldest du ein gefundenes oder ein vermisstes Tier bei der kantonalen Meldestelle für Findeltiere. Die Kantonspolizei verweist dafür auf die Schweizerische Tiermeldezentrale (STMZ), stmz.ch. Tierheime, Tierschutzorganisationen und Tierärztinnen und Tierärzte, die das Amt für Veterinärwesen dazu ermächtigt hat, können über die Mikrochip-Nummer eines gefundenen Hundes die Halterin oder den Halter abfragen.",
+    "quellen": [
+      "be_kapo_fund",
+      "be_ktsv"
+    ]
   }
 }
