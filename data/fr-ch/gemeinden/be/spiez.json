@@ -1,0 +1,55 @@
+{
+  "id": "spiez",
+  "kanton": "be",
+  "bfs": 768,
+  "uebersetzt_aus": "de",
+  "original": "f7f407dc74e5",
+  "name": "Spiez",
+  "ort": "Spiez",
+  "in_ort": "à Spiez",
+  "karten": [
+    {
+      "titel": "Impôt sur les chiens",
+      "wert": "CHF 100 par chien et par an",
+      "text": "Pour les chiens de plus de six mois, la commune perçoit un impôt sur les chiens. Il s'élève à CHF 100 par an, y compris pour les chiens agricoles. Doit le payer qui habite à Spiez le 1er août. La facture arrive chaque année à fin juillet. Vous ne payez pas d'impôt pour les chiens que le droit cantonal exonère ni pour les chiens de service, de sauvetage, de thérapie et d'aveugle reconnus. État de la Gebührenverordnung (ordonnance sur les émoluments) : 14 décembre 2018.",
+      "quellen": [
+        "be_spiez_gebuehren",
+        "be_spiez_gpr",
+        "be_spiez_hundekontrolle"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "wert": "auprès de l'Abteilung Sicherheit",
+      "text": "Vous annoncez votre chien auprès de l'Abteilung Sicherheit (service de la sécurité) de l'administration communale, au guichet ou avec le formulaire en ligne. Vous annoncez une nouvelle adresse ou un nouveau détenteur dans les 10 jours à la banque de données AMICUS et en plus à l'Abteilung Sicherheit. Vous devez aussi annoncer la mort d'un chien. La médaille pour chien reste valable, elle ne porte plus d'année.",
+      "quellen": [
+        "be_spiez_hundekontrolle"
+      ]
+    },
+    {
+      "titel": "Laisse",
+      "wert": "cimetières et lieux signalisés",
+      "text": "Dans tous les cimetières, vous tenez votre chien en laisse. Cela vaut aussi aux endroits que le droit supérieur désigne. Si une laisse obligatoire ou une interdiction d'accès pour les chiens est signalisée à un endroit, vous y tenez votre chien en laisse ou l'en tenez éloigné. Dans l'espace public, vous gardez votre chien en tout temps sous contrôle effectif. État du Gemeindepolizeireglement (règlement de police communal) : révision partielle du 28 avril 2014.",
+      "quellen": [
+        "be_spiez_gpr",
+        "be_spiez_friedhof"
+      ]
+    },
+    {
+      "titel": "Crottes de chien",
+      "wert": "toujours ramasser",
+      "text": "Qui promène un chien ramasse ses crottes dans tous les cas (Gemeindepolizeireglement, art. 35).",
+      "quellen": [
+        "be_spiez_gpr"
+      ]
+    },
+    {
+      "titel": "Amendes",
+      "wert": "jusqu'à CHF 5000",
+      "text": "Les infractions au Gemeindepolizeireglement sont punies d'une amende jusqu'à CHF 5000, sauf si le droit pénal fédéral ou cantonal s'applique. Cela vaut aussi si vous soustrayez l'impôt sur les chiens ou tentez de le faire.",
+      "quellen": [
+        "be_spiez_gpr"
+      ]
+    }
+  ]
+}

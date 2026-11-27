@@ -1,0 +1,55 @@
+{
+  "id": "spiez",
+  "kanton": "be",
+  "bfs": 768,
+  "uebersetzt_aus": "de",
+  "original": "f7f407dc74e5",
+  "name": "Spiez",
+  "ort": "Spiez",
+  "in_ort": "a Spiez",
+  "karten": [
+    {
+      "titel": "Imposta sui cani",
+      "wert": "CHF 100 per cane e anno",
+      "text": "Per i cani di età superiore a sei mesi il Comune riscuote un'imposta sui cani. Ammonta a CHF 100 all'anno, anche per i cani agricoli. La deve pagare chi abita a Spiez il 1° agosto. La fattura arriva ogni anno a fine luglio. Non paghi l'imposta per i cani esentati dal diritto cantonale né per i cani di servizio, di salvataggio, da terapia e per ciechi riconosciuti. Stato della Gebührenverordnung (ordinanza sulle tasse): 14 dicembre 2018.",
+      "quellen": [
+        "be_spiez_gebuehren",
+        "be_spiez_gpr",
+        "be_spiez_hundekontrolle"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "wert": "presso l'Abteilung Sicherheit",
+      "text": "Annunci il tuo cane all'Abteilung Sicherheit (servizio della sicurezza) dell'amministrazione comunale, allo sportello o con il modulo online. Un nuovo indirizzo o un nuovo detentore lo annunci entro 10 giorni alla banca dati AMICUS e in più all'Abteilung Sicherheit. Devi annunciare anche la morte di un cane. La medaglietta per cani resta valida, non porta più l'anno.",
+      "quellen": [
+        "be_spiez_hundekontrolle"
+      ]
+    },
+    {
+      "titel": "Guinzaglio",
+      "wert": "cimiteri e luoghi segnalati",
+      "text": "In tutti i cimiteri tieni il cane al guinzaglio. Lo stesso vale nei luoghi indicati dal diritto superiore. Se in un luogo è segnalato un obbligo di guinzaglio o un divieto di accesso per i cani, lì tieni il cane al guinzaglio o lo tieni lontano. Nello spazio pubblico tieni il cane in ogni momento sotto controllo effettivo. Stato del Gemeindepolizeireglement (regolamento comunale di polizia): revisione parziale del 28 aprile 2014.",
+      "quellen": [
+        "be_spiez_gpr",
+        "be_spiez_friedhof"
+      ]
+    },
+    {
+      "titel": "Escrementi",
+      "wert": "raccoglierli sempre",
+      "text": "Chi porta a spasso un cane raccoglie in ogni caso i suoi escrementi (Gemeindepolizeireglement, art. 35).",
+      "quellen": [
+        "be_spiez_gpr"
+      ]
+    },
+    {
+      "titel": "Multe",
+      "wert": "fino a CHF 5000",
+      "text": "Le infrazioni al Gemeindepolizeireglement sono punite con una multa fino a CHF 5000, salvo che si applichi il diritto penale federale o cantonale. Lo stesso vale se sottrai l'imposta sui cani o tenti di farlo.",
+      "quellen": [
+        "be_spiez_gpr"
+      ]
+    }
+  ]
+}

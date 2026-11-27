@@ -1,0 +1,54 @@
+{
+  "id": "spiez",
+  "kanton": "be",
+  "bfs": 768,
+  "name": "Spiez",
+  "ort": "Spiez",
+  "in_ort": "in Spiez",
+  "geprueft": "2026-11-28",
+  "karten": [
+    {
+      "titel": "Hundetaxe",
+      "wert": "CHF 100 pro Hund und Jahr",
+      "text": "Für Hunde, die älter als sechs Monate sind, erhebt die Gemeinde eine Hundetaxe. Sie beträgt CHF 100 pro Jahr, auch für Landwirtschaftshunde. Taxpflichtig ist, wer am 1. August in Spiez wohnt. Die Rechnung kommt jeweils Ende Juli. Keine Taxe zahlst du für Hunde, die das kantonale Recht befreit, und für anerkannte Dienst-, Rettungs-, Therapie- und Blindenhunde. Stand der Gebührenverordnung: 14. Dezember 2018.",
+      "quellen": [
+        "be_spiez_gebuehren",
+        "be_spiez_gpr",
+        "be_spiez_hundekontrolle"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "wert": "bei der Abteilung Sicherheit",
+      "text": "Du meldest deinen Hund bei der Abteilung Sicherheit der Gemeindeverwaltung an, am Schalter oder mit dem Online-Formular. Eine neue Adresse oder einen neuen Halter meldest du innert 10 Tagen der Datenbank AMICUS und zusätzlich der Abteilung Sicherheit. Auch den Tod eines Hundes musst du melden. Die Hundemarke bleibt gültig, sie trägt keine Jahreszahl mehr.",
+      "quellen": [
+        "be_spiez_hundekontrolle"
+      ]
+    },
+    {
+      "titel": "Leine",
+      "wert": "Friedhöfe und signalisierte Orte",
+      "text": "Auf allen Friedhöfen führst du deinen Hund an der Leine. Das gilt auch an den Orten, die das übergeordnete Recht nennt. Ist an einem Ort eine Leinenpflicht oder ein Zutrittsverbot für Hunde signalisiert, nimmst du deinen Hund dort an die Leine oder hältst ihn fern. Im öffentlichen Raum hast du deinen Hund jederzeit wirksam unter Kontrolle. Stand des Gemeindepolizeireglements: Teilrevision vom 28. April 2014.",
+      "quellen": [
+        "be_spiez_gpr",
+        "be_spiez_friedhof"
+      ]
+    },
+    {
+      "titel": "Hundekot",
+      "wert": "immer wegräumen",
+      "text": "Wer einen Hund ausführt, räumt dessen Kot in jedem Fall weg (Gemeindepolizeireglement, Art. 35).",
+      "quellen": [
+        "be_spiez_gpr"
+      ]
+    },
+    {
+      "titel": "Bussen",
+      "wert": "bis CHF 5000",
+      "text": "Verstösse gegen das Gemeindepolizeireglement werden mit Busse bis CHF 5000 bestraft, sofern nicht eidgenössisches oder kantonales Strafrecht gilt. Das gilt auch, wenn du die Hundetaxe hinterziehst oder es versuchst.",
+      "quellen": [
+        "be_spiez_gpr"
+      ]
+    }
+  ]
+}
