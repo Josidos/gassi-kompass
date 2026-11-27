@@ -5,14 +5,24 @@
   "name": "Burgdorf",
   "ort": "Burgdorf",
   "in_ort": "in Burgdorf",
-  "geprueft": "2026-11-21",
+  "geprueft": "2026-11-27",
   "karten": [
     {
       "titel": "Hundetaxe",
       "wert": "CHF 100 pro Hund und Jahr",
-      "text": "Die Hundetaxe beträgt CHF 100 und ist für alle Hunde ab dem sechsten Monat geschuldet. Die Stadt verschickt die Rechnung jedes Jahr im August. Für das Jahr 2025 hat sie die Taxe auf CHF 100 pro Hund festgesetzt.",
+      "text": "Die Hundetaxe beträgt CHF 100 pro Hund und Jahr (Gebührenverordnung, Anhang Ziffer 8.14.2). Taxpflichtig ist, wer am 1. August in Burgdorf wohnt und einen Hund hält, der älter als sechs Monate ist. Die Stadt verschickt die Rechnung jedes Jahr im August. Das Hundereglement lässt dem Gemeinderat einen Rahmen von CHF 50 bis CHF 250.",
       "quellen": [
-        "be_burgdorf_anmeldung",
+        "be_burgdorf_gebv",
+        "be_burgdorf_hundr",
+        "be_burgdorf_anmeldung"
+      ]
+    },
+    {
+      "titel": "Befreiung",
+      "wert": "anerkannte Dienst-, Rettungs- und Therapiehunde",
+      "text": "Keine Hundetaxe gibt es für Hunde, die das kantonale Recht befreit, und für anerkannte Dienst-, Rettungs- und Therapiehunde (Hundereglement, Art. 3). Du musst die Spezialausbildung jedes Jahr nachweisen, und der Hund muss im Einsatz stehen. Für die Taxe 2025 nannte die Stadt auch Hilfs- und Begleithunde von Menschen mit einer Behinderung und verlangte die Nachweise bis 31. Juli bei den Einwohnerdiensten, Bereich Steuern.",
+      "quellen": [
+        "be_burgdorf_hundr",
         "be_burgdorf_taxe_2025"
       ]
     },

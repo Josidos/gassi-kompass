@@ -721,7 +721,7 @@
   },
   "be_thun_hundehaltung": {
     "kurz": "Stadt Thun: Hundehaltung",
-    "lang": "Stadt Thun: Themenseite Hundehaltung (abgerufen am 21. November 2026)",
+    "lang": "Stadt Thun: Themenseite Hundehaltung (abgerufen am 27. November 2026)",
     "url": "https://www.thun.ch/hundehaltung"
   },
   "be_thun_seeufer": {
@@ -756,12 +756,12 @@
   },
   "be_steffisburg_hundetaxe": {
     "kurz": "Gemeinde Steffisburg: Hundetaxe",
-    "lang": "Einwohnergemeinde Steffisburg: Dienstleistung Hundetaxe (abgerufen am 21. November 2026)",
+    "lang": "Einwohnergemeinde Steffisburg: Dienstleistung Hundetaxe (abgerufen am 27. November 2026)",
     "url": "https://www.steffisburg.ch/de/verwaltung/dienstleistungen/detail/detail.php?i=54"
   },
   "be_steffisburg_anmeldung": {
     "kurz": "Gemeinde Steffisburg: Hund anmelden",
-    "lang": "Einwohnergemeinde Steffisburg: Dienstleistung Hund anmelden / abmelden (abgerufen am 21. November 2026)",
+    "lang": "Einwohnergemeinde Steffisburg: Dienstleistung Hund anmelden / abmelden (abgerufen am 27. November 2026)",
     "url": "https://www.steffisburg.ch/de/verwaltung/dienstleistungen/149_hund-anmelden---abmelden"
   },
   "be_ostermundigen_opr": {
@@ -776,12 +776,12 @@
   },
   "be_ostermundigen_hundehaltung": {
     "kurz": "Gemeinde Ostermundigen: Hundehaltung",
-    "lang": "Gemeinde Ostermundigen: Dienstleistung Hundehaltung (abgerufen am 21. November 2026)",
+    "lang": "Gemeinde Ostermundigen: Dienstleistung Hundehaltung (abgerufen am 27. November 2026)",
     "url": "https://www.ostermundigen.ch/de/verwaltung/dienstleistungen/96_hundehaltung"
   },
   "be_burgdorf_anmeldung": {
     "kurz": "Stadt Burgdorf: An- und Abmelden von Hunden",
-    "lang": "Stadt Burgdorf: Dienstleistung An- und Abmelden von Hunden (abgerufen am 21. November 2026)",
+    "lang": "Stadt Burgdorf: Dienstleistung An- und Abmelden von Hunden (abgerufen am 27. November 2026)",
     "url": "https://www.burgdorf.ch/de/verwaltung/dienstleistungen/detail/detail.php?i=350"
   },
   "be_burgdorf_taxe_2025": {
@@ -796,7 +796,7 @@
   },
   "zh_schlieren_hunde": {
     "kurz": "Stadt Schlieren: Hunde",
-    "lang": "Stadt Schlieren: Dienstleistung Hunde (abgerufen am 21. November 2026)",
+    "lang": "Stadt Schlieren: Dienstleistung Hunde (abgerufen am 27. November 2026)",
     "url": "https://www.schlieren.ch/dienstleistungen/123752"
   },
   "zh_schlieren_gebv": {
@@ -811,7 +811,7 @@
   },
   "sh_neuhausen_einwohnerkontrolle": {
     "kurz": "Gemeinde Neuhausen: Hundewesen",
-    "lang": "Gemeinde Neuhausen am Rheinfall: Einwohnerkontrolle, Abschnitt Hundewesen (abgerufen am 21. November 2026)",
+    "lang": "Gemeinde Neuhausen am Rheinfall: Einwohnerkontrolle, Abschnitt Hundewesen (abgerufen am 27. November 2026)",
     "url": "https://neuhausen.ch/einwohnerkontrolle"
   },
   "sh_neuhausen_pv": {
@@ -831,22 +831,22 @@
   },
   "gr_domat_ems_steuergesetz": {
     "kurz": "Steuergesetz Domat/Ems",
-    "lang": "Gemeinde Domat/Ems: Kommunales Steuergesetz (2.1) vom 17. September 2007, mit Änderungen bis 1. Januar 2021, Art. 11 bis 14",
-    "url": "https://domat-ems.tlex.ch/api/de/versions/19/pdf_file"
+    "lang": "Gemeinde Domat/Ems: Kommunales Steuergesetz (SRS 6.3-1) vom 17. September 2007, Fassung in Kraft seit 1. Januar 2021, Art. 11 bis 14",
+    "url": "https://domat-ems.tlex.ch/app/de/texts_of_law/6.3-1"
   },
   "gr_domat_ems_melden": {
     "kurz": "Gemeinde Domat/Ems: Hunde melden",
-    "lang": "Gemeinde Domat/Ems: Online-Schalter «Hunde melden» (abgerufen am 21. November 2026)",
+    "lang": "Gemeinde Domat/Ems: Online-Schalter «Hunde melden» (abgerufen am 27. November 2026)",
     "url": "https://www.domat-ems.ch/online-schalter/76078/detail"
   },
   "sg_gossau_hundekontrolle": {
     "kurz": "Stadt Gossau: Hundekontrolle",
-    "lang": "Stadt Gossau: Dienstleistung Hundekontrolle (abgerufen am 21. November 2026)",
+    "lang": "Stadt Gossau: Dienstleistung Hundekontrolle (abgerufen am 27. November 2026)",
     "url": "https://www.stadtgossau.ch/dienstleistungen/2149"
   },
   "sg_gossau_robidog": {
     "kurz": "Stadt Gossau: Robidog",
-    "lang": "Stadt Gossau: Dienstleistung Robidog (abgerufen am 21. November 2026)",
+    "lang": "Stadt Gossau: Dienstleistung Robidog (abgerufen am 27. November 2026)",
     "url": "https://www.stadtgossau.ch/dienstleistungen/16378"
   },
   "ge_roac": {
@@ -1053,5 +1053,75 @@
     "kurz": "Kantonspolizei BE: Gefunden, verloren, vermisst",
     "lang": "Kantonspolizei Bern: Gefunden, verloren, vermisst, Abschnitt «Gefundene und verlorene Tiere» (abgerufen am 27. November 2026)",
     "url": "https://www.police.be.ch/de/start/dienstleistungen/online-wache/gefunden-verloren-vermisst.html"
+  },
+  "be_thun_vbs": {
+    "kurz": "Seeuferverordnung Thun",
+    "lang": "Stadt Thun: Verordnung über die Benützung des Seeuferbereichs vom Schadaupark bis Bonstettenpark sowie Grunderinseli (VBS, SSG 733.10) vom 25. Januar und 15. Februar 2023, in Kraft seit 1. April 2026, Art. 2, 7, 11 und 15",
+    "url": "https://www.thun.ch/_docn/6899464/733.10_Verordnung_Ben%C3%BCtzung_Seeuferbereich...,_i.K.1.4.2026.pdf"
+  },
+  "be_thun_plan": {
+    "kurz": "Stadt Thun: Situationsplan Seeufer",
+    "lang": "Stadt Thun, Amt für Stadtliegenschaften: Situationsplan zur Verordnung über die Benützung des Seeuferbereichs, Teil 1 Bonstettenpark bis Seeallmend und Teil 2 Lachen bis Schadaupark (Februar 2023)",
+    "url": "https://www.thun.ch/_docn/6902509/Situationsplan_Parkreglement.pdf"
+  },
+  "be_steffisburg_friedhof": {
+    "kurz": "Friedhofreglement Steffisburg",
+    "lang": "Einwohnergemeinde Steffisburg: Friedhof- und Bestattungsreglement vom 16. Oktober 2015, in Kraft seit 1. Januar 2016",
+    "url": "https://www.steffisburg.ch/de/verwaltung/dokumente/dokumente/friedhof_bestattung/Friedhof-_und_Bestattungsreglement.pdf"
+  },
+  "be_ostermundigen_merkblatt": {
+    "kurz": "Merkblatt für Hundehaltende Ostermundigen",
+    "lang": "Gemeinde Ostermundigen, Polizeiinspektorat: Merkblatt für Hundehaltende vom 8. April 2020",
+    "url": "https://www.ostermundigen.ch/wAssets/docs/politik-verwaltung/verwaltung/dienstleistungen/hundehaltung/MERKBLATT_FUER_HUNDEHALTER_INNEN_2020.pdf"
+  },
+  "be_ostermundigen_park": {
+    "kurz": "Parkreglement Ostermundigen",
+    "lang": "Gemeinde Ostermundigen: Reglement über die Benützung der öffentlichen Park- und Grünanlagen (Nr. 230) vom 15. Februar 2007, in Kraft seit 1. Mai 2007, Art. 1, 3, 6, 10 und 11",
+    "url": "https://www.ostermundigen.ch/wAssets/docs/politik-verwaltung/verwaltung/reglemente-und-verordnungen/reglemente/Reglement_Benuetzung_Park_Gruenanlagen_230.pdf"
+  },
+  "be_ostermundigen_schulanlagen": {
+    "kurz": "Benutzungsordnung Schulanlagen Ostermundigen",
+    "lang": "Gemeinde Ostermundigen: Benutzungsordnung über die Schulrasen, Allwetter- und Pausenplätze der Schulanlagen (Nr. 414 A) vom 18. Oktober 2022, in Kraft seit 1. August 2022, Art. 3",
+    "url": "https://www.ostermundigen.ch/wAssets/docs/politik-verwaltung/verwaltung/reglemente-und-verordnungen/verordnungen/BenuetzungsordnungAussenplaetze_Schul-Sportanlagen__414A.pdf"
+  },
+  "be_burgdorf_hundr": {
+    "kurz": "Hundereglement Burgdorf",
+    "lang": "Stadt Burgdorf: Hundereglement (HundR) vom 15. Dezember 2014, Ausgabe August 2021, Art. 1 bis 4",
+    "url": "https://www.burgdorf.ch/de/verwaltung/dokumente/dokumente/Hundereglement_01.pdf"
+  },
+  "be_burgdorf_gebv": {
+    "kurz": "Gebührenverordnung Burgdorf",
+    "lang": "Stadt Burgdorf: Gebührenverordnung (GebV) vom 9. Dezember 2013, Ausgabe Januar 2026, Anhang Ziffer 8.14.2",
+    "url": "https://www.burgdorf.ch/de/verwaltung/dokumente/dokumente/Gebuehrenverordnung.pdf"
+  },
+  "zh_schlieren_tarif": {
+    "kurz": "Gebührentarif Schlieren",
+    "lang": "Stadt Schlieren: Gebührentarif (SKR 9.11) vom 17. Juni 2026, in Kraft seit 1. August 2026, § 36",
+    "url": "https://www.schlieren.ch/_doc/7138921"
+  },
+  "sh_neuhausen_hundeabgabe": {
+    "kurz": "Hundeabgabe-Reglement Neuhausen",
+    "lang": "Gemeinde Neuhausen am Rheinfall: Reglement über die Abgabe für das Halten von Hunden (644.101) vom 7. November 2017, in Kraft seit 1. Januar 2018, letzte Änderung in Kraft seit 1. Januar 2024",
+    "url": "https://rechtsbuch.neuhausen.ch/fileupload/644.101_Abgabe_Halten_von_Hunden.pdf"
+  },
+  "sh_neuhausen_badeordnung": {
+    "kurz": "Badeordnung Rhyfallbadi",
+    "lang": "Gemeinde Neuhausen am Rheinfall: Badeordnung der Rhyfallbadi Otterstall (415.121) vom 3. Juni 2003, letzte Änderung in Kraft seit 9. Mai 2023",
+    "url": "https://rechtsbuch.neuhausen.ch/fileupload/415.121_Badeordnung_der_Rhyfallbadi_Otterstall.pdf"
+  },
+  "gr_domat_ems_polizeigesetz": {
+    "kurz": "Polizeigesetz Domat/Ems",
+    "lang": "Gemeinde Domat/Ems: Kommunales Polizeigesetz (SRS 5.1-1) vom 16. November 2020, Fassung in Kraft seit 1. November 2025, Art. 26 bis 29 und 36 bis 38",
+    "url": "https://domat-ems.tlex.ch/app/de/texts_of_law/5.1-1"
+  },
+  "gr_domat_ems_friedhof": {
+    "kurz": "Friedhofverordnung Domat/Ems",
+    "lang": "Gemeinde Domat/Ems: Friedhofverordnung (SRS 8.2-1.1) vom 29. November 2010, in Kraft seit 1. Januar 2011, Art. 1",
+    "url": "https://domat-ems.tlex.ch/app/de/texts_of_law/8.2-1.1"
+  },
+  "sg_gossau_polizeireglement": {
+    "kurz": "Polizeireglement Gossau",
+    "lang": "Stadt Gossau: Polizeireglement (18.01) vom 4. November 2008, in Kraft seit 1. März 2009, mit zwei Nachträgen (in Kraft seit 1. Juni 2012 und 1. Juli 2015), Art. 3, 9, 13 und 29",
+    "url": "https://www.stadtgossau.ch/reglemente/21198"
   }
 }

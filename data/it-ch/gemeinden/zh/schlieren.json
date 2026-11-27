@@ -3,7 +3,7 @@
   "kanton": "zh",
   "bfs": 247,
   "uebersetzt_aus": "de",
-  "original": "05cd3a9311d4",
+  "original": "29353a051109",
   "name": "Schlieren",
   "ort": "Schlieren",
   "in_ort": "a Schlieren",
@@ -11,8 +11,9 @@
     {
       "titel": "Imposta sui cani",
       "wert": "CHF 170 per cane e per anno",
-      "text": "La città fattura l'imposta sui cani ogni anno. La tassa annuale ammonta a CHF 170 per cane. La Gebührenverordnung (ordinanza sulle tasse) della città prevede un quadro da CHF 70 a CHF 200.",
+      "text": "La città fattura l'imposta sui cani ogni anno. Ammonta a CHF 170 per cane e per anno (Gebührentarif, tariffario delle tasse, del 17 giugno 2026, § 36). Riduzioni ed esenzioni seguono il diritto cantonale. La Gebührenverordnung (ordinanza sulle tasse) della città prevede un quadro da CHF 70 a CHF 200.",
       "quellen": [
+        "zh_schlieren_tarif",
         "zh_schlieren_hunde",
         "zh_schlieren_gebv"
       ]
@@ -23,6 +24,14 @@
       "text": "Chi detiene un cane per la prima volta si annuncia prima agli Einwohnerdienste (servizi abitanti). Questi registrano i tuoi dati personali nella banca dati AMICUS. Poi la veterinaria o il veterinario registra il cane. Annunci i cambi di nome e di indirizzo direttamente agli Einwohnerdienste.",
       "quellen": [
         "zh_schlieren_hunde"
+      ]
+    },
+    {
+      "titel": "Tasse",
+      "wert": "CHF 20 per notifica, in ritardo CHF 40",
+      "text": "Per il trattamento delle notifiche richieste dal diritto cantonale sui cani la città riscuote tasse: CHF 20 per una notifica ordinaria, CHF 40 per una notifica tardiva e CHF 50 per un sollecito. Se la città deve fare la notifica al tuo posto presso il servizio di registrazione, costa CHF 150. Una decisione contro detentori di cani in ritardo costa anch'essa CHF 150. Si aggiungono le tasse di scrittura (Gebührentarif, § 36).",
+      "quellen": [
+        "zh_schlieren_tarif"
       ]
     },
     {

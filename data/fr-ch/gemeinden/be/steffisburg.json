@@ -3,7 +3,7 @@
   "kanton": "be",
   "bfs": 939,
   "uebersetzt_aus": "de",
-  "original": "87125a9e9c80",
+  "original": "0af230f31be4",
   "name": "Steffisburg",
   "ort": "Steffisburg",
   "in_ort": "à Steffisburg",
@@ -28,9 +28,10 @@
     {
       "titel": "Laisse",
       "wert": "cimetières et lieux signalés",
-      "text": "Dans les cimetières, la laisse est obligatoire. Là où un accès interdit ou une laisse obligatoire pour les chiens est signalé, vous tenez votre chien à l'écart ou vous le mettez en laisse. Dans l'espace public, vous devez le maîtriser efficacement à tout moment.",
+      "text": "Dans les cimetières, vous tenez votre chien en laisse. C'est ce que prévoient le Polizeireglement (règlement de police) et le Friedhof- und Bestattungsreglement (règlement sur les cimetières et les inhumations) de 2015. Là où un accès interdit ou une laisse obligatoire pour les chiens est signalé, vous tenez votre chien à l'écart ou vous le mettez en laisse. Dans l'espace public, vous devez le maîtriser efficacement à tout moment.",
       "quellen": [
-        "be_steffisburg_polizeireglement"
+        "be_steffisburg_polizeireglement",
+        "be_steffisburg_friedhof"
       ]
     },
     {
@@ -44,7 +45,7 @@
     {
       "titel": "Amendes",
       "wert": "jusqu'à CHF 5000",
-      "text": "Les infractions au Polizeireglement (règlement de police) peuvent être punies d'une amende jusqu'à CHF 5000. Dans les cas légers, un avertissement est possible.",
+      "text": "Les infractions au Polizeireglement peuvent être punies d'une amende jusqu'à CHF 5000. Dans les cas légers, un avertissement est possible.",
       "quellen": [
         "be_steffisburg_polizeireglement"
       ]

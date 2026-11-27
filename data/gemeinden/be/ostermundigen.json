@@ -5,56 +5,68 @@
   "name": "Ostermundigen",
   "ort": "Ostermundigen",
   "in_ort": "in Ostermundigen",
-  "geprueft": "2026-11-21",
+  "geprueft": "2026-11-27",
   "karten": [
     {
       "titel": "Hundetaxe",
       "wert": "CHF 100 pro Hund und Jahr",
-      "text": "Für jeden Hund, der über drei Monate alt ist, erhebt die Gemeinde eine jährliche Abgabe von CHF 100. Die Rechnung kommt im August für das laufende Jahr. Befreit sind Sicherheits-, Blinden-, Polizei-, Sanitäts-, Therapie- und Lawinenhunde, wenn du eine Bestätigung des Arbeitgebers oder einen Fähigkeitsausweis vorlegst.",
+      "text": "Für jeden Hund, der über sechs Monate alt ist, erhebt die Gemeinde eine jährliche Abgabe von CHF 100. Stichtag ist der 1. August. Die Rechnung kommt Anfang August für das laufende Jahr und ist innert 30 Tagen zu bezahlen. Befreit sind Sicherheits-, Blinden-, Polizei-, Sanitäts-, Therapie- und Lawinenhunde im Dienst, wenn du eine Bestätigung des Arbeitgebers oder einen Fähigkeitsausweis vorlegst. Die Dienstleistungsseite der Gemeinde nennt als Alter drei Monate. Ihr Merkblatt von 2020 und das kantonale Hundegesetz (Art. 13) nennen sechs Monate.",
       "quellen": [
+        "be_ostermundigen_merkblatt",
         "be_ostermundigen_hundehaltung",
-        "be_ostermundigen_gebuehren"
+        "be_ostermundigen_gebuehren",
+        "be_hug"
       ]
     },
     {
       "titel": "Anmeldung",
       "wert": "Polizeiinspektorat, Schiessplatzweg 1",
-      "text": "Du meldest deinen Hund beim Polizeiinspektorat Ostermundigen am Schiessplatzweg 1 an. Nimm den Impfausweis oder Heimtierpass und die Registrationsnummer von AMICUS mit. Halterwechsel und Tod des Hundes meldest du AMICUS und dem Polizeiinspektorat.",
+      "text": "Du meldest deinen Hund beim Polizeiinspektorat Ostermundigen am Schiessplatzweg 1 an. Nimm den Impfausweis oder Heimtierpass und die Registrationsnummer von AMICUS mit. Halterwechsel und Tod des Hundes meldest du AMICUS und dem Polizeiinspektorat, eine neue Adresse dem Polizeiinspektorat.",
       "quellen": [
-        "be_ostermundigen_hundehaltung"
+        "be_ostermundigen_hundehaltung",
+        "be_ostermundigen_merkblatt"
       ]
     },
     {
       "titel": "Leine",
-      "wert": "Strassen, Restaurants, Sportplätze, Parkanlagen",
-      "text": "Auf verkehrsreichen Strassen, in Restaurants, auf öffentlichen Sportplätzen, in Parkanlagen und in öffentlichen Verkehrsmitteln führst du deinen Hund an der Leine. Das Ortspolizeireglement von 1984 verlangt die Leine zudem von 22.00 bis 06.00 Uhr und auf Obst- und Gemüsemärkten. Unbeaufsichtigt frei laufen lassen darfst du deinen Hund nie.",
+      "wert": "Strassen, Restaurants, Spiel- und Sportplätze, Parkanlagen",
+      "text": "Auf verkehrsreichen Strassen, in Restaurants, auf öffentlichen Spiel- und Sportplätzen, in Parkanlagen und in öffentlichen Verkehrsmitteln führst du deinen Hund an der Leine. In den Park- und Grünanlagen der Gemeinde ist freies Laufenlassen verboten (Reglement von 2007, Art. 3). Auf den Schulrasen, Allwetter- und Pausenplätzen der Schulanlagen darfst du Hunde nicht laufen lassen (Benutzungsordnung von 2022). Das Ortspolizeireglement von 1984 verlangt die Leine zudem von 22.00 bis 06.00 Uhr, auf Obst- und Gemüsemärkten und für läufige, bissige und kranke Hunde. Bissige Hunde tragen dazu einen Maulkorb. Unbeaufsichtigt frei laufen lassen darfst du deinen Hund nie.",
       "quellen": [
         "be_ostermundigen_hundehaltung",
+        "be_ostermundigen_merkblatt",
+        "be_ostermundigen_park",
+        "be_ostermundigen_schulanlagen",
         "be_ostermundigen_opr"
       ]
     },
     {
       "titel": "Kein Zutritt",
-      "wert": "Friedhöfe, Kinderspielplätze, Badeanlagen",
-      "text": "Nach dem Ortspolizeireglement von 1984 ist der Zutritt für Hunde verboten in Kirchen, auf Friedhöfen, in Lebensmittelgeschäften, auf Kinderspielplätzen und in öffentlichen Badeanlagen. Hunde dürfen nicht in öffentlichen Brunnen baden. Weitere Orte kann die Gemeinde mit Tafeln kennzeichnen.",
+      "wert": "Friedhöfe, Kirchen, Badeanlagen, Biotope",
+      "text": "Nach dem Ortspolizeireglement von 1984 ist der Zutritt für Hunde verboten in Kirchen, auf Friedhöfen, in Lebensmittelgeschäften und in öffentlichen Badeanlagen. Es nennt auch Kinderspielplätze. Das neuere Reglement über die Park- und Grünanlagen von 2007 verbietet dort das freie Laufenlassen, und die Gemeinde nennt auf ihrer Seite für öffentliche Spielplätze die Leine. Beachte die Tafeln vor Ort. Gekennzeichnete Biotope und kommunale Naturschutzgebiete darf niemand betreten, auch nicht mit Hund. Hunde dürfen nicht in öffentlichen Brunnen, Parkweihern und Feuchtbiotopen baden. Weitere Orte kann die Gemeinde mit Tafeln kennzeichnen.",
       "quellen": [
-        "be_ostermundigen_opr"
+        "be_ostermundigen_opr",
+        "be_ostermundigen_park",
+        "be_ostermundigen_hundehaltung"
       ]
     },
     {
       "titel": "Hundekot",
       "wert": "auf öffentlichem Grund beseitigen",
-      "text": "Du musst den Kot deines Hundes auf öffentlichem Grund und Boden beseitigen.",
+      "text": "Du musst den Kot deines Hundes auf öffentlichem Grund und Boden beseitigen. Du sorgst dafür, dass dein Hund seine Notdurft nicht auf Trottoirs, Strassen, Wegen und Plätzen, in Schul- und Parkanlagen, auf Kinderspiel- und Sportplätzen, auf Kulturland oder auf fremden Grasflächen verrichtet. In Parkanlagen und auf Spielplätzen ist das Versäubern nur in den offiziellen Hundetoiletten erlaubt. Für den Kot stehen Robidog-Behälter und Hunde-WC bereit.",
       "quellen": [
-        "be_ostermundigen_opr"
+        "be_ostermundigen_opr",
+        "be_ostermundigen_park",
+        "be_ostermundigen_merkblatt"
       ]
     },
     {
       "titel": "Bussen",
-      "wert": "bis CHF 1000",
-      "text": "Wer gegen das Ortspolizeireglement verstösst, kann mit Busse bis CHF 1000 bestraft werden. In leichten Fällen kann es eine Verwarnung geben.",
+      "wert": "bis CHF 1000, in Parkanlagen bis CHF 5000",
+      "text": "Wer gegen das Ortspolizeireglement verstösst, kann mit Busse bis CHF 1000 bestraft werden. In leichten Fällen kann es eine Verwarnung geben. Für Verstösse gegen das Reglement über die Park- und Grünanlagen sind Bussen bis CHF 5000 möglich. Wer seinen Hund nicht anmeldet und keine Taxe bezahlt, macht sich laut der Gemeinde strafbar.",
       "quellen": [
-        "be_ostermundigen_opr"
+        "be_ostermundigen_opr",
+        "be_ostermundigen_park",
+        "be_ostermundigen_merkblatt"
       ]
     }
   ]

@@ -3,7 +3,7 @@
   "kanton": "zh",
   "bfs": 247,
   "uebersetzt_aus": "de",
-  "original": "05cd3a9311d4",
+  "original": "29353a051109",
   "name": "Schlieren",
   "ort": "Schlieren",
   "in_ort": "à Schlieren",
@@ -11,8 +11,9 @@
     {
       "titel": "Impôt sur les chiens",
       "wert": "CHF 170 par chien et par an",
-      "text": "La ville facture l'impôt sur les chiens chaque année. L'émolument annuel s'élève à CHF 170 par chien. La Gebührenverordnung (ordonnance sur les émoluments) de la ville prévoit un cadre de CHF 70 à CHF 200.",
+      "text": "La ville facture l'impôt sur les chiens chaque année. Il s'élève à CHF 170 par chien et par an (Gebührentarif, tarif des émoluments, du 17 juin 2026, § 36). Les réductions et les exonérations suivent le droit cantonal. La Gebührenverordnung (ordonnance sur les émoluments) de la ville prévoit un cadre de CHF 70 à CHF 200.",
       "quellen": [
+        "zh_schlieren_tarif",
         "zh_schlieren_hunde",
         "zh_schlieren_gebv"
       ]
@@ -23,6 +24,14 @@
       "text": "Les personnes qui détiennent un chien pour la première fois s'annoncent au préalable auprès des Einwohnerdienste (services des habitants). Ceux-ci saisissent vos données personnelles dans la banque de données AMICUS. Ensuite, la ou le vétérinaire enregistre le chien. Vous annoncez les changements de nom et d'adresse directement aux Einwohnerdienste.",
       "quellen": [
         "zh_schlieren_hunde"
+      ]
+    },
+    {
+      "titel": "Émoluments",
+      "wert": "CHF 20 par annonce, en retard CHF 40",
+      "text": "Pour le traitement des annonces exigées par le droit cantonal sur les chiens, la ville perçoit des émoluments: CHF 20 pour une annonce ordinaire, CHF 40 pour une annonce tardive et CHF 50 pour une sommation. Si la ville doit faire l'annonce à votre place auprès du service d'enregistrement, cela coûte CHF 150. Une décision contre des détenteurs de chiens en retard coûte aussi CHF 150. S'y ajoutent des frais d'écriture (Gebührentarif, § 36).",
+      "quellen": [
+        "zh_schlieren_tarif"
       ]
     },
     {

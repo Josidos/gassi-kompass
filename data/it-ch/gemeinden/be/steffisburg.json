@@ -3,7 +3,7 @@
   "kanton": "be",
   "bfs": 939,
   "uebersetzt_aus": "de",
-  "original": "87125a9e9c80",
+  "original": "0af230f31be4",
   "name": "Steffisburg",
   "ort": "Steffisburg",
   "in_ort": "a Steffisburg",
@@ -28,9 +28,10 @@
     {
       "titel": "Guinzaglio",
       "wert": "cimiteri e luoghi segnalati",
-      "text": "Nei cimiteri vale l'obbligo di guinzaglio. Dove è segnalato un divieto di accesso o un obbligo di guinzaglio per i cani, tieni lontano il tuo cane o lo metti al guinzaglio. Nello spazio pubblico devi averlo sotto controllo in modo efficace in ogni momento.",
+      "text": "Nei cimiteri tieni il tuo cane al guinzaglio. Lo prevedono il Polizeireglement (regolamento di polizia) e il Friedhof- und Bestattungsreglement (regolamento sui cimiteri e le sepolture) del 2015. Dove è segnalato un divieto di accesso o un obbligo di guinzaglio per i cani, tieni lontano il tuo cane o lo metti al guinzaglio. Nello spazio pubblico devi averlo sotto controllo in modo efficace in ogni momento.",
       "quellen": [
-        "be_steffisburg_polizeireglement"
+        "be_steffisburg_polizeireglement",
+        "be_steffisburg_friedhof"
       ]
     },
     {
@@ -44,7 +45,7 @@
     {
       "titel": "Multe",
       "wert": "fino a CHF 5000",
-      "text": "Le infrazioni al Polizeireglement (regolamento di polizia) possono essere punite con una multa fino a CHF 5000. Nei casi lievi è possibile un ammonimento.",
+      "text": "Le infrazioni al Polizeireglement possono essere punite con una multa fino a CHF 5000. Nei casi lievi è possibile un ammonimento.",
       "quellen": [
         "be_steffisburg_polizeireglement"
       ]

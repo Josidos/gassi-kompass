@@ -3,7 +3,7 @@
   "kanton": "be",
   "bfs": 404,
   "uebersetzt_aus": "de",
-  "original": "1fb068f63cbc",
+  "original": "505984a99be9",
   "name": "Burgdorf",
   "ort": "Burgdorf",
   "in_ort": "à Burgdorf",
@@ -11,9 +11,19 @@
     {
       "titel": "Impôt sur les chiens",
       "wert": "CHF 100 par chien et par an",
-      "text": "L'impôt sur les chiens s'élève à CHF 100 et est dû pour tous les chiens dès le sixième mois. La ville envoie la facture chaque année en août. Pour l'année 2025, elle a fixé l'impôt à CHF 100 par chien.",
+      "text": "L'impôt sur les chiens s'élève à CHF 100 par chien et par an (Gebührenverordnung, ordonnance sur les émoluments, annexe chiffre 8.14.2). Doit le payer qui habite à Burgdorf le 1er août et détient un chien de plus de six mois. La ville envoie la facture chaque année en août. Le Hundereglement (règlement sur les chiens) laisse au Gemeinderat (exécutif communal) un cadre de CHF 50 à CHF 250.",
       "quellen": [
-        "be_burgdorf_anmeldung",
+        "be_burgdorf_gebv",
+        "be_burgdorf_hundr",
+        "be_burgdorf_anmeldung"
+      ]
+    },
+    {
+      "titel": "Exonération",
+      "wert": "chiens de service, de sauvetage et de thérapie reconnus",
+      "text": "Aucun impôt n'est perçu pour les chiens que le droit cantonal exonère ni pour les chiens de service, de sauvetage et de thérapie reconnus (Hundereglement, art. 3). Vous devez prouver chaque année la formation spéciale, et le chien doit être en service. Pour l'impôt 2025, la ville mentionnait aussi les chiens d'assistance et d'accompagnement de personnes handicapées et demandait les justificatifs jusqu'au 31 juillet auprès des Einwohnerdienste (services des habitants), secteur impôts.",
+      "quellen": [
+        "be_burgdorf_hundr",
         "be_burgdorf_taxe_2025"
       ]
     },

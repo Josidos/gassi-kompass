@@ -5,12 +5,12 @@
   "name": "Domat/Ems",
   "ort": "Domat/Ems",
   "in_ort": "in Domat/Ems",
-  "geprueft": "2026-11-21",
+  "geprueft": "2026-11-27",
   "karten": [
     {
       "titel": "Hundetaxe",
       "wert": "CHF 90, jeder weitere Hund CHF 210",
-      "text": "Für jeden über drei Monate alten Hund, den du auf Gemeindegebiet hältst, ist eine Steuer zu entrichten. Sie beträgt CHF 90 pro Jahr für den ersten Hund und CHF 210 für jeden weiteren Hund im selben Haushalt. Hältst du den Hund nicht das ganze Jahr in der Gemeinde, schuldest du die Steuer anteilig. Für Hirtenhunde und Hunde in ganzjährig bewohnten abgelegenen Siedlungen gilt die halbe Steuer.",
+      "text": "Für jeden über drei Monate alten Hund, den du auf Gemeindegebiet hältst, ist eine Steuer zu entrichten. Sie beträgt CHF 90 pro Jahr für den ersten Hund und CHF 210 für jeden weiteren Hund im selben Haushalt. Der Gemeindevorstand kann diese Ansätze der Teuerung anpassen. Hältst du den Hund nicht das ganze Jahr in der Gemeinde, schuldest du die Steuer anteilig. Für Hirtenhunde und Hunde in ganzjährig bewohnten abgelegenen Siedlungen gilt die halbe Steuer.",
       "quellen": [
         "gr_domat_ems_steuergesetz",
         "gr_domat_ems_melden"
@@ -18,9 +18,10 @@
     },
     {
       "titel": "Anmeldung",
-      "wert": "innert 30 Tagen bei der Gemeinde",
-      "text": "Du meldest deinen Hund der Gemeinde innert 30 Tagen (Steuergesetz, Art. 12). Dafür gibt es im Online-Schalter der Gemeinde das Formular «Hunde melden».",
+      "wert": "innert 14 Tagen bei der Gemeindeverwaltung",
+      "text": "Den Neuerwerb oder den Tod eines Hundes, einen Halterwechsel und deinen Wegzug meldest du innert 14 Tagen der Gemeindeverwaltung. Die Meldepflicht beginnt, sobald der Hund vier Monate alt ist (Polizeigesetz, Art. 26). Das Steuergesetz nennt für die Meldung an die Gemeinde 30 Tage (Art. 12). Wer innert 14 Tagen meldet, hält beide Fristen ein. Zuständig ist die Einwohnerkontrolle (Tel. 081 632 82 13). Im Online-Schalter der Gemeinde gibt es das Formular «Hunde melden».",
       "quellen": [
+        "gr_domat_ems_polizeigesetz",
         "gr_domat_ems_steuergesetz",
         "gr_domat_ems_melden"
       ]
@@ -31,6 +32,39 @@
       "text": "Von der Hundesteuer befreit sind Polizeihunde, Rettungshunde, Blindenführ-, Gehörlosen- und andere Assistenzhunde sowie Herdenschutzhunde.",
       "quellen": [
         "gr_domat_ems_steuergesetz"
+      ]
+    },
+    {
+      "titel": "Leine",
+      "wert": "im besiedelten Gebiet",
+      "text": "Innerhalb des besiedelten Gebiets gilt die Leinenpflicht. Ohne Aufsicht darfst du deinen Hund nirgends laufen lassen (Polizeigesetz, Art. 29). Unbeaufsichtigte, umherstreifende Hunde kann die Gemeinde einfangen. Holst du deinen Hund nicht innert zwei Monaten gegen Bezahlung der Auslagen ab, kann sie über ihn verfügen.",
+      "quellen": [
+        "gr_domat_ems_polizeigesetz"
+      ]
+    },
+    {
+      "titel": "Kein Zutritt",
+      "wert": "öffentliche Gebäude, Sport- und Kinderspielplätze, Friedhof",
+      "text": "Zu öffentlichen Gebäuden, Sportplätzen und Kinderspielplätzen haben Hunde keinen Zutritt. Ausgenommen sind Invaliden- und Diensthunde. Die Gebäudeverwaltung und die Betreibenden von Sportanlagen können Ausnahmen gestatten (Polizeigesetz, Art. 28). Auf dem Friedhof ist das Mitführen von Hunden verboten (Friedhofverordnung, Art. 1).",
+      "quellen": [
+        "gr_domat_ems_polizeigesetz",
+        "gr_domat_ems_friedhof"
+      ]
+    },
+    {
+      "titel": "Hundekot",
+      "wert": "Verunreinigungen immer beseitigen",
+      "text": "Du sorgst dafür, dass dein Hund Trottoirs, Strassen, andere öffentliche Anlagen, Privatgrund und landwirtschaftliches Nutzland nicht verunreinigt. Verunreinigungen beseitigst du (Polizeigesetz, Art. 28).",
+      "quellen": [
+        "gr_domat_ems_polizeigesetz"
+      ]
+    },
+    {
+      "titel": "Bussen",
+      "wert": "bis CHF 5000",
+      "text": "Verstösse gegen das Polizeigesetz werden mit Busse bis CHF 5000 bestraft. In leichten Fällen kann es bei einer Verwarnung bleiben. Bussen bis CHF 300 sprechen die Polizeiorgane aus, auch als Ordnungsbusse auf der Stelle (Art. 36 bis 38).",
+      "quellen": [
+        "gr_domat_ems_polizeigesetz"
       ]
     }
   ]

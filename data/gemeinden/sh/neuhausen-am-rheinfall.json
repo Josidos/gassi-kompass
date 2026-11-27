@@ -5,22 +5,24 @@
   "name": "Neuhausen am Rheinfall",
   "ort": "Neuhausen am Rheinfall",
   "in_ort": "in Neuhausen am Rheinfall",
-  "geprueft": "2026-11-21",
+  "geprueft": "2026-11-27",
   "karten": [
     {
       "titel": "Hundetaxe",
       "wert": "CHF 160, jeder weitere Hund CHF 200",
-      "text": "Die Hundeabgabe beträgt CHF 160 pro Jahr für den ersten Hund und CHF 200 pro Jahr für jeden weiteren Hund. Die Gemeinde nennt diese Beträge als «Kosten ab 1. Januar 2015». Die ordentliche Versteuerung findet jeweils im Januar statt.",
+      "text": "Die Hundeabgabe beträgt CHF 160 pro Jahr für den ersten Hund und CHF 200 pro Jahr für jeden weiteren Hund. Die kantonale Abgabe ist darin enthalten. Für Hundezüchterinnen und Hundezüchter gibt es eine Pauschalabgabe von CHF 760. Ziehst du ab dem 1. Juli von ausserhalb des Kantons zu oder schaffst du dann einen Hund an, zahlst du die Hälfte. Das gilt auch für Hunde, die nach dem 30. Juni drei Monate alt werden. Bei Wegzug aus dem Kanton, Tod oder Abgabe des Hundes im Januar oder Februar erlässt die Gemeinde die ganze Abgabe, von März bis Juni erstattet sie die Hälfte zurück. Die ordentliche Versteuerung findet jeweils im Januar statt. Das Hundewesen führt die Einwohnerkontrolle.",
       "quellen": [
+        "sh_neuhausen_hundeabgabe",
         "sh_neuhausen_einwohnerkontrolle"
       ]
     },
     {
       "titel": "Kein Zutritt",
-      "wert": "Friedhof: nur mit Bewilligung",
-      "text": "Ohne Bewilligung der Friedhofverwaltung darfst du keinen Hund auf den Friedhof mitnehmen (Bestattungs- und Friedhofverordnung von 2007, Art. 13).",
+      "wert": "Friedhof: nur mit Bewilligung, Rhyfallbadi",
+      "text": "Ohne Bewilligung der Friedhofverwaltung darfst du keinen Hund auf den Friedhof mitnehmen (Bestattungs- und Friedhofverordnung von 2007, Art. 13). In die Rhyfallbadi Otterstall darfst du keine Tiere mitnehmen. Erlaubt sind angeleinte Hunde auf der Terrasse des Gastrobereichs (Badeordnung, Fassung vom 9. Mai 2023).",
       "quellen": [
-        "sh_neuhausen_friedhof"
+        "sh_neuhausen_friedhof",
+        "sh_neuhausen_badeordnung"
       ]
     },
     {

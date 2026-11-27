@@ -5,12 +5,12 @@
   "name": "Gossau",
   "ort": "Gossau",
   "in_ort": "in Gossau",
-  "geprueft": "2026-11-21",
+  "geprueft": "2026-11-27",
   "karten": [
     {
       "titel": "Hundetaxe",
       "wert": "CHF 100 pro Hund und Jahr",
-      "text": "Die jährliche Hundetaxe beträgt in Gossau CHF 100 pro Hund.",
+      "text": "Die jährliche Hundetaxe beträgt in Gossau CHF 100 pro Hund. Keine Taxe gibt es für Hunde, die weniger als drei Monate alt sind, für Blindenführ- und Behindertenhunde, für Hunde, für die du die Taxe des laufenden Jahres schon in einer anderen Gemeinde bezahlt hast, und für Hunde, die du im laufenden Jahr als Ersatz für einen verstorbenen Hund anschaffst.",
       "quellen": [
         "sg_gossau_hundekontrolle"
       ]
@@ -18,7 +18,7 @@
     {
       "titel": "Anmeldung",
       "wert": "Hundekontrollstelle der Stadt",
-      "text": "Wer zum ersten Mal einen Hund hält, meldet sich für die Registrierung bei der Hundekontrollstelle der Wohngemeinde.",
+      "text": "Alle Hunde, die älter als drei Monate sind, meldest du bei der Hundekontrollstelle. Auch neue Personalien, eine neue Adresse, einen Besitzerwechsel und den Tod des Hundes teilst du ihr mit. Wer zum ersten Mal einen Hund hält, meldet sich für die Registrierung bei der Hundekontrollstelle der Wohngemeinde und erhält eine Personen-ID für die Hundedatenbank AMICUS. Zuständiges Amt ist das Einwohneramt (Tel. 071 388 43 20).",
       "quellen": [
         "sg_gossau_hundekontrolle"
       ]
@@ -26,7 +26,7 @@
     {
       "titel": "Leine",
       "wert": "Andreaspark",
-      "text": "Beim Andreaspark gilt in Gossau eine zusätzliche Leinenpflicht.",
+      "text": "Beim Andreaspark gilt in Gossau eine zusätzliche Leinenpflicht. Tafeln an allen Eingängen zum Park weisen darauf hin.",
       "quellen": [
         "sg_gossau_hundekontrolle"
       ]
@@ -34,9 +34,18 @@
     {
       "titel": "Hundekot",
       "wert": "rund 100 Robidog-Kästen",
-      "text": "In Gossau und Arnegg stehen rund 100 Robidog-Kästen. Die Stadt bittet alle Hundehaltenden, sie zu benützen.",
+      "text": "In Gossau und Arnegg stehen rund 100 Robidog-Kästen. Die Stadt bittet alle Hundehaltenden, sie zu benützen. Öffentliche Gebäude, Anlagen und Einrichtungen dürfen nicht verunreinigt werden (Polizeireglement, Art. 13). Verstösse werden mit Busse bestraft (Art. 29).",
       "quellen": [
-        "sg_gossau_robidog"
+        "sg_gossau_robidog",
+        "sg_gossau_polizeireglement"
+      ]
+    },
+    {
+      "titel": "Lärm",
+      "wert": "Haustiere dürfen Dritte nicht erheblich stören",
+      "text": "Haustiere hältst du so, dass sie Dritte nicht erheblich stören (Polizeireglement, Art. 9). Die Nachtruhe dauert von 22.00 bis 06.00 Uhr, die Mittagsruhe an Werktagen von 12.00 bis 13.00 Uhr. Verstösse gegen das Reglement werden mit Busse bestraft (Art. 29).",
+      "quellen": [
+        "sg_gossau_polizeireglement"
       ]
     }
   ]

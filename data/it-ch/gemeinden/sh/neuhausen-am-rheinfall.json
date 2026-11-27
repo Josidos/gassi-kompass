@@ -3,7 +3,7 @@
   "kanton": "sh",
   "bfs": 2937,
   "uebersetzt_aus": "de",
-  "original": "c8435a2b1e9a",
+  "original": "35a836e914fb",
   "name": "Neuhausen am Rheinfall",
   "ort": "Neuhausen am Rheinfall",
   "in_ort": "a Neuhausen am Rheinfall",
@@ -11,17 +11,19 @@
     {
       "titel": "Imposta sui cani",
       "wert": "CHF 160, ogni cane in più CHF 200",
-      "text": "L'imposta sui cani ammonta a CHF 160 all'anno per il primo cane e a CHF 200 all'anno per ogni cane in più. Il Comune indica questi importi come «costi dal 1° gennaio 2015». L'imposizione ordinaria avviene ogni anno in gennaio.",
+      "text": "L'imposta sui cani ammonta a CHF 160 all'anno per il primo cane e a CHF 200 all'anno per ogni cane in più. La tassa cantonale vi è compresa. Per le allevatrici e gli allevatori di cani c'è una tassa forfettaria di CHF 760. Se arrivi da fuori Cantone a partire dal 1° luglio o se da quella data acquisti un cane, paghi la metà. Vale anche per i cani che compiono tre mesi dopo il 30 giugno. In caso di partenza dal Cantone, morte o cessione del cane in gennaio o febbraio il Comune condona tutta la tassa, da marzo a giugno ne rimborsa la metà. L'imposizione ordinaria avviene ogni anno in gennaio. Del settore cani si occupa l'Einwohnerkontrolle (controllo abitanti).",
       "quellen": [
+        "sh_neuhausen_hundeabgabe",
         "sh_neuhausen_einwohnerkontrolle"
       ]
     },
     {
       "titel": "Accesso vietato",
-      "wert": "cimitero: solo con autorizzazione",
-      "text": "Senza autorizzazione dell'amministrazione del cimitero non puoi portare cani al cimitero (Bestattungs- und Friedhofverordnung del 2007, art. 13).",
+      "wert": "cimitero: solo con autorizzazione, Rhyfallbadi",
+      "text": "Senza autorizzazione dell'amministrazione del cimitero non puoi portare cani al cimitero (Bestattungs- und Friedhofverordnung del 2007, art. 13). Alla Rhyfallbadi Otterstall (piscina) non puoi portare animali. Sono ammessi i cani al guinzaglio sulla terrazza del ristorante (Badeordnung, regolamento della piscina, versione del 9 maggio 2023).",
       "quellen": [
-        "sh_neuhausen_friedhof"
+        "sh_neuhausen_friedhof",
+        "sh_neuhausen_badeordnung"
       ]
     },
     {

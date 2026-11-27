@@ -5,13 +5,14 @@
   "name": "Schlieren",
   "ort": "Schlieren",
   "in_ort": "in Schlieren",
-  "geprueft": "2026-11-21",
+  "geprueft": "2026-11-27",
   "karten": [
     {
       "titel": "Hundetaxe",
       "wert": "CHF 170 pro Hund und Jahr",
-      "text": "Die Stadt stellt die Hundeabgabe jedes Jahr in Rechnung. Die Jahresgebühr beträgt CHF 170 pro Hund. Die Gebührenverordnung der Stadt gibt einen Rahmen von CHF 70 bis CHF 200 vor.",
+      "text": "Die Stadt stellt die Hundeabgabe jedes Jahr in Rechnung. Sie beträgt CHF 170 pro Hund und Jahr (Gebührentarif vom 17. Juni 2026, § 36). Ermässigungen und Befreiungen richten sich nach dem kantonalen Recht. Die Gebührenverordnung der Stadt gibt einen Rahmen von CHF 70 bis CHF 200 vor.",
       "quellen": [
+        "zh_schlieren_tarif",
         "zh_schlieren_hunde",
         "zh_schlieren_gebv"
       ]
@@ -22,6 +23,14 @@
       "text": "Wer zum ersten Mal einen Hund hält, meldet sich vorgängig bei den Einwohnerdiensten. Diese erfassen deine Personalien in der Hundedatenbank AMICUS. Danach registriert die Tierärztin oder der Tierarzt den Hund. Namens- und Adressänderungen meldest du direkt den Einwohnerdiensten.",
       "quellen": [
         "zh_schlieren_hunde"
+      ]
+    },
+    {
+      "titel": "Gebühren",
+      "wert": "CHF 20 pro Meldung, verspätet CHF 40",
+      "text": "Für die Bearbeitung der Meldungen, die das kantonale Hunderecht verlangt, erhebt die Stadt Gebühren: CHF 20 für eine ordentliche Meldung, CHF 40 für eine verspätete Meldung und CHF 50 für eine Aufforderung. Muss die Stadt die Meldung bei der Registrierungsstelle an deiner Stelle vornehmen, kostet das CHF 150. Eine Verfügung gegen säumige Hundehaltende kostet ebenfalls CHF 150. Dazu kommen Schreibgebühren (Gebührentarif, § 36).",
+      "quellen": [
+        "zh_schlieren_tarif"
       ]
     },
     {

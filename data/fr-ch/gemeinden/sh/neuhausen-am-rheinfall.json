@@ -3,7 +3,7 @@
   "kanton": "sh",
   "bfs": 2937,
   "uebersetzt_aus": "de",
-  "original": "c8435a2b1e9a",
+  "original": "35a836e914fb",
   "name": "Neuhausen am Rheinfall",
   "ort": "Neuhausen am Rheinfall",
   "in_ort": "à Neuhausen am Rheinfall",
@@ -11,17 +11,19 @@
     {
       "titel": "Impôt sur les chiens",
       "wert": "CHF 160, chaque chien supplémentaire CHF 200",
-      "text": "L'impôt sur les chiens s'élève à CHF 160 par an pour le premier chien et à CHF 200 par an pour chaque chien supplémentaire. La commune indique ces montants comme «coûts dès le 1er janvier 2015». L'imposition ordinaire a lieu chaque année en janvier.",
+      "text": "L'impôt sur les chiens s'élève à CHF 160 par an pour le premier chien et à CHF 200 par an pour chaque chien supplémentaire. La taxe cantonale y est comprise. Pour les éleveuses et éleveurs de chiens, il existe une taxe forfaitaire de CHF 760. Si vous arrivez d'un autre canton à partir du 1er juillet ou si vous acquérez un chien à partir de cette date, vous payez la moitié. Cela vaut aussi pour les chiens qui atteignent trois mois après le 30 juin. En cas de départ du canton, de mort ou de cession du chien en janvier ou en février, la commune remet toute la taxe, de mars à juin elle en rembourse la moitié. L'imposition ordinaire a lieu chaque année en janvier. Le domaine des chiens relève de l'Einwohnerkontrolle (contrôle des habitants).",
       "quellen": [
+        "sh_neuhausen_hundeabgabe",
         "sh_neuhausen_einwohnerkontrolle"
       ]
     },
     {
       "titel": "Accès interdit",
-      "wert": "cimetière: seulement avec autorisation",
-      "text": "Sans autorisation de l'administration du cimetière, vous ne pouvez pas emmener de chien au cimetière (Bestattungs- und Friedhofverordnung de 2007, art. 13).",
+      "wert": "cimetière: seulement avec autorisation, Rhyfallbadi",
+      "text": "Sans autorisation de l'administration du cimetière, vous ne pouvez pas emmener de chien au cimetière (Bestattungs- und Friedhofverordnung de 2007, art. 13). À la Rhyfallbadi Otterstall (piscine), vous ne pouvez pas emmener d'animaux. Sont admis les chiens tenus en laisse sur la terrasse du restaurant (Badeordnung, règlement de la piscine, version du 9 mai 2023).",
       "quellen": [
-        "sh_neuhausen_friedhof"
+        "sh_neuhausen_friedhof",
+        "sh_neuhausen_badeordnung"
       ]
     },
     {

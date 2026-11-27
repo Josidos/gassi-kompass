@@ -3,7 +3,7 @@
   "kanton": "be",
   "bfs": 942,
   "uebersetzt_aus": "de",
-  "original": "f28340bf6ae8",
+  "original": "874047aec583",
   "name": "Thun",
   "ort": "Thun",
   "in_ort": "à Thun",
@@ -11,7 +11,7 @@
     {
       "titel": "Impôt sur les chiens",
       "wert": "CHF 100 par chien et par an",
-      "text": "Pour les chiens de plus de six mois, la ville perçoit un impôt sur les chiens de CHF 100 par an. Doit le payer qui habite à Thun le 1er août. Aucun impôt n'est perçu notamment pour les chiens de thérapie, de police, militaires, d'avalanche et de catastrophe, si la tâche spéciale est prouvée et si le chien est en service.",
+      "text": "Pour les chiens de plus de six mois, la ville perçoit un impôt sur les chiens de CHF 100 par an. Doit le payer qui habite à Thun le 1er août. Aucun impôt n'est perçu pour les chiens que le droit cantonal exonère ni pour les chiens de thérapie, de police, militaires, de détection d'explosifs, d'avalanche, de catastrophe, de recherche en surface et de recherche en surface en montagne. Pour cela, vous devez prouver chaque année la formation spéciale et les engagements réguliers du chien.",
       "quellen": [
         "be_thun_opr",
         "be_thun_hundehaltung"
@@ -20,7 +20,7 @@
     {
       "titel": "Annonce",
       "wert": "sans délai auprès de la ville",
-      "text": "Vous annoncez sans délai à la ville de Thun l'arrivée ou le départ de votre chien.",
+      "text": "Vous annoncez sans délai à la ville de Thun l'arrivée ou le départ de votre chien. Pour les questions sur la détention de chiens, la ville indique le Polizeiinspektorat (inspection de police, tél. 033 225 84 98).",
       "quellen": [
         "be_thun_hundehaltung"
       ]
@@ -28,8 +28,10 @@
     {
       "titel": "Laisse",
       "wert": "rive du lac de la Schadau à Bonstetten, cimetières",
-      "text": "Sur de larges parties de la rive du lac, du Schadaupark au Bonstettenpark, la laisse est obligatoire. Depuis le 1er avril 2026, elle l'est aussi sur le chemin de rive entre le Lachenareal et le Seewinkel. Font exception la kleine Seeallmend et la partie arrière du Bonstettenpark. Ni les personnes ni les animaux ne peuvent entrer dans la roselière. Dans les cimetières, vous tenez votre chien en laisse courte.",
+      "text": "Sur la rive du lac, du Schadaupark au Bonstettenpark, vous tenez votre chien en laisse dans les zones spécialement marquées (Verordnung über die Benützung des Seeuferbereichs, ordonnance sur l'utilisation de la rive du lac, art. 7). Selon la ville, cela concerne de larges parties de la rive et, depuis le 1er avril 2026, aussi le chemin de rive entre le Lachenareal et le Seewinkel. Font exception la kleine Seeallmend et la partie arrière du Bonstettenpark. Dans le reste du périmètre et sur le Hundespielplatz (place de jeu pour chiens), votre chien peut courir librement. La longueur de la laisse dépend de la maîtrise effective que vous avez de votre chien. Ni les personnes ni les animaux ne peuvent entrer dans la roselière. Le plan de situation de la ville et les panneaux sur place montrent les zones. Dans les cimetières, vous tenez votre chien en laisse courte.",
       "quellen": [
+        "be_thun_vbs",
+        "be_thun_plan",
         "be_thun_hundehaltung",
         "be_thun_seeufer",
         "be_thun_friedhof"
@@ -38,8 +40,18 @@
     {
       "titel": "Accès interdit",
       "wert": "Strandbad Thun: toute l'année",
-      "text": "Au Strandbad Thun (plage), les chiens sont interdits toute l'année.",
+      "text": "Dans l'enceinte du Strandbad Thun (plage), les chiens sont interdits toute l'année (Verordnung über die Benützung des Seeuferbereichs, art. 2 al. 3). La ville le justifie par l'hygiène et la protection des oiseaux migrateurs et des oiseaux d'eau.",
       "quellen": [
+        "be_thun_vbs",
+        "be_thun_hundehaltung"
+      ]
+    },
+    {
+      "titel": "Crottes de chien",
+      "wert": "ne pas laisser sur la rive du lac",
+      "text": "Sur la rive du lac, vous ne pouvez ni déposer ni laisser de crottes de chien hors des installations prévues à cet effet (Verordnung über die Benützung des Seeuferbereichs, art. 11). Les infractions peuvent être punies d'une amende (art. 15). Il n'est pas interdit qu'un chien urine dans l'espace public. La ville demande toutefois de ne pas laisser les chiens uriner contre les façades, les stands de marché, les vitrines ou les poubelles.",
+      "quellen": [
+        "be_thun_vbs",
         "be_thun_hundehaltung"
       ]
     }

@@ -3,7 +3,7 @@
   "kanton": "gr",
   "bfs": 3722,
   "uebersetzt_aus": "de",
-  "original": "359070fae4cc",
+  "original": "e3aeef2ae3d6",
   "name": "Domat/Ems",
   "ort": "Domat/Ems",
   "in_ort": "à Domat/Ems",
@@ -11,7 +11,7 @@
     {
       "titel": "Impôt sur les chiens",
       "wert": "CHF 90, chaque chien supplémentaire CHF 210",
-      "text": "Pour chaque chien de plus de trois mois que vous détenez sur le territoire communal, un impôt est dû. Il s'élève à CHF 90 par an pour le premier chien et à CHF 210 pour chaque chien supplémentaire du même ménage. Si vous ne détenez pas le chien toute l'année dans la commune, vous devez l'impôt au prorata. Pour les chiens de berger et les chiens dans des hameaux isolés habités toute l'année, la moitié de l'impôt s'applique.",
+      "text": "Pour chaque chien de plus de trois mois que vous détenez sur le territoire communal, un impôt est dû. Il s'élève à CHF 90 par an pour le premier chien et à CHF 210 pour chaque chien supplémentaire du même ménage. Le Gemeindevorstand (exécutif communal) peut adapter ces montants au renchérissement. Si vous ne détenez pas le chien toute l'année dans la commune, vous devez l'impôt au prorata. Pour les chiens de berger et les chiens dans des hameaux isolés habités toute l'année, la moitié de l'impôt s'applique.",
       "quellen": [
         "gr_domat_ems_steuergesetz",
         "gr_domat_ems_melden"
@@ -19,9 +19,10 @@
     },
     {
       "titel": "Annonce",
-      "wert": "dans les 30 jours à la commune",
-      "text": "Vous annoncez votre chien à la commune dans les 30 jours (Steuergesetz, art. 12). Le guichet en ligne de la commune propose pour cela le formulaire «Hunde melden» (annoncer des chiens).",
+      "wert": "dans les 14 jours à l'administration communale",
+      "text": "Vous annoncez dans les 14 jours à l'administration communale l'acquisition ou la mort d'un chien, un changement de détenteur et votre départ. L'obligation d'annoncer commence dès que le chien a quatre mois (Polizeigesetz, loi sur la police, art. 26). Le Steuergesetz (loi fiscale) indique 30 jours pour l'annonce à la commune (art. 12). Qui annonce dans les 14 jours respecte les deux délais. Le service compétent est l'Einwohnerkontrolle (contrôle des habitants, tél. 081 632 82 13). Le guichet en ligne de la commune propose le formulaire «Hunde melden» (annoncer des chiens).",
       "quellen": [
+        "gr_domat_ems_polizeigesetz",
         "gr_domat_ems_steuergesetz",
         "gr_domat_ems_melden"
       ]
@@ -32,6 +33,39 @@
       "text": "Sont exonérés de l'impôt sur les chiens les chiens de police, les chiens de sauvetage, les chiens d'aveugle, pour personnes sourdes et les autres chiens d'assistance ainsi que les chiens de protection des troupeaux.",
       "quellen": [
         "gr_domat_ems_steuergesetz"
+      ]
+    },
+    {
+      "titel": "Laisse",
+      "wert": "dans la zone habitée",
+      "text": "À l'intérieur de la zone habitée, la laisse est obligatoire. Vous ne pouvez nulle part laisser courir votre chien sans surveillance (Polizeigesetz, art. 29). La commune peut capturer les chiens errants sans surveillance. Si vous ne récupérez pas votre chien dans les deux mois contre paiement des frais, elle peut en disposer.",
+      "quellen": [
+        "gr_domat_ems_polizeigesetz"
+      ]
+    },
+    {
+      "titel": "Accès interdit",
+      "wert": "bâtiments publics, terrains de sport et places de jeux, cimetière",
+      "text": "Les chiens n'ont pas accès aux bâtiments publics, aux terrains de sport et aux places de jeux pour enfants. Font exception les chiens pour personnes invalides et les chiens de service. L'administration des bâtiments et les exploitants d'installations sportives peuvent autoriser des exceptions (Polizeigesetz, art. 28). Au cimetière, il est interdit d'emmener des chiens (Friedhofverordnung, ordonnance sur le cimetière, art. 1).",
+      "quellen": [
+        "gr_domat_ems_polizeigesetz",
+        "gr_domat_ems_friedhof"
+      ]
+    },
+    {
+      "titel": "Crottes de chien",
+      "wert": "toujours éliminer les salissures",
+      "text": "Vous veillez à ce que votre chien ne salisse pas les trottoirs, les routes, les autres installations publiques, les terrains privés et les terres agricoles. Vous éliminez les salissures (Polizeigesetz, art. 28).",
+      "quellen": [
+        "gr_domat_ems_polizeigesetz"
+      ]
+    },
+    {
+      "titel": "Amendes",
+      "wert": "jusqu'à CHF 5000",
+      "text": "Les infractions au Polizeigesetz sont punies d'une amende jusqu'à CHF 5000. Dans les cas légers, un avertissement peut suffire. Les amendes jusqu'à CHF 300 sont prononcées par les organes de police, aussi comme amende d'ordre sur place (art. 36 à 38).",
+      "quellen": [
+        "gr_domat_ems_polizeigesetz"
       ]
     }
   ]

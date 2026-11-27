@@ -3,7 +3,7 @@
   "kanton": "be",
   "bfs": 363,
   "uebersetzt_aus": "de",
-  "original": "fe5145cdf36b",
+  "original": "2a5ea39b3f17",
   "name": "Ostermundigen",
   "ort": "Ostermundigen",
   "in_ort": "a Ostermundigen",
@@ -11,51 +11,63 @@
     {
       "titel": "Imposta sui cani",
       "wert": "CHF 100 per cane e per anno",
-      "text": "Per ogni cane di età superiore a tre mesi il Comune riscuote una tassa annuale di CHF 100. La fattura arriva in agosto per l'anno in corso. Sono esentati i cani di sicurezza, per ciechi, di polizia, sanitari, da terapia e da valanga, se presenti una conferma del datore di lavoro o un certificato di capacità.",
+      "text": "Per ogni cane di età superiore a sei mesi il Comune riscuote una tassa annuale di CHF 100. Il giorno di riferimento è il 1° agosto. La fattura arriva a inizio agosto per l'anno in corso e va pagata entro 30 giorni. Sono esentati i cani di sicurezza, per ciechi, di polizia, sanitari, da terapia e da valanga in servizio, se presenti una conferma del datore di lavoro o un certificato di capacità. La pagina del Comune indica come età tre mesi. Il suo promemoria del 2020 e lo Hundegesetz cantonale (legge sui cani, art. 13) indicano sei mesi.",
       "quellen": [
+        "be_ostermundigen_merkblatt",
         "be_ostermundigen_hundehaltung",
-        "be_ostermundigen_gebuehren"
+        "be_ostermundigen_gebuehren",
+        "be_hug"
       ]
     },
     {
       "titel": "Notifica",
       "wert": "Polizeiinspektorat, Schiessplatzweg 1",
-      "text": "Annunci il tuo cane al Polizeiinspektorat (ispettorato di polizia) di Ostermundigen, Schiessplatzweg 1. Porta il libretto delle vaccinazioni o il passaporto per animali e il numero di registrazione AMICUS. Annunci il cambio di detentore e la morte del cane ad AMICUS e al Polizeiinspektorat.",
+      "text": "Annunci il tuo cane al Polizeiinspektorat (ispettorato di polizia) di Ostermundigen, Schiessplatzweg 1. Porta il libretto delle vaccinazioni o il passaporto per animali e il numero di registrazione AMICUS. Annunci il cambio di detentore e la morte del cane ad AMICUS e al Polizeiinspektorat, un nuovo indirizzo al Polizeiinspektorat.",
       "quellen": [
-        "be_ostermundigen_hundehaltung"
+        "be_ostermundigen_hundehaltung",
+        "be_ostermundigen_merkblatt"
       ]
     },
     {
       "titel": "Guinzaglio",
-      "wert": "strade, ristoranti, campi sportivi, parchi",
-      "text": "Sulle strade molto trafficate, nei ristoranti, sui campi sportivi pubblici, nei parchi e sui mezzi pubblici tieni il tuo cane al guinzaglio. L'Ortspolizeireglement (regolamento di polizia locale) del 1984 richiede inoltre il guinzaglio dalle 22.00 alle 06.00 e sui mercati di frutta e verdura. Non puoi mai lasciare il tuo cane libero senza sorveglianza.",
+      "wert": "strade, ristoranti, parchi giochi e campi sportivi, parchi",
+      "text": "Sulle strade molto trafficate, nei ristoranti, nei parchi giochi e sui campi sportivi pubblici, nei parchi e sui mezzi pubblici tieni il tuo cane al guinzaglio. Nei parchi e nelle aree verdi del Comune è vietato lasciare correre liberi i cani (regolamento del 2007, art. 3). Sui prati, sui campi in duro e nei cortili delle scuole non puoi lasciare correre i cani (Benutzungsordnung, regolamento d'uso, del 2022). L'Ortspolizeireglement (regolamento di polizia locale) del 1984 richiede inoltre il guinzaglio dalle 22.00 alle 06.00, sui mercati di frutta e verdura e per le cagne in calore, i cani mordaci e i cani malati. I cani mordaci portano inoltre la museruola. Non puoi mai lasciare il tuo cane libero senza sorveglianza.",
       "quellen": [
         "be_ostermundigen_hundehaltung",
+        "be_ostermundigen_merkblatt",
+        "be_ostermundigen_park",
+        "be_ostermundigen_schulanlagen",
         "be_ostermundigen_opr"
       ]
     },
     {
       "titel": "Accesso vietato",
-      "wert": "cimiteri, parchi giochi, bagni pubblici",
-      "text": "Secondo l'Ortspolizeireglement del 1984 l'accesso è vietato ai cani nelle chiese, nei cimiteri, nei negozi di alimentari, nei parchi giochi per bambini e nei bagni pubblici. I cani non possono fare il bagno nelle fontane pubbliche. Il Comune può segnalare altri luoghi con cartelli.",
+      "wert": "cimiteri, chiese, bagni pubblici, biotopi",
+      "text": "Secondo l'Ortspolizeireglement del 1984 l'accesso è vietato ai cani nelle chiese, nei cimiteri, nei negozi di alimentari e nei bagni pubblici. Menziona anche i parchi giochi per bambini. Il regolamento più recente sui parchi e le aree verdi, del 2007, vi vieta di lasciare correre liberi i cani, e il Comune indica sulla sua pagina il guinzaglio per i parchi giochi pubblici. Rispetta i cartelli sul posto. Nessuno può entrare nei biotopi e nelle riserve naturali comunali segnalati, nemmeno con un cane. I cani non possono fare il bagno nelle fontane pubbliche, negli stagni dei parchi e nei biotopi umidi. Il Comune può segnalare altri luoghi con cartelli.",
       "quellen": [
-        "be_ostermundigen_opr"
+        "be_ostermundigen_opr",
+        "be_ostermundigen_park",
+        "be_ostermundigen_hundehaltung"
       ]
     },
     {
       "titel": "Escrementi",
       "wert": "raccogliere sul suolo pubblico",
-      "text": "Devi raccogliere gli escrementi del tuo cane sul suolo pubblico.",
+      "text": "Devi raccogliere gli escrementi del tuo cane sul suolo pubblico. Fai in modo che il tuo cane non faccia i bisogni su marciapiedi, strade, sentieri e piazze, nelle scuole e nei parchi, nei parchi giochi e sui campi sportivi, sui terreni coltivati o sui prati altrui. Nei parchi e nei parchi giochi può fare i bisogni solo nelle toilette per cani ufficiali. Sono a disposizione contenitori Robidog e toilette per cani.",
       "quellen": [
-        "be_ostermundigen_opr"
+        "be_ostermundigen_opr",
+        "be_ostermundigen_park",
+        "be_ostermundigen_merkblatt"
       ]
     },
     {
       "titel": "Multe",
-      "wert": "fino a CHF 1000",
-      "text": "Chi viola l'Ortspolizeireglement può essere punito con una multa fino a CHF 1000. Nei casi lievi è possibile un ammonimento.",
+      "wert": "fino a CHF 1000, nei parchi fino a CHF 5000",
+      "text": "Chi viola l'Ortspolizeireglement può essere punito con una multa fino a CHF 1000. Nei casi lievi è possibile un ammonimento. Per le infrazioni al regolamento sui parchi e le aree verdi sono possibili multe fino a CHF 5000. Secondo il Comune, chi non annuncia il proprio cane e non paga la tassa è punibile.",
       "quellen": [
-        "be_ostermundigen_opr"
+        "be_ostermundigen_opr",
+        "be_ostermundigen_park",
+        "be_ostermundigen_merkblatt"
       ]
     }
   ]

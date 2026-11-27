@@ -5,7 +5,7 @@
   "name": "Steffisburg",
   "ort": "Steffisburg",
   "in_ort": "in Steffisburg",
-  "geprueft": "2026-11-21",
+  "geprueft": "2026-11-27",
   "karten": [
     {
       "titel": "Hundetaxe",
@@ -27,9 +27,10 @@
     {
       "titel": "Leine",
       "wert": "Friedhöfe und signalisierte Orte",
-      "text": "Auf den Friedhöfen gilt Leinenpflicht. Wo ein Zutrittsverbot oder eine Leinenpflicht für Hunde signalisiert ist, hältst du deinen Hund fern oder nimmst ihn an die Leine. Im öffentlichen Raum musst du ihn jederzeit wirksam unter Kontrolle haben.",
+      "text": "Auf den Friedhöfen führst du deinen Hund an der Leine. Das steht im Polizeireglement und im Friedhof- und Bestattungsreglement von 2015. Wo ein Zutrittsverbot oder eine Leinenpflicht für Hunde signalisiert ist, hältst du deinen Hund fern oder nimmst ihn an die Leine. Im öffentlichen Raum musst du ihn jederzeit wirksam unter Kontrolle haben.",
       "quellen": [
-        "be_steffisburg_polizeireglement"
+        "be_steffisburg_polizeireglement",
+        "be_steffisburg_friedhof"
       ]
     },
     {

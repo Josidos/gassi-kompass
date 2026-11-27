@@ -3,7 +3,7 @@
   "kanton": "sg",
   "bfs": 3443,
   "uebersetzt_aus": "de",
-  "original": "0b52df8c9548",
+  "original": "d48eb939c256",
   "name": "Gossau",
   "ort": "Gossau",
   "in_ort": "a Gossau",
@@ -11,7 +11,7 @@
     {
       "titel": "Imposta sui cani",
       "wert": "CHF 100 per cane e per anno",
-      "text": "L'imposta annuale sui cani ammonta a Gossau a CHF 100 per cane.",
+      "text": "L'imposta annuale sui cani ammonta a Gossau a CHF 100 per cane. Non è riscossa per i cani di età inferiore a tre mesi, per i cani guida per ciechi e i cani per persone con disabilità, per i cani per cui hai già pagato l'imposta dell'anno in corso in un altro Comune e per i cani che acquisti nell'anno in corso in sostituzione di un cane morto.",
       "quellen": [
         "sg_gossau_hundekontrolle"
       ]
@@ -19,7 +19,7 @@
     {
       "titel": "Notifica",
       "wert": "Hundekontrollstelle della città",
-      "text": "Chi detiene un cane per la prima volta si annuncia per la registrazione alla Hundekontrollstelle (controllo dei cani) del Comune di domicilio.",
+      "text": "Annunci tutti i cani di età superiore a tre mesi alla Hundekontrollstelle (controllo dei cani). Le comunichi anche nuovi dati personali, un nuovo indirizzo, un cambio di proprietario e la morte del cane. Chi detiene un cane per la prima volta si annuncia per la registrazione alla Hundekontrollstelle del Comune di domicilio e riceve un identificativo personale per la banca dati AMICUS. L'ufficio competente è l'Einwohneramt (ufficio abitanti, tel. 071 388 43 20).",
       "quellen": [
         "sg_gossau_hundekontrolle"
       ]
@@ -27,7 +27,7 @@
     {
       "titel": "Guinzaglio",
       "wert": "Andreaspark",
-      "text": "All'Andreaspark vale a Gossau un obbligo di guinzaglio supplementare.",
+      "text": "All'Andreaspark vale a Gossau un obbligo di guinzaglio supplementare. Cartelli a tutti gli ingressi del parco lo segnalano.",
       "quellen": [
         "sg_gossau_hundekontrolle"
       ]
@@ -35,9 +35,18 @@
     {
       "titel": "Escrementi",
       "wert": "circa 100 cassette Robidog",
-      "text": "A Gossau e ad Arnegg ci sono circa 100 cassette Robidog. La città prega tutti i detentori di cani di usarle.",
+      "text": "A Gossau e ad Arnegg ci sono circa 100 cassette Robidog. La città prega tutti i detentori di cani di usarle. Edifici, impianti e strutture pubblici non devono essere sporcati (Polizeireglement, regolamento di polizia, art. 13). Le infrazioni sono punite con una multa (art. 29).",
       "quellen": [
-        "sg_gossau_robidog"
+        "sg_gossau_robidog",
+        "sg_gossau_polizeireglement"
+      ]
+    },
+    {
+      "titel": "Rumore",
+      "wert": "gli animali domestici non devono disturbare notevolmente i terzi",
+      "text": "Tieni gli animali domestici in modo che non disturbino notevolmente i terzi (Polizeireglement, art. 9). Il riposo notturno dura dalle 22.00 alle 06.00, il riposo di mezzogiorno dalle 12.00 alle 13.00 nei giorni feriali. Le infrazioni al regolamento sono punite con una multa (art. 29).",
+      "quellen": [
+        "sg_gossau_polizeireglement"
       ]
     }
   ]
