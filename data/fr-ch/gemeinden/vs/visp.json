@@ -1,0 +1,38 @@
+{
+  "id": "visp",
+  "kanton": "vs",
+  "bfs": 6297,
+  "uebersetzt_aus": "de",
+  "original": "0392e1a770a6",
+  "name": "Commune de Viège",
+  "ort": "Viège",
+  "in_ort": "à Viège",
+  "einleitung": "La commune de Viège perçoit l'impôt sur les chiens et envoie en début d'année à tous les détenteurs de chiens la facture avec un Pflichtenheft (cahier des charges). Les annonces et désinscriptions sont reçues par la Regionalpolizei Visp (police régionale).",
+  "karten": [
+    {
+      "titel": "Impôt sur les chiens",
+      "wert": "CHF 195 par an",
+      "text": "En début d'année, la commune envoie à tous les détenteurs de chiens une facture et un Pflichtenheft. Ce cahier des charges est contraignant pour tous les détenteurs de chiens. L'impôt est perçu pour une année entière au domicile et n'est pas réparti selon la durée de détention. Selon l'avis pour 2024, la facture doit être payée jusqu'au 31 mars, et quiconque prouve une exonération partielle paie CHF 175. Le montant de CHF 195 figure dans les bases fiscales 2025.",
+      "quellen": [
+        "vs_visp_steuern",
+        "vs_visp_vaz_hunde"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "wert": "Regionalpolizei Visp, St. Martiniplatz 1",
+      "text": "Si vous prenez en charge un chien en cours d'année ou si vous arrivez à Viège avec un chien, vous devez vous annoncer à la Regionalpolizei Visp. Vous recevez ensuite la facture avec le cahier des charges. En cas d'arrivée, la facture tombe si vous prouvez avoir déjà payé l'impôt sur les chiens dans votre ancienne commune de domicile. Vous annoncez sans délai à la police régionale un départ ou la mort du chien. La commune doit disposer de vos documents à jour: document d'identification et attestation d'assurance. État de l'avis: 2024.",
+      "quellen": [
+        "vs_visp_vaz_hunde"
+      ]
+    },
+    {
+      "titel": "Amendes",
+      "wert": "jusqu'au triple de l'impôt",
+      "text": "Quiconque ne paie pas l'impôt sur les chiens en bonne et due forme et ne dépose pas les documents auprès de la commune peut se voir infliger un rappel d'impôt et une amende allant jusqu'au triple du montant de l'impôt. État de l'avis: 2024.",
+      "quellen": [
+        "vs_visp_vaz_hunde"
+      ]
+    }
+  ]
+}

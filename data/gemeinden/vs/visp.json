@@ -1,0 +1,37 @@
+{
+  "id": "visp",
+  "kanton": "vs",
+  "bfs": 6297,
+  "name": "Gemeinde Visp",
+  "ort": "Visp",
+  "in_ort": "in Visp",
+  "geprueft": "2026-11-28",
+  "einleitung": "Die Gemeinde Visp erhebt die Hundesteuer und schickt allen Hundehaltenden Anfang Jahr die Rechnung mit einem Pflichtenheft. An- und Abmeldungen nimmt die Regionalpolizei Visp entgegen.",
+  "karten": [
+    {
+      "titel": "Hundetaxe",
+      "wert": "CHF 195 pro Jahr",
+      "text": "Die Gemeinde schickt allen Hundehaltenden Anfang Jahr eine Rechnung und ein Pflichtenheft. Das Pflichtenheft ist für alle Hundehaltenden verbindlich. Die Steuer wird für ein ganzes Jahr am Wohnsitz erhoben und nicht nach der Haltedauer aufgeteilt. Laut der Anzeige für 2024 ist die Rechnung bis am 31. März zu bezahlen, und wer eine teilweise Befreiung nachweist, bezahlt CHF 175. Den Betrag von CHF 195 nennen die Steuergrundlagen 2025.",
+      "quellen": [
+        "vs_visp_steuern",
+        "vs_visp_vaz_hunde"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "wert": "Regionalpolizei Visp, St. Martiniplatz 1",
+      "text": "Wer im Lauf des Jahres einen Hund übernimmt oder mit Hund nach Visp zieht, muss sich bei der Regionalpolizei Visp melden. Danach kommt die Rechnung mit dem Pflichtenheft. Bei einem Zuzug entfällt die Rechnung, wenn du nachweist, dass du die Hundesteuer in der früheren Wohngemeinde schon bezahlt hast. Wegzug oder Tod des Hundes meldest du umgehend der Regionalpolizei. Die Gemeinde muss deine aktuellen Unterlagen haben: Identifikationsdokument und Versicherungsnachweis. Stand der Anzeige: 2024.",
+      "quellen": [
+        "vs_visp_vaz_hunde"
+      ]
+    },
+    {
+      "titel": "Bussen",
+      "wert": "bis zum Dreifachen der Steuer",
+      "text": "Wer die Hundesteuer nicht ordentlich bezahlt und die Unterlagen nicht bei der Gemeinde hinterlegt, kann mit einer Nachsteuer und einer Busse bis zum dreifachen Betrag der Steuer belegt werden. Stand der Anzeige: 2024.",
+      "quellen": [
+        "vs_visp_vaz_hunde"
+      ]
+    }
+  ]
+}

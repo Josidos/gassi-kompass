@@ -1,0 +1,38 @@
+{
+  "id": "visp",
+  "kanton": "vs",
+  "bfs": 6297,
+  "uebersetzt_aus": "de",
+  "original": "0392e1a770a6",
+  "name": "Comune di Visp",
+  "ort": "Visp",
+  "in_ort": "a Visp",
+  "einleitung": "Il Comune di Visp riscuote l'imposta sui cani e a inizio anno invia a tutti i detentori di cani la fattura con un Pflichtenheft (capitolato degli obblighi). Le notifiche e le disdette sono ricevute dalla Regionalpolizei Visp (polizia regionale).",
+  "karten": [
+    {
+      "titel": "Imposta sui cani",
+      "wert": "CHF 195 all'anno",
+      "text": "A inizio anno il Comune invia a tutti i detentori di cani una fattura e un Pflichtenheft. Il capitolato è vincolante per tutti i detentori di cani. L'imposta è riscossa per un anno intero al domicilio e non è ripartita secondo la durata della detenzione. Secondo l'avviso per il 2024, la fattura va pagata entro il 31 marzo, e chi dimostra un'esenzione parziale paga CHF 175. L'importo di CHF 195 figura nelle basi fiscali 2025.",
+      "quellen": [
+        "vs_visp_steuern",
+        "vs_visp_vaz_hunde"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "wert": "Regionalpolizei Visp, St. Martiniplatz 1",
+      "text": "Chi nel corso dell'anno prende a carico un cane o si trasferisce a Visp con un cane deve annunciarsi alla Regionalpolizei Visp. Ricevi poi la fattura con il capitolato. In caso di trasferimento la fattura decade se dimostri di aver già pagato l'imposta sui cani nel precedente Comune di domicilio. La partenza o la morte del cane la annunci senza indugio alla polizia regionale. Il Comune deve disporre dei tuoi documenti aggiornati: documento d'identificazione e attestato d'assicurazione. Stato dell'avviso: 2024.",
+      "quellen": [
+        "vs_visp_vaz_hunde"
+      ]
+    },
+    {
+      "titel": "Multe",
+      "wert": "fino al triplo dell'imposta",
+      "text": "Chi non paga regolarmente l'imposta sui cani e non deposita i documenti presso il Comune può essere punito con un'imposta suppletoria e una multa fino al triplo dell'importo dell'imposta. Stato dell'avviso: 2024.",
+      "quellen": [
+        "vs_visp_vaz_hunde"
+      ]
+    }
+  ]
+}
