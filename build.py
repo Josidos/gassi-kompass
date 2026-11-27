@@ -2216,7 +2216,7 @@ def baue(Q, orte):
     schreibe("sitemap.xml", '<?xml version="1.0" encoding="UTF-8"?>\n'
              '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + eintraege + "</urlset>\n")
     schreibe("robots.txt", "User-agent: *\nAllow: /\nDisallow: /data/\nDisallow: /build.py\n"
-             "Disallow: /tests/\nDisallow: /tools/\nDisallow: /CLAUDE.md\nDisallow: /BACKLOG.md\nDisallow: /CHANGELOG.md\nDisallow: /README.md\n\n"
+             "Disallow: /tests/\nDisallow: /tools/\nDisallow: /graphify-out/\nDisallow: /.claude/\nDisallow: /CLAUDE.md\nDisallow: /BACKLOG.md\nDisallow: /CHANGELOG.md\nDisallow: /README.md\n\n"
              f"Sitemap: {SITE}/sitemap.xml\n")
     return len(urls)
 

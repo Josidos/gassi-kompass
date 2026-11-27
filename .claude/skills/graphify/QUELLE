@@ -1,0 +1,6 @@
+Graphify, Skill für Claude Code
+Quelle: https://github.com/Graphify-Labs/graphify (Paket «graphifyy» auf PyPI)
+Version: 0.9.121, abgelegt am 27. November 2026 mit «graphify install --project»
+Lizenz: Apache-2.0, frühere Beiträge MIT (siehe LICENSE, LICENSE-MIT, NOTICE)
+Unverändert übernommen. Nicht eingerichtet: Hooks in .claude/settings.json, Git-Hooks, Abschnitt in CLAUDE.md.
+Wie das Projekt Graphify benutzt, steht in CLAUDE.md unter «Wissensgraph».

@@ -1,0 +1,48 @@
+# Was Graphify nicht lesen soll. Syntax wie .gitignore.
+# Erzeugte Seiten (entstehen mit build.py)
+/ag/
+/ai/
+/ar/
+/be/
+/bl/
+/bs/
+/fr/
+/ge/
+/gl/
+/gr/
+/ju/
+/lu/
+/ne/
+/nw/
+/ow/
+/sg/
+/sh/
+/so/
+/sz/
+/tg/
+/ti/
+/ur/
+/vd/
+/vs/
+/zg/
+/zh/
+/fr-ch/
+/it-ch/
+/schweiz/
+/thema/
+/ueber/
+*.html
+sitemap.xml
+robots.txt
+assets/orte.json
+# Fremdes: Skills, Kartenprogramm, Schriften, Bilder
+/.claude/
+/.impeccable/
+assets/karte/
+assets/fonts/
+*.png
+*.svg
+*.txt
+# Grosse Rohdaten ohne Zusammenhang für den Graphen
+data/orte.json
+data/geo/

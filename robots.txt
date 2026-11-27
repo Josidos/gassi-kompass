@@ -4,6 +4,8 @@ Disallow: /data/
 Disallow: /build.py
 Disallow: /tests/
 Disallow: /tools/
+Disallow: /graphify-out/
+Disallow: /.claude/
 Disallow: /CLAUDE.md
 Disallow: /BACKLOG.md
 Disallow: /CHANGELOG.md

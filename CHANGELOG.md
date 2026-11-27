@@ -2,6 +2,19 @@
 
 Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen.
 
+## 2026-11-27, Sitzung mit Joss: Graphify installiert, Wissensgraph gefüllt
+
+- Auftrag von Joss um 16:49 Uhr: den Skill Graphify (github.com/Graphify-Labs/graphify) installieren, mit dem vorhandenen Wissen füllen und ab jetzt verwenden.
+- Geprüft vor dem Einbau: Paket `graphifyy` 0.9.121 von PyPI, Lizenz Apache-2.0 (frühere Beiträge MIT), laut README keine Telemetrie. Code und Markdown-Überschriften liest das Werkzeug lokal ohne KI. Der Probelauf von `graphify install --project` in einer Wegwerfkopie zeigte, was es schreiben würde: den Skill, einen englischen Abschnitt am Ende von `CLAUDE.md`, `.claude/CLAUDE.md` und Hooks in `.claude/settings.json`, die vor jedem Lesen und Suchen den Befehl `graphify` aufrufen.
+- Eingebaut: der Skill unverändert unter `.claude/skills/graphify/` mit Lizenz und `QUELLE`, `.graphifyignore`, `tools/graph.py`, `tools/graph_wissen.txt`, `graphify-out/graph.json` und `graphify-out/GRAPH_REPORT.md`. `.gitignore` hält `graphify-out/cache/` aus dem Repository.
+- Nicht eingebaut, mit Absicht: die Hooks und die Git-Hooks (sie liefen in jedem Lauf mit und scheitern, wo Graphify fehlt), der englische Abschnitt in `CLAUDE.md` (ersetzt durch den Abschnitt «Wissensgraph» in der Sprache des Handbuchs), `graph.html` (lädt fremde Skripte), der KI-Durchlauf mit Unteragenten, das gehostete Angebot.
+- Der Graph: 1190 Knoten und 2602 Kanten beim ersten Bau. Schicht 1 sind Code und Überschriften der Dokumente (479 Knoten), Schicht 2 die Daten (26 Kantone, 65 Gemeinden, Bund, 415 Quellen, ihre Server, Prüfdaten, Felder wie `vermisst`), Schicht 3 das Wissen aus `graph_wissen.txt` (15 Regeln und rund 110 Verbindungen zwischen Handbuch, Code und Daten). Zwei Bauten hintereinander liefern dieselbe Datei.
+- Erprobt: `graphify explain "Feld vermisst: Hund vermisst oder gefunden" --all` nennt die neun Kantone mit dem Feld. `graphify explain "Server www.lexfind.ch" --all` nennt 26 Quellen, die noch auf LexFind zeigen (AI, BL, FR, GR, SO, TG, TI, UR, VS, ZG): Das sind die nächsten Kandidaten für die Prüfung am geltenden Recht. `graphify section "Abbruchkriterium"` druckt den Abschnitt des Handbuchs.
+- Handbuch: neuer Abschnitt «Wissensgraph», neuer Abschnitt «Quellen im Browser lesen» mit den Lesewegen dieser Sitzung (LexWork, Waadt, Genf), Schritt 4 des Laufs führt den Graphen nach, drei Zeilen im Aufbau, Freigabe eingetragen.
+- `build.py`: `robots.txt` schliesst neu auch `/graphify-out/` und `/.claude/` aus. Sonst keine Änderung am Generator.
+- Im Backlog, Abschnitt 6: Vorschlag, das Handbuch zu verschlanken (rund 90 KB in jedem Lauf), und der Hinweis auf erratene Kanten.
+- Build und Test fehlerfrei.
+
 ## 2026-11-27, Sitzung mit Joss in der Seitenleiste von Chrome: Domat/Ems auf der Website der Gemeinde gegengelesen und ergänzt
 
 - Diese Sitzung lief getrennt von der Hauptsitzung: Joss hat die Seitenleiste von Claude in Chrome auf dem Tab www.domat-ems.ch geöffnet («ist jetzt offen für dich», 16:32 Uhr). Dort liess sich die Website der Gemeinde lesen.

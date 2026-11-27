@@ -463,6 +463,8 @@ Aus dem Vergleich mit anderen Seiten. Erst angehen, wenn alle Kantone erfasst si
 - Fragen als Überschriften («Braucht es im Kanton Zürich einen Hundekurs?»), sobald die Suchdaten zeigen, wie gefragt wird. Stand 26.11.2026: Gesucht wird in Stichworten (Thema und Ort), nicht in ganzen Fragen. Vorerst nicht nötig.
 - Themenseite «Reisen und Einreise mit Hund» (Heimtierpass, Mikrochip, Tollwutimpfung) in drei Sprachen, aus den Seiten des BLV. Anlass: Laut Suchdaten vom 26.11.2026 landen französische Suchanfragen zu Pass und Impfungen auf der Seite des Bundes, die das nur in einer Karte behandelt.
 
+- [ ] Handbuch verschlanken (Vorschlag vom 2026-11-27, nur nach Entscheid von Joss): `CLAUDE.md` ist rund 90 KB gross und wird in jede Sitzung und jeden Lauf ganz geladen. Selten gebrauchte Abschnitte (Kette, Parallel-Läufe, Postfach, Partner-Einträge, Karte der Hundezonen, die Bauberichte unter «Umbauten am Generator», der Verlauf der Freigaben) in eigene Dateien auslagern und bei Bedarf mit `graphify section` lesen. Das Handbuch selbst behält die Regeln, den Wochenlauf und die Verweise.
+- [ ] Wissensgraph: `tools/graph_wissen.txt` ergänzen, wenn neue Bausteine oder Regeln dazukommen. Kanten vom Typ «references», die Graphify aus Wörtern im Handbuch errät (zum Beispiel `quellen` als Funktion in `tools/links.py`), sind zum Teil falsch. Prüfen, ob sie sich ausschliessen lassen.
 ## 7. Braucht Zugriff, den der Lauf nicht hat
 
 - Ortsverzeichnis `data/orte.json` auf den aktuellen Stand bringen. Es braucht die aktuelle CSV-Datei «Amtliches Ortschaftenverzeichnis» von swisstopo, dann `python3 tools/orte.py DATEI "Stand"`. Der Lauf kann die Datei nicht abrufen. Offen, bis Joss sie liefert oder Claude sie in einer Sitzung mit Browser holt.
