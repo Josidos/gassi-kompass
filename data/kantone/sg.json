@@ -4,14 +4,15 @@
   "kurz": "SG",
   "im": "im Kanton St. Gallen",
   "des": "des Kantons St. Gallen",
-  "geprueft": "2026-11-17",
+  "geprueft": "2026-11-27",
   "wald": {
     "saison": false,
-    "text": "Hundegesetz, Jagdgesetz und Jagdverordnung des Kantons enthalten keine Leinenpflicht im Wald zu festen Daten. Du musst deinen Hund aber überall anleinen, wenn du ihn nicht anders wirksam kontrollieren kannst. Gemeinden können mit Signalisation weitere Orte mit Leinenpflicht bestimmen. Ein wildernder Hund, der das Wild unmittelbar gefährdet, darf abgeschossen werden.",
+    "text": "Hundegesetz, Jagdgesetz, Jagdverordnung und Jagdvorschriften des Kantons enthalten keine Leinenpflicht im Wald zu festen Daten. Du musst deinen Hund aber überall anleinen, wenn du ihn nicht anders wirksam kontrollieren kannst. Gemeinden können mit einem Reglement oder mit einer signalisierten Verfügung weitere Orte mit Leinenpflicht bestimmen. Sie können auch Wildruhezonen festlegen. Wer ein Gebot oder Verbot missachtet, das in einer Wildruhezone gilt, riskiert eine Busse bis CHF 20'000. Die Wildhut und Mitglieder der Jagdgesellschaften dürfen einen wildernden Hund abschiessen, wenn er das Wild unmittelbar gefährdet oder erneut wildert, nachdem die Halterin oder der Halter schriftlich ermahnt wurde.",
     "quellen": [
       "sg_hug",
       "sg_jagdg",
-      "sg_jagdv"
+      "sg_jagdv",
+      "sg_jagdvorschriften"
     ]
   },
   "leine": {
@@ -52,9 +53,10 @@
       "marke": "keine Pflicht",
       "ton": "none",
       "wert": "nur im Einzelfall",
-      "text": "Das Hundegesetz kennt keinen Pflichtkurs für alle Hunde. Der Kanton kann im Einzelfall den Besuch von Ausbildungskursen anordnen, zum Beispiel nach einem Vorfall.",
+      "text": "Das Hundegesetz kennt keinen Pflichtkurs für alle Hunde. Das Amt für Verbraucherschutz und Veterinärwesen kann im Einzelfall den Besuch von Ausbildungskursen oder eine Verhaltenstherapie für den Hund anordnen, zum Beispiel wenn ein Hund Mensch oder Tier erheblich verletzt hat.",
       "quellen": [
-        "sg_hug"
+        "sg_hug",
+        "sg_huv"
       ]
     },
     {
@@ -62,46 +64,80 @@
       "marke": "Pflicht",
       "ton": "note",
       "wert": "Gemeinde und AMICUS",
-      "text": "Alle Hunde brauchen einen Mikrochip und müssen in der Hundedatenbank AMICUS angemeldet sein. Kennzeichnung und Registrierung richten sich nach Bundesrecht. Deine Wohnsitzgemeinde registriert dich als Halterin oder Halter in der Hundedatenbank und erfasst Namens- und Adressänderungen.",
+      "text": "Melde dich bei deiner Wohngemeinde und teile mit, dass du neu einen Hund hältst. Die Gemeinde registriert dich in der Hundedatenbank AMICUS, danach erhältst du deine Login-Daten. Die Tierärztin oder der Tierarzt setzt den Mikrochip und registriert den Hund in AMICUS. Übernimmst du einen Hund, musst du ihn innert 10 Tagen in AMICUS übernehmen. Adressänderungen meldest du innert 10 Tagen deiner Gemeinde.",
       "quellen": [
+        "sg_registrierung",
         "sg_vet",
         "sg_hug"
-      ]
+      ],
+      "mehr": {
+        "titel": "Weitere Fälle anzeigen",
+        "punkte": [
+          "Welpen: Mikrochip spätestens drei Monate nach der Geburt, in jedem Fall vor dem Verkauf oder der Abgabe",
+          "Verkauf oder Abgabe: Der Hund muss innert 10 Tagen in AMICUS auf die neue Halterin oder den neuen Halter umgemeldet werden.",
+          "Hund aus dem Ausland: Auch ein Hund, der schon einen Mikrochip hat, muss von einer Tierärztin oder einem Tierarzt in der Schweiz registriert werden.",
+          "Änderungen an den Daten des Hundes: bei deiner Tierärztin oder deinem Tierarzt"
+        ]
+      }
     },
     {
       "titel": "Hundesteuer",
       "marke": "jährlich",
       "ton": "note",
       "wert": "CHF 60 bis 200",
-      "text": "Für jeden Hund, der älter als drei Monate ist, zahlst du deiner Wohnsitzgemeinde eine Steuer von CHF 60 bis CHF 200 pro Kalenderjahr. Die Höhe legt der Gemeinderat fest. Befreit sind unter anderem Blindenführ- und Behindertenhunde.",
+      "text": "Für jeden Hund, der älter als drei Monate ist, zahlst du deiner Wohnsitzgemeinde eine Steuer von CHF 60 bis CHF 200 pro Kalenderjahr. Die Höhe legt der Gemeinderat fest. Die Steuer wird zu Beginn des Kalenderjahres fällig. Beginnt die Steuerpflicht im Lauf des Jahres, wird die ganze Jahressteuer am Ende dieses Kalendermonats fällig. Für Tierheime und Zuchtbetriebe mit Bewilligung des Kantons kann die Steuer als Pauschale von CHF 500 bis CHF 1000 pro Kalenderjahr festgelegt werden, unabhängig von der Zahl der Hunde.",
       "quellen": [
         "sg_hug"
-      ]
+      ],
+      "mehr": {
+        "titel": "Befreite Hunde anzeigen",
+        "punkte": [
+          "Blindenführ- und Behindertenhunde",
+          "Hunde, für die im gleichen Jahr schon in einer anderen politischen Gemeinde oder einem anderen Kanton Hundesteuer bezahlt wurde",
+          "Hunde, die im laufenden Jahr als Ersatz für einen verstorbenen Hund angeschafft werden"
+        ]
+      }
     },
     {
       "titel": "Rassen",
       "marke": "keine Liste",
       "ton": "none",
       "wert": "keine Rasseliste",
-      "text": "Das Hundegesetz enthält keine Liste verbotener oder bewilligungspflichtiger Rassen. Der Kanton ordnet Einschränkungen im Einzelfall an, etwa wenn ein Hund Menschen oder Tiere erheblich verletzt hat oder übermässig aggressiv ist. Eine generelle Maulkorbpflicht gibt es nicht.",
+      "text": "Das Hundegesetz enthält keine Liste verbotener oder bewilligungspflichtiger Rassen. Das Amt für Verbraucherschutz und Veterinärwesen ordnet Einschränkungen im Einzelfall an, etwa wenn ein Hund Mensch oder Tier erheblich verletzt hat, übermässig aggressiv ist oder die Halterin oder der Halter nicht genügend Gewähr für eine sichere Haltung bietet. Die Massnahmen gelten im ganzen Kanton. Eine generelle Maulkorbpflicht gibt es nicht.",
       "quellen": [
         "sg_hug",
+        "sg_huv",
         "sg_vet"
-      ]
+      ],
+      "mehr": {
+        "titel": "Mögliche Massnahmen anzeigen",
+        "punkte": [
+          "Verhaltensüberprüfung des Hundes durch Sachverständige",
+          "Ausbildungskurse oder Verhaltenstherapie",
+          "Leine auf öffentlichem Grund",
+          "Maulkorb",
+          "Bezeichnung der Personen, die den Hund ausführen dürfen",
+          "Verbot, mehr als einen Hund zu halten",
+          "befristetes oder unbefristetes Verbot, Hunde bestimmter Grösse oder überhaupt Hunde zu halten",
+          "Beschlagnahmung und Unterbringung des Hundes",
+          "Einschläfern des Hundes"
+        ]
+      }
     },
     {
       "titel": "Unterwegs",
       "marke": "Regel",
       "ton": "note",
       "wert": "Kot und Kontrolle",
-      "text": "Wer einen Hund ausführt, beseitigt dessen Kot. Dein Hund muss jederzeit kontrollierbar sein und darf sich im öffentlichen Raum nicht unbeaufsichtigt bewegen. Verstösse gegen Leinen-, Zutritts-, Kot- und Versicherungspflicht können mit Busse bis CHF 10'000 bestraft werden.",
+      "text": "Wer einen Hund ausführt, beseitigt dessen Kot. Du sorgst dafür, dass dein Hund jederzeit wirksam unter Kontrolle ist, Mensch und Tier nicht gefährdet, niemanden belästigt und sich im öffentlichen Raum nicht unbeaufsichtigt bewegt. Wer gegen Leinenpflicht, Zutrittsverbot, Kotpflicht oder Versicherungspflicht verstösst, riskiert eine Busse bis CHF 10'000. Dieselbe Busse riskiert, wer gegen störendes Gebell oder Geheul des eigenen Hundes vorsätzlich keine geeigneten Massnahmen ergreift. Wer mit einem Hund vorsätzlich einen Menschen gefährdet oder verletzt oder ein anderes Tier verletzt, wird mit einer Busse von CHF 1000 bis CHF 20'000 bestraft. Hunde, die einen Menschen oder einen anderen Hund gebissen haben oder dir sonst übermässig aggressiv erscheinen, kannst du dem Amt für Verbraucherschutz und Veterinärwesen melden.",
       "quellen": [
-        "sg_hug"
+        "sg_hug",
+        "sg_vet"
       ]
     }
   ],
   "vergleich": {
-    "wald": "keine feste Leinenzeit im Hunde- und Jagdgesetz, Leine ohne wirksame Kontrolle",
+    "wald": "keine feste Leinenzeit im Hunde- und Jagdrecht, Leine ohne wirksame Kontrolle",
     "haft": "Pflicht, keine Mindestsumme im Gesetz",
     "kurs": "keine Pflicht, nur im Einzelfall",
     "rassen": "keine Rasseliste",
@@ -109,10 +145,27 @@
     "anm": "Wohnsitzgemeinde und AMICUS"
   },
   "umzug": {
-    "text": "Hat ein anderer Kanton für deinen Hund Einschränkungen angeordnet, musst du sie innert 10 Tagen dem Amt für Verbraucherschutz und Veterinärwesen melden.",
+    "text": "Ziehst du mit einem Hund in den Kanton, meldest du die neue Adresse innert 10 Tagen deiner neuen Wohngemeinde. Sie erfasst Adressänderungen in der Hundedatenbank AMICUS. Hat ein anderer Kanton für deinen Hund Einschränkungen angeordnet, musst du sie innert 10 Tagen dem Amt für Verbraucherschutz und Veterinärwesen melden. Für einen Hund, für den du im gleichen Jahr schon in einem anderen Kanton Hundesteuer bezahlt hast, zahlst du in diesem Jahr keine zweite.",
     "quellen": [
       "sg_hug",
-      "sg_vet"
+      "sg_huv",
+      "sg_registrierung"
+    ]
+  },
+  "vermisst": {
+    "text": "Entlaufene oder herrenlose Hunde nimmt im Kanton St. Gallen die politische Gemeinde in Gewahrsam und führt sie der Halterin oder dem Halter zu. Die kantonale Meldestelle für Tierfunde ist die Schweizerische Tiermeldezentrale (STMZ). Dort kannst du auch deinen vermissten Hund melden.",
+    "punkte": [
+      "Hund vermisst: Melde ihn auf der Website der STMZ (stmz.ch). Die Kantonspolizei hat Zugriff auf diese Meldungen und kann ein gefundenes Tier so schneller nach Hause bringen.",
+      "Hund gefunden: Zuständig ist nach dem Hundegesetz die politische Gemeinde. Sie nimmt den Hund in Gewahrsam und führt ihn der Halterin oder dem Halter zu.",
+      "Einen Tierfund musst du der kantonalen Meldestelle anzeigen. Die Fundmeldung erfasst du auf der Website der STMZ. Für den Fund eines Hundes verweist der Kanton auf das Hundegesetz.",
+      "Kann die Gemeinde die Halterin oder den Halter nicht ermitteln, bringt sie den Hund an einem geeigneten Ort unter. Lässt er sich nach zwei Monaten nicht dauerhaft unterbringen, entscheidet die Gemeinde über das weitere Vorgehen. Als letzte Massnahme kann sie den Hund einschläfern lassen.",
+      "Sämtliche Kosten trägt die Halterin oder der Halter. Ist niemand zu ermitteln, trägt sie die Gemeinde."
+    ],
+    "quellen": [
+      "sg_hug",
+      "sg_vet",
+      "sg_tierschutz",
+      "sg_kapo_hilfe"
     ]
   }
 }

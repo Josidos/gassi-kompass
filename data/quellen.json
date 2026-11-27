@@ -97,16 +97,16 @@
   "ag_vet": {
     "kurz": "Veterinärdienst AG",
     "lang": "Kanton Aargau, Veterinärdienst: Hunde im Kanton Aargau (abgerufen am 27. November 2026)",
-    "url": "https://www.ag.ch/de/verwaltung/dgs/verbraucherschutz/veterinaerdienst/hunde"
+    "url": "https://www.ag.ch/de/themen/landwirtschaft-tiere/heim-und-nutztiere/hunde"
   },
   "ag_listenhunde": {
     "kurz": "Veterinärdienst AG: Listenhunde",
-    "lang": "Kanton Aargau, Veterinärdienst: Listenhunde (abgerufen am 27. November 2026)",
+    "lang": "Kanton Aargau, Veterinärdienst: Listenhunde (Stand der Seite 25. August 2026)",
     "url": "https://www.ag.ch/de/themen/landwirtschaft-tiere/heim-und-nutztiere/hunde/listenhunde"
   },
   "ag_wald": {
     "kurz": "Abteilung Wald AG",
-    "lang": "Kanton Aargau, Departement Bau, Verkehr und Umwelt, Abteilung Wald: Leinenpflicht (abgerufen am 27. November 2026)",
+    "lang": "Kanton Aargau, Departement Bau, Verkehr und Umwelt, Abteilung Wald: Leinenpflicht vom 1. April bis 31. Juli (Stand der Seite 23. Juni 2025)",
     "url": "https://www.ag.ch/de/verwaltung/bvu/wald/erholungsraum-wald/leinenpflicht"
   },
   "ag_jagdv": {
@@ -131,18 +131,18 @@
   },
   "sg_hug": {
     "kurz": "Hundegesetz SG",
-    "lang": "Kanton St. Gallen: Hundegesetz (HuG, sGS 456.1) vom 13. August 2019, Stand 1. Januar 2020",
-    "url": "https://sg.lexwork.naz.ch/de/dta/456.1.pdf"
+    "lang": "Kanton St. Gallen: Hundegesetz (HuG, sGS 456.1) vom 13. August 2019, geltende Fassung, in Vollzug seit 1. Januar 2020",
+    "url": "https://www.gesetzessammlung.sg.ch/app/de/texts_of_law/456.1"
   },
   "sg_jagdg": {
     "kurz": "Jagdgesetz SG",
-    "lang": "Kanton St. Gallen: Jagdgesetz (sGS 853.1), Stand 1. April 2024",
-    "url": "https://sg.lexwork.naz.ch/de/dta/853.1.pdf"
+    "lang": "Kanton St. Gallen: Gesetz über die Jagd, den Schutz der wildlebenden Säugetiere und Vögel sowie deren Lebensräume (Jagdgesetz, JG, sGS 853.1), Fassung in Vollzug seit 1. April 2024",
+    "url": "https://www.gesetzessammlung.sg.ch/app/de/texts_of_law/853.1"
   },
   "sg_jagdv": {
     "kurz": "Jagdverordnung SG",
-    "lang": "Kanton St. Gallen: Jagdverordnung (JV, sGS 853.11), Stand 1. April 2024",
-    "url": "https://sg.lexwork.naz.ch/de/dta/853.11.pdf"
+    "lang": "Kanton St. Gallen: Jagdverordnung (JV, sGS 853.11), Fassung in Vollzug seit 1. April 2024",
+    "url": "https://www.gesetzessammlung.sg.ch/app/de/texts_of_law/853.11"
   },
   "sg_stadt": {
     "kurz": "Stadt St. Gallen",
@@ -1173,5 +1173,30 @@
     "kurz": "Stadt Aarau: Anmeldung Hundehaltung",
     "lang": "Stadt Aarau: Online-Schalter «Anmeldung Hundehaltung und Hund» (abgerufen am 27. November 2026)",
     "url": "https://www.aarau.ch/services/anmeldung-hundehaltung-und-hund.html/2014"
+  },
+  "sg_huv": {
+    "kurz": "Hundeverordnung SG",
+    "lang": "Kanton St. Gallen: Hundeverordnung (HuV, sGS 456.11) vom 3. Dezember 2019, geltende Fassung, in Vollzug seit 1. Januar 2020",
+    "url": "https://www.gesetzessammlung.sg.ch/app/de/texts_of_law/456.11"
+  },
+  "sg_jagdvorschriften": {
+    "kurz": "Jagdvorschriften SG",
+    "lang": "Kanton St. Gallen, Volkswirtschaftsdepartement: Verordnung über die Jagdvorschriften (sGS 853.111) vom 31. März 2016, Fassung in Vollzug seit 1. Juni 2024",
+    "url": "https://www.gesetzessammlung.sg.ch/app/de/texts_of_law/853.111"
+  },
+  "sg_registrierung": {
+    "kurz": "Registrierung von Hunden SG",
+    "lang": "Kanton St. Gallen, Amt für Verbraucherschutz und Veterinärwesen: Registrierung von Tieren und Tierhaltungen, Abschnitt «Hunde» (Stand der Seite 8. April 2026)",
+    "url": "https://www.sg.ch/umwelt-natur/veterinaerwesen/registrierung-von-tieren-und-tierhaltung.html"
+  },
+  "sg_tierschutz": {
+    "kurz": "Veterinärwesen SG: Tierfund",
+    "lang": "Kanton St. Gallen, Amt für Verbraucherschutz und Veterinärwesen: Tierschutz, Abschnitt «Sie haben ein Tier gefunden?» (Stand der Seite 25. August 2026)",
+    "url": "https://www.sg.ch/umwelt-natur/veterinaerwesen/tierschutz.html"
+  },
+  "sg_kapo_hilfe": {
+    "kurz": "Kantonspolizei SG: Tier vermisst",
+    "lang": "Kanton St. Gallen, Kantonspolizei: Anzeige erstatten, gesucht und vermisst, Abschnitt «Tier vermisst» (Stand der Seite 11. Juni 2025)",
+    "url": "https://www.sg.ch/sicherheit/kantonspolizei/anzeige-erstatten--gesucht-und-vermisst.html"
   }
 }

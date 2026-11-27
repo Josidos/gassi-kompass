@@ -2,14 +2,15 @@
   "id": "sg",
   "kurz": "SG",
   "uebersetzt_aus": "de",
-  "original": "d07ce1e22a2c",
+  "original": "798e43b842f9",
   "wald": {
     "saison": false,
-    "text": "La Hundegesetz (legge sui cani), la Jagdgesetz (legge sulla caccia) e la Jagdverordnung (ordinanza sulla caccia) del Cantone non prevedono un obbligo di guinzaglio nel bosco in date fisse. Devi però tenere il cane al guinzaglio ovunque tu non possa controllarlo efficacemente in altro modo. I Comuni possono stabilire con la segnaletica altri luoghi con obbligo di guinzaglio. Un cane che caccia e mette direttamente in pericolo la selvaggina può essere abbattuto.",
+    "text": "La Hundegesetz (legge sui cani), la Jagdgesetz (legge sulla caccia), la Jagdverordnung (ordinanza sulla caccia) e le Jagdvorschriften (prescrizioni sulla caccia) del Cantone non prevedono un obbligo di guinzaglio nel bosco in date fisse. Devi però tenere il cane al guinzaglio ovunque tu non possa controllarlo efficacemente in altro modo. I Comuni possono stabilire con un regolamento o con una decisione segnalata sul posto altri luoghi con obbligo di guinzaglio. Possono anche delimitare zone di tranquillità per la selvaggina. Chi non rispetta un obbligo o un divieto che vale in una zona di tranquillità rischia una multa fino a CHF 20 000. La Wildhut (guardiacaccia) e i membri delle società di caccia possono abbattere un cane che caccia la selvaggina se la mette direttamente in pericolo o se caccia di nuovo dopo un ammonimento scritto alla detentrice o al detentore.",
     "quellen": [
       "sg_hug",
       "sg_jagdg",
-      "sg_jagdv"
+      "sg_jagdv",
+      "sg_jagdvorschriften"
     ]
   },
   "leine": {
@@ -50,9 +51,10 @@
       "marke": "Nessun obbligo",
       "ton": "none",
       "wert": "solo nel singolo caso",
-      "text": "La Hundegesetz non prevede un corso obbligatorio per tutti i cani. Nel singolo caso il Cantone può ordinare la frequenza di corsi di formazione, per esempio dopo un incidente.",
+      "text": "La Hundegesetz non prevede un corso obbligatorio per tutti i cani. Nel singolo caso l'Amt für Verbraucherschutz und Veterinärwesen (ufficio della protezione dei consumatori e degli affari veterinari) può ordinare la frequenza di corsi di formazione o una terapia comportamentale per il cane, per esempio se un cane ha ferito gravemente una persona o un animale.",
       "quellen": [
-        "sg_hug"
+        "sg_hug",
+        "sg_huv"
       ]
     },
     {
@@ -60,46 +62,80 @@
       "marke": "Obbligo",
       "ton": "note",
       "wert": "Comune e AMICUS",
-      "text": "Tutti i cani devono avere un microchip ed essere registrati nella banca dati AMICUS. Contrassegno e registrazione sono retti dal diritto federale. Il tuo Comune di domicilio ti registra come detentrice o detentore nella banca dati dei cani e inserisce i cambiamenti di nome e di indirizzo.",
+      "text": "Rivolgiti al tuo Comune di domicilio e comunica che ora detieni un cane. Il Comune ti registra nella banca dati AMICUS, poi ricevi i tuoi dati di accesso. La veterinaria o il veterinario applica il microchip e registra il cane in AMICUS. Se rilevi un cane, devi registrarne la presa a carico in AMICUS entro 10 giorni. Annunci i cambiamenti di indirizzo al tuo Comune entro 10 giorni.",
       "quellen": [
+        "sg_registrierung",
         "sg_vet",
         "sg_hug"
-      ]
+      ],
+      "mehr": {
+        "titel": "Mostra altri casi",
+        "punkte": [
+          "Cuccioli: microchip al più tardi tre mesi dopo la nascita, in ogni caso prima della vendita o della cessione",
+          "Vendita o cessione: entro 10 giorni il cane deve essere trasferito in AMICUS alla nuova detentrice o al nuovo detentore.",
+          "Cane dall'estero: anche un cane che ha già un microchip deve essere registrato da una veterinaria o da un veterinario in Svizzera.",
+          "Modifiche ai dati del cane: presso la tua veterinaria o il tuo veterinario"
+        ]
+      }
     },
     {
       "titel": "Imposta sui cani",
       "marke": "annuale",
       "ton": "note",
       "wert": "da CHF 60 a 200",
-      "text": "Per ogni cane di età superiore a tre mesi paghi al tuo Comune di domicilio un'imposta da CHF 60 a CHF 200 per anno civile. L'importo è fissato dal Gemeinderat (esecutivo comunale). Sono esonerati tra gli altri i cani guida per ciechi e i cani per persone con disabilità.",
+      "text": "Per ogni cane di età superiore a tre mesi paghi al tuo Comune di domicilio un'imposta da CHF 60 a CHF 200 per anno civile. L'importo è fissato dal Gemeinderat (esecutivo comunale). L'imposta è dovuta all'inizio dell'anno civile. Se l'obbligo fiscale nasce nel corso dell'anno, l'intera imposta annuale è dovuta alla fine di quel mese civile. Per i rifugi per animali e gli allevamenti autorizzati dal Cantone l'imposta può essere fissata come importo forfettario da CHF 500 a CHF 1000 per anno civile, indipendentemente dal numero di cani.",
       "quellen": [
         "sg_hug"
-      ]
+      ],
+      "mehr": {
+        "titel": "Mostra i cani esonerati",
+        "punkte": [
+          "cani guida per ciechi e cani per persone con disabilità",
+          "cani per i quali nello stesso anno è già stata pagata un'imposta sui cani in un altro Comune politico o in un altro Cantone",
+          "cani acquistati nell'anno in corso in sostituzione di un cane deceduto"
+        ]
+      }
     },
     {
       "titel": "Razze",
       "marke": "nessun elenco",
       "ton": "none",
       "wert": "nessun elenco delle razze",
-      "text": "La Hundegesetz non contiene un elenco di razze vietate o soggette ad autorizzazione. Il Cantone ordina restrizioni nel singolo caso, per esempio se un cane ha ferito gravemente persone o animali o è eccessivamente aggressivo. Non c'è un obbligo generale di museruola.",
+      "text": "La Hundegesetz non contiene un elenco di razze vietate o soggette ad autorizzazione. L'Amt für Verbraucherschutz und Veterinärwesen ordina restrizioni nel singolo caso, per esempio se un cane ha ferito gravemente una persona o un animale, è eccessivamente aggressivo o se la detentrice o il detentore non offre garanzie sufficienti per una detenzione sicura. Le misure valgono in tutto il Cantone. Non c'è un obbligo generale di museruola.",
       "quellen": [
         "sg_hug",
+        "sg_huv",
         "sg_vet"
-      ]
+      ],
+      "mehr": {
+        "titel": "Mostra le misure possibili",
+        "punkte": [
+          "esame del comportamento del cane da parte di specialisti",
+          "corsi di formazione o terapia comportamentale",
+          "guinzaglio sul suolo pubblico",
+          "museruola",
+          "designazione delle persone che possono portare a spasso il cane",
+          "divieto di detenere più di un cane",
+          "divieto, temporaneo o a tempo indeterminato, di detenere cani di una determinata taglia o cani in generale",
+          "sequestro e collocamento del cane",
+          "eutanasia del cane"
+        ]
+      }
     },
     {
       "titel": "A passeggio",
       "marke": "Regola",
       "ton": "note",
       "wert": "escrementi e controllo",
-      "text": "Chi porta a spasso un cane ne elimina gli escrementi. Il tuo cane deve essere controllabile in ogni momento e non può muoversi incustodito negli spazi pubblici. Le infrazioni agli obblighi relativi a guinzaglio, accesso, escrementi e assicurazione possono essere punite con una multa fino a CHF 10 000.",
+      "text": "Chi porta a spasso un cane ne elimina gli escrementi. Provvedi affinché il tuo cane sia sempre sotto controllo efficace, non metta in pericolo persone o animali, non importuni nessuno e non si muova incustodito negli spazi pubblici. Chi viola l'obbligo di guinzaglio, un divieto di accesso, l'obbligo di eliminare gli escrementi o l'obbligo di assicurazione rischia una multa fino a CHF 10 000. Rischia la stessa multa chi intenzionalmente non prende misure adeguate contro l'abbaiare o l'ululare molesto del proprio cane. Chi con un cane mette in pericolo o ferisce intenzionalmente una persona o ferisce intenzionalmente un altro animale è punito con una multa da CHF 1000 a CHF 20 000. Puoi segnalare all'Amt für Verbraucherschutz und Veterinärwesen i cani che hanno morso una persona o un altro cane o che ti sembrano comunque eccessivamente aggressivi.",
       "quellen": [
-        "sg_hug"
+        "sg_hug",
+        "sg_vet"
       ]
     }
   ],
   "vergleich": {
-    "wald": "nessun periodo fisso nelle leggi sui cani e sulla caccia, guinzaglio senza controllo efficace",
+    "wald": "nessun periodo fisso nel diritto sui cani e sulla caccia, guinzaglio senza controllo efficace",
     "haft": "obbligo, nessuna somma minima nella legge",
     "kurs": "nessun obbligo, solo nel singolo caso",
     "rassen": "nessun elenco delle razze",
@@ -107,10 +143,27 @@
     "anm": "Comune di domicilio e AMICUS"
   },
   "umzug": {
-    "text": "Se un altro Cantone ha ordinato restrizioni per il tuo cane, devi annunciarle entro 10 giorni all'Amt für Verbraucherschutz und Veterinärwesen (ufficio della protezione dei consumatori e degli affari veterinari).",
+    "text": "Se ti trasferisci nel Cantone con un cane, annunci il nuovo indirizzo al tuo nuovo Comune di domicilio entro 10 giorni. Il Comune inserisce i cambiamenti di indirizzo nella banca dati AMICUS. Se un altro Cantone ha ordinato restrizioni per il tuo cane, devi annunciarle entro 10 giorni all'Amt für Verbraucherschutz und Veterinärwesen (ufficio della protezione dei consumatori e degli affari veterinari). Per un cane per il quale nello stesso anno hai già pagato l'imposta sui cani in un altro Cantone non paghi una seconda imposta in quell'anno.",
     "quellen": [
       "sg_hug",
-      "sg_vet"
+      "sg_huv",
+      "sg_registrierung"
+    ]
+  },
+  "vermisst": {
+    "text": "Nel Cantone di San Gallo il Comune politico prende in custodia i cani fuggiti o senza padrone e li riconsegna alla detentrice o al detentore. Il servizio cantonale di notifica per gli animali trovati è la Schweizerische Tiermeldezentrale (STMZ, centrale svizzera di notifica degli animali). Lì puoi annunciare anche il tuo cane smarrito.",
+    "punkte": [
+      "Cane smarrito: annuncialo sul sito della STMZ (stmz.ch). La polizia cantonale ha accesso a questi annunci e può così riportare più in fretta a casa un animale trovato.",
+      "Cane trovato: secondo la Hundegesetz è competente il Comune politico. Prende in custodia il cane e lo riconsegna alla detentrice o al detentore.",
+      "Il ritrovamento di un animale va annunciato al servizio cantonale di notifica. Registri l'annuncio sul sito della STMZ. Per un cane trovato il Cantone rinvia alla Hundegesetz.",
+      "Se il Comune non riesce a individuare la detentrice o il detentore, colloca il cane in un luogo adatto. Se dopo due mesi il cane non può essere collocato in modo duraturo, il Comune decide come procedere. Come ultima misura può far sopprimere il cane.",
+      "Tutti i costi sono a carico della detentrice o del detentore. Se non si riesce a individuare nessuno, li sostiene il Comune."
+    ],
+    "quellen": [
+      "sg_hug",
+      "sg_vet",
+      "sg_tierschutz",
+      "sg_kapo_hilfe"
     ]
   }
 }
