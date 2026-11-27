@@ -193,7 +193,7 @@ Was die Glieder in Originalfassungen bemerkt haben, steht in `CHANGELOG.md` unte
 
 ### backlog/spaeter.md, Ideen für später
 
-- [x] 2026-11-27: Handbuch und Backlog verschlankt (Entscheid von Joss um 23:24 Uhr an Claude übertragen). `CLAUDE.md` von 107 auf 44 KB, `BACKLOG.md` von 117 auf 13 KB, `CHANGELOG.md` von 280 auf 24 KB. Nichts gelöscht: Nachschlageteile unter `handbuch/`, lange Listen unter `backlog/`, Archiv mit `tools/archiv.py`.
+- [x] 2026-11-27: Handbuch und Backlog verschlankt (Entscheid von Joss um 23:24 Uhr an Claude übertragen). `CLAUDE.md` von 107 auf 46 KB, `BACKLOG.md` von 117 auf 14 KB, `CHANGELOG.md` von 280 auf 24 KB. Nichts gelöscht: Nachschlageteile unter `handbuch/`, lange Listen unter `backlog/`, Archiv mit `tools/archiv.py`.
 
 ## Archiviert am 2026-11-27
 

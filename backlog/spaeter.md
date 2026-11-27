@@ -24,6 +24,7 @@ Aus dem Vergleich mit anderen Seiten. Erst angehen, wenn alle Kantone erfasst si
 
 ## Später, nur nach Freigabe von Joss
 
+- «SEO» (Stichwort für Joss, vorgemerkt am 28.11.2026): Durchsicht der Seiten für Suchmaschinen mit fünf Skills aus `coreyhaines31/marketingskills` (MIT): seo-audit, programmatic-seo, schema, site-architecture, ai-seo. Claude liest die fünf Dateien im Original, ein Unteragent geht die Seiten damit durch, die Befunde gehen an Joss. Eingebaut werden höchstens diese fünf.
 - Englisch und weitere Sprachen
 - Anzeigen und Affiliate-Links
 - Impressum und Datenschutzerklärung

@@ -2,6 +2,15 @@
 
 Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen.
 
+## 2026-11-28, Sitzung mit Joss: Aufsicht über die Läufe auf Opus, Werkzeug-Vorschläge geprüft
+
+- Joss hat am 27. November um 23:24 Uhr erlaubt, weitere Läufe sofort zu beginnen. Ausgelöst von Claude in der Sitzung: um 23:37 Uhr (Sonderlauf Änderungswächter, fertig nach 12 Minuten) und um 23:57 Uhr (Themenfeld «Hund vermisst oder gefunden»). Jeder Lauf wird angesehen, bevor der nächste startet.
+- Durchsicht des ersten Laufs auf Opus: Werkzeug, Action und Handbuch entsprechen der Vorgabe. Die Action `wandel.yml` von Hand geprüft: Auslöser sind nur Zeitplan und Befehl, keine fremde Eingabe fliesst in Befehle, das Schreibrecht nutzt sie nur für den Zweig `wandel`.
+- Lücke gefunden: Bei den 65 Quellen auf Gesetzessammlungen mit Adressen der Form `/app/<Sprache>/texts_of_law/<Nummer>` sieht der Wächter nur den leeren Seitenrahmen (7 Zeichen, dieselbe Prüfsumme für alle). Vorgabe für den Sonderlauf «Rechtstexte» in `BACKLOG.md`, Abschnitt 5: Der Wächter holt den Text über die Schnittstelle der Sammlung und legt ihn auf den Zweig `wandel`, damit auch der Lauf den geltenden Text lesen kann.
+- 25 Werkzeug-Vorschläge von Joss vom Abend und aus der Nacht geprüft. Die Fakten haben fünf Unteragenten auf Sonnet gesammelt, je 60 bis 90 Sekunden und rund 105'000 bis 125'000 Token. Eingebaut ist keiner. Vorgemerkt für das Wort «SEO»: fünf Skills aus `coreyhaines31/marketingskills`. Begründungen und eine Faustregel für neue Vorschläge stehen in `handbuch/sitzung.md`.
+- Die Unteragenten `uebersetzer` und `quellenleser` stehen seit Mitternacht in der Sitzung als Typ zur Verfügung.
+- Berichtigung zum Eintrag «verschlankt» vom 27. November: `CLAUDE.md` misst 46 KB und `BACKLOG.md` 14 KB, nicht 44 und 13.
+
 ## 2026-11-27, Lauf (Start von Hand um etwa 23:55 Uhr): Themenfeld «Hund vermisst oder gefunden» für TI, VS, FR, SO
 
 - Gewählt nach `BACKLOG.md`, Reihenfolge 4: In Abschnitt 5 ist nichts mehr fällig, keine Übersetzung fehlt, kein Kanton offen. Takt: täglich, weil Abschnitt 9.1 offene Kantone hat.
@@ -31,7 +40,7 @@ Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen
 ## 2026-11-27, Sitzung mit Joss: Handbuch, Ausbauliste und Protokoll verschlankt
 
 - Entscheid von Joss um 23:24 Uhr: Über «Schlank», «Hinweis TG» und «Gegenprüfer» entscheidet Claude.
-- «Schlank», umgesetzt. Anlass: Jeder Lauf liest `CLAUDE.md` und `BACKLOG.md` ganz, und beides reist bei jedem Schritt mit. `CLAUDE.md` von 107 auf 44 KB, `BACKLOG.md` von 117 auf 13 KB, `CHANGELOG.md` von 280 auf 24 KB. Gelöscht ist nichts.
+- «Schlank», umgesetzt. Anlass: Jeder Lauf liest `CLAUDE.md` und `BACKLOG.md` ganz, und beides reist bei jedem Schritt mit. `CLAUDE.md` von 107 auf 46 KB, `BACKLOG.md` von 117 auf 14 KB, `CHANGELOG.md` von 280 auf 24 KB. Gelöscht ist nichts.
 - Handbuch: `CLAUDE.md` ist der Kern für jeden Lauf. Unter `handbuch/` liegen sechs Nachschlageteile, genauso verbindlich: `uebersetzungen.md`, `generator.md`, `kette-parallel.md`, `kontakt.md`, `sitzung.md`, `freigaben.md`. Die Tabelle «Weitere Teile des Handbuchs» sagt, was wo steht und wann man es liest. Neu im Kern und kurz gefasst: «Sprachfassungen», «Wissensgraph», «Skills», «Freigaben». Die Abschnitte selbst sind Wort für Wort verschoben.
 - Ausbauliste: `BACKLOG.md` enthält nur noch, was den nächsten Lauf steuert. Die Nummern der Abschnitte bleiben, damit Verweise und der Takt im Auftrag des Laufs stimmen. Gemeinden in `backlog/gemeinden.md`, Lücken in `backlog/luecken.md`, Späteres in `backlog/spaeter.md`.
 - Neu: `tools/archiv.py`, ohne Modell. Es lässt die 8 neuesten Einträge in `CHANGELOG.md` und verschiebt ältere nach `changelog/JJJJ-MM.md`, abgehakte Punkte der Ausbauliste nach `backlog/archiv.md`. Erster Durchgang: 99 Einträge und 144 Punkte. Der Lauf ruft es nach dem Protokoll auf (Schritt 5).
@@ -94,18 +103,5 @@ Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen
 - Umzug, neu: Der Kanton kann auf die Bewilligung des Herkunftskantons abstellen, der Veterinärdienst bittet um Meldung.
 - Neu: Feld `vermisst`: Tierfundbüro des Tierschutzes beider Basel laut der Seite «Fundwesen» des Kantons, Meldung an die Gemeinde innert 2 Tagen und Pflichten der Gemeinde nach § 7 Hundegesetz.
 - Nicht gefunden: ein Bussenbetrag für die Leinenpflicht im Wald. Nicht gelesen: das Musterreglement über das Halten von Hunden (PDF).
-- Übersetzungen auf Französisch und Italienisch im selben Zug nachgeführt.
-
-## 2026-11-27, Sitzung mit Joss: Stadt Luzern nachgeprüft und ausgebaut
-
-- Im Browser von Joss gelesen, auf stadtluzern.ch: «Informationen für Hundehalter», «Naturerlebnisgebiet Allmend», die Seite zum Merkblatt, das Merkblatt für Hundehalterinnen und Hundehalter (PDF, Stand Mai 2025) und die Broschüre «Hund und Mensch in der Stadt» (PDF) im Wortlaut, dazu die Mitteilungen vom 25. November 2022 (Freilaufzone Tribschenhorn definitiv) und vom 13. September 2021 (Leinenpflicht auf der Allmend). Die Verordnung über die Nutzung des öffentlichen Grundes (Ausgabe 1. September 2024) über WebFetch: Sie regelt Hunde nur für Marktstände (Art. 36 Abs. 2) und ist nicht verwendet.
-- Befund: Die drei Freilaufzonen und ihre Beschreibungen stimmen mit der Broschüre überein. Die Seite hatte bisher nur eine Karte.
-- Neu, Karte Hundetaxe: CHF 120, Rechnung Ende Mai, zahlbar bis Ende Juni mit dem Einzahlungsschein, CHF 60 für Hunde, die nach dem 30. Juni 6 Monate alt werden, CHF 60 auf Gesuch für den Schutz eines einsam gelegenen Gebäudes, CHF 40 für Hofhunde, Erlass in Härtefällen, Rückerstattung nur auf eigene Meldung.
-- Neu, Karte Leine: Leinenpflicht auf der ganzen Allmend ausser in der Freilaufzone, Wege in den Schutzgebieten nicht verlassen, Ausnahmen nur ausgeschildert.
-- Neu, Karte Anmeldung: Wer noch nie einen Hund hielt, meldet sich zuerst bei den Einwohnerdiensten (Obergrundstrasse 1, Telefon der Stelle von der Seite der Stadt). Fristen von 10 Tagen.
-- Karte Bussen, alt: «Missachtung von Verboten oder Leinenzwang: CHF 100 bis 150 (Naturschutzgebiete). Hundekot liegen lassen: CHF 80. Stand der Broschüre: 2022.» Neu: die Beträge einzeln nach der Kantonalen Ordnungsbussenverordnung (Stand 1. November 2026): CHF 100 Betretverbot und Leinenzwang, CHF 150 Leinenzwang in Naturschutzgebieten, CHF 80 Hundekot, CHF 100 Leinenpflicht im Wald.
-- Einleitung: ergänzt um «Stand der Broschüre der Stadt: 2022».
-- Quellen neu: `lu_luzern_merkblatt`, `lu_luzern_hunde`, `lu_luzern_allmend`. `lu_stadt` mit genauerem Namen und der Adresse mit www.
-- Nicht ins Repository übernommen: Name, Direktwahl und Mailadresse der Kontaktperson aus dem Merkblatt.
 - Übersetzungen auf Französisch und Italienisch im selben Zug nachgeführt.
 

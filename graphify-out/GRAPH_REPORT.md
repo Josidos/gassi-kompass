@@ -1,7 +1,7 @@
 # Graph Report - gassi-kompass  (2026-11-28)
 
 ## Corpus Check
-- 333 files · ~271,882 words
+- 333 files · ~272,997 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 5 file(s) not represented in the graph (top: (none) 4, .css 1)
 
@@ -354,7 +354,7 @@ Nodes (6): 7. Braucht Zugriff, den der Lauf nicht hat, Was nur Joss tun kann, Fe
 
 ### Community 56 - "Protokoll / 2026-11-27, Sonderlauf: Änderungswächter für Quellen"
 Cohesion: 0.22
-Nodes (8): 2026-11-27, Lauf (Start von Hand um etwa 23:55 Uhr): Themenfeld «Hund vermisst oder gefunden» für TI, VS, FR, SO, 2026-11-27, Sitzung mit Joss: Arbeitsteilung zwischen Modellen, 2026-11-27, Sitzung mit Joss: Handbuch, Ausbauliste und Protokoll verschlankt, 2026-11-27, Sitzung mit Joss: Kanton Basel-Landschaft am geltenden Recht geprüft, 2026-11-27, Sitzung mit Joss: Kanton Thurgau am geltenden Recht geprüft, ein Fehler berichtigt, 2026-11-27, Sitzung mit Joss: Stadt Luzern nachgeprüft und ausgebaut, 2026-11-27, Sonderlauf: Änderungswächter für Quellen, Protokoll
+Nodes (8): 2026-11-27, Lauf (Start von Hand um etwa 23:55 Uhr): Themenfeld «Hund vermisst oder gefunden» für TI, VS, FR, SO, 2026-11-27, Sitzung mit Joss: Arbeitsteilung zwischen Modellen, 2026-11-27, Sitzung mit Joss: Handbuch, Ausbauliste und Protokoll verschlankt, 2026-11-27, Sitzung mit Joss: Kanton Basel-Landschaft am geltenden Recht geprüft, 2026-11-27, Sitzung mit Joss: Kanton Thurgau am geltenden Recht geprüft, ein Fehler berichtigt, 2026-11-27, Sonderlauf: Änderungswächter für Quellen, 2026-11-28, Sitzung mit Joss: Aufsicht über die Läufe auf Opus, Werkzeug-Vorschläge geprüft, Protokoll
 
 ### Community 57 - "Neuhausen am Rheinfall (Gemeinde, SH) / Server rechtsbuch.neuhausen.ch"
 Cohesion: 0.33
