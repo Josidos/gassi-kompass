@@ -12,7 +12,7 @@ Ziel: jede Seite auf Deutsch, Französisch und Italienisch, dazu 60 Gemeinden. F
 4. **Themenfelder.** Ist kein Kanton offen und in Abschnitt 9 ein Themenfeld offen, dessen Umbau in Abschnitt 5 abgehakt ist: dieses Feld für bis zu 4 Kantone belegen, in der Reihenfolge der Liste dort. Die Übersetzungen der geänderten Dateien entstehen im selben Lauf.
 5. **Gemeinden.** Ist nichts davon möglich, bis zu 4 Gemeinden aus Abschnitt 3.
 
-In jedem Lauf ausser den Sonderläufen zusätzlich höchstens eine Lücke aus Abschnitt 4. Die «Toten Links» dort zählen nicht als Lücke: Sie gehören zum Nachprüfen, höchstens vier pro Lauf.
+In jedem Lauf ausser den Sonderläufen zusätzlich höchstens eine Lücke aus Abschnitt 4, zuerst die Lücken, die Abschnitt 10 nennt. Die «Toten Links» dort zählen nicht als Lücke: Sie gehören zum Nachprüfen, höchstens vier pro Lauf.
 
 Bleibt ein Kanton nach einem Lauf unvollständig (Entwurf unter `data/entwurf/`), bekommt er in der Liste den Vermerk «zurückgestellt» mit Datum und dem, was fehlt. Der nächste Lauf nimmt den nächsten offenen Kanton. Zurückgestellte Kantone kommen wieder dran, sobald in ihrem Abschnitt kein anderer mehr offen ist. Scheitert ein Kanton dabei ein zweites Mal, bleibt er zurückgestellt, der Bericht meldet ihn zuoberst, und der Abschnitt gilt für die Reihenfolge als erledigt.
 
@@ -399,7 +399,7 @@ Die Glieder der Kette haben jede Originalfassung Satz für Satz gelesen und noti
 - [ ] `data/gemeinden/sz/schwyz.json`, Karte «Änderungen melden»: `wert` schreibt «10 Tagen», der Text «zehn Tagen». Einsiedeln schreibt «zehn», Küssnacht «10».
 - [ ] `data/gemeinden/tg/kreuzlingen.json`, Karte Anmeldung: Broschüre 10 Tage, Website 30 Tage. Die Karte sagt das offen. Bei der Nachprüfung klären.
 - [ ] Schreibweisen in allen Originalfassungen vereinheitlichen: Tausender («CHF 5'000», «CHF 20 000», «CHF 5000»), «mind.» und «mindestens», «Mio.» und «Millionen», Ziffer oder Zahlwort im selben Feld. In den Tabellen der Themenseiten stehen die Kantone untereinander, dort fällt es auf.
-- [ ] Kurs-Karte in den acht Kantonen mit Kurspflicht: sagen, wo man die anerkannten Kursanbieter findet, mit der amtlichen Seite als Quelle. Am 27.11.2026 gefunden, im Lauf neu abrufen. ZH: zwei Listen der bewilligten Hundeausbildenden auf zh.ch/hunde, alphabetisch und nach Postleitzahl, Stand 30.10.2026. FR: Liste und Karte auf der Seite «Hundeausbildnerinnen und Hundeausbildner», Liste vom 9.11.2026. NE: Liste des SCAV vom 12.3.2026. BS: Die Seite «Hundekurse» verweist auf den Verband VKAS. VS: «Affaires canines» verlinkt die Liste der NHB-Fachpersonen. TI: «Corso teorico obbligatorio» verweist für Kursliste und Anmeldung auf die Associazione Ticinese Istruttori Cinofili. LU: Das Merkblatt von 2023 nennt keine Liste. TG: keine Liste, das «Merkblatt Ausbildungsstätten für Hundehalter» des Veterinäramts prüfen.
+- [ ] Kurs-Karte in den acht Kantonen mit Kurspflicht (zuerst, siehe Abschnitt 10, pro Lauf zwei Kantone samt Übersetzungen, erledigte Kantone hier vermerken): sagen, wo man die anerkannten Kursanbieter findet, mit der amtlichen Seite als Quelle. Am 27.11.2026 gefunden, im Lauf neu abrufen. ZH: zwei Listen der bewilligten Hundeausbildenden auf zh.ch/hunde, alphabetisch und nach Postleitzahl, Stand 30.10.2026. FR: Liste und Karte auf der Seite «Hundeausbildnerinnen und Hundeausbildner», Liste vom 9.11.2026. NE: Liste des SCAV vom 12.3.2026. BS: Die Seite «Hundekurse» verweist auf den Verband VKAS. VS: «Affaires canines» verlinkt die Liste der NHB-Fachpersonen. TI: «Corso teorico obbligatorio» verweist für Kursliste und Anmeldung auf die Associazione Ticinese Istruttori Cinofili. LU: Das Merkblatt von 2023 nennt keine Liste. TG: keine Liste, das «Merkblatt Ausbildungsstätten für Hundehalter» des Veterinäramts prüfen.
 
 ## 5. Umbauten am Generator
 
@@ -527,3 +527,16 @@ Die Liste ist eine Sammlung von Claude vom 27.11.2026 aus dem Gedächtnis, nicht
 - Beruf und Gewerbe: Betreuung, Ausbildung, Zucht, Handel, Hundesalon, Dogwalking und die Höchstzahl geführter Hunde (Thema 2).
 - Reisen: Einreise in die Schweiz, Ausreise, Rückkehr aus Ländern mit Tollwut, Flug und Zug (Thema 3).
 - Natur und Landwirtschaft: Wild, Setz- und Brutzeit, Weiden, Herdenschutzhunde, Jagd (Thema 4).
+
+## 10. Ausbau vor der Verbreitung
+
+Entscheid von Joss vom 27.11.2026, 01:50 Uhr: zuerst die Seite so vollständig und gut wie möglich machen, dann die Tierheime und die zweite Runde an Hundeschulen anschreiben. Damit das ein Ende hat, gilt dieses Programm. Stehen die Punkte 1 bis 4, meldet der Bericht zuoberst «bereit für die Verbreitung». Empfänger und Texte liegen bereit (Seiten «Hundeschulen Runde 2» und «Tierheime Runde 1» von Joss). Die Adressen der Hundeschulen stammen aus der Liste vom 20.11.2026 und werden vor dem Versand noch einmal geprüft. Spätestens Ende Februar 2027 gehen die Mails raus, auch wenn nicht alles steht: Am 1. April beginnt in vielen Kantonen die Leinenpflicht im Wald, dann wird am meisten gesucht.
+
+1. [ ] Themenfeld «Hund vermisst oder gefunden»: Sonderlauf (Abschnitt 5), dann alle Kantone (Abschnitt 9.1). Macht der Lauf.
+2. [ ] Lücke «Kursanbieter finden» in den acht Kantonen mit Kurspflicht (Abschnitt 4, unter «Lücken» der letzte Punkt). Macht der Lauf, vor allen anderen Lücken.
+3. [ ] Tote Links und Quellen, die dreimal «UNKLAR» waren, bereinigen (Abschnitt 4). Macht der Lauf beim Nachprüfen.
+4. [ ] Seite «Für Hundeschulen» mit dem Angebot in drei Sprachen und der Baustein für Partner-Einträge samt Ordnung nach Angebot. Macht Claude in einer Sitzung, der Lauf nicht.
+5. [ ] «Neu einen Hund»: je Kanton die Schritte nach der Übernahme, zusammengestellt aus den vorhandenen Angaben, ohne neue Recherche. Braucht zuerst eine Vorgabe in Abschnitt 5, die Claude in einer Sitzung schreibt. Wichtig für die Tierheime.
+6. [ ] Impressum und Datenschutzerklärung. Braucht den Entscheid von Joss, welche Angaben zu seiner Person erscheinen. Vor dem ersten bezahlten Eintrag nötig.
+
+Solange Punkt 1 offen ist, arbeitet der Lauf täglich (Handbuch, «Der Wochenlauf»).
