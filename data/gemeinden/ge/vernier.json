@@ -1,0 +1,82 @@
+{
+  "id": "vernier",
+  "kanton": "ge",
+  "bfs": 6643,
+  "uebersetzt_aus": "fr",
+  "original": "1a8c57b9cc1a",
+  "name": "Stadt Vernier",
+  "ort": "Vernier",
+  "in_ort": "in Vernier",
+  "einleitung": "In Vernier ist dein Hund jederzeit an der Leine zu führen, ausser in den dafür vorgesehenen Freilaufzonen. Die Stadt weist solche in sechs Quartieren aus.",
+  "freilaufzonen": [
+    {
+      "name": "Avanchets",
+      "text": "Zwei Zonen, bei der rue Oscar-Bider und bei der rue de la Grange-Lévrier."
+    },
+    {
+      "name": "Le Lignon",
+      "text": "Der obere Teil des Bois-des-Frères."
+    },
+    {
+      "name": "Aïre",
+      "text": "Hundepark neben der Schule von Aïre."
+    },
+    {
+      "name": "Vernier-Village",
+      "text": "Hundepark hinter dem Quartierzentrum Poussy und dem Friedhof."
+    },
+    {
+      "name": "Châtelaine",
+      "text": "Hundepark auf der Höhe der avenue du Pailly."
+    },
+    {
+      "name": "Étang",
+      "text": "Hundepark zwischen dem parc de l'Étang, der route de Meyrin und den Familiengärten."
+    }
+  ],
+  "freilaufzonen_quellen": [
+    "ge_vernier_chiens"
+  ],
+  "karten": [
+    {
+      "titel": "Hundesteuer",
+      "wert": "50 centimes additionnels",
+      "text": "Zusätzlich zur kantonalen Steuer erhebt die Gemeinde 50 centimes additionnels (Gemeindezuschlag), also 50 % der kantonalen Steuer. Für einen ersten Hund sind das CHF 25 mehr. Tarif 2025 der kantonalen Steuerverwaltung.",
+      "quellen": [
+        "ge_impot_centimes"
+      ]
+    },
+    {
+      "titel": "Leine",
+      "wert": "jederzeit, ausser in Freilaufzonen",
+      "text": "Dein Hund ist jederzeit an der Leine zu führen, ausser in den Freilaufzonen. Im Bois-des-Frères gilt vom 1. April bis 15. Juli jedes Jahres Leinenpflicht zum Schutz der Wildtiere. Auch in den Freilaufzonen nimmst du den Kot auf.",
+      "quellen": [
+        "ge_vernier_chiens"
+      ]
+    },
+    {
+      "titel": "Kein Zutritt",
+      "wert": "Parks, Rasen, Schulen, Spielplätze",
+      "text": "Hunde sind nicht zugelassen auf Planschbecken und Spielplätzen, in Schulen und auf Pausenplätzen, auf Friedhöfen, in Tierparks und Naturschutzgebieten, in Kirchen und ihren Nebengebäuden, in Veranstaltungssälen, in Spitälern, auf Plätzen, in öffentlichen Bädern und in Lebensmittelgeschäften. Ebenfalls verboten sind Rasen, Blumenbeete, Pflanzungen, Gärten und öffentliche Parks sowie landwirtschaftliche Kulturen.",
+      "quellen": [
+        "ge_vernier_chiens"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "wert": "Marke am guichet prestations",
+      "text": "Die amtliche Kontrollmarke des laufenden Jahres (médaille) gibt der Dienst guichet prestations (Schalter) der Stadt ab. Du legst die Bestätigung der Haftpflichtversicherung vor, den Impfausweis mit gültiger Tollwutimpfung, den Nachweis der Kennzeichnung mit Mikrochip oder Tätowierung und für einen potenziell gefährlichen Hund die Bewilligung für Erwerb und Haltung. Warte mit dem Abholen der Marke nicht auf die Steuerrechnung.",
+      "quellen": [
+        "ge_vernier_chiens"
+      ]
+    },
+    {
+      "titel": "Bussen",
+      "wert": "Busse, Betrag nicht veröffentlicht",
+      "text": "Die Polizei und die Gemeindepolizei können Bussen verhängen, wenn die Regeln nicht eingehalten werden. Die Seite der Stadt nennt keine Beträge.",
+      "quellen": [
+        "ge_vernier_chiens"
+      ]
+    }
+  ]
+}

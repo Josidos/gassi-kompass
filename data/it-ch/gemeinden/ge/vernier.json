@@ -1,0 +1,82 @@
+{
+  "id": "vernier",
+  "kanton": "ge",
+  "bfs": 6643,
+  "uebersetzt_aus": "fr",
+  "original": "1a8c57b9cc1a",
+  "name": "Città di Vernier",
+  "ort": "Vernier",
+  "in_ort": "a Vernier",
+  "einleitung": "A Vernier il tuo cane è tenuto al guinzaglio in ogni momento, salvo nelle aree di svago per cani previste a tale scopo. La Città ne segnala in sei quartieri.",
+  "freilaufzonen": [
+    {
+      "name": "Avanchets",
+      "text": "Due aree, vicino alla rue Oscar-Bider e alla rue de la Grange-Lévrier."
+    },
+    {
+      "name": "Le Lignon",
+      "text": "La parte superiore del Bois-des-Frères."
+    },
+    {
+      "name": "Aïre",
+      "text": "Parco per cani accanto alla scuola di Aïre."
+    },
+    {
+      "name": "Vernier-Village",
+      "text": "Parco per cani dietro il centro di quartiere di Poussy e il cimitero."
+    },
+    {
+      "name": "Châtelaine",
+      "text": "Parco per cani all'altezza dell'avenue du Pailly."
+    },
+    {
+      "name": "Étang",
+      "text": "Parco per cani tra il parc de l'Étang, la route de Meyrin e gli orti familiari."
+    }
+  ],
+  "freilaufzonen_quellen": [
+    "ge_vernier_chiens"
+  ],
+  "karten": [
+    {
+      "titel": "Imposta sui cani",
+      "wert": "50 centimes additionnels",
+      "text": "Oltre all'imposta cantonale, il Comune preleva 50 centimes additionnels (centesimi addizionali), cioè il 50 % dell'imposta cantonale. Per un primo cane sono CHF 25 in più. Tariffa 2025 dell'amministrazione fiscale cantonale.",
+      "quellen": [
+        "ge_impot_centimes"
+      ]
+    },
+    {
+      "titel": "Guinzaglio",
+      "wert": "in ogni momento, fuori dalle aree di svago",
+      "text": "Il tuo cane è tenuto al guinzaglio in ogni momento, salvo nelle aree di svago per cani. Nel Bois-des-Frères vale l'obbligo di guinzaglio dal 1° aprile al 15 luglio di ogni anno per proteggere la fauna. Anche nelle aree di svago raccogli gli escrementi.",
+      "quellen": [
+        "ge_vernier_chiens"
+      ]
+    },
+    {
+      "titel": "Accesso vietato",
+      "wert": "parchi, prati, scuole, parchi giochi",
+      "text": "I cani non sono ammessi nelle piscine per bambini e nei parchi giochi, nelle scuole e nei cortili scolastici, nei cimiteri, nei parchi faunistici e nelle riserve naturali, negli edifici religiosi e nelle loro dipendenze, nelle sale di spettacolo, negli ospedali, sulle piazze, nelle piscine pubbliche e nei negozi di generi alimentari. Sono inoltre vietati i prati, le aiuole, le piantagioni, i giardini e i parchi pubblici come pure le colture agricole.",
+      "quellen": [
+        "ge_vernier_chiens"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "wert": "contrassegno al guichet prestations",
+      "text": "Il contrassegno di controllo ufficiale dell'anno in corso (médaille) è rilasciato dal servizio guichet prestations (sportello) della Città. Presenti l'attestato dell'assicurazione di responsabilità civile, il libretto delle vaccinazioni con un vaccino contro la rabbia aggiornato, l'attestato di identificazione con microchip o tatuaggio e, per un cane potenzialmente pericoloso, l'autorizzazione di acquisto e di detenzione. Non aspettare la fattura dell'imposta per ritirare il contrassegno.",
+      "quellen": [
+        "ge_vernier_chiens"
+      ]
+    },
+    {
+      "titel": "Multe",
+      "wert": "contravvenzione, importo non pubblicato",
+      "text": "La polizia e la polizia comunale possono infliggere contravvenzioni se le regole non sono rispettate. La pagina della Città non indica importi.",
+      "quellen": [
+        "ge_vernier_chiens"
+      ]
+    }
+  ]
+}

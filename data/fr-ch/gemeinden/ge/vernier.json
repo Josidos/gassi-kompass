@@ -1,0 +1,81 @@
+{
+  "id": "vernier",
+  "kanton": "ge",
+  "bfs": 6643,
+  "name": "Ville de Vernier",
+  "ort": "Vernier",
+  "in_ort": "à Vernier",
+  "geprueft": "2026-11-28",
+  "einleitung": "À Vernier, votre chien est tenu en laisse en tout temps, sauf dans les espaces de liberté prévus à cet effet. La Ville en signale dans six quartiers.",
+  "freilaufzonen": [
+    {
+      "name": "Avanchets",
+      "text": "Deux espaces, près de la rue Oscar-Bider et de la rue de la Grange-Lévrier."
+    },
+    {
+      "name": "Le Lignon",
+      "text": "La partie supérieure du Bois-des-Frères."
+    },
+    {
+      "name": "Aïre",
+      "text": "Parc à chiens à côté de l'école d'Aïre."
+    },
+    {
+      "name": "Vernier-Village",
+      "text": "Parc à chiens derrière le centre de quartier de Poussy et le cimetière."
+    },
+    {
+      "name": "Châtelaine",
+      "text": "Parc à chiens à la hauteur de l'avenue du Pailly."
+    },
+    {
+      "name": "Étang",
+      "text": "Parc à chiens entre le parc de l'Étang, la route de Meyrin et les jardins familiaux."
+    }
+  ],
+  "freilaufzonen_quellen": [
+    "ge_vernier_chiens"
+  ],
+  "karten": [
+    {
+      "titel": "Impôt sur les chiens",
+      "wert": "50 centimes additionnels",
+      "text": "En plus de l'impôt cantonal, la commune prélève 50 centimes additionnels, soit 50 % de l'impôt cantonal. Pour un premier chien, cela fait CHF 25 de plus. Barème 2025 de l'administration fiscale cantonale.",
+      "quellen": [
+        "ge_impot_centimes"
+      ]
+    },
+    {
+      "titel": "Laisse",
+      "wert": "en tout temps, hors espaces de liberté",
+      "text": "Votre chien est tenu en laisse en tout temps, sauf dans les espaces de liberté. Au Bois-des-Frères, la laisse est obligatoire du 1er avril au 15 juillet de chaque année pour protéger la faune. Dans les espaces de liberté aussi, vous ramassez les déjections.",
+      "quellen": [
+        "ge_vernier_chiens"
+      ]
+    },
+    {
+      "titel": "Accès interdit",
+      "wert": "parcs, pelouses, écoles, places de jeux",
+      "text": "Les chiens ne sont pas admis sur les pataugeoires et les places de jeux, dans les écoles et les préaux, les cimetières, les parcs animaliers et les réserves naturelles, les édifices religieux et leurs dépendances, les salles de spectacle, les établissements hospitaliers, sur les places, dans les piscines publiques et les locaux de vente de denrées alimentaires. Sont aussi interdits les pelouses, massifs de fleurs, plantations, jardins et parcs publics ainsi que les cultures agricoles.",
+      "quellen": [
+        "ge_vernier_chiens"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "wert": "médaille au guichet prestations",
+      "text": "La marque de contrôle officielle de l'année en cours (médaille) est délivrée au service guichet prestations de la Ville. Vous présentez l'attestation d'assurance responsabilité civile, le carnet de vaccination avec un vaccin contre la rage à jour, l'attestation d'identification par puce ou tatouage et, pour un chien potentiellement dangereux, l'autorisation d'acquisition et de détention. N'attendez pas le bordereau d'impôt pour retirer la médaille.",
+      "quellen": [
+        "ge_vernier_chiens"
+      ]
+    },
+    {
+      "titel": "Amendes",
+      "wert": "contravention, montant non publié",
+      "text": "Les services de police et la police municipale peuvent infliger des contraventions si les règles ne sont pas respectées. La page de la Ville ne donne pas de montants.",
+      "quellen": [
+        "ge_vernier_chiens"
+      ]
+    }
+  ]
+}
