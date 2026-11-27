@@ -36,6 +36,7 @@ BEGRIFFE = {
     "daten_gemeinden": "Gemeindedateien (data/gemeinden/ und die Sprachordner)",
     "daten_quellen": "Quellenverzeichnis (data/quellen.json und data/quellen/*.json)",
     "feld_vermisst": "Feld vermisst: Hund vermisst oder gefunden",
+    "feld_durchsicht": "Feld durchsicht: vom Amt durchgesehen",
     "feld_umzug": "Feld umzug: Zuzug in den Kanton",
     "feld_wald_feste_leinenzeit": "Leinenpflicht im Wald zu festen Daten (wald.saison)",
     "feld_wald_ganzjaehrig": "Leinenpflicht im Wald das ganze Jahr (wald.ganzjaehrig)",
@@ -162,7 +163,7 @@ def schicht_daten():
         feld = ("feld_wald_feste_leinenzeit" if wald.get("saison") else
                 "feld_wald_ganzjaehrig" if wald.get("ganzjaehrig") else "feld_wald_keine_feste_zeit")
         s.kante(nid, "has_field", feld, datei)
-        for feld in ("vermisst", "umzug"):
+        for feld in ("vermisst", "umzug", "durchsicht"):
             if feld in d:
                 s.kante(nid, "has_field", f"feld_{feld}", datei)
         karten = d.get("karten", [])

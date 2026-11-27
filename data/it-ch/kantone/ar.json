@@ -2,7 +2,7 @@
   "id": "ar",
   "kurz": "AR",
   "uebersetzt_aus": "de",
-  "original": "c446be3c5d41",
+  "original": "5015dbe6ccc6",
   "wald": {
     "saison": false,
     "text": "Hundegesetz (legge sui cani), Hundeverordnung (ordinanza sui cani), Jagdgesetz (legge sulla caccia) e Jagdverordnung (ordinanza sulla caccia) del Cantone non prevedono un obbligo di guinzaglio nel bosco in date fisse. Devi però avere il tuo cane in ogni momento sotto sorveglianza e sotto controllo efficace. Se non è possibile altrimenti, va tenuto al guinzaglio. Nella zona di tranquillità per la selvaggina «südliches Appenzeller Hinterland», nella regione Schwägalp-Hochalp (Comuni di Hundwil e Urnäsch), i cani vanno tenuti al guinzaglio in ogni momento (Schutzverordnung del 2009, ordinanza di protezione, approvata nel 2011). I cani che cacciano di frodo possono essere abbattuti dagli organi di polizia della caccia.",
@@ -122,5 +122,9 @@
     "quellen": [
       "ar_hug"
     ]
+  },
+  "durchsicht": {
+    "wer": "dal Veterinäramt beider Appenzell (ufficio veterinario dei due Appenzello)",
+    "datum": "2026-11-26"
   }
 }

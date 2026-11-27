@@ -2,7 +2,7 @@
   "id": "ar",
   "kurz": "AR",
   "uebersetzt_aus": "de",
-  "original": "c446be3c5d41",
+  "original": "5015dbe6ccc6",
   "wald": {
     "saison": false,
     "text": "Le Hundegesetz (loi sur les chiens), la Hundeverordnung (ordonnance sur les chiens), le Jagdgesetz (loi sur la chasse) et la Jagdverordnung (ordonnance sur la chasse) du canton ne prévoient pas de laisse obligatoire en forêt à des dates fixes. Vous devez toutefois avoir votre chien en tout temps sous surveillance et sous contrôle effectif. Si ce n'est pas possible autrement, il doit être tenu en laisse. Dans la zone de tranquillité pour la faune «südliches Appenzeller Hinterland», dans la région Schwägalp-Hochalp (communes de Hundwil et d'Urnäsch), les chiens doivent être tenus en laisse en tout temps (Schutzverordnung de 2009, ordonnance de protection, approuvée en 2011). Les chiens qui braconnent peuvent être abattus par les organes de la police de la chasse.",
@@ -122,5 +122,9 @@
     "quellen": [
       "ar_hug"
     ]
+  },
+  "durchsicht": {
+    "wer": "par le Veterinäramt beider Appenzell (office vétérinaire des deux Appenzell)",
+    "datum": "2026-11-26"
   }
 }

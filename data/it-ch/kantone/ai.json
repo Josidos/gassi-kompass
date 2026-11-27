@@ -2,7 +2,7 @@
   "id": "ai",
   "kurz": "AI",
   "uebersetzt_aus": "de",
-  "original": "9f8cbed16088",
+  "original": "2a0ef06e3bc5",
   "wald": {
     "saison": false,
     "text": "Hundegesetz (legge sui cani), Verordnung zum Hundegesetz (ordinanza concernente la legge sui cani) e Verordnung zum Jagdgesetz (ordinanza concernente la legge sulla caccia) del Cantone non prevedono un obbligo di guinzaglio nel bosco in date fisse. Sugli alpeggi, però, il tuo cane va tenuto al guinzaglio per tutta la stagione alpestre. I cani che inseguono la selvaggina senza averne il diritto possono essere abbattuti dal guardacaccia o dai suoi incaricati.",
@@ -117,5 +117,9 @@
     "quellen": [
       "ai_hug"
     ]
+  },
+  "durchsicht": {
+    "wer": "dal Veterinäramt beider Appenzell (ufficio veterinario dei due Appenzello)",
+    "datum": "2026-11-26"
   }
 }

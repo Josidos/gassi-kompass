@@ -2,7 +2,7 @@
   "id": "ai",
   "kurz": "AI",
   "uebersetzt_aus": "de",
-  "original": "9f8cbed16088",
+  "original": "2a0ef06e3bc5",
   "wald": {
     "saison": false,
     "text": "Le Hundegesetz (loi sur les chiens), la Verordnung zum Hundegesetz (ordonnance relative à la loi sur les chiens) et la Verordnung zum Jagdgesetz (ordonnance relative à la loi sur la chasse) du canton ne prévoient pas de laisse obligatoire en forêt à des dates fixes. Sur les alpages, votre chien doit toutefois être tenu en laisse pendant toute la saison d'alpage. Les chiens qui poursuivent le gibier sans droit peuvent être abattus par le garde-faune ou par les personnes qu'il a mandatées.",
@@ -117,5 +117,9 @@
     "quellen": [
       "ai_hug"
     ]
+  },
+  "durchsicht": {
+    "wer": "par le Veterinäramt beider Appenzell (office vétérinaire des deux Appenzell)",
+    "datum": "2026-11-26"
   }
 }

@@ -2,7 +2,7 @@
   "id": "be",
   "kurz": "BE",
   "uebersetzt_aus": "de",
-  "original": "1efc6a446cc6",
+  "original": "e632fddb3fc4",
   "wald": {
     "saison": false,
     "text": "Nel Cantone di Berna non c'è un obbligo generale di guinzaglio nel bosco. Nel settembre 2023 il Gran Consiglio ha respinto, con 70 voti contro 63, un obbligo di guinzaglio durante il periodo di cova e dei parti della selvaggina. Nel bosco, nei campi e lontano dalle case il tuo cane può però correre libero solo se riesci a tenerlo sempre sotto controllo in modo efficace. Lasciarlo correre senza sorveglianza è vietato, la multa disciplinare è di CHF 100. Il guinzaglio serve sui pascoli con animali da reddito, nelle riserve naturali, nelle zone cantonali di protezione della selvaggina con obbligo di guinzaglio e nei luoghi designati dal tuo Comune. I guardiacaccia possono abbattere i cani trovati a cacciare o che, nonostante un ammonimento o una denuncia, vengono trovati ripetutamente lontano dalle case senza accompagnatore.",
@@ -125,5 +125,9 @@
       "be_kapo_fund",
       "be_ktsv"
     ]
+  },
+  "durchsicht": {
+    "wer": "dall'Amt für Veterinärwesen (ufficio veterinario) del Cantone di Berna",
+    "datum": "2026-11-26"
   }
 }

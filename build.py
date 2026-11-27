@@ -128,7 +128,7 @@ def kantonsformen(lang, kid):
 KANTONE_GROESSE = ["zh", "be", "vd", "ag", "sg", "ge", "lu", "ti", "vs", "fr", "bl", "so", "tg", "gr",
                    "bs", "ne", "sz", "zg", "sh", "ju", "ar", "nw", "gl", "ow", "ur", "ai"]
 # Übersetzungen: Diese Felder sind in jeder Sprache gleich, alle anderen Texte werden übersetzt.
-GLEICH = {"id", "kanton", "kurz", "bfs", "ton", "saison", "ganzjaehrig", "von", "bis"}
+GLEICH = {"id", "kanton", "kurz", "bfs", "ton", "saison", "ganzjaehrig", "von", "bis", "datum"}
 TAUSENDER = re.compile(r"(?<=\d)['’\u00a0\u202f ](?=\d{3}(?!\d))")
 # Andere Schreibweisen grosser Orte für die Suche: so getippt (klein, ohne Akzente) -> amtlicher Gemeindename
 ANDERE_NAMEN = {
@@ -157,6 +157,7 @@ TEXTE = {
         "ueb": {"fr": "Übersetzung aus dem Französischen. Die amtlichen Quellen sind auf Französisch.",
                 "it": "Übersetzung aus dem Italienischen. Die amtlichen Quellen sind auf Italienisch."},
         "ueb_link": {"fr": "Zur Originalfassung auf Französisch", "it": "Zur Originalfassung auf Italienisch"},
+        "durchsicht": "Eine Zusammenfassung dieser Regeln wurde am {datum} {wer} durchgesehen. Spätere Ergänzungen sind nicht Teil dieser Durchsicht. Die Seite ist ein privates Angebot.",
         "ueb_alt": "Die Originalfassung wurde seither geändert und ist aktueller als diese Übersetzung.",
         "monate": MONATE, "mon3": MON3,
         "wochentage": ["Sonntag", "Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag"],
@@ -361,6 +362,7 @@ TEXTE = {
         "ueb": {"de": "Traduction de l'allemand. Les sources officielles sont en allemand.",
                 "it": "Traduction de l'italien. Les sources officielles sont en italien."},
         "ueb_link": {"de": "Version originale en allemand", "it": "Version originale en italien"},
+        "durchsicht": "Un résumé de ces règles a été relu le {datum} {wer}. Les ajouts ultérieurs ne font pas partie de cette relecture. Ce site est une offre privée.",
         "ueb_alt": "La version originale a été modifiée depuis et est plus récente que cette traduction.",
         "monate": ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août",
                    "septembre", "octobre", "novembre", "décembre"],
@@ -567,6 +569,7 @@ TEXTE = {
         "ueb": {"de": "Traduzione dal tedesco. Le fonti ufficiali sono in tedesco.",
                 "fr": "Traduzione dal francese. Le fonti ufficiali sono in francese."},
         "ueb_link": {"de": "Versione originale in tedesco", "fr": "Versione originale in francese"},
+        "durchsicht": "Un riassunto di queste regole è stato esaminato il {datum} {wer}. Le aggiunte successive non fanno parte di questo esame. Questo sito è un'offerta privata.",
         "ueb_alt": "La versione originale è stata modificata nel frattempo ed è più recente di questa traduzione.",
         "monate": ["gennaio", "febbraio", "marzo", "aprile", "maggio", "giugno", "luglio", "agosto",
                    "settembre", "ottobre", "novembre", "dicembre"],
@@ -1257,6 +1260,21 @@ def pruefe(quellen, welt, bund, orte):
                                           and all(isinstance(p, str) and p.strip() for p in v["punkte"])):
                     fehler.append(f"{wo}, vermisst: 'punkte' ist eine Liste mit mindestens einem Text oder fehlt ganz")
                 qs(v.get("quellen"), f"{wo}, vermisst")
+            if "durchsicht" in k:
+                dv = k["durchsicht"]
+                if not isinstance(dv, dict) or set(dv) != {"wer", "datum"}:
+                    fehler.append(f"{wo}, durchsicht: genau die Schlüssel 'wer' und 'datum', zum Beispiel "
+                                  '{"wer": "vom Veterinärdienst des Kantons Luzern", "datum": "2026-11-26"}')
+                else:
+                    if not (isinstance(dv["wer"], str) and dv["wer"].strip()):
+                        fehler.append(f"{wo}, durchsicht: 'wer' fehlt oder ist leer")
+                    try:
+                        dd = date.fromisoformat(str(dv["datum"]))
+                    except ValueError:
+                        fehler.append(f"{wo}, durchsicht: 'datum' ist kein Datum im Format JJJJ-MM-TT")
+                    else:
+                        if dd > heute():
+                            fehler.append(f"{wo}, durchsicht: 'datum' liegt in der Zukunft")
 
         gesehen = set()
         for g in gemeinden:
@@ -1555,6 +1573,18 @@ def hinweis_uebersetzung(d, art):
     alt = f' <strong>{S["ueb_alt"]}</strong>' if d.get("_veraltet") else ""
     return (f'<p class="transl" data-uebersetzung>{S["ueb"][aus]}{alt} '
             f'<a href="{ziel}" hreflang="{HTMLLANG[aus]}">{S["ueb_link"][aus]}</a></p>')
+
+
+def hinweis_durchsicht(k):
+    """Hinweis, dass ein Amt die Zusammenfassung durchgesehen hat (wahlweises Feld 'durchsicht').
+    Nur mit schriftlichem Einverständnis des Amts, siehe Handbuch, «Datenfelder Kanton»."""
+    d = k.get("durchsicht")
+    if not d:
+        return ""
+    j, m, t = (int(x) for x in d["datum"].split("-"))
+    datum = tag_monat(f"{m:02d}-{t:02d}", LANG) + f" {j}"
+    return (f'<p class="transl" data-durchsicht>'
+            f'{e(S["durchsicht"].format(datum=datum, wer=d["wer"]))}</p>')
 
 
 def tafel(href, name, unter="", aktiv=False, klasse="", code=""):
@@ -1883,7 +1913,7 @@ def seite_kanton(k, Q):
     inhalt = f"""<section class="hero"><!--KRUMEN-->
 <h1>{e(S["kt_h1"].format(**f))}</h1>
 <p class="lede">{e(S["kt_lede"].format(**f))}</p>
-{hinweis_uebersetzung(k, "k")}
+{hinweis_uebersetzung(k, "k")}{hinweis_durchsicht(k)}
 <p class="callout" data-ort-hinweis data-text="{e(S["kt_hinweis"].format(**f))}" hidden></p>
 </section>
 {wald(k, Q, benutzt)}

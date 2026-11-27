@@ -175,6 +175,9 @@ E | feld_vermisst | implemented_by | build_seite_thema_feld
 E | feld_vermisst | described_in | claude_datenfelder_kanton
 E | feld_vermisst | tracked_in | backlog_9_1_hund_vermisst_oder_gefunden
 E | feld_umzug | described_in | claude_datenfelder_kanton
+E | feld_durchsicht | implemented_by | build_hinweis_durchsicht
+E | feld_durchsicht | described_in | claude_datenfelder_kanton
+E | feld_durchsicht | described_in | claude_postfach_und_antworten_der_ämter_seit_26_november_2026
 E | feld_wald_feste_leinenzeit | implemented_by | build_wald
 E | feld_wald_feste_leinenzeit | implemented_by | assets_heute
 E | feld_wald_ganzjaehrig | implemented_by | build_wald

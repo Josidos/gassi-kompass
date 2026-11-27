@@ -118,6 +118,9 @@ function datei(url) {
           const soll = lies(...dir, 'kantone', kt[2] + '.json').vermisst ? 1 : 0;
           const ist = await page.evaluate(() => document.querySelectorAll('[data-vermisst]').length);
           if (ist !== soll) fehler.push(`${wo}: ${ist} Abschnitte «vermisst», die Datei verlangt ${soll}`);
+          const sollD = lies(...dir, 'kantone', kt[2] + '.json').durchsicht ? 1 : 0;
+          const istD = await page.evaluate(() => document.querySelectorAll('[data-durchsicht]').length);
+          if (istD !== sollD) fehler.push(`${wo}: ${istD} Hinweise «durchsicht», die Datei verlangt ${sollD}`);
         }
       }
       if (sprache && s.endsWith('/thema/vermisst/')) {

@@ -2,7 +2,7 @@
   "id": "lu",
   "kurz": "LU",
   "uebersetzt_aus": "de",
-  "original": "7218f9a7f36b",
+  "original": "6831cbaa3652",
   "wald": {
     "saison": true,
     "von": "04-01",
@@ -189,5 +189,9 @@
       "lu_tierfund",
       "lu_huv"
     ]
+  },
+  "durchsicht": {
+    "wer": "par le Veterinärdienst (service vétérinaire) du canton de Lucerne",
+    "datum": "2026-11-26"
   }
 }
