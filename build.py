@@ -1443,8 +1443,12 @@ def karte(c, Q, benutzt, link=None):
     marke = f'<span class="chip {e(c["ton"])}">{e(c["marke"])}</span>' if c.get("marke") else ""
     mehr = ""
     if c.get("mehr"):
-        punkte = "".join(f"<li>{e(p)}</li>" for p in c["mehr"]["punkte"])
-        mehr = f'<details class="more"><summary>{e(c["mehr"]["titel"])}</summary><ul>{punkte}</ul></details>'
+        liste = c["mehr"]["punkte"]
+        punkte = "".join(f"<li>{e(p)}</li>" for p in liste)
+        # Kurze Einträge wie Rassen stehen in zwei Spalten, ganze Sätze in einer (Median über 50 Zeichen).
+        saetze = ' class="saetze"' if sorted(len(p) for p in liste)[len(liste) // 2] > 50 else ""
+        mehr = (f'<details class="more"><summary>{e(c["mehr"]["titel"])}</summary>'
+                f'<ul{saetze}>{punkte}</ul></details>')
     return (f'<article class="card"><div class="card-top"><span class="card-k">{kopf}</span>{marke}</div>'
             f'<p class="card-v">{e(c["wert"])}</p><p>{e(c["text"])}</p>{mehr}'
             f'{qlinks(c["quellen"], Q, benutzt)}</article>')

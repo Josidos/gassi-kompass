@@ -267,7 +267,7 @@ Der Pfad hängt als Reiter am Einband. Reiter in binding-2 mit heller Schrift, m
 Kleine Stempel in Archivo 700, 0.74rem, Ecken 2px, Farbpaar aus Signalfarbe auf ihrem hellen Grund: Pflicht (Rost), frei (Blattgrün), Hinweis (Schieferblau), keine Pflicht (Stein).
 
 ### Merkmal (Eintrag)
-Kein Kasten: Linie oben (1px), Name des Merkmals in ink-2, punktierte Führungslinie (2px gepunktet, rule) bis zur Marke, darunter der Wert gross (Title), der Text und die Quellen in Meta. Weitere Punkte hinter einem Aufklapper in Schieferblau.
+Kein Kasten: Linie oben (1px), Name des Merkmals in ink-2, punktierte Führungslinie (2px gepunktet, rule) bis zur Marke, darunter der Wert gross (Title), der Text und die Quellen in Meta. Weitere Punkte hinter einem Aufklapper in Schieferblau. Kurze Einträge wie Rassen stehen dort in zwei Spalten, ganze Sätze in einer Spalte mit höchstens 65 Zeichen Breite (`ul.saetze`, der Generator entscheidet nach der mittleren Länge der Einträge). Kein Eintrag bricht über zwei Spalten.
 
 ### Tafel «Leine im Wald»
 Die Signatur. Blatt auf Papier mit Rahmen und dem einzigen Schatten. Kopfzeile mit Ort, Führungslinie und Datum. Links der Status gross in Rost oder Blattgrün mit Erklärung und Quelle; rechts die Monatsleiste wie die Blühzeit im Pflanzenbuch: zwölf Felder, die Leinenmonate in Rost gefüllt mit dem Wort «LEINE», ein Strich in Tinte mit der Beschriftung «heute».

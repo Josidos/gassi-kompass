@@ -2,30 +2,36 @@
   "id": "nw",
   "kurz": "NW",
   "uebersetzt_aus": "de",
-  "original": "50610771a72f",
+  "original": "bd5af0973cd9",
   "wald": {
     "saison": false,
-    "text": "Hundegesetz (legge sui cani) e Jagdverordnung (ordinanza sulla caccia) del Cantone non prevedono un obbligo di guinzaglio nel bosco in date fisse. Non puoi però lasciar correre libero il tuo cane senza sorveglianza da nessuna parte. Nelle zone di tranquillità per la selvaggina la Verordnung über die Wildruhegebiete (ordinanza sulle zone di tranquillità per la selvaggina) prevede l'obbligo di guinzaglio per i cani (stato dell'ordinanza: 2019). Lì fai attenzione ai cartelli. I cani che si aggirano senza sorveglianza nelle zone di rifugio della selvaggina o che inseguono, braccano o sbranano la selvaggina sono considerati cani che cacciano di frodo e possono essere abbattuti dai guardiacaccia.",
+    "text": "Hundegesetz (legge sui cani), Jagdverordnung (ordinanza sulla caccia) e Waldgesetz (legge sulle foreste) del Cantone non prevedono un obbligo di guinzaglio nel bosco in date fisse. Non puoi però lasciar correre libero il tuo cane senza sorveglianza da nessuna parte. Nelle 14 zone di tranquillità per la selvaggina del Cantone vige l'obbligo di guinzaglio in inverno e in primavera, a seconda della zona fino al 30 aprile, al 15 maggio o al 15 giugno. In questo periodo puoi entrare nelle zone solo lungo i sentieri segnati in rosso nei piani dell'ordinanza. Sul posto ci sono pannelli informativi. La multa disciplinare per chi viola l'obbligo di guinzaglio è lì di CHF 150. I cani che si aggirano senza sorveglianza nelle zone di rifugio della selvaggina e ne seguono le tracce, oppure inseguono, braccano o sbranano la selvaggina, sono considerati cani che cacciano di frodo e possono essere abbattuti dai guardiacaccia. Per quanto possibile, la prima volta ricevi un ammonimento.",
     "quellen": [
       "nw_hug",
       "nw_jsv",
+      "nw_kwag",
       "nw_wrg"
     ]
   },
   "leine": {
     "punkte": [
-      "nei campi sportivi e negli impianti scolastici (Hundegesetz, versione del 2005)",
-      "nelle zone di tranquillità per la selvaggina, per quanto lo preveda la Verordnung über die Wildruhegebiete (stato 2019)",
+      "nei campi sportivi e negli impianti scolastici, multa disciplinare CHF 100",
+      "nelle zone di tranquillità per la selvaggina Lauelenegg-Nätschen, Arven-Scheligsee e Scheidegg, dal 15 dicembre al 15 giugno",
+      "nelle zone di tranquillità per la selvaggina Brennwald, Buochserhorn, Musenalp, Steinalperwald, Wingarten, Stanserhorn Südflanke, Schinberg, Brisen, Arvigrat-Dürrenboden e Schwendli, dal 15 dicembre al 30 aprile",
+      "nella zona di tranquillità per la selvaggina Trübsee/Alpelen, dal 1° novembre al 15 maggio",
+      "nella bandita federale di caccia Huetstock, secondo le regole della Confederazione per le bandite di caccia (stato della pagina dell'Ufficio federale dell'ambiente: 2024)",
       "ovunque il Regierungsrat (governo cantonale) abbia ordinato l'obbligo di guinzaglio o di museruola",
-      "se il veterinario cantonale lo ordina per il tuo cane nel singolo caso"
+      "se la veterinaria cantonale o il veterinario cantonale lo ordina per il tuo cane nel singolo caso"
     ],
     "quellen": [
       "nw_hug",
-      "nw_wrg"
+      "nw_wrg",
+      "nw_kobv",
+      "ch_bafu_jagdbann"
     ]
   },
   "verbot": {
-    "einleitung": "La Hundegesetz vieta di portare i cani in questi luoghi o di lasciarli correre lì (versione del 2005). La multa disciplinare è di CHF 100.",
+    "einleitung": "La Hundegesetz vieta di portare i cani in questi luoghi o di lasciarli correre lì. La multa disciplinare è di CHF 100. Il Regierungsrat può ordinare altre zone senza cani.",
     "punkte": [
       "cimiteri",
       "parchi giochi",
@@ -42,9 +48,10 @@
       "marke": "Hundegesetz",
       "ton": "note",
       "wert": "non menzionata nella Hundegesetz",
-      "text": "Nella versione consultata (in vigore dal 2005) la Hundegesetz del Cantone non contiene alcuna disposizione su un'assicurazione di responsabilità civile. Nemmeno la pagina del controllo dei cani menziona un obbligo di assicurazione.",
+      "text": "La Hundegesetz e la Hundeverordnung (ordinanza sui cani) del Cantone non contengono alcuna disposizione su un'assicurazione di responsabilità civile. Nemmeno la pagina del controllo dei cani menziona un obbligo di assicurazione.",
       "quellen": [
         "nw_hug",
+        "nw_huv",
         "nw_hundekontrolle"
       ]
     },
@@ -53,9 +60,10 @@
       "marke": "Singolo caso",
       "ton": "note",
       "wert": "solo su ordine",
-      "text": "La Hundegesetz non prevede un obbligo generale di corso (versione del 2005). Dopo un morso, una minaccia o in caso di comportamento anomalo il veterinario cantonale può ordinare la frequenza di un corso di educazione.",
+      "text": "Né la Hundegesetz né la Hundeverordnung prevedono un obbligo generale di corso. La veterinaria cantonale o il veterinario cantonale può ordinare la frequenza di un corso di educazione: dopo un morso segnalato, in caso di grave sospetto di minaccia, in caso di anomalie del comportamento o se chi detiene il cane non adempie i propri obblighi. Con l'imposta sui cani il Cantone sostiene corsi sulla detenzione e sull'educazione dei cani.",
       "quellen": [
         "nw_hug",
+        "nw_huv",
         "nw_gefaehrlich"
       ]
     },
@@ -64,20 +72,29 @@
       "marke": "Obbligo",
       "ton": "must",
       "wert": "Amt für Justiz, entro 3 mesi dalla nascita",
-      "text": "Annunci il tuo cane all'Amt für Justiz (ufficio cantonale della giustizia), al più tardi tre mesi dopo la nascita. Lo fai con il modulo online «Anmeldung Hund» (notifica del cane). L'ufficio ti registra nella banca dati AMICUS. Il cane porta un microchip. I cambiamenti di nome o di indirizzo li annunci all'ufficio entro 10 giorni. Multa disciplinare per obbligo di annuncio non adempiuto o contrassegno mancante: CHF 100 ciascuna.",
+      "text": "Annunci il tuo cane all'Amt für Justiz (ufficio cantonale della giustizia), al più tardi tre mesi dopo la nascita. Lo fai con il modulo online «An- und Abmeldeformular Hund» (modulo di notifica e di notifica di partenza per cani). Ti servono i tuoi dati personali, i dati del cane, il numero del microchip e la data della presa a carico. L'ufficio ti registra nella banca dati AMICUS. Il microchip viene applicato da una veterinaria o da un veterinario. I cambiamenti di nome o di indirizzo li annunci all'ufficio entro 10 giorni. Multa disciplinare per obbligo di annuncio non adempiuto o contrassegno mancante: CHF 100 ciascuna.",
       "quellen": [
         "nw_hundekontrolle",
         "nw_huv",
         "nw_kobv"
-      ]
+      ],
+      "mehr": {
+        "titel": "Notifica di partenza e cambio di detentore",
+        "punkte": [
+          "Devi anche notificare la partenza del tuo cane. Questa notifica è legata alla segnalazione della morte o di un cambio di detentore in AMICUS.",
+          "Morte del cane: nella banca dati può segnalarla solo una veterinaria o un veterinario in Svizzera oppure l'helpdesk di AMICUS. Se deve occuparsene l'Amt für Justiz, gli consegni una conferma scritta dello studio veterinario o della cremazione.",
+          "Cambio di detentore: lo registri tu in AMICUS. La partenza del cane risulta a tuo nome solo quando la nuova detentrice o il nuovo detentore lo ha preso a carico in AMICUS."
+        ]
+      }
     },
     {
       "titel": "Imposta sui cani",
       "marke": "Cantone",
       "ton": "note",
       "wert": "CHF 120 all'anno",
-      "text": "L'imposta sui cani è di CHF 120 per anno civile in tutto il Cantone. L'Amt für Justiz la tassa e la riscuote. Se ti trasferisci altrove o se il tuo cane muore, l'imposta può esserti rimborsata in proporzione, su richiesta.",
+      "text": "L'imposta sui cani è di CHF 120 per cane e anno civile in tutto il Cantone. L'Amt für Justiz la tassa e la riscuote. Se non detieni il cane per tutto l'anno civile, l'imposta è riscossa in proporzione, per mesi. Se per l'anno civile in corso hai già pagato l'imposta in un altro Cantone, Nidvaldo non ne riscuote per quell'anno. Il termine di pagamento è di 30 giorni. Se ti trasferisci altrove o se il tuo cane muore, l'imposta può esserti rimborsata in proporzione, su richiesta.",
       "quellen": [
+        "nw_hug",
         "nw_hundekontrolle"
       ]
     },
@@ -86,9 +103,10 @@
       "marke": "Singolo caso",
       "ton": "note",
       "wert": "nessun elenco menzionato",
-      "text": "Né la Hundegesetz (versione del 2005) né la pagina del Cantone sui cani pericolosi menzionano razze di cani. I morsi e le minacce da parte di cani vengono segnalati al veterinario cantonale. Può ordinare misure, per esempio l'obbligo di guinzaglio o di museruola o un divieto di detenzione. L'allevamento che mira all'aggressività è vietato.",
+      "text": "Né la Hundegesetz, né la Hundeverordnung, né la pagina del Cantone sui cani pericolosi menzionano razze di cani. I morsi e le minacce da parte di cani vengono segnalati alla veterinaria cantonale o al veterinario cantonale, presso il Veterinärdienst der Urkantone (servizio veterinario dei Cantoni primitivi). Può ordinare misure, per esempio l'obbligo di guinzaglio o di museruola, un test caratteriale o, nei casi gravi, un divieto di detenzione. Le decisioni passate in giudicato di un altro Cantone valgono anche a Nidvaldo. L'allevamento che mira all'aggressività è vietato.",
       "quellen": [
         "nw_hug",
+        "nw_huv",
         "nw_gefaehrlich"
       ]
     },
@@ -97,7 +115,7 @@
       "marke": "Regola",
       "ton": "must",
       "wert": "raccogliere gli escrementi, sorvegliare il cane",
-      "text": "Raccogli gli escrementi del tuo cane sul suolo pubblico e sui fondi privati altrui e li smaltisci. È vietato lasciar correre libero il tuo cane senza sorveglianza. Multe disciplinari: escrementi non rimossi CHF 100, cane non debitamente custodito o sorvegliato CHF 100, cane aizzato intenzionalmente CHF 300.",
+      "text": "Raccogli gli escrementi del tuo cane sul suolo pubblico e sui fondi privati altrui e li smaltisci. È vietato lasciar correre libero il tuo cane senza sorveglianza. Fai in modo che non entri senza consenso nei giardini privati e nei prati in avanzato stato di crescita. Multe disciplinari: escrementi non rimossi CHF 100, cane non debitamente custodito o sorvegliato CHF 100, cane aizzato intenzionalmente CHF 300.",
       "quellen": [
         "nw_hug",
         "nw_kobv"
@@ -105,11 +123,29 @@
     }
   ],
   "vergleich": {
-    "wald": "nessun periodo fisso di guinzaglio, guinzaglio nelle zone di tranquillità per la selvaggina",
+    "wald": "nessun periodo fisso di guinzaglio, guinzaglio in 14 zone di tranquillità per la selvaggina in inverno e in primavera",
     "haft": "non menzionata nella Hundegesetz",
     "kurs": "solo su ordine",
     "rassen": "nessun elenco menzionato",
     "steuer": "CHF 120 all'anno, cantonale",
     "anm": "Amt für Justiz, entro 3 mesi dalla nascita"
+  },
+  "umzug": {
+    "text": "Le decisioni passate in giudicato di un altro Cantone, per esempio un obbligo di guinzaglio o di museruola, valgono anche nel Cantone di Nidvaldo. Se per l'anno civile in corso hai già pagato l'imposta sui cani in un altro Cantone, Nidvaldo non ne riscuote per quell'anno.",
+    "quellen": [
+      "nw_hug"
+    ]
+  },
+  "vermisst": {
+    "text": "Nel Cantone di Nidvaldo la Kantonspolizei (polizia cantonale) è il servizio di segnalazione degli animali trovati. Lì segnali un cane trovato, e lì arriva la segnalazione se qualcuno trova il tuo cane smarrito. L'Amt für Justiz (ufficio cantonale della giustizia) provvede al ricovero e alla cura dei cani randagi, a spese della detentrice o del detentore.",
+    "punkte": [
+      "Kantonspolizei Nidwalden, servizio di segnalazione degli animali trovati: telefono 041 618 44 66",
+      "Amt für Justiz, Hundekontrolle (controllo dei cani): telefono +41 41 618 44 81"
+    ],
+    "quellen": [
+      "nw_hundekontrolle",
+      "nw_hug",
+      "nw_huv"
+    ]
   }
 }

@@ -4,30 +4,36 @@
   "kurz": "NW",
   "im": "im Kanton Nidwalden",
   "des": "des Kantons Nidwalden",
-  "geprueft": "2026-11-17",
+  "geprueft": "2026-11-27",
   "wald": {
     "saison": false,
-    "text": "Hundegesetz und Jagdverordnung des Kantons enthalten keine Leinenpflicht im Wald zu festen Daten. Unbeaufsichtigt frei laufen lassen darfst du deinen Hund aber nirgends. In den Wildruhegebieten sieht die Verordnung über die Wildruhegebiete eine Leinenpflicht für Hunde vor (Stand der Verordnung: 2019). Achte dort auf die Tafeln. Hunde, die sich unbeaufsichtigt in Wildeinständen herumtreiben oder Wild verfolgen, hetzen oder reissen, gelten als wildernd und dürfen von der Wildhut erlegt werden.",
+    "text": "Hundegesetz, Jagdverordnung und Waldgesetz des Kantons enthalten keine Leinenpflicht im Wald zu festen Daten. Unbeaufsichtigt frei laufen lassen darfst du deinen Hund aber nirgends. In den 14 Wildruhegebieten des Kantons gilt im Winter und im Frühling Leinenpflicht, je nach Gebiet bis 30. April, 15. Mai oder 15. Juni. In dieser Zeit darfst du die Gebiete nur auf den Wegen betreten, die in den Plänen der Verordnung rot eingezeichnet sind. Vor Ort stehen Informationstafeln. Die Ordnungsbusse für eine verletzte Leinenpflicht beträgt dort CHF 150. Hunde, die sich unbeaufsichtigt in Wildeinständen herumtreiben und Wildspuren aufnehmen, Wild verfolgen, hetzen oder reissen, gelten als wildernd und dürfen von der Wildhut erlegt werden. Nach Möglichkeit wirst du beim ersten Mal verwarnt.",
     "quellen": [
       "nw_hug",
       "nw_jsv",
+      "nw_kwag",
       "nw_wrg"
     ]
   },
   "leine": {
     "punkte": [
-      "auf Sportplätzen und in Schulhausanlagen (Hundegesetz, Fassung von 2005)",
-      "in den Wildruhegebieten, soweit die Verordnung über die Wildruhegebiete es vorsieht (Stand 2019)",
+      "auf Sportplätzen und in Schulhausanlagen, Ordnungsbusse CHF 100",
+      "in den Wildruhegebieten Lauelenegg-Nätschen, Arven-Scheligsee und Scheidegg vom 15. Dezember bis 15. Juni",
+      "in den Wildruhegebieten Brennwald, Buochserhorn, Musenalp, Steinalperwald, Wingarten, Stanserhorn Südflanke, Schinberg, Brisen, Arvigrat-Dürrenboden und Schwendli vom 15. Dezember bis 30. April",
+      "im Wildruhegebiet Trübsee/Alpelen vom 1. November bis 15. Mai",
+      "im eidgenössischen Jagdbanngebiet Huetstock, nach den Regeln des Bundes für Jagdbanngebiete (Stand der Seite des Bundesamts für Umwelt: 2024)",
       "überall, wo der Regierungsrat Leinen- oder Maulkorbzwang angeordnet hat",
-      "wenn der Kantonstierarzt es für deinen Hund im Einzelfall anordnet"
+      "wenn die Kantonstierärztin oder der Kantonstierarzt es für deinen Hund im Einzelfall anordnet"
     ],
     "quellen": [
       "nw_hug",
-      "nw_wrg"
+      "nw_wrg",
+      "nw_kobv",
+      "ch_bafu_jagdbann"
     ]
   },
   "verbot": {
-    "einleitung": "Das Hundegesetz verbietet, Hunde an diese Orte mitzuführen oder dort laufen zu lassen (Fassung von 2005). Die Ordnungsbusse beträgt CHF 100.",
+    "einleitung": "Das Hundegesetz verbietet, Hunde an diese Orte mitzuführen oder dort laufen zu lassen. Die Ordnungsbusse beträgt CHF 100. Der Regierungsrat kann weitere hundefreie Zonen anordnen.",
     "punkte": [
       "Friedhöfe",
       "Spielplätze",
@@ -44,9 +50,10 @@
       "marke": "Hundegesetz",
       "ton": "note",
       "wert": "im Hundegesetz nicht genannt",
-      "text": "Das Hundegesetz des Kantons enthält in der abgerufenen Fassung (in Kraft seit 2005) keine Bestimmung zu einer Haftpflichtversicherung. Auch die Seite der Hundekontrolle nennt keine Versicherungspflicht.",
+      "text": "Hundegesetz und Hundeverordnung des Kantons enthalten keine Bestimmung zu einer Haftpflichtversicherung. Auch die Seite der Hundekontrolle nennt keine Versicherungspflicht.",
       "quellen": [
         "nw_hug",
+        "nw_huv",
         "nw_hundekontrolle"
       ]
     },
@@ -55,9 +62,10 @@
       "marke": "Einzelfall",
       "ton": "note",
       "wert": "nur auf Anordnung",
-      "text": "Eine allgemeine Kurspflicht nennt das Hundegesetz nicht (Fassung von 2005). Nach einem Biss, einer Bedrohung oder bei auffälligem Verhalten kann der Kantonstierarzt den Besuch eines Erziehungskurses anordnen.",
+      "text": "Eine allgemeine Kurspflicht nennen Hundegesetz und Hundeverordnung nicht. Die Kantonstierärztin oder der Kantonstierarzt kann den Besuch eines Erziehungskurses anordnen: nach einer gemeldeten Bissverletzung, bei schwerwiegendem Verdacht einer Bedrohung, bei Verhaltensauffälligkeiten oder wenn jemand seine Pflichten als Halterin oder Halter nicht erfüllt. Aus der Hundesteuer unterstützt der Kanton Kurse zur Hundehaltung und Hundeerziehung.",
       "quellen": [
         "nw_hug",
+        "nw_huv",
         "nw_gefaehrlich"
       ]
     },
@@ -66,20 +74,29 @@
       "marke": "Pflicht",
       "ton": "must",
       "wert": "Amt für Justiz, innert 3 Monaten nach Geburt",
-      "text": "Du meldest deinen Hund beim kantonalen Amt für Justiz an, spätestens drei Monate nach der Geburt. Das geht über das Online-Formular «Anmeldung Hund». Das Amt erfasst dich in der Hundedatenbank AMICUS. Der Hund trägt einen Mikrochip. Änderungen von Name oder Adresse meldest du dem Amt innert 10 Tagen. Ordnungsbusse bei nicht erfüllter Meldepflicht oder fehlender Kennzeichnung: je CHF 100.",
+      "text": "Du meldest deinen Hund beim kantonalen Amt für Justiz an, spätestens drei Monate nach der Geburt. Das geht über das Online-Formular «An- und Abmeldeformular Hund». Du brauchst deine Personalien, die Angaben zum Hund, die Mikrochip-Nummer und das Datum der Übernahme. Das Amt erfasst dich in der Hundedatenbank AMICUS. Den Mikrochip setzt eine Tierärztin oder ein Tierarzt ein. Änderungen von Name oder Adresse meldest du dem Amt innert 10 Tagen. Ordnungsbusse bei nicht erfüllter Meldepflicht oder fehlender Kennzeichnung: je CHF 100.",
       "quellen": [
         "nw_hundekontrolle",
         "nw_huv",
         "nw_kobv"
-      ]
+      ],
+      "mehr": {
+        "titel": "Abmeldung und Halterwechsel",
+        "punkte": [
+          "Auch abmelden musst du deinen Hund. Die Abmeldung ist mit der Meldung des Todes oder eines Halterwechsels in AMICUS verbunden.",
+          "Tod des Hundes: In der Datenbank kann ihn nur eine Tierärztin oder ein Tierarzt in der Schweiz oder der Helpdesk von AMICUS abmelden. Soll das Amt für Justiz die Abmeldung vornehmen, reichst du eine schriftliche Bestätigung der Tierarztpraxis oder der Kremation ein.",
+          "Halterwechsel: Du trägst ihn selbst in AMICUS ein. Abgemeldet ist der Hund bei dir erst, wenn die neue Halterin oder der neue Halter ihn in AMICUS übernommen hat."
+        ]
+      }
     },
     {
       "titel": "Hundesteuer",
       "marke": "Kanton",
       "ton": "note",
       "wert": "CHF 120 pro Jahr",
-      "text": "Die Hundesteuer beträgt im ganzen Kanton CHF 120 pro Kalenderjahr. Das Amt für Justiz veranlagt und bezieht sie. Ziehst du weg oder stirbt dein Hund, kann dir die Steuer auf Antrag anteilsmässig zurückerstattet werden.",
+      "text": "Die Hundesteuer beträgt im ganzen Kanton CHF 120 pro Hund und Kalenderjahr. Das Amt für Justiz veranlagt und bezieht sie. Hältst du den Hund nicht das ganze Kalenderjahr, wird sie anteilsmässig nach Monaten erhoben. Hast du die Steuer für das laufende Kalenderjahr schon in einem anderen Kanton bezahlt, erhebt Nidwalden für dieses Jahr keine. Die Zahlungsfrist beträgt 30 Tage. Ziehst du weg oder stirbt dein Hund, kann dir die Steuer auf Antrag anteilsmässig zurückerstattet werden.",
       "quellen": [
+        "nw_hug",
         "nw_hundekontrolle"
       ]
     },
@@ -88,9 +105,10 @@
       "marke": "Einzelfall",
       "ton": "note",
       "wert": "keine Liste genannt",
-      "text": "Hundegesetz (Fassung von 2005) und die Seite des Kantons zu gefährlichen Hunden nennen keine Hunderassen. Bissverletzungen und Bedrohungen durch Hunde werden dem Kantonstierarzt gemeldet. Er kann Massnahmen anordnen, zum Beispiel Leinen- oder Maulkorbzwang oder ein Haltungsverbot. Eine Zucht, die auf Aggressivität zielt, ist verboten.",
+      "text": "Hundegesetz, Hundeverordnung und die Seite des Kantons zu gefährlichen Hunden nennen keine Hunderassen. Bissverletzungen und Bedrohungen durch Hunde werden der Kantonstierärztin oder dem Kantonstierarzt gemeldet, beim Veterinärdienst der Urkantone. Sie oder er kann Massnahmen anordnen, zum Beispiel Leinen- oder Maulkorbzwang, einen Wesenstest oder in schwerwiegenden Fällen ein Haltungsverbot. Rechtskräftige Verfügungen eines anderen Kantons gelten auch in Nidwalden. Eine Zucht, die auf Aggressivität zielt, ist verboten.",
       "quellen": [
         "nw_hug",
+        "nw_huv",
         "nw_gefaehrlich"
       ]
     },
@@ -99,7 +117,7 @@
       "marke": "Regel",
       "ton": "must",
       "wert": "Kot aufnehmen, Hund beaufsichtigen",
-      "text": "Du nimmst den Kot deines Hundes auf öffentlichem und fremdem privatem Grund auf und entsorgst ihn. Deinen Hund unbeaufsichtigt frei laufen zu lassen, ist verboten. Ordnungsbussen: Hundekot nicht beseitigt CHF 100, Hund nicht gehörig verwahrt oder beaufsichtigt CHF 100, Hund absichtlich gereizt CHF 300.",
+      "text": "Du nimmst den Kot deines Hundes auf öffentlichem und fremdem privatem Grund auf und entsorgst ihn. Deinen Hund unbeaufsichtigt frei laufen zu lassen, ist verboten. Du sorgst dafür, dass er private Gärten und Wiesen im fortgeschrittenen Wachstum nicht ohne Einwilligung betritt. Ordnungsbussen: Hundekot nicht beseitigt CHF 100, Hund nicht gehörig verwahrt oder beaufsichtigt CHF 100, Hund absichtlich gereizt CHF 300.",
       "quellen": [
         "nw_hug",
         "nw_kobv"
@@ -107,11 +125,29 @@
     }
   ],
   "vergleich": {
-    "wald": "keine feste Leinenzeit, Leine in Wildruhegebieten",
+    "wald": "keine feste Leinenzeit, Leine in 14 Wildruhegebieten im Winter und Frühling",
     "haft": "im Hundegesetz nicht genannt",
     "kurs": "nur auf Anordnung",
     "rassen": "keine Liste genannt",
     "steuer": "CHF 120 pro Jahr, kantonal",
     "anm": "Amt für Justiz, innert 3 Monaten nach Geburt"
+  },
+  "umzug": {
+    "text": "Rechtskräftige Verfügungen eines anderen Kantons, zum Beispiel ein Leinen- oder Maulkorbzwang, gelten auch im Kanton Nidwalden. Hast du die Hundesteuer für das laufende Kalenderjahr schon in einem anderen Kanton bezahlt, erhebt Nidwalden für dieses Jahr keine.",
+    "quellen": [
+      "nw_hug"
+    ]
+  },
+  "vermisst": {
+    "text": "Im Kanton Nidwalden ist die Kantonspolizei die Meldestelle für Findel- und Fundtiere. Dort meldest du einen gefundenen Hund, und dorthin geht die Meldung, wenn jemand deinen vermissten Hund findet. Für die Unterbringung und Pflege streunender Hunde sorgt das Amt für Justiz, auf Kosten der Halterin oder des Halters.",
+    "punkte": [
+      "Kantonspolizei Nidwalden, Meldestelle für Findel- und Fundtiere: Telefon 041 618 44 66",
+      "Amt für Justiz, Hundekontrolle: Telefon +41 41 618 44 81"
+    ],
+    "quellen": [
+      "nw_hundekontrolle",
+      "nw_hug",
+      "nw_huv"
+    ]
   }
 }

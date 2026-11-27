@@ -299,7 +299,8 @@ Unklar, nur beobachten. Durchgang vom 18.11.2026: `bl_wald` (baselland.ch, Antwo
 - [ ] Kanton Appenzell Ausserrhoden: geltenden Stand und Perimeter der Wildruhezone «südliches Appenzeller Hinterland» belegen, weitere Wildruhezonen oder Naturschutzgebiete mit Regeln für Hunde suchen.
 - [ ] Kanton Appenzell Ausserrhoden: Sömmerungsvorschriften und Alpen auf Regeln für Hunde prüfen. Bussenbeträge (Ordnungsbussen) für Leine und Kot belegen.
 - [ ] Kanton Zug: «Infoblatt Hundereglemente der Gemeinden im Kanton Zug» des Veterinärdienstes auswerten (cdn.zg.ch war nicht abrufbar). Damit die Karten Haftpflicht, Kurs, Rassen und Hundesteuer schärfen (heute nur Verweis auf die Gemeinde). Paragraf und Busse der Leinenpflicht im Einführungsgesetz zum Waldgesetz nachtragen, Meterangabe zum Waldrand, falls das Gesetz eine nennt.
-- [ ] Kanton Nidwalden: geltende Fassung des Hundegesetzes (NG 826.3) und der Hundeverordnung aus gesetze.nw.ch gegenprüfen (braucht einen Browser) und die Hinweise «Fassung von 2005» entfernen oder die Angaben korrigieren. Verordnung über die Wildruhegebiete (NG 841.15) im Volltext: Gebiete und Daten der Leinenpflicht nachtragen. Kantonales Waldgesetz auf Leinenpflicht prüfen.
+- [x] 2026-11-27: Kanton Nidwalden, geltende Fassungen im Browser von Joss in der Erlass-Sammlung des Kantons (gesetze.nw.ch) gelesen: Hundegesetz (NG 826.3, Stand 1. Januar 2016), Hundeverordnung (NG 826.31, Stand 1. Januar 2012), Verordnung über die Wildruhegebiete (NG 841.15, Stand 1. Januar 2020), Ordnungsbussenverordnung, Jagdgesetz und Jagdverordnung, Waldgesetz und Waldverordnung. Alle Angaben verglichen, die Hinweise «Fassung von 2005» und «Stand 2019» entfernt. Neu: die 14 Wildruhegebiete mit Namen und Daten der Leinenpflicht, Busse CHF 150, Jagdbanngebiet Huetstock. Waldgesetz und Waldverordnung nennen Hunde nicht.
+- [ ] Kanton Obwalden: eidgenössisches Jagdbanngebiet Hutstock (laut der Seite des BAFU «Hutstock (OW/NW)», in Nidwalden «Huetstock») und kantonale Wildruhegebiete auf Regeln für Hunde prüfen und nachtragen. Die Obwaldner Seite nennt beides am 27.11.2026 nicht.
 - [x] 2026-11-27: Kanton Schaffhausen, geltende Fassung von SHR 455.200 (Stand 1. Januar 2010) und SHR 455.201 (Stand 1. Januar 2017) im Browser von Joss auf rechtsbuch.sh.ch gelesen, alle Angaben verglichen, Stand-Hinweise entfernt. Karte Kurs geklärt mit der Seite des Veterinäramts: keine generelle Ausbildungspflicht. Die Kontrollmarke steht nicht mehr in der Verordnung und ist gestrichen.
 - [x] 2026-11-27: Stadt Schaffhausen, Betrag der Hundesteuer (Stadtratsbeschluss vom 8. Mai 2018) und Anmeldung bei der Einwohnerkontrolle (Seite «Hundekontrolle») belegt, beides im Browser von Joss gelesen.
 - [ ] Kanton Glarus: Einführungsgesetz GS IV G/3/2 abrufen (gesetze.gl.ch braucht einen Browser) und daraus Leinenpflicht im öffentlichen Raum (Art. 31), Deckungssumme, Kotaufnahme und Bussen ergänzen. Die Leinenorte stehen bisher nur über die Seite der Gemeinde Glarus auf der Kantonsseite. Danach Karte Kurs und `ton` prüfen. Merkblatt bewilligungspflichtige Hundehaltung erneut abrufen.
@@ -511,7 +512,7 @@ Einstiege: Seite des Veterinärdiensts, Seite der Kantonspolizei, kantonale Gese
 - [x] Schaffhausen, 2026-11-27 (in der Sitzung, deutsch, französisch und italienisch)
 - [ ] Jura
 - [ ] Appenzell Ausserrhoden
-- [ ] Nidwalden
+- [x] Nidwalden, 2026-11-27 (in der Sitzung, deutsch, französisch und italienisch)
 - [ ] Glarus
 - [ ] Obwalden
 - [ ] Uri

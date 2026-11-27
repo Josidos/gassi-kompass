@@ -2,30 +2,36 @@
   "id": "nw",
   "kurz": "NW",
   "uebersetzt_aus": "de",
-  "original": "50610771a72f",
+  "original": "bd5af0973cd9",
   "wald": {
     "saison": false,
-    "text": "Le Hundegesetz (loi sur les chiens) et la Jagdverordnung (ordonnance sur la chasse) du canton ne prévoient pas de laisse obligatoire en forêt à des dates fixes. Vous ne pouvez toutefois laisser votre chien courir librement sans surveillance nulle part. Dans les zones de tranquillité pour la faune, la Verordnung über die Wildruhegebiete (ordonnance sur les zones de tranquillité pour la faune) prévoit la laisse obligatoire pour les chiens (état de l'ordonnance : 2019). Sur place, observez les panneaux. Les chiens qui rôdent sans surveillance dans les zones de refuge du gibier ou qui poursuivent, traquent ou tuent du gibier sont considérés comme braconnant et peuvent être abattus par les gardes-faune.",
+    "text": "Le Hundegesetz (loi sur les chiens), la Jagdverordnung (ordonnance sur la chasse) et le Waldgesetz (loi sur les forêts) du canton ne prévoient pas de laisse obligatoire en forêt à des dates fixes. Vous ne pouvez toutefois laisser votre chien courir librement sans surveillance nulle part. Dans les 14 zones de tranquillité pour la faune du canton, la laisse est obligatoire en hiver et au printemps, selon la zone jusqu'au 30 avril, au 15 mai ou au 15 juin. Pendant cette période, vous ne pouvez entrer dans ces zones que par les chemins marqués en rouge sur les plans de l'ordonnance. Des panneaux d'information se trouvent sur place. L'amende d'ordre pour non-respect de la laisse obligatoire y est de CHF 150. Les chiens qui rôdent sans surveillance dans les zones de refuge du gibier et suivent des traces de gibier, ou qui poursuivent, traquent ou tuent du gibier, sont considérés comme braconnant et peuvent être abattus par les gardes-faune. Dans la mesure du possible, vous recevez un avertissement la première fois.",
     "quellen": [
       "nw_hug",
       "nw_jsv",
+      "nw_kwag",
       "nw_wrg"
     ]
   },
   "leine": {
     "punkte": [
-      "sur les terrains de sport et dans les installations scolaires (Hundegesetz, version de 2005)",
-      "dans les zones de tranquillité pour la faune, dans la mesure où la Verordnung über die Wildruhegebiete le prévoit (état 2019)",
+      "sur les terrains de sport et dans les installations scolaires, amende d'ordre CHF 100",
+      "dans les zones de tranquillité pour la faune Lauelenegg-Nätschen, Arven-Scheligsee et Scheidegg, du 15 décembre au 15 juin",
+      "dans les zones de tranquillité pour la faune Brennwald, Buochserhorn, Musenalp, Steinalperwald, Wingarten, Stanserhorn Südflanke, Schinberg, Brisen, Arvigrat-Dürrenboden et Schwendli, du 15 décembre au 30 avril",
+      "dans la zone de tranquillité pour la faune Trübsee/Alpelen, du 1er novembre au 15 mai",
+      "dans le district franc fédéral Huetstock, selon les règles de la Confédération pour les districts francs (état de la page de l'Office fédéral de l'environnement : 2024)",
       "partout où le Regierungsrat (gouvernement cantonal) a ordonné la laisse ou la muselière obligatoire",
-      "si le vétérinaire cantonal l'ordonne pour votre chien dans un cas particulier"
+      "si la vétérinaire cantonale ou le vétérinaire cantonal l'ordonne pour votre chien dans un cas particulier"
     ],
     "quellen": [
       "nw_hug",
-      "nw_wrg"
+      "nw_wrg",
+      "nw_kobv",
+      "ch_bafu_jagdbann"
     ]
   },
   "verbot": {
-    "einleitung": "Le Hundegesetz interdit d'emmener des chiens dans ces lieux ou de les y laisser courir (version de 2005). L'amende d'ordre est de CHF 100.",
+    "einleitung": "Le Hundegesetz interdit d'emmener des chiens dans ces lieux ou de les y laisser courir. L'amende d'ordre est de CHF 100. Le Regierungsrat peut ordonner d'autres zones sans chiens.",
     "punkte": [
       "les cimetières",
       "les places de jeux",
@@ -42,9 +48,10 @@
       "marke": "Hundegesetz",
       "ton": "note",
       "wert": "non mentionnée dans le Hundegesetz",
-      "text": "Dans la version consultée (en vigueur depuis 2005), le Hundegesetz du canton ne contient aucune disposition sur une assurance responsabilité civile. La page du contrôle des chiens ne mentionne pas non plus d'obligation d'assurance.",
+      "text": "Le Hundegesetz et la Hundeverordnung (ordonnance sur les chiens) du canton ne contiennent aucune disposition sur une assurance responsabilité civile. La page du contrôle des chiens ne mentionne pas non plus d'obligation d'assurance.",
       "quellen": [
         "nw_hug",
+        "nw_huv",
         "nw_hundekontrolle"
       ]
     },
@@ -53,9 +60,10 @@
       "marke": "Cas particulier",
       "ton": "note",
       "wert": "seulement sur ordre",
-      "text": "Le Hundegesetz ne prévoit pas d'obligation générale de suivre un cours (version de 2005). Après une morsure, une menace ou en cas de comportement anormal, le vétérinaire cantonal peut ordonner de suivre un cours d'éducation.",
+      "text": "Ni le Hundegesetz ni la Hundeverordnung ne prévoient d'obligation générale de suivre un cours. La vétérinaire cantonale ou le vétérinaire cantonal peut ordonner de suivre un cours d'éducation : après une morsure annoncée, en cas de grave soupçon de menace, en cas de troubles du comportement ou si une détentrice ou un détenteur ne remplit pas ses obligations. Avec l'impôt sur les chiens, le canton soutient des cours sur la détention et l'éducation des chiens.",
       "quellen": [
         "nw_hug",
+        "nw_huv",
         "nw_gefaehrlich"
       ]
     },
@@ -64,20 +72,29 @@
       "marke": "Obligatoire",
       "ton": "must",
       "wert": "Amt für Justiz, dans les 3 mois après la naissance",
-      "text": "Vous annoncez votre chien à l'Amt für Justiz (office cantonal de la justice), au plus tard trois mois après la naissance. Cela se fait au moyen du formulaire en ligne «Anmeldung Hund» (annonce d'un chien). L'office vous enregistre dans la banque de données AMICUS. Le chien porte une puce électronique. Vous annoncez à l'office tout changement de nom ou d'adresse dans les 10 jours. Amende d'ordre en cas d'obligation d'annonce non remplie ou d'identification manquante : CHF 100 dans chaque cas.",
+      "text": "Vous annoncez votre chien à l'Amt für Justiz (office cantonal de la justice), au plus tard trois mois après la naissance. Cela se fait au moyen du formulaire en ligne «An- und Abmeldeformular Hund» (formulaire d'annonce et d'annonce de départ pour chiens). Il vous faut vos données personnelles, les indications sur le chien, le numéro de la puce électronique et la date de la prise en charge. L'office vous enregistre dans la banque de données AMICUS. La puce électronique est posée par une ou un vétérinaire. Vous annoncez à l'office tout changement de nom ou d'adresse dans les 10 jours. Amende d'ordre en cas d'obligation d'annonce non remplie ou d'identification manquante : CHF 100 dans chaque cas.",
       "quellen": [
         "nw_hundekontrolle",
         "nw_huv",
         "nw_kobv"
-      ]
+      ],
+      "mehr": {
+        "titel": "Annonce de départ et changement de détenteur",
+        "punkte": [
+          "Vous devez aussi annoncer le départ de votre chien. Cette annonce est liée à l'annonce du décès ou d'un changement de détenteur dans AMICUS.",
+          "Mort du chien : dans la banque de données, seuls une ou un vétérinaire en Suisse ou le helpdesk d'AMICUS peuvent l'enregistrer. Si l'Amt für Justiz doit s'en charger, vous lui remettez une confirmation écrite du cabinet vétérinaire ou de la crémation.",
+          "Changement de détenteur : vous l'inscrivez vous-même dans AMICUS. Le départ du chien n'est enregistré chez vous que lorsque la nouvelle détentrice ou le nouveau détenteur l'a pris en charge dans AMICUS."
+        ]
+      }
     },
     {
       "titel": "Impôt sur les chiens",
       "marke": "Canton",
       "ton": "note",
       "wert": "CHF 120 par an",
-      "text": "L'impôt sur les chiens est de CHF 120 par année civile dans tout le canton. L'Amt für Justiz le taxe et le perçoit. Si vous partez ou si votre chien meurt, l'impôt peut vous être remboursé au prorata, sur demande.",
+      "text": "L'impôt sur les chiens est de CHF 120 par chien et par année civile dans tout le canton. L'Amt für Justiz le taxe et le perçoit. Si vous ne détenez pas le chien pendant toute l'année civile, l'impôt est perçu au prorata, par mois. Si vous avez déjà payé l'impôt pour l'année civile en cours dans un autre canton, Nidwald n'en perçoit pas pour cette année. Le délai de paiement est de 30 jours. Si vous partez ou si votre chien meurt, l'impôt peut vous être remboursé au prorata, sur demande.",
       "quellen": [
+        "nw_hug",
         "nw_hundekontrolle"
       ]
     },
@@ -86,9 +103,10 @@
       "marke": "Cas particulier",
       "ton": "note",
       "wert": "aucune liste mentionnée",
-      "text": "Ni le Hundegesetz (version de 2005) ni la page du canton sur les chiens dangereux ne mentionnent de races de chiens. Les morsures et les menaces dues à des chiens sont annoncées au vétérinaire cantonal. Il peut ordonner des mesures, par exemple la laisse ou la muselière obligatoire ou une interdiction de détention. L'élevage visant l'agressivité est interdit.",
+      "text": "Ni le Hundegesetz, ni la Hundeverordnung, ni la page du canton sur les chiens dangereux ne mentionnent de races de chiens. Les morsures et les menaces dues à des chiens sont annoncées à la vétérinaire cantonale ou au vétérinaire cantonal, auprès du Veterinärdienst der Urkantone (service vétérinaire des cantons primitifs). Elle ou il peut ordonner des mesures, par exemple la laisse ou la muselière obligatoire, un test de comportement ou, dans les cas graves, une interdiction de détention. Les décisions entrées en force d'un autre canton s'appliquent aussi à Nidwald. L'élevage visant l'agressivité est interdit.",
       "quellen": [
         "nw_hug",
+        "nw_huv",
         "nw_gefaehrlich"
       ]
     },
@@ -97,7 +115,7 @@
       "marke": "Règle",
       "ton": "must",
       "wert": "ramasser les crottes, surveiller le chien",
-      "text": "Vous ramassez les crottes de votre chien sur le domaine public et sur le terrain privé d'autrui et vous les éliminez. Il est interdit de laisser votre chien courir librement sans surveillance. Amendes d'ordre : crottes non ramassées CHF 100, chien pas dûment gardé ou surveillé CHF 100, chien excité intentionnellement CHF 300.",
+      "text": "Vous ramassez les crottes de votre chien sur le domaine public et sur le terrain privé d'autrui et vous les éliminez. Il est interdit de laisser votre chien courir librement sans surveillance. Vous veillez à ce qu'il n'entre pas sans accord dans les jardins privés et dans les prés à un stade de croissance avancé. Amendes d'ordre : crottes non ramassées CHF 100, chien pas dûment gardé ou surveillé CHF 100, chien excité intentionnellement CHF 300.",
       "quellen": [
         "nw_hug",
         "nw_kobv"
@@ -105,11 +123,29 @@
     }
   ],
   "vergleich": {
-    "wald": "pas de période fixe de laisse, laisse dans les zones de tranquillité pour la faune",
+    "wald": "pas de période fixe de laisse, laisse dans 14 zones de tranquillité pour la faune en hiver et au printemps",
     "haft": "non mentionnée dans le Hundegesetz",
     "kurs": "seulement sur ordre",
     "rassen": "aucune liste mentionnée",
     "steuer": "CHF 120 par an, cantonal",
     "anm": "Amt für Justiz, dans les 3 mois après la naissance"
+  },
+  "umzug": {
+    "text": "Les décisions entrées en force d'un autre canton, par exemple la laisse ou la muselière obligatoire, s'appliquent aussi dans le canton de Nidwald. Si vous avez déjà payé l'impôt sur les chiens pour l'année civile en cours dans un autre canton, Nidwald n'en perçoit pas pour cette année.",
+    "quellen": [
+      "nw_hug"
+    ]
+  },
+  "vermisst": {
+    "text": "Dans le canton de Nidwald, la Kantonspolizei (police cantonale) est le service d'annonce des animaux trouvés. C'est là que vous annoncez un chien trouvé, et c'est là qu'arrive l'annonce si quelqu'un trouve votre chien perdu. L'Amt für Justiz (office cantonal de la justice) veille à l'hébergement et aux soins des chiens errants, aux frais de la détentrice ou du détenteur.",
+    "punkte": [
+      "Kantonspolizei Nidwalden, service d'annonce des animaux trouvés : téléphone 041 618 44 66",
+      "Amt für Justiz, Hundekontrolle (contrôle des chiens) : téléphone +41 41 618 44 81"
+    ],
+    "quellen": [
+      "nw_hundekontrolle",
+      "nw_hug",
+      "nw_huv"
+    ]
   }
 }

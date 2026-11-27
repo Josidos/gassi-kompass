@@ -1,37 +1,42 @@
 {
   "nw_hug": {
     "kurz": "Hundegesetz NW",
-    "lang": "Kanton Nidwalden: Gesetz über das Halten von Hunden (Hundegesetz, NG 826.3) vom 4. Februar 2004, in Kraft seit 1. Januar 2005, Fassung auf LexFind ohne spätere Änderungen",
-    "url": "https://www.lexfind.ch/tolv/63743/de"
+    "lang": "Kanton Nidwalden: Gesetz über das Halten von Hunden (Hundegesetz, HuG, NG 826.3) vom 4. Februar 2004, Stand 1. Januar 2016",
+    "url": "https://gesetze.nw.ch/app/de/texts_of_law/826.3"
   },
   "nw_huv": {
     "kurz": "Hundeverordnung NW",
-    "lang": "Kanton Nidwalden: Vollzugsverordnung zum Gesetz über das Halten von Hunden (Hundeverordnung, NG 826.31) vom 21. Dezember 2004, Stand 1. Januar 2012",
-    "url": "https://lexaris.de/book/version/documentflat/head/281776"
+    "lang": "Kanton Nidwalden: Vollzugsverordnung zum Gesetz über das Halten von Hunden (Hundeverordnung, HuV, NG 826.31) vom 21. Dezember 2004, Stand 1. Januar 2012",
+    "url": "https://gesetze.nw.ch/app/de/texts_of_law/826.31"
   },
   "nw_hundekontrolle": {
     "kurz": "Amt für Justiz NW: Hundekontrolle",
-    "lang": "Kanton Nidwalden, Amt für Justiz: Hundekontrolle / Hundesteuer",
+    "lang": "Kanton Nidwalden, Amt für Justiz: Hundekontrolle / Hundesteuer (abgerufen am 27. November 2026)",
     "url": "https://www.nw.ch/amtjustizdienste/581"
   },
   "nw_gefaehrlich": {
     "kurz": "Kanton NW: Gefährliche Hunde",
-    "lang": "Kanton Nidwalden, Dienstleistung «Gefährliche Hunde» (Kantonstierarzt, Laboratorium der Urkantone)",
+    "lang": "Kanton Nidwalden, Dienstleistung «Gefährliche Hunde» (Kantonstierarzt, Laboratorium der Urkantone), abgerufen am 27. November 2026",
     "url": "https://www.nw.ch/dienstleistungen/2275"
   },
   "nw_kobv": {
     "kurz": "Ordnungsbussenverordnung NW",
-    "lang": "Kanton Nidwalden: Kantonale Ordnungsbussenverordnung (kOBV, NG 261.31) vom 31. März 2026, Stand 1. September 2026, Anhang 1 Ziffer 5 (Hundegesetz)",
-    "url": "https://www.lexfind.ch/tol/35083/de"
+    "lang": "Kanton Nidwalden: Kantonale Ordnungsbussenverordnung (kOBV, NG 261.31) vom 31. März 2026, Stand 1. September 2026, Anhang 1, Ordnungsbussenliste Absatz 5 (Hundegesetz)",
+    "url": "https://gesetze.nw.ch/app/de/texts_of_law/261.31"
   },
   "nw_jsv": {
     "kurz": "Jagdverordnung NW",
-    "lang": "Kanton Nidwalden: Kantonale Jagdverordnung (kJSV, NG 841.11) vom 2. Juni 2008, Fassung auf LexFind mit Änderungen bis 22. Januar 2013",
-    "url": "https://www.lexfind.ch/tolv/63639/de"
+    "lang": "Kanton Nidwalden: Vollzugsverordnung zum kantonalen Jagdgesetz (Kantonale Jagdverordnung, kJSV, NG 841.11) vom 2. Juni 2008, Stand 15. Mai 2024",
+    "url": "https://gesetze.nw.ch/app/de/texts_of_law/841.11"
   },
   "nw_wrg": {
     "kurz": "Verordnung Wildruhegebiete NW",
-    "lang": "Kanton Nidwalden: Verordnung über die Wildruhegebiete (NG 841.15), Stand 31. Dezember 2019, Inhaltsübersicht",
-    "url": "https://www.lexaris.de/library/tableofcontents/281877"
+    "lang": "Kanton Nidwalden: Verordnung über die Wildruhegebiete (NG 841.15) vom 7. Juli 2009, Stand 1. Januar 2020, mit den Plänen der 14 Gebiete im Anhang",
+    "url": "https://gesetze.nw.ch/app/de/texts_of_law/841.15"
+  },
+  "nw_kwag": {
+    "kurz": "Waldgesetz NW",
+    "lang": "Kanton Nidwalden: Einführungsgesetz zum Bundesgesetz über den Wald (Kantonales Waldgesetz, kWaG, NG 831.1) vom 11. März 1998, Stand 1. April 2025",
+    "url": "https://gesetze.nw.ch/app/de/texts_of_law/831.1"
   }
 }
