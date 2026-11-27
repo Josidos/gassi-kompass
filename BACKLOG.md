@@ -9,7 +9,8 @@ Ziel: jede Seite auf Deutsch, Französisch und Italienisch, dazu 60 Gemeinden. F
 1. **Sonderlauf.** Ist in Abschnitt 5 ein Punkt mit dem Vermerk «fällig» offen, macht der Lauf nur den obersten davon.
 2. **Übersetzungen.** Fehlen laut `python3 build.py --fehlend` mehr als 12 Übersetzungen, macht der Lauf nur Übersetzungen, höchstens 12 Dateien.
 3. **Neuer Kanton.** Der oberste offene Kanton aus Abschnitt 1. Dazu seine grösste Gemeinde oder sein Hauptort. Ist Abschnitt 1 erledigt und die Mehrsprachigkeit in Abschnitt 5 abgehakt: der oberste offene Eintrag aus Abschnitt 2.
-4. **Gemeinden.** Ist kein Kanton möglich, bis zu 4 Gemeinden aus Abschnitt 3.
+4. **Themenfelder.** Ist kein Kanton offen und in Abschnitt 9 ein Themenfeld offen, dessen Umbau in Abschnitt 5 abgehakt ist: dieses Feld für bis zu 4 Kantone belegen, in der Reihenfolge der Liste dort. Die Übersetzungen der geänderten Dateien entstehen im selben Lauf.
+5. **Gemeinden.** Ist nichts davon möglich, bis zu 4 Gemeinden aus Abschnitt 3.
 
 In jedem Lauf ausser den Sonderläufen zusätzlich höchstens eine Lücke aus Abschnitt 4. Die «Toten Links» dort zählen nicht als Lücke: Sie gehören zum Nachprüfen, höchstens vier pro Lauf.
 
@@ -410,6 +411,13 @@ Vorgaben in `CLAUDE.md` unter «Umbauten am Generator».
 - [x] Übersetzungen im Generator: Kennzeichnung, Prüfsumme, Zahlenvergleich, `--fehlend`. Probe: Kanton und Stadt Zürich auf Französisch und Italienisch (18.11.2026)
 - [x] Bund, Themenseiten und Fehlerseite in drei Sprachen (18.11.2026)
 - [x] Link-Prüfung: `tools/links.py` und die Action «Quellen-Links prüfen» fragen jede Adresse aus den Quellendateien mit einem echten Abruf ab (18.11.2026). Anlass: Das Veterinäramt Thurgau meldete einen toten Link (Error 404), den WebFetch noch auslieferte. Erster Durchgang: 264 Quellen, 253 in Ordnung, 6 tot, 1 Verdacht, 4 unklar. Die Liste steht in Abschnitt 4.
+- [ ] fällig: **Themenfeld «Hund vermisst oder gefunden»** (Entscheid von Joss vom 27.11.2026: «Kern», neue Themen). Der Sonderlauf baut nur das Folgende, die Kantone folgen danach nach Abschnitt 9:
+  1. Neues wahlweises Feld im Kanton, in jeder Sprachfassung: `vermisst: {"text": "...", "punkte": ["..."], "quellen": [...]}`. `text` sagt in ein bis zwei Sätzen, wo man einen entlaufenen oder einen gefundenen Hund im Kanton meldet. `punkte` ist wahlweise und nennt die Schritte. Übersetzungen führen das Feld wie jedes andere: gleicher Aufbau, gleiche Quellen, gleiche Zahlen.
+  2. Kantonsseite: eigener Abschnitt nach dem Abschnitt zum Zuzug, nur wenn das Feld da ist. Überschrift «Hund vermisst oder gefunden {im}», französisch und italienisch entsprechend. Alle festen Texte in `TEXTE` in drei Sprachen. Vorhandene Bausteine und Farben, keine neuen.
+  3. Siebte Themenseite unter `/thema/vermisst/`, `/fr-ch/thema/vermisst/` und `/it-ch/thema/vermisst/`: zuoberst, was beim Bund gilt, darunter je Kanton der Text mit seinen Quellen und dem Link zur Kantonsseite. Die Seite zählt keine Kantone. Kantone ohne Feld erscheinen nicht. Sie steht in der Sitemap, auf der Startseite und auf den Kantonsseiten wie die anderen Themen. Bestehende Adressen bleiben.
+  4. Bund: in den drei Fassungen von `schweiz.json` eine Karte zum Verlust und Fund eines Tieres. Einstieg: Art. 720a ZGB auf fedlex.admin.ch und die Seiten des BLV in der jeweiligen Sprache. Nur schreiben, was die abgerufene Quelle sagt.
+  5. Probe: das Feld für den Kanton Zürich belegen und in beide Sprachen übersetzen. Test erweitern: Die Themenseite führt jeden Kanton mit Feld samt Quelle, eine Kantonsseite ohne Feld zeigt den Abschnitt nicht.
+  6. Jede neue Seitenart bei 390 und 1280 Pixeln als Bild ansehen, Handbuch im selben Commit nachführen (Aufbau, Datenfelder Kanton, Themenseiten).
 
 ## 6. Ideen für später
 
@@ -436,10 +444,52 @@ Aus dem Vergleich mit anderen Seiten. Erst angehen, wenn alle Kantone erfasst si
 - Impressum und Datenschutzerklärung
 - Idee von Joss vom 26.11.2026 für ein späteres Update: das Ganze als App für App Store und Play Store, gestaltet mit Impeccable. Braucht Entwicklerkonten auf seinen Namen (Apple jährlich, Google einmalig) und damit sein Geld und seine Angaben. Apple lehnt Apps ab, die nur eine Website einpacken: Die App braucht eigenen Nutzen, zum Beispiel Regeln am Standort, den Wald-Status von heute, gemerkte Orte, Benutzung ohne Netz. Vorschlag für die Reihenfolge: zuerst die Website installierbar machen (Web-App mit Symbol und Offline-Lesen, ohne Konten und Kosten), danach die Stores. Erst nach seinem Entscheid. Am 27.11.2026 hat Joss die installierbare Web-App abgelehnt («ich will keine Web-App»). Eine App für die Stores bleibt eine Idee für später.
 - Geschäftskonzept vom 26.11.2026 (Seite «Geschäftskonzept Gassi-Kompass» von Joss, nicht im Repository). Joss hat am 27.11.2026 «Kern» und «Partner» bestätigt. Reihenfolge der neuen Themen, jedes als Sonderlauf: 1. Hund vermisst oder gefunden: die Meldestelle je Kanton und das Vorgehen, jede Angabe im Lauf amtlich belegen (Einstieg: Art. 720a ZGB und die Stelle, die der Kanton bezeichnet). 2. Hunde gewerbsmässig betreuen und ausführen (Fachinformation 12.4 des BLV vom September 2025, dazu kantonale Regeln). 3. Reisen und Einreise mit Hund (Abschnitt 6). 4. Wild und Weide (Jagdbanngebiete, Wildruhezonen, Mutterkühe, Herdenschutzhunde).
-- Partner-Einträge von Hundeschulen (Freigabe vom 27.11.2026, Regeln im Handbuch unter «Partner-Einträge von Hundeschulen»). Erste Runde am 27.11.2026: sieben Mails an je eine Hundeschule in ZH, LU, TG, BS, FR, NE und VS. Stand und Adressen auf der Seite «Hundeschulen Runde 1» von Joss. Sagt eine Hundeschule zu, baut Claude den Baustein in einer Sitzung mit Joss als Sonderlauf. Der Lauf legt keine Partner-Einträge an und schreibt niemanden an.
+- Partner-Einträge von Hundeschulen (Freigabe vom 27.11.2026, Regeln im Handbuch unter «Partner-Einträge von Hundeschulen»). Erste Runde am 27.11.2026: sieben Mails an je eine Hundeschule in ZH, LU, TG, BS, FR, NE und VS. Stand und Adressen auf der Seite «Hundeschulen Runde 1» von Joss. Zweite Runde am 27.11.2026 zusammengestellt: 66 Empfänger in 17 Kantonen ohne allgemeine Kurspflicht, Joss verschickt selbst (Seite «Hundeschulen Runde 2»). Offen: «Aufstocken», derselbe Schlüssel für die Kantone mit Kurspflicht (ZH, LU, TG, BS, FR, NE, VS), nur auf sein Wort. Die private Website zur Zürcher Theorieprüfung bekommt kein Angebot: Sie steht nicht in der Liste der bewilligten Hundeausbildenden. Sagt eine Hundeschule zu, baut Claude den Baustein in einer Sitzung mit Joss als Sonderlauf. Der Lauf legt keine Partner-Einträge an und schreibt niemanden an.
+- Partner-Einträge nach Angebot ordnen (Wunsch von Joss vom 27.11.2026, 01:28 Uhr): Nicht jede Hundeschule passt zu jedem Hund. Kategorien zum Beispiel Welpen, Grunderziehung, anerkannter Pflichtkurs, Kurse für bewilligungspflichtige Hunde, Verhaltensberatung, Hundesport. Nur nach Angabe der Hundeschule oder amtlicher Anerkennung, nie nach eigenem Urteil der Seite. Für bewilligungspflichtige Hunde je Kanton prüfen, ob es eine amtliche Liste anerkannter Ausbildender gibt (Waadt: abrufbar ist nur eine Fassung von 2010). Gehört zum Baustein für Partner-Einträge. Die Mails der zweiten Runde fragen schon nach Stichworten zum Angebot.
 - Übersicht aller bewilligten Hundeausbildenden je Kanton (Wunsch von Joss vom 27.11.2026: alle Hundeschulen sehen, die nächste zuerst, später als Karte). Grundlage wären die amtlichen Listen: ZH rund 300 Einträge, FR 150 mit einer Karte des Kantons, NE 12. Vorher klären, ob eine private Seite die Listen übernehmen darf oder nur verlinken soll (Personendaten). Bis dahin die Listen verlinken, siehe Abschnitt 4.
 - Tierheime als Verbreiter (Idee von Joss vom 27.11.2026): Sie sollen Leute, die einen Hund übernehmen, auf die Seite ihres Kantons hinweisen. Anschreiben nur nach seinem Ja zu Empfängern und Wortlaut.
 - Verzeichnis von Tierärzten, Versicherern mit Hundehaftpflicht und Tierheimen (Idee von Joss vom 27.11.2026, für später). Vorschlag: amtliche Register und Listen verlinken, statt ein eigenes Verzeichnis zu pflegen.
 - Zurückgestellt bis zu einem Entscheid von Joss, der Lauf baut nichts davon: Routen und ihre Bewertung, Giftköder-Meldungen von Nutzern, Vermittlung von Dogwalkern, Einträge für anderes Gewerbe und für Versicherungen.
 - Hinweis «vom Veterinärdienst durchgesehen» auf Kantonsseiten, deren Amt die Angaben bestätigt hat. Nur mit dem Einverständnis des Amts und so formuliert, dass die Seite nicht amtlich wirkt. Die Frage danach ist am 26.11.2026 um 19:18 und 19:19 Uhr an BE, AR mit AI und LU verschickt (Anweisung von Joss). Erst bauen, wenn ein Amt zustimmt, und nur für dessen Kanton. ZG und NE wurden nicht gefragt, weil sie nur den Teil in ihrer Zuständigkeit bestätigt haben.
 - Anschreiben an Behörden, Vereine und Medien. Erste Runde am 18.11.2026 von Joss verschickt: Veterinärdienste SO, TG, BL, JU, TI. Antwort TG am 18.11.2026, eingearbeitet (siehe `CHANGELOG.md`). Antworten TI (Angaben korrekt, keine Änderung) und SO (Angaben korrekt, zwei Vorschläge eingearbeitet) am 21.11.2026. Offen: BL und JU. Für die nächste Runde: zuerst je Kanton klären, wer zuständig ist (im Thurgau die Gemeinden, das Veterinäramt nur für die Bewilligungen), und die Links der Kantonsseite mit einem echten Abruf prüfen. Zweite Runde am 26.11.2026 verschickt: 16 Mails an die Veterinärdienste der 21 übrigen Kantone, von Claude über das Postfach im Browser von Joss. Antworten am selben Tag: BE, AR mit AI, LU, ZG und NE bestätigen (LU mit einem Hinweis, eingearbeitet), BS, FR und VS antworten mit Hinweisen (mit den Quellen verglichen und eingearbeitet, siehe `CHANGELOG.md`), SG prüft keine privaten Seiten. Offen: AG, GR mit GL, UR mit SZ, OW und NW, SH, ZH, GE, VD. Aus der ersten Runde offen: BL und JU. Dank an die acht Ämter am 26.11.2026 abends verschickt, an FR und VS mit einer Rückfrage. BE, AR mit AI und LU sind am selben Abend gefragt, ob die Seite ihre Durchsicht erwähnen darf. Ob SO, TI und TG aus der ersten Runde einen Dank bekommen haben, ist offen (Frage an Joss). Zug: Für die Leinenpflicht im Wald ist das Amt für Wald und Wild zuständig, eine Prüfbitte dorthin braucht eine eigene Freigabe. Dasselbe gilt für Neuenburg und den Service de la faune, des forêts et de la nature. Danach die 63 Gemeinden mit eigener Seite. Die französische Berner Seite erst verlinken, wenn `be_oce_fr` ersetzt ist.
+
+## 9. Neue Themenfelder
+
+Entscheid von Joss vom 27.11.2026: Die Seite bleibt ein Nachschlagewerk mit amtlichen Quellen und bekommt neue Themen. Reihenfolge: 1. Hund vermisst oder gefunden. 2. Hunde gewerbsmässig betreuen. 3. Reisen und Einreise mit Hund. 4. Wild und Weide. Ein Thema nach dem anderen: Zuerst baut ein Sonderlauf das Feld in den Generator (Abschnitt 5), dann belegt jeder Lauf bis zu 4 Kantone. Ist ein Thema in allen Kantonen belegt oder zurückgestellt, meldet der Bericht das zuoberst. Das nächste Thema braucht zuerst eine Vorgabe in Abschnitt 5. Die schreibt Claude in einer Sitzung, der Lauf erfindet keine.
+
+### 9.1 Hund vermisst oder gefunden
+
+Feld `vermisst`, gebaut mit dem Sonderlauf in Abschnitt 5. Je Kanton zu belegen, jede Angabe aus einer amtlichen Quelle, die im Lauf abgerufen wurde:
+
+- wo man einen entlaufenen Hund meldet (Stelle des Kantons, Polizei, Datenbank AMICUS),
+- wo man einen gefundenen Hund meldet (die Meldestelle, die der Kanton nach Art. 720a ZGB bezeichnet),
+- was die Quelle sonst zum Vorgehen sagt (Fristen, Kosten, Tierheim).
+
+Einstiege: Seite des Veterinärdiensts, Seite der Kantonspolizei, kantonale Gesetzessammlung (Einführungsgesetz zum ZGB, Verordnung über die Meldestelle für Findeltiere). Nennt der Kanton eine private Meldestelle als seine amtliche, ist die Seite oder der Erlass des Kantons die Quelle, nicht die Website der Meldestelle. Findet sich nach zwei Suchversuchen keine amtliche Quelle: Feld weglassen und den Kanton hier als «zurückgestellt» mit Datum und Grund vermerken. Bei zweisprachigen Kantonen kommt das Feld in beide Originalfassungen.
+
+- [ ] Zürich (Probe im Sonderlauf)
+- [ ] Bern (deutsch und französisch)
+- [ ] Waadt
+- [ ] Aargau
+- [ ] St. Gallen
+- [ ] Genf
+- [ ] Luzern
+- [ ] Tessin
+- [ ] Wallis (deutsch und französisch)
+- [ ] Freiburg (deutsch und französisch)
+- [ ] Basel-Landschaft
+- [ ] Thurgau
+- [ ] Solothurn
+- [ ] Graubünden (deutsch und italienisch)
+- [ ] Neuenburg
+- [ ] Basel-Stadt
+- [ ] Schwyz
+- [ ] Zug
+- [ ] Schaffhausen
+- [ ] Jura
+- [ ] Appenzell Ausserrhoden
+- [ ] Nidwalden
+- [ ] Glarus
+- [ ] Obwalden
+- [ ] Uri
+- [ ] Appenzell Innerrhoden

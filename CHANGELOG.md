@@ -2,6 +2,18 @@
 
 Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen.
 
+## 2026-11-27, Sitzung mit Joss: zweite Runde an Hundeschulen zusammengestellt, neues Themenfeld vorgemerkt
+
+- Entscheide von Joss (01:01 bis 01:28 Uhr): «Zürich 2», «Runde 2» und «Tierheime» sollen erledigt werden. Für Runde 2 mehrere Hundeschulen pro Kanton nach Bevölkerung und Region, danach die Zahl verdoppelt. Um 01:19 Uhr: Er verschickt die Mails selbst, Claude liefert Empfänger, Betreff und Text.
+- «Zürich 2»: Die private Website zur Zürcher Theorieprüfung steht nicht in der Liste der bewilligten Hundeausbildenden des Kantons (Stand 30. Oktober 2026). Darum geht kein Angebot für einen Partner-Eintrag raus.
+- Runde 2 zusammengestellt: 66 Empfänger in 17 Kantonen ohne allgemeine Kurspflicht (BE 10, AG 8, VD 6, SG 6, GE 6, je 4 in BL, SO, GR und SZ, je 2 in ZG, SH, AR, NW, GL und UR, je 1 in OW und AI). Der verdoppelte Schlüssel ergäbe 72. Es sind weniger, weil nur Einträge mit Hundeschule oder Website zählen, keine Privatpersonen. Im Jura nennt die Liste keine Hundeschule, und die Seite des Kantons führt keine Liste.
+- Quellen der Adressen: die Liste der NHB-Fachpersonen (Stand 20. November 2026, 1157 Einträge, 485 mit Hundeschule oder Website), im Browser von Joss als Text gelesen. Für Genf die Liste des Kantons vom 19. Oktober 2026, zweimal gelesen. Jede Postleitzahl ist gegen `data/orte.json` geprüft.
+- Wortlaut: wie in Runde 1, ohne den Satz zur Kurspflicht, mit dem Namen der Hundeschule und, wo es sie gibt, der Gemeindeseite. Neu bittet die Mail um zwei, drei Stichworte zum Angebot. Empfänger, Betreff und Text stehen auf der Seite «Hundeschulen Runde 2» von Joss, nicht im Repository. Den Versand macht Joss. Rat von Claude: jede Mail einzeln, auf zwei Tage verteilt (34 und 32).
+- Neue Idee von Joss (01:28 Uhr), im Handbuch und im Backlog vermerkt: Partner-Einträge nach Angebot ordnen. Massgebend ist die Angabe der Hundeschule oder die amtliche Anerkennung, nie ein eigenes Urteil der Seite.
+- Reihenfolge der neuen Themen festgelegt (Auftrag von Joss): Das erste Themenfeld «Hund vermisst oder gefunden» steht in Abschnitt 5 des Backlogs als Sonderlauf mit dem Vermerk «fällig», die Kantone dazu in Abschnitt 9. Danach belegt jeder Lauf bis zu 4 Kantone. Handbuch nachgeführt (Obergrenzen, Schritt 3).
+- Nicht gelungen: Die Liste des Kantons Waadt für Hundeausbildende ist nur als Fassung von 2010 ohne Adressen abrufbar. Für Jura, Obwalden und Appenzell Innerrhoden fand die Suche keine weiteren Hundeschulen.
+- An den Seiten ändert sich nichts.
+
 ## 2026-11-27, Sitzung mit Joss: sieben Hundeschulen angeschrieben, Partner-Einträge freigegeben
 
 - Entscheide von Joss in der Nacht (00:32 bis 00:52 Uhr): «Kern» und «Partner» gelten, eine Web-App gibt es nicht. Hundeschulen dürfen auf den Seiten genannt werden, ohne feste Obergrenze. Den Preis hat Claude in seinem Auftrag ausgearbeitet, Joss hat mit «Senden» bestätigt: Eintrag bis 31. Juli 2027 kostenlos, danach CHF 60 pro Jahr, nur mit ausdrücklichem Ja der Hundeschule. Sein Wunsch «so viele wie möglich» ist nicht als Massenversand umgesetzt: einzeln geschriebene Mails, zuerst die Kantone mit Kurspflicht.
