@@ -4,15 +4,19 @@
 Quelle ist der amtliche Datensatz «Hundezonen» von Open Data Zürich (Grün Stadt Zürich, Lizenz CC0):
 https://data.stadt-zuerich.ch/dataset/geo_hundezonen
 
-Der Arbeitsplatz des Laufs erreicht die Server der Stadt nicht. Darum holt eine GitHub Action die Daten
-(.github/workflows/hundezonen.yml) und legt sie als Artefakt ab:
+Der Arbeitsplatz des Laufs erreicht die Server der Stadt nicht, und auch Artefakte einer Action kann er
+nicht laden. Darum holt eine GitHub Action die Daten (.github/workflows/hundezonen.yml), bereitet sie mit
+diesem Skript auf und legt drei Dateien auf den Zweig `geodaten`: roh.json (Antwort der Stadt), paket.json
+(Angaben zum Datensatz) und zh-zuerich.json (die aufbereitete Fassung). Der Zweig `main` bleibt unberührt.
 
     gh api -X POST repos/Josidos/gassi-kompass/actions/workflows/hundezonen.yml/dispatches -f ref=main
-    gh run list -R Josidos/gassi-kompass --workflow hundezonen.yml --limit 1
-    gh run download <Nummer> -R Josidos/gassi-kompass -n hundezonen -D /tmp/hundezonen
-    python3 tools/hundezonen.py /tmp/hundezonen/roh.json /tmp/hundezonen/paket.json
+    gh run list -R Josidos/gassi-kompass --workflow hundezonen.yml --limit 1     # muss «completed success» zeigen
+    git fetch origin geodaten
+    git show FETCH_HEAD:geodaten/zh-zuerich.json > data/geo/zh-zuerich.json
+    python3 build.py && node tests/seiten.js
 
-Der letzte Befehl schreibt data/geo/zh-zuerich.json. Danach `python3 build.py` und der Test.
+Zum Nachrechnen am Arbeitsplatz: roh.json und paket.json genauso aus dem Zweig holen, dann
+`python3 tools/hundezonen.py roh.json paket.json`. Das schreibt data/geo/zh-zuerich.json neu.
 
 Was das Skript tut: Es behält je Fläche die Zone, den Namen und die Bemerkung der Stadt, vereinfacht die
 Umrisse (Douglas-Peucker, 1 Meter) und rundet auf fünf Stellen (rund 1 Meter). Koordinaten stehen als ganze

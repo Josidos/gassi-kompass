@@ -1,14 +1,15 @@
 # Holt den Datensatz «Hundezonen» der Stadt Zürich für die Karte unter /zh/zuerich/karte/.
 # Der Arbeitsplatz des Laufs erreicht die Server der Stadt nicht, diese Action schon. Start von Hand:
 #   gh api -X POST repos/Josidos/gassi-kompass/actions/workflows/hundezonen.yml/dispatches -f ref=main
-# Ergebnis holen und einbauen: siehe tools/hundezonen.py. Die Action ändert nichts im Repository.
+# Sie legt die Daten auf den Zweig `geodaten`. Der Zweig `main` und die Website bleiben unberührt:
+# Einbauen ist ein eigener Schritt mit Bau und Test, siehe tools/hundezonen.py.
 name: Hundezonen holen
 
 on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   holen:
@@ -16,10 +17,18 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
-      - name: Datensatz holen
-        run: python3 tools/hundezonen.py --holen ausgabe
-      - uses: actions/upload-artifact@v4
-        with:
-          name: hundezonen
-          path: ausgabe/
-          retention-days: 7
+      - name: Datensatz holen und aufbereiten
+        run: |
+          python3 tools/hundezonen.py --holen ausgabe
+          python3 tools/hundezonen.py ausgabe/roh.json ausgabe/paket.json
+      - name: Auf den Zweig geodaten legen
+        run: |
+          mkdir -p geodaten
+          cp ausgabe/roh.json ausgabe/paket.json data/geo/zh-zuerich.json geodaten/
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -q --orphan geodaten-neu
+          git rm -rq --cached .
+          git add -f geodaten/
+          git commit -qm "Hundezonen der Stadt Zürich, geholt am $(date -u +%F)"
+          git push -f origin HEAD:geodaten
