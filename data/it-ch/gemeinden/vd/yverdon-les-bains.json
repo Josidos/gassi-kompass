@@ -1,0 +1,56 @@
+{
+  "id": "yverdon-les-bains",
+  "kanton": "vd",
+  "bfs": 5938,
+  "uebersetzt_aus": "fr",
+  "original": "be456190176c",
+  "name": "Yverdon-les-Bains",
+  "ort": "Yverdon-les-Bains",
+  "in_ort": "a Yverdon-les-Bains",
+  "einleitung": "Yverdon-les-Bains riscuote una propria imposta sui cani, in aggiunta all'imposta cantonale. Le regole sul guinzaglio e sui luoghi vietati ai cani si trovano nel règlement général de police (regolamento generale di polizia) del Comune.",
+  "karten": [
+    {
+      "titel": "Imposta sui cani",
+      "wert": "CHF 170 per cane nel 2026",
+      "text": "L'importo comprende l'imposta comunale di CHF 70, fissata dall'arrêté d'imposition 2026 (decreto d'imposta), e l'imposta cantonale di CHF 100, iscrizione compresa. L'imposta è dovuta dalla persona proprietaria del cane al 1° gennaio.",
+      "quellen": [
+        "vd_yverdon_impot",
+        "vd_impot",
+        "vd_yverdon_chiens"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "wert": "entro 15 giorni, al Contrôle des habitants",
+      "text": "Un cane acquistato o ricevuto nel corso dell'anno, o che soggiorna più di tre mesi nel Comune, va annunciato entro 15 giorni al Contrôle des habitants (controllo abitanti), allo sportello d'accoglienza dell'Hôtel de Ville, place Pestalozzi 2. Alleghi il modulo di notifica e una copia del passaporto dell'animale. Anche l'iscrizione nella banca dati AMICUS è obbligatoria. Un cane morto, venduto o ceduto nel corso dell'anno va annunciato con il modulo di decesso o di cessione.",
+      "quellen": [
+        "vd_yverdon_chiens",
+        "vd_yverdon_police"
+      ]
+    },
+    {
+      "titel": "Guinzaglio",
+      "wert": "cortili scolastici, dighe e moli del porto",
+      "text": "Nei cortili e terreni scolastici gli animali devono essere tenuti al guinzaglio. Sulle dighe e sui moli del porto i cani vanno tenuti al guinzaglio corto. Altrove sulla via pubblica il tuo cane deve essere al guinzaglio, a meno che sia educato abbastanza da non importunare gli altri utenti, e devi poterlo controllare in ogni momento con la voce o con un gesto. La Municipalité (Municipio) può designare altri luoghi in cui i cani sono vietati, devono stare al guinzaglio o possono essere lasciati liberi.",
+      "quellen": [
+        "vd_yverdon_police"
+      ]
+    },
+    {
+      "titel": "Accesso vietato",
+      "wert": "cimiteri, mercati, spiagge, bagni pubblici",
+      "text": "Il règlement général de police vieta l'accesso degli animali ai cimiteri, ai negozi di alimentari, ai mercati, alle spiagge e agli stabilimenti balneari pubblici.",
+      "quellen": [
+        "vd_yverdon_police"
+      ]
+    },
+    {
+      "titel": "Multe",
+      "wert": "da CHF 100 a CHF 200",
+      "text": "Non raccogliere gli escrementi del tuo cane negli spazi pubblici o verdi costa una multa disciplinare di CHF 200. Portare un cane in un cimitero o in un colombario costa CHF 100. Non tenere un cane al guinzaglio corto sulle dighe e sui moli del porto costa anch'esso CHF 100.",
+      "quellen": [
+        "vd_yverdon_police"
+      ]
+    }
+  ]
+}

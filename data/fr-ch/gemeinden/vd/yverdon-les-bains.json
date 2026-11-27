@@ -1,0 +1,55 @@
+{
+  "id": "yverdon-les-bains",
+  "kanton": "vd",
+  "bfs": 5938,
+  "name": "Yverdon-les-Bains",
+  "ort": "Yverdon-les-Bains",
+  "in_ort": "à Yverdon-les-Bains",
+  "geprueft": "2026-11-28",
+  "einleitung": "Yverdon-les-Bains prélève son propre impôt sur les chiens, en plus de l'impôt cantonal. Les règles sur la laisse et les lieux interdits aux chiens figurent dans le règlement général de police de la commune.",
+  "karten": [
+    {
+      "titel": "Impôt sur les chiens",
+      "wert": "CHF 170 par chien en 2026",
+      "text": "Le montant comprend l'impôt communal de CHF 70, fixé par l'arrêté d'imposition 2026, et l'impôt cantonal de CHF 100, inscription comprise. L'impôt est dû par la personne propriétaire du chien au 1er janvier.",
+      "quellen": [
+        "vd_yverdon_impot",
+        "vd_impot",
+        "vd_yverdon_chiens"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "wert": "dans les 15 jours, au Contrôle des habitants",
+      "text": "Un chien acquis ou reçu en cours d'année, ou qui séjourne plus de trois mois dans la commune, s'annonce dans les 15 jours au Contrôle des habitants, au guichet d'accueil de l'Hôtel de Ville, place Pestalozzi 2. Vous joignez le formulaire d'annonce et une copie du passeport de l'animal. L'inscription dans la banque de données AMICUS est aussi obligatoire. Un chien mort, vendu ou donné en cours d'année s'annonce avec le formulaire de décès ou de cession.",
+      "quellen": [
+        "vd_yverdon_chiens",
+        "vd_yverdon_police"
+      ]
+    },
+    {
+      "titel": "Laisse",
+      "wert": "préaux scolaires, digues et quais du port",
+      "text": "Dans les préaux et terrains scolaires, les animaux doivent être tenus en laisse. Sur les digues et les quais du port, les chiens sont tenus en laisse courte. Ailleurs sur la voie publique, votre chien doit être en laisse, sauf s'il est assez dressé pour ne pas importuner les autres usagers, et vous devez pouvoir le maîtriser à tout moment par la voix ou le geste. La Municipalité peut désigner d'autres lieux où les chiens sont interdits, tenus en laisse ou laissés en liberté.",
+      "quellen": [
+        "vd_yverdon_police"
+      ]
+    },
+    {
+      "titel": "Accès interdit",
+      "wert": "cimetières, marchés, plages, bains publics",
+      "text": "Le règlement général de police interdit l'accès des animaux aux cimetières, aux commerces d'alimentation, aux marchés, aux plages et aux établissements de bains publics.",
+      "quellen": [
+        "vd_yverdon_police"
+      ]
+    },
+    {
+      "titel": "Amendes",
+      "wert": "CHF 100 à CHF 200",
+      "text": "Ne pas ramasser les crottes de votre chien dans les espaces publics ou verts coûte une amende d'ordre de CHF 200. Introduire un chien dans un cimetière ou un columbarium coûte CHF 100. Ne pas tenir un chien en laisse courte sur les digues et les quais du port coûte aussi CHF 100.",
+      "quellen": [
+        "vd_yverdon_police"
+      ]
+    }
+  ]
+}

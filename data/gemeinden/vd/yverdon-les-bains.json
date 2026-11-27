@@ -1,0 +1,56 @@
+{
+  "id": "yverdon-les-bains",
+  "kanton": "vd",
+  "bfs": 5938,
+  "uebersetzt_aus": "fr",
+  "original": "be456190176c",
+  "name": "Yverdon-les-Bains",
+  "ort": "Yverdon-les-Bains",
+  "in_ort": "in Yverdon-les-Bains",
+  "einleitung": "Yverdon-les-Bains erhebt eine eigene Hundesteuer, zusätzlich zur kantonalen Steuer. Die Regeln zur Leine und zu den Orten, an denen Hunde verboten sind, stehen im Règlement général de police (allgemeines Polizeireglement) der Gemeinde.",
+  "karten": [
+    {
+      "titel": "Hundetaxe",
+      "wert": "CHF 170 pro Hund im Jahr 2026",
+      "text": "Der Betrag umfasst die Gemeindesteuer von CHF 70, festgelegt im Arrêté d'imposition 2026 (Steuerbeschluss), und die kantonale Steuer von CHF 100, Eintragung inbegriffen. Die Steuer schuldet, wem der Hund am 1. Januar gehört.",
+      "quellen": [
+        "vd_yverdon_impot",
+        "vd_impot",
+        "vd_yverdon_chiens"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "wert": "innert 15 Tagen beim Contrôle des habitants",
+      "text": "Einen Hund, den du im Lauf des Jahres erwirbst oder erhältst oder der länger als drei Monate in der Gemeinde bleibt, meldest du innert 15 Tagen beim Contrôle des habitants (Einwohnerkontrolle) an, am Empfangsschalter im Hôtel de Ville, place Pestalozzi 2. Du legst das Anmeldeformular und eine Kopie des Heimtierpasses bei. Auch die Eintragung in der Datenbank AMICUS ist Pflicht. Einen Hund, der im Lauf des Jahres stirbt, verkauft oder abgegeben wird, meldest du mit dem Formular für Tod oder Abgabe ab.",
+      "quellen": [
+        "vd_yverdon_chiens",
+        "vd_yverdon_police"
+      ]
+    },
+    {
+      "titel": "Leine",
+      "wert": "Schulhöfe, Dämme und Quais des Hafens",
+      "text": "Auf Schulhöfen und Schulgeländen müssen Tiere an der Leine sein. Auf den Dämmen und Quais des Hafens gehören Hunde an die kurze Leine. Sonst muss dein Hund auf öffentlichem Grund an der Leine sein, ausser er ist so gut erzogen, dass er andere nicht belästigt, und du musst ihn jederzeit mit Stimme oder Zeichen beherrschen können. Die Municipalité (Gemeinderat) kann weitere Orte bestimmen, an denen Hunde verboten sind, an der Leine sein müssen oder frei laufen dürfen.",
+      "quellen": [
+        "vd_yverdon_police"
+      ]
+    },
+    {
+      "titel": "Kein Zutritt",
+      "wert": "Friedhöfe, Märkte, Strände, öffentliche Bäder",
+      "text": "Das Règlement général de police verbietet Tieren den Zutritt zu Friedhöfen, Lebensmittelgeschäften, Märkten, Stränden und öffentlichen Badeanstalten.",
+      "quellen": [
+        "vd_yverdon_police"
+      ]
+    },
+    {
+      "titel": "Bussen",
+      "wert": "CHF 100 bis CHF 200",
+      "text": "Wer den Kot seines Hundes in öffentlichen Räumen oder Grünanlagen nicht aufnimmt, zahlt eine Ordnungsbusse von CHF 200. Einen Hund auf einen Friedhof oder in ein Kolumbarium mitzunehmen kostet CHF 100. Einen Hund auf den Dämmen und Quais des Hafens nicht an der kurzen Leine zu führen kostet ebenfalls CHF 100.",
+      "quellen": [
+        "vd_yverdon_police"
+      ]
+    }
+  ]
+}
