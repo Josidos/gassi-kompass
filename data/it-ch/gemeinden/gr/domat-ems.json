@@ -3,10 +3,11 @@
   "kanton": "gr",
   "bfs": 3722,
   "uebersetzt_aus": "de",
-  "original": "e3aeef2ae3d6",
+  "original": "d3cc3ba1c7d4",
   "name": "Domat/Ems",
   "ort": "Domat/Ems",
   "in_ort": "a Domat/Ems",
+  "hinweis_heute": "A Domat/Ems vale l'obbligo di guinzaglio nella zona abitata. Dal 15 marzo al 15 novembre il tuo cane non può correre liberamente su prati e pascoli.",
   "karten": [
     {
       "titel": "Imposta sui cani",
@@ -20,9 +21,10 @@
     {
       "titel": "Notifica",
       "wert": "entro 14 giorni all'amministrazione comunale",
-      "text": "Annunci entro 14 giorni all'amministrazione comunale l'acquisto o la morte di un cane, un cambio di detentore e la tua partenza. L'obbligo di notifica inizia appena il cane ha quattro mesi (Polizeigesetz, legge sulla polizia, art. 26). Lo Steuergesetz (legge fiscale) indica 30 giorni per la notifica al Comune (art. 12). Chi annuncia entro 14 giorni rispetta entrambi i termini. È competente l'Einwohnerkontrolle (controllo abitanti, tel. 081 632 82 13). Lo sportello online del Comune offre il modulo «Hunde melden» (annunciare cani).",
+      "text": "Annunci entro 14 giorni all'amministrazione comunale l'acquisto o la morte di un cane, un cambio di detentore e la tua partenza. L'obbligo di notifica inizia appena il cane ha quattro mesi (Polizeigesetz, legge sulla polizia, art. 26). Nella sua comunicazione del 1° maggio 2026 il Comune indica lo stesso termine e parla di cambi di detentore e di traslochi. Lo Steuergesetz (legge fiscale) indica 30 giorni per la notifica al Comune (art. 12). Chi annuncia entro 14 giorni rispetta entrambi i termini. Puoi annunciare il tuo cane allo sportello online del Comune con il modulo «Hunde melden» (annunciare cani) oppure allo sportello dell'Einwohnerkontrolle (controllo abitanti, tel. 081 632 82 13).",
       "quellen": [
         "gr_domat_ems_polizeigesetz",
+        "gr_domat_ems_meldepflicht",
         "gr_domat_ems_steuergesetz",
         "gr_domat_ems_melden"
       ]
@@ -44,6 +46,15 @@
       ]
     },
     {
+      "titel": "Prati e pascoli",
+      "wert": "dal 15 marzo al 15 novembre: non lasciar correre liberamente",
+      "text": "Dal 15 marzo al 15 novembre è il periodo vegetativo. In questo periodo gli animali non possono correre liberamente su prati e pascoli, quindi nemmeno il tuo cane. L'accesso a prati e pascoli è allora vietato alle persone non autorizzate. Fanno eccezione le superfici Plong Vaschnaus e Plong Leula, purché non siano pascolate da animali. Nel resto dell'anno pedoni e animali possono attraversare prati e pascoli solo se non ne derivano danni. Nei campi coltivati non puoi entrare in nessun periodo dell'anno. La Geschäftsleitung (direzione) del Comune può fissare e comunicare altre date (Landwirtschaftsgesetz, legge sull'agricoltura, art. 10). Le infrazioni sono punite con una multa fino a CHF 5000, nei casi lievi può bastare un ammonimento (art. 21). Nella sua comunicazione del 18 marzo 2026 il Comune ricorda queste regole.",
+      "quellen": [
+        "gr_domat_ems_landwirtschaft",
+        "gr_domat_ems_flur"
+      ]
+    },
+    {
       "titel": "Accesso vietato",
       "wert": "edifici pubblici, campi sportivi e parchi giochi, cimitero",
       "text": "I cani non hanno accesso agli edifici pubblici, ai campi sportivi e ai parchi giochi per bambini. Fanno eccezione i cani per persone invalide e i cani di servizio. L'amministrazione degli edifici e i gestori di impianti sportivi possono concedere eccezioni (Polizeigesetz, art. 28). Al cimitero è vietato portare cani (Friedhofverordnung, ordinanza sul cimitero, art. 1).",
@@ -54,17 +65,20 @@
     },
     {
       "titel": "Escrementi",
-      "wert": "eliminare sempre la sporcizia",
-      "text": "Fai in modo che il tuo cane non sporchi marciapiedi, strade, altri impianti pubblici, fondi privati e terreni agricoli. Elimini la sporcizia (Polizeigesetz, art. 28).",
+      "wert": "eliminare sempre, multa disciplinare CHF 100",
+      "text": "Fai in modo che il tuo cane non sporchi marciapiedi, strade, altri impianti pubblici, fondi privati e terreni agricoli. Elimini la sporcizia (Polizeigesetz, art. 28). Per gli escrementi di cane lasciati sul posto l'Ordnungsbussenliste (elenco delle multe disciplinari) del Comune indica CHF 100. Anche il Landwirtschaftsgesetz (legge sull'agricoltura) stabilisce che la sporcizia dovuta agli escrementi di cane è punibile secondo il Polizeigesetz (art. 8).",
       "quellen": [
-        "gr_domat_ems_polizeigesetz"
+        "gr_domat_ems_polizeigesetz",
+        "gr_domat_ems_ordnungsbussen",
+        "gr_domat_ems_landwirtschaft"
       ]
     },
     {
       "titel": "Multe",
-      "wert": "fino a CHF 5000",
-      "text": "Le infrazioni al Polizeigesetz sono punite con una multa fino a CHF 5000. Nei casi lievi può bastare un ammonimento. Le multe fino a CHF 300 sono inflitte dagli organi di polizia, anche come multa disciplinare sul posto (art. 36 a 38).",
+      "wert": "multe disciplinari CHF 50 e CHF 100, altrimenti fino a CHF 5000",
+      "text": "L'Ordnungsbussenliste (elenco delle multe disciplinari) del Gemeinderat (parlamento comunale) indica tre importi per i cani: CHF 100 per gli escrementi di cane lasciati sul posto, CHF 50 per l'inosservanza dell'obbligo di sorveglianza dei cani in libertà e CHF 50 per l'inosservanza dell'obbligo di guinzaglio nella zona abitata. Gli organi di polizia possono riscuotere una multa disciplinare sul posto solo se hanno osservato essi stessi l'infrazione, se i fatti sono chiari e se li riconosci. Puoi pagare subito o entro 30 giorni. In generale le infrazioni al Polizeigesetz sono punite con una multa fino a CHF 5000. Nei casi lievi può bastare un ammonimento. Le multe fino a CHF 300 sono inflitte dagli organi di polizia, quelle più alte dal Gemeindevorstand, l'esecutivo comunale (Polizeigesetz, art. 36 a 39).",
       "quellen": [
+        "gr_domat_ems_ordnungsbussen",
         "gr_domat_ems_polizeigesetz"
       ]
     }

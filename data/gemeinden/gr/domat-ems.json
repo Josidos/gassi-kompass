@@ -6,6 +6,7 @@
   "ort": "Domat/Ems",
   "in_ort": "in Domat/Ems",
   "geprueft": "2026-11-27",
+  "hinweis_heute": "In Domat/Ems gilt im besiedelten Gebiet Leinenpflicht. Vom 15. März bis 15. November darf dein Hund nicht frei über Wiesen und Weiden laufen.",
   "karten": [
     {
       "titel": "Hundetaxe",
@@ -19,9 +20,10 @@
     {
       "titel": "Anmeldung",
       "wert": "innert 14 Tagen bei der Gemeindeverwaltung",
-      "text": "Den Neuerwerb oder den Tod eines Hundes, einen Halterwechsel und deinen Wegzug meldest du innert 14 Tagen der Gemeindeverwaltung. Die Meldepflicht beginnt, sobald der Hund vier Monate alt ist (Polizeigesetz, Art. 26). Das Steuergesetz nennt für die Meldung an die Gemeinde 30 Tage (Art. 12). Wer innert 14 Tagen meldet, hält beide Fristen ein. Zuständig ist die Einwohnerkontrolle (Tel. 081 632 82 13). Im Online-Schalter der Gemeinde gibt es das Formular «Hunde melden».",
+      "text": "Den Neuerwerb oder den Tod eines Hundes, einen Halterwechsel und deinen Wegzug meldest du innert 14 Tagen der Gemeindeverwaltung. Die Meldepflicht beginnt, sobald der Hund vier Monate alt ist (Polizeigesetz, Art. 26). Die Gemeinde nennt in ihrer Mitteilung vom 1. Mai 2026 dieselbe Frist und spricht von Halterwechseln und Umzügen. Das Steuergesetz nennt für die Meldung an die Gemeinde 30 Tage (Art. 12). Wer innert 14 Tagen meldet, hält beide Fristen ein. Anmelden kannst du deinen Hund im Online-Schalter der Gemeinde mit dem Formular «Hunde melden» oder am Schalter der Einwohnerkontrolle (Tel. 081 632 82 13).",
       "quellen": [
         "gr_domat_ems_polizeigesetz",
+        "gr_domat_ems_meldepflicht",
         "gr_domat_ems_steuergesetz",
         "gr_domat_ems_melden"
       ]
@@ -43,6 +45,15 @@
       ]
     },
     {
+      "titel": "Wiesen und Weiden",
+      "wert": "15. März bis 15. November: nicht frei laufen lassen",
+      "text": "Vom 15. März bis 15. November gilt die Vegetationszeit. In dieser Zeit dürfen Tiere nicht frei über Wiesen und Weiden laufen, also auch dein Hund nicht. Für Unberechtigte ist das Betreten von Wiesen und Weiden dann untersagt. Ausgenommen sind die Flächen Plong Vaschnaus und Plong Leula, sofern sie nicht mit Tieren beweidet werden. In der übrigen Zeit dürfen Fussgängerinnen, Fussgänger und Tiere Wiesen und Weiden nur passieren, wenn keine Schäden entstehen. Äcker darfst du das ganze Jahr nicht betreten. Die Geschäftsleitung der Gemeinde kann andere Daten festsetzen und bekanntgeben (Landwirtschaftsgesetz, Art. 10). Verstösse werden mit Busse bis CHF 5000 bestraft, in leichten Fällen kann es bei einer Verwarnung bleiben (Art. 21). Die Gemeinde erinnert in ihrer Mitteilung vom 18. März 2026 an diese Regeln.",
+      "quellen": [
+        "gr_domat_ems_landwirtschaft",
+        "gr_domat_ems_flur"
+      ]
+    },
+    {
       "titel": "Kein Zutritt",
       "wert": "öffentliche Gebäude, Sport- und Kinderspielplätze, Friedhof",
       "text": "Zu öffentlichen Gebäuden, Sportplätzen und Kinderspielplätzen haben Hunde keinen Zutritt. Ausgenommen sind Invaliden- und Diensthunde. Die Gebäudeverwaltung und die Betreibenden von Sportanlagen können Ausnahmen gestatten (Polizeigesetz, Art. 28). Auf dem Friedhof ist das Mitführen von Hunden verboten (Friedhofverordnung, Art. 1).",
@@ -53,17 +64,20 @@
     },
     {
       "titel": "Hundekot",
-      "wert": "Verunreinigungen immer beseitigen",
-      "text": "Du sorgst dafür, dass dein Hund Trottoirs, Strassen, andere öffentliche Anlagen, Privatgrund und landwirtschaftliches Nutzland nicht verunreinigt. Verunreinigungen beseitigst du (Polizeigesetz, Art. 28).",
+      "wert": "immer beseitigen, Ordnungsbusse CHF 100",
+      "text": "Du sorgst dafür, dass dein Hund Trottoirs, Strassen, andere öffentliche Anlagen, Privatgrund und landwirtschaftliches Nutzland nicht verunreinigt. Verunreinigungen beseitigst du (Polizeigesetz, Art. 28). Für liegen gelassenen Hundekot nennt die Ordnungsbussenliste der Gemeinde CHF 100. Auch das Landwirtschaftsgesetz hält fest, dass Verunreinigungen durch Hundekot nach dem Polizeigesetz strafbar sind (Art. 8).",
       "quellen": [
-        "gr_domat_ems_polizeigesetz"
+        "gr_domat_ems_polizeigesetz",
+        "gr_domat_ems_ordnungsbussen",
+        "gr_domat_ems_landwirtschaft"
       ]
     },
     {
       "titel": "Bussen",
-      "wert": "bis CHF 5000",
-      "text": "Verstösse gegen das Polizeigesetz werden mit Busse bis CHF 5000 bestraft. In leichten Fällen kann es bei einer Verwarnung bleiben. Bussen bis CHF 300 sprechen die Polizeiorgane aus, auch als Ordnungsbusse auf der Stelle (Art. 36 bis 38).",
+      "wert": "Ordnungsbussen CHF 50 und CHF 100, sonst bis CHF 5000",
+      "text": "Die Ordnungsbussenliste des Gemeinderats nennt für Hunde drei Beträge: CHF 100 für liegen gelassenen Hundekot, CHF 50 für die missachtete Aufsichtspflicht über frei laufende Hunde und CHF 50 für die missachtete Leinenpflicht im Siedlungsgebiet. Auf der Stelle dürfen die Polizeiorgane eine Ordnungsbusse nur erheben, wenn sie den Verstoss selbst beobachtet haben, der Sachverhalt eindeutig ist und du ihn anerkennst. Du kannst sofort oder innert 30 Tagen bezahlen. Allgemein gilt: Verstösse gegen das Polizeigesetz werden mit Busse bis CHF 5000 bestraft. In leichten Fällen kann es bei einer Verwarnung bleiben. Bussen bis CHF 300 sprechen die Polizeiorgane aus, höhere der Gemeindevorstand (Polizeigesetz, Art. 36 bis 39).",
       "quellen": [
+        "gr_domat_ems_ordnungsbussen",
         "gr_domat_ems_polizeigesetz"
       ]
     }

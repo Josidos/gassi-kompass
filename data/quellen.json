@@ -1111,13 +1111,33 @@
   },
   "gr_domat_ems_polizeigesetz": {
     "kurz": "Polizeigesetz Domat/Ems",
-    "lang": "Gemeinde Domat/Ems: Kommunales Polizeigesetz (SRS 5.1-1) vom 16. November 2020, Fassung in Kraft seit 1. November 2025, Art. 26 bis 29 und 36 bis 38",
+    "lang": "Gemeinde Domat/Ems: Kommunales Polizeigesetz (SRS 5.1-1) vom 16. November 2020, Fassung in Kraft seit 1. November 2025, Art. 26 bis 29 und 36 bis 39",
     "url": "https://domat-ems.tlex.ch/app/de/texts_of_law/5.1-1"
   },
   "gr_domat_ems_friedhof": {
     "kurz": "Friedhofverordnung Domat/Ems",
     "lang": "Gemeinde Domat/Ems: Friedhofverordnung (SRS 8.2-1.1) vom 29. November 2010, in Kraft seit 1. Januar 2011, Art. 1",
     "url": "https://domat-ems.tlex.ch/app/de/texts_of_law/8.2-1.1"
+  },
+  "gr_domat_ems_ordnungsbussen": {
+    "kurz": "Ordnungsbussenliste Domat/Ems",
+    "lang": "Gemeinde Domat/Ems: Ordnungsbussenliste (SRS 5.1-2) vom 16. November 2020, Fassung in Kraft seit 1. Januar 2023, Art. 1",
+    "url": "https://domat-ems.tlex.ch/app/de/texts_of_law/5.1-2"
+  },
+  "gr_domat_ems_landwirtschaft": {
+    "kurz": "Landwirtschaftsgesetz Domat/Ems",
+    "lang": "Gemeinde Domat/Ems: Landwirtschaftsgesetz (SRS 9.2-1) vom 12. Dezember 2020, in Kraft seit 1. Februar 2021, Art. 7 bis 10 und 21",
+    "url": "https://domat-ems.tlex.ch/app/de/texts_of_law/9.2-1"
+  },
+  "gr_domat_ems_meldepflicht": {
+    "kurz": "Gemeinde Domat/Ems: Hundemeldepflicht",
+    "lang": "Gemeinde Domat/Ems, Einwohnerkontrolle: Mitteilung «Hundemeldepflicht» vom 1. Mai 2026",
+    "url": "https://www.domat-ems.ch/archiv/1867531"
+  },
+  "gr_domat_ems_flur": {
+    "kurz": "Gemeinde Domat/Ems: Betreten der Flure",
+    "lang": "Gemeinde Domat/Ems: Mitteilung «Betreten der Flure - Ende der offenen Zeit» vom 18. März 2026",
+    "url": "https://www.domat-ems.ch/_rte/information/2808640"
   },
   "sg_gossau_polizeireglement": {
     "kurz": "Polizeireglement Gossau",
