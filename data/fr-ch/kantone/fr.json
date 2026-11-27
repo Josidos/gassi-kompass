@@ -55,11 +55,12 @@
       "marke": "Obligatoire",
       "ton": "must",
       "wert": "Théorie et évaluation pratique",
-      "text": "Depuis le 1er janvier 2024. Si vous n'avez jamais eu de chien ou plus depuis dix ans, vous suivez un cours théorique d'au moins cinq heures avant de détenir le chien. Un chien nouvellement détenu passe avec vous une évaluation pratique de conductibilité auprès d'un éducateur ou d'une éducatrice, dans les 18 mois suivant son inscription dans AMICUS. Cette évaluation ne s'applique qu'aux chiens nés après l'entrée en vigueur de la règle, le 1er janvier 2024. Les chiens d'aide et de police en sont dispensés.",
+      "text": "Depuis le 1er janvier 2024. Si vous n'avez jamais eu de chien ou plus depuis dix ans, vous suivez un cours théorique d'au moins cinq heures avant de détenir le chien. Un chien nouvellement détenu passe avec vous une évaluation pratique de conductibilité auprès d'un éducateur ou d'une éducatrice, dans les 18 mois suivant son inscription dans AMICUS. Cette évaluation ne s'applique qu'aux chiens nés après l'entrée en vigueur de la règle, le 1er janvier 2024. Les chiens d'aide et de police en sont dispensés. La liste des éducatrices et éducateurs canins agréés figure sur une page du service, avec une carte pour la recherche. Selon le service, elle est régulièrement mise à jour.",
       "quellen": [
         "fr_ldch",
         "fr_rdch",
-        "fr_nouveau"
+        "fr_nouveau",
+        "fr_educateurs"
       ]
     },
     {

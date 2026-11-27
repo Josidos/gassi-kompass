@@ -2,7 +2,7 @@
   "id": "bs",
   "kurz": "BS",
   "uebersetzt_aus": "de",
-  "original": "5d45b17e260d",
+  "original": "a4d141964207",
   "wald": {
     "saison": true,
     "von": "04-01",
@@ -63,7 +63,7 @@
       "marke": "Obligatoire",
       "ton": "must",
       "wert": "pour les nouveaux détenteurs de chiens",
-      "text": "Depuis le 1er avril 2025, vous devez suivre un cours de base si vous détenez un chien pour la première fois. Il comprend au moins 8 leçons et n'a pas d'examen. Vous devez l'accomplir dans les 12 mois suivant la prise en charge du chien. Le chien doit avoir au moins 4 mois au début du cours. Les personnes qui ont déjà détenu des chiens ne sont pas soumises à l'obligation de suivre le cours. Les classes de jeux pour chiots ne comptent pas comme cours de base.",
+      "text": "Depuis le 1er avril 2025, vous devez suivre un cours de base si vous détenez un chien pour la première fois. Il comprend au moins 8 leçons et n'a pas d'examen. Vous devez l'accomplir dans les 12 mois suivant la prise en charge du chien. Le chien doit avoir au moins 4 mois au début du cours. Les personnes qui ont déjà détenu des chiens ne sont pas soumises à l'obligation de suivre le cours. Les classes de jeux pour chiots ne comptent pas comme cours de base. Seuls des spécialistes NHB peuvent proposer le cours de base. Selon le Veterinäramt, l'association VKAS est chargée de vérifier, de reconnaître et de publier les cours : les cours de base reconnus figurent sur son site.",
       "quellen": [
         "bs_kurse",
         "bs_hug",

@@ -2,7 +2,7 @@
   "id": "ti",
   "kurz": "TI",
   "uebersetzt_aus": "it",
-  "original": "6402e55c065c",
+  "original": "14adad819304",
   "wald": {
     "saison": false,
     "text": "La Legge sui cani (loi sur les chiens) ne prévoit pas de période de laisse obligatoire en forêt. La règle générale vaut toute l'année : laisse dans les lieux fréquentés par le public ou par d'autres animaux.",
@@ -47,7 +47,7 @@
       "marke": "Obligatoire",
       "ton": "must",
       "wert": "cours théorique de 6 heures",
-      "text": "Depuis le 1er septembre 2026, toute personne qui prend un chien pour la première fois ou n'en a plus détenu depuis plus de dix ans doit suivre le cours de base, quelle que soit la race : deux séances théoriques d'une durée totale de 6 heures, CHF 120 par participant. Le cours doit être terminé avant de prendre le chien. Seul l'enregistrement dans AMICUS vaut preuve d'une détention antérieure. Amende d'ordre : CHF 150. Pour les races soumises à des restrictions s'ajoutent un cours et deux tests.",
+      "text": "Depuis le 1er septembre 2026, toute personne qui prend un chien pour la première fois ou n'en a plus détenu depuis plus de dix ans doit suivre le cours de base, quelle que soit la race : deux séances théoriques d'une durée totale de 6 heures, CHF 120 par participant. Le cours doit être terminé avant de prendre le chien. Seul l'enregistrement dans AMICUS vaut preuve d'une détention antérieure. Amende d'ordre : CHF 150. Pour les races soumises à des restrictions s'ajoutent un cours et deux tests. La liste des cours proposés par les éducateurs canins autorisés par l'UVC est publiée sur le site de l'Associazione Ticinese Istruttori Cinofili (ATIC). L'inscription se fait en ligne, sur la plateforme de l'ATIC.",
       "quellen": [
         "ti_uvc_corso",
         "ti_rcani",

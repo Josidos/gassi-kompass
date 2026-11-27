@@ -2,7 +2,7 @@
   "id": "vs",
   "kurz": "VS",
   "uebersetzt_aus": "de",
-  "original": "0032249e6e86",
+  "original": "40a319ff3107",
   "wald": {
     "saison": false,
     "text": "L'Ausführungsgesetz zum Tierschutzgesetz (legge d'applicazione della legge sulla protezione degli animali) del Vallese non indica un obbligo di guinzaglio specifico per il bosco né una stagione. Fuori dalle località il tuo cane deve essere sotto controllo. Nelle zone protette e nelle zone naturali il guinzaglio può essere prescritto, tutto l'anno o per determinati periodi. Nelle bandite federali di caccia i cani vanno tenuti al guinzaglio (stato della pagina dell'Ufficio federale dell'ambiente: 5 settembre 2024). Fai attenzione alla segnaletica sul posto.",
@@ -59,7 +59,7 @@
       "marke": "Obbligo",
       "ton": "must",
       "wert": "per i nuovi detentori di cani, almeno 6 ore",
-      "text": "Dal 1° gennaio 2020. Chi abita nel Vallese, ha più di 16 anni e non può dimostrare di avere già detenuto un cane in passato frequenta un corso pratico presso un educatore cinofilo riconosciuto. Il corso dura almeno 6 ore (8 unità da 45 minuti). Lo assolvi al più tardi 12 mesi dopo la presa a carico del cane e al più presto quando il cane ha 8 mesi. Presenti l'attestato del corso al Comune. È esentato tra gli altri chi ha il brevetto NHB.",
+      "text": "Dal 1° gennaio 2020. Chi abita nel Vallese, ha più di 16 anni e non può dimostrare di avere già detenuto un cane in passato frequenta un corso pratico presso un educatore cinofilo riconosciuto. Il corso dura almeno 6 ore (8 unità da 45 minuti). Lo assolvi al più tardi 12 mesi dopo la presa a carico del cane e al più presto quando il cane ha 8 mesi. Presenti l'attestato del corso al Comune. È esentato tra gli altri chi ha il brevetto NHB. Il Veterinäramt rimanda sulla sua pagina a un elenco dei responsabili di corso ammessi: porta all'elenco degli specialisti NHB.",
       "quellen": [
         "vs_agtschg",
         "vs_kursv",

@@ -2,7 +2,7 @@
   "id": "ti",
   "kurz": "TI",
   "uebersetzt_aus": "it",
-  "original": "6402e55c065c",
+  "original": "14adad819304",
   "wald": {
     "saison": false,
     "text": "Die Legge sui cani (Hundegesetz) sieht keine Zeit mit Leinenpflicht im Wald vor. Das ganze Jahr gilt die allgemeine Regel: Leine an Orten, an denen sich Publikum oder andere Tiere aufhalten.",
@@ -47,7 +47,7 @@
       "marke": "Pflicht",
       "ton": "must",
       "wert": "Theoriekurs von 6 Stunden",
-      "text": "Seit dem 1. September 2026 muss den Grundkurs besuchen, wer zum ersten Mal einen Hund übernimmt oder seit mehr als zehn Jahren keinen gehalten hat, unabhängig von der Rasse: zwei Theorieabende von insgesamt 6 Stunden, CHF 120 pro Person. Der Kurs muss abgeschlossen sein, bevor du den Hund übernimmst. Als Nachweis einer früheren Hundehaltung gilt nur die Registrierung in AMICUS. Ordnungsbusse: CHF 150. Für die Rassen mit Einschränkungen kommen ein Kurs und zwei Tests dazu.",
+      "text": "Seit dem 1. September 2026 muss den Grundkurs besuchen, wer zum ersten Mal einen Hund übernimmt oder seit mehr als zehn Jahren keinen gehalten hat, unabhängig von der Rasse: zwei Theorieabende von insgesamt 6 Stunden, CHF 120 pro Person. Der Kurs muss abgeschlossen sein, bevor du den Hund übernimmst. Als Nachweis einer früheren Hundehaltung gilt nur die Registrierung in AMICUS. Ordnungsbusse: CHF 150. Für die Rassen mit Einschränkungen kommen ein Kurs und zwei Tests dazu. Die Liste der Kurse, die vom UVC zugelassene Hundeausbildende anbieten, steht auf der Website der Associazione Ticinese Istruttori Cinofili (ATIC). Die Anmeldung läuft online über die Plattform der ATIC.",
       "quellen": [
         "ti_uvc_corso",
         "ti_rcani",

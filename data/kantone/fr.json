@@ -53,10 +53,11 @@
       "marke": "Pflicht",
       "ton": "must",
       "wert": "Theorie und Praxistest",
-      "text": "Seit 1. Januar 2024. Wer noch nie oder seit mehr als 10 Jahren keinen Hund gehalten hat, besucht vor Beginn der Hundehaltung einen Theoriekurs von mindestens 5 Stunden. Mit einem neuen Hund machst du innerhalb von 18 Monaten nach dem Erwerb einen praktischen Test zur Beurteilung der Führbarkeit. Der Test gilt nur für Hunde, die nach dem Inkrafttreten der Regel am 1. Januar 2024 geboren sind.",
+      "text": "Seit 1. Januar 2024. Wer noch nie oder seit mehr als 10 Jahren keinen Hund gehalten hat, besucht vor Beginn der Hundehaltung einen Theoriekurs von mindestens 5 Stunden. Mit einem neuen Hund machst du innerhalb von 18 Monaten nach dem Erwerb einen praktischen Test zur Beurteilung der Führbarkeit. Der Test gilt nur für Hunde, die nach dem Inkrafttreten der Regel am 1. Januar 2024 geboren sind. Die Liste der anerkannten Hundeausbildnerinnen und Hundeausbildner führt das Amt auf einer eigenen Seite. Sie wird laut Amt regelmässig aktualisiert.",
       "quellen": [
         "fr_hhg",
-        "fr_neu"
+        "fr_neu",
+        "fr_ausbildner"
       ]
     },
     {

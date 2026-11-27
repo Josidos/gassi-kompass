@@ -2,7 +2,7 @@
   "id": "zh",
   "kurz": "ZH",
   "uebersetzt_aus": "de",
-  "original": "789769ddfd60",
+  "original": "9ea0dd58d1d1",
   "wald": {
     "saison": true,
     "von": "04-01",
@@ -52,7 +52,7 @@
       "marke": "Obligatoire",
       "ton": "must",
       "wert": "théorie et pratique",
-      "text": "Cours théorique avec examen (environ 2 heures) pour toute personne qui n'a jamais eu de chien ou n'en a plus eu depuis plus de 10 ans : au plus tôt 1 an avant, au plus tard 2 mois après le début de la détention. Cours pratique pour chaque chien : au moins 6 leçons, début au plus tôt à l'âge de 6 mois, fin au plus tard 12 mois après la prise en charge du chien. Vaut aussi en cas d'arrivée dans le canton.",
+      "text": "Cours théorique avec examen (environ 2 heures) pour toute personne qui n'a jamais eu de chien ou n'en a plus eu depuis plus de 10 ans : au plus tôt 1 an avant, au plus tard 2 mois après le début de la détention. Cours pratique pour chaque chien : au moins 6 leçons, début au plus tôt à l'âge de 6 mois, fin au plus tard 12 mois après la prise en charge du chien. Vaut aussi en cas d'arrivée dans le canton. La formation doit avoir lieu auprès d'une éducatrice ou d'un éducateur canin titulaire d'une autorisation du Veterinäramt (office vétérinaire). L'office tient pour cela deux listes, l'une alphabétique, l'autre par code postal (état : 30 octobre 2026).",
       "quellen": [
         "zh_vet"
       ]

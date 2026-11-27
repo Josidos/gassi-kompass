@@ -2,7 +2,7 @@
   "id": "fr",
   "kurz": "FR",
   "uebersetzt_aus": "de",
-  "original": "259b59d0e6d5",
+  "original": "75b9870733b1",
   "wald": {
     "saison": true,
     "von": "04-01",
@@ -51,10 +51,11 @@
       "marke": "Obbligo",
       "ton": "must",
       "wert": "teoria e test pratico",
-      "text": "Dal 1° gennaio 2024. Chi non ha mai detenuto un cane o non ne detiene uno da più di 10 anni frequenta, prima di iniziare la detenzione, un corso teorico di almeno 5 ore. Con un nuovo cane sostieni, entro 18 mesi dall'acquisizione, un test pratico che valuta se il cane si lascia condurre. Il test vale solo per i cani nati dopo l'entrata in vigore della regola, il 1° gennaio 2024.",
+      "text": "Dal 1° gennaio 2024. Chi non ha mai detenuto un cane o non ne detiene uno da più di 10 anni frequenta, prima di iniziare la detenzione, un corso teorico di almeno 5 ore. Con un nuovo cane sostieni, entro 18 mesi dall'acquisizione, un test pratico che valuta se il cane si lascia condurre. Il test vale solo per i cani nati dopo l'entrata in vigore della regola, il 1° gennaio 2024. L'elenco delle istruttrici e degli istruttori cinofili riconosciuti si trova su una pagina dell'ufficio. Secondo l'ufficio viene aggiornato regolarmente.",
       "quellen": [
         "fr_hhg",
-        "fr_neu"
+        "fr_neu",
+        "fr_ausbildner"
       ]
     },
     {

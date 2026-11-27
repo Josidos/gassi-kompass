@@ -868,5 +868,20 @@
     "kurz": "OFEV: districts francs",
     "lang": "Office fédéral de l'environnement OFEV: Districts francs fédéraux, page publiée le 5 septembre 2024",
     "url": "https://www.bafu.admin.ch/fr/districts-francs"
+  },
+  "fr_ausbildner": {
+    "kurz": "LSVW: Hundeausbildende",
+    "lang": "Kanton Freiburg, Amt für Lebensmittelsicherheit und Veterinärwesen: Hundeausbildnerinnen und Hundeausbildner, mit der Liste der anerkannten Hundeausbildenden (letzte Änderung der Seite: 19. Februar 2026)",
+    "url": "https://www.fr.ch/de/alltag/heimtiere/hunde/hundeausbildnerinnen-und-hundeausbildner"
+  },
+  "fr_educateurs": {
+    "kurz": "SAAV: éducateurs canins",
+    "lang": "Etat de Fribourg, Service de la sécurité alimentaire et des affaires vétérinaires: Educatrices et éducateurs canins, avec la liste des éducateurs agréés et une carte (dernière modification de la page: 19 février 2026)",
+    "url": "https://www.fr.ch/vie-quotidienne/animaux-de-compagnie/chiens/educatrices-et-educateurs-canins"
+  },
+  "ne_cours": {
+    "kurz": "SCAV NE: cours",
+    "lang": "République et Canton de Neuchâtel, Service de la consommation et des affaires vétérinaires: cours pour propriétaires de chiens, avec la liste des éducateurs agréés (page lue le 27 novembre 2026)",
+    "url": "https://www.ne.ch/autorites/DDTE/SCAV/animaux/Pages/Cours-chiens.aspx"
   }
 }

@@ -2,6 +2,23 @@
 
 Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen.
 
+## 2026-11-27, Sitzung mit Joss: Kurs-Karten nennen die Listen der anerkannten Kursanbieter
+
+- Auftrag von Joss um 01:57 Uhr: mit der Verbesserung der Seite weitermachen. Erledigt ist die Lücke «Kursanbieter finden» aus Abschnitt 4 des Backlogs.
+- Geändert, je ein bis zwei Sätze am Schluss der Karte Kurs, jede Angabe heute auf der amtlichen Seite gelesen:
+  - Zürich: Die Ausbildung muss bei Hundeausbildenden mit Bewilligung des Veterinäramts stattfinden, das Amt führt zwei Listen (alphabetisch und nach Postleitzahl, Stand 30. Oktober 2026). Quelle `zh_vet`.
+  - Basel-Stadt: Nur NHB-Fachpersonen dürfen den Basiskurs anbieten, für Überprüfung, Anerkennung und Veröffentlichung ist laut Veterinäramt der Verband VKAS zuständig. Quelle `bs_kurse` (Inhalt aktualisiert am 23. November 2026).
+  - Freiburg, deutsch und französisch: Die Liste der anerkannten Hundeausbildenden steht auf einer eigenen Seite des Amts, französisch auch mit Karte. Neue Quellen `fr_ausbildner` und `fr_educateurs` (letzte Änderung der Seiten: 19. Februar 2026).
+  - Neuenburg: Den Kurs geben vom SCAV anerkannte Hundeausbildende, der SCAV veröffentlicht ihre Liste. Neue Quelle `ne_cours`.
+  - Wallis, deutsch und französisch: Das Veterinäramt verlinkt eine Liste der zugelassenen Kursleiter, sie führt zur Liste der NHB-Fachpersonen. Quellen `vs_vet_erwerb` und `vs_scav_canines`.
+  - Tessin: Die Liste der Kurse steht auf der Website der ATIC, die Anmeldung läuft online über deren Plattform. Quelle `ti_uvc_corso`.
+- Kein Zusatz in Luzern (das Merkblatt des Veterinärdiensts vom 1. Dezember 2022 nennt nur «geeignete Kurse» und die Website des NHB) und im Thurgau (keine amtliche Liste gefunden).
+- Übersetzungen im selben Zug nachgeführt: 10 Dateien, `python3 build.py --fehlend` meldet nichts. `geprueft` bleibt in allen Dateien stehen, weil nur die Karte Kurs gelesen wurde.
+- Aufgefallen, nicht übernommen: Die Seite des SCAV Neuenburg nennt eine schriftliche Prüfung am Schluss des Kurses, höchstens 6 Halterinnen und Halter pro Gruppe und einen geschätzten Preis von CHF 300 bis 400. Beim nächsten Nachprüfen von Neuenburg lesen und ergänzen.
+- Frage von Joss um 01:59 Uhr, wie die Angaben bei so vielen Quellen aktuell bleiben: Antwort im Backlog, Abschnitt 5, als zweiter Sonderlauf «Änderungswächter für Quellen». Eine GitHub Action merkt sich je Quelle eine Prüfsumme und meldet, was sich geändert hat. Der Lauf prüft dann zuerst diese Dateien nach. Befund dazu: Mit 96 Originalfassungen, 4 Dateien pro Lauf und zwei Läufen pro Woche dauert eine Runde 12 Wochen, die Schwelle von 60 Tagen ist so nicht zu halten.
+- Abgehakt: Glarus, Feld `wald` (die Datei trägt schon `ganzjaehrig: true`).
+- Gebaut und getestet: 294 Seiten, 317 Quellen, Test in Ordnung.
+
 ## 2026-11-27, Sitzung mit Joss: zweite Runde an Hundeschulen zusammengestellt, neues Themenfeld vorgemerkt
 
 - Entscheide von Joss (01:01 bis 01:28 Uhr): «Zürich 2», «Runde 2» und «Tierheime» sollen erledigt werden. Für Runde 2 mehrere Hundeschulen pro Kanton nach Bevölkerung und Region, danach die Zahl verdoppelt. Um 01:19 Uhr: Er verschickt die Mails selbst, Claude liefert Empfänger, Betreff und Text.

@@ -55,10 +55,11 @@
       "marke": "Obligatoire",
       "ton": "must",
       "wert": "pour le premier chien",
-      "text": "Les nouveaux propriétaires de chiens doivent suivre un cours obligatoire. Selon le SCAV, il concerne toute personne d'au moins 18 ans domiciliée dans le canton qui a acquis un chien depuis le 1er janvier 2021 et ne peut pas prouver avoir déjà détenu un chien. Le cours comprend 2 heures de théorie et 8 périodes pratiques de 45 minutes avec le chien. Il doit débuter au plus tard 6 mois après l'acquisition et se terminer dans les 6 mois suivants.",
+      "text": "Les nouveaux propriétaires de chiens doivent suivre un cours obligatoire. Selon le SCAV, il concerne toute personne d'au moins 18 ans domiciliée dans le canton qui a acquis un chien depuis le 1er janvier 2021 et ne peut pas prouver avoir déjà détenu un chien. Le cours comprend 2 heures de théorie et 8 périodes pratiques de 45 minutes avec le chien. Il doit débuter au plus tard 6 mois après l'acquisition et se terminer dans les 6 mois suivants. Le cours est donné par des éducatrices et éducateurs agréés par le SCAV, qui en publie la liste.",
       "quellen": [
         "ne_lchiens",
-        "ne_scav"
+        "ne_scav",
+        "ne_cours"
       ]
     },
     {

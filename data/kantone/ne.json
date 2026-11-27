@@ -2,7 +2,7 @@
   "id": "ne",
   "kurz": "NE",
   "uebersetzt_aus": "fr",
-  "original": "894ca71315f3",
+  "original": "2a17ef973331",
   "wald": {
     "saison": true,
     "von": "04-15",
@@ -53,10 +53,11 @@
       "marke": "Pflicht",
       "ton": "must",
       "wert": "für den ersten Hund",
-      "text": "Neue Hundeeigentümerinnen und Hundeeigentümer müssen einen obligatorischen Kurs besuchen. Laut dem SCAV betrifft er alle Personen ab 18 Jahren mit Wohnsitz im Kanton, die seit dem 1. Januar 2021 einen Hund erworben haben und nicht nachweisen können, dass sie schon einmal einen Hund gehalten haben. Der Kurs umfasst 2 Stunden Theorie und 8 Praxislektionen von 45 Minuten mit dem Hund. Er muss spätestens 6 Monate nach dem Erwerb beginnen und in den folgenden 6 Monaten abgeschlossen sein.",
+      "text": "Neue Hundeeigentümerinnen und Hundeeigentümer müssen einen obligatorischen Kurs besuchen. Laut dem SCAV betrifft er alle Personen ab 18 Jahren mit Wohnsitz im Kanton, die seit dem 1. Januar 2021 einen Hund erworben haben und nicht nachweisen können, dass sie schon einmal einen Hund gehalten haben. Der Kurs umfasst 2 Stunden Theorie und 8 Praxislektionen von 45 Minuten mit dem Hund. Er muss spätestens 6 Monate nach dem Erwerb beginnen und in den folgenden 6 Monaten abgeschlossen sein. Den Kurs geben Hundeausbildnerinnen und Hundeausbildner, die der SCAV anerkannt hat. Der SCAV veröffentlicht ihre Liste.",
       "quellen": [
         "ne_lchiens",
-        "ne_scav"
+        "ne_scav",
+        "ne_cours"
       ]
     },
     {

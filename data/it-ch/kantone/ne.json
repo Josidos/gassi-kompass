@@ -2,7 +2,7 @@
   "id": "ne",
   "kurz": "NE",
   "uebersetzt_aus": "fr",
-  "original": "894ca71315f3",
+  "original": "2a17ef973331",
   "wald": {
     "saison": true,
     "von": "04-15",
@@ -53,10 +53,11 @@
       "marke": "Obbligo",
       "ton": "must",
       "wert": "per il primo cane",
-      "text": "I nuovi proprietari di cani devono frequentare un corso obbligatorio. Secondo lo SCAV riguarda ogni persona di almeno 18 anni domiciliata nel Cantone che ha acquisito un cane dal 1° gennaio 2021 e non può dimostrare di aver già detenuto un cane. Il corso comprende 2 ore di teoria e 8 lezioni pratiche di 45 minuti con il cane. Deve iniziare al più tardi 6 mesi dopo l'acquisizione e concludersi entro i 6 mesi successivi.",
+      "text": "I nuovi proprietari di cani devono frequentare un corso obbligatorio. Secondo lo SCAV riguarda ogni persona di almeno 18 anni domiciliata nel Cantone che ha acquisito un cane dal 1° gennaio 2021 e non può dimostrare di aver già detenuto un cane. Il corso comprende 2 ore di teoria e 8 lezioni pratiche di 45 minuti con il cane. Deve iniziare al più tardi 6 mesi dopo l'acquisizione e concludersi entro i 6 mesi successivi. Il corso è tenuto da istruttrici e istruttori cinofili riconosciuti dallo SCAV, che ne pubblica l'elenco.",
       "quellen": [
         "ne_lchiens",
-        "ne_scav"
+        "ne_scav",
+        "ne_cours"
       ]
     },
     {
