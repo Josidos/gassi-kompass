@@ -16,9 +16,10 @@
   var wahl = wurzel.querySelectorAll('[data-karte-art]');
   var zeiger = document.querySelectorAll('[data-karte-zeige]');
   var ART = { 7: 'frei', 3: 'leine', 8: 'leine', 9: 'leine', 12: 'leine', 1: 'verbot' };
-  var KACHELN = 'https://wmts.geo.admin.ch/1.0.0/ch.swisstopo.pixelkarte-grau/default/current/3857/{z}/{x}/{y}.jpeg';
+  // Graue swissTLM-Karte von swisstopo, abgeschwächt, damit die Flächen hervortreten
+  var KACHELN = 'https://wmts.geo.admin.ch/1.0.0/ch.swisstopo.swisstlm3d-karte-grau/default/current/3857/{z}/{x}/{y}.png';
   var ruhig = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  var karte = null, gruppen = {}, formen = [], gewaehlt = null, ladung = null, grenzen = null;
+  var karte = null, gruppen = {}, formen = [], punkte = null, gewaehlt = null, ladung = null, grenzen = null;
   var wache = null, ortPunkt = null, ortKreis = null, ortGezeigt = false;
 
   function melde(text) { status.textContent = text; }
@@ -46,7 +47,7 @@
     var art = ART[zone], f = farbe('--k-' + art);
     return {
       renderer: stil.leinwand, color: f, fillColor: f,
-      weight: stark ? 4 : (art === 'verbot' ? 1 : 2),
+      weight: stark ? 4 : (art === 'verbot' ? 1.5 : 2),
       fillOpacity: stark ? 0.6 : (art === 'leine' ? 0.3 : 0.45),
       dashArray: (zone === 8 || zone === 9 || zone === 12) && !stark ? '6 5' : null
     };
@@ -94,7 +95,7 @@
       attributionControl: false, fadeAnimation: false, zoomAnimation: !ruhig, markerZoomAnimation: !ruhig,
       inertia: !ruhig, minZoom: 11, maxZoom: 19
     });
-    L.tileLayer(KACHELN, { minZoom: 11, maxZoom: 19, maxNativeZoom: 18 }).addTo(karte);
+    L.tileLayer(KACHELN, { minZoom: 11, maxZoom: 19, opacity: 0.6 }).addTo(karte);
     stil.leinwand = L.canvas({ padding: 0.3, tolerance: 8 });
     ['verbot', 'leine', 'frei'].forEach(function (art) { gruppen[art] = L.layerGroup().addTo(karte); });
     daten.zonen.forEach(function (z, i) {
@@ -107,6 +108,24 @@
     ['verbot', 'leine', 'frei'].forEach(function (art) {
       formen.forEach(function (form) { if (ART[form.zone.z] === art) form.addTo(gruppen[art]); });
     });
+    // Freilaufzonen sind klein: Aus der Ferne steht an ihrer Stelle ein Punkt
+    punkte = L.layerGroup();
+    formen.forEach(function (form) {
+      if (ART[form.zone.z] !== 'frei') return;
+      var punkt = L.circleMarker(form.getBounds().getCenter(), { renderer: stil.leinwand, radius: 6, color: '#fff', weight: 2, fillColor: farbe('--k-frei'), fillOpacity: 1 });
+      punkt.on('click', function (ereignis) {
+        L.DomEvent.stopPropagation(ereignis);
+        karte.fitBounds(form.getBounds().pad(0.6), { maxZoom: 17, animate: !ruhig });
+        waehle(form);
+      });
+      punkt.addTo(punkte);
+    });
+    var zeigePunkte = function () {
+      var soll = karte.getZoom() < 15 && karte.hasLayer(gruppen.frei);
+      if (soll && !karte.hasLayer(punkte)) punkte.addTo(karte);
+      if (!soll && karte.hasLayer(punkte)) karte.removeLayer(punkte);
+    };
+    karte.on('zoomend', zeigePunkte);
     grenzen = L.featureGroup(formen).getBounds();
     karte.fitBounds(grenzen);
     karte.setMaxBounds(grenzen.pad(1));
@@ -116,9 +135,10 @@
         var g = gruppen[kasten.getAttribute('data-karte-art')];
         if (kasten.checked) g.addTo(karte); else { karte.removeLayer(g); if (gewaehlt && ART[gewaehlt.zone.z] === kasten.getAttribute('data-karte-art')) waehle(null); }
       };
-      kasten.addEventListener('change', schalte);
+      kasten.addEventListener('change', function () { schalte(); zeigePunkte(); });
       schalte();
     });
+    zeigePunkte();
     wurzel.setAttribute('data-flaechen', String(formen.length));
     ortKnopf.parentNode.hidden = false;
     melde(T.bereit);
