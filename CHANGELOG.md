@@ -2,6 +2,22 @@
 
 Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen.
 
+## 2026-11-27, Sitzung mit Joss: Kanton Luzern am geltenden Recht geprüft
+
+- Gewählt mit dem Wissensgraphen: Luzern hatte das älteste Prüfdatum (16. November 2026) und in der Karte Rassen nur ein Medium als Quelle.
+- Im Browser von Joss gelesen. Auf srl.lu.ch: Gesetz über das Halten von Hunden SRL 848 und Verordnung über das Halten von Hunden SRL 849 (beide Stand 1. Januar 2025, ganzer Text), Kantonale Jagdverordnung SRL 725a (§§ 27 und 28, Stand 1. April 2018), Kantonale Ordnungsbussenverordnung SRL 314 (Stand 1. November 2026), Verordnung über die Anzeige eines Tierfundes SRL 219b. Jagdgesetz, Waldgesetz und Waldverordnung enthalten keine weitere Regel für Hunde. Auf veterinaerdienst.lu.ch: Hunde, Kennzeichnung und Registrierung, Ausbildung Hund und Halter, Vorfälle mit Hunden. Auf polizei.lu.ch: Fundbüro, Tiere. Auf lawa.lu.ch: Leinenpflicht für Hunde.
+- Befund: Die bisherigen Angaben stimmen. Leinenpflicht im Wald und näher als 50 m zum Waldrand vom 1. April bis 31. Juli (§ 27 KJSV), Hundesteuer CHF 120 und CHF 40 für Hofhunde (§ 6 HuG), NHB innert 18 Monaten (§ 4a HuV).
+- Quellen, alt und neu: `lu_hug` und `lu_huv` zeigten auf PDF bei lu.lexwork.naz.ch, jetzt auf den geltenden Text bei srl.lu.ch. `lu_wald` zeigte auf den Datensatz bei opendata.swiss (am 27.11.2026 für WebFetch nicht erreichbar), jetzt auf die Seite «Leinenpflicht für Hunde» der Dienststelle Landwirtschaft und Wald, die auch die Online-Karte verlinkt. `lu_nhb` zeigte auf ein Merkblatt mit Download-Pfad bei stadt-kriens.ch, jetzt auf die Seite des Veterinärdiensts. Neu: `lu_kjsv`, `lu_kobv`, `lu_tierfund`, `lu_polizei_tiere`, `lu_vet_hunde`, `lu_vet_registrierung`, `lu_vet_vorfaelle`. Die Kantonsdatei zitiert `srf` (Medium) und `lu_stadt` (Broschüre der Stadt von 2022) nicht mehr.
+- Leine, neu: das ganze Jahr in allen Naturschutzgebieten, im eidgenössischen Jagdbanngebiet Tannhorn und im Wasser- und Zugvogelreservat Wauwilermoos. Im Wald die Ausnahme für Jagd-, Herdenschutz- und Diensthunde. Die Liste hat jetzt sieben Punkte.
+- Karte Rassen: alt «keine Einschränkungen», gestützt auf SRF. Neu «keine Rasseliste»: Gesetz und Verordnung enthalten keine Liste, der Veterinärdienst ordnet Massnahmen im Einzelfall an (§ 7a HuV, sieben Massnahmen zum Aufklappen). Dazu Meldepflicht und Melderecht bei Vorfällen.
+- Karte Unterwegs, neu: Ordnungsbussen zum Aufklappen (CHF 100 Leinenpflicht im Wald, CHF 100 Betretverbot, CHF 100 Leinenzwang, CHF 150 in Naturschutz- und Wildtierschutzgebieten, CHF 80 Hundekot) und der Abschuss streunender und wildernder Hunde nach § 28 KJSV.
+- Karte Hundesteuer, neu: ab 6 Monaten, halbe Steuer, zahlbar bis Ende Juni, Ermässigung und Erlass, Rückerstattung, neun Punkte zu den Befreiungen. Karte Kurs, neu: Ausnahmen, gleichwertige Prüfung, Stand der Seite des Veterinärdiensts (1. Februar 2023). Karte Anmeldung, neu: Fristen von 10 Tagen, Welpen. Karte Haftpflicht: gleiche Aussage, jetzt mit dem Wortlaut von § 7a HuV.
+- `vergleich`, alt und neu: `rassen` «keine Einschränkungen», jetzt «keine Rasseliste». `steuer` «CHF 120 pro Jahr», jetzt mit «Hofhunde CHF 40». `anm` «AMICUS, Steuer über die Gemeinde», jetzt «AMICUS innert 10 Tagen, Anmeldung und Steuer bei der Gemeinde».
+- Neu: Abschnitt «Umzug» und Feld `vermisst`: Tiermeldezentrale mit beiden Nummern laut der Luzerner Polizei, die Polizei als zuständige Stelle nach SRL 219b, Gewahrsam und 6 Tage nach § 5 HuV.
+- Zwei amtliche Quellen widersprechen sich: Die Seite des Veterinärdiensts (April 2023) nennt für Adressänderungen AMICUS, § 7d Abs. 2 HuV (Stand 2025) die Wohnsitzgemeinde. Die Seite folgt der Verordnung, der Punkt steht im Backlog.
+- Nicht gelesen: Merkblatt und FAQ zur Hundeausbildung, Merkblatt zur Leinenpflicht (alle PDF).
+- Übersetzungen auf Französisch und Italienisch im selben Zug nachgeführt. Bau und Test fehlerfrei, die Kantonsseite als Bild angesehen.
+
 ## 2026-11-27, Sitzung mit Joss: fünf Skills aus einem Video geprüft
 
 - Auftrag von Joss um 16:39 Uhr: ein Video ansehen, das fünf Skills empfiehlt, die Skills finden und installieren. Um 16:49 Uhr ergänzt: zuerst Graphify, danach die fünf noch einmal durchgehen und vor der weiteren Arbeit nach passenden Skills suchen.

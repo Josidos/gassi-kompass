@@ -246,7 +246,7 @@ Unklar, nur beobachten. Durchgang vom 18.11.2026: `bl_wald` (baselland.ch, Antwo
 - [ ] Bund, alle drei Fassungen: Seit 2026 gibt es zur Hundedatenbank AMICUS die App «animundo» mit der elektronischen ePetCard. Die bisherige PetCard lässt sich nicht mehr nachbestellen. So steht es am 27.11.2026 auf den Seiten von Schlieren, Steffisburg und Gossau. Mit einer Quelle des Bundes oder von AMICUS (Identitas AG) in der jeweiligen Sprache belegen, dann auf `/schweiz/` in der Karte zur Registrierung ergänzen. Nicht aus den Seiten der Gemeinden übernehmen.
 - [x] 2026-11-27: Stadt Bern, Hundetaxe CHF 150 pro Hund und Jahr für Hunde ab 6 Monaten, Rechnung im August, Befreiung für Assistenz-, Begleit-, Therapie- und Rettungshunde (Seite der Stadt, geändert am 8. Oktober 2026).
 - [ ] Stadt Bern: Quelle «Gemeinderat Bern 2019» (Tierpark, Kinderzoo) durch eine aktuelle amtliche Quelle ersetzen
-- [ ] Stadt Luzern: Bussen mit einer Quelle nach 2022 belegen
+- [ ] Stadt Luzern: Bussen mit einer Quelle nach 2022 belegen. Hinweis vom 2026-11-27: Die Kantonale Ordnungsbussenverordnung (Quelle `lu_kobv`, Stand 1. November 2026) nennt die Beträge: CHF 100 für Betretverbot und Leinenzwang, CHF 150 für den Leinenzwang in Naturschutzgebieten, CHF 80 für Hundekot. Die Karte der Stadt darauf stützen.
 - [x] 2026-11-27: Kanton Bern, «keine Kurspflicht» belegt mit dem Hundegesetz (kennt keinen Pflichtkurs, Kurse nur als Massnahme im Einzelfall, Art. 12) und der Seite «Einen Hund kaufen und halten» des Amts für Veterinärwesen (empfiehlt einen Kurs). Die Quelle der Gemeinde Büren entfällt.
 - [ ] Kanton Bern: Entscheid des Grossen Rats von 2023 zur Wald-Leinenpflicht mit einer amtlichen Quelle (Ratsprotokoll) belegen Stand 27.11.2026: Zwei Suchen ohne Treffer bei den Dokumenten des Grossen Rats (rrgr-service.apps.be.ch, ogd.parl.apps.be.ch). Der Medienbericht vom 13. September 2023 nennt 70 zu 63 Stimmen bei 12 Enthaltungen und einen Vorstoss von Grossrätin Amstutz (SVP), abgelehnt auch als Postulat. Er spricht von der Brutzeit der Wildtiere, nicht eigens vom Wald: Die Seite sagt es jetzt so.
 - [ ] Kanton Zürich, vordringlich: Einzelheiten der Theorieprüfung (Zahl der Fragen, Dauer, Grenze zum Bestehen, Wiederholung) aus dem Prüfungsreglement und den Seiten des Veterinäramts belegen und in der Karte «Kurs» ergänzen. Anstoss: eine Zuschrift vom 26.11.2026 (keine Quelle). Laut Suchdaten vom 26.11.2026 wird nach dem obligatorischen Hundekurs in Zürich gesucht, und die Themenseite Kurs wird schon angeklickt.
@@ -379,7 +379,9 @@ Unklar, nur beobachten. Durchgang vom 18.11.2026: `bl_wald` (baselland.ch, Antwo
 - [ ] Kanton Jura: geltende Fassung der Ordonnance sur la chasse (RSJU 922.111, Art. 40) lesen. Abrufbar war nur der Stand 2012, die Seite nennt ihn. Danach auch Bussen ergänzen (Loi sur la chasse, RSJU 922.11, Art. 71: nur im Stand 2013 gelesen, weggelassen).
 - [ ] Ville de Sion: geltende Fassung des Règlement communal de police prüfen (gelesen: Fassung von 1996, homologiert 1997). Freilaufzonen und Verbotsorte suchen.
 - [ ] Brig-Glis: Datum des Merkblatts «Freilauf-Zonen / Leinenpflicht» klären, Merkblatt Robidogs lesen.
-- [ ] Luzern, Karte Rassen: Die einzige Quelle ist ein Medium (`srf`). Amtliche Quelle suchen, sonst die Angabe kürzen (aufgefallen in der Kette Übersetzungen, 18.11.2026)
+- [x] 2026-11-27: Luzern, Karte Rassen: Die Quelle `srf` ist ersetzt durch das Hundegesetz und die Hundeverordnung im geltenden Text (srl.lu.ch). Beide enthalten keine Rasseliste, der Veterinärdienst ordnet Massnahmen im Einzelfall an (§ 7a HuV). Die Karte sagt jetzt «keine Rasseliste» statt «keine Einschränkungen».
+- [ ] Kanton Luzern: Die Seite «Kennzeichnung und Registrierung» des Veterinärdiensts (Stand 24. April 2023) nennt für Adressänderungen AMICUS, § 7d Abs. 2 HuV (Stand 1. Januar 2025) die Wohnsitzgemeinde. Die Seite folgt der Verordnung. Beim Nachprüfen ansehen, ob der Veterinärdienst seine Seite angepasst hat.
+- [ ] Kanton Luzern: Merkblatt und FAQ des Veterinärdiensts zur obligatorischen Hundeausbildung und das Merkblatt zur Leinenpflicht (PDF auf veterinaerdienst.lu.ch und lawa.lu.ch) sind nicht gelesen. Die FAQ könnte sagen, ob die Pflicht zum NHB beim Zuzug aus einem anderen Kanton gilt. Bis dahin verweist der Abschnitt «Umzug» an den Veterinärdienst.
 - [ ] Wallis deutsch, Karte Rassen: die Rassenamen «Neapolitanischer Mastiff» und «Spanischer Mastiff» mit der Quelle vergleichen (aufgefallen 18.11.2026)
 - [ ] Tessin, Karte Rassen, Liste: «Pastori belga» mit der Quelle vergleichen (aufgefallen 18.11.2026)
 - [x] 2026-11-27 abgehakt, die Datei trägt schon `ganzjaehrig: true` und die Seite titelt «Leinenpflicht im Wald das ganze Jahr»: Glarus, Feld `wald`: `saison` ist `false`, die Leine gilt aber ganzjährig. Die Seite titelt «Keine Saisonregel im Wald». Titel oder Daten so anpassen, dass niemand «keine Pflicht» liest (aufgefallen in der Kette Übersetzungen, 18.11.2026)
@@ -410,7 +412,7 @@ Die Glieder der Kette haben jede Originalfassung Satz für Satz gelesen und noti
 - [ ] `data/fr-ch/gemeinden/ge/geneve.json`, `freilaufzonen`: «promenade des Crêts» und «parc Bertrand» stehen in beiden Listen (eingezäunt und nicht eingezäunt). Der parc Liotard steht bei den Freilaufzonen und bei den Verboten, die Karte «Accès interdit» sagt das selbst. Mit der Quelle vergleichen.
 - [ ] `data/fr-ch/gemeinden/vs/sion.json`, Karte «Annonce»: «le passeport de l'animal avec son numéro AMICUS» lässt offen, ob die Nummer im Pass stehen muss oder zusätzlich vorzulegen ist.
 - [ ] `data/gemeinden/bl/allschwil.json`: Karte Hundetaxe spricht von «Hundegebühr». Karte Bussen schreibt «CHF 5'000», die anderen Dateien «CHF 5000».
-- [ ] `data/gemeinden/lu/luzern.json`: nur eine Karte (Bussen). Dort ist «CHF 100 bis 150 (Naturschutzgebiete)» unklar: Gilt der ganze Rahmen oder nur der obere Betrag für Naturschutzgebiete?
+- [ ] `data/gemeinden/lu/luzern.json`: nur eine Karte (Bussen). Dort ist «CHF 100 bis 150 (Naturschutzgebiete)» unklar: Gilt der ganze Rahmen oder nur der obere Betrag für Naturschutzgebiete? Antwort vom 2026-11-27 aus der Kantonalen Ordnungsbussenverordnung (`lu_kobv`): CHF 150 gilt nur für den Leinenzwang in Naturschutzgebieten, sonst CHF 100. Die Karte ist noch nicht angepasst.
 - [ ] `data/gemeinden/tg/arbon.json`, Karte Anmeldung: Die Stadt nennt 10 und 14 Tage, die Karte sagt das offen. Bei der Nachprüfung klären.
 - [ ] `data/gemeinden/vs/brig-glis.json`, Karte Hundetaxe: `wert` «CHF 125 pro Jahr» ohne «pro Hund». Karte Leine: `wert` nennt «Brig, Glis, Gamsen und Brigerbad», der Text «Brig-Glis und Gamsen».
 - [ ] `data/it-ch/gemeinden/ti/lugano.json`: Karte «Imposta sui cani» spricht im Text von «tassa». Die Datei nennt die Freilaufzonen «aree per cani», die Wortliste des Handbuchs «area di svago per cani», und in der Karte «Guinzaglio» ist die «area di svago di Pian Casoro» ein Ort mit Leinenpflicht. Das kann man verwechseln.
@@ -516,7 +518,7 @@ Einstiege: Seite des Veterinärdiensts, Seite der Kantonspolizei, kantonale Gese
 - [x] Aargau, 2026-11-27 (in der Sitzung, deutsch, französisch und italienisch)
 - [x] St. Gallen, 2026-11-27 (in der Sitzung, deutsch, französisch und italienisch)
 - [x] Genf, 2026-11-27 (in der Sitzung, französisch, deutsch und italienisch)
-- [ ] Luzern
+- [x] Luzern, 2026-11-27 (in der Sitzung, deutsch, französisch und italienisch)
 - [ ] Tessin
 - [ ] Wallis (deutsch und französisch)
 - [ ] Freiburg (deutsch und französisch)

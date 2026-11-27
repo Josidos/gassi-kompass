@@ -2,28 +2,30 @@
   "id": "lu",
   "kurz": "LU",
   "uebersetzt_aus": "de",
-  "original": "21693237111e",
+  "original": "7218f9a7f36b",
   "wald": {
     "saison": true,
     "von": "04-01",
     "bis": "07-31",
     "wo": "nel bosco e fino a 50 m dal margine del bosco",
     "quellen": [
-      "lu_wald",
-      "lu_stadt"
+      "lu_kjsv",
+      "lu_wald"
     ]
   },
   "leine": {
     "punkte": [
       "nei locali accessibili al pubblico come ristoranti e negozi",
-      "nelle riserve naturali e nei parchi",
+      "nei parchi",
       "sui mezzi di trasporto pubblici",
       "sulle strade molto trafficate",
-      "nel bosco e fino a 50 m dal margine del bosco, dal 1° aprile al 31 luglio",
-      "cagne in calore, cani mordaci o affetti da una malattia contagiosa: sempre all'aperto e nei locali accessibili a terzi"
+      "tutto l'anno in tutte le riserve naturali, nella bandita federale di caccia del Tannhorn e nella riserva d'uccelli acquatici e migratori del Wauwilermoos",
+      "nel bosco e fino a 50 m dal margine del bosco, dal 1° aprile al 31 luglio. Sono esclusi i cani da caccia e da protezione delle greggi nonché i cani di servizio della polizia e dei servizi di soccorso, in intervento e durante l'addestramento.",
+      "cagne in calore, cani mordaci e cani affetti da una malattia contagiosa: sempre all'aperto e nei locali accessibili a terzi"
     ],
     "quellen": [
       "lu_huv",
+      "lu_kjsv",
       "lu_wald"
     ]
   },
@@ -46,7 +48,7 @@
       "marke": "Nessun obbligo",
       "ton": "none",
       "wert": "solo nel singolo caso",
-      "text": "Non c'è un obbligo generale di assicurazione. Il servizio veterinario può ordinarlo nel singolo caso.",
+      "text": "La Hundegesetz (legge sui cani) e la Hundeverordnung (ordinanza sui cani) non prevedono un obbligo generale di assicurazione. Il Veterinärdienst (servizio veterinario cantonale) può obbligarti, nel singolo caso, a stipulare un'assicurazione di responsabilità civile. È una delle misure che può ordinare per un cane pericoloso.",
       "quellen": [
         "lu_huv",
         "lu_hug"
@@ -57,21 +59,31 @@
       "marke": "Obbligo",
       "ton": "must",
       "wert": "NHB entro 18 mesi",
-      "text": "Chi detiene un cane per la prima volta e chiunque importi un cane dall'estero deve superare il Nationales Hundehalter-Brevet (NHB, brevetto nazionale per detentori di cani) entro 18 mesi dall'acquisto. Per farlo il cane deve avere almeno 12 mesi.",
+      "text": "Chi detiene un cane per la prima volta e chi importa un cane dall'estero deve superare con lui il Nationales Hundehalter-Brevet (NHB, brevetto nazionale per detentori di cani) entro 18 mesi dall'acquisto. Il Veterinärdienst (servizio veterinario cantonale) può riconoscere un altro esame come equivalente. Se non lo superi entro 18 mesi, il servizio esamina l'adozione di misure. Secondo il Veterinärdienst l'obbligo vale dal 1° gennaio 2023 e l'esame può essere sostenuto al più presto quando il cane ha 12 mesi. Sei libero di scegliere con quali corsi prepararti (stato della pagina del Veterinärdienst: 1° febbraio 2023).",
       "quellen": [
         "lu_huv",
         "lu_nhb"
-      ]
+      ],
+      "mehr": {
+        "titel": "Mostra le eccezioni",
+        "punkte": [
+          "cani importati in Svizzera come masserizie di trasloco",
+          "cani d'assistenza e cani di servizio",
+          "chi supera, entro 18 mesi dall'acquisto del cane, un esame riconosciuto della Technische Kommission für das Gebrauchs- und Sporthundewesen (commissione tecnica per cani da utilità e sportivi) della Società Cinologica Svizzera"
+        ]
+      }
     },
     {
       "titel": "Notifica",
       "marke": "Obbligo",
       "ton": "note",
       "wert": "AMICUS e Comune",
-      "text": "Il tuo cane deve avere un microchip ed essere iscritto in AMICUS. L'imposta sui cani è riscossa dal Comune.",
+      "text": "Il tuo cane deve avere un microchip ed essere iscritto nella banca dati AMICUS. La veterinaria o il veterinario applica il microchip e registra anche il cane in AMICUS. Annunci il cane al tuo Comune e lì paghi l'imposta sui cani. Se acquisti un cane o lo prendi a carico per più di 3 mesi, lo registri in AMICUS entro 10 giorni. Lo stesso vale se lo vendi o lo cedi per più di 3 mesi, e se muore. Annunci i cambiamenti di indirizzo e di nome al tuo Comune di domicilio entro 10 giorni. I cuccioli devono avere un microchip al più tardi tre mesi dopo la nascita, in ogni caso prima di essere ceduti.",
       "quellen": [
-        "lu_stadt",
-        "lu_hug"
+        "lu_huv",
+        "lu_hug",
+        "lu_vet_registrierung",
+        "lu_vet_hunde"
       ]
     },
     {
@@ -79,38 +91,103 @@
       "marke": "cantonale",
       "ton": "note",
       "wert": "CHF 120 all'anno",
-      "text": "Vale in tutti i Comuni lucernesi. Cani da cortile nelle aziende agricole: CHF 40. Sono esonerati tra gli altri i cani d'assistenza, di servizio e militari.",
+      "text": "Per ogni cane di età superiore a 6 mesi paghi CHF 120 all'anno al Comune in cui lo detieni. L'importo è fissato nella Hundegesetz (legge sui cani) e vale in tutti i Comuni lucernesi. Per i cani da fattoria delle aziende agricole l'imposta è di CHF 40. Se il tuo cane compie 6 mesi solo dopo il 30 giugno, paghi metà dell'imposta annuale. L'imposta va pagata per l'anno civile in corso al più tardi entro la fine di giugno. Il Comune può ridurla fino alla metà se il cane protegge un edificio isolato e, nei casi di rigore, condonarla del tutto o in parte su domanda motivata. Se il tuo cane muore prima del 30 giugno e non acquisti un cane sostitutivo, hai diritto al rimborso di metà dell'imposta.",
       "quellen": [
-        "lu_hug"
-      ]
+        "lu_hug",
+        "lu_huv"
+      ],
+      "mehr": {
+        "titel": "Mostra i cani esonerati",
+        "punkte": [
+          "cani di servizio di cui hanno bisogno la polizia o altri servizi pubblici",
+          "cani militari",
+          "cani da protezione, sanitari, da catastrofe e da valanga addestrati, purché la loro detenzione risponda a un interesse pubblico",
+          "cani esaminati per la ricerca della selvaggina ferita, prescritti per ogni società di caccia",
+          "cani d'assistenza addestrati e necessari come sostegno",
+          "cani per i quali l'imposta è già stata pagata in un altro Comune del Cantone o in un altro Cantone",
+          "cani che soggiornano nel Cantone per meno di 3 mesi",
+          "cane sostitutivo di un cane deceduto: fino alla fine dell'anno fiscale",
+          "Per l'esonero occorre una prova, per esempio un attestato del servizio da cui dipende il cane o un certificato di formazione."
+        ]
+      }
     },
     {
       "titel": "Razze",
       "marke": "nessun elenco",
       "ton": "none",
-      "wert": "nessuna restrizione",
-      "text": "Il Cantone di Lucerna non prevede divieti specifici per singole razze.",
+      "wert": "nessun elenco delle razze",
+      "text": "La Hundegesetz (legge sui cani) e la Hundeverordnung (ordinanza sui cani) non contengono un elenco di razze vietate o soggette ad autorizzazione. Il Veterinärdienst (servizio veterinario cantonale) ordina misure nel singolo caso, a seconda della gravità, quando un cane è pericoloso per le persone o per gli animali. Veterinarie e veterinari, mediche e medici, responsabili di rifugi per animali, organi doganali e istruttori cinofili devono segnalargli un cane che ha ferito gravemente una persona o un animale o che è eccessivamente aggressivo. Anche tu puoi segnalare un episodio del genere al Veterinärdienst.",
       "quellen": [
-        "srf"
-      ]
+        "lu_hug",
+        "lu_huv",
+        "lu_vet_vorfaelle"
+      ],
+      "mehr": {
+        "titel": "Mostra le misure possibili",
+        "punkte": [
+          "obbligo di frequentare un corso",
+          "obbligo di museruola",
+          "collocamento del cane in osservazione, se necessario per un'educazione comportamentale",
+          "obbligo di stipulare un'assicurazione di responsabilità civile",
+          "ricollocamento del cane",
+          "divieto di detenere cani se una persona non è in grado di garantire la sicurezza",
+          "uccisione del cane"
+        ]
+      }
     },
     {
       "titel": "A passeggio",
       "marke": "Regola",
       "ton": "note",
       "wert": "mai incustodito",
-      "text": "Nel bosco, al margine del bosco, sulle rive dei laghi, lungo le siepi e di notte il tuo cane non può mai restare incustodito. Entra nei campi coltivati solo con il consenso di chi li coltiva.",
+      "text": "Nei boschi e ai margini del bosco, sulle rive dei laghi, lungo la vegetazione ripuale e le siepi e di notte all'aperto non puoi lasciare il tuo cane incustodito. Nelle colture agricole, per esempio cereali, ortaggi e prati in avanzato stadio di crescita, entri con il tuo cane solo con il consenso dell'avente diritto. Il tuo cane non deve importunare nessuno con abbai o ululati eccessivi né sporcare strade, percorsi pedonali, parchi, giardini altrui e colture agricole. Gli affittuari di una riserva di caccia (Jagdpächter) e i sorveglianti della caccia (Jagdaufseher) possono abbattere i cani randagi che non si lasciano catturare, se la detentrice o il detentore è stato ammonito per iscritto senza esito o non è noto. I cani che cacciano di frodo e non si lasciano catturare possono essere abbattuti se rappresentano un pericolo immediato per la selvaggina o se vengono sorpresi mentre sbranano selvaggina.",
       "quellen": [
-        "lu_huv"
-      ]
+        "lu_huv",
+        "lu_kjsv",
+        "lu_kobv",
+        "lu_wald"
+      ],
+      "mehr": {
+        "titel": "Mostra le multe disciplinari",
+        "punkte": [
+          "obbligo di guinzaglio non rispettato nel bosco e fino a 50 m dal margine del bosco, dal 1° aprile al 31 luglio: CHF 100",
+          "cane portato o lasciato libero in un luogo con divieto di accesso: CHF 100",
+          "obbligo di guinzaglio non rispettato in locali, parchi, mezzi di trasporto pubblici o su strade molto trafficate: CHF 100",
+          "obbligo di guinzaglio non rispettato in una riserva naturale o in una zona di protezione della fauna selvatica: CHF 150",
+          "escrementi del cane lasciati su strade, percorsi pedonali, marciapiedi, in parchi, giardini altrui o colture agricole: CHF 80"
+        ]
+      }
     }
   ],
   "vergleich": {
     "wald": "dal 1.4. al 31.7., fino a 50 m dal margine del bosco",
     "haft": "nessun obbligo generale",
     "kurs": "NHB per il primo cane e per le importazioni, entro 18 mesi",
-    "rassen": "nessuna restrizione",
-    "steuer": "CHF 120 all'anno",
-    "anm": "AMICUS, imposta tramite il Comune"
+    "rassen": "nessun elenco delle razze",
+    "steuer": "CHF 120 all'anno, cani da fattoria CHF 40",
+    "anm": "AMICUS entro 10 giorni, notifica e imposta presso il Comune"
+  },
+  "umzug": {
+    "text": "Se ti trasferisci nel Cantone di Lucerna con un cane, annunci il nuovo indirizzo al tuo Comune di domicilio entro 10 giorni. Lì annunci il cane e paghi l'imposta sui cani. Per un cane per il quale hai già pagato l'imposta in un altro Cantone sei esonerato dall'imposta lucernese sui cani. Sono esonerati anche i cani che soggiornano nel Cantone per meno di 3 mesi. L'obbligo del Nationales Hundehalter-Brevet (NHB, brevetto nazionale per detentori di cani) vale per chi detiene un cane per la prima volta e per chiunque importi un cane dall'estero. Sono esclusi i cani che arrivano in Svizzera come masserizie di trasloco. Il Veterinärdienst (servizio veterinario cantonale) è l'interlocutore per tutte le domande sulla detenzione di cani, anche per sapere se l'obbligo vale per te.",
+    "quellen": [
+      "lu_huv",
+      "lu_hug",
+      "lu_vet_hunde"
+    ]
+  },
+  "vermisst": {
+    "text": "Nel Cantone di Lucerna puoi annunciare gli animali trovati e quelli smarriti direttamente alla Schweizerische Tiermeldezentrale (STMZ, centrale svizzera di notifica degli animali). Lo scrive la Luzerner Polizei (polizia lucernese), che secondo il diritto cantonale è il servizio competente per la notifica del ritrovamento di un animale. Secondo la polizia non è più necessario informarla.",
+    "punkte": [
+      "Cane trovato: puoi annunciare gli animali trovati alla STMZ allo 0848 357 358 (a tariffa locale) o registrarli sul suo sito (stmz.ch).",
+      "Cane smarrito: per gli animali smarriti il numero è lo 0900 357 358 (CHF 1.95 al minuto). Puoi registrare l'annuncio anche sul sito della STMZ.",
+      "La STMZ riceve gli annunci giorno e notte e pubblica sul suo sito gli animali trovati e smarriti.",
+      "La polizia prende in custodia i cani incustoditi e i cani non contrassegnati o non registrati e li riconsegna alla detentrice o al detentore. In quel caso paghi i costi della polizia e le spese, per esempio per telefono, chilometri e vitto del cane.",
+      "Se la detentrice o il detentore non può essere individuato, il cane è tenuto a disposizione per 6 giorni in un luogo adatto. In seguito se ne può disporre. In questo caso i costi sono a carico del Comune."
+    ],
+    "quellen": [
+      "lu_polizei_tiere",
+      "lu_tierfund",
+      "lu_huv"
+    ]
   }
 }

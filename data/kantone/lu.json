@@ -4,28 +4,30 @@
   "kurz": "LU",
   "im": "im Kanton Luzern",
   "des": "des Kantons Luzern",
-  "geprueft": "2026-11-16",
+  "geprueft": "2026-11-27",
   "wald": {
     "saison": true,
     "von": "04-01",
     "bis": "07-31",
     "wo": "im Wald und bis 50 m ab Waldrand",
     "quellen": [
-      "lu_wald",
-      "lu_stadt"
+      "lu_kjsv",
+      "lu_wald"
     ]
   },
   "leine": {
     "punkte": [
       "in öffentlich zugänglichen Lokalen wie Restaurants und Läden",
-      "in Naturschutzgebieten und Parkanlagen",
+      "in Parkanlagen",
       "in öffentlichen Verkehrsmitteln",
       "auf verkehrsreichen Strassen",
-      "im Wald und bis 50 m ab Waldrand, 1. April bis 31. Juli",
-      "läufige, bissige oder ansteckend kranke Hunde: immer im Freien und in Räumen, die Dritten zugänglich sind"
+      "das ganze Jahr in allen Naturschutzgebieten, im eidgenössischen Jagdbanngebiet Tannhorn und im Wasser- und Zugvogelreservat Wauwilermoos",
+      "im Wald und bis 50 m ab Waldrand, 1. April bis 31. Juli. Ausgenommen sind Jagd- und Herdenschutzhunde sowie Diensthunde von Polizei und Rettungswesen im Einsatz und in der Ausbildung.",
+      "läufige und bissige Hunde sowie Hunde mit ansteckenden Krankheiten: immer im Freien und in Räumen, die Dritten zugänglich sind"
     ],
     "quellen": [
       "lu_huv",
+      "lu_kjsv",
       "lu_wald"
     ]
   },
@@ -35,7 +37,7 @@
       "Badeanstalten",
       "Spitalanlagen",
       "Kinderspielplätze",
-      "Pausenplätze",
+      "Pausenplätze von Schulhausanlagen",
       "Spiel- und Sportfelder"
     ],
     "quellen": [
@@ -48,7 +50,7 @@
       "marke": "keine Pflicht",
       "ton": "none",
       "wert": "nur im Einzelfall",
-      "text": "Es gibt keine allgemeine Versicherungspflicht. Der Veterinärdienst kann sie im Einzelfall anordnen.",
+      "text": "Das Hundegesetz und die Hundeverordnung nennen keine allgemeine Versicherungspflicht. Der Veterinärdienst kann dich im Einzelfall verpflichten, eine Haftpflichtversicherung abzuschliessen. Das ist eine der Massnahmen, die er bei einem gefährlichen Hund anordnen kann.",
       "quellen": [
         "lu_huv",
         "lu_hug"
@@ -59,21 +61,31 @@
       "marke": "Pflicht",
       "ton": "must",
       "wert": "NHB innert 18 Monaten",
-      "text": "Das Nationale Hundehalter-Brevet (NHB) müssen Ersthaltende und alle, die einen Hund aus dem Ausland einführen, innert 18 Monaten nach dem Erwerb bestehen. Der Hund muss dafür mindestens 12 Monate alt sein.",
+      "text": "Wer zum ersten Mal einen Hund hält oder einen Hund aus dem Ausland einführt, muss mit ihm innert 18 Monaten nach dem Erwerb das Nationale Hundehalter-Brevet (NHB) bestehen. Der Veterinärdienst kann eine andere Prüfung als gleichwertig anerkennen. Bestehst du innert 18 Monaten nicht, prüft er Massnahmen. Laut dem Veterinärdienst gilt die Pflicht seit dem 1. Januar 2023, und die Prüfung kann frühestens abgelegt werden, wenn der Hund 12 Monate alt ist. Mit welchen Kursen du dich vorbereitest, ist dir überlassen (Stand der Seite des Veterinärdiensts: 1. Februar 2023).",
       "quellen": [
         "lu_huv",
         "lu_nhb"
-      ]
+      ],
+      "mehr": {
+        "titel": "Ausnahmen anzeigen",
+        "punkte": [
+          "Hunde, die als Übersiedlungsgut in die Schweiz eingeführt werden",
+          "Assistenzhunde und Diensthunde",
+          "wer innert 18 Monaten nach dem Erwerb des Hundes eine anerkannte Prüfung der Technischen Kommission für das Gebrauchs- und Sporthundewesen der Schweizerischen Kynologischen Gesellschaft besteht"
+        ]
+      }
     },
     {
       "titel": "Anmeldung",
       "marke": "Pflicht",
       "ton": "note",
       "wert": "AMICUS und Gemeinde",
-      "text": "Dein Hund braucht einen Mikrochip und einen Eintrag in AMICUS. Die Hundesteuer bezieht die Gemeinde.",
+      "text": "Dein Hund braucht einen Mikrochip und einen Eintrag in der Hundedatenbank AMICUS. Den Chip setzt die Tierärztin oder der Tierarzt, sie oder er registriert den Hund auch in AMICUS. Bei deiner Gemeinde meldest du den Hund an und zahlst die Hundesteuer. Kaufst du einen Hund oder übernimmst du ihn für mehr als 3 Monate, erfasst du das innert 10 Tagen in AMICUS. Dasselbe gilt, wenn du ihn verkaufst oder für mehr als 3 Monate abgibst, und wenn er stirbt. Adress- und Namensänderungen meldest du innert 10 Tagen deiner Wohnsitzgemeinde. Welpen müssen spätestens drei Monate nach der Geburt einen Mikrochip haben, in jedem Fall vor der Weitergabe.",
       "quellen": [
-        "lu_stadt",
-        "lu_hug"
+        "lu_huv",
+        "lu_hug",
+        "lu_vet_registrierung",
+        "lu_vet_hunde"
       ]
     },
     {
@@ -81,38 +93,103 @@
       "marke": "kantonal",
       "ton": "note",
       "wert": "CHF 120 pro Jahr",
-      "text": "Gilt in allen Luzerner Gemeinden. Hofhunde auf Landwirtschaftsbetrieben: CHF 40. Befreit sind unter anderem Assistenz-, Dienst- und Militärhunde.",
+      "text": "Für jeden Hund, der älter als 6 Monate ist, zahlst du der Gemeinde, in der du ihn hältst, CHF 120 pro Jahr. Der Betrag steht im Hundegesetz und gilt in allen Luzerner Gemeinden. Für Hofhunde auf Landwirtschaftsbetrieben beträgt die Steuer CHF 40. Wird dein Hund erst nach dem 30. Juni 6 Monate alt, zahlst du die halbe Jahressteuer. Die Steuer ist für das laufende Kalenderjahr bis spätestens Ende Juni zu bezahlen. Die Gemeinde kann sie bis auf die Hälfte ermässigen, wenn der Hund ein einsam gelegenes Gebäude schützt, und sie in Härtefällen auf begründetes Gesuch ganz oder teilweise erlassen. Stirbt dein Hund vor dem 30. Juni und schaffst du keinen Ersatzhund an, hast du Anspruch auf die Rückerstattung der halben Steuer.",
       "quellen": [
-        "lu_hug"
-      ]
+        "lu_hug",
+        "lu_huv"
+      ],
+      "mehr": {
+        "titel": "Befreite Hunde anzeigen",
+        "punkte": [
+          "Diensthunde, die von der Polizei oder anderen öffentlichen Diensten benötigt werden",
+          "Militärhunde",
+          "ausgebildete Schutz-, Sanitäts-, Katastrophen- und Lawinenhunde, soweit an ihrer Haltung ein öffentliches Interesse besteht",
+          "für die Nachsuche geprüfte Hunde, die für jede Jagdgesellschaft vorgeschrieben sind",
+          "ausgebildete Assistenzhunde, die zur Unterstützung benötigt werden",
+          "Hunde, für die die Steuer schon in einer anderen Gemeinde des Kantons oder in einem anderen Kanton bezahlt wurde",
+          "Hunde, die sich weniger als 3 Monate im Kanton aufhalten",
+          "Ersatzhund für einen verstorbenen Hund: bis zum Ablauf des Steuerjahres",
+          "Für die Befreiung braucht es einen Nachweis, zum Beispiel eine Bescheinigung der vorgesetzten Amtsstelle oder einen Ausbildungsnachweis."
+        ]
+      }
     },
     {
       "titel": "Rassen",
       "marke": "keine Liste",
       "ton": "none",
-      "wert": "keine Einschränkungen",
-      "text": "Der Kanton Luzern kennt keine rassenspezifischen Verbote.",
+      "wert": "keine Rasseliste",
+      "text": "Das Hundegesetz und die Hundeverordnung enthalten keine Liste verbotener oder bewilligungspflichtiger Rassen. Der Veterinärdienst ordnet Massnahmen im Einzelfall an, je nach Schwere, wenn ein Hund für Mensch oder Tier gefährlich ist. Tierärztinnen und Tierärzte, Ärztinnen und Ärzte, Verantwortliche von Tierheimen, Zollorgane und Hundeausbildner müssen ihm melden, wenn ein Hund einen Menschen oder ein Tier erheblich verletzt hat oder übermässig aggressiv ist. Auch du kannst dem Veterinärdienst einen solchen Vorfall melden.",
       "quellen": [
-        "srf"
-      ]
+        "lu_hug",
+        "lu_huv",
+        "lu_vet_vorfaelle"
+      ],
+      "mehr": {
+        "titel": "Mögliche Massnahmen anzeigen",
+        "punkte": [
+          "Verpflichtung zu einem Kursbesuch",
+          "Maulkorbzwang",
+          "Einweisung des Hundes zur Beobachtung, gegebenenfalls zur Verhaltenserziehung",
+          "Verpflichtung zum Abschluss einer Haftpflichtversicherung",
+          "Umplatzierung des Hundes",
+          "Verbot, Hunde zu halten, wenn eine Person unfähig ist, für die Sicherheit zu sorgen",
+          "Tötung des Hundes"
+        ]
+      }
     },
     {
       "titel": "Unterwegs",
       "marke": "Regel",
       "ton": "note",
       "wert": "nie unbeaufsichtigt",
-      "text": "Im Wald, am Waldrand, an Seeufern, entlang von Hecken und nachts darf dein Hund nie unbeaufsichtigt sein. Bestellte Felder nur mit Einverständnis betreten.",
+      "text": "In Wäldern und an Waldrändern, an Seeufern, entlang von Ufergehölzen und Hecken sowie nachts im Freien darfst du deinen Hund nicht unbeaufsichtigt lassen. Angebaute landwirtschaftliche Kulturen, zum Beispiel Getreide, Gemüse und Wiesen in fortgeschrittenem Wachstum, betrittst du mit deinem Hund nur mit dem Einverständnis der berechtigten Person. Dein Hund darf niemanden durch unzumutbares Gebell oder Geheul belästigen und Strassen, Gehwege, Parkanlagen, fremde Gärten und landwirtschaftliche Kulturen nicht verunreinigen. Jagdpächterinnen und Jagdpächter sowie Jagdaufseherinnen und Jagdaufseher dürfen streunende Hunde, die sich nicht einfangen lassen, abschiessen, wenn die Halterin oder der Halter erfolglos schriftlich verwarnt wurde oder nicht bekannt ist. Wildernde Hunde, die sich nicht einfangen lassen, dürfen abgeschossen werden, wenn sie das Wild unmittelbar gefährden oder beim Reissen von Wild angetroffen werden.",
       "quellen": [
-        "lu_huv"
-      ]
+        "lu_huv",
+        "lu_kjsv",
+        "lu_kobv",
+        "lu_wald"
+      ],
+      "mehr": {
+        "titel": "Ordnungsbussen anzeigen",
+        "punkte": [
+          "Leinenpflicht im Wald und bis 50 m ab Waldrand vom 1. April bis 31. Juli missachtet: CHF 100",
+          "Hund an einem Ort mit Betretverbot mitgeführt oder laufen gelassen: CHF 100",
+          "Leinenzwang in Lokalen, Parkanlagen, öffentlichen Verkehrsmitteln oder auf verkehrsreichen Strassen missachtet: CHF 100",
+          "Leinenzwang in einem Naturschutzgebiet oder Wildtierschutzgebiet missachtet: CHF 150",
+          "Hundekot auf Strassen, Gehwegen, Trottoirs, in Parkanlagen, fremden Gärten oder landwirtschaftlichen Kulturen zurückgelassen: CHF 80"
+        ]
+      }
     }
   ],
   "vergleich": {
     "wald": "1.4. bis 31.7., bis 50 m ab Waldrand",
     "haft": "keine allgemeine Pflicht",
     "kurs": "NHB für Ersthaltende und Importe, innert 18 Monaten",
-    "rassen": "keine Einschränkungen",
-    "steuer": "CHF 120 pro Jahr",
-    "anm": "AMICUS, Steuer über die Gemeinde"
+    "rassen": "keine Rasseliste",
+    "steuer": "CHF 120 pro Jahr, Hofhunde CHF 40",
+    "anm": "AMICUS innert 10 Tagen, Anmeldung und Steuer bei der Gemeinde"
+  },
+  "umzug": {
+    "text": "Ziehst du mit einem Hund in den Kanton Luzern, meldest du die neue Adresse innert 10 Tagen deiner Wohnsitzgemeinde. Dort meldest du den Hund an und zahlst die Hundesteuer. Für einen Hund, für den du die Steuer schon in einem anderen Kanton bezahlt hast, bist du von der Luzerner Hundesteuer befreit. Befreit sind auch Hunde, die sich weniger als 3 Monate im Kanton aufhalten. Die Pflicht zum Nationalen Hundehalter-Brevet (NHB) gilt für Ersthaltende und für alle, die einen Hund aus dem Ausland einführen. Ausgenommen sind Hunde, die als Übersiedlungsgut in die Schweiz kommen. Der Veterinärdienst ist die Anlaufstelle für alle Fragen zur Hundehaltung, auch dazu, ob die Pflicht für dich gilt.",
+    "quellen": [
+      "lu_huv",
+      "lu_hug",
+      "lu_vet_hunde"
+    ]
+  },
+  "vermisst": {
+    "text": "Gefundene und vermisste Tiere kannst du im Kanton Luzern direkt der Schweizerischen Tiermeldezentrale (STMZ) melden. Das schreibt die Luzerner Polizei, die nach kantonalem Recht die zuständige Stelle für die Anzeige eines Tierfundes ist. Eine Information an die Polizei ist laut ihr nicht mehr notwendig.",
+    "punkte": [
+      "Hund gefunden: Tierfunde kannst du der STMZ unter 0848 357 358 (zum Lokaltarif) melden oder auf ihrer Website (stmz.ch) erfassen.",
+      "Hund vermisst: Für vermisste Tiere gilt die Nummer 0900 357 358 (CHF 1.95 pro Minute). Du kannst die Meldung auch auf der Website der STMZ erfassen.",
+      "Die STMZ nimmt Meldungen rund um die Uhr entgegen und veröffentlicht die gefundenen und vermissten Tiere auf ihrer Website.",
+      "Unbeaufsichtigte Hunde und Hunde, die nicht gekennzeichnet oder nicht registriert sind, nimmt die Polizei in Gewahrsam und führt sie der Halterin oder dem Halter zu. Dabei zahlst du die Kosten der Polizei und die Auslagen, zum Beispiel für Telefon, Kilometer und die Verpflegung des Hundes.",
+      "Lässt sich die Halterin oder der Halter nicht ermitteln, wird der Hund während 6 Tagen an einem geeigneten Platz zur Verfügung gehalten. Nachher kann über ihn verfügt werden. Die Kosten trägt in diesem Fall die Gemeinde."
+    ],
+    "quellen": [
+      "lu_polizei_tiere",
+      "lu_tierfund",
+      "lu_huv"
+    ]
   }
 }

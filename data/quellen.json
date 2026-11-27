@@ -21,23 +21,23 @@
   },
   "lu_huv": {
     "kurz": "Hundeverordnung LU",
-    "lang": "Kanton Luzern: Verordnung über das Halten von Hunden, SRL 849 (Stand 1.1.2025)",
-    "url": "https://lu.lexwork.naz.ch/de/dta/849.pdf"
+    "lang": "Kanton Luzern: Verordnung über das Halten von Hunden (HuV), SRL Nr. 849, vom 10. Dezember 1973 (Stand 1. Januar 2025)",
+    "url": "https://srl.lu.ch/app/de/texts_of_law/849"
   },
   "lu_hug": {
     "kurz": "Hundegesetz LU",
-    "lang": "Kanton Luzern: Gesetz über das Halten von Hunden, SRL 848 (Stand 1.1.2025)",
-    "url": "https://lu.lexwork.naz.ch/de/dta/848.pdf"
+    "lang": "Kanton Luzern: Gesetz über das Halten von Hunden (HuG), SRL Nr. 848, vom 23. Oktober 1973 (Stand 1. Januar 2025)",
+    "url": "https://srl.lu.ch/app/de/texts_of_law/848"
   },
   "lu_wald": {
-    "kurz": "Geodaten LU",
-    "lang": "Kanton Luzern, Geoinformation: Hundeleinenpflicht im Wald (2025)",
-    "url": "https://opendata.swiss/en/dataset/hundeleinenpflicht-im-wald"
+    "kurz": "Kanton Luzern: Leinenpflicht für Hunde",
+    "lang": "Kanton Luzern, Dienststelle Landwirtschaft und Wald: «Leinenpflicht für Hunde», mit Link zur Online-Karte (letzte Änderung der Seite laut ihren Metadaten: 6. Mai 2025)",
+    "url": "https://lawa.lu.ch/jagd/Lebensraum_und_Wildtierschutz/Leinenpflicht"
   },
   "lu_nhb": {
-    "kurz": "Merkblatt Veterinärdienst LU",
-    "lang": "Kanton Luzern, Veterinärdienst: Merkblatt zur revidierten Hundeverordnung (1.12.2022)",
-    "url": "https://www.stadt-kriens.ch/public/upload/assets/26319/2022_12_02_Merkblatt_Hundeverordnung_2023.pdf?fp=1"
+    "kurz": "Veterinärdienst LU: Hundeausbildung",
+    "lang": "Kanton Luzern, Veterinärdienst: «Ausbildung Hund und Halter» (obligatorische Hundeausbildung, NHB; letzte Änderung der Seite laut ihren Metadaten: 1. Februar 2023)",
+    "url": "https://veterinaerdienst.lu.ch/hunde/ausbildung_hund_und_halter"
   },
   "lu_stadt": {
     "kurz": "Stadt Luzern",
@@ -1218,5 +1218,40 @@
     "kurz": "Kantonspolizei SG: Tier vermisst",
     "lang": "Kanton St. Gallen, Kantonspolizei: Anzeige erstatten, gesucht und vermisst, Abschnitt «Tier vermisst» (Stand der Seite 11. Juni 2025)",
     "url": "https://www.sg.ch/sicherheit/kantonspolizei/anzeige-erstatten--gesucht-und-vermisst.html"
+  },
+  "lu_kjsv": {
+    "kurz": "Jagdverordnung LU",
+    "lang": "Kanton Luzern: Kantonale Verordnung über die Jagd und den Schutz wildlebender Säugetiere und Vögel (Kantonale Jagdverordnung, KJSV), SRL Nr. 725a, vom 23. Januar 2018 (Stand 1. April 2018)",
+    "url": "https://srl.lu.ch/app/de/texts_of_law/725a"
+  },
+  "lu_kobv": {
+    "kurz": "Ordnungsbussenverordnung LU",
+    "lang": "Kanton Luzern: Kantonale Ordnungsbussenverordnung (KOBV), SRL Nr. 314, vom 26. November 2019 (Stand 1. November 2026)",
+    "url": "https://srl.lu.ch/app/de/texts_of_law/314"
+  },
+  "lu_tierfund": {
+    "kurz": "Verordnung Tierfund LU",
+    "lang": "Kanton Luzern: Verordnung über die Anzeige eines Tierfundes, SRL Nr. 219b, vom 28. März 2003 (Stand 1. April 2003)",
+    "url": "https://srl.lu.ch/app/de/texts_of_law/219b"
+  },
+  "lu_polizei_tiere": {
+    "kurz": "Luzerner Polizei: Tiere",
+    "lang": "Luzerner Polizei, Fundbüro: «Tiere» (gefundene und vermisste Tiere; letzte Änderung der Seite laut ihren Metadaten: 2. Februar 2026)",
+    "url": "https://polizei.lu.ch/organisation/verwaltungspolizei/fundbuero/Tiere"
+  },
+  "lu_vet_hunde": {
+    "kurz": "Veterinärdienst LU: Hunde",
+    "lang": "Kanton Luzern, Veterinärdienst: «Hunde» (Übersicht; letzte Änderung der Seite laut ihren Metadaten: 26. März 2026)",
+    "url": "https://veterinaerdienst.lu.ch/hunde"
+  },
+  "lu_vet_registrierung": {
+    "kurz": "Veterinärdienst LU: Registrierung",
+    "lang": "Kanton Luzern, Veterinärdienst: «Kennzeichnung und Registrierung von Hunden» (letzte Änderung der Seite laut ihren Metadaten: 24. April 2023)",
+    "url": "https://veterinaerdienst.lu.ch/hunde/kennzeichnung_und_registrierung"
+  },
+  "lu_vet_vorfaelle": {
+    "kurz": "Veterinärdienst LU: Vorfälle",
+    "lang": "Kanton Luzern, Veterinärdienst: «Vorfälle mit Hunden» (letzte Änderung der Seite laut ihren Metadaten: 1. Mai 2024)",
+    "url": "https://veterinaerdienst.lu.ch/hunde/vorfaelle_mit_hunden"
   }
 }

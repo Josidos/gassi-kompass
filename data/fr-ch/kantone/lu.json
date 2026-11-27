@@ -2,28 +2,30 @@
   "id": "lu",
   "kurz": "LU",
   "uebersetzt_aus": "de",
-  "original": "21693237111e",
+  "original": "7218f9a7f36b",
   "wald": {
     "saison": true,
     "von": "04-01",
     "bis": "07-31",
     "wo": "en forêt et jusqu'à 50 m de la lisière",
     "quellen": [
-      "lu_wald",
-      "lu_stadt"
+      "lu_kjsv",
+      "lu_wald"
     ]
   },
   "leine": {
     "punkte": [
       "dans les locaux ouverts au public comme les restaurants et les magasins",
-      "dans les réserves naturelles et les parcs",
+      "dans les parcs",
       "dans les transports publics",
       "sur les routes à fort trafic",
-      "en forêt et jusqu'à 50 m de la lisière, du 1er avril au 31 juillet",
-      "chiennes en chaleur, chiens mordeurs ou atteints d'une maladie contagieuse : toujours à l'extérieur et dans les locaux accessibles à des tiers"
+      "toute l'année dans toutes les réserves naturelles, dans le district franc fédéral du Tannhorn et dans la réserve d'oiseaux d'eau et de migrateurs du Wauwilermoos",
+      "en forêt et jusqu'à 50 m de la lisière, du 1er avril au 31 juillet. Exception : les chiens de chasse et de protection des troupeaux ainsi que les chiens de service de la police et des services de sauvetage, en intervention et à l'entraînement.",
+      "chiennes en chaleur, chiens mordeurs et chiens atteints d'une maladie contagieuse : toujours à l'extérieur et dans les locaux accessibles à des tiers"
     ],
     "quellen": [
       "lu_huv",
+      "lu_kjsv",
       "lu_wald"
     ]
   },
@@ -33,7 +35,7 @@
       "les établissements de bains",
       "les enceintes des hôpitaux",
       "les places de jeux pour enfants",
-      "les préaux",
+      "les préaux des écoles",
       "les terrains de jeu et de sport"
     ],
     "quellen": [
@@ -46,7 +48,7 @@
       "marke": "Pas d'obligation",
       "ton": "none",
       "wert": "seulement au cas par cas",
-      "text": "Il n'y a pas d'obligation générale de s'assurer. Le service vétérinaire peut l'ordonner dans un cas particulier.",
+      "text": "Le Hundegesetz (loi sur les chiens) et la Hundeverordnung (ordonnance sur les chiens) ne prévoient pas d'obligation générale de s'assurer. Le Veterinärdienst (service vétérinaire cantonal) peut vous obliger, dans un cas particulier, à conclure une assurance responsabilité civile. C'est l'une des mesures qu'il peut ordonner pour un chien dangereux.",
       "quellen": [
         "lu_huv",
         "lu_hug"
@@ -57,21 +59,31 @@
       "marke": "Obligatoire",
       "ton": "must",
       "wert": "NHB dans les 18 mois",
-      "text": "Les personnes qui détiennent un chien pour la première fois et toutes celles qui importent un chien de l'étranger doivent réussir le Nationales Hundehalter-Brevet (NHB, brevet national pour détenteurs de chiens) dans les 18 mois suivant l'acquisition. Le chien doit pour cela être âgé d'au moins 12 mois.",
+      "text": "Les personnes qui détiennent un chien pour la première fois et celles qui importent un chien de l'étranger doivent réussir avec lui le Nationales Hundehalter-Brevet (NHB, brevet national pour détenteurs de chiens) dans les 18 mois suivant l'acquisition. Le Veterinärdienst (service vétérinaire cantonal) peut reconnaître un autre examen comme équivalent. Si vous ne réussissez pas dans les 18 mois, il examine des mesures. Selon le Veterinärdienst, l'obligation vaut depuis le 1er janvier 2023, et l'examen peut être passé au plus tôt lorsque le chien a 12 mois. Vous choisissez librement les cours avec lesquels vous vous préparez (état de la page du Veterinärdienst : 1er février 2023).",
       "quellen": [
         "lu_huv",
         "lu_nhb"
-      ]
+      ],
+      "mehr": {
+        "titel": "Afficher les exceptions",
+        "punkte": [
+          "chiens importés en Suisse comme effets de déménagement",
+          "chiens d'assistance et chiens de service",
+          "personnes qui réussissent, dans les 18 mois suivant l'acquisition du chien, un examen reconnu de la Technische Kommission für das Gebrauchs- und Sporthundewesen (commission technique pour chiens d'utilité et de sport) de la Société Cynologique Suisse"
+        ]
+      }
     },
     {
       "titel": "Annonce",
       "marke": "Obligatoire",
       "ton": "note",
       "wert": "AMICUS et commune",
-      "text": "Votre chien doit porter une puce électronique et être inscrit dans AMICUS. L'impôt sur les chiens est perçu par la commune.",
+      "text": "Votre chien doit porter une puce électronique et être inscrit dans la banque de données AMICUS. La ou le vétérinaire pose la puce et enregistre aussi le chien dans AMICUS. Vous annoncez le chien à votre commune et vous y payez l'impôt sur les chiens. Si vous achetez un chien ou le prenez en charge pour plus de 3 mois, vous le saisissez dans AMICUS dans les 10 jours. Il en va de même si vous le vendez ou le remettez pour plus de 3 mois, et s'il meurt. Vous annoncez les changements d'adresse et de nom à votre commune de domicile dans les 10 jours. Les chiots doivent porter une puce électronique au plus tard trois mois après la naissance, dans tous les cas avant d'être remis.",
       "quellen": [
-        "lu_stadt",
-        "lu_hug"
+        "lu_huv",
+        "lu_hug",
+        "lu_vet_registrierung",
+        "lu_vet_hunde"
       ]
     },
     {
@@ -79,38 +91,103 @@
       "marke": "cantonal",
       "ton": "note",
       "wert": "CHF 120 par an",
-      "text": "Vaut dans toutes les communes lucernoises. Chiens de ferme dans les exploitations agricoles : CHF 40. Sont exonérés notamment les chiens d'assistance, les chiens de service et les chiens militaires.",
+      "text": "Pour chaque chien âgé de plus de 6 mois, vous payez CHF 120 par an à la commune dans laquelle vous le détenez. Le montant figure dans le Hundegesetz (loi sur les chiens) et vaut dans toutes les communes lucernoises. Pour les chiens de ferme des exploitations agricoles, l'impôt est de CHF 40. Si votre chien n'atteint l'âge de 6 mois qu'après le 30 juin, vous payez la moitié de l'impôt annuel. L'impôt est à payer pour l'année civile en cours, au plus tard à fin juin. La commune peut le réduire jusqu'à la moitié si le chien protège un bâtiment isolé, et le remettre entièrement ou en partie dans les cas de rigueur, sur demande motivée. Si votre chien meurt avant le 30 juin et que vous n'acquérez pas de chien de remplacement, vous avez droit au remboursement de la moitié de l'impôt.",
       "quellen": [
-        "lu_hug"
-      ]
+        "lu_hug",
+        "lu_huv"
+      ],
+      "mehr": {
+        "titel": "Afficher les chiens exonérés",
+        "punkte": [
+          "chiens de service dont la police ou d'autres services publics ont besoin",
+          "chiens militaires",
+          "chiens de protection, sanitaires, de catastrophe et d'avalanche formés, pour autant que leur détention réponde à un intérêt public",
+          "chiens examinés pour la recherche du gibier blessé, prescrits pour chaque société de chasse",
+          "chiens d'assistance formés et nécessaires comme soutien",
+          "chiens pour lesquels l'impôt a déjà été payé dans une autre commune du canton ou dans un autre canton",
+          "chiens qui séjournent moins de 3 mois dans le canton",
+          "chien de remplacement d'un chien décédé : jusqu'à la fin de l'année fiscale",
+          "L'exonération exige une preuve, par exemple une attestation du service dont dépend le chien ou un justificatif de formation."
+        ]
+      }
     },
     {
       "titel": "Races",
       "marke": "pas de liste",
       "ton": "none",
-      "wert": "aucune restriction",
-      "text": "Le canton de Lucerne ne connaît pas d'interdictions visant des races particulières.",
+      "wert": "pas de liste de races",
+      "text": "Le Hundegesetz (loi sur les chiens) et la Hundeverordnung (ordonnance sur les chiens) ne contiennent pas de liste de races interdites ou soumises à autorisation. Le Veterinärdienst (service vétérinaire cantonal) ordonne des mesures au cas par cas, selon la gravité, lorsqu'un chien est dangereux pour les personnes ou les animaux. Les vétérinaires, les médecins, les responsables de refuges, les organes douaniers et les éducateurs canins doivent lui signaler un chien qui a gravement blessé une personne ou un animal ou qui est excessivement agressif. Vous pouvez vous aussi signaler un tel incident au Veterinärdienst.",
       "quellen": [
-        "srf"
-      ]
+        "lu_hug",
+        "lu_huv",
+        "lu_vet_vorfaelle"
+      ],
+      "mehr": {
+        "titel": "Afficher les mesures possibles",
+        "punkte": [
+          "obligation de suivre un cours",
+          "port obligatoire de la muselière",
+          "placement du chien en observation, le cas échéant pour une éducation comportementale",
+          "obligation de conclure une assurance responsabilité civile",
+          "replacement du chien",
+          "interdiction de détenir des chiens lorsqu'une personne est incapable de veiller à la sécurité",
+          "mise à mort du chien"
+        ]
+      }
     },
     {
       "titel": "En promenade",
       "marke": "Règle",
       "ton": "note",
       "wert": "jamais sans surveillance",
-      "text": "En forêt, en lisière, sur les rives des lacs, le long des haies et la nuit, votre chien ne doit jamais rester sans surveillance. N'entrez dans les champs cultivés qu'avec l'accord de l'exploitant.",
+      "text": "En forêt et en lisière, sur les rives des lacs, le long des boisements riverains et des haies ainsi que la nuit en plein air, vous ne devez pas laisser votre chien sans surveillance. Vous n'entrez avec votre chien dans les cultures agricoles, par exemple les céréales, les légumes et les prairies à un stade de croissance avancé, qu'avec l'accord de l'ayant droit. Votre chien ne doit importuner personne par des aboiements ou des hurlements excessifs, ni salir les routes, les chemins piétonniers, les parcs, les jardins d'autrui et les cultures agricoles. Les titulaires d'un bail de chasse (Jagdpächter) et les surveillants de la chasse (Jagdaufseher) peuvent abattre les chiens errants qui ne se laissent pas capturer, si la détentrice ou le détenteur a reçu sans effet un avertissement écrit ou n'est pas connu. Les chiens qui braconnent et ne se laissent pas capturer peuvent être abattus s'ils représentent un danger immédiat pour le gibier ou s'ils sont surpris en train de déchirer du gibier.",
       "quellen": [
-        "lu_huv"
-      ]
+        "lu_huv",
+        "lu_kjsv",
+        "lu_kobv",
+        "lu_wald"
+      ],
+      "mehr": {
+        "titel": "Afficher les amendes d'ordre",
+        "punkte": [
+          "laisse obligatoire non respectée en forêt et jusqu'à 50 m de la lisière, du 1er avril au 31 juillet : CHF 100",
+          "chien emmené ou laissé en liberté dans un lieu où l'accès est interdit : CHF 100",
+          "laisse obligatoire non respectée dans des locaux, des parcs, les transports publics ou sur des routes à fort trafic : CHF 100",
+          "laisse obligatoire non respectée dans une réserve naturelle ou une zone de protection de la faune sauvage : CHF 150",
+          "crottes de chien laissées sur des routes, des chemins piétonniers, des trottoirs, dans des parcs, des jardins d'autrui ou des cultures agricoles : CHF 80"
+        ]
+      }
     }
   ],
   "vergleich": {
     "wald": "du 1.4. au 31.7., jusqu'à 50 m de la lisière",
     "haft": "pas d'obligation générale",
     "kurs": "NHB pour un premier chien et pour les importations, dans les 18 mois",
-    "rassen": "aucune restriction",
-    "steuer": "CHF 120 par an",
-    "anm": "AMICUS, impôt par la commune"
+    "rassen": "pas de liste de races",
+    "steuer": "CHF 120 par an, chiens de ferme CHF 40",
+    "anm": "AMICUS dans les 10 jours, annonce et impôt auprès de la commune"
+  },
+  "umzug": {
+    "text": "Si vous arrivez dans le canton de Lucerne avec un chien, vous annoncez la nouvelle adresse à votre commune de domicile dans les 10 jours. Vous y annoncez le chien et vous y payez l'impôt sur les chiens. Pour un chien pour lequel vous avez déjà payé l'impôt dans un autre canton, vous êtes exonéré de l'impôt lucernois sur les chiens. Sont aussi exonérés les chiens qui séjournent moins de 3 mois dans le canton. L'obligation du Nationales Hundehalter-Brevet (NHB, brevet national pour détenteurs de chiens) vaut pour les personnes qui détiennent un chien pour la première fois et pour toutes celles qui importent un chien de l'étranger. Les chiens qui arrivent en Suisse comme effets de déménagement en sont exceptés. Le Veterinärdienst (service vétérinaire cantonal) est l'interlocuteur pour toutes les questions sur la détention de chiens, y compris pour savoir si l'obligation vaut pour vous.",
+    "quellen": [
+      "lu_huv",
+      "lu_hug",
+      "lu_vet_hunde"
+    ]
+  },
+  "vermisst": {
+    "text": "Dans le canton de Lucerne, vous pouvez annoncer les animaux trouvés et les animaux disparus directement à la Schweizerische Tiermeldezentrale (STMZ, centrale suisse d'annonce des animaux). C'est ce qu'écrit la Luzerner Polizei (police lucernoise), qui est, selon le droit cantonal, le service compétent pour l'annonce d'un animal trouvé. Selon elle, il n'est plus nécessaire d'informer la police.",
+    "punkte": [
+      "Chien trouvé : vous pouvez annoncer les animaux trouvés à la STMZ au 0848 357 358 (au tarif local) ou les saisir sur son site (stmz.ch).",
+      "Chien disparu : pour les animaux disparus, le numéro est le 0900 357 358 (CHF 1.95 par minute). Vous pouvez aussi saisir l'annonce sur le site de la STMZ.",
+      "La STMZ reçoit les annonces jour et nuit et publie sur son site les animaux trouvés et disparus.",
+      "La police recueille les chiens sans surveillance et les chiens qui ne sont pas identifiés ou pas enregistrés, et les remet à leur détentrice ou à leur détenteur. Vous payez alors les frais de la police et les débours, par exemple pour le téléphone, les kilomètres et la nourriture du chien.",
+      "Si la détentrice ou le détenteur ne peut pas être identifié, le chien est gardé à disposition pendant 6 jours dans un lieu approprié. Ensuite, il peut en être disposé. Dans ce cas, la commune supporte les frais."
+    ],
+    "quellen": [
+      "lu_polizei_tiere",
+      "lu_tierfund",
+      "lu_huv"
+    ]
   }
 }
