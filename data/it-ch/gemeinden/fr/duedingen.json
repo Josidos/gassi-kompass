@@ -1,0 +1,38 @@
+{
+  "id": "duedingen",
+  "kanton": "fr",
+  "bfs": 2293,
+  "uebersetzt_aus": "de",
+  "original": "9ec07bed2dfe",
+  "name": "Düdingen",
+  "ort": "Düdingen",
+  "in_ort": "a Düdingen",
+  "einleitung": "Düdingen preleva una propria imposta sui cani, in aggiunta all'imposta cantonale. Il Consiglio generale ha approvato il Reglement über die Hundehaltung und die Hundesteuer (regolamento sulla detenzione e l'imposizione dei cani) il 4 ottobre 2021.",
+  "karten": [
+    {
+      "titel": "Imposta sui cani",
+      "wert": "CHF 100 per animale",
+      "text": "Imposta comunale, in aggiunta all'imposta cantonale. Il Comune indica questo importo tra le aliquote d'imposta dal 2014.",
+      "quellen": [
+        "fr_duedingen_steuern",
+        "fr_duedingen_gnr_2021"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "wert": "prima ai servizi abitanti",
+      "text": "Se detieni un cane per la prima volta, ti annunci prima ai servizi abitanti del tuo Comune di domicilio. La registrazione nella banca dati canina AMICUS può poi avvenire tramite la o il veterinario.",
+      "quellen": [
+        "fr_duedingen_amicus"
+      ]
+    },
+    {
+      "titel": "Multe",
+      "wert": "da CHF 20 a CHF 1000",
+      "text": "Il Reglement über die Hundehaltung und die Hundesteuer prevede multe da CHF 20 a CHF 1000, pronunciate con decreto d'accusa.",
+      "quellen": [
+        "fr_duedingen_gnr_2021"
+      ]
+    }
+  ]
+}

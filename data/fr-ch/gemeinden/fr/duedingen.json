@@ -1,0 +1,38 @@
+{
+  "id": "duedingen",
+  "kanton": "fr",
+  "bfs": 2293,
+  "uebersetzt_aus": "de",
+  "original": "9ec07bed2dfe",
+  "name": "Guin",
+  "ort": "Guin",
+  "in_ort": "à Guin",
+  "einleitung": "Düdingen (Guin) prélève son propre impôt sur les chiens, en plus de l'impôt cantonal. Le Conseil général a approuvé le Reglement über die Hundehaltung und die Hundesteuer (règlement sur la détention et l'imposition des chiens) le 4 octobre 2021.",
+  "karten": [
+    {
+      "titel": "Impôt sur les chiens",
+      "wert": "CHF 100 par animal",
+      "text": "Impôt communal, en plus de l'impôt cantonal. La commune indique ce montant parmi les taux d'imposition dès 2014.",
+      "quellen": [
+        "fr_duedingen_steuern",
+        "fr_duedingen_gnr_2021"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "wert": "d'abord aux services des habitants",
+      "text": "Si vous détenez un chien pour la première fois, vous vous annoncez au préalable aux services des habitants de votre commune de domicile. L'enregistrement dans la banque de données canine AMICUS peut ensuite se faire par l'intermédiaire de votre vétérinaire.",
+      "quellen": [
+        "fr_duedingen_amicus"
+      ]
+    },
+    {
+      "titel": "Amendes",
+      "wert": "CHF 20 à CHF 1000",
+      "text": "Le Reglement über die Hundehaltung und die Hundesteuer prévoit des amendes de CHF 20 à CHF 1000, prononcées par ordonnance pénale.",
+      "quellen": [
+        "fr_duedingen_gnr_2021"
+      ]
+    }
+  ]
+}

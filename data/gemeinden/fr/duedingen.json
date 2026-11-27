@@ -1,0 +1,37 @@
+{
+  "id": "duedingen",
+  "kanton": "fr",
+  "bfs": 2293,
+  "name": "Düdingen",
+  "ort": "Düdingen",
+  "in_ort": "in Düdingen",
+  "geprueft": "2026-11-28",
+  "einleitung": "Düdingen erhebt eine eigene Hundesteuer, zusätzlich zur kantonalen Steuer. Das Reglement über die Hundehaltung und die Hundesteuer hat der Generalrat am 4. Oktober 2021 genehmigt.",
+  "karten": [
+    {
+      "titel": "Hundetaxe",
+      "wert": "CHF 100 pro Tier",
+      "text": "Gemeindesteuer, zusätzlich zur kantonalen Steuer. Die Gemeinde führt diesen Betrag unter den Steuersätzen ab 2014.",
+      "quellen": [
+        "fr_duedingen_steuern",
+        "fr_duedingen_gnr_2021"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "wert": "zuerst bei den Einwohnerdiensten",
+      "text": "Hältst du zum ersten Mal einen Hund, meldest du dich vorher bei den Einwohnerdiensten deines Wohnorts. Danach kann die Registrierung in der Hundedatenbank AMICUS über die Tierärztin oder den Tierarzt erfolgen.",
+      "quellen": [
+        "fr_duedingen_amicus"
+      ]
+    },
+    {
+      "titel": "Bussen",
+      "wert": "CHF 20 bis CHF 1000",
+      "text": "Das Reglement über die Hundehaltung und die Hundesteuer sieht Bussen von CHF 20 bis CHF 1000 vor, die mit Strafbefehl ausgesprochen werden.",
+      "quellen": [
+        "fr_duedingen_gnr_2021"
+      ]
+    }
+  ]
+}
