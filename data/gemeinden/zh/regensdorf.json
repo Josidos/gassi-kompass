@@ -6,7 +6,7 @@
   "ort": "Regensdorf",
   "in_ort": "in Regensdorf",
   "geprueft": "2026-11-17",
-  "einleitung": "Die Gemeinde nimmt die Anmeldung online entgegen. Den Betrag der Hundesteuer nennt sie auf ihren Seiten nicht.",
+  "einleitung": "Die Gemeinde nimmt die Anmeldung online entgegen. Die Hundesteuer und die Gebühren stehen im Gebührenreglement der Gemeinde.",
   "karten": [
     {
       "titel": "Anmeldung",
@@ -19,10 +19,11 @@
     },
     {
       "titel": "Meldegebühr",
-      "wert": "CHF 20",
-      "text": "Die Anmeldung eines Hundes kostet CHF 20.",
+      "wert": "CHF 20, verspätet CHF 40",
+      "text": "Die Anmeldung eines Hundes kostet CHF 20. Wer zu spät anmeldet, zahlt CHF 40. Muss die Gemeinde nach einem Ermahnungsschreiben wegen einer fehlenden Änderung oder Nachmeldung in AMICUS Strafanzeige erstatten, verrechnet sie CHF 80.",
       "quellen": [
-        "zh_regensdorf_anmeldung"
+        "zh_regensdorf_anmeldung",
+        "zh_regensdorf_gebuehren"
       ]
     },
     {
@@ -35,10 +36,19 @@
     },
     {
       "titel": "Hundetaxe",
-      "wert": "Rechnung im Februar oder März",
-      "text": "Die Rechnung für die Hundesteuer kommt jedes Jahr im Februar oder März per Post. Den Betrag nennt die Gemeinde auf ihren Seiten nicht.",
+      "wert": "CHF 100 pro Hund und Jahr, dazu der Kantonsbeitrag",
+      "text": "Die Hundesteuer beträgt CHF 100 pro Hund und Jahr. Dazu kommt der Beitrag an den Kanton. Ermässigungen nach § 24 des Hundegesetzes gewährt die Gemeinde nicht. Die Rechnung kommt jedes Jahr im Februar oder März per Post.",
       "quellen": [
+        "zh_regensdorf_gebuehren",
         "zh_regensdorf_schalter"
+      ]
+    },
+    {
+      "titel": "Bussen",
+      "wert": "Verweis oder Busse",
+      "text": "Die Polizeiverordnung der Gemeinde verlangt, Tiere so zu halten und zu beaufsichtigen, dass niemand belästigt wird und weder Menschen, Tiere noch Sachen gefährdet werden oder zu Schaden kommen. Wer dagegen verstösst, vorsätzlich oder fahrlässig, wird mit Verweis oder Busse bestraft. Eigene Orte mit Leinenpflicht oder Hundeverbot nennt die Verordnung nicht. Sie gilt seit 1. Januar 2024.",
+      "quellen": [
+        "zh_regensdorf_polvo"
       ]
     }
   ]

@@ -15,7 +15,10 @@ Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen
 - Design-Prüfung (`impeccable detect`): auf der Kartenseite nur die bekannten Hinweise zu den Farben des dunklen Modus.
 - Fehler gefunden beim Ansehen der veröffentlichten Seite und behoben: Ein Tipp auf den Punkt einer Freilaufzone nannte die Zone, holte sie aber nicht heran. Die Punkte lagen unter den Flächen, weil sie vor ihnen auf die Karte kamen. Der Test klickt den Punkt jetzt an und verlangt, dass die Karte heranzoomt.
 - Handbuch nachgeführt: Aufbau, Regel 8, neuer Abschnitt «Karte der Hundezonen», Freigabe. `DESIGN.md` und `PRODUCT.md` nachgeführt.
-- Nebenbei: Die Domains koeniz.ch und regensdorf.ch liessen sich um 11:20 Uhr im Browser von Joss wieder öffnen. Regensdorf ist gelesen (Gebührenreglement, Polizeiverordnung) und wird nach der Karte eingetragen.
+- Nebenbei: Die Domains koeniz.ch und regensdorf.ch liessen sich um 11:20 Uhr im Browser von Joss wieder öffnen.
+- «Takt täglich» (Entscheid von Joss von 11:07 Uhr): Der gespeicherte Auftrag des automatischen Laufs ist um 11:50 Uhr geändert. Er nennt die Ausnahme jetzt selbst: täglich, solange in Abschnitt 5 ein Punkt «fällig» ist oder in Abschnitt 9 ein Themenfeld offene Kantone hat, sonst mittwochs und samstags. Zurückgestelltes zählt nicht als offen. Start weiter täglich um 08:23 Uhr. Handbuch nachgeführt, der Hinweis im Backlog (Abschnitt 7) ist gelöscht.
+- Regensdorf, Karte «Hundetaxe», alt: «Den Betrag nennt die Gemeinde auf ihren Seiten nicht.» Neu: CHF 100 pro Hund und Jahr, dazu der Beitrag an den Kanton, keine Ermässigungen nach § 24 des Hundegesetzes (Gebührenreglement, in Kraft seit 1. April 2025, nachgeführt bis 1. Januar 2026, Ziffern 5.23 und 5.25).
+- Regensdorf, Karte «Meldegebühr», ergänzt: verspätete Anmeldung CHF 40, Strafanzeige nach Ermahnungsschreiben zu AMICUS CHF 80 (Ziffern 5.23 und 5.24). Neue Karte «Bussen» aus der Polizeiverordnung von 2024 (Art. 15 und 48). Die Verordnung nennt Hunde nicht eigens, das steht so auf der Seite. Neue Quellen `zh_regensdorf_gebuehren` und `zh_regensdorf_polvo`. `geprueft` bleibt stehen. 2 Übersetzungen nachgeführt.
 
 ## 2026-11-27, Sitzung mit Joss: Muttenz mit Gebühr, Leinenpflicht und Hundekot, Stadt Schaffhausen mit Anmeldung
 

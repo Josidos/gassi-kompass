@@ -3,11 +3,11 @@
   "kanton": "zh",
   "bfs": 96,
   "uebersetzt_aus": "de",
-  "original": "55c1f2a7b5d7",
+  "original": "0413ef0b52e0",
   "name": "Regensdorf",
   "ort": "Regensdorf",
   "in_ort": "a Regensdorf",
-  "einleitung": "Il Comune riceve la notifica online. Sulle sue pagine non indica l'importo dell'imposta sui cani.",
+  "einleitung": "Il Comune riceve la notifica online. L'imposta sui cani e le tasse figurano nel Gebührenreglement (regolamento sulle tasse) del Comune.",
   "karten": [
     {
       "titel": "Notifica",
@@ -20,10 +20,11 @@
     },
     {
       "titel": "Tassa di notifica",
-      "wert": "CHF 20",
-      "text": "La notifica di un cane costa CHF 20.",
+      "wert": "CHF 20, in ritardo CHF 40",
+      "text": "La notifica di un cane costa CHF 20. Chi annuncia in ritardo paga CHF 40. Se dopo una lettera di richiamo per una modifica o una notifica mancante in AMICUS il Comune deve sporgere denuncia penale, fattura CHF 80.",
       "quellen": [
-        "zh_regensdorf_anmeldung"
+        "zh_regensdorf_anmeldung",
+        "zh_regensdorf_gebuehren"
       ]
     },
     {
@@ -36,10 +37,19 @@
     },
     {
       "titel": "Imposta sui cani",
-      "wert": "fattura a febbraio o a marzo",
-      "text": "La fattura dell'imposta sui cani arriva ogni anno per posta, a febbraio o a marzo. Il Comune non indica l'importo sulle sue pagine.",
+      "wert": "CHF 100 per cane e per anno, più il contributo al Cantone",
+      "text": "L'imposta sui cani ammonta a CHF 100 per cane e per anno. Si aggiunge il contributo al Cantone. Il Comune non concede riduzioni secondo il § 24 dello Hundegesetz (legge sui cani). La fattura arriva ogni anno per posta, a febbraio o a marzo.",
       "quellen": [
+        "zh_regensdorf_gebuehren",
         "zh_regensdorf_schalter"
+      ]
+    },
+    {
+      "titel": "Multe",
+      "wert": "ammonimento o multa",
+      "text": "La Polizeiverordnung (ordinanza di polizia) del Comune esige di tenere e sorvegliare gli animali in modo da non disturbare nessuno e da non mettere in pericolo né danneggiare persone, animali o cose. Chi la viola, intenzionalmente o per negligenza, è punito con un ammonimento o una multa. L'ordinanza non indica luoghi propri con obbligo di guinzaglio o divieto per i cani. È in vigore dal 1° gennaio 2024.",
+      "quellen": [
+        "zh_regensdorf_polvo"
       ]
     }
   ]

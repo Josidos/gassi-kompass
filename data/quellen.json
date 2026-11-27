@@ -963,5 +963,15 @@
     "kurz": "Stadt Schaffhausen: Hundekontrolle",
     "lang": "Stadt Schaffhausen, Einwohnerkontrolle: Online-Schalter «Hundekontrolle» (abgerufen am 27. November 2026)",
     "url": "https://www.stadt-schaffhausen.ch/online-schalter/151336/detail"
+  },
+  "zh_regensdorf_gebuehren": {
+    "kurz": "Regensdorf: Gebührenreglement",
+    "lang": "Gemeinde Regensdorf: Gebührenreglement (600.11), in Kraft seit 1. April 2025, nachgeführt bis 1. Januar 2026, Ziffern 5.23 bis 5.25 (Hundewesen)",
+    "url": "https://www.regensdorf.ch/gk-finanzensteuern/info/1529653"
+  },
+  "zh_regensdorf_polvo": {
+    "kurz": "Regensdorf: Polizeiverordnung",
+    "lang": "Gemeinde Regensdorf: Polizeiverordnung (PolVO, 510.1), in Kraft seit 1. Januar 2024",
+    "url": "https://www.regensdorf.ch/gesetzessammlung/sammlung/1529611"
   }
 }

@@ -346,7 +346,7 @@ Unklar, nur beobachten. Durchgang vom 18.11.2026: `bl_wald` (baselland.ch, Antwo
 - [ ] Opfikon: Ordnungsbussen Hundehalter und Polizeiverordnung (Leine, Verbote, Kot) nachtragen, Angaben am Volltext gegenprüfen.
 - [ ] Thalwil: Herkunft der Leinenpflicht auf Strassen, Plätzen und Schularealen klären (Polizeiverordnung), Bussen nachtragen.
 - [ ] Adliswil: Polizeiverordnung (Leine, Verbote, Kot, Bussen) nachtragen.
-- [ ] Regensdorf: Betrag der Hundesteuer und Polizeiverordnung (Leine, Verbote, Kot, Bussen) nachtragen. Am 27.11.2026 im Browser von Joss nicht lesbar: Die Domain ist dort nicht freigegeben. Die Polizeiverordnung steht unter regensdorf.ch/gesetzessammlung/sammlung/1529611.
+- [x] 2026-11-27: Regensdorf, Betrag der Hundesteuer aus dem Gebührenreglement (CHF 100 pro Hund und Jahr, dazu der Kantonsbeitrag) und Polizeiverordnung im Browser von Joss gelesen. Die Polizeiverordnung von 2024 nennt Hunde nicht eigens: keine Orte mit Leinenpflicht oder Hundeverbot, kein eigener Artikel zum Hundekot, keine Bussenbeträge. Offen bleibt die Höhe des Kantonsbeitrags (siehe Lücke Kanton Zürich).
 - [ ] Volketswil: Anmeldestelle, Meldegebühr und Ordnungsbussenliste des Gemeinderats nachtragen.
 - [ ] Illnau-Effretikon: geltende Fassung des Gebührenreglements suchen und die Beträge von 2019 bestätigen oder ersetzen (vordringlich). Anmeldestelle und Polizeiverordnung nachtragen.
 - [ ] Kanton Uri: Verfassung des Kantons (RB 1.1101, Art. 110 Abs. 1 Bst. a) als Grundlage der Gemeindeverordnungen direkt belegen. Merkblatt «Verhaltensregeln für Hundehalter» des Veterinärdienstes der Urkantone lesen (laburk.ch, am 2026-11-18 nicht abrufbar). Busse für die Leinenpflicht im Wald belegen (Art. 44 KJSV nennt keinen Betrag, Ordnungsbussenrecht prüfen). Prüfen, ob die Verordnung von Andermatt von 2007 unverändert gilt, sonst die Beispiele auf der Kantonsseite ersetzen.
@@ -448,7 +448,6 @@ Aus dem Vergleich mit anderen Seiten. Erst angehen, wenn alle Kantone erfasst si
 - Suchdaten aus der Google Search Console auswerten: macht Claude in einer Sitzung über den Browser von Joss. Erste Auslesung am 26.11.2026, nächste am 15.12.2026.
 - Bing Webmaster Tools: Die Seite dort eintragen (Import aus der Search Console), damit auch die Suchdaten von Bing sichtbar werden. Braucht ein Microsoft-Konto von Joss. Nicht dringend: IndexNow meldet die Seiten schon an Bing.
 - Postfach kontakt@gassi-kompass.ch lesen und beantworten: macht Joss, oder Claude in einer Sitzung über den Browser von Joss. Der Lauf hat keinen Zugriff darauf.
-- Auftrag des täglichen Laufs (geplante Aufgabe im Konto von Joss): Er nennt für den Zustand «alle Kantone und 60 Gemeinden erfasst» noch «nur mittwochs und samstags» und stellt seinen Takt über das Handbuch. Das Handbuch nennt seit dem 27.11.2026 die Ausnahme: täglich, solange ein Sonderlauf fällig oder ein Themenfeld offen ist. Der Lauf vom 27.11.2026 hat gearbeitet und den Widerspruch gemeldet. Den Auftrag passt Claude nur in einer Sitzung an und nur auf das Wort von Joss («Takt täglich»). Bis dahin kann ein Lauf an einem Montag, Dienstag, Donnerstag, Freitag oder Sonntag auch sofort enden.
 
 ## 8. Später, nur nach Freigabe von Joss
 

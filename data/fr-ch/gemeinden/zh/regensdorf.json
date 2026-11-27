@@ -3,11 +3,11 @@
   "kanton": "zh",
   "bfs": 96,
   "uebersetzt_aus": "de",
-  "original": "55c1f2a7b5d7",
+  "original": "0413ef0b52e0",
   "name": "Regensdorf",
   "ort": "Regensdorf",
   "in_ort": "à Regensdorf",
-  "einleitung": "La commune reçoit l'annonce en ligne. Elle n'indique pas le montant de l'impôt sur les chiens sur ses pages.",
+  "einleitung": "La commune reçoit l'annonce en ligne. L'impôt sur les chiens et les émoluments figurent dans le Gebührenreglement (règlement sur les émoluments) de la commune.",
   "karten": [
     {
       "titel": "Annonce",
@@ -20,10 +20,11 @@
     },
     {
       "titel": "Émolument d'annonce",
-      "wert": "CHF 20",
-      "text": "L'annonce d'un chien coûte CHF 20.",
+      "wert": "CHF 20, en retard CHF 40",
+      "text": "L'annonce d'un chien coûte CHF 20. Qui annonce en retard paie CHF 40. Si la commune doit déposer une dénonciation pénale après une lettre de rappel pour une modification ou une annonce manquante dans AMICUS, elle facture CHF 80.",
       "quellen": [
-        "zh_regensdorf_anmeldung"
+        "zh_regensdorf_anmeldung",
+        "zh_regensdorf_gebuehren"
       ]
     },
     {
@@ -36,10 +37,19 @@
     },
     {
       "titel": "Impôt sur les chiens",
-      "wert": "facture en février ou en mars",
-      "text": "La facture de l'impôt sur les chiens arrive chaque année par la poste, en février ou en mars. La commune n'indique pas le montant sur ses pages.",
+      "wert": "CHF 100 par chien et par an, plus la contribution au canton",
+      "text": "L'impôt sur les chiens s'élève à CHF 100 par chien et par an. S'y ajoute la contribution au canton. La commune n'accorde pas de réductions selon le § 24 du Hundegesetz (loi sur les chiens). La facture arrive chaque année par la poste, en février ou en mars.",
       "quellen": [
+        "zh_regensdorf_gebuehren",
         "zh_regensdorf_schalter"
+      ]
+    },
+    {
+      "titel": "Amendes",
+      "wert": "réprimande ou amende",
+      "text": "La Polizeiverordnung (ordonnance de police) de la commune exige de détenir et de surveiller les animaux de manière à ne déranger personne et à ne mettre en danger ni blesser des personnes, des animaux ou des biens. Quiconque y contrevient, intentionnellement ou par négligence, est puni d'une réprimande ou d'une amende. L'ordonnance ne désigne pas de lieux propres avec laisse obligatoire ou interdiction des chiens. Elle est en vigueur depuis le 1er janvier 2024.",
+      "quellen": [
+        "zh_regensdorf_polvo"
       ]
     }
   ]
