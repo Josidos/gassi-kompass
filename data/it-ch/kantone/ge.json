@@ -2,7 +2,7 @@
   "id": "ge",
   "kurz": "GE",
   "uebersetzt_aus": "fr",
-  "original": "3063b46f04ba",
+  "original": "be9809066849",
   "wald": {
     "saison": true,
     "von": "04-01",
@@ -18,7 +18,7 @@
       "nel bosco, dal 1° aprile al 15 luglio",
       "nel bosco nel resto dell'anno, se non hai il pieno controllo del tuo cane",
       "nelle località e sulle vie pubbliche aperte alla circolazione",
-      "nelle passeggiate e sui lungolago, nei giardini e nei parchi pubblici",
+      "nelle passeggiate e sui lungolago, nei giardini e nei parchi pubblici e in luoghi analoghi accessibili al pubblico",
       "all'Aeroporto internazionale di Ginevra",
       "nei campeggi",
       "sui sentieri autorizzati del sito protetto del Moulin-de-Vert",
@@ -30,7 +30,7 @@
     ]
   },
   "verbot": {
-    "einleitung": "Il regolamento cantonale vieta questi luoghi ai cani, anche se tenuti al guinzaglio. I cani guida per ciechi e i cani d'assistenza per persone con disabilità non sono interessati.",
+    "einleitung": "Il regolamento cantonale vieta questi luoghi ai cani, anche se tenuti al guinzaglio. I cani guida per ciechi e i cani d'assistenza per persone con disabilità non sono interessati. In un esercizio in cui si consumano derrate alimentari il cane può entrare nella sala da pranzo se la persona responsabile lo autorizza.",
     "punkte": [
       "gli edifici religiosi e le loro dipendenze, i cimiteri",
       "le sale di spettacolo e gli istituti ospedalieri",
@@ -41,6 +41,7 @@
       "i prati, le aiuole e le piantagioni delle passeggiate, dei giardini e dei parchi pubblici",
       "i parchi pubblici designati come vietati ai cani",
       "le riserve naturali (salvo deroga del piano di gestione), le riserve forestali e i settori con divieto di accesso (secteurs mis à ban)",
+      "da ottobre a marzo le rive e l'acqua nel perimetro della riserva di uccelli acquatici (rada e corso del Rodano) e nelle valli della Laire e dell'Allondon, secondo la segnaletica",
       "tutte le colture"
     ],
     "quellen": [
@@ -54,9 +55,10 @@
       "marke": "Obbligo",
       "ton": "must",
       "wert": "per ogni detentore",
-      "text": "Devi avere un'assicurazione di responsabilità civile in corso di validità. La legge non fissa un importo minimo. L'attestato è richiesto per ottenere il contrassegno di controllo (marque de contrôle).",
+      "text": "Devi avere un'assicurazione di responsabilità civile in corso di validità. La legge non fissa un importo minimo. Per ottenere il contrassegno di controllo (marque de contrôle) presenti un attestato che certifica che il cane è assicurato per tutta la durata di validità del contrassegno.",
       "quellen": [
         "ge_lchiens",
+        "ge_rchiens",
         "ge_marque"
       ]
     },
@@ -65,10 +67,11 @@
       "marke": "Secondo il cane",
       "ton": "note",
       "wert": "test per i cani di grossa taglia",
-      "text": "I corsi di educazione cinofila non sono obbligatori, il Cantone li raccomanda vivamente. Il test de maîtrise et de comportement (TMC, test di controllo e di comportamento) resta obbligatorio per i cani di grossa taglia: oltre 25 kg e 56 cm al garrese. Annunci un cane di questo tipo a un educatore cinofilo riconosciuto prima che compia 18 mesi. Il TMC superato vale come autorizzazione di detenzione. Stato della pagina del Cantone: 2023.",
+      "text": "I corsi di educazione cinofila non sono obbligatori, il Cantone li raccomanda vivamente. Il test de maîtrise et de comportement (TMC, test di controllo e di comportamento) resta obbligatorio per i cani di grossa taglia: da 56 cm al garrese e oltre 25 kg, le due cose insieme. Annunci un cane di questo tipo a un'educatrice o a un educatore cinofilo riconosciuto prima che compia 18 mesi. Se acquisti un cane di grossa taglia di età superiore a 18 mesi e inferiore a 8 anni, sostieni il TMC entro 3 mesi dall'acquisto. Il test può essere tentato 3 volte nell'arco di un anno. Il TMC superato vale come autorizzazione di detenzione. Stato della pagina del Cantone: 2023.",
       "quellen": [
         "ge_tmc",
-        "ge_lchiens"
+        "ge_lchiens",
+        "ge_rchiens"
       ]
     },
     {
@@ -76,23 +79,33 @@
       "marke": "10 giorni",
       "ton": "note",
       "wert": "AMICUS, poi contrassegno di controllo",
-      "text": "La registrazione del cane nella banca dati AMICUS è obbligatoria, entro 10 giorni dall'acquisto. Anche un cambiamento di indirizzo o di detentore e la morte del cane vanno annunciati entro 10 giorni. Dall'età di 6 mesi il tuo cane porta al collare il contrassegno di controllo annuale. Lo ottieni entro il 1° aprile presso il tuo Comune, vale fino al 31 marzo dell'anno successivo e costa tra CHF 0 e CHF 24 secondo il Comune. Stato delle pagine del Cantone: 2023.",
+      "text": "La registrazione del cane nella banca dati AMICUS è obbligatoria, entro 10 giorni dall'acquisto. Se non hai mai detenuto un cane, ti registri dapprima presso il tuo municipio (mairie) o presso la polizia municipale per ottenere un identificativo AMICUS, che trasmetti alla tua veterinaria o al tuo veterinario. Anche un cambiamento di indirizzo o di detentore e la morte del cane vanno annunciati entro 10 giorni. Per detenere un cane bisogna avere 18 anni compiuti. Dall'età di 6 mesi il tuo cane porta al collare il contrassegno di controllo annuale. Lo ottieni entro il 1° aprile presso il tuo Comune, nella Città di Ginevra presso un posto della polizia municipale. Vale fino al 31 marzo dell'anno successivo e costa tra CHF 0 e CHF 24 secondo il Comune. Un contrassegno smarrito viene sostituito per CHF 20. Il tuo cane porta inoltre una medaglietta con il tuo numero di telefono. Stato delle pagine del Cantone: 2021 e 2023.",
       "quellen": [
         "ge_lchiens",
         "ge_rchiens",
+        "ge_declarer",
         "ge_detenir",
         "ge_marque"
-      ]
+      ],
+      "mehr": {
+        "titel": "Mostra i documenti da presentare per il contrassegno",
+        "punkte": [
+          "attestato valido dell'assicurazione di responsabilità civile",
+          "libretto di vaccinazione con una vaccinazione antirabbica valida",
+          "prova della registrazione del cane in AMICUS"
+        ]
+      }
     },
     {
       "titel": "Imposta sui cani",
       "marke": "annuale",
       "ton": "note",
       "wert": "CHF 50 al Cantone, più il Comune",
-      "text": "L'imposta cantonale è di CHF 50 per il primo cane, CHF 70 per il secondo e CHF 100 per il terzo e per ogni cane supplementare. Vi si aggiungono i centesimi addizionali del tuo Comune, calcolati in percento dell'imposta cantonale, come pure CHF 1 per cane per l'assicurazione contro i danni causati dai cani randagi e CHF 4 per cane per il fondo cantonale delle epizoozie. L'imposta è dovuta se risiedi nel Cantone, per un cane di almeno 6 mesi detenuto da almeno 3 mesi. Sono esonerati in particolare i cani d'assistenza e i cani d'utilità dell'esercito, della polizia, delle dogane o del salvataggio.",
+      "text": "L'imposta cantonale è di CHF 50 per il primo cane, CHF 70 per il secondo e CHF 100 per il terzo e per ogni cane supplementare. Vi si aggiungono i centesimi addizionali del tuo Comune, calcolati in percento dell'imposta cantonale, come pure CHF 1 per cane per l'assicurazione contro i danni causati dai cani randagi e CHF 4 per cane per il fondo cantonale delle epizoozie. L'imposta è dovuta se risiedi nel Cantone, per un cane di almeno 6 mesi detenuto da almeno 3 mesi. È calcolata per trimestre di detenzione. Ricevi una prima fattura non appena detieni il cane da 3 mesi completi, da pagare entro 30 giorni, poi una fattura annuale tra ottobre e novembre. Sono esonerati in particolare i cani d'assistenza per persone con disabilità e i cani d'utilità dell'esercito, della polizia, delle dogane, dei guardiani dell'ambiente (gardes de l'environnement) o del salvataggio. L'amministrazione fiscale pubblica l'elenco dei centesimi addizionali per Comune (stato: 2025).",
       "quellen": [
         "ge_impot_calcul",
-        "ge_impot_qui"
+        "ge_impot_qui",
+        "ge_impot_centimes"
       ]
     },
     {
@@ -100,7 +113,7 @@
       "marke": "Vietate",
       "ton": "must",
       "wert": "15 razze e i loro incroci",
-      "text": "I cani di razze dette d'attacco o ritenute pericolose, come pure i loro incroci, sono vietati sul territorio cantonale. È vietato acquistarne uno. Restano ammessi i cani già presenti prima dell'iscrizione della loro razza nell'elenco e titolari di un'autorizzazione di detenzione. Sono tenuti al guinzaglio e portano la museruola non appena lasciano il domicilio, anche nelle aree di svago per cani. Sono vietati anche i cani addestrati all'attacco.",
+      "text": "I cani di razze dette d'attacco o ritenute pericolose, come pure i loro incroci, sono vietati sul territorio cantonale. È vietato acquistarne uno. Restano ammessi i cani già presenti prima dell'iscrizione della loro razza nell'elenco e titolari di un'autorizzazione di detenzione. Sono tenuti al guinzaglio e portano una museruola a cestello non appena lasciano il domicilio, anche nelle aree di svago per cani. Devono essere castrati o sterilizzati e superare il TMC ogni anno fino al compimento degli 8 anni. Il furto o la scomparsa di un cane di questo tipo va annunciato immediatamente al Cantone. Sono vietati anche i cani addestrati all'attacco.",
       "mehr": {
         "titel": "Mostra l'elenco",
         "punkte": [
@@ -133,11 +146,12 @@
       "marke": "Regola",
       "ton": "note",
       "wert": "Raccogliere, controllare, al massimo 3 cani affidati",
-      "text": "Raccogli gli escrementi del tuo cane. Fuori dai luoghi con obbligo di guinzaglio, per esempio sulle strade di campagna o nelle aree di svago per cani, il tuo cane resta sotto il tuo controllo. Chi porta a spasso più di tre cani affidati da terzi ha bisogno di un'autorizzazione del Cantone. Le infrazioni alla loi sur les chiens (legge sui cani) sono punibili con la multa. La legge non ne fissa l'importo.",
+      "text": "Raccogli gli escrementi del tuo cane. Fuori dai luoghi con obbligo di guinzaglio, per esempio sulle strade di campagna o nelle aree di svago per cani, il tuo cane resta sotto il tuo controllo. Il Cantone pubblica una carta delle aree di svago per cani e dei parchi pubblici vietati ai cani. Provvedi affinché il tuo cane non disturbi la quiete pubblica con latrati o ululati. Chi porta a spasso più di tre cani affidati da terzi ha bisogno di un'autorizzazione del Cantone e non conduce più di 5 cani alla volta, compresi i propri. Annunci al Cantone le ferite gravi che il tuo cane causa a una persona o a un altro animale e i danni alle colture. Le infrazioni alla loi sur les chiens (legge sui cani) sono punibili con la multa. La legge non ne fissa l'importo.",
       "quellen": [
         "ge_lchiens",
         "ge_rchiens",
-        "ge_promenade"
+        "ge_promenade",
+        "ge_espaces"
       ]
     }
   ],
@@ -150,11 +164,33 @@
     "anm": "entro 10 giorni in AMICUS, contrassegno di controllo annuale"
   },
   "umzug": {
-    "text": "Le razze dell'elenco sono vietate nel Cantone. Se sei domiciliato all'estero e desideri stabilirti a Ginevra con un cane di queste razze, a determinate condizioni è possibile una deroga. La domanda va indirizzata per iscritto, prima dell'importazione del cane, alla Direction de la sécurité sanitaire et de la santé environnementale (DSSSE, in precedenza SCAV), quai Ernest-Ansermet 22, 1205 Genève.",
+    "text": "Chi soggiorna meno di 3 mesi nel Cantone con il proprio cane non è tenuto a registrarlo nella banca dati, a pagare l'imposta né ad acquistare il contrassegno di controllo. Le razze dell'elenco sono vietate sul territorio del Cantone. Se il cane risiede fuori dal territorio ginevrino e desideri stabilirti nel Cantone, è possibile una deroga eccezionale a condizioni cumulative. Tra l'altro detieni il cane da almeno 2 anni, il cane non ha precedenti di aggressione, viene castrato o sterilizzato al più tardi 6 mesi dopo l'arrivo e supera il TMC a Ginevra entro 30 giorni. La domanda va indirizzata per iscritto, prima dell'importazione del cane, alla Direction de la sécurité sanitaire et de la santé environnementale (su ge.ch ancora: Service de la consommation et des affaires vétérinaires, SCAV), quai Ernest-Ansermet 22, 1205 Genève.",
     "quellen": [
-      "ge_races",
       "ge_lchiens",
-      "ge_roac"
+      "ge_rchiens",
+      "ge_races",
+      "ge_roac",
+      "ge_scav"
+    ]
+  },
+  "vermisst": {
+    "text": "Se hai smarrito o trovato un cane nel Cantone di Ginevra, contatta al più presto la fourrière cantonale (canile cantonale). Accoglie i cani smarriti sulla via pubblica e ne cerca il proprietario. Se questi resta introvabile, il cane è affidato a una società di protezione degli animali per essere ricollocato.",
+    "punkte": [
+      "Fourrière cantonale: chemin de la Fourrière 11, 1239 Collex, tel. 022 546 59 77. Accoglienza dei cani tutti i giorni dalle 9.00 alle 11.30 e dalle 13.30 alle 16.00. Restituzione solo su appuntamento.",
+      "Cane trovato: è vietato appropriarsi di un cane randagio. Chi ne accoglie uno informa immediatamente la polizia, gli agenti di sicurezza municipali o il Cantone e consegna loro l'animale.",
+      "Il Cantone ha delegato la ricezione delle dichiarazioni relative ai cani randagi e trovati alla Société genevoise pour la protection des animaux (società ginevrina per la protezione degli animali) e a Tierdatenbank.ch.",
+      "Restituzione a un detentore ginevrino: il cane è registrato a suo nome in AMICUS, porta il contrassegno di controllo dell'anno in corso e ha una vaccinazione antirabbica valida. Per un detentore di un altro Cantone basta la registrazione a suo nome in AMICUS. Per un detentore estero: registrazione nella banca dati nazionale del Paese di provenienza e vaccinazione antirabbica valida. Stato della pagina del Cantone: 2023.",
+      "Le tasse del canile e le spese veterinarie sono di regola pagabili in contanti.",
+      "La custodia nel canile dura di regola 6 giorni. In seguito un cane il cui proprietario resta sconosciuto o che non è stato cercato è consegnato a un'organizzazione di protezione degli animali, su decisione del veterinario cantonale.",
+      "Cane di grossa taglia o cane dell'elenco autorizzato: annunci il furto o la scomparsa anche al Cantone, immediatamente per un cane dell'elenco, entro 10 giorni per un cane di grossa taglia."
+    ],
+    "quellen": [
+      "ge_fourriere",
+      "ge_perdus",
+      "ge_restitution",
+      "ge_rfour",
+      "ge_rchiens",
+      "ge_lchiens"
     ]
   }
 }

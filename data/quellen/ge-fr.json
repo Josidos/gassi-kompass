@@ -1,12 +1,12 @@
 {
   "ge_lchiens": {
     "kurz": "LChiens GE",
-    "lang": "République et canton de Genève: loi sur les chiens (LChiens, M 3 45) du 18 mars 2011, texte en vigueur (SILGeneve), consulté le 17 novembre 2026",
+    "lang": "République et canton de Genève: loi sur les chiens (LChiens, M 3 45) du 18 mars 2011, dernières modifications au 17 novembre 2026 (SILGeneve), consulté le 27 novembre 2026",
     "url": "https://silgeneve.ch/legis/data/rsg_m3_45.htm"
   },
   "ge_rchiens": {
     "kurz": "RChiens GE",
-    "lang": "République et canton de Genève: règlement d'application de la loi sur les chiens (RChiens, M 3 45.01) du 27 juillet 2011, texte en vigueur (SILGeneve), consulté le 17 novembre 2026",
+    "lang": "République et canton de Genève: règlement d'application de la loi sur les chiens (RChiens, M 3 45.01) du 27 juillet 2011, dernières modifications au 17 novembre 2026 (SILGeneve), consulté le 27 novembre 2026",
     "url": "https://silgeneve.ch/legis/data/rsg_m3_45p01.htm"
   },
   "ge_promenade": {
@@ -53,5 +53,45 @@
     "kurz": "Ville de Genève: obligations",
     "lang": "Ville de Genève: «Obligations des propriétaires de chiens», modifié le 13 mai 2026",
     "url": "https://www.geneve.ch/public/proprietaires-chiens/obligations-proprietaires"
+  },
+  "ge_declarer": {
+    "kurz": "ge.ch: déclarer mon chien",
+    "lang": "République et canton de Genève: «Détenir un chien: déclarer mon chien», mise à jour du 25 janvier 2021",
+    "url": "https://www.ge.ch/detenir-chien/declarer-mon-chien"
+  },
+  "ge_espaces": {
+    "kurz": "ge.ch: espaces de liberté",
+    "lang": "République et canton de Genève: «Détenir un chien: espaces de liberté et parcs publics interdits aux chiens» (carte), mise à jour du 16 décembre 2024",
+    "url": "https://www.ge.ch/detenir-chien/espaces-liberte-parcs-publics-interdits-aux-chiens"
+  },
+  "ge_impot_centimes": {
+    "kurz": "ge.ch: centimes additionnels",
+    "lang": "République et canton de Genève, Administration fiscale cantonale: «Impôts sur les chiens - Centimes additionnels» (barème par commune), publié le 17 mars 2025",
+    "url": "https://www.ge.ch/document/impots-chiens-centimes-additionnels"
+  },
+  "ge_fourriere": {
+    "kurz": "ge.ch: fourrière cantonale",
+    "lang": "République et canton de Genève: «Animaux perdus ou trouvés: chien perdu ou trouvé - fourrière cantonale», mise à jour du 15 juillet 2026",
+    "url": "https://www.ge.ch/animaux-perdus-trouves/chien-perdu-trouve-fourriere-cantonale"
+  },
+  "ge_perdus": {
+    "kurz": "ge.ch: animaux perdus ou trouvés",
+    "lang": "République et canton de Genève: «Animaux perdus ou trouvés», mise à jour du 27 janvier 2023",
+    "url": "https://www.ge.ch/animaux-perdus-trouves"
+  },
+  "ge_restitution": {
+    "kurz": "ge.ch: restitution du chien",
+    "lang": "République et canton de Genève: «Animaux perdus ou trouvés: conditions de restitution de votre chien», mise à jour du 27 janvier 2023",
+    "url": "https://www.ge.ch/animaux-perdus-trouves/conditions-restitution-votre-chien"
+  },
+  "ge_rfour": {
+    "kurz": "RFour GE",
+    "lang": "République et canton de Genève: règlement de la fourrière cantonale (RFour, M 3 50.07) du 2 mai 1990, dernières modifications au 17 novembre 2026 (SILGeneve), consulté le 27 novembre 2026",
+    "url": "https://silgeneve.ch/legis/data/rsg_m3_50p07.htm"
+  },
+  "ge_scav": {
+    "kurz": "ge.ch: SCAV",
+    "lang": "République et canton de Genève: «OCS - Service de la consommation et des affaires vétérinaires» (adresse et horaires), consulté le 27 novembre 2026",
+    "url": "https://www.ge.ch/organisation/ocs-service-consommation-affaires-veterinaires"
   }
 }

@@ -2,6 +2,24 @@
 
 Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen.
 
+## 2026-11-27, Sitzung mit Joss: Kanton Genf am geltenden Recht geprüft
+
+- Im Browser von Joss gelesen. Auf silgeneve.ch: Loi sur les chiens M 3 45 und Règlement d'application M 3 45.01 (beide «dernières modifications au 17 novembre 2026»), Règlement de la fourrière cantonale M 3 50.07, ROAC B 4 05.10. Auf ge.ch: «Détenir un chien» mit sieben Unterseiten, «L'impôt sur les chiens» mit zwei Unterseiten und dem Dokument zu den Zuschlagsrappen, «Animaux perdus ou trouvés» mit fünf Unterseiten, die Organisationsseite des SCAV.
+- Befund: Die Angaben der Seite stimmen mit dem geltenden Recht überein. Die Änderung vom 17. November 2026 berichtigt nur den Namen der zuständigen Stelle. Die Liste der 15 Rassen entspricht Art. 17 RChiens.
+- Verbote, neu: von Oktober bis März Ufer und Wasser im Wasservogelreservat (Seebecken und Rhone) und in den Tälern der Laire und der Allondon, gemäss Signalisation (Art. 13 Abs. 1 Bst. l RChiens). Speisesaal mit Erlaubnis der verantwortlichen Person (Art. 13 Abs. 3). Die Liste hat jetzt elf Punkte.
+- Kurs, neu: TMC innert 3 Monaten beim Erwerb eines grossen Hundes zwischen 18 Monaten und 8 Jahren (Art. 18 RChiens), höchstens 3 Versuche in einem Jahr (Art. 22 LChiens). Grösse im Wortlaut des Gesetzes: ab 56 cm und über 25 kg.
+- Anmeldung, neu: Weg über mairie oder police municipale zur AMICUS-Kennung, Mindestalter 18 Jahre (Art. 11 LChiens), Kontrollmarke in der Stadt Genf bei der police municipale, CHF 20 für eine verlorene Marke (Art. 9 RChiens), Plakette mit Telefonnummer (Art. 16 LChiens), Aufklapper mit den drei Unterlagen für die Marke, darunter die gültige Tollwutimpfung.
+- Hundesteuer, ergänzt: Berechnung pro Quartal, erste Rechnung nach 3 vollen Monaten, zahlbar innert 30 Tagen, Jahresrechnung zwischen Oktober und November, Verweis auf die Liste der Zuschlagsrappen (Stand 2025).
+- Rassen, ergänzt: Maulkorb in Korbform (Art. 11 RChiens), Kastration oder Sterilisation und jährlicher TMC bis 8 Jahre (Art. 24 LChiens), Diebstahl oder Verschwinden sofort melden.
+- Unterwegs, ergänzt: Karte der Freilaufzonen und der verbotenen Parks, öffentliche Ruhe (Art. 20), höchstens 5 Hunde für bewilligte Hundeausführer (Art. 10 RChiens), Meldung schwerer Verletzungen und von Schäden an Kulturen (Art. 36).
+- Feld `umzug`, geändert. Alt: «Si vous êtes domicilié à l'étranger …» (Seite des Kantons von 2023). Neu nach Art. 23 Abs. 3 LChiens in der geltenden Fassung: Ausnahme, wenn der Hund ausserhalb des Kantonsgebiets lebt, mit Bedingungen (2 Jahre Haltung, keine Angriffe, Kastration innert 6 Monaten, TMC in Genf innert 30 Tagen). Neu: Aufenthalt unter 3 Monaten ohne Registrierung, Steuer und Marke (Art. 12 RChiens).
+- Feld `vermisst` neu: fourrière cantonale in Collex mit Adresse, Telefon und Zeiten (Seite vom 15. Juli 2026), Aneignungsverbot und Meldung an Polizei, agents de sécurité municipaux oder Kanton (Art. 4 RFour), Delegation an SGPA und Tierdatenbank.ch (Art. 21 RChiens), Bedingungen der Rückgabe (Seite von 2023), Barzahlung (Art. 7 RFour), 6 Tage Aufbewahrung (Art. 5 RFour), Meldung bei grossen Hunden und Listenhunden (Art. 24 und 28 LChiens).
+- `vergleich.wald`: Schreibweise «du 1.4. au 15.7., en forêt».
+- Quellen neu: `ge_declarer`, `ge_espaces`, `ge_impot_centimes`, `ge_fourriere`, `ge_perdus`, `ge_restitution`, `ge_rfour`, `ge_scav`. Zusammen 415 Quellen.
+- Nicht gelungen: die Liste der Zuschlagsrappen pro Gemeinde (PDF). Steht im Backlog.
+- Deutsche und italienische Übersetzung im selben Zug nachgeführt. Die Themenseite «Hund vermisst oder gefunden» führt Genf jetzt in allen drei Sprachen, damit 9 von 26 Kantonen.
+- Build und Test fehlerfrei: 306 Seiten gebaut, 307 Seiten in 2 Breiten geprüft. Französische Kantonsseite bei 1280 Pixeln als Bild angesehen.
+
 ## 2026-11-27, Sitzung mit Joss: Kanton St. Gallen am geltenden Recht geprüft
 
 - Im Browser von Joss in der Gesetzessammlung des Kantons (gesetzessammlung.sg.ch) gelesen: Hundegesetz sGS 456.1 und Hundeverordnung sGS 456.11 (beide unverändert in Vollzug seit 1. Januar 2020), Jagdgesetz sGS 853.1 und Jagdverordnung sGS 853.11 (Fassungen vom 1. April 2024), Verordnung über die Jagdvorschriften sGS 853.111 (Fassung vom 1. Juni 2024). Auf www.sg.ch im Browser: «Hunde» (Stand 5. Dezember 2025), «Registrierung von Tieren und Tierhaltungen» (8. April 2026), «Tierschutz» (25. August 2026), Kantonspolizei «Anzeige erstatten, gesucht und vermisst» (11. Juni 2025).
