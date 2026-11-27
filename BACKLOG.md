@@ -455,7 +455,7 @@ Aus dem Vergleich mit anderen Seiten. Erst angehen, wenn alle Kantone erfasst si
 
 ## 9. Neue Themenfelder
 
-Entscheid von Joss vom 27.11.2026: Die Seite bleibt ein Nachschlagewerk mit amtlichen Quellen und bekommt neue Themen. Reihenfolge: 1. Hund vermisst oder gefunden. 2. Hunde gewerbsmässig betreuen. 3. Reisen und Einreise mit Hund. 4. Wild und Weide. Ein Thema nach dem anderen: Zuerst baut ein Sonderlauf das Feld in den Generator (Abschnitt 5), dann belegt jeder Lauf bis zu 4 Kantone. Ist ein Thema in allen Kantonen belegt oder zurückgestellt, meldet der Bericht das zuoberst. Das nächste Thema braucht zuerst eine Vorgabe in Abschnitt 5. Die schreibt Claude in einer Sitzung, der Lauf erfindet keine.
+Entscheid von Joss vom 27.11.2026: Die Seite bleibt ein Nachschlagewerk mit amtlichen Quellen und bekommt neue Themen. Reihenfolge: 1. Hund vermisst oder gefunden. 2. Hunde als Beruf und Gewerbe: betreuen und ausbilden. 3. Reisen und Einreise mit Hund. 4. Wild und Weide. 5. Hunde mit besonderer Aufgabe und Hundesport (siehe 9.2). Ein Thema nach dem anderen: Zuerst baut ein Sonderlauf das Feld in den Generator (Abschnitt 5), dann belegt jeder Lauf bis zu 4 Kantone. Ist ein Thema in allen Kantonen belegt oder zurückgestellt, meldet der Bericht das zuoberst. Das nächste Thema braucht zuerst eine Vorgabe in Abschnitt 5. Die schreibt Claude in einer Sitzung, der Lauf erfindet keine.
 
 ### 9.1 Hund vermisst oder gefunden
 
@@ -493,3 +493,18 @@ Einstiege: Seite des Veterinärdiensts, Seite der Kantonspolizei, kantonale Gese
 - [ ] Obwalden
 - [ ] Uri
 - [ ] Appenzell Innerrhoden
+
+### 9.2 Vorgemerkt: Hunde mit besonderer Aufgabe, Hundesport und Hundeberufe
+
+Wunsch von Joss vom 27.11.2026, 01:41 Uhr. Anlass: In der Liste der Hundeschulen stehen Mantrailing, Blindenführhunde, tierpsychologische Beratung und Hundesport. Die Seite soll zeigen, welche Regeln, Bewilligungen und Versicherungspflichten dafür gelten, so wie sie es für gewöhnliche Hunde tut. Noch nicht fällig: Zuerst kommen die Themen 1 bis 4.
+
+Zuerst klären, was es amtlich gibt. Die folgenden Punkte sind Vermutungen von Claude vom 27.11.2026, nicht nachgeschlagen. Vor jeder Verwendung im Lauf belegen, sonst weglassen:
+
+- Assistenzhunde, auch Blindenführhunde: Ausnahmen bei Hundesteuer, Leinenpflicht und Zutritt in kantonalen und kommunalen Erlassen. Beim Bund: Abgabe über die Invalidenversicherung, Zutritt in Lebensmittelbetrieben und im öffentlichen Verkehr.
+- Diensthunde, Rettungshunde, Jagdhunde und Herdenschutzhunde: Ausnahmen in kantonalen Hundegesetzen und Jagdgesetzen, Vorgaben des Bundes zu Herdenschutzhunden (gehört auch zu Thema 4).
+- Schutzdienst und Ausbildungsmethoden: Tierschutzverordnung des Bundes (Umgang mit Hunden, verbotene Hilfsmittel, Ausbildung zu Schutzzwecken), dazu strengere kantonale Regeln.
+- Hundeausbildende und Betreuung als Gewerbe: Bewilligungen der Kantone für Ausbildende, Bewilligung für gewerbsmässige Betreuung nach Tierschutzverordnung (gehört zu Thema 2).
+- Für einzelne Sportarten wie Mantrailing und für tierpsychologische Beratung ist kein eigener Erlass bekannt. Gilt nur das allgemeine Recht, sagt die Seite genau das oder nichts.
+- Versicherung: nur Pflichten, die in einem Erlass stehen. Keine Empfehlung einzelner Versicherer.
+
+Erster Schritt ohne neue Recherche: zusammenstellen, was in den Kantons- und Gemeindedateien schon zu Assistenz-, Dienst- und Nutzhunden steht (Befreiung von der Hundesteuer, Ausnahmen von der Leinenpflicht). Die Vorgabe für den Sonderlauf schreibt Claude in einer Sitzung, wenn das Thema an der Reihe ist.

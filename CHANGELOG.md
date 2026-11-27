@@ -11,6 +11,7 @@ Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen
 - Wortlaut: wie in Runde 1, ohne den Satz zur Kurspflicht, mit dem Namen der Hundeschule und, wo es sie gibt, der Gemeindeseite. Neu bittet die Mail um zwei, drei Stichworte zum Angebot. Empfänger, Betreff und Text stehen auf der Seite «Hundeschulen Runde 2» von Joss, nicht im Repository. Den Versand macht Joss. Rat von Claude: jede Mail einzeln, auf zwei Tage verteilt (34 und 32).
 - Neue Idee von Joss (01:28 Uhr), im Handbuch und im Backlog vermerkt: Partner-Einträge nach Angebot ordnen. Massgebend ist die Angabe der Hundeschule oder die amtliche Anerkennung, nie ein eigenes Urteil der Seite.
 - Reihenfolge der neuen Themen festgelegt (Auftrag von Joss): Das erste Themenfeld «Hund vermisst oder gefunden» steht in Abschnitt 5 des Backlogs als Sonderlauf mit dem Vermerk «fällig», die Kantone dazu in Abschnitt 9. Danach belegt jeder Lauf bis zu 4 Kantone. Handbuch nachgeführt (Obergrenzen, Schritt 3).
+- Weitere Idee von Joss (01:41 Uhr), im Backlog in Abschnitt 9.2 vorgemerkt: Regeln für Hunde mit besonderer Aufgabe (Assistenz-, Dienst-, Jagd- und Herdenschutzhunde), für Hundesport und für Hundeberufe. Zuerst klären, was es amtlich gibt. Für einzelne Sportarten wie Mantrailing ist kein eigener Erlass bekannt.
 - Nicht gelungen: Die Liste des Kantons Waadt für Hundeausbildende ist nur als Fassung von 2010 ohne Adressen abrufbar. Für Jura, Obwalden und Appenzell Innerrhoden fand die Suche keine weiteren Hundeschulen.
 - An den Seiten ändert sich nichts.
 
