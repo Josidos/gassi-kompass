@@ -2,6 +2,17 @@
 
 Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen.
 
+## 2026-11-27, Sitzung mit Joss: Hundeabgabe der Stadt Zürich und Hundetaxe der Stadt Bern mit Betrag
+
+- Zwei Lücken aus Abschnitt 4 des Backlogs geschlossen, beide auf den Seiten der grössten Städte ihrer Kantone.
+- Stadt Zürich, neu die Karte «Hundeabgabe»: CHF 130 pro Hund und Kalenderjahr an die Stadt, dazu der Kantonsbeitrag, den die Vollzugsvorschriften der Stadt mit CHF 30 nennen. Einschreibegebühr CHF 20, bei verspäteter Neueintragung CHF 40. Stand genannt, weil der Erlass älter als zwei Jahre ist: in Kraft seit 1. September 2017. Neue Quelle `zh_stadt_vollzug`. Karte «Anmeldung und Steuer»: Hunde über 3 Monate innert 10 Tagen mit dem Anmeldeformular anmelden, neue Quelle `zh_stadt_kontrolle`.
+- Weggelassen in Zürich: die Ermässigung nach freiwilligem Kurs (Art. 3) und der Erlass für Beziehende von Zusatzleistungen oder Sozialhilfe (Art. 4). Der Wortlaut lag nicht vor, und Art. 3 verweist auf das kantonale Hundegesetz, das seither revidiert wurde. Als neue Lücke im Backlog.
+- Stadt Bern, Karte «Hundetaxe», alt: nur der Stichtag 1. August. Neu: CHF 150 pro Hund und Jahr für Hunde ab 6 Monaten, Rechnung im August, Befreiung für Assistenz- und Begleithunde von Menschen mit Behinderung sowie Therapie- und Rettungshunde mit Nachweis. Der Stichtag bleibt stehen. Neue Quelle `be_stadt_hunde` (Seite geändert am 8. Oktober 2026).
+- Übersetzungen nachgeführt: 4 Dateien. `geprueft` bleibt stehen, weil nicht alle Angaben der Dateien gelesen wurden.
+- Link-Prüfung nach dem Push der Kurs-Karten: 317 Quellen, 313 in Ordnung, 1 tot (`be_oce_fr`, steht im Backlog), 3 unklar (`bl_wald` 403, `sz_einsiedeln_formular` 503, `ur_kjsv_bericht` Zeitüberschreitung). Die drei neuen Quellen der Kurs-Karten sind in Ordnung.
+- Wunsch von Joss um 07:35 Uhr: ein Posteingang ohne Webmail, damit Claude Mails an kontakt@gassi-kompass.ch ohne seinen Browser lesen kann. Im Backlog in Abschnitt 8 vorgemerkt, mit zwei Wegen und der Empfehlung. Es braucht sein Wort, weil es den Entscheid vom 26. November («kein Connector für das Postfach») ändert.
+- Gebaut und getestet: 294 Seiten, 320 Quellen, Test in Ordnung.
+
 ## 2026-11-27, Sitzung mit Joss: Kurs-Karten nennen die Listen der anerkannten Kursanbieter
 
 - Auftrag von Joss um 01:57 Uhr: mit der Verbesserung der Seite weitermachen. Erledigt ist die Lücke «Kursanbieter finden» aus Abschnitt 4 des Backlogs.
