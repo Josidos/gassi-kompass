@@ -5,7 +5,9 @@
 // Geprüft wird: Seite lädt, keine Skriptfehler, kein seitliches Überlaufen, genau eine Hauptüberschrift,
 // alle internen Links und Dateien existieren, der Wald-Status wird gesetzt, die Ortssuche findet Orte
 // und führt auf die richtige Seite, jede Themenseite führt jeden Kanton ihrer Sprache mit Quelle auf,
-// jede Startseite zeigt 26 Kantonstafeln, das Gemeindeverzeichnis und sechs Thementafeln.
+// jede Startseite zeigt 26 Kantonstafeln, das Gemeindeverzeichnis und sieben Thementafeln.
+// Die Themenseite «vermisst» führt die Karte des Bundes und jeden Kanton mit dem Feld 'vermisst' samt Quelle,
+// eine Kantonsseite zeigt den Abschnitt genau dann, wenn ihre Datei das Feld hat.
 // Sprachen: Seiten unter /fr-ch/ tragen lang="fr-CH", unter /it-ch/ lang="it-CH", alle anderen lang="de-CH".
 // hreflang muss in beide Richtungen stimmen, und die Ortssuche jeder Startseite wird mitgeprüft.
 // Übersetzte Seiten (Feld uebersetzt_aus) tragen den Hinweis «Übersetzung», Originalfassungen nicht.
@@ -104,9 +106,23 @@ function datei(url) {
       const sprache = SPRACHEN.find(x => s.startsWith(x[1] + '/thema/'));
       if (s === (SPRACHEN.find(x => x[1] && s.startsWith(x[1] + '/')) || SPRACHEN[0])[1] + '/') {
         const st = await page.evaluate(() => ({ kantone: document.querySelectorAll('.raster a').length, themen: document.querySelectorAll('.topics a').length, gemeinden: document.querySelectorAll('.index a').length, tabellen: document.querySelectorAll('table').length }));
-        if (st.kantone !== 26 || st.themen !== 6 || !st.gemeinden || st.tabellen) fehler.push(`${wo}: Startseite mit ${st.kantone} Kantonstafeln, ${st.themen} Thementafeln, ${st.gemeinden} Links im Gemeindeverzeichnis, ${st.tabellen} Tabellen (soll: 26, 6, mindestens 1, 0)`);
+        if (st.kantone !== 26 || st.themen !== 7 || !st.gemeinden || st.tabellen) fehler.push(`${wo}: Startseite mit ${st.kantone} Kantonstafeln, ${st.themen} Thementafeln, ${st.gemeinden} Links im Gemeindeverzeichnis, ${st.tabellen} Tabellen (soll: 26, 7, mindestens 1, 0)`);
       }
-      if (sprache) {
+      const kt = s.match(/^(\/fr-ch|\/it-ch)?\/([a-z]{2})\/$/);
+      if (kt) {
+        const dir = SPRACHEN.find(x => x[1] === (kt[1] || ''))[2];
+        if (fs.existsSync(path.join(ROOT, ...dir, 'kantone', kt[2] + '.json'))) {
+          const soll = lies(...dir, 'kantone', kt[2] + '.json').vermisst ? 1 : 0;
+          const ist = await page.evaluate(() => document.querySelectorAll('[data-vermisst]').length);
+          if (ist !== soll) fehler.push(`${wo}: ${ist} Abschnitte «vermisst», die Datei verlangt ${soll}`);
+        }
+      }
+      if (sprache && s.endsWith('/thema/vermisst/')) {
+        const soll = ordner(...sprache[2], 'kantone').filter(f => f.endsWith('.json') && lies(...sprache[2], 'kantone', f).vermisst).length;
+        const t = await page.evaluate(() => ({ kantone: document.querySelectorAll('[data-vermisst]').length, mitQuelle: [...document.querySelectorAll('[data-vermisst]')].filter(x => x.querySelector('.src a') && x.querySelector('h3 a')).length, bund: document.querySelectorAll('.card .src a').length, tabellen: document.querySelectorAll('table').length }));
+        if (t.kantone !== soll || t.mitQuelle !== soll) fehler.push(`${wo}: ${t.kantone} Kantone, davon ${t.mitQuelle} mit Quelle und Link, statt ${soll} (jeder Kanton mit dem Feld 'vermisst')`);
+        if (!t.bund || t.tabellen) fehler.push(`${wo}: Karte des Bundes mit Quelle fehlt, oder die Seite hat eine Tabelle`);
+      } else if (sprache) {
         const kantone = ordner(...sprache[2], 'kantone').filter(f => f.endsWith('.json')).length;
         const t = await page.evaluate(() => ({ zeilen: document.querySelectorAll('tbody tr').length, karten: document.querySelectorAll('.card').length, quellen: document.querySelectorAll('.card .src a').length }));
         if (t.zeilen !== kantone || t.karten !== kantone) fehler.push(`${wo}: ${t.zeilen} Zeilen und ${t.karten} Karten statt je ${kantone} (eine pro Kanton in dieser Sprache)`);

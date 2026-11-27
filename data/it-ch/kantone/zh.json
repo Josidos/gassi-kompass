@@ -2,7 +2,7 @@
   "id": "zh",
   "kurz": "ZH",
   "uebersetzt_aus": "de",
-  "original": "9ea0dd58d1d1",
+  "original": "d7df43696fc5",
   "wald": {
     "saison": true,
     "von": "04-01",
@@ -130,6 +130,22 @@
     "quellen": [
       "zh_vet",
       "srf"
+    ]
+  },
+  "vermisst": {
+    "text": "Nel Cantone di Zurigo il Veterinäramt (ufficio veterinario) gestisce la Meldestelle für Findeltiere (servizio di notifica degli animali trovati). Lì annunci un cane trovato e puoi anche segnalare la scomparsa del tuo cane. Il modo più semplice è farlo online presso la Schweizerische Tiermeldezentrale (STMZ).",
+    "punkte": [
+      "Cane trovato: devi annunciarlo al servizio di notifica degli animali trovati del tuo Cantone di domicilio. Con la notifica online presso la STMZ l'obbligo è adempiuto.",
+      "Cane smarrito: puoi segnalarlo al servizio di notifica degli animali trovati del tuo Cantone di domicilio, nel modo più semplice online presso la STMZ.",
+      "Per telefono o per e-mail: 0848 848 244, dal lunedì al venerdì dalle 10 alle 12, oppure findeltiere@veta.zh.ch.",
+      "La notifica online presso la STMZ è gratuita. La notifica per telefono comporta costi telefonici.",
+      "Se non puoi tenere con te il cane trovato, devi portarlo in un rifugio per animali o in una struttura simile.",
+      "Se chi lo detiene non viene trovato entro due mesi, puoi tenere il cane, a condizione che te ne sia occupato in questo periodo e che tu voglia adottarlo. Il servizio di notifica lo libera alla scadenza del termine."
+    ],
+    "quellen": [
+      "zh_findel",
+      "zh_fund",
+      "zh_vermisst"
     ]
   }
 }

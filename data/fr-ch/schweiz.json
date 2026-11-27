@@ -95,6 +95,17 @@
       "quellen": [
         "ch_blv_chiens"
       ]
+    },
+    {
+      "id": "vermisst",
+      "titel": "Perdu ou trouvé",
+      "marke": "À savoir",
+      "ton": "note",
+      "wert": "Centre suisse d'appels pour animaux",
+      "text": "Pour un chat ou un chien trouvé ou disparu, le portail ch.ch renvoie au Centre suisse d'appels pour animaux (STMZ). Le service compétent dans votre canton figure sur les pages des cantons.",
+      "quellen": [
+        "ch_chch_objets"
+      ]
     }
   ]
 }

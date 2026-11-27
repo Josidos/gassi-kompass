@@ -95,6 +95,17 @@
       "quellen": [
         "ch_blv_cani"
       ]
+    },
+    {
+      "id": "vermisst",
+      "titel": "Smarrito o trovato",
+      "marke": "Da sapere",
+      "ton": "note",
+      "wert": "Centrale svizzera per animali smarriti",
+      "text": "Per un gatto o un cane smarrito o scappato, il portale ch.ch rimanda alla Centrale svizzera per animali smarriti (STMZ). Il servizio competente nel tuo Cantone si trova sulle pagine dei Cantoni.",
+      "quellen": [
+        "ch_chch_oggetti"
+      ]
     }
   ]
 }

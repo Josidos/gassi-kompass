@@ -2,6 +2,20 @@
 
 Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen.
 
+## 2026-11-27, Sonderlauf: Themenfeld «Hund vermisst oder gefunden» gebaut, Probe Zürich
+
+- Takt: Heute ist Freitag, alle Kantone und 63 Gemeinden sind erfasst. Der Auftrag des Laufs nennt für diesen Fall nur Mittwoch und Samstag und sagt, sein Takt gehe dem Handbuch vor. Das Handbuch nennt seit heute 01:50 Uhr die Ausnahme von Joss (täglich, solange ein Sonderlauf fällig oder ein Themenfeld offen ist). Der Lauf hat gearbeitet, weil der Entscheid von Joss der neuere ist. Der Widerspruch steht im Bericht.
+- Sonderlauf nach Abschnitt 5 des Backlogs, sonst nichts: kein Nachprüfen, keine Gemeinden. Eingesammelt: nichts, es lagen keine Protokolle vor.
+- Generator: neues wahlweises Feld `vermisst` im Kanton (`text`, wahlweise `punkte`, `quellen`), geprüft in `pruefe()`. Kantonsseite mit eigenem Abschnitt «Hund vermisst oder gefunden {im}» nach den Pflichten, nur wenn das Feld da ist. Siebte Themenseite `/thema/vermisst/`, `/fr-ch/thema/vermisst/`, `/it-ch/thema/vermisst/` (`seite_thema_feld()`): zuoberst die Karte des Bundes, darunter jeder Kanton mit Feld. Sie steht in der Sitemap, auf den Startseiten («Sieben Themen») und in der Themenleiste der Kantonsseiten. Keine neuen Bausteine oder Farben, `assets/site.css` ist unverändert. Bestehende Adressen bleiben.
+- Bund: neue Karte «Vermisst oder gefunden» in den drei Fassungen von `schweiz.json`, jede aus der Seite von ch.ch in ihrer Sprache: Für vermisste oder zugelaufene Katzen und Hunde verweist ch.ch auf die Schweizerische Tiermeldezentrale (STMZ). Neue Quellen `ch_chch_fund`, `ch_chch_objets`, `ch_chch_oggetti`. `geprueft` bleibt stehen. `data/schweiz.json` ist dabei einheitlich eingerückt worden, der Inhalt der übrigen Karten ist unverändert.
+- Nicht gelungen: Art. 720a und 722 ZGB. fedlex.admin.ch liefert dem Abrufwerkzeug nur eine leere Rahmenseite, zwei Suchen auf admin.ch fanden keine andere Fassung. Meldepflicht und Frist stehen deshalb nicht auf der Seite des Bundes. Als Lücke im Backlog, Abschnitt 4.
+- Probe Zürich, Feld `vermisst`, aus drei Seiten des Veterinäramts (heute abgerufen): Das Veterinäramt betreibt die Meldestelle für Findeltiere. Fund melden ist Pflicht, mit der Online-Meldung bei der STMZ ist sie erfüllt. Vermisste Tiere kann man dort ebenfalls melden. Telefon 0848 848 244, Montag bis Freitag 10 bis 12 Uhr, findeltiere@veta.zh.ch. Online kostenlos. Tierheim, wenn man den Hund nicht betreuen kann. Nach zwei Monaten ohne Halterin oder Halter kann die Finderin oder der Finder den Hund behalten. Neue Quellen `zh_findel`, `zh_fund`, `zh_vermisst`. `geprueft` von Zürich bleibt stehen, weil nur das neue Feld gelesen wurde.
+- Weggelassen in Zürich: die Angaben zu toten und angefahrenen Tieren und zu Tierarztkosten (nicht Thema des Felds). AMICUS nennen die drei Seiten nicht.
+- Übersetzungen: Zürich französisch und italienisch nachgeführt, `python3 build.py --fehlend` meldet nichts.
+- Test erweitert: sieben Thementafeln, die Themenseite «vermisst» führt die Karte des Bundes und jeden Kanton mit Feld samt Quelle und Link, eine Kantonsseite zeigt den Abschnitt genau dann, wenn ihre Datei das Feld hat.
+- Angesehen bei 390 und 1280 Pixeln: Themenseite, Abschnitt auf der Kantonsseite (deutsch und französisch), Thementafeln der Startseite.
+- Handbuch nachgeführt: Aufbau, Datenfelder Kanton, Themenseiten.
+- Gebaut und getestet: 297 Seiten, 326 Quellen, Test in Ordnung.
 ## 2026-11-27, Sitzung mit Joss: Stadt Zürich mit Freilaufzonen, Orten mit Leinenpflicht und Ermässigungen
 
 - Der Browser von Joss war ab 08:13 Uhr verbunden. Damit liessen sich Quellen lesen, die das Abrufwerkzeug nicht liefert: der Datensatz «Hundezonen» der Stadt Zürich über den Dienst der Stadt und die PDF der Erlasse im Volltext.

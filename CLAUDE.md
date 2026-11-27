@@ -26,9 +26,9 @@ Claude führt das Projekt wie einen Betrieb: Inhalt, Technik, Qualität und Stra
 | `data/fr-ch/kantone/`, `data/fr-ch/gemeinden/<kt>/` | Französische Fassungen, gleiche Felder, Texte aus den französischen amtlichen Quellen |
 | `data/it-ch/kantone/`, `data/it-ch/gemeinden/<kt>/` | Italienische Fassungen, ebenso |
 | `data/entwurf/<kt>.json` | Angefangener Kanton, dem noch Felder fehlen. Wird nicht gebaut. |
-| `data/schweiz.json`, `data/fr-ch/schweiz.json`, `data/it-ch/schweiz.json` | Regeln des Bundes für `/schweiz/`, `/fr-ch/schweiz/` und `/it-ch/schweiz/`. Drei Originalfassungen, jede aus den Seiten des Bundes in ihrer Sprache. Kartenfelder wie beim Kanton, die Titel der Karten sind frei. |
+| `data/schweiz.json`, `data/fr-ch/schweiz.json`, `data/it-ch/schweiz.json` | Regeln des Bundes für `/schweiz/`, `/fr-ch/schweiz/` und `/it-ch/schweiz/`. Drei Originalfassungen, jede aus den Seiten des Bundes in ihrer Sprache. Kartenfelder wie beim Kanton, die Titel der Karten sind frei. Genau eine Karte je Fassung trägt `"id": "vermisst"`: Sie steht zuoberst auf der Themenseite «Hund vermisst oder gefunden», `build.py` erzwingt das. |
 | `data/orte.json` | Alle Gemeinden, Ortschaften und Postleitzahlen der Schweiz (swisstopo). Grundlage der Ortssuche. Nie von Hand ändern, entsteht mit `tools/orte.py`. |
-| `build.py` | Prüft die Daten und erzeugt alle Seiten in allen Sprachen. Alle festen Texte stehen in der Tabelle `TEXTE` je Sprache (`de`, `fr`, `it`). Die Themenseiten stehen in der Liste `THEMEN` und in der Funktion `seite_thema()`, ihre Texte je Sprache in `TEXTE` unter `themen` und `thema`. |
+| `build.py` | Prüft die Daten und erzeugt alle Seiten in allen Sprachen. Alle festen Texte stehen in der Tabelle `TEXTE` je Sprache (`de`, `fr`, `it`). Die Themenseiten stehen in der Liste `THEMEN` und in den Funktionen `seite_thema()` und `seite_thema_feld()`, ihre Texte je Sprache in `TEXTE` unter `themen` und `thema`. |
 | `assets/` | Stylesheet, Skripte (`heute.js` für den Wald-Status, `suche.js` für die Ortssuche), Schriften, Icon. Die Skripte kennen keine Sprache, ihre Texte kommen als data-Attribute aus `build.py`. |
 | `tests/seiten.js` | Browser-Test der gebauten Seiten |
 | `tools/links.py`, `.github/workflows/quellen.yml` | Link-Prüfung: fragt jede Adresse aus den Quellendateien mit einem echten Abruf ab. Siehe «Link-Prüfung». |
@@ -64,6 +64,7 @@ Muster: `data/kantone/zh.json`.
 - `ton`: `must` für Pflicht oder Verbot, `none` für «keine Pflicht», `note` für eine neutrale Angabe. Die Themenseiten Haftpflicht, Kurs und Rassen zählen die Kantone mit `must`. Dort `must` nur setzen, wenn die Pflicht allgemein gilt (Haftpflicht und Kurs) oder es eine Liste mit Bewilligung oder Verbot gibt (Rassen).
 - `vergleich`: Kurzfassung für die Tabellen der Themenseiten mit den Schlüsseln `wald`, `haft`, `kurs`, `rassen`, `steuer`, `anm`
 - wahlweise `umzug: {"text", "quellen"}`: was beim Zuzug in den Kanton gilt
+- wahlweise `vermisst: {"text", "punkte", "quellen"}` (seit 27. November 2026): wo man im Kanton einen entlaufenen oder einen gefundenen Hund meldet. `text` sagt es in ein bis drei Sätzen, `punkte` ist wahlweise und nennt die Schritte. Muster: `data/kantone/zh.json`. Übersetzungen führen das Feld wie jedes andere. Die Kantonsseite zeigt dazu einen eigenen Abschnitt nach den Pflichten, die Themenseite `/thema/vermisst/` führt jeden Kanton mit dem Feld auf. Was zu belegen ist, steht in `BACKLOG.md`, Abschnitt 9.1.
 
 ### Datenfelder Gemeinde
 
@@ -334,7 +335,7 @@ Regeln für jeden Sonderlauf:
 
 ### Themenseiten (gebaut am 18. November 2026)
 
-Sechs Seiten je Sprache unter `/thema/<name>/`, `/fr-ch/thema/<name>/` und `/it-ch/thema/<name>/`, erzeugt aus den Kantonsdateien dieser Sprache, ohne neue Angaben. Ein neuer Kanton oder eine neue Übersetzung erscheint dort von selbst:
+Sieben Seiten je Sprache unter `/thema/<name>/`, `/fr-ch/thema/<name>/` und `/it-ch/thema/<name>/`, erzeugt aus den Kantonsdateien dieser Sprache, ohne neue Angaben. Ein neuer Kanton oder eine neue Übersetzung erscheint dort von selbst:
 
 | Adresse | Thema | Daten |
 |---|---|---|
@@ -344,8 +345,11 @@ Sechs Seiten je Sprache unter `/thema/<name>/`, `/fr-ch/thema/<name>/` und `/it-
 | `/thema/rassen/` | Rasselisten und Verbote | Karte Rassen, `vergleich.rassen` |
 | `/thema/hundesteuer/` | Hundesteuer | Karte Hundesteuer, `vergleich.steuer` |
 | `/thema/anmeldung/` | Anmeldung | Karte Anmeldung, `vergleich.anm` |
+| `/thema/vermisst/` | Hund vermisst oder gefunden | Feld `vermisst`, Karte des Bundes mit `id` `vermisst` |
 
-Jede Seite hat einen Titel in der Form «Leinenpflicht im Wald: alle Kantone im Vergleich», einen Absatz, der zählt («In 14 der 26 Kantone …», laut `ton`), eine Tabelle aller Kantone dieser Sprache mit Link zur Kantonsseite und darunter je Kanton den Text der Karte mit ihren Quellen. Die Tabelle hat drei Spalten: Kanton, «Auf einen Blick» (die Marke der Karte) und die Kurzfassung aus `vergleich`. Auf dem Telefon steht jede Zeile als Block. Kantone, die es in der Sprache der Seite noch nicht gibt, stehen darunter in einer Zeile mit Link und Angabe der Sprache. Sind Kantone der Seite übersetzt, sagt das ein Hinweis unter dem Einstieg. Die Seiten stehen in der Sitemap. Die Startseite und jede Kantonsseite verlinken darauf.
+Seit dem 27. November 2026 gibt es eine siebte Themenseite, `/thema/vermisst/` («Hund vermisst oder gefunden»), samt `/fr-ch/thema/vermisst/` und `/it-ch/thema/vermisst/`. Sie vergleicht nicht und zählt nicht: Zuoberst steht die Karte des Bundes mit `"id": "vermisst"` aus `schweiz.json`, darunter jeder Kanton dieser Sprache, der das Feld `vermisst` hat, mit Text, Schritten, Quellen und Link zur Kantonsseite. Kantone ohne Feld erscheinen nicht. In `THEMEN` trägt sie `feld` statt `key` und `karte`, gebaut wird sie von `seite_thema_feld()`, der Baustein ist `vermisst()` (Linienliste `.list-card`, Attribut `data-vermisst`). Ihre Texte stehen in `TEXTE` unter `themen.vermisst`, die Überschrift des Abschnitts auf der Kantonsseite unter `vermisst_h2`. Ein weiteres Themenfeld dieser Art braucht einen Eintrag in `THEMEN` mit `feld`, die Texte, die Prüfung in `pruefe()` und die Karte des Bundes. Der Test prüft, dass die Seite jeden Kanton mit Feld samt Quelle führt und dass eine Kantonsseite den Abschnitt genau dann zeigt, wenn ihre Datei das Feld hat.
+
+Für die sechs Vergleichsseiten gilt: Jede Seite hat einen Titel in der Form «Leinenpflicht im Wald: alle Kantone im Vergleich», einen Absatz, der zählt («In 14 der 26 Kantone …», laut `ton`), eine Tabelle aller Kantone dieser Sprache mit Link zur Kantonsseite und darunter je Kanton den Text der Karte mit ihren Quellen. Die Tabelle hat drei Spalten: Kanton, «Auf einen Blick» (die Marke der Karte) und die Kurzfassung aus `vergleich`. Auf dem Telefon steht jede Zeile als Block. Kantone, die es in der Sprache der Seite noch nicht gibt, stehen darunter in einer Zeile mit Link und Angabe der Sprache. Sind Kantone der Seite übersetzt, sagt das ein Hinweis unter dem Einstieg. Die Seiten stehen in der Sitemap. Die Startseite und jede Kantonsseite verlinken darauf.
 
 So ist es gebaut: `THEMEN` nennt je Thema `id`, den Schlüssel in `vergleich`, die Position der Karte und ob gezählt wird. Name, Spaltenkopf, Sätze und Beschreibung stehen je Sprache in `TEXTE` unter `themen`, die gemeinsamen Texte unter `thema`. Leinenpflicht im Wald zählt die Kantone mit `wald.saison` und nennt die Daten, wenn sie überall gleich sind. Haftpflicht, Kurs und Rassen zählen `ton: must`. Hundesteuer und Anmeldung zählen nicht, weil `ton` dort keine Pflicht ausdrückt. Der Test prüft, dass jede Themenseite jeden Kanton ihrer Sprache mit Quelle aufführt.
 
@@ -369,7 +373,7 @@ Die Vorgaben, die dafür galten und weiter gelten:
 
 Anlass war die Durchsicht mit Joss: Die Seite soll man einem Amt zeigen können. So ist es gebaut:
 
-- Startseite: unter der Suche eine Zeile mit dem Umfang in Zahlen aus den Daten (Kantone, Gemeinden mit lokalen Regeln, verlinkte Quellen, `ZAHLEN` und `S["fakten"]`). Dann 26 Kantonstafeln mit Kürzel und Zahl der Gemeinden («ZH · 14 Gemeinden», `kantonsraster()`), das Gemeindeverzeichnis mit einer Zeile pro Kanton und den kurzen Ortsnamen aus `ort` (`gemeindeverzeichnis()`, am Bildschirm zweispaltig) und sechs Thementafeln mit je einem Satz (`themenkacheln()`). Die frühere Vergleichstabelle mit 26 Zeilen und 7 Spalten gibt es nicht mehr: Sie war am Bildschirm abgeschnitten und auf dem Telefon nicht lesbar.
+- Startseite: unter der Suche eine Zeile mit dem Umfang in Zahlen aus den Daten (Kantone, Gemeinden mit lokalen Regeln, verlinkte Quellen, `ZAHLEN` und `S["fakten"]`). Dann 26 Kantonstafeln mit Kürzel und Zahl der Gemeinden («ZH · 14 Gemeinden», `kantonsraster()`), das Gemeindeverzeichnis mit einer Zeile pro Kanton und den kurzen Ortsnamen aus `ort` (`gemeindeverzeichnis()`, am Bildschirm zweispaltig) und sieben Thementafeln mit je einem Satz (`themenkacheln()`). Die frühere Vergleichstabelle mit 26 Zeilen und 7 Spalten gibt es nicht mehr: Sie war am Bildschirm abgeschnitten und auf dem Telefon nicht lesbar.
 - Tafeln zu Gemeinden zeigen überall den kurzen Ortsnamen ohne «Stadt», «Gemeinde» oder «Bezirk» und ohne «Kanton XX» (`gemeinde_tafeln()`).
 - Karten stehen in zwei Spalten statt drei, damit die Zeilen länger und die Karten einer Reihe ähnlicher hoch sind.
 - Themenseiten: siehe «Themenseiten».

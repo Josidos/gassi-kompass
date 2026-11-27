@@ -898,5 +898,35 @@
     "kurz": "Stadt Bern: Hunde",
     "lang": "Stadt Bern: Hunde (Seite geändert am 8. Oktober 2026)",
     "url": "https://www.bern.ch/themen/umwelt-natur-und-energie/tiere/hunde"
+  },
+  "zh_findel": {
+    "kurz": "Meldestelle für Findeltiere ZH",
+    "lang": "Kanton Zürich, Veterinäramt: Meldestelle für Findeltiere",
+    "url": "https://www.zh.ch/de/umwelt-tiere/tiere/haustiere-heimtiere/meldestelle-fuer-findeltiere.html"
+  },
+  "zh_fund": {
+    "kurz": "Kanton ZH: Gefundenes Tier melden",
+    "lang": "Kanton Zürich, Veterinäramt: Gefundenes Tier melden",
+    "url": "https://www.zh.ch/de/umwelt-tiere/tiere/haustiere-heimtiere/gefundenes-tier-melden.html"
+  },
+  "zh_vermisst": {
+    "kurz": "Kanton ZH: Vermisstes Tier melden",
+    "lang": "Kanton Zürich, Veterinäramt: Vermisstes Tier melden",
+    "url": "https://www.zh.ch/de/umwelt-tiere/tiere/haustiere-heimtiere/vermisstes-tier-melden.html"
+  },
+  "ch_chch_fund": {
+    "kurz": "ch.ch: Fundbüros",
+    "lang": "ch.ch, Behördenportal von Bund, Kantonen und Gemeinden: Fundbüros und easyfind.ch",
+    "url": "https://www.ch.ch/de/sicherheit-und-recht/polizei/fundgegenstande/"
+  },
+  "ch_chch_objets": {
+    "kurz": "ch.ch : objets trouvés",
+    "lang": "ch.ch, portail des autorités suisses : Bureaux des objets trouvés et easyfind.ch",
+    "url": "https://www.ch.ch/fr/securite-et-droit/police/objets-trouves/"
+  },
+  "ch_chch_oggetti": {
+    "kurz": "ch.ch: oggetti smarriti",
+    "lang": "ch.ch, portale delle autorità svizzere: Uffici oggetti smarriti e easyfind.ch",
+    "url": "https://www.ch.ch/it/sicurezza-e-diritto/polizia/oggetti-trovati/"
   }
 }

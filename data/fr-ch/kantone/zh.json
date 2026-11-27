@@ -2,7 +2,7 @@
   "id": "zh",
   "kurz": "ZH",
   "uebersetzt_aus": "de",
-  "original": "9ea0dd58d1d1",
+  "original": "d7df43696fc5",
   "wald": {
     "saison": true,
     "von": "04-01",
@@ -130,6 +130,22 @@
     "quellen": [
       "zh_vet",
       "srf"
+    ]
+  },
+  "vermisst": {
+    "text": "Dans le canton de Zurich, le Veterinäramt (office vétérinaire) gère la Meldestelle für Findeltiere (service d'annonce des animaux trouvés). Vous y annoncez un chien trouvé, et vous pouvez aussi y annoncer la disparition de votre chien. Le plus simple est de le faire en ligne auprès de la Schweizerische Tiermeldezentrale (STMZ).",
+    "punkte": [
+      "Chien trouvé : vous devez l'annoncer au service d'annonce des animaux trouvés de votre canton de domicile. L'annonce en ligne auprès de la STMZ remplit cette obligation.",
+      "Chien disparu : vous pouvez l'annoncer au service d'annonce des animaux trouvés de votre canton de domicile, le plus simplement en ligne auprès de la STMZ.",
+      "Par téléphone ou par courriel : 0848 848 244, du lundi au vendredi de 10 à 12 heures, ou findeltiere@veta.zh.ch.",
+      "L'annonce en ligne auprès de la STMZ est gratuite. L'annonce par téléphone entraîne des frais de communication.",
+      "Si vous ne pouvez pas garder le chien trouvé chez vous, vous devez l'amener dans un refuge ou un établissement similaire.",
+      "Si la détentrice ou le détenteur n'est pas retrouvé dans un délai de deux mois, vous pouvez garder le chien, à condition de vous en être occupé pendant ce temps et de vouloir l'adopter. Le service d'annonce le libère à l'échéance du délai."
+    ],
+    "quellen": [
+      "zh_findel",
+      "zh_fund",
+      "zh_vermisst"
     ]
   }
 }

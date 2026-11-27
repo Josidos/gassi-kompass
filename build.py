@@ -63,6 +63,8 @@ KARTEN_TITEL = {
 # zaehlt: Die Seite nennt, in wie vielen Kantonen ton == must gilt. Bei Hundesteuer und Anmeldung
 # drückt 'ton' keine Pflicht aus, dort steht stattdessen der Satz 'sonst'.
 # Name, Sätze und Beschreibung jedes Themas stehen je Sprache in TEXTE unter "themen".
+# Ein Thema mit 'feld' statt 'key' und 'karte' hat keine Tabelle und zählt nicht: Zuoberst steht die Karte
+# des Bundes mit derselben 'id' aus schweiz.json, darunter jeder Kanton, der das Feld hat.
 THEMEN = [
     {"id": "leinenpflicht-wald", "key": "wald", "karte": None},
     {"id": "haftpflicht", "key": "haft", "karte": 0, "zaehlt": True},
@@ -70,6 +72,8 @@ THEMEN = [
     {"id": "rassen", "key": "rassen", "karte": 4, "zaehlt": True},
     {"id": "hundesteuer", "key": "steuer", "karte": 3},
     {"id": "anmeldung", "key": "anm", "karte": 2},
+    # feld: Die Seite vergleicht nicht, sie führt je Kanton das wahlweise Feld dieses Namens auf (seite_thema_feld).
+    {"id": "vermisst", "feld": "vermisst"},
 ]
 MIN_LOKAL = 3  # so viele belegte lokale Angaben braucht eine Gemeinde für eine eigene Seite
 # Feste Dateien, die nie fehlen dürfen: Domain, Pages-Schalter, Bestätigung für die Google Search Console,
@@ -195,6 +199,7 @@ TEXTE = {
         "verbot_chip": "Verbot", "verbot_h3": "Kein Zutritt für Hunde",
         "pflichten_h2": "Pflichten für Hundehaltende",
         "umzug": "Umzug in den {name}:",
+        "vermisst_h2": "Hund vermisst oder gefunden {im}",
         "lokal_h2": "Das gilt zusätzlich {in_ort}", "freilauf": "Freilaufzonen",
         "suche": {
             "lade": "Das Ortsverzeichnis wird geladen.",
@@ -219,7 +224,7 @@ TEXTE = {
         "start_gm_h2": "Gemeinden mit lokalen Regeln",
         "start_gm_p": "Für diese Gemeinden findest du zusätzlich lokale Angaben, zum Beispiel Hundetaxe, Leinenzonen oder Freilaufzonen. Für alle anderen gelten die Regeln des Kantons.",
         "start_vg_h2": "Kantone vergleichen",
-        "start_vg_p": "Sechs Themen, jeweils alle Kantone nebeneinander. Hilfreich, wenn du umziehst oder wissen willst, wie es anderswo geregelt ist.",
+        "start_vg_p": "Sieben Themen, Kanton für Kanton. Hilfreich, wenn du umziehst oder wissen willst, wie es anderswo geregelt ist.",
         "vg_kanton": "Kanton",
         "start_titel": "Hunderegeln Schweiz nach Kanton und Gemeinde | Gassi-Kompass",
         "start_beschr": "Gemeinde oder Postleitzahl eingeben und sehen, was für Hunde gilt: Leinenpflicht, Haftpflicht, Kurse und Hundesteuer. Mit amtlicher Quelle zu jeder Angabe.",
@@ -307,6 +312,18 @@ TEXTE = {
                 "sonst": "Je nach Kanton legt der Kanton oder die Gemeinde den Betrag fest.",
                 "beschr": "Hundesteuer in der Schweiz: was ein Hund pro Jahr kostet und wer den Betrag festlegt, Kanton für Kanton. Mit amtlicher Quelle zu jeder Angabe."
             },
+            "vermisst": {
+                "name": "Hund vermisst oder gefunden",
+                "kurz": "Wo du einen entlaufenen oder einen gefundenen Hund meldest.",
+                "unter": "nach Kanton",
+                "h1": "Hund vermisst oder gefunden: wo du es meldest",
+                "titel": "Hund vermisst oder gefunden: Meldestellen nach Kanton | Gassi-Kompass",
+                "lede": "Wo du einen entlaufenen Hund als vermisst meldest und wem du einen gefundenen Hund melden musst. Die Meldestelle ist je nach Kanton verschieden.",
+                "bund_h2": "In der ganzen Schweiz",
+                "kt_h2": "Nach Kanton",
+                "kt_p": "Der Name des Kantons führt zu allen Regeln dort.",
+                "beschr": "Hund entlaufen oder gefunden: wo du es in der Schweiz meldest, Kanton für Kanton. Mit amtlicher Quelle zu jeder Angabe."
+            },
             "anmeldung": {
                 "name": "Hund anmelden",
                 "spalte": "Anmeldung",
@@ -388,6 +405,7 @@ TEXTE = {
         "verbot_chip": "Interdit", "verbot_h3": "Accès interdit aux chiens",
         "pflichten_h2": "Obligations des détenteurs de chiens",
         "umzug": "Déménagement {im} :",
+        "vermisst_h2": "Chien perdu ou trouvé {im}",
         "lokal_h2": "Règles supplémentaires {in_ort}", "freilauf": "Espaces de liberté pour chiens",
         "suche": {
             "lade": "Le répertoire des localités se charge.",
@@ -412,7 +430,7 @@ TEXTE = {
         "start_gm_h2": "Communes avec règles locales",
         "start_gm_p": "Pour ces communes, vous trouvez en plus des indications locales, par exemple l'impôt sur les chiens, les lieux où la laisse est obligatoire ou les espaces de liberté. Pour toutes les autres, les règles du canton s'appliquent.",
         "start_vg_h2": "Comparer les cantons",
-        "start_vg_p": "Six thèmes, avec tous les cantons côte à côte. Utile si vous déménagez ou si vous voulez savoir comment c'est réglé ailleurs.",
+        "start_vg_p": "Sept thèmes, canton par canton. Utile si vous déménagez ou si vous voulez savoir comment c'est réglé ailleurs.",
         "vg_kanton": "Canton",
         "start_titel": "Règles pour les chiens en Suisse par canton et par commune | Gassi-Kompass",
         "start_beschr": "Saisissez une commune ou un code postal et voyez ce qui vaut pour les chiens : laisse obligatoire, assurance responsabilité civile, cours et impôt sur les chiens. Avec la source officielle de chaque indication.",
@@ -500,6 +518,18 @@ TEXTE = {
                 "sonst": "Selon le canton, le montant est fixé par le canton ou par la commune.",
                 "beschr": "Impôt sur les chiens en Suisse : ce que coûte un chien par an et qui fixe le montant, canton par canton. Avec la source officielle de chaque indication."
             },
+            "vermisst": {
+                "name": "Chien perdu ou trouvé",
+                "kurz": "Où annoncer un chien qui s'est échappé ou un chien trouvé.",
+                "unter": "par canton",
+                "h1": "Chien perdu ou trouvé : où l'annoncer",
+                "titel": "Chien perdu ou trouvé : où l'annoncer, canton par canton | Gassi-Kompass",
+                "lede": "Où annoncer la disparition de votre chien et à qui annoncer un chien trouvé. Le service compétent varie selon le canton.",
+                "bund_h2": "Dans toute la Suisse",
+                "kt_h2": "Par canton",
+                "kt_p": "Le nom du canton mène à toutes les règles qui y valent.",
+                "beschr": "Chien perdu ou trouvé : où l'annoncer en Suisse, canton par canton. Avec la source officielle de chaque indication."
+            },
             "anmeldung": {
                 "name": "Annoncer son chien",
                 "spalte": "Annonce",
@@ -581,6 +611,7 @@ TEXTE = {
         "verbot_chip": "Divieto", "verbot_h3": "Accesso vietato ai cani",
         "pflichten_h2": "Obblighi per chi detiene un cane",
         "umzug": "Trasloco {im}:",
+        "vermisst_h2": "Cane smarrito o trovato {im}",
         "lokal_h2": "Regole supplementari {in_ort}", "freilauf": "Aree di svago per cani",
         "suche": {
             "lade": "L'elenco delle località è in caricamento.",
@@ -605,7 +636,7 @@ TEXTE = {
         "start_gm_h2": "Comuni con regole locali",
         "start_gm_p": "Per questi Comuni trovi anche indicazioni locali, per esempio l'imposta sui cani, i luoghi con obbligo di guinzaglio o le aree di svago per cani. Per tutti gli altri valgono le regole del Cantone.",
         "start_vg_h2": "Confrontare i Cantoni",
-        "start_vg_p": "Sei temi, con tutti i Cantoni fianco a fianco. Utile se ti trasferisci o vuoi sapere com'è regolato altrove.",
+        "start_vg_p": "Sette temi, Cantone per Cantone. Utile se ti trasferisci o vuoi sapere com'è regolato altrove.",
         "vg_kanton": "Cantone",
         "start_titel": "Regole per i cani in Svizzera per Cantone e Comune | Gassi-Kompass",
         "start_beschr": "Inserisci un Comune o un numero postale di avviamento e vedi cosa vale per i cani: obbligo di guinzaglio, responsabilità civile, corsi e imposta sui cani. Con la fonte ufficiale per ogni indicazione.",
@@ -692,6 +723,18 @@ TEXTE = {
                 "kurz": "Quanto costa un cane all'anno e chi fissa l'importo.",
                 "sonst": "A seconda del Cantone, l'importo è fissato dal Cantone o dal Comune.",
                 "beschr": "Imposta sui cani in Svizzera: quanto costa un cane all'anno e chi fissa l'importo, Cantone per Cantone. Con la fonte ufficiale per ogni indicazione."
+            },
+            "vermisst": {
+                "name": "Cane smarrito o trovato",
+                "kurz": "Dove segnalare un cane scappato o un cane trovato.",
+                "unter": "per Cantone",
+                "h1": "Cane smarrito o trovato: dove segnalarlo",
+                "titel": "Cane smarrito o trovato: dove segnalarlo, Cantone per Cantone | Gassi-Kompass",
+                "lede": "Dove segnalare la scomparsa del tuo cane e a chi annunciare un cane trovato. Il servizio competente cambia da Cantone a Cantone.",
+                "bund_h2": "In tutta la Svizzera",
+                "kt_h2": "Per Cantone",
+                "kt_p": "Il nome del Cantone porta a tutte le regole che vi valgono.",
+                "beschr": "Cane smarrito o trovato: dove segnalarlo in Svizzera, Cantone per Cantone. Con la fonte ufficiale per ogni indicazione."
             },
             "anmeldung": {
                 "name": "Notificare il cane",
@@ -1030,6 +1073,15 @@ def pruefe(quellen, welt, bund, orte):
                 if not k["umzug"].get("text"):
                     fehler.append(f"{wo}, umzug: 'text' fehlt")
                 qs(k["umzug"].get("quellen"), f"{wo}, umzug")
+            if "vermisst" in k:
+                v = k["vermisst"]
+                if not isinstance(v, dict) or not str(v.get("text", "")).strip():
+                    fehler.append(f"{wo}, vermisst: 'text' fehlt")
+                    v = {}
+                if "punkte" in v and not (isinstance(v["punkte"], list) and v["punkte"]
+                                          and all(isinstance(p, str) and p.strip() for p in v["punkte"])):
+                    fehler.append(f"{wo}, vermisst: 'punkte' ist eine Liste mit mindestens einem Text oder fehlt ganz")
+                qs(v.get("quellen"), f"{wo}, vermisst")
 
         gesehen = set()
         for g in gemeinden:
@@ -1083,6 +1135,9 @@ def pruefe(quellen, welt, bund, orte):
             datum(b["geprueft"], wo)
             for c in b["karten"]:
                 karte(c, wo, True)
+            for t in THEMEN:
+                if t.get("feld") and sum(1 for c in b["karten"] if c.get("id") == t["id"]) != 1:
+                    fehler.append(f"{wo}: genau eine Karte braucht \"id\": \"{t['id']}\" (Themenseite /thema/{t['id']}/)")
     if len(verzeichnis) < 2000 or {x[2] for x in verzeichnis.values()} != alle:
         fehler.append("data/orte.json: Verzeichnis ist unvollständig (weniger als 2000 Gemeinden oder nicht 26 Kantone)")
     namen = {x[1] for x in verzeichnis.values()}
@@ -1407,10 +1462,28 @@ def ortsindex(orte):
     return json.dumps({"k": k, "g": g, "o": o, "a": ANDERE_NAMEN}, ensure_ascii=False, separators=(",", ":"))
 
 
+def vermisst(k, Q, benutzt, link=None, kopf=None):
+    """Feld 'vermisst' eines Kantons als Linienliste. link: Der Titel führt zur Kantonsseite (Themenseite)."""
+    v = k["vermisst"]
+    titel = f'<h3><a href="{link}">{e(kopf)}</a></h3>' if link else ""
+    punkte = ("<ul>" + "".join(f"<li>{e(p)}</li>" for p in v["punkte"]) + "</ul>") if v.get("punkte") else ""
+    return (f'<div class="list-card" data-vermisst>{titel}<p>{e(v["text"])}</p>{punkte}'
+            f'{qlinks(v["quellen"], Q, benutzt)}</div>')
+
+
+def abschnitt_vermisst(k, Q, benutzt):
+    """Abschnitt der Kantonsseite, nur wenn der Kanton das Feld hat."""
+    if not k.get("vermisst"):
+        return ""
+    return (f'<section class="sec"><div class="sec-head"><h2>{e(S["vermisst_h2"].format(im=k["im"]))}</h2></div>'
+            f'{vermisst(k, Q, benutzt)}</section>')
+
+
 def themenleiste(ohne=None):
     """Tafeln zu den Themenseiten in der Sprache der Seite. ohne: id der Seite, auf der die Leiste steht."""
     return ('<div class="plates small liste">'
-            + "".join(tafel(thema_pfad(t["id"]), S["themen"][t["id"]]["name"], S["thema"]["alle"])
+            + "".join(tafel(thema_pfad(t["id"]), S["themen"][t["id"]]["name"],
+                                    S["themen"][t["id"]].get("unter", S["thema"]["alle"]))
                       for t in THEMEN if t["id"] != ohne)
             + '</div>')
 
@@ -1623,6 +1696,7 @@ def seite_kanton(k, Q):
 {wald(k, Q, benutzt)}
 {regeln(k, Q, benutzt)}
 {pflichten(k, Q, benutzt)}
+{abschnitt_vermisst(k, Q, benutzt)}
 <section class="sec">
 <div class="sec-head"><h2>{e(S["kt_gm_h2"].format(**f))}</h2><p>{S["kt_gm_p"]}</p></div>
 {orte}
@@ -1672,6 +1746,8 @@ def seite_gemeinde(g, k, Q):
 def seite_thema(t, Q):
     """Vergleich aller Kantone, die es in der Sprache der Seite gibt, zu einem Thema. Alle Angaben
     stammen aus den Kantonsdateien dieser Sprache. Die übrigen Kantone stehen in einer Zeile darunter."""
+    if t.get("feld"):
+        return seite_thema_feld(t, Q)
     benutzt = []
     T, tt = S["thema"], S["themen"][t["id"]]
     kantone = W[LANG]["k"]
@@ -1743,6 +1819,44 @@ def seite_thema(t, Q):
     return seite(pfad, T["titel"].format(name=tt["name"]), tt["beschr"], inhalt,
                  [(S["start"], start), (tt["name"], pfad)], min(k["geprueft"] for k in kantone), benutzt, Q,
                  alt={l: f'{PRAEFIX[l]}/thema/{t["id"]}/' for l in SPRACHEN if W[l]["k"]})
+
+
+def seite_thema_feld(t, Q):
+    """Themenseite zu einem wahlweisen Feld der Kantone (heute: 'vermisst'). Zuoberst die Karte des Bundes
+    mit derselben id, darunter jeder Kanton dieser Sprache, der das Feld hat. Kein Vergleich, keine Zahl."""
+    benutzt = []
+    tt = S["themen"][t["id"]]
+    start = PRAEFIX[LANG] + "/"
+    bund = W[LANG].get("b")
+    kantone = [k for k in W[LANG]["k"] if k.get(t["feld"])]
+    bl, bpfad = bund_ziel()
+    oben = ""
+    if bund:
+        c = next(c for c in bund["karten"] if c.get("id") == t["id"])
+        oben = (f'<section class="sec"><div class="sec-head"><h2>{tt["bund_h2"]}</h2></div>'
+                f'<div class="cards">{karte(c, Q, benutzt, link=bpfad)}</div></section>')
+    liste = "".join(vermisst(k, Q, benutzt, link=k_pfad(LANG, k["id"]), kopf=KANTONSNAMEN[LANG][k["id"]])
+                    for k in kantone)
+    unten = (f'<section class="sec"><div class="sec-head"><h2>{tt["kt_h2"]}</h2><p>{tt["kt_p"]}</p></div>'
+             f'<div class="split">{liste}</div></section>') if kantone else ""
+    uebersetzt = (f'\n<p class="transl">{S["thema"]["uebersetzt"]}</p>'
+                  if any("uebersetzt_aus" in k for k in kantone) else "")
+    pfad = thema_pfad(t["id"])
+    inhalt = f"""<section class="hero thema"><!--KRUMEN-->
+<h1>{e(tt["h1"])}</h1>
+<p class="lede">{e(tt["lede"])}</p>{uebersetzt}
+</section>
+{oben}
+{unten}
+<section class="sec">
+<div class="sec-head"><h2>{S["thema"]["weitere_h2"]}</h2></div>
+{themenleiste(t["id"])}
+<p><a class="text-link" href="{start}">{S["bund"]["suche"]}</a></p>
+</section>"""
+    stand = min([k["geprueft"] for k in kantone] + ([bund["geprueft"]] if bund else [])
+                or [min(k["geprueft"] for k in W[LANG]["k"])])
+    return seite(pfad, tt["titel"], tt["beschr"], inhalt, [(S["start"], start), (tt["name"], pfad)],
+                 stand, benutzt, Q, alt={l: f'{PRAEFIX[l]}/thema/{t["id"]}/' for l in SPRACHEN if W[l]["k"]})
 
 
 def seite_ueber(Q):

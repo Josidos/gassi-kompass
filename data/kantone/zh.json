@@ -133,5 +133,21 @@
       "zh_vet",
       "srf"
     ]
+  },
+  "vermisst": {
+    "text": "Im Kanton Zürich betreibt das Veterinäramt die Meldestelle für Findeltiere. Dort meldest du einen gefundenen Hund, und dort kannst du auch deinen vermissten Hund melden. Am einfachsten geht beides online bei der Schweizerischen Tiermeldezentrale (STMZ).",
+    "punkte": [
+      "Hund gefunden: Du musst den Fund der Findeltiermeldestelle deines Wohnkantons melden. Mit der Online-Meldung bei der STMZ ist die Meldepflicht erfüllt.",
+      "Hund vermisst: Du kannst ihn bei der Findeltiermeldestelle deines Wohnkantons als vermisst melden, am einfachsten online bei der STMZ.",
+      "Per Telefon oder Mail: 0848 848 244, Montag bis Freitag von 10 bis 12 Uhr, oder findeltiere@veta.zh.ch.",
+      "Die Online-Meldung bei der STMZ ist kostenlos. Bei der telefonischen Meldung fallen Telefongebühren an.",
+      "Kannst du den gefundenen Hund nicht bei dir betreuen, musst du ihn in ein Tierheim oder eine ähnliche Einrichtung bringen.",
+      "Findet sich die Halterin oder der Halter innert zwei Monaten nicht, kannst du den Hund behalten, wenn du ihn in dieser Zeit betreut hast und ihn adoptieren möchtest. Die Meldestelle gibt ihn nach Ablauf der Frist frei."
+    ],
+    "quellen": [
+      "zh_findel",
+      "zh_fund",
+      "zh_vermisst"
+    ]
   }
 }
