@@ -15,6 +15,14 @@ Ist der Browser von Joss verbunden, lässt sich ein Erlass am geltenden Text les
 - Leitet eine Adresse im Browser um, kommt die neue Adresse in die Quellendatei (Aargau, 27. November 2026).
 - Der Browser liest nur. Keine Formulare, keine Downloads, keine Suchfelder.
 
+## Läufe von Hand starten (Erfahrung vom 28. November 2026)
+
+Joss kann Claude in einer Sitzung erlauben, den automatischen Lauf sofort zu starten (`fire_trigger`). So gilt es:
+
+- **Ohne Begleittext.** Der Lauf beginnt sofort mit seinem gespeicherten Auftrag. Ein Begleittext kommt als zweite Nachricht an, oft erst nach dem Bericht, und wurde in der Nacht auf den 28. November 2026 als neuer Auftrag verstanden: Die Sitzung begann eine zweite Runde, und ein weiterer von Hand gestarteter Lauf arbeitete an denselben vier Kantonen und verwarf seine Arbeit. Was ein Lauf wissen muss, steht in `BACKLOG.md`, nicht im Begleittext.
+- **Einer nach dem anderen.** Den nächsten Lauf erst starten, wenn der vorige beendet ist. Massgebend ist der Stand des letzten Laufs in der Liste der geplanten Aufgaben (`last_run` mit Endzeit), nicht der Commit auf `main`.
+- **Mehrere gleichzeitig** nur als Parallel-Läufe mit je einem Auftrag unter `data/protokoll/auftraege.md`. Seit dem 28. November 2026 startet Claude sie als Unteragenten auf Opus aus der Sitzung, jeden in einer eigenen Arbeitskopie (`isolation: worktree`), nicht über den gespeicherten Auftrag: Dort begänne jeder zuerst den gewöhnlichen Lauf.
+
 ## Skills (Stand 27. November 2026)
 
 Ein Skill ist ein Ordner mit Anweisungen für eine bestimmte Art von Arbeit. Skills im Repository liegen unter `.claude/skills/` und stehen jeder Sitzung und jedem Lauf zur Verfügung. So gilt es:
