@@ -84,6 +84,11 @@
     zeigeInfo(form.zone);
   }
 
+  function zeigeZone(form) {
+    karte.fitBounds(form.getBounds().pad(0.6), { maxZoom: 17, animate: !ruhig });
+    waehle(form);
+  }
+
   function baue(daten) {
     var L = window.L;
     var el = document.createElement('div');
@@ -101,7 +106,10 @@
     daten.zonen.forEach(function (z, i) {
       var form = L.polygon(z.g.map(function (teil) { return teil.map(ring); }), stil(z.z, false));
       form.zone = z;
-      form.on('click', function (ereignis) { L.DomEvent.stopPropagation(ereignis); waehle(form); });
+      form.on('click', function (ereignis) {
+        L.DomEvent.stopPropagation(ereignis);
+        if (ART[z.z] === 'frei' && karte.getZoom() < 15) zeigeZone(form); else waehle(form);
+      });
       formen[i] = form;
     });
     // Reihenfolge der Ebenen: Verbote zuunterst, Freilaufzonen zuoberst
@@ -113,11 +121,7 @@
     formen.forEach(function (form) {
       if (ART[form.zone.z] !== 'frei') return;
       var punkt = L.circleMarker(form.getBounds().getCenter(), { renderer: stil.leinwand, radius: 6, color: '#fff', weight: 2, fillColor: farbe('--k-frei'), fillOpacity: 1 });
-      punkt.on('click', function (ereignis) {
-        L.DomEvent.stopPropagation(ereignis);
-        karte.fitBounds(form.getBounds().pad(0.6), { maxZoom: 17, animate: !ruhig });
-        waehle(form);
-      });
+      punkt.on('click', function (ereignis) { L.DomEvent.stopPropagation(ereignis); zeigeZone(form); });
       punkt.addTo(punkte);
     });
     var zeigePunkte = function () {
@@ -125,9 +129,10 @@
       if (soll && !karte.hasLayer(punkte)) punkte.addTo(karte);
       if (!soll && karte.hasLayer(punkte)) karte.removeLayer(punkte);
     };
-    karte.on('zoomend', zeigePunkte);
     grenzen = L.featureGroup(formen).getBounds();
     karte.fitBounds(grenzen);
+    // erst jetzt, damit die Punkte nach den Flächen auf die Karte kommen und über ihnen liegen
+    karte.on('zoomend', zeigePunkte);
     karte.setMaxBounds(grenzen.pad(1));
     karte.on('click', function () { waehle(null); });
     Array.prototype.forEach.call(wahl, function (kasten) {
@@ -139,6 +144,7 @@
       schalte();
     });
     zeigePunkte();
+    wurzel._karte = karte;  // für den Test und die Fehlersuche
     wurzel.setAttribute('data-flaechen', String(formen.length));
     ortKnopf.parentNode.hidden = false;
     melde(T.bereit);
@@ -206,8 +212,7 @@
           if (kasten.getAttribute('data-karte-art') === art && !kasten.checked) { kasten.checked = true; gruppen[art].addTo(karte); }
         });
         feld.scrollIntoView({ block: 'center' });
-        karte.fitBounds(form.getBounds().pad(0.6), { maxZoom: 17, animate: !ruhig });
-        waehle(form);
+        zeigeZone(form);
       }).catch(function () {});
     });
   });

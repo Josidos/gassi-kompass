@@ -160,7 +160,8 @@ function datei(url) {
     await p.goto(basis + s, { waitUntil: 'load' });
     if (fremd.length) fehler.push(`${s}: ruft vor dem Klick auf «Karte laden» fremde Adressen ab: ${fremd[0]}`);
     const quelle = await p.getAttribute('[data-karte]', 'data-daten');
-    const soll = datei(quelle) ? JSON.parse(fs.readFileSync(datei(quelle), 'utf8')).zonen.length : -1;
+    const zonen = datei(quelle) ? JSON.parse(fs.readFileSync(datei(quelle), 'utf8')).zonen : [];
+    const soll = zonen.length || -1;
     if (soll < 1) fehler.push(`${s}: Die Flächen fehlen (${quelle})`);
     if (await p.isHidden('[data-karte-laden]')) fehler.push(`${s}: Der Knopf «Karte laden» ist nicht sichtbar`);
     else {
@@ -181,14 +182,34 @@ function datei(url) {
       const andere = fremd.filter(u => !u.startsWith(KACHELN));
       if (andere.length) fehler.push(`${s}: Die Karte ruft ausser den Kartenbildern von swisstopo noch ab: ${andere[0]}`);
       if (!fremd.some(u => u.startsWith(KACHELN))) fehler.push(`${s}: Die Karte hat keine Kartenbilder angefordert`);
-      const erste = await p.$('[data-karte-zeige]');
-      if (!erste) fehler.push(`${s}: Die Liste der Freilaufzonen fehlt`);
+      // Der Punkt einer Freilaufzone liegt über den Flächen: Ein Tipp darauf holt die Zone heran und nennt sie.
+      const frei = zonen.find(z => z.z === 7);
+      if (frei && k.stand === 'bereit') {
+        await p.locator('.karte-blatt').scrollIntoViewIfNeeded();
+        const wo = await p.evaluate(z => {
+          let a = Infinity, b = -Infinity, c = Infinity, d = -Infinity;
+          for (const teil of z.g) for (const r of teil) {
+            let x = r[0], y = r[1];
+            for (let i = 0; i < r.length; i += 2) { if (i) { x += r[i]; y += r[i + 1]; } a = Math.min(a, x); b = Math.max(b, x); c = Math.min(c, y); d = Math.max(d, y); }
+          }
+          const q = document.querySelector('[data-karte]')._karte.latLngToContainerPoint([(c + d) / 2e5, (a + b) / 2e5]);
+          const f = document.querySelector('.karte-blatt').getBoundingClientRect();
+          return { x: f.left + q.x, y: f.top + q.y };
+        }, frei);
+        await p.mouse.click(wo.x, wo.y);
+        await p.waitForFunction(() => document.querySelector('[data-karte]')._karte.getZoom() >= 15, null, { timeout: 5000 }).catch(() => {});
+        const nach = await p.evaluate(() => ({ zoom: document.querySelector('[data-karte]')._karte.getZoom(), info: document.querySelector('[data-karte-info]').hidden ? '' : document.querySelector('[data-karte-info]').textContent }));
+        if (nach.zoom < 15 || !nach.info.includes(frei.n)) fehler.push(`${s}: Ein Tipp auf den Punkt der Freilaufzone «${frei.n}» holt sie nicht heran (Zoom ${nach.zoom})`);
+      }
+      const knoepfe = await p.$$('[data-karte-zeige]');
+      if (!knoepfe.length) fehler.push(`${s}: Die Liste der Freilaufzonen fehlt`);
       else {
-        const name = (await erste.textContent()).trim();
-        await erste.click();
-        await p.waitForSelector('[data-karte-info]:not([hidden])', { timeout: 5000 }).catch(() => {});
+        const zweite = knoepfe[Math.min(1, knoepfe.length - 1)];
+        const name = (await zweite.textContent()).trim();
+        await zweite.click();
+        await p.waitForFunction(n => { const x = document.querySelector('[data-karte-info]'); return !x.hidden && x.textContent.includes(n); }, name, { timeout: 5000 }).catch(() => {});
         const info = await p.$eval('[data-karte-info]', x => x.hidden ? '' : x.textContent);
-        if (!name || !info.includes(name)) fehler.push(`${s}: Ein Tipp auf «${name}» zeigt die Zone nicht an`);
+        if (!name || !info.includes(name)) fehler.push(`${s}: Ein Tipp auf «${name}» in der Liste zeigt die Zone nicht an`);
       }
     }
     await p.close();
