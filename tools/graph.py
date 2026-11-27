@@ -28,7 +28,11 @@ from urllib.parse import urlsplit
 ROOT = Path(__file__).resolve().parent.parent
 AUS = ROOT / "graphify-out"
 WISSEN = ROOT / "tools" / "graph_wissen.txt"
-DOKUMENTE = ["CLAUDE.md", "BACKLOG.md", "CHANGELOG.md", "DESIGN.md", "PRODUCT.md", "README.md"]
+DOKUMENTE = ["CLAUDE.md", "BACKLOG.md", "CHANGELOG.md", "DESIGN.md", "PRODUCT.md", "README.md",
+             "handbuch/uebersetzungen.md", "handbuch/generator.md", "handbuch/kette-parallel.md",
+             "handbuch/kontakt.md", "handbuch/sitzung.md", "handbuch/freigaben.md",
+             "backlog/gemeinden.md", "backlog/luecken.md", "backlog/spaeter.md"]
+# Die Archive (backlog/archiv.md, changelog/) bleiben draussen: Man durchsucht sie mit grep.
 SPRACHEN = {"de": "Deutsch", "fr": "Französisch", "it": "Italienisch"}
 # Begriffe der Datenschicht: Kennung -> Bezeichnung
 BEGRIFFE = {

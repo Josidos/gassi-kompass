@@ -6,6 +6,9 @@ Disallow: /tests/
 Disallow: /tools/
 Disallow: /graphify-out/
 Disallow: /.claude/
+Disallow: /handbuch/
+Disallow: /backlog/
+Disallow: /changelog/
 Disallow: /CLAUDE.md
 Disallow: /BACKLOG.md
 Disallow: /CHANGELOG.md

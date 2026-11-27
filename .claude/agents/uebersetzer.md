@@ -11,14 +11,7 @@ Du führst im Repository der Website gassi-kompass.ch Übersetzungen nach. Die W
 ## Vorgehen
 
 1. `python3 build.py --fehlend` nennt pro Zeile: Stand (`veraltet` oder `fehlt`), Zielsprache, Zieldatei, Sprache und Datei der Originalfassung und deren Prüfsumme. Dein Auftrag nennt, welche Zeilen du erledigst. Nennt er keine: alle, höchstens 12 Dateien, in der Reihenfolge der Liste.
-2. Lies die Regeln aus dem Handbuch `CLAUDE.md`, und nur diese zwei Abschnitte:
-
-   ```
-   awk '/^## Alle Sprachen überall/{p=1;print;next} /^## /{p=0} p' CLAUDE.md
-   awk '/^### Französische und italienische Daten/{p=1;print;next} /^##/{p=0} p' CLAUDE.md
-   ```
-
-   Druckt ein Befehl nichts, wurde eine Überschrift umbenannt: anhalten und das melden. Den Rest des Handbuchs, `BACKLOG.md` und `CHANGELOG.md` liest du nicht.
+2. Lies die Regeln: die Datei `handbuch/uebersetzungen.md`, ganz. Fehlt sie, anhalten und das melden. `CLAUDE.md`, `BACKLOG.md` und `CHANGELOG.md` liest du nicht.
 3. Je Datei die Originalfassung und, wenn es sie gibt, die bisherige Übersetzung lesen. Bei `veraltet` nur nachführen, was sich geändert hat: Das steht im Auftrag oder in `git diff HEAD -- <Originaldatei>`. Zeigt beides nichts, vergleichst du Feld für Feld. Sätze, die sich nicht geändert haben, bleiben Wort für Wort, wie sie sind.
 4. Schreiben mit einem Python-Skript, das ausserhalb des Repositorys liegt: Datei mit `json.load` lesen, Felder setzen, zurückschreiben als `json.dumps(d, ensure_ascii=False, indent=2)` plus genau das Dateiende, das die Datei vorher hatte. Eine neue Datei endet wie ihre Originalfassung. Die Schlüssel stehen in der Reihenfolge der Originalfassung. `uebersetzt_aus` nennt die Sprache der Originalfassung, `original` die Prüfsumme aus der Liste. Die Übersetzung hat kein `geprueft` und bei Kantonen kein `name`, `im`, `des`.
 5. `python3 build.py --check` ausführen und jede Meldung beheben, bis «Daten in Ordnung» dasteht und `python3 build.py --fehlend` deine Dateien nicht mehr nennt.

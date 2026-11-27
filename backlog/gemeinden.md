@@ -1,0 +1,109 @@
+# Ausbauliste: Gemeinden
+
+Gehört zu `BACKLOG.md`. Abschnitt 3: die Gemeinden, ungefähr nach Grösse. Der Lauf liest diese Datei nur, wenn die «Reihenfolge» Gemeinden verlangt, und sucht sonst mit grep nach dem Namen. Abgehaktes verschiebt `python3 tools/archiv.py` nach `backlog/archiv.md`.
+
+## Gemeinden nach Grösse
+
+Ungefähr nach Grösse. Neue Kantone tragen hier ihre grössten Gemeinden ein.
+
+- [ ] Wohlen (AG): zurückgestellt am 2026-11-19. Nur zwei lokale Angaben sicher belegt (Anmeldung bei der Regionalpolizei Wohlen ab 3 Monaten, Hundetaxe im Mai fällig). Die Leinenpflicht auf den Wegen beidseitig entlang der Bünz ist laut Mitteilung der Gemeinde vom 18. Juni 2025 rechtskräftig beschlossen, die Mitteilung nennt aber weder Abschnitt noch Beginn. Nächster Versuch: PDF der Mitteilung (wohlen.ch/aktuellesinformationen/2489401) und Polizeireglement von 2016 (wohlen.ch/_doc/1231864, am 19.11.2026 nicht abrufbar).
+- [ ] Rheinfelden (AG): zurückgestellt am 2026-11-19. Nur zwei lokale Angaben belegt (Anmeldung beim Stadtbüro innert 10 Tagen mit Kopie des Heimtierausweises, Rechnung der Hundetaxe im Mai durch die Finanzverwaltung). Ein Polizeireglement mit Leinenorten oder Verboten war in zwei Suchen nicht zu finden. Nächster Versuch: Rechtssammlung rheinfelden.tlex.ch (braucht einen Browser) und Regionalpolizei Unteres Fricktal.
+- [ ] Reinach (BL): zurückgestellt am 2026-11-19. Lesbar war nur eine Fassung des Polizeireglements vom 23. November 2015 ohne Datum der Genehmigung und des Inkrafttretens (§ 39 bis 46 zu Hunden, Bussenliste). Ob sie heute gilt, ist offen. Die Seite «Hund anmelden oder abmelden» lieferte keinen Inhalt. Nächster Versuch: geltende Fassung auf reinach-bl.tlex.ch (braucht einen Browser), Hundegebühr in der Polizeiverordnung.
+- [ ] Pratteln (BL): zurückgestellt am 2026-11-20. Belegt sind nur Anmeldung (Schalter der Einwohnerdienste, innert 14 Tagen, Hunde ab 4 Monaten, Unterlagen laut Merkblatt) und eine Gebühr von CHF 120 aus dem Merkblatt der Gemeindepolizei vom 17. September 2022. Die Gebührenverordnung (2.4.1) wurde seither mehrmals neu gefasst, die nächste Fassung gilt ab 1. Januar 2027: Der Betrag ist deshalb nicht sicher. Das Reglement über die Hundehaltung (4.1.3, in Kraft seit 1. April 2006, pratteln.ch/_rte/information/2071360) mit Leinenorten und Zutrittsverboten und das PDF der Gebührenverordnung (pratteln.ch/_doc/7164151) gab das Abrufwerkzeug nicht frei. Das Polizeireglement 4.1.1 gilt seit 1. Juli 2026 (pratteln.ch/_rte/information/2893861, nicht gelesen), die Fassung unter _docn/1330941 ist nur der Entwurf.
+- [ ] Binningen (BL): zurückgestellt am 2026-11-20. Keine lokale Angabe sicher belegt. Lesbar waren das Polizeireglement vom 29. Juni 2015 (Fassung 1. August 2022, nur § 9 mit Verweis auf das Hundereglement vom 26. Mai 1997) und ein interner Bussenkatalog von 2016. Die Seite «Hunde» ist für das Abrufwerkzeug gesperrt (robots), das Hundehaltungsreglement (binningen.ch/public/upload/assets/5962/Hundehaltungsreglement.pdf) und die Ordnungsbussenliste (assets/9443) gab es nicht frei.
+- [ ] Amriswil (TG): zurückgestellt am 2026-11-17. Nur die Meldestelle belegt (Hundekontrollstelle der Einwohnerdienste). Die Seite der Stadt nennt weder Steuerbetrag noch Orte, die Mitteilung zu den Hundesteuer-Rechnungen war nicht abrufbar.
+- [ ] Weinfelden (TG): zurückgestellt am 2026-11-17. weinfelden.ch lässt den Abruf nicht zu (robots), keine andere amtliche Quelle gefunden.
+- [ ] Romanshorn (TG): zurückgestellt am 2026-11-17. Das Merkblatt Hundehaltung der Stadt trägt kein Datum und ist beim Kurs veraltet (Stand vor April 2024). Es nennt Steuer CHF 100 und CHF 162.50, Leinenpflicht im Seepark, auf Schlosswiese und Surfwiese, Hundezone im Seepark, Verbot in der Holzensteiner Badi. Die aktuellen Seiten (Hundekontrolle, Hundewiese) lassen den Abruf nicht zu. Neu ansetzen, sobald eine datierte Quelle lesbar ist.
+- [ ] Solothurn (SO): zurückgestellt am 2026-11-20. Belegt ist nur die Anmeldung bei der Stadtpolizei (Formular, Kopie des Impfausweises, per E-Mail). Der Online-Schalter nennt «CHF 135.00», ohne zu sagen, wofür. Die Polizeiordnung vom 30. Juni 1992 (Fassung 1. September 2024) enthält nichts zu Hunden. Die Rechtssammlung (stadt-solothurn.ch/gzpolizei/kapitel/15) war nicht abrufbar. Nächster Versuch: Gebührentarif und Friedhofreglement.
+- [ ] Grenchen (SO): zurückgestellt am 2026-11-21. Belegt ist nur die Anmeldung (Formular «Registrierung neue Hundehalter/in» an die Einwohnerkontrolle, Bahnhofstrasse 23, oder per E-Mail). Die Leinenpflicht in der Witi-Schutzzone mit der Ausnahme im Gebiet Breitholz steht in den kantonalen Zonenvorschriften (RRB von 1994 und 2005) und zählt nicht als lokale Angabe. Das «612 Reglement Hundesteuer» (grenchen.ch/_rtr/publikation_11966), der Onlinedienst «Hundekontrolle / Hundehalter» (_rtr/onlinedienst_36623) und die Lebenslage Hundesteuer (_rtr/thema_5041) gab das Abrufwerkzeug nicht frei. Nächster Versuch: diese drei Adressen über eine Suche erreichen.
+- [ ] Biberist (SO): zurückgestellt am 2026-11-21. Sicher belegt ist nur die Seite «Hundesteuer» (ohne Datum): CHF 135 pro Jahr, Hundejahr 1. April bis 31. März, Mahngebühr CHF 50, Befreiungen. Ältere amtliche Angaben weichen ab (Gebührentarif vom 1. September 2020: CHF 100 ohne Marke, Mitteilung vom 31. März 2022: CHF 140). Das Hundeverbot auf dem Friedhof (§ 15 Abs. 4, Reglement R 512 vom 5. Dezember 2024, in Kraft ab 1. Januar 2025) steht nur in der Vorlage für die Gemeindeversammlung, das Datum der Genehmigung ist dort leer. Formular «An- und Abmeldung von Hunden» und «Informationen_ePetCard_2026.pdf» gab das Abrufwerkzeug nicht frei. Nächster Versuch: genehmigte Fassung von R 512 im Verzeichnis biberist.ch/de/verwaltung/dokumente/index.php, dazu das Formular.
+- [ ] Freienbach (SZ): zurückgestellt am 2026-11-17. Das Merkblatt Hundehaltung der Gemeinde ist ein PDF ohne lesbaren Text, die Seite dazu war nicht abrufbar.
+- [ ] Bezirk Appenzell (AI): zurückgestellt am 2026-11-17. Die Seite «Hundekontrolle / Vollzug HuG» des Bezirks nennt nur die kantonalen Steuerbeträge und die Meldestelle. Eigene Leinenzonen, hundefreie Zonen oder Bussen waren nach zwei Suchen nicht zu finden.
+- [ ] Schwende-Rüte (AI). Hinweis für alle Innerrhoder Bezirke: Die Hundesteuer ist kantonal festgelegt, lokale Angaben gibt es nur, wenn ein Bezirk Leinenzonen oder hundefreie Zonen nach Art. 6 HuG angeordnet hat.
+- [ ] Oberegg (AI)
+- [ ] Gonten (AI)
+- [ ] Schlatt-Haslen (AI)
+- [ ] St. Moritz (GR): zurückgestellt am 2026-11-21. Lesbar war nur die Fassung des Polizeigesetzes von 2017 (Art. 14: Leine in Verwaltungsgebäuden, auf Schul- und Kindergartenarealen, Kinderspielplätzen, Sportanlagen, Friedhöfen und in Parkanlagen, Kot, Meldung innert 14 Tagen bei der Gemeindepolizei, Busse Fr. 50 bis 5000, Hundesteuer CHF 150 im Anhang). Die Gesetzessammlung verlinkt eine Teilrevision vom 26. November 2025, in Kraft seit 1. Februar 2026, die nicht abrufbar war. Ohne die geltende Fassung nichts veröffentlicht.
+- [ ] Ilanz/Glion (GR)
+- [ ] Bettingen (BS): zurückgestellt am 2026-11-26. Nur zwei lokale Angaben belegt (Hundesteuer CHF 120, Leinenpflicht am Mattenwegli samt Vorplatz des Schwimmbadeingangs laut der Liste «Hundeverbots- und Leinenpflichtzonen», `bs_zonen`). Hundeverbote nennt die Liste für Bettingen keine, auf der Website der Gemeinde war nichts zu Hunden zu finden. Beide Angaben stehen auf der Kantonsseite.
+- [ ] Rapperswil-Jona (SG): zurückgestellt am 2026-11-21. Nur zwei lokale Angaben belegt (Hundesteuer Fr. 140 pro Hund, fällig zu Beginn des Kalenderjahres, Meldung bei der Stadt). Der Stadtrat plante laut Mitteilung vom 24. Oktober 2025 eine Leinenpflicht im Wald und am Waldrand vom 1. April bis 31. Juli per Nachtrag zum Polizeireglement, Inkrafttreten geplant auf 1. April 2026: Ob er gilt, ist nicht belegt. Nächster Versuch: Inkrafttreten belegen, Polizeireglement auf rapperswil-jona.tlex.ch (PDF-Adressen der Form /api/de/versions/<Nr>/pdf_file).
+- [ ] Wil (SG): zurückgestellt am 2026-11-21. Belegt ist nur eine Mitteilung vom 24. Mai 2019: Betretungsverbot für Hunde auf Spielplätzen und Friedhöfen ab 3. Juni 2019 und Leinenzwang in öffentlichen Grün- und Parkanlagen, das Urteil des Bundesgerichts stand damals aus. Betrag der Hundesteuer und geltendes Polizeireglement nicht abrufbar. Nächster Versuch: stadtwil.ch/gkfinanzen/kapitel/147 und das Polizeireglement.
+- [ ] Uzwil (SG): zurückgestellt am 2026-11-21. Belegt sind nur die Taxe (120 Franken pro Hund ab 2020) und die Meldung bei der Réception mit Chip-Nummer. Die Erlasse liegen auf publikationen.sg.ch, das den Abruf sperrt (robots).
+- [ ] Kriens (LU): zurückgestellt am 2026-11-18. Die Website der Stadt ist für das Abrufwerkzeug gesperrt (robots). Nächster Versuch: Rechtssammlung der Stadt als PDF oder amtliche Dokumente unter stadt-kriens.ch/public/upload/.
+- [ ] Langenthal (BE): zurückgestellt am 2026-11-21. Taxe (Fr. 120, Stichtag 1. August, älter als sechs Monate) und Anmeldung beim Polizeiinspektorat lagen nur als Zusammenfassung des Abrufwerkzeugs vor, kein Wortlaut. Die Verordnung über die Hundetaxe (4.6.1 V, langenthal.ch/_doc/2211641), die Themenseite «Hunde» (langenthal.ch/bewilligungengastgewerbe/49928), Ortspolizei-Reglement und Friedhofreglement waren nicht abrufbar.
+- [ ] Horgen (ZH): zurückgestellt am 2026-11-18. Nur zwei lokale Angaben belegt (Gebührentarif ab 2022: Ersthunde CHF 130, verspätetes Anmelden CHF 40). Die Seiten «Hunde» und «Hundekontrolle: Anmeldung» gaben zweimal einen Serverfehler, von der Polizeiverordnung war nur das Inhaltsverzeichnis lesbar (Art. 11 Tierhaltung).
+- [ ] Kloten (ZH): zurückgestellt am 2026-11-18. Nur zwei belegte Angaben, der Flyer für Hundebesitzer war nicht abrufbar. Nächster Versuch: Flyer und Polizeiverordnung abrufen. Versuch vom 2026-11-21: weiterhin nur zwei sichere Angaben (Hundeabgabe CHF 200 pro Hund, An- und Abmeldung bei der Abteilung Sicherheit, Mutationen innert 10 Tagen). Die Polizeiverordnung von 2004 (Leine in Wäldern, Anlagen, Lokalen und an verkehrsreichen Strassen) wird laut Gemeinderatsbeschluss vom 2. April 2024 aufgehoben, das Inkrafttreten der neuen ist nicht belegt (Stadtratsbeschluss 319-2024, kloten.ch/_doc/5437963).
+- [ ] Muri bei Bern (BE)
+- [ ] Spiez (BE)
+- [ ] Lyss (BE)
+- [ ] Münsingen (BE)
+- [ ] Worb (BE)
+- [ ] Ittigen (BE)
+- [ ] Hochdorf (LU): zurückgestellt am 2026-11-18. Nur zwei belegte lokale Angaben. Nächster Versuch: Seite «Hundesteuer» der Gemeinde erneut abrufen (Betrag), dazu «Reglemente und Verordnungen».
+- [ ] Willisau (LU): zurückgestellt am 2026-11-18. Zu wenig belegte lokale Angaben. Nächster Versuch: Rechtssammlung (willisau.ch/verwaltung-politik/verwaltung/rechtssammlung/) nach Hundesteuer-Betrag, Friedhofreglement und Polizeireglement durchsuchen.
+- [ ] Herisau (AR): zurückgestellt am 2026-11-18. Zwei Suchen auf herisau.ch ergaben keine Seite mit lokalen Angaben. Hundesteuer und Anmeldung sind kantonal.
+- [ ] Teufen (AR). Hinweis für alle Ausserrhoder Gemeinden: Steuer und Anmeldung sind kantonal. Lokale Angaben gibt es nur, wenn die Gemeinde Leinenorte (Art. 8 Abs. 2 HuG) oder Zutrittsverbote (Art. 9 HuG) bezeichnet hat. Bei Urnäsch und Hundwil zählt die Wildruhezone.
+- [ ] Heiden (AR)
+- [ ] Speicher (AR)
+- [ ] Urnäsch (AR)
+- [ ] Hundwil (AR)
+- [ ] Zug (ZG): zurückgestellt am 2026-11-18. stadtzug.ch und lesesaal.stadtzug.ch (Stadtratsbeschluss Nr. 20.19 vom 15. Januar 2019 zur Leinenpflicht) waren nicht abrufbar, keine lokale Angabe belegt.
+- [ ] Baar (ZG): zurückgestellt am 2026-11-21. Nur zwei lokale Angaben belegt (Hundesteuer CHF 120 pro kontrollpflichtigen Hund, CHF 40 für Wachhunde auf Landwirtschaftsbetrieben, Meldung bei den Einwohnerdiensten). Hundereglement von 1980 (baar.ch/_doc/2139605) und Merkblatt zur Hundehaltung (baar.ch/_doc/5047555) nicht abrufbar, baar.tlex.ch liefert keinen Text.
+- [ ] Cham (ZG): zurückgestellt am 2026-11-21. Sicher belegt ist nur die Erstregistrierung bei den Einwohnerdiensten im Mandelhof. Betrag (CHF 100) und Leinenregeln stehen nur als Satzteile im Protokoll der Gemeindeversammlung vom 4. Dezember 2017. Nächster Versuch: Merkblatt Hunde vom 9. Oktober 2026 (cham.ch/_doc/7278211) und Hundereglement auf cham.tlex.ch.
+- [ ] Stans (NW): zurückgestellt am 2026-11-18. Hundesteuer und Hundekontrolle sind in Nidwalden kantonal, auf stans.ch keine lokale Angabe zu Hunden gefunden.
+- [ ] Hergiswil (NW). Hinweis für alle Nidwaldner Gemeinden: vorher prüfen, ob es überhaupt Gemeinderegeln zu Hunden gibt. Sonst alle zurückstellen.
+- [ ] Buochs (NW)
+- [ ] Ennetbürgen (NW)
+- [ ] Stansstad (NW)
+- [ ] Glarus Nord (GL): zurückgestellt am 2026-11-21. Alle Abrufe auf glarus-nord.ch gaben einen Serverfehler. Nächster Versuch: Seite Hundewesen (glarus-nord.ch/online-schalter/einwohner-und-bestattungsamt/hundewesen.html/2603).
+- [ ] Glarus Süd (GL)
+- [ ] Thayngen (SH)
+- [ ] Beringen (SH)
+- [ ] Stein am Rhein (SH)
+- [ ] Düdingen (FR), deutsch
+- [ ] Murten/Morat (FR), deutsch und französisch
+- [ ] Bulle (FR), französisch. Hinweis: Viele Freiburger Gemeinden haben ein «Règlement sur la détention et l'imposition des chiens» nach kantonalem Muster, mit Steuerbetrag, Leinenzonen und Bussen. Französische Gemeinden liegen unter `data/fr-ch/gemeinden/`.
+- [ ] Villars-sur-Glâne (FR), französisch
+- [ ] Estavayer (FR), französisch
+- [ ] Yverdon-les-Bains (VD), französisch
+- [ ] Montreux (VD), französisch
+- [ ] Nyon (VD), französisch
+- [ ] Renens (VD), französisch
+- [ ] Vevey (VD), französisch
+- [ ] Le Locle (NE), französisch
+- [ ] Val-de-Ruz (NE), französisch
+- [ ] Val-de-Travers (NE), französisch
+- [ ] Milvignes (NE), französisch
+- [ ] Kerns (OW). Hinweis für alle Obwaldner Gemeinden: Die Leinenpflicht im Wald steht in den Hundeverordnungen der Gemeinden, Alpnach hat laut Kanton keine.
+- [ ] Alpnach (OW)
+- [ ] Sachseln (OW)
+- [ ] Engelberg (OW)
+- [ ] Altdorf (UR): zurückgestellt am 2026-11-18. Nur zwei lokale Angaben belegt (Hundesteuer CHF 80, An- und Abmeldung bei der Einwohnerkontrolle innert 30 Tagen). Die «Verordnung über das Halten von Hunden» (30.31, vom 1. August 2017) steht im Rechtsbuch der Gemeinde, das Abrufwerkzeug liess das PDF zweimal nicht zu (altdorf.ch/uploads/organisation/politik/rechtssammlung/30_oeffentliche_ordnung_und_sicherheit/30.31.pdf). Neu ansetzen, sobald das PDF lesbar ist.
+- [ ] Andermatt (UR). Verordnung über das Halten von Hunden von 2007 ist gelesen (Taxe CHF 110, Leine im Dorf, Verbotsorte, Busse bis CHF 500). Vor dem Anlegen prüfen, ob sie unverändert gilt. Hinweis für alle Urner Gemeinden: Der Kanton hat kein Hundegesetz, jede Gemeinde hat eine eigene Hundehalteverordnung (meist Nummer 30.31 im Rechtsbuch der Gemeinde).
+- [ ] Schattdorf (UR)
+- [ ] Bürglen (UR)
+- [ ] Erstfeld (UR)
+- [ ] Flüelen (UR). Hundehalteverordnung von 2006 unter flueelen.ch, am 2026-11-18 nicht abrufbar.
+- [ ] Saint-Imier (BE), französisch
+- [ ] Tramelan (BE), französisch
+- [ ] La Neuveville (BE), französisch
+- [ ] Valbirse (BE), französisch
+- [ ] Vernier (GE), französisch
+- [ ] Lancy (GE), französisch
+- [ ] Meyrin (GE), französisch
+- [ ] Carouge (GE), französisch
+- [ ] Onex (GE), französisch
+- [ ] Visp (VS), deutsch
+- [ ] Naters (VS), deutsch
+- [ ] Martigny (VS), französisch
+- [ ] Monthey (VS), französisch
+- [ ] Sierre (VS), französisch. Hinweis für alle Walliser Gemeinden: Die Gemeinde legt die Hundesteuer fest (CHF 100 bis 250) und kann Leinenzonen und Verbotsorte bestimmen. Viele veröffentlichen jedes Jahr einen Anschlag «Hundesteuer» oder «Avis aux propriétaires de chiens».
+- [ ] Delémont (JU), französisch: zurückgestellt am 2026-11-18. Nur zwei lokale Angaben belegt (Grundtaxe CHF 130 laut Budget 2026, Anmeldung beim Secrétariat de la police administrative). Das «Règlement communal sur la garde et la taxe des chiens» (delemont.ch/Htdocs/Files/v/26541.pdf) ist ein PDF ohne lesbaren Text, die Rechtssammlung delemont.tlex.ch liefert dem Abrufwerkzeug keinen Inhalt.
+- [ ] Porrentruy (JU), französisch. Règlement concernant la garde et la taxe des chiens unter porrentruy.ch/_docn/5559397/… (am 2026-11-18 Serverfehler). Hinweis für alle jurassischen Gemeinden: Die Gemeinde legt die Taxe mit dem Budget fest und regelt Leine, Verbotsorte und Bussen in einem eigenen Reglement über Haltung und Taxe der Hunde.
+- [ ] Saignelégier (JU), französisch. Règlement concernant la garde et la taxe des chiens vom 17. Juni 2003 unter saignelegier.ch/FileDownload/Download/30 (lesbar: Leine auf öffentlichen Strassen und Plätzen, Verbot auf Spielplätzen, Friedhöfen und Schulanlagen, Bussen CHF 50 bis 1000). Der Betrag der Taxe fehlt noch.
+- [ ] Haute-Sorne (JU), französisch
+- [ ] Develier (JU), französisch. Seite «Chiens» unter develier.ch.
+- [ ] Bellinzona (TI), italienisch: zurückgestellt am 2026-11-25. Nur zwei lokale Angaben belegt (Meldung innert 10 Tagen an die Polizia comunale, vicolo Muggiasca 1a, Formular Ausgabe September 2026. Tierverbot auf den Friedhöfen, Regolamento dei cimiteri Art. 11, vom Kanton genehmigt am 28. Oktober 2025). Die «Ordinanza municipale sulla custodia dei cani» ist auf bellinzona.ch erwähnt, aber nicht verlinkt, zwei Suchen fanden sie nicht. Betrag der Taxe und Dog Parks nicht belegt. Die Seite «Campagna cani» war nicht abrufbar.
+- [ ] Locarno (TI), italienisch
+- [ ] Mendrisio (TI), italienisch
+- [ ] Chiasso (TI), italienisch

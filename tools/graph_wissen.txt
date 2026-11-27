@@ -28,12 +28,12 @@ E | wissen_sechs_karten | enforced_by | build_pruefe
 E | wissen_sechs_karten | conceptually_related_to | build_seite_thema
 
 K | wissen_zahlen_bleiben_ziffern | Regel: Zahlen stehen in jeder Übersetzung mit denselben Ziffern wie im Original | CLAUDE.md
-E | wissen_zahlen_bleiben_ziffern | rationale_for | claude_originalfassung_und_übersetzung
+E | wissen_zahlen_bleiben_ziffern | rationale_for | handbuch_uebersetzungen_originalfassung_und_übersetzung
 E | wissen_zahlen_bleiben_ziffern | enforced_by | build_ziffern
 E | wissen_zahlen_bleiben_ziffern | enforced_by | build_pruefe_uebersetzung
 
 K | wissen_pruefsumme | Prüfsumme der Originalfassung im Feld original: daran erkennt der Generator veraltete Übersetzungen | CLAUDE.md
-E | wissen_pruefsumme | rationale_for | claude_originalfassung_und_übersetzung
+E | wissen_pruefsumme | rationale_for | handbuch_uebersetzungen_originalfassung_und_übersetzung
 E | wissen_pruefsumme | enforced_by | build_pruefsumme
 E | wissen_pruefsumme | enforced_by | build_verbinde
 E | wissen_pruefsumme | enforced_by | build_fehlende
@@ -61,34 +61,34 @@ E | wissen_keine_fremden_inhalte | rationale_for | claude_qualitätsregeln_ohne_
 E | wissen_keine_fremden_inhalte | conceptually_related_to | claude_freigaben
 
 K | wissen_nichts_fremdes_vor_klick | Karte der Hundezonen: nichts von fremden Servern vor dem Klick auf «Karte laden», Standort nur nach eigenem Klick | CLAUDE.md
-E | wissen_nichts_fremdes_vor_klick | rationale_for | claude_karte_der_hundezonen_gebaut_am_27_november_2026
+E | wissen_nichts_fremdes_vor_klick | rationale_for | handbuch_generator_karte_der_hundezonen_gebaut_am_27_november_2026
 E | wissen_nichts_fremdes_vor_klick | enforced_by | assets_karte_lade
 E | wissen_nichts_fremdes_vor_klick | enforced_by | tests_seiten
 E | wissen_nichts_fremdes_vor_klick | conceptually_related_to | wissen_keine_fremden_inhalte
 
 K | wissen_mails_sendet_joss | Mails versendet nur der Inhaber. Claude liefert Empfänger, Betreff und Text und sendet nichts | CLAUDE.md
-E | wissen_mails_sendet_joss | rationale_for | claude_postfach_und_antworten_der_ämter_seit_26_november_2026
+E | wissen_mails_sendet_joss | rationale_for | handbuch_kontakt_postfach_und_antworten_der_ämter_seit_26_november_2026
 E | wissen_mails_sendet_joss | rationale_for | claude_was_nur_joss_tun_kann
-E | wissen_mails_sendet_joss | rationale_for | claude_partner_einträge_von_hundeschulen_seit_27_november_2026
+E | wissen_mails_sendet_joss | rationale_for | handbuch_kontakt_partner_einträge_von_hundeschulen_seit_27_november_2026
 
 K | wissen_antwort_ist_hinweis | Eine Antwort per Mail ist ein Hinweis und keine Quelle: geändert wird erst nach dem Vergleich mit der amtlichen Quelle | CLAUDE.md
-E | wissen_antwort_ist_hinweis | rationale_for | claude_postfach_und_antworten_der_ämter_seit_26_november_2026
+E | wissen_antwort_ist_hinweis | rationale_for | handbuch_kontakt_postfach_und_antworten_der_ämter_seit_26_november_2026
 E | wissen_antwort_ist_hinweis | conceptually_related_to | wissen_nur_amtliche_quellen
 
 K | wissen_link_pruefung_woechentlich | Die Link-Prüfung läuft einmal pro Woche über eine GitHub Action. Lauf und Sitzung lösen sie nicht aus | CLAUDE.md
 E | wissen_link_pruefung_woechentlich | rationale_for | claude_link_prüfung
 E | wissen_link_pruefung_woechentlich | enforced_by | github_workflows_quellen
-E | wissen_link_pruefung_woechentlich | conceptually_related_to | backlog_tote_links_link_prüfung_vom_18_11_2026_zuletzt_20_11_2026
+E | wissen_link_pruefung_woechentlich | conceptually_related_to | backlog_tote_links
 
 K | wissen_graph_ist_wegweiser | Der Wissensgraph ist ein Wegweiser und keine Quelle: Für Regeln gelten die amtlichen Quellen, für den Stand die Dateien | CLAUDE.md
 E | wissen_graph_ist_wegweiser | conceptually_related_to | wissen_nur_amtliche_quellen
 
 # ---------------------------------------------------------------- Handbuch und Code
-E | claude_ortssuche | describes | assets_suche
-E | claude_ortssuche | describes | build_suche
-E | claude_ortssuche | describes | build_ortsindex
-E | claude_ortssuche | describes | tools_orte
-E | claude_ortssuche | conceptually_related_to | design_ortssuche
+E | handbuch_generator_ortssuche | describes | assets_suche
+E | handbuch_generator_ortssuche | describes | build_suche
+E | handbuch_generator_ortssuche | describes | build_ortsindex
+E | handbuch_generator_ortssuche | describes | tools_orte
+E | handbuch_generator_ortssuche | conceptually_related_to | design_ortssuche
 
 E | claude_datenfelder_kanton | describes | daten_kantone
 E | claude_datenfelder_kanton | describes | build_seite_kanton
@@ -109,7 +109,7 @@ E | claude_aufbau | describes | github_workflows_indexnow
 E | claude_der_wochenlauf | describes | build_main
 E | claude_der_wochenlauf | describes | tests_seiten
 E | claude_der_wochenlauf | conceptually_related_to | backlog_reihenfolge
-E | claude_kette | conceptually_related_to | backlog_kette
+E | handbuch_kette_parallel_kette | conceptually_related_to | backlog_kette
 E | claude_link_prüfung | describes | tools_links
 E | claude_link_prüfung | describes | github_workflows_quellen
 E | tools_links_quellen | reads | daten_quellen
@@ -117,50 +117,50 @@ E | build_lade | reads | daten_quellen
 E | build_lade | reads | daten_kantone
 E | build_lade | reads | daten_gemeinden
 
-E | claude_so_entsteht_eine_übersetzung | describes | build_fehlende
-E | claude_so_entsteht_eine_übersetzung | describes | build_pruefsumme
-E | claude_übersetzungen_im_generator_gebaut_am_18_november_2026 | describes | build_lade
-E | claude_übersetzungen_im_generator_gebaut_am_18_november_2026 | describes | build_verbinde
-E | claude_übersetzungen_im_generator_gebaut_am_18_november_2026 | describes | build_pruefe_uebersetzung
-E | claude_übersetzungen_im_generator_gebaut_am_18_november_2026 | describes | build_kantonsformen
-E | claude_übersetzungen_im_generator_gebaut_am_18_november_2026 | describes | build_hinweis_uebersetzung
+E | handbuch_uebersetzungen_so_entsteht_eine_übersetzung | describes | build_fehlende
+E | handbuch_uebersetzungen_so_entsteht_eine_übersetzung | describes | build_pruefsumme
+E | handbuch_generator_übersetzungen_im_generator_gebaut_am_18_november_2026 | describes | build_lade
+E | handbuch_generator_übersetzungen_im_generator_gebaut_am_18_november_2026 | describes | build_verbinde
+E | handbuch_generator_übersetzungen_im_generator_gebaut_am_18_november_2026 | describes | build_pruefe_uebersetzung
+E | handbuch_generator_übersetzungen_im_generator_gebaut_am_18_november_2026 | describes | build_kantonsformen
+E | handbuch_generator_übersetzungen_im_generator_gebaut_am_18_november_2026 | describes | build_hinweis_uebersetzung
 
-E | claude_themenseiten_gebaut_am_18_november_2026 | describes | build_seite_thema
-E | claude_themenseiten_gebaut_am_18_november_2026 | describes | build_seite_thema_feld
-E | claude_themenseiten_gebaut_am_18_november_2026 | describes | build_vermisst
-E | claude_themenseiten_gebaut_am_18_november_2026 | describes | build_abschnitt_vermisst
-E | claude_themenseiten_gebaut_am_18_november_2026 | describes | build_themenkacheln
-E | claude_themenseiten_gebaut_am_18_november_2026 | describes | build_themenleiste
-E | claude_themenseiten_gebaut_am_18_november_2026 | conceptually_related_to | backlog_9_neue_themenfelder
+E | handbuch_generator_themenseiten_gebaut_am_18_november_2026 | describes | build_seite_thema
+E | handbuch_generator_themenseiten_gebaut_am_18_november_2026 | describes | build_seite_thema_feld
+E | handbuch_generator_themenseiten_gebaut_am_18_november_2026 | describes | build_vermisst
+E | handbuch_generator_themenseiten_gebaut_am_18_november_2026 | describes | build_abschnitt_vermisst
+E | handbuch_generator_themenseiten_gebaut_am_18_november_2026 | describes | build_themenkacheln
+E | handbuch_generator_themenseiten_gebaut_am_18_november_2026 | describes | build_themenleiste
+E | handbuch_generator_themenseiten_gebaut_am_18_november_2026 | conceptually_related_to | backlog_9_neue_themenfelder
 
-E | claude_französisch_und_italienisch_gebaut_am_18_november_2026 | describes | build_sprache
-E | claude_französisch_und_italienisch_gebaut_am_18_november_2026 | describes | build_datenordner
-E | claude_französisch_und_italienisch_gebaut_am_18_november_2026 | describes | build_startseiten
-E | claude_französisch_und_italienisch_gebaut_am_18_november_2026 | describes | build_seite_404
-E | claude_französisch_und_italienisch_gebaut_am_18_november_2026 | describes | assets_heute
+E | handbuch_generator_französisch_und_italienisch_gebaut_am_18_november_2026 | describes | build_sprache
+E | handbuch_generator_französisch_und_italienisch_gebaut_am_18_november_2026 | describes | build_datenordner
+E | handbuch_generator_französisch_und_italienisch_gebaut_am_18_november_2026 | describes | build_startseiten
+E | handbuch_generator_französisch_und_italienisch_gebaut_am_18_november_2026 | describes | build_seite_404
+E | handbuch_generator_französisch_und_italienisch_gebaut_am_18_november_2026 | describes | assets_heute
 
-E | claude_bund_themenseiten_und_fehlerseite_in_drei_sprachen_gebaut_am_18_november_2026 | describes | build_seite_schweiz
-E | claude_bund_themenseiten_und_fehlerseite_in_drei_sprachen_gebaut_am_18_november_2026 | describes | build_bund_ziel
-E | claude_bund_themenseiten_und_fehlerseite_in_drei_sprachen_gebaut_am_18_november_2026 | describes | bund_schweiz
+E | handbuch_generator_bund_themenseiten_und_fehlerseite_in_drei_sprachen_gebaut_am_18_november_2026 | describes | build_seite_schweiz
+E | handbuch_generator_bund_themenseiten_und_fehlerseite_in_drei_sprachen_gebaut_am_18_november_2026 | describes | build_bund_ziel
+E | handbuch_generator_bund_themenseiten_und_fehlerseite_in_drei_sprachen_gebaut_am_18_november_2026 | describes | bund_schweiz
 
-E | claude_darstellung_überarbeitet_am_18_november_2026 | describes | build_kantonsraster
-E | claude_darstellung_überarbeitet_am_18_november_2026 | describes | build_gemeindeverzeichnis
-E | claude_darstellung_überarbeitet_am_18_november_2026 | describes | build_gemeinde_tafeln
-E | claude_darstellung_überarbeitet_am_18_november_2026 | describes | build_tafel
-E | claude_darstellung_überarbeitet_am_18_november_2026 | describes | build_seite
-E | claude_darstellung_überarbeitet_am_18_november_2026 | describes | build_seite_start
-E | claude_darstellung_überarbeitet_am_18_november_2026 | conceptually_related_to | design
-E | claude_darstellung_überarbeitet_am_18_november_2026 | conceptually_related_to | product
+E | handbuch_generator_darstellung_überarbeitet_am_18_november_2026 | describes | build_kantonsraster
+E | handbuch_generator_darstellung_überarbeitet_am_18_november_2026 | describes | build_gemeindeverzeichnis
+E | handbuch_generator_darstellung_überarbeitet_am_18_november_2026 | describes | build_gemeinde_tafeln
+E | handbuch_generator_darstellung_überarbeitet_am_18_november_2026 | describes | build_tafel
+E | handbuch_generator_darstellung_überarbeitet_am_18_november_2026 | describes | build_seite
+E | handbuch_generator_darstellung_überarbeitet_am_18_november_2026 | describes | build_seite_start
+E | handbuch_generator_darstellung_überarbeitet_am_18_november_2026 | conceptually_related_to | design
+E | handbuch_generator_darstellung_überarbeitet_am_18_november_2026 | conceptually_related_to | product
 E | design_kantonsregister_und_tafeln | describes | build_kantonsraster
 E | design_tafel_leine_im_wald | describes | build_wald
 E | design_karte_der_hundezonen | describes | assets_karte
 
-E | claude_karte_der_hundezonen_gebaut_am_27_november_2026 | describes | build_lade_geo
-E | claude_karte_der_hundezonen_gebaut_am_27_november_2026 | describes | build_seite_karte
-E | claude_karte_der_hundezonen_gebaut_am_27_november_2026 | describes | assets_karte
-E | claude_karte_der_hundezonen_gebaut_am_27_november_2026 | describes | tools_hundezonen
-E | claude_karte_der_hundezonen_gebaut_am_27_november_2026 | describes | github_workflows_hundezonen
-E | claude_karte_der_hundezonen_gebaut_am_27_november_2026 | describes | karte_hundezonen
+E | handbuch_generator_karte_der_hundezonen_gebaut_am_27_november_2026 | describes | build_lade_geo
+E | handbuch_generator_karte_der_hundezonen_gebaut_am_27_november_2026 | describes | build_seite_karte
+E | handbuch_generator_karte_der_hundezonen_gebaut_am_27_november_2026 | describes | assets_karte
+E | handbuch_generator_karte_der_hundezonen_gebaut_am_27_november_2026 | describes | tools_hundezonen
+E | handbuch_generator_karte_der_hundezonen_gebaut_am_27_november_2026 | describes | github_workflows_hundezonen
+E | handbuch_generator_karte_der_hundezonen_gebaut_am_27_november_2026 | describes | karte_hundezonen
 
 E | claude_strategie | conceptually_related_to | product
 E | claude_umbauten_am_generator_sonderläufe | conceptually_related_to | backlog_5_umbauten_am_generator
@@ -177,7 +177,7 @@ E | feld_vermisst | tracked_in | backlog_9_1_hund_vermisst_oder_gefunden
 E | feld_umzug | described_in | claude_datenfelder_kanton
 E | feld_durchsicht | implemented_by | build_hinweis_durchsicht
 E | feld_durchsicht | described_in | claude_datenfelder_kanton
-E | feld_durchsicht | described_in | claude_postfach_und_antworten_der_ämter_seit_26_november_2026
+E | feld_durchsicht | described_in | handbuch_kontakt_postfach_und_antworten_der_ämter_seit_26_november_2026
 E | feld_wald_feste_leinenzeit | implemented_by | build_wald
 E | feld_wald_feste_leinenzeit | implemented_by | assets_heute
 E | feld_wald_ganzjaehrig | implemented_by | build_wald
@@ -195,9 +195,9 @@ E | daten_kantone | tracked_in | backlog_2_französisch_und_italienisch
 E | daten_kantone | tracked_in | backlog_4_lücken_in_bestehenden_seiten
 
 # ---------------------------------------------------------------- Wissensgraph und Recherche
-E | wissen_graph_ist_wegweiser | rationale_for | claude_wissensgraph_seit_27_november_2026
-E | claude_wissensgraph_seit_27_november_2026 | describes | tools_graph
-E | claude_quellen_im_browser_lesen_nur_in_einer_sitzung | conceptually_related_to | claude_hinweise_zur_recherche
-E | claude_quellen_im_browser_lesen_nur_in_einer_sitzung | conceptually_related_to | wissen_nur_amtliche_quellen
-E | claude_skills_stand_27_november_2026 | describes | claude_wissensgraph_seit_27_november_2026
-E | claude_skills_stand_27_november_2026 | conceptually_related_to | claude_freigaben
+E | wissen_graph_ist_wegweiser | rationale_for | claude_wissensgraph
+E | claude_wissensgraph | describes | tools_graph
+E | handbuch_sitzung_quellen_im_browser_lesen_nur_in_einer_sitzung | conceptually_related_to | claude_hinweise_zur_recherche
+E | handbuch_sitzung_quellen_im_browser_lesen_nur_in_einer_sitzung | conceptually_related_to | wissen_nur_amtliche_quellen
+E | handbuch_sitzung_skills_stand_27_november_2026 | describes | claude_wissensgraph
+E | handbuch_sitzung_skills_stand_27_november_2026 | conceptually_related_to | claude_freigaben
