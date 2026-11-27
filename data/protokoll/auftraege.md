@@ -10,4 +10,10 @@ Vergeben am 28.11.2026 um 00:20 Uhr (Entscheid von Joss von 00:15 Uhr: «alles r
 - `gemeinden-vs-1`, 00:20 Uhr: Visp, Naters, Martigny, Monthey (VS)
 - `gemeinden-fr-1`, 00:20 Uhr: Bulle, Villars-sur-Glâne, Düdingen, Murten (FR)
 
+Vorgemerkt am 28.11.2026 um 00:40 Uhr für die Plätze, die frei werden (höchstens fünf Aufträge gleichzeitig), Schluss 01:40 Uhr. Themenfeld «Hund vermisst oder gefunden» (Feld `vermisst`) samt Übersetzungen. Der Lauf lässt diese Kantone aus und nimmt aus `BACKLOG.md`, Abschnitt 9.1, nur Graubünden, Neuenburg, Basel-Stadt und Schwyz. Auch diese Protokolle sammelt die Sitzung ein:
+
+- `vermisst-1`, 00:40 Uhr: Zug, Jura
+- `vermisst-2`, 00:40 Uhr: Appenzell Ausserrhoden, Appenzell Innerrhoden
+- `vermisst-3`, 00:40 Uhr: Obwalden, Uri
+
 Früher: Die Staffeln der Nacht auf den 18. November 2026 endeten um etwa 00:33 Uhr an der Nutzungsgrenze des Kontos. Was sie nicht geliefert haben, ist im Backlog wieder offen.
