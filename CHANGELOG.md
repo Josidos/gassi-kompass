@@ -2,6 +2,18 @@
 
 Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen.
 
+## 2026-11-27, Sitzung mit Joss: fünf Skills aus einem Video geprüft
+
+- Auftrag von Joss um 16:39 Uhr: ein Video ansehen, das fünf Skills empfiehlt, die Skills finden und installieren. Um 16:49 Uhr ergänzt: zuerst Graphify, danach die fünf noch einmal durchgehen und vor der weiteren Arbeit nach passenden Skills suchen.
+- Das Video (44 Sekunden, englisch) nennt: Find Skills, Superpowers, Claude-Mem, Impeccable, Task Observer. Gelesen über die eingeblendeten Texte in 267 Einzelbildern.
+- Find Skills (vercel-labs, Werkzeug `npx skills`, MIT): Das Werkzeug läuft, findet im Arbeitsplatz der Sitzung aber nichts, weil skills.sh von dort nicht erreichbar ist. Nicht eingebaut. Die Suche nach Skills läuft über das Plugin-Verzeichnis des Kontos und das Netz, siehe Handbuch, Abschnitt «Skills».
+- Superpowers (obra, im Plugin-Verzeichnis von Joss als Partner-Plugin, Version 7.0.2, mit einem Hook beim Sitzungsstart): nicht eingeschaltet, Empfehlung dagegen für dieses Projekt. Entscheid bei Joss.
+- Claude-Mem (thedotmack, Apache 2.0): nicht eingebaut. Läuft lokal mit Hooks, einem Dienst und einer Datenbank auf dem eigenen Computer und zeichnet Sitzungen auf. Im Netz kursieren Nachbauten des Repositorys.
+- Impeccable: seit 23. November 2026 eingebaut.
+- Task Observer (rebelytics, CC BY 4.0): nicht eingebaut. Er braucht einen festen, beschreibbaren Ordner für Beobachtungen, den es im Lauf nur im öffentlichen Repository gäbe.
+- Suche nach Skills für die Arbeit an der Website: Für das Lesen kantonaler Erlasse gibt es im Verzeichnis nichts Passendes. Für eine Durchsicht für Suchmaschinen gibt es mehrere Plugins (unter anderem «SEO Audit» und «SearchFit SEO»), die Joss in seinem Konto einschalten könnte. Vorschlag steht im Bericht.
+- Handbuch: neuer Abschnitt «Skills».
+
 ## 2026-11-27, Sitzung mit Joss: Graphify installiert, Wissensgraph gefüllt
 
 - Auftrag von Joss um 16:49 Uhr: den Skill Graphify (github.com/Graphify-Labs/graphify) installieren, mit dem vorhandenen Wissen füllen und ab jetzt verwenden.

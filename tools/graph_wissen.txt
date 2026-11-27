@@ -196,3 +196,5 @@ E | wissen_graph_ist_wegweiser | rationale_for | claude_wissensgraph_seit_27_nov
 E | claude_wissensgraph_seit_27_november_2026 | describes | tools_graph
 E | claude_quellen_im_browser_lesen_nur_in_einer_sitzung | conceptually_related_to | claude_hinweise_zur_recherche
 E | claude_quellen_im_browser_lesen_nur_in_einer_sitzung | conceptually_related_to | wissen_nur_amtliche_quellen
+E | claude_skills_stand_27_november_2026 | describes | claude_wissensgraph_seit_27_november_2026
+E | claude_skills_stand_27_november_2026 | conceptually_related_to | claude_freigaben
