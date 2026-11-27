@@ -1,0 +1,78 @@
+{
+  "id": "biel-bienne",
+  "kanton": "be",
+  "bfs": 371,
+  "name": "Stadt Biel",
+  "ort": "Biel",
+  "in_ort": "in der Stadt Biel",
+  "geprueft": "2026-11-27",
+  "hinweis_heute": "In der Stadt Biel gilt im öffentlichen Raum grundsätzlich Leinenpflicht: Im Wald darf dein Hund nur frei laufen, wenn du eine praktische Hundeprüfung abgelegt hast und er dem kantonalen Veterinärdienst nicht wegen problematischen Verhaltens gemeldet ist.",
+  "einleitung": "Biel kennt eine allgemeine Leinenpflicht im öffentlichen Raum. Sie steht im Ortspolizeireglement. Die Ausnahmen regelt eine Verordnung des Gemeinderats mit drei Zonen.",
+  "freilaufzonen": [
+    {
+      "name": "Wald (Sektor A)",
+      "marken": [
+        "ganzes Waldgebiet"
+      ],
+      "text": "Im gesamten Waldgebiet innerhalb der Gemeindegrenzen gilt die allgemeine Leinenpflicht nicht."
+    },
+    {
+      "name": "Strandboden (Sektor B)",
+      "text": "Ein gekennzeichneter Bereich der Parzelle 2967 auf dem Strandboden. Der Plan im Anhang der Verordnung zeigt die Grenzen."
+    },
+    {
+      "name": "Bözingenfeld (Sektor C)",
+      "text": "Mehrere Parzellen im Bözingenfeld. Der Plan im Anhang der Verordnung zeigt, welche."
+    }
+  ],
+  "freilaufzonen_quellen": [
+    "be_biel_opolv"
+  ],
+  "karten": [
+    {
+      "titel": "Leine",
+      "wert": "im ganzen öffentlichen Raum",
+      "text": "Im öffentlichen Raum führst du deinen Hund grundsätzlich an der Leine. Ausgenommen sind drei Zonen: das Waldgebiet auf Stadtgebiet, ein Bereich auf dem Strandboden und Parzellen im Bözingenfeld. Auch dort gehört dein Hund an die Leine, wenn er wegen problematischen Verhaltens dem kantonalen Veterinärdienst gemeldet ist oder wenn die Person, die ihn ausführt, keine praktische Hundeprüfung abgelegt hat. Die französische Fassung der Verordnung nennt dafür die «attestation de compétences pratiques», den praktischen Sachkundenachweis. Auf Sportanlagen, Schul- und Kinderspielplätzen darfst du Tiere nicht frei laufen lassen. Stand der Verordnung: 1. April 2018.",
+      "quellen": [
+        "be_biel_opolr",
+        "be_biel_opolv"
+      ]
+    },
+    {
+      "titel": "Hundetaxe",
+      "wert": "CHF 150 pro Hund und Jahr",
+      "text": "Die Hundetaxe beträgt CHF 150 pro Hund und Jahr. Du schuldest sie, wenn du am 1. August in Biel wohnst und einen Hund hältst, der älter als sechs Monate ist. Die Rechnung kommt im August. Wer Anspruch auf Ergänzungsleistungen der AHV oder IV hat, zahlt die Hälfte. Keine Taxe gibt es für Hunde mit spezieller Ausbildung für besondere Aufgaben wie Hilfs- und Begleithunde von Menschen mit einer Behinderung, für Hunde, die zur Neuplatzierung vorübergehend im Tierheim sind, und wenn im gleichen Jahr schon in einer anderen Gemeinde oder in einem anderen Kanton bezahlt wurde.",
+      "quellen": [
+        "be_biel_steuer_vo",
+        "be_biel_steuer_regl",
+        "be_biel_hundetaxe"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "wert": "innert vier Wochen bei der Stadt",
+      "text": "Du meldest deinen Hund innert vier Wochen bei der Stadt, mit Rasse und Alter. Das geht online oder am Schalter der Abteilung Bevölkerung an der Neuengasse 28. Du brauchst dafür die Mikrochip-Nummer deines Hundes. Gibst du deinen Hund ab, verkaufst du ihn oder stirbt er, meldest du das umgehend per Mail der Abteilung Bevölkerung, beim Tod mit einer Bestätigung der Tierärztin oder des Tierarztes. Stirbt die Halterin oder der Halter eines Hundes, meldest du dich innert 10 Tagen bei der Abteilung Bevölkerung.",
+      "quellen": [
+        "be_biel_steuer_regl",
+        "be_biel_hundetaxe"
+      ]
+    },
+    {
+      "titel": "Hundekot",
+      "wert": "nichts verunreinigen oder beschädigen",
+      "text": "Wer einen Hund führt, sorgt dafür, dass er die öffentliche Infrastruktur und privates Eigentum nicht verunreinigt oder beschädigt.",
+      "quellen": [
+        "be_biel_opolr"
+      ]
+    },
+    {
+      "titel": "Bussen",
+      "wert": "bis CHF 5000",
+      "text": "Wer einen Hund nicht meldet oder die Hundetaxe hinterzieht, wird mit Busse bis CHF 5000 bestraft. In leichten Fällen kann die Stadt auf eine Strafe verzichten. Verstösse gegen die Leinenpflicht und gegen die übrigen Pflichten nach dem Ortspolizeireglement werden ebenfalls mit Busse bestraft, auch wenn sie fahrlässig begangen werden. Einen Betrag nennt das Reglement dafür nicht: Es verweist auf das Höchstmass nach kantonalem Recht.",
+      "quellen": [
+        "be_biel_steuer_regl",
+        "be_biel_opolr"
+      ]
+    }
+  ]
+}

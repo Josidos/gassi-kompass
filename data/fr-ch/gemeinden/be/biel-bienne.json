@@ -1,0 +1,78 @@
+{
+  "id": "biel-bienne",
+  "kanton": "be",
+  "bfs": 371,
+  "name": "Ville de Bienne",
+  "ort": "Bienne",
+  "in_ort": "à Bienne",
+  "geprueft": "2026-11-27",
+  "hinweis_heute": "À Bienne, les chiens doivent en principe être tenus en laisse sur le domaine public: en forêt, votre chien ne peut être lâché que si vous avez obtenu une attestation de compétences pratiques et s'il n'a pas été signalé au Service vétérinaire cantonal en raison de comportements problématiques.",
+  "einleitung": "Bienne connaît une obligation générale de tenir les chiens en laisse sur le domaine public. Elle figure dans le règlement de police locale. Une ordonnance du Conseil municipal fixe les exceptions, avec trois zones.",
+  "freilaufzonen": [
+    {
+      "name": "Forêt (secteur A)",
+      "marken": [
+        "toute la zone forestière"
+      ],
+      "text": "Dans toute la zone forestière située sur le territoire communal, l'obligation générale de tenir les chiens en laisse ne s'applique pas."
+    },
+    {
+      "name": "Prés-de-la-Rive (secteur B)",
+      "text": "Une partie signalée de la parcelle 2967 aux Prés-de-la-Rive (Strandboden). Le plan annexé à l'ordonnance en montre les limites. Les plans sont légendés en allemand."
+    },
+    {
+      "name": "Champs-de-Boujean (secteur C)",
+      "text": "Plusieurs parcelles aux Champs-de-Boujean (Bözingenfeld). Le plan annexé à l'ordonnance montre lesquelles."
+    }
+  ],
+  "freilaufzonen_quellen": [
+    "be_bienne_opoll"
+  ],
+  "karten": [
+    {
+      "titel": "Laisse",
+      "wert": "sur tout le domaine public",
+      "text": "Sur le domaine public, vous tenez en principe votre chien en laisse. Trois zones font exception: la forêt sur le territoire communal, une partie des Prés-de-la-Rive et des parcelles aux Champs-de-Boujean. Même là, le chien doit être tenu en laisse s'il a déjà été signalé au Service vétérinaire cantonal en raison de comportements problématiques ou si la personne qui le promène n'a pas obtenu d'attestation de compétences pratiques. Il est interdit de laisser aller librement des animaux sur les terrains de sport, dans les préaux des écoles et sur les places de jeu. État de l'ordonnance: 1er avril 2018.",
+      "quellen": [
+        "be_bienne_rpoll",
+        "be_bienne_opoll"
+      ]
+    },
+    {
+      "titel": "Impôt sur les chiens",
+      "wert": "CHF 150 par chien et par an",
+      "text": "La taxe des chiens s'élève à CHF 150 par chien et par an. Vous y êtes assujetti si vous êtes domicilié à Bienne le 1er août et possédez à cette date un chien âgé de plus de six mois. La facture arrive en août. Les personnes ayant droit aux prestations complémentaires de l'AVS ou de l'AI paient la moitié. Aucune taxe n'est due pour les chiens formés spécialement pour des tâches particulières, comme les chiens d'assistance ou d'accompagnement de personnes handicapées, pour les chiens placés temporairement en refuge dans l'attente d'un nouveau placement et pour ceux dont la taxe a déjà été payée la même année dans une autre commune ou dans un autre canton.",
+      "quellen": [
+        "be_bienne_impots_ord",
+        "be_bienne_impots_regl",
+        "be_bienne_taxe"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "wert": "dans un délai de quatre semaines",
+      "text": "Vous annoncez votre chien à la Ville dans un délai de quatre semaines, en indiquant sa race et son âge. C'est possible en ligne ou au guichet du Département de la population, rue Neuve 28. Il vous faut le numéro de la micro-puce de votre chien. Si vous remettez ou vendez votre chien, ou s'il meurt, vous en avertissez immédiatement le Département de la population par courriel, avec une attestation du vétérinaire en cas de décès. Si le propriétaire d'un chien décède, prenez contact dans les 10 jours avec le Département de la population.",
+      "quellen": [
+        "be_bienne_impots_regl",
+        "be_bienne_taxe"
+      ]
+    },
+    {
+      "titel": "Crottes de chien",
+      "wert": "ne rien souiller ni endommager",
+      "text": "La personne qui promène un chien veille à ce qu'il ne souille ni n'endommage les infrastructures publiques et la propriété privée.",
+      "quellen": [
+        "be_bienne_rpoll"
+      ]
+    },
+    {
+      "titel": "Amendes",
+      "wert": "jusqu'à CHF 5000",
+      "text": "Qui n'annonce pas son chien ou soustrait la taxe des chiens est puni d'une amende de CHF 5000 au plus. Dans les cas de peu de gravité, la peine peut être remise. Les infractions à l'obligation de laisse et aux autres devoirs du règlement de police locale sont aussi passibles d'une amende, même en cas de négligence. Le règlement n'en fixe pas le montant: il renvoie au maximum admis par la législation cantonale.",
+      "quellen": [
+        "be_bienne_impots_regl",
+        "be_bienne_rpoll"
+      ]
+    }
+  ]
+}

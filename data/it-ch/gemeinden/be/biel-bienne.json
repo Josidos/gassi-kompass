@@ -1,0 +1,79 @@
+{
+  "id": "biel-bienne",
+  "kanton": "be",
+  "bfs": 371,
+  "uebersetzt_aus": "de",
+  "original": "bbe1125cdb24",
+  "name": "Città di Bienne",
+  "ort": "Bienne",
+  "in_ort": "a Bienne",
+  "hinweis_heute": "Nella città di Bienne vale in linea di principio l'obbligo di guinzaglio nello spazio pubblico: nel bosco il tuo cane può stare libero solo se hai superato un esame pratico per cani e se non è stato segnalato al servizio veterinario cantonale per comportamento problematico.",
+  "einleitung": "Bienne conosce un obbligo generale di guinzaglio nello spazio pubblico. È stabilito nell'Ortspolizeireglement (regolamento di polizia locale). Le eccezioni sono regolate da un'ordinanza del Gemeinderat (Municipio), con tre zone.",
+  "freilaufzonen": [
+    {
+      "name": "Bosco (settore A)",
+      "marken": [
+        "tutta l'area boschiva"
+      ],
+      "text": "In tutta l'area boschiva entro i confini comunali non vale l'obbligo generale di guinzaglio."
+    },
+    {
+      "name": "Strandboden (settore B)",
+      "text": "Una parte contrassegnata della particella 2967 sullo Strandboden. Il piano allegato all'ordinanza ne mostra i confini."
+    },
+    {
+      "name": "Bözingenfeld (settore C)",
+      "text": "Diverse particelle nel Bözingenfeld. Il piano allegato all'ordinanza mostra quali."
+    }
+  ],
+  "freilaufzonen_quellen": [
+    "be_biel_opolv"
+  ],
+  "karten": [
+    {
+      "titel": "Guinzaglio",
+      "wert": "in tutto lo spazio pubblico",
+      "text": "Nello spazio pubblico tieni in linea di principio il tuo cane al guinzaglio. Fanno eccezione tre zone: l'area boschiva sul territorio comunale, una parte dello Strandboden e alcune particelle nel Bözingenfeld. Anche lì il cane va tenuto al guinzaglio se è stato segnalato al servizio veterinario cantonale per comportamento problematico o se la persona che lo porta a spasso non ha superato un esame pratico per cani. La versione francese dell'ordinanza parla dell'«attestation de compétences pratiques», l'attestato di competenza pratico. Sugli impianti sportivi, nei cortili delle scuole e nei parchi giochi non puoi lasciare liberi gli animali. Stato dell'ordinanza: 1° aprile 2018.",
+      "quellen": [
+        "be_biel_opolr",
+        "be_biel_opolv"
+      ]
+    },
+    {
+      "titel": "Imposta sui cani",
+      "wert": "CHF 150 per cane e per anno",
+      "text": "L'imposta sui cani ammonta a CHF 150 per cane e per anno. La devi se il 1° agosto abiti a Bienne e detieni un cane che ha più di sei mesi. La fattura arriva in agosto. Chi ha diritto alle prestazioni complementari dell'AVS o dell'AI paga la metà. L'imposta non è dovuta per i cani con una formazione speciale per compiti particolari, come i cani d'assistenza e d'accompagnamento di persone con disabilità, per i cani che si trovano temporaneamente in un rifugio per animali in attesa di una nuova sistemazione e se nello stesso anno è già stata pagata in un altro Comune o in un altro Cantone.",
+      "quellen": [
+        "be_biel_steuer_vo",
+        "be_biel_steuer_regl",
+        "be_biel_hundetaxe"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "wert": "entro quattro settimane alla Città",
+      "text": "Annunci il tuo cane alla Città entro quattro settimane, indicando razza ed età. Puoi farlo online o allo sportello dell'Abteilung Bevölkerung (ufficio della popolazione), Neuengasse 28. Ti serve il numero del microchip del tuo cane. Se cedi o vendi il tuo cane o se muore, lo comunichi subito per e-mail all'Abteilung Bevölkerung, in caso di morte con una conferma del veterinario. Se muore chi detiene un cane, contatta l'Abteilung Bevölkerung entro 10 giorni.",
+      "quellen": [
+        "be_biel_steuer_regl",
+        "be_biel_hundetaxe"
+      ]
+    },
+    {
+      "titel": "Escrementi",
+      "wert": "non sporcare né danneggiare nulla",
+      "text": "Chi conduce un cane fa in modo che non sporchi né danneggi le infrastrutture pubbliche e la proprietà privata.",
+      "quellen": [
+        "be_biel_opolr"
+      ]
+    },
+    {
+      "titel": "Multe",
+      "wert": "fino a CHF 5000",
+      "text": "Chi non annuncia un cane o sottrae l'imposta sui cani è punito con una multa fino a CHF 5000. Nei casi lievi la Città può rinunciare alla pena. Anche le infrazioni all'obbligo di guinzaglio e agli altri doveri dell'Ortspolizeireglement sono punite con una multa, anche se commesse per negligenza. Il regolamento non ne indica l'importo: rinvia al massimo ammesso dal diritto cantonale.",
+      "quellen": [
+        "be_biel_steuer_regl",
+        "be_biel_opolr"
+      ]
+    }
+  ]
+}

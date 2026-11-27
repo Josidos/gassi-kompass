@@ -1003,5 +1003,30 @@
     "kurz": "Köniz: Bestattungs- und Friedhofsverordnung",
     "lang": "Gemeinde Köniz: Bestattungs- und Friedhofsverordnung (Nr. 556.11) vom 28. November 2012, mit Änderungen bis 26. November 2020, Art. 3",
     "url": "https://www.koeniz.ch/public/upload/assets/16877/556.11_bestattungs_friedhofsverordnung.pdf?fp=3"
+  },
+  "be_biel_opolr": {
+    "kurz": "Ortspolizeireglement Biel",
+    "lang": "Stadt Biel: Ortspolizeireglement (OPolR, SGR 5.5-1) vom 21. November 2012, Stand 1. Januar 2023, Art. 16, 17 und 33",
+    "url": "https://biel-bienne.tlex.ch/app/de/texts_of_law/5.5-1"
+  },
+  "be_biel_opolv": {
+    "kurz": "Biel: Vollzugsverordnung zum Ortspolizeireglement",
+    "lang": "Stadt Biel: Verordnung über den Vollzug des Ortspolizeireglements (SGR 5.5-1.1) vom 19. Februar 2014, Stand 1. April 2018, Art. 5 und Anhang 1 mit den Plänen der Zonen",
+    "url": "https://biel-bienne.tlex.ch/app/de/texts_of_law/5.5-1.1"
+  },
+  "be_biel_steuer_regl": {
+    "kurz": "Biel: Reglement über die fakultativen Gemeindesteuern",
+    "lang": "Stadt Biel: Reglement über die fakultativen Gemeindesteuern (SGR 6.6-1) vom 17. Dezember 2014, Stand 1. Juli 2015, Art. 15 bis 20 und 25",
+    "url": "https://biel-bienne.tlex.ch/app/de/texts_of_law/6.6-1"
+  },
+  "be_biel_steuer_vo": {
+    "kurz": "Biel: Verordnung über die fakultativen Gemeindesteuern",
+    "lang": "Stadt Biel: Verordnung über die fakultativen Gemeindesteuern (SGR 6.6-1.1) vom 29. Oktober 2014, Stand 1. Oktober 2025, Art. 2 und 3",
+    "url": "https://biel-bienne.tlex.ch/app/de/texts_of_law/6.6-1.1"
+  },
+  "be_biel_hundetaxe": {
+    "kurz": "Stadt Biel: Fragen und Antworten zur Hundetaxe",
+    "lang": "Stadt Biel: Seite «Fragen und Antworten zur Hundetaxe» (abgerufen am 27. November 2026)",
+    "url": "https://www.biel-bienne.ch/de/hundetaxe.html/724"
   }
 }

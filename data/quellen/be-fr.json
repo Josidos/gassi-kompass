@@ -13,5 +13,30 @@
     "kurz": "Loi sur les chiens BE",
     "lang": "Canton de Berne: loi sur les chiens (RSB 916.31), état au 1er avril 2021",
     "url": "https://www.belex.sites.be.ch/app/fr/texts_of_law/916.31"
+  },
+  "be_bienne_rpoll": {
+    "kurz": "Règlement de police locale Bienne",
+    "lang": "Ville de Bienne: règlement de police locale (RPolL, RDCo 5.5-1) du 21 novembre 2012, état au 1er janvier 2023, art. 16, 17 et 33",
+    "url": "https://biel-bienne.tlex.ch/app/fr/texts_of_law/5.5-1"
+  },
+  "be_bienne_opoll": {
+    "kurz": "Bienne: ordonnance d'exécution du règlement de police locale",
+    "lang": "Ville de Bienne: ordonnance d'exécution du règlement de police locale (RDCo 5.5-1.1) du 19 février 2014, état au 1er avril 2018, art. 5 et annexe 1 avec les plans des zones",
+    "url": "https://biel-bienne.tlex.ch/app/fr/texts_of_law/5.5-1.1"
+  },
+  "be_bienne_impots_regl": {
+    "kurz": "Bienne: règlement sur les impôts communaux facultatifs",
+    "lang": "Ville de Bienne: règlement sur les impôts communaux facultatifs (RDCo 6.6-1) du 17 décembre 2014, état au 1er juillet 2015, art. 15 à 20 et 25",
+    "url": "https://biel-bienne.tlex.ch/app/fr/texts_of_law/6.6-1"
+  },
+  "be_bienne_impots_ord": {
+    "kurz": "Bienne: ordonnance sur les impôts communaux facultatifs",
+    "lang": "Ville de Bienne: ordonnance sur les impôts communaux facultatifs (RDCo 6.6-1.1) du 29 octobre 2014, état au 1er octobre 2025, art. 2 et 3",
+    "url": "https://biel-bienne.tlex.ch/app/fr/texts_of_law/6.6-1.1"
+  },
+  "be_bienne_taxe": {
+    "kurz": "Ville de Bienne: questions sur la taxe des chiens",
+    "lang": "Ville de Bienne: page «Foire aux questions concernant la taxe des chiens» (consultée le 27 novembre 2026)",
+    "url": "https://www.biel-bienne.ch/fr/taxe-chiens.html/724"
   }
 }
