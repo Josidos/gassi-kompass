@@ -3,7 +3,7 @@
   "kanton": "zh",
   "bfs": 261,
   "uebersetzt_aus": "de",
-  "original": "1370ab5b4e6d",
+  "original": "825d7a6e3d28",
   "name": "Ville de Zurich",
   "ort": "Zurich",
   "in_ort": "à Zurich",
@@ -29,9 +29,18 @@
     {
       "titel": "Annonce et impôt",
       "wert": "Stadtpolizei Zürich (police municipale)",
-      "text": "La Stadtpolizei est compétente pour l'annonce obligatoire de l'arrivée et du départ du chien ainsi que pour l'impôt sur les chiens.",
+      "text": "La Stadtpolizei est compétente pour l'annonce obligatoire de l'arrivée et du départ du chien ainsi que pour l'impôt sur les chiens. Les chiens de plus de 3 mois doivent être annoncés dans les 10 jours au moyen du formulaire d'annonce.",
       "quellen": [
-        "zh_stadt"
+        "zh_stadt",
+        "zh_stadt_kontrolle"
+      ]
+    },
+    {
+      "titel": "Impôt sur les chiens",
+      "wert": "CHF 130 par chien, plus la contribution cantonale",
+      "text": "Par chien et par année civile, vous payez à la Ville une taxe de CHF 130. S'y ajoute la contribution cantonale : les Vollzugsvorschriften (prescriptions d'exécution) de la Ville indiquent CHF 30. L'émolument d'inscription est de CHF 20, et de CHF 40 en cas d'inscription tardive. État des Vollzugsvorschriften : en vigueur depuis le 1er septembre 2017.",
+      "quellen": [
+        "zh_stadt_vollzug"
       ]
     }
   ]

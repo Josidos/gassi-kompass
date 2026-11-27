@@ -3,7 +3,7 @@
   "kanton": "zh",
   "bfs": 261,
   "uebersetzt_aus": "de",
-  "original": "1370ab5b4e6d",
+  "original": "825d7a6e3d28",
   "name": "Città di Zurigo",
   "ort": "Zurigo",
   "in_ort": "a Zurigo",
@@ -29,9 +29,18 @@
     {
       "titel": "Notifica e imposta",
       "wert": "Stadtpolizei Zürich (polizia comunale)",
-      "text": "La Stadtpolizei è competente per la notifica obbligatoria di arrivo e partenza del cane e per l'imposta sui cani.",
+      "text": "La Stadtpolizei è competente per la notifica obbligatoria di arrivo e partenza del cane e per l'imposta sui cani. I cani di età superiore a 3 mesi vanno annunciati entro 10 giorni con il modulo di notifica.",
       "quellen": [
-        "zh_stadt"
+        "zh_stadt",
+        "zh_stadt_kontrolle"
+      ]
+    },
+    {
+      "titel": "Imposta sui cani",
+      "wert": "CHF 130 per cane, più il contributo cantonale",
+      "text": "Per ogni cane e anno civile paghi alla Città una tassa di CHF 130. Si aggiunge il contributo cantonale: le Vollzugsvorschriften (prescrizioni d'esecuzione) della Città indicano CHF 30. La tassa d'iscrizione è di CHF 20, in caso di iscrizione tardiva di CHF 40. Stato delle Vollzugsvorschriften: in vigore dal 1° settembre 2017.",
+      "quellen": [
+        "zh_stadt_vollzug"
       ]
     }
   ]

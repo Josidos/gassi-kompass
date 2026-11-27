@@ -28,9 +28,18 @@
     {
       "titel": "Anmeldung und Steuer",
       "wert": "Stadtpolizei Zürich",
-      "text": "Die Stadtpolizei ist für die obligatorische An- und Abmeldung und für die Hundesteuer zuständig.",
+      "text": "Die Stadtpolizei ist für die obligatorische An- und Abmeldung und für die Hundesteuer zuständig. Hunde, die älter als 3 Monate sind, meldest du innert 10 Tagen mit dem Anmeldeformular an.",
       "quellen": [
-        "zh_stadt"
+        "zh_stadt",
+        "zh_stadt_kontrolle"
+      ]
+    },
+    {
+      "titel": "Hundeabgabe",
+      "wert": "CHF 130 pro Hund, dazu der Kantonsbeitrag",
+      "text": "Pro Hund und Kalenderjahr zahlst du der Stadt eine Abgabe von CHF 130. Dazu kommt der Kantonsbeitrag: Die Vollzugsvorschriften der Stadt nennen dafür CHF 30. Die Einschreibegebühr beträgt CHF 20, bei verspäteter Neueintragung CHF 40. Stand der Vollzugsvorschriften: in Kraft seit 1. September 2017.",
+      "quellen": [
+        "zh_stadt_vollzug"
       ]
     }
   ]

@@ -3,7 +3,7 @@
   "kanton": "be",
   "bfs": 351,
   "uebersetzt_aus": "de",
-  "original": "470f0ca067db",
+  "original": "6bd12be282f9",
   "name": "Ville de Berne",
   "ort": "Berne",
   "in_ort": "à Berne",
@@ -27,10 +27,11 @@
     },
     {
       "titel": "Impôt sur les chiens",
-      "wert": "jour de référence: 1er août",
-      "text": "Est assujettie à l'impôt toute personne qui habite en ville de Berne le 1er août.",
+      "wert": "CHF 150 par chien et par an",
+      "text": "L'impôt sur les chiens de la Ville de Berne s'élève à CHF 150 par chien et par an et s'applique aux chiens dès 6 mois. Est assujettie à l'impôt toute personne qui habite en ville de Berne le 1er août. La facture est envoyée automatiquement en août à toutes les détentrices et tous les détenteurs enregistrés. Sont exemptés les chiens d'assistance et d'accompagnement de personnes en situation de handicap ainsi que les chiens de thérapie et de sauvetage, si vous pouvez présenter le justificatif.",
       "quellen": [
-        "be_taxe"
+        "be_taxe",
+        "be_stadt_hunde"
       ]
     }
   ]

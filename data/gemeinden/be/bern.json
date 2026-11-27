@@ -26,10 +26,11 @@
     },
     {
       "titel": "Hundetaxe",
-      "wert": "Stichtag 1. August",
-      "text": "Taxpflichtig ist, wer am 1. August in der Stadt Bern wohnt.",
+      "wert": "CHF 150 pro Hund und Jahr",
+      "text": "Die Hundetaxe der Stadt Bern beträgt CHF 150 pro Hund und Jahr und gilt für Hunde ab 6 Monaten. Taxpflichtig ist, wer am 1. August in der Stadt Bern wohnt. Die Rechnung kommt im August automatisch an alle registrierten Hundehalterinnen und Hundehalter. Befreit sind Assistenz- und Begleithunde von Menschen mit Behinderung sowie Therapie- und Rettungshunde, wenn du den Nachweis vorlegen kannst.",
       "quellen": [
-        "be_taxe"
+        "be_taxe",
+        "be_stadt_hunde"
       ]
     }
   ]

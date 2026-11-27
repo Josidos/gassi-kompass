@@ -3,7 +3,7 @@
   "kanton": "be",
   "bfs": 351,
   "uebersetzt_aus": "de",
-  "original": "470f0ca067db",
+  "original": "6bd12be282f9",
   "name": "Città di Berna",
   "ort": "Berna",
   "in_ort": "a Berna",
@@ -27,10 +27,11 @@
     },
     {
       "titel": "Imposta sui cani",
-      "wert": "giorno di riferimento: 1° agosto",
-      "text": "È soggetto all'imposta chi abita nella città di Berna il 1° agosto.",
+      "wert": "CHF 150 per cane e anno",
+      "text": "L'imposta sui cani della Città di Berna ammonta a CHF 150 per cane e anno e vale per i cani a partire da 6 mesi. È soggetto all'imposta chi abita nella città di Berna il 1° agosto. La fattura arriva automaticamente in agosto a tutte le persone registrate che detengono un cane. Sono esentati i cani d'assistenza e d'accompagnamento di persone con disabilità nonché i cani da terapia e da soccorso, se puoi presentare la prova.",
       "quellen": [
-        "be_taxe"
+        "be_taxe",
+        "be_stadt_hunde"
       ]
     }
   ]

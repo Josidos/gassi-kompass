@@ -883,5 +883,20 @@
     "kurz": "SCAV NE: cours",
     "lang": "République et Canton de Neuchâtel, Service de la consommation et des affaires vétérinaires: cours pour propriétaires de chiens, avec la liste des éducateurs agréés (page lue le 27 novembre 2026)",
     "url": "https://www.ne.ch/autorites/DDTE/SCAV/animaux/Pages/Cours-chiens.aspx"
+  },
+  "zh_stadt_vollzug": {
+    "kurz": "Vollzugsvorschriften Stadt Zürich",
+    "lang": "Stadt Zürich, Stadtrat: Vollzugsvorschriften zum Hundegesetz vom 31. Mai 2017 (AS 554.510, in Kraft seit 1. September 2017)",
+    "url": "https://www.stadt-zuerich.ch/dam/web/de/politik-verwaltung/politik-recht/amtliche-sammlung/554/510/554.510%20Vollzugsvorschriften%20zum%20Hundegesetz_17_V4.pdf"
+  },
+  "zh_stadt_kontrolle": {
+    "kurz": "Hundekontrolle Stadt Zürich",
+    "lang": "Stadt Zürich: Hundekontrolle, An- und Abmeldung von Hunden (gelesen am 27. November 2026)",
+    "url": "https://www.stadt-zuerich.ch/de/stadtleben/veranstaltungen-und-bewilligungen/hundekontrolle.html"
+  },
+  "be_stadt_hunde": {
+    "kurz": "Stadt Bern: Hunde",
+    "lang": "Stadt Bern: Hunde (Seite geändert am 8. Oktober 2026)",
+    "url": "https://www.bern.ch/themen/umwelt-natur-und-energie/tiere/hunde"
   }
 }
