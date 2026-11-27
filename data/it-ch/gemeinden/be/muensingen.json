@@ -1,0 +1,38 @@
+{
+  "id": "muensingen",
+  "kanton": "be",
+  "bfs": 616,
+  "uebersetzt_aus": "de",
+  "original": "260ce6b8249a",
+  "name": "Münsingen",
+  "ort": "Münsingen",
+  "in_ort": "a Münsingen",
+  "karten": [
+    {
+      "titel": "Imposta sui cani",
+      "wert": "CHF 120 per cane e anno",
+      "text": "L'imposta sui cani ammonta a CHF 120 per cane. Il Gemeinderat (esecutivo comunale) la fissa nella Gebührenverordnung (ordinanza sulle tasse), il Reglement über die Hundetaxe (regolamento sull'imposta sui cani) prevede da CHF 50 a CHF 200 per cane e anno. È soggetto all'imposta ogni cane che il 1° agosto ha più di 6 mesi. Se hai già annunciato un cane, ricevi la fattura in agosto.",
+      "quellen": [
+        "be_muensingen_hundetaxe",
+        "be_muensingen_steuer"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "wert": "presso l'Abteilung Finanzen, modifiche entro il 31 luglio",
+      "text": "Se detieni un cane per la prima volta, ti annunci prima all'Abteilung Finanzen (servizio finanze) del Comune. Poi la registrazione può avvenire tramite il veterinario. Cessione, presa a carico, esportazione e morte del cane le annunci entro dieci giorni alla banca dati AMICUS. I cambiamenti di nome e indirizzo li annunci direttamente all'Abteilung Finanzen. Per valere ai fini dell'imposta sui cani, le modifiche devono essere registrate in AMICUS entro il 31 luglio. Poi le comunichi all'Abteilung Finanzen, per telefono o tramite lo sportello online.",
+      "quellen": [
+        "be_muensingen_anmeldung",
+        "be_muensingen_hundetaxe"
+      ]
+    },
+    {
+      "titel": "Cane trovato",
+      "wert": "polizia comunale o polizia cantonale",
+      "text": "Un cane randagio sul territorio comunale lo annunci alla Gemeindepolizei Münsingen (polizia comunale) o alla Kantonspolizei Bern (polizia cantonale), StatPol Münsingen. Finché un animale non può essere collocato, il Kynologischer Verein Münsingen (società cinologica) se ne prende cura a breve termine.",
+      "quellen": [
+        "be_muensingen_streunend"
+      ]
+    }
+  ]
+}

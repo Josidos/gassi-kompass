@@ -1,0 +1,53 @@
+{
+  "id": "lyss",
+  "kanton": "be",
+  "bfs": 306,
+  "uebersetzt_aus": "de",
+  "original": "670fe373fdff",
+  "name": "Lyss",
+  "ort": "Lyss",
+  "in_ort": "a Lyss",
+  "karten": [
+    {
+      "titel": "Imposta sui cani",
+      "wert": "CHF 120 per cane e anno",
+      "text": "L'imposta sui cani ammonta a CHF 120 per cane. Vale per ogni cane che al giorno di riferimento ha sei mesi. Il Comune la fattura ogni anno in agosto.",
+      "quellen": [
+        "be_lyss_hundetaxe",
+        "be_lyss_anmeldung"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "wert": "presso l'Abteilung Finanzen + Informatik",
+      "text": "Annunci o disdici il tuo cane presso l'Abteilung Finanzen + Informatik (servizio finanze e informatica) del Comune. Puoi farlo per e-mail, per telefono o di persona allo sportello.",
+      "quellen": [
+        "be_lyss_anmeldung"
+      ]
+    },
+    {
+      "titel": "Guinzaglio",
+      "wert": "mai lasciarlo libero senza sorveglianza",
+      "text": "Sul suolo pubblico non puoi lasciare il cane libero senza sorveglianza. Lo tieni in ogni momento sotto controllo effettivo. I luoghi e le piazze con obbligo di guinzaglio li indica lo Hundegesetz (legge cantonale sui cani). L'Ortspolizeibehörde (autorità di polizia locale) può designare con una decisione generale altri luoghi, piazze e strade in cui tieni il cane al guinzaglio.",
+      "quellen": [
+        "be_lyss_opr"
+      ]
+    },
+    {
+      "titel": "Escrementi",
+      "wert": "raccoglierli sempre",
+      "text": "Raccogli in ogni caso gli escrementi del tuo cane, sul suolo pubblico come su quello privato (Ortspolizeireglement, art. 41). Fai anche in modo che il tuo cane non sporchi né danneggi parti di edifici, marciapiedi, parchi e impianti sportivi, parchi giochi, giardini altrui, colture agricole e boschi.",
+      "quellen": [
+        "be_lyss_opr"
+      ]
+    },
+    {
+      "titel": "Multe",
+      "wert": "fino a CHF 5000",
+      "text": "Le infrazioni all'Ortspolizeireglement (regolamento di polizia locale) sono punite con una multa fino a CHF 5000, salvo che si applichi il diritto penale federale o cantonale. Nei casi lievi può bastare un ammonimento o un lavoro di pubblica utilità.",
+      "quellen": [
+        "be_lyss_opr"
+      ]
+    }
+  ]
+}

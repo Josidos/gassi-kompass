@@ -1,0 +1,52 @@
+{
+  "id": "lyss",
+  "kanton": "be",
+  "bfs": 306,
+  "name": "Lyss",
+  "ort": "Lyss",
+  "in_ort": "in Lyss",
+  "geprueft": "2026-11-28",
+  "karten": [
+    {
+      "titel": "Hundetaxe",
+      "wert": "CHF 120 pro Hund und Jahr",
+      "text": "Die Hundetaxe beträgt CHF 120 pro Hund. Sie gilt für jeden Hund, der am Stichtag sechs Monate alt ist. Die Gemeinde stellt sie jeweils im August in Rechnung.",
+      "quellen": [
+        "be_lyss_hundetaxe",
+        "be_lyss_anmeldung"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "wert": "bei der Abteilung Finanzen + Informatik",
+      "text": "Du meldest deinen Hund bei der Abteilung Finanzen + Informatik der Gemeinde an oder ab. Das geht per Mail, telefonisch oder persönlich am Schalter.",
+      "quellen": [
+        "be_lyss_anmeldung"
+      ]
+    },
+    {
+      "titel": "Leine",
+      "wert": "nie unbeaufsichtigt frei laufen lassen",
+      "text": "Auf öffentlichem Grund darfst du deinen Hund nicht unbeaufsichtigt frei laufen lassen. Du hast ihn jederzeit wirksam unter Kontrolle. Orte und Plätze mit Leinenpflicht nennt das kantonale Hundegesetz. Die Ortspolizeibehörde kann mit einer Allgemeinverfügung weitere Orte, Plätze und Strassenzüge bezeichnen, an denen du deinen Hund an der Leine führst.",
+      "quellen": [
+        "be_lyss_opr"
+      ]
+    },
+    {
+      "titel": "Hundekot",
+      "wert": "immer wegräumen",
+      "text": "Den Kot deines Hundes räumst du in jedem Fall weg, auf öffentlichem wie auf privatem Grund (Ortspolizeireglement, Art. 41). Du sorgst auch dafür, dass dein Hund Gebäudeteile, Gehwege, Park- und Sportanlagen, Spielplätze, fremde Gärten, landwirtschaftliche Kulturen und Wälder nicht verunreinigt oder beschädigt.",
+      "quellen": [
+        "be_lyss_opr"
+      ]
+    },
+    {
+      "titel": "Bussen",
+      "wert": "bis CHF 5000",
+      "text": "Verstösse gegen das Ortspolizeireglement werden mit Busse bis CHF 5000 bestraft, sofern nicht eidgenössisches oder kantonales Strafrecht gilt. In leichten Fällen kann es bei einer Verwarnung oder gemeinnütziger Arbeit bleiben.",
+      "quellen": [
+        "be_lyss_opr"
+      ]
+    }
+  ]
+}

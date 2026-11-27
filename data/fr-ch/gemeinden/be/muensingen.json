@@ -1,0 +1,38 @@
+{
+  "id": "muensingen",
+  "kanton": "be",
+  "bfs": 616,
+  "uebersetzt_aus": "de",
+  "original": "260ce6b8249a",
+  "name": "Münsingen",
+  "ort": "Münsingen",
+  "in_ort": "à Münsingen",
+  "karten": [
+    {
+      "titel": "Impôt sur les chiens",
+      "wert": "CHF 120 par chien et par an",
+      "text": "L'impôt sur les chiens s'élève à CHF 120 par chien. Le Gemeinderat (exécutif communal) le fixe dans la Gebührenverordnung (ordonnance sur les émoluments), le Reglement über die Hundetaxe (règlement sur l'impôt sur les chiens) prévoit pour cela CHF 50 à CHF 200 par chien et par an. Est soumis à l'impôt tout chien âgé de plus de 6 mois le 1er août. Si vous avez déjà annoncé un chien, vous recevez la facture en août.",
+      "quellen": [
+        "be_muensingen_hundetaxe",
+        "be_muensingen_steuer"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "wert": "auprès de l'Abteilung Finanzen, modifications jusqu'au 31 juillet",
+      "text": "Si vous détenez un chien pour la première fois, vous vous annoncez au préalable auprès de l'Abteilung Finanzen (service des finances) de la commune. Ensuite, l'enregistrement peut se faire par le vétérinaire. La remise, la prise en charge, l'exportation et la mort du chien, vous les annoncez dans les dix jours à la banque de données AMICUS. Les changements de nom et d'adresse, vous les annoncez directement à l'Abteilung Finanzen. Pour compter pour l'impôt sur les chiens, les modifications doivent être saisies dans AMICUS jusqu'au 31 juillet. Ensuite, vous les communiquez à l'Abteilung Finanzen, par téléphone ou par le guichet en ligne.",
+      "quellen": [
+        "be_muensingen_anmeldung",
+        "be_muensingen_hundetaxe"
+      ]
+    },
+    {
+      "titel": "Chien trouvé",
+      "wert": "police communale ou police cantonale",
+      "text": "Un chien errant sur le territoire communal, vous l'annoncez à la Gemeindepolizei Münsingen (police communale) ou à la Kantonspolizei Bern (police cantonale), StatPol Münsingen. Jusqu'à ce qu'un animal puisse être placé, le Kynologischer Verein Münsingen (société cynologique) s'occupe de sa garde à court terme.",
+      "quellen": [
+        "be_muensingen_streunend"
+      ]
+    }
+  ]
+}

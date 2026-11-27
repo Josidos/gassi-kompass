@@ -1,0 +1,37 @@
+{
+  "id": "muensingen",
+  "kanton": "be",
+  "bfs": 616,
+  "name": "Münsingen",
+  "ort": "Münsingen",
+  "in_ort": "in Münsingen",
+  "geprueft": "2026-11-28",
+  "karten": [
+    {
+      "titel": "Hundetaxe",
+      "wert": "CHF 120 pro Hund und Jahr",
+      "text": "Die Hundetaxe beträgt CHF 120 pro Hund. Der Gemeinderat legt sie in der Gebührenverordnung fest, das Reglement über die Hundetaxe gibt dafür CHF 50 bis CHF 200 pro Hund und Jahr vor. Gebührenpflichtig ist jeder Hund, der am 1. August älter als 6 Monate ist. Wer schon einen Hund gemeldet hat, bekommt die Rechnung im August.",
+      "quellen": [
+        "be_muensingen_hundetaxe",
+        "be_muensingen_steuer"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "wert": "bei der Abteilung Finanzen, Änderungen bis 31. Juli",
+      "text": "Hältst du zum ersten Mal einen Hund, meldest du dich vorher bei der Abteilung Finanzen der Gemeinde. Danach kann die Registrierung über den Tierarzt laufen. Weitergabe, Übernahme, Export und Tod des Hundes meldest du innert zehn Tagen der Datenbank AMICUS. Änderungen von Name und Adresse meldest du direkt der Abteilung Finanzen. Damit sie für die Hundetaxe zählen, müssen Änderungen bis am 31. Juli in AMICUS erfasst sein. Danach teilst du sie der Abteilung Finanzen mit, telefonisch oder über den Online-Schalter.",
+      "quellen": [
+        "be_muensingen_anmeldung",
+        "be_muensingen_hundetaxe"
+      ]
+    },
+    {
+      "titel": "Hund gefunden",
+      "wert": "Gemeindepolizei oder Kantonspolizei",
+      "text": "Einen herrenlosen Hund auf dem Gemeindegebiet meldest du der Gemeindepolizei Münsingen oder der Kantonspolizei Bern, StatPol Münsingen. Bis ein Tier vermittelt werden kann, übernimmt der Kynologische Verein Münsingen die kurzfristige Pflege.",
+      "quellen": [
+        "be_muensingen_streunend"
+      ]
+    }
+  ]
+}

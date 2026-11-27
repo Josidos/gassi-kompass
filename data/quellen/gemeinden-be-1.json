@@ -18,5 +18,40 @@
     "kurz": "Gemeinde Spiez: Friedhof- und Bestattungsreglement",
     "lang": "Friedhof- und Bestattungsreglement der Einwohnergemeinde Spiez vom 22. November 2021, Art. 4 (abgerufen am 28. November 2026)",
     "url": "https://www.spiez.ch/de/verwaltung/dokumente/dokumente/friedhof-bestattungsreglement-teilrev16.pdf"
+  },
+  "be_lyss_hundetaxe": {
+    "kurz": "Gemeinde Lyss: Hundehaltung, Taxe",
+    "lang": "Gemeinde Lyss: Dienstleistungen, Hundehaltung - Taxe (abgerufen am 28. November 2026, ohne Datum)",
+    "url": "https://www.lyss.ch/de/verwaltung/dienstleistungen/detail/detail.php?i=201"
+  },
+  "be_lyss_anmeldung": {
+    "kurz": "Gemeinde Lyss: Hundehaltung, anmelden / abmelden",
+    "lang": "Gemeinde Lyss: Dienstleistungen, Hundehaltung - anmelden / abmelden (abgerufen am 28. November 2026, ohne Datum)",
+    "url": "https://www.lyss.ch/de/verwaltung/dienstleistungen/detail/detail.php?i=107"
+  },
+  "be_lyss_opr": {
+    "kurz": "Gemeinde Lyss: Ortspolizeireglement",
+    "lang": "Ortspolizeireglement der Gemeinde Lyss vom 7. November 2011, Fassung vom 1. Juni 2026, Art. 41 und 47 (abgerufen am 28. November 2026)",
+    "url": "https://www.lyss.ch/de/politik/cdws/dok_geschaeft.php?did=1a1cdebf37464424b27ac3825043f74e-332&filename=WEB;_Ortspolizeireglement_058_01.06.2026_-_&v=3&r=Original&typ=pdf"
+  },
+  "be_muensingen_hundetaxe": {
+    "kurz": "Gemeinde Münsingen: Hundetaxe 2026",
+    "lang": "Einwohnergemeinde Münsingen: Meldung «Hundetaxe 2026» (abgerufen am 28. November 2026)",
+    "url": "https://www.muensingen.ch/de/neuigkeiten/meldungen/Hundetaxe-2026.php"
+  },
+  "be_muensingen_steuer": {
+    "kurz": "Gemeinde Münsingen: Hundesteuer",
+    "lang": "Einwohnergemeinde Münsingen: Dienstleistungen, Hundesteuer (abgerufen am 28. November 2026, ohne Datum)",
+    "url": "https://www.muensingen.ch/de/verwaltung/dienstleistungen/detail/detail.php?i=60"
+  },
+  "be_muensingen_anmeldung": {
+    "kurz": "Gemeinde Münsingen: Hund an- / abmelden",
+    "lang": "Einwohnergemeinde Münsingen: Dienstleistungen, Hund an- / abmelden (abgerufen am 28. November 2026, ohne Datum)",
+    "url": "https://www.muensingen.ch/de/verwaltung/dienstleistungen/detail/detail.php?i=107"
+  },
+  "be_muensingen_streunend": {
+    "kurz": "Gemeinde Münsingen: Herumstreunende Hunde",
+    "lang": "Einwohnergemeinde Münsingen: Dienstleistungen, Herumstreunende Hunde (abgerufen am 28. November 2026, ohne Datum)",
+    "url": "https://www.muensingen.ch/de/verwaltung/dienstleistungen/detail/detail.php?i=255"
   }
 }

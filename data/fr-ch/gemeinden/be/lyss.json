@@ -1,0 +1,53 @@
+{
+  "id": "lyss",
+  "kanton": "be",
+  "bfs": 306,
+  "uebersetzt_aus": "de",
+  "original": "670fe373fdff",
+  "name": "Lyss",
+  "ort": "Lyss",
+  "in_ort": "à Lyss",
+  "karten": [
+    {
+      "titel": "Impôt sur les chiens",
+      "wert": "CHF 120 par chien et par an",
+      "text": "L'impôt sur les chiens s'élève à CHF 120 par chien. Il s'applique à tout chien âgé de six mois au jour de référence. La commune le facture chaque année en août.",
+      "quellen": [
+        "be_lyss_hundetaxe",
+        "be_lyss_anmeldung"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "wert": "auprès de l'Abteilung Finanzen + Informatik",
+      "text": "Vous annoncez l'arrivée ou le départ de votre chien auprès de l'Abteilung Finanzen + Informatik (service des finances et de l'informatique) de la commune. C'est possible par e-mail, par téléphone ou en personne au guichet.",
+      "quellen": [
+        "be_lyss_anmeldung"
+      ]
+    },
+    {
+      "titel": "Laisse",
+      "wert": "ne jamais laisser courir sans surveillance",
+      "text": "Sur le domaine public, vous ne pouvez pas laisser courir votre chien sans surveillance. Vous le gardez en tout temps sous contrôle effectif. Le Hundegesetz (loi cantonale sur les chiens) désigne les lieux et les places où la laisse est obligatoire. L'Ortspolizeibehörde (autorité de police locale) peut désigner par une décision de portée générale d'autres lieux, places et rues où vous tenez votre chien en laisse.",
+      "quellen": [
+        "be_lyss_opr"
+      ]
+    },
+    {
+      "titel": "Crottes de chien",
+      "wert": "toujours ramasser",
+      "text": "Vous ramassez dans tous les cas les crottes de votre chien, sur le domaine public comme sur un terrain privé (Ortspolizeireglement, art. 41). Vous veillez aussi à ce que votre chien ne salisse ni n'endommage les bâtiments, les trottoirs, les parcs et installations sportives, les places de jeux, les jardins d'autrui, les cultures agricoles et les forêts.",
+      "quellen": [
+        "be_lyss_opr"
+      ]
+    },
+    {
+      "titel": "Amendes",
+      "wert": "jusqu'à CHF 5000",
+      "text": "Les infractions à l'Ortspolizeireglement (règlement de police locale) sont punies d'une amende jusqu'à CHF 5000, sauf si le droit pénal fédéral ou cantonal s'applique. Dans les cas légers, un avertissement ou un travail d'intérêt général peut suffire.",
+      "quellen": [
+        "be_lyss_opr"
+      ]
+    }
+  ]
+}
