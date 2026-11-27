@@ -4,73 +4,91 @@
    "abgerufen": "2026-11-27",
    "art": "text",
    "erster_abruf": "2026-11-27",
+   "fehler": "URLError",
+   "fehler_am": "2026-11-27",
    "summe": "43867c6f92b7623004a6",
    "url": "https://www.aarau.ch/services/anmeldung-hundehaltung-und-hund.html/2014",
    "zeichen": 394
   },
   "ag_aarau_badev": {
    "abgerufen": "2026-11-27",
-   "art": "text",
+   "art": "erlass",
+   "erlass_stand": "Aktuelle Version in Kraft seit: 01.04.2026 (Beschlussdatum: 16.03.2026)",
    "erster_abruf": "2026-11-27",
-   "summe": "13e62d25873900e99696",
+   "summe": "fe9fcba2bdfba9334cb3",
+   "titel": "Badeverordnung für das Schwimmbad Aarau",
    "url": "https://aarau.tlex.ch/app/de/texts_of_law/8.2-2",
-   "zeichen": 7
+   "zeichen": 10932
   },
   "ag_aarau_bno": {
    "abgerufen": "2026-11-27",
-   "art": "text",
+   "art": "erlass",
+   "erlass_stand": "Aktuelle Version in Kraft seit: 01.05.2025 (Beschlussdatum: 16.12.2024)",
    "erster_abruf": "2026-11-27",
-   "summe": "13e62d25873900e99696",
+   "summe": "23b2e9d978f228062302",
+   "titel": "Bau- und Nutzungsordnung",
    "url": "https://aarau.tlex.ch/app/de/texts_of_law/7.1-1",
-   "zeichen": 7
+   "zeichen": 56651
   },
   "ag_aarau_merkblatt": {
    "abgerufen": "2026-11-27",
    "art": "text",
    "erster_abruf": "2026-11-27",
+   "fehler": "URLError",
+   "fehler_am": "2026-11-27",
    "summe": "b34d97602a6947ee5f86",
    "url": "https://www.aarau.ch/politik-verwaltung/online-schalter/produktdetails.html/206/product/201",
    "zeichen": 407
   },
   "ag_aarau_polvo": {
    "abgerufen": "2026-11-27",
-   "art": "text",
+   "art": "erlass",
+   "erlass_stand": "Aktuelle Version in Kraft seit: 01.01.2023 (Beschlussdatum: 21.11.2022)",
    "erster_abruf": "2026-11-27",
-   "summe": "13e62d25873900e99696",
+   "summe": "53670c3c5f33ad142b8d",
+   "titel": "Polizeiverordnung",
    "url": "https://aarau.tlex.ch/app/de/texts_of_law/5.1-1",
-   "zeichen": 7
+   "zeichen": 26052
   },
   "ag_baden_polizeireglement": {
    "abgerufen": "2026-11-27",
    "art": "datei",
    "bytes": 245992,
    "erster_abruf": "2026-11-27",
+   "fehler": "URLError",
+   "fehler_am": "2026-11-27",
    "summe": "42e16f3ef0ce1eb30b90",
    "url": "https://www.baden.ch/public/upload/assets/50111/200.100%20Polizeireglement.pdf?fp=5"
   },
   "ag_hug": {
    "abgerufen": "2026-11-27",
-   "art": "text",
+   "art": "erlass",
+   "erlass_stand": "Aktuelle Version in Kraft seit: 01.07.2024 (Beschlussdatum: 19.09.2023)",
    "erster_abruf": "2026-11-27",
-   "summe": "13e62d25873900e99696",
+   "summe": "f271720977735a26734b",
+   "titel": "Hundegesetz",
    "url": "https://gesetzessammlungen.ag.ch/app/de/texts_of_law/393.400",
-   "zeichen": 7
+   "zeichen": 12800
   },
   "ag_huv": {
    "abgerufen": "2026-11-27",
-   "art": "text",
+   "art": "erlass",
+   "erlass_stand": "Aktuelle Version in Kraft seit: 01.03.2024 (Beschlussdatum: 20.12.2023)",
    "erster_abruf": "2026-11-27",
-   "summe": "13e62d25873900e99696",
+   "summe": "48232e8fa635c72af38d",
+   "titel": "Verordnung zum Hundegesetz",
    "url": "https://gesetzessammlungen.ag.ch/app/de/texts_of_law/393.411",
-   "zeichen": 7
+   "zeichen": 17924
   },
   "ag_jagdv": {
    "abgerufen": "2026-11-27",
-   "art": "text",
+   "art": "erlass",
+   "erlass_stand": "Aktuelle Version in Kraft seit: 30.08.2025 (Beschlussdatum: 11.06.2025)",
    "erster_abruf": "2026-11-27",
-   "summe": "13e62d25873900e99696",
+   "summe": "540eb28c07e13bf6d38c",
+   "titel": "Verordnung zum Jagdgesetz des Kantons Aargau",
    "url": "https://gesetzessammlungen.ag.ch/app/de/texts_of_law/933.211",
-   "zeichen": 7
+   "zeichen": 32676
   },
   "ag_kapo_tiere": {
    "abgerufen": "2026-11-27",
@@ -90,35 +108,43 @@
   },
   "ag_obvv": {
    "abgerufen": "2026-11-27",
-   "art": "text",
+   "art": "erlass",
+   "erlass_stand": "Aktuelle Version in Kraft seit: 01.07.2021 (Beschlussdatum: 26.05.2021)",
    "erster_abruf": "2026-11-27",
-   "summe": "13e62d25873900e99696",
+   "summe": "4b3de1635fb1fef23539",
+   "titel": "Verordnung über das Ordnungsbussenverfahren",
    "url": "https://gesetzessammlungen.ag.ch/app/de/texts_of_law/251.213",
-   "zeichen": 7
+   "zeichen": 4097
   },
   "ag_rtd": {
    "abgerufen": "2026-11-27",
-   "art": "text",
+   "art": "erlass",
+   "erlass_stand": "Aktuelle Version in Kraft seit: 30.06.2018 (Beschlussdatum: 06.03.2018)",
    "erster_abruf": "2026-11-27",
-   "summe": "13e62d25873900e99696",
+   "summe": "02b3f39fe1d5903df7df",
+   "titel": "Dekret über den Schutz der Landschaft und die Nutzung im Gebiet der Reusstalsanierung",
    "url": "https://gesetzessammlungen.ag.ch/app/de/texts_of_law/787.330",
-   "zeichen": 7
+   "zeichen": 6320
   },
   "ag_rud": {
    "abgerufen": "2026-11-27",
-   "art": "text",
+   "art": "erlass",
+   "erlass_stand": "Aktuelle Version in Kraft seit: 30.06.2018 (Beschlussdatum: 06.03.2018)",
    "erster_abruf": "2026-11-27",
-   "summe": "13e62d25873900e99696",
+   "summe": "8d48cdf4bcf38f68474e",
+   "titel": "Dekret über den Schutz der Reuss und ihrer Ufer unterhalb Bremgarten",
    "url": "https://gesetzessammlungen.ag.ch/app/de/texts_of_law/761.520",
-   "zeichen": 7
+   "zeichen": 9987
   },
   "ag_tschv": {
    "abgerufen": "2026-11-27",
-   "art": "text",
+   "art": "erlass",
+   "erlass_stand": "Aktuelle Version in Kraft seit: 01.07.2024 (Beschlussdatum: 13.03.2024)",
    "erster_abruf": "2026-11-27",
-   "summe": "13e62d25873900e99696",
+   "summe": "2fd0ed3e0abe82f82677",
+   "titel": "Verordnung über den Vollzug der eidgenössischen Tierschutzgesetzgebung",
    "url": "https://gesetzessammlungen.ag.ch/app/de/texts_of_law/393.111",
-   "zeichen": 7
+   "zeichen": 22409
   },
   "ag_vet": {
    "abgerufen": "2026-11-27",
@@ -260,78 +286,98 @@
    "abgerufen": "2026-11-27",
    "art": "text",
    "erster_abruf": "2026-11-27",
+   "fehler": "URLError",
+   "fehler_am": "2026-11-27",
    "summe": "a625730b8faaa97bc859",
    "url": "https://www.biel-bienne.ch/de/hundetaxe.html/724",
    "zeichen": 5939
   },
   "be_biel_opolr": {
    "abgerufen": "2026-11-27",
-   "art": "text",
+   "art": "erlass",
+   "erlass_stand": "Aktuelle Version in Kraft seit: 01.01.2023 (Beschlussdatum: 16.11.2022)",
    "erster_abruf": "2026-11-27",
-   "summe": "13e62d25873900e99696",
+   "summe": "0d48b87fdd97e8d22e69",
+   "titel": "Ortspolizeireglement der Stadt Biel",
    "url": "https://biel-bienne.tlex.ch/app/de/texts_of_law/5.5-1",
-   "zeichen": 7
+   "zeichen": 25254
   },
   "be_biel_opolv": {
    "abgerufen": "2026-11-27",
-   "art": "text",
+   "art": "erlass",
+   "erlass_stand": "Aktuelle Version in Kraft seit: 01.04.2018 (Beschlussdatum: 07.03.2018)",
    "erster_abruf": "2026-11-27",
-   "summe": "13e62d25873900e99696",
+   "summe": "0995b52f9cdd44f061fb",
+   "titel": "Verordnung über den Vollzug des Ortspolizeireglements",
    "url": "https://biel-bienne.tlex.ch/app/de/texts_of_law/5.5-1.1",
-   "zeichen": 7
+   "zeichen": 10331
   },
   "be_biel_steuer_regl": {
    "abgerufen": "2026-11-27",
-   "art": "text",
+   "art": "erlass",
+   "erlass_stand": "Aktuelle Version in Kraft seit: 01.07.2015 (Beschlussdatum: 17.12.2014)",
    "erster_abruf": "2026-11-27",
-   "summe": "13e62d25873900e99696",
+   "summe": "f242bbc28c31062fcad3",
+   "titel": "Reglement über die fakultativen Gemeindesteuern",
    "url": "https://biel-bienne.tlex.ch/app/de/texts_of_law/6.6-1",
-   "zeichen": 7
+   "zeichen": 9937
   },
   "be_biel_steuer_vo": {
    "abgerufen": "2026-11-27",
-   "art": "text",
+   "art": "erlass",
+   "erlass_stand": "Aktuelle Version in Kraft seit: 01.10.2025 (Beschlussdatum: 30.10.2024)",
    "erster_abruf": "2026-11-27",
-   "summe": "13e62d25873900e99696",
+   "summe": "b8db6daee598b57b0d6b",
+   "titel": "Verordnung über die fakultativen Gemeindesteuern",
    "url": "https://biel-bienne.tlex.ch/app/de/texts_of_law/6.6-1.1",
-   "zeichen": 7
+   "zeichen": 2112
   },
   "be_bienne_impots_ord": {
    "abgerufen": "2026-11-27",
-   "art": "text",
+   "art": "erlass",
+   "erlass_stand": "Version actuelle en vigueur depuis: 01.10.2025 (Date d'adoption: 30.10.2024)",
    "erster_abruf": "2026-11-27",
-   "summe": "13e62d25873900e99696",
+   "summe": "178df5ddb80f0731380f",
+   "titel": "Ordonnance sur les impôts communaux facultatifs",
    "url": "https://biel-bienne.tlex.ch/app/fr/texts_of_law/6.6-1.1",
-   "zeichen": 7
+   "zeichen": 2402
   },
   "be_bienne_impots_regl": {
    "abgerufen": "2026-11-27",
-   "art": "text",
+   "art": "erlass",
+   "erlass_stand": "Version actuelle en vigueur depuis: 01.07.2015 (Date d'adoption: 17.12.2014)",
    "erster_abruf": "2026-11-27",
-   "summe": "13e62d25873900e99696",
+   "summe": "d2d7fe88f1e90005257e",
+   "titel": "Règlement sur les impôts communaux facultatifs",
    "url": "https://biel-bienne.tlex.ch/app/fr/texts_of_law/6.6-1",
-   "zeichen": 7
+   "zeichen": 10309
   },
   "be_bienne_opoll": {
    "abgerufen": "2026-11-27",
-   "art": "text",
+   "art": "erlass",
+   "erlass_stand": "Version actuelle en vigueur depuis: 01.04.2018 (Date d'adoption: 07.03.2018)",
    "erster_abruf": "2026-11-27",
-   "summe": "13e62d25873900e99696",
+   "summe": "5c3952e5b6bf643d92df",
+   "titel": "Ordonnance d'exécution du Règlement de police locale",
    "url": "https://biel-bienne.tlex.ch/app/fr/texts_of_law/5.5-1.1",
-   "zeichen": 7
+   "zeichen": 10818
   },
   "be_bienne_rpoll": {
    "abgerufen": "2026-11-27",
-   "art": "text",
+   "art": "erlass",
+   "erlass_stand": "Version actuelle en vigueur depuis: 01.01.2023 (Date d'adoption: 16.11.2022)",
    "erster_abruf": "2026-11-27",
-   "summe": "13e62d25873900e99696",
+   "summe": "74960aa4b929f1f5bdd6",
+   "titel": "Règlement de police locale de la Ville de Bienne",
    "url": "https://biel-bienne.tlex.ch/app/fr/texts_of_law/5.5-1",
-   "zeichen": 7
+   "zeichen": 25886
   },
   "be_bienne_taxe": {
    "abgerufen": "2026-11-27",
    "art": "text",
    "erster_abruf": "2026-11-27",
+   "fehler": "URLError",
+   "fehler_am": "2026-11-27",
    "summe": "93a90e856dcbb7f43a4a",
    "url": "https://www.biel-bienne.ch/fr/taxe-chiens.html/724",
    "zeichen": 7339
@@ -386,11 +432,13 @@
   },
   "be_hug": {
    "abgerufen": "2026-11-27",
-   "art": "text",
+   "art": "erlass",
+   "erlass_stand": "Aktuelle Version in Kraft seit: 01.04.2021 (Beschlussdatum: 17.02.2021)",
    "erster_abruf": "2026-11-27",
-   "summe": "13e62d25873900e99696",
+   "summe": "2af7af9017ac619db35c",
+   "titel": "Hundegesetz",
    "url": "https://www.belex.sites.be.ch/app/de/texts_of_law/916.31",
-   "zeichen": 7
+   "zeichen": 9594
   },
   "be_hund_halten": {
    "abgerufen": "2026-11-27",
@@ -410,17 +458,21 @@
   },
   "be_kobv": {
    "abgerufen": "2026-11-27",
-   "art": "text",
+   "art": "erlass",
+   "erlass_stand": "Aktuelle Version in Kraft seit: 01.03.2023 (Beschlussdatum: 07.09.2022)",
    "erster_abruf": "2026-11-27",
-   "summe": "13e62d25873900e99696",
+   "summe": "796dc43fbf1d5facc63d",
+   "titel": "Kantonale Ordnungsbussenverordnung",
    "url": "https://www.belex.sites.be.ch/app/de/texts_of_law/324.111",
-   "zeichen": 7
+   "zeichen": 23178
   },
   "be_koeniz_eichholz": {
    "abgerufen": "2026-11-27",
    "art": "datei",
    "bytes": 164042,
    "erster_abruf": "2026-11-27",
+   "fehler": "URLError",
+   "fehler_am": "2026-11-27",
    "summe": "bc0e5ed009c90ca7c741",
    "url": "https://www.koeniz.ch/public/upload/assets/12189/731.802_verordnung_benutzung_liegewiese_eichholz.pdf?fp=2"
   },
@@ -429,6 +481,8 @@
    "art": "datei",
    "bytes": 931170,
    "erster_abruf": "2026-11-27",
+   "fehler": "URLError",
+   "fehler_am": "2026-11-27",
    "summe": "dfc39ce9cd749531af6d",
    "url": "https://www.koeniz.ch/public/upload/assets/16877/556.11_bestattungs_friedhofsverordnung.pdf?fp=3"
   },
@@ -436,6 +490,8 @@
    "abgerufen": "2026-11-27",
    "art": "text",
    "erster_abruf": "2026-11-27",
+   "fehler": "URLError",
+   "fehler_am": "2026-11-27",
    "summe": "d64721178055ad7fa104",
    "url": "https://www.koeniz.ch/wohnen/persoenliches/haustiere.page/261",
    "zeichen": 1316
@@ -445,6 +501,8 @@
    "art": "datei",
    "bytes": 40334,
    "erster_abruf": "2026-11-27",
+   "fehler": "URLError",
+   "fehler_am": "2026-11-27",
    "summe": "29150dbb6b165743573f",
    "url": "https://www.koeniz.ch/public/upload/assets/12177/916.31_reglement_hundetaxe.pdf?fp=2"
   },
@@ -453,6 +511,8 @@
    "art": "datei",
    "bytes": 44927,
    "erster_abruf": "2026-11-27",
+   "fehler": "URLError",
+   "fehler_am": "2026-11-27",
    "summe": "db4d306e8a32f2d0f08f",
    "url": "https://www.koeniz.ch/public/upload/assets/12113/916.311_verordnung_hundetaxe.pdf?fp=3"
   },
@@ -461,6 +521,8 @@
    "art": "datei",
    "bytes": 722158,
    "erster_abruf": "2026-11-27",
+   "fehler": "URLError",
+   "fehler_am": "2026-11-27",
    "summe": "335677ddce6ed8a9a27a",
    "url": "https://www.koeniz.ch/public/upload/assets/13298/731.801_Verordnung_Liebefeld_Park.pdf?fp=3"
   },
@@ -469,6 +531,8 @@
    "art": "datei",
    "bytes": 113263,
    "erster_abruf": "2026-11-27",
+   "fehler": "URLError",
+   "fehler_am": "2026-11-27",
    "summe": "dbc47437cf227527034b",
    "url": "https://www.koeniz.ch/public/upload/assets/12117/553.1_ortspolizeireglement.pdf?fp=2"
   },
@@ -477,6 +541,8 @@
    "art": "datei",
    "bytes": 155178,
    "erster_abruf": "2026-11-27",
+   "fehler": "URLError",
+   "fehler_am": "2026-11-27",
    "summe": "0ca54762be417fc034f1",
    "url": "https://www.koeniz.ch/public/upload/assets/13232/731.803_verordnung_schlosspark.pdf?fp=2"
   },
@@ -485,56 +551,70 @@
    "art": "datei",
    "bytes": 127001,
    "erster_abruf": "2026-11-27",
+   "fehler": "URLError",
+   "fehler_am": "2026-11-27",
    "summe": "742f2857f445b8213e57",
    "url": "https://www.koeniz.ch/public/upload/assets/17271/731601_verordnung_benutzung_schwimmbad_weiermatt.pdf?fp=3"
   },
   "be_ktsv": {
    "abgerufen": "2026-11-27",
-   "art": "text",
+   "art": "erlass",
+   "erlass_stand": "Aktuelle Version in Kraft seit: 01.08.2026 (Beschlussdatum: 20.05.2026)",
    "erster_abruf": "2026-11-27",
-   "summe": "13e62d25873900e99696",
+   "summe": "59bb1b19f0f188307953",
+   "titel": "Kantonale Tierseuchenverordnung",
    "url": "https://www.belex.sites.be.ch/app/de/texts_of_law/916.51",
-   "zeichen": 7
+   "zeichen": 31865
   },
   "be_lchiens_fr": {
    "abgerufen": "2026-11-27",
-   "art": "text",
+   "art": "erlass",
+   "erlass_stand": "Version actuelle en vigueur depuis le 01.04.2021 (Date d'adoption: 17.02.2021)",
    "erster_abruf": "2026-11-27",
-   "summe": "13e62d25873900e99696",
+   "summe": "2065e5512de40bd4049a",
+   "titel": "Loi sur les chiens",
    "url": "https://www.belex.sites.be.ch/app/fr/texts_of_law/916.31",
-   "zeichen": 7
+   "zeichen": 10539
   },
   "be_ocao_fr": {
    "abgerufen": "2026-11-27",
-   "art": "text",
+   "art": "erlass",
+   "erlass_stand": "Version actuelle en vigueur depuis le 01.03.2023 (Date d'adoption: 07.09.2022)",
    "erster_abruf": "2026-11-27",
-   "summe": "13e62d25873900e99696",
+   "summe": "17f308c8b6e9d12e10f8",
+   "titel": "Ordonnance cantonale sur les amendes d'ordre",
    "url": "https://www.belex.sites.be.ch/app/fr/texts_of_law/324.111",
-   "zeichen": 7
+   "zeichen": 24107
   },
   "be_oce_fr": {
    "abgerufen": "2026-11-27",
-   "art": "text",
+   "art": "erlass",
+   "erlass_stand": "Version actuelle en vigueur depuis le 01.08.2026 (Date d'adoption: 20.05.2026)",
    "erster_abruf": "2026-11-27",
-   "summe": "13e62d25873900e99696",
+   "summe": "16da4b37e4232ab91f86",
+   "titel": "Ordonnance cantonale sur les épizooties",
    "url": "https://www.belex.sites.be.ch/app/fr/texts_of_law/916.51",
-   "zeichen": 7
+   "zeichen": 33846
   },
   "be_opac_fr": {
    "abgerufen": "2026-11-27",
-   "art": "text",
+   "art": "erlass",
+   "erlass_stand": "Version actuelle en vigueur depuis le 01.03.2022 (Date d'adoption: 02.02.2022)",
    "erster_abruf": "2026-11-27",
-   "summe": "13e62d25873900e99696",
+   "summe": "9056c98fd3b0e3e6fee9",
+   "titel": "Ordonnance sur la protection des animaux et les chiens",
    "url": "https://www.belex.sites.be.ch/app/fr/texts_of_law/916.812",
-   "zeichen": 7
+   "zeichen": 32512
   },
   "be_opfs_fr": {
    "abgerufen": "2026-11-27",
-   "art": "text",
+   "art": "erlass",
+   "erlass_stand": "Version actuelle en vigueur depuis le 01.12.2024 (Date d'adoption: 23.10.2024)",
    "erster_abruf": "2026-11-27",
-   "summe": "13e62d25873900e99696",
+   "summe": "412fc9749f87d929c2de",
+   "titel": "Ordonnance sur la protection de la faune sauvage",
    "url": "https://www.belex.sites.be.ch/app/fr/texts_of_law/922.63",
-   "zeichen": 7
+   "zeichen": 15544
   },
   "be_ostermundigen_gebuehren": {
    "abgerufen": "2026-11-27",
@@ -546,11 +626,15 @@
   },
   "be_ostermundigen_hundehaltung": {
    "abgerufen": "2026-11-27",
+   "aenderungen": [
+    "2026-11-27"
+   ],
    "art": "text",
    "erster_abruf": "2026-11-27",
-   "summe": "f6f9fe940b8ee362d3eb",
+   "geaendert": "2026-11-27",
+   "summe": "e507f2541e4f0f4fa297",
    "url": "https://www.ostermundigen.ch/de/verwaltung/dienstleistungen/96_hundehaltung",
-   "zeichen": 3212
+   "zeichen": 3213
   },
   "be_ostermundigen_merkblatt": {
    "abgerufen": "2026-11-27",
@@ -610,11 +694,15 @@
   },
   "be_steffisburg_anmeldung": {
    "abgerufen": "2026-11-27",
+   "aenderungen": [
+    "2026-11-27"
+   ],
    "art": "text",
    "erster_abruf": "2026-11-27",
-   "summe": "dde1a148978bfcec8a77",
+   "geaendert": "2026-11-27",
+   "summe": "2e2c855e1bd6370808b0",
    "url": "https://www.steffisburg.ch/de/verwaltung/dienstleistungen/149_hund-anmelden---abmelden",
-   "zeichen": 1675
+   "zeichen": 1640
   },
   "be_steffisburg_friedhof": {
    "abgerufen": "2026-11-27",
@@ -698,11 +786,13 @@
   },
   "be_thv": {
    "abgerufen": "2026-11-27",
-   "art": "text",
+   "art": "erlass",
+   "erlass_stand": "Aktuelle Version in Kraft seit: 01.03.2022 (Beschlussdatum: 02.02.2022)",
    "erster_abruf": "2026-11-27",
-   "summe": "13e62d25873900e99696",
+   "summe": "2d8d2a20f8093935ffea",
+   "titel": "Verordnung über den Tierschutz und die Hunde",
    "url": "https://www.belex.sites.be.ch/app/de/texts_of_law/916.812",
-   "zeichen": 7
+   "zeichen": 29965
   },
   "be_wald": {
    "abgerufen": "2026-11-27",
@@ -714,11 +804,13 @@
   },
   "be_wtschv": {
    "abgerufen": "2026-11-27",
-   "art": "text",
+   "art": "erlass",
+   "erlass_stand": "Aktuelle Version in Kraft seit: 01.12.2024 (Beschlussdatum: 23.10.2024)",
    "erster_abruf": "2026-11-27",
-   "summe": "13e62d25873900e99696",
+   "summe": "d448cf9ade25004dd3f1",
+   "titel": "Verordnung über den Wildtierschutz",
    "url": "https://www.belex.sites.be.ch/app/de/texts_of_law/922.63",
-   "zeichen": 7
+   "zeichen": 13920
   },
   "be_zoo": {
    "abgerufen": "2026-11-27",
@@ -730,19 +822,27 @@
   },
   "bl_allschwil_gebuehren": {
    "abgerufen": "2026-11-27",
+   "aenderungen": [
+    "2026-11-27"
+   ],
    "art": "text",
    "erster_abruf": "2026-11-27",
-   "summe": "d65c44dc71b753cff3e6",
+   "geaendert": "2026-11-27",
+   "summe": "18a81d28d4b83317b3e3",
    "url": "https://www.allschwil.ch/de/verwaltung/dienstleistungen/detail/detail.php?i=341",
-   "zeichen": 4831
+   "zeichen": 4821
   },
   "bl_allschwil_hunde": {
    "abgerufen": "2026-11-27",
+   "aenderungen": [
+    "2026-11-27"
+   ],
    "art": "text",
    "erster_abruf": "2026-11-27",
-   "summe": "b12e3fd80df4b02c36a5",
+   "geaendert": "2026-11-27",
+   "summe": "bd94c7cc53ae4a467856",
    "url": "https://www.allschwil.ch/de/verwaltung/dienstleistungen/detail/detail.php?i=107",
-   "zeichen": 5878
+   "zeichen": 5880
   },
   "bl_allschwil_pr": {
    "abgerufen": "2026-11-27",
@@ -767,19 +867,23 @@
   },
   "bl_fuv": {
    "abgerufen": "2026-11-27",
-   "art": "text",
+   "art": "erlass",
+   "erlass_stand": "Aktuelle Version in Kraft seit: 01.10.2023 (Beschlussdatum: 23.05.2023)",
    "erster_abruf": "2026-11-27",
-   "summe": "13e62d25873900e99696",
+   "summe": "bb01ee87dd2a040c37e7",
+   "titel": "Verordnung über das Fundwesen und das Verwertungswesen",
    "url": "https://bl.clex.ch/app/de/texts_of_law/211.91",
-   "zeichen": 7
+   "zeichen": 28291
   },
   "bl_hug": {
    "abgerufen": "2026-11-27",
-   "art": "text",
+   "art": "erlass",
+   "erlass_stand": "Aktuelle Version in Kraft seit: 01.01.2008 (Beschlussdatum: 21.06.2007)",
    "erster_abruf": "2026-11-27",
-   "summe": "13e62d25873900e99696",
+   "summe": "5bdf9cd2dcf16bc12df0",
+   "titel": "Gesetz über das Halten von Hunden",
    "url": "https://bl.clex.ch/app/de/texts_of_law/342",
-   "zeichen": 7
+   "zeichen": 14632
   },
   "bl_leinenpflicht": {
    "fehler": "403",
@@ -852,11 +956,13 @@
   },
   "bl_pgh": {
    "abgerufen": "2026-11-27",
-   "art": "text",
+   "art": "erlass",
+   "erlass_stand": "Aktuelle Version in Kraft seit: 01.02.2013 (Beschlussdatum: 11.12.2012)",
    "erster_abruf": "2026-11-27",
-   "summe": "13e62d25873900e99696",
+   "summe": "e583b17b5b03172f413a",
+   "titel": "Verordnung über das Halten potenziell gefährlicher Hunde",
    "url": "https://bl.clex.ch/app/de/texts_of_law/342.12",
-   "zeichen": 7
+   "zeichen": 6111
   },
   "bl_vet_hunde": {
    "fehler": "403",
@@ -875,19 +981,23 @@
   },
   "bl_wjg": {
    "abgerufen": "2026-11-27",
-   "art": "text",
+   "art": "erlass",
+   "erlass_stand": "Aktuelle Version in Kraft seit: 01.01.2022 (Beschlussdatum: 05.11.2020)",
    "erster_abruf": "2026-11-27",
-   "summe": "13e62d25873900e99696",
+   "summe": "1a9885ad849b606d27bd",
+   "titel": "Gesetz über den Schutz der wildlebenden Säugetiere und Vögel sowie deren Lebensräume und die Jagd",
    "url": "https://bl.clex.ch/app/de/texts_of_law/520",
-   "zeichen": 7
+   "zeichen": 30788
   },
   "bl_wjv": {
    "abgerufen": "2026-11-27",
-   "art": "text",
+   "art": "erlass",
+   "erlass_stand": "Aktuelle Version in Kraft seit: 01.11.2026 (Beschlussdatum: 20.10.2026)",
    "erster_abruf": "2026-11-27",
-   "summe": "13e62d25873900e99696",
+   "summe": "07598a6bd7e680625522",
+   "titel": "Verordnung über den Schutz der wildlebenden Säugetiere und Vögel sowie deren Lebensräume und die Jagd",
    "url": "https://bl.clex.ch/app/de/texts_of_law/520.11",
-   "zeichen": 7
+   "zeichen": 33380
   },
   "bs_anmelden": {
    "abgerufen": "2026-11-27",
@@ -1129,6 +1239,14 @@
    "summe": "4db9a6770a842d629b22",
    "url": "https://fr.lexwork.naz.ch/fr/dta/725.3.pdf"
   },
+  "fr_lsvw_fundtiere": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "e254a8b209274dcd03b2",
+   "url": "https://fr.ch/de/lsvw/energie-landwirtschaft-und-umwelt/landwirtschaft-und-nutztiere/gefundeneverlorene-tiere",
+   "zeichen": 2309
+  },
   "fr_neu": {
    "abgerufen": "2026-11-27",
    "art": "text",
@@ -1160,6 +1278,14 @@
    "erster_abruf": "2026-11-27",
    "summe": "fd2c18a69f9d27f3e403",
    "url": "https://fr.lexwork.naz.ch/fr/dta/725.31.pdf"
+  },
+  "fr_saav_animaux_perdus": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "debc7a832733ce7a13a6",
+   "url": "https://www.fr.ch/vie-quotidienne/animaux-de-compagnie/animaux-perdustrouves",
+   "zeichen": 2487
   },
   "fr_steuer": {
    "abgerufen": "2026-11-27",
@@ -1379,24 +1505,30 @@
   },
   "gl_egtsch": {
    "abgerufen": "2026-11-27",
-   "art": "text",
+   "art": "erlass",
+   "erlass_stand": "Aktuelle Version in Kraft seit: 01.01.2026 (Beschlussdatum: 04.05.2025)",
    "erster_abruf": "2026-11-27",
-   "summe": "13e62d25873900e99696",
+   "summe": "50a08005d521ced6f9f4",
+   "titel": "Einführungsgesetz zum Tierschutzgesetz und zum Tierseuchengesetz",
    "url": "https://gesetze.gl.ch/app/de/texts_of_law/IV-G.3.2",
-   "zeichen": 7
+   "zeichen": 21211
   },
   "gl_egzgb": {
    "abgerufen": "2026-11-27",
-   "art": "text",
+   "art": "erlass",
+   "erlass_stand": "Aktuelle Version in Kraft seit: 01.07.2025 (Beschlussdatum: 04.05.2025)",
    "erster_abruf": "2026-11-27",
-   "summe": "13e62d25873900e99696",
+   "summe": "ee1d74fd731a86c2c5e8",
+   "titel": "Gesetz über die Einführung des Schweizerischen Zivilgesetzbuches im Kanton Glarus",
    "url": "https://gesetze.gl.ch/app/de/texts_of_law/III-B.1.1",
-   "zeichen": 7
+   "zeichen": 193471
   },
   "gl_glarus_hunde": {
    "abgerufen": "2026-11-27",
    "art": "text",
    "erster_abruf": "2026-11-27",
+   "fehler": "URLError",
+   "fehler_am": "2026-11-27",
    "summe": "1a2bcd9dad4b9d2445c2",
    "url": "https://www.glarus.ch/onlineschalter/dienstleistungen-von-abisz.html/6136/egov_service/377",
    "zeichen": 3881
@@ -1405,6 +1537,8 @@
    "abgerufen": "2026-11-27",
    "art": "text",
    "erster_abruf": "2026-11-27",
+   "fehler": "URLError",
+   "fehler_am": "2026-11-27",
    "summe": "6590e6eabc4d9ae15585",
    "url": "https://www.gl.ch/verwaltung/bau-und-umwelt/umwelt-wald-und-energie/umweltschutz-und-energie/natur-landschaftsschutz/schutzgebiet-huettenboeschen-seeflechsen.html/759",
    "zeichen": 2743
@@ -1422,16 +1556,20 @@
    "art": "datei",
    "bytes": 101141,
    "erster_abruf": "2026-11-27",
+   "fehler": "URLError",
+   "fehler_am": "2026-11-27",
    "summe": "3390eb2370dfda3c8d49",
    "url": "https://www.gl.ch/public/upload/assets/3476/VollzugLeinenpflichtEJBG.pdf?fp=1"
   },
   "gl_jagdv": {
    "abgerufen": "2026-11-27",
-   "art": "text",
+   "art": "erlass",
+   "erlass_stand": "Aktuelle Version in Kraft seit: 01.01.2026 (Beschlussdatum: 18.02.2026)",
    "erster_abruf": "2026-11-27",
-   "summe": "13e62d25873900e99696",
+   "summe": "7d365b1543f1d90c44e8",
+   "titel": "Verordnung zum kantonalen Jagdgesetz",
    "url": "https://gesetze.gl.ch/app/de/texts_of_law/VI-E.211.2",
-   "zeichen": 7
+   "zeichen": 41653
   },
   "gl_kal": {
    "abgerufen": "2026-11-27",
@@ -1451,27 +1589,33 @@
   },
   "gl_obv": {
    "abgerufen": "2026-11-27",
-   "art": "text",
+   "art": "erlass",
+   "erlass_stand": "Aktuelle Version in Kraft seit: 01.01.2021 (Beschlussdatum: 26.01.2021)",
    "erster_abruf": "2026-11-27",
-   "summe": "13e62d25873900e99696",
+   "summe": "4c46b4c6c904a4184422",
+   "titel": "Kantonale Ordnungsbussenverordnung",
    "url": "https://gesetze.gl.ch/app/de/texts_of_law/III-F.1.1",
-   "zeichen": 7
+   "zeichen": 18456
   },
   "gl_vetv": {
    "abgerufen": "2026-11-27",
-   "art": "text",
+   "art": "erlass",
+   "erlass_stand": "Aktuelle Version in Kraft seit: 01.01.2024 (Beschlussdatum: 28.11.2023)",
    "erster_abruf": "2026-11-27",
-   "summe": "13e62d25873900e99696",
+   "summe": "0a62a589e9449e4d87c2",
+   "titel": "Verordnung zum kantonalen Tierschutz- und Tierseuchengesetz",
    "url": "https://gesetze.gl.ch/app/de/texts_of_law/IX-D.633.2",
-   "zeichen": 7
+   "zeichen": 29731
   },
   "gl_wrzv": {
    "abgerufen": "2026-11-27",
-   "art": "text",
+   "art": "erlass",
+   "erlass_stand": "Aktuelle Version in Kraft seit: 01.09.2024 (Beschlussdatum: 13.08.2024)",
    "erster_abruf": "2026-11-27",
-   "summe": "13e62d25873900e99696",
+   "summe": "e11e1af440648c4b216c",
+   "titel": "Verordnung über die Wildruhezonen",
    "url": "https://gesetze.gl.ch/app/de/texts_of_law/VI-E.22.7",
-   "zeichen": 7
+   "zeichen": 6192
   },
   "gr_cani_it": {
    "abgerufen": "2026-11-27",
@@ -1531,19 +1675,23 @@
   },
   "gr_domat_ems_friedhof": {
    "abgerufen": "2026-11-27",
-   "art": "text",
+   "art": "erlass",
+   "erlass_stand": "Aktuelle Version in Kraft seit: 01.01.2011 (Beschlussdatum: 29.11.2010)",
    "erster_abruf": "2026-11-27",
-   "summe": "13e62d25873900e99696",
+   "summe": "14dd46059fec101b3241",
+   "titel": "Friedhofverordnung",
    "url": "https://domat-ems.tlex.ch/app/de/texts_of_law/8.2-1.1",
-   "zeichen": 7
+   "zeichen": 6055
   },
   "gr_domat_ems_landwirtschaft": {
    "abgerufen": "2026-11-27",
-   "art": "text",
+   "art": "erlass",
+   "erlass_stand": "Aktuelle Version in Kraft seit: 01.02.2021 (Beschlussdatum: 12.12.2020)",
    "erster_abruf": "2026-11-27",
-   "summe": "13e62d25873900e99696",
+   "summe": "de48fcef263bbe5073da",
+   "titel": "Landwirtschaftsgesetz",
    "url": "https://domat-ems.tlex.ch/app/de/texts_of_law/9.2-1",
-   "zeichen": 7
+   "zeichen": 11505
   },
   "gr_domat_ems_melden": {
    "abgerufen": "2026-11-27",
@@ -1563,27 +1711,33 @@
   },
   "gr_domat_ems_ordnungsbussen": {
    "abgerufen": "2026-11-27",
-   "art": "text",
+   "art": "erlass",
+   "erlass_stand": "Aktuelle Version in Kraft seit: 01.01.2023 (Beschlussdatum: 14.11.2022)",
    "erster_abruf": "2026-11-27",
-   "summe": "13e62d25873900e99696",
+   "summe": "e2b8274f7261aecb2955",
+   "titel": "Ordnungsbussenliste",
    "url": "https://domat-ems.tlex.ch/app/de/texts_of_law/5.1-2",
-   "zeichen": 7
+   "zeichen": 2715
   },
   "gr_domat_ems_polizeigesetz": {
    "abgerufen": "2026-11-27",
-   "art": "text",
+   "art": "erlass",
+   "erlass_stand": "Aktuelle Version in Kraft seit: 01.11.2025 (Beschlussdatum: 15.09.2025)",
    "erster_abruf": "2026-11-27",
-   "summe": "13e62d25873900e99696",
+   "summe": "c47379e5819757dc6e19",
+   "titel": "Kommunales Polizeigesetz",
    "url": "https://domat-ems.tlex.ch/app/de/texts_of_law/5.1-1",
-   "zeichen": 7
+   "zeichen": 18571
   },
   "gr_domat_ems_steuergesetz": {
    "abgerufen": "2026-11-27",
-   "art": "text",
+   "art": "erlass",
+   "erlass_stand": "Aktuelle Version in Kraft seit: 01.01.2021 (Beschlussdatum: 14.09.2020)",
    "erster_abruf": "2026-11-27",
-   "summe": "13e62d25873900e99696",
+   "summe": "df10f7854d21a9e78e2b",
+   "titel": "Kommunales Steuergesetz",
    "url": "https://domat-ems.tlex.ch/app/de/texts_of_law/6.3-1",
-   "zeichen": 7
+   "zeichen": 6881
   },
   "gr_hundewesen": {
    "abgerufen": "2026-11-27",
@@ -1795,35 +1949,43 @@
   },
   "lu_hug": {
    "abgerufen": "2026-11-27",
-   "art": "text",
+   "art": "erlass",
+   "erlass_stand": "Aktuelle Version in Kraft seit: 01.01.2025 (Beschlussdatum: 09.09.2024)",
    "erster_abruf": "2026-11-27",
-   "summe": "13e62d25873900e99696",
+   "summe": "0f97fc72a621acf3641d",
+   "titel": "Gesetz über das Halten von Hunden",
    "url": "https://srl.lu.ch/app/de/texts_of_law/848",
-   "zeichen": 7
+   "zeichen": 9319
   },
   "lu_huv": {
    "abgerufen": "2026-11-27",
-   "art": "text",
+   "art": "erlass",
+   "erlass_stand": "Aktuelle Version in Kraft seit: 01.01.2025 (Beschlussdatum: 26.11.2024)",
    "erster_abruf": "2026-11-27",
-   "summe": "13e62d25873900e99696",
+   "summe": "1d1560ed21ba97c4b0ea",
+   "titel": "Verordnung über das Halten von Hunden",
    "url": "https://srl.lu.ch/app/de/texts_of_law/849",
-   "zeichen": 7
+   "zeichen": 13902
   },
   "lu_kjsv": {
    "abgerufen": "2026-11-27",
-   "art": "text",
+   "art": "erlass",
+   "erlass_stand": "Aktuelle Version in Kraft seit: 01.04.2018 (Beschlussdatum: 23.01.2018)",
    "erster_abruf": "2026-11-27",
-   "summe": "13e62d25873900e99696",
+   "summe": "b51908870400bda2818e",
+   "titel": "Kantonale Verordnung über die Jagd und den Schutz wildlebender Säugetiere und Vögel",
    "url": "https://srl.lu.ch/app/de/texts_of_law/725a",
-   "zeichen": 7
+   "zeichen": 26532
   },
   "lu_kobv": {
    "abgerufen": "2026-11-27",
-   "art": "text",
+   "art": "erlass",
+   "erlass_stand": "Aktuelle Version in Kraft seit: 01.11.2026 (Beschlussdatum: 13.10.2026)",
    "erster_abruf": "2026-11-27",
-   "summe": "13e62d25873900e99696",
+   "summe": "396ebd5e81fbafe98539",
+   "titel": "Kantonale Ordnungsbussenverordnung",
    "url": "https://srl.lu.ch/app/de/texts_of_law/314",
-   "zeichen": 7
+   "zeichen": 9974
   },
   "lu_luzern_allmend": {
    "abgerufen": "2026-11-27",
@@ -1891,11 +2053,13 @@
   },
   "lu_tierfund": {
    "abgerufen": "2026-11-27",
-   "art": "text",
+   "art": "erlass",
+   "erlass_stand": "Aktuelle Version in Kraft seit: 01.04.2003 (Beschlussdatum: 28.03.2003)",
    "erster_abruf": "2026-11-27",
-   "summe": "13e62d25873900e99696",
+   "summe": "2f4a3a27bc5a8240110e",
+   "titel": "Verordnung über die Anzeige eines Tierfundes",
    "url": "https://srl.lu.ch/app/de/texts_of_law/219b",
-   "zeichen": 7
+   "zeichen": 882
   },
   "lu_vet_hunde": {
    "abgerufen": "2026-11-27",
@@ -2223,11 +2387,13 @@
   },
   "nw_hug": {
    "abgerufen": "2026-11-27",
-   "art": "text",
+   "art": "erlass",
+   "erlass_stand": "Aktuelle Version in Kraft seit: 01.01.2016 (Beschlussdatum: 27.05.2015)",
    "erster_abruf": "2026-11-27",
-   "summe": "13e62d25873900e99696",
+   "summe": "cd315ff80461b8894b12",
+   "titel": "Gesetz über das Halten von Hunden",
    "url": "https://gesetze.nw.ch/app/de/texts_of_law/826.3",
-   "zeichen": 7
+   "zeichen": 8494
   },
   "nw_hundekontrolle": {
    "abgerufen": "2026-11-27",
@@ -2239,43 +2405,53 @@
   },
   "nw_huv": {
    "abgerufen": "2026-11-27",
-   "art": "text",
+   "art": "erlass",
+   "erlass_stand": "Aktuelle Version in Kraft seit: 01.01.2012 (Beschlussdatum: 13.12.2011)",
    "erster_abruf": "2026-11-27",
-   "summe": "13e62d25873900e99696",
+   "summe": "f75d8d06cbb1ff6397cf",
+   "titel": "Vollzugsverordnung zum Gesetz über das Halten von Hunden",
    "url": "https://gesetze.nw.ch/app/de/texts_of_law/826.31",
-   "zeichen": 7
+   "zeichen": 4999
   },
   "nw_jsv": {
    "abgerufen": "2026-11-27",
-   "art": "text",
+   "art": "erlass",
+   "erlass_stand": "Aktuelle Version in Kraft seit: 15.05.2024 (Beschlussdatum: 07.05.2024)",
    "erster_abruf": "2026-11-27",
-   "summe": "13e62d25873900e99696",
+   "summe": "f21d1d89c331803e7b62",
+   "titel": "Vollzugsverordnung zum kantonalen Jagdgesetz",
    "url": "https://gesetze.nw.ch/app/de/texts_of_law/841.11",
-   "zeichen": 7
+   "zeichen": 48996
   },
   "nw_kobv": {
    "abgerufen": "2026-11-27",
-   "art": "text",
+   "art": "erlass",
+   "erlass_stand": "Aktuelle Version in Kraft seit: 01.09.2026 (Beschlussdatum: 18.08.2026)",
    "erster_abruf": "2026-11-27",
-   "summe": "13e62d25873900e99696",
+   "summe": "2a5f1508936ea7942540",
+   "titel": "Verordnung zum Kantonalen Ordnungsbussengesetz",
    "url": "https://gesetze.nw.ch/app/de/texts_of_law/261.31",
-   "zeichen": 7
+   "zeichen": 9616
   },
   "nw_kwag": {
    "abgerufen": "2026-11-27",
-   "art": "text",
+   "art": "erlass",
+   "erlass_stand": "Aktuelle Version in Kraft seit: 01.04.2025 (Beschlussdatum: 27.11.2024)",
    "erster_abruf": "2026-11-27",
-   "summe": "13e62d25873900e99696",
+   "summe": "3ebad63c9cfb6bf77253",
+   "titel": "Einführungsgesetz zum Bundesgesetz über den Wald",
    "url": "https://gesetze.nw.ch/app/de/texts_of_law/831.1",
-   "zeichen": 7
+   "zeichen": 42560
   },
   "nw_wrg": {
    "abgerufen": "2026-11-27",
-   "art": "text",
+   "art": "erlass",
+   "erlass_stand": "Aktuelle Version in Kraft seit: 01.01.2020 (Beschlussdatum: 10.12.2019)",
    "erster_abruf": "2026-11-27",
-   "summe": "13e62d25873900e99696",
+   "summe": "669a59f58b659ad4d319",
+   "titel": "Verordnung über die Wildruhegebiete",
    "url": "https://gesetze.nw.ch/app/de/texts_of_law/841.15",
-   "zeichen": 7
+   "zeichen": 5819
   },
   "ow_abvetg": {
    "abgerufen": "2026-11-27",
@@ -2375,43 +2551,53 @@
   },
   "sg_hug": {
    "abgerufen": "2026-11-27",
-   "art": "text",
+   "art": "erlass",
+   "erlass_stand": "Aktuelle Fassung in Vollzug seit: 01.01.2020 (Erlassdatum: 13.08.2019)",
    "erster_abruf": "2026-11-27",
-   "summe": "13e62d25873900e99696",
+   "summe": "7b71d6ac888f35f02abb",
+   "titel": "Hundegesetz",
    "url": "https://www.gesetzessammlung.sg.ch/app/de/texts_of_law/456.1",
-   "zeichen": 7
+   "zeichen": 13138
   },
   "sg_huv": {
    "abgerufen": "2026-11-27",
-   "art": "text",
+   "art": "erlass",
+   "erlass_stand": "Aktuelle Fassung in Vollzug seit: 01.01.2020 (Erlassdatum: 03.12.2019)",
    "erster_abruf": "2026-11-27",
-   "summe": "13e62d25873900e99696",
+   "summe": "87e176b6d8fec4f487cf",
+   "titel": "Hundeverordnung",
    "url": "https://www.gesetzessammlung.sg.ch/app/de/texts_of_law/456.11",
-   "zeichen": 7
+   "zeichen": 1626
   },
   "sg_jagdg": {
    "abgerufen": "2026-11-27",
-   "art": "text",
+   "art": "erlass",
+   "erlass_stand": "Aktuelle Fassung in Vollzug seit: 01.04.2024 (Erlassdatum: 15.11.2022)",
    "erster_abruf": "2026-11-27",
-   "summe": "13e62d25873900e99696",
+   "summe": "23b273b32a56ce8e999d",
+   "titel": "Gesetz über die Jagd, den Schutz der wildlebenden Säugetiere und Vögel sowie deren Lebensräume (Jagdgesetz)",
    "url": "https://www.gesetzessammlung.sg.ch/app/de/texts_of_law/853.1",
-   "zeichen": 7
+   "zeichen": 64733
   },
   "sg_jagdv": {
    "abgerufen": "2026-11-27",
-   "art": "text",
+   "art": "erlass",
+   "erlass_stand": "Aktuelle Fassung in Vollzug seit: 01.04.2024 (Erlassdatum: 24.01.2023)",
    "erster_abruf": "2026-11-27",
-   "summe": "13e62d25873900e99696",
+   "summe": "1e55ef6cec504f8634c4",
+   "titel": "Jagdverordnung",
    "url": "https://www.gesetzessammlung.sg.ch/app/de/texts_of_law/853.11",
-   "zeichen": 7
+   "zeichen": 31459
   },
   "sg_jagdvorschriften": {
    "abgerufen": "2026-11-27",
-   "art": "text",
+   "art": "erlass",
+   "erlass_stand": "Aktuelle Fassung in Vollzug seit: 01.06.2024 (Erlassdatum: 06.05.2024)",
    "erster_abruf": "2026-11-27",
-   "summe": "13e62d25873900e99696",
+   "summe": "bec90f8614f1d66d76b3",
+   "titel": "Verordnung über die Jagdvorschriften",
    "url": "https://www.gesetzessammlung.sg.ch/app/de/texts_of_law/853.111",
-   "zeichen": 7
+   "zeichen": 15265
   },
   "sg_kapo_hilfe": {
    "abgerufen": "2026-11-27",
@@ -2455,19 +2641,23 @@
   },
   "sh_hundeg": {
    "abgerufen": "2026-11-27",
-   "art": "text",
+   "art": "erlass",
+   "erlass_stand": "Aktuelle Version in Kraft seit: 01.01.2010 (Beschlussdatum: 27.10.2008)",
    "erster_abruf": "2026-11-27",
-   "summe": "13e62d25873900e99696",
+   "summe": "f41a59caa3f136a40356",
+   "titel": "Gesetz über das Halten von Hunden",
    "url": "https://rechtsbuch.sh.ch/app/de/texts_of_law/455.200",
-   "zeichen": 7
+   "zeichen": 14158
   },
   "sh_hundev": {
    "abgerufen": "2026-11-27",
-   "art": "text",
+   "art": "erlass",
+   "erlass_stand": "Aktuelle Version in Kraft seit: 01.01.2017 (Beschlussdatum: 22.11.2016)",
    "erster_abruf": "2026-11-27",
-   "summe": "13e62d25873900e99696",
+   "summe": "26bb1ae131b07b7999e6",
+   "titel": "Verordnung zum Gesetz über das Halten von Hunden",
    "url": "https://rechtsbuch.sh.ch/app/de/texts_of_law/455.201",
-   "zeichen": 7
+   "zeichen": 7205
   },
   "sh_mb_haltung": {
    "abgerufen": "2026-11-27",
@@ -2682,6 +2872,14 @@
    "url": "https://so.ch/verwaltung/volkswirtschaftsdepartement/amt-fuer-landwirtschaft/tiere-und-lebensmittel/tierschutz/hunde/bewilligungspflichtige-hunde/",
    "zeichen": 1587
   },
+  "so_vet_fundtiere": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "b874abbee7da3bbea653",
+   "url": "https://so.ch/verwaltung/volkswirtschaftsdepartement/amt-fuer-landwirtschaft/tiere-und-lebensmittel/tierschutz/gefundene-und-vermisste-tiere/",
+   "zeichen": 982
+  },
   "so_vet_leine": {
    "abgerufen": "2026-11-27",
    "art": "text",
@@ -2772,6 +2970,8 @@
    "art": "datei",
    "bytes": 256479,
    "erster_abruf": "2026-11-27",
+   "fehler": "URLError",
+   "fehler_am": "2026-11-27",
    "summe": "9952d563ef70e0315816",
    "url": "https://www.kuessnacht.ch/public/upload/assets/3796/Brosch%C3%BCre%20Hunde%20Bezirk%20Oktober%202021.pdf?fp=1"
   },
@@ -2812,6 +3012,8 @@
    "art": "datei",
    "bytes": 485572,
    "erster_abruf": "2026-11-27",
+   "fehler": "URLError",
+   "fehler_am": "2026-11-27",
    "summe": "fb4fbb1c7125f4e7e317",
    "url": "https://www.arbon.ch/public/upload/assets/3310/09.17%20Informationsbrosch%C3%BCre%20f%C3%BCr%20Hundehalterinnen%20und%20Hundehalter.pdf?fp=2"
   },
@@ -2820,6 +3022,8 @@
    "art": "datei",
    "bytes": 33578,
    "erster_abruf": "2026-11-27",
+   "fehler": "URLError",
+   "fehler_am": "2026-11-27",
    "summe": "9698b7d29a6723e536cf",
    "url": "https://www.arbon.ch/stadt/service-und-aktuelles/dienstleistungen-a-z.html/226/print/pdf/service/452"
   },
@@ -2828,6 +3032,8 @@
    "art": "datei",
    "bytes": 878945,
    "erster_abruf": "2026-11-27",
+   "fehler": "URLError",
+   "fehler_am": "2026-11-27",
    "summe": "600c8f4fa2de5570c717",
    "url": "https://www.frauenfeld.ch/public/upload/assets/45538/Informationen%20f%C3%BCr%20Hundehaltende.pdf?fp=2"
   },
@@ -2836,24 +3042,30 @@
    "art": "datei",
    "bytes": 77123,
    "erster_abruf": "2026-11-27",
+   "fehler": "URLError",
+   "fehler_am": "2026-11-27",
    "summe": "b2875d48c1ed065b0ea6",
    "url": "https://frauenfeld.ch/public/upload/assets/44181/Merkblatt%20Leinenpflicht%202024.pdf?fp=1"
   },
   "tg_hundeg": {
    "abgerufen": "2026-11-27",
-   "art": "text",
+   "art": "erlass",
+   "erlass_stand": "Aktuelle Version in Kraft seit: 01.05.2025 (Beschlussdatum: 06.11.2024)",
    "erster_abruf": "2026-11-27",
-   "summe": "13e62d25873900e99696",
+   "summe": "ce79855e72d97ec44dae",
+   "titel": "Hundegesetz",
    "url": "https://www.rechtsbuch.tg.ch/app/de/texts_of_law/641.2",
-   "zeichen": 7
+   "zeichen": 15165
   },
   "tg_hundev": {
    "abgerufen": "2026-11-27",
-   "art": "text",
+   "art": "erlass",
+   "erlass_stand": "Aktuelle Version in Kraft seit: 01.05.2025 (Beschlussdatum: 22.04.2025)",
    "erster_abruf": "2026-11-27",
-   "summe": "13e62d25873900e99696",
+   "summe": "f2c4e674fa558a6dafe8",
+   "titel": "Hundeverordnung",
    "url": "https://www.rechtsbuch.tg.ch/app/de/texts_of_law/641.21",
-   "zeichen": 7
+   "zeichen": 15425
   },
   "tg_kreuzlingen_broschuere": {
    "abgerufen": "2026-11-27",
@@ -2875,6 +3087,8 @@
    "abgerufen": "2026-11-27",
    "art": "text",
    "erster_abruf": "2026-11-27",
+   "fehler": "URLError",
+   "fehler_am": "2026-11-27",
    "summe": "a3bac2dec270aa3fb2ad",
    "url": "https://veterinaeramt.tg.ch/faq/findeltiere-tiere-vermisst-tiere-gefunden.html/16090",
    "zeichen": 812
@@ -2883,6 +3097,8 @@
    "abgerufen": "2026-11-27",
    "art": "text",
    "erster_abruf": "2026-11-27",
+   "fehler": "URLError",
+   "fehler_am": "2026-11-27",
    "summe": "effaa90708b09ec64223",
    "url": "https://veterinaeramt.tg.ch/tierschutz/haustiere/hundewesen/potentiell-gefaehrliche-hunde.html/17811",
    "zeichen": 10050
@@ -2892,16 +3108,20 @@
    "art": "datei",
    "bytes": 199069,
    "erster_abruf": "2026-11-27",
+   "fehler": "URLError",
+   "fehler_am": "2026-11-27",
    "summe": "2aa6c9345f43788d93b9",
    "url": "https://veterinaeramt.tg.ch/public/upload/assets/179676/Merkblatt%20f%C3%BCr%20Bewilligungspflichtige%20Hunderassen%20und%20einzureichende%20Unterlagen.pdf?fp=3"
   },
   "tg_vetv": {
    "abgerufen": "2026-11-27",
-   "art": "text",
+   "art": "erlass",
+   "erlass_stand": "Aktuelle Version in Kraft seit: 01.05.2025 (Beschlussdatum: 22.04.2025)",
    "erster_abruf": "2026-11-27",
-   "summe": "13e62d25873900e99696",
+   "summe": "3b2270201d2b0352ec19",
+   "titel": "Verordnung über das Veterinärwesen",
    "url": "https://www.rechtsbuch.tg.ch/app/de/texts_of_law/819.11",
-   "zeichen": 7
+   "zeichen": 45887
   },
   "ti_lcani": {
    "abgerufen": "2026-11-27",
@@ -2959,6 +3179,14 @@
    "url": "https://www4.ti.ch/dss/dsp/uvc/temi/tenuta-di-animali/cani/razze-soggette-a-restrizioni",
    "zeichen": 10196
   },
+  "ti_uvc_smarriti": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "b320f49d0220594ea6f2",
+   "url": "https://www4.ti.ch/dss/dsp/uvc/temi/tenuta-di-animali/animali-smarriti-ritrovati/introduzione",
+   "zeichen": 3451
+  },
   "ur_altdorf_steuer": {
    "abgerufen": "2026-11-27",
    "art": "text",
@@ -2972,6 +3200,8 @@
    "art": "datei",
    "bytes": 96459,
    "erster_abruf": "2026-11-27",
+   "fehler": "URLError",
+   "fehler_am": "2026-11-27",
    "summe": "50023e88d660dea671e4",
    "url": "https://www.gemeinde-andermatt.ch/public/upload/assets/882/10_Verordnung%20Hunde.pdf?fp=1"
   },
@@ -3199,6 +3429,14 @@
    "url": "https://www.vs.ch/fr/web/scav/veterinaire/vente-acquisition-chiens",
    "zeichen": 3111
   },
+  "vs_scav_animaux_perdus": {
+   "abgerufen": "2026-11-27",
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "summe": "b7947cb2d1b0f86042e4",
+   "url": "https://www.vs.ch/web/scav/veterinaire/animaux-perdus-retrouv%C3%A9s",
+   "zeichen": 3140
+  },
   "vs_scav_canines": {
    "abgerufen": "2026-11-27",
    "art": "text",
@@ -3257,17 +3495,33 @@
   },
   "vs_vet_erwerb": {
    "abgerufen": "2026-11-27",
+   "aenderungen": [
+    "2026-11-27"
+   ],
    "art": "text",
    "erster_abruf": "2026-11-27",
-   "summe": "f9b4e7afface572f7963",
+   "geaendert": "2026-11-27",
+   "summe": "1abdbbd98e5a0b770f78",
    "url": "https://www.vs.ch/de/web/scav/veterinaerwesen/verkauf-erwerb-von-hunden",
    "zeichen": 2829
   },
-  "vs_vet_hundewesen": {
+  "vs_vet_fundtiere": {
    "abgerufen": "2026-11-27",
    "art": "text",
    "erster_abruf": "2026-11-27",
-   "summe": "2f14344385a8ebe5a3f7",
+   "summe": "f6d0c8fb33ec9d44ac12",
+   "url": "https://www.vs.ch/de/web/scav/veterinaerwesen/verlorene-gefundene-tiere",
+   "zeichen": 3095
+  },
+  "vs_vet_hundewesen": {
+   "abgerufen": "2026-11-27",
+   "aenderungen": [
+    "2026-11-27"
+   ],
+   "art": "text",
+   "erster_abruf": "2026-11-27",
+   "geaendert": "2026-11-27",
+   "summe": "7bb45fff3e3074157d3a",
    "url": "https://www.vs.ch/de/web/scav/veterinaerwesen/hundewesen",
    "zeichen": 1786
   },
@@ -3649,6 +3903,8 @@
    "abgerufen": "2026-11-27",
    "art": "text",
    "erster_abruf": "2026-11-27",
+   "fehler": "URLError",
+   "fehler_am": "2026-11-27",
    "summe": "83872410f8bbad8f8cfb",
    "url": "https://www.volketswil.ch/verwaltung/abteilungen/sicherheit/dl-sicherheitsabteilung/hundeverabgabung.html/98",
    "zeichen": 517
@@ -3658,6 +3914,8 @@
    "art": "datei",
    "bytes": 2835449,
    "erster_abruf": "2026-11-27",
+   "fehler": "URLError",
+   "fehler_am": "2026-11-27",
    "summe": "f0a1bfe805488c646f5e",
    "url": "https://www.volketswil.ch/public/upload/assets/14101/50.01%20Polizeiverordnung%20der%20Politischen%20Gemeinde%20Volketswil.pdf?fp=2"
   },
@@ -3728,10 +3986,13 @@
  },
  "stand": "2026-11-27",
  "zahlen": {
-  "erreichbar": 431,
-  "erstmals": 431,
-  "geaendert": 0,
-  "nicht": 6,
-  "quellen": 437
+  "erlasse": 65,
+  "erreichbar": 409,
+  "erstmals": 6,
+  "geaendert": 6,
+  "leer": 16,
+  "mit_text": 65,
+  "nicht": 34,
+  "quellen": 443
  }
 }
