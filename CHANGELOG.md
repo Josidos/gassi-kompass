@@ -2,6 +2,13 @@
 
 Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen.
 
+## 2026-11-28, Lauf (doppelt gestartet): nichts veröffentlicht ausser einer Gegenprobe
+
+- Dieser Lauf startete am 27.11.2026 um 23:57 Uhr parallel zum Lauf von etwa 23:55 Uhr und bearbeitete dieselben vier Kantone (Tessin, Wallis, Freiburg, Solothurn) im Feld `vermisst`. Beim Push war `main` schon weiter: Der andere Lauf war veröffentlicht und in der Sitzung durchgesehen. Die eigene Fassung ist verworfen (lokal auf dem Zweig `doppel-lauf`, nicht gepusht), um keine doppelte Arbeit zu mischen.
+- Nutzen als Gegenprobe: Die französischen Seiten des SCAV (Wallis) und des SAAV (Freiburg), die die Gegenprobe der Sitzung nicht abrufen konnte, liessen sich in diesem Lauf abrufen (über den Unteragenten `web-fetch`, kurze Zitate und Zusammenfassung). Die Angaben der französischen Fassungen stimmen mit ihnen überein. Die zwei Zeilen in `backlog/luecken.md` sind ergänzt, nicht abgehakt.
+- Ebenso abgerufen: Legge sui cani des Tessins auf m3.ti.ch (`https://m3.ti.ch/CAN/RLeggi/public/index.php/raccolta-leggi/pdfatto/atto/479`). Art. 7 Abs. 3: Die Flucht eines Hundes ist sofort der Polizei zu melden. Art. 3 Abs. 3: Sind weder Eigentümer noch Halter erreichbar, kommt der Hund auf Kosten des Kantons zu einem anerkannten Tierschutzverein, findet sich der Eigentümer später, trägt er die Kosten. Beides fehlt in der veröffentlichten Fassung des Tessins und ist als Lücke vorgemerkt.
+- Nachgeprüft: nichts (Wächter meldet nichts, keine Datei älter als 120 Tage, keine toten Links). Der fällige Sonderlauf «Rechtstexte» ist dem nächsten Lauf überlassen.
+
 ## 2026-11-28, Sitzung mit Joss: Aufsicht über die Läufe auf Opus, Werkzeug-Vorschläge geprüft
 
 - Joss hat am 27. November um 23:24 Uhr erlaubt, weitere Läufe sofort zu beginnen. Ausgelöst von Claude in der Sitzung: um 23:37 Uhr (Sonderlauf Änderungswächter, fertig nach 12 Minuten) und um 23:57 Uhr (Themenfeld «Hund vermisst oder gefunden»). Jeder Lauf wird angesehen, bevor der nächste startet.
@@ -91,18 +98,4 @@ Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen
 - `GLEICH` in `build.py` enthält jetzt `datum`: Das Datum der Durchsicht muss in jeder Übersetzung dasselbe sein.
 - Arbeitsteilung, Probelauf A: Den Entwurf des Felds hat ein Unteragent auf dem Modell Sonnet in einer Kopie des Repositorys gebaut, Build und Test liefen dort fehlerfrei. Nachgearbeitet in der Sitzung: Der Schlüssel `von` stiess mit `wald.von` in `GLEICH` zusammen und brauchte eine Sonderregel im Vergleich der Übersetzungen. Er heisst jetzt `wer`, die Sonderregel ist weg. Die Regel «Datum nicht nach `geprueft`» hat der Unteragent zu Recht weggelassen: Das Prüfdatum der Datei und die Durchsicht des Amts sind zwei verschiedene Dinge. Dazu der Blick auf die Seiten bei 390 und 1280 Pixeln, Handbuch und Wissensgraph.
 - Wissensgraph: `feld_durchsicht` nennt die Kantone mit dem Feld.
-
-## 2026-11-27, Sitzung mit Joss: Kanton Basel-Landschaft am geltenden Recht geprüft
-
-- Gewählt mit dem Wissensgraphen: vier der fünf Quellen des Kantons zeigten auf LexFind.
-- Im Browser von Joss gelesen. Auf bl.clex.ch: Hundegesetz SGS 342 (Stand 1. Januar 2008, ganzer Text), Verordnung über das Halten potenziell gefährlicher Hunde SGS 342.12 (Stand 1. Februar 2013, ganzer Text), Wildtier- und Jagdgesetz SGS 520 (Stand 1. Januar 2022) und Wildtier- und Jagdverordnung SGS 520.11 (Stand 1. November 2026), Verordnung über das Fundwesen SGS 211.91 (Stand 1. Oktober 2023). Waldgesetz, Waldverordnung und kantonale Tierschutzverordnung enthalten keine weitere Regel für die Seite. Auf baselland.ch: Veterinärwesen «Hunde» und «Registrierung von Tieren», Fundbüro «Fundwesen», Amt für Wald und Wild «Leinenpflicht» mit fünf Unterseiten, Medienmitteilungen vom 27. März 2024 und vom 31. März 2025.
-- Befund: Die bisherigen Angaben stimmen mit dem geltenden Recht überein, die Fassungen auf LexFind waren die geltenden. Liste der acht Rassen, Gebühr von CHF 250, 14 Tage, 2 Tage, 4 Wochen und CHF 3 Millionen sind bestätigt.
-- Quellen, alt und neu: `bl_hug`, `bl_pgh`, `bl_wjg` und `bl_wjv` zeigten auf LexFind, jetzt auf den geltenden Text bei bl.clex.ch. Neu: `bl_leinenpflicht`, `bl_vet_hunde`, `bl_vet_registrierung`, `bl_fundwesen`, `bl_fuv`.
-- Wald-Kasten, alt «im Wald und in Waldesnähe». Neu «im Wald, an Waldrändern und auf angrenzenden Wiesen», so beschreibt es das Amt für Wald und Wild. `vergleich.wald` behält den Wortlaut des Gesetzes.
-- Karte Anmeldung, neu: AMICUS, Registrierung durch die Tierärztin oder den Tierarzt, zehn Tage für Kauf, Verkauf, Abgabe und Übernahme, Personendaten an die Gemeinde, Meldung von Schutzhunden. Wert alt «innert 14 Tagen», neu «Gemeinde und AMICUS».
-- Karte Hundesteuer, neu: alle sechs Befreiungen des Gesetzes zum Aufklappen. Karte Rassen, neu: Mindestalter 18 Jahre, Bestätigung der Vermieterschaft, Gebühr im Voraus, mindestens 4 Wochen Bearbeitungszeit, Beschlagnahmung bei Anschaffung ohne Bewilligung. Karte Kurs, neu: Sachkundenachweis für Ersthaltende beim Gesuch. Karte Unterwegs, neu: Wildtierkorridore, Abschuss auch bei ungeklärten Besitzverhältnissen, Meldestelle für Vorfälle.
-- Umzug, neu: Der Kanton kann auf die Bewilligung des Herkunftskantons abstellen, der Veterinärdienst bittet um Meldung.
-- Neu: Feld `vermisst`: Tierfundbüro des Tierschutzes beider Basel laut der Seite «Fundwesen» des Kantons, Meldung an die Gemeinde innert 2 Tagen und Pflichten der Gemeinde nach § 7 Hundegesetz.
-- Nicht gefunden: ein Bussenbetrag für die Leinenpflicht im Wald. Nicht gelesen: das Musterreglement über das Halten von Hunden (PDF).
-- Übersetzungen auf Französisch und Italienisch im selben Zug nachgeführt.
 
