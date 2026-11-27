@@ -257,8 +257,9 @@ Unklar, nur beobachten. Durchgang vom 18.11.2026: `bl_wald` (baselland.ch, Antwo
 - [ ] Kanton Basel-Stadt: Klären, ob das Reglement betreffend das Halten von Hunden (SG 365.150) noch gilt. Die Adresse unter bs.lexwork.naz.ch gab am 26.11.2026 404, LexFind zeigt nur den Stand von 2015. Bis dahin ist die Liste `bs_zonen` die Quelle für die Orte.
 - [ ] Kanton Genf: Die Seiten von ge.ch nennen die Stelle noch «SCAV». Beim Nachprüfen Namen (laut ROAC seit Oktober 2026 Direction de la sécurité sanitaire et de la santé environnementale) und Adresse für das Ausnahmegesuch abgleichen und den Zusatz «anciennement SCAV» streichen, sobald ge.ch umgestellt ist.
 
-- [ ] Kanton Aargau: Hundeverordnung (HuV, SAR 393.411) in der geltenden Fassung lesen. Der Lauf vom 2026-11-17 erreichte nur die Fassungen von 2014 und 2016. Danach ergänzen, falls unverändert: Deckungssumme der Haftpflicht für Listenhunde, Fristen für Kurs und Prüfung, halbe Taxe.
-- [ ] Kanton Aargau: Ordnungsbusse für Hundekot (CHF 100) mit einer Fassung der OBVV nach 2021 bestätigen
+- [x] 2026-11-27: Kanton Aargau, Hundeverordnung (SAR 393.411) in der Fassung vom 1. März 2024 gelesen und eingearbeitet: Deckungssumme CHF 1 Million, Fristen für Kurs und Prüfung, Stichtag der Taxe, Befreiungen. Die halbe Taxe gibt es nicht mehr (§ 21 Abs. 3 bis 5 sind seit 1. März 2024 aufgehoben).
+- [ ] Kanton Aargau: Die Seiten auf www.ag.ch (Veterinärdienst, Listenhunde, Leinenpflicht, Kantonspolizei) sind nur mit WebFetch gelesen, weil www.ag.ch im Chrome von Joss nicht freigegeben ist. Die Seite der Abteilung Wald nennt die Leine «im Wald und am Waldrand», die Jagdverordnung «bis 50 m ab Waldrand». Namen der Naturschutzzonen an der Reuss (Anhang 2 des Reussuferschutzdekrets) und weitere Schutzdekrete (Hallwilersee, Wasserschloss) auf Regeln für Hunde prüfen. Das Dekret zum Klingnauer Stausee und die Naturschutzverordnung (SAR 785.131) nennen Hunde nicht. Gebühr der Halteberechtigung belegen.
+- [x] 2026-11-27: Kanton Aargau, Ordnungsbusse für Hundekot (CHF 100) bestätigt. Die OBVV (SAR 251.213) gilt unverändert in der Fassung vom 1. Juli 2021, Anhang 1 Ziffer 2.2. Derselbe Anhang nennt CHF 100 für die Leinen- und Führpflicht der Listenhunde und in den Schutzgebieten an der Reuss.
 
 - [ ] Stadt St. Gallen: Leinenpflicht und Hundeverbote direkt mit dem Polizeireglement belegen (bisher nur über die Seite der Stadtpolizei), Bussen ergänzen
 - [ ] Kanton St. Gallen: Verordnung über die Jagdvorschriften (sGS 853.111) auf eine Leinenpflicht im Wald prüfen. Am 2026-11-17 war der Text nicht lesbar. Bis dahin sagt die Seite nur, was in Hundegesetz, Jagdgesetz und Jagdverordnung steht.
@@ -504,7 +505,7 @@ Einstiege: Seite des Veterinärdiensts, Seite der Kantonspolizei, kantonale Gese
 - [x] Zürich, 2026-11-27 (Probe im Sonderlauf, deutsch, französisch und italienisch)
 - [x] Bern (deutsch und französisch), 2026-11-27 (in der Sitzung, dazu italienisch)
 - [ ] Waadt
-- [ ] Aargau
+- [x] Aargau, 2026-11-27 (in der Sitzung, deutsch, französisch und italienisch)
 - [ ] St. Gallen
 - [ ] Genf
 - [ ] Luzern

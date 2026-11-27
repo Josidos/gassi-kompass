@@ -2,6 +2,20 @@
 
 Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen.
 
+## 2026-11-27, Sitzung mit Joss: Kanton Aargau am geltenden Recht geprüft
+
+- Im Browser von Joss in der Erlass-Sammlung des Kantons (gesetzessammlungen.ag.ch) gelesen: Hundegesetz SAR 393.400 (Fassung vom 1. Juli 2024), Hundeverordnung SAR 393.411 (1. März 2024), Jagdverordnung SAR 933.211 (30. August 2025, § 21 und 22), Ordnungsbussenverordnung SAR 251.213 mit Anhang 1 (1. Juli 2021), Reussuferschutzdekret SAR 761.520 (§ 5a), Reusstaldekret SAR 787.330 (§ 2) und Reusstalverordnung SAR 787.331 (§ 1), Tierschutz-Vollzugsverordnung SAR 393.111 (§ 3a). Mit WebFetch, weil www.ag.ch im Chrome nicht freigegeben ist: «Hunde im Kanton Aargau» und «Listenhunde» des Veterinärdiensts, «Leinenpflicht» der Abteilung Wald, «Umwelt & Tierdelikte» der Kantonspolizei. Bisher stützte sich die Seite auf LexFind und auf Fassungen von 2014 und 2016.
+- Wald, alt: «im Wald und am Waldrand». Neu: «im Wald und bis 50 m ab Waldrand» (Jagdverordnung, § 21 Abs. 1 in der geltenden Fassung). Die Seite der Abteilung Wald schreibt weiter «am Waldrand» ohne Meter.
+- Rassen, alt: Bullterrier, Pitbull Terrier, American Staffordshire Terrier, Staffordshire Bullterrier, Rottweiler. Neu nach § 11 der Hundeverordnung: dazu American Bull Terrier, American Pit Bull Terrier und American Bully, Rottweiler ausgenommen als Diensthunde von Zoll und Polizei. Neu im Text: Berechtigung nur für einen bestimmten Hund, Mindestalter 18 Jahre, Unterlagen, Erlöschen nach einem Jahr ohne Hund.
+- Neu: Leinenpflicht auf den Wegen in und entlang der Naturschutzzonen an der Reuss unterhalb von Bremgarten samt Weggebot (Reussuferschutzdekret) und auf den Wanderwegen längs der Reuss und in den Naturschutzzonen im Gebiet der Reusstalsanierung (Reusstaldekret), je CHF 100 Ordnungsbusse. Leine und Maulkorb für bissige Hunde. Ordnungsbusse von CHF 100 für Listenhunde ohne Leine.
+- Neu: Deckungssumme der Haftpflicht für Listenhunde (CHF 1 Million), Fristen für Kurs und Prüfung, Meldung ab drei Monaten mit Kopie des Hundeausweises, Stichtag 30. April und Erhebung im Mai, Liste der befreiten Hunde hinter einem Aufklapper, Bussen bis CHF 10 000 und bis CHF 2000 durch den Gemeinderat, wildernde Hunde, Lärm und Geruch.
+- Hundekot, alt: «(Stand der Verordnung: 1. Juli 2021)». Neu ohne den Zusatz: Die Ordnungsbussenverordnung gilt unverändert in dieser Fassung.
+- Feld `umzug` ergänzt: Adressänderung innert 10 Tagen, Unterlagen an den Veterinärdienst, Massnahmen anderer Kantone gelten weiter.
+- Feld `vermisst` neu: Fund der Polizei melden (Seite der Kantonspolizei), Meldestelle für Tierfunde beim Departement Gesundheit und Soziales (SAR 393.111, § 3a), Gemeinden bringen Findelhunde unter und tragen die Kosten während zwei Monaten (Hundegesetz, § 8).
+- Quellen: `ag_hug`, `ag_jagdv` und `ag_obvv` zeigen jetzt auf die Erlass-Sammlung des Kantons statt auf LexFind. `ag_vet`, alt: `ag.ch/de/themen/landwirtschaft-tiere/heim-und-nutztiere/hunde`, neu: `ag.ch/de/verwaltung/dgs/verbraucherschutz/veterinaerdienst/hunde`. Neu: `ag_huv`, `ag_rud`, `ag_rtd`, `ag_tschv`, `ag_kapo_tiere`. Zusammen 392 Quellen.
+- Übersetzungen französisch und italienisch im selben Zug nachgeführt. Themenseite «Hund vermisst oder gefunden» führt den Aargau jetzt auf.
+- Build und Test fehlerfrei: 303 Seiten gebaut, 304 Seiten in 2 Breiten geprüft. Kantonsseite deutsch bei 1280 Pixeln als Bild angesehen.
+
 ## 2026-11-27, Sitzung mit Joss: Acht Gemeinden vom 21. November an den Dokumenten gegengelesen und ergänzt
 
 - Thun, Steffisburg, Ostermundigen, Burgdorf, Schlieren, Neuhausen am Rheinfall, Domat/Ems und Gossau stammten am 21. November aus Zitaten des Abrufwerkzeugs. Jetzt sind die Seiten der Gemeinden und die Erlasse im Browser von Joss gelesen, die PDF als Text. Einzige Ausnahme: die Seite «Hunde melden» von Domat/Ems kam über WebFetch, weil www.domat-ems.ch im Chrome von Joss nicht freigegeben ist. Alle acht Dateien tragen `geprueft` 2026-11-27.

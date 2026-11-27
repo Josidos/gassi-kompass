@@ -96,33 +96,33 @@
   },
   "ag_vet": {
     "kurz": "Veterinärdienst AG",
-    "lang": "Kanton Aargau, Veterinärdienst: Hunde",
-    "url": "https://www.ag.ch/de/themen/landwirtschaft-tiere/heim-und-nutztiere/hunde"
+    "lang": "Kanton Aargau, Veterinärdienst: Hunde im Kanton Aargau (abgerufen am 27. November 2026)",
+    "url": "https://www.ag.ch/de/verwaltung/dgs/verbraucherschutz/veterinaerdienst/hunde"
   },
   "ag_listenhunde": {
     "kurz": "Veterinärdienst AG: Listenhunde",
-    "lang": "Kanton Aargau, Veterinärdienst: Listenhunde",
+    "lang": "Kanton Aargau, Veterinärdienst: Listenhunde (abgerufen am 27. November 2026)",
     "url": "https://www.ag.ch/de/themen/landwirtschaft-tiere/heim-und-nutztiere/hunde/listenhunde"
   },
   "ag_wald": {
     "kurz": "Abteilung Wald AG",
-    "lang": "Kanton Aargau, Departement Bau, Verkehr und Umwelt: Leinenpflicht im Wald",
+    "lang": "Kanton Aargau, Departement Bau, Verkehr und Umwelt, Abteilung Wald: Leinenpflicht (abgerufen am 27. November 2026)",
     "url": "https://www.ag.ch/de/verwaltung/bvu/wald/erholungsraum-wald/leinenpflicht"
   },
   "ag_jagdv": {
     "kurz": "Jagdverordnung AG",
-    "lang": "Kanton Aargau: Verordnung zum Jagdgesetz (AJSV, SAR 933.211), § 21, Stand 1. Januar 2023 (über LexFind)",
-    "url": "https://www.lexfind.ch/tolv/224323/de"
+    "lang": "Kanton Aargau: Verordnung zum Jagdgesetz (Jagdverordnung, AJSV, SAR 933.211), Fassung in Kraft seit 30. August 2025, § 21 und 22",
+    "url": "https://gesetzessammlungen.ag.ch/app/de/texts_of_law/933.211"
   },
   "ag_hug": {
     "kurz": "Hundegesetz AG",
-    "lang": "Kanton Aargau: Hundegesetz (HuG, SAR 393.400), Stand 1. Juli 2024 (über LexFind)",
-    "url": "https://www.lexfind.ch/tol/1570/de"
+    "lang": "Kanton Aargau: Hundegesetz (HuG, SAR 393.400) vom 15. März 2011, Fassung in Kraft seit 1. Juli 2024",
+    "url": "https://gesetzessammlungen.ag.ch/app/de/texts_of_law/393.400"
   },
   "ag_obvv": {
     "kurz": "Ordnungsbussen AG",
-    "lang": "Kanton Aargau: Verordnung über das Ordnungsbussenverfahren (OBVV, SAR 251.213), Anhang 1, Stand 1. Juli 2021 (über LexFind)",
-    "url": "https://www.lexfind.ch/tolv/207516/de"
+    "lang": "Kanton Aargau: Verordnung über das Ordnungsbussenverfahren (OBVV, SAR 251.213), in Kraft seit 1. Juli 2021, Anhang 1 Ziffern 2 und 5",
+    "url": "https://gesetzessammlungen.ag.ch/app/de/texts_of_law/251.213"
   },
   "sg_vet": {
     "kurz": "Veterinärwesen SG",
@@ -1123,5 +1123,30 @@
     "kurz": "Polizeireglement Gossau",
     "lang": "Stadt Gossau: Polizeireglement (18.01) vom 4. November 2008, in Kraft seit 1. März 2009, mit zwei Nachträgen (in Kraft seit 1. Juni 2012 und 1. Juli 2015), Art. 3, 9, 13 und 29",
     "url": "https://www.stadtgossau.ch/reglemente/21198"
+  },
+  "ag_huv": {
+    "kurz": "Hundeverordnung AG",
+    "lang": "Kanton Aargau: Verordnung zum Hundegesetz (Hundeverordnung, HuV, SAR 393.411) vom 7. März 2012, Fassung in Kraft seit 1. März 2024",
+    "url": "https://gesetzessammlungen.ag.ch/app/de/texts_of_law/393.411"
+  },
+  "ag_rud": {
+    "kurz": "Reussuferschutzdekret AG",
+    "lang": "Kanton Aargau: Dekret über den Schutz der Reuss und ihrer Ufer unterhalb Bremgarten (Reussuferschutzdekret, RUD, SAR 761.520), Fassung in Kraft seit 30. Juni 2018, § 5a",
+    "url": "https://gesetzessammlungen.ag.ch/app/de/texts_of_law/761.520"
+  },
+  "ag_rtd": {
+    "kurz": "Reusstaldekret AG",
+    "lang": "Kanton Aargau: Dekret über den Schutz der Landschaft und die Nutzung im Gebiet der Reusstalsanierung (Reusstaldekret, RTD, SAR 787.330), Fassung in Kraft seit 30. Juni 2018, § 2",
+    "url": "https://gesetzessammlungen.ag.ch/app/de/texts_of_law/787.330"
+  },
+  "ag_tschv": {
+    "kurz": "Tierschutz-Vollzugsverordnung AG",
+    "lang": "Kanton Aargau: Verordnung über den Vollzug der eidgenössischen Tierschutzgesetzgebung (SAR 393.111), Fassung in Kraft seit 1. Juli 2024, § 3a",
+    "url": "https://gesetzessammlungen.ag.ch/app/de/texts_of_law/393.111"
+  },
+  "ag_kapo_tiere": {
+    "kurz": "Kantonspolizei AG: Findeltiere",
+    "lang": "Kanton Aargau, Kantonspolizei: Umwelt & Tierdelikte, Abschnitt «Findeltiere» (abgerufen am 27. November 2026)",
+    "url": "https://www.ag.ch/de/themen/sicherheit/kantonspolizei/verkehr-und-umwelt/umwelt-und-tierdelikte"
   }
 }

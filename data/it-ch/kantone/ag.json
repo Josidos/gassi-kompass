@@ -2,35 +2,43 @@
   "id": "ag",
   "kurz": "AG",
   "uebersetzt_aus": "de",
-  "original": "fe0549eee7fd",
+  "original": "1ccc38aed3c6",
   "wald": {
     "saison": true,
     "von": "04-01",
     "bis": "07-31",
-    "wo": "nel bosco e al margine del bosco",
+    "wo": "nel bosco e fino a 50 m dal margine del bosco",
     "quellen": [
-      "ag_wald",
-      "ag_jagdv"
+      "ag_jagdv",
+      "ag_wald"
     ]
   },
   "leine": {
     "punkte": [
-      "nel bosco e al margine del bosco, dal 1° aprile al 31 luglio",
+      "nel bosco e fino a 50 m dal margine del bosco, dal 1° aprile al 31 luglio",
+      "sui sentieri all'interno e lungo le zone di protezione della natura sulla Reuss, a valle di Bremgarten. Lì puoi percorrere solo i sentieri esistenti (multa disciplinare di CHF 100 in ciascun caso)",
+      "sui sentieri escursionistici lungo la Reuss e nelle zone di protezione della natura nel perimetro della Reusstalsanierung (risanamento della valle della Reuss) (multa disciplinare di CHF 100)",
+      "cani mordaci negli spazi accessibili al pubblico: al guinzaglio e con la museruola",
       "ovunque il tuo Comune abbia emanato un obbligo locale di guinzaglio",
-      "cani dell'elenco negli spazi accessibili al pubblico: al guinzaglio corto e condotti singolarmente, tranne quando è la persona titolare dell'autorizzazione di detenzione a condurre il cane"
+      "cani dell'elenco negli spazi accessibili al pubblico: al guinzaglio corto e condotti singolarmente, tranne quando è la persona titolare dell'autorizzazione di detenzione a condurre il cane (multa disciplinare di CHF 100)"
     ],
     "quellen": [
       "ag_jagdv",
+      "ag_rud",
+      "ag_rtd",
+      "ag_obvv",
+      "ag_huv",
       "ag_hug"
     ]
   },
   "verbot": {
-    "einleitung": "La Hundegesetz (legge sui cani) del Cantone non indica luoghi vietati ai cani. Lascia questa scelta ai Comuni.",
+    "einleitung": "La Hundegesetz (legge sui cani) del Cantone non indica luoghi vietati ai cani. Lascia questa scelta ai Comuni. Il Gemeinderat (esecutivo comunale) emana le disposizioni e le pubblica nell'organo ufficiale di pubblicazione.",
     "punkte": [
       "zone vietate ai cani designate dal tuo Comune"
     ],
     "quellen": [
-      "ag_hug"
+      "ag_hug",
+      "ag_huv"
     ]
   },
   "karten": [
@@ -39,9 +47,10 @@
       "marke": "Nessun obbligo",
       "ton": "none",
       "wert": "solo per i cani dell'elenco",
-      "text": "La Hundegesetz (legge sui cani) non prescrive un'assicurazione di responsabilità civile per tutti i cani. Per i cani con un potenziale di pericolo elevato, la prova di un'assicurazione di responsabilità civile sufficiente è una delle condizioni dell'autorizzazione di detenzione.",
+      "text": "La Hundegesetz (legge sui cani) non prescrive un'assicurazione di responsabilità civile per tutti i cani. Per i cani dell'elenco la prova di un'assicurazione di responsabilità civile è una delle condizioni dell'autorizzazione di detenzione. La somma assicurata deve essere di almeno CHF 1 milione.",
       "quellen": [
-        "ag_hug"
+        "ag_hug",
+        "ag_huv"
       ]
     },
     {
@@ -49,9 +58,10 @@
       "marke": "Nessun obbligo",
       "ton": "none",
       "wert": "solo per i cani dell'elenco",
-      "text": "La Hundegesetz non prevede un corso obbligatorio per tutti i cani. Chi detiene un cane dell'elenco deve frequentare un corso di educazione cinofila e superare un esame.",
+      "text": "La Hundegesetz non prevede un corso obbligatorio per tutti i cani. Chi detiene un cane dell'elenco deve frequentare un corso di educazione cinofila e superare un esame. Con un cane giovane inizi il corso al più tardi sei mesi dopo l'acquisto e sostieni l'esame entro il 30° mese di vita del cane. Se alla presa a carico il cane aveva almeno 18 mesi, hai un anno per il corso e l'esame. Puoi ripetere l'esame una volta entro sei mesi.",
       "quellen": [
         "ag_hug",
+        "ag_huv",
         "ag_listenhunde"
       ]
     },
@@ -60,8 +70,10 @@
       "marke": "10 giorni",
       "ton": "note",
       "wert": "Comune e AMICUS",
-      "text": "Al più tardi 10 giorni dopo la presa a carico o l'importazione: annunci il cane al Comune e chiedi l'accesso alla banca dati AMICUS. In seguito uno studio veterinario registra il cane in AMICUS. Anche la cessione o la morte del cane vanno annunciate entro 10 giorni al Comune e ad AMICUS.",
+      "text": "Se detieni un cane di età superiore a tre mesi o se prendi a carico un cane per più di tre mesi, lo annunci entro 10 giorni al tuo Comune di domicilio e gli consegni una copia dello Hundeausweis (documento del cane). Al Comune chiedi anche l'accesso alla banca dati AMICUS, poi uno studio veterinario registra il cane. Entro 10 giorni annunci al Comune anche un cambio di detentore, la morte del cane e un cambio di nome o di indirizzo, la cessione e la morte anche ad AMICUS.",
       "quellen": [
+        "ag_hug",
+        "ag_huv",
         "ag_vet"
       ]
     },
@@ -70,8 +82,25 @@
       "marke": "annuale",
       "ton": "note",
       "wert": "CHF 120 per cane",
-      "text": "L'imposta sui cani è di CHF 120 per cane all'anno. Di questi, CHF 20 vanno al Cantone, il resto rimane al Comune. Sono esonerati tra gli altri i cani da traccia, da salvataggio, guida per ciechi e d'assistenza idonei all'impiego, come pure i cani di servizio. I cani da scuola e da terapia non sono esonerati.",
+      "text": "L'imposta sui cani è di CHF 120 all'anno per ogni cane di età superiore a tre mesi. Il Comune la riscuote in maggio, il giorno di riferimento è il 30 aprile. CHF 20 vanno al Cantone, il resto rimane al Comune. Sono esonerati determinati cani in servizio, per esempio i cani da salvataggio, guida per ciechi, d'assistenza, da traccia e di servizio. Consegni i giustificativi al Comune. I cani da scuola e da terapia non sono esonerati.",
+      "mehr": {
+        "titel": "Mostra i cani esonerati",
+        "punkte": [
+          "cani da catastrofe e da ricerca in superficie di un'associazione certificata dall'Organizzazione internazionale dei cani da salvataggio (IRO)",
+          "cani da valanga del Soccorso Alpino Svizzero",
+          "cani guida per ciechi",
+          "cani d'assistenza",
+          "cani da traccia",
+          "cani di servizio dell'esercito, dell'Ufficio federale della dogana e della sicurezza dei confini e della polizia",
+          "cani ufficiali da protezione delle greggi, sostenuti dall'Ufficio federale dell'ambiente",
+          "altri cani da conduzione delle greggi in aziende agricole che ricevono pagamenti diretti",
+          "cani impiegati per compiti pubblici o in formazione a tale scopo",
+          "cani nei rifugi per animali che devono essere ricollocati"
+        ]
+      },
       "quellen": [
+        "ag_huv",
+        "ag_hug",
         "ag_vet"
       ]
     },
@@ -80,18 +109,20 @@
       "marke": "Autorizzazione",
       "ton": "must",
       "wert": "5 tipi di razza",
-      "text": "Per i cani dell'elenco ti serve un'autorizzazione di detenzione del Cantone. Devi chiederla e ottenerla prima di acquistare il cane. Questo vale anche per gli incroci di queste razze, per esempio American Bully ed Exotic Bully. I cani dell'elenco in visita nel Cantone devono essere tenuti al guinzaglio e condotti singolarmente.",
+      "text": "Per i cani dell'elenco ti serve un'autorizzazione di detenzione del Cantone. Devi chiederla e ottenerla prima di acquistare il cane. Vale solo per te e per un cane determinato. Questo vale anche per gli incroci e per i cani il cui aspetto lascia supporre che discendano da uno di questi tipi di razza. Come incrocio tipico il Veterinärdienst (servizio veterinario) cita anche l'Exotic Bully. Devi avere almeno 18 anni e consegnare tra l'altro un estratto recente del casellario giudiziale, la prova di una precedente detenzione di cani e la prova dell'assicurazione di responsabilità civile. L'autorizzazione si estingue se entro un anno non acquisti un cane. Se non sei sicuro che il tuo cane vi rientri, rivolgiti al Veterinärdienst. I cani dell'elenco in visita nel Cantone devono essere tenuti al guinzaglio e condotti singolarmente.",
       "mehr": {
         "titel": "Mostra l'elenco completo",
         "punkte": [
           "American Staffordshire Terrier",
-          "Bullterrier",
-          "Pitbull Terrier",
-          "Rottweiler",
-          "Staffordshire Bullterrier"
+          "Bull Terrier e American Bull Terrier",
+          "Staffordshire Bull Terrier",
+          "Pit Bull Terrier, American Pit Bull Terrier e American Bully",
+          "Rottweiler, eccetto i cani di servizio della dogana e della polizia"
         ]
       },
       "quellen": [
+        "ag_hug",
+        "ag_huv",
         "ag_listenhunde"
       ]
     },
@@ -100,17 +131,17 @@
       "marke": "Regola",
       "ton": "note",
       "wert": "escrementi e sorveglianza",
-      "text": "Raccogli gli escrementi del cane e smaltiscili. Chi non lo fa paga una multa disciplinare di CHF 100 (stato dell'ordinanza: 1° luglio 2021). Il tuo cane deve essere sorvegliato e sotto controllo in ogni momento. Fuori dal periodo con obbligo di guinzaglio può camminare senza guinzaglio sulle strade forestali, sotto sorveglianza diretta.",
+      "text": "Nelle zone abitate e agricole e su strade e sentieri raccogli gli escrementi del cane e li getti in un cestino dei rifiuti. Chi non lo fa paga una multa disciplinare di CHF 100. Il tuo cane deve essere in ogni momento sotto la tua sorveglianza e il tuo controllo. Non puoi lasciarlo correre libero senza sorveglianza. Fuori dal periodo con obbligo di guinzaglio può camminare senza guinzaglio sulle strade forestali, sotto sorveglianza diretta. La società di caccia e la sorveglianza della caccia possono abbattere i cani randagi che cacciano di frodo e non si lasciano catturare, se la detentrice o il detentore ha ricevuto un ammonimento scritto o non è noto. Un cane sorpreso a sbranare selvaggina può essere abbattuto sul posto. Il tuo cane non deve molestare terzi con rumori o odori eccessivi. Le infrazioni alla Hundegesetz possono essere punite con una multa fino a CHF 10 000, il Gemeinderat può infliggere multe fino a CHF 2000.",
       "quellen": [
-        "ag_vet",
         "ag_hug",
+        "ag_huv",
         "ag_obvv",
         "ag_jagdv"
       ]
     }
   ],
   "vergleich": {
-    "wald": "dal 1.4. al 31.7., nel bosco e al margine del bosco",
+    "wald": "dal 1.4. al 31.7., nel bosco e fino a 50 m dal margine del bosco",
     "haft": "nessun obbligo generale, solo cani dell'elenco",
     "kurs": "solo per i cani dell'elenco",
     "rassen": "obbligo di autorizzazione per 5 tipi di razza",
@@ -118,8 +149,23 @@
     "anm": "entro 10 giorni, Comune e AMICUS"
   },
   "umzug": {
-    "text": "Il Cantone riconosce le autorizzazioni di detenzione, i corsi e gli esami per cani dell'elenco di altri Cantoni o dell'estero, se garantiscono un livello di protezione equivalente.",
+    "text": "Anche un nuovo indirizzo va annunciato entro 10 giorni al Comune di domicilio. Il Cantone riconosce le autorizzazioni di detenzione, i corsi e gli esami per cani dell'elenco di altri Cantoni o dell'estero, se garantiscono un livello di protezione equivalente. Li consegni al Veterinärdienst (servizio veterinario). Può chiedere altri documenti o ordinare un test caratteriale del cane. Le misure che un altro Cantone ha ordinato contro il tuo cane con decisione passata in giudicato valgono anche nel Cantone di Argovia. Le annunci al Comune.",
     "quellen": [
+      "ag_hug",
+      "ag_huv"
+    ]
+  },
+  "vermisst": {
+    "text": "Secondo la polizia cantonale, chi trova un cane nel Cantone di Argovia dovrebbe annunciarlo subito alla polizia. Può leggere il chip e così forse risalire a chi appartiene il cane. La Meldestelle für Tierfunde (servizio di notifica degli animali trovati) è gestita dal Departement Gesundheit und Soziales (dipartimento della sanità e della socialità). Può affidarla all'Aargauischer Tierschutzverein (società argoviese di protezione degli animali) o ad altri terzi.",
+    "punkte": [
+      "Cane trovato: annunciarlo alla polizia. Se non si riesce a risalire alla detentrice o al detentore, il cane viene affidato a un'organizzazione di protezione degli animali.",
+      "In più puoi registrare l'animale trovato su Internet per tutta la Svizzera. La polizia cantonale rimanda per questo alla Tiermeldezentrale Schweiz (stmz.ch) e alla Tiermeldezentrale del Tierschutz Aargau (tierschutz-aargau.ch).",
+      "Cane smarrito: per gli animali smarriti e trovati la pagina della polizia cantonale rimanda alla Tiermeldezentrale Schweiz (stmz.ch).",
+      "Il Comune cattura i cani randagi. Li ospita, come pure i cani trovati che non restano presso chi li ha trovati, e si assume i costi di alloggio e cura per due mesi. La proprietaria o il proprietario può doverli rimborsare."
+    ],
+    "quellen": [
+      "ag_kapo_tiere",
+      "ag_tschv",
       "ag_hug"
     ]
   }

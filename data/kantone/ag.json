@@ -4,35 +4,43 @@
   "kurz": "AG",
   "im": "im Kanton Aargau",
   "des": "des Kantons Aargau",
-  "geprueft": "2026-11-17",
+  "geprueft": "2026-11-27",
   "wald": {
     "saison": true,
     "von": "04-01",
     "bis": "07-31",
-    "wo": "im Wald und am Waldrand",
+    "wo": "im Wald und bis 50 m ab Waldrand",
     "quellen": [
-      "ag_wald",
-      "ag_jagdv"
+      "ag_jagdv",
+      "ag_wald"
     ]
   },
   "leine": {
     "punkte": [
-      "im Wald und am Waldrand, 1. April bis 31. Juli",
+      "im Wald und bis 50 m ab Waldrand, 1. April bis 31. Juli",
+      "auf den Wegen in und entlang der Naturschutzzonen an der Reuss unterhalb von Bremgarten. Dort darfst du nur die bestehenden Wege begehen (Ordnungsbusse je CHF 100)",
+      "auf den Wanderwegen längs der Reuss und in den Naturschutzzonen im Gebiet der Reusstalsanierung (Ordnungsbusse CHF 100)",
+      "bissige Hunde im öffentlich zugänglichen Raum: an der Leine und mit Maulkorb",
       "überall, wo deine Gemeinde eine örtliche Leinenpflicht erlassen hat",
-      "Listenhunde im öffentlich zugänglichen Raum: an kurzer Leine und einzeln geführt, ausser die Person mit der Halteberechtigung führt den Hund selbst"
+      "Listenhunde im öffentlich zugänglichen Raum: an kurzer Leine und einzeln geführt, ausser die Person mit der Halteberechtigung führt den Hund selbst (Ordnungsbusse CHF 100)"
     ],
     "quellen": [
       "ag_jagdv",
+      "ag_rud",
+      "ag_rtd",
+      "ag_obvv",
+      "ag_huv",
       "ag_hug"
     ]
   },
   "verbot": {
-    "einleitung": "Das Hundegesetz des Kantons nennt keine Orte mit Hundeverbot. Es überlässt das den Gemeinden.",
+    "einleitung": "Das Hundegesetz des Kantons nennt keine Orte mit Hundeverbot. Es überlässt das den Gemeinden. Der Gemeinderat erlässt die Bestimmungen und veröffentlicht sie im amtlichen Publikationsorgan.",
     "punkte": [
       "Hundeverbotszonen, die deine Gemeinde bezeichnet hat"
     ],
     "quellen": [
-      "ag_hug"
+      "ag_hug",
+      "ag_huv"
     ]
   },
   "karten": [
@@ -41,9 +49,10 @@
       "marke": "keine Pflicht",
       "ton": "none",
       "wert": "nur für Listenhunde",
-      "text": "Das Hundegesetz schreibt keine Haftpflichtversicherung für alle Hunde vor. Für Hunde mit erhöhtem Gefährdungspotenzial gehört der Nachweis einer ausreichenden Haftpflichtversicherung zu den Voraussetzungen der Halteberechtigung.",
+      "text": "Das Hundegesetz schreibt keine Haftpflichtversicherung für alle Hunde vor. Für Listenhunde gehört der Nachweis einer Haftpflichtversicherung zu den Voraussetzungen der Halteberechtigung. Die Deckungssumme muss mindestens CHF 1 Million betragen.",
       "quellen": [
-        "ag_hug"
+        "ag_hug",
+        "ag_huv"
       ]
     },
     {
@@ -51,9 +60,10 @@
       "marke": "keine Pflicht",
       "ton": "none",
       "wert": "nur für Listenhunde",
-      "text": "Das Hundegesetz kennt keinen Pflichtkurs für alle Hunde. Wer einen Listenhund hält, muss einen Hundeerziehungskurs besuchen und eine Prüfung bestehen.",
+      "text": "Das Hundegesetz kennt keinen Pflichtkurs für alle Hunde. Wer einen Listenhund hält, muss einen Hundeerziehungskurs besuchen und eine Prüfung bestehen. Mit einem Junghund beginnst du den Kurs spätestens sechs Monate nach der Anschaffung und legst die Prüfung bis zum 30. Lebensmonat des Hundes ab. War der Hund bei der Übernahme mindestens 18 Monate alt, hast du für Kurs und Prüfung ein Jahr Zeit. Die Prüfung kannst du innerhalb von sechs Monaten einmal wiederholen.",
       "quellen": [
         "ag_hug",
+        "ag_huv",
         "ag_listenhunde"
       ]
     },
@@ -62,8 +72,10 @@
       "marke": "10 Tage",
       "ton": "note",
       "wert": "Gemeinde und AMICUS",
-      "text": "Spätestens 10 Tage nach der Übernahme oder dem Import: Bei der Gemeinde meldest du den Hund und beantragst den Zugang zur Hundedatenbank AMICUS. Danach registriert eine Tierarztpraxis den Hund in AMICUS. Auch Abgabe oder Tod des Hundes meldest du innert 10 Tagen der Gemeinde und AMICUS.",
+      "text": "Hältst du einen Hund, der älter als drei Monate ist, oder übernimmst du einen Hund für länger als drei Monate, meldest du das innert 10 Tagen deiner Wohngemeinde und gibst ihr eine Kopie des Hundeausweises ab. Bei der Gemeinde beantragst du auch den Zugang zur Hundedatenbank AMICUS, danach registriert eine Tierarztpraxis den Hund. Halterwechsel, Tod des Hundes und eine Änderung deines Namens oder deiner Adresse meldest du ebenfalls innert 10 Tagen der Gemeinde, Abgabe und Tod auch AMICUS.",
       "quellen": [
+        "ag_hug",
+        "ag_huv",
         "ag_vet"
       ]
     },
@@ -72,8 +84,25 @@
       "marke": "jährlich",
       "ton": "note",
       "wert": "CHF 120 pro Hund",
-      "text": "Die Hundetaxe beträgt CHF 120 pro Hund und Jahr. Davon gehen CHF 20 an den Kanton, den Rest behält die Gemeinde. Befreit sind unter anderem einsatzfähige Schweiss-, Rettungs-, Blindenführ- und Assistenzhunde sowie Diensthunde. Schul- und Therapiehunde sind nicht befreit.",
+      "text": "Die Hundetaxe beträgt CHF 120 pro Jahr für jeden Hund, der älter als drei Monate ist. Die Gemeinde erhebt sie im Mai, Stichtag ist der 30. April. CHF 20 gehen an den Kanton, den Rest behält die Gemeinde. Befreit sind bestimmte Hunde im Einsatz, zum Beispiel Rettungs-, Blindenführ-, Assistenz-, Schweiss- und Diensthunde. Die Nachweise reichst du der Gemeinde ein. Schul- und Therapiehunde sind nicht befreit.",
+      "mehr": {
+        "titel": "Befreite Hunde anzeigen",
+        "punkte": [
+          "Katastrophen- und Flächensuchhunde eines Vereins, den die Internationale Rettungshunde Organisation (IRO) zertifiziert hat",
+          "Lawinenhunde der Alpinen Rettung Schweiz",
+          "Blindenführhunde",
+          "Assistenzhunde",
+          "Schweisshunde",
+          "Diensthunde von Armee, Bundesamt für Zoll und Grenzsicherheit und Polizei",
+          "offizielle Herdenschutzhunde, die das Bundesamt für Umwelt fördert",
+          "weitere Herdengebrauchshunde auf Landwirtschaftsbetrieben mit Direktzahlungen",
+          "Hunde, die für öffentliche Aufgaben eingesetzt werden oder dafür in Ausbildung sind",
+          "Hunde in Tierheimen, die neu platziert werden sollen"
+        ]
+      },
       "quellen": [
+        "ag_huv",
+        "ag_hug",
         "ag_vet"
       ]
     },
@@ -82,18 +111,20 @@
       "marke": "Bewilligung",
       "ton": "must",
       "wert": "5 Rassetypen",
-      "text": "Für Listenhunde brauchst du eine Halteberechtigung des Kantons. Du musst sie beantragen und erhalten, bevor du den Hund anschaffst. Das gilt auch für Mischlinge dieser Rassen, zum Beispiel American Bully und Exotic Bully. Listenhunde auf Besuch im Kanton müssen an die Leine und einzeln geführt werden.",
+      "text": "Für Listenhunde brauchst du eine Halteberechtigung des Kantons. Du musst sie beantragen und erhalten, bevor du den Hund anschaffst. Sie gilt nur für dich und für einen bestimmten Hund. Das gilt auch für Kreuzungen und für Hunde, deren Aussehen vermuten lässt, dass sie von einem dieser Rassetypen abstammen. Als typischen Mischling nennt der Veterinärdienst auch den Exotic Bully. Du musst mindestens 18 Jahre alt sein und unter anderem einen aktuellen Strafregisterauszug, den Nachweis einer früheren Hundehaltung und den Nachweis der Haftpflichtversicherung einreichen. Die Berechtigung erlischt, wenn du innert eines Jahres keinen Hund erwirbst. Bist du nicht sicher, ob dein Hund dazugehört, meldest du dich beim Veterinärdienst. Listenhunde auf Besuch im Kanton müssen an die Leine und einzeln geführt werden.",
       "mehr": {
         "titel": "Ganze Liste anzeigen",
         "punkte": [
           "American Staffordshire Terrier",
-          "Bullterrier",
-          "Pitbull Terrier",
-          "Rottweiler",
-          "Staffordshire Bullterrier"
+          "Bull Terrier und American Bull Terrier",
+          "Staffordshire Bull Terrier",
+          "Pit Bull Terrier, American Pit Bull Terrier und American Bully",
+          "Rottweiler, ausgenommen Diensthunde von Zoll und Polizei"
         ]
       },
       "quellen": [
+        "ag_hug",
+        "ag_huv",
         "ag_listenhunde"
       ]
     },
@@ -102,17 +133,17 @@
       "marke": "Regel",
       "ton": "note",
       "wert": "Kot und Aufsicht",
-      "text": "Hundekot aufnehmen und entsorgen. Wer das nicht tut, zahlt eine Ordnungsbusse von CHF 100 (Stand der Verordnung: 1. Juli 2021). Dein Hund muss jederzeit beaufsichtigt und unter Kontrolle sein. Ausserhalb der Leinenzeit darf er auf Waldstrassen unter direkter Aufsicht ohne Leine laufen.",
+      "text": "Hundekot nimmst du in Siedlungs- und Landwirtschaftsgebieten und auf Strassen und Wegen auf und entsorgst ihn in einem Abfallbehälter. Wer das nicht tut, zahlt eine Ordnungsbusse von CHF 100. Dein Hund muss jederzeit unter deiner Aufsicht und Kontrolle sein. Unbeaufsichtigt frei laufen lassen darfst du ihn nicht. Ausserhalb der Leinenzeit darf er auf Waldstrassen unter direkter Aufsicht ohne Leine laufen. Streunende Hunde, die wildern und sich nicht einfangen lassen, dürfen Jagdgesellschaft und Jagdaufsicht abschiessen, wenn die Halterin oder der Halter schriftlich verwarnt wurde oder nicht bekannt ist. Reisst ein Hund Wild, darf er auf der Stelle abgeschossen werden. Dein Hund darf Dritte nicht mit übermässigem Lärm oder Geruch belästigen. Verstösse gegen das Hundegesetz können mit Busse bis CHF 10 000 bestraft werden, der Gemeinderat kann Bussen bis CHF 2000 aussprechen.",
       "quellen": [
-        "ag_vet",
         "ag_hug",
+        "ag_huv",
         "ag_obvv",
         "ag_jagdv"
       ]
     }
   ],
   "vergleich": {
-    "wald": "1.4. bis 31.7., im Wald und am Waldrand",
+    "wald": "1.4. bis 31.7., im Wald und bis 50 m ab Waldrand",
     "haft": "keine allgemeine Pflicht, nur Listenhunde",
     "kurs": "nur für Listenhunde",
     "rassen": "Bewilligungspflicht für 5 Rassetypen",
@@ -120,8 +151,23 @@
     "anm": "innert 10 Tagen, Gemeinde und AMICUS"
   },
   "umzug": {
-    "text": "Halteberechtigungen, Kurse und Prüfungen für Listenhunde aus anderen Kantonen oder dem Ausland erkennt der Kanton an, wenn sie ein gleichwertiges Schutzniveau gewährleisten.",
+    "text": "Auch eine neue Adresse meldest du innert 10 Tagen der Wohngemeinde. Halteberechtigungen, Kurse und Prüfungen für Listenhunde aus anderen Kantonen oder dem Ausland erkennt der Kanton an, wenn sie ein gleichwertiges Schutzniveau gewährleisten. Du reichst sie dem Veterinärdienst ein. Er kann weitere Unterlagen verlangen oder eine Wesensüberprüfung des Hundes anordnen. Massnahmen, die ein anderer Kanton rechtskräftig gegen deinen Hund verfügt hat, gelten auch im Kanton Aargau. Du meldest sie der Gemeinde.",
     "quellen": [
+      "ag_hug",
+      "ag_huv"
+    ]
+  },
+  "vermisst": {
+    "text": "Wer im Kanton Aargau einen Hund findet, soll das laut der Kantonspolizei unverzüglich der Polizei melden. Sie kann den Chip auslesen und den Hund so vielleicht wieder zuordnen. Die Meldestelle für Tierfunde betreibt das Departement Gesundheit und Soziales. Es kann sie dem Aargauischen Tierschutzverein oder anderen Dritten übertragen.",
+    "punkte": [
+      "Hund gefunden: der Polizei melden. Lässt sich die Halterin oder der Halter nicht ermitteln, kommt der Hund in die Obhut einer Tierschutzorganisation.",
+      "Zusätzlich kannst du das Findeltier im Internet für die ganze Schweiz registrieren. Die Kantonspolizei verlinkt dafür die Tiermeldezentrale Schweiz (stmz.ch) und die Tiermeldezentrale des Tierschutzes Aargau (tierschutz-aargau.ch).",
+      "Hund vermisst: Die Seite der Kantonspolizei verweist für vermisste und aufgefundene Tiere auf die Tiermeldezentrale Schweiz (stmz.ch).",
+      "Streunende Hunde fängt die Gemeinde ein. Sie bringt sie und Findelhunde unter, wenn der Hund nicht bei der Finderin oder dem Finder bleibt, und trägt die Kosten der Unterbringung und Pflege während zwei Monaten. Die Eigentümerin oder der Eigentümer kann dafür aufkommen müssen."
+    ],
+    "quellen": [
+      "ag_kapo_tiere",
+      "ag_tschv",
       "ag_hug"
     ]
   }
