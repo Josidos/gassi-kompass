@@ -447,6 +447,7 @@ Aus dem Vergleich mit anderen Seiten. Erst angehen, wenn alle Kantone erfasst si
 - Suchdaten aus der Google Search Console auswerten: macht Claude in einer Sitzung über den Browser von Joss. Erste Auslesung am 26.11.2026, nächste am 15.12.2026.
 - Bing Webmaster Tools: Die Seite dort eintragen (Import aus der Search Console), damit auch die Suchdaten von Bing sichtbar werden. Braucht ein Microsoft-Konto von Joss. Nicht dringend: IndexNow meldet die Seiten schon an Bing.
 - Postfach kontakt@gassi-kompass.ch lesen und beantworten: macht Joss, oder Claude in einer Sitzung über den Browser von Joss. Der Lauf hat keinen Zugriff darauf.
+- Auftrag des täglichen Laufs (geplante Aufgabe im Konto von Joss): Er nennt für den Zustand «alle Kantone und 60 Gemeinden erfasst» noch «nur mittwochs und samstags» und stellt seinen Takt über das Handbuch. Das Handbuch nennt seit dem 27.11.2026 die Ausnahme: täglich, solange ein Sonderlauf fällig oder ein Themenfeld offen ist. Der Lauf vom 27.11.2026 hat gearbeitet und den Widerspruch gemeldet. Den Auftrag passt Claude nur in einer Sitzung an und nur auf das Wort von Joss («Takt täglich»). Bis dahin kann ein Lauf an einem Montag, Dienstag, Donnerstag, Freitag oder Sonntag auch sofort enden.
 
 ## 8. Später, nur nach Freigabe von Joss
 

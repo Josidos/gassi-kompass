@@ -15,6 +15,8 @@ Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen
 - Beobachtung: Mehrere Gemeinde-Websites desselben Anbieters (Adressen mit `/public/upload/assets/` oder `/_doc/`) antworteten heute Vormittag zeitweise mit «Diese Website ist momentan nicht verfügbar» oder gar nicht. Das erklärt die vielen Zeitüberschreitungen der Link-Prüfung.
 - Link-Prüfung nach dem Push von 09:30 Uhr: 330 Quellen, 310 in Ordnung, 1 tot (`be_oce_fr`), kein Verdacht mehr (`ur_silenen_hhv` ist wieder in Ordnung), 19 unklar, davon 17 Zeitüberschreitungen. `zh_hundeg` ist in Ordnung.
 - Übersetzungen nachgeführt: 4 Dateien. Gebaut und getestet.
+- Link-Prüfung nach dem Push von 10:55 Uhr: 333 Quellen, 329 in Ordnung, 1 tot (`be_oce_fr`), kein Verdacht, 3 unklar: `bl_wald` (403), `sz_einsiedeln_formular` (503), `lu_emmen_anmeldung` (Zeitüberschreitung). Die 17 Zeitüberschreitungen des Vormittags sind weg, sie zählen nicht als Serie. Die drei neuen Quellen zu Muttenz und Schaffhausen sind in Ordnung.
+- Der Tab im Browser von Joss ist geschlossen.
 
 ## 2026-11-27, Sitzung mit Joss: Kanton Zürich mit Rahmen der Hundeabgabe, Befreiungen und Meldepflichten
 
