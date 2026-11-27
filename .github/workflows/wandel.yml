@@ -3,6 +3,7 @@
 #   gh api -X POST repos/Josidos/gassi-kompass/actions/workflows/wandel.yml/dispatches -f ref=main
 # Der Stand liegt auf dem Zweig `wandel` in `wandel.json`. Den Zweig `main` fasst die Action nie an.
 # Der Lauf liest den Stand mit: python3 tools/wandel.py --faellig
+# Texte der Erlasse (texte/<Schlüssel>.txt) liest er mit: python3 tools/wandel.py --text <Schlüssel>
 # Die Action wird nie rot.
 name: Quellen auf Änderungen prüfen
 
@@ -44,5 +45,6 @@ jobs:
         run: |
           cd stand
           git add wandel.json
+          if [ -d texte ]; then git add -A texte; fi
           git commit -qm "Änderungswächter: Stand vom $(date -u +%F)" || exit 0
           git push -q origin HEAD:wandel
