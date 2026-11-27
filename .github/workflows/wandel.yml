@@ -1,0 +1,48 @@
+# Änderungswächter: ruft jede Quelle ab und merkt sich eine Prüfsumme, siehe tools/wandel.py.
+# Läuft jeden Montag um 03:41 UTC von selbst und auf Befehl:
+#   gh api -X POST repos/Josidos/gassi-kompass/actions/workflows/wandel.yml/dispatches -f ref=main
+# Der Stand liegt auf dem Zweig `wandel` in `wandel.json`. Den Zweig `main` fasst die Action nie an.
+# Der Lauf liest den Stand mit: python3 tools/wandel.py --faellig
+# Die Action wird nie rot.
+name: Quellen auf Änderungen prüfen
+
+on:
+  schedule:
+    - cron: '41 3 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: wandel
+  cancel-in-progress: false
+
+jobs:
+  wandel:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Stand vom Zweig wandel holen
+        continue-on-error: true
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git fetch -q origin wandel; then
+            git worktree add -q stand FETCH_HEAD
+          else
+            git worktree add -q --detach stand HEAD
+            git -C stand checkout -q --orphan wandel-neu
+            git -C stand rm -rqf .
+          fi
+      - name: Quellen abrufen
+        continue-on-error: true
+        run: python3 tools/wandel.py stand/wandel.json
+      - name: Stand auf den Zweig wandel legen
+        continue-on-error: true
+        run: |
+          cd stand
+          git add wandel.json
+          git commit -qm "Änderungswächter: Stand vom $(date -u +%F)" || exit 0
+          git push -q origin HEAD:wandel

@@ -80,6 +80,11 @@ E | wissen_link_pruefung_woechentlich | rationale_for | claude_link_prüfung
 E | wissen_link_pruefung_woechentlich | enforced_by | github_workflows_quellen
 E | wissen_link_pruefung_woechentlich | conceptually_related_to | backlog_tote_links
 
+K | wissen_aenderungswaechter | Der Änderungswächter ruft jede Quelle wöchentlich ab und nennt Originalfassungen, deren Quelle sich nach der Prüfung geändert hat | CLAUDE.md
+E | wissen_aenderungswaechter | rationale_for | claude_änderungswächter
+E | wissen_aenderungswaechter | enforced_by | tools_wandel
+E | wissen_aenderungswaechter | conceptually_related_to | wissen_link_pruefung_woechentlich
+
 K | wissen_graph_ist_wegweiser | Der Wissensgraph ist ein Wegweiser und keine Quelle: Für Regeln gelten die amtlichen Quellen, für den Stand die Dateien | CLAUDE.md
 E | wissen_graph_ist_wegweiser | conceptually_related_to | wissen_nur_amtliche_quellen
 

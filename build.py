@@ -1197,6 +1197,9 @@ def pruefe(quellen, welt, bund, orte):
                 fehler.append(f"Quelle '{key}' ohne '{feld}'")
         if not str(q.get("url", "")).startswith("https://"):
             fehler.append(f"Quelle '{key}': URL muss mit https:// beginnen")
+        if "uebersicht" in q and not str(q["uebersicht"]).startswith("https://"):
+            # Seite, die das Dokument verlinkt. Liest nur der Änderungswächter (tools/wandel.py).
+            fehler.append(f"Quelle '{key}': 'uebersicht' muss eine Adresse mit https:// sein")
 
     for lang in SPRACHEN:
         kantone, gemeinden = welt[lang]["k"], welt[lang]["g"]

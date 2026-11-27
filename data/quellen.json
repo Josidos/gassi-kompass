@@ -942,12 +942,14 @@
   "sh_stadt_hundesteuer": {
     "kurz": "Stadt Schaffhausen: Stadtratsbeschluss Hundesteuer",
     "lang": "Stadt Schaffhausen: Stadtratsbeschluss über die Hundesteuer vom 8. Mai 2018, RSS 353.2 (gültig seit 1.1.2018), Eintrag der Rechtssammlung mit dem Beschluss als PDF",
-    "url": "https://www.stadt-schaffhausen.ch/gk-finanzen/info/1547606"
+    "url": "https://www.stadt-schaffhausen.ch/gk-finanzen/info/1547606",
+    "uebersicht": "https://www.stadt-schaffhausen.ch/gk-finanzen/kapitel/3148"
   },
   "ne_ville_taxes": {
     "kurz": "Ville de Neuchâtel: taxes et émoluments",
     "lang": "Ville de Neuchâtel: règlement d'exécution concernant la perception de divers taxes et émoluments communaux du 3 juin 2026 (410.1), art. 52",
-    "url": "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/410.1_CC_Reglement_Taxes_et_emoluments_Etat_au_260826.pdf"
+    "url": "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/410.1_CC_Reglement_Taxes_et_emoluments_Etat_au_260826.pdf",
+    "uebersicht": "https://www.neuchatelville.ch/votre-commune/reglementation"
   },
   "ne_ville_avoir": {
     "kurz": "Ville de Neuchâtel: avoir un chien",
@@ -957,7 +959,8 @@
   "zh_hundeg": {
     "kurz": "Hundegesetz ZH",
     "lang": "Kanton Zürich: Hundegesetz (HuG) vom 14. April 2008, LS 554.5, Fassung mit Nachtrag 129 (Stand 1. Juli 2025)",
-    "url": "https://www.zh.ch/de/politik-staat/gesetze-beschluesse/gesetzessammlung/zhlex-ls/erlass-554_5-2008_04_14-2010_01_01-129.html"
+    "url": "https://www.zh.ch/de/politik-staat/gesetze-beschluesse/gesetzessammlung/zhlex-ls/erlass-554_5-2008_04_14-2010_01_01-129.html",
+    "uebersicht": "https://zhlex.zh.ch/Erlass.html/?Open=&Ordnr=554.5"
   },
   "bl_muttenz_gebuehren": {
     "kurz": "Muttenz: Gebührenordnung Hunde",

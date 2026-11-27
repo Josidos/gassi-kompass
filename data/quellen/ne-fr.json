@@ -32,7 +32,8 @@
   "ne_ville_police": {
     "kurz": "Ville de Neuchâtel: règlement de police",
     "lang": "Ville de Neuchâtel: règlement de police du 11 mai 2026 (200), sanctionné par le Conseil d'État le 21 octobre 2026",
-    "url": "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/200_CG_Reglement_de_police_110526.pdf"
+    "url": "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/200_CG_Reglement_de_police_110526.pdf",
+    "uebersicht": "https://www.neuchatelville.ch/votre-commune/reglementation"
   },
   "ne_ville_arrete": {
     "kurz": "Ville de Neuchâtel: arrêté sur l'accès des chiens",
