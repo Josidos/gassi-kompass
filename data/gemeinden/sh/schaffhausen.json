@@ -10,6 +10,14 @@
   "einleitung": "In der Stadt Schaffhausen gelten die Regeln des Kantons Schaffhausen. Die Stadt schreibt zusätzlich die Leine in öffentlichen Anlagen vor und lässt Hunde auf ihren Friedhöfen nur mit Bewilligung zu.",
   "karten": [
     {
+      "titel": "Hundesteuer",
+      "wert": "CHF 160 für den ersten Hund",
+      "text": "Die Stadt erhebt pro Jahr CHF 160 für den ersten Hund und CHF 200 für jeden weiteren Hund. Die Abgabe an den Kanton ist darin enthalten. Züchterinnen und Züchter zahlen pauschal CHF 790. Stirbt dein Hund oder gibst du ihn weg, kannst du schriftlich einen Erlass verlangen: Im Januar und Februar erlässt die Stadt die ganze Steuer, von März bis Juni erstattet sie die Hälfte, ab Juli nichts mehr. Dasselbe gilt, wenn du aus dem Kanton wegziehst. Ziehst du in eine andere Schaffhauser Gemeinde, gibt es keine Rückerstattung, die Steuer ist am neuen Wohnort aber nicht noch einmal geschuldet. Stand des Stadtratsbeschlusses: 8. Mai 2018, gültig seit 1. Januar 2018.",
+      "quellen": [
+        "sh_stadt_hundesteuer"
+      ]
+    },
+    {
       "titel": "Leine",
       "wert": "in öffentlichen Anlagen",
       "text": "In öffentlichen Anlagen der Stadt sind Hunde an der Leine zu führen. So steht es in Artikel 30 der Polizeiverordnung. Hunde sind zudem so zu halten, dass sie öffentliche und private Wege, Anlagen und Plätze nicht verunreinigen. Stand der Polizeiverordnung: 1. Januar 2016.",

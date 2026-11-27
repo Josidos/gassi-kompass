@@ -3,13 +3,21 @@
   "kanton": "sh",
   "bfs": 2939,
   "uebersetzt_aus": "de",
-  "original": "fc366ec1a9dc",
+  "original": "1f673ad4aee5",
   "name": "Ville de Schaffhouse",
   "ort": "Schaffhouse",
   "in_ort": "à Schaffhouse",
   "hinweis_heute": "En ville de Schaffhouse, votre chien doit être tenu en laisse toute l'année dans les installations publiques.",
   "einleitung": "En ville de Schaffhouse s'appliquent les règles du canton de Schaffhouse. La Ville impose en plus la laisse dans les installations publiques et n'admet les chiens dans ses cimetières qu'avec une autorisation.",
   "karten": [
+    {
+      "titel": "Impôt sur les chiens",
+      "wert": "CHF 160 pour le premier chien",
+      "text": "La Ville perçoit par an CHF 160 pour le premier chien et CHF 200 pour chaque chien supplémentaire. La taxe due au canton y est comprise. Les éleveuses et éleveurs paient un forfait de CHF 790. Si votre chien meurt ou si vous le cédez, vous pouvez demander par écrit une remise: en janvier et en février, la Ville remet la totalité de l'impôt, de mars à juin elle en rembourse la moitié, dès juillet plus rien. Il en va de même si vous quittez le canton. Si vous déménagez dans une autre commune schaffhousoise, il n'y a pas de remboursement, mais l'impôt n'est pas dû une seconde fois au nouveau domicile. État du Stadtratsbeschluss (décision du Conseil de ville): 8 mai 2018, valable depuis le 1er janvier 2018.",
+      "quellen": [
+        "sh_stadt_hundesteuer"
+      ]
+    },
     {
       "titel": "Laisse",
       "wert": "dans les installations publiques",

@@ -3,44 +3,56 @@
   "kanton": "ne",
   "bfs": 6458,
   "uebersetzt_aus": "fr",
-  "original": "5925836c310f",
+  "original": "0d7a7d5c58fe",
   "name": "Città di Neuchâtel",
   "ort": "Neuchâtel",
   "in_ort": "a Neuchâtel",
-  "hinweis_heute": "Nella città di Neuchâtel il guinzaglio è obbligatorio tutto l'anno nelle zone pedonali, sui viali delle Jeunes-Rives e nei giardini pubblici.",
-  "einleitung": "Il pieghevole «Mon chien en ville» della Città riassume le regole locali. Stato del pieghevole: 2022.",
+  "hinweis_heute": "Nella città di Neuchâtel il guinzaglio è obbligatorio tutto l'anno in tutte le zone pedonali, nei parchi e nei giardini pubblici.",
+  "einleitung": "Le regole locali si trovano nel règlement de police (regolamento di polizia) dell'11 maggio 2026, in vigore dalla sua approvazione da parte del Conseil d'État (Consiglio di Stato) il 21 ottobre 2026. Il pieghevole «Mon chien en ville» della Città è più vecchio (stato: 2022).",
   "karten": [
     {
+      "titel": "Imposta sui cani",
+      "wert": "CHF 120 per cane e per anno",
+      "text": "Secondo il règlement d'exécution (regolamento d'esecuzione) del 3 giugno 2026, la Città riscuote una tassa annua di CHF 120 per cane. Le esenzioni sono quelle della loi cantonale sur les chiens (legge cantonale sui cani). La tassa è dovuta senza riduzione anche per i cani da guardia delle abitazioni isolate.",
+      "quellen": [
+        "ne_ville_taxes"
+      ]
+    },
+    {
       "titel": "Guinzaglio",
-      "wert": "zone pedonali, Jeunes-Rives, giardini pubblici",
-      "text": "Il guinzaglio è obbligatorio nelle zone pedonali, sui viali delle Jeunes-Rives e nei giardini pubblici. Nel bosco è obbligatorio dal 15 aprile al 30 giugno. I cani mordaci devono essere tenuti al guinzaglio e portare la museruola. Stato del pieghevole: 2022. Stato del règlement de police (regolamento di polizia): 2015.",
+      "wert": "zone pedonali, parchi, giardini pubblici",
+      "text": "Il guinzaglio è obbligatorio in tutte le zone pedonali, nei parchi e nei giardini pubblici. Altrove devi poter controllare il tuo cane in ogni momento con la voce o con il gesto. Altrimenti va tenuto al guinzaglio. Nel bosco il guinzaglio è obbligatorio dal 15 aprile al 30 giugno. Il Conseil communal (Municipio) definisce aree di svago e di balneazione in cui i cani sono ammessi. Il pieghevole della Città le elenca. Stato del pieghevole: 2022.",
+      "quellen": [
+        "ne_ville_chien",
+        "ne_ville_police",
+        "ne_ville_avoir"
+      ]
+    },
+    {
+      "titel": "Accesso vietato",
+      "wert": "campi sportivi e parchi giochi, cortili delle scuole, spiagge di giorno",
+      "text": "I cani non hanno accesso ai campi sportivi, ai parchi giochi, ai cortili delle scuole e alle aiuole fiorite. Da aprile a settembre l'accesso è vietato dalle 9 alle 22 su sei spiagge: Favarge, Nid-du-Crô, Jeunes-Rives, quai Ostervald, quai Max-Petitpierre (Champ-Bougin) e Serrières. Fanno eccezione le zone di balneazione per cani definite dal Conseil communal. Il pieghevole della Città, più vecchio, cita inoltre le superfici a prato e un periodo più lungo per le spiagge: lì il divieto è sospeso solo dal 15 ottobre al 15 marzo. Segui la segnaletica sul posto. Stato del pieghevole: 2022.",
       "quellen": [
         "ne_ville_chien",
         "ne_ville_police"
       ]
     },
     {
-      "titel": "Accesso vietato",
-      "wert": "campi sportivi e parchi giochi, cortili delle scuole, spiagge di giorno",
-      "text": "I cani non hanno accesso ai campi sportivi, ai parchi giochi, ai cortili delle scuole, alle superfici a prato e alle aiuole fiorite. Su diverse spiagge balneari l'accesso è vietato dalle 9 alle 22: Favarge, a ovest del Nid-du-Crô, Jeunes-Rives, quai Ostervald, quai Max-Petitpierre, spiaggia e piscina di Serrières. Questo divieto è sospeso dal 15 ottobre al 15 marzo. Stato del pieghevole: 2022.",
-      "quellen": [
-        "ne_ville_chien"
-      ]
-    },
-    {
       "titel": "Notifica",
       "wert": "all'Office de l'accueil et des quartiers",
-      "text": "Annunci il tuo cane all'Office de l'accueil et des quartiers (ufficio dell'accoglienza e dei quartieri) per ottenere il tuo numero Amicus. Lì annunci anche i cambiamenti: nuovo indirizzo, morte o donazione del cane. La Città invia poi ogni anno la fattura della tassa. Stato del pieghevole: 2022.",
+      "text": "Annunci il tuo cane a uno sportello dell'Office de l'accueil et des quartiers (ufficio dell'accoglienza e dei quartieri) per ottenere il tuo numero Amicus. Ogni cambiamento va annunciato a questo ufficio e nella banca dati Amicus: nuovo indirizzo, cane morto, ceduto o scomparso. La Città invia poi ogni anno la fattura della tassa. Stato del pieghevole: 2022.",
       "quellen": [
-        "ne_ville_chien"
+        "ne_ville_chien",
+        "ne_ville_avoir"
       ]
     },
     {
       "titel": "Multe",
-      "wert": "fino a CHF 5000",
-      "text": "Le infrazioni al règlement de police sono punite con una multa fino a CHF 5000. Il regolamento vieta di lasciar vagare i cani e ti obbliga a impedire che il tuo cane faccia i suoi bisogni sulla via pubblica, in particolare sui percorsi pedonali, sulle passeggiate, nei parchi pubblici e nelle aree gioco. In caso contrario pulisci tu il posto. Un cane vagante viene catturato e messo in custodia (fourrière). Stato del regolamento: 2015.",
+      "wert": "fino a CHF 10 000",
+      "text": "Le infrazioni al règlement de police sono punite con una multa fino a CHF 10 000, fatte salve disposizioni più severe del diritto federale o cantonale. Il regolamento vieta di lasciare i cani vagare, braccare, inseguire o cacciare altri animali. Devi impedire che il tuo cane faccia i suoi bisogni sulla via pubblica, in particolare sui percorsi pedonali, sulle passeggiate, nei parchi pubblici e nelle aree gioco per bambini. In caso contrario pulisci tu il posto. Un cane lasciato vagare viene catturato e portato in un rifugio. Per questo trasporto la Città fattura CHF 120 all'ora e per agente.",
       "quellen": [
-        "ne_ville_police"
+        "ne_ville_police",
+        "ne_ville_taxes"
       ]
     }
   ]

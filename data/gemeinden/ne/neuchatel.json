@@ -3,44 +3,56 @@
   "kanton": "ne",
   "bfs": 6458,
   "uebersetzt_aus": "fr",
-  "original": "5925836c310f",
+  "original": "0d7a7d5c58fe",
   "name": "Stadt Neuenburg",
   "ort": "Neuenburg",
   "in_ort": "in der Stadt Neuenburg",
-  "hinweis_heute": "In der Stadt Neuenburg gilt das ganze Jahr Leinenpflicht in den Fussgängerzonen, auf den Alleen der Jeunes-Rives und in den öffentlichen Gärten.",
-  "einleitung": "Das Faltblatt «Mon chien en ville» der Stadt fasst die lokalen Regeln zusammen. Stand des Faltblatts: 2022.",
+  "hinweis_heute": "In der Stadt Neuenburg gilt das ganze Jahr Leinenpflicht in allen Fussgängerzonen, in den Parks und in den öffentlichen Gärten.",
+  "einleitung": "Die lokalen Regeln stehen im règlement de police (Polizeireglement) vom 11. Mai 2026, in Kraft seit der Genehmigung durch den Conseil d'État (Staatsrat) am 21. Oktober 2026. Das Faltblatt «Mon chien en ville» der Stadt ist älter (Stand: 2022).",
   "karten": [
     {
+      "titel": "Hundetaxe",
+      "wert": "CHF 120 pro Hund und Jahr",
+      "text": "Nach dem règlement d'exécution (Ausführungsreglement) vom 3. Juni 2026 erhebt die Stadt eine jährliche Taxe von CHF 120 pro Hund. Die Befreiungen richten sich nach der loi cantonale sur les chiens (kantonales Hundegesetz). Die Taxe ist ohne Ermässigung auch für Wachhunde abgelegener Häuser geschuldet.",
+      "quellen": [
+        "ne_ville_taxes"
+      ]
+    },
+    {
       "titel": "Leine",
-      "wert": "Fussgängerzonen, Jeunes-Rives, öffentliche Gärten",
-      "text": "Leinenpflicht gilt in den Fussgängerzonen, auf den Alleen der Jeunes-Rives und in den öffentlichen Gärten. Im Wald gilt sie vom 15. April bis 30. Juni. Bissige Hunde müssen an der Leine geführt werden und einen Maulkorb tragen. Stand des Faltblatts: 2022. Stand des Polizeireglements (règlement de police): 2015.",
+      "wert": "Fussgängerzonen, Parks, öffentliche Gärten",
+      "text": "Leinenpflicht gilt in allen Fussgängerzonen, in den Parks und in den öffentlichen Gärten. Sonst musst du deinen Hund jederzeit mit der Stimme oder mit Zeichen kontrollieren können. Wenn nicht, gehört er an die Leine. Im Wald gilt die Leinenpflicht vom 15. April bis 30. Juni. Der Conseil communal (Gemeinderat) legt Freilaufzonen und Badezonen fest, in denen Hunde zugelassen sind. Das Faltblatt der Stadt führt sie auf. Stand des Faltblatts: 2022.",
+      "quellen": [
+        "ne_ville_chien",
+        "ne_ville_police",
+        "ne_ville_avoir"
+      ]
+    },
+    {
+      "titel": "Kein Zutritt",
+      "wert": "Sport- und Spielplätze, Schulhöfe, Strände tagsüber",
+      "text": "Keinen Zutritt haben Hunde zu Sportplätzen, Spielplätzen, Schulhöfen und Blumenbeeten. Von April bis September ist der Zutritt von 9 bis 22 Uhr an sechs Stränden verboten: Favarge, Nid-du-Crô, Jeunes-Rives, Quai Ostervald, Quai Max-Petitpierre (Champ-Bougin) und Serrières. Ausgenommen sind die Badezonen für Hunde, die der Conseil communal festlegt. Das ältere Faltblatt der Stadt nennt zusätzlich die Rasenflächen und für die Strände eine längere Zeit: Dort ist das Verbot nur vom 15. Oktober bis 15. März aufgehoben. Halte dich an die Schilder vor Ort. Stand des Faltblatts: 2022.",
       "quellen": [
         "ne_ville_chien",
         "ne_ville_police"
       ]
     },
     {
-      "titel": "Kein Zutritt",
-      "wert": "Sport- und Spielplätze, Schulhöfe, Strände tagsüber",
-      "text": "Keinen Zutritt haben Hunde zu Sportplätzen, Spielplätzen, Schulhöfen, Rasenflächen und Blumenbeeten. An mehreren Badestränden ist der Zutritt von 9 bis 22 Uhr verboten: Favarge, westlich des Nid-du-Crô, Jeunes-Rives, Quai Ostervald, Quai Max-Petitpierre, Strand und Schwimmbad von Serrières. Dieses Verbot ist vom 15. Oktober bis 15. März aufgehoben. Stand des Faltblatts: 2022.",
-      "quellen": [
-        "ne_ville_chien"
-      ]
-    },
-    {
       "titel": "Anmeldung",
       "wert": "beim Office de l'accueil et des quartiers",
-      "text": "Du meldest deinen Hund beim Office de l'accueil et des quartiers (Amt für Empfang und Quartiere) an und erhältst so deine Amicus-Nummer. Dort meldest du auch Änderungen: neue Adresse, Tod des Hundes oder wenn du ihn verschenkst. Die Stadt schickt danach jedes Jahr die Rechnung für die Taxe. Stand des Faltblatts: 2022.",
+      "text": "Du meldest deinen Hund an einem Schalter des Office de l'accueil et des quartiers (Amt für Empfang und Quartiere) an und erhältst so deine Amicus-Nummer. Jede Änderung musst du diesem Amt und in der Datenbank Amicus melden: neue Adresse, Hund gestorben, weggegeben oder verschwunden. Die Stadt schickt danach jedes Jahr die Rechnung für die Taxe. Stand des Faltblatts: 2022.",
       "quellen": [
-        "ne_ville_chien"
+        "ne_ville_chien",
+        "ne_ville_avoir"
       ]
     },
     {
       "titel": "Bussen",
-      "wert": "bis CHF 5000",
-      "text": "Verstösse gegen das Polizeireglement werden mit einer Busse bis CHF 5000 bestraft. Das Reglement verbietet, Hunde herumstreunen zu lassen, und verpflichtet dich, zu verhindern, dass dein Hund sein Geschäft auf öffentlichem Grund verrichtet, besonders auf Fusswegen, Promenaden, in öffentlichen Parks und auf Spielplätzen. Sonst reinigst du die Stelle. Ein streunender Hund wird eingefangen und in Verwahrung genommen (fourrière). Stand des Reglements: 2015.",
+      "wert": "bis CHF 10 000",
+      "text": "Verstösse gegen das Polizeireglement werden mit einer Busse bis CHF 10 000 bestraft, strengere Bestimmungen von Bund oder Kanton vorbehalten. Das Reglement verbietet, Hunde streunen, stöbern oder andere Tiere verfolgen oder jagen zu lassen. Du musst verhindern, dass dein Hund sein Geschäft auf öffentlichem Grund verrichtet, besonders auf Fusswegen, in Promenaden und öffentlichen Parks und auf Kinderspielplätzen. Sonst reinigst du die Stelle. Ein streunender Hund wird eingefangen und in ein Tierheim gebracht. Für diesen Transport verrechnet die Stadt CHF 120 pro Stunde und pro eingesetzte Person.",
       "quellen": [
-        "ne_ville_police"
+        "ne_ville_police",
+        "ne_ville_taxes"
       ]
     }
   ]

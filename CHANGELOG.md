@@ -2,6 +2,23 @@
 
 Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen.
 
+## 2026-11-27, Sitzung mit Joss: Ville de Neuchâtel nach dem neuen Polizeireglement, Hundesteuer der Stadt Schaffhausen
+
+- Im Browser von Joss im Volltext gelesen. Stadt Schaffhausen: Stadtratsbeschluss über die Hundesteuer vom 8. Mai 2018 (RSS 353.2). Ville de Neuchâtel: Seite «Avoir un chien à Neuchâtel», Faltblatt «Mon chien en ville», Règlement de police vom 11. Mai 2026 (Nr. 200) und Règlement d'exécution über Taxen und Gebühren vom 3. Juni 2026 (Nr. 410.1).
+- Stadt Schaffhausen, neu: Karte «Hundesteuer». CHF 160 für den ersten Hund, CHF 200 für jeden weiteren, Pauschale von CHF 790 für Züchterinnen und Züchter, die Abgabe an den Kanton ist enthalten. Erlass und Rückerstattung auf schriftlichen Antrag nach Monat (Januar und Februar ganz, März bis Juni die Hälfte, ab Juli nichts), auch beim Wegzug aus dem Kanton. Neue Quelle `sh_stadt_hundesteuer`.
+- Ville de Neuchâtel, Befund: Die Stadt hat ein neues Polizeireglement. Es ist vom 11. Mai 2026 und gilt seit der Genehmigung durch den Staatsrat am 21. Oktober 2026 (Art. 96). Es hebt das Reglement vom 17. Januar 2000 auf, auf das sich die Seite bisher stützte (Art. 93). Die Quelle `ne_ville_police` zeigt jetzt auf das neue Reglement.
+- Ville de Neuchâtel, Busse, alt: bis CHF 5000. Neu: bis CHF 10 000 (Art. 91).
+- Ville de Neuchâtel, Leine, alt: Fussgängerzonen, Alleen der Jeunes-Rives, öffentliche Gärten. Neu: alle Fussgängerzonen, Parks und öffentliche Gärten (Art. 78 Abs. 1). Neu dazu: Sonst muss der Hund jederzeit mit Stimme oder Zeichen kontrollierbar sein, wenn nicht, gehört er an die Leine (Art. 75 Abs. 2). Der Gemeinderat legt Freilauf- und Badezonen fest (Art. 78 Abs. 4).
+- Ville de Neuchâtel, weggelassen: «Bissige Hunde an die Leine und mit Maulkorb». Der Satz stand im aufgehobenen Reglement. Das neue nennt ihn nicht und verweist auf das kantonale Hundegesetz (Art. 77).
+- Ville de Neuchâtel, Strände, alt: Verbot von 9 bis 22 Uhr, aufgehoben vom 15. Oktober bis 15. März (Faltblatt). Neu: Verbot von April bis September von 9 bis 22 Uhr an sechs Stränden (Art. 78 Abs. 3). Das Faltblatt der Stadt nennt weiter die längere Zeit: Darum steht beides auf der Seite, das Reglement zuerst, mit dem Hinweis auf die Schilder vor Ort.
+- Ville de Neuchâtel, kein Zutritt, alt: auch Rasenflächen. Neu: Sportplätze, Spielplätze, Schulhöfe und Blumenbeete (Art. 78 Abs. 2). Die Rasenflächen stehen nur noch als Angabe des älteren Faltblatts da.
+- Ville de Neuchâtel, streunende Hunde, alt: eingefangen und in Verwahrung genommen. Neu: eingefangen und in ein Tierheim gebracht (Art. 75 Abs. 4), der Transport kostet CHF 120 pro Stunde und Person (Reglement 410.1, Art. 52).
+- Ville de Neuchâtel, Anmeldung: am Schalter des Office de l'accueil et des quartiers, Änderungen auch in Amicus melden (Seite der Stadt). Neue Quelle `ne_ville_avoir`.
+- Ville de Neuchâtel, neu: Karte «Impôt sur les chiens» mit CHF 120 pro Hund und Jahr. Für Wachhunde abgelegener Häuser ist die Taxe ohne Ermässigung geschuldet. Der Auszug, den die Seite der Stadt verlinkt, ist älter und nennt für sie noch eine Befreiung: Es gilt der neuere Text. Neue Quelle `ne_ville_taxes`.
+- Ville de Neuchâtel: `geprueft` auf 2026-11-27, alle Angaben der Datei sind heute mit den Quellen verglichen.
+- Nicht gelungen: Namen der Freilauf- und Badezonen in Neuenburg. Der Beschluss vom 15. Juni 2020 über den Zugang von Hunden zu öffentlichen Räumen gilt laut Art. 94 des neuen Reglements weiter, ist aber als Bild-PDF veröffentlicht. Köniz: Die Website liess sich heute nicht lesen.
+- Übersetzungen nachgeführt: 4 Dateien. Gebaut und getestet.
+
 ## 2026-11-27, Sonderlauf: Themenfeld «Hund vermisst oder gefunden» gebaut, Probe Zürich
 
 - Takt: Heute ist Freitag, alle Kantone und 63 Gemeinden sind erfasst. Der Auftrag des Laufs nennt für diesen Fall nur Mittwoch und Samstag und sagt, sein Takt gehe dem Handbuch vor. Das Handbuch nennt seit heute 01:50 Uhr die Ausnahme von Joss (täglich, solange ein Sonderlauf fällig oder ein Themenfeld offen ist). Der Lauf hat gearbeitet, weil der Entscheid von Joss der neuere ist. Der Widerspruch steht im Bericht.
@@ -17,6 +34,7 @@ Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen
 - Handbuch nachgeführt: Aufbau, Datenfelder Kanton, Themenseiten.
 - Gebaut und getestet: 297 Seiten, 326 Quellen, Test in Ordnung.
 - Link-Prüfung nach dem Push: 326 Quellen, 320 in Ordnung, 1 tot (`be_oce_fr`, steht im Backlog), 5 unklar: `bl_wald` (403, gilt als in Ordnung), `sz_einsiedeln_formular` (503, seit dem 25.11.2026 in jedem Durchgang, steht im Bericht), mit Zeitüberschreitung `be_thun_seeufer`, `lu_stadt`, `ow_leine_2022`. Die sechs neuen Quellen sind in Ordnung.
+
 ## 2026-11-27, Sitzung mit Joss: Stadt Zürich mit Freilaufzonen, Orten mit Leinenpflicht und Ermässigungen
 
 - Der Browser von Joss war ab 08:13 Uhr verbunden. Damit liessen sich Quellen lesen, die das Abrufwerkzeug nicht liefert: der Datensatz «Hundezonen» der Stadt Zürich über den Dienst der Stadt und die PDF der Erlasse im Volltext.

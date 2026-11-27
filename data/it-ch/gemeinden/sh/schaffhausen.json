@@ -3,13 +3,21 @@
   "kanton": "sh",
   "bfs": 2939,
   "uebersetzt_aus": "de",
-  "original": "fc366ec1a9dc",
+  "original": "1f673ad4aee5",
   "name": "Città di Sciaffusa",
   "ort": "Sciaffusa",
   "in_ort": "a Sciaffusa",
   "hinweis_heute": "Nella città di Sciaffusa il tuo cane va tenuto al guinzaglio tutto l'anno negli impianti pubblici.",
   "einleitung": "Nella città di Sciaffusa valgono le regole del Cantone di Sciaffusa. La Città prescrive inoltre il guinzaglio negli impianti pubblici e ammette i cani nei suoi cimiteri solo con un'autorizzazione.",
   "karten": [
+    {
+      "titel": "Imposta sui cani",
+      "wert": "CHF 160 per il primo cane",
+      "text": "La Città riscuote ogni anno CHF 160 per il primo cane e CHF 200 per ogni altro cane. La tassa dovuta al Cantone è compresa. Le allevatrici e gli allevatori pagano un importo forfettario di CHF 790. Se il tuo cane muore o lo cedi, puoi chiedere per iscritto un condono: in gennaio e febbraio la Città condona tutta l'imposta, da marzo a giugno ne rimborsa la metà, da luglio più nulla. Lo stesso vale se lasci il Cantone. Se ti trasferisci in un altro Comune sciaffusano non c'è rimborso, ma l'imposta non è dovuta una seconda volta nel nuovo domicilio. Stato dello Stadtratsbeschluss (decisione del Municipio): 8 maggio 2018, valido dal 1° gennaio 2018.",
+      "quellen": [
+        "sh_stadt_hundesteuer"
+      ]
+    },
     {
       "titel": "Guinzaglio",
       "wert": "negli impianti pubblici",

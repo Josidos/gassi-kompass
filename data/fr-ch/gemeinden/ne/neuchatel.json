@@ -5,41 +5,53 @@
   "name": "Ville de Neuchâtel",
   "ort": "Neuchâtel",
   "in_ort": "à Neuchâtel",
-  "geprueft": "2026-11-17",
-  "hinweis_heute": "En ville de Neuchâtel, la laisse est obligatoire toute l'année dans les zones piétonnes, sur les allées des Jeunes-Rives et dans les jardins publics.",
-  "einleitung": "Le dépliant «Mon chien en ville» de la Ville résume les règles locales. État du dépliant: 2022.",
+  "geprueft": "2026-11-27",
+  "hinweis_heute": "En ville de Neuchâtel, la laisse est obligatoire toute l'année dans toutes les zones piétonnes, dans les parcs et dans les jardins publics.",
+  "einleitung": "Les règles locales figurent dans le règlement de police du 11 mai 2026, en vigueur depuis sa sanction par le Conseil d'État le 21 octobre 2026. Le dépliant «Mon chien en ville» de la Ville est plus ancien (état: 2022).",
   "karten": [
     {
+      "titel": "Impôt sur les chiens",
+      "wert": "CHF 120 par chien et par an",
+      "text": "Selon le règlement d'exécution du 3 juin 2026, la Ville perçoit une taxe annuelle de CHF 120 par chien. Les exonérations sont celles de la loi cantonale sur les chiens. La taxe est due sans réduction aussi pour les chiens de garde des habitations isolées.",
+      "quellen": [
+        "ne_ville_taxes"
+      ]
+    },
+    {
       "titel": "Laisse",
-      "wert": "zones piétonnes, Jeunes-Rives, jardins publics",
-      "text": "La laisse est obligatoire dans les zones piétonnes, sur les allées des Jeunes-Rives et dans les jardins publics. En forêt, elle est obligatoire du 15 avril au 30 juin. Les chiens hargneux doivent être tenus en laisse et munis d'une muselière. État du dépliant: 2022. État du règlement de police: 2015.",
+      "wert": "zones piétonnes, parcs, jardins publics",
+      "text": "La laisse est obligatoire dans toutes les zones piétonnes, dans les parcs et dans les jardins publics. Ailleurs, vous devez pouvoir maîtriser votre chien à tout moment par la voix ou le geste. Sinon, il doit être tenu en laisse. En forêt, la laisse est obligatoire du 15 avril au 30 juin. Le Conseil communal définit des zones de liberté et de baignade où les chiens sont admis. Le dépliant de la Ville en donne la liste. État du dépliant: 2022.",
+      "quellen": [
+        "ne_ville_chien",
+        "ne_ville_police",
+        "ne_ville_avoir"
+      ]
+    },
+    {
+      "titel": "Accès interdit",
+      "wert": "places de sport et de jeux, cours de collèges, plages en journée",
+      "text": "Les chiens n'ont pas accès aux places de sport, aux places de jeux, aux cours de collèges et aux massifs floraux. D'avril à septembre, l'accès est interdit de 9 h à 22 h sur six plages: Favarge, Nid-du-Crô, Jeunes-Rives, quai Ostervald, quai Max-Petitpierre (Champ-Bougin) et Serrières. Font exception les zones de baignade pour chiens définies par le Conseil communal. Le dépliant de la Ville, plus ancien, cite en plus les zones engazonnées et une période plus longue pour les plages: l'interdiction n'y est levée que du 15 octobre au 15 mars. Suivez la signalisation sur place. État du dépliant: 2022.",
       "quellen": [
         "ne_ville_chien",
         "ne_ville_police"
       ]
     },
     {
-      "titel": "Accès interdit",
-      "wert": "places de sport et de jeux, cours de collèges, plages en journée",
-      "text": "Les chiens n'ont pas accès aux places de sport, aux places de jeux, aux cours de collèges, aux zones engazonnées et aux massifs floraux. Sur plusieurs plages de baignade, l'accès est interdit de 9 h à 22 h: Favarge, ouest du Nid-du-Crô, Jeunes-Rives, quai Ostervald, quai Max-Petitpierre, plage et piscine de Serrières. Cette interdiction est levée du 15 octobre au 15 mars. État du dépliant: 2022.",
-      "quellen": [
-        "ne_ville_chien"
-      ]
-    },
-    {
       "titel": "Annonce",
       "wert": "à l'Office de l'accueil et des quartiers",
-      "text": "Vous annoncez votre chien à l'Office de l'accueil et des quartiers pour obtenir votre numéro Amicus. Vous y annoncez aussi les changements: nouvelle adresse, décès ou don du chien. La Ville envoie ensuite chaque année la facture de la taxe. État du dépliant: 2022.",
+      "text": "Vous annoncez votre chien à un guichet d'accueil de l'Office de l'accueil et des quartiers pour obtenir votre numéro Amicus. Tout changement doit être annoncé à cet office et dans la banque de données Amicus: nouvelle adresse, chien décédé, donné ou disparu. La Ville envoie ensuite chaque année la facture de la taxe. État du dépliant: 2022.",
       "quellen": [
-        "ne_ville_chien"
+        "ne_ville_chien",
+        "ne_ville_avoir"
       ]
     },
     {
       "titel": "Amendes",
-      "wert": "jusqu'à CHF 5000",
-      "text": "Les infractions au règlement de police sont punies d'une amende jusqu'à CHF 5000. Le règlement interdit de laisser errer les chiens et vous oblige à empêcher votre chien de faire ses besoins sur la voie publique, en particulier sur les cheminements piétonniers, les promenades, les parcs publics et les aires de jeux. À défaut, vous nettoyez l'endroit. Un chien errant est saisi et mis en fourrière. État du règlement: 2015.",
+      "wert": "jusqu'à CHF 10 000",
+      "text": "Les infractions au règlement de police sont punies d'une amende jusqu'à CHF 10 000, sous réserve de dispositions plus sévères du droit fédéral ou cantonal. Le règlement interdit de laisser les chiens errer, quêter, poursuivre ou chasser d'autres animaux. Vous devez empêcher votre chien de faire ses besoins sur la voie publique, en particulier sur les cheminements piétonniers, dans les promenades et parcs publics et sur les places de jeux pour enfants. À défaut, vous rendez l'endroit propre. Un chien laissé errant est saisi et placé en refuge. Pour ce transport, la Ville facture CHF 120 par heure et par agent.",
       "quellen": [
-        "ne_ville_police"
+        "ne_ville_police",
+        "ne_ville_taxes"
       ]
     }
   ]

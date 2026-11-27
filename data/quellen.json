@@ -928,5 +928,20 @@
     "kurz": "ch.ch: oggetti smarriti",
     "lang": "ch.ch, portale delle autorità svizzere: Uffici oggetti smarriti e easyfind.ch",
     "url": "https://www.ch.ch/it/sicurezza-e-diritto/polizia/oggetti-trovati/"
+  },
+  "sh_stadt_hundesteuer": {
+    "kurz": "Stadt Schaffhausen: Stadtratsbeschluss Hundesteuer",
+    "lang": "Stadt Schaffhausen: Stadtratsbeschluss über die Hundesteuer vom 8. Mai 2018, RSS 353.2 (gültig seit 1.1.2018), Eintrag der Rechtssammlung mit dem Beschluss als PDF",
+    "url": "https://www.stadt-schaffhausen.ch/gk-finanzen/info/1547606"
+  },
+  "ne_ville_taxes": {
+    "kurz": "Ville de Neuchâtel: taxes et émoluments",
+    "lang": "Ville de Neuchâtel: règlement d'exécution concernant la perception de divers taxes et émoluments communaux du 3 juin 2026 (410.1), art. 52",
+    "url": "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/reglementation/Reglementation_2021/410.1_CC_Reglement_Taxes_et_emoluments_Etat_au_260826.pdf"
+  },
+  "ne_ville_avoir": {
+    "kurz": "Ville de Neuchâtel: avoir un chien",
+    "lang": "Ville de Neuchâtel: page «Avoir un chien à Neuchâtel»",
+    "url": "https://www.neuchatelville.ch/vivre-a-neuchatel/foyer-et-famille/animaux-de-compagnie/avoir-un-chien-a-neuchatel"
   }
 }
