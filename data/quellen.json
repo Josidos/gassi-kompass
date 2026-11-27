@@ -1148,5 +1148,30 @@
     "kurz": "Kantonspolizei AG: Findeltiere",
     "lang": "Kanton Aargau, Kantonspolizei: Umwelt & Tierdelikte, Abschnitt «Findeltiere» (abgerufen am 27. November 2026)",
     "url": "https://www.ag.ch/de/themen/sicherheit/kantonspolizei/verkehr-und-umwelt/umwelt-und-tierdelikte"
+  },
+  "ag_aarau_polvo": {
+    "kurz": "Polizeiverordnung Aarau",
+    "lang": "Stadt Aarau und Vertragsgemeinden: Polizeiverordnung (PolVO, SRS 5.1-1) vom 14. Juni 2010, Fassung in Kraft seit 1. Januar 2023, § 22, 26 und 29 sowie Ordnungsbussenliste im Anhang",
+    "url": "https://aarau.tlex.ch/app/de/texts_of_law/5.1-1"
+  },
+  "ag_aarau_bno": {
+    "kurz": "Bau- und Nutzungsordnung Aarau",
+    "lang": "Stadt Aarau: Bau- und Nutzungsordnung (BNO, SRS 7.1-1) vom 27. August 2018, Fassung in Kraft seit 1. Mai 2025, § 22",
+    "url": "https://aarau.tlex.ch/app/de/texts_of_law/7.1-1"
+  },
+  "ag_aarau_badev": {
+    "kurz": "Badeverordnung Aarau",
+    "lang": "Stadt Aarau: Badeverordnung für das Schwimmbad Aarau (BadeV, SRS 8.2-2) vom 21. Mai 2012, Fassung in Kraft seit 1. April 2026, § 12",
+    "url": "https://aarau.tlex.ch/app/de/texts_of_law/8.2-2"
+  },
+  "ag_aarau_merkblatt": {
+    "kurz": "Stadt Aarau: Merkblatt für neue Hundehaltende",
+    "lang": "Stadt Aarau, Stadtbüro: Hundekontrolle, Merkblatt für neue Hundehalter/-innen (Stand laut Online-Schalter der Stadt: 25. März 2021)",
+    "url": "https://www.aarau.ch/politik-verwaltung/online-schalter/produktdetails.html/206/product/201"
+  },
+  "ag_aarau_anmeldung": {
+    "kurz": "Stadt Aarau: Anmeldung Hundehaltung",
+    "lang": "Stadt Aarau: Online-Schalter «Anmeldung Hundehaltung und Hund» (abgerufen am 27. November 2026)",
+    "url": "https://www.aarau.ch/services/anmeldung-hundehaltung-und-hund.html/2014"
   }
 }

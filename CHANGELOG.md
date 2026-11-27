@@ -2,6 +2,16 @@
 
 Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen.
 
+## 2026-11-27, Sitzung mit Joss: Stadt Aarau neu, 65 Gemeinden
+
+- Neu: Stadt Aarau unter `/ag/aarau/`, dazu französisch und italienisch. Aarau war am 17. November zurückgestellt, weil der Lauf die geltende Polizeiverordnung nicht lesen konnte.
+- Im Browser von Joss gelesen: Rechtssammlung der Stadt (aarau.tlex.ch) mit Polizeiverordnung SRS 5.1-1 (Fassung vom 1. Januar 2023, § 22, 26, 29 und Ordnungsbussenliste im Anhang), Bau- und Nutzungsordnung SRS 7.1-1 (Fassung vom 1. Mai 2025, § 22) und Badeverordnung SRS 8.2-2 (Fassung vom 1. April 2026, § 12). Auf www.aarau.ch die Merkblätter für neue und für bestehende Hundehaltende als PDF-Text, der Online-Schalter (Rubrik Hunde) und die Formularseite «Anmeldung Hundehaltung und Hund». Die ganze Rechtssammlung wurde nach «Hund» durchsucht: Treffer nur in diesen Erlassen und in der Verordnung über die Bündtenareale.
+- Sieben Karten: Leine im überbauten Gebiet auf Strassen und Plätzen und kein freies Laufenlassen in der Zone Naturschutz im Kulturland, keine Tiere im Schwimmbad, Anmeldung innert 10 Tagen beim Stadtbüro, Hundetaxe, Hundekot (Ordnungsbusse CHF 40 nach der Liste der Stadt, CHF 100 nach kantonalem Recht), andauerndes Bellen, Bussen bis CHF 2000.
+- Weggelassen: die halbe Taxe für Hunde, die von November bis April taxpflichtig werden. Sie steht auf der Formularseite der Stadt, die kantonale Hundeverordnung kennt sie seit 1. März 2024 nicht mehr. Ebenso weggelassen: die Regel für die Bündtenareale (betrifft nur die Pächterschaft).
+- Das Merkblatt der Stadt trägt kein Datum. Der Online-Schalter führt es als Datei vom 25. März 2021: Die Seite nennt den Stand.
+- Fünf neue Quellen (`ag_aarau_polvo`, `ag_aarau_bno`, `ag_aarau_badev`, `ag_aarau_merkblatt`, `ag_aarau_anmeldung`), zusammen 397. WebFetch konnte www.aarau.ch nicht lesen (robots.txt nicht erreichbar), im Browser lädt die Seite.
+- Build und Test fehlerfrei: 306 Seiten gebaut, 307 Seiten in 2 Breiten geprüft. Seite deutsch bei 390 Pixeln als Bild angesehen.
+
 ## 2026-11-27, Sitzung mit Joss: Kanton Aargau am geltenden Recht geprüft
 
 - Im Browser von Joss in der Erlass-Sammlung des Kantons (gesetzessammlungen.ag.ch) gelesen: Hundegesetz SAR 393.400 (Fassung vom 1. Juli 2024), Hundeverordnung SAR 393.411 (1. März 2024), Jagdverordnung SAR 933.211 (30. August 2025, § 21 und 22), Ordnungsbussenverordnung SAR 251.213 mit Anhang 1 (1. Juli 2021), Reussuferschutzdekret SAR 761.520 (§ 5a), Reusstaldekret SAR 787.330 (§ 2) und Reusstalverordnung SAR 787.331 (§ 1), Tierschutz-Vollzugsverordnung SAR 393.111 (§ 3a). Mit WebFetch, weil www.ag.ch im Chrome nicht freigegeben ist: «Hunde im Kanton Aargau» und «Listenhunde» des Veterinärdiensts, «Leinenpflicht» der Abteilung Wald, «Umwelt & Tierdelikte» der Kantonspolizei. Bisher stützte sich die Seite auf LexFind und auf Fassungen von 2014 und 2016.

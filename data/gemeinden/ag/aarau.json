@@ -1,0 +1,72 @@
+{
+  "id": "aarau",
+  "kanton": "ag",
+  "bfs": 4001,
+  "name": "Stadt Aarau",
+  "ort": "Aarau",
+  "in_ort": "in der Stadt Aarau",
+  "geprueft": "2026-11-27",
+  "einleitung": "Aarau regelt die Hundehaltung in der Polizeiverordnung, die die Stadt mit sechs Nachbargemeinden teilt. Im überbauten Gebiet gilt auf Strassen und Plätzen Leinenpflicht.",
+  "karten": [
+    {
+      "titel": "Leine",
+      "wert": "im überbauten Gebiet auf Strassen und Plätzen",
+      "text": "Im überbauten Gebiet führst du deinen Hund auf Strassen und Plätzen an der Leine. Unbeaufsichtigt laufen lassen darfst du ihn nirgends (Polizeiverordnung, § 22 Abs. 4). In der Zone Naturschutz im Kulturland ist das freie Laufenlassen von Hunden verboten, und du darfst die angelegten Wege nicht verlassen (Bau- und Nutzungsordnung, § 22 Abs. 5).",
+      "quellen": [
+        "ag_aarau_polvo",
+        "ag_aarau_bno"
+      ]
+    },
+    {
+      "titel": "Kein Zutritt",
+      "wert": "Schwimmbad Aarau",
+      "text": "Ins Schwimmbad Aarau darfst du keine Tiere mitbringen (Badeverordnung, § 12).",
+      "quellen": [
+        "ag_aarau_badev"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "wert": "innert 10 Tagen beim Stadtbüro",
+      "text": "Innert 10 Tagen nach der Anschaffung des Hundes meldest du dich beim Stadtbüro Aarau (Rathausgasse 1) als Hundehalterin oder Hundehalter an. Das geht auch im Online-Schalter der Stadt. Du brauchst den Hundeausweis und das Anschaffungsdatum. Hältst du zum ersten Mal einen Hund, meldet dich das Stadtbüro bei der Hundedatenbank AMICUS an. Weitergabe, Übernahme, Ausfuhr ins Ausland und Tod des Hundes meldest du dem Stadtbüro und AMICUS. Stand des Merkblatts: März 2021.",
+      "quellen": [
+        "ag_aarau_merkblatt",
+        "ag_aarau_anmeldung"
+      ]
+    },
+    {
+      "titel": "Hundetaxe",
+      "wert": "CHF 120 pro Hund und Jahr",
+      "text": "Die Hundetaxe beträgt CHF 120 pro Hund und Jahr, wie im ganzen Kanton. Die Stadt stellt sie in Rechnung, in den Folgejahren jeweils im Mai. Stichtag ist nach der kantonalen Hundeverordnung der 30. April.",
+      "quellen": [
+        "ag_aarau_merkblatt",
+        "ag_huv"
+      ]
+    },
+    {
+      "titel": "Hundekot",
+      "wert": "einsammeln, Ordnungsbusse CHF 40",
+      "text": "Du sorgst dafür, dass dein Hund öffentlichen Grund und privaten Grund Dritter nicht verunreinigt. Den Kot sammelst du ein und entsorgst ihn. Die Ordnungsbussenliste der Polizeiverordnung nennt dafür CHF 40. Die kantonale Ordnungsbusse für liegen gelassenen Hundekot beträgt CHF 100.",
+      "quellen": [
+        "ag_aarau_polvo",
+        "ag_obvv"
+      ]
+    },
+    {
+      "titel": "Lärm",
+      "wert": "andauerndes Bellen",
+      "text": "Hunde, die andauernd bellen, musst du im Gebäudeinnern halten. Tiere darfst du nicht so halten, dass jemand übermässig belästigt wird oder Menschen, Tiere und Sachen gefährdet werden (Polizeiverordnung, § 22).",
+      "quellen": [
+        "ag_aarau_polvo"
+      ]
+    },
+    {
+      "titel": "Bussen",
+      "wert": "Ordnungsbusse CHF 100, Bussen bis CHF 2000",
+      "text": "Für Widerhandlungen gegen die Vorschriften zur Tierhaltung nennt die Ordnungsbussenliste der Polizeiverordnung CHF 100. Stadtrat oder Gemeinderat können Bussen bis CHF 2000 aussprechen. In besonders leichten Fällen kann es bei einer Verwarnung bleiben. Kommst du den Vorschriften trotz wiederholter Ermahnung oder Bestrafung nicht nach, kann der Stadtrat die Wegnahme des Tieres anordnen.",
+      "quellen": [
+        "ag_aarau_polvo"
+      ]
+    }
+  ]
+}

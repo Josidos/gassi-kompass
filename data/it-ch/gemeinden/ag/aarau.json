@@ -1,0 +1,73 @@
+{
+  "id": "aarau",
+  "kanton": "ag",
+  "bfs": 4001,
+  "uebersetzt_aus": "de",
+  "original": "7471dd9e39b7",
+  "name": "Città di Aarau",
+  "ort": "Aarau",
+  "in_ort": "ad Aarau",
+  "einleitung": "Aarau disciplina la detenzione di cani nella Polizeiverordnung (ordinanza di polizia), che la città condivide con sei Comuni vicini. Nella zona edificata vale l'obbligo di guinzaglio su strade e piazze.",
+  "karten": [
+    {
+      "titel": "Guinzaglio",
+      "wert": "nella zona edificata, su strade e piazze",
+      "text": "Nella zona edificata tieni il tuo cane al guinzaglio su strade e piazze. Non puoi lasciarlo correre senza sorveglianza in nessun luogo (Polizeiverordnung, § 22 cpv. 4). Nella zona di protezione della natura in terreno coltivo è vietato lasciare correre liberi i cani, e non puoi lasciare i sentieri tracciati (Bau- und Nutzungsordnung, regolamento edilizio e delle zone, § 22 cpv. 5).",
+      "quellen": [
+        "ag_aarau_polvo",
+        "ag_aarau_bno"
+      ]
+    },
+    {
+      "titel": "Accesso vietato",
+      "wert": "piscina di Aarau",
+      "text": "Alla piscina di Aarau (Schwimmbad Aarau) non puoi portare animali (Badeverordnung, ordinanza sulla piscina, § 12).",
+      "quellen": [
+        "ag_aarau_badev"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "wert": "entro 10 giorni allo Stadtbüro",
+      "text": "Entro 10 giorni dall'acquisto del cane ti annunci come detentrice o detentore di cani allo Stadtbüro Aarau (ufficio della città, Rathausgasse 1). È possibile anche allo sportello online della città. Ti servono lo Hundeausweis (documento del cane) e la data di acquisto. Se detieni un cane per la prima volta, lo Stadtbüro ti annuncia alla banca dati AMICUS. Annunci la cessione, la presa a carico, l'esportazione all'estero e la morte del cane allo Stadtbüro e ad AMICUS. Stato del promemoria: marzo 2021.",
+      "quellen": [
+        "ag_aarau_merkblatt",
+        "ag_aarau_anmeldung"
+      ]
+    },
+    {
+      "titel": "Imposta sui cani",
+      "wert": "CHF 120 per cane e per anno",
+      "text": "L'imposta sui cani è di CHF 120 per cane e per anno, come in tutto il Cantone. La città la fattura, negli anni successivi ogni volta in maggio. Secondo la Hundeverordnung cantonale (ordinanza sui cani) il giorno di riferimento è il 30 aprile.",
+      "quellen": [
+        "ag_aarau_merkblatt",
+        "ag_huv"
+      ]
+    },
+    {
+      "titel": "Escrementi",
+      "wert": "raccogliere, multa disciplinare CHF 40",
+      "text": "Fai in modo che il tuo cane non sporchi né il suolo pubblico né il fondo privato di terzi. Raccogli gli escrementi e li smaltisci. L'elenco delle multe disciplinari della Polizeiverordnung prevede per questo CHF 40. La multa disciplinare cantonale per escrementi di cane lasciati sul posto è di CHF 100.",
+      "quellen": [
+        "ag_aarau_polvo",
+        "ag_obvv"
+      ]
+    },
+    {
+      "titel": "Rumore",
+      "wert": "abbaiare continuo",
+      "text": "Devi tenere all'interno dell'edificio i cani che abbaiano continuamente. Non puoi detenere animali in modo che qualcuno sia molestato eccessivamente o che persone, animali o cose siano messi in pericolo (Polizeiverordnung, § 22).",
+      "quellen": [
+        "ag_aarau_polvo"
+      ]
+    },
+    {
+      "titel": "Multe",
+      "wert": "multa disciplinare CHF 100, multe fino a CHF 2000",
+      "text": "Per le infrazioni alle prescrizioni sulla detenzione di animali l'elenco delle multe disciplinari della Polizeiverordnung prevede CHF 100. Lo Stadtrat (esecutivo della città) o il Gemeinderat (esecutivo comunale) possono infliggere multe fino a CHF 2000. Nei casi particolarmente lievi può bastare un ammonimento. Se non rispetti le prescrizioni nonostante ripetuti richiami o sanzioni, lo Stadtrat può ordinare il ritiro dell'animale.",
+      "quellen": [
+        "ag_aarau_polvo"
+      ]
+    }
+  ]
+}
