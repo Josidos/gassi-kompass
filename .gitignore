@@ -1,2 +1,5 @@
 graphify-out/cache/
 __pycache__/
+
+# Arbeitskopien von Unteragenten (git worktree), gehören nie ins Repository
+.claude/worktrees/
