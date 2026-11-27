@@ -16,6 +16,7 @@ Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen
 - Angesehen bei 390 und 1280 Pixeln: Themenseite, Abschnitt auf der Kantonsseite (deutsch und französisch), Thementafeln der Startseite.
 - Handbuch nachgeführt: Aufbau, Datenfelder Kanton, Themenseiten.
 - Gebaut und getestet: 297 Seiten, 326 Quellen, Test in Ordnung.
+- Link-Prüfung nach dem Push: 326 Quellen, 320 in Ordnung, 1 tot (`be_oce_fr`, steht im Backlog), 5 unklar: `bl_wald` (403, gilt als in Ordnung), `sz_einsiedeln_formular` (503, seit dem 25.11.2026 in jedem Durchgang, steht im Bericht), mit Zeitüberschreitung `be_thun_seeufer`, `lu_stadt`, `ow_leine_2022`. Die sechs neuen Quellen sind in Ordnung.
 ## 2026-11-27, Sitzung mit Joss: Stadt Zürich mit Freilaufzonen, Orten mit Leinenpflicht und Ermässigungen
 
 - Der Browser von Joss war ab 08:13 Uhr verbunden. Damit liessen sich Quellen lesen, die das Abrufwerkzeug nicht liefert: der Datensatz «Hundezonen» der Stadt Zürich über den Dienst der Stadt und die PDF der Erlasse im Volltext.
