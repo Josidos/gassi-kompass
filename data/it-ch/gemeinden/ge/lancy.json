@@ -1,0 +1,54 @@
+{
+  "id": "lancy",
+  "kanton": "ge",
+  "bfs": 6628,
+  "uebersetzt_aus": "fr",
+  "original": "fde2ff64df21",
+  "name": "Città di Lancy",
+  "ort": "Lancy",
+  "in_ort": "a Lancy",
+  "einleitung": "A Lancy ritiri ogni anno il contrassegno del tuo cane tra il 1° gennaio e il 31 marzo presso il Comune. In città il tuo cane è tenuto al guinzaglio in ogni occasione.",
+  "karten": [
+    {
+      "titel": "Imposta sui cani",
+      "wert": "50 centimes additionnels, contrassegno CHF 10",
+      "text": "Oltre all'imposta cantonale, il Comune preleva 50 centimes additionnels (centesimi addizionali), cioè il 50 % dell'imposta cantonale. Per un primo cane sono CHF 25 in più (tariffa 2025 dell'amministrazione fiscale cantonale). La Città riscuote inoltre una tassa di CHF 10 per ogni contrassegno. Con una rendita AVS o AI sei esonerato nella misura del 50 %, cioè CHF 5 per contrassegno. Per un cane guida il contrassegno costa CHF 0.",
+      "quellen": [
+        "ge_impot_centimes",
+        "ge_lancy_chiens"
+      ]
+    },
+    {
+      "titel": "Guinzaglio",
+      "wert": "in città in ogni occasione",
+      "text": "In città tieni il tuo cane al guinzaglio in ogni occasione. Nel bosco o in campagna tieni il tuo cane costantemente sotto controllo visivo e sei in grado di dominarlo in ogni momento. Fuori dalla sfera privata, i cani qualificati come pericolosi sono tenuti al guinzaglio e portano la museruola. Raccogli gli escrementi ovunque.",
+      "quellen": [
+        "ge_lancy_chiens"
+      ]
+    },
+    {
+      "titel": "Accesso vietato",
+      "wert": "cortili scolastici, impianti sportivi, edifici",
+      "text": "La Città vieta l'accesso dei cani ad alcuni luoghi, per esempio i cortili scolastici, gli impianti sportivi e gli edifici.",
+      "quellen": [
+        "ge_lancy_chiens"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "wert": "contrassegno dal 1° gennaio al 31 marzo",
+      "text": "Ti procuri il contrassegno (médaille) ogni anno tra il 1° gennaio e il 31 marzo presso le autorità comunali: allo sportello della Maison de la sécurité, chemin des Olliquettes 2a, a Petit-Lancy, o nell'edificio amministrativo del Comune, route du Grand-Lancy 39A, a Grand-Lancy. Presenti un documento d'identità, l'attestato dell'assicurazione di responsabilità civile, il certificato delle vaccinazioni con il vaccino contro la rabbia (validità 2 anni), il foglio o la carta di registrazione ANIS e, se necessario, gli attestati dei corsi o la relativa dispensa. Il contrassegno di controllo è consegnato anche se manca un documento.",
+      "quellen": [
+        "ge_lancy_chiens"
+      ]
+    },
+    {
+      "titel": "Multe",
+      "wert": "multa, importo non pubblicato",
+      "text": "La polizia comunale fa rispettare queste regole, in collaborazione con il veterinario cantonale. Le disposizioni penali prevedono la multa, il sequestro dell'animale o il divieto di detenere un cane. La pagina della Città non indica importi.",
+      "quellen": [
+        "ge_lancy_chiens"
+      ]
+    }
+  ]
+}

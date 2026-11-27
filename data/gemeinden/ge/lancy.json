@@ -1,0 +1,54 @@
+{
+  "id": "lancy",
+  "kanton": "ge",
+  "bfs": 6628,
+  "uebersetzt_aus": "fr",
+  "original": "fde2ff64df21",
+  "name": "Stadt Lancy",
+  "ort": "Lancy",
+  "in_ort": "in Lancy",
+  "einleitung": "In Lancy holst du die Marke deines Hundes jedes Jahr zwischen dem 1. Januar und dem 31. März bei der Gemeinde ab. In der Stadt ist dein Hund in jedem Fall an der Leine zu führen.",
+  "karten": [
+    {
+      "titel": "Hundesteuer",
+      "wert": "50 centimes additionnels, Marke CHF 10",
+      "text": "Zusätzlich zur kantonalen Steuer erhebt die Gemeinde 50 centimes additionnels (Gemeindezuschlag), also 50 % der kantonalen Steuer. Für einen ersten Hund sind das CHF 25 mehr (Tarif 2025 der kantonalen Steuerverwaltung). Die Stadt erhebt zudem eine Gebühr von CHF 10 für jede Marke. Mit einer AHV- oder IV-Rente bist du zu 50 % befreit, also CHF 5 pro Marke. Für einen Blindenführhund kostet die Marke CHF 0.",
+      "quellen": [
+        "ge_impot_centimes",
+        "ge_lancy_chiens"
+      ]
+    },
+    {
+      "titel": "Leine",
+      "wert": "in der Stadt in jedem Fall",
+      "text": "In der Stadt führst du deinen Hund in jedem Fall an der Leine. Im Wald oder auf dem Land behältst du deinen Hund ständig im Blick und kannst ihn jederzeit unter Kontrolle bringen. Ausserhalb des privaten Bereichs sind als gefährlich eingestufte Hunde an der Leine zu führen und tragen einen Maulkorb. Du nimmst den Kot überall auf.",
+      "quellen": [
+        "ge_lancy_chiens"
+      ]
+    },
+    {
+      "titel": "Kein Zutritt",
+      "wert": "Pausenplätze, Sportanlagen, Gebäude",
+      "text": "Die Stadt verbietet Hunden den Zutritt zu bestimmten Orten, zum Beispiel zu Pausenplätzen, Sportanlagen und Gebäuden.",
+      "quellen": [
+        "ge_lancy_chiens"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "wert": "Marke vom 1. Januar bis 31. März",
+      "text": "Du holst die Marke jedes Jahr zwischen dem 1. Januar und dem 31. März bei der Gemeinde: am Schalter der Maison de la sécurité, chemin des Olliquettes 2a, in Petit-Lancy, oder im Verwaltungsgebäude der Gemeinde, route du Grand-Lancy 39A, in Grand-Lancy. Du legst einen Ausweis vor, die Bestätigung der Haftpflichtversicherung, den Impfausweis mit der Tollwutimpfung (gültig 2 Jahre), das Registrierungsblatt oder die Karte von ANIS und, falls nötig, die Kursbestätigungen oder die Befreiung davon. Die Kontrollmarke wird auch abgegeben, wenn ein Dokument fehlt.",
+      "quellen": [
+        "ge_lancy_chiens"
+      ]
+    },
+    {
+      "titel": "Bussen",
+      "wert": "Busse, Betrag nicht veröffentlicht",
+      "text": "Die Gemeindepolizei sorgt zusammen mit dem Kantonstierarzt dafür, dass diese Regeln eingehalten werden. Die Strafbestimmungen sehen eine Busse, die Beschlagnahme des Tieres oder ein Verbot der Hundehaltung vor. Die Seite der Stadt nennt keine Beträge.",
+      "quellen": [
+        "ge_lancy_chiens"
+      ]
+    }
+  ]
+}
