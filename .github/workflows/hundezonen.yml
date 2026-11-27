@@ -1,0 +1,25 @@
+# Holt den Datensatz «Hundezonen» der Stadt Zürich für die Karte unter /zh/zuerich/karte/.
+# Der Arbeitsplatz des Laufs erreicht die Server der Stadt nicht, diese Action schon. Start von Hand:
+#   gh api -X POST repos/Josidos/gassi-kompass/actions/workflows/hundezonen.yml/dispatches -f ref=main
+# Ergebnis holen und einbauen: siehe tools/hundezonen.py. Die Action ändert nichts im Repository.
+name: Hundezonen holen
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  holen:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Datensatz holen
+        run: python3 tools/hundezonen.py --holen ausgabe
+      - uses: actions/upload-artifact@v4
+        with:
+          name: hundezonen
+          path: ausgabe/
+          retention-days: 7
