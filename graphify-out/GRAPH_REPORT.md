@@ -1,7 +1,7 @@
 # Graph Report - gassi-kompass  (2026-11-28)
 
 ## Corpus Check
-- 333 files · ~272,997 words
+- 333 files · ~273,194 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 5 file(s) not represented in the graph (top: (none) 4, .css 1)
 
