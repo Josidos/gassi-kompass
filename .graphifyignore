@@ -35,6 +35,7 @@
 sitemap.xml
 robots.txt
 assets/orte.json
+assets/suche-*.json
 # Fremdes: Skills, Kartenprogramm, Schriften, Bilder
 /.claude/
 /.impeccable/

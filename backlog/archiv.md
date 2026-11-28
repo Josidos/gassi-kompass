@@ -319,3 +319,9 @@ Was die Glieder in Originalfassungen bemerkt haben, steht in `CHANGELOG.md` unte
 ### BACKLOG.md, 5. Umbauten am Generator
 
 - [x] **Themenseiten: ein Kanton, eine Zeile zum Aufklappen.** (erledigt 2026-11-28, Lauf von 14:09 Uhr: `https://gassi-kompass.ch/thema/hundesteuer/#kt-zh`, Seiten am Telefon 12 statt 31 bis 39 Bildschirme)
+
+## Archiviert am 2026-11-28
+
+### BACKLOG.md, 5. Umbauten am Generator
+
+- [x] (erledigt 28.11.2026, Sonderlauf) **Suche über die ganze Website** (Wunsch von Joss vom 28.11.2026: «Vor allem Suche Seite»). Das Suchfeld findet neben Orten auch Stichworte auf allen Seiten, auf der Startseite, mit dem Suchfeld direkt unter dem Titel. Keine eigene Suchseite. Vorgabe: `backlog/vorgabe-suche.md`.

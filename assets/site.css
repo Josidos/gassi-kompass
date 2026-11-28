@@ -285,6 +285,15 @@ p.callout{display:block;max-width:68ch}
 .search input::placeholder{color:var(--ink-2);opacity:.85}
 .search input:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
 .search-status{margin:0;font-size:.88rem;color:var(--ink-2);min-height:1.35em}
+/* Suche auf den Seiten: Linienliste wie die Themen der Startseite, gefundene Wörter hervorgehoben */
+.such-seiten{display:grid;gap:6px;margin-top:6px}
+.such-h{margin:0;font-family:var(--sans);font-weight:700;font-size:.95rem}
+.such-seiten .topics{grid-template-columns:minmax(0,1fr)}
+.such-seiten .topic{padding:12px 0 13px}
+.such-seiten .topic-name{font-size:1.05rem}
+.such-ab{font-family:var(--sans);font-size:.88rem;font-weight:600;color:var(--ink-2)}
+.such-seiten .topic-text{font-size:.94rem;overflow-wrap:anywhere}
+.such-seiten mark{background:var(--free-bg);color:var(--ink);border-radius:2px;padding:0 .08em;box-shadow:inset 0 -1px 0 var(--free)}
 .picker{display:grid;gap:12px}
 
 /* Tafeln: Treffer der Suche, Gemeinden eines Kantons */
@@ -457,6 +466,8 @@ thead th a{text-underline-offset:2px}
   .dest-sub,.today-date,.bar-cap{font-size:.875rem}
   .band span{font-size:.74rem}
   .now span{font-size:.78rem}
+  #treffer{flex-direction:column}
+  #treffer .dest{width:100%}
 }
 
 /* Berührung: Wo der Zeiger ein Finger ist, bekommt jedes Ziel eine Tippfläche von rund 44 Pixeln Höhe.

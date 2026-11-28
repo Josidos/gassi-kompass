@@ -312,6 +312,8 @@ function datei(url) {
   const erfasst = Object.keys(kantonSeite);
   const start = await ctx.newPage();
   start.on('pageerror', err => fehler.push('Suche: Skriptfehler: ' + err.message));
+  const fremdSuche = [];
+  start.on('request', r => { if (!r.url().startsWith(basis) && !r.url().startsWith('data:')) fremdSuche.push(r.url()); });
   await start.goto(basis + '/');
   if (await start.isHidden('#ortssuche')) fehler.push('/: Das Suchfeld ist nicht sichtbar');
   async function such(text) {
@@ -374,10 +376,42 @@ function datei(url) {
   await such('Sankt');
   if (ueber > 0 || await start.evaluate(() => document.documentElement.scrollWidth - window.innerWidth) > 0) fehler.push('/: Die Trefferliste läuft seitlich über');
 
+  const name = g => orte.gemeinden.find(x => x[0] === g.bfs)[1];
+  // 4b. Suche auf den Seiten: Stichworte, Reihenfolge, Orte zuerst, nichts Fremdes
+  async function seitenSuche(p, text) {
+    await p.fill('#ortssuche', String(text));
+    await p.waitForSelector('[data-suche][data-seiten]', { timeout: 8000 }).catch(() => {});
+    if ((await p.getAttribute('[data-suche]', 'data-seiten')) !== 'bereit') fehler.push(`Suche: Verzeichnis der Seiten lädt nicht (${p.url()})`);
+    return p.$$eval('#seitentreffer a', xs => xs.map(x => ({ href: x.getAttribute('href'), mark: x.querySelectorAll('mark').length })));
+  }
+  const maul = await seitenSuche(start, 'Maulkorb');
+  if (!maul.length) fehler.push('Suche: «Maulkorb» findet keine Seite');
+  else if (maul.length > 8) fehler.push('Suche: mehr als 8 Treffer auf den Seiten');
+  else if (!maul.every(x => x.mark)) fehler.push('Suche: Ein Treffer für «Maulkorb» hebt das Wort nicht hervor');
+  if (await start.isHidden('#seitentreffer')) fehler.push('Suche: Die Treffer auf den Seiten sind nicht sichtbar');
+  for (const t of maul) {
+    const [pfad, anker] = t.href.split('#');
+    const datei = path.join(ROOT, pfad, 'index.html');
+    if (!fs.existsSync(datei)) fehler.push(`Suche: Treffer führt auf ${t.href}, die Seite gibt es nicht`);
+    else if (anker && !fs.readFileSync(datei, 'utf8').includes(`id="${anker}"`)) fehler.push(`Suche: Treffer führt auf ${t.href}, den Anker gibt es nicht`);
+  }
+  if (fs.existsSync(path.join(ROOT, 'be', 'lyss', 'index.html'))) {
+    const lyss = await seitenSuche(start, 'Hundesteuer Lyss');
+    if (!lyss.length || !lyss[0].href.startsWith('/be/lyss/')) fehler.push(`Suche: «Hundesteuer Lyss» nennt zuerst ${lyss[0] ? lyss[0].href : 'nichts'} statt /be/lyss/`);
+  }
+  const winti = eigene.find(g => g.l === 'de' && g.id === 'winterthur') ? 'Winterthur' : (eigene[0] && name(eigene[0]));
+  if (winti) {
+    await seitenSuche(start, winti);
+    const erster = await start.$eval('#treffer, #seitentreffer', x => x.id).catch(() => '');
+    if (!(await start.$$('#treffer a')).length || erster !== 'treffer') fehler.push(`Suche: «${winti}» zeigt nicht zuerst die Treffer für Orte`);
+  }
+  if ((await seitenSuche(start, 'qqqq')).length) fehler.push('Suche: «qqqq» findet Seiten');
+  if (fremdSuche.length) fehler.push(`Suche: ruft fremde Adressen ab: ${fremdSuche[0]}`);
+  if (await start.evaluate(() => document.documentElement.scrollWidth - window.innerWidth) > 0) fehler.push('/: Die Treffer auf den Seiten laufen seitlich über');
+
   // 5. Sprachen: Die deutsche Startseite führt bei einer Gemeinde ohne deutsche Seite auf die Fassung in der
   // anderen Sprache und nennt die Sprache. Jede Startseite einer anderen Sprache führt auf ihre eigenen Seiten,
   // bei einem Kanton ohne Fassung in ihrer Sprache auf die deutsche Seite.
-  const name = g => orte.gemeinden.find(x => x[0] === g.bfs)[1];
   const fremd = eigene.find(g => g.l !== 'de' && !eigene.some(x => x.l === 'de' && x.bfs === g.bfs));
   if (fremd) {
     const t = (await such(name(fremd))).find(x => x.href === `${fremd.pre}/${fremd.kanton}/${fremd.id}/`);
@@ -398,6 +432,8 @@ function datei(url) {
     const g = eigene.find(x => x.l === l);
     if (g && !(await suchHier(name(g))).some(x => x.href === `${pre}/${g.kanton}/${g.id}/`)) fehler.push(`${pre}/: Suche «${name(g)}» führt nicht auf ${pre}/${g.kanton}/${g.id}/`);
     const nurDe = erfasst.find(kt => kantonSeite[kt] === `/${kt}/` && !fs.existsSync(path.join(ROOT, pre.slice(1), kt, 'index.html')));
+    const wort = { fr: 'muselière', it: 'museruola' }[l];
+    if (wort && !(await seitenSuche(p, wort)).length) fehler.push(`${pre}/: Suche «${wort}» findet keine Seite`);
     if (nurDe && !(await suchHier(nurDe)).some(x => x.href === `/${nurDe}/`)) fehler.push(`${pre}/: Kürzel «${nurDe}» führt nicht auf die deutsche Seite /${nurDe}/`);
     if (await p.evaluate(() => document.documentElement.scrollWidth - window.innerWidth) > 0) fehler.push(`${pre}/: Die Trefferliste läuft seitlich über`);
     await p.close();
@@ -406,5 +442,5 @@ function datei(url) {
   await browser.close();
   server.close();
   if (fehler.length) { console.log(`FEHLER (${fehler.length}):`); fehler.forEach(f => console.log('  - ' + f)); process.exit(1); }
-  console.log(`In Ordnung: ${seiten.length} Seiten in 2 Breiten und die Ortssuche geprüft.`);
+  console.log(`In Ordnung: ${seiten.length} Seiten in 2 Breiten und die Suche geprüft.`);
 })();

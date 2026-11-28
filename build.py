@@ -24,6 +24,7 @@ und dieselben Zahlen, das prüft pruefe_uebersetzung(). Der Generator ändert ni
 import unicodedata
 import hashlib
 import html
+import html.parser
 import json
 import re
 import shutil
@@ -185,7 +186,7 @@ TEXTE = {
         "fuss_quellen": "Angaben auf dieser Seite geprüft am {d}. Quellen:",
         "fuss_alle": "Alle {n} Quellen anzeigen",
         "fussnav": "Fussnavigation",
-        "nav_suche": "Ort suchen", "nav_schweiz": "Ganze Schweiz", "nav_vergleich": "Kantone im Vergleich",
+        "nav_suche": "Ort oder Stichwort suchen", "nav_schweiz": "Ganze Schweiz", "nav_vergleich": "Kantone im Vergleich",
         "nav_ueber": "Über diese Seite",
         "kanton_kurz": "Kanton {kurz}",
         "n_gemeinden": ["1 Gemeinde", "{n} Gemeinden"],
@@ -224,7 +225,6 @@ TEXTE = {
         "lokal_h2": "Das gilt zusätzlich {in_ort}", "freilauf": "Freilaufzonen",
         "suche": {
             "lade": "Das Ortsverzeichnis wird geladen.",
-            "leer": "Kein Ort gefunden. Prüfe die Schreibweise oder gib die Postleitzahl ein.",
             "fehler": "Die Ortssuche lässt sich gerade nicht laden. Wähle unten deinen Kanton.",
             "treffer": "{n} Treffer",
             "viele": "Die ersten {max} von {n} Treffern. Tippe weiter, um einzugrenzen.",
@@ -234,12 +234,18 @@ TEXTE = {
             "kanton": "Regeln des Kantons",
             "bund": "Regeln des Bundes",
             "in-de": "auf Deutsch", "in-fr": "auf Französisch", "in-it": "auf Italienisch",
+            "seiten_h": "Auf den Seiten gefunden",
+            "s_lade": "Die Seiten werden durchsucht.",
+            "s_eins": "Auf 1 Seite gefunden.", "s_treffer": "Auf {n} Seiten gefunden.",
+            "s_viele": "Auf {n} Seiten gefunden, hier die ersten {max}.",
+            "nichts": "Nichts gefunden. Prüfe die Schreibweise, versuche ein anderes Wort oder wähle unten deinen Kanton.",
+            "s_fehler": "Die Suche auf den Seiten lässt sich gerade nicht laden.",
         },
-        "suche_label": "Gemeinde, Ort oder Postleitzahl",
-        "suche_beispiel": "z. B. Wettingen oder 5430",
-        "suche_noscript": "Die Ortssuche braucht JavaScript. Ohne JavaScript wählst du unten deinen Kanton.",
+        "suche_label": "Ort, Postleitzahl oder Stichwort",
+        "suche_beispiel": "z. B. Wettingen, 5430 oder Maulkorb",
+        "suche_noscript": "Die Suche braucht JavaScript. Ohne JavaScript wählst du unten deinen Kanton.",
         "start_h1": "Was gilt für deinen Hund hier?",
-        "start_lede": "Gib deine Gemeinde oder deine Postleitzahl ein. Du siehst, was dort gilt: die Regeln des Bundes, deines Kantons und, wo es sie gibt, die lokalen Regeln deiner Gemeinde. Zu jeder Angabe findest du die amtliche Quelle.",
+        "start_lede": "Gib deine Gemeinde, deine Postleitzahl oder ein Stichwort wie Hundesteuer ein. Du siehst, was dort gilt: die Regeln des Bundes, deines Kantons und, wo es sie gibt, die lokalen Regeln deiner Gemeinde. Zu jeder Angabe findest du die amtliche Quelle.",
         "start_kt_h2": "Alle 26 Kantone",
         "start_kt_p": "Wähle deinen Kanton. Was der Bund für alle Hunde vorschreibt, steht unter <a href=\"{schweiz}\">Ganze Schweiz</a>{in_sprache}.",
         "start_gm_h2": "Gemeinden mit lokalen Regeln",
@@ -401,7 +407,7 @@ TEXTE = {
         "fuss_quellen": "Indications de cette page vérifiées le {d}. Sources :",
         "fuss_alle": "Afficher les {n} sources",
         "fussnav": "Navigation de pied de page",
-        "nav_suche": "Chercher un lieu", "nav_schweiz": "Toute la Suisse",
+        "nav_suche": "Chercher un lieu ou un mot", "nav_schweiz": "Toute la Suisse",
         "nav_vergleich": "Les cantons en comparaison", "nav_ueber": "À propos",
         "kanton_kurz": "Canton {kurz}",
         "n_gemeinden": ["1 commune", "{n} communes"],
@@ -440,7 +446,6 @@ TEXTE = {
         "lokal_h2": "Règles supplémentaires {in_ort}", "freilauf": "Espaces de liberté pour chiens",
         "suche": {
             "lade": "Le répertoire des localités se charge.",
-            "leer": "Aucun lieu trouvé. Vérifiez l'orthographe ou saisissez le code postal.",
             "fehler": "La recherche ne peut pas être chargée pour l'instant. Choisissez votre canton ci-dessous.",
             "treffer": "Résultats : {n}",
             "viele": "Les {max} premiers résultats sur {n}. Continuez à taper pour préciser.",
@@ -450,12 +455,18 @@ TEXTE = {
             "kanton": "règles du canton",
             "bund": "règles fédérales",
             "in-de": "en allemand", "in-fr": "en français", "in-it": "en italien",
+            "seiten_h": "Trouvé dans les pages",
+            "s_lade": "Recherche dans les pages en cours.",
+            "s_eins": "Trouvé sur 1 page.", "s_treffer": "Trouvé sur {n} pages.",
+            "s_viele": "Trouvé sur {n} pages, voici les {max} premières.",
+            "nichts": "Aucun résultat. Vérifiez l'orthographe, essayez un autre mot ou choisissez votre canton ci-dessous.",
+            "s_fehler": "La recherche dans les pages ne peut pas être chargée pour l'instant.",
         },
-        "suche_label": "Commune, localité ou code postal",
-        "suche_beispiel": "p. ex. Montreux ou 1820",
+        "suche_label": "Localité, code postal ou mot-clé",
+        "suche_beispiel": "p. ex. Montreux, 1820 ou muselière",
         "suche_noscript": "La recherche a besoin de JavaScript. Sans JavaScript, choisissez votre canton ci-dessous.",
         "start_h1": "Quelles règles pour votre chien ici ?",
-        "start_lede": "Saisissez votre commune ou votre code postal. Vous voyez ce qui s'y applique : les règles fédérales, celles de votre canton et, lorsqu'elles existent, les règles locales de votre commune. Chaque indication renvoie à sa source officielle.",
+        "start_lede": "Saisissez votre commune, votre code postal ou un mot-clé comme impôt. Vous voyez ce qui s'y applique : les règles fédérales, celles de votre canton et, lorsqu'elles existent, les règles locales de votre commune. Chaque indication renvoie à sa source officielle.",
         "start_kt_h2": "Les 26 cantons",
         "start_kt_p": "Choisissez votre canton. Ce que la Confédération prescrit pour tous les chiens figure sur la page <a href=\"{schweiz}\">Toute la Suisse</a>{in_sprache}.",
         "start_gm_h2": "Communes avec règles locales",
@@ -617,7 +628,7 @@ TEXTE = {
         "fuss_quellen": "Indicazioni di questa pagina verificate il {d}. Fonti:",
         "fuss_alle": "Mostra le {n} fonti",
         "fussnav": "Navigazione a piè di pagina",
-        "nav_suche": "Cerca un luogo", "nav_schweiz": "Tutta la Svizzera",
+        "nav_suche": "Cerca un luogo o una parola", "nav_schweiz": "Tutta la Svizzera",
         "nav_vergleich": "Cantoni a confronto", "nav_ueber": "Informazioni",
         "kanton_kurz": "Cantone {kurz}",
         "n_gemeinden": ["1 Comune", "{n} Comuni"],
@@ -656,7 +667,6 @@ TEXTE = {
         "lokal_h2": "Regole supplementari {in_ort}", "freilauf": "Aree di svago per cani",
         "suche": {
             "lade": "L'elenco delle località è in caricamento.",
-            "leer": "Nessun luogo trovato. Controlla l'ortografia o inserisci il numero postale di avviamento.",
             "fehler": "La ricerca non può essere caricata in questo momento. Scegli il tuo Cantone qui sotto.",
             "treffer": "Risultati: {n}",
             "viele": "I primi {max} risultati su {n}. Continua a scrivere per restringere.",
@@ -666,12 +676,18 @@ TEXTE = {
             "kanton": "regole del Cantone",
             "bund": "regole federali",
             "in-de": "in tedesco", "in-fr": "in francese", "in-it": "in italiano",
+            "seiten_h": "Trovato nelle pagine",
+            "s_lade": "Ricerca nelle pagine in corso.",
+            "s_eins": "Trovato in 1 pagina.", "s_treffer": "Trovato in {n} pagine.",
+            "s_viele": "Trovato in {n} pagine, ecco le prime {max}.",
+            "nichts": "Nessun risultato. Controlla l'ortografia, prova un'altra parola o scegli il tuo Cantone qui sotto.",
+            "s_fehler": "La ricerca nelle pagine non può essere caricata in questo momento.",
         },
-        "suche_label": "Comune, località o numero postale di avviamento",
-        "suche_beispiel": "p. es. Mendrisio o 6850",
+        "suche_label": "Luogo, numero postale o parola chiave",
+        "suche_beispiel": "p. es. Mendrisio, 6850 o museruola",
         "suche_noscript": "La ricerca ha bisogno di JavaScript. Senza JavaScript scegli il tuo Cantone qui sotto.",
         "start_h1": "Cosa vale qui per il tuo cane?",
-        "start_lede": "Inserisci il tuo Comune o il numero postale di avviamento. Vedi cosa vale lì: le regole federali, quelle del tuo Cantone e, dove esistono, le regole locali del tuo Comune. Per ogni indicazione trovi la fonte ufficiale.",
+        "start_lede": "Inserisci il tuo Comune, il numero postale di avviamento o una parola chiave come imposta. Vedi cosa vale lì: le regole federali, quelle del tuo Cantone e, dove esistono, le regole locali del tuo Comune. Per ogni indicazione trovi la fonte ufficiale.",
         "start_kt_h2": "Tutti i 26 Cantoni",
         "start_kt_p": "Scegli il tuo Cantone. Cosa prescrive la Confederazione per tutti i cani si trova sulla pagina <a href=\"{schweiz}\">Tutta la Svizzera</a>{in_sprache}.",
         "start_gm_h2": "Comuni con regole locali",
@@ -1633,7 +1649,7 @@ def lokal(g, Q, benutzt):
         zur_karte = (f'<p><a class="text-link" href="{karte_pfad(LANG, g)}">'
                      f'{e(S["karte"]["link"].format(in_ort=g["in_ort"]))}</a></p>')
     karten = "".join(karte(c, Q, benutzt, anker=f"lokal-{i + 1}") for i, c in enumerate(g["karten"]))
-    return (f'<section class="sec"><div class="sec-head">'
+    return (f'<section class="sec" data-lokal><div class="sec-head">'
             f'<h2>{e(S["lokal_h2"].format(in_ort=g["in_ort"]))}</h2>{intro}</div>{zonen}{zur_karte}'
             f'<div class="cards">{karten}</div></section>')
 
@@ -1720,8 +1736,132 @@ def suche():
             '<input id="ortssuche" type="search" autocomplete="off" enterkeyhint="search" '
             f'placeholder="{S["suche_beispiel"]}" aria-describedby="such-status">'
             '<p class="search-status" id="such-status" role="status"></p>'
-            '<div class="plates" id="treffer"></div></div>'
+            '<div class="plates" id="treffer"></div>'
+            f'<div class="such-seiten" id="seitentreffer" hidden><p class="such-h" id="seiten-h">{S["suche"]["seiten_h"]}</p>'
+            '<div class="topics" role="list" aria-labelledby="seiten-h"></div></div></div>'
             f'<noscript><p>{S["suche_noscript"]}</p></noscript>')
+
+
+# Suche auf den Seiten: gleichbedeutende Wörter je Sprache. Findet die Eingabe den Anfang eines Worts der
+# Gruppe (oder beginnt sie mit einem Wort der Gruppe), zählt jedes Wort der Gruppe als Treffer. Nur Wörter,
+# die auf den Seiten vorkommen: Fehlt eines im Verzeichnis, nennt build.py es und lässt es weg.
+SYNONYME = {
+    "de": [["hundesteuer", "hundetaxe", "hundeabgabe"],
+           ["leine", "leinenpflicht", "leinenzwang", "anleinen"],
+           ["maulkorb", "maulkorbpflicht", "maulkorbzwang"],
+           ["kot", "hundekot"],
+           ["rasseliste", "rassenliste", "rassetypenliste", "listenhund"]],
+    "fr": [["impot", "taxe"],
+           ["crottes", "dejections", "excrements"],
+           ["races", "liste"]],
+    "it": [["imposta", "tassa"],
+           ["razze", "elenco"]],
+}
+SUCH_TEXT = 450  # Zeichen Text je Abschnitt im Verzeichnis der Suche
+SUCH_ARTEN = ("kanton", "gemeinde", "thema", "bund", "ueber")
+
+
+def such_norm(text):
+    """Wie assets/suche.js: klein, ohne Akzente, alles ausser Buchstaben und Ziffern als Leerzeichen."""
+    t = unicodedata.normalize("NFD", text.lower())
+    return re.sub(r"[^a-z0-9]+", " ", "".join(c for c in t if not unicodedata.combining(c))).strip()
+
+
+class SuchLeser(html.parser.HTMLParser):
+    """Liest aus einer erzeugten Seite die Abschnitte für das Verzeichnis der Suche: je Überschrift
+    (h1 bis h3, Name einer Kantonszeile, Status der Tafel «Leine im Wald», Name einer Freilaufzone) den Text bis
+    zur nächsten Überschrift und die id des nächsten Elements, das eine trägt. Übergangen werden Skripte,
+    Navigation, Quellenzeilen, Jahresbalken, Tafeln und die Listen «Auf einen Blick», weil sie nur wiederholen
+    oder auf andere Seiten zeigen."""
+    LEER = {"br", "img", "input", "meta", "link", "hr", "source", "wbr"}
+    WEG_TAGS = {"script", "style", "nav", "noscript", "svg", "button", "template"}
+    WEG_KLASSEN = {"src", "bar", "today-head", "kt-kopf", "blick", "plates", "facts", "transl", "months", "index", "schritte"}
+    KOPF_KLASSEN = {"kt-name", "big", "zone-name"}
+    TRENN_KLASSEN = {"card-v", "kt-wert", "kt-kurz", "chip"}  # nach diesen Elementen steht im Text ein Mittelpunkt
+
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.stapel, self.weg, self.kopf = [], 0, None
+        self.bloecke = []  # [Überschrift, id, Text]
+
+    def handle_starttag(self, tag, attrs):
+        if tag in self.LEER:
+            return
+        a = dict(attrs)
+        klassen = set((a.get("class") or "").split())
+        weg = tag in self.WEG_TAGS or bool(klassen & self.WEG_KLASSEN) or "data-blick" in a
+        kopf = self.weg == 0 and (tag in ("h1", "h2", "h3") or bool(klassen & self.KOPF_KLASSEN))
+        self.stapel.append((tag, a.get("id"), weg, bool(klassen & self.TRENN_KLASSEN)))
+        if weg:
+            self.weg += 1
+        elif kopf and self.kopf is None:
+            ziel = next((i for _, i, _, _ in reversed(self.stapel) if i and i != "inhalt"), "")
+            self.bloecke.append(["", ziel, ""])
+            self.kopf = len(self.stapel)
+        self.handle_data(" ")
+
+    def handle_endtag(self, tag):
+        if tag in self.LEER:
+            return
+        while self.stapel:
+            t, _, weg, trenn = self.stapel.pop()
+            if weg:
+                self.weg -= 1
+            if trenn:
+                self.handle_data(" · ")
+            if self.kopf is not None and len(self.stapel) < self.kopf:
+                self.kopf = None
+            if t == tag:
+                break
+        self.handle_data(" ")
+
+    def handle_data(self, data):
+        if self.weg or not self.bloecke:
+            return
+        self.bloecke[-1][0 if self.kopf is not None else 2] += data
+
+
+def such_eintrag(pfad, art, seite_html):
+    """Ein Eintrag des Verzeichnisses: [Adresse, Titel, Art, [[Überschrift, id, Text], ...]].
+    Auf der Gemeindeseite zählt nur, was lokal gilt (Titel und Abschnitt data-lokal): Die Regeln des
+    Kantons stehen schon auf dessen Seite."""
+    main = seite_html[seite_html.index("<main"):seite_html.index("</main>")]
+    if art == "gemeinde":
+        h1 = re.search(r"<h1>.*?</h1>", main, re.S)
+        lokal = re.search(r"<section[^>]*data-lokal.*?</section>", main, re.S)
+        main = (h1.group(0) if h1 else "") + (lokal.group(0) if lokal else "")
+    leser = SuchLeser()
+    leser.feed(main)
+    leser.close()
+    zusammen = lambda t: re.sub(r"\s+", " ", t).strip()
+    bloecke = []
+    for h, i, t in leser.bloecke:
+        h, t = zusammen(h), zusammen(t)
+        if len(t) > SUCH_TEXT:
+            t = t[:SUCH_TEXT].rsplit(" ", 1)[0] + " …"
+        if h or t:
+            bloecke.append([h, i, t])
+    titel = bloecke[0][0] if bloecke else ""
+    return [pfad, titel, art, bloecke]
+
+
+def such_verzeichnis(lang, eintraege):
+    """Inhalt von assets/suche-<sprache>.json: Seiten und gleichbedeutende Wörter. Wörter der Liste, die auf
+    keiner Seite dieser Sprache vorkommen, fallen weg und werden genannt."""
+    woerter = set()
+    for _, titel, _, bloecke in eintraege:
+        woerter.update(such_norm(titel).split())
+        for h, _, t in bloecke:
+            woerter.update(such_norm(h + " " + t).split())
+    gruppen = []
+    for gruppe in SYNONYME[lang]:
+        da = [w for w in gruppe if any(x.startswith(w) for x in woerter)]
+        for w in gruppe:
+            if w not in da:
+                print(f"Hinweis: Suche {lang}: «{w}» kommt auf keiner Seite vor und fällt aus der Liste der gleichbedeutenden Wörter.")
+        if len(da) > 1:
+            gruppen.append(da)
+    return json.dumps({"s": eintraege, "syn": gruppen}, ensure_ascii=False, separators=(",", ":"))
 
 
 def kantonsraster():
@@ -2026,8 +2166,8 @@ def seite_start(Q):
     stand = min([k["geprueft"] for k in kantone] + ([W[LANG]["b"]["geprueft"]] if W[LANG].get("b") else []))
     inhalt = f"""<section class="hero">
 <h1>{S["start_h1"]}</h1>
-<p class="lede">{S["start_lede"]}</p>
 {suche()}
+<p class="lede">{S["start_lede"]}</p>
 <ul class="facts">{fakten}</ul>
 </section>
 <section class="sec" id="orte">
@@ -2380,15 +2520,20 @@ def baue(Q, orte):
         start = PRAEFIX[lang] + "/"
         nach_id = {k["id"]: k for k in kantone}
         aeltester = min(k["geprueft"] for k in kantone)
+        such = []
+
+        def mit_suche(pfad, art, text):
+            such.append(such_eintrag(pfad, art, text))
+            return text
         urls.append((start, min([aeltester] + ([bund["geprueft"]] if bund else []))))
         urls.append((f"{start}ueber/", None))
         schreibe(f"{start}index.html", seite_start(Q))
-        schreibe(f"{start}ueber/index.html", seite_ueber(Q))
+        schreibe(f"{start}ueber/index.html", mit_suche(f"{start}ueber/", "ueber", seite_ueber(Q)))
         if bund:
             urls.append((f"{start}schweiz/", bund["geprueft"]))
-            schreibe(f"{start}schweiz/index.html", seite_schweiz(Q))
+            schreibe(f"{start}schweiz/index.html", mit_suche(f"{start}schweiz/", "bund", seite_schweiz(Q)))
         for t in THEMEN:
-            schreibe(f'{start}thema/{t["id"]}/index.html', seite_thema(t, Q))
+            schreibe(f'{start}thema/{t["id"]}/index.html', mit_suche(f'{start}thema/{t["id"]}/', "thema", seite_thema(t, Q)))
             urls.append((f'{start}thema/{t["id"]}/', aeltester))
         if lang == "de":
             schreibe("404.html", seite_404(Q))
@@ -2397,18 +2542,19 @@ def baue(Q, orte):
         else:
             schreibe(f"{start}{MARKE}", "")  # der ganze Sprachordner wird beim Neubau ersetzt
         for k in kantone:
-            schreibe(f'{k_pfad(lang, k["id"])}index.html', seite_kanton(k, Q))
+            schreibe(f'{k_pfad(lang, k["id"])}index.html', mit_suche(k_pfad(lang, k["id"]), "kanton", seite_kanton(k, Q)))
             if lang == "de":
                 schreibe(f'{k["id"]}/{MARKE}', "")
             urls.append((k_pfad(lang, k["id"]), k["geprueft"]))
         for g in gemeinden:
             k = nach_id[g["kanton"]]
-            schreibe(f"{g_pfad(lang, g)}index.html", seite_gemeinde(g, k, Q))
+            schreibe(f"{g_pfad(lang, g)}index.html", mit_suche(g_pfad(lang, g), "gemeinde", seite_gemeinde(g, k, Q)))
             urls.append((g_pfad(lang, g), min(g["geprueft"], k["geprueft"])))
             geo = karten_geo(g)
             if geo:
                 schreibe(f"{karte_pfad(lang, g)}index.html", seite_karte(g, k, geo, Q))
                 urls.append((karte_pfad(lang, g), geo["abgerufen"]))
+        schreibe(f"assets/suche-{lang}.json", such_verzeichnis(lang, such))
     sprache("de")
     for name, geo in GEO.items():  # die Flächen einmal für alle Sprachen, unter der deutschen Adresse
         kt, _, gid = name.partition("-")
