@@ -112,5 +112,15 @@
     "rassen": "aucune liste, mesures au cas par cas",
     "steuer": "taxe communale, montant selon la commune",
     "anm": "commune dans les 30 jours et AMICUS"
+  },
+  "vermisst": {
+    "text": "Dans le canton du Jura, le Service de la consommation et des affaires vétérinaires (SCAV) indique où vous adresser si vous avez perdu votre chien ou si vous avez trouvé un animal égaré.",
+    "punkte": [
+      "Chien perdu: vous avez la possibilité de publier une annonce gratuitement via le site tierdatenbank.ch.",
+      "Chien trouvé: vous pouvez vous adresser à l'Association jurassienne de protection des animaux (AJPA)."
+    ],
+    "quellen": [
+      "ju_scav_faq"
+    ]
   }
 }

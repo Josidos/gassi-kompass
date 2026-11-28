@@ -2,7 +2,7 @@
   "id": "ju",
   "kurz": "JU",
   "uebersetzt_aus": "fr",
-  "original": "538d7e377af2",
+  "original": "6a19efadf939",
   "wald": {
     "saison": false,
     "text": "Il diritto cantonale non fissa un periodo di guinzaglio obbligatorio nel bosco. Nel bosco devi poter tenere il tuo cane sotto controllo in permanenza. Altrimenti va tenuto al guinzaglio. Stato del testo consultato: 2012. Il Cantone lo ha ricordato il 30 aprile 2026: devi poter tenere il tuo cane sotto controllo in ogni momento e, se necessario, tenerlo al guinzaglio. I cani disturbano la fauna in modo particolare durante il periodo di riproduzione.",
@@ -110,5 +110,15 @@
     "rassen": "nessun elenco, misure caso per caso",
     "steuer": "tassa comunale, importo secondo il Comune",
     "anm": "Comune entro 30 giorni e AMICUS"
+  },
+  "vermisst": {
+    "text": "Nel Cantone Giura il Service de la consommation et des affaires vétérinaires (SCAV, servizio veterinario) indica a chi rivolgerti se hai perso il tuo cane o se hai trovato un animale smarrito.",
+    "punkte": [
+      "Cane perso: puoi pubblicare gratuitamente un annuncio sul sito tierdatenbank.ch.",
+      "Cane trovato: puoi rivolgerti all'Association jurassienne de protection des animaux (AJPA, associazione per la protezione degli animali)."
+    ],
+    "quellen": [
+      "ju_scav_faq"
+    ]
   }
 }

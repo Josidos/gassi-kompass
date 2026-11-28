@@ -2,7 +2,7 @@
   "id": "ju",
   "kurz": "JU",
   "uebersetzt_aus": "fr",
-  "original": "538d7e377af2",
+  "original": "6a19efadf939",
   "wald": {
     "saison": false,
     "text": "Das kantonale Recht legt keine Zeit mit Leinenpflicht im Wald fest. Im Wald musst du deinen Hund ständig unter Kontrolle halten können. Sonst muss er an der Leine geführt werden. Stand des abgerufenen Textes: 2012. Der Kanton hat am 30. April 2026 daran erinnert: Du musst deinen Hund jederzeit unter Kontrolle halten und ihn wenn nötig an die Leine nehmen können. Hunde stören die Wildtiere besonders während der Fortpflanzungszeit.",
@@ -110,5 +110,15 @@
     "rassen": "keine Liste, Massnahmen im Einzelfall",
     "steuer": "Gemeindetaxe, Betrag je nach Gemeinde",
     "anm": "Gemeinde innert 30 Tagen und AMICUS"
+  },
+  "vermisst": {
+    "text": "Im Kanton Jura sagt der Service de la consommation et des affaires vétérinaires (SCAV, Veterinärdienst), wohin du dich wendest, wenn du deinen Hund verloren oder ein entlaufenes Tier gefunden hast.",
+    "punkte": [
+      "Hund verloren: Du kannst kostenlos eine Meldung auf der Website tierdatenbank.ch veröffentlichen.",
+      "Hund gefunden: Du kannst dich an die Association jurassienne de protection des animaux (AJPA, Tierschutzverein) wenden."
+    ],
+    "quellen": [
+      "ju_scav_faq"
+    ]
   }
 }
