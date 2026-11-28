@@ -2,7 +2,7 @@
   "id": "bs",
   "kurz": "BS",
   "uebersetzt_aus": "de",
-  "original": "ee965ead2837",
+  "original": "a353091049c5",
   "wald": {
     "saison": true,
     "von": "04-01",
@@ -160,7 +160,7 @@
     ]
   },
   "gewerbe": {
-    "text": "Nel Cantone di Basilea Città serve un'autorizzazione del Kantonales Veterinäramt (ufficio veterinario cantonale) a chi accudisce regolarmente più di 5 animali altrui al giorno (24 ore), vuole così realizzare un guadagno o almeno coprire le spese e pubblicizza il servizio. Come esempio l'ufficio cita i servizi di passeggiata per cani.",
+    "text": "Nel Cantone di Basilea Città serve un'autorizzazione del Kantonales Veterinäramt (ufficio veterinario cantonale) a chi accudisce a titolo professionale più di 5 animali altrui al giorno (24 ore). L'ufficio valuta l'obbligo di autorizzazione secondo tre criteri: offerta regolare, intenzione di realizzare un guadagno o di coprire le spese, pubblicità per il servizio. Come esempio l'ufficio cita i servizi di passeggiata per cani.",
     "punkte": [
       "Non conta se gli animali vengono accuditi contemporaneamente o uno dopo l'altro, a casa, nei locali del servizio o solo durante la passeggiata. I tuoi animali contano solo se sono tenuti nelle stesse strutture di quelli altrui.",
       "Presenti la richiesta, con una descrizione completa del servizio, al Veterinäramt, con il modulo «Bewilligungsgesuch Betreuung Tiere VABS» (richiesta di autorizzazione per l'accudimento di animali) e il modulo supplementare Personenblatt (scheda personale). Devi documentare l'accudimento indipendentemente dal numero di animali.",

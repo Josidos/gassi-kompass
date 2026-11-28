@@ -2,7 +2,7 @@
   "id": "bs",
   "kurz": "BS",
   "uebersetzt_aus": "de",
-  "original": "ee965ead2837",
+  "original": "a353091049c5",
   "wald": {
     "saison": true,
     "von": "04-01",
@@ -160,7 +160,7 @@
     ]
   },
   "gewerbe": {
-    "text": "Dans le canton de Bâle-Ville, une autorisation du Kantonales Veterinäramt (office vétérinaire cantonal) est nécessaire pour qui garde régulièrement plus de 5 animaux appartenant à des tiers par jour (24 heures), veut ainsi réaliser un bénéfice ou au moins couvrir les frais et fait de la publicité pour ce service. L'office cite comme exemple les services de promenade pour chiens.",
+    "text": "Dans le canton de Bâle-Ville, une autorisation du Kantonales Veterinäramt (office vétérinaire cantonal) est nécessaire pour qui garde à titre professionnel plus de 5 animaux appartenant à des tiers par jour (24 heures). L'office évalue l'obligation d'autorisation selon trois critères: offre régulière, intention de réaliser un bénéfice ou de couvrir les frais, publicité pour le service. L'office cite comme exemple les services de promenade pour chiens.",
     "punkte": [
       "Peu importe que les animaux soient gardés en même temps ou l'un après l'autre, à domicile, dans les locaux du service ou seulement en promenade. Les animaux que vous possédez ne comptent que s'ils sont détenus dans les mêmes structures que ceux des tiers.",
       "Vous déposez la demande, avec une description complète du service, auprès du Veterinäramt, avec le formulaire «Bewilligungsgesuch Betreuung Tiere VABS» (demande d'autorisation pour la garde d'animaux) et le formulaire complémentaire Personenblatt (fiche personnelle). Vous devez documenter la garde, quel que soit le nombre d'animaux.",

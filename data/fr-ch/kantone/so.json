@@ -2,7 +2,7 @@
   "id": "so",
   "kurz": "SO",
   "uebersetzt_aus": "de",
-  "original": "002a4abe4168",
+  "original": "5f86e3848b4c",
   "wald": {
     "saison": true,
     "von": "04-01",
@@ -146,7 +146,7 @@
     ]
   },
   "gewerbe": {
-    "text": "Dans le canton de Soleure, l'exercice à titre professionnel d'activités avec des animaux nécessite une autorisation du Veterinärdienst (service vétérinaire). Selon le Veterinärdienst, cela inclut les refuges pour animaux ou les services de garde d'animaux pour plus de cinq animaux en même temps.",
+    "text": "Dans le canton de Soleure, l'exercice à titre professionnel d'activités avec des animaux nécessite une autorisation du Veterinärdienst (service vétérinaire). Selon le Veterinärdienst, cela inclut les refuges pour animaux ou les services de garde d'animaux pour plus de cinq animaux.",
     "punkte": [
       "Vous déposez la demande pour l'activité prévue auprès du Veterinärdienst avant le début, pour examen. Le formulaire s'intitule «Bewilligungsgesuch für die Betreuung, Pflege, Zucht und Haltung von Heimtieren» (demande d'autorisation pour la garde, les soins, l'élevage et la détention d'animaux de compagnie); une fiche personnelle en fait partie.",
       "Outre les exigences relatives à l'infrastructure, une obligation de formation s'applique avant le début de l'activité. L'achèvement de la formation est la base de l'autorisation."
