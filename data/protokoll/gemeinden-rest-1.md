@@ -8,9 +8,12 @@
 - Neu: Monthey (VS), französische Originalfassung `data/fr-ch/gemeinden/vs/monthey.json`, Übersetzungen deutsch und italienisch. Vier lokale Angaben: Hundesteuer CHF 125 pro Hund ab 6 Monaten (erster Hund frei bei Ergänzungsleistungen AHV/IV, Zahlung bis 31. März), Anmeldung innert 15 Tagen bei der Police municipale, Leine an öffentlichen Orten, innerorts und bei Nutztieren, Bussen CHF 10 bis CHF 5'000 (Art. 81 des Polizeireglements). Neue Quellen: `vs_monthey_chiens` (Seite «Chiens, informations aux propriétaires»), `vs_monthey_police` (Règlement de police von Monthey, Collombey-Muraz, Massongex und Vérossaz, homologiert am 22. März 2022, Art. 36 und 81). Weggelassen: Freilaufzonen und konkrete Verbotsorte, beide Quellen nennen keine.
 - Renens (VD): zurückgestellt. Die Seite «Annoncer son chien» (`https://www.renens.ch/officielle/administration-communale/vos-demarches/annoncer-son-chien-2372`) und alle PDF auf renens.ch lieferten bei WebFetch einen Fehler der Website (client_error). Keine Angabe belegt.
 
+- Estavayer (FR): zurückgestellt. Belegt sind nur zwei lokale Angaben: Hundesteuer CHF 100 («Livret de bienvenue», Version Dezember 2025) und Anmeldung beim Contrôle des habitants vor der Anschaffung, Änderungen schriftlich innert 30 Tagen (Seite «Chiens» der Gemeinde). Leine, Verbotsorte und Bussen stehen im Règlement communal sur les chiens vom 26. März 2018 (`/fileadmin/user_upload/Nouvelle_arborescence/02_Administration/07_Police_communale/02_Animaux/2018_03_26_Reglement_chiens.pdf`) und im Règlement de police 2023 (`/fileadmin/user_upload/Nouvelle_arborescence/02_Administration/04_Reglement_Tarifs/04_Police/Reglement_de_Police_2023.pdf`), beide auf estavayer.ch. WebFetch gab beide Adressen nicht frei, zwei Suchen fanden sie nicht als Treffer.
+
 ## Backlog
 
 - Vevey (VD): erledigt.
 - Monthey (VS): erledigt.
 - Renens (VD): zurückgestellt am 2026-11-28, renens.ch für WebFetch nicht erreichbar. Nächster Versuch im Browser: Seite «Annoncer son chien» (Adresse oben) und Règlement de police der Gemeinde.
+- Estavayer (FR): zurückgestellt am 2026-11-28, nur zwei Angaben belegt (Steuer CHF 100, Anmeldung). Nächster Versuch im Browser: die beiden Reglemente (Adressen oben im Protokoll) für Leine, Verbotsorte und Bussen.
 - Lücke Vevey (für `backlog/luecken.md`): Hundesteuer fehlt (Arrêté d'imposition 2026 oder die Tabelle des Kantons suchen); Quelle `vd_riviera_police` auf die Fassung mit Änderung vom 10. Juni 2021 umstellen.
