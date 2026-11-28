@@ -5,9 +5,10 @@
 // Geprüft wird: Seite lädt, keine Skriptfehler, kein seitliches Überlaufen, genau eine Hauptüberschrift,
 // alle internen Links und Dateien existieren, der Wald-Status wird gesetzt, die Ortssuche findet Orte
 // und führt auf die richtige Seite, jede Themenseite führt jeden Kanton ihrer Sprache mit Quelle auf,
-// jede Startseite zeigt 26 Kantonstafeln, das Gemeindeverzeichnis und sieben Thementafeln.
-// Die Themenseite «vermisst» führt die Karte des Bundes und jeden Kanton mit dem Feld 'vermisst' samt Quelle,
-// eine Kantonsseite zeigt den Abschnitt genau dann, wenn ihre Datei das Feld hat.
+// jede Startseite zeigt 26 Kantonstafeln, das Gemeindeverzeichnis und eine Thementafel je Themenseite.
+// Die Themenseiten nach Feld («vermisst», «gewerbe») führen zuoberst die Karte des Bundes und jeden Kanton mit
+// dem Feld samt Quelle, eine Kantonsseite zeigt Abschnitt und Eintrag der Sprungleiste genau dann, wenn ihre Datei
+// das Feld hat. «Hundepension» findet /thema/gewerbe/.
 // Jede Kantonsseite hat genau einen Abschnitt #neuer-hund mit sechs Schritten, deren Links auf eine id derselben
 // Seite führen, die es genau einmal gibt. Keine id kommt auf einer Seite doppelt vor. Jede Seite beginnt mit dem
 // Sprunglink «Zum Inhalt», und sein Ziel gibt es. Jede Gemeindeseite hat «Auf einen Blick» mit einer Zeile je lokaler
@@ -31,6 +32,10 @@ const lies = (...teile) => JSON.parse(fs.readFileSync(path.join(ROOT, ...teile),
 // Sprachen in der Reihenfolge, in der die Suche ausweicht: [Sprache, Präfix der Adresse, Datenordner, lang im HTML]
 const SPRACHEN = [['de', '', ['data'], 'de-CH'], ['fr', '/fr-ch', ['data', 'fr-ch'], 'fr-CH'], ['it', '/it-ch', ['data', 'it-ch'], 'it-CH']];
 const sollLang = s => (SPRACHEN.find(x => x[1] && s.startsWith(x[1] + '/')) || SPRACHEN[0])[3];
+// Themen aus build.py: Zahl der Themenseiten und die wahlweisen Felder der Kantone mit eigener Themenseite
+const THEMEN_PY = fs.readFileSync(path.join(ROOT, 'build.py'), 'utf8').match(/^THEMEN = \[([\s\S]*?)^\]/m)[1];
+const THEMEN = (THEMEN_PY.match(/\{"id": "/g) || []).length;
+const FELDER = [...THEMEN_PY.matchAll(/"feld": "([a-z-]+)"/g)].map(m => m[1]);
 const ordner = (...teile) => { const p = path.join(ROOT, ...teile); return fs.existsSync(p) ? fs.readdirSync(p) : []; };
 
 function datei(url) {
@@ -120,15 +125,19 @@ function datei(url) {
       const sprache = SPRACHEN.find(x => s.startsWith(x[1] + '/thema/'));
       if (s === (SPRACHEN.find(x => x[1] && s.startsWith(x[1] + '/')) || SPRACHEN[0])[1] + '/') {
         const st = await page.evaluate(() => ({ kantone: document.querySelectorAll('.raster a').length, themen: document.querySelectorAll('.topics a').length, gemeinden: document.querySelectorAll('.index a').length, tabellen: document.querySelectorAll('table').length }));
-        if (st.kantone !== 26 || st.themen !== 7 || !st.gemeinden || st.tabellen) fehler.push(`${wo}: Startseite mit ${st.kantone} Kantonstafeln, ${st.themen} Thementafeln, ${st.gemeinden} Links im Gemeindeverzeichnis, ${st.tabellen} Tabellen (soll: 26, 7, mindestens 1, 0)`);
+        if (st.kantone !== 26 || st.themen !== THEMEN || !st.gemeinden || st.tabellen) fehler.push(`${wo}: Startseite mit ${st.kantone} Kantonstafeln, ${st.themen} Thementafeln, ${st.gemeinden} Links im Gemeindeverzeichnis, ${st.tabellen} Tabellen (soll: 26, ${THEMEN}, mindestens 1, 0)`);
       }
       const kt = s.match(/^(\/fr-ch|\/it-ch)?\/([a-z]{2})\/$/);
       if (kt) {
         const dir = SPRACHEN.find(x => x[1] === (kt[1] || ''))[2];
         if (fs.existsSync(path.join(ROOT, ...dir, 'kantone', kt[2] + '.json'))) {
-          const soll = lies(...dir, 'kantone', kt[2] + '.json').vermisst ? 1 : 0;
-          const ist = await page.evaluate(() => document.querySelectorAll('[data-vermisst]').length);
-          if (ist !== soll) fehler.push(`${wo}: ${ist} Abschnitte «vermisst», die Datei verlangt ${soll}`);
+          for (const feld of FELDER) {
+            const soll = lies(...dir, 'kantone', kt[2] + '.json')[feld] ? 1 : 0;
+            const ist = await page.evaluate(f => document.querySelectorAll(`[data-${f}]`).length, feld);
+            const abschnitt = await page.evaluate(f => !!document.querySelector(`section#${f}`), feld);
+            const sprung = await page.evaluate(f => !!document.querySelector(`nav.sprung a[href="#${f}"]`), feld);
+            if (ist !== soll || abschnitt !== !!soll || sprung !== !!soll) fehler.push(`${wo}: ${ist} Abschnitte «${feld}» (Sprungleiste: ${sprung}), die Datei verlangt ${soll}`);
+          }
           const sollD = lies(...dir, 'kantone', kt[2] + '.json').durchsicht ? 1 : 0;
           const istD = await page.evaluate(() => document.querySelectorAll('[data-durchsicht]').length);
           if (istD !== sollD) fehler.push(`${wo}: ${istD} Hinweise «durchsicht», die Datei verlangt ${sollD}`);
@@ -197,10 +206,11 @@ function datei(url) {
           }
         }
       }
-      if (sprache && s.endsWith('/thema/vermisst/')) {
-        const soll = ordner(...sprache[2], 'kantone').filter(f => f.endsWith('.json') && lies(...sprache[2], 'kantone', f).vermisst).length;
-        const t = await page.evaluate(() => ({ kantone: document.querySelectorAll('details.kt-zeile[data-vermisst]').length, mitQuelle: [...document.querySelectorAll('details.kt-zeile[data-vermisst]')].filter(x => x.querySelector('.kt-inhalt .src a') && x.querySelector('.kt-inhalt a.text-link')).length, bund: document.querySelectorAll('.card .src a').length, zuerst: !!document.querySelector('.card') && !!document.querySelector('.kt-zeile') && !!(document.querySelector('.card').compareDocumentPosition(document.querySelector('.kt-zeile')) & Node.DOCUMENT_POSITION_FOLLOWING), tabellen: document.querySelectorAll('table').length }));
-        if (t.kantone !== soll || t.mitQuelle !== soll) fehler.push(`${wo}: ${t.kantone} Zeilen, davon ${t.mitQuelle} mit Quelle und Link, statt ${soll} (jeder Kanton mit dem Feld 'vermisst')`);
+      const feldThema = sprache && FELDER.find(f => s.endsWith(`/thema/${f}/`));
+      if (feldThema) {
+        const soll = ordner(...sprache[2], 'kantone').filter(f => f.endsWith('.json') && lies(...sprache[2], 'kantone', f)[feldThema]).length;
+        const t = await page.evaluate(f => ({ kantone: document.querySelectorAll(`details.kt-zeile[data-${f}]`).length, mitQuelle: [...document.querySelectorAll(`details.kt-zeile[data-${f}]`)].filter(x => x.querySelector('.kt-inhalt .src a') && x.querySelector('.kt-inhalt a.text-link')).length, bund: document.querySelectorAll('.card .src a').length, zuerst: !!document.querySelector('.card') && (!document.querySelector('.kt-zeile') || !!(document.querySelector('.card').compareDocumentPosition(document.querySelector('.kt-zeile')) & Node.DOCUMENT_POSITION_FOLLOWING)), tabellen: document.querySelectorAll('table').length }), feldThema);
+        if (t.kantone !== soll || t.mitQuelle !== soll) fehler.push(`${wo}: ${t.kantone} Zeilen, davon ${t.mitQuelle} mit Quelle und Link, statt ${soll} (jeder Kanton mit dem Feld '${feldThema}')`);
         if (!t.bund || !t.zuerst || t.tabellen) fehler.push(`${wo}: Karte des Bundes mit Quelle fehlt oder steht nicht zuoberst, oder die Seite hat eine Tabelle`);
       } else if (sprache) {
         const kantone = ordner(...sprache[2], 'kantone').filter(f => f.endsWith('.json')).map(f => f.slice(0, -5));
@@ -210,7 +220,8 @@ function datei(url) {
         if (t.mitQuelle !== kantone.length) fehler.push(`${wo}: ${kantone.length - t.mitQuelle} Zeilen ohne Quelle, Marke oder Link zur Kantonsseite, oder mit Link in der summary`);
         if (t.karten || t.tabellen) fehler.push(`${wo}: ${t.karten} Karten und ${t.tabellen} Tabellen (soll: keine)`);
       }
-      if (sprache && breite === 390) {
+      // Nur wo es die Zeile von Zürich gibt (eine Seite nach Feld führt nur Kantone mit dem Feld)
+      if (sprache && breite === 390 && await page.$('#kt-zh')) {
         // Sprung auf einen Kanton: …/#kt-zh klappt genau diese Zeile auf
         await page.goto(basis + s + '#kt-zh', { waitUntil: 'load' });
         await page.waitForTimeout(100);
@@ -416,6 +427,8 @@ function datei(url) {
   // Wörter, die nichts eingrenzen, fallen weg: Die Themenseite steht trotz «mein Hund» zuoberst
   const frei = await seitenSuche(start, 'mein Hund ist entlaufen');
   if (!frei.length || frei[0].href !== '/thema/vermisst/') fehler.push(`Suche: «mein Hund ist entlaufen» nennt zuerst ${frei[0] ? frei[0].href : 'nichts'} statt /thema/vermisst/`);
+  const pension = await seitenSuche(start, 'Hundepension');
+  if (!pension.some(x => x.href === '/thema/gewerbe/')) fehler.push(`Suche: «Hundepension» führt nicht auf /thema/gewerbe/ (Treffer: ${pension.map(x => x.href).join(', ') || 'keine'})`);
   const winti = eigene.find(g => g.l === 'de' && g.id === 'winterthur') ? 'Winterthur' : (eigene[0] && name(eigene[0]));
   if (winti) {
     await seitenSuche(start, winti);

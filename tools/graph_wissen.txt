@@ -132,8 +132,8 @@ E | handbuch_generator_übersetzungen_im_generator_gebaut_am_18_november_2026 | 
 
 E | handbuch_generator_themenseiten_gebaut_am_18_november_2026 | describes | build_seite_thema
 E | handbuch_generator_themenseiten_gebaut_am_18_november_2026 | describes | build_seite_thema_feld
-E | handbuch_generator_themenseiten_gebaut_am_18_november_2026 | describes | build_vermisst
-E | handbuch_generator_themenseiten_gebaut_am_18_november_2026 | describes | build_abschnitt_vermisst
+E | handbuch_generator_themenseiten_gebaut_am_18_november_2026 | describes | build_feld_liste
+E | handbuch_generator_themenseiten_gebaut_am_18_november_2026 | describes | build_abschnitt_feld
 E | handbuch_generator_themenseiten_gebaut_am_18_november_2026 | describes | build_themenkacheln
 E | handbuch_generator_themenseiten_gebaut_am_18_november_2026 | describes | build_themenleiste
 E | handbuch_generator_themenseiten_gebaut_am_18_november_2026 | conceptually_related_to | backlog_9_neue_themenfelder
@@ -174,11 +174,16 @@ E | claude_was_nur_joss_tun_kann | conceptually_related_to | backlog_7_braucht_z
 E | claude_freigaben | conceptually_related_to | backlog_8_später_nur_nach_freigabe_von_joss
 
 # ---------------------------------------------------------------- Daten und Code
-E | feld_vermisst | implemented_by | build_vermisst
-E | feld_vermisst | implemented_by | build_abschnitt_vermisst
+E | feld_vermisst | implemented_by | build_feld_liste
+E | feld_vermisst | implemented_by | build_abschnitt_feld
 E | feld_vermisst | implemented_by | build_seite_thema_feld
 E | feld_vermisst | described_in | claude_datenfelder_kanton
 E | feld_vermisst | tracked_in | backlog_9_1_hund_vermisst_oder_gefunden
+E | feld_gewerbe | implemented_by | build_feld_liste
+E | feld_gewerbe | implemented_by | build_abschnitt_feld
+E | feld_gewerbe | implemented_by | build_seite_thema_feld
+E | feld_gewerbe | described_in | claude_datenfelder_kanton
+E | feld_gewerbe | tracked_in | backlog_9_4_thema_2_hunde_betreuen_und_ausbilden_als_beruf
 E | feld_umzug | described_in | claude_datenfelder_kanton
 E | feld_durchsicht | implemented_by | build_hinweis_durchsicht
 E | feld_durchsicht | described_in | claude_datenfelder_kanton

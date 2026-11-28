@@ -116,6 +116,29 @@
       "quellen": [
         "ch_chch_objets"
       ]
+    },
+    {
+      "id": "gewerbe",
+      "titel": "Garder des chiens à titre professionnel",
+      "marke": "Autorisation",
+      "ton": "must",
+      "wert": "Plus de 5 animaux par jour",
+      "text": "Quiconque prend en charge des animaux de tiers à titre professionnel doit être titulaire d'une autorisation du service vétérinaire cantonal dès plus de 5 animaux par jour (24 heures). Cela vaut aussi pour les pensions et refuges pour animaux de plus de 5 places. La prise en charge de 5 animaux au maximum n'est pas soumise à autorisation. La demande est adressée avec le formulaire au service cantonal chargé de la protection des animaux, avant le début de l'activité. L'autorisation est délivrée pour 10 ans au maximum.",
+      "mehr": {
+        "titel": "Formation et élevage",
+        "punkte": [
+          "Jusqu'à 5 chiens : la législation sur la protection des animaux ne prévoit pas de formation pour la prise en charge de chiens",
+          "6 à 19 animaux ou places : formation spécifique indépendante d'une formation professionnelle (FSIFP), avec un cours d'au moins 40 heures et un stage de 360 heures au minimum",
+          "Plus de 19 animaux : un gardien d'animaux formé doit assumer la responsabilité",
+          "Élevage : plus de 20 chiens ou plus de 3 portées remis à des tiers par an demandent une autorisation cantonale et une formation spécifique reconnue par l'OSAV",
+          "Promenade de chiens : renseignez-vous auprès du service vétérinaire de votre canton de domicile pour savoir s'il faut une autorisation. Dans certains cantons, une formation est obligatoire pour sortir plusieurs chiens en même temps",
+          "Des dispositions supplémentaires découlant de la législation cantonale sur les chiens peuvent s'appliquer"
+        ]
+      },
+      "quellen": [
+        "ch_blv_garde",
+        "ch_blv_chiens"
+      ]
     }
   ]
 }

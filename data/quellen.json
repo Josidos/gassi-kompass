@@ -1341,5 +1341,23 @@
     "kurz": "SCAV VS: animaux perdus ou retrouvés",
     "lang": "Canton du Valais, Service de la consommation et affaires vétérinaires: Animaux perdus ou retrouvés (consulté le 27 novembre 2026)",
     "url": "https://www.vs.ch/web/scav/veterinaire/animaux-perdus-retrouv%C3%A9s"
+  },
+  "ch_blv_betreuung": {
+    "kurz": "BLV: Betreuung fremder Heimtiere",
+    "lang": "Bundesamt für Lebensmittelsicherheit und Veterinärwesen BLV: Fachinformation Tierschutz Nr. 12.4, Anforderungen für die Betreuung fremder Heimtiere (September 2025)",
+    "url": "https://www.blv.admin.ch/dam/de/sd-web/8JlYBZ6JjEhb/fachinformation-12.4-de.pdf",
+    "uebersicht": "https://www.blv.admin.ch/de/hunde"
+  },
+  "ch_blv_garde": {
+    "kurz": "OSAV : prise en charge d'animaux de tiers",
+    "lang": "Office fédéral de la sécurité alimentaire et des affaires vétérinaires OSAV : Fiche thématique Protection des animaux n° 12.4, Exigences concernant la prise en charge d'animaux de compagnie de tiers (septembre 2025)",
+    "url": "https://www.blv.admin.ch/dam/fr/sd-web/8JlYBZ6JjEhb/fachinformation-12.4-fr.pdf",
+    "uebersicht": "https://www.blv.admin.ch/fr/chiens"
+  },
+  "ch_blv_accudimento": {
+    "kurz": "USAV: accudimento di animali di terzi",
+    "lang": "Ufficio federale della sicurezza alimentare e di veterinaria USAV: Informazioni tecniche Protezione degli animali n. 12.4, Requisiti per l'accudimento di animali da compagnia di terzi (settembre 2025)",
+    "url": "https://www.blv.admin.ch/dam/it/sd-web/8JlYBZ6JjEhb/fachinformation-12.4-it.pdf",
+    "uebersicht": "https://www.blv.admin.ch/it/cani"
   }
 }

@@ -116,6 +116,29 @@
       "quellen": [
         "ch_chch_fund"
       ]
+    },
+    {
+      "id": "gewerbe",
+      "titel": "Hunde betreuen als Beruf",
+      "marke": "Bewilligung",
+      "ton": "must",
+      "wert": "Ab mehr als 5 Tieren pro Tag",
+      "text": "Wer gewerbsmässig fremde Tiere betreut, braucht eine Bewilligung des kantonalen Veterinärdienstes, sobald es mehr als 5 Tiere pro Tag (24 Stunden) sind. Das gilt für Tierheime und Tierpensionen mit mehr als 5 Plätzen und für Betreuungsdienste wie Petsitting, Hundehort oder Spazierdienst für Hunde. Bis 5 fremde Tiere braucht es keine Bewilligung. Das Gesuch geht vor dem Start mit dem Formular an die kantonale Tierschutzfachstelle. Die Bewilligung gilt höchstens 10 Jahre.",
+      "mehr": {
+        "titel": "Ausbildung und Zucht",
+        "punkte": [
+          "Bis 5 Hunde: Das Tierschutzrecht schreibt für die Betreuung von Hunden keine Ausbildung vor",
+          "6 bis 19 Tiere oder Plätze: fachspezifische berufsunabhängige Ausbildung (FBA) mit mindestens 40 Stunden Kurs und 360 Stunden Praktikum",
+          "Mehr als 19 Tiere oder Plätze: Betreuung unter der Verantwortung einer ausgebildeten Fachperson für Tierpflege",
+          "Zucht: Wer pro Jahr mehr als 20 Hunde oder mehr als drei Würfe abgibt, braucht eine kantonale Bewilligung und eine vom BLV anerkannte FBA",
+          "Spazierdienst: Der Veterinärdienst deines Wohnkantons sagt dir, ob du eine Bewilligung brauchst. In einigen Kantonen gilt für das gleichzeitige Ausführen mehrerer Hunde eine Ausbildungspflicht",
+          "In einigen Kantonen gelten nach dem Hundegesetz weitere Vorgaben"
+        ]
+      },
+      "quellen": [
+        "ch_blv_betreuung",
+        "ch_blv_hunde"
+      ]
     }
   ]
 }

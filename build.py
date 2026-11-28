@@ -75,7 +75,10 @@ THEMEN = [
     {"id": "anmeldung", "key": "anm", "karte": 2},
     # feld: Die Seite vergleicht nicht, sie führt je Kanton das wahlweise Feld dieses Namens auf (seite_thema_feld).
     {"id": "vermisst", "feld": "vermisst"},
+    {"id": "gewerbe", "feld": "gewerbe"},
 ]
+# Wahlweise Felder der Kantone mit eigener Themenseite und eigenem Abschnitt auf der Kantonsseite.
+FELDER = [t["feld"] for t in THEMEN if t.get("feld")]
 # Feste Anker der sechs Karten auf der Kantonsseite, nach Position (nicht nach Titel), in jeder Sprache gleich.
 # Der Kasten zur Leine im Wald heisst dort "wald". Nur auf der Kantonsseite, sonst stünden sie mehrfach.
 KARTEN_ANKER = ["haftpflicht", "kurs", "anmeldung", "hundesteuer", "rassen", "unterwegs"]
@@ -178,7 +181,7 @@ TEXTE = {
         "stempel": "Angaben geprüft am {d}",
         "quelle": "Quelle:", "quellen": "Quellen:",
         "sprung": {"label": "Auf dieser Seite", "wald": "Wald", "leine": "Leine und Zutritt", "pflichten": "Pflichten",
-                   "neuer-hund": "Neu einen Hund", "vermisst": "Vermisst", "gemeinden": "Gemeinden", "themen": "Themen",
+                   "neuer-hund": "Neu einen Hund", "vermisst": "Vermisst", "gewerbe": "Beruf", "gemeinden": "Gemeinden", "themen": "Themen",
                    "kantone": "Kantone", "quellen": "Quellen"},
         "fuss_recht": "<strong>Keine Rechtsberatung.</strong> Massgebend sind Gesetz, Verordnung und die Schilder vor Ort. Gassi-Kompass ist ein privates Projekt und kein Angebot eines Kantons oder einer Gemeinde.",
         "fuss_fehler": "Stimmt etwas nicht oder fehlt etwas? Schreib an {mail}.",
@@ -230,6 +233,7 @@ TEXTE = {
         "pflichten_h2": "Pflichten für Hundehaltende",
         "umzug": "Umzug in den {name}:",
         "vermisst_h2": "Hund vermisst oder gefunden {im}",
+        "gewerbe_h2": "Hunde betreuen und ausbilden als Beruf {im}",
         "neu_h2": "Neu einen Hund {im}: die Schritte",
         "neu_p": "Du hast einen Hund übernommen oder holst bald einen zu dir? Hier stehen die Angaben dieser Seite in der Reihenfolge, in der sie für dich wichtig werden. Einzelheiten und Quellen findest du beim jeweiligen Punkt.",
         "neu_wald": "Leine im Wald",
@@ -266,7 +270,7 @@ TEXTE = {
         "start_gm_h2": "Gemeinden mit lokalen Regeln",
         "start_gm_p": "Für diese Gemeinden findest du zusätzlich lokale Angaben, zum Beispiel Hundetaxe, Leinenzonen oder Freilaufzonen. Für alle anderen gelten die Regeln des Kantons.",
         "start_vg_h2": "Kantone vergleichen",
-        "start_vg_p": "Sieben Themen, Kanton für Kanton. Hilfreich, wenn du umziehst oder wissen willst, wie es anderswo geregelt ist.",
+        "start_vg_p": "Jedes Thema Kanton für Kanton. Hilfreich, wenn du umziehst oder wissen willst, wie es anderswo geregelt ist.",
         "vg_kanton": "Kanton",
         "start_titel": "Hunderegeln Schweiz nach Kanton und Gemeinde | Gassi-Kompass",
         "start_beschr": "Gemeinde oder Postleitzahl eingeben und sehen, was für Hunde gilt: Leinenpflicht, Haftpflicht, Kurse und Hundesteuer. Mit amtlicher Quelle zu jeder Angabe.",
@@ -308,6 +312,7 @@ TEXTE = {
             "liste_p": "Wähle einen Kanton für Einzelheiten und Quellen. Gemeinden können zusätzliche Regeln haben.",
             "zum_kanton": "Alle Regeln {im}",
             "uebrige": "Die übrigen Kantone, mit allen Regeln auf ihrer Seite:",
+            "alle_kt": "Alle Regeln jedes Kantons stehen auf seiner Seite:",
             "weitere_h2": "Weitere Themen",
             "alle": "alle Kantone",
             "wald_zahl": "In {m} der {n} Kantone gilt im Wald eine Leinenpflicht zu festen Daten{zeit}.",
@@ -353,6 +358,18 @@ TEXTE = {
                 "kurz": "Was ein Hund pro Jahr kostet und wer den Betrag festlegt.",
                 "sonst": "Je nach Kanton legt der Kanton oder die Gemeinde den Betrag fest.",
                 "beschr": "Hundesteuer in der Schweiz: was ein Hund pro Jahr kostet und wer den Betrag festlegt, Kanton für Kanton. Mit amtlicher Quelle zu jeder Angabe."
+            },
+            "gewerbe": {
+                "name": "Hunde betreuen und ausbilden als Beruf",
+                "kurz": "Wann Hundepension, Hundesitting oder Zucht eine Bewilligung brauchen und wo du sie beantragst.",
+                "unter": "nach Kanton",
+                "h1": "Hunde betreuen und ausbilden als Beruf: Bewilligungen",
+                "titel": "Hundepension, Hundesitter, Hundeschule: Bewilligung nach Kanton | Gassi-Kompass",
+                "lede": "Was gilt, wenn du gegen Entgelt fremde Hunde betreust, ausführst, ausbildest oder Hunde züchtest: wann es eine Bewilligung braucht und bei welcher Stelle du sie beantragst.",
+                "bund_h2": "In der ganzen Schweiz",
+                "kt_h2": "Nach Kanton",
+                "kt_p": "Wähle einen Kanton für Einzelheiten und Quellen.",
+                "beschr": "Hundepension, Hundetagesstätte, Hundesitter und Hundeschule in der Schweiz: wann es eine Bewilligung braucht und wo du sie beantragst. Mit amtlicher Quelle zu jeder Angabe."
             },
             "vermisst": {
                 "name": "Hund vermisst oder gefunden",
@@ -414,7 +431,7 @@ TEXTE = {
         "stempel": "Vérifié le {d}",
         "quelle": "Source :", "quellen": "Sources :",
         "sprung": {"label": "Sur cette page", "wald": "Forêt", "leine": "Laisse et accès", "pflichten": "Obligations",
-                   "neuer-hund": "Nouveau chien", "vermisst": "Chien perdu", "gemeinden": "Communes", "themen": "Thèmes",
+                   "neuer-hund": "Nouveau chien", "vermisst": "Chien perdu", "gewerbe": "Métier", "gemeinden": "Communes", "themen": "Thèmes",
                    "kantone": "Cantons", "quellen": "Sources"},
         "fuss_recht": "<strong>Pas un conseil juridique.</strong> Font foi la loi, l'ordonnance et la signalisation sur place. Gassi-Kompass est un projet privé et non une offre d'un canton ou d'une commune.",
         "fuss_fehler": "Une erreur ou un oubli ? Écrivez à {mail}.",
@@ -466,6 +483,7 @@ TEXTE = {
         "pflichten_h2": "Obligations des détenteurs de chiens",
         "umzug": "Déménagement {im} :",
         "vermisst_h2": "Chien perdu ou trouvé {im}",
+        "gewerbe_h2": "Garder et éduquer des chiens à titre professionnel {im}",
         "neu_h2": "Nouveau chien {im} : les étapes",
         "neu_p": "Vous avez pris en charge un chien ou vous en accueillez bientôt un ? Voici les informations de cette page dans l'ordre où elles deviennent importantes pour vous. Les détails et les sources se trouvent sous chaque point.",
         "neu_wald": "Laisse en forêt",
@@ -502,7 +520,7 @@ TEXTE = {
         "start_gm_h2": "Communes avec règles locales",
         "start_gm_p": "Pour ces communes, vous trouvez en plus des indications locales, par exemple l'impôt sur les chiens, les lieux où la laisse est obligatoire ou les espaces de liberté. Pour toutes les autres, les règles du canton s'appliquent.",
         "start_vg_h2": "Comparer les cantons",
-        "start_vg_p": "Sept thèmes, canton par canton. Utile si vous déménagez ou si vous voulez savoir comment c'est réglé ailleurs.",
+        "start_vg_p": "Chaque thème, canton par canton. Utile si vous déménagez ou si vous voulez savoir comment c'est réglé ailleurs.",
         "vg_kanton": "Canton",
         "start_titel": "Règles pour les chiens en Suisse par canton et par commune | Gassi-Kompass",
         "start_beschr": "Saisissez une commune ou un code postal et voyez ce qui vaut pour les chiens : laisse obligatoire, assurance responsabilité civile, cours et impôt sur les chiens. Avec la source officielle de chaque indication.",
@@ -544,6 +562,7 @@ TEXTE = {
             "liste_p": "Choisissez un canton pour les détails et les sources. Les communes peuvent avoir des règles supplémentaires.",
             "zum_kanton": "Toutes les règles {im}",
             "uebrige": "Les autres cantons, avec toutes leurs règles sur leur page :",
+            "alle_kt": "Toutes les règles de chaque canton figurent sur sa page :",
             "weitere_h2": "Autres thèmes",
             "alle": "tous les cantons",
             "wald_zahl": "Dans {m} des {n} cantons, la laisse est obligatoire en forêt à des dates fixes{zeit}.",
@@ -589,6 +608,18 @@ TEXTE = {
                 "kurz": "Ce que coûte un chien par an et qui fixe le montant.",
                 "sonst": "Selon le canton, le montant est fixé par le canton ou par la commune.",
                 "beschr": "Impôt sur les chiens en Suisse : ce que coûte un chien par an et qui fixe le montant, canton par canton. Avec la source officielle de chaque indication."
+            },
+            "gewerbe": {
+                "name": "Garder et éduquer des chiens à titre professionnel",
+                "kurz": "Quand une pension, la garde de chiens ou l'élevage demandent une autorisation et où la demander.",
+                "unter": "par canton",
+                "h1": "Garder et éduquer des chiens à titre professionnel : autorisations",
+                "titel": "Pension pour chiens, garde, éducation canine : autorisation par canton | Gassi-Kompass",
+                "lede": "Ce qui s'applique si vous gardez, promenez ou éduquez des chiens de tiers contre rémunération, ou si vous élevez des chiens : quand il faut une autorisation et à quel service la demander.",
+                "bund_h2": "Dans toute la Suisse",
+                "kt_h2": "Par canton",
+                "kt_p": "Choisissez un canton pour les détails et les sources.",
+                "beschr": "Pension pour chiens, garderie, garde de chiens et éducation canine en Suisse : quand il faut une autorisation et où la demander. Avec la source officielle de chaque indication."
             },
             "vermisst": {
                 "name": "Chien perdu ou trouvé",
@@ -650,7 +681,7 @@ TEXTE = {
         "stempel": "Verificato il {d}",
         "quelle": "Fonte:", "quellen": "Fonti:",
         "sprung": {"label": "In questa pagina", "wald": "Bosco", "leine": "Guinzaglio e accesso", "pflichten": "Obblighi",
-                   "neuer-hund": "Nuovo cane", "vermisst": "Cane smarrito", "gemeinden": "Comuni", "themen": "Temi",
+                   "neuer-hund": "Nuovo cane", "vermisst": "Cane smarrito", "gewerbe": "Professione", "gemeinden": "Comuni", "themen": "Temi",
                    "kantone": "Cantoni", "quellen": "Fonti"},
         "fuss_recht": "<strong>Nessuna consulenza legale.</strong> Fanno stato la legge, l'ordinanza e la segnaletica sul posto. Gassi-Kompass è un progetto privato e non un'offerta di un Cantone o di un Comune.",
         "fuss_fehler": "Qualcosa non è corretto o manca? Scrivi a {mail}.",
@@ -702,6 +733,7 @@ TEXTE = {
         "pflichten_h2": "Obblighi per chi detiene un cane",
         "umzug": "Trasloco {im}:",
         "vermisst_h2": "Cane smarrito o trovato {im}",
+        "gewerbe_h2": "Custodire ed educare cani per professione {im}",
         "neu_h2": "Un nuovo cane {im}: i passi",
         "neu_p": "Hai preso a carico un cane o ne accogli presto uno? Qui trovi le indicazioni di questa pagina nell'ordine in cui diventano importanti per te. Dettagli e fonti si trovano al punto corrispondente.",
         "neu_wald": "Guinzaglio nel bosco",
@@ -738,7 +770,7 @@ TEXTE = {
         "start_gm_h2": "Comuni con regole locali",
         "start_gm_p": "Per questi Comuni trovi anche indicazioni locali, per esempio l'imposta sui cani, i luoghi con obbligo di guinzaglio o le aree di svago per cani. Per tutti gli altri valgono le regole del Cantone.",
         "start_vg_h2": "Confrontare i Cantoni",
-        "start_vg_p": "Sette temi, Cantone per Cantone. Utile se ti trasferisci o vuoi sapere com'è regolato altrove.",
+        "start_vg_p": "Ogni tema, Cantone per Cantone. Utile se ti trasferisci o vuoi sapere com'è regolato altrove.",
         "vg_kanton": "Cantone",
         "start_titel": "Regole per i cani in Svizzera per Cantone e Comune | Gassi-Kompass",
         "start_beschr": "Inserisci un Comune o un numero postale di avviamento e vedi cosa vale per i cani: obbligo di guinzaglio, responsabilità civile, corsi e imposta sui cani. Con la fonte ufficiale per ogni indicazione.",
@@ -780,6 +812,7 @@ TEXTE = {
             "liste_p": "Scegli un Cantone per i dettagli e le fonti. I Comuni possono avere regole supplementari.",
             "zum_kanton": "Tutte le regole {im}",
             "uebrige": "Gli altri Cantoni, con tutte le regole sulla loro pagina:",
+            "alle_kt": "Tutte le regole di ogni Cantone sono sulla sua pagina:",
             "weitere_h2": "Altri temi",
             "alle": "tutti i Cantoni",
             "wald_zahl": "In {m} dei {n} Cantoni vale nel bosco un obbligo di guinzaglio a date fisse{zeit}.",
@@ -825,6 +858,18 @@ TEXTE = {
                 "kurz": "Quanto costa un cane all'anno e chi fissa l'importo.",
                 "sonst": "A seconda del Cantone, l'importo è fissato dal Cantone o dal Comune.",
                 "beschr": "Imposta sui cani in Svizzera: quanto costa un cane all'anno e chi fissa l'importo, Cantone per Cantone. Con la fonte ufficiale per ogni indicazione."
+            },
+            "gewerbe": {
+                "name": "Custodire ed educare cani per professione",
+                "kurz": "Quando pensione, custodia di cani o allevamento richiedono un'autorizzazione e dove chiederla.",
+                "unter": "per Cantone",
+                "h1": "Custodire ed educare cani per professione: autorizzazioni",
+                "titel": "Pensione per cani, dog sitter, educazione cinofila: autorizzazione per Cantone | Gassi-Kompass",
+                "lede": "Cosa vale se custodisci, porti a passeggio o educhi cani di terzi dietro compenso, o se allevi cani: quando serve un'autorizzazione e a quale servizio chiederla.",
+                "bund_h2": "In tutta la Svizzera",
+                "kt_h2": "Per Cantone",
+                "kt_p": "Scegli un Cantone per i dettagli e le fonti.",
+                "beschr": "Pensione per cani, asilo, dog sitter ed educazione cinofila in Svizzera: quando serve un'autorizzazione e dove chiederla. Con la fonte ufficiale per ogni indicazione."
             },
             "vermisst": {
                 "name": "Cane smarrito o trovato",
@@ -1354,15 +1399,17 @@ def pruefe(quellen, welt, bund, orte):
                 if not k["umzug"].get("text"):
                     fehler.append(f"{wo}, umzug: 'text' fehlt")
                 qs(k["umzug"].get("quellen"), f"{wo}, umzug")
-            if "vermisst" in k:
-                v = k["vermisst"]
+            for feld in FELDER:
+                if feld not in k:
+                    continue
+                v = k[feld]
                 if not isinstance(v, dict) or not str(v.get("text", "")).strip():
-                    fehler.append(f"{wo}, vermisst: 'text' fehlt")
+                    fehler.append(f"{wo}, {feld}: 'text' fehlt")
                     v = {}
                 if "punkte" in v and not (isinstance(v["punkte"], list) and v["punkte"]
                                           and all(isinstance(p, str) and p.strip() for p in v["punkte"])):
-                    fehler.append(f"{wo}, vermisst: 'punkte' ist eine Liste mit mindestens einem Text oder fehlt ganz")
-                qs(v.get("quellen"), f"{wo}, vermisst")
+                    fehler.append(f"{wo}, {feld}: 'punkte' ist eine Liste mit mindestens einem Text oder fehlt ganz")
+                qs(v.get("quellen"), f"{wo}, {feld}")
             if "durchsicht" in k:
                 dv = k["durchsicht"]
                 if not isinstance(dv, dict) or set(dv) != {"wer", "datum"}:
@@ -1812,6 +1859,9 @@ SYNONYME = {
             "abmelden", "ummelden"],
            ["vermisst", "entlaufen", "weggelaufen", "verloren", "zugelaufen", "fundtier", "findeltier", "fundhund",
             "tiermeldezentrale", "stmz"],
+           ["hundepension", "tierpension", "pension", "hundetagesstatte", "tagesstatte", "hundehort", "hundesitter",
+            "hundesitting", "petsitting", "hundebetreuung", "betreuung", "dogwalker", "spazierdienst", "hundezucht",
+            "zucht", "zuchter", "gewerbsmassig", "bewilligung"],
            ["brutzeit", "setzzeit", "schonzeit", "wald"],
            ["freilauf", "freilaufzone", "hundezone", "hundewiese", "hundepark", "hundeauslauf", "auslauf",
             "hundefreilauf", "freilaufflache"],
@@ -1827,6 +1877,8 @@ SYNONYME = {
            ["annoncer", "annonce", "inscription", "inscrire", "enregistrer", "enregistrement", "amicus", "puce",
             "identification", "declarer", "declaration"],
            ["perdu", "disparu", "egare", "errant", "fugue", "=trouve", "=retrouve"],
+           ["pension", "garderie", "refuge", "elevage", "eleveur", "dogsitter", "petsitting", "promeneur",
+            "=garde", "professionnel", "autorisation"],
            ["foret", "lisiere", "bois"],
            ["amende", "contravention", "sanction", "penalite"],
            ["liberte", "ebats"],
@@ -1841,6 +1893,8 @@ SYNONYME = {
            ["notifica", "notificare", "registrazione", "registrare", "annunciare", "annuncio", "iscrizione",
             "amicus", "microchip", "chip"],
            ["smarrito", "scomparso", "fuggito", "scappato", "=perso", "=trovato", "=ritrovato"],
+           ["pensione", "asilo", "rifugio", "allevamento", "allevatore", "dogsitter", "petsitter", "accudimento",
+            "custodia", "professionale", "autorizzazione"],
            ["bosco", "boschi", "foresta"],
            ["multa", "multe", "contravvenzione", "sanzione"],
            ["svago", "sgambamento", "sgambatura", "liberta"],
@@ -2043,12 +2097,11 @@ def ortsindex(orte):
     return json.dumps({"k": k, "g": g, "o": o, "a": ANDERE_NAMEN}, ensure_ascii=False, separators=(",", ":"))
 
 
-def vermisst(k, Q, benutzt, link=None, kopf=None):
-    """Feld 'vermisst' eines Kantons als Linienliste. link: Der Titel führt zur Kantonsseite (Themenseite)."""
-    v = k["vermisst"]
-    titel = f'<h3><a href="{link}">{e(kopf)}</a></h3>' if link else ""
+def feld_liste(k, feld, Q, benutzt):
+    """Wahlweises Feld eines Kantons ('vermisst', 'gewerbe') als Linienliste mit Text, Schritten und Quellen."""
+    v = k[feld]
     punkte = ("<ul>" + "".join(f"<li>{e(p)}</li>" for p in v["punkte"]) + "</ul>") if v.get("punkte") else ""
-    return (f'<div class="list-card" data-vermisst>{titel}<p>{e(v["text"])}</p>{punkte}'
+    return (f'<div class="list-card" data-{feld}><p>{e(v["text"])}</p>{punkte}'
             f'{qlinks(v["quellen"], Q, benutzt)}</div>')
 
 
@@ -2063,12 +2116,13 @@ def kt_zeile(k, Q, benutzt, kopf, inhalt, attr="", quellen=()):
             f'<div class="kt-inhalt">{inhalt}{qlinks(list(quellen), Q, benutzt)}{link}</div></details>')
 
 
-def uebrige_kantone(ohne):
-    """Eine Zeile mit Links auf die Kantone dieser Sprache, die auf einer Seite nach Feld keinen Eintrag haben."""
+def uebrige_kantone(ohne, alle=False):
+    """Eine Zeile mit Links auf die Kantone dieser Sprache, die auf einer Seite nach Feld keinen Eintrag haben.
+    alle: Kein Kanton hat einen Eintrag, die Zeile führt alle auf (Satz 'alle_kt')."""
     if not ohne:
         return ""
     links = ", ".join(f'<a href="{k_pfad(LANG, k["id"])}">{e(KANTONSNAMEN[LANG][k["id"]])}</a>' for k in ohne)
-    return f'<p class="more-kt">{S["thema"]["uebrige"]} {links}.</p>'
+    return f'<p class="more-kt">{S["thema"]["alle_kt" if alle else "uebrige"]} {links}.</p>'
 
 
 def wald_karte(w):
@@ -2106,12 +2160,13 @@ def abschnitt_neuer_hund(k):
             f'<ol class="schritte" role="list">{"".join(zeilen)}</ol></section>')
 
 
-def abschnitt_vermisst(k, Q, benutzt):
-    """Abschnitt der Kantonsseite, nur wenn der Kanton das Feld hat."""
-    if not k.get("vermisst"):
+def abschnitt_feld(k, feld, Q, benutzt):
+    """Abschnitt der Kantonsseite zu einem wahlweisen Feld (id = Name des Felds), nur wenn der Kanton es hat.
+    Überschrift aus TEXTE unter '<feld>_h2'."""
+    if not k.get(feld):
         return ""
-    return (f'<section class="sec" id="vermisst"><div class="sec-head"><h2>{e(S["vermisst_h2"].format(im=k["im"]))}</h2></div>'
-            f'{vermisst(k, Q, benutzt)}</section>')
+    return (f'<section class="sec" id="{feld}"><div class="sec-head"><h2>{e(S[feld + "_h2"].format(im=k["im"]))}</h2></div>'
+            f'{feld_liste(k, feld, Q, benutzt)}</section>')
 
 
 def themenleiste(ohne=None):
@@ -2343,7 +2398,7 @@ def seite_kanton(k, Q):
     tafeln = gemeinde_tafeln(k["id"])
     orte = (f'<div class="plates liste">{tafeln}</div>' if tafeln else "")
     f = {"im": k["im"], "des": k["des"], "name": k["name"]}
-    ziele = ["leine", "pflichten", "neuer-hund"] + (["vermisst"] if k.get("vermisst") else []) + \
+    ziele = ["leine", "pflichten", "neuer-hund"] + [f for f in FELDER if k.get(f)] + \
         ["gemeinden", "themen", "quellen"]
     inhalt = f"""<section class="hero"><!--KRUMEN-->
 <h1>{e(S["kt_h1"].format(**f))}</h1>
@@ -2356,7 +2411,7 @@ def seite_kanton(k, Q):
 {regeln(k, Q, benutzt)}
 {pflichten(k, Q, benutzt)}
 {abschnitt_neuer_hund(k)}
-{abschnitt_vermisst(k, Q, benutzt)}
+{"".join(abschnitt_feld(k, f, Q, benutzt) for f in FELDER)}
 <section class="sec" id="gemeinden">
 <div class="sec-head"><h2>{e(S["kt_gm_h2"].format(**f))}</h2><p>{S["kt_gm_p"]}</p></div>
 {orte}
@@ -2536,7 +2591,7 @@ def seite_thema(t, Q):
 
 
 def seite_thema_feld(t, Q):
-    """Themenseite zu einem wahlweisen Feld der Kantone (heute: 'vermisst'). Zuoberst die Karte des Bundes
+    """Themenseite zu einem wahlweisen Feld der Kantone ('vermisst', 'gewerbe'). Zuoberst die Karte des Bundes
     mit derselben id, darunter jeder Kanton dieser Sprache, der das Feld hat. Kein Vergleich, keine Zahl."""
     benutzt = []
     tt = S["themen"][t["id"]]
@@ -2560,7 +2615,9 @@ def seite_thema_feld(t, Q):
     ohne = uebrige_kantone([k for k in W[LANG]["k"] if not k.get(t["feld"])])
     unten = (f'<section class="sec"><div class="sec-head"><h2>{tt["kt_h2"]}</h2><p>{tt["kt_p"]}</p></div>'
              f'<div class="kt-liste nur-name" data-kt-liste>{"".join(zeilen)}</div>'
-             f'{ohne}{uebersetzt}</section>') if kantone else ""
+             f'{ohne}{uebersetzt}</section>') if kantone else \
+        (f'<section class="sec"><div class="sec-head"><h2>{tt["kt_h2"]}</h2></div>'
+         f'{uebrige_kantone(W[LANG]["k"], alle=True)}</section>')
     pfad = thema_pfad(t["id"])
     inhalt = f"""<section class="hero thema"><!--KRUMEN-->
 <h1>{e(tt["h1"])}</h1>

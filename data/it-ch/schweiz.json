@@ -116,6 +116,29 @@
       "quellen": [
         "ch_chch_oggetti"
       ]
+    },
+    {
+      "id": "gewerbe",
+      "titel": "Custodire cani per professione",
+      "marke": "Autorizzazione",
+      "ton": "must",
+      "wert": "Più di 5 animali al giorno",
+      "text": "Chi accudisce animali di terzi a titolo professionale ha bisogno di un'autorizzazione del servizio veterinario cantonale se gli animali sono più di 5 al giorno (24 ore). Lo stesso vale per pensioni e rifugi per animali con più di 5 posti. L'accudimento di un massimo di 5 animali di terzi non è soggetto ad autorizzazione. La domanda va inoltrata con l'apposito modulo al servizio cantonale preposto alla protezione degli animali prima di iniziare. L'autorizzazione dura al massimo 10 anni.",
+      "mehr": {
+        "titel": "Formazione e allevamento",
+        "punkte": [
+          "Fino a 5 cani: la legislazione sulla protezione degli animali non richiede alcuna formazione per l'accudimento dei cani",
+          "Da 6 a 19 animali o posti: formazione specialistica non legata a una professione (FSNP), con almeno 40 ore di corso e almeno 360 ore di pratica",
+          "Più di 19 animali o posti: accudimento sotto la responsabilità di un guardiano di animali",
+          "Allevamento: chi vende più di 20 cani o più di tre figliate all'anno ha bisogno di un'autorizzazione cantonale e di una formazione specialistica riconosciuta dall'USAV",
+          "Passeggio per cani: informati presso l'ufficio veterinario del tuo Cantone di domicilio se serve un'autorizzazione. In alcuni Cantoni è previsto un obbligo di formazione per portar fuori diversi cani insieme",
+          "In alcuni Cantoni valgono regole supplementari della legislazione sui cani"
+        ]
+      },
+      "quellen": [
+        "ch_blv_accudimento",
+        "ch_blv_cani"
+      ]
     }
   ]
 }
