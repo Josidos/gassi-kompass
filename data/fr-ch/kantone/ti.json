@@ -2,7 +2,7 @@
   "id": "ti",
   "kurz": "TI",
   "uebersetzt_aus": "it",
-  "original": "a49dde25a58d",
+  "original": "66501b82f773",
   "wald": {
     "saison": false,
     "text": "La Legge sui cani (loi sur les chiens) ne prévoit pas de période de laisse obligatoire en forêt. La règle générale vaut toute l'année : laisse dans les lieux fréquentés par le public ou par d'autres animaux.",
@@ -153,6 +153,8 @@
   "vermisst": {
     "text": "Dans le canton du Tessin, le Conseil d'État a chargé l'Ufficio del veterinario cantonale (UVC, office du vétérinaire cantonal) de recevoir les annonces d'animaux trouvés. Celui qui trouve un animal perdu est tenu d'en informer le propriétaire ou, s'il n'est pas connu, d'annoncer la découverte (art. 720a CC).",
     "punkte": [
+      "Si votre chien s'enfuit, vous devez le signaler immédiatement à la police (art. 7 al. 3 LCani).",
+      "Si ni le propriétaire ni le détenteur d'un chien ne peuvent être trouvés, le chien est remis à une société protectrice des animaux reconnue ou à un autre organisme aux compétences analogues, pour un placement aux frais du canton. Si le propriétaire ou le détenteur est retrouvé par la suite, les frais sont à la charge du propriétaire ou, à titre subsidiaire, du détenteur (art. 3 al. 3 LCani).",
       "Avant d'annoncer un chien trouvé, vérifiez s'il a une puce électronique. Vous pouvez vous adresser à la police municipale, à une société de protection des animaux ou à un vétérinaire.",
       "Sur le site de l'UVC, vous trouvez les annonces actives et le formulaire d'annonce.",
       "Si le propriétaire n'est pas retrouvé dans les deux mois suivant la publication de l'annonce, celui qui a trouvé l'animal en devient propriétaire, à condition d'avoir rempli ses obligations d'annonce (art. 722 CC).",
@@ -160,7 +162,8 @@
       "UVC: Via Dogana 16, 6501 Bellinzona, téléphone 091 814 41 00."
     ],
     "quellen": [
-      "ti_uvc_smarriti"
+      "ti_uvc_smarriti",
+      "ti_lcani_rl"
     ]
   }
 }

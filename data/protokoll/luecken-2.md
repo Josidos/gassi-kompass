@@ -19,11 +19,16 @@
 - Seite des UVC «Corso teorico obbligatorio» (`ti_uvc_corso`): oben und unter «Sanzioni» «Dal 1° settembre 2026», in den historischen Hinweisen noch «Queste basi legali entreranno in vigore il 1° giugno 2026». Der neuere Rechtstext (BU 2026, 147) nennt den 1. September 2026.
 - Ergebnis: Die Angabe «Dal 1° settembre 2026» in der Karte Corso stimmt, keine Änderung.
 
+### 3. Feld `vermisst` ergänzt
+
+- Quelle `ti_lcani_rl` (Stand 15. Mai 2026), Wortlaut: Art. 7 cpv. 3 «La fuga di un cane deve essere immediatamente segnalata agli organi di polizia.» Art. 3 cpv. 3 «Se né il proprietario né il detentore sono reperibili, i cani sono consegnati ad una società per la protezione degli animali riconosciuta o ad altri enti con competenze analoghe per un collocamento a spese del Cantone in base alla legislazione cantonale sulla protezione degli animali. In caso di successiva reperibilità del proprietario o del detentore, le spese sono poste a carico del proprietario o, in via subordinata, del detentore.»
+- Neu: zwei Punkte zuoberst in `vermisst.punkte` (Flucht sofort der Polizei melden; Übergabe an einen anerkannten Tierschutzverein auf Kosten des Kantons, Kosten später zulasten des Eigentümers, ersatzweise des Halters). `ti_lcani_rl` in `vermisst.quellen` ergänzt. Übersetzungen nachgeführt, `original` auf `66501b82f773`.
+
 ## Backlog
 
 - Kanton Tessin, LCani im geltenden Wortlaut gegenprüfen (Art. 4, 4a, 7, 11a): geschlossen. Quelle `ti_lcani_rl`, Stand 15. Mai 2026.
 - Kanton Tessin, Datum der Kurspflicht: geschlossen, 1. September 2026 (LCani Fussnote zu Art. 11a, BU 2026, 147). Hinweis an das UVC wäre möglich: Die Seite nennt in den historischen Hinweisen noch den 1. Juni 2026.
 - Quelle `ti_lcani` (LexFind) ist unbenutzt und kann aus `data/quellen/ti-it.json` entfernt werden.
-- Kanton Tessin, Abschnitt «Hund vermisst oder gefunden» (LCani Art. 7 Abs. 3, Art. 3 Abs. 3): offen, folgt im nächsten Schritt.
+- Kanton Tessin, Abschnitt «Hund vermisst oder gefunden» (LCani Art. 7 Abs. 3, Art. 3 Abs. 3): geschlossen, Quelle `ti_lcani_rl`.
 - Tessiner Jagd- und Waldrecht auf Leinenpflicht: offen.
 - Lugano (Hundezonen, Barbengo): nicht Teil dieses Auftrags, offen.

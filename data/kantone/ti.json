@@ -2,7 +2,7 @@
   "id": "ti",
   "kurz": "TI",
   "uebersetzt_aus": "it",
-  "original": "a49dde25a58d",
+  "original": "66501b82f773",
   "wald": {
     "saison": false,
     "text": "Die Legge sui cani (Hundegesetz) sieht keine Zeit mit Leinenpflicht im Wald vor. Das ganze Jahr gilt die allgemeine Regel: Leine an Orten, an denen sich Publikum oder andere Tiere aufhalten.",
@@ -153,6 +153,8 @@
   "vermisst": {
     "text": "Im Kanton Tessin hat der Staatsrat das Ufficio del veterinario cantonale (UVC, Kantonstierarztamt) beauftragt, die Meldungen gefundener Tiere entgegenzunehmen. Wer ein verlorenes Tier findet, muss die Eigentümerin oder den Eigentümer informieren oder, wenn sie unbekannt sind, den Fund melden (Art. 720a ZGB).",
     "punkte": [
+      "Entläuft dein Hund, musst du das sofort der Polizei melden (Art. 7 Abs. 3 LCani).",
+      "Sind weder die Eigentümerin oder der Eigentümer noch die Halterin oder der Halter eines Hundes erreichbar, wird der Hund einem anerkannten Tierschutzverein oder einer anderen Stelle mit ähnlichen Aufgaben übergeben und auf Kosten des Kantons untergebracht. Wird die Eigentümerin, der Eigentümer, die Halterin oder der Halter später erreicht, gehen die Kosten zulasten der Eigentümerin oder des Eigentümers, ersatzweise der Halterin oder des Halters (Art. 3 Abs. 3 LCani).",
       "Bevor du einen gefundenen Hund meldest, prüfe, ob er einen Mikrochip hat. Du kannst dich an die Gemeindepolizei, an einen Tierschutzverein oder an eine Tierärztin oder einen Tierarzt wenden.",
       "Auf der Website des UVC findest du die aktiven Meldungen und das Meldeformular.",
       "Wird die Eigentümerin oder der Eigentümer nicht innert zwei Monaten nach der Veröffentlichung der Meldung gefunden, wird die Finderin oder der Finder Eigentümerin oder Eigentümer des Tieres, sofern sie oder er die Meldepflichten erfüllt hat (Art. 722 ZGB).",
@@ -160,7 +162,8 @@
       "UVC: Via Dogana 16, 6501 Bellinzona, Telefon 091 814 41 00."
     ],
     "quellen": [
-      "ti_uvc_smarriti"
+      "ti_uvc_smarriti",
+      "ti_lcani_rl"
     ]
   }
 }
