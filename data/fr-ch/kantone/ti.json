@@ -2,7 +2,7 @@
   "id": "ti",
   "kurz": "TI",
   "uebersetzt_aus": "it",
-  "original": "66501b82f773",
+  "original": "d3326950ab99",
   "wald": {
     "saison": false,
     "text": "La Legge sui cani (loi sur les chiens) ne prévoit pas de période de laisse obligatoire en forêt. La règle générale vaut toute l'année : laisse dans les lieux fréquentés par le public ou par d'autres animaux.",
@@ -164,6 +164,18 @@
     "quellen": [
       "ti_uvc_smarriti",
       "ti_lcani_rl"
+    ]
+  },
+  "gewerbe": {
+    "text": "Dans le canton du Tessin, une autorisation de l'Ufficio del veterinario cantonale (UVC, office du vétérinaire cantonal) est nécessaire pour une pension ou un refuge pour animaux de plus de 5 places et pour les services de garde, par exemple promener des animaux ou les soigner au domicile du détenteur. Les éducateurs canins qui donnent le cours de base obligatoire doivent être autorisés par le canton.",
+    "punkte": [
+      "Pour ces activités de garde, il faut avoir suivi une formation spécialisée. La demande se présente avec le formulaire de l'UVC pour les pensions et refuges pour animaux, les services de garde d'animaux, les élevages et les détentions professionnelles d'animaux de compagnie.",
+      "Éducateurs canins: l'autorité cantonale compétente autorise les éducateurs canins habilités à donner le cours de base (art. 9 RCani). L'autorisation porte sur le cours de base. Sur le site de l'UVC, vous trouvez la liste des cours proposés par les éducateurs canins autorisés."
+    ],
+    "quellen": [
+      "ti_uvc_professionali",
+      "ti_rcani",
+      "ti_uvc_corso"
     ]
   }
 }

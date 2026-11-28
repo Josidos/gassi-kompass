@@ -2,7 +2,7 @@
   "id": "lu",
   "kurz": "LU",
   "uebersetzt_aus": "de",
-  "original": "6831cbaa3652",
+  "original": "1c3c37aa3ffc",
   "wald": {
     "saison": true,
     "von": "04-01",
@@ -188,6 +188,18 @@
       "lu_polizei_tiere",
       "lu_tierfund",
       "lu_huv"
+    ]
+  },
+  "gewerbe": {
+    "text": "Nel Cantone di Lucerna serve un'autorizzazione del Veterinärdienst (servizio veterinario) per chi gestisce un rifugio per animali con più di cinque posti di accoglienza o offre a titolo professionale servizi di accudimento per più di cinque animali.",
+    "punkte": [
+      "In linea di principio gli animali devono essere accuditi sotto la responsabilità di un'addetta o di un addetto alla cura degli animali. In alcuni casi basta una formazione specialistica indipendente da una professione.",
+      "Presenti la richiesta al Veterinärdienst con il modulo «Bewilligungsgesuch Betreuung, Pflege, Zucht, Haltung von Heimtieren» (richiesta di autorizzazione per l'accudimento, la cura, l'allevamento e la detenzione di animali domestici).",
+      "Formazione cinofila obbligatoria: spetta a chi detiene un cane scegliere con quali corsi prepararsi all'esame per il Nationales Hundehalter-Brevet (brevetto nazionale per detentori di cani)."
+    ],
+    "quellen": [
+      "lu_gewerbe",
+      "lu_nhb"
     ]
   },
   "durchsicht": {

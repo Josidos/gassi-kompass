@@ -194,5 +194,23 @@
       "ge_rchiens",
       "ge_lchiens"
     ]
+  },
+  "gewerbe": {
+    "text": "À Genève, la garde professionnelle de chiens (pension, garderie) à partir de 6 chiens et la promenade de plus de 3 chiens sont soumises à une autorisation du Service de la consommation et des affaires vétérinaires (SCAV). Pour donner des cours d'éducation canine, vous devez au préalable disposer d'un agrément en qualité d'éducateur canin genevois.",
+    "punkte": [
+      "Garde: selon le SCAV, la garde de chiens ou de chats jusqu'à cinq animaux au total ne nécessite pas d'autorisation.",
+      "Promenade: selon la loi, les personnes qui promènent plus de 3 chiens détenus par des tiers doivent être autorisées par le département (art. 18 LChiens). Le SCAV compte aussi les propres chiens de la personne. La demande est formulée par écrit, dûment motivée et adressée au SCAV. L'autorisation est personnelle et intransmissible.",
+      "Pendant la promenade, vous ne conduisez pas plus de 5 chiens sous votre responsabilité, y compris vos propres chiens (art. 10 RChiens). Il faut avoir suivi avec succès la formation théorique (cours de sensibilisation) pour détenteur de chien. Le SCAV organise un cours d'agrément.",
+      "Transport des chiens promenés: chaque caisse de transport ne contient qu'un seul chien, et le transport est limité aux trajets entre le domicile des propriétaires et le lieu de promenade.",
+      "Le département perçoit des émoluments de CHF 100 à CHF 5000 pour toutes ses autorisations. Elles ne sont délivrées que contre paiement de l'émolument (art. 42 LChiens)."
+    ],
+    "quellen": [
+      "ge_pro",
+      "ge_chenils",
+      "ge_promeneur",
+      "ge_educateur",
+      "ge_lchiens",
+      "ge_rchiens"
+    ]
   }
 }

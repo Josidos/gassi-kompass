@@ -3,7 +3,7 @@
   "kanton": "bl",
   "bfs": 2762,
   "uebersetzt_aus": "de",
-  "original": "10ee1f91eeee",
+  "original": "dffe455a0414",
   "name": "Allschwil",
   "ort": "Allschwil",
   "in_ort": "à Allschwil",
@@ -39,7 +39,7 @@
     {
       "titel": "Annonce",
       "wert": "Einwohnerdienste (services des habitants), dans les 14 jours",
-      "text": "Vous annoncez votre chien dans les 14 jours aux Einwohnerdienste de la commune, Baslerstrasse 111. Les chiens sont enregistrés dès 4 mois. Il vous faut le passeport du chien ou le carnet de vaccination et l'attestation d'une assurance responsabilité civile avec une couverture d'au moins CHF 3 millions. Votre chien et vous devez en outre être enregistrés dans la banque de données sur les chiens AMICUS.",
+      "text": "Vous annoncez votre chien dans les 14 jours aux Einwohnerdienste de la commune. Sont enregistrés les chiens qui ont plus de 4 mois. Il vous faut le passeport du chien ou le carnet de vaccination et l'attestation d'une assurance responsabilité civile avec une couverture d'au moins CHF 3 millions. Votre chien et vous devez en outre être enregistrés dans la banque de données sur les chiens AMICUS.",
       "quellen": [
         "bl_allschwil_hunde",
         "bl_allschwil_prv"

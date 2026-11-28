@@ -2,7 +2,7 @@
   "id": "sg",
   "kurz": "SG",
   "uebersetzt_aus": "de",
-  "original": "798e43b842f9",
+  "original": "3decf86da397",
   "wald": {
     "saison": false,
     "text": "Le Hundegesetz (loi sur les chiens), le Jagdgesetz (loi sur la chasse), la Jagdverordnung (ordonnance sur la chasse) et les Jagdvorschriften (prescriptions de chasse) du canton ne prévoient pas de laisse obligatoire en forêt à dates fixes. Vous devez toutefois tenir votre chien en laisse partout où vous ne pouvez pas le maîtriser efficacement d'une autre manière. Les communes peuvent désigner, par un règlement ou par une décision signalée sur place, d'autres lieux où la laisse est obligatoire. Elles peuvent aussi délimiter des zones de tranquillité pour la faune. Qui ne respecte pas une obligation ou une interdiction applicable dans une zone de tranquillité risque une amende jusqu'à CHF 20 000. La Wildhut (garde-faune) et les membres des sociétés de chasse peuvent abattre un chien qui braconne s'il met directement le gibier en danger ou s'il braconne à nouveau après un avertissement écrit adressé à sa détentrice ou à son détenteur.",
@@ -164,6 +164,15 @@
       "sg_vet",
       "sg_tierschutz",
       "sg_kapo_hilfe"
+    ]
+  },
+  "gewerbe": {
+    "text": "Dans le canton de Saint-Gall, une autorisation est nécessaire pour quiconque garde ou élève des animaux, ou en fait le commerce, à titre professionnel. Une activité est professionnelle dès que vous recevez pour elle de l'argent ou une autre contrepartie.",
+    "punkte": [
+      "L'autorité compétente est l'Amt für Verbraucherschutz und Veterinärwesen (AVSV, office de la protection des consommateurs et des affaires vétérinaires). Vous remplissez complètement la demande d'autorisation pour la garde, les soins, l'élevage et la détention, et vous la déposez auprès de l'office."
+    ],
+    "quellen": [
+      "sg_gewerbe"
     ]
   }
 }

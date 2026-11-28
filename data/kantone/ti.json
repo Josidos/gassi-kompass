@@ -2,7 +2,7 @@
   "id": "ti",
   "kurz": "TI",
   "uebersetzt_aus": "it",
-  "original": "66501b82f773",
+  "original": "d3326950ab99",
   "wald": {
     "saison": false,
     "text": "Die Legge sui cani (Hundegesetz) sieht keine Zeit mit Leinenpflicht im Wald vor. Das ganze Jahr gilt die allgemeine Regel: Leine an Orten, an denen sich Publikum oder andere Tiere aufhalten.",
@@ -164,6 +164,18 @@
     "quellen": [
       "ti_uvc_smarriti",
       "ti_lcani_rl"
+    ]
+  },
+  "gewerbe": {
+    "text": "Im Kanton Tessin braucht es eine Bewilligung des Ufficio del veterinario cantonale (UVC, Kantonstierarztamt) für eine Tierpension oder ein Tierheim mit mehr als 5 Plätzen und für Betreuungsdienste, zum Beispiel das Ausführen von Tieren oder ihre Pflege bei den Haltenden zu Hause. Hundeausbildende, die den obligatorischen Grundkurs durchführen, müssen vom Kanton zugelassen sein.",
+    "punkte": [
+      "Für diese Betreuungstätigkeiten musst du eine Fachausbildung absolviert haben. Das Gesuch reichst du mit dem Formular des UVC für Tierpensionen und Tierheime, Tierbetreuungsdienste, Zuchten und berufsmässige Haltungen von Heimtieren ein.",
+      "Hundeausbildende: Die zuständige kantonale Behörde ermächtigt die Hundeausbildenden, die den Grundkurs durchführen dürfen (Art. 9 RCani). Die Bewilligung gilt für den Grundkurs. Auf der Website des UVC findest du die Liste der Kurse, die zugelassene Hundeausbildende anbieten."
+    ],
+    "quellen": [
+      "ti_uvc_professionali",
+      "ti_rcani",
+      "ti_uvc_corso"
     ]
   }
 }

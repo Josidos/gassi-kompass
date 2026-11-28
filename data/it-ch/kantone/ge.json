@@ -2,7 +2,7 @@
   "id": "ge",
   "kurz": "GE",
   "uebersetzt_aus": "fr",
-  "original": "be9809066849",
+  "original": "5da4194b20ef",
   "wald": {
     "saison": true,
     "von": "04-01",
@@ -191,6 +191,24 @@
       "ge_rfour",
       "ge_rchiens",
       "ge_lchiens"
+    ]
+  },
+  "gewerbe": {
+    "text": "A Ginevra la custodia professionale di cani (pensione, asilo diurno) a partire da 6 cani e la passeggiata di più di 3 cani sono soggette a un'autorizzazione del Service de la consommation et des affaires vétérinaires (SCAV, servizio per la protezione dei consumatori e le questioni veterinarie). Per tenere corsi di educazione cinofila devi disporre in precedenza di un'abilitazione come «éducateur canin genevois» (istruttore cinofilo ginevrino).",
+    "punkte": [
+      "Custodia: secondo il SCAV, la custodia di cani o gatti fino a cinque animali in totale non richiede un'autorizzazione.",
+      "Passeggiata: secondo la legge, chi porta a passeggio più di 3 cani di proprietà di terzi deve essere autorizzato dal dipartimento (art. 18 LChiens). Il SCAV conteggia anche i cani della persona stessa. La richiesta è formulata per iscritto, debitamente motivata, e indirizzata al SCAV. L'autorizzazione è personale e non trasferibile.",
+      "Durante la passeggiata non conduci più di 5 cani sotto la tua responsabilità, compresi i tuoi (art. 10 RChiens). Devi aver seguito con successo la formazione teorica (corso di sensibilizzazione) per detentori di cani. Il SCAV organizza un corso di abilitazione.",
+      "Trasporto dei cani portati a passeggio: ogni gabbia da trasporto contiene un solo cane e il trasporto è limitato ai tragitti tra il domicilio dei proprietari e il luogo della passeggiata.",
+      "Il dipartimento riscuote tasse da CHF 100 a CHF 5000 per tutte le sue autorizzazioni. Sono rilasciate solo dietro pagamento della tassa (art. 42 LChiens)."
+    ],
+    "quellen": [
+      "ge_pro",
+      "ge_chenils",
+      "ge_promeneur",
+      "ge_educateur",
+      "ge_lchiens",
+      "ge_rchiens"
     ]
   }
 }

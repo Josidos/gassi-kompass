@@ -358,3 +358,12 @@ Was die Glieder in Originalfassungen bemerkt haben, steht in `CHANGELOG.md` unte
 - [x] Bern (deutsch und französisch) (2026-11-28)
 - [x] Waadt (2026-11-28)
 - [x] Aargau (2026-11-28)
+
+## Archiviert am 2026-11-28
+
+### BACKLOG.md, 9.4 Thema 2: Hunde betreuen und ausbilden als Beruf
+
+- [x] St. Gallen (2026-11-28)
+- [x] Genf (2026-11-28)
+- [x] Luzern (2026-11-28)
+- [x] Tessin (2026-11-28)

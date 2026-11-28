@@ -1,0 +1,39 @@
+{
+  "sg_gewerbe": {
+    "kurz": "AVSV SG: Zucht, Handel und Betreuung",
+    "lang": "Kanton St. Gallen, Amt für Verbraucherschutz und Veterinärwesen: Zucht, Handel und Betreuung von Tieren (aktualisiert am 14. September 2026)",
+    "url": "https://www.sg.ch/umwelt-natur/veterinaerwesen/arbeiten-mit-tieren/zucht--handel-und-betreuung-von-tieren.html"
+  },
+  "lu_gewerbe": {
+    "kurz": "Veterinärdienst LU: Tierheime und Betreuungsdienste",
+    "lang": "Kanton Luzern, Veterinärdienst: Tierheime, Heimtierzuchten und Betreuungsdienste (aktualisiert am 18. März 2026)",
+    "url": "https://veterinaerdienst.lu.ch/tierschutz/bewilligungen/tierheime_heimtierzuchten_betreuungsdienste"
+  },
+  "ge_pro": {
+    "kurz": "ge.ch: activité professionnelle avec des chiens",
+    "lang": "République et canton de Genève: Exercer une activité professionnelle avec des chiens (mis à jour le 14 septembre 2023)",
+    "url": "https://www.ge.ch/exercer-activite-professionnelle-avec-chiens"
+  },
+  "ge_chenils": {
+    "kurz": "ge.ch: refuges, chenils et chatteries",
+    "lang": "République et canton de Genève: Refuges, chenils et chatteries (mis à jour le 7 août 2024)",
+    "url": "https://www.ge.ch/professionnels-animaliers-autorises-pratiquer-geneve/refuges-chenils-chatteries"
+  },
+  "ge_promeneur": {
+    "kurz": "ge.ch: autorisation pour promener des chiens",
+    "lang": "République et canton de Genève: Autorisation pour promener des chiens (mis à jour le 25 mars 2026)",
+    "url": "https://www.ge.ch/exercer-activite-professionnelle-avec-chiens/autorisation-promener-chiens",
+    "uebersicht": "https://www.ge.ch/exercer-activite-professionnelle-avec-chiens"
+  },
+  "ge_educateur": {
+    "kurz": "ge.ch: cours d'éducation canine",
+    "lang": "République et canton de Genève: Autorisation pour donner des cours d'éducation canine (mis à jour le 23 mars 2026)",
+    "url": "https://www.ge.ch/exercer-activite-professionnelle-avec-chiens/autorisation-donner-cours-education-canine",
+    "uebersicht": "https://www.ge.ch/exercer-activite-professionnelle-avec-chiens"
+  },
+  "ti_uvc_professionali": {
+    "kurz": "UVC TI: accudimento e pensioni",
+    "lang": "Repubblica e Cantone Ticino, Ufficio del veterinario cantonale: Attività di accudimento, allevamento e pensione di animali domestici (consultato il 28 novembre 2026)",
+    "url": "https://www4.ti.ch/dss/dsp/uvc/temi/protezione-e-benessere-animale/attivita-professionali-con-animali/attivita-di-accudimento-allevamento-e-pensione-di-animali-domestici"
+  }
+}

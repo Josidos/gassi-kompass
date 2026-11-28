@@ -167,5 +167,17 @@
       "ti_uvc_smarriti",
       "ti_lcani_rl"
     ]
+  },
+  "gewerbe": {
+    "text": "In Ticino serve un'autorizzazione dell'Ufficio del veterinario cantonale (UVC) per una pensione o un rifugio per animali con più di 5 posti e per i servizi di accudimento, per esempio condurre in passeggiata animali o curarli presso il domicilio del detentore. Gli istruttori cinofili che tengono il corso di base obbligatorio devono essere autorizzati dal Cantone.",
+    "punkte": [
+      "Per queste attività di accudimento è necessario assolvere una formazione specialistica. La richiesta si presenta con il modulo dell'UVC per pensioni e rifugi per animali, servizi di accudimento di animali, allevamenti e tenute professionali di animali domestici.",
+      "Istruttori cinofili: l'autorità cantonale competente autorizza gli istruttori cinofili abilitati a tenere il corso di base (art. 9 RCani). L'autorizzazione riguarda il corso di base. Sul sito dell'UVC trovi l'elenco dei corsi offerti dagli istruttori cinofili autorizzati."
+    ],
+    "quellen": [
+      "ti_uvc_professionali",
+      "ti_rcani",
+      "ti_uvc_corso"
+    ]
   }
 }

@@ -5,7 +5,7 @@
   "name": "Allschwil",
   "ort": "Allschwil",
   "in_ort": "in Allschwil",
-  "geprueft": "2026-11-17",
+  "geprueft": "2026-11-28",
   "hinweis_heute": "In Allschwil gehört dein Hund im Wald und an Waldsäumen das ganze Jahr an die Leine. Ausserhalb der Zeit vom 1. April bis 31. Juli darf er auf den rot markierten Freilaufwegen frei laufen.",
   "einleitung": "Allschwil regelt die Hundehaltung im Polizeireglement. Es ist strenger als das kantonale Recht: Im Wald gilt die Leinenpflicht das ganze Jahr, ausser auf den Freilaufwegen.",
   "karten": [
@@ -38,7 +38,7 @@
     {
       "titel": "Anmeldung",
       "wert": "Einwohnerdienste, innert 14 Tagen",
-      "text": "Du meldest deinen Hund innert 14 Tagen bei den Einwohnerdiensten der Gemeinde an, Baslerstrasse 111. Registriert werden Hunde ab 4 Monaten. Du brauchst den Hundepass oder Impfausweis und den Nachweis einer Haftpflichtversicherung mit mindestens CHF 3 Millionen Deckung. Dein Hund und du müsst zudem in der Hundedatenbank AMICUS registriert sein.",
+      "text": "Du meldest deinen Hund innert 14 Tagen bei den Einwohnerdiensten der Gemeinde an. Registriert werden Hunde, die älter als 4 Monate sind. Du brauchst den Hundepass oder Impfausweis und den Nachweis einer Haftpflichtversicherung mit mindestens CHF 3 Millionen Deckung. Dein Hund und du müsst zudem in der Hundedatenbank AMICUS registriert sein.",
       "quellen": [
         "bl_allschwil_hunde",
         "bl_allschwil_prv"

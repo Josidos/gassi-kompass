@@ -2,7 +2,7 @@
   "id": "lu",
   "kurz": "LU",
   "uebersetzt_aus": "de",
-  "original": "6831cbaa3652",
+  "original": "1c3c37aa3ffc",
   "wald": {
     "saison": true,
     "von": "04-01",
@@ -188,6 +188,18 @@
       "lu_polizei_tiere",
       "lu_tierfund",
       "lu_huv"
+    ]
+  },
+  "gewerbe": {
+    "text": "Dans le canton de Lucerne, une autorisation du Veterinärdienst (service vétérinaire) est nécessaire pour exploiter un refuge pour animaux de plus de cinq places d'accueil ou pour proposer à titre professionnel des services de garde pour plus de cinq animaux.",
+    "punkte": [
+      "En principe, les animaux doivent être pris en charge sous la responsabilité d'un soigneur ou d'une soigneuse d'animaux. Dans certains cas, une formation spécialisée indépendante d'une profession suffit.",
+      "Vous déposez la demande auprès du Veterinärdienst avec le formulaire «Bewilligungsgesuch Betreuung, Pflege, Zucht, Haltung von Heimtieren» (demande d'autorisation pour la garde, les soins, l'élevage et la détention d'animaux de compagnie).",
+      "Formation canine obligatoire: il est laissé aux détenteurs de chiens de choisir les cours avec lesquels ils se préparent à l'examen du Nationales Hundehalter-Brevet (brevet national pour détenteurs de chiens)."
+    ],
+    "quellen": [
+      "lu_gewerbe",
+      "lu_nhb"
     ]
   },
   "durchsicht": {

@@ -192,6 +192,18 @@
       "lu_huv"
     ]
   },
+  "gewerbe": {
+    "text": "Im Kanton Luzern braucht eine Bewilligung des Veterinärdiensts, wer ein Tierheim mit mehr als fünf Pflegeplätzen betreibt oder gewerbsmässig Tierbetreuungsdienste für mehr als fünf Tiere anbietet.",
+    "punkte": [
+      "Grundsätzlich müssen die Tiere unter der Verantwortung einer Tierpflegerin oder eines Tierpflegers betreut werden. In gewissen Fällen genügt eine fachspezifische berufsunabhängige Ausbildung.",
+      "Das Gesuch stellst du mit dem Formular «Bewilligungsgesuch Betreuung, Pflege, Zucht, Haltung von Heimtieren» beim Veterinärdienst.",
+      "Obligatorische Hundeausbildung: Es ist den Hundehaltenden überlassen, mit welchen Kursen sie sich auf die Prüfung zum Nationalen Hundehalter-Brevet vorbereiten."
+    ],
+    "quellen": [
+      "lu_gewerbe",
+      "lu_nhb"
+    ]
+  },
   "durchsicht": {
     "wer": "vom Veterinärdienst des Kantons Luzern",
     "datum": "2026-11-26"

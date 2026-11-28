@@ -2,7 +2,7 @@
   "id": "ge",
   "kurz": "GE",
   "uebersetzt_aus": "fr",
-  "original": "be9809066849",
+  "original": "5da4194b20ef",
   "wald": {
     "saison": true,
     "von": "04-01",
@@ -191,6 +191,24 @@
       "ge_rfour",
       "ge_rchiens",
       "ge_lchiens"
+    ]
+  },
+  "gewerbe": {
+    "text": "In Genf braucht es eine Bewilligung des Service de la consommation et des affaires vétérinaires (SCAV, Amt für Verbraucherschutz und Veterinärwesen) für die gewerbliche Hundebetreuung (Pension, Tagesbetreuung) ab 6 Hunden und für das Ausführen von mehr als 3 Hunden. Wer Hundekurse geben will, muss vorher über eine Zulassung als «éducateur canin genevois» (Genfer Hundeausbildender) verfügen.",
+    "punkte": [
+      "Betreuung: Laut SCAV braucht die Betreuung von Hunden oder Katzen bis zu insgesamt fünf Tieren keine Bewilligung.",
+      "Ausführen: Laut Gesetz brauchen Personen, die mehr als 3 Hunde von Dritten ausführen, eine Bewilligung des Departements (Art. 18 LChiens). Das SCAV zählt auch die eigenen Hunde der Person mit. Das Gesuch wird schriftlich und begründet an das SCAV gerichtet. Die Bewilligung ist persönlich und nicht übertragbar.",
+      "Beim Ausführen führst du unter deiner Verantwortung nicht mehr als 5 Hunde, die eigenen eingerechnet (Art. 10 RChiens). Du musst die theoretische Ausbildung (Sensibilisierungskurs) für Hundehaltende erfolgreich absolviert haben. Das SCAV organisiert einen Zulassungskurs.",
+      "Transport der ausgeführten Hunde: Jede Transportbox enthält nur einen Hund, und der Transport beschränkt sich auf die Fahrten zwischen dem Wohnort der Eigentümer und dem Ort des Ausführens.",
+      "Das Departement erhebt für alle seine Bewilligungen Gebühren von CHF 100 bis CHF 5000. Sie werden nur gegen Bezahlung der Gebühr ausgestellt (Art. 42 LChiens)."
+    ],
+    "quellen": [
+      "ge_pro",
+      "ge_chenils",
+      "ge_promeneur",
+      "ge_educateur",
+      "ge_lchiens",
+      "ge_rchiens"
     ]
   }
 }
