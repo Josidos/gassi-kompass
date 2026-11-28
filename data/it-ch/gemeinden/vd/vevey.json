@@ -1,0 +1,38 @@
+{
+  "id": "vevey",
+  "kanton": "vd",
+  "bfs": 5890,
+  "uebersetzt_aus": "fr",
+  "original": "052ed5eb3f79",
+  "name": "Città di Vevey",
+  "ort": "Vevey",
+  "in_ort": "a Vevey",
+  "einleitung": "A Vevey le regole di polizia sui cani si trovano nel règlement général de police (regolamento generale di polizia) dell'Association Sécurité Riviera, che vale sul territorio dei Comuni membri. Impone il guinzaglio corto in alcuni luoghi e fissa le multe disciplinari.",
+  "karten": [
+    {
+      "titel": "Notifica",
+      "wert": "entro 2 settimane, all'Office de la Population",
+      "text": "Annunci il tuo cane entro 2 settimane dall'acquisto all'Office de la Population (ufficio della popolazione), rue du Lac 2, e nella banca dati AMICUS. Allega una copia del libretto delle vaccinazioni, una copia del passaporto dell'animale e il modulo di notifica del cane compilato e firmato. Se il tuo cane viene ceduto, scompare, cambia detentore o muore, informi anche l'Office de la Population, con lo stesso modulo. Il regolamento di polizia chiede di annunciare anche la nascita e ogni cambiamento di indirizzo entro due settimane.",
+      "quellen": [
+        "vd_vevey_chiens",
+        "vd_riviera_police"
+      ]
+    },
+    {
+      "titel": "Guinzaglio",
+      "wert": "guinzaglio corto: scuole, parchi giochi, edifici pubblici, moli",
+      "text": "Il tuo cane deve essere tenuto al guinzaglio corto negli edifici aperti al pubblico, sui mezzi pubblici, nei cortili delle scuole e nei parchi giochi per bambini, a meno che questi luoghi gli siano vietati. Il guinzaglio corto vale anche durante le manifestazioni pubbliche e sulle dighe e sui moli di un porto. Durante le manifestazioni pubbliche la museruola o il paradenti è obbligatorio per i cani potenzialmente pericolosi. I Comuni possono inoltre stabilire luoghi vietati ai cani e luoghi in cui devono essere tenuti al guinzaglio.",
+      "quellen": [
+        "vd_riviera_police"
+      ]
+    },
+    {
+      "titel": "Multe",
+      "wert": "da CHF 70 a CHF 150",
+      "text": "Il regolamento di polizia fissa multe disciplinari. Lasciare escrementi sull'area pubblica o nelle sue vicinanze: CHF 150. Portare un cane in un cimitero o in un colombario: CHF 70. Non tenere il cane al guinzaglio corto sulle dighe e sui moli di un porto: CHF 70. Lasciare che un cane salga sui pontili senza accompagnarlo sulle barche: CHF 70. Se raccogli subito gli escrementi del tuo cane, non sei punibile.",
+      "quellen": [
+        "vd_riviera_police"
+      ]
+    }
+  ]
+}

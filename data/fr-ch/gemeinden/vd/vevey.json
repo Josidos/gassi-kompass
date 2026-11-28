@@ -1,0 +1,37 @@
+{
+  "id": "vevey",
+  "kanton": "vd",
+  "bfs": 5890,
+  "name": "Ville de Vevey",
+  "ort": "Vevey",
+  "in_ort": "à Vevey",
+  "geprueft": "2026-11-28",
+  "einleitung": "À Vevey, les règles de police sur les chiens figurent dans le règlement général de police de l'Association Sécurité Riviera, qui s'applique sur le territoire des communes membres. Il impose la laisse courte dans certains lieux et fixe les amendes d'ordre.",
+  "karten": [
+    {
+      "titel": "Annonce",
+      "wert": "dans les 2 semaines, à l'Office de la Population",
+      "text": "Vous déclarez votre chien dans un délai de 2 semaines après son acquisition à l'Office de la Population, rue du Lac 2, et dans la banque de données AMICUS. Joignez une copie du carnet de vaccination, une copie du passeport de l'animal et le formulaire d'annonce de chien dûment complété et signé. Si votre chien est donné, disparaît, change de détenteur ou meurt, vous informez aussi l'Office de la Population, avec le même formulaire. Le règlement de police demande d'annoncer aussi la naissance et tout changement d'adresse dans les deux semaines.",
+      "quellen": [
+        "vd_vevey_chiens",
+        "vd_riviera_police"
+      ]
+    },
+    {
+      "titel": "Laisse",
+      "wert": "laisse courte: écoles, places de jeux, bâtiments publics, quais",
+      "text": "Votre chien doit être tenu en laisse courte dans les bâtiments ouverts au public, dans les transports publics, dans les cours d'école et les aires de jeux pour enfants, à moins que ces lieux lui soient interdits d'accès. La laisse courte vaut aussi lors de manifestations publiques et sur les digues et les quais d'un port. Lors de manifestations publiques, la muselière ou l'applique dentaire est obligatoire pour les chiens potentiellement dangereux. Les Municipalités peuvent en plus définir des lieux interdits aux chiens et des lieux où ils doivent être tenus en laisse.",
+      "quellen": [
+        "vd_riviera_police"
+      ]
+    },
+    {
+      "titel": "Amendes",
+      "wert": "CHF 70 à CHF 150",
+      "text": "Le règlement de police fixe des amendes d'ordre. Laisser des crottes sur le domaine public ou ses abords: CHF 150. Introduire un chien dans un cimetière ou un columbarium: CHF 70. Ne pas tenir votre chien en laisse courte sur les digues et les quais d'un port: CHF 70. Laisser un chien pénétrer sur les estacades sans l'accompagner sur les bateaux: CHF 70. Si vous ramassez tout de suite les crottes de votre chien, vous n'êtes pas punissable.",
+      "quellen": [
+        "vd_riviera_police"
+      ]
+    }
+  ]
+}
