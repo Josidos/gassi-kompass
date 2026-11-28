@@ -1,5 +1,5 @@
 // Prüft die Tippflächen auf dem Telefon (Emulation eines iPhone 13, Zeiger «Finger»).
-//   node tests/tippflaechen.js                 prüft je eine Seite jeder Seitenart in den drei Sprachen
+//   node tests/tippflaechen.js                 prüft je eine Seite jeder Seitenart in den drei Sprachen (dazu /quellen/; gemessen werden die ersten 30000 Pixel)
 //   node tests/tippflaechen.js /zh/ /ueber/    prüft nur diese Seiten
 // Gemessen wird durch die Mitte jedes Ziels (Link, Knopf, Feld, summary): wie viele Pixel nach oben und unten
 // ein Tipp noch dieses Ziel trifft. Das ist die wirkliche Tippfläche, auch wenn sie unsichtbar über das Ziel
@@ -11,7 +11,7 @@ const http = require('http'), fs = require('fs'), path = require('path');
 const { chromium, devices } = require('playwright');
 const ROOT = path.resolve(__dirname, '..');
 const TYP = { '.html': 'text/html; charset=utf-8', '.css': 'text/css', '.js': 'text/javascript', '.json': 'application/json; charset=utf-8', '.svg': 'image/svg+xml', '.png': 'image/png', '.woff2': 'font/woff2' };
-const MUSTER = ['/', '/zh/', '/zh/zuerich/', '/lu/luzern/', '/thema/hundesteuer/', '/thema/vermisst/', '/schweiz/', '/ueber/', '/fr-ch/', '/fr-ch/ge/', '/fr-ch/ge/geneve/', '/fr-ch/thema/hundesteuer/', '/it-ch/', '/it-ch/ti/', '/it-ch/ti/lugano/', '/it-ch/schweiz/'];
+const MUSTER = ['/', '/zh/', '/zh/zuerich/', '/lu/luzern/', '/thema/hundesteuer/', '/thema/vermisst/', '/schweiz/', '/ueber/', '/quellen/', '/fr-ch/', '/fr-ch/ge/', '/fr-ch/ge/geneve/', '/fr-ch/thema/hundesteuer/', '/fr-ch/quellen/', '/it-ch/', '/it-ch/ti/', '/it-ch/ti/lugano/', '/it-ch/schweiz/'];
 const FEHLER_UNTER = 28, HINWEIS_UNTER = 40;
 
 function datei(url) {

@@ -325,3 +325,9 @@ Was die Glieder in Originalfassungen bemerkt haben, steht in `CHANGELOG.md` unte
 ### BACKLOG.md, 5. Umbauten am Generator
 
 - [x] (erledigt 28.11.2026, Sonderlauf) **Suche über die ganze Website** (Wunsch von Joss vom 28.11.2026: «Vor allem Suche Seite»). Das Suchfeld findet neben Orten auch Stichworte auf allen Seiten, auf der Startseite, mit dem Suchfeld direkt unter dem Titel. Keine eigene Suchseite. Vorgabe: `backlog/vorgabe-suche.md`.
+
+## Archiviert am 2026-11-28
+
+### BACKLOG.md, 5. Umbauten am Generator
+
+- [x] (erledigt 28.11.2026, Sonderlauf: `https://gassi-kompass.ch/quellen/`) **Quellenverzeichnis** (Wunsch von Joss vom 28.11.2026). Eine Seite `/quellen/` mit allen Quellen zum Filtern, Sortieren und Durchsuchen. Beschreibung in `handbuch/generator.md`, «Quellenverzeichnis».

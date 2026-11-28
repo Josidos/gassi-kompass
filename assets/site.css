@@ -295,6 +295,29 @@ p.callout{display:block;max-width:68ch}
 .such-seiten .topic-text{font-size:.94rem;overflow-wrap:anywhere}
 .such-seiten mark{background:var(--free-bg);color:var(--ink);border-radius:2px;padding:0 .08em;box-shadow:inset 0 -1px 0 var(--free)}
 .picker{display:grid;gap:12px}
+/* Quellenverzeichnis: Wahl als Kennungs-Quadrate, Quellen als Linienliste mit Zwischenüberschriften je Kanton */
+.q-wahl{max-width:none;gap:10px}
+.q-wahl input{max-width:620px}
+.q-gruppe-wahl{display:flex;flex-wrap:wrap;gap:6px}
+.q-k{font:inherit;font-family:var(--sans);font-weight:800;font-stretch:80%;font-size:.95rem;letter-spacing:.02em;min-width:40px;height:34px;padding:0 6px;border-radius:2px;border:1px solid var(--rule);background:var(--sheet);color:var(--ink);cursor:pointer;font-variant-numeric:tabular-nums}
+.q-k.q-alle{padding:0 12px;font-weight:700;font-stretch:88%}
+.q-k[aria-pressed="true"]{background:var(--code);border-color:var(--code);color:var(--on-code)}
+.q-k:focus-visible,.q-sort button:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+.q-sort{display:flex;flex-wrap:wrap;align-items:center;gap:6px 14px;font-family:var(--sans);font-size:.88rem;color:var(--ink-2)}
+.q-sort button{font:inherit;font-weight:600;color:var(--ink);background:none;border:0;padding:4px 0;cursor:pointer;text-decoration:underline;text-decoration-color:var(--rule);text-underline-offset:3px}
+.q-sort button[aria-pressed="true"]{text-decoration:underline 2px var(--ink);text-underline-offset:3px}
+@media (hover:hover) and (pointer:fine){.q-k:hover{border-color:var(--binding)}.q-k[aria-pressed="false"]:hover{background:var(--sunk)}.q-sort button:hover{text-decoration-color:var(--ink)}}
+.q-k:active{background:var(--sunk)}
+.q-liste{list-style:none;margin:0;padding:0;border-top:2px solid var(--ink)}
+.q-gruppe h2{margin:0;padding:26px 0 8px;font-size:clamp(1.2rem,1.05rem + .6vw,1.45rem)}
+.q-gruppe:first-child h2{padding-top:12px}
+.q{display:grid;gap:3px;padding:10px 0 11px;border-bottom:1px solid var(--rule-soft)}
+.q-kopf{display:flex;align-items:baseline;gap:10px;font-family:var(--sans)}
+.q-code{flex:none;align-self:center;display:inline-grid;place-items:center;min-width:34px;height:24px;padding:0 4px;border-radius:2px;background:var(--code);color:var(--on-code);font-weight:800;font-stretch:80%;font-size:.8rem;letter-spacing:.02em}
+.q-kurz{font-weight:760;font-stretch:88%;font-size:1.05rem}
+.q-lang{margin:0;max-width:70ch;font-size:.94rem;line-height:1.45;overflow-wrap:anywhere}
+.q-lang a{color:var(--ink)}
+.q-datum{margin:0;font-family:var(--sans);font-size:.78rem;color:var(--ink-2);font-variant-numeric:tabular-nums}
 
 /* Tafeln: Treffer der Suche, Gemeinden eines Kantons */
 .plates{display:flex;flex-wrap:wrap;gap:8px;align-items:stretch}
@@ -468,6 +491,7 @@ thead th a{text-underline-offset:2px}
   .now span{font-size:.78rem}
   #treffer{flex-direction:column}
   #treffer .dest{width:100%}
+  .q-datum{font-size:.875rem}
 }
 
 /* Berührung: Wo der Zeiger ein Finger ist, bekommt jedes Ziel eine Tippfläche von rund 44 Pixeln Höhe.
@@ -504,6 +528,10 @@ thead th a{text-underline-offset:2px}
   .foot nav a{display:inline-flex;align-items:center;min-height:44px}
   .karte-zu{padding-block:12px}
   .karte .karte-feld .leaflet-bar a{width:44px;height:44px;line-height:42px}
+  .q-k{min-width:44px;height:44px}
+  .q-sort button{min-height:44px}
+  .q{gap:12px}
+  .q-lang a{display:inline-block;padding-block:11px;margin-block:-11px}
 }
 @media (pointer:coarse) and (max-width:560px){
   .index>div{padding:6px 0 2px}

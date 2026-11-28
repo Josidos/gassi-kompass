@@ -45,7 +45,7 @@ TAGE = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
 TOENE = {"must", "none", "note", "free"}
 SLUG = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 MMTT = re.compile(r"^(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])$")
-RESERVIERT = {"assets", "data", "tests", "tools", "ueber", "schweiz", "thema", "fr-ch", "it-ch"}
+RESERVIERT = {"assets", "data", "tests", "tools", "ueber", "schweiz", "thema", "quellen", "fr-ch", "it-ch"}
 VERGLEICH = [("wald", "Leine im Wald"), ("haft", "Haftpflicht"), ("kurs", "Kurs"),
              ("rassen", "Rassen"), ("steuer", "Hundesteuer"), ("anm", "Anmeldung")]
 # Sprachen der Seite. Deutsch an der Wurzel, die anderen unter ihrem Präfix. Nicht /fr/: das ist Freiburg.
@@ -188,6 +188,18 @@ TEXTE = {
         "fussnav": "Fussnavigation",
         "nav_suche": "Ort oder Stichwort suchen", "nav_schweiz": "Ganze Schweiz", "nav_vergleich": "Kantone im Vergleich",
         "nav_ueber": "Über diese Seite",
+        "nav_quellen": "Alle Quellen",
+        "qv": {
+            "titel": "Amtliche Quellen zu Hunderegeln in der Schweiz: Hundegesetze der Kantone",
+            "beschr": "Alle amtlichen Quellen von Gassi-Kompass: Hundegesetze und Verordnungen der Kantone, Reglemente der Gemeinden und Seiten des Bundes, je mit Link und den Seiten, die sie zitieren.",
+            "pfad": "Quellen", "h1": "Amtliche Quellen",
+            "lede": "Hier stehen alle Quellen, auf die sich die Seiten von Gassi-Kompass stützen, mit Link zur Quelle und zu den Seiten, die sie zitieren. Massgebend ist immer die Quelle selbst.",
+            "label": "Quelle suchen", "beispiel": "z. B. Hundegesetz, Winterthur",
+            "wahl": "Geltungsbereich", "alle": "Alle", "sort": "Sortieren", "nach_kanton": "Nach Kanton", "nach_name": "Nach Name",
+            "bund": "Bund", "kanton": "Kanton", "zitiert": "Zitiert auf", "abgeglichen": "Zuletzt abgeglichen am {d}",
+            "s_alle": "{n} Quellen", "s_teil": "{n} von {m} Quellen", "s_eins": "1 von {m} Quellen",
+            "s_keine": "Keine Quelle gefunden. Prüfe die Schreibweise oder wähle «Alle».",
+        },
         "kanton_kurz": "Kanton {kurz}",
         "n_gemeinden": ["1 Gemeinde", "{n} Gemeinden"],
         "fakten": ["Kantone", "Gemeinden mit lokalen Regeln", "verlinkte Quellen"],
@@ -411,6 +423,18 @@ TEXTE = {
         "fussnav": "Navigation de pied de page",
         "nav_suche": "Chercher un lieu ou un mot", "nav_schweiz": "Toute la Suisse",
         "nav_vergleich": "Les cantons en comparaison", "nav_ueber": "À propos",
+        "nav_quellen": "Toutes les sources",
+        "qv": {
+            "titel": "Sources officielles des règles sur les chiens en Suisse : lois cantonales sur les chiens",
+            "beschr": "Toutes les sources officielles de Gassi-Kompass : lois et ordonnances cantonales sur les chiens, règlements communaux et pages de la Confédération, avec lien et pages qui les citent.",
+            "pfad": "Sources", "h1": "Sources officielles",
+            "lede": "Voici toutes les sources sur lesquelles s'appuient les pages de Gassi-Kompass, avec un lien vers la source et vers les pages qui la citent. Seule la source fait foi.",
+            "label": "Chercher une source", "beispiel": "p. ex. loi sur les chiens, Sion",
+            "wahl": "Champ d'application", "alle": "Toutes", "sort": "Trier", "nach_kanton": "Par canton", "nach_name": "Par nom",
+            "bund": "Confédération", "kanton": "Canton", "zitiert": "Citée sur", "abgeglichen": "Dernière vérification le {d}",
+            "s_alle": "{n} sources", "s_teil": "{n} sources sur {m}", "s_eins": "1 source sur {m}",
+            "s_keine": "Aucune source trouvée. Vérifiez l'orthographe ou choisissez « Toutes ».",
+        },
         "kanton_kurz": "Canton {kurz}",
         "n_gemeinden": ["1 commune", "{n} communes"],
         "fakten": ["cantons", "communes avec règles locales", "sources citées"],
@@ -634,6 +658,18 @@ TEXTE = {
         "fussnav": "Navigazione a piè di pagina",
         "nav_suche": "Cerca un luogo o una parola", "nav_schweiz": "Tutta la Svizzera",
         "nav_vergleich": "Cantoni a confronto", "nav_ueber": "Informazioni",
+        "nav_quellen": "Tutte le fonti",
+        "qv": {
+            "titel": "Fonti ufficiali sulle regole per i cani in Svizzera: leggi cantonali sui cani",
+            "beschr": "Tutte le fonti ufficiali di Gassi-Kompass: leggi e ordinanze cantonali sui cani, regolamenti comunali e pagine della Confederazione, con link e pagine che le citano.",
+            "pfad": "Fonti", "h1": "Fonti ufficiali",
+            "lede": "Qui trovi tutte le fonti su cui si basano le pagine di Gassi-Kompass, con un link alla fonte e alle pagine che la citano. Fa stato solo la fonte.",
+            "label": "Cerca una fonte", "beispiel": "p. es. legge sui cani, Lugano",
+            "wahl": "Ambito", "alle": "Tutte", "sort": "Ordina", "nach_kanton": "Per cantone", "nach_name": "Per nome",
+            "bund": "Confederazione", "kanton": "Cantone", "zitiert": "Citata in", "abgeglichen": "Ultima verifica il {d}",
+            "s_alle": "{n} fonti", "s_teil": "{n} fonti su {m}", "s_eins": "1 fonte su {m}",
+            "s_keine": "Nessuna fonte trovata. Controlla l'ortografia o scegli «Tutte».",
+        },
         "kanton_kurz": "Cantone {kurz}",
         "n_gemeinden": ["1 Comune", "{n} Comuni"],
         "fakten": ["Cantoni", "Comuni con regole locali", "fonti citate"],
@@ -979,6 +1015,7 @@ ZAHLEN = {}       # Umfang der Seite für die Startseite, gesetzt in main(): {"q
 LANG = "de"       # Sprache der Seite, die gerade entsteht. Wird mit sprache() gesetzt.
 S = TEXTE["de"]   # Texte dieser Sprache
 W = {}            # Daten je Sprache: {"de": {"k": [Kantone], "g": [Gemeinden]}, ...}
+ZITIERT = {}      # {Sprache: {Quelle: [(Adresse, Name der Seite), ...]}}, gefüllt von seite(), gelesen von seite_quellen()
 
 
 def sprache(lang):
@@ -1845,7 +1882,7 @@ class SuchLeser(html.parser.HTMLParser):
     LEER = {"br", "img", "input", "meta", "link", "hr", "source", "wbr"}
     WEG_TAGS = {"script", "style", "nav", "noscript", "svg", "button", "template"}
     WEG_KLASSEN = {"src", "bar", "today-head", "kt-kopf", "blick", "plates", "facts", "transl", "months", "index", "schritte",
-                   "text-link"}
+                   "text-link", "q-wahl", "q-liste"}
     KOPF_KLASSEN = {"kt-name", "big", "zone-name", "callout-k"}
     TRENN_KLASSEN = {"card-v", "kt-wert", "kt-kurz", "chip"}  # nach diesen Elementen steht im Text ein Mittelpunkt
 
@@ -2172,6 +2209,12 @@ def seite(pfad, titel, beschr, inhalt, krumen, stand, benutzt, Q, index=True, al
                 skripte += AUFKLAPPEN
         else:
             quellen = f'<p id="quellen">{kopf}</p><ol>{punkte}</ol>'
+    if benutzt:  # fürs Quellenverzeichnis: welche Seite welche Quelle zitiert
+        name = krumen[-1][0] if krumen else titel
+        if krumen and len(krumen) > 3:  # Karte der Hundezonen: «Stadt Zürich: Karte»
+            name = f"{krumen[-2][0]}: {name}"
+        for key in benutzt:
+            ZITIERT.setdefault(LANG, {}).setdefault(key, []).append((pfad, name))
     robots = "" if index else '<meta name="robots" content="noindex">\n'
     mail = f'<a href="mailto:{KONTAKT}?subject={quote(S["betreff"] + pfad)}">{KONTAKT}</a>'
     return f"""<!doctype html>
@@ -2211,7 +2254,7 @@ def seite(pfad, titel, beschr, inhalt, krumen, stand, benutzt, Q, index=True, al
 <p>{S["fuss_recht"]}</p>
 <p>{S["fuss_fehler"].format(mail=mail)}</p>
 {quellen}
-<nav aria-label="{S["fussnav"]}"><a href="{start}">{S["nav_suche"]}</a><a href="{bund_ziel()[1]}">{S["nav_schweiz"]}{in_sprache(bund_ziel()[0])}</a><a href="{start}#vergleich">{S["nav_vergleich"]}</a><a href="{start}ueber/">{S["nav_ueber"]}</a></nav>
+<nav aria-label="{S["fussnav"]}"><a href="{start}">{S["nav_suche"]}</a><a href="{bund_ziel()[1]}">{S["nav_schweiz"]}{in_sprache(bund_ziel()[0])}</a><a href="{start}#vergleich">{S["nav_vergleich"]}</a><a href="{start}quellen/">{S["nav_quellen"]}</a><a href="{start}ueber/">{S["nav_ueber"]}</a></nav>
 </footer>
 </div>
 <script src="/assets/heute.js" defer></script>
@@ -2549,9 +2592,130 @@ def seite_ueber(Q):
 {teile}
 <p>{u["schluss"]}</p>
 </section>"""
+    ZITIERT.setdefault(LANG, {}).setdefault("ch_swisstopo_orte", []).append((f"{start}ueber/", S["nav_ueber"]))
     return seite(f"{start}ueber/", u["titel"], u["beschr"],
                  inhalt, [(S["start"], start), (S["nav_ueber"], f"{start}ueber/")], None, [], Q,
                  alt={l: p + "ueber/" for l, p in startseiten().items()})
+
+
+def quellen_von(obj):
+    """Alle Quellen, die eine Datendatei zitiert (Felder, deren Name auf «quellen» endet)."""
+    gefunden = set()
+    if isinstance(obj, dict):
+        for key, wert in obj.items():
+            if key.startswith("_"):
+                continue
+            if key.endswith("quellen") and isinstance(wert, list):
+                gefunden.update(wert)
+            else:
+                gefunden |= quellen_von(wert)
+    elif isinstance(obj, list):
+        for wert in obj:
+            gefunden |= quellen_von(wert)
+    return gefunden
+
+
+def seite_quellen(Q):
+    """Quellenverzeichnis der Sprache: jede Quelle, die eine Seite dieser Sprache zitiert (ZITIERT, gefüllt beim
+    Bauen der anderen Seiten). Geltungsbereich aus dem Schlüssel und den Dateien, die sie zitieren: Bund, Kanton oder,
+    wenn nur die Datei einer Gemeinde sie zitiert, diese Gemeinde. Ohne Skript steht die Liste nach Kanton geordnet da,
+    assets/quellen.js filtert, sucht und sortiert."""
+    qv = S["qv"]
+    start = PRAEFIX[LANG] + "/"
+    pfad = f"{start}quellen/"
+    namen = KANTONSNAMEN[LANG]
+    bund = W[LANG].get("b")
+    dateien = ([("b", None, bund)] if bund else []) + [("k", k["id"], k) for k in W[LANG]["k"]] + \
+        [("g", g["kanton"], g) for g in W[LANG]["g"]]
+    zitiert_von = {}  # Quelle: [(Art, Kanton, Datei)]
+    eigen = {}        # Adresse einer Gemeindeseite oder Karte: Quellen, die ihre eigene Datei zitiert
+    for art, kt, d in dateien:
+        qs = quellen_von(d)
+        for key in qs:
+            zitiert_von.setdefault(key, []).append((art, kt, d))
+        if art == "g":
+            eigen[g_pfad(LANG, d)] = qs
+            geo = karten_geo(d)
+            if geo:
+                eigen[karte_pfad(LANG, d)] = {geo["quelle"]}
+    themen = {thema_pfad(t["id"]) for t in THEMEN}
+    eintraege = []
+    for key, seiten in ZITIERT.get(LANG, {}).items():
+        von = zitiert_von.get(key, [])
+        praefix = key.split("_")[0]
+        kantone = {kt for art, kt, _ in von if art == "k"}
+        gemeinden = [d for art, _, d in von if art == "g"]
+        if praefix == "ch" or any(art == "b" for art, _, _ in von):
+            kt, wo, gm = "ch", qv["bund"], None
+        elif kantone:
+            kt = praefix if praefix in kantone else sorted(kantone)[0]
+            wo, gm = qv["kanton"], None
+        elif len(gemeinden) == 1:
+            kt, gm = gemeinden[0]["kanton"], gemeinden[0]
+            wo = gm["name"]
+        else:
+            kt = praefix if praefix in namen else (gemeinden[0]["kanton"] if gemeinden else "ch")
+            wo, gm = (qv["kanton"], None) if kt != "ch" else (qv["bund"], None)
+        # Gemeindeseiten zeigen auch die Quellen ihres Kantons: «zitiert auf» nennt nur die Seiten, deren Datei
+        # die Quelle selbst zitiert, dazu Themenseiten, die Seite des Bundes und «Über diese Seite».
+        ziele, gesehen = [], set()
+        for sp, name in seiten:
+            if sp in gesehen or (sp in eigen and key not in eigen[sp]):
+                continue
+            gesehen.add(sp)
+            ziele.append((1 if sp in themen or sp.endswith("/ueber/") else 0, sp, name))
+        ziele.sort(key=lambda z: z[0])
+        daten = [d["geprueft"] for _, _, d in von if d.get("geprueft")]
+        kanton_name = qv["bund"] if kt == "ch" else namen[kt]
+        such = such_norm(" ".join([Q[key]["kurz"], Q[key]["lang"], kanton_name, kt, gm["name"] if gm else "",
+                                   gm["ort"] if gm else ""]))
+        eintraege.append({"key": key, "kt": kt, "wo": wo, "gm": gm, "ziele": ziele, "datum": max(daten) if daten else None,
+                          "such": such, "name": ohne_akzent(Q[key]["kurz"]).lower()})
+    gruppen = ["ch"] + sorted({x["kt"] for x in eintraege} - {"ch"}, key=lambda kid: ohne_akzent(namen[kid]))
+    eintraege.sort(key=lambda x: (gruppen.index(x["kt"]), x["gm"] is not None,
+                                  ohne_akzent(x["gm"]["ort"]).lower() if x["gm"] else "", x["name"]))
+    nach_name = sorted(range(len(eintraege)), key=lambda i: (eintraege[i]["name"], eintraege[i]["key"]))
+    rang = {i: r for r, i in enumerate(nach_name)}
+    zeilen, gruppe = [], None
+    for i, x in enumerate(eintraege):
+        if x["kt"] != gruppe:
+            gruppe = x["kt"]
+            titel = qv["bund"] if gruppe == "ch" else kanton_titel(gruppe)
+            zeilen.append(f'<li class="q-gruppe" data-gruppe="{gruppe}"><h2>{e(titel)}</h2></li>')
+        c = Q[x["key"]]
+        auf = "".join(f'<a href="{sp}">{e(name)}</a>' for _, sp, name in x["ziele"])
+        meta = e(x["wo"]) + (" · " + e(qv["abgeglichen"].format(d=de_datum(x["datum"]))) if x["datum"] else "")
+        zeilen.append(
+            f'<li class="q" data-kt="{x["kt"]}" data-s="{e(x["such"])}" data-n="{rang[i]}">'
+            f'<div class="q-kopf"><span class="q-code">{x["kt"].upper()}</span><span class="q-kurz">{e(c["kurz"])}</span></div>'
+            f'<p class="q-lang"><a href="{e(c["url"])}" target="_blank" rel="noopener">{e(c["lang"])}</a></p>'
+            f'<div class="src q-auf"><span>{qv["zitiert"]}</span>{auf}</div><p class="q-datum">{meta}</p></li>')
+    knoepfe = "".join(f'<button type="button" class="q-k" data-kt="{kid}" aria-pressed="false" '
+                      f'title="{e(qv["bund"] if kid == "ch" else namen[kid])}">{kid.upper()}</button>' for kid in
+                      ["ch"] + sorted(set(gruppen) - {"ch"}))
+    texte = {k: qv[k] for k in ("s_alle", "s_teil", "s_eins", "s_keine")}
+    inhalt = f"""<section class="hero"><!--KRUMEN-->
+<h1>{qv["h1"]}</h1>
+<div class="q-wahl search" data-quellen data-texte="{e(json.dumps(texte, ensure_ascii=False))}" hidden>
+<label for="quellensuche">{qv["label"]}</label>
+<input id="quellensuche" type="search" autocomplete="off" enterkeyhint="search" placeholder="{e(qv["beispiel"])}" aria-describedby="q-status">
+<div class="q-gruppe-wahl" role="group" aria-label="{e(qv["wahl"])}"><button type="button" class="q-k q-alle" data-kt="" aria-pressed="true">{qv["alle"]}</button>{knoepfe}</div>
+<div class="q-sort" role="group" aria-label="{e(qv["sort"])}"><span>{qv["sort"]}</span><button type="button" data-sort="kanton" aria-pressed="true">{qv["nach_kanton"]}</button><button type="button" data-sort="name" aria-pressed="false">{qv["nach_name"]}</button></div>
+<p class="search-status" id="q-status" role="status"></p>
+</div>
+<p class="lede">{qv["lede"]}</p>
+</section>
+<section class="sec">
+<ul class="q-liste" data-q-liste>{"".join(zeilen)}</ul>
+</section>"""
+    return seite(pfad, qv["titel"], qv["beschr"], inhalt, [(S["start"], start), (qv["pfad"], pfad)], None, [], Q,
+                 alt={l: p + "quellen/" for l, p in startseiten().items()},
+                 skripte='<script src="/assets/quellen.js" defer></script>\n')
+
+
+def kanton_titel(kid):
+    """Name des Kantons als Zwischenüberschrift: «Kanton Zürich», «Canton de Vaud», aus den Formen der Seiten."""
+    return kantonsformen(LANG, kid)["name"]
 
 
 def seite_404(Q):
@@ -2583,6 +2747,7 @@ def baue(Q, orte):
     for ordner in ROOT.iterdir():
         if ordner.is_dir() and (ordner / MARKE).exists():
             shutil.rmtree(ordner)
+    ZITIERT.clear()
     urls = []
     for lang in SPRACHEN:
         kantone, gemeinden, bund = W[lang]["k"], W[lang]["g"], W[lang].get("b")
@@ -2609,7 +2774,7 @@ def baue(Q, orte):
             urls.append((f'{start}thema/{t["id"]}/', aeltester))
         if lang == "de":
             schreibe("404.html", seite_404(Q))
-            for ordner in ("ueber", "schweiz", "thema"):
+            for ordner in ("ueber", "schweiz", "thema", "quellen"):
                 schreibe(f"{ordner}/{MARKE}", "")
         else:
             schreibe(f"{start}{MARKE}", "")  # der ganze Sprachordner wird beim Neubau ersetzt
@@ -2626,6 +2791,9 @@ def baue(Q, orte):
             if geo:
                 schreibe(f"{karte_pfad(lang, g)}index.html", seite_karte(g, k, geo, Q))
                 urls.append((karte_pfad(lang, g), geo["abgerufen"]))
+        # Zuletzt: Das Quellenverzeichnis braucht die Quellen aller anderen Seiten dieser Sprache (ZITIERT).
+        schreibe(f"{start}quellen/index.html", mit_suche(f"{start}quellen/", "ueber", seite_quellen(Q)))
+        urls.append((f"{start}quellen/", None))
         schreibe(f"assets/suche-{lang}.json", such_verzeichnis(lang, such))
     sprache("de")
     for name, geo in GEO.items():  # die Flächen einmal für alle Sprachen, unter der deutschen Adresse

@@ -456,6 +456,50 @@ function datei(url) {
     await p.close();
   }
 
+  // 6. Quellenverzeichnis: je Sprache genau die Quellen, die Seiten dieser Sprache zitieren (jeder Link mit
+  // target="_blank" auf einer Seite ausser dem Verzeichnis selbst). Die Links unter «zitiert auf» prüft die
+  // Linkprüfung oben wie jeden internen Link. Wahl «ZH», Suche «Hundegesetz», nichts Fremdes.
+  const extern = html => new Set([...html.matchAll(/<a href="(https?:\/\/[^"]+)" target="_blank"/g)].map(m => m[1]));
+  for (const [l, pre] of SPRACHEN) {
+    const qpfad = `${pre}/quellen/`;
+    if (!seiten.includes(qpfad)) { if (seiten.includes(pre + '/')) fehler.push(`${qpfad}: Das Quellenverzeichnis fehlt`); continue; }
+    const soll = new Set();
+    for (const s of seiten) {
+      if (s === qpfad || s === '/404.html' || sollLang(s) !== SPRACHEN.find(x => x[0] === l)[3]) continue;
+      for (const u of extern(fs.readFileSync(datei(s), 'utf8'))) soll.add(u);
+    }
+    const qhtml = fs.readFileSync(datei(qpfad), 'utf8');
+    const ist = new Set([...qhtml.matchAll(/<p class="q-lang"><a href="([^"]+)"/g)].map(m => m[1]));
+    for (const u of soll) if (!ist.has(u)) fehler.push(`${qpfad}: Quelle fehlt im Verzeichnis: ${u}`);
+    for (const u of ist) if (!soll.has(u)) fehler.push(`${qpfad}: Quelle steht im Verzeichnis, aber auf keiner Seite: ${u}`);
+    const p = await ctx.newPage();
+    const fremdQ = [];
+    p.on('request', r => { if (!r.url().startsWith(basis)) fremdQ.push(r.url()); });
+    p.on('pageerror', err => fehler.push(`${qpfad}: Skriptfehler: ` + err.message));
+    await p.goto(basis + qpfad);
+    if (await p.isHidden('#quellensuche')) fehler.push(`${qpfad}: Das Suchfeld ist nicht sichtbar`);
+    const sichtbar = () => p.$$eval('.q-liste > li.q', xs => xs.filter(x => !x.hidden).map(x => x.getAttribute('data-kt')));
+    await p.click('.q-k[data-kt="zh"]');
+    const zh = await sichtbar();
+    if (!zh.length || zh.some(k => k !== 'zh')) fehler.push(`${qpfad}: Die Wahl «ZH» zeigt ${zh.length} Quellen, davon ${zh.filter(k => k !== 'zh').length} aus anderen Kantonen`);
+    await p.click('.q-k[data-kt=""]');
+    if ((await sichtbar()).length !== (qhtml.match(/<li class="q" /g) || []).length) fehler.push(`${qpfad}: «Alle» zeigt nicht alle Quellen`);
+    if (l === 'de') {
+      await p.fill('#quellensuche', 'Hundegesetz');
+      if (!(await sichtbar()).length) fehler.push(`${qpfad}: Die Suche nach «Hundegesetz» findet keine Quelle`);
+      await p.fill('#quellensuche', 'qqqq');
+      if ((await sichtbar()).length) fehler.push(`${qpfad}: Die Suche nach «qqqq» findet Quellen`);
+      await p.fill('#quellensuche', '');
+    }
+    await p.click('[data-sort="name"]');
+    const namen = await p.$$eval('.q-liste > li.q', xs => xs.map(x => +x.getAttribute('data-n')));
+    if (namen.some((n, i) => i && n < namen[i - 1])) fehler.push(`${qpfad}: «Nach Name» sortiert nicht`);
+    if (!(await p.$$eval('.q-gruppe', xs => xs.every(x => x.hidden)))) fehler.push(`${qpfad}: «Nach Name» zeigt die Überschriften der Kantone`);
+    if (await p.$eval('#q-status', x => !x.textContent)) fehler.push(`${qpfad}: Die Statuszeile ist leer`);
+    if (fremdQ.length) fehler.push(`${qpfad}: ruft fremde Adressen ab: ${fremdQ[0]}`);
+    await p.close();
+  }
+
   await browser.close();
   server.close();
   if (fehler.length) { console.log(`FEHLER (${fehler.length}):`); fehler.forEach(f => console.log('  - ' + f)); process.exit(1); }
