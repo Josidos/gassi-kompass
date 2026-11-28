@@ -54,7 +54,6 @@ Vorgaben in `CLAUDE.md` unter «Umbauten am Generator».
 
 Reihenfolge seit dem 28.11.2026, 04:40 Uhr: zuerst der Umbau für bessere Benutzerfreundlichkeit in drei Teilen (Auftrag von Joss um 04:18 Uhr, Befund der Durchsicht gegen vier Regelsammlungen), dann Suche und Quellenverzeichnis, dann das Themenfeld. Steht bei einem Punkt eine Datei `backlog/vorgabe-….md`, liest der Sonderlauf sie zuerst ganz.
 
-- [ ] fällig: **Themenseiten: ein Kanton, eine Zeile zum Aufklappen.** Tabelle und Karten werden eine Liste, die Seiten schrumpfen von 30 und mehr Bildschirmen auf wenige. Vorgabe: `backlog/vorgabe-themenseiten.md`.
 - [ ] fällig: **Suche über die ganze Website** (Wunsch von Joss vom 28.11.2026: «Vor allem Suche Seite»). Das Suchfeld findet neben Orten auch Stichworte auf allen Seiten, auf der Startseite, mit dem Suchfeld direkt unter dem Titel. Keine eigene Suchseite. Vorgabe: `backlog/vorgabe-suche.md`.
 - [ ] fällig: **Quellenverzeichnis** (Wunsch von Joss vom 28.11.2026). Eine Seite `/quellen/` mit allen Quellen zum Filtern, Sortieren und Durchsuchen. Vorgabe: `backlog/vorgabe-quellenverzeichnis.md`.
 - [ ] fällig: **Themenfeld 2 «Hunde betreuen und ausbilden als Beruf» (Feld `gewerbe`)** (Vorgabe aus der Sitzung vom 28.11.2026, Reihenfolge der Themen in Abschnitt 9). Wer Hunde gegen Entgelt betreut, ausführt oder ausbildet, soll auf der Seite seines Kantons finden, welche Bewilligung es braucht und wo man sie beantragt. Dieser Sonderlauf baut nur das Gerüst und die Karte des Bundes. Die Kantone folgen danach nach Abschnitt 9.4.

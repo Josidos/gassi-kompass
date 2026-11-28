@@ -82,6 +82,7 @@ KARTEN_ANKER = ["haftpflicht", "kurs", "anmeldung", "hundesteuer", "rassen", "un
 # in 'vergleich'). None: der Kasten zur Leine im Wald.
 # Schlüssel in 'vergleich' je Kartenposition. «Unterwegs» hat keinen, dort steht der 'wert' der Karte.
 VERGLEICH_POS = ["haft", "kurs", "anm", "steuer", "rassen", None]
+AUFKLAPPEN = '<script src="/assets/aufklappen.js" defer></script>\n'  # Themenseiten: Zeile aus der Adresse aufklappen
 WALD_KURZ = 300  # Gemeindeseite: längere Texte zur Leine im Wald (ohne feste Leinenzeit) stehen zum Aufklappen
 NEU_SCHRITTE = [(4, "rassen"), (2, "anm"), (0, "haft"), (1, "kurs"), (3, "steuer"), (None, "wald")]
 MIN_LOKAL = 3  # so viele belegte lokale Angaben braucht eine Gemeinde für eine eigene Seite
@@ -281,8 +282,9 @@ TEXTE = {
             "ueberblick_h2": "{spalte} nach Kanton",
             "blick": "Auf einen Blick",
             "andere": "Weitere Kantone, auf ihrer Seite in der Sprache des Kantons:",
-            "einzeln_h2": "Was jeder Kanton vorschreibt",
-            "einzeln_p": "Der Name des Kantons führt zu allen Regeln dort. Gemeinden können zusätzliche Regeln haben.",
+            "liste_p": "Wähle einen Kanton für Einzelheiten und Quellen. Gemeinden können zusätzliche Regeln haben.",
+            "zum_kanton": "Alle Regeln {im}",
+            "uebrige": "Die übrigen Kantone, mit allen Regeln auf ihrer Seite:",
             "weitere_h2": "Weitere Themen",
             "alle": "alle Kantone",
             "wald_zahl": "In {m} der {n} Kantone gilt im Wald eine Leinenpflicht zu festen Daten{zeit}.",
@@ -338,7 +340,7 @@ TEXTE = {
                 "lede": "Wo du einen entlaufenen Hund als vermisst meldest und wem du einen gefundenen Hund melden musst. Die Meldestelle ist je nach Kanton verschieden.",
                 "bund_h2": "In der ganzen Schweiz",
                 "kt_h2": "Nach Kanton",
-                "kt_p": "Der Name des Kantons führt zu allen Regeln dort.",
+                "kt_p": "Wähle einen Kanton für Einzelheiten und Quellen.",
                 "beschr": "Hund entlaufen oder gefunden: wo du es in der Schweiz meldest, Kanton für Kanton. Mit amtlicher Quelle zu jeder Angabe."
             },
             "anmeldung": {
@@ -495,8 +497,9 @@ TEXTE = {
             "ueberblick_h2": "{spalte} par canton",
             "blick": "En bref",
             "andere": "Autres cantons, sur leur page dans la langue du canton :",
-            "einzeln_h2": "Ce que chaque canton prescrit",
-            "einzeln_p": "Le nom du canton mène à toutes ses règles. Les communes peuvent avoir des règles supplémentaires.",
+            "liste_p": "Choisissez un canton pour les détails et les sources. Les communes peuvent avoir des règles supplémentaires.",
+            "zum_kanton": "Toutes les règles {im}",
+            "uebrige": "Les autres cantons, avec toutes leurs règles sur leur page :",
             "weitere_h2": "Autres thèmes",
             "alle": "tous les cantons",
             "wald_zahl": "Dans {m} des {n} cantons, la laisse est obligatoire en forêt à des dates fixes{zeit}.",
@@ -552,7 +555,7 @@ TEXTE = {
                 "lede": "Où annoncer la disparition de votre chien et à qui annoncer un chien trouvé. Le service compétent varie selon le canton.",
                 "bund_h2": "Dans toute la Suisse",
                 "kt_h2": "Par canton",
-                "kt_p": "Le nom du canton mène à toutes les règles qui y valent.",
+                "kt_p": "Choisissez un canton pour les détails et les sources.",
                 "beschr": "Chien perdu ou trouvé : où l'annoncer en Suisse, canton par canton. Avec la source officielle de chaque indication."
             },
             "anmeldung": {
@@ -709,8 +712,9 @@ TEXTE = {
             "ueberblick_h2": "{spalte} per Cantone",
             "blick": "In breve",
             "andere": "Altri Cantoni, sulla loro pagina nella lingua del Cantone:",
-            "einzeln_h2": "Cosa prescrive ogni Cantone",
-            "einzeln_p": "Il nome del Cantone porta a tutte le sue regole. I Comuni possono avere regole supplementari.",
+            "liste_p": "Scegli un Cantone per i dettagli e le fonti. I Comuni possono avere regole supplementari.",
+            "zum_kanton": "Tutte le regole {im}",
+            "uebrige": "Gli altri Cantoni, con tutte le regole sulla loro pagina:",
             "weitere_h2": "Altri temi",
             "alle": "tutti i Cantoni",
             "wald_zahl": "In {m} dei {n} Cantoni vale nel bosco un obbligo di guinzaglio a date fisse{zeit}.",
@@ -766,7 +770,7 @@ TEXTE = {
                 "lede": "Dove segnalare la scomparsa del tuo cane e a chi annunciare un cane trovato. Il servizio competente cambia da Cantone a Cantone.",
                 "bund_h2": "In tutta la Svizzera",
                 "kt_h2": "Per Cantone",
-                "kt_p": "Il nome del Cantone porta a tutte le regole che vi valgono.",
+                "kt_p": "Scegli un Cantone per i dettagli e le fonti.",
                 "beschr": "Cane smarrito o trovato: dove segnalarlo in Svizzera, Cantone per Cantone. Con la fonte ufficiale per ogni indicazione."
             },
             "anmeldung": {
@@ -1792,6 +1796,25 @@ def vermisst(k, Q, benutzt, link=None, kopf=None):
             f'{qlinks(v["quellen"], Q, benutzt)}</div>')
 
 
+def kt_zeile(k, Q, benutzt, kopf, inhalt, attr="", quellen=()):
+    """Themenseite: ein Kanton als Zeile zum Aufklappen (<details id="kt-<kürzel>">). kopf: Inhalt der summary
+    nach dem Namen (Marke, Kurztext), ohne Link. inhalt: Absätze unter der summary. Darunter Quellen und der Link
+    auf die Kantonsseite. attr: weitere Attribute des details (Seite nach Feld: data-<feld>)."""
+    link = (f'<p><a class="text-link" href="{k_pfad(LANG, k["id"])}">'
+            f'{e(S["thema"]["zum_kanton"].format(im=kantonsformen(LANG, k["id"])["im"]))}</a></p>')
+    return (f'<details class="kt-zeile" id="kt-{k["id"]}"{attr}><summary><span class="kt-name">'
+            f'{e(KANTONSNAMEN[LANG][k["id"]])}</span>{kopf}</summary>'
+            f'<div class="kt-inhalt">{inhalt}{qlinks(list(quellen), Q, benutzt)}{link}</div></details>')
+
+
+def uebrige_kantone(ohne):
+    """Eine Zeile mit Links auf die Kantone dieser Sprache, die auf einer Seite nach Feld keinen Eintrag haben."""
+    if not ohne:
+        return ""
+    links = ", ".join(f'<a href="{k_pfad(LANG, k["id"])}">{e(KANTONSNAMEN[LANG][k["id"]])}</a>' for k in ohne)
+    return f'<p class="more-kt">{S["thema"]["uebrige"]} {links}.</p>'
+
+
 def wald_karte(w):
     """Leine im Wald als Karte für die Themenseite und den Abschnitt «Neu einen Hund»: marke, ton, wert, text."""
     T = S["thema"]
@@ -2204,34 +2227,34 @@ def seite_thema(t, Q):
         zahl = tt["pflicht"].format(m=sum(1 for k in kantone if k["karten"][t["karte"]]["ton"] == "must"), n=n)
     else:
         zahl = tt["sonst"]
-    zeilen, karten = [], []
+    zeilen = []
     for k in kantone:
         if t["karte"] is None:
             c = wald_karte(k["wald"])
         else:
             c = dict(k["karten"][t["karte"]])
-        c["titel"] = k["name"]
-        ziel = k_pfad(LANG, k["id"])
-        zeilen.append(f'<tr role="row"><th scope="row" role="rowheader"><a href="{ziel}">{e(KANTONSNAMEN[LANG][k["id"]])}</a></th>'
-                      f'<td role="cell" class="t-chip"><span class="chip {e(c["ton"])}">{e(c["marke"])}</span></td>'
-                      f'<td role="cell" class="t-text">{e(k["vergleich"][t["key"]])}</td></tr>')
-        karten.append(karte(c, Q, benutzt, link=ziel))
+        kopf = (f'<span class="kt-marke"><span class="chip {e(c["ton"])}">{e(c["marke"])}</span></span>'
+                f'<span class="kt-kurz">{e(k["vergleich"][t["key"]])}</span>')
+        mehr = ""
+        if c.get("mehr"):
+            liste = c["mehr"]["punkte"]
+            saetze = ' class="saetze"' if sorted(len(p) for p in liste)[len(liste) // 2] > 50 else ""
+            mehr = (f'<details class="more"><summary>{e(c["mehr"]["titel"])}</summary>'
+                    f'<ul{saetze}>{"".join(f"<li>{e(p)}</li>" for p in liste)}</ul></details>')
+        inhalt = f'<p class="kt-wert">{e(c["wert"])}</p><p>{e(c["text"])}</p>{mehr}'
+        zeilen.append(kt_zeile(k, Q, benutzt, kopf, inhalt, quellen=c["quellen"]))
     teil = T["teil"].format(n=n) + " " if len(erfasste()) > n else ""
     bund = T["bund"].format(schweiz=bpfad, in_sprache=in_sprache(bl))
     uebersetzt = f'\n<p class="transl">{T["uebersetzt"]}</p>' if any("uebersetzt_aus" in k for k in kantone) else ""
     pfad = thema_pfad(t["id"])
     inhalt = f"""<section class="hero thema"><!--KRUMEN-->
 <h1>{e(T["h1"].format(name=tt["name"]))}</h1>
-<p class="lede">{e(teil)}{e(zahl)} {bund}</p>{uebersetzt}
+<p class="lede">{e(teil)}{e(zahl)} {bund}</p>
 </section>
 <section class="sec">
-<div class="sec-head"><h2>{e(T["ueberblick_h2"].format(spalte=tt["spalte"]))}</h2></div>
-<div class="table-wrap"><table class="stack" role="table"><thead role="rowgroup"><tr role="row"><th scope="col" role="columnheader">{S["vg_kanton"]}</th><th scope="col" role="columnheader">{T["blick"]}</th><th scope="col" role="columnheader">{e(tt["spalte"])}</th></tr></thead><tbody role="rowgroup">{"".join(zeilen)}</tbody></table></div>
-{andere_kantone(T["andere"])}
-</section>
-<section class="sec">
-<div class="sec-head"><h2>{T["einzeln_h2"]}</h2><p>{T["einzeln_p"]}</p></div>
-<div class="cards">{"".join(karten)}</div>
+<div class="sec-head"><h2>{e(T["ueberblick_h2"].format(spalte=tt["spalte"]))}</h2><p>{T["liste_p"]}</p></div>
+<div class="kt-liste" data-kt-liste><div class="kt-kopf" aria-hidden="true"><span>{S["vg_kanton"]}</span><span>{T["blick"]}</span><span>{e(tt["spalte"])}</span></div>{"".join(zeilen)}</div>
+{andere_kantone(T["andere"])}{uebersetzt}
 </section>
 <section class="sec">
 <div class="sec-head"><h2>{T["weitere_h2"]}</h2></div>
@@ -2240,7 +2263,7 @@ def seite_thema(t, Q):
 </section>"""
     return seite(pfad, T["titel"].format(name=tt["name"]), tt["beschr"], inhalt,
                  [(S["start"], start), (tt["name"], pfad)], min(k["geprueft"] for k in kantone), benutzt, Q,
-                 alt={l: f'{PRAEFIX[l]}/thema/{t["id"]}/' for l in SPRACHEN if W[l]["k"]})
+                 alt={l: f'{PRAEFIX[l]}/thema/{t["id"]}/' for l in SPRACHEN if W[l]["k"]}, skripte=AUFKLAPPEN)
 
 
 def seite_thema_feld(t, Q):
@@ -2257,16 +2280,22 @@ def seite_thema_feld(t, Q):
         c = next(c for c in bund["karten"] if c.get("id") == t["id"])
         oben = (f'<section class="sec"><div class="sec-head"><h2>{tt["bund_h2"]}</h2></div>'
                 f'<div class="cards">{karte(c, Q, benutzt, link=bpfad)}</div></section>')
-    liste = "".join(vermisst(k, Q, benutzt, link=k_pfad(LANG, k["id"]), kopf=KANTONSNAMEN[LANG][k["id"]])
-                    for k in kantone)
-    unten = (f'<section class="sec"><div class="sec-head"><h2>{tt["kt_h2"]}</h2><p>{tt["kt_p"]}</p></div>'
-             f'<div class="split">{liste}</div></section>') if kantone else ""
+    zeilen = []
+    for k in kantone:
+        v = k[t["feld"]]
+        punkte = ("<ul>" + "".join(f"<li>{e(p)}</li>" for p in v["punkte"]) + "</ul>") if v.get("punkte") else ""
+        zeilen.append(kt_zeile(k, Q, benutzt, "", f'<p>{e(v["text"])}</p>{punkte}', attr=f" data-{t['feld']}",
+                               quellen=v["quellen"]))
     uebersetzt = (f'\n<p class="transl">{S["thema"]["uebersetzt"]}</p>'
                   if any("uebersetzt_aus" in k for k in kantone) else "")
+    ohne = uebrige_kantone([k for k in W[LANG]["k"] if not k.get(t["feld"])])
+    unten = (f'<section class="sec"><div class="sec-head"><h2>{tt["kt_h2"]}</h2><p>{tt["kt_p"]}</p></div>'
+             f'<div class="kt-liste nur-name" data-kt-liste>{"".join(zeilen)}</div>'
+             f'{ohne}{uebersetzt}</section>') if kantone else ""
     pfad = thema_pfad(t["id"])
     inhalt = f"""<section class="hero thema"><!--KRUMEN-->
 <h1>{e(tt["h1"])}</h1>
-<p class="lede">{e(tt["lede"])}</p>{uebersetzt}
+<p class="lede">{e(tt["lede"])}</p>
 </section>
 {oben}
 {unten}
@@ -2278,7 +2307,8 @@ def seite_thema_feld(t, Q):
     stand = min([k["geprueft"] for k in kantone] + ([bund["geprueft"]] if bund else [])
                 or [min(k["geprueft"] for k in W[LANG]["k"])])
     return seite(pfad, tt["titel"], tt["beschr"], inhalt, [(S["start"], start), (tt["name"], pfad)],
-                 stand, benutzt, Q, alt={l: f'{PRAEFIX[l]}/thema/{t["id"]}/' for l in SPRACHEN if W[l]["k"]})
+                 stand, benutzt, Q, alt={l: f'{PRAEFIX[l]}/thema/{t["id"]}/' for l in SPRACHEN if W[l]["k"]},
+                 skripte=AUFKLAPPEN)
 
 
 def seite_ueber(Q):

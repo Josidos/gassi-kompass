@@ -199,14 +199,23 @@ function datei(url) {
       }
       if (sprache && s.endsWith('/thema/vermisst/')) {
         const soll = ordner(...sprache[2], 'kantone').filter(f => f.endsWith('.json') && lies(...sprache[2], 'kantone', f).vermisst).length;
-        const t = await page.evaluate(() => ({ kantone: document.querySelectorAll('[data-vermisst]').length, mitQuelle: [...document.querySelectorAll('[data-vermisst]')].filter(x => x.querySelector('.src a') && x.querySelector('h3 a')).length, bund: document.querySelectorAll('.card .src a').length, tabellen: document.querySelectorAll('table').length }));
-        if (t.kantone !== soll || t.mitQuelle !== soll) fehler.push(`${wo}: ${t.kantone} Kantone, davon ${t.mitQuelle} mit Quelle und Link, statt ${soll} (jeder Kanton mit dem Feld 'vermisst')`);
-        if (!t.bund || t.tabellen) fehler.push(`${wo}: Karte des Bundes mit Quelle fehlt, oder die Seite hat eine Tabelle`);
+        const t = await page.evaluate(() => ({ kantone: document.querySelectorAll('details.kt-zeile[data-vermisst]').length, mitQuelle: [...document.querySelectorAll('details.kt-zeile[data-vermisst]')].filter(x => x.querySelector('.kt-inhalt .src a') && x.querySelector('.kt-inhalt a.text-link')).length, bund: document.querySelectorAll('.card .src a').length, zuerst: !!document.querySelector('.card') && !!document.querySelector('.kt-zeile') && !!(document.querySelector('.card').compareDocumentPosition(document.querySelector('.kt-zeile')) & Node.DOCUMENT_POSITION_FOLLOWING), tabellen: document.querySelectorAll('table').length }));
+        if (t.kantone !== soll || t.mitQuelle !== soll) fehler.push(`${wo}: ${t.kantone} Zeilen, davon ${t.mitQuelle} mit Quelle und Link, statt ${soll} (jeder Kanton mit dem Feld 'vermisst')`);
+        if (!t.bund || !t.zuerst || t.tabellen) fehler.push(`${wo}: Karte des Bundes mit Quelle fehlt oder steht nicht zuoberst, oder die Seite hat eine Tabelle`);
       } else if (sprache) {
-        const kantone = ordner(...sprache[2], 'kantone').filter(f => f.endsWith('.json')).length;
-        const t = await page.evaluate(() => ({ zeilen: document.querySelectorAll('tbody tr').length, karten: document.querySelectorAll('.card').length, quellen: document.querySelectorAll('.card .src a').length }));
-        if (t.zeilen !== kantone || t.karten !== kantone) fehler.push(`${wo}: ${t.zeilen} Zeilen und ${t.karten} Karten statt je ${kantone} (eine pro Kanton in dieser Sprache)`);
-        if (t.quellen < kantone) fehler.push(`${wo}: Karte ohne Quelle`);
+        const kantone = ordner(...sprache[2], 'kantone').filter(f => f.endsWith('.json')).map(f => f.slice(0, -5));
+        const t = await page.evaluate(() => ({ zeilen: [...document.querySelectorAll('details.kt-zeile')].map(x => x.id), mitQuelle: [...document.querySelectorAll('details.kt-zeile')].filter(x => x.querySelector('.kt-inhalt .src a') && x.querySelector('.kt-inhalt a.text-link') && x.querySelector('summary .chip') && !x.querySelector('summary a')).length, karten: document.querySelectorAll('.card').length, tabellen: document.querySelectorAll('table').length }));
+        const fehlt = kantone.filter(k => !t.zeilen.includes('kt-' + k));
+        if (t.zeilen.length !== kantone.length || fehlt.length) fehler.push(`${wo}: ${t.zeilen.length} Zeilen statt ${kantone.length}, es fehlen: ${fehlt.join(', ')}`);
+        if (t.mitQuelle !== kantone.length) fehler.push(`${wo}: ${kantone.length - t.mitQuelle} Zeilen ohne Quelle, Marke oder Link zur Kantonsseite, oder mit Link in der summary`);
+        if (t.karten || t.tabellen) fehler.push(`${wo}: ${t.karten} Karten und ${t.tabellen} Tabellen (soll: keine)`);
+      }
+      if (sprache && breite === 390) {
+        // Sprung auf einen Kanton: …/#kt-zh klappt genau diese Zeile auf
+        await page.goto(basis + s + '#kt-zh', { waitUntil: 'load' });
+        await page.waitForTimeout(100);
+        const a = await page.evaluate(() => ({ zh: !!(document.getElementById('kt-zh') || {}).open, offen: document.querySelectorAll('details.kt-zeile[open]').length }));
+        if (!a.zh || a.offen !== 1) fehler.push(`${wo}: #kt-zh klappt die Zeile von Zürich nicht auf (offen: ${a.offen})`);
       }
       if (s === fotoSeite && fotoDatei && breite === Number(fotoBreite || 390)) await page.screenshot({ path: fotoDatei, fullPage: true });
       await page.close();

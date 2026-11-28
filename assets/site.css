@@ -64,7 +64,7 @@ main:focus{outline:none}
 .skip:not(:focus){width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;box-shadow:none}
 .skip:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
 /* Ziele von Sprungmarken stehen nicht am Bildrand */
-#wald,#neuer-hund,#freilauf,.card[id],.sec[id],#quellen{scroll-margin-top:16px}
+#wald,#neuer-hund,#freilauf,.card[id],.sec[id],.kt-zeile,#quellen{scroll-margin-top:16px}
 
 /* Alles Bedienbare, alle Überschriften und Kennungen: Archivo */
 h1,h2,h3,.top,.crumbs,.chip,.card-k,.card-v,.src,.stamp,.dest,.search label,.search-status,.facts,.months,.band,.now,.bar-cap,
@@ -338,15 +338,36 @@ thead th a{text-underline-offset:2px}
 .topic:active .topic-name{text-decoration-color:var(--ink);text-decoration-thickness:2px}
 .topic-text{color:var(--ink-2);font-size:.97rem}
 
-/* Themenseiten auf dem Telefon: jede Zeile als Block */
+/* Themenseiten: ein Kanton, eine Zeile zum Aufklappen. Spalten wie früher die Tabelle: Kanton, Marke, Kurztext,
+   dazu ein schmales Zeichen für auf und zu. Unter 640px stehen Name und Marke in einer Zeile, der Kurztext darunter. */
+.kt-liste{border-top:2px solid var(--ink);border-bottom:1px solid var(--rule);font-size:.95rem}
+.kt-kopf,.kt-zeile>summary{display:grid;grid-template-columns:minmax(0,22%) 10rem minmax(0,1fr) 1rem;column-gap:14px;align-items:baseline}
+.kt-kopf{padding:9px 0;border-bottom:1px solid var(--rule);font-family:var(--sans);font-size:.78rem;letter-spacing:.04em;color:var(--ink-2);font-weight:700}
+.kt-zeile{border-bottom:1px solid var(--rule-soft)}
+.kt-zeile:last-child{border-bottom:0}
+.kt-zeile>summary{list-style:none;cursor:pointer;padding:11px 0}
+.kt-zeile>summary::-webkit-details-marker{display:none}
+.kt-zeile>summary::after{content:"";grid-column:4;justify-self:end;align-self:center;width:7px;height:7px;border-right:2px solid var(--ink-2);border-bottom:2px solid var(--ink-2);transform:translateY(-2px) rotate(45deg)}
+.kt-zeile[open]>summary::after{transform:translateY(2px) rotate(-135deg)}
+.kt-zeile>summary:focus-visible{outline:2px solid var(--focus);outline-offset:2px;border-radius:2px}
+@media (hover:hover) and (pointer:fine){.kt-zeile>summary:hover{background:color-mix(in srgb,var(--sunk) 60%,transparent)}}
+@media (hover:hover) and (pointer:fine){.kt-zeile>summary:hover .kt-name{text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:3px}}
+.kt-name{font-family:var(--sans);font-weight:700;font-stretch:90%;color:var(--ink)}
+.kt-kurz{color:var(--ink-2)}
+.kt-inhalt{display:grid;gap:8px;padding:0 0 18px;max-width:70ch}
+.kt-inhalt p{margin:0}
+.kt-inhalt .kt-wert{font-family:var(--sans);font-size:1.15rem;line-height:1.2;font-weight:780;font-stretch:82%}
+.kt-inhalt>ul{margin:0;padding:0;list-style:none;display:grid;gap:0}
+.kt-inhalt>ul li{position:relative;padding:7px 0 7px 22px;border-bottom:1px solid var(--rule-soft)}
+.kt-inhalt>ul li:last-child{border-bottom:0}
+.kt-inhalt>ul li::before{content:"";position:absolute;left:2px;top:calc(7px + .6em);width:8px;height:8px;background:var(--ink-2)}
+.kt-liste.nur-name .kt-zeile>summary{grid-template-columns:minmax(0,1fr) 1rem}
+.kt-liste.nur-name .kt-zeile>summary::after{grid-column:2}
 @media (max-width:640px){
-  table.stack{display:block;min-width:0}
-  table.stack thead{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
-  table.stack tbody{display:block}
-  table.stack tr{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 10px;padding:12px 0;border-bottom:1px solid var(--rule-soft)}
-  table.stack tr:last-child{border-bottom:0}
-  table.stack th,table.stack td{display:block;padding:0;border:0;width:auto}
-  table.stack .t-text{grid-column:1/-1}
+  .kt-kopf{display:none}
+  .kt-zeile>summary{grid-template-columns:minmax(0,1fr) auto 1rem;row-gap:4px;column-gap:10px}
+  .kt-zeile>summary .kt-kurz{grid-column:1/-1;grid-row:2}
+  .kt-zeile>summary::after{grid-column:3;grid-row:1}
 }
 
 /* Telefon: Monatskürzel enger, Einband kompakter */
@@ -461,7 +482,7 @@ thead th a{text-underline-offset:2px}
   .index dt a{display:inline-flex;align-items:center;min-height:44px}
   .index ul{gap:0;margin-inline:-8px}
   .index li a{display:inline-flex;align-items:center;min-height:44px;padding-inline:8px}
-  tbody th a{display:inline-block;padding-block:14px;margin-block:-14px}
+  .kt-zeile>summary{min-height:44px;align-content:center}
   .foot ol{gap:23px}
   .foot ol a{padding-block:11.5px}
   .sprung{row-gap:0}
@@ -475,8 +496,4 @@ thead th a{text-underline-offset:2px}
   .index>div{padding:6px 0 2px}
   .index dt a{align-items:flex-end}
   .index ul{margin-top:-6px}
-}
-@media (pointer:coarse) and (max-width:640px){
-  table.stack tr{padding-top:0;row-gap:0;align-items:center}
-  table.stack tbody th a{display:inline-flex;align-items:center;min-height:44px;padding-block:0;margin-block:0}
 }

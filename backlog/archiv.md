@@ -313,3 +313,9 @@ Was die Glieder in Originalfassungen bemerkt haben, steht in `CHANGELOG.md` unte
 ### BACKLOG.md, 5. Umbauten am Generator
 
 - [x] (erledigt 28.11.2026, Lauf von 08:23 Uhr) **Übersicht und Sprungmarken** für Kanton und Bund: Sprungleiste unter der Einleitung, Übersicht vor den Karten, Karten mit Überschrift, Quellen am Telefon grösser und 44px hoch, `viewport-fit=cover`. Vorgabe war `backlog/vorgabe-sprungmarken.md`, gelöscht.
+
+## Archiviert am 2026-11-28
+
+### BACKLOG.md, 5. Umbauten am Generator
+
+- [x] **Themenseiten: ein Kanton, eine Zeile zum Aufklappen.** (erledigt 2026-11-28, Lauf von 14:09 Uhr: `https://gassi-kompass.ch/thema/hundesteuer/#kt-zh`, Seiten am Telefon 12 statt 31 bis 39 Bildschirme)
