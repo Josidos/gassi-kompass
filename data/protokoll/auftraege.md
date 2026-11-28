@@ -4,7 +4,7 @@ Hier steht, welche Kantone, Gemeinden und Dateien an Parallel-Läufe vergeben si
 
 Vergeben am 28.11.2026 ab 02:45 Uhr (Entscheid von Joss um 02:43 Uhr: «Vollgas», höchstens zwei Aufträge gleichzeitig). Jeder Auftrag veröffentlicht nach jedem Stück, sein Protokoll wächst bis zum Schluss. Die Sitzung sammelt ein, kein Lauf vor 08:00 Uhr:
 
-- `luecken-2`, 03:09 Uhr, Schluss 04:00 Uhr: Kanton Tessin (`ti.json` in allen drei Sprachordnern): Legge sui cani im geltenden Wortlaut, Datum der Kurspflicht, Feld `vermisst`
-- `luecken-3`, 03:12 Uhr, Schluss 04:10 Uhr: Regeln des Bundes (drei Fassungen von `schweiz.json`): Jagdbanngebiete, Art. 720a und 722 ZGB, AMICUS-App
+- `gemeinden-rest-1`, 03:19 Uhr, Schluss 04:20 Uhr: Renens (VD), Vevey (VD), Monthey (VS), Estavayer (FR)
+- `gemeinden-rest-2`, 03:21 Uhr, Schluss 04:30 Uhr: Porrentruy (JU), Saignelégier (JU), Le Locle (NE), Val-de-Ruz (NE)
 
 Davor: Die fünf Aufträge der Nacht auf den 28. November 2026 endeten um 00:42 Uhr an der 5-Stunden-Grenze des Kontos, die Sitzung hat sie eingesammelt. Was sie nicht geliefert haben, ist im Backlog wieder offen. Die drei vorgemerkten Aufträge zum Themenfeld «Hund vermisst oder gefunden» sind aufgehoben: Zug ist belegt, die übrigen neun Kantone nimmt der Lauf wieder aus `BACKLOG.md`, Abschnitt 9.1.
