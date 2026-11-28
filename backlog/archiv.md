@@ -367,3 +367,11 @@ Was die Glieder in Originalfassungen bemerkt haben, steht in `CHANGELOG.md` unte
 - [x] Genf (2026-11-28)
 - [x] Luzern (2026-11-28)
 - [x] Tessin (2026-11-28)
+
+## Archiviert am 2026-11-28
+
+### BACKLOG.md, 9.4 Thema 2: Hunde betreuen und ausbilden als Beruf
+
+- [x] Wallis (deutsch und französisch) (2026-11-28)
+- [x] Freiburg (deutsch und französisch) (2026-11-28)
+- [x] Thurgau (2026-11-28)

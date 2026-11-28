@@ -182,5 +182,20 @@
       "tg_hundev",
       "tg_hundeg"
     ]
+  },
+  "gewerbe": {
+    "text": "Im Kanton Thurgau braucht eine kantonale Bewilligung, wer einen potentiell gefährlichen Hund halten, betreuen oder ausführen will. Betriebe und Einrichtungen wie Tierheime, Tierschutzorganisationen oder Spazierdienste benötigen dafür eine Kollektivbewilligung des Veterinäramts.",
+    "punkte": [
+      "Das Gesuch reichst du schriftlich und unterzeichnet beim Veterinäramt ein, bevor der Hund angeschafft oder ausgeführt wird. Das Veterinäramt hat dafür die Formulare «Bewilligungsgesuch Kollektivbewilligung für Tierheime, Tierschutzorganisationen und Hundebetreuungsdienste» und, für eine einzelne Person, die «Betreuerbewilligung».",
+      "Als Hundetrainerin oder Hundetrainer brauchst du laut Veterinäramt keine Kollektivbewilligung.",
+      "Wer einen obligatorischen Hundeerziehungskurs leitet und dabei eine übermässige Aggression eines Hundes feststellt, muss das der zuständigen Behörde melden.",
+      "Wer eine kantonale Bewilligung für die gewerbsmässige Zucht oder den gewerbsmässigen Handel mit Hunden hat, zahlt eine pauschale Hundesteuer. Massgebend sind der durchschnittliche Tierbestand und der Steueransatz für einen Hund."
+    ],
+    "quellen": [
+      "tg_hundeg",
+      "tg_hundev",
+      "tg_vet_pgh",
+      "tg_formulare_pgh"
+    ]
   }
 }

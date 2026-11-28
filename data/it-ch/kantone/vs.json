@@ -2,7 +2,7 @@
   "id": "vs",
   "kurz": "VS",
   "uebersetzt_aus": "de",
-  "original": "9f9f3fef3477",
+  "original": "9d645415a1bd",
   "wald": {
     "saison": false,
     "text": "L'Ausführungsgesetz zum Tierschutzgesetz (legge d'applicazione della legge sulla protezione degli animali) del Vallese non indica un obbligo di guinzaglio specifico per il bosco né una stagione. Fuori dalle località il tuo cane deve essere sotto controllo. Nelle zone protette e nelle zone naturali il guinzaglio può essere prescritto, tutto l'anno o per determinati periodi. Nelle bandite federali di caccia i cani vanno tenuti al guinzaglio (stato della pagina dell'Ufficio federale dell'ambiente: 5 settembre 2024). Fai attenzione alla segnaletica sul posto.",
@@ -146,6 +146,15 @@
     "quellen": [
       "vs_vet_fundtiere",
       "vs_agtschg"
+    ]
+  },
+  "gewerbe": {
+    "text": "Nel Vallese serve un'autorizzazione cantonale a chi gestisce una pensione per animali o un rifugio per animali con più di 5 posti. Fino a 5 posti non è richiesta un'autorizzazione cantonale.",
+    "punkte": [
+      "Sul sito della Dienststelle für Verbraucherschutz und Veterinärwesen (servizio della protezione dei consumatori e degli affari veterinari) trovi a questo scopo il modulo «Bewilligungsgesuch für die Betreuung, Pflege, Zucht und Haltung von Heimtieren»."
+    ],
+    "quellen": [
+      "vs_professionell"
     ]
   }
 }

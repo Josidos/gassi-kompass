@@ -2,7 +2,7 @@
   "id": "tg",
   "kurz": "TG",
   "uebersetzt_aus": "de",
-  "original": "553e4adc8aca",
+  "original": "e9f7b015076f",
   "wald": {
     "saison": true,
     "von": "04-01",
@@ -179,6 +179,21 @@
       "tg_vet_findeltiere",
       "tg_hundev",
       "tg_hundeg"
+    ]
+  },
+  "gewerbe": {
+    "text": "Nel Cantone di Turgovia serve un'autorizzazione cantonale a chi vuole detenere, accudire o portare a passeggio un cane potenzialmente pericoloso. Le aziende e le istituzioni come i rifugi per animali, le organizzazioni per la protezione degli animali o i servizi di passeggio hanno bisogno a questo scopo di un'autorizzazione collettiva del Veterinäramt (ufficio veterinario).",
+    "punkte": [
+      "Presenti la domanda per scritto e firmata al Veterinäramt, prima che il cane venga acquistato o portato a passeggio. Il Veterinäramt ha a questo scopo i moduli «Bewilligungsgesuch Kollektivbewilligung für Tierheime, Tierschutzorganisationen und Hundebetreuungsdienste» e, per una singola persona, la «Betreuerbewilligung».",
+      "Come addestratrice o addestratore di cani, secondo il Veterinäramt non ti serve un'autorizzazione collettiva.",
+      "Chi dirige un corso obbligatorio di educazione cinofila e constata in quell'occasione un'aggressività eccessiva di un cane deve segnalarlo all'autorità competente.",
+      "Chi ha un'autorizzazione cantonale per l'allevamento o il commercio di cani a titolo professionale paga un'imposta forfettaria sui cani. Sono determinanti l'effettivo medio di animali e l'aliquota d'imposta per un cane."
+    ],
+    "quellen": [
+      "tg_hundeg",
+      "tg_hundev",
+      "tg_vet_pgh",
+      "tg_formulare_pgh"
     ]
   }
 }

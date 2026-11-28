@@ -139,5 +139,14 @@
     "quellen": [
       "vs_scav_animaux_perdus"
     ]
+  },
+  "gewerbe": {
+    "text": "En Valais, l'exploitation d'une pension ou d'un refuge pour animaux de plus de 5 places est soumise à autorisation cantonale. Jusqu'à 5 places, aucune autorisation cantonale n'est requise.",
+    "punkte": [
+      "Le Service de la consommation et des affaires vétérinaires (SCAV) met à disposition le formulaire « Demande d'autorisation pour la prise en charge, les soins, l'élevage et la détention d'animaux de compagnie »."
+    ],
+    "quellen": [
+      "vs_prise_en_charge"
+    ]
   }
 }

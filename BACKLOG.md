@@ -96,10 +96,7 @@ Feld `gewerbe`, gebaut mit dem Sonderlauf vom 28.11.2026 (Abschnitt 5). Der Lauf
 
 Die Karte des Bundes (`schweiz.json`, `"id": "gewerbe"`) nennt schon die Regeln der Tierschutzverordnung (Bewilligung ab mehr als 5 fremden Tieren pro Tag, Ausbildung nach Zahl der Plätze, Zucht ab mehr als 20 Hunden oder mehr als drei Würfen pro Jahr): im Feld des Kantons nicht wiederholen, ausser die Seite des Kantons sagt es selbst. Handel ist auf der Karte des Bundes noch nicht belegt (Fachinformation 12.1 des BLV nicht gelesen), Hundeschulen regelt der Bund dort nicht. Nicht dazu gehören Empfehlungen, Regeln von Verbänden, Preise und einzelne Anbieter. Zucht und Handel nur, wenn der Kanton über das Bundesrecht hinausgeht. Sagt der Kanton nur, dass das Bundesrecht gilt, und nennt die Stelle für das Gesuch: genau das schreiben. Steht eine Angabe schon in einer Karte des Kantons (zum Beispiel die Höchstzahl geführter Hunde unter «Unterwegs»): im Feld wiederholen, mit derselben Quelle, nichts Neues daraus ableiten. Einstiege: Seite des Veterinärdiensts unter «Bewilligungen», «Tierschutz» oder «Tierhaltung», das Hundegesetz des Kantons (`python3 tools/wandel.py --text <Schlüssel> --suche Bewilligung`), Merkblätter und Gesuchsformulare des Amts. Findet sich nach zwei Suchanläufen keine amtliche Quelle des Kantons: Feld weglassen und den Kanton hier als «zurückgestellt» mit Datum und Grund vermerken. Bei zweisprachigen Kantonen kommt das Feld in beide Originalfassungen.
 
-- [ ] Wallis (deutsch und französisch)
-- [ ] Freiburg (deutsch und französisch)
-- [ ] Basel-Landschaft
-- [ ] Thurgau
+- [ ] Basel-Landschaft: zurückgestellt am 2026-11-28. Die Seiten «Hunde», «Tierschutz» und «Mit Tieren unterwegs» des Amts für Lebensmittelsicherheit und Veterinärwesen auf baselland.ch lieferten beim Abruf einen Fehler (client_error), die Übersichtsseite «Veterinärwesen» nennt nichts zu Betreuung oder Ausbildung, das Hundegesetz (`bl_hug`) regelt nur potenziell gefährliche Hunde. Nächster Ansatz: die Seiten «Tierschutz» und «Hunde» des ALV in einer Sitzung im Browser von Joss lesen.
 - [ ] Solothurn
 - [ ] Graubünden (deutsch und italienisch)
 - [ ] Basel-Stadt

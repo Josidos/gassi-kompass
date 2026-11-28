@@ -136,5 +136,15 @@
     "quellen": [
       "fr_saav_animaux_perdus"
     ]
+  },
+  "gewerbe": {
+    "text": "Dans le canton de Fribourg, les éducatrices et éducateurs canins souhaitant donner les cours théoriques et/ou faire passer l'évaluation de conductibilité doivent être agréés par le Service de la sécurité alimentaire et des affaires vétérinaires (SAAV).",
+    "punkte": [
+      "La demande se fait avec le formulaire « Demande d'agrément d'éducateur-trice canin-ne ».",
+      "Le SAAV publie la liste des éducatrices et éducateurs agréés. Cette liste sera régulièrement mise à jour."
+    ],
+    "quellen": [
+      "fr_educateurs"
+    ]
   }
 }

@@ -149,5 +149,14 @@
       "vs_vet_fundtiere",
       "vs_agtschg"
     ]
+  },
+  "gewerbe": {
+    "text": "Im Wallis braucht eine kantonale Bewilligung, wer eine Tierpension oder ein Tierheim mit mehr als 5 Plätzen betreibt. Bis 5 Plätze ist keine kantonale Bewilligung erforderlich.",
+    "punkte": [
+      "Auf der Seite der Dienststelle für Verbraucherschutz und Veterinärwesen steht dafür das Formular «Bewilligungsgesuch für die Betreuung, Pflege, Zucht und Haltung von Heimtieren»."
+    ],
+    "quellen": [
+      "vs_professionell"
+    ]
   }
 }

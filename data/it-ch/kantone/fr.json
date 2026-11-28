@@ -2,7 +2,7 @@
   "id": "fr",
   "kurz": "FR",
   "uebersetzt_aus": "de",
-  "original": "724cd6a21816",
+  "original": "fb68e2931163",
   "wald": {
     "saison": true,
     "von": "04-01",
@@ -127,6 +127,20 @@
     ],
     "quellen": [
       "fr_lsvw_fundtiere"
+    ]
+  },
+  "gewerbe": {
+    "text": "Nel Cantone di Friburgo gli educatori cinofili e le educatrici cinofile che vogliono tenere il corso teorico o svolgere il test per valutare la condotta dei cani detenuti da poco devono essere autorizzati dall'Amt für Lebensmittelsicherheit und Veterinärwesen (LSVW, ufficio della sicurezza alimentare e degli affari veterinari). Chi non tiene corsi teorici né svolge il test pratico non ha bisogno di un'autorizzazione.",
+    "punkte": [
+      "Alla domanda di autorizzazione appartengono una copia del documento d'identità, gli attestati di formazione come educatore o educatrice cinofila e un breve riassunto delle tue esperienze cinologiche. Dopo la decisione segue una fattura fino a CHF 450.",
+      "Sul sito dell'LSVW trovi l'elenco degli educatori cinofili e delle educatrici cinofile autorizzati. Viene aggiornato regolarmente.",
+      "Per la custodia, la cura, l'allevamento e la detenzione di animali da compagnia sul sito dell'LSVW trovi il «Bewilligungsgesuch für die Betreuung, Pflege, Zucht und Haltung von Heimtieren und Nutzhunden»."
+    ],
+    "quellen": [
+      "fr_ausbildner",
+      "fr_faq_hhg",
+      "fr_gesuch_ausbildner",
+      "fr_gewerbe"
     ]
   }
 }

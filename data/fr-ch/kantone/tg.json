@@ -2,7 +2,7 @@
   "id": "tg",
   "kurz": "TG",
   "uebersetzt_aus": "de",
-  "original": "553e4adc8aca",
+  "original": "e9f7b015076f",
   "wald": {
     "saison": true,
     "von": "04-01",
@@ -179,6 +179,21 @@
       "tg_vet_findeltiere",
       "tg_hundev",
       "tg_hundeg"
+    ]
+  },
+  "gewerbe": {
+    "text": "Dans le canton de Thurgovie, il faut une autorisation cantonale pour détenir, garder ou promener un chien potentiellement dangereux. Les entreprises et institutions comme les refuges pour animaux, les organisations de protection des animaux ou les services de promenade ont besoin pour cela d'une autorisation collective du Veterinäramt (office vétérinaire).",
+    "punkte": [
+      "Vous déposez la demande par écrit et signée auprès du Veterinäramt avant que le chien soit acquis ou promené. Le Veterinäramt a pour cela les formulaires «Bewilligungsgesuch Kollektivbewilligung für Tierheime, Tierschutzorganisationen und Hundebetreuungsdienste» et, pour une personne seule, la «Betreuerbewilligung».",
+      "Selon le Veterinäramt, vous n'avez pas besoin d'autorisation collective en tant qu'éducatrice ou éducateur canin.",
+      "Celui ou celle qui dirige un cours d'éducation canine obligatoire et constate à cette occasion une agressivité excessive d'un chien doit le signaler à l'autorité compétente.",
+      "Celui ou celle qui possède une autorisation cantonale pour l'élevage ou le commerce de chiens à titre professionnel paie un impôt forfaitaire sur les chiens. Sont déterminants l'effectif moyen d'animaux et le taux d'impôt pour un chien."
+    ],
+    "quellen": [
+      "tg_hundeg",
+      "tg_hundev",
+      "tg_vet_pgh",
+      "tg_formulare_pgh"
     ]
   }
 }

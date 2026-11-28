@@ -130,5 +130,19 @@
     "quellen": [
       "fr_lsvw_fundtiere"
     ]
+  },
+  "gewerbe": {
+    "text": "Im Kanton Freiburg müssen Hundeausbildnerinnen und Hundeausbildner, die den Theoriekurs erteilen oder den Test zur Beurteilung der Führbarkeit der neu gehaltenen Hunde durchführen möchten, vom Amt für Lebensmittelsicherheit und Veterinärwesen (LSVW) zugelassen sein. Wer weder Theoriekurse erteilt noch den Praxistest abnimmt, braucht keine Zulassung.",
+    "punkte": [
+      "Zum Gesuch um Zulassung gehören eine Kopie des Identitätsausweises, die Ausbildungsbestätigungen als Hundeausbildnerin oder Hundeausbildner und eine kurze Zusammenfassung deiner kynologischen Erfahrungen. Nach dem Entscheid folgt eine Rechnung von bis zu CHF 450.",
+      "Auf der Seite des LSVW steht die Liste der zugelassenen Hundeausbildnerinnen und Hundeausbildner. Sie wird regelmässig aktualisiert.",
+      "Für die Betreuung, Pflege, Zucht und Haltung von Heimtieren steht auf der Seite des LSVW das «Bewilligungsgesuch für die Betreuung, Pflege, Zucht und Haltung von Heimtieren und Nutzhunden»."
+    ],
+    "quellen": [
+      "fr_ausbildner",
+      "fr_faq_hhg",
+      "fr_gesuch_ausbildner",
+      "fr_gewerbe"
+    ]
   }
 }
