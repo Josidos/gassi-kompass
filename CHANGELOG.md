@@ -11,6 +11,7 @@ Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen
 - Seitenbilder vor und nach dem Umbau (`tests/seitenbilder.js`, 17 Seiten, 1280 und 390 Pixel): geändert nur die fünf Gemeindeseiten, alle übrigen Byte für Byte gleich. Angesehen: Lyss und Zürich bei 390, Genf (fr) und Lugano (it) bei 1280, die Kurzfassung des Kantons in Lyss (390) und Zürich (1280, aufgeklappt). Nichts läuft über. `impeccable detect` auf Zürich und Lyss: dieselben Meldungen wie vorher.
 - Test: `tests/seiten.js` prüft «Auf einen Blick», die Karten im `details` und die Anker der Kurzzeilen auf der Kantonsseite. `tests/tippflaechen.js` übergeht Ziele in einem geschlossenen `details` (vorher 79 Fehler mit 0 Pixeln für die zugeklappten Quellen), jetzt fehlerfrei: 1475 Ziele, keines unter 28 Pixeln, 93 unter 40.
 - Handbuch: `handbuch/generator.md` (neuer Abschnitt «Gemeindeseite: Antwort zuerst»), `DESIGN.md` (Baustein «Auf einen Blick»). Vorgabe gelöscht.
+- Veröffentlicht mit Commit 2313bd0, GitHub Pages «completed success». Glied 2 nicht ausgelöst: Die Umgebung hat den Aufruf von `fire_trigger` abgelehnt (Prüfung des automatischen Modus, «Destructive or Unwanted Actions»), nicht wiederholt. Der nächste Punkt in Abschnitt 5 («Übersicht und Sprungmarken») bleibt fällig, der Lauf von 08:23 Uhr nimmt ihn nach der Reihenfolge.
 
 ## 2026-11-28, Sitzung mit Joss (Nacht, ab 02:43 Uhr): «Vollgas», Sonderlauf abgenommen, Themenfeld für vier weitere Kantone
 
