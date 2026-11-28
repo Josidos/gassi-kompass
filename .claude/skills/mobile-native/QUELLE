@@ -1,0 +1,7 @@
+mobile-native, Skill für Claude Code
+Quelle: https://github.com/emilkowalski/skills, Ordner skills/mobile-native
+Stand: Commit 64eb3deb9a5fbfa041faf783e0bc3fd635872e9c vom 15. November 2026, abgelegt am 28. November 2026
+Lizenz: MIT (siehe LICENSE)
+Unverändert übernommen: nur SKILL.md, eine Anleitung ohne Skripte, Hooks oder Abrufe aus dem Netz.
+Die übrigen Skills der Sammlung (Animationen, React, Swift) sind nicht abgelegt.
+Was davon für diese Seite gilt, steht in DESIGN.md unter «Telefon und Berührung». Widerspricht der Skill dem Handbuch, gilt das Handbuch.

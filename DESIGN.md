@@ -287,6 +287,9 @@ Wie im Bestimmungsbuch: 2px Tinte oben, 1px Linien zwischen Zeilen, Kopf in Meta
 ### Karte der Hundezonen
 Die einzige Seitenart, die man bedient statt liest. Vor dem Laden steht im Kartenfeld (vertieft, 1px Rahmen) nur der Hinweis, was geladen wird, und ein Knopf in Tinte mit Schrift in Papierfarbe: der einzige gefüllte Knopf der Seite. Darüber die Wahl der Flächen als drei Kästchen mit Farbfeld auf Blatt. Auf der Karte gelten feste Farben, weil die Kartenbilder in beiden Farbmodi hell bleiben: Blattgrün für Freilaufzonen, Rost für Leinenpflicht (gestrichelte Linie, wenn sie nur zu bestimmten Zeiten gilt), Tinte für Hundeverbot, Schieferblau für den eigenen Standort. Das folgt den Spalten «Leine» (Rost) und «Kein Zutritt» (Tinte). Die Auskunft zu einer Fläche steht als Blatt am unteren Rand der Karte, ohne Schatten, mit «Schliessen» als Textknopf. Die Knöpfe des Kartenprogramms bekommen Blatt, Linie und 3px Ecken. Als Grund dient die graue swissTLM-Karte von swisstopo mit 60 % Deckkraft. Freilaufzonen tragen aus der Ferne einen grünen Punkt mit hellem Rand. Die Karte bewegt sich nur unter dem Finger, und Kartenbilder blenden nicht ein.
 
+### Telefon und Berührung
+Seit dem 28. November 2026. Wo der Zeiger ein Finger ist (`@media (pointer:coarse)`), hat jedes freie Ziel eine Tippfläche von rund 44px Höhe, nie unter 28px. Das Bild mit Maus bleibt unverändert. Listen von Links bekommen höhere Zeilen: Gemeindeverzeichnis und Navigation im Fuss 44px je Zeile, Register-Reiter 44px statt 38px, der Kantonsname in den Tabellen der Themenseiten 44px. Wo eine höhere Zeile die Seite nur länger machte, wächst die Tippfläche unsichtbar: Quellenzeile, Wortmarke, «Mehr»-Zeilen und Titel der Merkmale haben Innenabstand mit gleich grossem negativem Aussenabstand, Links im Lauftext nur Innenabstand, die Sprachwahl ein unsichtbares Feld um den Knopf, und die Schritte unter «Neu einen Hund» sind als ganze Zeile antippbar. Jede Hover-Regel steht in `@media (hover:hover) and (pointer:fine)`, damit nach dem Antippen nichts hervorgehoben bleibt. Rückmeldung beim Antippen geben `:active` an Tafeln, Reitern und Sprachwahl und das Aufblitzen in Einbandfarbe (`-webkit-tap-highlight-color`, auf dem Einband in Papierfarbe). Kleine Schrift ist bis 640px Breite eine Stufe grösser: Marken und Untertitel der Tafeln 0.8rem statt 0.74rem und 0.76rem, Quellenzeile 0.84rem statt 0.78rem, Monatskürzel bis 480px 0.7rem in schmaler Breite (70 %). Der Zoom bleibt frei, Felder haben mindestens 16px Schrift. Geprüft wird mit `node tests/tippflaechen.js`.
+
 ### Fokus
 Überall ein sichtbarer Rahmen in Schieferblau (2px bei Links, 3px bei Feldern und Tafeln); auf dem Einband in on-binding.
 
@@ -299,6 +302,7 @@ Die einzige Seitenart, die man bedient statt liest. Vor dem Laden steht im Karte
 - **Do** Überschriften, Marken und Bedienelemente in Archivo mit schmaler Breite (76 bis 90 %) setzen, Lesetext in Source Serif 4.
 - **Do** den Geltungsbereich in die Überschrift schreiben («im Kanton Zürich»), nicht in eine Zeile darüber.
 - **Do** jede Quelle direkt beim Merkmal in Meta-Grösse zeigen.
+- **Do** jede Hover-Regel in `@media (hover:hover) and (pointer:fine)` setzen und Listen von Links für den Finger 44px hoch machen (`tests/tippflaechen.js`).
 
 ### Don't:
 - **Don't** Merkmale in gerahmte Karten mit gleich grossen Kästen setzen; das Ratgeber-Raster ist die Gegenwelt.

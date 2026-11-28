@@ -294,3 +294,10 @@ Was die Glieder in Originalfassungen bemerkt haben, steht in `CHANGELOG.md` unte
 - [x] Val-de-Ruz (NE), französisch: erledigt am 2026-11-28 (Auftrag gemeinden-rest-2)
 - [x] Monthey (VS), französisch: erledigt am 2026-11-28 (Auftrag gemeinden-rest-1)
 - [x] Porrentruy (JU), französisch: erledigt am 2026-11-28 (Auftrag gemeinden-rest-2)
+
+## Archiviert am 2026-11-28
+
+### backlog/gemeinden.md, Gemeinden nach Grösse
+
+- [x] Sachseln (OW): erledigt am 2026-11-28 (Auftrag gemeinden-rest-4)
+- [x] Andermatt (UR): erledigt am 2026-11-28 (Auftrag gemeinden-rest-4)

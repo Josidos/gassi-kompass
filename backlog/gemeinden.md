@@ -66,13 +66,11 @@ Ungefähr nach Grösse. Neue Kantone tragen hier ihre grössten Gemeinden ein.
 - [ ] Le Locle (NE), französisch: zurückgestellt am 2026-11-28. lelocle.ch sperrt Abrufwerkzeuge (robots). Nächster Versuch im Browser: Règlement de police et des taxis vom 30. Mai 2024 und Seite «Réglementation communale».
 - [ ] Val-de-Travers (NE), französisch
 - [ ] Milvignes (NE), französisch
-- [ ] Kerns (OW). Hinweis für alle Obwaldner Gemeinden: Die Leinenpflicht im Wald steht in den Hundeverordnungen der Gemeinden, Alpnach hat laut Kanton keine.
+- [ ] Kerns (OW): zurückgestellt am 2026-11-28. Nur zwei Angaben belegbar (Hundesteuer ohne Betrag, Anmeldung bei der Finanzverwaltung). Nächster Versuch im Browser: Hundereglement, Stand 18. März 2013 (`https://www.kerns.ch/_doc/5456248`, verlinkt auf `https://www.kerns.ch/reglemente/16624`), und die Mitteilung zu Herdenschutzhunden (`https://www.kerns.ch/aktuellesinformationen/2316577`). Hinweis für alle Obwaldner Gemeinden: Die Leinenpflicht im Wald steht in den Hundeverordnungen der Gemeinden, Alpnach hat laut Kanton keine.
 - [ ] Alpnach (OW)
-- [ ] Sachseln (OW)
-- [ ] Engelberg (OW)
+- [ ] Engelberg (OW): zurückgestellt am 2026-11-28. Die Seite war angelegt (Commit 48eae01) und wurde beim Einsammeln zurückgezogen. Belegt ist aus der Seite «Hundewesen» der Gemeinde (`https://www.gde-engelberg.ch/dienstleistungen/14256`) nur eine lokale Regel: Leine unter anderem in öffentlichen Parkanlagen, auf Strassen, Trottoirs sowie Fuss- und Wanderwegen in dicht bewohnten Gebieten. Hundesteuer und Busse stehen dort ohne Betrag. Nächster Versuch im Browser: Reglement über die Hundehaltung und die Hundesteuer (`https://www.gde-engelberg.ch/_doc/968078`) und Tarif (`https://www.gde-engelberg.ch/_doc/968079`) für Betrag, Leinenpflicht im Wald mit Zeitraum, Verbotsorte und Bussen.
 - [ ] Altdorf (UR): zurückgestellt am 2026-11-18. Nur zwei lokale Angaben belegt (Hundesteuer CHF 80, An- und Abmeldung bei der Einwohnerkontrolle innert 30 Tagen). Die «Verordnung über das Halten von Hunden» (30.31, vom 1. August 2017) steht im Rechtsbuch der Gemeinde, das Abrufwerkzeug liess das PDF zweimal nicht zu (altdorf.ch/uploads/organisation/politik/rechtssammlung/30_oeffentliche_ordnung_und_sicherheit/30.31.pdf). Neu ansetzen, sobald das PDF lesbar ist.
-- [ ] Andermatt (UR). Verordnung über das Halten von Hunden von 2007 ist gelesen (Taxe CHF 110, Leine im Dorf, Verbotsorte, Busse bis CHF 500). Vor dem Anlegen prüfen, ob sie unverändert gilt. Hinweis für alle Urner Gemeinden: Der Kanton hat kein Hundegesetz, jede Gemeinde hat eine eigene Hundehalteverordnung (meist Nummer 30.31 im Rechtsbuch der Gemeinde).
-- [ ] Schattdorf (UR)
+- [ ] Schattdorf (UR). Hinweis für alle Urner Gemeinden: Der Kanton hat kein Hundegesetz, jede Gemeinde hat eine eigene Hundehalteverordnung (meist Nummer 30.31 im Rechtsbuch der Gemeinde).
 - [ ] Bürglen (UR)
 - [ ] Erstfeld (UR)
 - [ ] Flüelen (UR). Hundehalteverordnung von 2006 unter flueelen.ch, am 2026-11-18 nicht abrufbar.
