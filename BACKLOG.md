@@ -62,6 +62,9 @@ Vorgaben in `CLAUDE.md` unter «Umbauten am Generator».
   7. Ansehen: die Themenseite in drei Sprachen als Bild, breit und mit 390 Pixeln Breite.
   8. Handbuch: `handbuch/generator.md` und der Punkt bei «Datenfelder Kanton» in `CLAUDE.md`. Lehnt die Umgebung die Änderung an `CLAUDE.md` ab: nicht wiederholen, im Protokoll festhalten, der Umbau gilt trotzdem als erledigt.
   9. Danach in Abschnitt 9.4 den Vermerk «wartet auf den Sonderlauf» streichen.
+- [ ] **Quellenverzeichnis** (Wunsch von Joss vom 28.11.2026, 03:22 Uhr). Eine eigene Seite mit allen Quellen der Website, zum Filtern, Sortieren und Durchsuchen: Kurzname, Langname mit Stand, Kanton oder Gemeinde, Art (Erlass, Seite eines Amts, Merkblatt), Sprache und die Seiten, die sie zitieren. Alles aus den Quellendateien erzeugt, ohne fremde Skripte. Noch nicht fällig: Die Vorgabe schreibt Claude in einer Sitzung, danach baut es ein Sonderlauf.
+- [ ] **Suchfunktion** (Wunsch von Joss vom 28.11.2026, 03:22 Uhr). Heute findet die Suche nur Orte und Postleitzahlen. Zu klären mit Joss: Suche im Quellenverzeichnis, oder eine Suche über die ganze Website nach Stichworten wie «Maulkorb» oder «Hundesteuer Lyss». Noch nicht fällig, Vorgabe wie oben.
+- [ ] **Bedienung auf dem Smartphone** (Wunsch von Joss vom 28.11.2026, 03:22 Uhr: Einiges sei auf dem Smartphone nicht angenehm). Durchsicht der Seitenarten mit 390 Pixeln Breite und Verbesserungen an `assets/site.css` und `build.py`, in einer Sitzung, nicht im Lauf. Stand: begonnen am 28.11.2026.
 
 ## 6. Ideen für später
 
