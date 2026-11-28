@@ -2,7 +2,7 @@
   "id": "sz",
   "kurz": "SZ",
   "uebersetzt_aus": "de",
-  "original": "6fa9334e499a",
+  "original": "cd2f60be82f7",
   "wald": {
     "saison": false,
     "text": "Le Hundegesetz (loi sur les chiens) du canton de Schwytz ne prévoit pas de laisse obligatoire en forêt à des dates fixes. En revanche, la laisse est obligatoire toute l'année dans les installations publiques, sur les chemins publics et dans la circulation routière. De plus, votre chien ne doit errer nulle part en public sans surveillance.",
@@ -108,5 +108,14 @@
     "rassen": "aucune liste de races",
     "steuer": "CHF 50 à 100, selon la commune",
     "anm": "puce électronique et AMICUS, impôt auprès de la commune"
+  },
+  "vermisst": {
+    "text": "Dans le canton de Schwytz, la Kantonspolizei (police cantonale) est le service d'annonce des animaux de compagnie trouvés qui ont échappé à leur détentrice ou à leur détenteur. C'est là que vous annoncez un chien trouvé.",
+    "punkte": [
+      "Kantonspolizei Schwyz : téléphone 041 819 29 29"
+    ],
+    "quellen": [
+      "ur_vdu_tierschutz"
+    ]
   }
 }

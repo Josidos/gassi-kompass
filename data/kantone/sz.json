@@ -110,5 +110,14 @@
     "rassen": "keine Rasseliste",
     "steuer": "CHF 50 bis 100, je nach Gemeinde",
     "anm": "Mikrochip und AMICUS, Steuer bei der Gemeinde"
+  },
+  "vermisst": {
+    "text": "Im Kanton Schwyz ist die Kantonspolizei die Meldestelle für aufgefundene Heimtiere, die ihrer Halterin oder ihrem Halter entlaufen sind. Dort meldest du einen gefundenen Hund.",
+    "punkte": [
+      "Kantonspolizei Schwyz: Telefon 041 819 29 29"
+    ],
+    "quellen": [
+      "ur_vdu_tierschutz"
+    ]
   }
 }

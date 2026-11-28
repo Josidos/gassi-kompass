@@ -2,7 +2,7 @@
   "id": "sz",
   "kurz": "SZ",
   "uebersetzt_aus": "de",
-  "original": "6fa9334e499a",
+  "original": "cd2f60be82f7",
   "wald": {
     "saison": false,
     "text": "La Hundegesetz (legge sui cani) del Cantone di Svitto non prevede un obbligo di guinzaglio nel bosco in date fisse. In compenso l'obbligo di guinzaglio vale tutto l'anno negli impianti pubblici, sulle vie pubbliche e nella circolazione stradale. Inoltre il tuo cane non può girare in pubblico senza sorveglianza in nessun luogo.",
@@ -108,5 +108,14 @@
     "rassen": "nessun elenco delle razze",
     "steuer": "CHF 50 a 100, secondo il Comune",
     "anm": "microchip e AMICUS, imposta presso il Comune"
+  },
+  "vermisst": {
+    "text": "Nel Cantone di Svitto la Kantonspolizei (polizia cantonale) è il servizio di segnalazione degli animali da compagnia trovati che sono sfuggiti alla loro detentrice o al loro detentore. Lì segnali un cane trovato.",
+    "punkte": [
+      "Kantonspolizei Schwyz: telefono 041 819 29 29"
+    ],
+    "quellen": [
+      "ur_vdu_tierschutz"
+    ]
   }
 }
