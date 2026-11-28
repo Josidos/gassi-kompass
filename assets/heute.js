@@ -1,7 +1,7 @@
 /* Gassi-Kompass: Tagesstatus zur Wald-Leinenpflicht. Die Ortssuche steht in suche.js.
    Ohne dieses Skript zeigen die Seiten die Regel neutral an (kein veralteter "Heute"-Text).
    Alle Texte stehen als JSON im Attribut data-texte, erzeugt von build.py aus der Tabelle TEXTE.
-   Dieses Skript kennt keine Sprache. */
+   Dieses Skript kennt keine Sprache. Weil es auf jeder Seite läuft, öffnet es am Ende auch die Zeilen vor dem Drucken. */
 (function () {
   var DAY = 864e5;
   function mid(d) { return new Date(d.getFullYear(), d.getMonth(), d.getDate()); }
@@ -51,4 +51,23 @@
     }
   });
 
+})();
+
+/* Drucken: Vor dem Druck gehen alle zugeklappten Zeilen (details) auf, danach wieder zu. So stehen auf dem Papier auch
+   die Kantone der Themenseiten, die Punkte unter «Mehr» und die Quellenliste im Fuss. */
+(function () {
+  // Die Marke data-druck-zu hält fest, was vorher zu war. Kommt beforeprint zweimal (Chromium beim Speichern als PDF),
+  // bleibt sie stehen, und nach dem Druck geht genau das wieder zu.
+  window.addEventListener("beforeprint", function () {
+    document.querySelectorAll("details:not([open])").forEach(function (d) {
+      d.setAttribute("data-druck-zu", "");
+      d.open = true;
+    });
+  });
+  window.addEventListener("afterprint", function () {
+    document.querySelectorAll("details[data-druck-zu]").forEach(function (d) {
+      d.removeAttribute("data-druck-zu");
+      d.open = false;
+    });
+  });
 })();

@@ -952,6 +952,7 @@ TEXTE["de"]["karte"] = {
     "zurueck": "Alle Hunderegeln {in_ort}",
     "link": "Karte der Hundezonen {in_ort}",
     "js": {
+        "blatt": "Karte der Hundezonen",
         "laedt": "Die Karte wird geladen.",
         "fehler": "Die Karte liess sich nicht laden. Versuch es später noch einmal.",
         "bereit": "Tippe auf eine Fläche, um Name und Regel zu sehen.",
@@ -997,6 +998,7 @@ TEXTE["fr"]["karte"] = {
     "zurueck": "Toutes les règles pour les chiens {in_ort}",
     "link": "Carte des zones pour chiens {in_ort}",
     "js": {
+        "blatt": "Carte des zones pour chiens",
         "laedt": "La carte se charge.",
         "fehler": "La carte n'a pas pu être chargée. Réessayez plus tard.",
         "bereit": "Touchez une surface pour voir son nom et la règle.",
@@ -1042,6 +1044,7 @@ TEXTE["it"]["karte"] = {
     "zurueck": "Tutte le regole per i cani {in_ort}",
     "link": "Mappa delle zone per cani {in_ort}",
     "js": {
+        "blatt": "Mappa delle zone per cani",
         "laedt": "La mappa si sta caricando.",
         "fehler": "Non è stato possibile caricare la mappa. Riprova più tardi.",
         "bereit": "Tocca una superficie per vedere il nome e la regola.",

@@ -93,6 +93,8 @@
     var L = window.L;
     var el = document.createElement('div');
     el.className = 'karte-blatt';
+    el.setAttribute('role', 'region');  // Das Kartenprogramm macht das Feld mit der Tastatur bedienbar: Name für Bildschirmleser
+    if (T.blatt) el.setAttribute('aria-label', T.blatt);
     start.hidden = true;
     stand('bereit');  // gibt dem Feld seine Höhe, bevor das Kartenprogramm rechnet
     feld.insertBefore(el, info);
@@ -101,6 +103,8 @@
       inertia: !ruhig, minZoom: 11, maxZoom: 19
     });
     L.tileLayer(KACHELN, { minZoom: 11, maxZoom: 19, opacity: 0.6 }).addTo(karte);
+    // Quellenangabe auch im Kartenbild, wie unter der Karte (Text nachweis). Ohne Link, damit sie kein Tippziel ist.
+    L.control.attribution({ prefix: false }).addAttribution('© swisstopo').addTo(karte);
     stil.leinwand = L.canvas({ padding: 0.3, tolerance: 8 });
     ['verbot', 'leine', 'frei'].forEach(function (art) { gruppen[art] = L.layerGroup().addTo(karte); });
     daten.zonen.forEach(function (z, i) {
