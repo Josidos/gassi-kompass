@@ -286,3 +286,11 @@ Was die Glieder in Originalfassungen bemerkt haben, steht in `CHANGELOG.md` unte
 ### backlog/luecken.md, Aufgefallen beim Übersetzen (Kette Übersetzungen, 18.11.2026)
 
 - [x] Kanton Tessin, Abschnitt «Hund vermisst oder gefunden»: Legge sui cani (RL 482.300) Art. 7 Abs. 3 (Flucht sofort der Polizei melden) und Art. 3 Abs. 3 (Übergabe an einen anerkannten Tierschutzverein auf Kosten des Kantons, Kosten später beim Eigentümer) ergänzen. Text am 28.11.2026 auf m3.ti.ch abgerufen, Atto 479. `ti_lcani` zeigt noch auf LexFind. Erledigt 2026-11-28 (Auftrag `luecken-2`), Quelle `ti_lcani_rl`, Stand der Fassung 15. Mai 2026.
+
+## Archiviert am 2026-11-28
+
+### backlog/gemeinden.md, Gemeinden nach Grösse
+
+- [x] Val-de-Ruz (NE), französisch: erledigt am 2026-11-28 (Auftrag gemeinden-rest-2)
+- [x] Monthey (VS), französisch: erledigt am 2026-11-28 (Auftrag gemeinden-rest-1)
+- [x] Porrentruy (JU), französisch: erledigt am 2026-11-28 (Auftrag gemeinden-rest-2)
