@@ -311,6 +311,17 @@ p.callout{display:block;max-width:68ch}
 .q-liste{list-style:none;margin:0;padding:0;border-top:2px solid var(--ink)}
 .q-gruppe h2{margin:0;padding:26px 0 8px;font-size:clamp(1.2rem,1.05rem + .6vw,1.45rem)}
 .q-gruppe:first-child h2{padding-top:12px}
+/* Mit Skript ist die Überschrift des Kantons ein Knopf mit der Zahl seiner Quellen. Übersicht (.q-kurz): eine Zeile je Kanton */
+.q-g{all:unset;box-sizing:border-box;display:grid;grid-template-columns:minmax(0,1fr) auto 1rem;column-gap:12px;align-items:baseline;width:100%;cursor:pointer}
+.q-g::after{content:"";justify-self:end;align-self:center;width:7px;height:7px;border-right:2px solid var(--ink-2);border-bottom:2px solid var(--ink-2);transform:translateY(-2px) rotate(45deg)}
+.q-g[aria-expanded="true"]::after{transform:translateY(2px) rotate(-135deg)}
+.q-g:focus-visible{outline:3px solid var(--focus);outline-offset:2px;border-radius:2px}
+.q-g-zahl{font-family:var(--sans);font-weight:500;font-stretch:100%;font-size:.88rem;letter-spacing:0;color:var(--ink-2);font-variant-numeric:tabular-nums;white-space:nowrap}
+.q-kurz .q-gruppe{border-bottom:1px solid var(--rule-soft)}
+.q-kurz .q-gruppe h2,.q-kurz .q-gruppe:first-child h2{padding:0;font-size:1.08rem}
+.q-kurz .q-g{min-height:48px;align-items:center}
+@media (hover:hover) and (pointer:fine){.q-g:hover span:first-child{text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:3px}.q-kurz .q-g:hover{background:color-mix(in srgb,var(--sunk) 60%,transparent)}}
+.q-g:active{background:var(--sunk)}
 .q{display:grid;gap:3px;padding:10px 0 11px;border-bottom:1px solid var(--rule-soft)}
 .q-kopf{display:flex;align-items:baseline;gap:10px;font-family:var(--sans)}
 .q-code{flex:none;align-self:center;display:inline-grid;place-items:center;min-width:34px;height:24px;padding:0 4px;border-radius:2px;background:var(--code);color:var(--on-code);font-weight:800;font-stretch:80%;font-size:.8rem;letter-spacing:.02em}
@@ -531,7 +542,9 @@ thead th a{text-underline-offset:2px}
   .q-k{min-width:44px;height:44px}
   .q-sort button{min-height:44px}
   .q{gap:12px}
-  .q-lang a{display:inline-block;padding-block:11px;margin-block:-11px}
+  .q .q-lang a{display:inline-block;padding-block:11px;margin-block:-11px}
+  .q-auf{margin-top:11px}
+  .q-g{min-height:44px}
 }
 @media (pointer:coarse) and (max-width:560px){
   .index>div{padding:6px 0 2px}

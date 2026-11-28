@@ -482,8 +482,19 @@ function datei(url) {
     await p.click('.q-k[data-kt="zh"]');
     const zh = await sichtbar();
     if (!zh.length || zh.some(k => k !== 'zh')) fehler.push(`${qpfad}: Die Wahl «ZH» zeigt ${zh.length} Quellen, davon ${zh.filter(k => k !== 'zh').length} aus anderen Kantonen`);
+    // «Alle» ohne Suchwort ist die Übersicht: je Kanton eine Zeile mit der Zahl seiner Quellen, keine Quelle offen.
+    // Die Zahlen ergeben zusammen alle Quellen. Ein Tipp auf die Zeile wählt den Kanton, ein zweiter führt zurück.
+    const alleQ = (qhtml.match(/<li class="q" /g) || []).length;
     await p.click('.q-k[data-kt=""]');
-    if ((await sichtbar()).length !== (qhtml.match(/<li class="q" /g) || []).length) fehler.push(`${qpfad}: «Alle» zeigt nicht alle Quellen`);
+    if ((await sichtbar()).length) fehler.push(`${qpfad}: «Alle» zeigt ohne Suchwort Quellen statt der Übersicht`);
+    const zeilen = await p.$$eval('.q-gruppe', xs => xs.filter(x => !x.hidden).map(x => parseInt(x.querySelector('.q-g-zahl').textContent, 10)));
+    if (zeilen.reduce((a, b) => a + b, 0) !== alleQ) fehler.push(`${qpfad}: Die Übersicht zählt ${zeilen.reduce((a, b) => a + b, 0)} statt ${alleQ} Quellen`);
+    await p.click('.q-gruppe[data-gruppe="zh"] button');
+    const zh2 = await sichtbar();
+    if (zh2.length !== zh.length || zh2.some(k => k !== 'zh')) fehler.push(`${qpfad}: Die Zeile «Zürich» der Übersicht zeigt nicht die Quellen des Kantons`);
+    if ((await p.getAttribute('.q-k[data-kt="zh"]', 'aria-pressed')) !== 'true') fehler.push(`${qpfad}: Die Zeile «Zürich» drückt das Quadrat ZH nicht`);
+    await p.click('.q-gruppe[data-gruppe="zh"] button');
+    if ((await sichtbar()).length) fehler.push(`${qpfad}: Der zweite Tipp auf die Zeile führt nicht zur Übersicht zurück`);
     if (l === 'de') {
       await p.fill('#quellensuche', 'Hundegesetz');
       if (!(await sichtbar()).length) fehler.push(`${qpfad}: Die Suche nach «Hundegesetz» findet keine Quelle`);
@@ -494,6 +505,7 @@ function datei(url) {
     await p.click('[data-sort="name"]');
     const namen = await p.$$eval('.q-liste > li.q', xs => xs.map(x => +x.getAttribute('data-n')));
     if (namen.some((n, i) => i && n < namen[i - 1])) fehler.push(`${qpfad}: «Nach Name» sortiert nicht`);
+    if ((await sichtbar()).length !== alleQ) fehler.push(`${qpfad}: «Nach Name» zeigt nicht alle Quellen`);
     if (!(await p.$$eval('.q-gruppe', xs => xs.every(x => x.hidden)))) fehler.push(`${qpfad}: «Nach Name» zeigt die Überschriften der Kantone`);
     if (await p.$eval('#q-status', x => !x.textContent)) fehler.push(`${qpfad}: Die Statuszeile ist leer`);
     if (fremdQ.length) fehler.push(`${qpfad}: ruft fremde Adressen ab: ${fremdQ[0]}`);

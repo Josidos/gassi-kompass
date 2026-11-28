@@ -198,6 +198,7 @@ TEXTE = {
             "wahl": "Geltungsbereich", "alle": "Alle", "sort": "Sortieren", "nach_kanton": "Nach Kanton", "nach_name": "Nach Name",
             "bund": "Bund", "kanton": "Kanton", "zitiert": "Zitiert auf", "abgeglichen": "Zuletzt abgeglichen am {d}",
             "s_alle": "{n} Quellen", "s_teil": "{n} von {m} Quellen", "s_eins": "1 von {m} Quellen",
+            "g_eins": "1 Quelle", "g_viele": "{n} Quellen",
             "s_keine": "Keine Quelle gefunden. Prüfe die Schreibweise oder wähle «Alle».",
         },
         "kanton_kurz": "Kanton {kurz}",
@@ -433,6 +434,7 @@ TEXTE = {
             "wahl": "Champ d'application", "alle": "Toutes", "sort": "Trier", "nach_kanton": "Par canton", "nach_name": "Par nom",
             "bund": "Confédération", "kanton": "Canton", "zitiert": "Citée sur", "abgeglichen": "Dernière vérification le {d}",
             "s_alle": "{n} sources", "s_teil": "{n} sources sur {m}", "s_eins": "1 source sur {m}",
+            "g_eins": "1 source", "g_viele": "{n} sources",
             "s_keine": "Aucune source trouvée. Vérifiez l'orthographe ou choisissez « Toutes ».",
         },
         "kanton_kurz": "Canton {kurz}",
@@ -668,6 +670,7 @@ TEXTE = {
             "wahl": "Ambito", "alle": "Tutte", "sort": "Ordina", "nach_kanton": "Per cantone", "nach_name": "Per nome",
             "bund": "Confederazione", "kanton": "Cantone", "zitiert": "Citata in", "abgeglichen": "Ultima verifica il {d}",
             "s_alle": "{n} fonti", "s_teil": "{n} fonti su {m}", "s_eins": "1 fonte su {m}",
+            "g_eins": "1 fonte", "g_viele": "{n} fonti",
             "s_keine": "Nessuna fonte trovata. Controlla l'ortografia o scegli «Tutte».",
         },
         "kanton_kurz": "Cantone {kurz}",
@@ -2693,7 +2696,7 @@ def seite_quellen(Q):
     knoepfe = "".join(f'<button type="button" class="q-k" data-kt="{kid}" aria-pressed="false" '
                       f'title="{e(qv["bund"] if kid == "ch" else namen[kid])}">{kid.upper()}</button>' for kid in
                       ["ch"] + sorted(set(gruppen) - {"ch"}))
-    texte = {k: qv[k] for k in ("s_alle", "s_teil", "s_eins", "s_keine")}
+    texte = {k: qv[k] for k in ("s_alle", "s_teil", "s_eins", "s_keine", "g_eins", "g_viele")}
     inhalt = f"""<section class="hero"><!--KRUMEN-->
 <h1>{qv["h1"]}</h1>
 <div class="q-wahl search" data-quellen data-texte="{e(json.dumps(texte, ensure_ascii=False))}" hidden>

@@ -1,5 +1,7 @@
 // Prüft die Tippflächen auf dem Telefon (Emulation eines iPhone 13, Zeiger «Finger»).
-//   node tests/tippflaechen.js                 prüft je eine Seite jeder Seitenart in den drei Sprachen (dazu /quellen/; gemessen werden die ersten 30000 Pixel)
+//   node tests/tippflaechen.js                 prüft je eine Seite jeder Seitenart in den drei Sprachen (gemessen werden die ersten 30000 Pixel)
+//   Das Quellenverzeichnis zeigt beim Laden nur eine Zeile je Kanton. «/quellen/|be» wählt vor dem Messen den Kanton BE,
+//   damit auch die Einträge der Quellen gemessen werden.
 //   node tests/tippflaechen.js /zh/ /ueber/    prüft nur diese Seiten
 // Gemessen wird durch die Mitte jedes Ziels (Link, Knopf, Feld, summary): wie viele Pixel nach oben und unten
 // ein Tipp noch dieses Ziel trifft. Das ist die wirkliche Tippfläche, auch wenn sie unsichtbar über das Ziel
@@ -11,7 +13,7 @@ const http = require('http'), fs = require('fs'), path = require('path');
 const { chromium, devices } = require('playwright');
 const ROOT = path.resolve(__dirname, '..');
 const TYP = { '.html': 'text/html; charset=utf-8', '.css': 'text/css', '.js': 'text/javascript', '.json': 'application/json; charset=utf-8', '.svg': 'image/svg+xml', '.png': 'image/png', '.woff2': 'font/woff2' };
-const MUSTER = ['/', '/zh/', '/zh/zuerich/', '/lu/luzern/', '/thema/hundesteuer/', '/thema/vermisst/', '/schweiz/', '/ueber/', '/quellen/', '/fr-ch/', '/fr-ch/ge/', '/fr-ch/ge/geneve/', '/fr-ch/thema/hundesteuer/', '/fr-ch/quellen/', '/it-ch/', '/it-ch/ti/', '/it-ch/ti/lugano/', '/it-ch/schweiz/'];
+const MUSTER = ['/', '/zh/', '/zh/zuerich/', '/lu/luzern/', '/thema/hundesteuer/', '/thema/vermisst/', '/schweiz/', '/ueber/', '/quellen/', '/quellen/|be', '/fr-ch/', '/fr-ch/ge/', '/fr-ch/ge/geneve/', '/fr-ch/thema/hundesteuer/', '/fr-ch/quellen/|vd', '/it-ch/', '/it-ch/ti/', '/it-ch/ti/lugano/', '/it-ch/schweiz/'];
 const FEHLER_UNTER = 28, HINWEIS_UNTER = 40;
 
 function datei(url) {
@@ -31,14 +33,20 @@ function datei(url) {
   await new Promise(r => server.listen(0, '127.0.0.1', r));
   const basis = 'http://127.0.0.1:' + server.address().port;
   const gewuenscht = process.argv.slice(2).filter(a => a.startsWith('/'));
-  const seiten = (gewuenscht.length ? gewuenscht : MUSTER).filter(s => { if (datei(s)) return true; console.log(`Übersprungen, Seite fehlt: ${s}`); return false; });
+  const seiten = (gewuenscht.length ? gewuenscht : MUSTER).filter(s => { if (datei(s.split('|')[0])) return true; console.log(`Übersprungen, Seite fehlt: ${s}`); return false; });
   const browser = await chromium.launch();
   const ctx = await browser.newContext({ ...devices['iPhone 13'] });
   const fehler = [], hinweise = [];
   let ziele = 0, knapp = 0;
   for (const s of seiten) {
     const page = await ctx.newPage();
-    await page.goto(basis + s, { waitUntil: 'networkidle' });
+    const [pfad, kanton] = s.split('|');
+    await page.goto(basis + pfad, { waitUntil: 'networkidle' });
+    if (kanton) {
+      const knopf = await page.$(`[data-quellen] button[data-kt="${kanton}"]`);
+      if (!knopf) fehler.push(`${s}: Das Quadrat des Kantons ${kanton.toUpperCase()} fehlt.`);
+      else { await knopf.tap(); await page.waitForTimeout(80); }
+    }
     const grob = await page.evaluate(() => matchMedia('(pointer:coarse)').matches);
     if (!grob) fehler.push(`${s}: Die Emulation meldet keinen Finger als Zeiger, die Messung gilt nicht.`);
     const hoehe = await page.evaluate(() => document.documentElement.scrollHeight);
