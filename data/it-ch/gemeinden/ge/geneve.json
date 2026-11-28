@@ -3,7 +3,7 @@
   "kanton": "ge",
   "bfs": 6621,
   "uebersetzt_aus": "fr",
-  "original": "135169c0dac9",
+  "original": "b74ae95de5a8",
   "name": "Città di Ginevra",
   "ort": "Ginevra",
   "in_ort": "a Ginevra",
@@ -42,6 +42,14 @@
       "text": "La Città vieta ai cani, anche al guinzaglio: Jardin de la Paix, parc Liotard, parc Bourgogne, parc des Délices, Jardin botanique, île Rousseau, sentier des Saules, parc Gourgas, parc Baud-Bovy, promenade du Pin, terrasse Agrippa d'Aubigné, plage des Eaux-Vives. Il parc Liotard figura anche nell'elenco delle aree di svago recintate. Sono inoltre vietati ogni luogo segnalato come tale, i prati, le aiuole e le piantagioni dei parchi, i parchi giochi, i cortili scolastici e i cimiteri.",
       "quellen": [
         "ge_ville_lieux"
+      ]
+    },
+    {
+      "titel": "Imposta sui cani",
+      "wert": "100 centimes additionnels",
+      "text": "Oltre all'imposta cantonale, la Città di Ginevra preleva 100 centimes additionnels (centesimi addizionali), cioè il 100 % dell'imposta cantonale. Per un primo cane sono CHF 50 in più (tariffa 2025 dell'amministrazione fiscale cantonale).",
+      "quellen": [
+        "ge_impot_centimes"
       ]
     },
     {

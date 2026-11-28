@@ -3,7 +3,7 @@
   "kanton": "ge",
   "bfs": 6621,
   "uebersetzt_aus": "fr",
-  "original": "135169c0dac9",
+  "original": "b74ae95de5a8",
   "name": "Stadt Genf",
   "ort": "Genf",
   "in_ort": "in der Stadt Genf",
@@ -42,6 +42,14 @@
       "text": "Die Stadt verbietet Hunde, auch an der Leine, an diesen Orten: Jardin de la Paix, parc Liotard, parc Bourgogne, parc des Délices, Jardin botanique, île Rousseau, sentier des Saules, parc Gourgas, parc Baud-Bovy, promenade du Pin, terrasse Agrippa d'Aubigné, plage des Eaux-Vives. Der parc Liotard steht auch auf der Liste der eingezäunten Freilaufzonen. Verboten sind Hunde zudem an jedem Ort, der so signalisiert ist, auf den Rasenflächen, in den Beeten und Pflanzungen der Parks, auf Spielplätzen, auf Pausenplätzen und auf Friedhöfen.",
       "quellen": [
         "ge_ville_lieux"
+      ]
+    },
+    {
+      "titel": "Hundesteuer",
+      "wert": "100 centimes additionnels",
+      "text": "Zusätzlich zur kantonalen Steuer erhebt die Stadt Genf 100 centimes additionnels (Gemeindezuschlag), also 100 % der kantonalen Steuer. Für einen ersten Hund sind das CHF 50 mehr (Tarif 2025 der kantonalen Steuerverwaltung).",
+      "quellen": [
+        "ge_impot_centimes"
       ]
     },
     {

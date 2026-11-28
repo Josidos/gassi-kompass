@@ -44,6 +44,14 @@
       ]
     },
     {
+      "titel": "Impôt sur les chiens",
+      "wert": "100 centimes additionnels",
+      "text": "En plus de l'impôt cantonal, la Ville de Genève prélève 100 centimes additionnels, soit 100 % de l'impôt cantonal. Pour un premier chien, cela fait CHF 50 de plus (barème 2025 de l'administration fiscale cantonale).",
+      "quellen": [
+        "ge_impot_centimes"
+      ]
+    },
+    {
       "titel": "Annonce",
       "wert": "marque de contrôle à la police municipale",
       "text": "Les habitants de la Ville de Genève obtiennent la marque de contrôle annuelle dans un poste de police municipale. Vous présentez l'attestation d'assurance responsabilité civile, le carnet de vaccination avec un vaccin contre la rage valide et la preuve de l'enregistrement dans AMICUS. État de la page du canton: 2023.",
