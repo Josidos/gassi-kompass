@@ -120,5 +120,17 @@
     "quellen": [
       "gr_findeltiere_it"
     ]
+  },
+  "gewerbe": {
+    "text": "Nei Grigioni sono soggetti all'obbligo di autorizzazione l'assistenza, la cura, l'allevamento e la detenzione di animali vertebrati a titolo professionale. Il trattamento professionale degli animali è dato se c'è l'intenzione di ricavarne un reddito o un profitto, per sé o per terzi.",
+    "punkte": [
+      "Presupposti fondamentali per il rilascio di un'autorizzazione sono la comprova delle competenze specialistiche necessarie, un'infrastruttura conforme alla protezione degli animali e la garanzia di un'assistenza professionale.",
+      "Il modulo si chiama «Domanda di autorizzazione / annuncio di detenzioni di animali a titolo professionale». Un'autorizzazione è soggetta a spese e può essere vincolata a condizioni e oneri.",
+      "I responsabili di pensioni o rifugi per animali e gli addestratori di cani sono tenuti per legge a notificare all'autorità cantonale competente i casi in cui un cane ha ferito una persona o un animale o ha mostrato un comportamento anomalo, in particolare eccessivamente aggressivo."
+    ],
+    "quellen": [
+      "gr_autorizzazioni",
+      "gr_cani_it"
+    ]
   }
 }

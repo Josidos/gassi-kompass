@@ -121,5 +121,19 @@
     "quellen": [
       "gr_findeltiere"
     ]
+  },
+  "gewerbe": {
+    "text": "Im Kanton Graubünden fallen Betreuung, Pflege, Zucht und Haltung von Wirbeltieren unter die Bewilligungspflicht, wenn sie gewerbsmässig sind. Gewerbsmässig heisst: Du willst damit ein Einkommen oder einen Gewinn erzielen oder Unkosten decken, für dich oder für Dritte.",
+    "punkte": [
+      "Für die Bewilligung brauchst du den Nachweis der nötigen Fachkompetenz, eine tierschutzkonforme Infrastruktur und die Gewähr für eine fachgerechte Betreuung der Tiere.",
+      "Das Formular heisst «Bewilligungsgesuch von gewerbsmässigen Tierhaltungen». Kontakt laut Seite: Veterinär- und Lebensmittelamt in Chur. Die Bewilligung ist kostenpflichtig und kann mit Bedingungen und Auflagen verbunden sein.",
+      "Kurse des Kynologischen Ausbildungslehrgangs (KAL), die das Amt bei Tierschutzfällen, Bissvorfällen oder verhaltensauffälligen Hunden anordnet, dürfen nur ausgewählte Ausbildnerinnen und Ausbildner anbieten, die eine Leistungsvereinbarung mit dem Amt abschliessen. Stand des Merkblatts: 2021.",
+      "Wer Hunde ausbildet, ist gesetzlich verpflichtet, der zuständigen kantonalen Stelle Vorfälle zu melden."
+    ],
+    "quellen": [
+      "gr_bewilligung",
+      "gr_kal",
+      "gr_hundewesen"
+    ]
   }
 }

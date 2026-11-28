@@ -126,5 +126,17 @@
       "ne_animaux",
       "ne_lchiens"
     ]
+  },
+  "gewerbe": {
+    "text": "Dans le canton de Neuchâtel, seuls les éducatrices et les éducateurs canins disposant d'une autorisation accordée par le SCAV peuvent donner le cours obligatoire aux nouveaux propriétaires de chiens.",
+    "punkte": [
+      "Formation requise: être titulaire d'un brevet fédéral d'éducatrice ou d'éducateur canin (diplôme DIC, brevet MEC ou formation équivalente). Les exigences détaillées figurent dans le cahier des charges pour éducateurs.",
+      "Pour obtenir l'autorisation, vous remplissez intégralement la demande d'autorisation, joignez un dossier complet répondant au programme de cours et transmettez le tout au SCAV.",
+      "L'émolument est fixé en fonction du temps consacré à l'étude du dossier. Il varie de CHF 500 à CHF 1500 au maximum pour la première autorisation, d'une durée d'un an. Par la suite, l'autorisation est renouvelée sans frais tous les 5 ans, pour autant que le contenu et la qualité des cours correspondent aux exigences.",
+      "Le SCAV publie une liste des éducateurs agréés."
+    ],
+    "quellen": [
+      "ne_animaux"
+    ]
   }
 }

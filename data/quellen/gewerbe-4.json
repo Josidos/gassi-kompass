@@ -1,0 +1,27 @@
+{
+  "so_gewerbe": {
+    "kurz": "Veterinärdienst SO: Gewerbsmässiger Umgang mit Tieren",
+    "lang": "Kanton Solothurn, Amt für Landwirtschaft, Veterinärdienst: Gewerbsmässiger Umgang mit Tieren (abgerufen am 28. November 2026)",
+    "url": "https://so.ch/verwaltung/volkswirtschaftsdepartement/amt-fuer-landwirtschaft/tiere-und-lebensmittel/tierschutz/gewerbsmaessiger-umgang-mit-tieren/"
+  },
+  "bs_gewerbe": {
+    "kurz": "Veterinäramt BS: Gewerbsmässige Tierbetreuungsdienste",
+    "lang": "Kanton Basel-Stadt, Kantonales Veterinäramt: Gewerbsmässige Tierbetreuungsdienste (Inhalt aktualisiert am 26. Juni 2026, abgerufen am 28. November 2026)",
+    "url": "https://www.bs.ch/gd/veterinaeramt/tierschutz/heimtiere/gewerbsmaessige-tierbetreuungsdienste"
+  },
+  "gr_bewilligung": {
+    "kurz": "Amt GR: Bewilligungswesen",
+    "lang": "Kanton Graubünden, Veterinär- und Lebensmittelamt: Bewilligungswesen, gewerbsmässiger Umgang mit Tieren (abgerufen am 28. November 2026)",
+    "url": "https://www.gr.ch/DE/institutionen/verwaltung/dvs/alt/tiere/Bewilligungswesen/Seiten/default.aspx"
+  },
+  "gr_kal": {
+    "kurz": "ALT GR: Kynologischer Ausbildungslehrgang (KAL)",
+    "lang": "Kanton Graubünden, Amt für Lebensmittelsicherheit und Tiergesundheit: Kynologischer Ausbildungslehrgang (KAL), Stand 6. September 2021",
+    "url": "https://www.gr.ch/DE/institutionen/verwaltung/dvs/alt/tiere/hundewesen/Documents/Erkl%C3%A4rung%20KAL%20f%C3%BCr%20Homepage.pdf"
+  },
+  "gr_autorizzazioni": {
+    "kurz": "USDA GR: Autorizzazioni",
+    "lang": "Cantone dei Grigioni, Autorizzazioni, trattamento professionale degli animali (consultato il 28 novembre 2026)",
+    "url": "https://www.gr.ch/IT/istituzioni/amministrazione/dvs/alt/tiere/autorizzazioni/Seiten/default.aspx"
+  }
+}

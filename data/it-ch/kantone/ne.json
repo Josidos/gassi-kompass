@@ -2,7 +2,7 @@
   "id": "ne",
   "kurz": "NE",
   "uebersetzt_aus": "fr",
-  "original": "23b1fa2ac3cf",
+  "original": "3475ed958a75",
   "wald": {
     "saison": true,
     "von": "04-15",
@@ -123,6 +123,18 @@
     "quellen": [
       "ne_animaux",
       "ne_lchiens"
+    ]
+  },
+  "gewerbe": {
+    "text": "Nel Cantone di Neuchâtel solo le educatrici e gli educatori cinofili con un'autorizzazione del SCAV possono tenere il corso obbligatorio per i nuovi detentori di cani.",
+    "punkte": [
+      "Formazione richiesta: essere titolari di un brevetto federale di educatrice o educatore cinofilo (diploma DIC, brevetto MEC o formazione equivalente). I requisiti dettagliati figurano nel capitolato d'oneri per educatori.",
+      "Per ottenere l'autorizzazione compili integralmente la richiesta di autorizzazione, alleghi un dossier completo conforme al programma del corso e trasmetti tutto al SCAV.",
+      "La tassa è fissata in base al tempo dedicato all'esame del dossier. Va da CHF 500 a un massimo di CHF 1500 per la prima autorizzazione, della durata di un anno. In seguito l'autorizzazione viene rinnovata gratuitamente ogni 5 anni, a condizione che il contenuto e la qualità dei corsi corrispondano ai requisiti.",
+      "Il SCAV pubblica un elenco degli educatori riconosciuti."
+    ],
+    "quellen": [
+      "ne_animaux"
     ]
   }
 }

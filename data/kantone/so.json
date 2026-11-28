@@ -146,5 +146,15 @@
     "quellen": [
       "so_vet_fundtiere"
     ]
+  },
+  "gewerbe": {
+    "text": "Im Kanton Solothurn braucht der gewerbsmässige Umgang mit Tieren eine Bewilligung des Veterinärdiensts. Dazu zählen laut Veterinärdienst Tierheime oder Tierbetreuungsdienste für mehr als fünf Tiere gleichzeitig.",
+    "punkte": [
+      "Das Gesuch für die geplante Tätigkeit reichst du vor dem Start beim Veterinärdienst zur Prüfung ein. Das Formular heisst «Bewilligungsgesuch für die Betreuung, Pflege, Zucht und Haltung von Heimtieren», dazu gehört ein Personenblatt.",
+      "Neben den Anforderungen an die Infrastruktur gilt eine Ausbildungspflicht vor der Aufnahme der Tätigkeit. Der Abschluss der Ausbildung ist die Grundlage für die Bewilligung."
+    ],
+    "quellen": [
+      "so_gewerbe"
+    ]
   }
 }

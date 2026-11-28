@@ -375,3 +375,12 @@ Was die Glieder in Originalfassungen bemerkt haben, steht in `CHANGELOG.md` unte
 - [x] Wallis (deutsch und französisch) (2026-11-28)
 - [x] Freiburg (deutsch und französisch) (2026-11-28)
 - [x] Thurgau (2026-11-28)
+
+## Archiviert am 2026-11-28
+
+### BACKLOG.md, 9.4 Thema 2: Hunde betreuen und ausbilden als Beruf
+
+- [x] Solothurn (2026-11-28)
+- [x] Graubünden, deutsch und italienisch (2026-11-28)
+- [x] Basel-Stadt (2026-11-28)
+- [x] Neuenburg (2026-11-28, nur Hundeerziehende für den obligatorischen Kurs)

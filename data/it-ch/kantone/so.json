@@ -2,7 +2,7 @@
   "id": "so",
   "kurz": "SO",
   "uebersetzt_aus": "de",
-  "original": "9d5e30cff503",
+  "original": "002a4abe4168",
   "wald": {
     "saison": true,
     "von": "04-01",
@@ -143,6 +143,16 @@
     ],
     "quellen": [
       "so_vet_fundtiere"
+    ]
+  },
+  "gewerbe": {
+    "text": "Nel Cantone di Soletta chi svolge a titolo professionale attività con animali ha bisogno di un'autorizzazione del Veterinärdienst (servizio veterinario). Secondo il Veterinärdienst vi rientrano i rifugi per animali o i servizi di accudimento per più di cinque animali contemporaneamente.",
+    "punkte": [
+      "Presenti la richiesta per l'attività prevista al Veterinärdienst prima dell'inizio, per l'esame. Il modulo si chiama «Bewilligungsgesuch für die Betreuung, Pflege, Zucht und Haltung von Heimtieren» (richiesta di autorizzazione per l'accudimento, la cura, l'allevamento e la detenzione di animali domestici); ne fa parte una scheda personale.",
+      "Oltre ai requisiti relativi all'infrastruttura vale un obbligo di formazione prima dell'inizio dell'attività. Il completamento della formazione è la base per l'autorizzazione."
+    ],
+    "quellen": [
+      "so_gewerbe"
     ]
   }
 }

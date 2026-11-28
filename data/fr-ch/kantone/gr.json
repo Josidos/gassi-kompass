@@ -2,7 +2,7 @@
   "id": "gr",
   "kurz": "GR",
   "uebersetzt_aus": "de",
-  "original": "886f1e05f96d",
+  "original": "d8805b88aa49",
   "wald": {
     "saison": false,
     "text": "Le Jagdgesetz (loi sur la chasse), la Jagdverordnung (ordonnance sur la chasse) et le Veterinärgesetz (loi vétérinaire) du canton ne prévoient ni laisse obligatoire en forêt ni période fixe de laisse obligatoire. Les communes peuvent édicter leurs propres dispositions. Respectez les règles et les panneaux de votre commune.",
@@ -118,6 +118,20 @@
     ],
     "quellen": [
       "gr_findeltiere"
+    ]
+  },
+  "gewerbe": {
+    "text": "Dans le canton des Grisons, la garde, les soins, l'élevage et la détention de vertébrés sont soumis à autorisation lorsqu'ils sont exercés à titre professionnel. À titre professionnel signifie: vous voulez en tirer un revenu ou un bénéfice ou couvrir des frais, pour vous-même ou pour des tiers.",
+    "punkte": [
+      "Pour l'autorisation, vous devez prouver la compétence professionnelle nécessaire, disposer d'une infrastructure conforme à la protection des animaux et offrir la garantie d'une prise en charge conforme des animaux.",
+      "Le formulaire s'intitule «Bewilligungsgesuch von gewerbsmässigen Tierhaltungen» (demande d'autorisation pour les détentions d'animaux à titre professionnel). Contact selon la page: Veterinär- und Lebensmittelamt (office vétérinaire et des denrées alimentaires) à Coire. L'autorisation est payante et peut être assortie de conditions et de charges.",
+      "Les cours du Kynologischer Ausbildungslehrgang (KAL, cursus de formation cynologique) que l'office ordonne en cas de violations de la protection des animaux, de morsures ou de chiens au comportement problématique ne peuvent être proposés que par des éducatrices et éducateurs sélectionnés qui concluent une convention de prestations avec l'office. État de la notice: 2021.",
+      "Qui éduque des chiens est légalement tenu de signaler les incidents au service cantonal compétent."
+    ],
+    "quellen": [
+      "gr_bewilligung",
+      "gr_kal",
+      "gr_hundewesen"
     ]
   }
 }

@@ -2,7 +2,7 @@
   "id": "ne",
   "kurz": "NE",
   "uebersetzt_aus": "fr",
-  "original": "23b1fa2ac3cf",
+  "original": "3475ed958a75",
   "wald": {
     "saison": true,
     "von": "04-15",
@@ -123,6 +123,18 @@
     "quellen": [
       "ne_animaux",
       "ne_lchiens"
+    ]
+  },
+  "gewerbe": {
+    "text": "Im Kanton Neuenburg dürfen nur Hundeerzieherinnen und Hundeerzieher mit einer Bewilligung des SCAV den obligatorischen Kurs für neue Hundehaltende durchführen.",
+    "punkte": [
+      "Erforderliche Ausbildung: ein eidgenössischer Fachausweis als Hundeerzieherin oder Hundeerzieher (Diplom DIC, Brevet MEC oder gleichwertige Ausbildung). Die detaillierten Anforderungen stehen im Pflichtenheft für Hundeerziehende.",
+      "Für die Bewilligung füllst du das Bewilligungsgesuch vollständig aus, legst ein vollständiges Dossier bei, das dem Kursprogramm entspricht, und schickst alles an das SCAV.",
+      "Die Gebühr richtet sich nach dem Zeitaufwand für die Prüfung des Dossiers. Sie beträgt für die erste Bewilligung, die ein Jahr gilt, CHF 500 bis höchstens CHF 1500. Danach wird die Bewilligung alle 5 Jahre kostenlos erneuert, sofern Inhalt und Qualität der Kurse den Anforderungen entsprechen.",
+      "Das SCAV veröffentlicht eine Liste der zugelassenen Hundeerziehenden."
+    ],
+    "quellen": [
+      "ne_animaux"
     ]
   }
 }
