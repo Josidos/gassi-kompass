@@ -1599,7 +1599,8 @@ def pflichten(k, Q, benutzt):
 
 
 def sprungleiste(ziele):
-    """Leiste «Auf dieser Seite» nach der Einleitung (Kanton, Bund). ziele: Schlüssel aus S["sprung"],
+    """Leiste «Auf dieser Seite»: beim Bund nach der Einleitung, beim Kanton nach der Tafel «Leine im Wald»,
+    damit deren Status am Telefon im ersten Bildschirm bleibt. ziele: Schlüssel aus S["sprung"],
     zugleich die id des Abschnitts, in der Reihenfolge der Seite."""
     sp = S["sprung"]
     links = "".join(f'<a href="#{z}">{e(sp[z])}</a>' for z in ziele)
@@ -2050,7 +2051,7 @@ def seite_kanton(k, Q):
     tafeln = gemeinde_tafeln(k["id"])
     orte = (f'<div class="plates liste">{tafeln}</div>' if tafeln else "")
     f = {"im": k["im"], "des": k["des"], "name": k["name"]}
-    ziele = ["wald", "leine", "pflichten", "neuer-hund"] + (["vermisst"] if k.get("vermisst") else []) + \
+    ziele = ["leine", "pflichten", "neuer-hund"] + (["vermisst"] if k.get("vermisst") else []) + \
         ["gemeinden", "themen", "quellen"]
     inhalt = f"""<section class="hero"><!--KRUMEN-->
 <h1>{e(S["kt_h1"].format(**f))}</h1>
@@ -2058,8 +2059,8 @@ def seite_kanton(k, Q):
 {hinweis_uebersetzung(k, "k")}{hinweis_durchsicht(k)}
 <p class="callout" data-ort-hinweis data-text="{e(S["kt_hinweis"].format(**f))}" hidden></p>
 </section>
-{sprungleiste(ziele)}
 {wald(k, Q, benutzt, anker=True)}
+{sprungleiste(ziele)}
 {regeln(k, Q, benutzt)}
 {pflichten(k, Q, benutzt)}
 {abschnitt_neuer_hund(k)}

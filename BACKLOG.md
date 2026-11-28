@@ -20,7 +20,7 @@ Bleibt ein Kanton nach einem Lauf unvollständig (Entwurf unter `data/entwurf/`)
 
 ## Kette
 
-Kette «Benutzerführung» (Entscheid von Joss vom 28.11.2026, 04:45 Uhr). Jedes Glied ist ein Sonderlauf: Es macht genau den obersten Punkt mit dem Vermerk «fällig» aus Abschnitt 5, nach «Umbauten am Generator» in `CLAUDE.md` und nach der Vorgabe, die der Punkt nennt, und veröffentlicht ihn. Programm: die sechs fälligen Punkte in ihrer Reihenfolge (Gemeindeseite, Übersicht und Sprungmarken, Themenseiten, Suche, Quellenverzeichnis, Themenfeld `gewerbe`). Höchstzahl: 6 Glieder. Schluss: 28.11.2026, 12:00 Uhr. Für diese Kette gilt die Ausnahme für Sonderläufe in `handbuch/kette-parallel.md`, Schritt 4. Gelingt ein Umbau nicht, nimmt das Glied alles zurück, hält den Grund im Protokoll fest, trägt hier «keine Kette» ein und löst nichts mehr aus: Den Rest macht der tägliche Lauf, einen Punkt pro Tag. Ist das Programm erledigt, steht hier wieder «keine Kette». Stand 28.11.2026, 08:50 Uhr: Nach Glied 1 kam kein weiteres Glied, weil die Umgebung den Aufruf von `fire_trigger` abgelehnt hat. Den zweiten Punkt (Übersicht und Sprungmarken) hat der tägliche Lauf von 08:23 Uhr nach der Reihenfolge erledigt, ohne die Kette weiterzugeben. Ohne neues Auslösen macht der tägliche Lauf einen Punkt pro Tag.
+keine Kette
 
 ## 1. Deutschsprachige Kantone
 
@@ -55,7 +55,7 @@ Vorgaben in `CLAUDE.md` unter «Umbauten am Generator».
 Reihenfolge seit dem 28.11.2026, 04:40 Uhr: zuerst der Umbau für bessere Benutzerfreundlichkeit in drei Teilen (Auftrag von Joss um 04:18 Uhr, Befund der Durchsicht gegen vier Regelsammlungen), dann Suche und Quellenverzeichnis, dann das Themenfeld. Steht bei einem Punkt eine Datei `backlog/vorgabe-….md`, liest der Sonderlauf sie zuerst ganz.
 
 - [ ] fällig: **Themenseiten: ein Kanton, eine Zeile zum Aufklappen.** Tabelle und Karten werden eine Liste, die Seiten schrumpfen von 30 und mehr Bildschirmen auf wenige. Vorgabe: `backlog/vorgabe-themenseiten.md`.
-- [ ] fällig: **Suche über die ganze Website** (Wunsch von Joss vom 28.11.2026: «Vor allem Suche Seite»). Das Suchfeld findet neben Orten auch Stichworte auf allen Seiten, dazu eine Seite `/suche/`, ein Knopf im Kopf jeder Seite und auf der Startseite das Suchfeld direkt unter dem Titel. Vorgabe: `backlog/vorgabe-suche.md`.
+- [ ] fällig: **Suche über die ganze Website** (Wunsch von Joss vom 28.11.2026: «Vor allem Suche Seite»). Das Suchfeld findet neben Orten auch Stichworte auf allen Seiten, auf der Startseite, mit dem Suchfeld direkt unter dem Titel. Keine eigene Suchseite. Vorgabe: `backlog/vorgabe-suche.md`.
 - [ ] fällig: **Quellenverzeichnis** (Wunsch von Joss vom 28.11.2026). Eine Seite `/quellen/` mit allen Quellen zum Filtern, Sortieren und Durchsuchen. Vorgabe: `backlog/vorgabe-quellenverzeichnis.md`.
 - [ ] fällig: **Themenfeld 2 «Hunde betreuen und ausbilden als Beruf» (Feld `gewerbe`)** (Vorgabe aus der Sitzung vom 28.11.2026, Reihenfolge der Themen in Abschnitt 9). Wer Hunde gegen Entgelt betreut, ausführt oder ausbildet, soll auf der Seite seines Kantons finden, welche Bewilligung es braucht und wo man sie beantragt. Dieser Sonderlauf baut nur das Gerüst und die Karte des Bundes. Die Kantone folgen danach nach Abschnitt 9.4.
   1. Datenfeld. Kantone bekommen wahlweise `gewerbe: {"text", "punkte", "quellen"}`, gebaut und geprüft wie `vermisst` (`pruefe()`, Übersetzungen, Prüfsumme).

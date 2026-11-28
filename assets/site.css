@@ -214,9 +214,11 @@ h2{margin:0;font-size:clamp(1.5rem,1.2rem + 1.1vw,1.9rem);line-height:1.1;font-w
 .blick.mit-marke{grid-template-columns:auto auto minmax(0,1fr);max-width:none}
 .blick-z{grid-column:1/-1;display:grid;grid-template-columns:subgrid;align-items:baseline;row-gap:4px;padding:11px 0;border-bottom:1px solid var(--rule-soft)}
 .blick-z:last-child{border-bottom:0}
+.blick:has(+.cards){border-bottom:0}
 .blick-z .chip{justify-self:start}
 /* Sprungleiste «Auf dieser Seite» (Kanton, Bund): eine Zeile Links unter der Einleitung */
 .sprung{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 20px;margin-top:-22px;padding:10px 0 11px;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);font-family:var(--sans);font-size:.95rem;font-weight:650;font-stretch:92%}
+.today+.sprung{margin-top:-14px}
 .sprung-k{color:var(--ink-2);font-weight:700;font-stretch:88%;font-size:.88rem}
 .sprung a{text-decoration-color:var(--rule);text-underline-offset:3px}
 .blick-k{font-family:var(--sans);font-weight:700;font-stretch:90%}

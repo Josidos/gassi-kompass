@@ -2,6 +2,14 @@
 
 Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen.
 
+## 2026-11-28, Sitzung mit Joss (ab 14:03 Uhr): Abnahme der zwei Umbauten
+
+- Stand beim Start: Glied 1 der Kette «Benutzerführung» hat um 05:27 Uhr die Gemeindeseite umgebaut, konnte das nächste Glied aber nicht auslösen (die Umgebung lehnt `fire_trigger` im Lauf ab). Der Lauf von 08:23 Uhr hat «Übersicht und Sprungmarken» gebaut. Offen und fällig: Themenseiten, Suche, Quellenverzeichnis, Themenfeld `gewerbe`. Joss um 14:03 Uhr: weitermachen.
+- Abnahme am Telefon (Emulation iPhone 13, Bilder von Lyss und Kanton Zürich angesehen, Tippflächen gemessen): Gemeindeseite in Ordnung, die lokalen Angaben stehen im ersten Bildschirm (`/be/lyss/` 9,3 statt 12,5 Bildschirme, `/zh/zuerich/` 10,1 statt 12,1). `node tests/tippflaechen.js`: 1543 Ziele, keines unter 40 Pixeln.
+- Geändert nach der Abnahme: Auf der Kantonsseite steht die Sprungleiste jetzt nach der Tafel «Leine im Wald», ohne den Link «Wald». Alt: zwischen Einleitung und Tafel, drei Zeilen hoch, der Status «Heute …» rutschte am Telefon aus dem ersten Bildschirm. Das war ein Fehler der Vorgabe, nicht des Laufs. Dazu nur noch eine Linie zwischen der Übersicht und den Karten (`.blick:has(+.cards)`).
+- Bekannt und so belassen: Die Kantonsseite ist mit Übersicht und Sprungleiste länger als vorher (`/zh/` 12,8 statt 11,6 Bildschirme, `/fr-ch/ge/` 20,4 statt 18,7), dafür mit einem Tipp bei jeder Pflicht. Quellen stehen am Telefon untereinander, jede Zeile 44 Pixel hoch.
+- Kette «Benutzerführung» beendet (`BACKLOG.md`: «keine Kette»). Erfahrung in `handbuch/kette-parallel.md`: Ein Lauf kann keinen Lauf mehr auslösen.
+
 ## 2026-11-28, Lauf von 08:23 Uhr: Sonderlauf «Übersicht und Sprungmarken»
 
 - Start 08:24 Uhr. Takt: Arbeitstag (Samstag, dazu fällige Punkte in Abschnitt 5). Doppelter Start: kein Commit zu diesem Umbau in den letzten 30 Minuten. Nichts einzusammeln, kein neuer Durchgang der Link-Prüfung (letzter: 27.11.2026, ausgewertet). Kein Glied der Kette «Benutzerführung»: Der Lauf nimmt nach der Reihenfolge den obersten fälligen Punkt aus Abschnitt 5 und löst nichts aus. Als Sonderlauf nichts nachgeprüft, keine Daten geändert.
