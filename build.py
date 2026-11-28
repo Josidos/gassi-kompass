@@ -83,6 +83,7 @@ KARTEN_ANKER = ["haftpflicht", "kurs", "anmeldung", "hundesteuer", "rassen", "un
 # Schlüssel in 'vergleich' je Kartenposition. «Unterwegs» hat keinen, dort steht der 'wert' der Karte.
 VERGLEICH_POS = ["haft", "kurs", "anm", "steuer", "rassen", None]
 AUFKLAPPEN = '<script src="/assets/aufklappen.js" defer></script>\n'  # Themenseiten: Zeile aus der Adresse aufklappen
+FUSS_OFFEN = 6  # Hat eine Seite mehr Quellen, steht die Liste im Fuss zum Aufklappen (am Bildschirm öffnet sie das Skript)
 WALD_KURZ = 300  # Gemeindeseite: längere Texte zur Leine im Wald (ohne feste Leinenzeit) stehen zum Aufklappen
 NEU_SCHRITTE = [(4, "rassen"), (2, "anm"), (0, "haft"), (1, "kurs"), (3, "steuer"), (None, "wald")]
 MIN_LOKAL = 3  # so viele belegte lokale Angaben braucht eine Gemeinde für eine eigene Seite
@@ -182,6 +183,7 @@ TEXTE = {
         "fuss_fehler": "Stimmt etwas nicht oder fehlt etwas? Schreib an {mail}.",
         "betreff": "Hinweis zu ",
         "fuss_quellen": "Angaben auf dieser Seite geprüft am {d}. Quellen:",
+        "fuss_alle": "Alle {n} Quellen anzeigen",
         "fussnav": "Fussnavigation",
         "nav_suche": "Ort suchen", "nav_schweiz": "Ganze Schweiz", "nav_vergleich": "Kantone im Vergleich",
         "nav_ueber": "Über diese Seite",
@@ -397,6 +399,7 @@ TEXTE = {
         "fuss_fehler": "Une erreur ou un oubli ? Écrivez à {mail}.",
         "betreff": "Remarque sur ",
         "fuss_quellen": "Indications de cette page vérifiées le {d}. Sources :",
+        "fuss_alle": "Afficher les {n} sources",
         "fussnav": "Navigation de pied de page",
         "nav_suche": "Chercher un lieu", "nav_schweiz": "Toute la Suisse",
         "nav_vergleich": "Les cantons en comparaison", "nav_ueber": "À propos",
@@ -612,6 +615,7 @@ TEXTE = {
         "fuss_fehler": "Qualcosa non è corretto o manca? Scrivi a {mail}.",
         "betreff": "Segnalazione su ",
         "fuss_quellen": "Indicazioni di questa pagina verificate il {d}. Fonti:",
+        "fuss_alle": "Mostra le {n} fonti",
         "fussnav": "Navigazione a piè di pagina",
         "nav_suche": "Cerca un luogo", "nav_schweiz": "Tutta la Svizzera",
         "nav_vergleich": "Cantoni a confronto", "nav_ueber": "Informazioni",
@@ -1948,7 +1952,14 @@ def seite(pfad, titel, beschr, inhalt, krumen, stand, benutzt, Q, index=True, al
     if benutzt:
         punkte = "".join(f'<li><a href="{e(Q[k]["url"])}" target="_blank" rel="noopener">{e(Q[k]["lang"])}</a></li>'
                          for k in benutzt)
-        quellen = f'<p id="quellen">{S["fuss_quellen"].format(d=de_datum(stand))}</p><ol>{punkte}</ol>'
+        kopf = S["fuss_quellen"].format(d=de_datum(stand))
+        if len(benutzt) > FUSS_OFFEN:
+            quellen = (f'<p>{kopf}</p><details class="more fuss-quellen" id="quellen" data-breit-offen>'
+                       f'<summary>{S["fuss_alle"].format(n=len(benutzt))}</summary><ol>{punkte}</ol></details>')
+            if AUFKLAPPEN not in skripte:
+                skripte += AUFKLAPPEN
+        else:
+            quellen = f'<p id="quellen">{kopf}</p><ol>{punkte}</ol>'
     robots = "" if index else '<meta name="robots" content="noindex">\n'
     mail = f'<a href="mailto:{KONTAKT}?subject={quote(S["betreff"] + pfad)}">{KONTAKT}</a>'
     return f"""<!doctype html>

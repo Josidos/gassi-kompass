@@ -18,6 +18,8 @@ Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen
 - Geändert nach der Abnahme: Auf der Kantonsseite steht die Sprungleiste jetzt nach der Tafel «Leine im Wald», ohne den Link «Wald». Alt: zwischen Einleitung und Tafel, drei Zeilen hoch, der Status «Heute …» rutschte am Telefon aus dem ersten Bildschirm. Das war ein Fehler der Vorgabe, nicht des Laufs. Dazu nur noch eine Linie zwischen der Übersicht und den Karten (`.blick:has(+.cards)`).
 - Bekannt und so belassen: Die Kantonsseite ist mit Übersicht und Sprungleiste länger als vorher (`/zh/` 12,8 statt 11,6 Bildschirme, `/fr-ch/ge/` 20,4 statt 18,7), dafür mit einem Tipp bei jeder Pflicht. Quellen stehen am Telefon untereinander, jede Zeile 44 Pixel hoch.
 - Kette «Benutzerführung» beendet (`BACKLOG.md`: «keine Kette»). Erfahrung in `handbuch/kette-parallel.md`: Ein Lauf kann keinen Lauf mehr auslösen.
+- 14:09 bis 14:17 Uhr: Lauf auf Opus für «Themenseiten», von der Sitzung ausgelöst und abgenommen (Bilder von `/thema/hundesteuer/` am Telefon, zu und mit aufgeklappter Zeile Zürich): in Ordnung. Die Seite ist 12,1 statt 31,3 Bildschirme lang.
+- Geändert nach dieser Abnahme: Die Quellenliste im Fuss steht zum Aufklappen, wenn eine Seite mehr als sechs Quellen hat («Alle 53 Quellen anzeigen», französisch «Afficher les … sources», italienisch «Mostra le … fonti»). Alt: Die Liste stand immer offen und machte auf `/thema/hundesteuer/` am Telefon 4555 von 8064 Pixeln aus. Am Bildschirm ab 860 Pixeln öffnet `assets/aufklappen.js` sie beim Laden, der Link «Quellen» der Sprungleiste öffnet sie auch am Telefon.
 
 ## 2026-11-28, Lauf von 08:23 Uhr: Sonderlauf «Übersicht und Sprungmarken»
 

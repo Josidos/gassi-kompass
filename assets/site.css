@@ -183,6 +183,8 @@ h2{margin:0;font-size:clamp(1.5rem,1.2rem + 1.1vw,1.9rem);line-height:1.1;font-w
 .card .src{margin-top:4px}
 .more summary{cursor:pointer;font-size:.9rem;font-weight:650;color:var(--note);width:max-content;max-width:100%}
 .more summary:focus-visible{outline:2px solid var(--focus);outline-offset:2px;border-radius:2px}
+.foot .more summary{color:var(--on-binding)}
+.foot .more[open] summary{margin-bottom:12px}
 .more ul{margin:8px 0 0;padding-left:1.1em;columns:2 10rem;column-gap:18px;font-size:.92rem}
 .more li{break-inside:avoid}
 .more ul.saetze{columns:auto;max-width:65ch}
