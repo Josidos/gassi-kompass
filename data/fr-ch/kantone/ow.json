@@ -2,7 +2,7 @@
   "id": "ow",
   "kurz": "OW",
   "uebersetzt_aus": "de",
-  "original": "280a3fff2d68",
+  "original": "9c8790459bc1",
   "wald": {
     "saison": false,
     "titel": "Laisse en forêt : selon la commune",
@@ -121,6 +121,15 @@
     "quellen": [
       "ow_hug",
       "ow_sarnen_hv"
+    ]
+  },
+  "vermisst": {
+    "text": "Dans le canton d'Obwald, la Kantonspolizei (police cantonale) est le service d'annonce des animaux de compagnie trouvés qui ont échappé à leur détentrice ou à leur détenteur. C'est là que vous annoncez un chien trouvé.",
+    "punkte": [
+      "Kantonspolizei Obwalden : téléphone 041 666 65 00"
+    ],
+    "quellen": [
+      "ur_vdu_tierschutz"
     ]
   }
 }

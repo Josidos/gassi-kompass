@@ -124,5 +124,14 @@
       "ow_hug",
       "ow_sarnen_hv"
     ]
+  },
+  "vermisst": {
+    "text": "Im Kanton Obwalden ist die Kantonspolizei die Meldestelle für aufgefundene Heimtiere, die ihrer Halterin oder ihrem Halter entlaufen sind. Dort meldest du einen gefundenen Hund.",
+    "punkte": [
+      "Kantonspolizei Obwalden: Telefon 041 666 65 00"
+    ],
+    "quellen": [
+      "ur_vdu_tierschutz"
+    ]
   }
 }

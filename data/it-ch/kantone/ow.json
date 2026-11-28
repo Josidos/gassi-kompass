@@ -2,7 +2,7 @@
   "id": "ow",
   "kurz": "OW",
   "uebersetzt_aus": "de",
-  "original": "280a3fff2d68",
+  "original": "9c8790459bc1",
   "wald": {
     "saison": false,
     "titel": "Guinzaglio nel bosco: secondo il Comune",
@@ -121,6 +121,15 @@
     "quellen": [
       "ow_hug",
       "ow_sarnen_hv"
+    ]
+  },
+  "vermisst": {
+    "text": "Nel Cantone di Obvaldo la Kantonspolizei (polizia cantonale) è il servizio di segnalazione degli animali da compagnia trovati che sono sfuggiti alla loro detentrice o al loro detentore. Lì segnali un cane trovato.",
+    "punkte": [
+      "Kantonspolizei Obwalden: telefono 041 666 65 00"
+    ],
+    "quellen": [
+      "ur_vdu_tierschutz"
     ]
   }
 }
