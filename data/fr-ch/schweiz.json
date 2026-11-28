@@ -87,6 +87,16 @@
       ]
     },
     {
+      "titel": "Districts francs",
+      "marke": "Obligatoire",
+      "ton": "must",
+      "wert": "Chiens en laisse",
+      "text": "Dans les districts francs fédéraux, les chiens doivent être tenus en laisse. La Suisse compte 43 districts francs fédéraux. L'Office fédéral de l'environnement (OFEV) les présente sur une carte et dans une liste avec la description de chaque district.",
+      "quellen": [
+        "ch_bafu_districts"
+      ]
+    },
+    {
       "titel": "Voyages",
       "marke": "Règle",
       "ton": "note",

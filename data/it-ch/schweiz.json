@@ -87,6 +87,16 @@
       ]
     },
     {
+      "titel": "Bandite di caccia",
+      "marke": "Obbligo",
+      "ton": "must",
+      "wert": "Cani al guinzaglio",
+      "text": "Nelle bandite federali di caccia i cani devono essere condotti al guinzaglio. In Svizzera ci sono 43 bandite federali di caccia. L'Ufficio federale dell'ambiente (UFAM) le mostra su una carta e in un inventario con la descrizione di ogni bandita.",
+      "quellen": [
+        "ch_ufam_bandite"
+      ]
+    },
+    {
       "titel": "Viaggi",
       "marke": "Regola",
       "ton": "note",

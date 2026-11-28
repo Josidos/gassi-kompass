@@ -87,6 +87,16 @@
       ]
     },
     {
+      "titel": "Jagdbanngebiete",
+      "marke": "Pflicht",
+      "ton": "must",
+      "wert": "Hunde an der Leine",
+      "text": "In den eidgenössischen Jagdbanngebieten sind Hunde an der Leine zu führen. Die Schweiz hat 43 solche Gebiete. Wo sie liegen, zeigt das Bundesamt für Umwelt (BAFU) auf einer Karte und in einer Liste mit einer Beschreibung jedes Gebiets.",
+      "quellen": [
+        "ch_bafu_jagdbann"
+      ]
+    },
+    {
       "titel": "Reisen",
       "marke": "Regel",
       "ton": "note",
