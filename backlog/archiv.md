@@ -254,3 +254,16 @@ Was die Glieder in Originalfassungen bemerkt haben, steht in `CHANGELOG.md` unte
   7. Ansehen: die Kantonsseiten Zürich (deutsch), Genf (französisch) und Tessin (italienisch) als Bild, einmal breit und einmal mit 390 Pixeln Breite. Erst pushen, wenn der Abschnitt ordentlich aussieht und nichts überläuft.
   8. Handbuch: `handbuch/generator.md` bekommt den Abschnitt «Neu einen Hund und Sprunglink» (wie es gebaut ist, die festen `id`). In `CLAUDE.md` nur ein Satz bei «Datenfelder Kanton», dass die Kantonsseite aus `karten` und `vergleich` den Abschnitt «Neu einen Hund» baut und `vergleich` darum auch dort erscheint. Lehnt die Umgebung die Änderung an `CLAUDE.md` ab: nicht wiederholen, im Protokoll festhalten, der Umbau gilt trotzdem als erledigt.
   9. Danach in Abschnitt 10 den Punkt 5 abhaken. Im Bericht die Adresse nennen, die ein Tierheim verlinken kann: `https://gassi-kompass.ch/<kt>/#neuer-hund`.
+
+## Archiviert am 2026-11-28
+
+### BACKLOG.md, 5. Umbauten am Generator
+
+- [x] **Rechtstexte für den Wächter und für den Lauf** 2026-11-28: gebaut vom Lauf, Handbuch in der Sitzung nachgeführt. Entscheid von Joss vom 28.11.2026, 02:43 Uhr: Ein Erlass vom Zweig `wandel` gilt als im Lauf abgerufen, wenn sein Abruf höchstens 8 Tage alt ist (Qualitätsregel 2, `handbuch/freigaben.md`).
+
+### BACKLOG.md, 9.1 Hund vermisst oder gefunden
+
+- [x] Schwyz 2026-11-28
+- [x] Jura 2026-11-28
+- [x] Obwalden 2026-11-28
+- [x] Uri 2026-11-28

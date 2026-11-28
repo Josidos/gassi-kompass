@@ -52,8 +52,6 @@ Die offenen Lücken stehen in `backlog/luecken.md`, jede Zeile beginnt mit dem K
 
 Vorgaben in `CLAUDE.md` unter «Umbauten am Generator».
 
-- [ ] **Rechtstexte für den Wächter und für den Lauf**: gebaut vom Lauf am 28.11.2026 (Protokoll dieses Tages). Der Wächter liest die 65 Erlasse auf LexWork, clex und tlex über die Schnittstelle der Sammlung, ihr Text liegt auf dem Zweig `wandel`: `python3 tools/wandel.py --text <Schlüssel> [--suche <Wort>]`. Im Handbuch steht das seit dem 28.11.2026 als Hinweis. Offen ist nur der Entscheid von Joss, ob ein solcher Text als «im Lauf abgerufen» zählt (Qualitätsregel 2), wenn sein Abruf höchstens 8 Tage alt ist: Die Umgebung des Laufs hat diese Änderung an `CLAUDE.md` abgelehnt, darum entscheidet er. Wort: «Regel 2 ja». Bis dahin ist der Text ein Hinweis, keine Quelle. Nicht fällig für den Lauf.
-
 ## 6. Ideen für später
 
 Steht in `backlog/spaeter.md`.
@@ -83,11 +81,7 @@ Einstiege: Seite des Veterinärdiensts, Seite der Kantonspolizei, kantonale Gese
 - [ ] Graubünden (deutsch und italienisch)
 - [ ] Neuenburg
 - [ ] Basel-Stadt
-- [ ] Schwyz
-- [x] Jura 2026-11-28
 - [ ] Appenzell Ausserrhoden: zurückgestellt am 2026-11-28. Keine amtliche Quelle nennt eine Meldestelle für entlaufene oder gefundene Hunde. Gelesen: EG zum ZGB (bGS 211.1), Hundeverordnung (bGS 525.11), Broschüre zur Hundehaltung (nur: die Gemeinden sorgen für streunende und herrenlose Hunde), Seite «Hunde» des Veterinäramts, Seite «Fundbüro» der Kantonspolizei (nur ein Link «Findeltiere» auf ein Tierheim, ohne Satz dazu). Die Seiten «Meldungen an das Veterinäramt» und «Tierschutz» auf ar.ch lieferten einen Fehler. Nächster Ansatz: die Seite «Tierschutz» des Veterinäramts (`ar.ch/verwaltung/departement-gesundheit-und-soziales/veterinaeramt/tierschutz/`) in einer Sitzung im Browser von Joss lesen. Ihr Link heisst auf der Seite des Amts «Tierschutzmeldungen und Findeltiere», WebFetch scheiterte am 28.11.2026 dreimal an der Website (Fehler der Seite, nicht gesperrt). Steht dort nichts: Auskunft des Veterinäramts beider Appenzell per Mail, Entwurf von Claude, Joss verschickt.
-- [ ] Obwalden
-- [ ] Uri
 - [ ] Appenzell Innerrhoden: zurückgestellt am 2026-11-28. Auf den Seiten «Fundbüro» und «Melden und Anzeigen» der Kantonspolizei und «Tierhaltung» auf ai.ch steht nichts zu entlaufenen oder gefundenen Tieren, in der Gesetzessammlung fand sich nichts. Nächster Ansatz: zuerst die Seite «Tierschutz» des gemeinsamen Veterinäramts im Browser lesen (siehe Appenzell Ausserrhoden) und nur verwenden, wenn sie ausdrücklich auch für Innerrhoden gilt. Sonst Auskunft des Veterinäramts beider Appenzell per Mail, Entwurf von Claude, Joss verschickt.
 
 ### 9.2 und 9.3
@@ -102,8 +96,8 @@ Entscheid von Joss vom 27.11.2026, 01:50 Uhr: zuerst die Seite so vollständig u
 2. [x] Lücke «Kursanbieter finden»: am 27.11.2026 in der Sitzung erledigt für sechs der acht Kantone mit Kurspflicht. Für Luzern und Thurgau gibt es keine amtliche Liste.
 3. [ ] Tote Links und Quellen, die dreimal «UNKLAR» waren, bereinigen (Abschnitt 4). Macht der Lauf beim Nachprüfen.
    Dazu der Änderungswächter für Quellen (Abschnitt 5, zweiter Sonderlauf): Er zeigt, welche Quelle sich geändert hat, damit der Lauf nicht blind nachprüft.
-4. [ ] Seite «Für Hundeschulen» mit dem Angebot in drei Sprachen und der Baustein für Partner-Einträge samt Ordnung nach Angebot. Macht Claude in einer Sitzung, der Lauf nicht.
+4. [ ] Seite «Für Hundeschulen» mit dem Angebot in drei Sprachen und der Baustein für Partner-Einträge samt Ordnung nach Angebot. Macht Claude in einer Sitzung, der Lauf nicht. Stand 28.11.2026: Die Seite mit dem Angebot wartet auf das Impressum (Punkt 6), weil sie einen Preis nennt. Der Baustein für Partner-Einträge hängt nicht daran: Er entsteht, sobald die erste Hundeschule zusagt.
 5. [x] (erledigt 28.11.2026, Sonderlauf: `https://gassi-kompass.ch/<kt>/#neuer-hund`) «Neu einen Hund»: je Kanton die Schritte nach der Übernahme, zusammengestellt aus den vorhandenen Angaben, ohne neue Recherche. Braucht zuerst eine Vorgabe in Abschnitt 5, die Claude in einer Sitzung schreibt. Wichtig für die Tierheime.
-6. [ ] Impressum und Datenschutzerklärung. Braucht den Entscheid von Joss, welche Angaben zu seiner Person erscheinen. Vor dem ersten bezahlten Eintrag nötig. Entscheid von Joss vom 27.11.2026, 12:33 Uhr: «Impressum für später, ja». Vor dem Bau legt Claude ihm den Wortlaut vor, mit genau den Angaben zu seiner Person, die erscheinen würden. In die Datenschutzerklärung gehören die Karte der Hundezonen (Kartenbilder von swisstopo) und GitHub Pages als Hoster.
+6. [ ] Impressum und Datenschutzerklärung. Braucht den Entscheid von Joss, welche Angaben zu seiner Person erscheinen. Vor dem ersten bezahlten Eintrag nötig. Entscheid von Joss vom 27.11.2026, 12:33 Uhr: «Impressum für später, ja». Vor dem Bau legt Claude ihm den Wortlaut vor, mit genau den Angaben zu seiner Person, die erscheinen würden. In die Datenschutzerklärung gehören die Karte der Hundezonen (Kartenbilder von swisstopo) und GitHub Pages als Hoster. Stand 28.11.2026: Der Wortlaut von Impressum und Datenschutzerklärung liegt Joss vor (private Seite «Impressum-Entwurf»). Sein Entscheid von 03:00 Uhr: «Ich will noch kein Impressum.» Nichts veröffentlichen, nicht nachfragen, bis er es wieder aufnimmt.
 
 Solange Punkt 1 offen ist, arbeitet der Lauf täglich (Handbuch, «Der Wochenlauf»).

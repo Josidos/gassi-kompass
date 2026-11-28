@@ -1,12 +1,12 @@
 # Graph Report - gassi-kompass  (2026-11-28)
 
 ## Corpus Check
-- 383 files · ~294,825 words
+- 382 files · ~295,412 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 5 file(s) not represented in the graph (top: (none) 4, .css 1)
 
 ## Summary
-- 1313 nodes · 2967 edges · 93 communities (89 shown, 4 thin omitted)
+- 1313 nodes · 2970 edges · 93 communities (89 shown, 4 thin omitted)
 - Extraction: 94% EXTRACTED · 6% INFERRED · 0% AMBIGUOUS · INFERRED: 178 edges (avg confidence: 0.95)
 - Token cost: 0 input · 0 output
 
@@ -114,8 +114,8 @@
 6. `Kantonsdateien (data/kantone/ und die Sprachordner)` - 31 edges
 7. `Kanton Genf (GE)` - 31 edges
 8. `Kanton Bern (BE)` - 27 edges
-9. `Geprüft am 2026-11-27` - 25 edges
-10. `Kanton Wallis (VS)` - 25 edges
+9. `Feld vermisst: Hund vermisst oder gefunden` - 26 edges
+10. `Geprüft am 2026-11-27` - 25 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `Wissensgraph im Einzelnen (seit 27. November 2026)` --references--> `vermisst()`  [INFERRED]
@@ -352,7 +352,7 @@ Nodes (7): bereite(), lade(), norm(), suche(), T(), waehle(), ziel()
 
 ### Community 54 - "Protokoll / 2026-11-27, Sonderlauf: Änderungswächter für Quellen"
 Cohesion: 0.22
-Nodes (8): 2026-11-27, Lauf (Start von Hand um etwa 23:55 Uhr): Themenfeld «Hund vermisst oder gefunden» für TI, VS, FR, SO, 2026-11-27, Sitzung mit Joss: Handbuch, Ausbauliste und Protokoll verschlankt, 2026-11-27, Sonderlauf: Änderungswächter für Quellen, 2026-11-28, Lauf (doppelt gestartet): nichts veröffentlicht ausser einer Gegenprobe, 2026-11-28, Lauf (Start kurz nach Mitternacht): Sonderlauf «Rechtstexte», 2026-11-28, Sitzung mit Joss: Aufsicht über die Läufe auf Opus, Werkzeug-Vorschläge geprüft, 2026-11-28, Sitzung mit Joss (Nacht): 14 neue Gemeinden über Parallel-Aufträge, Nutzungsgrenze, Gegenprobe, Protokoll
+Nodes (8): 2026-11-27, Lauf (Start von Hand um etwa 23:55 Uhr): Themenfeld «Hund vermisst oder gefunden» für TI, VS, FR, SO, 2026-11-27, Sonderlauf: Änderungswächter für Quellen, 2026-11-28, Lauf (doppelt gestartet): nichts veröffentlicht ausser einer Gegenprobe, 2026-11-28, Lauf (Start kurz nach Mitternacht): Sonderlauf «Rechtstexte», 2026-11-28, Sitzung mit Joss: Aufsicht über die Läufe auf Opus, Werkzeug-Vorschläge geprüft, 2026-11-28, Sitzung mit Joss (Nacht): 14 neue Gemeinden über Parallel-Aufträge, Nutzungsgrenze, Gegenprobe, 2026-11-28, Sitzung mit Joss (Nacht, ab 02:43 Uhr): «Vollgas», Sonderlauf abgenommen, Themenfeld für vier weitere Kantone, Protokoll
 
 ### Community 55 - "Postfach und Antworten der Ämter (seit 26. November 2026) / Was nur..."
 Cohesion: 0.29

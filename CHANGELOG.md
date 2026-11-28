@@ -2,6 +2,13 @@
 
 Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen.
 
+## 2026-11-28, Sitzung mit Joss (Nacht, ab 02:43 Uhr): «Vollgas», Sonderlauf abgenommen, Themenfeld für vier weitere Kantone
+
+- Entscheide von Joss, Wortlaut in `handbuch/freigaben.md`: 02:43 Uhr «Vollgas. und Impressum danach Regel 2.», 03:00 Uhr «Ich will noch kein Impressum.» Daraus: höchstens zwei Arbeiter auf Opus gleichzeitig bis zur 5-Stunden-Grenze (nur diese Nacht). Qualitätsregel 2 hat eine zweite Ausnahme für Erlasse vom Zweig `wandel` (Abruf höchstens 8 Tage alt). Impressum und Datenschutzerklärung bleiben unveröffentlicht, die Seite «Für Hundeschulen» mit Preis wartet darauf.
+- Sonderlauf «Neu einen Hund» (Lauf von 02:42 bis 02:58 Uhr) abgenommen: Diff von `build.py`, Test und Bilder der Kantonsseiten Zürich (breit), Genf (französisch, 390 Pixel) und Tessin (italienisch, 390 Pixel) angesehen. Sechs Schritte in der verlangten Reihenfolge, Marken im Ton der Karten, Texte unverändert aus `vergleich`, nichts läuft über. Nichts geändert.
+- Themenfeld «Hund vermisst oder gefunden», Aufträge `vermisst-2` und `vermisst-3` eingesammelt. Neu: Jura (FAQ des Veterinärdiensts, `ju_scav_faq`), Schwyz, Obwalden und Uri (Seite des Veterinärdiensts der Urkantone, `ur_vdu_tierschutz`: Meldestelle für aufgefundene Heimtiere ist die Kantonspolizei, mit Telefonnummer). Alle vier in der Sitzung am Wortlaut der Quelle gegengelesen, die drei Telefonnummern stimmen. In SZ, OW und UR ist nur der Fund belegt, die Vermisstmeldung steht als Lücke in `backlog/luecken.md`. Zurückgestellt: Appenzell Ausserrhoden und Appenzell Innerrhoden (`BACKLOG.md`, Abschnitt 9.1). 21 von 26 Kantonen haben das Feld. Offen: GR, NE, BS (Auftrag `vermisst-4` läuft).
+- Läuft seit 03:00 Uhr: `vermisst-4` (Basel-Stadt, Neuenburg, Graubünden) und `luecken-1` (Riehen, Stadt und Kanton Genf), siehe `data/protokoll/auftraege.md`. Der Lauf von 08:23 Uhr sammelt ein, was die Sitzung bis dahin nicht eingesammelt hat.
+
 ## 2026-11-28, Lauf (Start um 02:42 Uhr): Sonderlauf «Neu einen Hund» und Sprunglink
 
 - Gewählt nach `BACKLOG.md`, Reihenfolge 1: In Abschnitt 5 war «Neu einen Hund» fällig. Nur der Umbau, keine Daten, nichts nachgeprüft. Takt: täglich, weil Abschnitt 9.1 offene Kantone hat. Doppelter Start: Der Commit von 02:39 Uhr war das Einsammeln der Sitzung, nicht dieser Sonderlauf. Parallel-Läufe: nichts einzusammeln.
@@ -79,17 +86,4 @@ Neuster Eintrag zuoberst. Pro Lauf: nachgeprüft, geändert, neu, nicht gelungen
 - Handbuch: Schritt 2 «Nachprüfen» mit neuer Reihenfolge (tote Links, Wächter, älteste), Schwelle von 60 auf 120 Tage, Kalender (März `wald`, Januar Hundesteuer und Hundetaxe). Neuer Abschnitt «Änderungswächter» nach «Link-Prüfung», Aufbau und «Ohne KI» nachgeführt. Wissensgraph: neuer Wissensknoten.
 - Build und Test fehlerfrei (306 Seiten, 307 Seiten geprüft). Die Seiten selbst ändern sich nicht.
 - Erster Durchgang des Wächters am 27.11.2026 um 23:44 Uhr, ausgelöst wie in der Ausbauliste verlangt (Action Nr. 46078455663, 2 Minuten 29 Sekunden, grün). Zweig `wandel` angelegt. Von 437 Quellen waren 431 erreichbar und haben eine erste Prüfsumme. Nicht erreichbar: fünf Quellen auf baselland.ch (`bl_fundwesen`, `bl_leinenpflicht`, `bl_vet_hunde`, `bl_vet_registrierung`, `bl_wald`, Antwort 403, wie bei der Link-Prüfung) und `sz_einsiedeln_formular` (503). Für diese sechs sieht der Wächter keine Änderungen, sie kommen nach dem Alter dran. Alle vier Übersichten lieferten Links (Neuenburg 82, zhlex 14, Schaffhausen 37), jede enthält die Adresse ihrer Quelle. `python3 tools/wandel.py --faellig` liest den Zweig und meldet erwartungsgemäss nichts. Änderungen zeigt erst der Durchgang vom Montag, 30. November 2026.
-
-## 2026-11-27, Sitzung mit Joss: Handbuch, Ausbauliste und Protokoll verschlankt
-
-- Entscheid von Joss um 23:24 Uhr: Über «Schlank», «Hinweis TG» und «Gegenprüfer» entscheidet Claude.
-- «Schlank», umgesetzt. Anlass: Jeder Lauf liest `CLAUDE.md` und `BACKLOG.md` ganz, und beides reist bei jedem Schritt mit. `CLAUDE.md` von 107 auf 46 KB, `BACKLOG.md` von 117 auf 14 KB, `CHANGELOG.md` von 280 auf 24 KB. Gelöscht ist nichts.
-- Handbuch: `CLAUDE.md` ist der Kern für jeden Lauf. Unter `handbuch/` liegen sechs Nachschlageteile, genauso verbindlich: `uebersetzungen.md`, `generator.md`, `kette-parallel.md`, `kontakt.md`, `sitzung.md`, `freigaben.md`. Die Tabelle «Weitere Teile des Handbuchs» sagt, was wo steht und wann man es liest. Neu im Kern und kurz gefasst: «Sprachfassungen», «Wissensgraph», «Skills», «Freigaben». Die Abschnitte selbst sind Wort für Wort verschoben.
-- Ausbauliste: `BACKLOG.md` enthält nur noch, was den nächsten Lauf steuert. Die Nummern der Abschnitte bleiben, damit Verweise und der Takt im Auftrag des Laufs stimmen. Gemeinden in `backlog/gemeinden.md`, Lücken in `backlog/luecken.md`, Späteres in `backlog/spaeter.md`.
-- Neu: `tools/archiv.py`, ohne Modell. Es lässt die 8 neuesten Einträge in `CHANGELOG.md` und verschiebt ältere nach `changelog/JJJJ-MM.md`, abgehakte Punkte der Ausbauliste nach `backlog/archiv.md`. Erster Durchgang: 99 Einträge und 144 Punkte. Der Lauf ruft es nach dem Protokoll auf (Schritt 5).
-- Link-Prüfung: Welcher Durchgang zuletzt ausgewertet ist, steht jetzt als Zeile in `BACKLOG.md`, Abschnitt 4, statt nur im Protokoll.
-- Unteragent `uebersetzer` liest `handbuch/uebersetzungen.md` statt zweier Abschnitte über ihre Überschriften.
-- Wissensgraph: neun Dateien dazu, die Verweise in `tools/graph_wissen.txt` auf die neuen Kennungen umgestellt.
-- «Gegenprüfer»: vorerst nicht, Begründung in `backlog/spaeter.md`. «Hinweis TG»: Entwurf einer kurzen Mail ans Veterinäramt Thurgau liegt bei Joss, er verschickt sie selbst.
-- Vier weitere Vorschläge von Joss geprüft und nicht eingebaut: Taste Skill, `emilkowalski/skills`, Figma MCP, Playwright CLI. Die Fakten hat ein Unteragent auf Sonnet gesammelt (73 Sekunden, rund 125'000 Token), Begründungen in `handbuch/sitzung.md`.
 

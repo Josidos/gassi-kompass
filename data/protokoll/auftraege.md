@@ -4,7 +4,7 @@ Hier steht, welche Kantone, Gemeinden und Dateien an Parallel-Läufe vergeben si
 
 Vergeben am 28.11.2026 ab 02:45 Uhr (Entscheid von Joss um 02:43 Uhr: «Vollgas», höchstens zwei Aufträge gleichzeitig). Themenfeld «Hund vermisst oder gefunden» (Feld `vermisst`) samt Übersetzungen. Jeder Auftrag veröffentlicht nach jedem Kanton, sein Protokoll wächst bis zum Schluss. Die Sitzung sammelt ein, kein Lauf vor 08:00 Uhr:
 
-- `vermisst-3`, 02:51 Uhr, Schluss 03:40 Uhr: Schwyz, Obwalden, Uri
-- `vermisst-4`, Start sobald ein Platz frei ist, Schluss 05:00 Uhr: Graubünden (deutsch und italienisch), Neuenburg, Basel-Stadt
+- `vermisst-4`, 03:00 Uhr, Schluss 03:50 Uhr: Basel-Stadt, Neuenburg, Graubünden (deutsch und italienisch)
+- `luecken-1`, 03:00 Uhr, Schluss 03:50 Uhr: Riehen (Orte mit Hundeverbot und Leinenpflicht aus `bs_zonen`), Stadt Genf und Kanton Genf (Zuschlag der Gemeinden zur Hundesteuer). Dateien: `riehen.json`, `geneve.json`, `ge.json` in allen drei Sprachordnern
 
 Davor: Die fünf Aufträge der Nacht auf den 28. November 2026 endeten um 00:42 Uhr an der 5-Stunden-Grenze des Kontos, die Sitzung hat sie eingesammelt. Was sie nicht geliefert haben, ist im Backlog wieder offen. Die drei vorgemerkten Aufträge zum Themenfeld «Hund vermisst oder gefunden» sind aufgehoben: Zug ist belegt, die übrigen neun Kantone nimmt der Lauf wieder aus `BACKLOG.md`, Abschnitt 9.1.
