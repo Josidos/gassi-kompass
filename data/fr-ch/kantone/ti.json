@@ -2,12 +2,12 @@
   "id": "ti",
   "kurz": "TI",
   "uebersetzt_aus": "it",
-  "original": "2723c1afe8d2",
+  "original": "a49dde25a58d",
   "wald": {
     "saison": false,
     "text": "La Legge sui cani (loi sur les chiens) ne prévoit pas de période de laisse obligatoire en forêt. La règle générale vaut toute l'année : laisse dans les lieux fréquentés par le public ou par d'autres animaux.",
     "quellen": [
-      "ti_lcani"
+      "ti_lcani_rl"
     ]
   },
   "leine": {
@@ -18,7 +18,7 @@
       "dans les espaces de liberté pour chiens créés par les Municipi (exécutifs communaux), les règles de la commune s'appliquent"
     ],
     "quellen": [
-      "ti_lcani"
+      "ti_lcani_rl"
     ]
   },
   "verbot": {
@@ -27,7 +27,7 @@
       "les lieux fixés par l'ordonnance de votre commune"
     ],
     "quellen": [
-      "ti_lcani"
+      "ti_lcani_rl"
     ]
   },
   "karten": [
@@ -36,10 +36,10 @@
       "marke": "Obligatoire",
       "ton": "must",
       "wert": "au moins CHF 3 millions",
-      "text": "Chaque détenteur doit conclure une assurance responsabilité civile pour les dommages causés par le chien, pour un montant minimal de trois millions de francs. La preuve est à présenter lors de l'enregistrement. Si elle manque, la commune fixe un délai de trois mois au maximum. Amende d'ordre : CHF 80.",
+      "text": "Chaque propriétaire de chien doit conclure une assurance responsabilité civile pour les dommages causés par le chien, étendue aussi au détenteur occasionnel, pour un montant minimal de trois millions de francs. La preuve est à présenter lors de l'enregistrement. Si elle manque, la commune fixe un délai de trois mois au maximum. Amende d'ordre : CHF 80.",
       "quellen": [
         "ti_rcani",
-        "ti_lcani"
+        "ti_lcani_rl"
       ]
     },
     {
@@ -51,7 +51,7 @@
       "quellen": [
         "ti_uvc_corso",
         "ti_rcani",
-        "ti_lcani"
+        "ti_lcani_rl"
       ]
     },
     {
@@ -72,7 +72,7 @@
       "wert": "CHF 75 à 125, selon la commune",
       "text": "Pour chaque chien âgé de plus de 3 mois, vous payez une taxe annuelle. La commune la fixe entre CHF 75 et CHF 125 et la perçoit. Sur ce montant, CHF 25 vont au Fondo per il soccorso degli animali (fonds de secours aux animaux) et CHF 40 au canton. Aucune taxe pour l'année si le chien est mort avant le 1er avril ou si vous l'avez pris après le 30 septembre.",
       "quellen": [
-        "ti_lcani",
+        "ti_lcani_rl",
         "ti_rcani"
       ]
     },
@@ -131,7 +131,7 @@
       "wert": "crottes et fugue",
       "text": "Ramassez les crottes de votre chien et jetez-les dans les récipients prévus à cet effet : amende d'ordre de CHF 200. Non-respect de la laisse obligatoire : CHF 80. Vous devez prendre des précautions pour que le chien ne s'échappe pas et signaler immédiatement une fugue à la police. Les infractions à la loi peuvent coûter jusqu'à CHF 20 000.",
       "quellen": [
-        "ti_lcani",
+        "ti_lcani_rl",
         "ti_rcani"
       ]
     }

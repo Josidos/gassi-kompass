@@ -9,7 +9,7 @@
     "saison": false,
     "text": "La legge sui cani non prevede un periodo di guinzaglio obbligatorio nel bosco. Vale tutto l'anno la regola generale: guinzaglio nei luoghi frequentati dal pubblico o da altri animali.",
     "quellen": [
-      "ti_lcani"
+      "ti_lcani_rl"
     ]
   },
   "leine": {
@@ -20,7 +20,7 @@
       "nelle aree di svago per cani istituite dai Municipi valgono le regole del Comune"
     ],
     "quellen": [
-      "ti_lcani"
+      "ti_lcani_rl"
     ]
   },
   "verbot": {
@@ -29,7 +29,7 @@
       "luoghi stabiliti dall'ordinanza del tuo Comune"
     ],
     "quellen": [
-      "ti_lcani"
+      "ti_lcani_rl"
     ]
   },
   "karten": [
@@ -38,10 +38,10 @@
       "marke": "Obbligo",
       "ton": "must",
       "wert": "min. CHF 3 milioni",
-      "text": "Ogni detentore deve stipulare un'assicurazione di responsabilità civile per i danni causati dal cane, per un importo minimo di tre milioni di franchi. La prova va presentata alla registrazione. Se manca, il Comune fissa un termine di al massimo tre mesi. Multa disciplinare: CHF 80.",
+      "text": "Ogni proprietario di cani deve stipulare un'assicurazione di responsabilità civile per i danni causati dal cane, estesa anche al detentore occasionale, per un importo minimo di tre milioni di franchi. La prova va presentata alla registrazione. Se manca, il Comune fissa un termine di al massimo tre mesi. Multa disciplinare: CHF 80.",
       "quellen": [
         "ti_rcani",
-        "ti_lcani"
+        "ti_lcani_rl"
       ]
     },
     {
@@ -53,7 +53,7 @@
       "quellen": [
         "ti_uvc_corso",
         "ti_rcani",
-        "ti_lcani"
+        "ti_lcani_rl"
       ]
     },
     {
@@ -74,7 +74,7 @@
       "wert": "CHF 75 a 125, secondo il Comune",
       "text": "Per ogni cane di età superiore ai 3 mesi paghi una tassa annuale. Il Comune la fissa tra CHF 75 e CHF 125 e la riscuote. Di questo importo CHF 25 vanno al Fondo per il soccorso degli animali e CHF 40 al Cantone. Nessuna tassa per l'anno se il cane è morto prima del 1° aprile o se l'hai preso dopo il 30 settembre.",
       "quellen": [
-        "ti_lcani",
+        "ti_lcani_rl",
         "ti_rcani"
       ]
     },
@@ -133,7 +133,7 @@
       "wert": "escrementi e fuga",
       "text": "Raccogli gli escrementi del tuo cane e gettali negli appositi contenitori: multa disciplinare di CHF 200. Mancato rispetto dell'obbligo di guinzaglio: CHF 80. Devi prendere precauzioni perché il cane non fugga e segnalare subito una fuga alla polizia. Le infrazioni alla legge possono costare fino a CHF 20 000.",
       "quellen": [
-        "ti_lcani",
+        "ti_lcani_rl",
         "ti_rcani"
       ]
     }
