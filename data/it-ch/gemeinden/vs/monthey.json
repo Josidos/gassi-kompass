@@ -1,0 +1,48 @@
+{
+  "id": "monthey",
+  "kanton": "vs",
+  "bfs": 6153,
+  "uebersetzt_aus": "fr",
+  "original": "0cb7fbad54b6",
+  "name": "Città di Monthey",
+  "ort": "Monthey",
+  "in_ort": "a Monthey",
+  "einleitung": "Monthey fissa la propria imposta sui cani. Il règlement de police (regolamento di polizia), comune a Monthey, Collombey-Muraz, Massongex e Vérossaz, impone il guinzaglio all'interno di una località e permette di vietare i cani in alcuni luoghi pubblici.",
+  "karten": [
+    {
+      "titel": "Imposta sui cani",
+      "wert": "CHF 125 per cane e per anno",
+      "text": "L'imposta è fissata a CHF 125 per cane, spese comprese, senza pro rata, su fattura. La paghi per ogni cane a partire dall'età di 6 mesi. L'imposta è riscossa ogni anno per intero. Se non l'hai pagata entro il 31 marzo, all'imposta può aggiungersi una multa. Se ricevi prestazioni complementari AVS o AI, il primo cane non è soggetto all'imposta.",
+      "quellen": [
+        "vs_monthey_chiens",
+        "vs_monthey_police"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "wert": "entro 15 giorni, alla Police municipale",
+      "text": "Ogni cane che arriva nel Comune va annunciato alla Police municipale (polizia comunale) entro 15 giorni, place de l'Hôtel-de-Ville 2. Va annunciato anche ogni cambiamento (partenza, cessione, decesso). L'attestato di assicurazione di responsabilità civile si consegna ogni anno entro il 31 marzo, per e-mail a chien@monthey.ch o allo sportello.",
+      "quellen": [
+        "vs_monthey_chiens"
+      ]
+    },
+    {
+      "titel": "Guinzaglio",
+      "wert": "all'interno di una località e nei luoghi pubblici",
+      "text": "Il tuo cane deve essere tenuto al guinzaglio nei luoghi pubblici, all'interno di una località e vicino agli animali da reddito. Fuori da questi luoghi deve restare sotto controllo e rispondere al richiamo. Gli orari di chiusura dei parchi pubblici della Città valgono anche per chi detiene un cane. Raccogli gli escrementi del tuo cane sulla via pubblica. L'autorità può vietare l'accesso dei cani ad alcuni luoghi pubblici.",
+      "quellen": [
+        "vs_monthey_chiens",
+        "vs_monthey_police"
+      ]
+    },
+    {
+      "titel": "Multe",
+      "wert": "da CHF 10 a CHF 5'000",
+      "text": "Un'infrazione al regolamento di polizia è punita con una multa di almeno CHF 10 e al massimo CHF 5'000. In caso di infrazione il cane può anche essere portato al canile, oltre alla multa e alle spese. Ogni cane randagio è portato al canile. L'autorità comunale può vietare la detenzione di un cane per una durata di 3 anni.",
+      "quellen": [
+        "vs_monthey_police",
+        "vs_monthey_chiens"
+      ]
+    }
+  ]
+}

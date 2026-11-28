@@ -1,0 +1,47 @@
+{
+  "id": "monthey",
+  "kanton": "vs",
+  "bfs": 6153,
+  "name": "Ville de Monthey",
+  "ort": "Monthey",
+  "in_ort": "à Monthey",
+  "geprueft": "2026-11-28",
+  "einleitung": "Monthey fixe son impôt sur les chiens. Le règlement de police, commun à Monthey, Collombey-Muraz, Massongex et Vérossaz, impose la laisse à l'intérieur d'une localité et permet d'interdire les chiens dans certains lieux publics.",
+  "karten": [
+    {
+      "titel": "Impôt sur les chiens",
+      "wert": "CHF 125 par chien et par an",
+      "text": "L'impôt est fixé à CHF 125 par chien, frais compris, sans pro rata, sur facture. Vous le payez pour chaque chien dès l'âge de 6 mois. L'impôt est perçu chaque année en entier. Si vous ne l'avez pas payé pour le 31 mars, une amende peut s'ajouter à l'impôt. Si vous touchez des prestations complémentaires AVS ou AI, le premier chien n'est pas soumis à l'impôt.",
+      "quellen": [
+        "vs_monthey_chiens",
+        "vs_monthey_police"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "wert": "dans les 15 jours, à la Police municipale",
+      "text": "Tout chien qui arrive dans la commune s'annonce à la Police municipale dans un délai de 15 jours, place de l'Hôtel-de-Ville 2. Chaque changement (départ, cession, décès) s'annonce aussi. L'attestation d'assurance responsabilité civile se remet chaque année jusqu'au 31 mars, par courriel à chien@monthey.ch ou au guichet.",
+      "quellen": [
+        "vs_monthey_chiens"
+      ]
+    },
+    {
+      "titel": "Laisse",
+      "wert": "à l'intérieur d'une localité et dans les lieux publics",
+      "text": "Votre chien doit être tenu en laisse dans les lieux publics, à l'intérieur d'une localité et près des animaux de rente. En dehors, il doit rester sous contrôle et répondre au rappel. Les horaires de fermeture des parcs publics de la Ville valent aussi pour les détenteurs de chiens. Vous ramassez les crottes de votre chien sur la voie publique. L'Autorité peut interdire l'accès des chiens dans certains lieux publics.",
+      "quellen": [
+        "vs_monthey_chiens",
+        "vs_monthey_police"
+      ]
+    },
+    {
+      "titel": "Amendes",
+      "wert": "CHF 10 à CHF 5'000",
+      "text": "Une infraction au règlement de police est punie d'une amende de CHF 10 au moins et de CHF 5'000 au plus. En cas d'infraction, le chien peut aussi être mis en fourrière, en plus de l'amende et des frais. Tout chien errant est mis en fourrière. L'autorité communale peut interdire la détention d'un chien pour une durée de 3 ans.",
+      "quellen": [
+        "vs_monthey_police",
+        "vs_monthey_chiens"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "monthey",
+  "kanton": "vs",
+  "bfs": 6153,
+  "uebersetzt_aus": "fr",
+  "original": "0cb7fbad54b6",
+  "name": "Stadt Monthey",
+  "ort": "Monthey",
+  "in_ort": "in Monthey",
+  "einleitung": "Monthey legt seine Hundesteuer selbst fest. Das Règlement de police (Polizeireglement), das für Monthey, Collombey-Muraz, Massongex und Vérossaz gemeinsam gilt, verlangt die Leine innerhalb einer Ortschaft und erlaubt, Hunde an bestimmten öffentlichen Orten zu verbieten.",
+  "karten": [
+    {
+      "titel": "Hundetaxe",
+      "wert": "CHF 125 pro Hund und Jahr",
+      "text": "Die Steuer beträgt CHF 125 pro Hund, Gebühren inbegriffen, ohne Pro-rata, auf Rechnung. Du bezahlst sie für jeden Hund ab dem Alter von 6 Monaten. Die Steuer wird jedes Jahr ganz erhoben. Hast du sie bis zum 31. März nicht bezahlt, kann zur Steuer eine Busse dazukommen. Beziehst du Ergänzungsleistungen zur AHV oder IV, ist der erste Hund von der Steuer befreit.",
+      "quellen": [
+        "vs_monthey_chiens",
+        "vs_monthey_police"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "wert": "innert 15 Tagen bei der Police municipale",
+      "text": "Jeden Hund, der neu in die Gemeinde kommt, meldest du innert 15 Tagen bei der Police municipale (Gemeindepolizei) an, place de l'Hôtel-de-Ville 2. Auch jede Änderung (Wegzug, Abgabe, Tod) meldest du. Den Nachweis der Haftpflichtversicherung reichst du jedes Jahr bis zum 31. März ein, per Mail an chien@monthey.ch oder am Schalter.",
+      "quellen": [
+        "vs_monthey_chiens"
+      ]
+    },
+    {
+      "titel": "Leine",
+      "wert": "innerhalb einer Ortschaft und an öffentlichen Orten",
+      "text": "Dein Hund muss an öffentlichen Orten, innerhalb einer Ortschaft und in der Nähe von Nutztieren an der Leine sein. Ausserhalb muss er unter Kontrolle bleiben und auf Rückruf gehorchen. Die Schliessungszeiten der öffentlichen Parks der Stadt gelten auch für Hundehaltende. Den Kot deines Hundes nimmst du auf öffentlichem Grund auf. Die Behörde kann Hunden den Zutritt zu bestimmten öffentlichen Orten verbieten.",
+      "quellen": [
+        "vs_monthey_chiens",
+        "vs_monthey_police"
+      ]
+    },
+    {
+      "titel": "Bussen",
+      "wert": "CHF 10 bis CHF 5'000",
+      "text": "Ein Verstoss gegen das Polizeireglement wird mit einer Busse von mindestens CHF 10 und höchstens CHF 5'000 bestraft. Bei einem Verstoss kann der Hund zusätzlich zur Busse und zu den Kosten ins Tierheim gebracht werden. Jeder streunende Hund kommt ins Tierheim. Die Gemeindebehörde kann die Haltung eines Hundes für 3 Jahre verbieten.",
+      "quellen": [
+        "vs_monthey_police",
+        "vs_monthey_chiens"
+      ]
+    }
+  ]
+}
