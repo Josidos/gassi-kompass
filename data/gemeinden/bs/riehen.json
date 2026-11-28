@@ -10,11 +10,20 @@
   "karten": [
     {
       "titel": "Leine",
-      "wert": "Wald und Lange Erlen: 1. April bis 31. Juli",
-      "text": "Vom 1. April bis 31. Juli führst du deinen Hund im Wald, an den Waldrändern und auf den angrenzenden Wiesen an der Leine. Das gilt im ganzen Kanton und auch in den Langen Erlen. Die betroffenen Gebiete sind mit Hinweistafeln gekennzeichnet. Stand der Mitteilung der Gemeinde: 21. März 2024.",
+      "wert": "Wald und Lange Erlen: 1. April bis 31. Juli, dazu sieben Orte",
+      "text": "Vom 1. April bis 31. Juli führst du deinen Hund im Wald, an den Waldrändern und auf den angrenzenden Wiesen an der Leine. Das gilt im ganzen Kanton und auch in den Langen Erlen. Die betroffenen Gebiete sind mit Hinweistafeln gekennzeichnet. Stand der Mitteilung der Gemeinde: 21. März 2024. Dazu nennt die Liste «Hundeverbots- und Leinenpflichtzonen» des Gesundheitsdepartements in Riehen sieben Orte mit Leinenpflicht: Amphibienweiher, Brunnwegli, Frühmesswegli (Bahnhofstrasse bis Wettsteinstrasse), Hellringwegli, Im Bettingertäli (Fussweg zwischen Bettingerstrasse und Wenkenmattweg), Wenkenhofpark (auf der Wegachse Wenkenmattweg-Hellring, auf dem Zugangsweg zu Reithalle und Café und auf den Fusswegen der Terrassenanlage westlich der Bettingerstrasse) und Wettsteinanlage (Promenade zwischen Kilchgässli und Sieglinweg). Die Liste nennt kein Datum.",
       "quellen": [
         "bs_riehen_mm_2024",
-        "bs_riehen_schutz"
+        "bs_riehen_schutz",
+        "bs_zonen"
+      ]
+    },
+    {
+      "titel": "Kein Zutritt",
+      "wert": "Hundeverbot an elf Orten, etwa Sarasinpark und Wenkenhofpark",
+      "text": "Die Liste «Hundeverbots- und Leinenpflichtzonen» des Gesundheitsdepartements nennt in Riehen elf Orte mit Hundeverbot: Eisweiher, Essiganlage, Grenzacherweglein (Anlage bei der Bettingerstrasse), Hinter der Mühle (Anlage mit Spielplatz), Im Bettingertäli (Anlage mit Spielplatz), Immenbachstrasse / Mohrhaldenstrasse (Parkanlage), In den Habermatten (Anlage mit Spielplatz), Keltenweg / Gstaltenrainweg (Anlage), Sarasinpark, Wenkenhofpark und Wettsteinanlage (Parkanlagen). Im Wenkenhofpark darfst du deinen Hund an der Leine mitnehmen: auf der Wegachse Wenkenmattweg-Hellring, auf dem Zugangsweg zu Reithalle und Café und auf den Fusswegen der Terrassenanlage westlich der Bettingerstrasse. In der Wettsteinanlage ist die Promenade zwischen Kilchgässli und Sieglinweg ausgenommen, dort gilt Leinenpflicht. Die Liste nennt kein Datum.",
+      "quellen": [
+        "bs_zonen"
       ]
     },
     {

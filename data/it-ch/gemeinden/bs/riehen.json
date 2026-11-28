@@ -3,7 +3,7 @@
   "kanton": "bs",
   "bfs": 2703,
   "uebersetzt_aus": "de",
-  "original": "b5d48b26e4f7",
+  "original": "bd34dcff3a90",
   "name": "Riehen",
   "ort": "Riehen",
   "in_ort": "a Riehen",
@@ -11,11 +11,20 @@
   "karten": [
     {
       "titel": "Guinzaglio",
-      "wert": "Bosco e Lange Erlen: dal 1° aprile al 31 luglio",
-      "text": "Dal 1° aprile al 31 luglio tieni il tuo cane al guinzaglio nel bosco, al margine del bosco e sui prati adiacenti. Vale in tutto il Cantone e anche ai Lange Erlen. Le zone interessate sono segnalate con cartelli. Stato del comunicato del Comune: 21 marzo 2024.",
+      "wert": "Bosco e Lange Erlen: dal 1° aprile al 31 luglio, inoltre sette luoghi",
+      "text": "Dal 1° aprile al 31 luglio tieni il tuo cane al guinzaglio nel bosco, al margine del bosco e sui prati adiacenti. Vale in tutto il Cantone e anche ai Lange Erlen. Le zone interessate sono segnalate con cartelli. Stato del comunicato del Comune: 21 marzo 2024. Inoltre l'elenco «Hundeverbots- und Leinenpflichtzonen» (zone di divieto per i cani e di obbligo di guinzaglio) del Gesundheitsdepartement (dipartimento della sanità) indica a Riehen sette luoghi con obbligo di guinzaglio: Amphibienweiher, Brunnwegli, Frühmesswegli (dalla Bahnhofstrasse alla Wettsteinstrasse), Hellringwegli, Im Bettingertäli (sentiero tra la Bettingerstrasse e il Wenkenmattweg), Wenkenhofpark (sull'asse Wenkenmattweg-Hellring, sulla via d'accesso al maneggio e al caffè e sui sentieri delle terrazze a ovest della Bettingerstrasse) e Wettsteinanlage (passeggiata tra il Kilchgässli e il Sieglinweg). L'elenco non indica una data.",
       "quellen": [
         "bs_riehen_mm_2024",
-        "bs_riehen_schutz"
+        "bs_riehen_schutz",
+        "bs_zonen"
+      ]
+    },
+    {
+      "titel": "Accesso vietato",
+      "wert": "Divieto per i cani in undici luoghi, per esempio Sarasinpark e Wenkenhofpark",
+      "text": "L'elenco «Hundeverbots- und Leinenpflichtzonen» del Gesundheitsdepartement indica a Riehen undici luoghi vietati ai cani: Eisweiher, Essiganlage, Grenzacherweglein (area presso la Bettingerstrasse), Hinter der Mühle (area con parco giochi), Im Bettingertäli (area con parco giochi), Immenbachstrasse / Mohrhaldenstrasse (parco), In den Habermatten (area con parco giochi), Keltenweg / Gstaltenrainweg (area), Sarasinpark, Wenkenhofpark e Wettsteinanlage (parchi). Nel Wenkenhofpark puoi portare il tuo cane al guinzaglio: sull'asse Wenkenmattweg-Hellring, sulla via d'accesso al maneggio e al caffè e sui sentieri delle terrazze a ovest della Bettingerstrasse. Nella Wettsteinanlage fa eccezione la passeggiata tra il Kilchgässli e il Sieglinweg, dove vale l'obbligo di guinzaglio. L'elenco non indica una data.",
+      "quellen": [
+        "bs_zonen"
       ]
     },
     {

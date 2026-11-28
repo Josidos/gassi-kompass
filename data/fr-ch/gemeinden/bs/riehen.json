@@ -3,7 +3,7 @@
   "kanton": "bs",
   "bfs": 2703,
   "uebersetzt_aus": "de",
-  "original": "b5d48b26e4f7",
+  "original": "bd34dcff3a90",
   "name": "Riehen",
   "ort": "Riehen",
   "in_ort": "à Riehen",
@@ -11,11 +11,20 @@
   "karten": [
     {
       "titel": "Laisse",
-      "wert": "Forêt et Lange Erlen: du 1er avril au 31 juillet",
-      "text": "Du 1er avril au 31 juillet, vous tenez votre chien en laisse en forêt, en lisière et sur les prés attenants. Cela vaut dans tout le canton et aussi aux Lange Erlen. Les zones concernées sont signalées par des panneaux. État du communiqué de la commune: 21 mars 2024.",
+      "wert": "Forêt et Lange Erlen: du 1er avril au 31 juillet, plus sept lieux",
+      "text": "Du 1er avril au 31 juillet, vous tenez votre chien en laisse en forêt, en lisière et sur les prés attenants. Cela vaut dans tout le canton et aussi aux Lange Erlen. Les zones concernées sont signalées par des panneaux. État du communiqué de la commune: 21 mars 2024. En outre, la liste «Hundeverbots- und Leinenpflichtzonen» (zones d'interdiction des chiens et de laisse obligatoire) du Gesundheitsdepartement (département de la santé) cite à Riehen sept lieux avec laisse obligatoire: Amphibienweiher, Brunnwegli, Frühmesswegli (de la Bahnhofstrasse à la Wettsteinstrasse), Hellringwegli, Im Bettingertäli (sentier entre la Bettingerstrasse et le Wenkenmattweg), Wenkenhofpark (sur l'axe Wenkenmattweg-Hellring, sur le chemin d'accès au manège et au café et sur les sentiers des terrasses à l'ouest de la Bettingerstrasse) et Wettsteinanlage (promenade entre le Kilchgässli et le Sieglinweg). La liste n'indique pas de date.",
       "quellen": [
         "bs_riehen_mm_2024",
-        "bs_riehen_schutz"
+        "bs_riehen_schutz",
+        "bs_zonen"
+      ]
+    },
+    {
+      "titel": "Accès interdit",
+      "wert": "Chiens interdits en onze lieux, par exemple Sarasinpark et Wenkenhofpark",
+      "text": "La liste «Hundeverbots- und Leinenpflichtzonen» du Gesundheitsdepartement cite à Riehen onze lieux interdits aux chiens: Eisweiher, Essiganlage, Grenzacherweglein (espace près de la Bettingerstrasse), Hinter der Mühle (espace avec place de jeux), Im Bettingertäli (espace avec place de jeux), Immenbachstrasse / Mohrhaldenstrasse (parc), In den Habermatten (espace avec place de jeux), Keltenweg / Gstaltenrainweg (espace), Sarasinpark, Wenkenhofpark et Wettsteinanlage (parcs). Au Wenkenhofpark, vous pouvez emmener votre chien en laisse: sur l'axe Wenkenmattweg-Hellring, sur le chemin d'accès au manège et au café et sur les sentiers des terrasses à l'ouest de la Bettingerstrasse. À la Wettsteinanlage, la promenade entre le Kilchgässli et le Sieglinweg fait exception, la laisse y est obligatoire. La liste n'indique pas de date.",
+      "quellen": [
+        "bs_zonen"
       ]
     },
     {
