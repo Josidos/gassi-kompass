@@ -80,6 +80,9 @@ THEMEN = [
 KARTEN_ANKER = ["haftpflicht", "kurs", "anmeldung", "hundesteuer", "rassen", "unterwegs"]
 # Abschnitt «Neu einen Hund» (#neuer-hund): die Schritte in dieser Reihenfolge, je (Position der Karte, Schlüssel
 # in 'vergleich'). None: der Kasten zur Leine im Wald.
+# Schlüssel in 'vergleich' je Kartenposition. «Unterwegs» hat keinen, dort steht der 'wert' der Karte.
+VERGLEICH_POS = ["haft", "kurs", "anm", "steuer", "rassen", None]
+WALD_KURZ = 300  # Gemeindeseite: längere Texte zur Leine im Wald (ohne feste Leinenzeit) stehen zum Aufklappen
 NEU_SCHRITTE = [(4, "rassen"), (2, "anm"), (0, "haft"), (1, "kurs"), (3, "steuer"), (None, "wald")]
 MIN_LOKAL = 3  # so viele belegte lokale Angaben braucht eine Gemeinde für eine eigene Seite
 # Feste Dateien, die nie fehlen dürfen: Domain, Pages-Schalter, Bestätigung für die Google Search Console,
@@ -210,6 +213,7 @@ TEXTE = {
         "neu_h2": "Neu einen Hund {im}: die Schritte",
         "neu_p": "Du hast einen Hund übernommen oder holst bald einen zu dir? Hier stehen die Angaben dieser Seite in der Reihenfolge, in der sie für dich wichtig werden. Einzelheiten und Quellen findest du beim jeweiligen Punkt.",
         "neu_wald": "Leine im Wald",
+        "blick_wald": "Was {im} im Wald gilt", "kt_alle": "Alle Einzelheiten und Quellen",
         "zum_inhalt": "Zum Inhalt",
         "lokal_h2": "Das gilt zusätzlich {in_ort}", "freilauf": "Freilaufzonen",
         "suche": {
@@ -251,7 +255,6 @@ TEXTE = {
         "kt_titel": "Hunderegeln {im}: Leinenpflicht, Haftpflicht, Hundesteuer | Gassi-Kompass",
         "kt_beschr": "Was für Hunde {im} gilt: Leinenpflicht, Zutrittsverbote, Haftpflicht, Kurse, Hundesteuer und Rassenregeln. Mit amtlicher Quelle zu jeder Angabe.",
         "gm_h1": "Hunderegeln {in_ort}",
-        "gm_lede": "Die lokalen Regeln {in_ort} und die Vorschriften {des}, die im ganzen Kanton gelten.",
         "gm_weitere": "Weitere Orte {im}", "gm_uebrige": "Übrige Gemeinden",
         "gm_titel": "Hunderegeln {in_ort}: Leinenpflicht, Hundesteuer, Freilauf | Gassi-Kompass",
         "gm_beschr": "Was für Hunde {in_ort} gilt: lokale Regeln, Leinenpflicht, Hundesteuer und die Vorschriften {des}. Mit amtlicher Quelle zu jeder Angabe.",
@@ -421,6 +424,7 @@ TEXTE = {
         "neu_h2": "Nouveau chien {im} : les étapes",
         "neu_p": "Vous avez pris en charge un chien ou vous en accueillez bientôt un ? Voici les informations de cette page dans l'ordre où elles deviennent importantes pour vous. Les détails et les sources se trouvent sous chaque point.",
         "neu_wald": "Laisse en forêt",
+        "blick_wald": "Ce qui s'applique en forêt {im}", "kt_alle": "Tous les détails et les sources",
         "zum_inhalt": "Aller au contenu",
         "lokal_h2": "Règles supplémentaires {in_ort}", "freilauf": "Espaces de liberté pour chiens",
         "suche": {
@@ -462,7 +466,6 @@ TEXTE = {
         "kt_titel": "Règles pour les chiens {im} : laisse obligatoire, assurance RC, impôt | Gassi-Kompass",
         "kt_beschr": "Ce qui vaut pour les chiens {im} : laisse obligatoire, lieux interdits, assurance responsabilité civile, cours, impôt sur les chiens et races. Avec la source officielle de chaque indication.",
         "gm_h1": "Règles pour les chiens {in_ort}",
-        "gm_lede": "Les règles locales {in_ort} et les prescriptions {des}, valables dans tout le canton.",
         "gm_weitere": "Autres lieux {im}", "gm_uebrige": "Autres communes",
         "gm_titel": "Règles pour les chiens {in_ort} : laisse obligatoire, impôt, espaces de liberté | Gassi-Kompass",
         "gm_beschr": "Ce qui vaut pour les chiens {in_ort} : règles locales, laisse obligatoire, impôt sur les chiens et prescriptions {des}. Avec la source officielle de chaque indication.",
@@ -632,6 +635,7 @@ TEXTE = {
         "neu_h2": "Un nuovo cane {im}: i passi",
         "neu_p": "Hai preso a carico un cane o ne accogli presto uno? Qui trovi le indicazioni di questa pagina nell'ordine in cui diventano importanti per te. Dettagli e fonti si trovano al punto corrispondente.",
         "neu_wald": "Guinzaglio nel bosco",
+        "blick_wald": "Cosa vale nel bosco {im}", "kt_alle": "Tutti i dettagli e le fonti",
         "zum_inhalt": "Vai al contenuto",
         "lokal_h2": "Regole supplementari {in_ort}", "freilauf": "Aree di svago per cani",
         "suche": {
@@ -673,7 +677,6 @@ TEXTE = {
         "kt_titel": "Regole per i cani {im}: obbligo di guinzaglio, responsabilità civile, imposta | Gassi-Kompass",
         "kt_beschr": "Cosa vale per i cani {im}: obbligo di guinzaglio, luoghi vietati, responsabilità civile, corsi, imposta sui cani e razze. Con la fonte ufficiale per ogni indicazione.",
         "gm_h1": "Regole per i cani {in_ort}",
-        "gm_lede": "Le regole locali {in_ort} e le prescrizioni {des}, che valgono in tutto il Cantone.",
         "gm_weitere": "Altri luoghi {im}", "gm_uebrige": "Altri Comuni",
         "gm_titel": "Regole per i cani {in_ort}: obbligo di guinzaglio, imposta, aree per cani | Gassi-Kompass",
         "gm_beschr": "Cosa vale per i cani {in_ort}: regole locali, obbligo di guinzaglio, imposta sui cani e prescrizioni {des}. Con la fonte ufficiale per ogni indicazione.",
@@ -1495,8 +1498,9 @@ def karte(c, Q, benutzt, link=None, anker=None):
             f'{qlinks(c["quellen"], Q, benutzt)}</article>')
 
 
-def wald(k, Q, benutzt, hinweis=None, anker=False):
-    """anker: Der Kasten bekommt id="wald" (nur Kantonsseite, Ziel im Abschnitt «Neu einen Hund»)."""
+def wald(k, Q, benutzt, hinweis=None, anker=False, kurz=False):
+    """anker: Der Kasten bekommt id="wald" (nur Kantonsseite, Ziel im Abschnitt «Neu einen Hund»).
+    kurz: Gemeindeseite. Ohne feste Leinenzeit steht ein langer Text des Kantons zum Aufklappen."""
     w = k["wald"]
     spalten = " ".join(f"{t}fr" for t in TAGE)
     zellen = '<span class="m"></span>' * 12
@@ -1532,11 +1536,15 @@ def wald(k, Q, benutzt, hinweis=None, anker=False):
     attrs += f' data-texte="{e(json.dumps(js, ensure_ascii=False, separators=(",", ":")))}"'
     note = f'<p class="today-note">{e(hinweis)}</p>' if hinweis else ""
     kennung = ' id="wald"' if anker else ""
+    absatz = f'<p data-heute-text>{e(text)}</p>'
+    if kurz and not w.get("saison") and len(text) > WALD_KURZ:
+        absatz = (f'<details class="more wald-mehr"><summary>{e(S["blick_wald"].format(im=k["im"]))}</summary>'
+                  f'{absatz}</details>')
     return (f'<section class="today"{kennung} data-wald{attrs}>'
             f'<div class="today-head"><span class="eyebrow">{S["wald_kopf"]} · {e(k["name"])}</span>'
             '<span class="today-date" data-heute-datum></span></div>'
             '<div class="today-body"><div class="today-status">'
-            f'<p class="big{klasse}" data-heute-gross>{e(gross)}</p><p data-heute-text>{e(text)}</p>{note}'
+            f'<p class="big{klasse}" data-heute-gross>{e(gross)}</p>{absatz}{note}'
             f'{qlinks(w["quellen"], Q, benutzt)}</div>'
             f'<div class="bar" role="img" aria-label="{e(aria)}">'
             f'<div class="track" style="grid-template-columns:{spalten}">{zellen}{band}</div>'
@@ -1577,16 +1585,54 @@ def lokal(g, Q, benutzt):
             marken = f'<div class="tags">{marken}</div>' if marken else ""
             teile.append(f'<article class="zone"><div class="zone-name">{e(z["name"])}</div>{marken}'
                          f'<p>{e(z["text"])}</p></article>')
-        zonen = (f'<h3 class="sub">{S["freilauf"]}</h3><div class="zones">{"".join(teile)}</div>'
+        zonen = (f'<h3 class="sub" id="freilauf">{S["freilauf"]}</h3><div class="zones">{"".join(teile)}</div>'
                  f'{qlinks(g["freilaufzonen_quellen"], Q, benutzt)}')
     zur_karte = ""
     if karten_geo(g):
         zur_karte = (f'<p><a class="text-link" href="{karte_pfad(LANG, g)}">'
                      f'{e(S["karte"]["link"].format(in_ort=g["in_ort"]))}</a></p>')
-    karten = "".join(karte(c, Q, benutzt) for c in g["karten"])
+    karten = "".join(karte(c, Q, benutzt, anker=f"lokal-{i + 1}") for i, c in enumerate(g["karten"]))
     return (f'<section class="sec"><div class="sec-head">'
             f'<h2>{e(S["lokal_h2"].format(in_ort=g["in_ort"]))}</h2>{intro}</div>{zonen}{zur_karte}'
             f'<div class="cards">{karten}</div></section>')
+
+
+def blick(zeilen, label, marken=False):
+    """Linienliste «Auf einen Blick»: je Zeile ein Link mit Titel, wahlweise eine Marke, dazu ein Kurztext.
+    zeilen: (href, titel, marke_html, text). marken: Spalte für Marken (Kanton kurz auf der Gemeindeseite)."""
+    li = "".join(f'<li class="blick-z"><a class="blick-k" href="{e(h)}">{e(t)}</a>{m}'
+                 f'<span class="blick-t">{e(x)}</span></li>' for h, t, m, x in zeilen)
+    klasse = "blick mit-marke" if marken else "blick"
+    return f'<ul class="{klasse}" role="list" aria-label="{e(label)}" data-blick>{li}</ul>'
+
+
+def blick_gemeinde(g):
+    """Gemeindeseite: eine Zeile je lokaler Karte, dazu eine für die Freilaufzonen."""
+    zeilen = [(f"#lokal-{i + 1}", c["titel"], "", c["wert"]) for i, c in enumerate(g["karten"])]
+    if g.get("freilaufzonen"):
+        zeilen.append(("#freilauf", S["freilauf"], "", str(len(g["freilaufzonen"]))))
+    return blick(zeilen, S["lokal_h2"].format(in_ort=g["in_ort"]))
+
+
+def pflichten_kurz(k, Q, benutzt):
+    """Gemeindeseite: die sechs Karten des Kantons als Kurzzeilen mit Link auf die Kantonsseite,
+    darunter alle Karten und der Kasten zum Umzug unverändert zum Aufklappen."""
+    ziel = k_pfad(LANG, k["id"])
+    zeilen = []
+    for i, c in enumerate(k["karten"]):
+        marke = f'<span class="chip {e(c["ton"])}">{e(c["marke"])}</span>' if c.get("marke") else ""
+        key = VERGLEICH_POS[i]
+        zeilen.append((f"{ziel}#{KARTEN_ANKER[i]}", c["titel"], marke, k["vergleich"][key] if key else c["wert"]))
+    karten = "".join(karte(c, Q, benutzt) for c in k["karten"])
+    umzug = ""
+    if k.get("umzug"):
+        umzug = (f'<div class="callout"><p><strong>{e(S["umzug"].format(name=k["name"], im=k["im"]))}</strong> '
+                 f'{e(k["umzug"]["text"])}</p>{qlinks(k["umzug"]["quellen"], Q, benutzt)}</div>')
+    titel = f'{S["pflichten_h2"]} {k["im"]}'
+    return (f'<section class="sec"><div class="sec-head"><h2>{e(titel)}</h2></div>'
+            f'{blick(zeilen, titel, marken=True)}'
+            f'<details class="more alle-karten" data-kanton-karten><summary>{e(S["kt_alle"])}</summary>'
+            f'<div class="cards">{karten}</div>{umzug}</details></section>')
 
 
 def hinweis_uebersetzung(d, art):
@@ -2010,13 +2056,13 @@ def seite_gemeinde(g, k, Q):
     weiter = S["gm_weitere"].format(**f) if andere else S["gm_weiter_h2"]
     inhalt = f"""<section class="hero"><!--KRUMEN-->
 <h1>{e(S["gm_h1"].format(**f))}</h1>
-<p class="lede">{e(S["gm_lede"].format(**f))}</p>
+{blick_gemeinde(g)}
 {hinweis_uebersetzung(g, "g")}
 </section>
-{wald(k, Q, benutzt, g.get("hinweis_heute"))}
+{wald(k, Q, benutzt, g.get("hinweis_heute"), kurz=True)}
 {lokal(g, Q, benutzt)}
 {regeln(k, Q, benutzt)}
-{pflichten(k, Q, benutzt)}
+{pflichten_kurz(k, Q, benutzt)}
 <section class="sec">
 <div class="sec-head"><h2>{e(weiter)}</h2></div>
 {orte}

@@ -54,7 +54,6 @@ Vorgaben in `CLAUDE.md` unter «Umbauten am Generator».
 
 Reihenfolge seit dem 28.11.2026, 04:40 Uhr: zuerst der Umbau für bessere Benutzerfreundlichkeit in drei Teilen (Auftrag von Joss um 04:18 Uhr, Befund der Durchsicht gegen vier Regelsammlungen), dann Suche und Quellenverzeichnis, dann das Themenfeld. Steht bei einem Punkt eine Datei `backlog/vorgabe-….md`, liest der Sonderlauf sie zuerst ganz.
 
-- [ ] fällig: **Gemeindeseite: Antwort zuerst.** Unter dem Titel eine Liste «Auf einen Blick» mit den lokalen Angaben, die Tafel zum Wald kürzer, der Kanton als Kurzfassung mit den Karten zum Aufklappen. Vorgabe: `backlog/vorgabe-gemeindeseite.md`.
 - [ ] fällig: **Übersicht und Sprungmarken** für Kanton und Bund: Sprungleiste unter der Einleitung, Übersicht vor den Karten, Karten mit Überschrift, Quellen am Telefon grösser und 44px hoch, `viewport-fit=cover`. Vorgabe: `backlog/vorgabe-sprungmarken.md`.
 - [ ] fällig: **Themenseiten: ein Kanton, eine Zeile zum Aufklappen.** Tabelle und Karten werden eine Liste, die Seiten schrumpfen von 30 und mehr Bildschirmen auf wenige. Vorgabe: `backlog/vorgabe-themenseiten.md`.
 - [ ] fällig: **Suche über die ganze Website** (Wunsch von Joss vom 28.11.2026: «Vor allem Suche Seite»). Das Suchfeld findet neben Orten auch Stichworte auf allen Seiten, dazu eine Seite `/suche/`, ein Knopf im Kopf jeder Seite und auf der Startseite das Suchfeld direkt unter dem Titel. Vorgabe: `backlog/vorgabe-suche.md`.

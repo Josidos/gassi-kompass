@@ -301,3 +301,9 @@ Was die Glieder in Originalfassungen bemerkt haben, steht in `CHANGELOG.md` unte
 
 - [x] Sachseln (OW): erledigt am 2026-11-28 (Auftrag gemeinden-rest-4)
 - [x] Andermatt (UR): erledigt am 2026-11-28 (Auftrag gemeinden-rest-4)
+
+## Archiviert am 2026-11-28
+
+### BACKLOG.md, 5. Umbauten am Generator
+
+- [x] (erledigt 28.11.2026, Kette «Benutzerführung», Glied 1) **Gemeindeseite: Antwort zuerst.** Unter dem Titel eine Liste «Auf einen Blick» mit den lokalen Angaben, die Tafel zum Wald kürzer, der Kanton als Kurzfassung mit den Karten zum Aufklappen. Vorgabe war `backlog/vorgabe-gemeindeseite.md` (gelöscht), Beschreibung in `handbuch/generator.md`.

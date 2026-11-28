@@ -284,6 +284,9 @@ Kleine Knöpfe auf dem Einband mit 1px Rahmen binding-3, Hover binding-2.
 ### Tabellen
 Wie im Bestimmungsbuch: 2px Tinte oben, 1px Linien zwischen Zeilen, Kopf in Meta-Grösse; die gewählte Spalte in sunk. Auf dem Telefon wird jede Zeile ein Block.
 
+### Auf einen Blick
+Seit dem 28. November 2026. Linienliste wie die Schritte unter «Neu einen Hund», ohne Nummern: 2px Tinte oben, 1px Linien zwischen den Zeilen, je Zeile ein Titel in Archivo als Link und daneben der Wert. Am Bildschirm zwei Spalten (Titel, Wert in Lesetext), mit Marken drei (Titel, Marke, Kurztext in ink-2). Unter 640px stehen Titel und Marke in einer Zeile und der Text darunter. Mit Finger als Zeiger ist die ganze Zeile antippbar und mindestens 44px hoch. Baustein `blick()` in `build.py`, Klassen `.blick`, `.blick.mit-marke`. Gebraucht unter dem Titel der Gemeindeseite und für den Kanton in Kurzform.
+
 ### Karte der Hundezonen
 Die einzige Seitenart, die man bedient statt liest. Vor dem Laden steht im Kartenfeld (vertieft, 1px Rahmen) nur der Hinweis, was geladen wird, und ein Knopf in Tinte mit Schrift in Papierfarbe: der einzige gefüllte Knopf der Seite. Darüber die Wahl der Flächen als drei Kästchen mit Farbfeld auf Blatt. Auf der Karte gelten feste Farben, weil die Kartenbilder in beiden Farbmodi hell bleiben: Blattgrün für Freilaufzonen, Rost für Leinenpflicht (gestrichelte Linie, wenn sie nur zu bestimmten Zeiten gilt), Tinte für Hundeverbot, Schieferblau für den eigenen Standort. Das folgt den Spalten «Leine» (Rost) und «Kein Zutritt» (Tinte). Die Auskunft zu einer Fläche steht als Blatt am unteren Rand der Karte, ohne Schatten, mit «Schliessen» als Textknopf. Die Knöpfe des Kartenprogramms bekommen Blatt, Linie und 3px Ecken. Als Grund dient die graue swissTLM-Karte von swisstopo mit 60 % Deckkraft. Freilaufzonen tragen aus der Ferne einen grünen Punkt mit hellem Rand. Die Karte bewegt sich nur unter dem Finger, und Kartenbilder blenden nicht ein.
 

@@ -10,7 +10,8 @@
 // eine Kantonsseite zeigt den Abschnitt genau dann, wenn ihre Datei das Feld hat.
 // Jede Kantonsseite hat genau einen Abschnitt #neuer-hund mit sechs Schritten, deren Links auf eine id derselben
 // Seite führen, die es genau einmal gibt. Keine id kommt auf einer Seite doppelt vor. Jede Seite beginnt mit dem
-// Sprunglink «Zum Inhalt», und sein Ziel gibt es.
+// Sprunglink «Zum Inhalt», und sein Ziel gibt es. Jede Gemeindeseite hat «Auf einen Blick» mit einer Zeile je lokaler
+// Karte (plus Freilaufzonen), die sechs Karten des Kantons in einem details und sechs Kurzzeilen auf Anker der Kantonsseite.
 // Sprachen: Seiten unter /fr-ch/ tragen lang="fr-CH", unter /it-ch/ lang="it-CH", alle anderen lang="de-CH".
 // hreflang muss in beide Richtungen stimmen, und die Ortssuche jeder Startseite wird mitgeprüft.
 // Übersetzte Seiten (Feld uebersetzt_aus) tragen den Hinweis «Übersetzung», Originalfassungen nicht.
@@ -138,6 +139,34 @@ function datei(url) {
           });
           if (nh.abschnitte !== 1 || nh.schritte !== 6 || nh.links !== 6) fehler.push(`${wo}: «Neu einen Hund» mit ${nh.abschnitte} Abschnitten, ${nh.schritte} Schritten und ${nh.links} Links (soll: 1, 6, 6)`);
           for (const i of nh.ohneZiel) fehler.push(`${wo}: «Neu einen Hund» verlinkt #${i}, das es nicht genau einmal gibt`);
+        }
+      }
+      // Gemeindeseite: «Auf einen Blick» mit einer Zeile je lokaler Karte (plus Freilaufzonen), jedes Ziel genau einmal.
+      // Die sechs Karten des Kantons stehen in einem details, die sechs Kurzzeilen führen auf Anker der Kantonsseite.
+      const gm = s.match(/^(\/fr-ch|\/it-ch)?\/([a-z]{2})\/([a-z0-9-]+)\/$/);
+      if (gm) {
+        const dir = SPRACHEN.find(x => x[1] === (gm[1] || ''))[2];
+        const df = path.join(ROOT, ...dir, 'gemeinden', gm[2], gm[3] + '.json');
+        if (fs.existsSync(df)) {
+          const g = lies(...dir, 'gemeinden', gm[2], gm[3] + '.json');
+          const soll = g.karten.length + (g.freilaufzonen && g.freilaufzonen.length ? 1 : 0);
+          const b = await page.evaluate(() => {
+            const l = document.querySelectorAll('.hero [data-blick]');
+            const links = l.length ? [...l[0].querySelectorAll('li a')].map(x => x.getAttribute('href')) : [];
+            const kk = document.querySelectorAll('details[data-kanton-karten]');
+            const kurz = kk.length ? [...kk[0].closest('section').querySelectorAll('[data-blick] li a')].map(x => x.getAttribute('href')) : [];
+            return { listen: l.length, zeilen: l.length ? l[0].querySelectorAll('li').length : 0,
+                     ohneZiel: links.filter(h => !h.startsWith('#') || document.querySelectorAll('[id="' + h.slice(1) + '"]').length !== 1),
+                     kk: kk.length, karten: kk.length ? kk[0].querySelectorAll('.card').length : 0, kurz };
+          });
+          if (b.listen !== 1 || b.zeilen !== soll) fehler.push(`${wo}: «Auf einen Blick» mit ${b.listen} Listen und ${b.zeilen} Zeilen (soll: 1, ${soll})`);
+          for (const h of b.ohneZiel) fehler.push(`${wo}: «Auf einen Blick» verlinkt ${h}, das es auf der Seite nicht genau einmal gibt`);
+          if (b.kk !== 1 || b.karten !== 6) fehler.push(`${wo}: Karten des Kantons: ${b.kk} details mit ${b.karten} Karten (soll: 1, 6)`);
+          if (b.kurz.length !== 6) fehler.push(`${wo}: ${b.kurz.length} Kurzzeilen zum Kanton statt 6`);
+          for (const h of b.kurz) {
+            const [p, anker] = h.split('#'), f = datei(p);
+            if (!f || !anker || !fs.readFileSync(f, 'utf8').includes(`id="${anker}"`)) fehler.push(`${wo}: Kurzzeile zum Kanton führt auf ${h}, den Anker gibt es dort nicht`);
+          }
         }
       }
       if (sprache && s.endsWith('/thema/vermisst/')) {

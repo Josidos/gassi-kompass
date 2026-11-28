@@ -64,7 +64,7 @@ main:focus{outline:none}
 .skip:not(:focus){width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;box-shadow:none}
 .skip:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
 /* Ziele von Sprungmarken stehen nicht am Bildrand */
-#wald,#neuer-hund,.card[id]{scroll-margin-top:16px}
+#wald,#neuer-hund,#freilauf,.card[id]{scroll-margin-top:16px}
 
 /* Alles Bedienbare, alle Überschriften und Kennungen: Archivo */
 h1,h2,h3,.top,.crumbs,.chip,.card-k,.card-v,.src,.stamp,.dest,.search label,.search-status,.facts,.months,.band,.now,.bar-cap,
@@ -209,6 +209,24 @@ h2{margin:0;font-size:clamp(1.5rem,1.2rem + 1.1vw,1.9rem);line-height:1.1;font-w
   .schritt{grid-template-columns:1.6rem minmax(0,1fr) auto;column-gap:14px}
   .schritt-t{grid-column:2/-1}
 }
+/* Auf einen Blick: Linienliste ohne Nummern, eine Zeile je Angabe mit Link, wahlweise mit Marke */
+.blick{margin:0;padding:0;list-style:none;border-top:2px solid var(--ink);border-bottom:1px solid var(--rule);display:grid;grid-template-columns:auto minmax(0,1fr);column-gap:16px;max-width:68ch}
+.blick.mit-marke{grid-template-columns:auto auto minmax(0,1fr);max-width:none}
+.blick-z{grid-column:1/-1;display:grid;grid-template-columns:subgrid;align-items:baseline;row-gap:4px;padding:11px 0;border-bottom:1px solid var(--rule-soft)}
+.blick-z:last-child{border-bottom:0}
+.blick-z .chip{justify-self:start}
+.blick-k{font-family:var(--sans);font-weight:700;font-stretch:90%}
+.blick-t{color:var(--ink-2);font-size:.95rem;min-width:0}
+.blick:not(.mit-marke) .blick-t{color:var(--ink);font-size:1rem}
+@media (max-width:640px){
+  .blick{display:block}
+  .blick-z{grid-template-columns:minmax(0,1fr) auto;column-gap:14px}
+  .blick-t{grid-column:1/-1}
+}
+.alle-karten{margin-top:14px}
+.alle-karten>.cards{margin-top:14px}
+.alle-karten>.callout{margin-top:14px}
+.wald-mehr p{margin:8px 0 0}
 .plain-note{margin:0;padding:14px 16px;border-radius:var(--r);background:var(--sunk)}
 
 /* Tabellen wie im Bestimmungsbuch: Linien statt Kästen */
@@ -429,6 +447,8 @@ thead th a{text-underline-offset:2px}
   .card-k a{position:relative;z-index:1;display:inline-block;padding-block:14px;margin-block:-14px}
   .schritt{position:relative}
   .schritt-k::after{content:"";position:absolute;inset:0}
+  .blick-z{position:relative}
+  .blick-k::after{content:"";position:absolute;inset:0}
   .plates.small .dest{min-height:44px}
   .index>div{padding:4px 0}
   .index dt a{display:inline-flex;align-items:center;min-height:44px}

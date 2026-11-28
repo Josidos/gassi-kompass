@@ -45,7 +45,9 @@ function datei(url) {
     await page.setViewportSize({ width: 390, height: Math.min(hoehe + 20, 30000) });
     await page.waitForTimeout(120);
     const r = await page.evaluate(() => {
-      const sichtbar = el => { const st = getComputedStyle(el), q = el.getBoundingClientRect(); return st.display !== 'none' && st.visibility !== 'hidden' && q.width > 0 && q.height > 0; };
+      // Inhalt eines geschlossenen details ist nicht zu sehen und nicht zu treffen, nur seine summary
+      const zu = el => { for (let d = el.closest('details'); d; d = d.parentElement && d.parentElement.closest('details')) { if (!d.open && !(el.tagName === 'SUMMARY' && el.parentElement === d)) return true; } return false; };
+      const sichtbar = el => { const st = getComputedStyle(el), q = el.getBoundingClientRect(); return st.display !== 'none' && st.visibility !== 'hidden' && q.width > 0 && q.height > 0 && !zu(el); };
       const vw = document.documentElement.clientWidth;
       const trifft = (el, x, y) => { const t = document.elementFromPoint(x, y); return !!t && (t === el || el.contains(t) || (t.tagName === 'LABEL' && t.control === el)); };
       const liste = [];
