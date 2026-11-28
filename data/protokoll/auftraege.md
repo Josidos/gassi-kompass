@@ -5,3 +5,4 @@ Hier steht, welche Kantone, Gemeinden und Dateien an Parallel-Läufe vergeben si
 Zurzeit ist kein Auftrag vergeben. Die Aufträge der Nacht auf den 28. November 2026 sind eingesammelt, siehe `CHANGELOG.md`. Gemeinden, bei denen im Backlog «im Browser» steht, gehen nicht mehr an Parallel-Läufe (`handbuch/kette-parallel.md`).
 
 Davor: Die fünf Aufträge der Nacht auf den 28. November 2026 endeten um 00:42 Uhr an der 5-Stunden-Grenze des Kontos, die Sitzung hat sie eingesammelt. Was sie nicht geliefert haben, ist im Backlog wieder offen. Die drei vorgemerkten Aufträge zum Themenfeld «Hund vermisst oder gefunden» sind aufgehoben: Zug ist belegt, die übrigen neun Kantone nimmt der Lauf wieder aus `BACKLOG.md`, Abschnitt 9.1.
+- Benutzerführung, Glied 1, gestartet 05:17 Uhr
