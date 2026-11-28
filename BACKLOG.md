@@ -95,11 +95,11 @@ Einstiege: Seite des Veterinärdiensts, Seite der Kantonspolizei, kantonale Gese
 - [ ] Neuenburg
 - [ ] Basel-Stadt
 - [ ] Schwyz
-- [ ] Jura
-- [ ] Appenzell Ausserrhoden
+- [x] Jura 2026-11-28
+- [ ] Appenzell Ausserrhoden: zurückgestellt am 2026-11-28. Keine amtliche Quelle nennt eine Meldestelle für entlaufene oder gefundene Hunde. Gelesen: EG zum ZGB (bGS 211.1), Hundeverordnung (bGS 525.11), Broschüre zur Hundehaltung (nur: die Gemeinden sorgen für streunende und herrenlose Hunde), Seite «Hunde» des Veterinäramts, Seite «Fundbüro» der Kantonspolizei (nur ein Link «Findeltiere» auf ein Tierheim, ohne Satz dazu). Die Seiten «Meldungen an das Veterinäramt» und «Tierschutz» auf ar.ch lieferten einen Fehler. Nächster Ansatz: diese zwei Seiten, sonst die Auskunft des Veterinäramts beider Appenzell per Mail (Entwurf liegt bei Joss).
 - [ ] Obwalden
 - [ ] Uri
-- [ ] Appenzell Innerrhoden
+- [ ] Appenzell Innerrhoden: zurückgestellt am 2026-11-28. Auf den Seiten «Fundbüro» und «Melden und Anzeigen» der Kantonspolizei und «Tierhaltung» auf ai.ch steht nichts zu entlaufenen oder gefundenen Tieren, in der Gesetzessammlung fand sich nichts. Nächster Ansatz: Auskunft des Veterinäramts beider Appenzell per Mail (Entwurf liegt bei Joss).
 
 ### 9.2 und 9.3
 
