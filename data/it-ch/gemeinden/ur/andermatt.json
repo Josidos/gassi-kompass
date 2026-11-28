@@ -1,0 +1,64 @@
+{
+  "id": "andermatt",
+  "kanton": "ur",
+  "bfs": 1202,
+  "uebersetzt_aus": "de",
+  "original": "1592e5aefa7a",
+  "name": "Comune di Andermatt",
+  "ort": "Andermatt",
+  "in_ort": "a Andermatt",
+  "hinweis_heute": "A Andermatt vale un obbligo di guinzaglio generale nel villaggio, nel bosco e ai margini del bosco (stato dell'ordinanza: 2007).",
+  "einleitung": "A Andermatt vale la Verordnung über das Halten von Hunden (ordinanza sulla detenzione dei cani) del 25 ottobre 2007, in vigore dal 1° gennaio 2008. Disciplina notifica, imposta sui cani, guinzaglio, luoghi vietati, escrementi e multe.",
+  "karten": [
+    {
+      "titel": "Imposta sui cani",
+      "wert": "CHF 110 all'anno per il primo cane",
+      "text": "La tassa annuale ammonta a CHF 110, per ogni cane in più a CHF 160. Se non tieni il cane tutto l'anno, paghi la tassa pro rata. I cani giovani sono soggetti alla tassa da sei mesi. Il Gemeinderat (municipio) può esentare dalla tassa i cani per ciechi e i cani al servizio di un'istituzione pubblica o di un'organizzazione di salvataggio riconosciuta che hanno superato l'esame di idoneità. La fattura arriva per posta. Stato dell'ordinanza: 2007.",
+      "quellen": [
+        "ur_andermatt_hv",
+        "ur_andermatt_steuer"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "wert": "subito all'amministrazione comunale",
+      "text": "Annunci subito il tuo cane all'amministrazione comunale e lo fai registrare. I cani giovani vanno annunciati da sei mesi. Annunci anche i cambiamenti. È competente l'Einwohnerkontrolle (controllo abitanti). Stato dell'ordinanza: 2007.",
+      "quellen": [
+        "ur_andermatt_hv",
+        "ur_andermatt_steuer"
+      ]
+    },
+    {
+      "titel": "Guinzaglio",
+      "wert": "nel villaggio, nel bosco e ai margini del bosco",
+      "text": "Nel villaggio, nel bosco e ai margini del bosco vale un obbligo di guinzaglio generale. Il tuo cane va tenuto al guinzaglio anche su strade molto trafficate, su marciapiedi e piazze molto frequentati, durante le feste, le manifestazioni pubbliche e negli edifici pubblici. Non puoi lasciarlo correre liberamente nei prati quando ciò danneggia l'erba. I cani in calore, mordaci e malati li tieni sempre al guinzaglio, quelli mordaci anche con la museruola. Stato dell'ordinanza: 2007.",
+      "quellen": [
+        "ur_andermatt_hv"
+      ]
+    },
+    {
+      "titel": "Accesso vietato",
+      "wert": "scuole, chiese, piste da sci, piste di fondo e altri",
+      "text": "Non puoi portare il tuo cane nelle scuole e negli impianti scolastici, nelle chiese, nei cimiteri, negli ospedali, negli uffici pubblici e nei negozi, nei negozi di alimentari, sulle piste da sci, sui campi di esercitazione per lo sci e sulle piste di fondo nonché in impianti simili. Stato dell'ordinanza: 2007.",
+      "quellen": [
+        "ur_andermatt_hv"
+      ]
+    },
+    {
+      "titel": "Escrementi",
+      "wert": "raccogliere e gettare nel cestino",
+      "text": "Raccogli gli escrementi del tuo cane sul suolo pubblico e sul terreno privato altrui. Non lasci il sacchetto lungo strade, su piazze, su fondi privati o agricoli né nel bosco, ma lo getti in un Robidog o in un altro cestino pubblico. Stato dell'ordinanza: 2007.",
+      "quellen": [
+        "ur_andermatt_hv"
+      ]
+    },
+    {
+      "titel": "Multe",
+      "wert": "fino a CHF 500",
+      "text": "Le infrazioni all'ordinanza sui cani sono punite con la multa fino a CHF 500. Resta riservato il diritto cantonale e federale. Stato dell'ordinanza: 2007.",
+      "quellen": [
+        "ur_andermatt_hv"
+      ]
+    }
+  ]
+}

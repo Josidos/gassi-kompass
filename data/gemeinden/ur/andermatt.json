@@ -1,0 +1,63 @@
+{
+  "id": "andermatt",
+  "kanton": "ur",
+  "bfs": 1202,
+  "name": "Gemeinde Andermatt",
+  "ort": "Andermatt",
+  "in_ort": "in Andermatt",
+  "geprueft": "2026-11-28",
+  "hinweis_heute": "In Andermatt gilt im Dorf, im Wald und an Waldsäumen eine generelle Leinenpflicht (Stand der Verordnung: 2007).",
+  "einleitung": "In Andermatt gilt die Verordnung über das Halten von Hunden vom 25. Oktober 2007, in Kraft seit 1. Januar 2008. Sie regelt Meldung, Hundetaxe, Leine, Verbotsorte, Hundekot und Bussen.",
+  "karten": [
+    {
+      "titel": "Hundetaxe",
+      "wert": "CHF 110 pro Jahr für den ersten Hund",
+      "text": "Die jährliche Taxe beträgt CHF 110, für jeden weiteren Hund CHF 160. Hältst du den Hund nicht das ganze Jahr, zahlst du die Taxe pro rata. Junge Hunde sind ab sechs Monaten taxpflichtig. Der Gemeinderat kann Blindenhunde und Hunde im Dienst einer öffentlichen Institution oder einer anerkannten Rettungsorganisation mit bestandener Eignungsprüfung von der Taxe befreien. Die Rechnung kommt per Post. Stand der Verordnung: 2007.",
+      "quellen": [
+        "ur_andermatt_hv",
+        "ur_andermatt_steuer"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "wert": "sofort bei der Gemeindeverwaltung",
+      "text": "Deinen Hund meldest du sofort bei der Gemeindeverwaltung und lässt ihn registrieren. Junge Hunde sind ab sechs Monaten meldepflichtig. Auch Änderungen meldest du. Zuständig ist die Einwohnerkontrolle. Stand der Verordnung: 2007.",
+      "quellen": [
+        "ur_andermatt_hv",
+        "ur_andermatt_steuer"
+      ]
+    },
+    {
+      "titel": "Leine",
+      "wert": "im Dorf, im Wald und an Waldsäumen",
+      "text": "Im Dorf, im Wald und an Waldsäumen gilt eine generelle Leinenpflicht. An die Leine muss dein Hund auch auf verkehrsreichen Strassen, auf stark frequentierten Gehwegen und Plätzen, bei Festanlässen, an öffentlichen Veranstaltungen und in öffentlichen Gebäuden. Frei in Wiesen laufen lassen darfst du ihn nicht, wenn dadurch Grasschaden entsteht. Läufige, bissige und kranke Hunde führst du immer an der Leine, bissige zusätzlich mit Maulkorb. Stand der Verordnung: 2007.",
+      "quellen": [
+        "ur_andermatt_hv"
+      ]
+    },
+    {
+      "titel": "Kein Zutritt",
+      "wert": "Schulen, Kirchen, Skipisten, Loipen und weitere",
+      "text": "Du darfst deinen Hund nicht mitnehmen in Schulen und Schulanlagen, Kirchen, Friedhöfe, Spitäler, Amts- und Ladenlokale, Lebensmittelgeschäfte, auf Skiabfahrtspisten, Skiübungsgelände und Langlaufloipen sowie in ähnliche Anlagen. Stand der Verordnung: 2007.",
+      "quellen": [
+        "ur_andermatt_hv"
+      ]
+    },
+    {
+      "titel": "Hundekot",
+      "wert": "beseitigen und in den Abfalleimer",
+      "text": "Den Kot deines Hundes beseitigst du auf öffentlichem und auf fremdem privatem Areal. Den Beutel lässt du nicht an Strassen, Plätzen, auf privaten oder landwirtschaftlichen Grundstücken oder im Wald liegen, sondern wirfst ihn in einen Robidog oder einen anderen öffentlichen Abfalleimer. Stand der Verordnung: 2007.",
+      "quellen": [
+        "ur_andermatt_hv"
+      ]
+    },
+    {
+      "titel": "Bussen",
+      "wert": "bis CHF 500",
+      "text": "Verstösse gegen die Hundeverordnung werden mit Busse bis CHF 500 bestraft. Kantons- und Bundesrecht bleiben vorbehalten. Stand der Verordnung: 2007.",
+      "quellen": [
+        "ur_andermatt_hv"
+      ]
+    }
+  ]
+}

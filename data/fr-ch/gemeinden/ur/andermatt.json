@@ -1,0 +1,64 @@
+{
+  "id": "andermatt",
+  "kanton": "ur",
+  "bfs": 1202,
+  "uebersetzt_aus": "de",
+  "original": "1592e5aefa7a",
+  "name": "Commune d'Andermatt",
+  "ort": "Andermatt",
+  "in_ort": "à Andermatt",
+  "hinweis_heute": "À Andermatt, la laisse est obligatoire de manière générale dans le village, en forêt et en lisière de forêt (état de l'ordonnance: 2007).",
+  "einleitung": "À Andermatt s'applique la Verordnung über das Halten von Hunden (ordonnance sur la détention des chiens) du 25 octobre 2007, en vigueur depuis le 1er janvier 2008. Elle règle l'annonce, l'impôt sur les chiens, la laisse, les lieux interdits, les crottes de chien et les amendes.",
+  "karten": [
+    {
+      "titel": "Impôt sur les chiens",
+      "wert": "CHF 110 par an pour le premier chien",
+      "text": "La taxe annuelle s'élève à CHF 110, et à CHF 160 pour chaque chien supplémentaire. Si vous ne détenez pas le chien toute l'année, vous payez la taxe au prorata. Les jeunes chiens sont soumis à la taxe dès six mois. Le Gemeinderat (conseil communal) peut exonérer de la taxe les chiens d'aveugles ainsi que les chiens au service d'une institution publique ou d'une organisation de sauvetage reconnue qui ont réussi l'examen d'aptitude. La facture arrive par la poste. État de l'ordonnance: 2007.",
+      "quellen": [
+        "ur_andermatt_hv",
+        "ur_andermatt_steuer"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "wert": "immédiatement à l'administration communale",
+      "text": "Vous annoncez immédiatement votre chien à l'administration communale et le faites enregistrer. Les jeunes chiens doivent être annoncés dès six mois. Vous annoncez aussi les changements. L'Einwohnerkontrolle (contrôle des habitants) est compétente. État de l'ordonnance: 2007.",
+      "quellen": [
+        "ur_andermatt_hv",
+        "ur_andermatt_steuer"
+      ]
+    },
+    {
+      "titel": "Laisse",
+      "wert": "dans le village, en forêt et en lisière",
+      "text": "Dans le village, en forêt et en lisière de forêt, la laisse est obligatoire de manière générale. Votre chien doit aussi être tenu en laisse sur les routes à fort trafic, sur les trottoirs et places très fréquentés, lors de fêtes, de manifestations publiques et dans les bâtiments publics. Vous ne pouvez pas le laisser courir librement dans les prés lorsque cela abîme l'herbe. Vous tenez toujours en laisse les chiennes en chaleur, les chiens mordeurs et les chiens malades, les chiens mordeurs en plus avec une muselière. État de l'ordonnance: 2007.",
+      "quellen": [
+        "ur_andermatt_hv"
+      ]
+    },
+    {
+      "titel": "Accès interdit",
+      "wert": "écoles, églises, pistes de ski, pistes de fond et autres",
+      "text": "Vous ne pouvez pas emmener votre chien dans les écoles et installations scolaires, les églises, les cimetières, les hôpitaux, les bureaux administratifs et les magasins, les commerces d'alimentation, sur les pistes de ski, les terrains d'exercice de ski et les pistes de ski de fond ainsi que dans des installations semblables. État de l'ordonnance: 2007.",
+      "quellen": [
+        "ur_andermatt_hv"
+      ]
+    },
+    {
+      "titel": "Crottes",
+      "wert": "ramasser et jeter à la poubelle",
+      "text": "Vous ramassez les crottes de votre chien sur le domaine public et sur le terrain privé d'autrui. Vous ne laissez pas le sachet le long des routes, sur les places, sur des terrains privés ou agricoles ni en forêt, mais le jetez dans un Robidog ou une autre poubelle publique. État de l'ordonnance: 2007.",
+      "quellen": [
+        "ur_andermatt_hv"
+      ]
+    },
+    {
+      "titel": "Amendes",
+      "wert": "jusqu'à CHF 500",
+      "text": "Les infractions à l'ordonnance sur les chiens sont punies d'une amende jusqu'à CHF 500. Le droit cantonal et fédéral est réservé. État de l'ordonnance: 2007.",
+      "quellen": [
+        "ur_andermatt_hv"
+      ]
+    }
+  ]
+}
