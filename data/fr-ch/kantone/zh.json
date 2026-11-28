@@ -2,7 +2,7 @@
   "id": "zh",
   "kurz": "ZH",
   "uebersetzt_aus": "de",
-  "original": "f75639b86b1b",
+  "original": "55b0a33e2682",
   "wald": {
     "saison": true,
     "von": "04-01",
@@ -163,12 +163,12 @@
     ]
   },
   "gewerbe": {
-    "text": "Si vous exploitez dans le canton de Zurich un service de garde d'animaux, par exemple la garde de jour d'animaux de compagnie ou le dog-sitting, vous avez besoin, à partir de six animaux par jour, d'une autorisation du Veterinäramt (office vétérinaire cantonal). Il faut aussi une autorisation du Veterinäramt pour former des chiens.",
+    "text": "Si vous exploitez dans le canton de Zurich un service de garde d'animaux, par exemple la garde de jour d'animaux de compagnie ou le dog-sitting, vous avez besoin, à partir de six animaux par jour, d'une autorisation du Veterinäramt (office vétérinaire cantonal). Il faut aussi une autorisation du Veterinäramt pour proposer les cours canins obligatoires.",
     "punkte": [
       "Sont exclues les gardes d'au plus cinq animaux par jour. Pour la garde, le Veterinäramt mentionne aussi les services de promenade.",
       "Vous déposez la demande remplie en entier et signée auprès du Veterinäramt cantonal. Pour une première autorisation, l'office compte de quatre à dix semaines.",
       "Formation de chiens: l'autorisation suppose que vous ayez réussi l'examen théorique et l'examen pratique (§ 16d al. 1 let. b de la Hundeverordnung, ordonnance sur les chiens).",
-      "La formation obligatoire pour les détenteurs de chiens doit avoir lieu auprès d'une éducatrice ou d'un éducateur canin autorisé. Le Veterinäramt publie la liste des écoles pour chiens autorisées."
+      "La formation obligatoire pour les détenteurs de chiens doit avoir lieu auprès d'une éducatrice ou d'un éducateur canin autorisé. Le Veterinäramt publie la liste des éducatrices et éducateurs canins autorisés."
     ],
     "quellen": [
       "zh_gewerbe",
