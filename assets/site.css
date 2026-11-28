@@ -64,7 +64,7 @@ main:focus{outline:none}
 .skip:not(:focus){width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;box-shadow:none}
 .skip:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
 /* Ziele von Sprungmarken stehen nicht am Bildrand */
-#wald,#neuer-hund,#freilauf,.card[id]{scroll-margin-top:16px}
+#wald,#neuer-hund,#freilauf,.card[id],.sec[id],#quellen{scroll-margin-top:16px}
 
 /* Alles Bedienbare, alle Überschriften und Kennungen: Archivo */
 h1,h2,h3,.top,.crumbs,.chip,.card-k,.card-v,.src,.stamp,.dest,.search label,.search-status,.facts,.months,.band,.now,.bar-cap,
@@ -176,7 +176,7 @@ h2{margin:0;font-size:clamp(1.5rem,1.2rem + 1.1vw,1.9rem);line-height:1.1;font-w
 .card-top{display:flex;align-items:baseline;gap:8px;min-height:24px}
 .card-top::after{content:"";order:1;flex:1;min-width:16px;border-bottom:2px dotted var(--rule);transform:translateY(-4px)}
 .card-top .chip{order:2}
-.card-k{font-size:.98rem;font-weight:700;font-stretch:90%;color:var(--ink-2)}
+.card-k{margin:0;font-size:.98rem;font-weight:700;font-stretch:90%;color:var(--ink-2)}
 .card-k a{color:var(--ink)}
 .card .card-v{margin:0;font-size:1.3rem;line-height:1.15;font-weight:780;font-stretch:82%}
 .card p{margin:0;font-size:.98rem}
@@ -215,6 +215,10 @@ h2{margin:0;font-size:clamp(1.5rem,1.2rem + 1.1vw,1.9rem);line-height:1.1;font-w
 .blick-z{grid-column:1/-1;display:grid;grid-template-columns:subgrid;align-items:baseline;row-gap:4px;padding:11px 0;border-bottom:1px solid var(--rule-soft)}
 .blick-z:last-child{border-bottom:0}
 .blick-z .chip{justify-self:start}
+/* Sprungleiste «Auf dieser Seite» (Kanton, Bund): eine Zeile Links unter der Einleitung */
+.sprung{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 20px;margin-top:-22px;padding:10px 0 11px;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);font-family:var(--sans);font-size:.95rem;font-weight:650;font-stretch:92%}
+.sprung-k{color:var(--ink-2);font-weight:700;font-stretch:88%;font-size:.88rem}
+.sprung a{text-decoration-color:var(--rule);text-underline-offset:3px}
 .blick-k{font-family:var(--sans);font-weight:700;font-stretch:90%}
 .blick-t{color:var(--ink-2);font-size:.95rem;min-width:0}
 .blick:not(.mit-marke) .blick-t{color:var(--ink);font-size:1rem}
@@ -424,8 +428,8 @@ thead th a{text-underline-offset:2px}
 /* Telefon: Marken, Quellenzeile und Beschriftungen eine Stufe grösser (0.74rem sind am Telefon nur 11,8 Pixel) */
 @media (max-width:640px){
   .chip{font-size:.8rem}
-  .src{font-size:.84rem}
-  .dest-sub{font-size:.8rem}
+  .src{font-size:.875rem}
+  .dest-sub,.today-date,.bar-cap{font-size:.875rem}
   .band span{font-size:.74rem}
   .now span{font-size:.78rem}
 }
@@ -441,10 +445,11 @@ thead th a{text-underline-offset:2px}
   .crumbs>a,.crumbs>[aria-current]{min-height:44px}
   .text-link{padding-block:14px}
   main p a:not([class]),.foot p a{padding-block:8px}
-  .src{row-gap:14px}
-  .src a{padding:12px 6px;margin:-12px -6px}
+  .src{row-gap:23px}
+  .src a{padding:11.5px 6px;margin:-11.5px -6px}
   .more summary{padding-block:11px;margin-block:-4px}
   .card-k a{position:relative;z-index:1;display:inline-block;padding-block:14px;margin-block:-14px}
+  .list-card h3 a{display:inline-block;padding-block:8px;margin-block:-8px}
   .schritt{position:relative}
   .schritt-k::after{content:"";position:absolute;inset:0}
   .blick-z{position:relative}
@@ -455,8 +460,10 @@ thead th a{text-underline-offset:2px}
   .index ul{gap:0;margin-inline:-8px}
   .index li a{display:inline-flex;align-items:center;min-height:44px;padding-inline:8px}
   tbody th a{display:inline-block;padding-block:14px;margin-block:-14px}
-  .foot ol{gap:12px}
-  .foot ol a{padding-block:10px}
+  .foot ol{gap:23px}
+  .foot ol a{padding-block:11.5px}
+  .sprung{row-gap:0}
+  .sprung a{display:inline-flex;align-items:center;min-height:44px}
   .foot nav{row-gap:0;padding-top:4px}
   .foot nav a{display:inline-flex;align-items:center;min-height:44px}
   .karte-zu{padding-block:12px}

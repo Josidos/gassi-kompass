@@ -12,6 +12,8 @@
 // Seite führen, die es genau einmal gibt. Keine id kommt auf einer Seite doppelt vor. Jede Seite beginnt mit dem
 // Sprunglink «Zum Inhalt», und sein Ziel gibt es. Jede Gemeindeseite hat «Auf einen Blick» mit einer Zeile je lokaler
 // Karte (plus Freilaufzonen), die sechs Karten des Kantons in einem details und sechs Kurzzeilen auf Anker der Kantonsseite.
+// Kantonsseiten und Seiten des Bundes haben genau eine Sprungleiste (nav.sprung) mit mindestens drei Links auf Ziele,
+// die es genau einmal gibt, und eine Übersicht vor den Karten. Jede Karte hat ein h3.
 // Sprachen: Seiten unter /fr-ch/ tragen lang="fr-CH", unter /it-ch/ lang="it-CH", alle anderen lang="de-CH".
 // hreflang muss in beide Richtungen stimmen, und die Ortssuche jeder Startseite wird mitgeprüft.
 // Übersetzte Seiten (Feld uebersetzt_aus) tragen den Hinweis «Übersetzung», Originalfassungen nicht.
@@ -141,6 +143,32 @@ function datei(url) {
           for (const i of nh.ohneZiel) fehler.push(`${wo}: «Neu einen Hund» verlinkt #${i}, das es nicht genau einmal gibt`);
         }
       }
+      // Kantonsseite und Seite des Bundes: genau eine Sprungleiste mit mindestens drei Links, jedes Ziel genau einmal,
+      // und die Übersicht vor den Karten (Kanton: sechs Zeilen, Bund: eine je Karte). Andere Seiten haben keine Sprungleiste.
+      const istKt = kt && fs.existsSync(path.join(ROOT, ...SPRACHEN.find(x => x[1] === (kt[1] || ''))[2], 'kantone', kt[2] + '.json'));
+      const istBund = /^(\/fr-ch|\/it-ch)?\/schweiz\/$/.test(s);
+      const sp = await page.evaluate(() => {
+        const n = document.querySelectorAll('nav.sprung');
+        const links = n.length ? [...n[0].querySelectorAll('a')].map(x => x.getAttribute('href')) : [];
+        const sec = document.getElementById('pflichten');
+        const blick = sec ? sec.querySelector(':scope > [data-blick]') : null;
+        const karten = sec ? sec.querySelector(':scope > .cards') : null;
+        return { navs: n.length, links: links.length,
+                 ohneZiel: links.filter(h => !h.startsWith('#') || document.querySelectorAll('[id="' + h.slice(1) + '"]').length !== 1),
+                 zeilen: blick ? blick.querySelectorAll('li').length : 0,
+                 zuerst: !!(blick && karten && (blick.compareDocumentPosition(karten) & Node.DOCUMENT_POSITION_FOLLOWING)),
+                 kartenZahl: karten ? karten.querySelectorAll('.card').length : 0,
+                 zeilenOhneZiel: blick ? [...blick.querySelectorAll('a')].map(x => x.getAttribute('href')).filter(h => document.querySelectorAll('[id="' + h.slice(1) + '"]').length !== 1) : [] };
+      });
+      if (istKt || istBund) {
+        if (sp.navs !== 1 || sp.links < 3) fehler.push(`${wo}: Sprungleiste ${sp.navs}-mal mit ${sp.links} Links (soll: 1, mindestens 3)`);
+        for (const h of sp.ohneZiel) fehler.push(`${wo}: Die Sprungleiste verlinkt ${h}, das es nicht genau einmal gibt`);
+        const sollZ = istKt ? 6 : sp.kartenZahl;
+        if (!sp.zuerst || sp.zeilen !== sollZ || !sollZ) fehler.push(`${wo}: Übersicht vor den Karten mit ${sp.zeilen} Zeilen (soll: ${sollZ}, vor den Karten)`);
+        for (const h of sp.zeilenOhneZiel) fehler.push(`${wo}: Die Übersicht verlinkt ${h}, das es nicht genau einmal gibt`);
+      } else if (sp.navs) fehler.push(`${wo}: Sprungleiste auf einer Seite, die keine haben soll`);
+      const ohneH3 = await page.evaluate(() => [...document.querySelectorAll('.card')].filter(c => !c.querySelector(':scope > .card-top > h3.card-k')).length);
+      if (ohneH3) fehler.push(`${wo}: ${ohneH3} Karten ohne Überschrift h3`);
       // Gemeindeseite: «Auf einen Blick» mit einer Zeile je lokaler Karte (plus Freilaufzonen), jedes Ziel genau einmal.
       // Die sechs Karten des Kantons stehen in einem details, die sechs Kurzzeilen führen auf Anker der Kantonsseite.
       const gm = s.match(/^(\/fr-ch|\/it-ch)?\/([a-z]{2})\/([a-z0-9-]+)\/$/);

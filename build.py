@@ -174,6 +174,9 @@ TEXTE = {
         "teilbild": "Gassi-Kompass: Hunderegeln der Schweiz nach Kanton und Gemeinde",
         "stempel": "Angaben geprüft am {d}",
         "quelle": "Quelle:", "quellen": "Quellen:",
+        "sprung": {"label": "Auf dieser Seite", "wald": "Wald", "leine": "Leine und Zutritt", "pflichten": "Pflichten",
+                   "neuer-hund": "Neu einen Hund", "vermisst": "Vermisst", "gemeinden": "Gemeinden", "themen": "Themen",
+                   "kantone": "Kantone", "quellen": "Quellen"},
         "fuss_recht": "<strong>Keine Rechtsberatung.</strong> Massgebend sind Gesetz, Verordnung und die Schilder vor Ort. Gassi-Kompass ist ein privates Projekt und kein Angebot eines Kantons oder einer Gemeinde.",
         "fuss_fehler": "Stimmt etwas nicht oder fehlt etwas? Schreib an {mail}.",
         "betreff": "Hinweis zu ",
@@ -385,6 +388,9 @@ TEXTE = {
         "teilbild": "Gassi-Kompass : les règles pour les chiens en Suisse, par canton et par commune",
         "stempel": "Vérifié le {d}",
         "quelle": "Source :", "quellen": "Sources :",
+        "sprung": {"label": "Sur cette page", "wald": "Forêt", "leine": "Laisse et accès", "pflichten": "Obligations",
+                   "neuer-hund": "Nouveau chien", "vermisst": "Chien perdu", "gemeinden": "Communes", "themen": "Thèmes",
+                   "kantone": "Cantons", "quellen": "Sources"},
         "fuss_recht": "<strong>Pas un conseil juridique.</strong> Font foi la loi, l'ordonnance et la signalisation sur place. Gassi-Kompass est un projet privé et non une offre d'un canton ou d'une commune.",
         "fuss_fehler": "Une erreur ou un oubli ? Écrivez à {mail}.",
         "betreff": "Remarque sur ",
@@ -596,6 +602,9 @@ TEXTE = {
         "teilbild": "Gassi-Kompass: le regole per i cani in Svizzera, per Cantone e Comune",
         "stempel": "Verificato il {d}",
         "quelle": "Fonte:", "quellen": "Fonti:",
+        "sprung": {"label": "In questa pagina", "wald": "Bosco", "leine": "Guinzaglio e accesso", "pflichten": "Obblighi",
+                   "neuer-hund": "Nuovo cane", "vermisst": "Cane smarrito", "gemeinden": "Comuni", "themen": "Temi",
+                   "kantone": "Cantoni", "quellen": "Fonti"},
         "fuss_recht": "<strong>Nessuna consulenza legale.</strong> Fanno stato la legge, l'ordinanza e la segnaletica sul posto. Gassi-Kompass è un progetto privato e non un'offerta di un Cantone o di un Comune.",
         "fuss_fehler": "Qualcosa non è corretto o manca? Scrivi a {mail}.",
         "betreff": "Segnalazione su ",
@@ -1493,7 +1502,7 @@ def karte(c, Q, benutzt, link=None, anker=None):
         mehr = (f'<details class="more"><summary>{e(c["mehr"]["titel"])}</summary>'
                 f'<ul{saetze}>{punkte}</ul></details>')
     kennung = f' id="{anker}"' if anker else ""
-    return (f'<article class="card"{kennung}><div class="card-top"><span class="card-k">{kopf}</span>{marke}</div>'
+    return (f'<article class="card"{kennung}><div class="card-top"><h3 class="card-k">{kopf}</h3>{marke}</div>'
             f'<p class="card-v">{e(c["wert"])}</p><p>{e(c["text"])}</p>{mehr}'
             f'{qlinks(c["quellen"], Q, benutzt)}</article>')
 
@@ -1556,7 +1565,7 @@ def regeln(k, Q, benutzt):
     def li(punkte):
         return "".join(f"<li>{e(p)}</li>" for p in punkte)
     lead = f'<p>{e(k["verbot"]["einleitung"])}</p>' if k["verbot"].get("einleitung") else ""
-    return (f'<section class="sec"><div class="sec-head">'
+    return (f'<section class="sec" id="leine"><div class="sec-head">'
             f'<h2>{S["regeln_h2"]} {e(k["im"])}</h2></div><div class="split">'
             f'<div class="list-card leash"><h3><span class="chip must">{S["leine_chip"]}</span>{S["leine_h3"]}</h3>'
             f'<ul>{li(k["leine"]["punkte"])}</ul>{qlinks(k["leine"]["quellen"], Q, benutzt)}</div>'
@@ -1565,14 +1574,37 @@ def regeln(k, Q, benutzt):
             '</div></section>')
 
 
+def kurz_zeilen(k, ziel=""):
+    """Die sechs Karten eines Kantons als Zeilen für blick(): Titel, Marke und Kurztext aus 'vergleich'.
+    ziel: Adresse der Kantonsseite vor dem Anker (Gemeindeseite), leer auf der Kantonsseite selbst."""
+    zeilen = []
+    for i, c in enumerate(k["karten"]):
+        marke = f'<span class="chip {e(c["ton"])}">{e(c["marke"])}</span>' if c.get("marke") else ""
+        key = VERGLEICH_POS[i]
+        zeilen.append((f"{ziel}#{KARTEN_ANKER[i]}", c["titel"], marke, k["vergleich"][key] if key else c["wert"]))
+    return zeilen
+
+
 def pflichten(k, Q, benutzt):
+    """Kantonsseite: zuerst die Übersicht (sechs Zeilen mit Link auf die Karte), dann die Karten mit Ankern."""
     karten = "".join(karte(c, Q, benutzt, anker=KARTEN_ANKER[i]) for i, c in enumerate(k["karten"]))
     umzug = ""
     if k.get("umzug"):
         umzug = (f'<div class="callout"><p><strong>{e(S["umzug"].format(name=k["name"], im=k["im"]))}</strong> '
                  f'{e(k["umzug"]["text"])}</p>{qlinks(k["umzug"]["quellen"], Q, benutzt)}</div>')
-    return (f'<section class="sec"><div class="sec-head">'
-            f'<h2>{S["pflichten_h2"]} {e(k["im"])}</h2></div><div class="cards">{karten}</div>{umzug}</section>')
+    titel = f'{S["pflichten_h2"]} {k["im"]}'
+    return (f'<section class="sec" id="pflichten"><div class="sec-head">'
+            f'<h2>{e(titel)}</h2></div>{blick(kurz_zeilen(k), titel, marken=True)}'
+            f'<div class="cards">{karten}</div>{umzug}</section>')
+
+
+def sprungleiste(ziele):
+    """Leiste «Auf dieser Seite» nach der Einleitung (Kanton, Bund). ziele: Schlüssel aus S["sprung"],
+    zugleich die id des Abschnitts, in der Reihenfolge der Seite."""
+    sp = S["sprung"]
+    links = "".join(f'<a href="#{z}">{e(sp[z])}</a>' for z in ziele)
+    return (f'<nav class="sprung" aria-label="{e(sp["label"])}"><span class="sprung-k" aria-hidden="true">'
+            f'{e(sp["label"])}</span>{links}</nav>')
 
 
 def lokal(g, Q, benutzt):
@@ -1617,12 +1649,7 @@ def blick_gemeinde(g):
 def pflichten_kurz(k, Q, benutzt):
     """Gemeindeseite: die sechs Karten des Kantons als Kurzzeilen mit Link auf die Kantonsseite,
     darunter alle Karten und der Kasten zum Umzug unverändert zum Aufklappen."""
-    ziel = k_pfad(LANG, k["id"])
-    zeilen = []
-    for i, c in enumerate(k["karten"]):
-        marke = f'<span class="chip {e(c["ton"])}">{e(c["marke"])}</span>' if c.get("marke") else ""
-        key = VERGLEICH_POS[i]
-        zeilen.append((f"{ziel}#{KARTEN_ANKER[i]}", c["titel"], marke, k["vergleich"][key] if key else c["wert"]))
+    zeilen = kurz_zeilen(k, k_pfad(LANG, k["id"]))
     karten = "".join(karte(c, Q, benutzt) for c in k["karten"])
     umzug = ""
     if k.get("umzug"):
@@ -1803,7 +1830,7 @@ def abschnitt_vermisst(k, Q, benutzt):
     """Abschnitt der Kantonsseite, nur wenn der Kanton das Feld hat."""
     if not k.get("vermisst"):
         return ""
-    return (f'<section class="sec"><div class="sec-head"><h2>{e(S["vermisst_h2"].format(im=k["im"]))}</h2></div>'
+    return (f'<section class="sec" id="vermisst"><div class="sec-head"><h2>{e(S["vermisst_h2"].format(im=k["im"]))}</h2></div>'
             f'{vermisst(k, Q, benutzt)}</section>')
 
 
@@ -1897,14 +1924,14 @@ def seite(pfad, titel, beschr, inhalt, krumen, stand, benutzt, Q, index=True, al
     if benutzt:
         punkte = "".join(f'<li><a href="{e(Q[k]["url"])}" target="_blank" rel="noopener">{e(Q[k]["lang"])}</a></li>'
                          for k in benutzt)
-        quellen = f'<p>{S["fuss_quellen"].format(d=de_datum(stand))}</p><ol>{punkte}</ol>'
+        quellen = f'<p id="quellen">{S["fuss_quellen"].format(d=de_datum(stand))}</p><ol>{punkte}</ol>'
     robots = "" if index else '<meta name="robots" content="noindex">\n'
     mail = f'<a href="mailto:{KONTAKT}?subject={quote(S["betreff"] + pfad)}">{KONTAKT}</a>'
     return f"""<!doctype html>
 <html lang="{HTMLLANG[LANG]}">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>{e(titel)}</title>
 <meta name="description" content="{e(beschr)}">
 {robots}<link rel="canonical" href="{SITE}{pfad}">
@@ -1989,7 +2016,9 @@ def seite_schweiz(Q):
     benutzt = []
     start = PRAEFIX[LANG] + "/"
     pfad = f"{start}schweiz/"
-    karten = "".join(karte(c, Q, benutzt) for c in bund["karten"])
+    ids = [c.get("id") or f"karte-{i + 1}" for i, c in enumerate(bund["karten"])]
+    karten = "".join(karte(c, Q, benutzt, anker=ids[i]) for i, c in enumerate(bund["karten"]))
+    uebersicht = blick([(f"#{ids[i]}", c["titel"], "", c["wert"]) for i, c in enumerate(bund["karten"])], b["h2"])
     da = erfasste()
     offen = json.dumps({kid: KANTONSNAMEN[LANG][kid] for kid, _ in KANTONE_ALLE if kid not in da}, ensure_ascii=False)
     inhalt = f"""<section class="hero"><!--KRUMEN-->
@@ -1997,8 +2026,10 @@ def seite_schweiz(Q):
 <p class="lede">{b["lede"]}</p>
 <p class="callout" data-ort-hinweis data-kantone="{e(offen)}" data-text="{e(b["hinweis"])}" hidden></p>
 </section>
-<section class="sec">
+{sprungleiste(["pflichten", "kantone", "quellen"])}
+<section class="sec" id="pflichten">
 <div class="sec-head"><h2>{b["h2"]}</h2></div>
+{uebersicht}
 <div class="cards">{karten}</div>
 </section>
 <section class="sec" id="kantone">
@@ -2019,24 +2050,27 @@ def seite_kanton(k, Q):
     tafeln = gemeinde_tafeln(k["id"])
     orte = (f'<div class="plates liste">{tafeln}</div>' if tafeln else "")
     f = {"im": k["im"], "des": k["des"], "name": k["name"]}
+    ziele = ["wald", "leine", "pflichten", "neuer-hund"] + (["vermisst"] if k.get("vermisst") else []) + \
+        ["gemeinden", "themen", "quellen"]
     inhalt = f"""<section class="hero"><!--KRUMEN-->
 <h1>{e(S["kt_h1"].format(**f))}</h1>
 <p class="lede">{e(S["kt_lede"].format(**f))}</p>
 {hinweis_uebersetzung(k, "k")}{hinweis_durchsicht(k)}
 <p class="callout" data-ort-hinweis data-text="{e(S["kt_hinweis"].format(**f))}" hidden></p>
 </section>
+{sprungleiste(ziele)}
 {wald(k, Q, benutzt, anker=True)}
 {regeln(k, Q, benutzt)}
 {pflichten(k, Q, benutzt)}
 {abschnitt_neuer_hund(k)}
 {abschnitt_vermisst(k, Q, benutzt)}
-<section class="sec">
+<section class="sec" id="gemeinden">
 <div class="sec-head"><h2>{e(S["kt_gm_h2"].format(**f))}</h2><p>{S["kt_gm_p"]}</p></div>
 {orte}
 <p><a class="text-link" href="{bpfad}">{S["link_schweiz"]}{in_sprache(bl)}</a></p>
 <p><a class="text-link" href="{start}">{S["link_suche"]}</a></p>
 </section>
-<section class="sec">
+<section class="sec" id="themen">
 <div class="sec-head"><h2>{S["kt_themen_h2"]}</h2><p>{S["kt_themen_p"]}</p></div>
 {themenleiste()}
 </section>"""
