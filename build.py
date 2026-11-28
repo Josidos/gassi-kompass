@@ -240,6 +240,8 @@ TEXTE = {
             "s_viele": "Auf {n} Seiten gefunden, hier die ersten {max}.",
             "nichts": "Nichts gefunden. Prüfe die Schreibweise, versuche ein anderes Wort oder wähle unten deinen Kanton.",
             "s_fehler": "Die Suche auf den Seiten lässt sich gerade nicht laden.",
+            "s_kantone": "Steht bei {n} Kantonen",
+            "s_ohne": "Zu den übrigen Wörtern steht nichts auf den Seiten.",
         },
         "suche_label": "Ort, Postleitzahl oder Stichwort",
         "suche_beispiel": "z. B. Wettingen, 5430 oder Maulkorb",
@@ -461,6 +463,8 @@ TEXTE = {
             "s_viele": "Trouvé sur {n} pages, voici les {max} premières.",
             "nichts": "Aucun résultat. Vérifiez l'orthographe, essayez un autre mot ou choisissez votre canton ci-dessous.",
             "s_fehler": "La recherche dans les pages ne peut pas être chargée pour l'instant.",
+            "s_kantone": "Mentionné pour {n} cantons",
+            "s_ohne": "Rien dans les pages pour les autres mots.",
         },
         "suche_label": "Localité, code postal ou mot-clé",
         "suche_beispiel": "p. ex. Montreux, 1820 ou muselière",
@@ -682,6 +686,8 @@ TEXTE = {
             "s_viele": "Trovato in {n} pagine, ecco le prime {max}.",
             "nichts": "Nessun risultato. Controlla l'ortografia, prova un'altra parola o scegli il tuo Cantone qui sotto.",
             "s_fehler": "La ricerca nelle pagine non può essere caricata in questo momento.",
+            "s_kantone": "Citato per {n} Cantoni",
+            "s_ohne": "Nulla nelle pagine per le altre parole.",
         },
         "suche_label": "Luogo, numero postale o parola chiave",
         "suche_beispiel": "p. es. Mendrisio, 6850 o museruola",
@@ -1613,8 +1619,9 @@ def pflichten(k, Q, benutzt):
     """Kantonsseite: zuerst die Übersicht (sechs Zeilen mit Link auf die Karte), dann die Karten mit Ankern."""
     karten = "".join(karte(c, Q, benutzt, anker=KARTEN_ANKER[i]) for i, c in enumerate(k["karten"]))
     umzug = ""
-    if k.get("umzug"):
-        umzug = (f'<div class="callout"><p><strong>{e(S["umzug"].format(name=k["name"], im=k["im"]))}</strong> '
+    if k.get("umzug"):  # callout-k: Überschrift für das Verzeichnis der Suche (SuchLeser), ohne eigene Darstellung
+        umzug = (f'<div class="callout" id="umzug"><p><strong class="callout-k">'
+                 f'{e(S["umzug"].format(name=k["name"], im=k["im"]))}</strong> '
                  f'{e(k["umzug"]["text"])}</p>{qlinks(k["umzug"]["quellen"], Q, benutzt)}</div>')
     titel = f'{S["pflichten_h2"]} {k["im"]}'
     return (f'<section class="sec" id="pflichten"><div class="sec-head">'
@@ -1742,22 +1749,84 @@ def suche():
             f'<noscript><p>{S["suche_noscript"]}</p></noscript>')
 
 
-# Suche auf den Seiten: gleichbedeutende Wörter je Sprache. Findet die Eingabe den Anfang eines Worts der
-# Gruppe (oder beginnt sie mit einem Wort der Gruppe), zählt jedes Wort der Gruppe als Treffer. Nur Wörter,
-# die auf den Seiten vorkommen: Fehlt eines im Verzeichnis, nennt build.py es und lässt es weg.
+# Suche auf den Seiten: gleichbedeutende Wörter je Sprache, normiert wie such_norm() (klein, ohne Akzente).
+# Tippt jemand ein Wort der Gruppe (auch mit anderer Endung, siehe nah() in assets/suche.js, oder mindestens fünf
+# Buchstaben seines Anfangs), sucht die Suche jedes Wort der Gruppe. Die Gruppe darf Wörter enthalten, die auf keiner
+# Seite stehen: Sie sind das, was Leute tippen («kampfhund», «hundeschule»), und führen zu den Wörtern der Seiten.
+# Ein Wort mit «=» löst die Gruppe nur aus und wird selbst nicht gesucht, weil es als Wortanfang zu viel
+# Fremdes träfe («=perso» träfe «persona»). Mindestens ein Wort jeder Gruppe muss auf den Seiten stehen,
+# sonst lässt build.py die Gruppe weg und nennt sie.
 SYNONYME = {
-    "de": [["hundesteuer", "hundetaxe", "hundeabgabe"],
-           ["leine", "leinenpflicht", "leinenzwang", "anleinen"],
-           ["maulkorb", "maulkorbpflicht", "maulkorbzwang"],
-           ["kot", "hundekot"],
-           ["rasseliste", "rassenliste", "rassetypenliste", "listenhund"]],
-    "fr": [["impot", "taxe"],
-           ["crottes", "dejections", "excrements"],
-           ["races", "liste"]],
-    "it": [["imposta", "tassa"],
-           ["razze", "elenco"]],
+    "de": [["hundesteuer", "hundetaxe", "hundeabgabe", "hundegebuhr", "steuer", "taxe", "hundemarke", "kontrollmarke",
+            "=kostet", "=kosten", "=preis", "=teuer"],
+           ["leine", "leinenpflicht", "leinenzwang", "leinengebot", "anleinen", "angeleint", "anleinpflicht"],
+           ["maulkorb", "maulkorbpflicht", "maulkorbzwang", "beisskorb"],
+           ["kot", "hundekot", "hundehaufen", "haufchen", "kotbeutel", "kotsack", "robidog"],
+           ["rasse", "rasseliste", "rassenliste", "rassetypenliste", "listenhund", "kampfhund", "hunderasse", "rasseverbot"],
+           ["pitbull", "pit"],
+           ["haftpflicht", "haftpflichtversicherung", "hundehaftpflicht", "versicherung", "versichern",
+            "hundeversicherung"],
+           ["kurs", "hundekurs", "kurspflicht", "sachkundenachweis", "skn", "hundeschule", "welpenkurs",
+            "erziehungskurs", "hundehalterkurs", "brevet"],
+           ["anmeldung", "anmelden", "registrieren", "registrierung", "amicus", "mikrochip", "chip", "chippen",
+            "abmelden", "ummelden"],
+           ["vermisst", "entlaufen", "weggelaufen", "verloren", "zugelaufen", "fundtier", "findeltier", "fundhund",
+            "tiermeldezentrale", "stmz"],
+           ["brutzeit", "setzzeit", "schonzeit", "wald"],
+           ["freilauf", "freilaufzone", "hundezone", "hundewiese", "hundepark", "hundeauslauf", "auslauf",
+            "hundefreilauf", "freilaufflache"],
+           ["busse", "ordnungsbusse", "strafe", "bussgeld"],
+           ["umzug", "umziehen", "zuzug", "zuziehen", "wegzug", "zugezogen"]],
+    "fr": [["impot", "taxe", "medaille", "marque", "vignette", "=coute", "=cout", "=prix", "=combien"],
+           ["laisse", "attache", "attacher"],
+           ["museliere", "museler", "muselee"],
+           ["crotte", "dejections", "excrements", "caca", "ramasser", "sachet", "souillures"],
+           ["race", "liste", "dangereux", "dangereuse", "molosse", "combat", "pitbull"],
+           ["assurance", "rc", "responsabilite"],
+           ["cours", "formation", "education", "attestation", "educateur", "=ecole"],
+           ["annoncer", "annonce", "inscription", "inscrire", "enregistrer", "enregistrement", "amicus", "puce",
+            "identification", "declarer", "declaration"],
+           ["perdu", "disparu", "egare", "errant", "fugue", "=trouve", "=retrouve"],
+           ["foret", "lisiere", "bois"],
+           ["amende", "contravention", "sanction", "penalite"],
+           ["liberte", "ebats"],
+           ["demenagement", "demenager", "arrivee", "emmenager"]],
+    "it": [["imposta", "imposte", "tassa", "tasse", "contrassegno", "medaglietta", "=costa", "=costo", "=prezzo",
+            "=quanto"],
+           ["guinzaglio", "legato", "legare"],
+           ["escrementi", "deiezioni", "feci", "bisogni", "cacca", "raccogliere", "sacchetto", "sacchetti"],
+           ["razze", "razza", "elenco", "lista", "pericolosi", "pericoloso", "pitbull", "combattimento"],
+           ["assicurazione", "assicurazioni", "rc", "responsabilita"],
+           ["corso", "corsi", "formazione", "educazione", "attestato", "=scuola"],
+           ["notifica", "notificare", "registrazione", "registrare", "annunciare", "annuncio", "iscrizione",
+            "amicus", "microchip", "chip"],
+           ["smarrito", "scomparso", "fuggito", "scappato", "=perso", "=trovato", "=ritrovato"],
+           ["bosco", "boschi", "foresta"],
+           ["multa", "multe", "contravvenzione", "sanzione"],
+           ["svago", "sgambamento", "sgambatura", "liberta"],
+           ["trasloco", "traslocare", "trasferimento", "arrivo"]],
 }
-SUCH_TEXT = 450  # Zeichen Text je Abschnitt im Verzeichnis der Suche
+# Wörter, die in einer Frage nichts eingrenzen: das Wort für Hund (jede Seite handelt von Hunden) und
+# Funktionswörter. Die Suche auf den Seiten lässt sie weg, solange ein anderes Wort übrig bleibt: Aus «Wo darf
+# mein Hund frei laufen» wird «frei laufen», aus «cani smarriti» wird «smarriti». Normiert wie such_norm().
+# Keine Kürzel von Kantonen und keine Namen von Orten: Die Ortssuche bekommt immer die ganze Eingabe.
+STOPPWOERTER = {
+    "de": ["hund", "hunde", "hunden", "hundes", "der", "die", "das", "den", "dem", "des", "ein", "eine", "einen",
+           "einem", "einer", "mein", "meine", "meinen", "meinem", "und", "oder", "in", "im", "an", "am", "auf", "mit",
+           "fur", "bei", "von", "vom", "zu", "zum", "zur", "ist", "sind", "wo", "wie", "was", "wann", "darf", "muss",
+           "kann", "ich", "man", "es", "gibt", "gilt", "gelten"],
+    "fr": ["chien", "chiens", "mon", "ma", "mes", "le", "la", "les", "un", "une", "des", "du", "de", "d", "l", "en",
+           "au", "aux", "a", "et", "ou", "pour", "dans", "sur", "avec", "est", "que", "quoi", "comment", "je", "on",
+           "peut", "puis", "quel", "quelle", "quelles", "quels", "faut", "il"],
+    "it": ["cane", "cani", "il", "lo", "la", "i", "gli", "le", "un", "uno", "una", "di", "del", "della", "dei",
+           "delle", "a", "al", "alla", "da", "in", "nel", "nella", "con", "su", "per", "e", "o", "mio", "mia", "che",
+           "come", "dove", "posso", "si", "puo", "devo", "quando"],
+}
+# Zeichen Text je Abschnitt im Verzeichnis der Suche. Der längste Abschnitt hat rund 2300 Zeichen: Die Grenze
+# schneidet heute nichts ab, damit die Suche jedes Wort der Seite findet und auf den Themenseiten richtig zählt,
+# bei wie vielen Kantonen es steht. Bis 28. November 2026 waren es 450 Zeichen, «Rottweiler» stand so bei 3 statt
+# bei 12 Kantonen.
+SUCH_TEXT = 4000
 SUCH_ARTEN = ("kanton", "gemeinde", "thema", "bund", "ueber")
 
 
@@ -1775,13 +1844,14 @@ class SuchLeser(html.parser.HTMLParser):
     oder auf andere Seiten zeigen."""
     LEER = {"br", "img", "input", "meta", "link", "hr", "source", "wbr"}
     WEG_TAGS = {"script", "style", "nav", "noscript", "svg", "button", "template"}
-    WEG_KLASSEN = {"src", "bar", "today-head", "kt-kopf", "blick", "plates", "facts", "transl", "months", "index", "schritte"}
-    KOPF_KLASSEN = {"kt-name", "big", "zone-name"}
+    WEG_KLASSEN = {"src", "bar", "today-head", "kt-kopf", "blick", "plates", "facts", "transl", "months", "index", "schritte",
+                   "text-link"}
+    KOPF_KLASSEN = {"kt-name", "big", "zone-name", "callout-k"}
     TRENN_KLASSEN = {"card-v", "kt-wert", "kt-kurz", "chip"}  # nach diesen Elementen steht im Text ein Mittelpunkt
 
     def __init__(self):
         super().__init__(convert_charrefs=True)
-        self.stapel, self.weg, self.kopf = [], 0, None
+        self.stapel, self.weg, self.kopf, self.zonen = [], 0, None, False
         self.bloecke = []  # [Überschrift, id, Text]
 
     def handle_starttag(self, tag, attrs):
@@ -1792,10 +1862,13 @@ class SuchLeser(html.parser.HTMLParser):
         weg = tag in self.WEG_TAGS or bool(klassen & self.WEG_KLASSEN) or "data-blick" in a
         kopf = self.weg == 0 and (tag in ("h1", "h2", "h3") or bool(klassen & self.KOPF_KLASSEN))
         self.stapel.append((tag, a.get("id"), weg, bool(klassen & self.TRENN_KLASSEN)))
+        self.zonen = self.zonen or a.get("id") == "freilauf"
         if weg:
             self.weg += 1
         elif kopf and self.kopf is None:
             ziel = next((i for _, i, _, _ in reversed(self.stapel) if i and i != "inhalt"), "")
+            if not ziel and self.zonen and "zone-name" in klassen:
+                ziel = "freilauf"  # eine Freilaufzone hat keinen eigenen Anker: zur Überschrift der Zonen
             self.bloecke.append(["", ziel, ""])
             self.kopf = len(self.stapel)
         self.handle_data(" ")
@@ -1836,7 +1909,7 @@ def such_eintrag(pfad, art, seite_html):
     zusammen = lambda t: re.sub(r"\s+", " ", t).strip()
     bloecke = []
     for h, i, t in leser.bloecke:
-        h, t = zusammen(h), zusammen(t)
+        h, t = zusammen(h).rstrip(" :"), zusammen(t)
         if len(t) > SUCH_TEXT:
             t = t[:SUCH_TEXT].rsplit(" ", 1)[0] + " …"
         if h or t:
@@ -1846,8 +1919,9 @@ def such_eintrag(pfad, art, seite_html):
 
 
 def such_verzeichnis(lang, eintraege):
-    """Inhalt von assets/suche-<sprache>.json: Seiten und gleichbedeutende Wörter. Wörter der Liste, die auf
-    keiner Seite dieser Sprache vorkommen, fallen weg und werden genannt."""
+    """Inhalt von assets/suche-<sprache>.json: Seiten und gleichbedeutende Wörter. Eine Gruppe bleibt ganz,
+    auch mit Wörtern, die auf keiner Seite stehen: Sie führen von dem, was Leute tippen, zu den Wörtern der
+    Seiten. Steht kein Wort der Gruppe auf einer Seite dieser Sprache, fällt sie weg und wird genannt."""
     woerter = set()
     for _, titel, _, bloecke in eintraege:
         woerter.update(such_norm(titel).split())
@@ -1855,13 +1929,11 @@ def such_verzeichnis(lang, eintraege):
             woerter.update(such_norm(h + " " + t).split())
     gruppen = []
     for gruppe in SYNONYME[lang]:
-        da = [w for w in gruppe if any(x.startswith(w) for x in woerter)]
-        for w in gruppe:
-            if w not in da:
-                print(f"Hinweis: Suche {lang}: «{w}» kommt auf keiner Seite vor und fällt aus der Liste der gleichbedeutenden Wörter.")
-        if len(da) > 1:
-            gruppen.append(da)
-    return json.dumps({"s": eintraege, "syn": gruppen}, ensure_ascii=False, separators=(",", ":"))
+        if any(x.startswith(w) for w in gruppe if not w.startswith("=") for x in woerter):
+            gruppen.append(gruppe)
+        else:
+            print(f"Hinweis: Suche {lang}: Kein Wort der Gruppe «{', '.join(gruppe)}» steht auf einer Seite, sie fällt weg.")
+    return json.dumps({"s": eintraege, "syn": gruppen, "stop": STOPPWOERTER[lang]}, ensure_ascii=False, separators=(",", ":"))
 
 
 def kantonsraster():

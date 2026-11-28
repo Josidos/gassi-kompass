@@ -103,21 +103,27 @@
     return { href: (T("schweiz") || "/schweiz/") + "#kt=" + k[0] + "&ort=" + ort, art: "bund" };
   }
 
-  function orte(q) {
+  /* genau: nur Orte, die genau so heissen (oder genau diese Postleitzahl haben). ortKt nennt danach die
+     Kantone der gefundenen Orte und ortSeiten ihre eigenen Seiten, für die Suche «Thema Ort». */
+  var ortKt = [], ortSeiten = [];
+  function orte(q, genau) {
+    ortKt = [];
+    ortSeiten = [];
     if (!q) return 0;
     if (!daten) { lade(); return -1; }
     var zahl = /^[0-9]/.test(q), roh = [];
     daten.e.forEach(function (x) {
       var r = -1;
-      if (zahl) { if (x.plz && x.plz.indexOf(q) === 0) r = 0; }
+      if (zahl) { if (x.plz && (genau ? x.plz === q : x.plz.indexOf(q) === 0)) r = 0; }
       else if (x.s === q || x.kz === q) r = 0;
+      else if (genau) r = -1;
       else if (x.s.indexOf(q) === 0) r = 1;
       else if (x.s.indexOf(" " + q) !== -1) r = 2;
       else if (q.length >= 4 && x.s.indexOf(q) !== -1) r = 3;
       if (r >= 0) roh.push({ x: x, r: r });
     });
     if (!zahl && q.length >= 3) daten.andere.forEach(function (a) {
-      if (a.s.indexOf(q) === 0) roh.push({ x: a.x, r: a.s === q ? 0 : 1 });
+      if (genau ? a.s === q : a.s.indexOf(q) === 0) roh.push({ x: a.x, r: a.s === q ? 0 : 1 });
     });
     /* Gleicher Ort mit gleichem Ziel erscheint nur einmal, auch wenn er mehrere Postleitzahlen hat
        oder in mehrere Gemeinden hineinreicht. */
@@ -137,6 +143,8 @@
     });
     treffer.slice(0, MAX).forEach(function (t) {
       var x = t.x, a = document.createElement("a"), name = document.createElement("span"), unter = document.createElement("span");
+      if (ortKt.indexOf(x.k) < 0) ortKt.push(x.k);
+      if (t.z.art === "lokal" && t.z.l === LANG) ortSeiten.push(t.z.href);
       a.className = "dest " + (t.z.art === "bund" ? "wait" : "ok");
       a.href = t.z.href;
       name.className = "dest-name";
@@ -162,6 +170,7 @@
      auf dieselbe Stelle im Original, für Ausschnitt und Hervorhebung. */
   var sbox = document.getElementById("seitentreffer"), sliste = sbox && sbox.querySelector(".topics");
   var seiten = null, syn = [], sLaedt = false, sFehler = false;
+  var wortDa = {}, stopp = {}, themaZuerst = false;  /* wortDa: jedes Wort, das auf einer Seite steht */
   var ARTRANG = { thema: 0, bund: 1, kanton: 2, gemeinde: 3, ueber: 4 };
   function snorm(s) {
     var out = "";
@@ -171,13 +180,28 @@
     }
     return out;
   }
-  /* Ein Wort der Eingabe und seine gleichbedeutenden Wörter aus der Liste in build.py. */
+  /* Dasselbe Wort mit anderer Endung: gleicher Anfang (mindestens vier Buchstaben, bei kürzeren Wörtern das ganze
+     Wort), danach zusammen höchstens zwei Buchstaben. «listenhunde» und «listenhund», «pericolose» und
+     «pericolosi», aber nicht «chippis» und «chip» oder «chippen». */
+  function nah(w, m) {
+    if (w === m) return true;
+    var p = 0;
+    while (p < w.length && p < m.length && w.charAt(p) === m.charAt(p)) p++;
+    return p >= Math.min(4, m.length) && w.length + m.length - 2 * p <= 2;
+  }
+  /* Ein Wort der Eingabe und die gleichbedeutenden Wörter aus der Liste in build.py. Eine Gruppe zählt, wenn das
+     Wort eines ihrer Wörter ist (auch mit anderer Endung) oder mit mindestens fünf Buchstaben der Anfang eines
+     ihrer Wörter, sofern das nur auf eine Gruppe zutrifft: «hunde» ist der Anfang von «hundesteuer», «hundekot»
+     und «hundekurs» und zählt darum für keine. g.a: alle Wörter der Gruppe, g.f: die Wörter, die gesucht werden
+     (ohne die mit «=»). */
   function formen(w) {
-    var f = [w];
+    var f = [w], fest = [], anfang = [];
     syn.forEach(function (g) {
-      var passt = g.some(function (m) { return w.indexOf(m) === 0 || (w.length >= 5 && m.indexOf(w) === 0); });
-      if (passt) g.forEach(function (m) { if (f.indexOf(m) < 0) f.push(m); });
+      if (g.a.some(function (m) { return nah(w, m); })) fest.push(g);
+      else if (w.length >= 5 && g.a.some(function (m) { return m.indexOf(w) === 0; })) anfang.push(g);
     });
+    if (anfang.length === 1) fest.push(anfang[0]);
+    fest.forEach(function (g) { g.f.forEach(function (m) { if (f.indexOf(m) < 0) f.push(m); }); });
     return f;
   }
   /* Erste Stelle, an der ein Wort mit einer der Formen beginnt. hay beginnt mit einem Leerzeichen. */
@@ -209,48 +233,89 @@
     });
     if (pos < text.length) el.appendChild(document.createTextNode(text.slice(pos)));
   }
+  /* Ausschnitt um die Fundstelle. Liegt sie in den ersten 90 Zeichen, beginnt er am Anfang des Abschnitts: Dort
+     steht bei einer Karte die Antwort («Pflicht · mind. CHF 3 Mio.»). */
   function ausschnitt(text, i) {
-    var start = i > 40 ? i - 40 : 0;
+    var start = i > 90 ? i - 40 : 0;
     if (start > 0) { var sp = text.indexOf(" ", start); start = sp >= 0 && sp < i ? sp + 1 : i; }
+    while (start > 0 && start < i && /[·\s]/.test(text.charAt(start))) start++;
     var ende = start + 130;
     if (ende < text.length) { var sp2 = text.lastIndexOf(" ", ende); if (sp2 > start) ende = sp2; } else ende = text.length;
     return (start > 0 ? "… " : "") + text.slice(start, ende) + (ende < text.length ? " …" : "");
   }
-  function seitenSuche(roh) {
+  /* Kantons-, Gemeinde- und Bundesseite: Jedes Wort muss irgendwo auf der Seite stehen. Stehen alle im Titel,
+     führt der Treffer an den Anfang der Seite. Sonst auf den Abschnitt mit den meisten übrigen Wörtern, bei
+     Gleichstand auf den mit mehr Wörtern in der Überschrift. */
+  function seiteTreffer(s, f) {
+    var summe = 0, rest = [];
+    for (var j = 0; j < f.length; j++) {
+      if (stelle(s.tn, f[j]) >= 0) continue;
+      rest.push(f[j]);
+      if (s.b.some(function (b) { return stelle(b.hn, f[j]) >= 0; })) summe += 1;
+      else if (s.b.some(function (b) { return stelle(b.xn, f[j]) >= 0; })) summe += 2;
+      else return null;
+    }
+    var wahl = s.b[0], wz = 0, wk = 0, mit = 0;
+    if (rest.length) s.b.forEach(function (b, bi) {
+      if (!bi) return;
+      var z = 0, k = 0;
+      rest.forEach(function (x) {
+        var imKopf = stelle(b.hn, x) >= 0;
+        if (imKopf) k++;
+        if (imKopf || stelle(b.xn, x) >= 0) z++;
+      });
+      if (z) mit++;
+      if (z > wz || (z === wz && k > wk)) { wahl = b; wz = z; wk = k; }
+    });
+    return { s: s, r: summe, b: wahl, mit: mit };
+  }
+  /* Themenseite: Jede Zeile gilt für einen Kanton. Wörter, die nicht im Titel stehen, müssen darum in derselben
+     Zeile stehen. Nennt die Eingabe den Kanton, führt der Treffer zu dessen Zeile. Steht das Wort bei mehreren
+     Kantonen, führt er an den Anfang der Seite, nennt die Zahl der Kantone und zeigt eine Zeile als Beispiel.
+     ids: nur die Zeilen dieser Kantone (Suche «Thema Ort»). */
+  function themaTreffer(s, f, ids) {
+    var rest = f.filter(function (x) { return stelle(s.tn, x) < 0; });
+    if (!rest.length && !ids) return { s: s, r: 0, b: s.b[0], mit: 0 };
+    var passend = [], best = null, bk = -1, br = 0;
+    s.b.forEach(function (b, bi) {
+      if (!bi || (ids && ids.indexOf(b.id) < 0)) return;
+      var k = 0, r = 0;
+      for (var j = 0; j < rest.length; j++) {
+        if (stelle(b.hn, rest[j]) >= 0) { k++; r += 1; }
+        else if (stelle(b.xn, rest[j]) >= 0) r += 2;
+        else return;
+      }
+      passend.push(b);
+      if (k > bk) { best = b; bk = k; br = r; }
+    });
+    if (!passend.length) {
+      var b0 = s.b[0];
+      if (ids || !rest.every(function (x) { return stelle(b0.xn, x) >= 0; })) return null;
+      return { s: s, r: 2 * rest.length, b: b0, mit: 0 };
+    }
+    var kantone = passend.filter(function (b) { return b.id.indexOf("kt-") === 0; });
+    if (ids || bk > 0 || passend.length === 1 || kantone.length < 2) return { s: s, r: br, b: best, mit: passend.length };
+    return { s: s, r: br, b: kantone[0], mit: kantone.length, oben: kantone.length };
+  }
+  /* nur: {seiten: [Adresse, ...], ids: ["kt-be", ...]} beschränkt die Suche auf diese Seiten (Kantonsseite und
+     eigene Seite des Orts) und auf die Zeilen dieser Kantone auf den Themenseiten. */
+  function seitenSuche(roh, nur) {
     sliste.textContent = "";
     sbox.hidden = true;
-    var woerter = [];
-    snorm(roh).split(" ").forEach(function (w) { if (w && woerter.indexOf(w) < 0 && woerter.length < 6) woerter.push(w); });
+    /* Wörter, die nichts eingrenzen («mein», «Hund», «in»), fallen weg, solange ein anderes übrig bleibt. */
+    var alleW = [];
+    snorm(roh.replace(/ß/g, "ss")).split(" ").forEach(function (w) { if (w && alleW.indexOf(w) < 0) alleW.push(w); });
+    var woerter = alleW.filter(function (w) { return !stopp[w]; });
+    if (!woerter.length) woerter = alleW;
+    woerter = woerter.slice(0, 6);
     if (!woerter.length) return 0;
     if (!seiten) { ladeSeiten(); return -1; }
     var f = woerter.map(formen), alle = [].concat.apply([], f), treffer = [];
     seiten.forEach(function (s) {
-      var summe = 0, rest = [];
-      for (var j = 0; j < f.length; j++) {
-        var ort = stelle(s.tn, f[j]) >= 0 ? 0 : -1;
-        if (ort < 0) rest.push(f[j]);
-        if (ort < 0 && s.b.some(function (b) { return stelle(b.hn, f[j]) >= 0; })) ort = 1;
-        if (ort < 0 && s.b.some(function (b) { return stelle(b.xn, f[j]) >= 0; })) ort = 2;
-        if (ort < 0) return;
-        summe += ort;
-      }
-      /* Der Abschnitt mit den meisten Wörtern der Eingabe, bei Gleichstand der mit mehr Wörtern in der Überschrift.
-         Wörter, die schon im Titel stehen, zählen dabei nicht. Der erste Abschnitt (Titel und Einleitung) nur,
-         wenn kein anderer passt. */
-      var fb = rest.length ? rest : f;
-      var wahl = s.b[0], wz = 0, wk = 0, mit = 0;
-      s.b.forEach(function (b, bi) {
-        if (!bi) return;
-        var z = 0, k = 0;
-        fb.forEach(function (x) {
-          var imKopf = stelle(b.hn, x) >= 0;
-          if (imKopf) k++;
-          if (imKopf || stelle(b.xn, x) >= 0) z++;
-        });
-        if (z) mit++;
-        if (z > wz || (z === wz && k > wk)) { wahl = b; wz = z; wk = k; }
-      });
-      treffer.push({ s: s, r: summe, b: wahl, mit: mit });
+      var t = null;
+      if (s.a === "thema") t = themaTreffer(s, f, nur && nur.ids);
+      else if (!nur || nur.seiten.indexOf(s.u) >= 0) t = seiteTreffer(s, f);
+      if (t) treffer.push(t);
     });
     treffer.sort(function (a, b) {
       return a.r - b.r || b.mit - a.mit || ARTRANG[a.s.a] - ARTRANG[b.s.a] || a.s.t.length - b.s.t.length;
@@ -259,20 +324,21 @@
       var a = document.createElement("a"), name = document.createElement("span"), text = document.createElement("span");
       a.className = "topic";
       a.setAttribute("role", "listitem");
-      a.href = t.s.u + (t.b && t.b.id ? "#" + t.b.id : "");
+      a.href = t.s.u + (!t.oben && t.b.id ? "#" + t.b.id : "");
       name.className = "topic-name";
       markiert(name, t.s.t, alle);
       a.appendChild(name);
-      if (t.b && t.b.h && t.b !== t.s.b[0]) {
+      if (t.oben || (t.b.h && t.b !== t.s.b[0])) {
         var ab = document.createElement("span");
         ab.className = "such-ab";
-        markiert(ab, t.b.h, alle);
+        if (t.oben) ab.textContent = T("s_kantone").replace("{n}", t.oben);
+        else markiert(ab, t.b.h, alle);
         a.appendChild(ab);
       }
-      if (t.b && t.b.x) {
+      if (t.b.x) {
         text.className = "topic-text";
         var i = stelle(t.b.xn, alle);
-        markiert(text, ausschnitt(t.b.x, i < 0 ? 0 : i), alle);
+        markiert(text, (t.oben ? t.b.h + ": " : "") + ausschnitt(t.b.x, i < 0 ? 0 : i), alle);
         a.appendChild(text);
       }
       sliste.appendChild(a);
@@ -280,17 +346,55 @@
     sbox.hidden = !treffer.length;
     return treffer.length;
   }
+  /* «Thema Ort», zum Beispiel «Haftpflicht Lyss» oder «Hundesteuer Ipsach»: Die Suche sucht in der Eingabe einen
+     Ort (genauer Name, Postleitzahl oder Kürzel eines Kantons, die längste Wortfolge zuerst) und die übrigen
+     Wörter dort: auf der Seite des Orts, auf der Kantonsseite und in der Zeile des Kantons auf den Themenseiten.
+     streng: nur Orte, deren Name auf den Seiten nicht als Wort vorkommt («Ipsach», aber nicht «Wald»). So bleibt
+     «Leine Wald» eine Suche nach zwei Stichworten. Ohne streng läuft sie erst, wenn die ganze Eingabe nichts
+     findet. Liefert [Orte, Seiten] oder null. Findet sich nur der Ort, bleibt er stehen: [Orte, 0]. */
+  function ortUndThema(q, streng) {
+    var w = q.split(" "), erster = null;
+    if (w.length < 2 || w.length > 6 || !daten || !seiten) return null;
+    for (var len = w.length - 1; len >= 1; len--) {
+      for (var ab = 0; ab + len <= w.length; ab++) {
+        var teil = w.slice(ab, ab + len);
+        if (streng && teil.every(function (x) { return wortDa[x]; })) continue;
+        liste.textContent = "";
+        var n = orte(teil.join(" "), true);
+        if (n < 1) continue;
+        if (!erster) erster = teil.join(" ");
+        var nur = { seiten: ortSeiten.slice(), ids: [] };
+        ortKt.forEach(function (i) {
+          var k = daten.d.k[i], z = waehle(k[1]);
+          if (z && z.l === LANG) nur.seiten.push(z.href);
+          nur.ids.push("kt-" + k[0]);
+        });
+        var m = seitenSuche(w.slice(0, ab).concat(w.slice(ab + len)).join(" "), nur);
+        if (m > 0) return [n, m];
+      }
+    }
+    liste.textContent = "";
+    return erster && !streng ? [orte(erster, true), 0] : null;
+  }
 
   function suche() {
     var q = norm(feld.value);
     liste.textContent = "";
     if (sliste) { sliste.textContent = ""; sbox.hidden = true; }
     if (!q) { status.textContent = ""; return; }
-    var n = orte(q), m = sliste ? seitenSuche(feld.value) : 0, teile = [];
+    var n = orte(q), m = 0, teile = [];
+    var zwei = n === 0 && sliste ? ortUndThema(q, true) : null;
+    if (!zwei && sliste) {
+      m = seitenSuche(feld.value);
+      if (n === 0 && m === 0) zwei = ortUndThema(q, false);
+    }
+    themaZuerst = !!zwei && zwei[1] > 0;
+    if (zwei) { n = zwei[0]; m = zwei[1]; }
     if (n < 0) teile.push(T(ortFehler ? "fehler" : "lade"));
     else if (n > 0) teile.push((n > MAX ? T("viele") : T("treffer")).replace("{n}", n).replace("{max}", MAX));
     if (m < 0) teile.push(T(sFehler ? "s_fehler" : "s_lade"));
     else if (m > 0) teile.push((m > MAX ? T("s_viele") : m === 1 ? T("s_eins") : T("s_treffer")).replace("{n}", m).replace("{max}", MAX));
+    if (zwei && m === 0) teile.push(T("s_ohne"));
     if (n === 0 && m === 0) teile.push(T("nichts"));
     status.textContent = teile.map(function (t) { return /[.!?…]$/.test(t) ? t : t + "."; }).join(" ");
   }
@@ -302,10 +406,16 @@
       if (!r.ok) throw new Error(r.status);
       return r.json();
     }).then(function (d) {
-      syn = d.syn || [];
+      (d.stop || []).forEach(function (w) { stopp[w] = 1; });
+      syn = (d.syn || []).map(function (g) {
+        return { a: g.map(function (m) { return m.replace(/^=/, ""); }),
+          f: g.filter(function (m) { return m.charAt(0) !== "="; }) };
+      });
       seiten = d.s.map(function (s) {
         return { u: s[0], t: s[1], a: s[2], tn: " " + snorm(s[1]), b: s[3].map(function (b) {
-          return { h: b[0], id: b[1], x: b[2], hn: " " + snorm(b[0]), xn: " " + snorm(b[2]) };
+          var e = { h: b[0], id: b[1], x: b[2], hn: " " + snorm(b[0]), xn: " " + snorm(b[2]) };
+          (e.hn + e.xn).split(" ").forEach(function (w) { if (w) wortDa[w] = 1; });
+          return e;
         }) };
       });
       box.setAttribute("data-seiten", "bereit");
@@ -343,7 +453,9 @@
   feld.addEventListener("input", suche);
   feld.addEventListener("keydown", function (ev) {
     if (ev.key !== "Enter") return;
-    var erster = liste.querySelector("a") || (sliste && sliste.querySelector("a"));
+    /* Bei «Thema Ort» zuerst der Treffer zum Thema, sonst zuerst der Ort. */
+    var ort = liste.querySelector("a"), seite = sliste && sliste.querySelector("a");
+    var erster = themaZuerst ? seite || ort : ort || seite;
     if (erster) { ev.preventDefault(); location.href = erster.href; }
   });
   if (feld.value) suche();

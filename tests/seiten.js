@@ -399,6 +399,23 @@ function datei(url) {
     const lyss = await seitenSuche(start, 'Hundesteuer Lyss');
     if (!lyss.length || !lyss[0].href.startsWith('/be/lyss/')) fehler.push(`Suche: «Hundesteuer Lyss» nennt zuerst ${lyss[0] ? lyss[0].href : 'nichts'} statt /be/lyss/`);
   }
+  // «Thema Ort» bei einem Ort ohne eigene Seite: der Ort und das Thema in seinem Kanton, nichts aus anderen Kantonen
+  if (o2 && kantonSeite[o2[2]] === `/${o2[2]}/`) {
+    const frage = `Hundesteuer ${o2[1]}`, t = await seitenSuche(start, frage);
+    const ortsTreffer = await start.$$eval('#treffer a', xs => xs.map(x => x.getAttribute('href')));
+    if (!ortsTreffer.some(h => h.startsWith(`/${o2[2]}/#ort=`))) fehler.push(`Suche: «${frage}» nennt den Ort nicht`);
+    if (!t.some(x => x.href === `/${o2[2]}/#hundesteuer`)) fehler.push(`Suche: «${frage}» führt nicht auf /${o2[2]}/#hundesteuer`);
+    if (t.some(x => x.href.split('#')[0] !== `/${o2[2]}/` && !x.href.endsWith(`#kt-${o2[2]}`))) fehler.push(`Suche: «${frage}» nennt Seiten ausserhalb des Kantons`);
+    // Steht zum Thema nichts auf den Seiten, bleibt der Ort stehen, und die Statuszeile sagt es
+    if ((await seitenSuche(start, `qqqq ${o2[1]}`)).length || !(await start.$$('#treffer a')).length) fehler.push(`Suche: «qqqq ${o2[1]}» zeigt nicht nur den Ort`);
+  }
+  // Ein Wort, das auf keiner Seite steht, führt über die Liste der gleichbedeutenden Wörter zu den Seiten
+  if (!(await seitenSuche(start, 'Kampfhund')).some(x => x.href === '/thema/rassen/')) fehler.push('Suche: «Kampfhund» führt nicht auf /thema/rassen/');
+  // Steht ein Wort auf einer Themenseite bei mehreren Kantonen, führt der Treffer an den Anfang der Seite
+  if (maul.some(x => /^\/thema\/rassen\/#kt-/.test(x.href))) fehler.push('Suche: «Maulkorb» führt auf die Zeile eines Kantons statt auf /thema/rassen/');
+  // Wörter, die nichts eingrenzen, fallen weg: Die Themenseite steht trotz «mein Hund» zuoberst
+  const frei = await seitenSuche(start, 'mein Hund ist entlaufen');
+  if (!frei.length || frei[0].href !== '/thema/vermisst/') fehler.push(`Suche: «mein Hund ist entlaufen» nennt zuerst ${frei[0] ? frei[0].href : 'nichts'} statt /thema/vermisst/`);
   const winti = eigene.find(g => g.l === 'de' && g.id === 'winterthur') ? 'Winterthur' : (eigene[0] && name(eigene[0]));
   if (winti) {
     await seitenSuche(start, winti);
