@@ -20,7 +20,7 @@ Bleibt ein Kanton nach einem Lauf unvollständig (Entwurf unter `data/entwurf/`)
 
 ## Kette
 
-keine Kette
+Kette «Benutzerführung» (Entscheid von Joss vom 28.11.2026, 04:45 Uhr). Jedes Glied ist ein Sonderlauf: Es macht genau den obersten Punkt mit dem Vermerk «fällig» aus Abschnitt 5, nach «Umbauten am Generator» in `CLAUDE.md` und nach der Vorgabe, die der Punkt nennt, und veröffentlicht ihn. Programm: die sechs fälligen Punkte in ihrer Reihenfolge (Gemeindeseite, Übersicht und Sprungmarken, Themenseiten, Suche, Quellenverzeichnis, Themenfeld `gewerbe`). Höchstzahl: 6 Glieder. Schluss: 28.11.2026, 12:00 Uhr. Für diese Kette gilt die Ausnahme für Sonderläufe in `handbuch/kette-parallel.md`, Schritt 4. Gelingt ein Umbau nicht, nimmt das Glied alles zurück, hält den Grund im Protokoll fest, trägt hier «keine Kette» ein und löst nichts mehr aus: Den Rest macht der tägliche Lauf, einen Punkt pro Tag. Ist das Programm erledigt, steht hier wieder «keine Kette».
 
 ## 1. Deutschsprachige Kantone
 
