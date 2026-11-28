@@ -1,13 +1,13 @@
 # Graph Report - gassi-kompass  (2026-11-28)
 
 ## Corpus Check
-- 407 files · ~328,207 words
+- 407 files · ~328,438 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 6 file(s) not represented in the graph (top: (none) 5, .css 1)
 
 ## Summary
-- 1423 nodes · 3233 edges · 96 communities (91 shown, 5 thin omitted)
-- Extraction: 93% EXTRACTED · 7% INFERRED · 0% AMBIGUOUS · INFERRED: 215 edges (avg confidence: 0.95)
+- 1423 nodes · 3234 edges · 97 communities (92 shown, 5 thin omitted)
+- Extraction: 93% EXTRACTED · 7% INFERRED · 0% AMBIGUOUS · INFERRED: 216 edges (avg confidence: 0.95)
 - Token cost: 0 input · 0 output
 
 ## Community Hubs (Navigation)
@@ -21,20 +21,20 @@
 - seite() / seite_start()
 - Kanton Basel-Landschaft (BL) / Allschwil (Gemeinde, BL)
 - Kanton Luzern (LU) / Luzern (Gemeinde, LU)
-- Feld vermisst: Hund vermisst oder gefunden / Feld umzug: Zuzug in d...
 - Kanton Aargau (AG) / Aarau (Gemeinde, AG)
 - Kanton Neuenburg (NE) / Kanton Tessin (TI)
 - main() / lade()
+- Feld vermisst: Hund vermisst oder gefunden / Feld umzug: Zuzug in d...
 - build.py / seite_quellen()
 - Kanton Waadt (VD) / Yverdon-les-Bains (Gemeinde, VD)
 - graph.py / schicht_daten()
-- baue() / seite_gemeinde()
 - steps / indexnow.yml
 - Kanton Glarus (GL) / Server www.gr.ch
 - Kanton Bern (BE) / Server www.belex.sites.be.ch
 - Gemeindedateien (data/gemeinden/ und die Sprachordner) / Originalfa...
 - wandel.py / json
 - Kanton Genf (GE) / Server www.ge.ch
+- baue() / seite_gemeinde()
 - quellen.yml / Link-Prüfung
 - Kanton Basel-Stadt (BS) / Basel (Gemeinde, BS)
 - wandel.yml / steps
@@ -67,6 +67,7 @@
 - Kanton Appenzell Ausserrhoden (AR) / Server ar.lexwork.naz.ch
 - Postfach und Antworten der Ämter (seit 26. November 2026) / Was nur...
 - Ausbauliste: Später / spaeter.md
+- Handbuch: Generator und Seitenarten / wald_karte()
 - Genf (Gemeinde, GE) / Freilaufzonen einer Gemeinde (freilaufzonen)
 - Ostermundigen (Gemeinde, BE) / Server www.ostermundigen.ch
 - Thun (Gemeinde, BE) / Server www.thun.ch
@@ -134,7 +135,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (96 total, 5 thin omitted)
+## Communities (97 total, 5 thin omitted)
 
 ### Community 0 - "Components / karte.js"
 Cohesion: 0.06
@@ -176,21 +177,21 @@ Nodes (33): Allschwil (Gemeinde, BL), Liestal (Gemeinde, BL), Muttenz (Gemeinde,
 Cohesion: 0.09
 Nodes (32): Emmen (Gemeinde, LU), Horw (Gemeinde, LU), Luzern (Gemeinde, LU), Kanton Luzern (LU), Gemeinde Emmen: Hunde An- und Abmeldung [lu_emmen_anmeldung], Gemeinde Emmen: Friedhofreglement [lu_emmen_friedhof], Gemeinde Emmen: Sondersteuern [lu_emmen_steuer], Gemeinde Horw: Benutzungsverordnung [lu_horw_benutzung] (+24 more)
 
-### Community 10 - "Feld vermisst: Hund vermisst oder gefunden / Feld umzug: Zuzug in d..."
-Cohesion: 0.10
-Nodes (22): 5. Umbauten am Generator, abschnitt_neuer_hund(), abschnitt_vermisst(), daten_wald(), it(), hinweis_durchsicht(), regeln(), seite_kanton() (+14 more)
-
-### Community 11 - "Kanton Aargau (AG) / Aarau (Gemeinde, AG)"
+### Community 10 - "Kanton Aargau (AG) / Aarau (Gemeinde, AG)"
 Cohesion: 0.11
 Nodes (29): Aarau (Gemeinde, AG), Baden (Gemeinde, AG), Wettingen (Gemeinde, AG), Kanton Aargau (AG), Stadt Aarau: Anmeldung Hundehaltung [ag_aarau_anmeldung], Badeverordnung Aarau [ag_aarau_badev], Bau- und Nutzungsordnung Aarau [ag_aarau_bno], Stadt Aarau: Merkblatt für neue Hundehaltende [ag_aarau_merkblatt] (+21 more)
 
-### Community 12 - "Kanton Neuenburg (NE) / Kanton Tessin (TI)"
+### Community 11 - "Kanton Neuenburg (NE) / Kanton Tessin (TI)"
 Cohesion: 0.10
 Nodes (29): La Chaux-de-Fonds (Gemeinde, NE), Lugano (Gemeinde, TI), Kanton Neuenburg (NE), Kanton Tessin (TI), Kurspflicht (Karte Kurs, ton must), SCAV Neuchâtel: animaux de compagnie [ne_animaux], La Chaux-de-Fonds: règlement de police [ne_cdf_police], La Chaux-de-Fonds: taxes et émoluments [ne_cdf_taxes] (+21 more)
 
-### Community 13 - "main() / lade()"
+### Community 12 - "main() / lade()"
 Cohesion: 0.10
 Nodes (18): Reihenfolge, fehlende(), lade(), lade_geo(), lies(), main(), sammle(), pruefsumme() (+10 more)
+
+### Community 13 - "Feld vermisst: Hund vermisst oder gefunden / Feld umzug: Zuzug in d..."
+Cohesion: 0.12
+Nodes (19): 5. Umbauten am Generator, abschnitt_vermisst(), daten_wald(), it(), hinweis_durchsicht(), regeln(), seite_kanton(), sprungleiste() (+11 more)
 
 ### Community 14 - "build.py / seite_quellen()"
 Cohesion: 0.11
@@ -204,33 +205,33 @@ Nodes (24): Lausanne (Gemeinde, VD), Yverdon-les-Bains (Gemeinde, VD), Kanton Wa
 Cohesion: 0.13
 Nodes (11): kennung(), main(), namen_der_gruppen(), quellen_in(), geh(), Schicht, schicht_code(), schicht_daten() (+3 more)
 
-### Community 17 - "baue() / seite_gemeinde()"
-Cohesion: 0.15
-Nodes (17): baue(), g_pfad(), g_sprachen(), hinweis_uebersetzung(), k_pfad(), karte_pfad(), ortsindex(), hauptgemeinde() (+9 more)
-
-### Community 18 - "steps / indexnow.yml"
+### Community 17 - "steps / indexnow.yml"
 Cohesion: 0.09
 Nodes (22): ANLASS, VORHER, jobs, melden, runs-on, steps, timeout-minutes, name (+14 more)
 
-### Community 19 - "Kanton Glarus (GL) / Server www.gr.ch"
+### Community 18 - "Kanton Glarus (GL) / Server www.gr.ch"
 Cohesion: 0.13
 Nodes (22): Glarus (Gemeinde, GL), Kanton Glarus (GL), Tierschutz- und Tierseuchengesetz GL [gl_egtsch], EG ZGB GL [gl_egzgb], Gemeinde Glarus: Hundewesen [gl_glarus_hunde], Kanton GL: Schutzgebiet Hüttenböschen [gl_huettenboeschen], Fachstelle Hundewesen GR/GL [gl_hundewesen], Kanton GL: Leinenpflicht Jagdbanngebiete [gl_jagdbann] (+14 more)
 
-### Community 20 - "Kanton Bern (BE) / Server www.belex.sites.be.ch"
+### Community 19 - "Kanton Bern (BE) / Server www.belex.sites.be.ch"
 Cohesion: 0.11
 Nodes (22): Kanton Bern (BE), Veterinärwesen BE [be_avet], Affaires vétérinaires BE [be_avet_fr], Affaires vétérinaires BE: acheter et détenir un chien [be_chien_fr], Hundegesetz BE [be_hug], Veterinärwesen BE: Hund kaufen und halten [be_hund_halten], Kantonspolizei BE: Gefunden, verloren, vermisst [be_kapo_fund], Ordnungsbussenverordnung BE [be_kobv] (+14 more)
 
-### Community 21 - "Gemeindedateien (data/gemeinden/ und die Sprachordner) / Originalfa..."
+### Community 20 - "Gemeindedateien (data/gemeinden/ und die Sprachordner) / Originalfa..."
 Cohesion: 0.15
 Nodes (21): Gemeindedateien (data/gemeinden/ und die Sprachordner), Bulle (Gemeinde, FR), Lancy (Gemeinde, GE), Porrentruy (Gemeinde, JU), Nyon (Gemeinde, VD), Martigny (Gemeinde, VS), Monthey (Gemeinde, VS), Ville de Bulle: règlement sur les chiens [fr_bulle_chiens] (+13 more)
 
-### Community 22 - "wandel.py / json"
+### Community 21 - "wandel.py / json"
 Cohesion: 0.18
 Nodes (11): abrufen(), faellig(), lies_stand(), main(), nachfuehren(), originalfassungen(), sammle(), quellen() (+3 more)
 
-### Community 23 - "Kanton Genf (GE) / Server www.ge.ch"
+### Community 22 - "Kanton Genf (GE) / Server www.ge.ch"
 Cohesion: 0.17
 Nodes (21): Kanton Genf (GE), ge.ch: déclarer mon chien [ge_declarer], ge.ch: détenir un chien [ge_detenir], ge.ch: espaces de liberté [ge_espaces], ge.ch: fourrière cantonale [ge_fourriere], ge.ch: calcul de l'impôt [ge_impot_calcul], ge.ch: centimes additionnels [ge_impot_centimes], ge.ch: qui paie l'impôt [ge_impot_qui] (+13 more)
+
+### Community 23 - "baue() / seite_gemeinde()"
+Cohesion: 0.18
+Nodes (15): baue(), g_pfad(), g_sprachen(), hinweis_uebersetzung(), k_pfad(), karte_pfad(), ortsindex(), hauptgemeinde() (+7 more)
 
 ### Community 24 - "quellen.yml / Link-Prüfung"
 Cohesion: 0.11
@@ -360,143 +361,147 @@ Nodes (5): 7. Braucht Zugriff, den der Lauf nicht hat, Was nur Joss tun kann, Ha
 Cohesion: 0.25
 Nodes (7): Ausbauliste: Später, Braucht Zugriff, den der Lauf nicht hat, Ideen für später, Rückmeldung aus Sicht eines Hundehalters (von Joss weitergegeben am 28.11.2026, 04:07 Uhr), Später, nur nach Freigabe von Joss, Themenlandkarte: alles rund um den Hund, wofür es amtliche Regeln gibt, Vorgemerkt: Hunde mit besonderer Aufgabe, Hundesport und Hundeberufe
 
-### Community 56 - "Genf (Gemeinde, GE) / Freilaufzonen einer Gemeinde (freilaufzonen)"
+### Community 56 - "Handbuch: Generator und Seitenarten / wald_karte()"
+Cohesion: 0.29
+Nodes (5): abschnitt_neuer_hund(), wald_karte(), Handbuch: Generator und Seitenarten, Neu einen Hund und Sprunglink (gebaut am 28. November 2026), Telefon und Berührung (gebaut am 28. November 2026)
+
+### Community 57 - "Genf (Gemeinde, GE) / Freilaufzonen einer Gemeinde (freilaufzonen)"
 Cohesion: 0.29
 Nodes (8): Freilaufzonen einer Gemeinde (freilaufzonen), Genf (Gemeinde, GE), Vernier (Gemeinde, GE), Ville de Vernier: propriétaires de chiens [ge_vernier_chiens], Ville de Genève: lieux permis ou interdits [ge_ville_lieux], Ville de Genève: obligations [ge_ville_obligations], Server vernier.ch, Server www.geneve.ch
 
-### Community 57 - "Ostermundigen (Gemeinde, BE) / Server www.ostermundigen.ch"
+### Community 58 - "Ostermundigen (Gemeinde, BE) / Server www.ostermundigen.ch"
 Cohesion: 0.43
 Nodes (8): Ostermundigen (Gemeinde, BE), Gebührenverordnung Ostermundigen [be_ostermundigen_gebuehren], Gemeinde Ostermundigen: Hundehaltung [be_ostermundigen_hundehaltung], Merkblatt für Hundehaltende Ostermundigen [be_ostermundigen_merkblatt], Ortspolizeireglement Ostermundigen [be_ostermundigen_opr], Parkreglement Ostermundigen [be_ostermundigen_park], Benutzungsordnung Schulanlagen Ostermundigen [be_ostermundigen_schulanlagen], Server www.ostermundigen.ch
 
-### Community 58 - "Thun (Gemeinde, BE) / Server www.thun.ch"
+### Community 59 - "Thun (Gemeinde, BE) / Server www.thun.ch"
 Cohesion: 0.43
 Nodes (8): Thun (Gemeinde, BE), Friedhofverordnung Thun [be_thun_friedhof], Stadt Thun: Hundehaltung [be_thun_hundehaltung], Ortspolizeireglement Thun [be_thun_opr], Stadt Thun: Situationsplan Seeufer [be_thun_plan], Stadt Thun: Mitteilung Seeufer [be_thun_seeufer], Seeuferverordnung Thun [be_thun_vbs], Server www.thun.ch
 
-### Community 60 - "Handbuch: Kette und Parallel-Läufe / Parallel-Läufe"
+### Community 61 - "Handbuch: Kette und Parallel-Läufe / Parallel-Läufe"
 Cohesion: 0.29
 Nodes (6): Kette, Für den Parallel-Lauf, Für jeden anderen Lauf, Handbuch: Kette und Parallel-Läufe, Kette, Parallel-Läufe
 
-### Community 61 - "Burgdorf (Gemeinde, BE) / Server www.burgdorf.ch"
+### Community 62 - "Burgdorf (Gemeinde, BE) / Server www.burgdorf.ch"
 Cohesion: 0.48
 Nodes (7): Burgdorf (Gemeinde, BE), Stadt Burgdorf: An- und Abmelden von Hunden [be_burgdorf_anmeldung], Bestattungsverordnung Burgdorf [be_burgdorf_bestv], Gebührenverordnung Burgdorf [be_burgdorf_gebv], Hundereglement Burgdorf [be_burgdorf_hundr], Stadt Burgdorf: Hundetaxe 2025 [be_burgdorf_taxe_2025], Server www.burgdorf.ch
 
-### Community 62 - "Freiburg (Gemeinde, FR) / Ville de Fribourg: cimetière [fr_ville_ci..."
+### Community 63 - "Freiburg (Gemeinde, FR) / Ville de Fribourg: cimetière [fr_ville_ci..."
 Cohesion: 0.38
 Nodes (7): Freiburg (Gemeinde, FR), Ville de Fribourg: cimetière [fr_ville_cimetiere], Ville de Fribourg: impôt sur les chiens [fr_ville_impot], Ville de Fribourg: règlement de police [fr_ville_rgp], Stadt Freiburg: Polizeireglement [fr_ville_rgp_d], Server ville-fribourg.ch, Server www.ville-fribourg.ch
 
-### Community 63 - "Neuenburg (Gemeinde, NE) / Server www.neuchatelville.ch"
+### Community 64 - "Neuenburg (Gemeinde, NE) / Server www.neuchatelville.ch"
 Cohesion: 0.48
 Nodes (7): Neuenburg (Gemeinde, NE), Ville de Neuchâtel: arrêté sur l'accès des chiens [ne_ville_arrete], Ville de Neuchâtel: avoir un chien [ne_ville_avoir], Ville de Neuchâtel: Mon chien en ville [ne_ville_chien], Ville de Neuchâtel: règlement de police [ne_ville_police], Ville de Neuchâtel: taxes et émoluments [ne_ville_taxes], Server www.neuchatelville.ch
 
-### Community 64 - "Regensdorf (Gemeinde, ZH) / Server www.regensdorf.ch"
+### Community 65 - "Regensdorf (Gemeinde, ZH) / Server www.regensdorf.ch"
 Cohesion: 0.48
 Nodes (7): Regensdorf (Gemeinde, ZH), Gemeinde Regensdorf: Anmeldung Hund [zh_regensdorf_anmeldung], Regensdorf: Gebührenreglement [zh_regensdorf_gebuehren], Gemeinde Regensdorf: Hundewesen [zh_regensdorf_hundewesen], Regensdorf: Polizeiverordnung [zh_regensdorf_polvo], Gemeinde Regensdorf: Online-Schalter Hund [zh_regensdorf_schalter], Server www.regensdorf.ch
 
-### Community 65 - "Zürich (Gemeinde, ZH) / Stadt Zürich [zh_stadt]"
+### Community 66 - "Zürich (Gemeinde, ZH) / Stadt Zürich [zh_stadt]"
 Cohesion: 0.38
 Nodes (7): Zürich (Gemeinde, ZH), Stadt Zürich [zh_stadt], Hundekontrolle Stadt Zürich [zh_stadt_kontrolle], Vollzugsvorschriften Stadt Zürich [zh_stadt_vollzug], Datensatz Hundezonen [zh_zonen], Server data.stadt-zuerich.ch, Server www.stadt-zuerich.ch
 
-### Community 67 - "quellen.js / zeige()"
+### Community 68 - "quellen.js / zeige()"
 Cohesion: 0.47
 Nodes (3): norm(), setze(), zeige()
 
-### Community 68 - "Freigaben / Qualitätsregeln ohne Ausnahme"
+### Community 69 - "Freigaben / Qualitätsregeln ohne Ausnahme"
 Cohesion: 0.33
 Nodes (3): 8. Später, nur nach Freigabe von Joss, Freigaben, Qualitätsregeln ohne Ausnahme
 
-### Community 69 - "Münsingen (Gemeinde, BE) / Server www.muensingen.ch"
+### Community 70 - "Münsingen (Gemeinde, BE) / Server www.muensingen.ch"
 Cohesion: 0.53
 Nodes (6): Münsingen (Gemeinde, BE), Gemeinde Münsingen: Hund an- / abmelden [be_muensingen_anmeldung], Gemeinde Münsingen: Hundetaxe 2026 [be_muensingen_hundetaxe], Gemeinde Münsingen: Hundesteuer [be_muensingen_steuer], Gemeinde Münsingen: Herumstreunende Hunde [be_muensingen_streunend], Server www.muensingen.ch
 
-### Community 70 - "Spiez (Gemeinde, BE) / Server www.spiez.ch"
+### Community 71 - "Spiez (Gemeinde, BE) / Server www.spiez.ch"
 Cohesion: 0.53
 Nodes (6): Spiez (Gemeinde, BE), Gemeinde Spiez: Friedhof- und Bestattungsreglement [be_spiez_friedhof], Gemeinde Spiez: Verordnung zum Gebührenreglement [be_spiez_gebuehren], Gemeinde Spiez: Gemeindepolizeireglement [be_spiez_gpr], Gemeinde Spiez: Hundekontrolle [be_spiez_hundekontrolle], Server www.spiez.ch
 
-### Community 71 - "Steffisburg (Gemeinde, BE) / Server www.steffisburg.ch"
+### Community 72 - "Steffisburg (Gemeinde, BE) / Server www.steffisburg.ch"
 Cohesion: 0.53
 Nodes (6): Steffisburg (Gemeinde, BE), Gemeinde Steffisburg: Hund anmelden [be_steffisburg_anmeldung], Friedhofreglement Steffisburg [be_steffisburg_friedhof], Gemeinde Steffisburg: Hundetaxe [be_steffisburg_hundetaxe], Polizeireglement Steffisburg [be_steffisburg_polizeireglement], Server www.steffisburg.ch
 
-### Community 72 - "Landquart (Gemeinde, GR) / Server www.landquart.ch"
+### Community 73 - "Landquart (Gemeinde, GR) / Server www.landquart.ch"
 Cohesion: 0.53
 Nodes (6): Landquart (Gemeinde, GR), Gemeinde Landquart: Hundekontrolle [gr_landquart_hundekontrolle], Gemeindepolizeiamt Landquart: Hundekot [gr_landquart_hundekot], Gemeinde Landquart: Mastrilser Rheinauen [gr_landquart_rheinauen], Gemeinde Landquart: Steuern [gr_landquart_steuern], Server www.landquart.ch
 
-### Community 73 - "Schlieren (Gemeinde, ZH) / Server www.schlieren.ch"
+### Community 74 - "Schlieren (Gemeinde, ZH) / Server www.schlieren.ch"
 Cohesion: 0.53
 Nodes (6): Schlieren (Gemeinde, ZH), Friedhofverordnung Schlieren [zh_schlieren_friedhof], Gebührenverordnung Schlieren [zh_schlieren_gebv], Stadt Schlieren: Hunde [zh_schlieren_hunde], Gebührentarif Schlieren [zh_schlieren_tarif], Server www.schlieren.ch
 
-### Community 75 - "Lyss (Gemeinde, BE) / Gemeinde Lyss: Hundehaltung, anmelden / abmel..."
+### Community 76 - "Lyss (Gemeinde, BE) / Gemeinde Lyss: Hundehaltung, anmelden / abmel..."
 Cohesion: 0.60
 Nodes (5): Lyss (Gemeinde, BE), Gemeinde Lyss: Hundehaltung, anmelden / abmelden [be_lyss_anmeldung], Gemeinde Lyss: Hundehaltung, Taxe [be_lyss_hundetaxe], Gemeinde Lyss: Ortspolizeireglement [be_lyss_opr], Server www.lyss.ch
 
-### Community 76 - "Düdingen (Gemeinde, FR) / Gemeinde Düdingen: Anmeldung Hundedatenba..."
+### Community 77 - "Düdingen (Gemeinde, FR) / Gemeinde Düdingen: Anmeldung Hundedatenba..."
 Cohesion: 0.60
 Nodes (5): Düdingen (Gemeinde, FR), Gemeinde Düdingen: Anmeldung Hundedatenbank AMICUS [fr_duedingen_amicus], Gemeinde Düdingen: Protokoll Generalrat 4.10.2021 [fr_duedingen_gnr_2021], Gemeinde Düdingen: Steuersätze [fr_duedingen_steuern], Server www.duedingen.ch
 
-### Community 77 - "Meyrin (Gemeinde, GE) / Ville de Meyrin: médailles pour chiens [ge_..."
+### Community 78 - "Meyrin (Gemeinde, GE) / Ville de Meyrin: médailles pour chiens [ge_..."
 Cohesion: 0.40
 Nodes (5): Meyrin (Gemeinde, GE), Ville de Meyrin: médailles pour chiens [ge_meyrin_medailles], Meyrin: règlement des espaces publics [ge_meyrin_rep], Server meyrin.ch, Server www.meyrin.ch
 
-### Community 78 - "Val-de-Ruz (Gemeinde, NE) / Val-de-Ruz: animaux et nature [ne_valde..."
+### Community 79 - "Val-de-Ruz (Gemeinde, NE) / Val-de-Ruz: animaux et nature [ne_valde..."
 Cohesion: 0.60
 Nodes (5): Val-de-Ruz (Gemeinde, NE), Val-de-Ruz: animaux et nature [ne_valderuz_animaux], Val-de-Ruz: règlement de police [ne_valderuz_police], Val-de-Ruz: règlement d'exécution taxes et émoluments [ne_valderuz_taxes], Server www.val-de-ruz.ch
 
-### Community 79 - "Frauenfeld (Gemeinde, TG) / Stadt Frauenfeld: Informationen für Hun..."
+### Community 80 - "Frauenfeld (Gemeinde, TG) / Stadt Frauenfeld: Informationen für Hun..."
 Cohesion: 0.40
 Nodes (5): Frauenfeld (Gemeinde, TG), Stadt Frauenfeld: Informationen für Hundehaltende [tg_frauenfeld_info], Merkblatt Leinenpflicht Frauenfeld [tg_frauenfeld_leine], Server frauenfeld.ch, Server www.frauenfeld.ch
 
-### Community 80 - "Dietikon (Gemeinde, ZH) / Stadt Dietikon: Formular Anmeldung Hund [..."
+### Community 81 - "Dietikon (Gemeinde, ZH) / Stadt Dietikon: Formular Anmeldung Hund [..."
 Cohesion: 0.60
 Nodes (5): Dietikon (Gemeinde, ZH), Stadt Dietikon: Formular Anmeldung Hund [zh_dietikon_anmeldung], Stadt Dietikon: Hundewesen [zh_dietikon_hundewesen], Tarifverordnung Dietikon [zh_dietikon_tarif], Server www.dietikon.ch
 
-### Community 81 - "Wetzikon (Gemeinde, ZH) / Stadt Wetzikon: Hundewesen [zh_wetzikon_h..."
+### Community 82 - "Wetzikon (Gemeinde, ZH) / Stadt Wetzikon: Hundewesen [zh_wetzikon_h..."
 Cohesion: 0.60
 Nodes (5): Wetzikon (Gemeinde, ZH), Stadt Wetzikon: Hundewesen [zh_wetzikon_hundewesen], Polizeiverordnung Wetzikon [zh_wetzikon_pvo], Gebührentarif Wetzikon [zh_wetzikon_tarif], Server www.wetzikon.ch
 
-### Community 82 - "Winterthur (Gemeinde, ZH) / Stadt Winterthur: Hund an- oder abmelde..."
+### Community 83 - "Winterthur (Gemeinde, ZH) / Stadt Winterthur: Hund an- oder abmelde..."
 Cohesion: 0.60
 Nodes (5): Winterthur (Gemeinde, ZH), Stadt Winterthur: Hund an- oder abmelden [zh_winterthur_anmeldung], Stadt Winterthur: Wildpark Bruderhaus [zh_winterthur_bruderhaus], Stadt Winterthur: Hundewesen [zh_winterthur_hundewesen], Server stadt.winterthur.ch
 
-### Community 83 - "Ausbauliste: Lücken in bestehenden Seiten / luecken.md"
+### Community 84 - "Ausbauliste: Lücken in bestehenden Seiten / luecken.md"
 Cohesion: 0.50
 Nodes (3): Aufgefallen beim Übersetzen (Kette Übersetzungen, 18.11.2026), Ausbauliste: Lücken in bestehenden Seiten, Offene Lücken
 
-### Community 84 - "Carouge (Gemeinde, GE) / Ville de Carouge: parc des Halles [ge_caro..."
+### Community 85 - "Carouge (Gemeinde, GE) / Ville de Carouge: parc des Halles [ge_caro..."
 Cohesion: 0.67
 Nodes (4): Carouge (Gemeinde, GE), Ville de Carouge: parc des Halles [ge_carouge_halles], Ville de Carouge: médailles pour chien [ge_carouge_medailles], Server www.carouge.ch
 
-### Community 85 - "Einsiedeln (Gemeinde, SZ) / Bezirk Einsiedeln: Broschüre Hundesteue..."
+### Community 86 - "Einsiedeln (Gemeinde, SZ) / Bezirk Einsiedeln: Broschüre Hundesteue..."
 Cohesion: 0.67
 Nodes (4): Einsiedeln (Gemeinde, SZ), Bezirk Einsiedeln: Broschüre Hundesteuer [sz_einsiedeln_broschuere], Bezirk Einsiedeln: Hund anmelden [sz_einsiedeln_formular], Server www.einsiedeln.ch
 
-### Community 86 - "Naters (Gemeinde, VS) / Gemeinde Naters: Online-Schalter A-Z, Hunde..."
+### Community 87 - "Naters (Gemeinde, VS) / Gemeinde Naters: Online-Schalter A-Z, Hunde..."
 Cohesion: 0.67
 Nodes (4): Naters (Gemeinde, VS), Gemeinde Naters: Online-Schalter A-Z, Hundehaltung [vs_naters_hunde], Gemeinde Naters: Kinderspielplätze [vs_naters_spielplaetze], Server www.naters.ch
 
-### Community 87 - "Visp (Gemeinde, VS) / Gemeinde Visp: Steuern [vs_visp_steuern]"
+### Community 88 - "Visp (Gemeinde, VS) / Gemeinde Visp: Steuern [vs_visp_steuern]"
 Cohesion: 0.67
 Nodes (4): Visp (Gemeinde, VS), Gemeinde Visp: Steuern [vs_visp_steuern], Gemeinde Visp: Anzeige an die Hundebesitzer [vs_visp_vaz_hunde], Server www.visp.ch
 
-### Community 88 - "Bülach (Gemeinde, ZH) / Stadt Bülach: Steuern, Hundegebühr [zh_buel..."
+### Community 89 - "Bülach (Gemeinde, ZH) / Stadt Bülach: Steuern, Hundegebühr [zh_buel..."
 Cohesion: 0.67
 Nodes (4): Bülach (Gemeinde, ZH), Stadt Bülach: Steuern, Hundegebühr [zh_buelach_gebuehr], Stadt Bülach: Hunde-Meldungen [zh_buelach_meldungen], Server www.buelach.ch
 
-### Community 89 - "Dübendorf (Gemeinde, ZH) / Stadt Dübendorf: Hunde [zh_duebendorf_hu..."
+### Community 90 - "Dübendorf (Gemeinde, ZH) / Stadt Dübendorf: Hunde [zh_duebendorf_hu..."
 Cohesion: 0.67
 Nodes (4): Dübendorf (Gemeinde, ZH), Stadt Dübendorf: Hunde [zh_duebendorf_hunde], Polizeiverordnung Dübendorf [zh_duebendorf_polv], Server www.duebendorf.ch
 
-### Community 90 - "Uster (Gemeinde, ZH) / Stadt Uster: Hundewesen [zh_uster_hundewesen]"
+### Community 91 - "Uster (Gemeinde, ZH) / Stadt Uster: Hundewesen [zh_uster_hundewesen]"
 Cohesion: 0.67
 Nodes (4): Uster (Gemeinde, ZH), Stadt Uster: Hundewesen [zh_uster_hundewesen], Stadt Uster: Übersichtsplan Wald [zh_uster_waldplan], Server www.uster.ch
 
-### Community 91 - "Volketswil (Gemeinde, ZH) / Gemeinde Volketswil: Hundeabgabe [zh_vo..."
+### Community 92 - "Volketswil (Gemeinde, ZH) / Gemeinde Volketswil: Hundeabgabe [zh_vo..."
 Cohesion: 0.67
 Nodes (4): Volketswil (Gemeinde, ZH), Gemeinde Volketswil: Hundeabgabe [zh_volketswil_hundeabgabe], Polizeiverordnung Volketswil [zh_volketswil_polv], Server www.volketswil.ch
 
-### Community 92 - "Handbuch: Freigaben von Joss / freigaben.md"
+### Community 93 - "Handbuch: Freigaben von Joss / freigaben.md"
 Cohesion: 0.50
 Nodes (3): Alle Freigaben mit Datum, Handbuch: Freigaben von Joss, Schon erledigt
 
-### Community 93 - "Gassi-Kompass / README.md"
+### Community 94 - "Gassi-Kompass / README.md"
 Cohesion: 0.50
 Nodes (3): Bauen, Gassi-Kompass, Schriften
 
@@ -516,7 +521,7 @@ _Questions this graph is uniquely positioned to answer:_
   _48 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Components / karte.js` be split into smaller, more focused modules?**
   _Cohesion score 0.05612244897959184 - nodes in this community are weakly interconnected._
-- **Why does `Aufbau` connect `seite_thema() / Aufbau` to `indexnow.py / re`, `seiten.js / seitenbilder.js`, `Quellenverzeichnis (data/quellen.json und data/quellen/*.json) / Ka...`, `Gemeinde strenger als der Kanton im Wald (hinweis_heute) / Datenfel...`, `Feld vermisst: Hund vermisst oder gefunden / Feld umzug: Zuzug in d...`, `Gassi-Kompass: Arbeitshandbuch / 10. Ausbau vor der Verbreitung`, `build.py / seite_quellen()`, `baue() / seite_gemeinde()`, `steps / indexnow.yml`?**
+- **Why does `Aufbau` connect `seite_thema() / Aufbau` to `indexnow.py / re`, `seiten.js / seitenbilder.js`, `Quellenverzeichnis (data/quellen.json und data/quellen/*.json) / Ka...`, `Gemeinde strenger als der Kanton im Wald (hinweis_heute) / Datenfel...`, `Gassi-Kompass: Arbeitshandbuch / 10. Ausbau vor der Verbreitung`, `Feld vermisst: Hund vermisst oder gefunden / Feld umzug: Zuzug in d...`, `build.py / seite_quellen()`, `steps / indexnow.yml`, `baue() / seite_gemeinde()`?**
   _High betweenness centrality (0.244) - this node is a cross-community bridge._
 - **Are the 4 inferred relationships involving `Gemeindedateien (data/gemeinden/ und die Sprachordner)` (e.g. with `lade()` and `Datenfelder Gemeinde`) actually correct?**
   _`Gemeindedateien (data/gemeinden/ und die Sprachordner)` has 4 INFERRED edges - model-reasoned connections that need verification._
