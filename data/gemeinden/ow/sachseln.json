@@ -1,0 +1,37 @@
+{
+  "id": "sachseln",
+  "kanton": "ow",
+  "bfs": 1406,
+  "name": "Gemeinde Sachseln",
+  "ort": "Sachseln",
+  "in_ort": "in Sachseln",
+  "geprueft": "2026-11-28",
+  "einleitung": "In Sachseln gilt die Verordnung über das Halten von Hunden und die Hundesteuer vom 11. November 1991. Für Hundesteuer und Anmeldung ist die Finanzverwaltung der Gemeinde zuständig.",
+  "karten": [
+    {
+      "titel": "Hundetaxe",
+      "wert": "CHF 120 für den ersten Hund",
+      "text": "Die Hundesteuer beträgt CHF 120 für den ersten Hund und CHF 130 für jeden weiteren. Für landwirtschaftlich gehaltene Hunde zahlst du CHF 70 für den ersten Hund und CHF 130 für den zweiten und jeden weiteren. Die Rechnung kommt in der ersten Jahreshälfte. Schaffst du den Hund nach dem 30. Juni an, zahlst du die Hälfte. Nach dem 1. November zahlst du im selben Jahr nichts. Befreit sind Schweiss-, Dienst-, Militär- und Blindenhunde.",
+      "quellen": [
+        "ow_sachseln_steuer"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "wert": "innert 30 Tagen bei der Finanzverwaltung",
+      "text": "Einen neuen Hund und Änderungen meldest du innert 30 Tagen der Finanzverwaltung. Als neue Hundehalterin oder neuer Hundehalter lässt du dich zuerst bei der Gemeinde registrieren. Danach setzt die Tierärztin oder der Tierarzt deinem Hund einen Mikrochip und meldet in AMICUS, dass du ihn hältst.",
+      "quellen": [
+        "ow_sachseln_steuer",
+        "ow_sachseln_registrierung"
+      ]
+    },
+    {
+      "titel": "Kein Zutritt",
+      "wert": "Innenräume der Schulanlagen",
+      "text": "In die Innenräume der Schulanlagen der Gemeinde darfst du deinen Hund nicht mitnehmen. Stand der Bestimmungen: 2019.",
+      "quellen": [
+        "ow_sachseln_benuetzung"
+      ]
+    }
+  ]
+}

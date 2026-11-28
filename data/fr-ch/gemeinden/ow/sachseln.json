@@ -1,0 +1,38 @@
+{
+  "id": "sachseln",
+  "kanton": "ow",
+  "bfs": 1406,
+  "uebersetzt_aus": "de",
+  "original": "b3dd585fd6f7",
+  "name": "Commune de Sachseln",
+  "ort": "Sachseln",
+  "in_ort": "à Sachseln",
+  "einleitung": "À Sachseln s'applique la Verordnung über das Halten von Hunden und die Hundesteuer (ordonnance sur la détention des chiens et l'impôt sur les chiens) du 11 novembre 1991. La Finanzverwaltung (administration des finances) de la commune est compétente pour l'impôt sur les chiens et l'annonce.",
+  "karten": [
+    {
+      "titel": "Impôt sur les chiens",
+      "wert": "CHF 120 pour le premier chien",
+      "text": "L'impôt sur les chiens s'élève à CHF 120 pour le premier chien et à CHF 130 pour chaque chien supplémentaire. Pour les chiens détenus dans l'agriculture, vous payez CHF 70 pour le premier chien et CHF 130 pour le deuxième et chaque chien supplémentaire. La facture arrive au cours du premier semestre. Si vous acquérez le chien après le 30 juin, vous payez la moitié. Après le 1er novembre, vous ne payez rien la même année. Sont exonérés les chiens de rouge, les chiens de service, les chiens militaires et les chiens d'aveugles.",
+      "quellen": [
+        "ow_sachseln_steuer"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "wert": "dans les 30 jours à la Finanzverwaltung",
+      "text": "Vous annoncez un nouveau chien et les changements dans les 30 jours à la Finanzverwaltung. Si vous êtes un nouveau détenteur ou une nouvelle détentrice de chien, vous vous faites d'abord enregistrer auprès de la commune. Ensuite, la ou le vétérinaire implante une puce électronique à votre chien et annonce dans AMICUS que vous le détenez.",
+      "quellen": [
+        "ow_sachseln_steuer",
+        "ow_sachseln_registrierung"
+      ]
+    },
+    {
+      "titel": "Accès interdit",
+      "wert": "locaux intérieurs des installations scolaires",
+      "text": "Vous ne pouvez pas emmener votre chien dans les locaux intérieurs des installations scolaires de la commune. État des dispositions: 2019.",
+      "quellen": [
+        "ow_sachseln_benuetzung"
+      ]
+    }
+  ]
+}

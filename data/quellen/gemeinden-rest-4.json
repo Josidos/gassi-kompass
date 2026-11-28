@@ -3,5 +3,20 @@
     "kurz": "Engelberg: Hundewesen",
     "lang": "Gemeinde Engelberg, Finanzverwaltung: Hundewesen (abgerufen 28.11.2026)",
     "url": "https://www.gde-engelberg.ch/dienstleistungen/14256"
+  },
+  "ow_sachseln_steuer": {
+    "kurz": "Sachseln: Hundesteuer",
+    "lang": "Einwohnergemeinde Sachseln, Finanzverwaltung: Hundesteuer (abgerufen 28.11.2026)",
+    "url": "https://www.sachseln.ch/dienstleistungen/6064"
+  },
+  "ow_sachseln_registrierung": {
+    "kurz": "Sachseln: Hunderegistrierung",
+    "lang": "Einwohnergemeinde Sachseln, Finanzverwaltung: Hunderegistrierung (abgerufen 28.11.2026)",
+    "url": "https://www.sachseln.ch/dienstleistungen/10243"
+  },
+  "ow_sachseln_benuetzung": {
+    "kurz": "Sachseln: Benützung Anlagen",
+    "lang": "Einwohnergemeinde Sachseln: Ausführungsbestimmungen zum Benützungsreglement vom 1. Juli 2019, in Kraft seit 12. Dezember 2019, Art. 19",
+    "url": "https://www.sachseln.ch/reglemente/15565"
   }
 }

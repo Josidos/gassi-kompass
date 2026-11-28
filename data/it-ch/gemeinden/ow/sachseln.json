@@ -1,0 +1,38 @@
+{
+  "id": "sachseln",
+  "kanton": "ow",
+  "bfs": 1406,
+  "uebersetzt_aus": "de",
+  "original": "b3dd585fd6f7",
+  "name": "Comune di Sachseln",
+  "ort": "Sachseln",
+  "in_ort": "a Sachseln",
+  "einleitung": "A Sachseln vale la Verordnung über das Halten von Hunden und die Hundesteuer (ordinanza sulla detenzione dei cani e sull'imposta sui cani) dell'11 novembre 1991. Per l'imposta sui cani e la notifica è competente la Finanzverwaltung (amministrazione delle finanze) del Comune.",
+  "karten": [
+    {
+      "titel": "Imposta sui cani",
+      "wert": "CHF 120 per il primo cane",
+      "text": "L'imposta sui cani ammonta a CHF 120 per il primo cane e a CHF 130 per ogni cane in più. Per i cani tenuti nell'agricoltura paghi CHF 70 per il primo cane e CHF 130 per il secondo e ogni altro cane. La fattura arriva nella prima metà dell'anno. Se acquisti il cane dopo il 30 giugno, paghi la metà. Dopo il 1° novembre non paghi nulla nello stesso anno. Sono esentati i cani da traccia, i cani di servizio, i cani militari e i cani per ciechi.",
+      "quellen": [
+        "ow_sachseln_steuer"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "wert": "entro 30 giorni alla Finanzverwaltung",
+      "text": "Un nuovo cane e i cambiamenti li annunci entro 30 giorni alla Finanzverwaltung. Se detieni un cane per la prima volta, ti fai prima registrare presso il Comune. Poi la veterinaria o il veterinario impianta un microchip al tuo cane e annuncia in AMICUS che lo detieni tu.",
+      "quellen": [
+        "ow_sachseln_steuer",
+        "ow_sachseln_registrierung"
+      ]
+    },
+    {
+      "titel": "Accesso vietato",
+      "wert": "locali interni degli impianti scolastici",
+      "text": "Nei locali interni degli impianti scolastici del Comune non puoi portare il tuo cane. Stato delle disposizioni: 2019.",
+      "quellen": [
+        "ow_sachseln_benuetzung"
+      ]
+    }
+  ]
+}
