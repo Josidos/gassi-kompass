@@ -1,0 +1,37 @@
+{
+  "id": "engelberg",
+  "kanton": "ow",
+  "bfs": 1402,
+  "uebersetzt_aus": "de",
+  "original": "4d865731b625",
+  "name": "Comune di Engelberg",
+  "ort": "Engelberg",
+  "in_ort": "a Engelberg",
+  "einleitung": "A Engelberg vale il Reglement über die Hundehaltung und die Hundesteuer (regolamento sulla detenzione dei cani e sull'imposta sui cani) del Comune. Per l'imposta sui cani è competente la Finanzverwaltung (amministrazione delle finanze).",
+  "karten": [
+    {
+      "titel": "Guinzaglio",
+      "wert": "nelle zone densamente abitate",
+      "text": "Il tuo cane va tenuto al guinzaglio tra l'altro nei parchi pubblici, su strade, marciapiedi nonché sentieri pedonali ed escursionistici nelle zone densamente abitate. Fuori dal tuo fondo il tuo cane non può correre liberamente senza sorveglianza.",
+      "quellen": [
+        "ow_engelberg_hundewesen"
+      ]
+    },
+    {
+      "titel": "Escrementi",
+      "wert": "raccogliere e smaltire",
+      "text": "Raccogli gli escrementi del tuo cane e li smaltisci correttamente. Le infrazioni al regolamento possono essere punite con la multa.",
+      "quellen": [
+        "ow_engelberg_hundewesen"
+      ]
+    },
+    {
+      "titel": "Imposta sui cani",
+      "wert": "fattura a metà anno",
+      "text": "La fattura dell'imposta sui cani arriva a metà anno. Il Comune la allestisce in base ai dati della banca dati canina AMICUS. Il tuo cane deve esservi registrato con un microchip, i cuccioli al più tardi a tre mesi. La medaglietta per cani non è più necessaria.",
+      "quellen": [
+        "ow_engelberg_hundewesen"
+      ]
+    }
+  ]
+}

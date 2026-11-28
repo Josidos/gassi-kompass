@@ -1,0 +1,36 @@
+{
+  "id": "engelberg",
+  "kanton": "ow",
+  "bfs": 1402,
+  "name": "Gemeinde Engelberg",
+  "ort": "Engelberg",
+  "in_ort": "in Engelberg",
+  "geprueft": "2026-11-28",
+  "einleitung": "In Engelberg gilt das Reglement über die Hundehaltung und die Hundesteuer der Gemeinde. Für die Hundesteuer ist die Finanzverwaltung zuständig.",
+  "karten": [
+    {
+      "titel": "Leine",
+      "wert": "in dicht bewohnten Gebieten",
+      "text": "An die Leine muss dein Hund unter anderem in öffentlichen Parkanlagen, auf Strassen, Trottoirs sowie Fuss- und Wanderwegen in dicht bewohnten Gebieten. Ausserhalb deines Grundstücks darf dein Hund nicht unbeaufsichtigt frei herumlaufen.",
+      "quellen": [
+        "ow_engelberg_hundewesen"
+      ]
+    },
+    {
+      "titel": "Hundekot",
+      "wert": "aufnehmen und entsorgen",
+      "text": "Den Kot deines Hundes nimmst du auf und entsorgst ihn ordnungsgemäss. Verstösse gegen das Reglement können mit Busse bestraft werden.",
+      "quellen": [
+        "ow_engelberg_hundewesen"
+      ]
+    },
+    {
+      "titel": "Hundetaxe",
+      "wert": "Rechnung Mitte Jahr",
+      "text": "Die Rechnung für die Hundesteuer kommt Mitte Jahr. Die Gemeinde stellt sie anhand der Daten in der Hundedatenbank AMICUS aus. Dein Hund muss dort mit Mikrochip registriert sein, Welpen spätestens mit drei Monaten. Eine Hundemarke braucht es nicht mehr.",
+      "quellen": [
+        "ow_engelberg_hundewesen"
+      ]
+    }
+  ]
+}

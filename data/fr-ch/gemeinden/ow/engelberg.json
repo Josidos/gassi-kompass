@@ -1,0 +1,37 @@
+{
+  "id": "engelberg",
+  "kanton": "ow",
+  "bfs": 1402,
+  "uebersetzt_aus": "de",
+  "original": "4d865731b625",
+  "name": "Commune d'Engelberg",
+  "ort": "Engelberg",
+  "in_ort": "à Engelberg",
+  "einleitung": "À Engelberg s'applique le Reglement über die Hundehaltung und die Hundesteuer (règlement sur la détention des chiens et l'impôt sur les chiens) de la commune. La Finanzverwaltung (administration des finances) est compétente pour l'impôt sur les chiens.",
+  "karten": [
+    {
+      "titel": "Laisse",
+      "wert": "dans les zones densément habitées",
+      "text": "Votre chien doit être tenu en laisse notamment dans les parcs publics, sur les routes, les trottoirs ainsi que les chemins pédestres et de randonnée dans les zones densément habitées. En dehors de votre terrain, votre chien ne doit pas courir librement sans surveillance.",
+      "quellen": [
+        "ow_engelberg_hundewesen"
+      ]
+    },
+    {
+      "titel": "Crottes",
+      "wert": "ramasser et éliminer",
+      "text": "Vous ramassez les crottes de votre chien et les éliminez correctement. Les infractions au règlement peuvent être punies d'une amende.",
+      "quellen": [
+        "ow_engelberg_hundewesen"
+      ]
+    },
+    {
+      "titel": "Impôt sur les chiens",
+      "wert": "facture au milieu de l'année",
+      "text": "La facture de l'impôt sur les chiens arrive au milieu de l'année. La commune l'établit sur la base des données de la banque de données canine AMICUS. Votre chien doit y être enregistré avec une puce électronique, les chiots au plus tard à trois mois. Une médaille pour chien n'est plus nécessaire.",
+      "quellen": [
+        "ow_engelberg_hundewesen"
+      ]
+    }
+  ]
+}
