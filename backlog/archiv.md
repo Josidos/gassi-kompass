@@ -267,3 +267,16 @@ Was die Glieder in Originalfassungen bemerkt haben, steht in `CHANGELOG.md` unte
 - [x] Jura 2026-11-28
 - [x] Obwalden 2026-11-28
 - [x] Uri 2026-11-28
+
+## Archiviert am 2026-11-28
+
+### BACKLOG.md, 9.1 Hund vermisst oder gefunden
+
+- [x] Graubünden (deutsch und italienisch) 2026-11-28
+- [x] Neuenburg 2026-11-28
+- [x] Basel-Stadt 2026-11-28
+
+### backlog/luecken.md, Offene Lücken
+
+- [x] Riehen: Orte mit Hundeverbot und mit Leinenpflicht aus der Liste «Hundeverbots- und Leinenpflichtzonen» des Gesundheitsdepartements (`bs_zonen`) als Karten «Kein Zutritt» und «Leine» ergänzen. Die Liste nennt für Riehen elf Orte mit Hundeverbot und sieben mit Leinenpflicht (abgerufen am 26.11.2026). Erledigt 2026-11-28 (Auftrag `luecken-1`): elf Orte mit Hundeverbot, sieben mit Leinenpflicht, in der Sitzung an der Liste gegengelesen.
+- [x] Kanton Genf: Zuschlagsrappen der Gemeinden zur Hundesteuer nachtragen, auch für die Stadt Genf. Die Liste ist ein PDF (ge.ch/document/impots-chiens-centimes-additionnels, Stand 17. März 2025). Im Browser war sie am 27.11.2026 nicht lesbar (ge.ch lässt das Leseprogramm nicht zu), der Download-Link ist für WebFetch nicht freigegeben. Die Seite verlinkt das Dokument als Quelle. Das PDF «Liste des races» ist nicht gelesen, massgebend ist Art. 17 RChiens. Stand 28.11.2026: WebFetch liest die Tabelle über den Link «télécharger» der Seite (`ge.ch/document/110/telecharger`). Gelesen: Genève-Ville 100, Carouge 100, Lancy 50, Vernier 50, je für 2021 bis 2025. Die Zeile Meyrin hat nur vier Werte. Lancy, Vernier und Carouge nennen ihren Zuschlag schon auf ihrer Seite, Kanton und Stadt Genf noch nicht. Erledigt 2026-11-28 (Auftrag `luecken-1`): Die Stadt Genf hat eine Karte zur Hundesteuer mit 100 centimes additionnels, die Karte des Kantons nennt den Zuschlag schon.

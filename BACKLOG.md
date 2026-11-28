@@ -52,6 +52,17 @@ Die offenen Lücken stehen in `backlog/luecken.md`, jede Zeile beginnt mit dem K
 
 Vorgaben in `CLAUDE.md` unter «Umbauten am Generator».
 
+- [ ] fällig: **Themenfeld 2 «Hunde betreuen und ausbilden als Beruf» (Feld `gewerbe`)** (Vorgabe aus der Sitzung vom 28.11.2026, Reihenfolge der Themen in Abschnitt 9). Wer Hunde gegen Entgelt betreut, ausführt oder ausbildet, soll auf der Seite seines Kantons finden, welche Bewilligung es braucht und wo man sie beantragt. Dieser Sonderlauf baut nur das Gerüst und die Karte des Bundes. Die Kantone folgen danach nach Abschnitt 9.4.
+  1. Datenfeld. Kantone bekommen wahlweise `gewerbe: {"text", "punkte", "quellen"}`, gebaut und geprüft wie `vermisst` (`pruefe()`, Übersetzungen, Prüfsumme).
+  2. Bund. In den drei Fassungen von `schweiz.json` genau eine neue Karte mit `"id": "gewerbe"`, jede aus den Seiten des Bundes in ihrer Sprache (Bundesamt für Lebensmittelsicherheit und Veterinärwesen, Tierschutzverordnung). Zu belegen: wann das Betreuen von Hunden gegen Entgelt (Tierheim, Pension, Tagesstätte) eine Bewilligung braucht, wer sie erteilt, welche Ausbildung verlangt ist, und was für Zucht und Handel gilt. Nur was im Lauf im Wortlaut gelesen ist. Der Text der Tierschutzverordnung liegt nicht auf dem Zweig `wandel`: Es zählen die Seiten des Bundesamts. Findet sich für eine der drei Sprachen nach zwei Suchanläufen keine Quelle des Bundes: den Sonderlauf abbrechen, alles zurücknehmen und es im Protokoll festhalten.
+  3. Kantonsseite. Abschnitt mit `id="gewerbe"` nach «Hund vermisst oder gefunden», nur wenn der Kanton das Feld hat. Dafür `abschnitt_vermisst()` so verallgemeinern, dass beide Felder dieselbe Funktion benutzen. Keine bestehende Seite darf sich dadurch ändern: nach dem Bau `git diff --stat` der erzeugten Seiten ansehen, es ändern sich nur die Seiten des Bundes, die neue Themenseite, die Themenleiste und die Sitemap.
+  4. Themenseite `/thema/gewerbe/` in drei Sprachen über `seite_thema_feld()`, wie `/thema/vermisst/`: zuoberst die Karte des Bundes, darunter jeder Kanton mit dem Feld, für die übrigen der Verweis auf die Kantonsseite wie dort. Eintrag in `THEMEN` am Schluss.
+  5. Texte in `TEXTE` für `de`, `fr`, `it`. Name des Themas: «Hunde betreuen und ausbilden als Beruf», «Garder et éduquer des chiens à titre professionnel», «Custodire ed educare cani per professione». Titel und Beschreibung der Seite nennen, wonach gesucht wird: Hundepension, Hundetagesstätte, Hundesitter, Hundeschule, Bewilligung. Französisch und Italienisch nach `handbuch/uebersetzungen.md`. Kein fester Text behauptet eine Pflicht, die nicht in der Karte des Bundes belegt ist.
+  6. Test (`tests/seiten.js`) wie bei `vermisst`: Die Kantonsseite zeigt den Abschnitt genau dann, wenn ihre Datei das Feld hat. Die Themenseite gibt es in drei Sprachen, die Karte des Bundes steht zuoberst.
+  7. Ansehen: die Themenseite in drei Sprachen als Bild, breit und mit 390 Pixeln Breite.
+  8. Handbuch: `handbuch/generator.md` und der Punkt bei «Datenfelder Kanton» in `CLAUDE.md`. Lehnt die Umgebung die Änderung an `CLAUDE.md` ab: nicht wiederholen, im Protokoll festhalten, der Umbau gilt trotzdem als erledigt.
+  9. Danach in Abschnitt 9.4 den Vermerk «wartet auf den Sonderlauf» streichen.
+
 ## 6. Ideen für später
 
 Steht in `backlog/spaeter.md`.
@@ -78,11 +89,46 @@ Feld `vermisst`, gebaut mit dem Sonderlauf in Abschnitt 5. Je Kanton zu belegen,
 
 Einstiege: Seite des Veterinärdiensts, Seite der Kantonspolizei, kantonale Gesetzessammlung (Einführungsgesetz zum ZGB, Verordnung über die Meldestelle für Findeltiere). Nennt der Kanton eine private Meldestelle als seine amtliche, ist die Seite oder der Erlass des Kantons die Quelle, nicht die Website der Meldestelle. Findet sich nach zwei Suchversuchen keine amtliche Quelle: Feld weglassen und den Kanton hier als «zurückgestellt» mit Datum und Grund vermerken. Bei zweisprachigen Kantonen kommt das Feld in beide Originalfassungen.
 
-- [ ] Graubünden (deutsch und italienisch)
-- [ ] Neuenburg
-- [ ] Basel-Stadt
 - [ ] Appenzell Ausserrhoden: zurückgestellt am 2026-11-28. Keine amtliche Quelle nennt eine Meldestelle für entlaufene oder gefundene Hunde. Gelesen: EG zum ZGB (bGS 211.1), Hundeverordnung (bGS 525.11), Broschüre zur Hundehaltung (nur: die Gemeinden sorgen für streunende und herrenlose Hunde), Seite «Hunde» des Veterinäramts, Seite «Fundbüro» der Kantonspolizei (nur ein Link «Findeltiere» auf ein Tierheim, ohne Satz dazu). Die Seiten «Meldungen an das Veterinäramt» und «Tierschutz» auf ar.ch lieferten einen Fehler. Nächster Ansatz: die Seite «Tierschutz» des Veterinäramts (`ar.ch/verwaltung/departement-gesundheit-und-soziales/veterinaeramt/tierschutz/`) in einer Sitzung im Browser von Joss lesen. Ihr Link heisst auf der Seite des Amts «Tierschutzmeldungen und Findeltiere», WebFetch scheiterte am 28.11.2026 dreimal an der Website (Fehler der Seite, nicht gesperrt). Steht dort nichts: Auskunft des Veterinäramts beider Appenzell per Mail, Entwurf von Claude, Joss verschickt.
 - [ ] Appenzell Innerrhoden: zurückgestellt am 2026-11-28. Auf den Seiten «Fundbüro» und «Melden und Anzeigen» der Kantonspolizei und «Tierhaltung» auf ai.ch steht nichts zu entlaufenen oder gefundenen Tieren, in der Gesetzessammlung fand sich nichts. Nächster Ansatz: zuerst die Seite «Tierschutz» des gemeinsamen Veterinäramts im Browser lesen (siehe Appenzell Ausserrhoden) und nur verwenden, wenn sie ausdrücklich auch für Innerrhoden gilt. Sonst Auskunft des Veterinäramts beider Appenzell per Mail, Entwurf von Claude, Joss verschickt.
+
+### 9.4 Thema 2: Hunde betreuen und ausbilden als Beruf
+
+Feld `gewerbe`. Wartet auf den Sonderlauf in Abschnitt 5: Erst wenn er dort abgehakt ist, belegt der Lauf die Kantone, bis zu 4 pro Lauf, in dieser Reihenfolge (nach Einwohnerzahl). Je Kanton zu belegen, jede Angabe aus einer amtlichen Quelle des Kantons, die im Lauf abgerufen wurde:
+
+- Betreuen gegen Entgelt (Pension, Tagesstätte, Hundesitting): bei welcher Stelle des Kantons man die Bewilligung beantragt, ab wann sie nötig ist und was die Seite des Amts zu Ausbildung, Gesuch und Gebühr sagt.
+- Fremde Hunde ausführen: Bewilligung für Hundeausführdienste und Höchstzahl gleichzeitig geführter Hunde, wenn der Kanton das regelt.
+- Ausbilden: Bewilligung, Anerkennung oder Meldepflicht für Hundeschulen und Kursleitende, auch für die obligatorischen Kurse des Kantons.
+- Weitere Pflichten für diese Tätigkeiten (zum Beispiel Haftpflicht oder Meldung an die Gemeinde), nur wenn sie in einem Erlass oder auf der Seite des Amts stehen.
+
+Nicht dazu gehören Empfehlungen, Regeln von Verbänden, Preise und einzelne Anbieter. Zucht und Handel nur, wenn der Kanton über das Bundesrecht hinausgeht. Sagt der Kanton nur, dass das Bundesrecht gilt, und nennt die Stelle für das Gesuch: genau das schreiben. Steht eine Angabe schon in einer Karte des Kantons (zum Beispiel die Höchstzahl geführter Hunde unter «Unterwegs»): im Feld wiederholen, mit derselben Quelle, nichts Neues daraus ableiten. Einstiege: Seite des Veterinärdiensts unter «Bewilligungen», «Tierschutz» oder «Tierhaltung», das Hundegesetz des Kantons (`python3 tools/wandel.py --text <Schlüssel> --suche Bewilligung`), Merkblätter und Gesuchsformulare des Amts. Findet sich nach zwei Suchanläufen keine amtliche Quelle des Kantons: Feld weglassen und den Kanton hier als «zurückgestellt» mit Datum und Grund vermerken. Bei zweisprachigen Kantonen kommt das Feld in beide Originalfassungen.
+
+- [ ] Zürich
+- [ ] Bern (deutsch und französisch)
+- [ ] Waadt
+- [ ] Aargau
+- [ ] St. Gallen
+- [ ] Genf
+- [ ] Luzern
+- [ ] Tessin
+- [ ] Wallis (deutsch und französisch)
+- [ ] Freiburg (deutsch und französisch)
+- [ ] Basel-Landschaft
+- [ ] Thurgau
+- [ ] Solothurn
+- [ ] Graubünden (deutsch und italienisch)
+- [ ] Basel-Stadt
+- [ ] Neuenburg
+- [ ] Schwyz
+- [ ] Zug
+- [ ] Schaffhausen
+- [ ] Jura
+- [ ] Appenzell Ausserrhoden
+- [ ] Nidwalden
+- [ ] Glarus
+- [ ] Obwalden
+- [ ] Uri
+- [ ] Appenzell Innerrhoden
 
 ### 9.2 und 9.3
 
@@ -92,7 +138,7 @@ Die vorgemerkten Themen und die Themenlandkarte stehen in `backlog/spaeter.md`.
 
 Entscheid von Joss vom 27.11.2026, 01:50 Uhr: zuerst die Seite so vollständig und gut wie möglich machen, dann die Tierheime und die zweite Runde an Hundeschulen anschreiben. Damit das ein Ende hat, gilt dieses Programm. Stehen die Punkte 1 bis 4, meldet der Bericht zuoberst «bereit für die Verbreitung». Empfänger und Texte liegen bereit (Seiten «Hundeschulen Runde 2» und «Tierheime Runde 1» von Joss). Die Adressen der Hundeschulen stammen aus der Liste vom 20.11.2026 und werden vor dem Versand noch einmal geprüft. Spätestens Ende Februar 2027 gehen die Mails raus, auch wenn nicht alles steht: Am 1. April beginnt in vielen Kantonen die Leinenpflicht im Wald, dann wird am meisten gesucht.
 
-1. [ ] Themenfeld «Hund vermisst oder gefunden»: Sonderlauf (Abschnitt 5), dann alle Kantone (Abschnitt 9.1). Macht der Lauf.
+1. [x] Themenfeld «Hund vermisst oder gefunden»: Sonderlauf (Abschnitt 5), dann alle Kantone (Abschnitt 9.1). Macht der Lauf. Stand 2026-11-28: 24 von 26 Kantonen belegt, Appenzell Ausserrhoden und Appenzell Innerrhoden zurückgestellt (Abschnitt 9.1).
 2. [x] Lücke «Kursanbieter finden»: am 27.11.2026 in der Sitzung erledigt für sechs der acht Kantone mit Kurspflicht. Für Luzern und Thurgau gibt es keine amtliche Liste.
 3. [ ] Tote Links und Quellen, die dreimal «UNKLAR» waren, bereinigen (Abschnitt 4). Macht der Lauf beim Nachprüfen.
    Dazu der Änderungswächter für Quellen (Abschnitt 5, zweiter Sonderlauf): Er zeigt, welche Quelle sich geändert hat, damit der Lauf nicht blind nachprüft.
