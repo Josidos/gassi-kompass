@@ -1,0 +1,54 @@
+{
+  "id": "val-de-ruz",
+  "kanton": "ne",
+  "bfs": 6487,
+  "name": "Val-de-Ruz",
+  "ort": "Val-de-Ruz",
+  "in_ort": "à Val-de-Ruz",
+  "geprueft": "2026-11-28",
+  "einleitung": "Les règles locales figurent dans le règlement de police du 26 octobre 2016, en vigueur depuis le 1er janvier 2017 et modifié les 14 décembre 2020 et 31 octobre 2022.",
+  "karten": [
+    {
+      "titel": "Impôt sur les chiens",
+      "wert": "CHF 120 par chien et par an",
+      "text": "La Commune perçoit une taxe annuelle de CHF 120 par chien. Selon le règlement d'exécution sur les taxes et émoluments, la taxe est fixée au montant maximum prévu par la loi cantonale. Les exonérations sont fixées par le règlement de police. Si vous ne payez pas la taxe, vous êtes passible d'une amende d'un montant égal à celui de la taxe éludée.",
+      "quellen": [
+        "ne_valderuz_animaux",
+        "ne_valderuz_taxes",
+        "ne_valderuz_police"
+      ]
+    },
+    {
+      "titel": "Laisse",
+      "wert": "jardins publics, en forêt du 15 avril au 30 juin",
+      "text": "Dans les jardins publics, vous devez tenir votre chien en laisse. Ailleurs, vous devez pouvoir maîtriser votre chien par la voix ou le geste. À défaut, il doit être tenu en laisse. Du 15 avril au 30 juin, les chiens doivent être tenus en laisse en forêt. Les chiens hargneux doivent être tenus en laisse et munis d'une muselière. Vous veillez à ce que votre chien ne souille pas le domaine public et privé. Sinon, vous prenez toutes les mesures utiles pour rendre l'endroit propre.",
+      "quellen": [
+        "ne_valderuz_police"
+      ]
+    },
+    {
+      "titel": "Accès interdit",
+      "wert": "cimetières, places de jeux, magasins d'alimentation",
+      "text": "Il est interdit d'introduire des chiens dans les cimetières. Les locaux destinés à la vente des denrées alimentaires, les places de jeux et les massifs décoratifs sont interdits aux chiens. Dans les jardins publics, l'accès aux places de jeux pour enfants est interdit aux animaux de compagnie.",
+      "quellen": [
+        "ne_valderuz_police"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "wert": "au contrôle des habitants de Cernier",
+      "text": "Vous annoncez votre chien au contrôle des habitants de Cernier. Vous communiquez le numéro de puce de l'animal et transmettez une copie du carnet de vaccination. Votre chien est ensuite enregistré dans la banque de données AMICUS.",
+      "quellen": [
+        "ne_valderuz_animaux"
+      ]
+    },
+    {
+      "titel": "Amendes",
+      "wert": "jusqu'à CHF 10 000",
+      "text": "Les infractions au règlement de police sont passibles d'une amende allant jusqu'à CHF 10 000. Les infractions aux règles sur les déjections des chiens sont dénoncées selon la procédure de dénonciations simplifiées.",
+      "quellen": [
+        "ne_valderuz_police"
+      ]
+    }
+  ]
+}

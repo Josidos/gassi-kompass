@@ -1,0 +1,55 @@
+{
+  "id": "val-de-ruz",
+  "kanton": "ne",
+  "bfs": 6487,
+  "uebersetzt_aus": "fr",
+  "original": "26d4dde2b503",
+  "name": "Val-de-Ruz",
+  "ort": "Val-de-Ruz",
+  "in_ort": "in Val-de-Ruz",
+  "einleitung": "Die lokalen Regeln stehen im règlement de police (Polizeireglement) vom 26. Oktober 2016, in Kraft seit dem 1. Januar 2017 und geändert am 14. Dezember 2020 und am 31. Oktober 2022.",
+  "karten": [
+    {
+      "titel": "Hundetaxe",
+      "wert": "CHF 120 pro Hund und Jahr",
+      "text": "Die Gemeinde erhebt eine jährliche Taxe von CHF 120 pro Hund. Laut dem Ausführungsreglement über Taxen und Gebühren entspricht die Taxe dem Höchstbetrag des kantonalen Gesetzes. Die Befreiungen legt das Polizeireglement fest. Wer die Taxe nicht zahlt, kann mit einer Busse in der Höhe der hinterzogenen Taxe bestraft werden.",
+      "quellen": [
+        "ne_valderuz_animaux",
+        "ne_valderuz_taxes",
+        "ne_valderuz_police"
+      ]
+    },
+    {
+      "titel": "Leine",
+      "wert": "öffentliche Gärten, im Wald vom 15. April bis 30. Juni",
+      "text": "In öffentlichen Gärten musst du deinen Hund an der Leine führen. Anderswo musst du deinen Hund mit Stimme oder Geste beherrschen können. Sonst muss er an der Leine geführt werden. Vom 15. April bis 30. Juni müssen Hunde im Wald an der Leine geführt werden. Bissige Hunde müssen an der Leine geführt werden und einen Maulkorb tragen. Du sorgst dafür, dass dein Hund öffentlichen und privaten Grund nicht verschmutzt. Sonst triffst du alle nötigen Massnahmen, um die Stelle zu reinigen.",
+      "quellen": [
+        "ne_valderuz_police"
+      ]
+    },
+    {
+      "titel": "Kein Zutritt",
+      "wert": "Friedhöfe, Spielplätze, Lebensmittelgeschäfte",
+      "text": "Hunde dürfen nicht auf Friedhöfe mitgenommen werden. Räume für den Verkauf von Lebensmitteln, Spielplätze und Zierbeete sind für Hunde verboten. In öffentlichen Gärten ist der Zutritt zu Kinderspielplätzen für Heimtiere verboten.",
+      "quellen": [
+        "ne_valderuz_police"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "wert": "bei der Einwohnerkontrolle in Cernier",
+      "text": "Du meldest deinen Hund bei der Einwohnerkontrolle (contrôle des habitants) in Cernier an. Du gibst die Chipnummer des Tiers an und reichst eine Kopie des Impfausweises ein. Danach wird dein Hund in der Datenbank AMICUS registriert.",
+      "quellen": [
+        "ne_valderuz_animaux"
+      ]
+    },
+    {
+      "titel": "Bussen",
+      "wert": "bis CHF 10 000",
+      "text": "Verstösse gegen das Polizeireglement können mit einer Busse bis CHF 10 000 bestraft werden. Verstösse gegen die Regeln zum Hundekot werden im vereinfachten Verfahren angezeigt.",
+      "quellen": [
+        "ne_valderuz_police"
+      ]
+    }
+  ]
+}

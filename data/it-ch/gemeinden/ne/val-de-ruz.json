@@ -1,0 +1,55 @@
+{
+  "id": "val-de-ruz",
+  "kanton": "ne",
+  "bfs": 6487,
+  "uebersetzt_aus": "fr",
+  "original": "26d4dde2b503",
+  "name": "Val-de-Ruz",
+  "ort": "Val-de-Ruz",
+  "in_ort": "a Val-de-Ruz",
+  "einleitung": "Le regole locali figurano nel règlement de police (regolamento di polizia) del 26 ottobre 2016, in vigore dal 1° gennaio 2017 e modificato il 14 dicembre 2020 e il 31 ottobre 2022.",
+  "karten": [
+    {
+      "titel": "Imposta sui cani",
+      "wert": "CHF 120 per cane all'anno",
+      "text": "Il Comune riscuote una tassa annua di CHF 120 per cane. Secondo il regolamento d'esecuzione su tasse ed emolumenti, la tassa corrisponde all'importo massimo previsto dalla legge cantonale. Le esenzioni sono fissate dal regolamento di polizia. Se non paghi la tassa, sei passibile di una multa di importo pari alla tassa elusa.",
+      "quellen": [
+        "ne_valderuz_animaux",
+        "ne_valderuz_taxes",
+        "ne_valderuz_police"
+      ]
+    },
+    {
+      "titel": "Guinzaglio",
+      "wert": "giardini pubblici, nel bosco dal 15 aprile al 30 giugno",
+      "text": "Nei giardini pubblici devi tenere il tuo cane al guinzaglio. Altrove devi poter controllare il tuo cane con la voce o con il gesto. Altrimenti deve essere tenuto al guinzaglio. Dal 15 aprile al 30 giugno i cani devono essere tenuti al guinzaglio nel bosco. I cani mordaci devono essere tenuti al guinzaglio e portare la museruola. Ti assicuri che il tuo cane non sporchi il suolo pubblico e privato. Altrimenti prendi tutte le misure utili per pulire il luogo.",
+      "quellen": [
+        "ne_valderuz_police"
+      ]
+    },
+    {
+      "titel": "Accesso vietato",
+      "wert": "cimiteri, parchi giochi, negozi di alimentari",
+      "text": "È vietato introdurre cani nei cimiteri. I locali destinati alla vendita di generi alimentari, i parchi giochi e le aiuole decorative sono vietati ai cani. Nei giardini pubblici l'accesso ai parchi giochi per bambini è vietato agli animali da compagnia.",
+      "quellen": [
+        "ne_valderuz_police"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "wert": "al controllo abitanti di Cernier",
+      "text": "Annunci il tuo cane al contrôle des habitants (controllo abitanti) di Cernier. Comunichi il numero del microchip dell'animale e trasmetti una copia del libretto delle vaccinazioni. Il tuo cane viene poi registrato nella banca dati AMICUS.",
+      "quellen": [
+        "ne_valderuz_animaux"
+      ]
+    },
+    {
+      "titel": "Multe",
+      "wert": "fino a CHF 10 000",
+      "text": "Le infrazioni al regolamento di polizia sono passibili di una multa fino a CHF 10 000. Le infrazioni alle regole sugli escrementi dei cani sono denunciate con la procedura di denuncia semplificata.",
+      "quellen": [
+        "ne_valderuz_police"
+      ]
+    }
+  ]
+}
