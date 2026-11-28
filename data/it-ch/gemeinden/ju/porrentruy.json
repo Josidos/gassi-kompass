@@ -1,0 +1,55 @@
+{
+  "id": "porrentruy",
+  "kanton": "ju",
+  "bfs": 6800,
+  "uebersetzt_aus": "fr",
+  "original": "68f336fa9edd",
+  "name": "Porrentruy",
+  "ort": "Porrentruy",
+  "in_ort": "a Porrentruy",
+  "hinweis_heute": "A Porrentruy l'obbligo di guinzaglio vale tutto l'anno sulla via pubblica e negli spazi aperti al pubblico.",
+  "einleitung": "Le regole locali figurano nel Règlement concernant la garde et la taxe des chiens (regolamento sulla custodia e sulla tassa dei cani), adottato dal Conseil de ville (consiglio comunale) il 26 giugno 2003 (stato: 2003). Il Conseil de ville fissa l'importo della tassa con il preventivo annuale.",
+  "karten": [
+    {
+      "titel": "Imposta sui cani",
+      "wert": "CHF 100 per cane",
+      "text": "Secondo il preventivo 2026, approvato dal Conseil de ville il 13 novembre 2025, la tassa è di CHF 100 per cane. Sono soggetti alla tassa solo i detentori di cani di età superiore a tre mesi al 1° maggio.",
+      "quellen": [
+        "ju_porrentruy_budget",
+        "ju_porrentruy_chiens"
+      ]
+    },
+    {
+      "titel": "Guinzaglio",
+      "wert": "via pubblica e spazi aperti al pubblico",
+      "text": "Ogni cane deve essere tenuto al guinzaglio sulla via pubblica e negli spazi aperti al pubblico. Fuori dalla via pubblica devi tenere il tuo cane sempre sotto controllo. Prendi misure affinché il tuo cane non sporchi la via pubblica ed elimini gli escrementi che vi lascia. Stato del regolamento: 2003.",
+      "quellen": [
+        "ju_porrentruy_chiens"
+      ]
+    },
+    {
+      "titel": "Accesso vietato",
+      "wert": "parchi giochi, cimiteri, complessi scolastici",
+      "text": "I cani sono vietati nei parchi giochi per bambini, nei cimiteri e nei complessi scolastici. Non sono ammessi nei negozi di generi alimentari. Stato del regolamento: 2003.",
+      "quellen": [
+        "ju_porrentruy_chiens"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "wert": "all'amministrazione comunale entro 30 giorni",
+      "text": "Annunci il tuo cane all'amministrazione comunale entro 30 giorni dalla presa a carico. Segnali la detenzione del cane anche quando ti registri al controllo abitanti. Stato del regolamento: 2003.",
+      "quellen": [
+        "ju_porrentruy_chiens"
+      ]
+    },
+    {
+      "titel": "Multe",
+      "wert": "da CHF 50 a CHF 1000",
+      "text": "Il Conseil municipal (municipio) può pronunciare una multa da CHF 50 a CHF 1000 in caso di infrazione al regolamento. Stato del regolamento: 2003.",
+      "quellen": [
+        "ju_porrentruy_chiens"
+      ]
+    }
+  ]
+}

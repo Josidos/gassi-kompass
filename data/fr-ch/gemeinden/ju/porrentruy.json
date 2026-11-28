@@ -1,0 +1,54 @@
+{
+  "id": "porrentruy",
+  "kanton": "ju",
+  "bfs": 6800,
+  "name": "Porrentruy",
+  "ort": "Porrentruy",
+  "in_ort": "à Porrentruy",
+  "geprueft": "2026-11-28",
+  "hinweis_heute": "À Porrentruy, la laisse est obligatoire toute l'année sur la voie publique et dans les espaces ouverts au public.",
+  "einleitung": "Les règles locales figurent dans le règlement concernant la garde et la taxe des chiens, adopté par le Conseil de ville le 26 juin 2003 (état: 2003). Le Conseil de ville fixe le montant de la taxe avec le budget annuel.",
+  "karten": [
+    {
+      "titel": "Impôt sur les chiens",
+      "wert": "CHF 100 par chien",
+      "text": "Selon le budget 2026, approuvé par le Conseil de ville le 13 novembre 2025, la taxe est de CHF 100 par chien. Seuls les détenteurs de chiens âgés de plus de trois mois au 1er mai sont soumis à la taxe.",
+      "quellen": [
+        "ju_porrentruy_budget",
+        "ju_porrentruy_chiens"
+      ]
+    },
+    {
+      "titel": "Laisse",
+      "wert": "voie publique et espaces ouverts au public",
+      "text": "Tout chien doit être tenu en laisse sur la voie publique et dans les espaces ouverts au public. Hors voie publique, vous devez tenir votre chien en permanence sous contrôle. Vous prenez des mesures pour que votre chien ne souille pas la voie publique et vous éliminez les excréments qu'il y laisse. État du règlement: 2003.",
+      "quellen": [
+        "ju_porrentruy_chiens"
+      ]
+    },
+    {
+      "titel": "Accès interdit",
+      "wert": "places de jeux, cimetières, complexes scolaires",
+      "text": "Les chiens sont interdits dans les emplacements de jeux pour enfants, sur les cimetières et dans les complexes scolaires. Ils ne sont pas autorisés dans les commerces de denrées alimentaires. État du règlement: 2003.",
+      "quellen": [
+        "ju_porrentruy_chiens"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "wert": "à l'administration communale dans les 30 jours",
+      "text": "Vous annoncez votre chien à l'administration communale dans les 30 jours après sa prise en charge. Vous signalez aussi la détention du chien lors de votre enregistrement au contrôle des habitants. État du règlement: 2003.",
+      "quellen": [
+        "ju_porrentruy_chiens"
+      ]
+    },
+    {
+      "titel": "Amendes",
+      "wert": "CHF 50 à CHF 1000",
+      "text": "Le Conseil municipal peut prononcer une amende de CHF 50 à CHF 1000 en cas d'infraction au règlement. État du règlement: 2003.",
+      "quellen": [
+        "ju_porrentruy_chiens"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "porrentruy",
+  "kanton": "ju",
+  "bfs": 6800,
+  "uebersetzt_aus": "fr",
+  "original": "68f336fa9edd",
+  "name": "Porrentruy",
+  "ort": "Porrentruy",
+  "in_ort": "in Porrentruy",
+  "hinweis_heute": "In Porrentruy gilt das ganze Jahr Leinenpflicht auf öffentlichen Strassen und an öffentlich zugänglichen Orten.",
+  "einleitung": "Die lokalen Regeln stehen im Règlement concernant la garde et la taxe des chiens (Reglement über die Haltung und die Taxe der Hunde), vom Conseil de ville (Stadtrat) am 26. Juni 2003 beschlossen (Stand: 2003). Der Conseil de ville legt den Betrag der Taxe mit dem jährlichen Budget fest.",
+  "karten": [
+    {
+      "titel": "Hundetaxe",
+      "wert": "CHF 100 pro Hund",
+      "text": "Laut Budget 2026, vom Conseil de ville am 13. November 2025 genehmigt, beträgt die Taxe CHF 100 pro Hund. Die Taxe zahlt nur, wer am 1. Mai einen Hund hält, der älter als drei Monate ist.",
+      "quellen": [
+        "ju_porrentruy_budget",
+        "ju_porrentruy_chiens"
+      ]
+    },
+    {
+      "titel": "Leine",
+      "wert": "öffentliche Strassen und öffentlich zugängliche Orte",
+      "text": "Jeder Hund muss auf öffentlichen Strassen und an öffentlich zugänglichen Orten an der Leine geführt werden. Ausserhalb der öffentlichen Strassen musst du deinen Hund jederzeit unter Kontrolle halten. Du sorgst dafür, dass dein Hund die öffentlichen Strassen nicht verschmutzt, und entfernst den Kot, den er dort hinterlässt. Stand des Reglements: 2003.",
+      "quellen": [
+        "ju_porrentruy_chiens"
+      ]
+    },
+    {
+      "titel": "Kein Zutritt",
+      "wert": "Spielplätze, Friedhöfe, Schulanlagen",
+      "text": "Hunde sind auf Kinderspielplätzen, auf Friedhöfen und in Schulanlagen verboten. In Lebensmittelgeschäften sind sie nicht erlaubt. Stand des Reglements: 2003.",
+      "quellen": [
+        "ju_porrentruy_chiens"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "wert": "bei der Gemeindeverwaltung innert 30 Tagen",
+      "text": "Du meldest deinen Hund innert 30 Tagen nach der Übernahme bei der Gemeindeverwaltung an. Du gibst die Haltung des Hundes auch an, wenn du dich bei der Einwohnerkontrolle anmeldest. Stand des Reglements: 2003.",
+      "quellen": [
+        "ju_porrentruy_chiens"
+      ]
+    },
+    {
+      "titel": "Bussen",
+      "wert": "CHF 50 bis CHF 1000",
+      "text": "Der Conseil municipal (Gemeinderat) kann bei Verstössen gegen das Reglement eine Busse von CHF 50 bis CHF 1000 aussprechen. Stand des Reglements: 2003.",
+      "quellen": [
+        "ju_porrentruy_chiens"
+      ]
+    }
+  ]
+}
