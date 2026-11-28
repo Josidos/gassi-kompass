@@ -108,5 +108,17 @@
     "rassen": "nessun elenco di razze",
     "steuer": "secondo il comune",
     "anm": "comune, banca dati dei cani"
+  },
+  "vermisst": {
+    "text": "Nel Cantone dei Grigioni chi trova un animale deve fare in modo che venga affidato agli organi comunali o portato in un luogo definito da loro, finché il proprietario è rintracciato. Se il proprietario non viene rintracciato entro breve, il ritrovamento va annunciato all'ufficio di notifica cantonale (art. 720a del Codice civile). Stato del promemoria: settembre 2010.",
+    "punkte": [
+      "Puoi rivolgerti agli organi del Comune in cui hai trovato il cane, a qualsiasi posto di polizia, alla Centrale svizzera animali smarriti STMZ (365 giorni all'anno, 24 ore al giorno, telefono 0848 357 358) o all'Ufficio per la sicurezza delle derrate alimentari e la salute degli animali (ufficio di notifica cantonale, telefono 081 257 24 15).",
+      "Su internet puoi annunciare gratuitamente smarrimenti e ritrovamenti di animali, su www.alt.gr.ch o www.stmz.ch.",
+      "Se il proprietario non viene trovato entro il termine legale di due mesi dall'annuncio ufficiale di ritrovamento, gli organi comunali provvedono a trovare una nuova sistemazione per l'animale.",
+      "Le spese per il cibo, la sistemazione, le ricerche e tutte le altre spese sono a carico del proprietario. Se il proprietario non può essere rintracciato, sono a carico del Comune."
+    ],
+    "quellen": [
+      "gr_findeltiere_it"
+    ]
   }
 }

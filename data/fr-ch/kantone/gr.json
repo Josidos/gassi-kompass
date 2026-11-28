@@ -2,7 +2,7 @@
   "id": "gr",
   "kurz": "GR",
   "uebersetzt_aus": "de",
-  "original": "b0fef5bd3a44",
+  "original": "886f1e05f96d",
   "wald": {
     "saison": false,
     "text": "Le Jagdgesetz (loi sur la chasse), la Jagdverordnung (ordonnance sur la chasse) et le Veterinärgesetz (loi vétérinaire) du canton ne prévoient ni laisse obligatoire en forêt ni période fixe de laisse obligatoire. Les communes peuvent édicter leurs propres dispositions. Respectez les règles et les panneaux de votre commune.",
@@ -108,5 +108,16 @@
     "rassen": "aucune liste de races",
     "steuer": "selon la commune",
     "anm": "commune, banque de données des chiens"
+  },
+  "vermisst": {
+    "text": "Dans le canton des Grisons, les organes communaux sont compétents pour les animaux sans maître et les animaux perdus. Vous annoncez un chien trouvé aux organes communaux. Si vous ne connaissez pas la détentrice ou le détenteur, vous annoncez la trouvaille à un service désigné par le canton: l'Amt für Lebensmittelsicherheit und Tiergesundheit (office de la sécurité alimentaire et de la santé animale, service d'annonce cantonal) ou la Schweizerische Tiermeldezentrale (STMZ, centrale suisse d'annonce des animaux).",
+    "punkte": [
+      "Chien trouvé: vous devez avertir la détentrice ou le détenteur. Si vous ne la ou le connaissez pas, vous annoncez la trouvaille à un service d'annonce.",
+      "Amt für Lebensmittelsicherheit und Tiergesundheit: annonce de trouvaille au 081 257 24 15 (tarif normal) pendant les heures d'ouverture, toutes les annonces aussi en ligne.",
+      "STMZ, 365 jours par an et 24 heures par jour: annonce de trouvaille au 0848 357 358 (tarif normal), annonce de disparition au 0900 357 358 (CHF 1.95 par minute). En ligne, toutes les annonces sont gratuites."
+    ],
+    "quellen": [
+      "gr_findeltiere"
+    ]
   }
 }

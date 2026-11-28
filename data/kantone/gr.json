@@ -110,5 +110,16 @@
     "rassen": "keine Rasseliste",
     "steuer": "je nach Gemeinde",
     "anm": "Gemeinde, Hundedatenbank"
+  },
+  "vermisst": {
+    "text": "Im Kanton Graubünden sind die Gemeindeorgane für herrenlose und entlaufene Tiere zuständig. Einen gefundenen Hund meldest du den Gemeindeorganen. Kennst du die Halterin oder den Halter nicht, zeigst du den Fund bei einer vom Kanton bezeichneten Meldestelle an: beim Amt für Lebensmittelsicherheit und Tiergesundheit (kantonale Meldestelle) oder bei der Schweizerischen Tiermeldezentrale (STMZ).",
+    "punkte": [
+      "Hund gefunden: Du musst die Halterin oder den Halter benachrichtigen. Kennst du sie nicht, zeigst du den Fund bei einer Meldestelle an.",
+      "Amt für Lebensmittelsicherheit und Tiergesundheit: Fundmeldung unter 081 257 24 15 (Normaltarif) zu den Öffnungszeiten, alle Meldungen auch online.",
+      "STMZ, 365 Tage im Jahr und 24 Stunden am Tag: Fundmeldung unter 0848 357 358 (Normaltarif), Vermisstmeldung unter 0900 357 358 (CHF 1.95 pro Minute). Online sind alle Meldungen gratis."
+    ],
+    "quellen": [
+      "gr_findeltiere"
+    ]
   }
 }

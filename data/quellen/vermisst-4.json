@@ -8,5 +8,15 @@
     "kurz": "SCAV Neuchâtel: animaux de compagnie",
     "lang": "République et Canton de Neuchâtel, Service de la consommation et des affaires vétérinaires (SCAV): page «Animaux de compagnie», rubriques «Chiens perdus ou trouvés» et «Animaux perdus ou trouvés» (sans date, consultée le 28 novembre 2026)",
     "url": "https://www.ne.ch/autorites/DDTE/SCAV/animaux/Pages/animauxdecompagnie.aspx"
+  },
+  "gr_findeltiere": {
+    "kurz": "ALT Graubünden: Tierschutz, Findeltiere",
+    "lang": "Kanton Graubünden, Amt für Lebensmittelsicherheit und Tiergesundheit: Seite «Tierschutz», Abschnitt «Findeltiere» (abgerufen am 28. November 2026)",
+    "url": "https://www.gr.ch/DE/institutionen/verwaltung/dvs/alt/tiere/tierschutz/Seiten/default.aspx"
+  },
+  "gr_findeltiere_it": {
+    "kurz": "USDA Grigioni: animali smarriti e ritrovati",
+    "lang": "Cantone dei Grigioni, Ufficio per la sicurezza delle derrate alimentari e la salute degli animali: «Animali smarriti e ritrovati - Domande frequenti» (stato settembre 2010, consultato il 28 novembre 2026)",
+    "url": "https://www.gr.ch/IT/istituzioni/amministrazione/dvs/alt_temp/Promemoria_Merkblaetter/FinTi_FAQs_ita.pdf"
   }
 }
