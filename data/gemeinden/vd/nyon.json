@@ -1,0 +1,48 @@
+{
+  "id": "nyon",
+  "kanton": "vd",
+  "bfs": 5724,
+  "uebersetzt_aus": "fr",
+  "original": "f42388eb3cb6",
+  "name": "Stadt Nyon",
+  "ort": "Nyon",
+  "in_ort": "in Nyon",
+  "einleitung": "Nyon erhebt eine eigene Hundesteuer, zusätzlich zur kantonalen Steuer. Das Règlement de police (Polizeireglement) der Stadt verlangt die Leine auf Promenaden und in Parks und verbietet Hunde an bestimmten Orten.",
+  "karten": [
+    {
+      "titel": "Hundetaxe",
+      "wert": "CHF 175 pro Hund und Jahr",
+      "text": "Der Betrag umfasst die Gemeindesteuer von CHF 75 und die kantonale Steuer von CHF 100. Für Hunde von Landwirtschaftsbetrieben ist die Gemeindesteuer auf CHF 55 ermässigt. Die Steuer schuldet, wem der Hund am 1. Januar gehört. Die Rechnungen kommen per Post.",
+      "quellen": [
+        "vd_nyon_chiens",
+        "vd_impot"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "wert": "innert 15 Tagen beim Service de l'administration générale",
+      "text": "Einen Hund, den du im Lauf des Jahres erwirbst oder der neu zu dir kommt, meldest du innert 15 Tagen beim Service de l'administration générale (SAG, allgemeine Verwaltung) an, place du Château 3: mit dem unterschriebenen Formular. Du kannst auch direkt am Schalter vorbeigehen. Leg wenn nötig eine Kopie der Kompetenznachweise bei. Auch einen Hund, der stirbt, verschwindet, verkauft oder abgegeben wird, meldest du. Ein schon eingetragener Hund muss nicht jedes Jahr neu angemeldet werden. Zusätzlich ist die Eintragung in der Datenbank AMICUS Pflicht.",
+      "quellen": [
+        "vd_nyon_chiens"
+      ]
+    },
+    {
+      "titel": "Leine",
+      "wert": "Promenaden, Parks und öffentliche Einrichtungen",
+      "text": "Auf öffentlichem Grund und an öffentlich zugänglichen Orten muss dein Hund an der Leine sein, ausser er ist so gut erzogen, dass er niemanden belästigt. Auch gut erzogene Hunde müssen auf Promenaden, in Parks und in öffentlichen Einrichtungen an der Leine sein. Die Polizei kann Hunden den Zutritt zu Orten mit öffentlichen Veranstaltungen verbieten.",
+      "quellen": [
+        "vd_nyon_police",
+        "vd_nyon_chiens"
+      ]
+    },
+    {
+      "titel": "Kein Zutritt",
+      "wert": "Friedhöfe, Messen und Märkte, Lebensmittelgeschäfte",
+      "text": "Das Règlement de police verbietet, Hunde auf Friedhöfe, auf das Gelände von Messen und Märkten und in Lebensmittelgeschäfte mitzunehmen. Den Kot deines Hundes nimmst du auf. Auf dem Gemeindegebiet stehen viele Beutelspender.",
+      "quellen": [
+        "vd_nyon_police",
+        "vd_nyon_chiens"
+      ]
+    }
+  ]
+}

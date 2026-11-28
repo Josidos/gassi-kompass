@@ -46,3 +46,5 @@ assets/fonts/
 # Grosse Rohdaten ohne Zusammenhang für den Graphen
 data/orte.json
 data/geo/
+# Arbeitskopien von Unteragenten
+/.claude/worktrees/

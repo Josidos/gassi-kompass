@@ -2,7 +2,7 @@
   "id": "zg",
   "kurz": "ZG",
   "uebersetzt_aus": "de",
-  "original": "6316172ca122",
+  "original": "567c9e51b60b",
   "wald": {
     "saison": true,
     "von": "04-01",
@@ -109,5 +109,12 @@
     "rassen": "aucune liste mentionnée par le canton, règlement de la commune",
     "steuer": "selon la commune",
     "anm": "commune de domicile et AMICUS"
+  },
+  "vermisst": {
+    "text": "Dans le canton de Zoug, la Schweizerische Tiermeldezentrale (STMZ, centrale suisse d'annonce des animaux) gère, sur mandat de la Gesundheitsdirektion (direction de la santé), le service cantonal d'annonce des animaux trouvés. Vous y annoncez un chien trouvé. Pour un chien disparu ou trouvé, le portail des autorités ch.ch renvoie aussi à la STMZ.",
+    "quellen": [
+      "zg_leistungsvereinbarungen",
+      "ch_chch_fund"
+    ]
   }
 }

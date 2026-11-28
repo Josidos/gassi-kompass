@@ -3,7 +3,7 @@
   "kanton": "vd",
   "bfs": 5938,
   "uebersetzt_aus": "fr",
-  "original": "be456190176c",
+  "original": "07ab6e101135",
   "name": "Yverdon-les-Bains",
   "ort": "Yverdon-les-Bains",
   "in_ort": "in Yverdon-les-Bains",
@@ -12,7 +12,7 @@
     {
       "titel": "Hundetaxe",
       "wert": "CHF 170 pro Hund im Jahr 2026",
-      "text": "Der Betrag umfasst die Gemeindesteuer von CHF 70, festgelegt im Arrêté d'imposition 2026 (Steuerbeschluss), und die kantonale Steuer von CHF 100, Eintragung inbegriffen. Die Steuer schuldet, wem der Hund am 1. Januar gehört.",
+      "text": "Der Betrag umfasst die Gemeindesteuer von CHF 70, gemäss dem Préavis (Antrag der Municipalité) zum Arrêté d'imposition 2026 (Steuerbeschluss), den der Conseil communal am 30. Oktober 2025 angenommen hat, und die kantonale Steuer von CHF 100, Eintragung inbegriffen. Die Steuer schuldet, wem der Hund am 1. Januar gehört.",
       "quellen": [
         "vd_yverdon_impot",
         "vd_impot",

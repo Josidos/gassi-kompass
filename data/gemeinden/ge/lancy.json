@@ -3,7 +3,7 @@
   "kanton": "ge",
   "bfs": 6628,
   "uebersetzt_aus": "fr",
-  "original": "fde2ff64df21",
+  "original": "bb691dfa8250",
   "name": "Stadt Lancy",
   "ort": "Lancy",
   "in_ort": "in Lancy",
@@ -37,7 +37,7 @@
     {
       "titel": "Anmeldung",
       "wert": "Marke vom 1. Januar bis 31. März",
-      "text": "Du holst die Marke jedes Jahr zwischen dem 1. Januar und dem 31. März bei der Gemeinde: am Schalter der Maison de la sécurité, chemin des Olliquettes 2a, in Petit-Lancy, oder im Verwaltungsgebäude der Gemeinde, route du Grand-Lancy 39A, in Grand-Lancy. Du legst einen Ausweis vor, die Bestätigung der Haftpflichtversicherung, den Impfausweis mit der Tollwutimpfung (gültig 2 Jahre), das Registrierungsblatt oder die Karte von ANIS und, falls nötig, die Kursbestätigungen oder die Befreiung davon. Die Kontrollmarke wird auch abgegeben, wenn ein Dokument fehlt.",
+      "text": "Du holst die Marke jedes Jahr zwischen dem 1. Januar und dem 31. März bei der Gemeinde: am Schalter der Maison de la sécurité, chemin des Olliquettes 2a, in Petit-Lancy, oder im Verwaltungsgebäude der Gemeinde, route du Grand-Lancy 39A, in Grand-Lancy. Du legst einen Ausweis vor, die Bestätigung der Haftpflichtversicherung, den Impfausweis mit der Tollwutimpfung (gültig 2 Jahre, bei einzelnen Impfstoffen, die die Gemeinde aufzählt, 3 Jahre), das Registrierungsblatt oder die Karte von ANIS und, falls nötig, die Kursbestätigungen oder die Befreiung davon. Die Kontrollmarke wird auch abgegeben, wenn ein Dokument fehlt.",
       "quellen": [
         "ge_lancy_chiens"
       ]

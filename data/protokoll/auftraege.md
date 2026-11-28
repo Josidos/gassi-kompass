@@ -2,18 +2,4 @@
 
 Hier steht, welche Kantone, Gemeinden und Dateien an Parallel-Läufe vergeben sind. Die Regeln stehen in `handbuch/kette-parallel.md` unter «Parallel-Läufe». Wer das Protokoll eines Auftrags einsammelt, löscht den Auftrag hier. Ein normaler Lauf nimmt nichts, was hier steht, solange der Auftrag jünger als drei Stunden ist.
 
-Vergeben am 28.11.2026 um 00:20 Uhr (Entscheid von Joss von 00:15 Uhr: «alles rein», das Guthaben verfällt um 02:00 Uhr). Fünf Unteragenten auf Opus, gestartet aus der Sitzung, Schluss 01:20 Uhr. Jeder legt bis zu vier Gemeinden an, samt Übersetzungen, und veröffentlicht nach jeder Gemeinde. Sein Protokoll unter `data/protokoll/` wächst darum bis zum Schluss: Vor 01:25 Uhr sammelt es kein Lauf ein. Die Sitzung sammelt danach selbst ein.
-
-- `gemeinden-be-1`, 00:20 Uhr: Muri bei Bern, Spiez, Lyss, Münsingen (BE)
-- `gemeinden-vd-1`, 00:20 Uhr: Yverdon-les-Bains, Montreux, Nyon, Renens (VD)
-- `gemeinden-ge-1`, 00:20 Uhr: Vernier, Lancy, Meyrin, Carouge (GE)
-- `gemeinden-vs-1`, 00:20 Uhr: Visp, Naters, Martigny, Monthey (VS)
-- `gemeinden-fr-1`, 00:20 Uhr: Bulle, Villars-sur-Glâne, Düdingen, Murten (FR)
-
-Vorgemerkt am 28.11.2026 um 00:40 Uhr für die Plätze, die frei werden (höchstens fünf Aufträge gleichzeitig), Schluss 01:40 Uhr. Themenfeld «Hund vermisst oder gefunden» (Feld `vermisst`) samt Übersetzungen. Der Lauf lässt diese Kantone aus und nimmt aus `BACKLOG.md`, Abschnitt 9.1, nur Graubünden, Neuenburg, Basel-Stadt und Schwyz. Auch diese Protokolle sammelt die Sitzung ein:
-
-- `vermisst-1`, 00:40 Uhr: Zug, Jura
-- `vermisst-2`, 00:40 Uhr: Appenzell Ausserrhoden, Appenzell Innerrhoden
-- `vermisst-3`, 00:40 Uhr: Obwalden, Uri
-
-Früher: Die Staffeln der Nacht auf den 18. November 2026 endeten um etwa 00:33 Uhr an der Nutzungsgrenze des Kontos. Was sie nicht geliefert haben, ist im Backlog wieder offen.
+Zurzeit ist nichts vergeben. Die fünf Aufträge der Nacht auf den 28. November 2026 endeten um 00:42 Uhr an der 5-Stunden-Grenze des Kontos, die Sitzung hat sie eingesammelt. Was sie nicht geliefert haben, ist im Backlog wieder offen. Die drei vorgemerkten Aufträge zum Themenfeld «Hund vermisst oder gefunden» sind aufgehoben: Zug ist belegt, die übrigen neun Kantone nimmt der Lauf wieder aus `BACKLOG.md`, Abschnitt 9.1.

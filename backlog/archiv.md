@@ -216,3 +216,26 @@ Was die Glieder in Originalfassungen bemerkt haben, steht in `CHANGELOG.md` unte
 - [x] Wallis (deutsch und französisch) 2026-11-27
 - [x] Freiburg (deutsch und französisch) 2026-11-27
 - [x] Solothurn 2026-11-27
+
+## Archiviert am 2026-11-28
+
+### BACKLOG.md, 9.1 Hund vermisst oder gefunden
+
+- [x] Zug 2026-11-28
+
+### backlog/gemeinden.md, Gemeinden nach Grösse
+
+- [x] Spiez (BE) 2026-11-28
+- [x] Lyss (BE) 2026-11-28
+- [x] Münsingen (BE) 2026-11-28
+- [x] Düdingen (FR) 2026-11-28
+- [x] Bulle (FR) 2026-11-28
+- [x] Yverdon-les-Bains (VD) 2026-11-28
+- [x] Nyon (VD) 2026-11-28
+- [x] Vernier (GE) 2026-11-28
+- [x] Lancy (GE) 2026-11-28
+- [x] Meyrin (GE) 2026-11-28
+- [x] Carouge (GE) 2026-11-28
+- [x] Visp (VS) 2026-11-28
+- [x] Naters (VS) 2026-11-28
+- [x] Martigny (VS) 2026-11-28

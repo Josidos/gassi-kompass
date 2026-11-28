@@ -2,7 +2,7 @@
   "id": "zg",
   "kurz": "ZG",
   "uebersetzt_aus": "de",
-  "original": "6316172ca122",
+  "original": "567c9e51b60b",
   "wald": {
     "saison": true,
     "von": "04-01",
@@ -109,5 +109,12 @@
     "rassen": "nessun elenco menzionato dal Cantone, regolamento del Comune",
     "steuer": "secondo il Comune",
     "anm": "Comune di domicilio e AMICUS"
+  },
+  "vermisst": {
+    "text": "Nel Cantone di Zugo la Schweizerische Tiermeldezentrale (STMZ, centrale svizzera di notifica degli animali) gestisce, su mandato della Gesundheitsdirektion (direzione della sanità), il servizio cantonale di notifica degli animali trovati. Lì annunci un cane trovato. Anche per un cane scomparso o trovato il portale delle autorità ch.ch rinvia alla STMZ.",
+    "quellen": [
+      "zg_leistungsvereinbarungen",
+      "ch_chch_fund"
+    ]
   }
 }

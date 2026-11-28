@@ -1,0 +1,48 @@
+{
+  "id": "nyon",
+  "kanton": "vd",
+  "bfs": 5724,
+  "uebersetzt_aus": "fr",
+  "original": "f42388eb3cb6",
+  "name": "Città di Nyon",
+  "ort": "Nyon",
+  "in_ort": "a Nyon",
+  "einleitung": "Nyon riscuote una propria imposta sui cani, in aggiunta all'imposta cantonale. Il règlement de police (regolamento di polizia) della Città obbliga a tenere i cani al guinzaglio nelle passeggiate e nei parchi e li vieta in alcuni luoghi.",
+  "karten": [
+    {
+      "titel": "Imposta sui cani",
+      "wert": "CHF 175 per cane e per anno",
+      "text": "L'importo comprende l'imposta comunale di CHF 75 e l'imposta cantonale di CHF 100. L'imposta comunale è ridotta a CHF 55 per i cani appartenenti ad aziende agricole. L'imposta è dovuta dalla persona proprietaria del cane al 1° gennaio. Le fatture sono inviate per posta.",
+      "quellen": [
+        "vd_nyon_chiens",
+        "vd_impot"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "wert": "entro 15 giorni, al Service de l'administration générale",
+      "text": "Un cane acquistato o arrivato nel corso dell'anno va annunciato entro 15 giorni al Service de l'administration générale (SAG, amministrazione generale), place du Château 3, con il modulo firmato. Puoi anche presentarti direttamente allo sportello. Allega se del caso una copia degli attestati di competenza. Va annunciato anche un cane morto, scomparso, venduto o ceduto. Un cane già registrato non deve essere annunciato di nuovo ogni anno. L'iscrizione nella banca dati AMICUS è obbligatoria in aggiunta.",
+      "quellen": [
+        "vd_nyon_chiens"
+      ]
+    },
+    {
+      "titel": "Guinzaglio",
+      "wert": "passeggiate, parchi ed esercizi pubblici",
+      "text": "Sulla via pubblica o in un luogo accessibile al pubblico il tuo cane deve essere tenuto al guinzaglio, a meno che sia educato abbastanza da non importunare gli altri. Anche se ben educati, i cani devono stare al guinzaglio nelle passeggiate, nei parchi e negli esercizi pubblici. Il servizio di polizia può vietare l'accesso dei cani ai luoghi di manifestazioni pubbliche.",
+      "quellen": [
+        "vd_nyon_police",
+        "vd_nyon_chiens"
+      ]
+    },
+    {
+      "titel": "Accesso vietato",
+      "wert": "cimiteri, fiere e mercati, negozi di alimentari",
+      "text": "Il règlement de police vieta di portare i cani nei cimiteri, sull'area delle fiere e dei mercati e nei negozi di alimentari. Raccogli gli escrementi del tuo cane. Sul territorio comunale si trovano numerosi distributori di sacchetti.",
+      "quellen": [
+        "vd_nyon_police",
+        "vd_nyon_chiens"
+      ]
+    }
+  ]
+}

@@ -111,5 +111,12 @@
     "rassen": "keine Liste beim Kanton genannt, Reglement der Gemeinde",
     "steuer": "je nach Gemeinde",
     "anm": "Wohngemeinde und AMICUS"
+  },
+  "vermisst": {
+    "text": "Im Kanton Zug betreibt die Schweizerische Tiermeldezentrale (STMZ) im Auftrag der Gesundheitsdirektion die kantonale Meldestelle für gefundene Tiere. Dort meldest du einen gefundenen Hund. Auch für einen vermissten oder zugelaufenen Hund verweist das Behördenportal ch.ch auf die STMZ.",
+    "quellen": [
+      "zg_leistungsvereinbarungen",
+      "ch_chch_fund"
+    ]
   }
 }

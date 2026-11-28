@@ -1,0 +1,37 @@
+{
+  "id": "carouge",
+  "kanton": "ge",
+  "bfs": 6608,
+  "name": "Ville de Carouge",
+  "ort": "Carouge",
+  "in_ort": "à Carouge",
+  "geprueft": "2026-11-28",
+  "einleitung": "À Carouge, vous achetez la médaille de votre chien en tout temps à la mairie. Dès le 1er avril, la médaille de l'année en cours est exigée.",
+  "karten": [
+    {
+      "titel": "Impôt sur les chiens",
+      "wert": "100 centimes additionnels, émolument CHF 10",
+      "text": "En plus de l'impôt cantonal, la commune prélève 100 centimes additionnels, soit 100 % de l'impôt cantonal. Pour un premier chien, cela fait CHF 50 de plus (barème 2025 de l'administration fiscale cantonale). Lors de l'achat de la médaille, la mairie perçoit en outre un émolument de CHF 10. Les bénéficiaires AVS et AI en sont exonérés.",
+      "quellen": [
+        "ge_impot_centimes",
+        "ge_carouge_medailles"
+      ]
+    },
+    {
+      "titel": "Laisse",
+      "wert": "au parc des Halles",
+      "text": "Au parc des Halles, la Ville demande de tenir votre chien en laisse pour la sécurité de tous. Des caninettes sont à disposition. Les animaux sont interdits dans l'espace de jeux.",
+      "quellen": [
+        "ge_carouge_halles"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "wert": "médaille à la mairie, dès le 1er avril",
+      "text": "Vous pouvez acquérir la médaille en tout temps à la réception de la mairie, place du Marché 14. Dès le 1er avril de chaque année, tous les chiens âgés de plus de six mois enregistrés dans le canton portent la médaille de l'année, fixée de manière visible au collier. La médaille de l'année précédente est valable jusqu'au 31 mars. Vous présentez la confirmation d'enregistrement dans AMICUS, l'attestation d'assurance responsabilité civile pour détenteur de chien en cours et le certificat de vaccination avec une protection contre la rage valide.",
+      "quellen": [
+        "ge_carouge_medailles"
+      ]
+    }
+  ]
+}

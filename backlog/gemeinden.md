@@ -33,10 +33,7 @@ Ungefähr nach Grösse. Neue Kantone tragen hier ihre grössten Gemeinden ein.
 - [ ] Langenthal (BE): zurückgestellt am 2026-11-21. Taxe (Fr. 120, Stichtag 1. August, älter als sechs Monate) und Anmeldung beim Polizeiinspektorat lagen nur als Zusammenfassung des Abrufwerkzeugs vor, kein Wortlaut. Die Verordnung über die Hundetaxe (4.6.1 V, langenthal.ch/_doc/2211641), die Themenseite «Hunde» (langenthal.ch/bewilligungengastgewerbe/49928), Ortspolizei-Reglement und Friedhofreglement waren nicht abrufbar.
 - [ ] Horgen (ZH): zurückgestellt am 2026-11-18. Nur zwei lokale Angaben belegt (Gebührentarif ab 2022: Ersthunde CHF 130, verspätetes Anmelden CHF 40). Die Seiten «Hunde» und «Hundekontrolle: Anmeldung» gaben zweimal einen Serverfehler, von der Polizeiverordnung war nur das Inhaltsverzeichnis lesbar (Art. 11 Tierhaltung).
 - [ ] Kloten (ZH): zurückgestellt am 2026-11-18. Nur zwei belegte Angaben, der Flyer für Hundebesitzer war nicht abrufbar. Nächster Versuch: Flyer und Polizeiverordnung abrufen. Versuch vom 2026-11-21: weiterhin nur zwei sichere Angaben (Hundeabgabe CHF 200 pro Hund, An- und Abmeldung bei der Abteilung Sicherheit, Mutationen innert 10 Tagen). Die Polizeiverordnung von 2004 (Leine in Wäldern, Anlagen, Lokalen und an verkehrsreichen Strassen) wird laut Gemeinderatsbeschluss vom 2. April 2024 aufgehoben, das Inkrafttreten der neuen ist nicht belegt (Stadtratsbeschluss 319-2024, kloten.ch/_doc/5437963).
-- [ ] Muri bei Bern (BE)
-- [ ] Spiez (BE)
-- [ ] Lyss (BE)
-- [ ] Münsingen (BE)
+- [ ] Muri bei Bern (BE): zurückgestellt am 2026-11-28. Nur zwei lokale Angaben belegt (Hundetaxe CHF 100 mit Stichtag 1. August, Meldung bei der Finanzverwaltung). Das Ortspolizeireglement steht in der Liste «Reglemente & Verordnungen» der Gemeinde (Öffentliche Ordnung & Sicherheit), war im Lauf aber nicht abrufbar, die Seite «Friedhof» lieferte einen Serverfehler.
 - [ ] Worb (BE)
 - [ ] Ittigen (BE)
 - [ ] Hochdorf (LU): zurückgestellt am 2026-11-18. Nur zwei belegte lokale Angaben. Nächster Versuch: Seite «Hundesteuer» der Gemeinde erneut abrufen (Betrag), dazu «Reglemente und Verordnungen».
@@ -60,14 +57,10 @@ Ungefähr nach Grösse. Neue Kantone tragen hier ihre grössten Gemeinden ein.
 - [ ] Thayngen (SH)
 - [ ] Beringen (SH)
 - [ ] Stein am Rhein (SH)
-- [ ] Düdingen (FR), deutsch
-- [ ] Murten/Morat (FR), deutsch und französisch
-- [ ] Bulle (FR), französisch. Hinweis: Viele Freiburger Gemeinden haben ein «Règlement sur la détention et l'imposition des chiens» nach kantonalem Muster, mit Steuerbetrag, Leinenzonen und Bussen. Französische Gemeinden liegen unter `data/fr-ch/gemeinden/`.
-- [ ] Villars-sur-Glâne (FR), französisch
+- [ ] Murten/Morat (FR), deutsch und französisch: zurückgestellt am 2026-11-28. Belegt ist nur die Hundesteuer von CHF 100 pro Hund und Jahr, Stichtag 30. Juni (Steuersätze ab Steuerjahr 2023). Das Reglement über die Hundehaltung und die Hundesteuer (Generalrat, 10. Mai 2023) liegt hinter `https://www.murten-morat.ch/_rtr/publikation_12895`, WebFetch gab die Adresse nicht frei. Nächster Versuch im Browser.
+- [ ] Villars-sur-Glâne (FR), französisch: zurückgestellt am 2026-11-28. Belegt ist nur die Gemeindesteuer von CHF 80 (Seite «Détention de chiens», Protokoll des Conseil général vom 4. Oktober 2018). Das Reglement vom 4. Oktober 2018 liegt als PDF auf villars-sur-glane.ch (`/wp-content/uploads/2023/02/Reglement_communal_relatif_a_la_detention_et_l_imposition_des_chiens_04.10.2018.pdf`), WebFetch gab die Adresse nicht frei. Nächster Versuch im Browser. Hinweis: Viele Freiburger Gemeinden haben ein «Règlement sur la détention et l'imposition des chiens» nach kantonalem Muster, mit Steuerbetrag, Leinenzonen und Bussen. Französische Gemeinden liegen unter `data/fr-ch/gemeinden/`.
 - [ ] Estavayer (FR), französisch
-- [ ] Yverdon-les-Bains (VD), französisch
-- [ ] Montreux (VD), französisch
-- [ ] Nyon (VD), französisch
+- [ ] Montreux (VD), französisch: zurückgestellt am 2026-11-28. Nur zwei lokale Angaben belegt (Gemeindesteuer CHF 100 pro Hund laut Arrêté d'imposition 2026 bis 2027, Anmeldung beim Office de la Population). Leine, Verbote und Bussen stehen im Règlement général de police der Association Sécurité Riviera, Fassung vom 10. April 2025 (verlinkt unter «Lois et règlements» auf montreux.ch): im Lauf nicht abrufbar, die Fassung von 2022 auf der Seite der ASR gilt nicht mehr. Nächster Versuch im Browser.
 - [ ] Renens (VD), französisch
 - [ ] Vevey (VD), französisch
 - [ ] Le Locle (NE), französisch
@@ -88,14 +81,7 @@ Ungefähr nach Grösse. Neue Kantone tragen hier ihre grössten Gemeinden ein.
 - [ ] Tramelan (BE), französisch
 - [ ] La Neuveville (BE), französisch
 - [ ] Valbirse (BE), französisch
-- [ ] Vernier (GE), französisch
-- [ ] Lancy (GE), französisch
-- [ ] Meyrin (GE), französisch
-- [ ] Carouge (GE), französisch
 - [ ] Onex (GE), französisch
-- [ ] Visp (VS), deutsch
-- [ ] Naters (VS), deutsch
-- [ ] Martigny (VS), französisch
 - [ ] Monthey (VS), französisch
 - [ ] Sierre (VS), französisch. Hinweis für alle Walliser Gemeinden: Die Gemeinde legt die Hundesteuer fest (CHF 100 bis 250) und kann Leinenzonen und Verbotsorte bestimmen. Viele veröffentlichen jedes Jahr einen Anschlag «Hundesteuer» oder «Avis aux propriétaires de chiens».
 - [ ] Delémont (JU), französisch: zurückgestellt am 2026-11-18. Nur zwei lokale Angaben belegt (Grundtaxe CHF 130 laut Budget 2026, Anmeldung beim Secrétariat de la police administrative). Das «Règlement communal sur la garde et la taxe des chiens» (delemont.ch/Htdocs/Files/v/26541.pdf) ist ein PDF ohne lesbaren Text, die Rechtssammlung delemont.tlex.ch liefert dem Abrufwerkzeug keinen Inhalt.

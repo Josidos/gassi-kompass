@@ -1,0 +1,38 @@
+{
+  "id": "carouge",
+  "kanton": "ge",
+  "bfs": 6608,
+  "uebersetzt_aus": "fr",
+  "original": "99baf4c03594",
+  "name": "Stadt Carouge",
+  "ort": "Carouge",
+  "in_ort": "in Carouge",
+  "einleitung": "In Carouge kaufst du die Marke deines Hundes jederzeit bei der Gemeindeverwaltung. Ab dem 1. April ist die Marke des laufenden Jahres Pflicht.",
+  "karten": [
+    {
+      "titel": "Hundesteuer",
+      "wert": "100 centimes additionnels, Gebühr CHF 10",
+      "text": "Zusätzlich zur kantonalen Steuer erhebt die Gemeinde 100 centimes additionnels (Gemeindezuschlag), also 100 % der kantonalen Steuer. Für einen ersten Hund sind das CHF 50 mehr (Tarif 2025 der kantonalen Steuerverwaltung). Beim Kauf der Marke erhebt die Gemeindeverwaltung zudem eine Gebühr von CHF 10. Wer eine AHV- oder IV-Rente bezieht, ist davon befreit.",
+      "quellen": [
+        "ge_impot_centimes",
+        "ge_carouge_medailles"
+      ]
+    },
+    {
+      "titel": "Leine",
+      "wert": "im parc des Halles",
+      "text": "Im parc des Halles bittet die Stadt, deinen Hund zur Sicherheit aller an der Leine zu führen. Robidog-Säckli stehen zur Verfügung. Tiere sind auf dem Spielplatz verboten.",
+      "quellen": [
+        "ge_carouge_halles"
+      ]
+    },
+    {
+      "titel": "Anmeldung",
+      "wert": "Marke bei der Gemeinde, ab 1. April",
+      "text": "Du kannst die Marke jederzeit am Empfang der Gemeindeverwaltung kaufen, place du Marché 14. Ab dem 1. April jedes Jahres tragen alle im Kanton registrierten Hunde, die älter als sechs Monate sind, die Marke des Jahres gut sichtbar am Halsband. Die Marke des Vorjahres gilt bis zum 31. März. Du legst die Bestätigung der Registrierung in AMICUS vor, die gültige Bestätigung der Haftpflichtversicherung für Hundehaltende und den Impfausweis mit gültigem Tollwutschutz.",
+      "quellen": [
+        "ge_carouge_medailles"
+      ]
+    }
+  ]
+}

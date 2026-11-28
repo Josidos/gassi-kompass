@@ -1,0 +1,37 @@
+{
+  "id": "martigny",
+  "kanton": "vs",
+  "bfs": 6136,
+  "name": "Ville de Martigny",
+  "ort": "Martigny",
+  "in_ort": "à Martigny",
+  "geprueft": "2026-11-28",
+  "hinweis_heute": "À Martigny, les chiens sont tenus en laisse à l'intérieur de la localité, sauf décision contraire de l'autorité communale.",
+  "einleitung": "Le règlement communal de police de Martigny fixe la laisse dans la localité et l'obligation de ramasser les crottes.",
+  "karten": [
+    {
+      "titel": "Laisse",
+      "wert": "à l'intérieur de la localité",
+      "text": "Sauf décision contraire de l'autorité communale, les chiens doivent être tenus en laisse à l'intérieur de la localité. En dehors des agglomérations, ils doivent rester sous le contrôle de leur maître. Les chiens que l'autorité a classés dangereux ou potentiellement dangereux sont tenus en laisse et munis d'une muselière en dehors de la sphère privée. L'autorité peut interdire l'accès des chiens dans certains lieux publics. État du règlement: 2005.",
+      "quellen": [
+        "vs_martigny_police"
+      ]
+    },
+    {
+      "titel": "Crottes",
+      "wert": "à ramasser partout",
+      "text": "Vous devez ramasser les excréments de votre chien sur les propriétés publiques et privées et avoir sur vous le matériel nécessaire. État du règlement: 2005.",
+      "quellen": [
+        "vs_martigny_police"
+      ]
+    },
+    {
+      "titel": "Amendes",
+      "wert": "jusqu'à CHF 5000",
+      "text": "Les contraventions au règlement communal de police sont punies d'une amende de CHF 5000 au plus. Un chien errant est mis en fourrière. Un animal peut aussi être mis en fourrière si son détenteur ne respecte pas les règles, en plus de l'amende et des frais. État du règlement: 2005.",
+      "quellen": [
+        "vs_martigny_police"
+      ]
+    }
+  ]
+}

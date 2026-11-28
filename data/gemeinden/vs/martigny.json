@@ -1,0 +1,38 @@
+{
+  "id": "martigny",
+  "kanton": "vs",
+  "bfs": 6136,
+  "uebersetzt_aus": "fr",
+  "original": "edf06099d32b",
+  "name": "Stadt Martigny",
+  "ort": "Martigny",
+  "in_ort": "in Martigny",
+  "hinweis_heute": "In Martigny sind Hunde innerhalb der Ortschaft an der Leine zu führen, ausser die Gemeindebehörde entscheidet anders.",
+  "einleitung": "Das Polizeireglement von Martigny, der Règlement communal de police, schreibt die Leine in der Ortschaft vor und verlangt, dass du den Kot aufnimmst.",
+  "karten": [
+    {
+      "titel": "Leine",
+      "wert": "innerhalb der Ortschaft",
+      "text": "Ausser die Gemeindebehörde entscheidet anders, sind Hunde innerhalb der Ortschaft an der Leine zu führen. Ausserhalb des Siedlungsgebiets müssen sie unter der Kontrolle ihres Halters bleiben. Hunde, welche die Behörde als gefährlich oder potenziell gefährlich eingestuft hat, sind ausserhalb des privaten Bereichs an der Leine und mit Maulkorb zu führen. Die Behörde kann Hunden den Zutritt zu bestimmten öffentlichen Orten verbieten. Stand des Reglements: 2005.",
+      "quellen": [
+        "vs_martigny_police"
+      ]
+    },
+    {
+      "titel": "Kot",
+      "wert": "überall aufnehmen",
+      "text": "Du musst den Kot deines Hundes auf öffentlichem und privatem Grund aufnehmen und das nötige Material dabeihaben. Stand des Reglements: 2005.",
+      "quellen": [
+        "vs_martigny_police"
+      ]
+    },
+    {
+      "titel": "Bussen",
+      "wert": "bis CHF 5000",
+      "text": "Verstösse gegen das Polizeireglement werden mit Busse bis CHF 5000 bestraft. Ein streunender Hund wird eingefangen und untergebracht. Auch wenn sich der Halter nicht an die Regeln hält, kann das Tier beschlagnahmt werden, zusätzlich zu Busse und Kosten. Stand des Reglements: 2005.",
+      "quellen": [
+        "vs_martigny_police"
+      ]
+    }
+  ]
+}

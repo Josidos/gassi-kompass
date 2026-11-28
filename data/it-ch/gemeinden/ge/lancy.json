@@ -3,7 +3,7 @@
   "kanton": "ge",
   "bfs": 6628,
   "uebersetzt_aus": "fr",
-  "original": "fde2ff64df21",
+  "original": "bb691dfa8250",
   "name": "Città di Lancy",
   "ort": "Lancy",
   "in_ort": "a Lancy",
@@ -37,7 +37,7 @@
     {
       "titel": "Notifica",
       "wert": "contrassegno dal 1° gennaio al 31 marzo",
-      "text": "Ti procuri il contrassegno (médaille) ogni anno tra il 1° gennaio e il 31 marzo presso le autorità comunali: allo sportello della Maison de la sécurité, chemin des Olliquettes 2a, a Petit-Lancy, o nell'edificio amministrativo del Comune, route du Grand-Lancy 39A, a Grand-Lancy. Presenti un documento d'identità, l'attestato dell'assicurazione di responsabilità civile, il certificato delle vaccinazioni con il vaccino contro la rabbia (validità 2 anni), il foglio o la carta di registrazione ANIS e, se necessario, gli attestati dei corsi o la relativa dispensa. Il contrassegno di controllo è consegnato anche se manca un documento.",
+      "text": "Ti procuri il contrassegno (médaille) ogni anno tra il 1° gennaio e il 31 marzo presso le autorità comunali: allo sportello della Maison de la sécurité, chemin des Olliquettes 2a, a Petit-Lancy, o nell'edificio amministrativo del Comune, route du Grand-Lancy 39A, a Grand-Lancy. Presenti un documento d'identità, l'attestato dell'assicurazione di responsabilità civile, il certificato delle vaccinazioni con il vaccino contro la rabbia (validità 2 anni, 3 anni per alcuni vaccini elencati dal Comune), il foglio o la carta di registrazione ANIS e, se necessario, gli attestati dei corsi o la relativa dispensa. Il contrassegno di controllo è consegnato anche se manca un documento.",
       "quellen": [
         "ge_lancy_chiens"
       ]

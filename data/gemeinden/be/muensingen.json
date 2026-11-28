@@ -10,7 +10,7 @@
     {
       "titel": "Hundetaxe",
       "wert": "CHF 120 pro Hund und Jahr",
-      "text": "Die Hundetaxe beträgt CHF 120 pro Hund. Der Gemeinderat legt sie in der Gebührenverordnung fest, das Reglement über die Hundetaxe gibt dafür CHF 50 bis CHF 200 pro Hund und Jahr vor. Gebührenpflichtig ist jeder Hund, der am 1. August älter als 6 Monate ist. Wer schon einen Hund gemeldet hat, bekommt die Rechnung im August.",
+      "text": "Die Hundetaxe beträgt CHF 120 pro Hund. Der Gemeinderat legt sie in der Gebührenverordnung fest, im Rahmen von CHF 50 bis CHF 200 pro Hund und Jahr. Gebührenpflichtig ist jeder Hund, der am 1. August älter als 6 Monate ist. Wer schon einen Hund gemeldet hat, bekommt die Rechnung im August.",
       "quellen": [
         "be_muensingen_hundetaxe",
         "be_muensingen_steuer"
@@ -18,8 +18,8 @@
     },
     {
       "titel": "Anmeldung",
-      "wert": "bei der Abteilung Finanzen, Änderungen bis 31. Juli",
-      "text": "Hältst du zum ersten Mal einen Hund, meldest du dich vorher bei der Abteilung Finanzen der Gemeinde. Danach kann die Registrierung über den Tierarzt laufen. Weitergabe, Übernahme, Export und Tod des Hundes meldest du innert zehn Tagen der Datenbank AMICUS. Änderungen von Name und Adresse meldest du direkt der Abteilung Finanzen. Damit sie für die Hundetaxe zählen, müssen Änderungen bis am 31. Juli in AMICUS erfasst sein. Danach teilst du sie der Abteilung Finanzen mit, telefonisch oder über den Online-Schalter.",
+      "wert": "bei der Abteilung Finanzen",
+      "text": "Hältst du zum ersten Mal einen Hund, meldest du dich vorher bei der Abteilung Finanzen der Gemeinde. Danach kann die Registrierung über den Tierarzt laufen. Weitergabe, Übernahme, Export und Tod des Hundes meldest du innert zehn Tagen der Datenbank AMICUS. Änderungen von Name und Adresse meldest du direkt der Abteilung Finanzen. Für die Hundetaxe 2026 nannte die Gemeinde den 31. Juli 2026: Bis dann mussten Änderungen in AMICUS erfasst sein. Spätere Änderungen nahm die Abteilung Finanzen entgegen, telefonisch oder über den Online-Schalter.",
       "quellen": [
         "be_muensingen_anmeldung",
         "be_muensingen_hundetaxe"

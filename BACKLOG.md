@@ -95,7 +95,6 @@ Einstiege: Seite des Veterinärdiensts, Seite der Kantonspolizei, kantonale Gese
 - [ ] Neuenburg
 - [ ] Basel-Stadt
 - [ ] Schwyz
-- [ ] Zug
 - [ ] Jura
 - [ ] Appenzell Ausserrhoden
 - [ ] Obwalden

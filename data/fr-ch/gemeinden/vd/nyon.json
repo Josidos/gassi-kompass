@@ -1,0 +1,47 @@
+{
+  "id": "nyon",
+  "kanton": "vd",
+  "bfs": 5724,
+  "name": "Ville de Nyon",
+  "ort": "Nyon",
+  "in_ort": "à Nyon",
+  "geprueft": "2026-11-28",
+  "einleitung": "Nyon prélève son propre impôt sur les chiens, en plus de l'impôt cantonal. Le règlement de police de la Ville oblige à tenir les chiens en laisse dans les promenades et les parcs et les interdit dans certains lieux.",
+  "karten": [
+    {
+      "titel": "Impôt sur les chiens",
+      "wert": "CHF 175 par chien et par an",
+      "text": "Le montant comprend l'impôt communal de CHF 75 et l'impôt cantonal de CHF 100. L'impôt communal est réduit à CHF 55 pour les chiens appartenant à des domaines agricoles. L'impôt est dû par la personne propriétaire du chien au 1er janvier. Les factures sont envoyées par la poste.",
+      "quellen": [
+        "vd_nyon_chiens",
+        "vd_impot"
+      ]
+    },
+    {
+      "titel": "Annonce",
+      "wert": "dans les 15 jours, au Service de l'administration générale",
+      "text": "Un chien acquis ou arrivé en cours d'année s'annonce dans les 15 jours au Service de l'administration générale (SAG), place du Château 3, avec le formulaire signé. Vous pouvez aussi vous présenter directement au guichet. Joignez le cas échéant une copie des attestations de compétences. Un chien mort, disparu, vendu ou donné s'annonce aussi. Un chien déjà enregistré n'a pas besoin d'être annoncé à nouveau chaque année. L'inscription dans la banque de données AMICUS est obligatoire en plus.",
+      "quellen": [
+        "vd_nyon_chiens"
+      ]
+    },
+    {
+      "titel": "Laisse",
+      "wert": "promenades, parcs et établissements publics",
+      "text": "Sur la voie publique ou dans un lieu accessible au public, votre chien doit être tenu en laisse, sauf s'il est assez dressé pour ne pas importuner autrui. Même bien dressés, les chiens doivent être tenus en laisse dans les promenades, les parcs et les établissements publics. Le service de police peut interdire l'accès des chiens aux lieux de manifestations publiques.",
+      "quellen": [
+        "vd_nyon_police",
+        "vd_nyon_chiens"
+      ]
+    },
+    {
+      "titel": "Accès interdit",
+      "wert": "cimetières, foires et marchés, magasins d'alimentation",
+      "text": "Le règlement de police interdit d'introduire les chiens dans les cimetières, sur l'emplacement des foires et des marchés et dans les magasins d'alimentation. Vous ramassez les déjections de votre chien. De nombreux distributeurs de sacs se trouvent sur le territoire communal.",
+      "quellen": [
+        "vd_nyon_police",
+        "vd_nyon_chiens"
+      ]
+    }
+  ]
+}

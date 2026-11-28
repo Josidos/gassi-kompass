@@ -13,5 +13,15 @@
     "kurz": "Yverdon-les-Bains: règlement général de police",
     "lang": "Commune d'Yverdon-les-Bains: règlement général de police, adopté le 7 novembre 2019, approuvé le 24 février 2020 (état du règlement: 2020)",
     "url": "https://www.yverdon-les-bains.ch/fileadmin/documents/ylb/Securite-Police/pdf/reglement-general-police-2020.pdf"
+  },
+  "vd_nyon_chiens": {
+    "kurz": "Ville de Nyon: chiens, annonce, recensement et impôts",
+    "lang": "Ville de Nyon, Service de l'administration générale: chiens, annonce, recensement et impôts (consulté le 28 novembre 2026)",
+    "url": "https://www.nyon.ch/demarches/chiens-recensement-et-impots-1762/"
+  },
+  "vd_nyon_police": {
+    "kurz": "Ville de Nyon: règlement de police",
+    "lang": "Ville de Nyon: règlement de police, en vigueur depuis le 1er janvier 1993, dernière modification approuvée le 27 août 2014 (état du règlement: 2014)",
+    "url": "https://www.nyon.ch/media/document/0/reglement-de-la-police-de-la-ville-de-nyon.pdf"
   }
 }

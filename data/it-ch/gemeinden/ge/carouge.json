@@ -1,0 +1,38 @@
+{
+  "id": "carouge",
+  "kanton": "ge",
+  "bfs": 6608,
+  "uebersetzt_aus": "fr",
+  "original": "99baf4c03594",
+  "name": "Città di Carouge",
+  "ort": "Carouge",
+  "in_ort": "a Carouge",
+  "einleitung": "A Carouge acquisti il contrassegno del tuo cane in ogni momento presso l'amministrazione comunale. Dal 1° aprile è richiesto il contrassegno dell'anno in corso.",
+  "karten": [
+    {
+      "titel": "Imposta sui cani",
+      "wert": "100 centimes additionnels, tassa CHF 10",
+      "text": "Oltre all'imposta cantonale, il Comune preleva 100 centimes additionnels (centesimi addizionali), cioè il 100 % dell'imposta cantonale. Per un primo cane sono CHF 50 in più (tariffa 2025 dell'amministrazione fiscale cantonale). All'acquisto del contrassegno l'amministrazione comunale riscuote inoltre una tassa di CHF 10. Chi beneficia di una rendita AVS o AI ne è esonerato.",
+      "quellen": [
+        "ge_impot_centimes",
+        "ge_carouge_medailles"
+      ]
+    },
+    {
+      "titel": "Guinzaglio",
+      "wert": "al parc des Halles",
+      "text": "Al parc des Halles la Città chiede di tenere il tuo cane al guinzaglio per la sicurezza di tutti. Sono a disposizione sacchetti per gli escrementi. Gli animali sono vietati nell'area giochi.",
+      "quellen": [
+        "ge_carouge_halles"
+      ]
+    },
+    {
+      "titel": "Notifica",
+      "wert": "contrassegno al Comune, dal 1° aprile",
+      "text": "Puoi acquistare il contrassegno (médaille) in ogni momento alla ricezione dell'amministrazione comunale, place du Marché 14. Dal 1° aprile di ogni anno tutti i cani di età superiore a sei mesi registrati nel Cantone portano il contrassegno dell'anno, fissato in modo visibile al collare. Il contrassegno dell'anno precedente è valido fino al 31 marzo. Presenti la conferma di registrazione in AMICUS, l'attestato valido dell'assicurazione di responsabilità civile per detentori di cani e il certificato di vaccinazione con una protezione contro la rabbia valida.",
+      "quellen": [
+        "ge_carouge_medailles"
+      ]
+    }
+  ]
+}

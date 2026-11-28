@@ -1,0 +1,38 @@
+{
+  "id": "martigny",
+  "kanton": "vs",
+  "bfs": 6136,
+  "uebersetzt_aus": "fr",
+  "original": "edf06099d32b",
+  "name": "Città di Martigny",
+  "ort": "Martigny",
+  "in_ort": "a Martigny",
+  "hinweis_heute": "A Martigny i cani vanno tenuti al guinzaglio all'interno della località, salvo decisione contraria dell'autorità comunale.",
+  "einleitung": "Il Règlement communal de police (regolamento comunale di polizia) di Martigny fissa il guinzaglio nella località e l'obbligo di raccogliere gli escrementi.",
+  "karten": [
+    {
+      "titel": "Guinzaglio",
+      "wert": "all'interno della località",
+      "text": "Salvo decisione contraria dell'autorità comunale, i cani devono essere tenuti al guinzaglio all'interno della località. Fuori dagli agglomerati devono restare sotto il controllo del loro padrone. I cani che l'autorità ha classificato come pericolosi o potenzialmente pericolosi sono tenuti al guinzaglio e muniti di museruola fuori dalla sfera privata. L'autorità può vietare l'accesso dei cani a determinati luoghi pubblici. Stato del regolamento: 2005.",
+      "quellen": [
+        "vs_martigny_police"
+      ]
+    },
+    {
+      "titel": "Escrementi",
+      "wert": "da raccogliere ovunque",
+      "text": "Devi raccogliere gli escrementi del tuo cane sulle proprietà pubbliche e private e avere con te il materiale necessario. Stato del regolamento: 2005.",
+      "quellen": [
+        "vs_martigny_police"
+      ]
+    },
+    {
+      "titel": "Multe",
+      "wert": "fino a CHF 5000",
+      "text": "Le contravvenzioni al regolamento comunale di polizia sono punite con una multa di CHF 5000 al massimo. Un cane randagio viene messo in custodia. Un animale può essere messo in custodia anche se il detentore non rispetta le regole, oltre alla multa e alle spese. Stato del regolamento: 2005.",
+      "quellen": [
+        "vs_martigny_police"
+      ]
+    }
+  ]
+}

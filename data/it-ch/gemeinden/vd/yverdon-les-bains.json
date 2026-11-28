@@ -3,7 +3,7 @@
   "kanton": "vd",
   "bfs": 5938,
   "uebersetzt_aus": "fr",
-  "original": "be456190176c",
+  "original": "07ab6e101135",
   "name": "Yverdon-les-Bains",
   "ort": "Yverdon-les-Bains",
   "in_ort": "a Yverdon-les-Bains",
@@ -12,7 +12,7 @@
     {
       "titel": "Imposta sui cani",
       "wert": "CHF 170 per cane nel 2026",
-      "text": "L'importo comprende l'imposta comunale di CHF 70, fissata dall'arrêté d'imposition 2026 (decreto d'imposta), e l'imposta cantonale di CHF 100, iscrizione compresa. L'imposta è dovuta dalla persona proprietaria del cane al 1° gennaio.",
+      "text": "L'importo comprende l'imposta comunale di CHF 70, secondo il préavis (proposta della Municipalité) sull'arrêté d'imposition 2026 (decreto d'imposta) che il Conseil communal ha accettato il 30 ottobre 2025, e l'imposta cantonale di CHF 100, iscrizione compresa. L'imposta è dovuta dalla persona proprietaria del cane al 1° gennaio.",
       "quellen": [
         "vd_yverdon_impot",
         "vd_impot",
