@@ -113,5 +113,18 @@
     "rassen": "aucune liste, mesures au cas par cas",
     "steuer": "au plus CHF 120, perçue par la commune",
     "anm": "commune de domicile et AMICUS"
+  },
+  "vermisst": {
+    "text": "Dans le canton de Neuchâtel, le Service de la consommation et des affaires vétérinaires (SCAV) renvoie à la Schweizerische Tiermeldezentrale (STMZ) pour les chiens perdus ou trouvés. Vous y annoncez un chien trouvé et y enregistrez un avis de disparition, en ligne ou par téléphone.",
+    "punkte": [
+      "Chien trouvé: vous remplissez l'annonce sur le site de la STMZ ou vous appelez le 041 632 48 90.",
+      "Chien perdu: vous consultez régulièrement la page des animaux trouvés de la STMZ et vous enregistrez votre avis de disparition sur la page des animaux disparus. Ou vous appelez le 041 632 48 90.",
+      "Un chien inscrit dans la banque de données AMICUS permet de retrouver son détenteur en cas de disparition.",
+      "Il est interdit de laisser errer un chien. Tout chien errant est saisi et placé en refuge. Les coûts de capture, de transport et de pension sont à la charge du détenteur ou de la détentrice (art. 12 LChiens)."
+    ],
+    "quellen": [
+      "ne_animaux",
+      "ne_lchiens"
+    ]
   }
 }

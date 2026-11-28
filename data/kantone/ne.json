@@ -2,7 +2,7 @@
   "id": "ne",
   "kurz": "NE",
   "uebersetzt_aus": "fr",
-  "original": "2a17ef973331",
+  "original": "23b1fa2ac3cf",
   "wald": {
     "saison": true,
     "von": "04-15",
@@ -111,5 +111,18 @@
     "rassen": "keine Liste, Massnahmen im Einzelfall",
     "steuer": "höchstens CHF 120, von der Gemeinde erhoben",
     "anm": "Wohngemeinde und AMICUS"
+  },
+  "vermisst": {
+    "text": "Im Kanton Neuenburg verweist der Service de la consommation et des affaires vétérinaires (SCAV, Veterinärdienst) für entlaufene oder gefundene Hunde auf die Schweizerische Tiermeldezentrale (STMZ). Dort meldest du einen gefundenen Hund und erfasst eine Vermisstmeldung, online oder per Telefon.",
+    "punkte": [
+      "Hund gefunden: Du füllst die Meldung auf der Website der STMZ aus oder rufst 041 632 48 90 an.",
+      "Hund entlaufen: Du schaust regelmässig die Seite der gefundenen Tiere der STMZ an und erfasst deine Vermisstmeldung auf der Seite der vermissten Tiere. Oder du rufst 041 632 48 90 an.",
+      "Ist der Hund in der Datenbank AMICUS eingetragen, lässt sich die Halterin oder der Halter finden, wenn er verschwindet.",
+      "Einen Hund frei herumstreunen zu lassen ist verboten. Jeder streunende Hund wird eingefangen und in ein Tierheim gebracht. Die Kosten für Einfangen, Transport und Unterbringung tragen die Hundehaltenden (Art. 12 LChiens)."
+    ],
+    "quellen": [
+      "ne_animaux",
+      "ne_lchiens"
+    ]
   }
 }

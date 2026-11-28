@@ -2,7 +2,7 @@
   "id": "ne",
   "kurz": "NE",
   "uebersetzt_aus": "fr",
-  "original": "2a17ef973331",
+  "original": "23b1fa2ac3cf",
   "wald": {
     "saison": true,
     "von": "04-15",
@@ -111,5 +111,18 @@
     "rassen": "nessun elenco, misure caso per caso",
     "steuer": "al massimo CHF 120, riscossa dal Comune",
     "anm": "Comune di domicilio e AMICUS"
+  },
+  "vermisst": {
+    "text": "Nel Cantone Neuchâtel il Service de la consommation et des affaires vétérinaires (SCAV, servizio veterinario) rimanda alla Schweizerische Tiermeldezentrale (STMZ) per i cani smarriti o trovati. Lì annunci un cane trovato e registri un avviso di scomparsa, online o per telefono.",
+    "punkte": [
+      "Cane trovato: compili l'annuncio sul sito della STMZ o chiami lo 041 632 48 90.",
+      "Cane smarrito: consulti regolarmente la pagina degli animali trovati della STMZ e registri il tuo avviso di scomparsa sulla pagina degli animali scomparsi. Oppure chiami lo 041 632 48 90.",
+      "Se il cane è registrato nella banca dati AMICUS, in caso di scomparsa si può ritrovare chi lo detiene.",
+      "È vietato lasciar vagare un cane. Ogni cane randagio viene catturato e collocato in un rifugio. Le spese di cattura, trasporto e pensione sono a carico della detentrice o del detentore (art. 12 LChiens)."
+    ],
+    "quellen": [
+      "ne_animaux",
+      "ne_lchiens"
+    ]
   }
 }
