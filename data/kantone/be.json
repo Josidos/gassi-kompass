@@ -128,6 +128,22 @@
       "be_ktsv"
     ]
   },
+  "gewerbe": {
+    "text": "Wer im Kanton Bern mehr als 5 Hunde pro Tag von Drittpersonen in Obhut nimmt oder ausführt, braucht eine Bewilligung für die gewerbsmässige Heimtierhaltung. Wer mehr als drei Hunde gleichzeitig ausführt, darf das nur mit einer anerkannten Ausbildung oder einer Bewilligung des Amts für Veterinärwesen.",
+    "punkte": [
+      "Betreuung: Du füllst das Gesuch für die gewerbsmässige Heimtierhaltung aus, legst den Nachweis deiner Ausbildung bei und sendest die Unterlagen an das Amt für Veterinärwesen. Als Ausbildung nennt das Amt zum Beispiel Tierpflegerin oder Tierpfleger oder die fachspezifische berufsunabhängige Ausbildung (FBA).",
+      "Ausführen: Pro Person dürfen nicht mehr als drei Hunde, die älter als vier Monate sind, gleichzeitig ausgeführt werden.",
+      "Mehr als drei Hunde darfst du ausführen, wenn du als Ausbilderin oder Ausbilder für Hundehaltende nach Art. 203 TSchV befähigt bist, einen Hochschulabschluss in Veterinärmedizin, Zoologie, Biologie oder Ethologie mit Weiterbildung als Verhaltensspezialistin oder Verhaltensspezialist für Hunde hast, eine anerkannte Jagdprüfung mit Hunden mit Gehorsamsprüfung vorweist oder eine Bewilligung des Amts für Veterinärwesen hast.",
+      "Die Bewilligung erhält, wer seit mindestens drei Jahren nachweislich Hunde hält, keine Massnahmen wegen verhaltensauffälliger Hunde erfüllen muss oder musste und einen Nachweis bringt: eine Ausbildung zum Dogsitter oder Dogwalker der Schweizerischen Kynologischen Gesellschaft oder eine vergleichbare, eine Bestätigung einer Ausbilderin oder eines Ausbilders, dass die Hunde im Rudel kontrolliert ausgeführt werden können, oder drei hundesportliche Wettbewerbe in einem Jahr mit Klassierung, an denen die Hunde zusammen teilgenommen haben.",
+      "Ausbildungen und Bewilligungen für das Ausführen im Rudel werden in der zentralen Hundedatenbank eingetragen. Das Berechtigungsgesuch und die Zusatzdokumente sendest du an das Amt für Veterinärwesen."
+    ],
+    "quellen": [
+      "be_dogsitting",
+      "be_rudel",
+      "be_hug",
+      "be_thv"
+    ]
+  },
   "durchsicht": {
     "wer": "vom Amt für Veterinärwesen des Kantons Bern",
     "datum": "2026-11-26"

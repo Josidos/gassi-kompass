@@ -132,6 +132,18 @@
       "be_oce_fr"
     ]
   },
+  "gewerbe": {
+    "text": "Dans le canton de Berne, qui garde plus de cinq chiens par jour doit obtenir une autorisation pour la détention d'animaux de compagnie à titre professionnel. Il en va de même si les chiens ne sont pas tous gardés en même temps dans la journée mais de façon échelonnée.",
+    "punkte": [
+      "Garde: complétez la demande d'autorisation pour la prise en charge d'animaux de compagnie à titre professionnel et joignez-y votre attestation de formation. Renvoyez les documents à l'Office des affaires vétérinaires. L'Office cite par exemple la formation de gardienne ou gardien d'animaux ou une formation spécifique indépendante d'une formation professionnelle (FSIFP) achevée.",
+      "Promenade: pour promener simultanément plus de trois chiens de plus de quatre mois, une autorisation de l'Office des affaires vétérinaires est requise.",
+      "Sans formation reconnue par l'Office fédéral de la sécurité alimentaire et des affaires vétérinaires, vous devez notamment détenir des chiens depuis plus de trois ans et pouvoir le prouver."
+    ],
+    "quellen": [
+      "be_dogsitting_fr",
+      "be_rudel_fr"
+    ]
+  },
   "durchsicht": {
     "wer": "par l'Office des affaires vétérinaires du canton de Berne",
     "datum": "2026-11-26"

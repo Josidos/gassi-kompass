@@ -2,7 +2,7 @@
   "id": "be",
   "kurz": "BE",
   "uebersetzt_aus": "de",
-  "original": "e632fddb3fc4",
+  "original": "0ef73facffea",
   "wald": {
     "saison": false,
     "text": "Nel Cantone di Berna non c'è un obbligo generale di guinzaglio nel bosco. Nel settembre 2023 il Gran Consiglio ha respinto, con 70 voti contro 63, un obbligo di guinzaglio durante il periodo di cova e dei parti della selvaggina. Nel bosco, nei campi e lontano dalle case il tuo cane può però correre libero solo se riesci a tenerlo sempre sotto controllo in modo efficace. Lasciarlo correre senza sorveglianza è vietato, la multa disciplinare è di CHF 100. Il guinzaglio serve sui pascoli con animali da reddito, nelle riserve naturali, nelle zone cantonali di protezione della selvaggina con obbligo di guinzaglio e nei luoghi designati dal tuo Comune. I guardiacaccia possono abbattere i cani trovati a cacciare o che, nonostante un ammonimento o una denuncia, vengono trovati ripetutamente lontano dalle case senza accompagnatore.",
@@ -124,6 +124,22 @@
     "quellen": [
       "be_kapo_fund",
       "be_ktsv"
+    ]
+  },
+  "gewerbe": {
+    "text": "Chi nel Cantone di Berna prende in custodia o porta a spasso per conto di terzi più di 5 cani al giorno ha bisogno di un'autorizzazione per la detenzione professionale di animali da compagnia. Chi porta a spasso più di tre cani contemporaneamente può farlo solo con una formazione riconosciuta o con un'autorizzazione dell'Amt für Veterinärwesen (ufficio veterinario).",
+    "punkte": [
+      "Custodia: compila la domanda per la detenzione professionale di animali da compagnia, allega la prova della tua formazione e invia i documenti all'Amt für Veterinärwesen. Come formazione l'ufficio cita per esempio custode di animali o la formazione specifica indipendente dalla professione (FBA).",
+      "Passeggiata: per persona non possono essere portati a spasso contemporaneamente più di tre cani di età superiore a quattro mesi.",
+      "Puoi portare a spasso più di tre cani se sei abilitato come istruttrice o istruttore per detentori di cani secondo l'art. 203 dell'ordinanza sulla protezione degli animali (OPAn), se hai un diploma universitario in medicina veterinaria, zoologia, biologia o etologia con perfezionamento come specialista del comportamento dei cani, se presenti un esame di caccia riconosciuto con cani comprensivo di prova di obbedienza o se hai un'autorizzazione dell'Amt für Veterinärwesen.",
+      "L'autorizzazione la ottiene chi detiene cani da almeno tre anni in modo documentato, non deve né ha dovuto adempiere misure per cani con comportamento problematico e presenta una prova: una formazione come dogsitter o dogwalker della Schweizerische Kynologische Gesellschaft (società cinologica svizzera) o una formazione equivalente, la conferma di un'istruttrice o di un istruttore che i cani possono essere portati a spasso in branco in modo controllato, oppure tre competizioni cinosportive in un anno con classificazione, a cui i cani hanno partecipato insieme.",
+      "Formazioni e autorizzazioni per portare a spasso in branco vengono registrate nella banca dati centrale dei cani. La domanda di autorizzazione e i documenti supplementari li invii all'Amt für Veterinärwesen."
+    ],
+    "quellen": [
+      "be_dogsitting",
+      "be_rudel",
+      "be_hug",
+      "be_thv"
     ]
   },
   "durchsicht": {

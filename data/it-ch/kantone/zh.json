@@ -2,7 +2,7 @@
   "id": "zh",
   "kurz": "ZH",
   "uebersetzt_aus": "de",
-  "original": "fa624f8155b4",
+  "original": "f75639b86b1b",
   "wald": {
     "saison": true,
     "von": "04-01",
@@ -160,6 +160,21 @@
       "zh_findel",
       "zh_fund",
       "zh_vermisst"
+    ]
+  },
+  "gewerbe": {
+    "text": "Chi gestisce nel Cantone di Zurigo un servizio di custodia di animali, per esempio la custodia diurna di animali domestici o il dog sitting, a partire da sei animali al giorno ha bisogno di un'autorizzazione del Veterinäramt (ufficio veterinario) cantonale. Serve un'autorizzazione del Veterinäramt anche per addestrare cani.",
+    "punkte": [
+      "Sono esclusi i servizi di custodia con al massimo cinque animali al giorno. Per la custodia il Veterinäramt cita anche i servizi di passeggiata.",
+      "La domanda, compilata per intero e firmata, la presenti al Veterinäramt cantonale. Per una prima autorizzazione l'ufficio calcola da quattro a dieci settimane.",
+      "Addestramento di cani: l'autorizzazione presuppone che tu abbia superato l'esame teorico e l'esame pratico (§ 16d cpv. 1 lett. b della Hundeverordnung, ordinanza sui cani).",
+      "La formazione obbligatoria per chi detiene un cane deve svolgersi presso un'addestratrice o un addestratore di cani con autorizzazione. Il Veterinäramt pubblica l'elenco delle scuole per cani con autorizzazione."
+    ],
+    "quellen": [
+      "zh_gewerbe",
+      "zh_betreuung",
+      "zh_ausbildner",
+      "zh_vet"
     ]
   }
 }

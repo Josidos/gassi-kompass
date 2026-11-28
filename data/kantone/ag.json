@@ -170,5 +170,21 @@
       "ag_tschv",
       "ag_hug"
     ]
+  },
+  "gewerbe": {
+    "text": "Im Kanton Aargau ist die Betreuung von Tieren bewilligungspflichtig, wenn mehr als fünf Pflegeplätze pro Tag angeboten werden. Darunter fallen auch Spazierdienste für Hunde. Die Bewilligung muss vor dem Beginn der Tätigkeit vorliegen.",
+    "punkte": [
+      "Für die Bewilligung muss ein Ausbildungsnachweis vorliegen. Zuständig ist der kantonale Veterinärdienst.",
+      "Erziehungskurse für Hunde mit erhöhtem Gefährdungspotenzial: Wer sie durchführt, braucht eine Bewilligung des kantonalen Veterinärdienstes. Sie gilt zehn Jahre.",
+      "Voraussetzungen: mindestens fünf Jahre praktische Tätigkeit in der Hundeausbildung, keine Verurteilung wegen der Delikte nach § 15 Hundeverordnung und eine Qualifikation wie Certodog Hundeinstruktor 1, Instruktorin oder Instruktor des Brevets für Hundeführer des Kantonalverbands Aargauer Kynologen (KVAK), Gruppenleiterin oder Gruppenleiter der SKG, Wesensrichterin oder Wesensrichter oder Spezialistin oder Spezialist für Verhaltensauffälligkeiten bei Hunden.",
+      "Das Gesuch reichst du schriftlich ein, mit Konzept zum Erziehungskurs, Nachweis der praktischen Tätigkeit, aktuellem Strafregisterauszug und Nachweis der Qualifikation.",
+      "Die Prüfung nach dem Kurs nehmen zwei Personen mit dieser Bewilligung ab. Der Veterinärdienst veröffentlicht eine Liste der Ausbildungsstätten."
+    ],
+    "quellen": [
+      "ag_bewilligung",
+      "ag_tschv",
+      "ag_huv",
+      "ag_listenhunde"
+    ]
   }
 }

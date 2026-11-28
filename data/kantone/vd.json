@@ -2,7 +2,7 @@
   "id": "vd",
   "kurz": "VD",
   "uebersetzt_aus": "fr",
-  "original": "7817d6d0a34c",
+  "original": "c527aafb9a21",
   "wald": {
     "saison": true,
     "von": "04-01",
@@ -149,6 +149,18 @@
       "vd_perdus",
       "vd_lpolc",
       "vd_rsfa"
+    ]
+  },
+  "gewerbe": {
+    "text": "Im Kanton Waadt ist der Betrieb von Tierheimen, Tierpensionen oder anderen Betreuungsdiensten für Tiere ab mehr als fünf Plätzen bewilligungspflichtig. Auch wer Hundeerziehungskurse erteilen will, braucht eine Bewilligung.",
+    "punkte": [
+      "Betreuung: Das Gesuch stellst du mit dem Formular des Kantons für eine Tierpension oder ein Tierheim mit mehr als fünf Plätzen oder einen Betreuungsdienst für mehr als fünf Tiere. Du richtest es an die kantonale Stelle für den Tierschutz.",
+      "Ausbildung: Der Kanton veröffentlicht die Liste der anerkannten Hundeerzieherinnen und Hundeerzieher nach Profil sowie der Personen, die von der DGAV (Direction générale de l'agriculture, de la viticulture et des affaires vétérinaires) zur Durchführung von Kursen zur Verhütung von Beissunfällen ermächtigt sind."
+    ],
+    "quellen": [
+      "vd_protection",
+      "vd_form_pension",
+      "vd_educateurs"
     ]
   }
 }

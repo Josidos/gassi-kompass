@@ -2,7 +2,7 @@
   "id": "ag",
   "kurz": "AG",
   "uebersetzt_aus": "de",
-  "original": "1ccc38aed3c6",
+  "original": "adfa64eab7ee",
   "wald": {
     "saison": true,
     "von": "04-01",
@@ -167,6 +167,22 @@
       "ag_kapo_tiere",
       "ag_tschv",
       "ag_hug"
+    ]
+  },
+  "gewerbe": {
+    "text": "Nel Cantone di Argovia la custodia di animali è soggetta ad autorizzazione quando vengono offerti più di cinque posti di custodia al giorno. Vi rientrano anche i servizi di passeggiata per cani. L'autorizzazione deve essere disponibile prima dell'inizio dell'attività.",
+    "punkte": [
+      "Per l'autorizzazione serve una prova di formazione. È competente il Veterinärdienst (servizio veterinario) cantonale.",
+      "Corsi di educazione per cani con maggiore potenziale di pericolosità: chi li tiene ha bisogno di un'autorizzazione del Veterinärdienst cantonale. Vale dieci anni.",
+      "Condizioni: almeno cinque anni di attività pratica nell'addestramento di cani, nessuna condanna per i reati secondo il § 15 della Hundeverordnung (ordinanza sui cani) e una qualifica come Certodog Hundeinstruktor 1, istruttrice o istruttore del brevetto per conduttori di cani del Kantonalverband Aargauer Kynologen (KVAK), responsabile di gruppo della SKG, giudice del carattere o specialista dei disturbi del comportamento dei cani.",
+      "La domanda la presenti per scritto, con il concetto del corso di educazione, la prova dell'attività pratica, un estratto recente del casellario giudiziale e la prova della qualifica.",
+      "L'esame dopo il corso viene svolto da due persone con questa autorizzazione. Il Veterinärdienst pubblica un elenco dei centri di formazione."
+    ],
+    "quellen": [
+      "ag_bewilligung",
+      "ag_tschv",
+      "ag_huv",
+      "ag_listenhunde"
     ]
   }
 }

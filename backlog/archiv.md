@@ -349,3 +349,12 @@ Was die Glieder in Originalfassungen bemerkt haben, steht in `CHANGELOG.md` unte
   10. Startseite: Der Satz `start_vg_p` nennt die Zahl der Themen («Sieben Themen», «Sept thèmes», «Sette temi»). Mit dem achten Thema stimmt er nicht mehr: in allen drei Sprachen anpassen, am besten so, dass er keine Zahl mehr nennt.
   11. Telefon: Die Themenseite zeigt je Kanton eine Zeile zum Aufklappen wie `/thema/vermisst/`. Miss ihre Länge bei 390 Pixeln und nenne sie im Protokoll.
   12. Danach in Abschnitt 9.4 den Vermerk «wartet auf den Sonderlauf» streichen.
+
+## Archiviert am 2026-11-28
+
+### BACKLOG.md, 9.4 Thema 2: Hunde betreuen und ausbilden als Beruf
+
+- [x] Zürich (2026-11-28)
+- [x] Bern (deutsch und französisch) (2026-11-28)
+- [x] Waadt (2026-11-28)
+- [x] Aargau (2026-11-28)
