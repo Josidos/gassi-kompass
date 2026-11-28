@@ -8,6 +8,9 @@
 // jede Startseite zeigt 26 Kantonstafeln, das Gemeindeverzeichnis und sieben Thementafeln.
 // Die Themenseite «vermisst» führt die Karte des Bundes und jeden Kanton mit dem Feld 'vermisst' samt Quelle,
 // eine Kantonsseite zeigt den Abschnitt genau dann, wenn ihre Datei das Feld hat.
+// Jede Kantonsseite hat genau einen Abschnitt #neuer-hund mit sechs Schritten, deren Links auf eine id derselben
+// Seite führen, die es genau einmal gibt. Keine id kommt auf einer Seite doppelt vor. Jede Seite beginnt mit dem
+// Sprunglink «Zum Inhalt», und sein Ziel gibt es.
 // Sprachen: Seiten unter /fr-ch/ tragen lang="fr-CH", unter /it-ch/ lang="it-CH", alle anderen lang="de-CH".
 // hreflang muss in beide Richtungen stimmen, und die Ortssuche jeder Startseite wird mitgeprüft.
 // Übersetzte Seiten (Feld uebersetzt_aus) tragen den Hinweis «Übersetzung», Originalfassungen nicht.
@@ -89,11 +92,16 @@ function datei(url) {
         hinweis: !!document.querySelector('[data-uebersetzung]'),
         alt: [...document.querySelectorAll('link[rel="alternate"][hreflang]')].map(x => [x.hreflang, new URL(x.href).pathname]),
         links: [...document.querySelectorAll('a[href^="/"], link[href^="/"], script[src^="/"]')].map(x => x.getAttribute('href') || x.getAttribute('src')),
+        doppelt: (() => { const z = {}; for (const x of document.querySelectorAll('[id]')) z[x.id] = (z[x.id] || 0) + 1; return Object.keys(z).filter(i => z[i] > 1); })(),
+        sprung: (() => { const a = document.body.firstElementChild; const h = a && a.matches('a.skip[href^="#"]') ? a.getAttribute('href').slice(1) : null; return { da: !!h, ziel: !!h && !!document.getElementById(h) }; })(),
         wald: [...document.querySelectorAll('[data-wald]')].map(x => ({ saison: x.getAttribute('data-saison'), gross: x.querySelector('[data-heute-gross]').className, heute: !!x.querySelector('.now'), datum: x.querySelector('[data-heute-datum]').textContent }))
       }));
       if (info.ueberlauf > 0) fehler.push(`${wo}: läuft seitlich über (${info.ueberlauf}px)`);
       if (info.h1 !== 1) fehler.push(`${wo}: ${info.h1} Hauptüberschriften statt 1`);
       if (!info.titel) fehler.push(`${wo}: kein Seitentitel`);
+      for (const d of info.doppelt) fehler.push(`${wo}: id="${d}" kommt mehrfach vor`);
+      if (!info.sprung.da) fehler.push(`${wo}: Der Sprunglink «Zum Inhalt» ist nicht das erste Element im body`);
+      else if (!info.sprung.ziel) fehler.push(`${wo}: Das Ziel des Sprunglinks fehlt`);
       for (const l of new Set(info.links)) if (!datei(l)) fehler.push(`${wo}: Link ohne Ziel: ${l}`);
       for (const w of info.wald) {
         if (!w.heute || !w.datum) fehler.push(`${wo}: Heute-Markierung oder Datum fehlt`);
@@ -121,6 +129,15 @@ function datei(url) {
           const sollD = lies(...dir, 'kantone', kt[2] + '.json').durchsicht ? 1 : 0;
           const istD = await page.evaluate(() => document.querySelectorAll('[data-durchsicht]').length);
           if (istD !== sollD) fehler.push(`${wo}: ${istD} Hinweise «durchsicht», die Datei verlangt ${sollD}`);
+          // «Neu einen Hund»: genau ein Abschnitt mit sechs Schritten, jeder Link führt auf eine id, die es genau einmal gibt
+          const nh = await page.evaluate(() => {
+            const a = document.querySelectorAll('#neuer-hund');
+            const links = a.length ? [...a[0].querySelectorAll('ol > li a[href^="#"]')].map(x => x.getAttribute('href').slice(1)) : [];
+            return { abschnitte: a.length, schritte: a.length ? a[0].querySelectorAll('ol > li').length : 0,
+                     ohneZiel: links.filter(i => document.querySelectorAll('[id="' + i + '"]').length !== 1), links: links.length };
+          });
+          if (nh.abschnitte !== 1 || nh.schritte !== 6 || nh.links !== 6) fehler.push(`${wo}: «Neu einen Hund» mit ${nh.abschnitte} Abschnitten, ${nh.schritte} Schritten und ${nh.links} Links (soll: 1, 6, 6)`);
+          for (const i of nh.ohneZiel) fehler.push(`${wo}: «Neu einen Hund» verlinkt #${i}, das es nicht genau einmal gibt`);
         }
       }
       if (sprache && s.endsWith('/thema/vermisst/')) {

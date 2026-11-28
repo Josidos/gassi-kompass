@@ -75,6 +75,12 @@ THEMEN = [
     # feld: Die Seite vergleicht nicht, sie führt je Kanton das wahlweise Feld dieses Namens auf (seite_thema_feld).
     {"id": "vermisst", "feld": "vermisst"},
 ]
+# Feste Anker der sechs Karten auf der Kantonsseite, nach Position (nicht nach Titel), in jeder Sprache gleich.
+# Der Kasten zur Leine im Wald heisst dort "wald". Nur auf der Kantonsseite, sonst stünden sie mehrfach.
+KARTEN_ANKER = ["haftpflicht", "kurs", "anmeldung", "hundesteuer", "rassen", "unterwegs"]
+# Abschnitt «Neu einen Hund» (#neuer-hund): die Schritte in dieser Reihenfolge, je (Position der Karte, Schlüssel
+# in 'vergleich'). None: der Kasten zur Leine im Wald.
+NEU_SCHRITTE = [(4, "rassen"), (2, "anm"), (0, "haft"), (1, "kurs"), (3, "steuer"), (None, "wald")]
 MIN_LOKAL = 3  # so viele belegte lokale Angaben braucht eine Gemeinde für eine eigene Seite
 # Feste Dateien, die nie fehlen dürfen: Domain, Pages-Schalter, Bestätigung für die Google Search Console,
 # Schlüssel für IndexNow (tools/indexnow.py) und die Vorschaubilder für geteilte Links (tools/teilbild.js)
@@ -201,6 +207,10 @@ TEXTE = {
         "pflichten_h2": "Pflichten für Hundehaltende",
         "umzug": "Umzug in den {name}:",
         "vermisst_h2": "Hund vermisst oder gefunden {im}",
+        "neu_h2": "Neu einen Hund {im}: die Schritte",
+        "neu_p": "Du hast einen Hund übernommen oder holst bald einen zu dir? Hier stehen die Angaben dieser Seite in der Reihenfolge, in der sie für dich wichtig werden. Einzelheiten und Quellen findest du beim jeweiligen Punkt.",
+        "neu_wald": "Leine im Wald",
+        "zum_inhalt": "Zum Inhalt",
         "lokal_h2": "Das gilt zusätzlich {in_ort}", "freilauf": "Freilaufzonen",
         "suche": {
             "lade": "Das Ortsverzeichnis wird geladen.",
@@ -408,6 +418,10 @@ TEXTE = {
         "pflichten_h2": "Obligations des détenteurs de chiens",
         "umzug": "Déménagement {im} :",
         "vermisst_h2": "Chien perdu ou trouvé {im}",
+        "neu_h2": "Nouveau chien {im} : les étapes",
+        "neu_p": "Vous avez pris en charge un chien ou vous en accueillez bientôt un ? Voici les informations de cette page dans l'ordre où elles deviennent importantes pour vous. Les détails et les sources se trouvent sous chaque point.",
+        "neu_wald": "Laisse en forêt",
+        "zum_inhalt": "Aller au contenu",
         "lokal_h2": "Règles supplémentaires {in_ort}", "freilauf": "Espaces de liberté pour chiens",
         "suche": {
             "lade": "Le répertoire des localités se charge.",
@@ -615,6 +629,10 @@ TEXTE = {
         "pflichten_h2": "Obblighi per chi detiene un cane",
         "umzug": "Trasloco {im}:",
         "vermisst_h2": "Cane smarrito o trovato {im}",
+        "neu_h2": "Un nuovo cane {im}: i passi",
+        "neu_p": "Hai preso a carico un cane o ne accogli presto uno? Qui trovi le indicazioni di questa pagina nell'ordine in cui diventano importanti per te. Dettagli e fonti si trovano al punto corrispondente.",
+        "neu_wald": "Guinzaglio nel bosco",
+        "zum_inhalt": "Vai al contenuto",
         "lokal_h2": "Regole supplementari {in_ort}", "freilauf": "Aree di svago per cani",
         "suche": {
             "lade": "L'elenco delle località è in caricamento.",
@@ -1458,8 +1476,9 @@ def qlinks(keys, Q, benutzt):
     return f'<div class="src"><span>{wort}</span>{links}</div>'
 
 
-def karte(c, Q, benutzt, link=None):
-    """link: Adresse, auf die der Kartentitel führt (Themenseiten: zur Kantonsseite)."""
+def karte(c, Q, benutzt, link=None, anker=None):
+    """link: Adresse, auf die der Kartentitel führt (Themenseiten: zur Kantonsseite).
+    anker: feste id der Karte (nur Kantonsseite, KARTEN_ANKER)."""
     kopf = f'<a href="{link}">{e(c["titel"])}</a>' if link else e(c["titel"])
     marke = f'<span class="chip {e(c["ton"])}">{e(c["marke"])}</span>' if c.get("marke") else ""
     mehr = ""
@@ -1470,12 +1489,14 @@ def karte(c, Q, benutzt, link=None):
         saetze = ' class="saetze"' if sorted(len(p) for p in liste)[len(liste) // 2] > 50 else ""
         mehr = (f'<details class="more"><summary>{e(c["mehr"]["titel"])}</summary>'
                 f'<ul{saetze}>{punkte}</ul></details>')
-    return (f'<article class="card"><div class="card-top"><span class="card-k">{kopf}</span>{marke}</div>'
+    kennung = f' id="{anker}"' if anker else ""
+    return (f'<article class="card"{kennung}><div class="card-top"><span class="card-k">{kopf}</span>{marke}</div>'
             f'<p class="card-v">{e(c["wert"])}</p><p>{e(c["text"])}</p>{mehr}'
             f'{qlinks(c["quellen"], Q, benutzt)}</article>')
 
 
-def wald(k, Q, benutzt, hinweis=None):
+def wald(k, Q, benutzt, hinweis=None, anker=False):
+    """anker: Der Kasten bekommt id="wald" (nur Kantonsseite, Ziel im Abschnitt «Neu einen Hund»)."""
     w = k["wald"]
     spalten = " ".join(f"{t}fr" for t in TAGE)
     zellen = '<span class="m"></span>' * 12
@@ -1510,7 +1531,8 @@ def wald(k, Q, benutzt, hinweis=None):
         aria = S["wald_ohne_aria"]
     attrs += f' data-texte="{e(json.dumps(js, ensure_ascii=False, separators=(",", ":")))}"'
     note = f'<p class="today-note">{e(hinweis)}</p>' if hinweis else ""
-    return (f'<section class="today" data-wald{attrs}>'
+    kennung = ' id="wald"' if anker else ""
+    return (f'<section class="today"{kennung} data-wald{attrs}>'
             f'<div class="today-head"><span class="eyebrow">{S["wald_kopf"]} · {e(k["name"])}</span>'
             '<span class="today-date" data-heute-datum></span></div>'
             '<div class="today-body"><div class="today-status">'
@@ -1536,7 +1558,7 @@ def regeln(k, Q, benutzt):
 
 
 def pflichten(k, Q, benutzt):
-    karten = "".join(karte(c, Q, benutzt) for c in k["karten"])
+    karten = "".join(karte(c, Q, benutzt, anker=KARTEN_ANKER[i]) for i, c in enumerate(k["karten"]))
     umzug = ""
     if k.get("umzug"):
         umzug = (f'<div class="callout"><p><strong>{e(S["umzug"].format(name=k["name"], im=k["im"]))}</strong> '
@@ -1696,6 +1718,41 @@ def vermisst(k, Q, benutzt, link=None, kopf=None):
             f'{qlinks(v["quellen"], Q, benutzt)}</div>')
 
 
+def wald_karte(w):
+    """Leine im Wald als Karte für die Themenseite und den Abschnitt «Neu einen Hund»: marke, ton, wert, text."""
+    T = S["thema"]
+    if w.get("saison"):
+        d = daten_wald(w)
+        wert = T["wald_wert"].format(**d)
+        c = {"marke": S["wald_band"], "ton": "must", "wert": wert[0].upper() + wert[1:],
+             "text": T["wald_text"].format(**d)}
+    elif w.get("ganzjaehrig"):
+        c = {"marke": S["wald_band"], "ton": "must", "wert": T["wald_immer_wert"], "text": w["text"]}
+    else:
+        c = {"marke": T["wald_ohne"], "ton": "none", "wert": w.get("titel") or S["wald_ohne_gross"],
+             "text": w["text"]}
+    c["quellen"] = w["quellen"]
+    return c
+
+
+def abschnitt_neuer_hund(k):
+    """Abschnitt der Kantonsseite (#neuer-hund): sechs Schritte aus 'karten' und 'vergleich', ohne neue Angaben.
+    Ob etwas Pflicht ist, sagen nur Marke und Text des Kantons."""
+    zeilen = []
+    for pos, key in NEU_SCHRITTE:
+        if pos is None:
+            c, titel, ziel = wald_karte(k["wald"]), S["neu_wald"], "wald"
+        else:
+            c = k["karten"][pos]
+            titel, ziel = c["titel"], KARTEN_ANKER[pos]
+        marke = f'<span class="chip {e(c["ton"])}">{e(c["marke"])}</span>' if c.get("marke") else ""
+        zeilen.append(f'<li class="schritt"><a class="schritt-k" href="#{ziel}">{e(titel)}</a>{marke}'
+                      f'<span class="schritt-t">{e(k["vergleich"][key])}</span></li>')
+    return (f'<section class="sec" id="neuer-hund" data-neuer-hund><div class="sec-head">'
+            f'<h2>{e(S["neu_h2"].format(im=k["im"]))}</h2><p>{e(S["neu_p"])}</p></div>'
+            f'<ol class="schritte" role="list">{"".join(zeilen)}</ol></section>')
+
+
 def abschnitt_vermisst(k, Q, benutzt):
     """Abschnitt der Kantonsseite, nur wenn der Kanton das Feld hat."""
     if not k.get("vermisst"):
@@ -1824,9 +1881,12 @@ def seite(pfad, titel, beschr, inhalt, krumen, stand, benutzt, Q, index=True, al
 {ld}
 </head>
 <body>
+<a class="skip" href="#inhalt">{S["zum_inhalt"]}</a>
 <div class="wrap">
 <header class="top{" mit-pfad" if crumbs else ""}"><a class="brand" href="{start}">Gassi-Kompass</a>{stempel}{crumbs}</header>
+<main id="inhalt" tabindex="-1">
 {inhalt.replace("<!--KRUMEN-->", "")}
+</main>
 <footer class="foot">
 <p>{S["fuss_recht"]}</p>
 <p>{S["fuss_fehler"].format(mail=mail)}</p>
@@ -1919,9 +1979,10 @@ def seite_kanton(k, Q):
 {hinweis_uebersetzung(k, "k")}{hinweis_durchsicht(k)}
 <p class="callout" data-ort-hinweis data-text="{e(S["kt_hinweis"].format(**f))}" hidden></p>
 </section>
-{wald(k, Q, benutzt)}
+{wald(k, Q, benutzt, anker=True)}
 {regeln(k, Q, benutzt)}
 {pflichten(k, Q, benutzt)}
+{abschnitt_neuer_hund(k)}
 {abschnitt_vermisst(k, Q, benutzt)}
 <section class="sec">
 <div class="sec-head"><h2>{e(S["kt_gm_h2"].format(**f))}</h2><p>{S["kt_gm_p"]}</p></div>
@@ -2065,18 +2126,7 @@ def seite_thema(t, Q):
     zeilen, karten = [], []
     for k in kantone:
         if t["karte"] is None:
-            w = k["wald"]
-            if w.get("saison"):
-                d = daten_wald(w)
-                wert = T["wald_wert"].format(**d)
-                c = {"marke": S["wald_band"], "ton": "must", "wert": wert[0].upper() + wert[1:],
-                     "text": T["wald_text"].format(**d)}
-            elif w.get("ganzjaehrig"):
-                c = {"marke": S["wald_band"], "ton": "must", "wert": T["wald_immer_wert"], "text": w["text"]}
-            else:
-                c = {"marke": T["wald_ohne"], "ton": "none", "wert": w.get("titel") or S["wald_ohne_gross"],
-                     "text": w["text"]}
-            c["quellen"] = w["quellen"]
+            c = wald_karte(k["wald"])
         else:
             c = dict(k["karten"][t["karte"]])
         c["titel"] = k["name"]

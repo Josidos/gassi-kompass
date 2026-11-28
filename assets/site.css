@@ -56,6 +56,14 @@ a:hover{text-decoration-thickness:2px;text-decoration-color:currentColor}
 a:focus-visible{outline:2px solid var(--focus);outline-offset:2px;border-radius:2px}
 .wrap{max-width:1000px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:48px}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+main{display:grid;grid-template-columns:minmax(0,1fr);gap:inherit;min-width:0}
+main:focus{outline:none}
+/* Sprunglink «Zum Inhalt»: erstes Element, sichtbar erst bei Fokus */
+.skip{position:absolute;left:16px;top:8px;z-index:10;padding:8px 14px;border-radius:var(--r);background:var(--sheet);color:var(--ink);font-family:var(--sans);font-weight:700;font-size:.95rem;text-decoration:none;box-shadow:0 2px 10px rgb(22 32 26 / .3)}
+.skip:not(:focus){width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;box-shadow:none}
+.skip:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+/* Ziele von Sprungmarken stehen nicht am Bildrand */
+#wald,#neuer-hund,.card[id]{scroll-margin-top:16px}
 
 /* Alles Bedienbare, alle Überschriften und Kennungen: Archivo */
 h1,h2,h3,.top,.crumbs,.chip,.card-k,.card-v,.src,.stamp,.dest,.search label,.search-status,.facts,.months,.band,.now,.bar-cap,
@@ -183,6 +191,20 @@ h2{margin:0;font-size:clamp(1.5rem,1.2rem + 1.1vw,1.9rem);line-height:1.1;font-w
 .zone .chip{background:var(--sheet)}
 .tags{display:flex;flex-wrap:wrap;gap:6px}
 .zone p{margin:0;font-size:.95rem}
+
+/* Neu einen Hund: nummerierte Schritte als Linienliste, eine Zeile je Schritt */
+.schritte{margin:0;padding:0;list-style:none;counter-reset:schritt;border-top:2px solid var(--ink);border-bottom:1px solid var(--rule);display:grid;grid-template-columns:1.6rem auto auto minmax(0,1fr);column-gap:16px}
+.schritt{counter-increment:schritt;grid-column:1/-1;display:grid;grid-template-columns:subgrid;align-items:baseline;row-gap:4px;padding:11px 0;border-bottom:1px solid var(--rule-soft)}
+.schritt .chip{justify-self:start}
+.schritt:last-child{border-bottom:0}
+.schritt::before{content:counter(schritt);font-family:var(--sans);font-weight:780;font-stretch:82%;color:var(--ink-2);font-variant-numeric:tabular-nums}
+.schritt-k{font-family:var(--sans);font-weight:700;font-stretch:90%}
+.schritt-t{color:var(--ink-2);font-size:.95rem;min-width:0}
+@media (max-width:640px){
+  .schritte{display:block}
+  .schritt{grid-template-columns:1.6rem minmax(0,1fr) auto;column-gap:14px}
+  .schritt-t{grid-column:2/-1}
+}
 .plain-note{margin:0;padding:14px 16px;border-radius:var(--r);background:var(--sunk)}
 
 /* Tabellen wie im Bestimmungsbuch: Linien statt Kästen */
