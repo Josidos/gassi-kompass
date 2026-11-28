@@ -1,0 +1,38 @@
+{
+  "id": "mendrisio",
+  "kanton": "ti",
+  "bfs": 5254,
+  "uebersetzt_aus": "it",
+  "original": "8e0783378ee9",
+  "name": "Stadt Mendrisio",
+  "ort": "Mendrisio",
+  "in_ort": "in Mendrisio",
+  "einleitung": "In Mendrisio ist der Hund an der Leine zu führen. Die Stadt erhebt jedes Jahr eine Hundetaxe und büsst, wer den Kot nicht aufnimmt.",
+  "karten": [
+    {
+      "titel": "Hundetaxe",
+      "wert": "CHF 75 pro Jahr",
+      "text": "Für das Halten eines Hundes ist eine jährliche Taxe von CHF 75 fällig.",
+      "quellen": [
+        "ti_mendrisio_cani"
+      ]
+    },
+    {
+      "titel": "Leine",
+      "wert": "immer",
+      "text": "Der Hund muss an der Leine geführt werden, zur Sicherheit aller, des eigenen Hundes und der anderen Tiere.",
+      "quellen": [
+        "ti_mendrisio_tiramisu"
+      ]
+    },
+    {
+      "titel": "Bussen",
+      "wert": "mindestens CHF 250 für nicht aufgenommenen Kot",
+      "text": "Der Kot des Hundes ist aufzunehmen, Urin ist mit Wasser wegzuspülen. Wer den Kot nicht aufnimmt, zahlt eine Busse von mindestens CHF 250. Gebrauchte Säckchen und leere Fläschchen gehören nicht in die Umwelt.",
+      "quellen": [
+        "ti_mendrisio_tiramisu",
+        "ti_mendrisio_cani"
+      ]
+    }
+  ]
+}
