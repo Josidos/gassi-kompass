@@ -2,7 +2,7 @@
   "id": "bs",
   "kurz": "BS",
   "uebersetzt_aus": "de",
-  "original": "a4d141964207",
+  "original": "bf4e57c8ffdc",
   "wald": {
     "saison": true,
     "von": "04-01",
@@ -144,6 +144,19 @@
     "quellen": [
       "bs_steuer",
       "bs_rassen"
+    ]
+  },
+  "vermisst": {
+    "text": "Dans le canton de Bâle-Ville, vous annoncez un chien perdu ou un chien trouvé à la Schweizerische Tiermeldezentrale (STMZ, centrale suisse d'annonce des animaux), en ligne ou par téléphone. Un chien trouvé doit en outre être présenté sans délai au Kantonales Veterinäramt (office vétérinaire cantonal) pour identification.",
+    "punkte": [
+      "Chien trouvé: amenez-le sans délai au Veterinäramt, Schlachthofstrasse 55, 4056 Bâle, téléphone +41 61 267 58 58. Il reste dans la station pour animaux du Veterinäramt jusqu'à ce que la détentrice ou le détenteur vienne le chercher.",
+      "Si vous ne pouvez raisonnablement pas l'amener, une personne du Veterinäramt peut, dans des cas exceptionnels, venir chercher le chien de jour, ou une personne du service de police de nuit.",
+      "Annoncez en plus la trouvaille le plus rapidement possible à la STMZ, en ligne ou au 0848 357 358. Cela vaut aussi si vous croisez un chien sans détentrice ni détenteur.",
+      "Chien perdu: vous devez l'annoncer à la STMZ, en ligne ou au 0900 357 358. L'appel coûte CHF 1.95 par minute. Informez en plus la centrale d'engagement de la Kantonspolizei Basel-Stadt (police cantonale) au +41 61 267 71 11.",
+      "Vous pouvez venir chercher votre chien au Veterinäramt dans un délai d'une semaine. Auparavant, vous payez l'impôt sur les chiens, l'émolument de restitution et les frais d'hébergement, de nourriture, de soins et de transport. Le Veterinäramt dispose définitivement des chiens qui ne sont pas récupérés à temps."
+    ],
+    "quellen": [
+      "bs_findeltiere"
     ]
   }
 }

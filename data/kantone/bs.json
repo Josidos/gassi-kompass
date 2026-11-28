@@ -147,5 +147,18 @@
       "bs_steuer",
       "bs_rassen"
     ]
+  },
+  "vermisst": {
+    "text": "Im Kanton Basel-Stadt meldest du einen entlaufenen oder einen gefundenen Hund bei der Schweizerischen Tiermeldezentrale (STMZ), online oder per Telefon. Einen gefundenen Hund musst du zudem unverzüglich dem Kantonalen Veterinäramt zur Identifikation bringen.",
+    "punkte": [
+      "Hund gefunden: Bring ihn unverzüglich zum Veterinäramt, Schlachthofstrasse 55, 4056 Basel, Telefon +41 61 267 58 58. Er bleibt in der Tierstation des Veterinäramts, bis die Halterin oder der Halter ihn abholt.",
+      "Ist dir das Überbringen nicht zumutbar, kann in Ausnahmefällen tagsüber jemand vom Veterinäramt oder nachts jemand vom Polizeidienst den Hund abholen.",
+      "Melde den Fund zusätzlich so schnell wie möglich bei der STMZ, online oder unter 0848 357 358. Das gilt auch, wenn dir ein Hund ohne Halterin oder Halter begegnet.",
+      "Hund entlaufen: Du musst ihn bei der STMZ melden, online oder unter 0900 357 358. Der Anruf kostet CHF 1.95 pro Minute. Informiere zusätzlich die Einsatzzentrale der Kantonspolizei Basel-Stadt unter +41 61 267 71 11.",
+      "Du kannst deinen Hund innerhalb einer Woche beim Veterinäramt abholen. Vorher bezahlst du Hundesteuer, Auslösegebühr und die Kosten für Unterkunft, Futter, Pflege und Transport. Über Hunde, die nicht rechtzeitig ausgelöst werden, verfügt das Veterinäramt definitiv."
+    ],
+    "quellen": [
+      "bs_findeltiere"
+    ]
   }
 }

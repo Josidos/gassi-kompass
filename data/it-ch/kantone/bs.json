@@ -2,7 +2,7 @@
   "id": "bs",
   "kurz": "BS",
   "uebersetzt_aus": "de",
-  "original": "a4d141964207",
+  "original": "bf4e57c8ffdc",
   "wald": {
     "saison": true,
     "von": "04-01",
@@ -144,6 +144,19 @@
     "quellen": [
       "bs_steuer",
       "bs_rassen"
+    ]
+  },
+  "vermisst": {
+    "text": "Nel Cantone Basilea Città annunci un cane scomparso o un cane trovato alla Schweizerische Tiermeldezentrale (STMZ, centrale svizzera di annuncio degli animali), online o per telefono. Un cane trovato deve inoltre essere portato senza indugio al Kantonales Veterinäramt (ufficio veterinario cantonale) per l'identificazione.",
+    "punkte": [
+      "Cane trovato: portalo senza indugio al Veterinäramt, Schlachthofstrasse 55, 4056 Basilea, telefono +41 61 267 58 58. Resta nella stazione per animali del Veterinäramt finché la detentrice o il detentore non viene a prenderlo.",
+      "Se non ti è ragionevolmente possibile portarlo, in casi eccezionali può venire a prendere il cane di giorno una persona del Veterinäramt o di notte una persona del servizio di polizia.",
+      "Annuncia inoltre il ritrovamento il più presto possibile alla STMZ, online o allo 0848 357 358. Questo vale anche se incontri un cane senza detentrice o detentore.",
+      "Cane scomparso: devi annunciarlo alla STMZ, online o allo 0900 357 358. La chiamata costa CHF 1.95 al minuto. Informa inoltre la centrale operativa della Kantonspolizei Basel-Stadt (polizia cantonale) al +41 61 267 71 11.",
+      "Puoi ritirare il tuo cane al Veterinäramt entro una settimana. Prima paghi l'imposta sui cani, la tassa di riscatto e le spese per alloggio, cibo, cure e trasporto. Il Veterinäramt dispone definitivamente dei cani che non vengono riscattati in tempo."
+    ],
+    "quellen": [
+      "bs_findeltiere"
     ]
   }
 }
