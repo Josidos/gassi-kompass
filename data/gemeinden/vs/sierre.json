@@ -1,0 +1,37 @@
+{
+  "id": "sierre",
+  "kanton": "vs",
+  "bfs": 6248,
+  "uebersetzt_aus": "fr",
+  "original": "adabce721af1",
+  "name": "Stadt Sierre",
+  "ort": "Sierre",
+  "in_ort": "in Sierre",
+  "einleitung": "Das Règlement communal de police (Polizeireglement) von Sierre verlangt die Leine innerhalb der Ortschaft und erlaubt, Hunde an bestimmten öffentlichen Orten zu verbieten. Stand des Reglements: 2008.",
+  "karten": [
+    {
+      "titel": "Leine",
+      "wert": "innerhalb der Ortschaft",
+      "text": "Sofern die Behörde nichts anderes entscheidet, ist dein Hund innerhalb der Ortschaft an der Leine zu führen. Ausserhalb der Ortschaft muss er unter Kontrolle bleiben. Gefährliche oder potenziell gefährliche Hunde nach der Liste des Staatsrats sind ausserhalb des privaten Bereichs an der Leine und mit Maulkorb zu führen. Du nimmst den Kot deines Hundes auf öffentlichem Grund auf und hast das nötige Material dabei.",
+      "quellen": [
+        "vs_sierre_police"
+      ]
+    },
+    {
+      "titel": "Kein Zutritt",
+      "wert": "nach Entscheid der Behörde",
+      "text": "Die Behörde kann Hunden den Zutritt zu bestimmten öffentlichen Orten verbieten, wenn ihre Anwesenheit Ordnung, Sicherheit, Hygiene oder Gesundheit beeinträchtigt.",
+      "quellen": [
+        "vs_sierre_police"
+      ]
+    },
+    {
+      "titel": "Bussen",
+      "wert": "bis CHF 5'000",
+      "text": "Ein Verstoss gegen das Polizeireglement wird mit einer Busse von höchstens CHF 5'000 bestraft. Die Verurteilung umfasst auch die Kosten, ganz oder teilweise. Bei einem Verstoss kann der Hund zusätzlich ins Tierheim gebracht werden, Busse und Kosten bleiben vorbehalten. Jeder streunende Hund kommt ins Tierheim.",
+      "quellen": [
+        "vs_sierre_police"
+      ]
+    }
+  ]
+}

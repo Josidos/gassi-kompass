@@ -1,0 +1,37 @@
+{
+  "id": "sierre",
+  "kanton": "vs",
+  "bfs": 6248,
+  "uebersetzt_aus": "fr",
+  "original": "adabce721af1",
+  "name": "Città di Sierre",
+  "ort": "Sierre",
+  "in_ort": "a Sierre",
+  "einleitung": "Il Règlement communal de police (regolamento di polizia) di Sierre impone il guinzaglio all'interno della località e permette di vietare i cani in determinati luoghi pubblici. Stato del regolamento: 2008.",
+  "karten": [
+    {
+      "titel": "Guinzaglio",
+      "wert": "all'interno della località",
+      "text": "Salvo decisione contraria dell'autorità, il tuo cane va tenuto al guinzaglio all'interno della località. Fuori dalla località deve restare sotto controllo. I cani pericolosi o potenzialmente pericolosi secondo l'elenco del Consiglio di Stato vanno tenuti al guinzaglio e con la museruola fuori dalla sfera privata. Raccogli gli escrementi del tuo cane sulla via pubblica e porti con te il materiale necessario.",
+      "quellen": [
+        "vs_sierre_police"
+      ]
+    },
+    {
+      "titel": "Accesso vietato",
+      "wert": "secondo decisione dell'autorità",
+      "text": "L'autorità può vietare l'accesso dei cani a determinati luoghi pubblici quando la loro presenza nuoce all'ordine, alla sicurezza, all'igiene o alla salute.",
+      "quellen": [
+        "vs_sierre_police"
+      ]
+    },
+    {
+      "titel": "Multe",
+      "wert": "fino a CHF 5'000",
+      "text": "Un'infrazione al regolamento di polizia è punita con una multa di al massimo CHF 5'000. La condanna comprende anche le spese, in tutto o in parte. In caso di infrazione il cane può anche essere portato al canile, fatte salve la multa e le spese. Ogni cane randagio è portato al canile.",
+      "quellen": [
+        "vs_sierre_police"
+      ]
+    }
+  ]
+}
