@@ -3,7 +3,7 @@
   "kanton": "ju",
   "bfs": 6800,
   "uebersetzt_aus": "fr",
-  "original": "68f336fa9edd",
+  "original": "ceee262e4c50",
   "name": "Porrentruy",
   "ort": "Porrentruy",
   "in_ort": "in Porrentruy",
@@ -30,7 +30,7 @@
     {
       "titel": "Kein Zutritt",
       "wert": "Spielplätze, Friedhöfe, Schulanlagen",
-      "text": "Hunde sind auf Kinderspielplätzen, auf Friedhöfen und in Schulanlagen verboten. In Lebensmittelgeschäften sind sie nicht erlaubt. Stand des Reglements: 2003.",
+      "text": "Hunde sind auf Kinderspielplätzen, in Planschbecken, auf Friedhöfen und in Schulanlagen verboten. In Lebensmittelgeschäften sind sie nicht erlaubt. Stand des Reglements: 2003.",
       "quellen": [
         "ju_porrentruy_chiens"
       ]

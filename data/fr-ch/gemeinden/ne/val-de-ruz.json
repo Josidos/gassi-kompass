@@ -37,9 +37,10 @@
     {
       "titel": "Annonce",
       "wert": "au contrôle des habitants de Cernier",
-      "text": "Vous annoncez votre chien au contrôle des habitants de Cernier. Vous communiquez le numéro de puce de l'animal et transmettez une copie du carnet de vaccination. Votre chien est ensuite enregistré dans la banque de données AMICUS.",
+      "text": "Vous annoncez votre chien au contrôle des habitants de Cernier. Vous communiquez le numéro de puce de l'animal et transmettez une copie du carnet de vaccination. Votre chien est ensuite enregistré dans la banque de données AMICUS. Le règlement de police demande en outre de déclarer le chien chaque année avant le 31 janvier.",
       "quellen": [
-        "ne_valderuz_animaux"
+        "ne_valderuz_animaux",
+        "ne_valderuz_police"
       ]
     },
     {

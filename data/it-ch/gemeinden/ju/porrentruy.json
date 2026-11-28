@@ -3,7 +3,7 @@
   "kanton": "ju",
   "bfs": 6800,
   "uebersetzt_aus": "fr",
-  "original": "68f336fa9edd",
+  "original": "ceee262e4c50",
   "name": "Porrentruy",
   "ort": "Porrentruy",
   "in_ort": "a Porrentruy",
@@ -30,7 +30,7 @@
     {
       "titel": "Accesso vietato",
       "wert": "parchi giochi, cimiteri, complessi scolastici",
-      "text": "I cani sono vietati nei parchi giochi per bambini, nei cimiteri e nei complessi scolastici. Non sono ammessi nei negozi di generi alimentari. Stato del regolamento: 2003.",
+      "text": "I cani sono vietati nei parchi giochi per bambini, nelle vasche per bambini, nei cimiteri e nei complessi scolastici. Non sono ammessi nei negozi di generi alimentari. Stato del regolamento: 2003.",
       "quellen": [
         "ju_porrentruy_chiens"
       ]

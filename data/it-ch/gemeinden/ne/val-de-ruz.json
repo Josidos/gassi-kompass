@@ -3,7 +3,7 @@
   "kanton": "ne",
   "bfs": 6487,
   "uebersetzt_aus": "fr",
-  "original": "26d4dde2b503",
+  "original": "8d81059700c0",
   "name": "Val-de-Ruz",
   "ort": "Val-de-Ruz",
   "in_ort": "a Val-de-Ruz",
@@ -38,9 +38,10 @@
     {
       "titel": "Notifica",
       "wert": "al controllo abitanti di Cernier",
-      "text": "Annunci il tuo cane al contrôle des habitants (controllo abitanti) di Cernier. Comunichi il numero del microchip dell'animale e trasmetti una copia del libretto delle vaccinazioni. Il tuo cane viene poi registrato nella banca dati AMICUS.",
+      "text": "Annunci il tuo cane al contrôle des habitants (controllo abitanti) di Cernier. Comunichi il numero del microchip dell'animale e trasmetti una copia del libretto delle vaccinazioni. Il tuo cane viene poi registrato nella banca dati AMICUS. Il regolamento di polizia chiede inoltre di dichiarare il cane ogni anno prima del 31 gennaio.",
       "quellen": [
-        "ne_valderuz_animaux"
+        "ne_valderuz_animaux",
+        "ne_valderuz_police"
       ]
     },
     {

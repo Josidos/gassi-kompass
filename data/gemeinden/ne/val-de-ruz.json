@@ -3,7 +3,7 @@
   "kanton": "ne",
   "bfs": 6487,
   "uebersetzt_aus": "fr",
-  "original": "26d4dde2b503",
+  "original": "8d81059700c0",
   "name": "Val-de-Ruz",
   "ort": "Val-de-Ruz",
   "in_ort": "in Val-de-Ruz",
@@ -38,9 +38,10 @@
     {
       "titel": "Anmeldung",
       "wert": "bei der Einwohnerkontrolle in Cernier",
-      "text": "Du meldest deinen Hund bei der Einwohnerkontrolle (contrôle des habitants) in Cernier an. Du gibst die Chipnummer des Tiers an und reichst eine Kopie des Impfausweises ein. Danach wird dein Hund in der Datenbank AMICUS registriert.",
+      "text": "Du meldest deinen Hund bei der Einwohnerkontrolle (contrôle des habitants) in Cernier an. Du gibst die Chipnummer des Tiers an und reichst eine Kopie des Impfausweises ein. Danach wird dein Hund in der Datenbank AMICUS registriert. Das Polizeireglement verlangt zudem, den Hund jedes Jahr vor dem 31. Januar zu melden.",
       "quellen": [
-        "ne_valderuz_animaux"
+        "ne_valderuz_animaux",
+        "ne_valderuz_police"
       ]
     },
     {

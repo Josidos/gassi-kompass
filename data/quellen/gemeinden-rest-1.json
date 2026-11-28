@@ -1,9 +1,4 @@
 {
-  "vd_vevey_chiens": {
-    "kurz": "Ville de Vevey: inscription des chiens",
-    "lang": "Ville de Vevey, Office de la Population: inscription des chiens (consulté le 28 novembre 2026)",
-    "url": "https://vevey.ch/prestations/inscription-des-chiens"
-  },
   "vs_monthey_chiens": {
     "kurz": "Ville de Monthey: chiens, informations aux propriétaires",
     "lang": "Ville de Monthey, Police municipale: chiens, informations aux propriétaires (consulté le 28 novembre 2026)",
@@ -13,10 +8,5 @@
     "kurz": "Monthey: règlement de police",
     "lang": "Règlement de police des communes de Monthey, Collombey-Muraz, Massongex et Vérossaz, adopté à Monthey par le Conseil général le 9 décembre 2019, homologué par le Conseil d'État le 22 mars 2022",
     "url": "https://www.monthey.ch/data/dataimages/Upload/_Officielle/Police/Reglement-de-police-version-homologuee-par-CE-2022.03.22.pdf"
-  },
-  "vd_riviera_police": {
-    "kurz": "Sécurité Riviera: règlement général de police intercommunal",
-    "lang": "Association de communes Sécurité Riviera (ASR): règlement général de police intercommunal du 15 avril 2010, modifications du 24 novembre 2016 entrées en force le 6 février 2017 (état du texte: 2017)",
-    "url": "https://www.securite-riviera.ch/getmedia/ab6359f0-cbe0-4b7d-95bb-c4673a4c3c11/001-Reglement-general-de-police-intercommunal-RGPI-du-15-04-10-(modifications-du-24-11-16-entrees-en-force-le-06-02-17).pdf"
   }
 }
