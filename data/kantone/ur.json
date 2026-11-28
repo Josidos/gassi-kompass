@@ -124,5 +124,14 @@
     "rassen": "keine Liste genannt",
     "steuer": "je nach Gemeinde",
     "anm": "Gemeinde und AMICUS"
+  },
+  "vermisst": {
+    "text": "Im Kanton Uri ist die Kantonspolizei die Meldestelle für aufgefundene Heimtiere, die ihrer Halterin oder ihrem Halter entlaufen sind. Dort meldest du einen gefundenen Hund.",
+    "punkte": [
+      "Kantonspolizei Uri: Telefon 041 874 53 53"
+    ],
+    "quellen": [
+      "ur_vdu_tierschutz"
+    ]
   }
 }

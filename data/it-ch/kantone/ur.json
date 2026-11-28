@@ -2,7 +2,7 @@
   "id": "ur",
   "kurz": "UR",
   "uebersetzt_aus": "de",
-  "original": "a3f18f7dadf8",
+  "original": "e8d24e7b62eb",
   "wald": {
     "saison": true,
     "von": "04-01",
@@ -122,5 +122,14 @@
     "rassen": "nessun elenco menzionato",
     "steuer": "secondo il Comune",
     "anm": "Comune e AMICUS"
+  },
+  "vermisst": {
+    "text": "Nel Cantone di Uri la Kantonspolizei (polizia cantonale) è il servizio di segnalazione degli animali da compagnia trovati che sono sfuggiti alla loro detentrice o al loro detentore. Lì segnali un cane trovato.",
+    "punkte": [
+      "Kantonspolizei Uri: telefono 041 874 53 53"
+    ],
+    "quellen": [
+      "ur_vdu_tierschutz"
+    ]
   }
 }
