@@ -234,6 +234,8 @@ TEXTE = {
         "umzug": "Umzug in den {name}:",
         "vermisst_h2": "Hund vermisst oder gefunden {im}",
         "gewerbe_h2": "Hunde betreuen und ausbilden als Beruf {im}",
+        "gewerbe_bund": "Ab wie vielen Tieren oder Plätzen ein Betreuungsdienst, ein Tierheim oder eine Zucht eine Bewilligung braucht, legt die Tierschutzverordnung des Bundes für die ganze Schweiz fest.",
+        "gewerbe_bund_link": "Regeln des Bundes",
         "neu_h2": "Neu einen Hund {im}: die Schritte",
         "neu_p": "Du hast einen Hund übernommen oder holst bald einen zu dir? Hier stehen die Angaben dieser Seite in der Reihenfolge, in der sie für dich wichtig werden. Einzelheiten und Quellen findest du beim jeweiligen Punkt.",
         "neu_wald": "Leine im Wald",
@@ -484,6 +486,8 @@ TEXTE = {
         "umzug": "Déménagement {im} :",
         "vermisst_h2": "Chien perdu ou trouvé {im}",
         "gewerbe_h2": "Garder et éduquer des chiens à titre professionnel {im}",
+        "gewerbe_bund": "C'est l'ordonnance fédérale sur la protection des animaux qui fixe, pour toute la Suisse, à partir de combien d'animaux ou de places un service de garde, un refuge ou un élevage a besoin d'une autorisation.",
+        "gewerbe_bund_link": "Règles de la Confédération",
         "neu_h2": "Nouveau chien {im} : les étapes",
         "neu_p": "Vous avez pris en charge un chien ou vous en accueillez bientôt un ? Voici les informations de cette page dans l'ordre où elles deviennent importantes pour vous. Les détails et les sources se trouvent sous chaque point.",
         "neu_wald": "Laisse en forêt",
@@ -734,6 +738,8 @@ TEXTE = {
         "umzug": "Trasloco {im}:",
         "vermisst_h2": "Cane smarrito o trovato {im}",
         "gewerbe_h2": "Custodire ed educare cani per professione {im}",
+        "gewerbe_bund": "È l'ordinanza federale sulla protezione degli animali a stabilire, per tutta la Svizzera, da quanti animali o posti un servizio di accudimento, un rifugio o un allevamento ha bisogno di un'autorizzazione.",
+        "gewerbe_bund_link": "Regole della Confederazione",
         "neu_h2": "Un nuovo cane {im}: i passi",
         "neu_p": "Hai preso a carico un cane o ne accogli presto uno? Qui trovi le indicazioni di questa pagina nell'ordine in cui diventano importanti per te. Dettagli e fonti si trovano al punto corrispondente.",
         "neu_wald": "Guinzaglio nel bosco",
@@ -2171,11 +2177,18 @@ def abschnitt_neuer_hund(k):
 
 def abschnitt_feld(k, feld, Q, benutzt):
     """Abschnitt der Kantonsseite zu einem wahlweisen Feld (id = Name des Felds), nur wenn der Kanton es hat.
-    Überschrift aus TEXTE unter '<feld>_h2'."""
+    Überschrift aus TEXTE unter '<feld>_h2'. Hat TEXTE einen Satz '<feld>_bund', folgt ein Hinweis auf die Karte
+    des Bundes mit derselben id: Beim Beruf legt der Bund die Schwellen fest (mehr als 5 Tiere pro Tag), und manche
+    Kantonsseiten nennen sie nicht (St. Gallen, Tessin, Abnahme vom 28. November 2026)."""
     if not k.get(feld):
         return ""
+    bund = ""
+    if S.get(feld + "_bund"):
+        bl, bpfad = bund_ziel()
+        bund = (f'<p>{e(S[feld + "_bund"])}</p><p><a class="text-link" href="{bpfad}#{feld}">'
+                f'{e(S[feld + "_bund_link"])}{in_sprache(bl)}</a></p>')
     return (f'<section class="sec" id="{feld}"><div class="sec-head"><h2>{e(S[feld + "_h2"].format(im=k["im"]))}</h2></div>'
-            f'{feld_liste(k, feld, Q, benutzt)}</section>')
+            f'{feld_liste(k, feld, Q, benutzt)}{bund}</section>')
 
 
 def themenleiste(ohne=None):

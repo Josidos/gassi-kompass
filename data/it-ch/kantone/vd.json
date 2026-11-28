@@ -2,7 +2,7 @@
   "id": "vd",
   "kurz": "VD",
   "uebersetzt_aus": "fr",
-  "original": "c527aafb9a21",
+  "original": "53bf786f6b79",
   "wald": {
     "saison": true,
     "von": "04-01",
@@ -152,7 +152,7 @@
     ]
   },
   "gewerbe": {
-    "text": "Nel Cantone di Vaud la gestione di rifugi, pensioni o altri servizi di custodia di animali è soggetta ad autorizzazione a partire da più di cinque posti. Anche per tenere corsi di educazione cinofila serve un'autorizzazione.",
+    "text": "Nel Cantone di Vaud la gestione di rifugi, pensioni o altri servizi di custodia di animali è soggetta ad autorizzazione oltre i cinque posti. Anche per tenere corsi di educazione cinofila serve un'autorizzazione.",
     "punkte": [
       "Custodia: la domanda si presenta con il modulo del Cantone per una pensione o un rifugio per animali con più di cinque posti o un servizio di custodia (di guardia) per più di cinque animali. Va indirizzata al servizio cantonale competente per la protezione degli animali.",
       "Educazione: il Cantone pubblica l'elenco degli educatori cinofili riconosciuti, per profilo, come pure delle persone autorizzate dalla DGAV a tenere corsi di prevenzione degli infortuni da morso."

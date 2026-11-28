@@ -2,7 +2,7 @@
   "id": "sg",
   "kurz": "SG",
   "uebersetzt_aus": "de",
-  "original": "3decf86da397",
+  "original": "10fd06e96a9b",
   "wald": {
     "saison": false,
     "text": "La Hundegesetz (legge sui cani), la Jagdgesetz (legge sulla caccia), la Jagdverordnung (ordinanza sulla caccia) e le Jagdvorschriften (prescrizioni sulla caccia) del Cantone non prevedono un obbligo di guinzaglio nel bosco in date fisse. Devi però tenere il cane al guinzaglio ovunque tu non possa controllarlo efficacemente in altro modo. I Comuni possono stabilire con un regolamento o con una decisione segnalata sul posto altri luoghi con obbligo di guinzaglio. Possono anche delimitare zone di tranquillità per la selvaggina. Chi non rispetta un obbligo o un divieto che vale in una zona di tranquillità rischia una multa fino a CHF 20 000. La Wildhut (guardiacaccia) e i membri delle società di caccia possono abbattere un cane che caccia la selvaggina se la mette direttamente in pericolo o se caccia di nuovo dopo un ammonimento scritto alla detentrice o al detentore.",
@@ -169,6 +169,7 @@
   "gewerbe": {
     "text": "Nel Cantone di San Gallo serve un'autorizzazione per chi accudisce o alleva animali, o commercia con essi, a titolo professionale. Un'attività è professionale non appena ricevi per essa denaro o un'altra controprestazione.",
     "punkte": [
+      "Per i rifugi l'autorizzazione è necessaria oltre i cinque posti.",
       "È competente l'Amt für Verbraucherschutz und Veterinärwesen (AVSV, ufficio per la protezione dei consumatori e le questioni veterinarie). Compili integralmente la richiesta di autorizzazione per l'accudimento, la cura, l'allevamento e la detenzione e la presenti all'ufficio."
     ],
     "quellen": [
